@@ -1,6 +1,8 @@
+import Link from "next/link";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { tierLabel } from "@/lib/organisations";
+import { buttonVariants } from "@/components/ui/button";
 import { DashboardShell } from "@/components/dashboard-shell";
 import {
   Card,
@@ -33,7 +35,10 @@ export default async function OrgDashboard() {
     { data: pathways },
     { data: enrolments },
   ] = await Promise.all([
-    supabase.from("organisations").select("name, package_tier").single(),
+    supabase
+      .from("organisations")
+      .select("name, package_tier, forms_enabled, recruitment_enabled")
+      .single(),
     supabase
       .from("users")
       .select("id, full_name, email, role, status, created_at")
@@ -95,9 +100,33 @@ export default async function OrgDashboard() {
       context={context}
     >
       <div className="mx-auto max-w-4xl space-y-8">
-        <p className="text-sm text-muted-foreground">
-          {organisation?.name} · {tierLabel(organisation?.package_tier ?? "core")}
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="text-sm text-muted-foreground">
+            {organisation?.name} ·{" "}
+            {tierLabel(organisation?.package_tier ?? "core")}
+          </p>
+          {(organisation?.forms_enabled ||
+            organisation?.recruitment_enabled) && (
+            <div className="flex gap-2">
+              {organisation?.forms_enabled && (
+                <Link
+                  href="/org/forms"
+                  className={buttonVariants({ variant: "outline", size: "sm" })}
+                >
+                  Forms
+                </Link>
+              )}
+              {organisation?.recruitment_enabled && (
+                <Link
+                  href="/org/recruitment"
+                  className={buttonVariants({ variant: "outline", size: "sm" })}
+                >
+                  Recruitment
+                </Link>
+              )}
+            </div>
+          )}
+        </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <Card>
