@@ -19,7 +19,7 @@ Storage) with Row-Level Security for tenant isolation · Stripe (billing/feature
 ## Prerequisites
 
 - Node.js 20+ (built with v24) and npm
-- A Supabase project (this repo targets the **London / eu-west-2** project — UK data residency)
+- A Supabase project (this repo targets **Central EU / Frankfurt — `eu-central-1`**; UK personal data is stored here under the UK–EU adequacy decision)
 
 ## Getting started
 

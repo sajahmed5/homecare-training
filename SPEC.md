@@ -33,7 +33,7 @@ tells organisations who is falling behind *before* an inspector does.
 |---|---|
 | App framework | Next.js (App Router) + TypeScript |
 | UI | Tailwind CSS + shadcn/ui |
-| Database + Auth + Storage | Supabase (Postgres), region **London / eu-west-2** (UK residency, fixed at creation) |
+| Database + Auth + Storage | Supabase (Postgres), region **Central EU / Frankfurt — `eu-central-1`** (fixed at creation; UK personal data held here under the UK–EU adequacy decision) |
 | Tenant isolation | Postgres **Row-Level Security (RLS)** |
 | Auth claims for RLS | `organisation_id` + `role` exposed as **custom JWT claims** (Supabase auth hook) and/or a `SECURITY DEFINER` helper — **never** an RLS-policy subquery back into `users` |
 | Payments / packages | Stripe (subscriptions + feature-gating add-ons) |
@@ -44,8 +44,9 @@ tells organisations who is falling behind *before* an inspector does.
 | Hosting | Vercel (app) + Supabase (data) |
 | Migrations | Supabase **CLI migrations + seed scripts** are the single source of truth |
 
-**Cross-cutting requirements:** WCAG 2.2 AA accessibility; UK/EU data residency; feature-gating
-enforced **server-side**, never UI-only; secrets only in `.env.local` (never committed).
+**Cross-cutting requirements:** WCAG 2.2 AA accessibility; EU data residency (Frankfurt /
+`eu-central-1`, covering UK data under UK–EU adequacy); feature-gating enforced
+**server-side**, never UI-only; secrets only in `.env.local` (never committed).
 
 ---
 

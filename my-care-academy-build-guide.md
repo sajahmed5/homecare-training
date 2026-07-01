@@ -14,7 +14,7 @@ This document is written to be worked through **top to bottom** with **Claude Co
 4. **Never paste real credentials into chat.** Put secrets in `.env.local`; Claude should reference variable names, never values.
 5. **Schema lives in migrations.** Supabase **CLI migrations + seed scripts** are the single source of truth for the database — never hand-edit schema in the dashboard without a matching migration.
 6. **Accessibility from day one.** Target **WCAG 2.2 AA** — a legal-adjacent expectation in UK care and a genuine selling point.
-7. **Data residency.** The Supabase project is **London / eu-west-2** (UK). This is fixed at project creation and cannot be changed later.
+7. **Data residency.** The Supabase project is **Central EU / Frankfurt (`eu-central-1`)** — fixed at project creation and cannot be changed later. UK personal data is stored here lawfully under the UK–EU adequacy decision; if a buyer requires UK-only residency, the project must be recreated in London (`eu-west-2`).
 
 ---
 
