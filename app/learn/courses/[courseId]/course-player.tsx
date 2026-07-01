@@ -13,11 +13,13 @@ const nowMs = () => Date.now();
 
 export function CoursePlayer({
   enrolmentId,
+  courseId,
   title,
   blocks,
   initialBlock,
 }: {
   enrolmentId: string;
+  courseId: string;
   title: string;
   blocks: ContentBlock[];
   initialBlock: number;
@@ -91,11 +93,17 @@ export function CoursePlayer({
       <div className="mx-auto max-w-2xl space-y-6 text-center">
         <h2 className="text-2xl font-semibold">Content complete</h2>
         <p className="text-muted-foreground">
-          You&apos;ve worked through all of <strong>{title}</strong>. The graded
-          assessment and certificate arrive in Phase 5 — for now your progress is
-          saved.
+          You&apos;ve worked through all of <strong>{title}</strong>. Now take the
+          assessment to earn your certificate.
         </p>
-        <Button onClick={() => router.push("/learn")}>Back to my training</Button>
+        <div className="flex justify-center gap-3">
+          <Button onClick={() => router.push(`/learn/courses/${courseId}/quiz`)}>
+            Start assessment
+          </Button>
+          <Button variant="outline" onClick={() => router.push("/learn")}>
+            Back to my training
+          </Button>
+        </div>
       </div>
     );
   }

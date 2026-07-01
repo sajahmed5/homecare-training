@@ -1,11 +1,10 @@
 import { notFound } from "next/navigation";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { parseBlocks } from "@/lib/content";
 import { DashboardShell } from "@/components/dashboard-shell";
-import { CoursePlayer } from "./course-player";
+import { QuizRunner } from "./quiz-runner";
 
-export default async function CoursePage({
+export default async function QuizPage({
   params,
 }: {
   params: Promise<{ courseId: string }>;
@@ -14,33 +13,24 @@ export default async function CoursePage({
   const { courseId } = await params;
 
   const supabase = await createClient();
-
-  // RLS scopes this to the learner's own enrolment; no enrolment => not assigned.
+  // Must be enrolled (RLS scopes to own enrolment).
   const { data: enrolment } = await supabase
     .from("enrolments")
-    .select("id, current_block")
+    .select("id")
     .eq("course_id", courseId)
     .maybeSingle();
   if (!enrolment) notFound();
 
   const { data: course } = await supabase
     .from("courses")
-    .select("title, content_blocks")
+    .select("title")
     .eq("id", courseId)
     .maybeSingle();
   if (!course) notFound();
 
-  const blocks = parseBlocks(course.content_blocks);
-
   return (
     <DashboardShell title={course.title} context={context}>
-      <CoursePlayer
-        enrolmentId={enrolment.id}
-        courseId={courseId}
-        title={course.title}
-        blocks={blocks}
-        initialBlock={enrolment.current_block ?? 0}
-      />
+      <QuizRunner courseId={courseId} courseTitle={course.title} />
     </DashboardShell>
   );
 }

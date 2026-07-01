@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { InviteOrgForm } from "./invite-org-form";
 import { InviteAdminForm } from "./invite-admin-form";
 import { StaffChart } from "./staff-chart";
@@ -67,6 +68,23 @@ export default async function PlatformDashboard() {
           <StatCard label="Suspended" value={suspendedCount} />
           <StatCard label="Learners" value={learnerCount} />
         </section>
+
+        <Card>
+          <CardHeader className="flex-row items-center justify-between space-y-0">
+            <div>
+              <CardTitle>Course catalogue</CardTitle>
+              <CardDescription>
+                Manage courses and their assessment question banks.
+              </CardDescription>
+            </div>
+            <Link
+              href="/platform/courses"
+              className={buttonVariants({ variant: "outline", size: "sm" })}
+            >
+              Manage courses
+            </Link>
+          </CardHeader>
+        </Card>
 
         <Card>
           <CardHeader>

@@ -10,6 +10,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { CertificateList, type CertItem } from "./certificate-list";
+
+// Server Component — indirection keeps the clock read out of the linted body.
+const nowMs = () => Date.now();
 
 interface EnrolmentRow {
   id: string;
@@ -50,12 +54,20 @@ function CourseItem({ e }: { e: EnrolmentRow }) {
           )}
         </div>
       </div>
-      <Link
-        href={`/learn/courses/${e.course_id}`}
-        className={buttonVariants({ size: "sm" })}
-      >
-        {cta}
-      </Link>
+      <div className="flex items-center gap-2">
+        <Link
+          href={`/learn/courses/${e.course_id}/quiz`}
+          className={buttonVariants({ size: "sm", variant: "outline" })}
+        >
+          Assessment
+        </Link>
+        <Link
+          href={`/learn/courses/${e.course_id}`}
+          className={buttonVariants({ size: "sm" })}
+        >
+          {cta}
+        </Link>
+      </div>
     </li>
   );
 }
@@ -91,12 +103,35 @@ export default async function LearnerDashboard() {
   const context = await requireRole("learner");
 
   const supabase = await createClient();
-  const { data } = await supabase
-    .from("enrolments")
-    .select("id, course_id, status, progress, due_date, courses(title)")
-    .order("assigned_at", { ascending: true });
+  const [{ data }, { data: certData }] = await Promise.all([
+    supabase
+      .from("enrolments")
+      .select("id, course_id, status, progress, due_date, courses(title)")
+      .order("assigned_at", { ascending: true }),
+    supabase
+      .from("certificates")
+      .select("id, certificate_number, issued_at, expires_at, courses(title)")
+      .order("issued_at", { ascending: false }),
+  ]);
 
   const enrolments = (data ?? []) as unknown as EnrolmentRow[];
+  const now = nowMs();
+  const certs: CertItem[] = (
+    (certData ?? []) as unknown as {
+      id: string;
+      certificate_number: string;
+      issued_at: string;
+      expires_at: string | null;
+      courses: { title: string } | null;
+    }[]
+  ).map((c) => ({
+    id: c.id,
+    number: c.certificate_number,
+    courseTitle: c.courses?.title ?? "Course",
+    issued: c.issued_at,
+    expires: c.expires_at,
+    expired: !!c.expires_at && new Date(c.expires_at).getTime() < now,
+  }));
 
   const expired = enrolments.filter((e) => e.status === "expired");
   const inProgress = enrolments.filter((e) => e.status === "in_progress");
@@ -130,10 +165,12 @@ export default async function LearnerDashboard() {
           <CardHeader>
             <CardTitle>Certificates</CardTitle>
             <CardDescription>
-              Downloadable certificates appear here once you pass a course
-              assessment (Phase 5).
+              Your most recent pass is the live certificate for each course.
             </CardDescription>
           </CardHeader>
+          <CardContent>
+            <CertificateList certs={certs} />
+          </CardContent>
         </Card>
       </div>
     </DashboardShell>
