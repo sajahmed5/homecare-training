@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
+import { AppSidebar } from "@/components/app-sidebar";
 import { createClient } from "@/lib/supabase/server";
 import { loadLearner } from "@/lib/learner-data";
 import { deriveNotifications, unreadCount } from "@/lib/notifications";
@@ -41,16 +42,6 @@ const ROLE_LABELS: Record<string, string> = {
   learner: "Learner",
 };
 
-function SignOut({ className }: { className?: string }) {
-  return (
-    <form action="/auth/signout" method="post" className={className}>
-      <Button type="submit" variant="outline" size="sm" className="w-full">
-        Sign out
-      </Button>
-    </form>
-  );
-}
-
 export async function DashboardShell({
   title,
   context,
@@ -63,24 +54,13 @@ export async function DashboardShell({
   const badges = await learnerBadges(context);
   return (
     <div className="flex min-h-svh w-full">
-      {/* Sidebar — desktop */}
-      <aside className="hidden w-60 shrink-0 flex-col bg-sidebar text-sidebar-foreground md:flex">
-        <div className="p-4">
-          <div className="inline-flex rounded-lg bg-white px-3 py-2 shadow-sm">
-            <Logo width={140} />
-          </div>
-        </div>
-        <div className="flex-1 px-3">
-          <SidebarNav role={context.role} badges={badges} />
-        </div>
-        <div className="border-t border-sidebar-border p-3">
-          <p className="text-xs text-sidebar-foreground/60">
-            {context.role ? ROLE_LABELS[context.role] : "No role"}
-          </p>
-          <p className="mb-2 truncate text-sm">{context.email}</p>
-          <SignOut />
-        </div>
-      </aside>
+      {/* Sidebar — desktop (collapsible) */}
+      <AppSidebar
+        role={context.role}
+        email={context.email}
+        roleLabel={context.role ? ROLE_LABELS[context.role] : "No role"}
+        badges={badges}
+      />
 
       {/* Main column */}
       <div className="flex min-w-0 flex-1 flex-col">

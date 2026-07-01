@@ -44,10 +44,12 @@ export function SidebarNav({
   role,
   orientation = "vertical",
   badges = {},
+  collapsed = false,
 }: {
   role: UserRole | null;
   orientation?: "vertical" | "horizontal";
   badges?: Record<string, number>;
+  collapsed?: boolean;
 }) {
   const pathname = usePathname();
   const items = role ? (NAV[role] ?? []) : [];
@@ -73,16 +75,23 @@ export function SidebarNav({
           <Link
             key={item.href}
             href={item.href}
+            title={collapsed ? item.label : undefined}
             className={cn(
-              "flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+              "flex items-center rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+              collapsed ? "justify-center" : "gap-3",
               active
                 ? "bg-sidebar-accent text-sidebar-accent-foreground"
                 : "text-sidebar-foreground/70 hover:bg-sidebar-accent/60 hover:text-sidebar-foreground",
             )}
           >
-            <Icon className="size-4" />
-            <span className="flex-1">{item.label}</span>
-            {badge > 0 && (
+            <span className="relative">
+              <Icon className="size-4" />
+              {collapsed && badge > 0 && (
+                <span className="absolute -right-1 -top-1 size-2 rounded-full bg-rose-500" />
+              )}
+            </span>
+            {!collapsed && <span className="flex-1">{item.label}</span>}
+            {!collapsed && badge > 0 && (
               <span className="inline-flex min-w-5 items-center justify-center rounded-full bg-rose-500 px-1.5 text-xs font-semibold text-white">
                 {badge}
               </span>
