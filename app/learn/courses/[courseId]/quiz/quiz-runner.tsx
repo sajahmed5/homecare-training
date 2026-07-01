@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Confetti } from "@/components/confetti";
 import { PASS_PERCENT, type QuizQuestion } from "@/lib/quiz";
 import {
   startQuizAction,
@@ -133,6 +134,7 @@ export function QuizRunner({
   // result
   return (
     <div className="mx-auto max-w-2xl space-y-6 text-center">
+      {result?.passed && <Confetti />}
       <h2 className="text-2xl font-semibold">
         {result?.passed ? "Passed 🎉" : "Not passed"}
       </h2>

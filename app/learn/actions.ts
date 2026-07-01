@@ -1,7 +1,9 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 
 export interface SaveProgressInput {
   enrolmentId: string;
@@ -49,4 +51,77 @@ export async function saveProgressAction(
     .eq("id", input.enrolmentId);
 
   return { ok: !error };
+}
+
+/**
+ * A learner self-enrols on a catalogue course. Inserts a clean not_started
+ * enrolment via the service role — deliberately NOT a learner-insert RLS policy,
+ * so a learner cannot fabricate a completed/passed status.
+ */
+export async function selfEnrolAction(
+  courseId: string,
+): Promise<{ ok: boolean; error?: string }> {
+  const context = await requireRole("learner");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+
+  const admin = createAdminClient();
+
+  const [{ data: course }, { data: existing }] = await Promise.all([
+    admin.from("courses").select("id").eq("id", courseId).maybeSingle(),
+    admin
+      .from("enrolments")
+      .select("id")
+      .eq("user_id", context.userId)
+      .eq("course_id", courseId)
+      .maybeSingle(),
+  ]);
+  if (!course) return { ok: false, error: "Course not found." };
+  if (existing) return { ok: false, error: "You're already enrolled." };
+
+  const { error } = await admin.from("enrolments").insert({
+    organisation_id: context.organisationId,
+    user_id: context.userId,
+    course_id: courseId,
+    status: "not_started",
+  });
+  if (error) return { ok: false, error: error.message };
+
+  revalidatePath("/learn/modules/all");
+  revalidatePath("/learn/modules");
+  revalidatePath("/learn");
+  return { ok: true };
+}
+
+/** Update the learner's own display name (service role, scoped to self). */
+export async function updateProfileNameAction(
+  fullName: string,
+): Promise<{ ok: boolean; error?: string }> {
+  const context = await requireRole("learner");
+  const name = fullName.trim();
+  if (!name) return { ok: false, error: "Name can't be empty." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("users")
+    .update({ full_name: name })
+    .eq("id", context.userId);
+  if (error) return { ok: false, error: error.message };
+
+  revalidatePath("/learn/profile");
+  return { ok: true };
+}
+
+/** Mark the learner's notifications as read (updates notifications_read_at). */
+export async function markNotificationsReadAction(): Promise<{ ok: boolean }> {
+  const context = await requireRole("learner");
+  const admin = createAdminClient();
+  await admin
+    .from("users")
+    .update({ notifications_read_at: new Date().toISOString() })
+    .eq("id", context.userId);
+  revalidatePath("/learn/notifications");
+  revalidatePath("/learn");
+  return { ok: true };
 }

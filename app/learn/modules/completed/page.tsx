@@ -1,0 +1,43 @@
+import { requireRole } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
+import { loadLearner } from "@/lib/learner-data";
+import { DashboardShell } from "@/components/dashboard-shell";
+import { ModulesTabs } from "../modules-tabs";
+import { CourseCard } from "../course-card";
+
+export default async function CompletedModulesPage() {
+  const context = await requireRole("learner");
+  const supabase = await createClient();
+  const { enrolments } = await loadLearner(supabase);
+  const completed = enrolments.filter((e) => e.status === "completed");
+
+  return (
+    <DashboardShell title="Training" context={context}>
+      <div className="mx-auto max-w-5xl space-y-6">
+        <ModulesTabs />
+
+        {completed.length === 0 ? (
+          <p className="rounded-2xl border bg-card p-8 text-center text-muted-foreground">
+            No completed courses yet — finish a course and pass its assessment to
+            see it here.
+          </p>
+        ) : (
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {completed.map((e) => (
+              <CourseCard
+                key={e.id}
+                c={{
+                  courseId: e.course_id,
+                  title: e.title,
+                  topic: e.topic,
+                  status: e.status,
+                  progress: 100,
+                }}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    </DashboardShell>
+  );
+}

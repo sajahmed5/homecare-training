@@ -88,3 +88,86 @@ export async function generateCertificatePdf(
 ): Promise<Buffer> {
   return renderToBuffer(<CertificateDoc data={data} />);
 }
+
+export interface TrainingRecordRow {
+  courseTitle: string;
+  certificateNumber: string;
+  issuedAt: Date;
+  expiresAt: Date | null;
+  status: string; // Valid | Expired
+}
+
+const recStyles = StyleSheet.create({
+  page: { padding: 40, fontSize: 10, color: "#111827", fontFamily: "Helvetica" },
+  brand: { fontSize: 12, letterSpacing: 2, color: "#2b7a99" },
+  h1: { fontSize: 20, fontFamily: "Helvetica-Bold", marginTop: 6 },
+  sub: { color: "#6b7280", marginBottom: 16 },
+  row: { flexDirection: "row", borderBottom: "1 solid #e5e7eb", paddingVertical: 6 },
+  head: { flexDirection: "row", borderBottom: "1.5 solid #111827", paddingBottom: 6, fontFamily: "Helvetica-Bold" },
+  cCourse: { width: "40%" },
+  cNum: { width: "22%" },
+  cDate: { width: "14%" },
+  cStatus: { width: "10%" },
+});
+
+function fmtD(d: Date | null): string {
+  return d
+    ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })
+    : "—";
+}
+
+function TrainingRecordDoc({
+  learnerName,
+  rows,
+  generatedAt,
+}: {
+  learnerName: string;
+  rows: TrainingRecordRow[];
+  generatedAt: Date;
+}) {
+  return (
+    <Document>
+      <Page size="A4" style={recStyles.page}>
+        <Text style={recStyles.brand}>MY CARE ACADEMY</Text>
+        <Text style={recStyles.h1}>Training record — {learnerName}</Text>
+        <Text style={recStyles.sub}>Generated {fmtD(generatedAt)}</Text>
+
+        <View style={recStyles.head}>
+          <Text style={recStyles.cCourse}>Course</Text>
+          <Text style={recStyles.cNum}>Certificate</Text>
+          <Text style={recStyles.cDate}>Issued</Text>
+          <Text style={recStyles.cDate}>Expires</Text>
+          <Text style={recStyles.cStatus}>Status</Text>
+        </View>
+        {rows.map((r, i) => (
+          <View style={recStyles.row} key={i}>
+            <Text style={recStyles.cCourse}>{r.courseTitle}</Text>
+            <Text style={recStyles.cNum}>{r.certificateNumber}</Text>
+            <Text style={recStyles.cDate}>{fmtD(r.issuedAt)}</Text>
+            <Text style={recStyles.cDate}>{fmtD(r.expiresAt)}</Text>
+            <Text style={recStyles.cStatus}>{r.status}</Text>
+          </View>
+        ))}
+        {rows.length === 0 && (
+          <Text style={{ marginTop: 12, color: "#6b7280" }}>
+            No certificates yet.
+          </Text>
+        )}
+      </Page>
+    </Document>
+  );
+}
+
+export async function generateTrainingRecordPdf(
+  learnerName: string,
+  rows: TrainingRecordRow[],
+  generatedAt: Date,
+): Promise<Buffer> {
+  return renderToBuffer(
+    <TrainingRecordDoc
+      learnerName={learnerName}
+      rows={rows}
+      generatedAt={generatedAt}
+    />,
+  );
+}

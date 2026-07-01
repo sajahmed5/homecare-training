@@ -1,7 +1,39 @@
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
+import { createClient } from "@/lib/supabase/server";
+import { loadLearner } from "@/lib/learner-data";
+import { deriveNotifications, unreadCount } from "@/lib/notifications";
 import type { UserContext } from "@/lib/auth";
+
+async function learnerBadges(
+  context: UserContext,
+): Promise<Record<string, number>> {
+  if (context.role !== "learner") return {};
+  try {
+    const supabase = await createClient();
+    const data = await loadLearner(supabase);
+    const notifs = deriveNotifications(
+      data.enrolments.map((e) => ({
+        course_id: e.course_id,
+        status: e.status,
+        assigned_at: e.assigned_at,
+        title: e.title,
+      })),
+      data.certificates.map((c) => ({
+        id: c.id,
+        course_id: c.course_id,
+        issued_at: c.issued_at,
+        expires_at: c.expires_at,
+        title: c.title,
+      })),
+      new Date(),
+    );
+    return { "/learn/notifications": unreadCount(notifs, data.readAt) };
+  } catch {
+    return {};
+  }
+}
 
 const ROLE_LABELS: Record<string, string> = {
   platform_admin: "Platform admin",
@@ -19,7 +51,7 @@ function SignOut({ className }: { className?: string }) {
   );
 }
 
-export function DashboardShell({
+export async function DashboardShell({
   title,
   context,
   children,
@@ -28,6 +60,7 @@ export function DashboardShell({
   context: UserContext;
   children?: React.ReactNode;
 }) {
+  const badges = await learnerBadges(context);
   return (
     <div className="flex min-h-svh w-full">
       {/* Sidebar — desktop */}
@@ -38,7 +71,7 @@ export function DashboardShell({
           </div>
         </div>
         <div className="flex-1 px-3">
-          <SidebarNav role={context.role} />
+          <SidebarNav role={context.role} badges={badges} />
         </div>
         <div className="border-t border-sidebar-border p-3">
           <p className="text-xs text-sidebar-foreground/60">
@@ -74,7 +107,7 @@ export function DashboardShell({
 
         {/* Mobile nav strip */}
         <div className="bg-sidebar px-3 py-2 md:hidden">
-          <SidebarNav role={context.role} orientation="horizontal" />
+          <SidebarNav role={context.role} orientation="horizontal" badges={badges} />
         </div>
 
         <main className="flex-1 px-4 py-6 sm:px-6 sm:py-8">{children}</main>

@@ -1,8 +1,23 @@
 import Link from "next/link";
+import {
+  BookOpen,
+  Clock,
+  CheckCircle2,
+  Award,
+  AlertTriangle,
+  Star,
+  ShieldCheck,
+  GraduationCap,
+  Flame,
+  type LucideIcon,
+} from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { buttonVariants } from "@/components/ui/button";
+import { loadLearner, learnerStats } from "@/lib/learner-data";
+import { computeBadges, computeStreak } from "@/lib/gamification";
+import { topicTheme, tint } from "@/lib/topic-theme";
 import { DashboardShell } from "@/components/dashboard-shell";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -10,186 +25,225 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { CertificateList, type CertItem } from "./certificate-list";
-import { PrivacyData } from "./privacy-data";
+import {
+  StatTile,
+  ProgressRing,
+  DueSoonBanner,
+  BadgeChip,
+} from "@/components/learner-ui";
 
-// Server Component — indirection keeps the clock read out of the linted body.
 const nowMs = () => Date.now();
 
-interface EnrolmentRow {
-  id: string;
-  course_id: string;
-  status: string;
-  progress: number;
-  due_date: string | null;
-  courses: { title: string } | null;
-}
-
-function CourseItem({ e }: { e: EnrolmentRow }) {
-  const title = e.courses?.title ?? "Course";
-  const cta =
-    e.status === "completed"
-      ? "Review"
-      : e.progress > 0 && e.status !== "expired"
-        ? "Resume"
-        : e.status === "expired"
-          ? "Redo"
-          : "Start";
-
-  return (
-    <li className="flex items-center justify-between gap-4 py-3">
-      <div className="min-w-0 flex-1">
-        <p className="truncate font-medium">{title}</p>
-        <div className="mt-1 flex items-center gap-2">
-          <div className="h-1.5 w-40 overflow-hidden rounded-full bg-muted">
-            <div
-              className="h-full bg-primary"
-              style={{ width: `${e.progress}%` }}
-            />
-          </div>
-          <span className="text-xs text-muted-foreground">{e.progress}%</span>
-          {e.due_date && (
-            <span className="text-xs text-muted-foreground">
-              · due {new Date(e.due_date).toLocaleDateString("en-GB")}
-            </span>
-          )}
-        </div>
-      </div>
-      <div className="flex items-center gap-2">
-        <Link
-          href={`/learn/courses/${e.course_id}/quiz`}
-          className={buttonVariants({ size: "sm", variant: "outline" })}
-        >
-          Assessment
-        </Link>
-        <Link
-          href={`/learn/courses/${e.course_id}`}
-          className={buttonVariants({ size: "sm" })}
-        >
-          {cta}
-        </Link>
-      </div>
-    </li>
-  );
-}
-
-function Section({
-  title,
-  description,
-  items,
-}: {
-  title: string;
-  description?: string;
-  items: EnrolmentRow[];
-}) {
-  if (items.length === 0) return null;
-  return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-        {description && <CardDescription>{description}</CardDescription>}
-      </CardHeader>
-      <CardContent>
-        <ul className="divide-y">
-          {items.map((e) => (
-            <CourseItem key={e.id} e={e} />
-          ))}
-        </ul>
-      </CardContent>
-    </Card>
-  );
-}
+const BADGE_ICON: Record<string, LucideIcon> = {
+  first_pass: Award,
+  five_done: Star,
+  compliant: ShieldCheck,
+  induction: GraduationCap,
+};
 
 export default async function LearnerDashboard() {
   const context = await requireRole("learner");
-
+  const now = new Date(nowMs());
   const supabase = await createClient();
-  const [{ data }, { data: certData }] = await Promise.all([
-    supabase
-      .from("enrolments")
-      .select("id, course_id, status, progress, due_date, courses(title)")
-      .order("assigned_at", { ascending: true }),
-    supabase
-      .from("certificates")
-      .select("id, certificate_number, issued_at, expires_at, courses(title)")
-      .order("issued_at", { ascending: false }),
-  ]);
 
-  const enrolments = (data ?? []) as unknown as EnrolmentRow[];
-  const now = nowMs();
-  const certs: CertItem[] = (
-    (certData ?? []) as unknown as {
-      id: string;
-      certificate_number: string;
-      issued_at: string;
-      expires_at: string | null;
-      courses: { title: string } | null;
-    }[]
-  ).map((c) => ({
-    id: c.id,
-    number: c.certificate_number,
-    courseTitle: c.courses?.title ?? "Course",
-    issued: c.issued_at,
-    expires: c.expires_at,
-    expired: !!c.expires_at && new Date(c.expires_at).getTime() < now,
-  }));
+  const data = await loadLearner(supabase);
+  const stats = learnerStats(data.enrolments, data.certificates, now);
 
-  const expired = enrolments.filter((e) => e.status === "expired");
-  const inProgress = enrolments.filter((e) => e.status === "in_progress");
-  const notStarted = enrolments.filter((e) => e.status === "not_started");
-  const completed = enrolments.filter((e) => e.status === "completed");
+  // Induction pathway progress.
+  const { data: pathway } = await supabase
+    .from("pathways")
+    .select("id")
+    .eq("slug", "care-certificate-induction")
+    .maybeSingle();
+  let inductionTotal = 0;
+  let inductionCompleted = 0;
+  if (pathway) {
+    const { data: links } = await supabase
+      .from("pathway_courses")
+      .select("course_id")
+      .eq("pathway_id", pathway.id);
+    const set = new Set((links ?? []).map((l) => l.course_id));
+    inductionTotal = set.size;
+    inductionCompleted = data.enrolments.filter(
+      (e) => set.has(e.course_id) && e.status === "completed",
+    ).length;
+  }
+
+  const badges = computeBadges({
+    assigned: stats.assigned,
+    completed: stats.completed,
+    certificates: stats.certificates,
+    overdue: stats.overdue,
+    inductionTotal,
+    inductionCompleted,
+  });
+  const streak = computeStreak(data.activityDates, now);
+
+  // Progress grouped by topic.
+  const byTopic = new Map<string, { completed: number; total: number }>();
+  for (const e of data.enrolments) {
+    const k = e.topic ?? "General";
+    const t = byTopic.get(k) ?? { completed: 0, total: 0 };
+    t.total += 1;
+    if (e.status === "completed") t.completed += 1;
+    byTopic.set(k, t);
+  }
+
+  const recent = data.certificates.slice(0, 4);
+  const firstName = (data.fullName ?? "").split(" ")[0] || "there";
 
   return (
-    <DashboardShell title="My training" context={context}>
-      <div className="mx-auto max-w-3xl space-y-6">
-        {enrolments.length === 0 && (
+    <DashboardShell title="Dashboard" context={context}>
+      <div className="mx-auto max-w-5xl space-y-6">
+        <DueSoonBanner count={stats.overdue + stats.expiring} />
+
+        {/* Hero */}
+        <div className="flex flex-col items-center gap-6 rounded-3xl border bg-gradient-to-br from-primary/10 via-card to-card p-6 sm:flex-row sm:justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight">
+              Hi {firstName} 👋
+            </h2>
+            <p className="mt-1 text-muted-foreground">
+              {stats.completed} of {stats.assigned} assigned course
+              {stats.assigned === 1 ? "" : "s"} completed.
+              {streak > 0 && (
+                <span className="ml-1 inline-flex items-center gap-1 font-medium text-orange-600">
+                  <Flame className="size-4" /> {streak}-day streak
+                </span>
+              )}
+            </p>
+          </div>
+          <ProgressRing value={stats.completionPct} color="#0d9488">
+            <span className="text-2xl font-bold">{stats.completionPct}%</span>
+            <span className="text-xs text-muted-foreground">complete</span>
+          </ProgressRing>
+        </div>
+
+        {/* Stat tiles */}
+        <div className="grid gap-4 grid-cols-2 lg:grid-cols-5">
+          <StatTile label="Assigned" value={stats.assigned} icon={BookOpen} color="#0284c7" />
+          <StatTile label="In progress" value={stats.inProgress} icon={Clock} color="#d97706" />
+          <StatTile label="Completed" value={stats.completed} icon={CheckCircle2} color="#16a34a" />
+          <StatTile label="Certificates" value={stats.certificates} icon={Award} color="#7c3aed" />
+          <StatTile label="Need attention" value={stats.overdue + stats.expiring} icon={AlertTriangle} color="#e11d48" />
+        </div>
+
+        <div className="grid gap-6 lg:grid-cols-2">
+          {/* Progress by topic */}
           <Card>
             <CardHeader>
-              <CardTitle>No courses assigned yet</CardTitle>
-              <CardDescription>
-                When your organisation assigns you training, it will appear here.
-              </CardDescription>
+              <CardTitle>Progress by topic</CardTitle>
+              <CardDescription>How you&apos;re doing in each area.</CardDescription>
             </CardHeader>
+            <CardContent className="space-y-3">
+              {byTopic.size === 0 && (
+                <p className="text-sm text-muted-foreground">
+                  No courses assigned yet.
+                </p>
+              )}
+              {[...byTopic.entries()].map(([topic, t]) => {
+                const theme = topicTheme(topic);
+                const pct = t.total ? Math.round((t.completed / t.total) * 100) : 0;
+                return (
+                  <div key={topic}>
+                    <div className="mb-1 flex items-center justify-between text-sm">
+                      <span className="font-medium">{topic}</span>
+                      <span className="text-muted-foreground">
+                        {t.completed}/{t.total}
+                      </span>
+                    </div>
+                    <div className="h-2 overflow-hidden rounded-full bg-muted">
+                      <div
+                        className="h-full rounded-full"
+                        style={{ width: `${pct}%`, backgroundColor: theme.color }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </CardContent>
           </Card>
-        )}
 
-        <Section
-          title="Required again"
-          description="These certificates have expired — please retake."
-          items={expired}
-        />
-        <Section title="In progress" items={inProgress} />
-        <Section title="To do" items={notStarted} />
-        <Section title="Completed" items={completed} />
+          {/* Induction + recent */}
+          <div className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Care Certificate induction</CardTitle>
+                <CardDescription>
+                  {inductionCompleted}/{inductionTotal} courses complete
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="h-2 overflow-hidden rounded-full bg-muted">
+                  <div
+                    className="h-full rounded-full bg-primary"
+                    style={{
+                      width: `${inductionTotal ? Math.round((inductionCompleted / inductionTotal) * 100) : 0}%`,
+                    }}
+                  />
+                </div>
+              </CardContent>
+            </Card>
 
+            <Card>
+              <CardHeader>
+                <CardTitle>Recent achievements</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {recent.length === 0 ? (
+                  <p className="text-sm text-muted-foreground">
+                    Pass a course to see it here 🎓
+                  </p>
+                ) : (
+                  <ul className="space-y-2 text-sm">
+                    {recent.map((c) => (
+                      <li key={c.id} className="flex items-center gap-2">
+                        <span
+                          className="flex size-6 items-center justify-center rounded-full"
+                          style={{ backgroundColor: tint("#16a34a"), color: "#16a34a" }}
+                        >
+                          <Award className="size-3.5" />
+                        </span>
+                        <span className="truncate">{c.title}</span>
+                        <span className="ml-auto text-xs text-muted-foreground">
+                          {new Date(c.issued_at).toLocaleDateString("en-GB")}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
+        {/* Badges */}
         <Card>
           <CardHeader>
-            <CardTitle>Certificates</CardTitle>
-            <CardDescription>
-              Your most recent pass is the live certificate for each course.
-            </CardDescription>
+            <CardTitle>Your badges</CardTitle>
+            <CardDescription>Milestones you&apos;ve unlocked.</CardDescription>
           </CardHeader>
           <CardContent>
-            <CertificateList certs={certs} />
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              {badges.map((b) => (
+                <BadgeChip
+                  key={b.key}
+                  label={b.label}
+                  description={b.description}
+                  icon={BADGE_ICON[b.key] ?? Award}
+                  earned={b.earned}
+                  color="#7c3aed"
+                />
+              ))}
+            </div>
           </CardContent>
         </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Privacy &amp; your data</CardTitle>
-            <CardDescription>
-              Download a copy of your data, or permanently delete your account
-              (UK GDPR). See our{" "}
-              <Link href="/privacy" className="underline">
-                privacy policy
-              </Link>
-              .
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <PrivacyData />
-          </CardContent>
-        </Card>
+        <div className="flex justify-center">
+          <Link href="/learn/modules" className={buttonVariants({ size: "lg" })}>
+            Go to my training
+          </Link>
+        </div>
       </div>
     </DashboardShell>
   );

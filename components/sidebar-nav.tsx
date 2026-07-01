@@ -7,7 +7,8 @@ import {
   BookOpen,
   CreditCard,
   Bell,
-  GraduationCap,
+  Award,
+  User,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,15 +31,23 @@ const NAV: Record<string, NavItem[]> = {
     { href: "/org", label: "Overview", icon: LayoutDashboard },
     { href: "/org/billing", label: "Billing", icon: CreditCard },
   ],
-  learner: [{ href: "/learn", label: "My training", icon: GraduationCap }],
+  learner: [
+    { href: "/learn", label: "Dashboard", icon: LayoutDashboard },
+    { href: "/learn/modules", label: "Training", icon: BookOpen },
+    { href: "/learn/certificates", label: "Certificates", icon: Award },
+    { href: "/learn/notifications", label: "Notifications", icon: Bell },
+    { href: "/learn/profile", label: "Profile", icon: User },
+  ],
 };
 
 export function SidebarNav({
   role,
   orientation = "vertical",
+  badges = {},
 }: {
   role: UserRole | null;
   orientation?: "vertical" | "horizontal";
+  badges?: Record<string, number>;
 }) {
   const pathname = usePathname();
   const items = role ? (NAV[role] ?? []) : [];
@@ -59,6 +68,7 @@ export function SidebarNav({
             item.href !== "/learn" &&
             pathname.startsWith(item.href));
         const Icon = item.icon;
+        const badge = badges[item.href] ?? 0;
         return (
           <Link
             key={item.href}
@@ -71,7 +81,12 @@ export function SidebarNav({
             )}
           >
             <Icon className="size-4" />
-            {item.label}
+            <span className="flex-1">{item.label}</span>
+            {badge > 0 && (
+              <span className="inline-flex min-w-5 items-center justify-center rounded-full bg-rose-500 px-1.5 text-xs font-semibold text-white">
+                {badge}
+              </span>
+            )}
           </Link>
         );
       })}
