@@ -17,11 +17,13 @@ export default async function SuspendedPage() {
     <main className="flex flex-1 items-center justify-center px-6 py-16">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Account access suspended</CardTitle>
+          <CardTitle>Access unavailable</CardTitle>
           <CardDescription>
-            Your organisation&apos;s access to My Care Academy is currently
-            suspended. Please contact your administrator or My Care Academy
-            support if you believe this is a mistake.
+            Your account or your organisation&apos;s access to My Care Academy
+            is currently unavailable. This can happen if your account was
+            deactivated or your organisation was suspended. Please contact your
+            administrator or My Care Academy support if you believe this is a
+            mistake.
           </CardDescription>
         </CardHeader>
         <CardContent>

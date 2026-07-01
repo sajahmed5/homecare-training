@@ -2,11 +2,19 @@
 
 import { revalidatePath } from "next/cache";
 import { requireRole } from "@/lib/auth";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
-import type { InviteState } from "@/app/platform/actions";
+import type { InviteState, SaveState } from "@/app/platform/actions";
+import type { UserRole } from "@/lib/auth";
 
-/** org_admin invites a learner into their own organisation. */
-export async function inviteLearnerAction(
+const INVITABLE_ROLES: UserRole[] = ["learner", "org_admin"];
+const ROLE_LABELS: Record<string, string> = {
+  learner: "learner",
+  org_admin: "organisation administrator",
+};
+
+/** org_admin invites a learner or another org_admin into their own organisation. */
+export async function inviteStaffAction(
   _prev: InviteState,
   formData: FormData,
 ): Promise<InviteState> {
@@ -14,8 +22,12 @@ export async function inviteLearnerAction(
 
   const email = String(formData.get("email") ?? "").trim();
   const name = String(formData.get("name") ?? "").trim();
+  const role = String(formData.get("role") ?? "learner") as UserRole;
 
   if (!email) return { ok: false, error: "Email is required." };
+  if (!INVITABLE_ROLES.includes(role)) {
+    return { ok: false, error: "Invalid role." };
+  }
   if (!context.organisationId) {
     return { ok: false, error: "Your account has no organisation." };
   }
@@ -23,10 +35,10 @@ export async function inviteLearnerAction(
   try {
     const result = await createInvite({
       email,
-      role: "learner",
+      role,
       organisationId: context.organisationId,
       fullName: name,
-      roleLabel: "learner",
+      roleLabel: ROLE_LABELS[role],
     });
     revalidatePath("/org");
     return {
@@ -41,4 +53,106 @@ export async function inviteLearnerAction(
       error: e instanceof Error ? e.message : "Failed to send invite.",
     };
   }
+}
+
+/** Deactivate or reactivate a staff member within the caller's organisation. */
+export async function setStaffStatusAction(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
+  const context = await requireRole("org_admin");
+
+  const userId = String(formData.get("userId") ?? "");
+  const status = String(formData.get("status") ?? "");
+  if (!["active", "deactivated"].includes(status)) {
+    return { ok: false, error: "Invalid status." };
+  }
+  if (userId === context.userId) {
+    return { ok: false, error: "You cannot change your own status." };
+  }
+
+  const admin = createAdminClient();
+
+  // Scope check: the target must belong to the caller's organisation.
+  const { data: target } = await admin
+    .from("users")
+    .select("organisation_id")
+    .eq("id", userId)
+    .single();
+  if (!target || target.organisation_id !== context.organisationId) {
+    return { ok: false, error: "Staff member not found in your organisation." };
+  }
+
+  const { error } = await admin
+    .from("users")
+    .update({ status })
+    .eq("id", userId);
+  if (error) return { ok: false, error: error.message };
+
+  // Also block/unblock at the auth layer.
+  await admin.auth.admin.updateUserById(userId, {
+    ban_duration: status === "deactivated" ? "876000h" : "none",
+  });
+
+  revalidatePath("/org");
+  return { ok: true };
+}
+
+export interface BulkState {
+  ok?: boolean;
+  error?: string;
+  created?: number;
+  failures?: { email: string; error: string }[];
+}
+
+/** Bulk-invite staff from parsed CSV rows (name,email,role). */
+export async function bulkInviteStaffAction(
+  _prev: BulkState,
+  formData: FormData,
+): Promise<BulkState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+
+  let rows: { name?: string; email?: string; role?: string }[];
+  try {
+    rows = JSON.parse(String(formData.get("rows") ?? "[]"));
+  } catch {
+    return { ok: false, error: "Could not read the CSV." };
+  }
+  if (!Array.isArray(rows) || rows.length === 0) {
+    return { ok: false, error: "No rows found in the CSV." };
+  }
+
+  let created = 0;
+  const failures: { email: string; error: string }[] = [];
+
+  for (const row of rows) {
+    const email = (row.email ?? "").trim();
+    const role = (row.role ?? "learner").trim() as UserRole;
+    if (!email) continue;
+    if (!INVITABLE_ROLES.includes(role)) {
+      failures.push({ email, error: `Invalid role "${role}"` });
+      continue;
+    }
+    try {
+      await createInvite({
+        email,
+        role,
+        organisationId: context.organisationId,
+        fullName: (row.name ?? "").trim(),
+        roleLabel: ROLE_LABELS[role],
+      });
+      created += 1;
+    } catch (e) {
+      failures.push({
+        email,
+        error: e instanceof Error ? e.message : "Failed",
+      });
+    }
+  }
+
+  revalidatePath("/org");
+  return { ok: true, created, failures };
 }

@@ -102,18 +102,27 @@ export async function requireAdminMfa(): Promise<void> {
 }
 
 /**
- * Members of a suspended organisation are blocked from their console.
- * platform_admin is global and unaffected.
+ * Blocks access for members whose account is deactivated or whose organisation
+ * is suspended. platform_admin is global and unaffected. Degrades gracefully if
+ * users.status doesn't exist yet (pre-migration).
  */
-export async function assertOrgActive(context: UserContext): Promise<void> {
-  if (context.role === "platform_admin" || !context.organisationId) return;
+export async function assertActiveMember(context: UserContext): Promise<void> {
+  if (context.role === "platform_admin") return;
   const supabase = await createClient();
-  const { data } = await supabase
-    .from("organisations")
-    .select("status")
-    .eq("id", context.organisationId)
-    .single();
-  if (data?.status === "suspended") redirect("/suspended");
+
+  const [{ data: me }, { data: org }] = await Promise.all([
+    supabase.from("users").select("status").eq("id", context.userId).single(),
+    context.organisationId
+      ? supabase
+          .from("organisations")
+          .select("status")
+          .eq("id", context.organisationId)
+          .single()
+      : Promise.resolve({ data: null as { status?: string } | null }),
+  ]);
+
+  if (me?.status === "deactivated") redirect("/suspended");
+  if (org?.status === "suspended") redirect("/suspended");
 }
 
 /**
@@ -126,6 +135,6 @@ export async function requireRole(role: UserRole): Promise<UserContext> {
   const context = await requireUser();
   if (context.role !== role) redirect(dashboardPathForRole(context.role));
   if (MFA_REQUIRED_ROLES.includes(role)) await requireAdminMfa();
-  if (role !== "platform_admin") await assertOrgActive(context);
+  if (role !== "platform_admin") await assertActiveMember(context);
   return context;
 }
