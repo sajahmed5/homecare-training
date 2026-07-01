@@ -79,6 +79,12 @@ export default async function PlatformDashboard() {
             </div>
             <div className="flex gap-2">
               <Link
+                href="/platform/billing"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                Billing
+              </Link>
+              <Link
                 href="/platform/settings"
                 className={buttonVariants({ variant: "outline", size: "sm" })}
               >

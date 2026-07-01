@@ -105,27 +105,30 @@ export default async function OrgDashboard() {
             {organisation?.name} ·{" "}
             {tierLabel(organisation?.package_tier ?? "core")}
           </p>
-          {(organisation?.forms_enabled ||
-            organisation?.recruitment_enabled) && (
-            <div className="flex gap-2">
-              {organisation?.forms_enabled && (
-                <Link
-                  href="/org/forms"
-                  className={buttonVariants({ variant: "outline", size: "sm" })}
-                >
-                  Forms
-                </Link>
-              )}
-              {organisation?.recruitment_enabled && (
-                <Link
-                  href="/org/recruitment"
-                  className={buttonVariants({ variant: "outline", size: "sm" })}
-                >
-                  Recruitment
-                </Link>
-              )}
-            </div>
-          )}
+          <div className="flex gap-2">
+            {organisation?.forms_enabled && (
+              <Link
+                href="/org/forms"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                Forms
+              </Link>
+            )}
+            {organisation?.recruitment_enabled && (
+              <Link
+                href="/org/recruitment"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                Recruitment
+              </Link>
+            )}
+            <Link
+              href="/org/billing"
+              className={buttonVariants({ variant: "outline", size: "sm" })}
+            >
+              Billing
+            </Link>
+          </div>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
