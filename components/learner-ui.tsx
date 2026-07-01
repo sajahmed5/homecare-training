@@ -36,6 +36,7 @@ export type StatusVariant =
   | "completed"
   | "retake"
   | "in_progress"
+  | "assessment_due"
   | "overdue"
   | "assigned"
   | "not_enrolled";
@@ -44,6 +45,7 @@ const STATUS: Record<StatusVariant, { label: string; className: string }> = {
   completed: { label: "Completed", className: "bg-green-100 text-green-700" },
   retake: { label: "To retake", className: "bg-rose-100 text-rose-700" },
   in_progress: { label: "In progress", className: "bg-amber-100 text-amber-700" },
+  assessment_due: { label: "Assessment due", className: "bg-indigo-100 text-indigo-700" },
   overdue: { label: "Overdue", className: "bg-rose-100 text-rose-700" },
   assigned: { label: "On time", className: "bg-emerald-100 text-emerald-700" },
   not_enrolled: { label: "Not enrolled", className: "bg-slate-100 text-slate-500" },

@@ -19,9 +19,15 @@ export interface CourseCardData {
   dueDate?: string | null;
 }
 
-function variantFor(status: string, dueDate?: string | null): StatusVariant {
+function variantFor(
+  status: string,
+  progress: number,
+  dueDate?: string | null,
+): StatusVariant {
   if (status === "completed") return "completed";
   if (status === "expired") return "retake";
+  // Content finished but the course isn't complete → the assessment is outstanding.
+  if (progress >= 100) return "assessment_due";
   if (status === "in_progress") return "in_progress";
   if (dueDate && new Date(dueDate).getTime() < nowMs()) return "overdue";
   return "assigned";
@@ -31,15 +37,18 @@ export function CourseCard({ c }: { c: CourseCardData }) {
   const theme = topicTheme(c.topic);
   const status = c.status ?? "not_started";
   const progress = c.progress ?? 0;
+  const assessmentDue = status !== "completed" && progress >= 100;
 
   const cta =
     status === "completed"
       ? "Review"
       : status === "expired"
         ? "Redo"
-        : progress > 0
-          ? "Resume"
-          : "Start";
+        : assessmentDue
+          ? "Take assessment"
+          : progress > 0
+            ? "Resume"
+            : "Start";
 
   return (
     <div className="flex flex-col gap-3 rounded-2xl border bg-card p-3 shadow-sm transition-shadow hover:shadow-md">
@@ -49,7 +58,7 @@ export function CourseCard({ c }: { c: CourseCardData }) {
         <span className="text-xs font-medium text-muted-foreground">
           {c.topic ?? "General"}
         </span>
-        <StatusPill variant={variantFor(status, c.dueDate)} />
+        <StatusPill variant={variantFor(status, progress, c.dueDate)} />
       </div>
 
       <p className="font-semibold leading-snug">{c.title}</p>
@@ -73,17 +82,23 @@ export function CourseCard({ c }: { c: CourseCardData }) {
 
       <div className="mt-auto flex gap-2">
         <Link
-          href={`/learn/courses/${c.courseId}`}
+          href={
+            assessmentDue
+              ? `/learn/courses/${c.courseId}/quiz`
+              : `/learn/courses/${c.courseId}`
+          }
           className={buttonVariants({ size: "sm", className: "flex-1" })}
         >
           {cta}
         </Link>
-        <Link
-          href={`/learn/courses/${c.courseId}/quiz`}
-          className={buttonVariants({ size: "sm", variant: "outline" })}
-        >
-          Assessment
-        </Link>
+        {!assessmentDue && (
+          <Link
+            href={`/learn/courses/${c.courseId}/quiz`}
+            className={buttonVariants({ size: "sm", variant: "outline" })}
+          >
+            Assessment
+          </Link>
+        )}
       </div>
     </div>
   );
