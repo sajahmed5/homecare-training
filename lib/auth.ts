@@ -81,12 +81,29 @@ export async function requireUser(): Promise<UserContext> {
   return context;
 }
 
+/** Roles that must complete MFA (AAL2) to use their console. */
+const MFA_REQUIRED_ROLES: UserRole[] = ["platform_admin", "org_admin"];
+
+/**
+ * Admins must be at AAL2. If they aren't (no factor enrolled, or enrolled but
+ * not stepped up this session), send them to /mfa to enrol or verify.
+ */
+export async function requireAdminMfa(): Promise<void> {
+  const supabase = await createClient();
+  const { data, error } =
+    await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
+  if (error || !data) return;
+  if (data.currentLevel !== "aal2") redirect("/mfa");
+}
+
 /**
  * Require a specific role. Authenticated users with the wrong role are sent to
  * their own dashboard. This is defence-in-depth over RLS, not a replacement.
+ * Admin roles additionally require MFA (AAL2).
  */
 export async function requireRole(role: UserRole): Promise<UserContext> {
   const context = await requireUser();
   if (context.role !== role) redirect(dashboardPathForRole(context.role));
+  if (MFA_REQUIRED_ROLES.includes(role)) await requireAdminMfa();
   return context;
 }
