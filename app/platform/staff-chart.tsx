@@ -31,7 +31,7 @@ export function StaffChart({ data }: { data: StaffDatum[] }) {
         <XAxis dataKey="name" fontSize={12} tickLine={false} />
         <YAxis allowDecimals={false} fontSize={12} width={28} tickLine={false} />
         <Tooltip cursor={{ fill: "rgba(0,0,0,0.04)" }} />
-        <Bar dataKey="staff" fill="#6366f1" radius={[4, 4, 0, 0]} />
+        <Bar dataKey="staff" fill="#2b7a99" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
   );

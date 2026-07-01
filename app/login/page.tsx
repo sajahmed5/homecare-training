@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { dashboardPathForRole, getUserContext } from "@/lib/auth";
+import { Logo } from "@/components/logo";
 import {
   Card,
   CardContent,
@@ -27,11 +29,16 @@ export default async function LoginPage({
       : "/dashboard";
 
   return (
-    <main className="flex flex-1 items-center justify-center px-6 py-16">
-      <Card className="w-full max-w-sm">
+    <main className="flex flex-1 flex-col items-center justify-center px-6 py-16">
+      <Link href="/" className="mb-8">
+        <Logo width={180} />
+      </Link>
+      <Card className="w-full max-w-sm shadow-sm">
         <CardHeader>
           <CardTitle>Sign in</CardTitle>
-          <CardDescription>My Care Academy</CardDescription>
+          <CardDescription>
+            Welcome back — sign in to your account.
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <LoginForm redirectTo={safeRedirect} />
