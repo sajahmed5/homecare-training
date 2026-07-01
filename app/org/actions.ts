@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { requireRole } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
 import type { InviteState, SaveState } from "@/app/platform/actions";
@@ -155,4 +156,83 @@ export async function bulkInviteStaffAction(
 
   revalidatePath("/org");
   return { ok: true, created, failures };
+}
+
+export interface AssignState {
+  ok?: boolean;
+  error?: string;
+  count?: number;
+}
+
+/**
+ * Assign a course or a whole pathway to staff, with an optional due date.
+ * Creates enrolments (idempotent — re-assigning keeps existing progress).
+ */
+export async function assignTrainingAction(
+  _prev: AssignState,
+  formData: FormData,
+): Promise<AssignState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+
+  const target = String(formData.get("target") ?? "");
+  const dueDate = String(formData.get("dueDate") ?? "").trim() || null;
+  const userIds = formData.getAll("userIds").map(String);
+
+  if (!target) return { ok: false, error: "Choose a course or pathway." };
+  if (userIds.length === 0) {
+    return { ok: false, error: "Select at least one staff member." };
+  }
+
+  const [kind, id] = target.split(":");
+  const supabase = await createClient();
+
+  // Resolve to a concrete set of course ids.
+  let courseIds: string[] = [];
+  if (kind === "course") {
+    courseIds = [id];
+  } else if (kind === "pathway") {
+    const { data } = await supabase
+      .from("pathway_courses")
+      .select("course_id")
+      .eq("pathway_id", id);
+    courseIds = (data ?? []).map((r) => r.course_id as string);
+  }
+  if (courseIds.length === 0) {
+    return { ok: false, error: "No courses found for that selection." };
+  }
+
+  // RLS scopes this read to the caller's org, so it validates org membership.
+  const { data: orgUsers } = await supabase
+    .from("users")
+    .select("id")
+    .in("id", userIds);
+  const valid = new Set((orgUsers ?? []).map((u) => u.id as string));
+
+  const rows = [];
+  for (const uid of userIds) {
+    if (!valid.has(uid)) continue;
+    for (const cid of courseIds) {
+      rows.push({
+        organisation_id: context.organisationId,
+        user_id: uid,
+        course_id: cid,
+        due_date: dueDate,
+      });
+    }
+  }
+  if (rows.length === 0) {
+    return { ok: false, error: "No valid staff selected." };
+  }
+
+  const { error } = await supabase
+    .from("enrolments")
+    .upsert(rows, { onConflict: "user_id,course_id" });
+  if (error) return { ok: false, error: error.message };
+
+  revalidatePath("/org");
+  revalidatePath("/learn");
+  return { ok: true, count: rows.length };
 }
