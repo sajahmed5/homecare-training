@@ -87,8 +87,13 @@ const MFA_REQUIRED_ROLES: UserRole[] = ["platform_admin", "org_admin"];
 /**
  * Admins must be at AAL2. If they aren't (no factor enrolled, or enrolled but
  * not stepped up this session), send them to /mfa to enrol or verify.
+ *
+ * Toggle with MFA_ENFORCED: set it to "false" to disable enforcement (the /mfa
+ * flow still works for anyone who opts in). Defaults to enforced.
  */
 export async function requireAdminMfa(): Promise<void> {
+  if (process.env.MFA_ENFORCED === "false") return;
+
   const supabase = await createClient();
   const { data, error } =
     await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
