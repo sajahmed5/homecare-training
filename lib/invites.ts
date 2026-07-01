@@ -24,7 +24,7 @@ export async function createInvite(opts: {
   fullName?: string;
   orgName?: string | null;
   roleLabel: string;
-}): Promise<SendResult> {
+}): Promise<SendResult & { userId?: string }> {
   const admin = createAdminClient();
   const origin = await siteOrigin();
 
@@ -48,10 +48,11 @@ export async function createInvite(opts: {
     `${origin}/auth/confirm?token_hash=${tokenHash}` +
     `&type=invite&next=/auth/set-password`;
 
-  return sendInviteEmail({
+  const result = await sendInviteEmail({
     to: opts.email,
     inviteUrl,
     roleLabel: opts.roleLabel,
     orgName: opts.orgName,
   });
+  return { ...result, userId: data.user?.id };
 }
