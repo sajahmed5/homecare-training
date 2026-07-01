@@ -102,13 +102,30 @@ export async function requireAdminMfa(): Promise<void> {
 }
 
 /**
+ * Members of a suspended organisation are blocked from their console.
+ * platform_admin is global and unaffected.
+ */
+export async function assertOrgActive(context: UserContext): Promise<void> {
+  if (context.role === "platform_admin" || !context.organisationId) return;
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("organisations")
+    .select("status")
+    .eq("id", context.organisationId)
+    .single();
+  if (data?.status === "suspended") redirect("/suspended");
+}
+
+/**
  * Require a specific role. Authenticated users with the wrong role are sent to
  * their own dashboard. This is defence-in-depth over RLS, not a replacement.
- * Admin roles additionally require MFA (AAL2).
+ * Admin roles additionally require MFA (AAL2); org members are blocked if their
+ * organisation is suspended.
  */
 export async function requireRole(role: UserRole): Promise<UserContext> {
   const context = await requireUser();
   if (context.role !== role) redirect(dashboardPathForRole(context.role));
   if (MFA_REQUIRED_ROLES.includes(role)) await requireAdminMfa();
+  if (role !== "platform_admin") await assertOrgActive(context);
   return context;
 }

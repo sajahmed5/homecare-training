@@ -2,8 +2,10 @@
 
 import { revalidatePath } from "next/cache";
 import { requireRole } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
+import { PACKAGE_TIERS, ORG_STATUSES } from "@/lib/organisations";
 
 export interface InviteState {
   ok?: boolean;
@@ -59,6 +61,87 @@ export async function inviteOrganisationAction(
   } catch (e) {
     // Invite failed (e.g. email already in use) — undo the org we just created.
     await admin.from("organisations").delete().eq("id", org.id);
+    return {
+      ok: false,
+      error: e instanceof Error ? e.message : "Failed to send invite.",
+    };
+  }
+}
+
+export interface SaveState {
+  ok?: boolean;
+  error?: string;
+}
+
+/** Update an organisation's name, tier, feature flags and status. */
+export async function updateOrganisationAction(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
+  await requireRole("platform_admin");
+
+  const id = String(formData.get("id") ?? "");
+  const name = String(formData.get("name") ?? "").trim();
+  const packageTier = String(formData.get("package_tier") ?? "");
+  const status = String(formData.get("status") ?? "");
+  const formsEnabled = formData.get("forms_enabled") === "true";
+  const recruitmentEnabled = formData.get("recruitment_enabled") === "true";
+
+  if (!id) return { ok: false, error: "Missing organisation id." };
+  if (!name) return { ok: false, error: "Name is required." };
+  if (!PACKAGE_TIERS.some((t) => t.value === packageTier)) {
+    return { ok: false, error: "Invalid package tier." };
+  }
+  if (!ORG_STATUSES.some((s) => s.value === status)) {
+    return { ok: false, error: "Invalid status." };
+  }
+
+  // Updates go through RLS — only a platform_admin can write any org.
+  const supabase = await createClient();
+  const { error } = await supabase
+    .from("organisations")
+    .update({
+      name,
+      package_tier: packageTier,
+      status,
+      forms_enabled: formsEnabled,
+      recruitment_enabled: recruitmentEnabled,
+    })
+    .eq("id", id);
+  if (error) return { ok: false, error: error.message };
+
+  revalidatePath("/platform");
+  revalidatePath(`/platform/organisations/${id}`);
+  return { ok: true };
+}
+
+/** Invite another platform_admin (global, no organisation). */
+export async function invitePlatformAdminAction(
+  _prev: InviteState,
+  formData: FormData,
+): Promise<InviteState> {
+  await requireRole("platform_admin");
+
+  const email = String(formData.get("email") ?? "").trim();
+  const name = String(formData.get("name") ?? "").trim();
+  if (!email) return { ok: false, error: "Email is required." };
+
+  try {
+    const result = await createInvite({
+      email,
+      role: "platform_admin",
+      organisationId: null,
+      fullName: name,
+      roleLabel: "platform administrator",
+    });
+    revalidatePath("/platform");
+    return {
+      ok: true,
+      sent: result.sent,
+      link: result.sent ? undefined : result.link,
+      email,
+    };
+  } catch (e) {
     return {
       ok: false,
       error: e instanceof Error ? e.message : "Failed to send invite.",

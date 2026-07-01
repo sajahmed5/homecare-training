@@ -100,6 +100,23 @@ describe("organisations RLS", () => {
     expect(data).toEqual([]);
   });
 
+  it("org_admin cannot change their own org's feature flags", async () => {
+    // Only platform_admin may write orgs — feature-gating integrity.
+    const { data } = await adminAClient
+      .from("organisations")
+      .update({ forms_enabled: true })
+      .eq("id", orgA)
+      .select("id");
+    expect(data ?? []).toEqual([]);
+
+    const { data: check } = await platformClient
+      .from("organisations")
+      .select("forms_enabled")
+      .eq("id", orgA)
+      .single();
+    expect(check?.forms_enabled).toBe(false);
+  });
+
   it("platform_admin sees all organisations", async () => {
     const { data, error } = await platformClient
       .from("organisations")
