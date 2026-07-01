@@ -3,6 +3,63 @@ import { AlertTriangle, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { topicTheme, tint } from "@/lib/topic-theme";
 
+/** Gradient "cover" for a course card (topic colour + icon watermark). */
+export function CourseThumb({
+  topic,
+  height = 112,
+}: {
+  topic?: string | null;
+  height?: number;
+}) {
+  const t = topicTheme(topic);
+  const Icon = t.icon;
+  return (
+    <div
+      className="relative overflow-hidden rounded-xl"
+      style={{
+        height,
+        background: `linear-gradient(135deg, ${t.color}, ${t.color}aa)`,
+      }}
+    >
+      <Icon className="absolute -bottom-5 -right-4 size-32 text-white/15" />
+      <div
+        className="absolute left-3 top-3 flex size-9 items-center justify-center rounded-lg bg-white shadow-sm"
+        style={{ color: t.color }}
+      >
+        <Icon className="size-5" />
+      </div>
+    </div>
+  );
+}
+
+export type StatusVariant =
+  | "completed"
+  | "retake"
+  | "in_progress"
+  | "overdue"
+  | "assigned"
+  | "not_enrolled";
+
+const STATUS: Record<StatusVariant, { label: string; className: string }> = {
+  completed: { label: "Completed", className: "bg-green-100 text-green-700" },
+  retake: { label: "To retake", className: "bg-rose-100 text-rose-700" },
+  in_progress: { label: "In progress", className: "bg-amber-100 text-amber-700" },
+  overdue: { label: "Overdue", className: "bg-rose-100 text-rose-700" },
+  assigned: { label: "On time", className: "bg-emerald-100 text-emerald-700" },
+  not_enrolled: { label: "Not enrolled", className: "bg-slate-100 text-slate-500" },
+};
+
+export function StatusPill({ variant }: { variant: StatusVariant }) {
+  const s = STATUS[variant];
+  return (
+    <span
+      className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${s.className}`}
+    >
+      {s.label}
+    </span>
+  );
+}
+
 /** Colourful stat tile with an icon chip. */
 export function StatTile({
   label,

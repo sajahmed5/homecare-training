@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button, buttonVariants } from "@/components/ui/button";
-import { TopicBadge } from "@/components/learner-ui";
+import { CourseThumb } from "@/components/learner-ui";
 import { cn } from "@/lib/utils";
 import { topicTheme, tint } from "@/lib/topic-theme";
 import { selfEnrolAction } from "@/app/learn/actions";
@@ -19,11 +19,13 @@ export interface CatalogueCourse {
 export function AllCourses({
   courses,
   enrolledIds,
+  initialQuery = "",
 }: {
   courses: CatalogueCourse[];
   enrolledIds: string[];
+  initialQuery?: string;
 }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [topic, setTopic] = useState<string | null>(null);
   const [enrolled, setEnrolled] = useState(new Set(enrolledIds));
   const [busy, setBusy] = useState<string | null>(null);
@@ -93,33 +95,48 @@ export function AllCourses({
           return (
             <div
               key={c.id}
-              className="flex flex-col justify-between gap-3 rounded-2xl border bg-card p-4 shadow-sm"
+              className="flex flex-col gap-3 rounded-2xl border bg-card p-3 shadow-sm transition-shadow hover:shadow-md"
             >
-              <div className="space-y-2">
-                <TopicBadge topic={c.topic} />
-                <p className="font-semibold leading-snug">{c.title}</p>
-                {c.description && (
-                  <p className="line-clamp-2 text-sm text-muted-foreground">
-                    {c.description}
-                  </p>
+              <CourseThumb topic={c.topic} />
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-medium text-muted-foreground">
+                  {c.topic ?? "General"}
+                </span>
+                {isEnrolled && (
+                  <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                    Enrolled
+                  </span>
                 )}
               </div>
-              {isEnrolled ? (
-                <Link
-                  href={`/learn/courses/${c.id}`}
-                  className={buttonVariants({ size: "sm", variant: "outline" })}
-                >
-                  Go to course
-                </Link>
-              ) : (
-                <Button
-                  size="sm"
-                  onClick={() => enrol(c.id)}
-                  disabled={busy === c.id}
-                >
-                  {busy === c.id ? "Enrolling…" : "Enrol"}
-                </Button>
+              <p className="font-semibold leading-snug">{c.title}</p>
+              {c.description && (
+                <p className="line-clamp-2 text-sm text-muted-foreground">
+                  {c.description}
+                </p>
               )}
+              <div className="mt-auto">
+                {isEnrolled ? (
+                  <Link
+                    href={`/learn/courses/${c.id}`}
+                    className={buttonVariants({
+                      size: "sm",
+                      variant: "outline",
+                      className: "w-full",
+                    })}
+                  >
+                    Go to course
+                  </Link>
+                ) : (
+                  <Button
+                    size="sm"
+                    className="w-full"
+                    onClick={() => enrol(c.id)}
+                    disabled={busy === c.id}
+                  >
+                    {busy === c.id ? "Enrolling…" : "Enrol"}
+                  </Button>
+                )}
+              </div>
             </div>
           );
         })}

@@ -31,6 +31,7 @@ import {
   DueSoonBanner,
   BadgeChip,
 } from "@/components/learner-ui";
+import { CourseCard } from "./modules/course-card";
 
 const nowMs = () => Date.now();
 
@@ -91,6 +92,9 @@ export default async function LearnerDashboard() {
 
   const recent = data.certificates.slice(0, 4);
   const firstName = (data.fullName ?? "").split(" ")[0] || "there";
+  const myWork = data.enrolments
+    .filter((e) => e.status !== "completed")
+    .slice(0, 4);
 
   return (
     <DashboardShell title="Dashboard" context={context}>
@@ -118,6 +122,38 @@ export default async function LearnerDashboard() {
             <span className="text-xs text-muted-foreground">complete</span>
           </ProgressRing>
         </div>
+
+        {/* My work: Assigned */}
+        {myWork.length > 0 && (
+          <section className="space-y-3">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-semibold tracking-tight">
+                My work: Assigned
+              </h2>
+              <Link
+                href="/learn/modules"
+                className="text-sm font-medium text-primary hover:underline"
+              >
+                See all
+              </Link>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {myWork.map((e) => (
+                <CourseCard
+                  key={e.id}
+                  c={{
+                    courseId: e.course_id,
+                    title: e.title,
+                    topic: e.topic,
+                    status: e.status,
+                    progress: e.progress,
+                    dueDate: e.due_date,
+                  }}
+                />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Stat tiles */}
         <div className="grid gap-4 grid-cols-2 lg:grid-cols-5">

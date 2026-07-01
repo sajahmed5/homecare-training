@@ -1,3 +1,4 @@
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
@@ -73,6 +74,20 @@ export async function DashboardShell({
               {title}
             </h1>
           </div>
+          {context.role === "learner" && (
+            <form
+              action="/learn/modules/all"
+              method="get"
+              className="relative hidden max-w-sm flex-1 md:block"
+            >
+              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+              <input
+                name="q"
+                placeholder="Search courses…"
+                className="w-full rounded-full border bg-background py-2 pl-9 pr-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+              />
+            </form>
+          )}
           <div className="flex items-center gap-3">
             <span className="hidden text-sm text-muted-foreground sm:inline">
               {context.email}

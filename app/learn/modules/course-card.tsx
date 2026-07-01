@@ -1,7 +1,14 @@
 import Link from "next/link";
+import { Eye } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import { TopicBadge } from "@/components/learner-ui";
+import {
+  CourseThumb,
+  StatusPill,
+  type StatusVariant,
+} from "@/components/learner-ui";
 import { topicTheme } from "@/lib/topic-theme";
+
+const nowMs = () => Date.now();
 
 export interface CourseCardData {
   courseId: string;
@@ -12,9 +19,17 @@ export interface CourseCardData {
   dueDate?: string | null;
 }
 
+function variantFor(status: string, dueDate?: string | null): StatusVariant {
+  if (status === "completed") return "completed";
+  if (status === "expired") return "retake";
+  if (status === "in_progress") return "in_progress";
+  if (dueDate && new Date(dueDate).getTime() < nowMs()) return "overdue";
+  return "assigned";
+}
+
 export function CourseCard({ c }: { c: CourseCardData }) {
   const theme = topicTheme(c.topic);
-  const status = c.status;
+  const status = c.status ?? "not_started";
   const progress = c.progress ?? 0;
 
   const cta =
@@ -27,31 +42,36 @@ export function CourseCard({ c }: { c: CourseCardData }) {
           : "Start";
 
   return (
-    <div className="flex flex-col justify-between gap-4 rounded-2xl border bg-card p-4 shadow-sm">
-      <div className="space-y-2">
-        <TopicBadge topic={c.topic} />
-        <p className="font-semibold leading-snug">{c.title}</p>
+    <div className="flex flex-col gap-3 rounded-2xl border bg-card p-3 shadow-sm transition-shadow hover:shadow-md">
+      <CourseThumb topic={c.topic} />
+
+      <div className="flex items-center justify-between gap-2">
+        <span className="text-xs font-medium text-muted-foreground">
+          {c.topic ?? "General"}
+        </span>
+        <StatusPill variant={variantFor(status, c.dueDate)} />
       </div>
 
-      {status && status !== "not_started" && (
-        <div className="flex items-center gap-2">
-          <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
-            <div
-              className="h-full rounded-full"
-              style={{ width: `${progress}%`, backgroundColor: theme.color }}
-            />
-          </div>
-          <span className="text-xs text-muted-foreground">{progress}%</span>
-        </div>
-      )}
+      <p className="font-semibold leading-snug">{c.title}</p>
 
-      {c.dueDate && (
-        <p className="text-xs text-muted-foreground">
+      <div className="flex items-center gap-2">
+        <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
+          <div
+            className="h-full rounded-full"
+            style={{ width: `${progress}%`, backgroundColor: theme.color }}
+          />
+        </div>
+        <span className="text-xs text-muted-foreground">{progress}%</span>
+      </div>
+
+      {c.dueDate && status !== "completed" && (
+        <p className="flex items-center gap-1 text-xs text-muted-foreground">
+          <Eye className="size-3.5" />
           Due {new Date(c.dueDate).toLocaleDateString("en-GB")}
         </p>
       )}
 
-      <div className="flex gap-2">
+      <div className="mt-auto flex gap-2">
         <Link
           href={`/learn/courses/${c.courseId}`}
           className={buttonVariants({ size: "sm", className: "flex-1" })}

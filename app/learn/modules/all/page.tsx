@@ -5,8 +5,13 @@ import { DashboardShell } from "@/components/dashboard-shell";
 import { ModulesTabs } from "../modules-tabs";
 import { AllCourses, type CatalogueCourse } from "./all-courses";
 
-export default async function AllCoursesPage() {
+export default async function AllCoursesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const context = await requireRole("learner");
+  const { q } = await searchParams;
   const supabase = await createClient();
 
   const [{ enrolments }, { data: courses }] = await Promise.all([
@@ -34,6 +39,7 @@ export default async function AllCoursesPage() {
         <AllCourses
           courses={catalogue}
           enrolledIds={enrolments.map((e) => e.course_id)}
+          initialQuery={q ?? ""}
         />
       </div>
     </DashboardShell>
