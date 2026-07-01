@@ -6,6 +6,7 @@ import { requireRole, type UserContext } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
+import { logAudit } from "@/lib/audit";
 import { INDUCTION_PATHWAY_SLUG } from "@/lib/recruitment";
 
 async function assertRecruitment(context: UserContext): Promise<void> {
@@ -195,6 +196,14 @@ export async function hireCandidateAction(
       }
     }
   }
+
+  await logAudit({
+    context,
+    action: "candidate.hired",
+    entity: "candidate",
+    entityId: candidateId,
+    detail: { created_learner: invited },
+  });
 
   revalidatePath(`/org/recruitment/${candidateId}`);
   revalidatePath("/org/recruitment");

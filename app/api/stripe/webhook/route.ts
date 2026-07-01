@@ -3,6 +3,7 @@ import type Stripe from "stripe";
 import { getStripe } from "@/lib/stripe";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { applySubscriptionToOrg, tierForPriceId } from "@/lib/billing";
+import { logAudit } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
 
@@ -49,6 +50,13 @@ export async function POST(req: NextRequest) {
             customerId: session.customer as string,
             subscriptionId: session.subscription as string,
             status: "active",
+          });
+          await logAudit({
+            organisationId,
+            action: "billing.subscribed",
+            entity: "organisation",
+            entityId: organisationId,
+            detail: { tier },
           });
         }
         break;

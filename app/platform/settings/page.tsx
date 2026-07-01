@@ -15,14 +15,20 @@ export default async function SettingsPage() {
   const context = await requireRole("platform_admin");
 
   const supabase = await createClient();
-  const [{ data: settings }, { data: log }] = await Promise.all([
-    supabase.from("app_settings").select("key, value"),
-    supabase
-      .from("email_log")
-      .select("type, subject, to_email, sent, created_at")
-      .order("created_at", { ascending: false })
-      .limit(15),
-  ]);
+  const [{ data: settings }, { data: log }, { data: audit }] =
+    await Promise.all([
+      supabase.from("app_settings").select("key, value"),
+      supabase
+        .from("email_log")
+        .select("type, subject, to_email, sent, created_at")
+        .order("created_at", { ascending: false })
+        .limit(15),
+      supabase
+        .from("audit_logs")
+        .select("action, actor_email, entity, created_at")
+        .order("created_at", { ascending: false })
+        .limit(15),
+    ]);
 
   const map = new Map((settings ?? []).map((s) => [s.key, s.value]));
   const threshold = Number(map.get("engagement_threshold_pct") ?? 50);
@@ -50,6 +56,36 @@ export default async function SettingsPage() {
               windows={windows}
               repeat={repeat}
             />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Audit log</CardTitle>
+            <CardDescription>
+              Recent sensitive actions across the platform.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            {audit && audit.length > 0 ? (
+              <ul className="divide-y text-sm">
+                {audit.map((a, i) => (
+                  <li key={i} className="flex items-center justify-between py-2">
+                    <span>
+                      <span className="font-medium">{a.action}</span>{" "}
+                      <span className="text-muted-foreground">
+                        {a.actor_email ?? "system"}
+                      </span>
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      {new Date(a.created_at).toLocaleString("en-GB")}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-sm text-muted-foreground">No activity yet.</p>
+            )}
           </CardContent>
         </Card>
 

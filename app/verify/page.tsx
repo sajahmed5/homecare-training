@@ -1,4 +1,6 @@
+import { headers } from "next/headers";
 import { createClient } from "@/lib/supabase/server";
+import { rateLimit } from "@/lib/rate-limit";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -35,14 +37,22 @@ export default async function VerifyPage({
 
   let result: VerifyRow | null = null;
   let checked = false;
+  let limited = false;
   if (number) {
-    checked = true;
-    // verify_certificate is SECURITY DEFINER and returns only non-PII.
-    const supabase = await createClient();
-    const { data } = await supabase.rpc("verify_certificate", {
-      cert_number: number,
-    });
-    result = (data?.[0] as VerifyRow | undefined) ?? null;
+    const h = await headers();
+    const ip = (h.get("x-forwarded-for") ?? "unknown").split(",")[0].trim();
+    // Throttle to deter certificate-number enumeration.
+    if (!rateLimit(`verify:${ip}`, 15, 60_000)) {
+      limited = true;
+    } else {
+      checked = true;
+      // verify_certificate is SECURITY DEFINER and returns only non-PII.
+      const supabase = await createClient();
+      const { data } = await supabase.rpc("verify_certificate", {
+        cert_number: number,
+      });
+      result = (data?.[0] as VerifyRow | undefined) ?? null;
+    }
   }
 
   return (
@@ -100,6 +110,12 @@ export default async function VerifyPage({
                   </dd>
                 </div>
               </dl>
+            </div>
+          )}
+
+          {limited && (
+            <div className="rounded-lg border border-amber-500/40 bg-amber-500/10 p-4 text-sm">
+              Too many checks — please wait a moment and try again.
             </div>
           )}
 

@@ -5,6 +5,7 @@ import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
+import { logAudit } from "@/lib/audit";
 import type { InviteState, SaveState } from "@/app/platform/actions";
 import type { UserRole } from "@/lib/auth";
 
@@ -40,6 +41,12 @@ export async function inviteStaffAction(
       organisationId: context.organisationId,
       fullName: name,
       roleLabel: ROLE_LABELS[role],
+    });
+    await logAudit({
+      context,
+      action: "user.invited",
+      entity: "user",
+      detail: { email, role },
     });
     revalidatePath("/org");
     return {
@@ -93,6 +100,13 @@ export async function setStaffStatusAction(
   // Also block/unblock at the auth layer.
   await admin.auth.admin.updateUserById(userId, {
     ban_duration: status === "deactivated" ? "876000h" : "none",
+  });
+
+  await logAudit({
+    context,
+    action: status === "deactivated" ? "staff.deactivated" : "staff.reactivated",
+    entity: "user",
+    entityId: userId,
   });
 
   revalidatePath("/org");

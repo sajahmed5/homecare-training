@@ -5,6 +5,7 @@ import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
+import { logAudit } from "@/lib/audit";
 import { PACKAGE_TIERS, ORG_STATUSES } from "@/lib/organisations";
 
 export interface InviteState {
@@ -78,7 +79,7 @@ export async function updateOrganisationAction(
   _prev: SaveState,
   formData: FormData,
 ): Promise<SaveState> {
-  await requireRole("platform_admin");
+  const context = await requireRole("platform_admin");
 
   const id = String(formData.get("id") ?? "");
   const name = String(formData.get("name") ?? "").trim();
@@ -109,6 +110,20 @@ export async function updateOrganisationAction(
     })
     .eq("id", id);
   if (error) return { ok: false, error: error.message };
+
+  await logAudit({
+    context,
+    organisationId: id,
+    action: "organisation.updated",
+    entity: "organisation",
+    entityId: id,
+    detail: {
+      package_tier: packageTier,
+      status,
+      forms_enabled: formsEnabled,
+      recruitment_enabled: recruitmentEnabled,
+    },
+  });
 
   revalidatePath("/platform");
   revalidatePath(`/platform/organisations/${id}`);

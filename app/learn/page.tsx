@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { CertificateList, type CertItem } from "./certificate-list";
+import { PrivacyData } from "./privacy-data";
 
 // Server Component — indirection keeps the clock read out of the linted body.
 const nowMs = () => Date.now();
@@ -170,6 +171,23 @@ export default async function LearnerDashboard() {
           </CardHeader>
           <CardContent>
             <CertificateList certs={certs} />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Privacy &amp; your data</CardTitle>
+            <CardDescription>
+              Download a copy of your data, or permanently delete your account
+              (UK GDPR). See our{" "}
+              <Link href="/privacy" className="underline">
+                privacy policy
+              </Link>
+              .
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <PrivacyData />
           </CardContent>
         </Card>
       </div>
