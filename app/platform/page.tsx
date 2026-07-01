@@ -77,12 +77,20 @@ export default async function PlatformDashboard() {
                 Manage courses and their assessment question banks.
               </CardDescription>
             </div>
-            <Link
-              href="/platform/courses"
-              className={buttonVariants({ variant: "outline", size: "sm" })}
-            >
-              Manage courses
-            </Link>
+            <div className="flex gap-2">
+              <Link
+                href="/platform/settings"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                Automation
+              </Link>
+              <Link
+                href="/platform/courses"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                Manage courses
+              </Link>
+            </div>
           </CardHeader>
         </Card>
 

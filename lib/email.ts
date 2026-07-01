@@ -1,3 +1,34 @@
+/** Send an email via Resend. Returns true if dispatched. */
+export async function sendEmail({
+  to,
+  subject,
+  html,
+}: {
+  to: string;
+  subject: string;
+  html: string;
+}): Promise<boolean> {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from =
+    process.env.EMAIL_FROM ?? "My Care Academy <onboarding@resend.dev>";
+  if (!apiKey) return false;
+  try {
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ from, to, subject, html }),
+    });
+    if (!res.ok) console.error("Resend send failed:", res.status);
+    return res.ok;
+  } catch (err) {
+    console.error("Resend send error:", err);
+    return false;
+  }
+}
+
 interface InviteEmailOptions {
   to: string;
   inviteUrl: string;
