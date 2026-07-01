@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -18,10 +19,15 @@ export default function Home() {
       </p>
 
       <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-        <Button size="lg">Sign in</Button>
-        <Button size="lg" variant="outline">
+        <Link href="/login" className={buttonVariants({ size: "lg" })}>
+          Sign in
+        </Link>
+        <a
+          href="mailto:hello@mycareacademy.co.uk"
+          className={buttonVariants({ size: "lg", variant: "outline" })}
+        >
           Request access
-        </Button>
+        </a>
       </div>
 
       <p className="mt-16 text-sm text-muted-foreground">
