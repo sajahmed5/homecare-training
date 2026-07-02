@@ -83,8 +83,14 @@ export function parseBlocks(value: unknown): ContentBlock[] {
   );
 }
 
-/** A course whose sole content is one full-module H5P package. */
-export function isSingleH5P(blocks: ContentBlock[]): H5PBlock | null {
-  if (blocks.length === 1 && blocks[0].type === "h5p") return blocks[0];
+/**
+ * A course delivered entirely as H5P pages (one or more H5P packages, played
+ * one per screen). Returns the ordered pages, or null if the course mixes in
+ * native blocks.
+ */
+export function allH5P(blocks: ContentBlock[]): H5PBlock[] | null {
+  if (blocks.length > 0 && blocks.every((b) => b.type === "h5p")) {
+    return blocks as H5PBlock[];
+  }
   return null;
 }

@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { parseBlocks, isSingleH5P } from "@/lib/content";
+import { parseBlocks, allH5P } from "@/lib/content";
 import { DashboardShell } from "@/components/dashboard-shell";
-import { H5PPlayer } from "@/components/content/h5p-player";
+import { H5PCoursePlayer } from "@/components/content/h5p-course-player";
 import { CoursePlayer } from "./course-player";
 
 export default async function CoursePage({
@@ -32,16 +32,17 @@ export default async function CoursePage({
   if (!course) notFound();
 
   const blocks = parseBlocks(course.content_blocks);
-  const h5p = isSingleH5P(blocks);
+  const h5pPages = allH5P(blocks);
 
   return (
     <DashboardShell title={course.title} context={context}>
-      {h5p ? (
-        <H5PPlayer
+      {h5pPages ? (
+        <H5PCoursePlayer
           enrolmentId={enrolment.id}
           courseId={courseId}
           title={course.title}
-          path={h5p.path}
+          pages={h5pPages}
+          initialBlock={enrolment.current_block ?? 0}
         />
       ) : (
         <CoursePlayer
