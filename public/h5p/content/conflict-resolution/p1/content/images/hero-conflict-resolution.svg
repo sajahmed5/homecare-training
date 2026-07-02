@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="De-escalating conflict calmly">
+  <rect width="640" height="220" rx="16" fill="#f0fdf4"/>
+  <text x="320" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#15803d">De-escalate calmly</text>
+  <defs><marker id="cr-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/></marker></defs>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(90 120)"><circle r="42" fill="#16a34a"/><text y="-2" fill="#fff" font-size="12" font-weight="700">Stay</text><text y="14" fill="#dcfce7" font-size="12" font-weight="700">calm</text><text y="66" fill="#166534" font-size="10">manage yourself</text></g>
+    <g transform="translate(250 120)"><circle r="42" fill="#16a34a"/><text y="2" fill="#fff" font-size="13" font-weight="700">Listen</text><text y="66" fill="#166534" font-size="10">show you understand</text></g>
+    <g transform="translate(410 120)"><circle r="42" fill="#16a34a"/><text y="-2" fill="#fff" font-size="12" font-weight="700">Give</text><text y="14" fill="#dcfce7" font-size="12" font-weight="700">space</text><text y="66" fill="#166534" font-size="10">no threat, offer choice</text></g>
+    <g transform="translate(560 120)"><circle r="42" fill="#16a34a"/><text y="-2" fill="#fff" font-size="12" font-weight="700">Get</text><text y="14" fill="#dcfce7" font-size="12" font-weight="700">help</text><text y="66" fill="#166534" font-size="10">withdraw if unsafe</text></g>
+  </g>
+  <g fill="none" stroke="#16a34a" stroke-width="3">
+    <path d="M136 120 h68" marker-end="url(#cr-arrow)"/>
+    <path d="M296 120 h68" marker-end="url(#cr-arrow)"/>
+    <path d="M456 120 h58" marker-end="url(#cr-arrow)"/>
+  </g>
+</svg>

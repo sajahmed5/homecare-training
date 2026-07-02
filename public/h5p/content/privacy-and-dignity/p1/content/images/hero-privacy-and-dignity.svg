@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" width="640" height="230" role="img" aria-label="Dignity in care: respect, privacy, choice and independence">
+  <rect width="640" height="230" rx="16" fill="#f0fdfa"/>
+  <text x="320" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#0f766e">Dignity in care — the small things matter</text>
+  <g transform="translate(90 130)">
+    <circle r="46" fill="#0d9488"/>
+    <path d="M0 20 C-24 2 -18 -18 0 -8 C18 -18 24 2 0 20 Z" fill="#ccfbf1"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#0f766e">
+    <g transform="translate(190 70)"><rect width="410" height="32" rx="16" fill="#fff" stroke="#99f6e4" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0d9488"/><text x="42" y="21">Protect privacy — knock, cover, close the door</text></g>
+    <g transform="translate(190 110)"><rect width="410" height="32" rx="16" fill="#fff" stroke="#99f6e4" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0d9488"/><text x="42" y="21">Respect choices and preferences</text></g>
+    <g transform="translate(190 150)"><rect width="410" height="32" rx="16" fill="#fff" stroke="#99f6e4" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0d9488"/><text x="42" y="21">Speak with — and about — people kindly</text></g>
+    <g transform="translate(190 190)"><rect width="410" height="32" rx="16" fill="#fff" stroke="#99f6e4" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0d9488"/><text x="42" y="21">Support independence and control</text></g>
+  </g>
+</svg>

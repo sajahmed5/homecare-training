@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" width="640" height="230" role="img" aria-label="Keeping personal information safe under UK GDPR">
+  <rect width="640" height="230" rx="16" fill="#f0f9ff"/>
+  <text x="320" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#0369a1">Keeping people's information safe</text>
+
+  <!-- padlock -->
+  <g transform="translate(100 135)">
+    <rect x="-40" y="-10" width="80" height="66" rx="12" fill="#0284c7"/>
+    <path d="M-24 -10 v-14 a24 24 0 0 1 48 0 v14" fill="none" stroke="#0284c7" stroke-width="10"/>
+    <circle cx="0" cy="18" r="9" fill="#fff"/>
+    <rect x="-4" y="20" width="8" height="18" rx="3" fill="#fff"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#075985">
+    <g transform="translate(200 72)"><rect width="400" height="32" rx="16" fill="#fff" stroke="#7dd3fc" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0284c7"/><text x="42" y="21">Collect only what you need, keep it accurate</text></g>
+    <g transform="translate(200 112)"><rect width="400" height="32" rx="16" fill="#fff" stroke="#7dd3fc" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0284c7"/><text x="42" y="21">Share only on a need-to-know basis</text></g>
+    <g transform="translate(200 152)"><rect width="400" height="32" rx="16" fill="#fff" stroke="#7dd3fc" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0284c7"/><text x="42" y="21">Store securely — passwords, locked screens</text></g>
+    <g transform="translate(200 192)"><rect width="400" height="32" rx="16" fill="#fff" stroke="#7dd3fc" stroke-width="2"/><circle cx="24" cy="16" r="6" fill="#0284c7"/><text x="42" y="21">Report a data breach straight away</text></g>
+  </g>
+</svg>
