@@ -157,8 +157,10 @@ spec.pages.forEach((page, i) => {
     preloadedDependencies: closure(used).map((m) => ({ machineName: m, majorVersion: byMachine[m].major, minorVersion: byMachine[m].minor })),
   };
   writeFileSync(join(dir, "h5p.json"), JSON.stringify(h5p, null, 1));
-  blocks.push({ type: "h5p", path: `${spec.slug}/p${i + 1}`, label: page.label });
-  console.log(`  p${i + 1} "${page.label}" — ${built.length} panel(s)`);
+  // Count gradeable questions the player will gate "Next" on.
+  const questions = page.items.filter((it) => ["multichoice", "dragtext", "truefalse"].includes(it.type)).length;
+  blocks.push({ type: "h5p", path: `${spec.slug}/p${i + 1}`, label: page.label, questions });
+  console.log(`  p${i + 1} "${page.label}" — ${built.length} panel(s), ${questions} question(s)`);
 });
 
 console.log(`Built ${spec.pages.length} pages for "${spec.courseTitle}" -> ${BASE}`);

@@ -10,9 +10,13 @@ import type { H5PBlock } from "@/lib/content";
 // Isolate the impure clock read from the component/hook bodies.
 const nowMs = () => Date.now();
 
+interface XapiEvent {
+  getVerb?: () => string | undefined;
+  data?: { statement?: { object?: { id?: string } } };
+}
 interface H5PGlobal {
   externalDispatcher?: {
-    on: (event: string, cb: (e: { getVerb?: () => string }) => void) => void;
+    on: (event: string, cb: (e: XapiEvent) => void) => void;
   };
 }
 declare global {
@@ -49,7 +53,17 @@ export function H5PCoursePlayer({
   const [loading, setLoading] = useState(true);
   const [finished, setFinished] = useState(false);
 
+  // Track which questions on the current page have been answered (by xAPI
+  // object id) so we can require them before "Next".
+  const answeredRef = useRef<Set<string>>(new Set());
+  const [answeredCount, setAnsweredCount] = useState(0);
+
   const progressPct = Math.round(((Math.max(reached, index) + 1) / total) * 100);
+
+  const requiredQuestions = pages[index].questions ?? 0;
+  // Only gate on a page the learner is reaching for the first time; revisiting
+  // an earlier page (index < reached) never blocks navigation.
+  const gated = requiredQuestions > 0 && index >= reached && answeredCount < requiredQuestions;
 
   // Persist current position + progress (fire-and-forget; RLS scopes it).
   const persist = useCallback(
@@ -69,12 +83,39 @@ export function H5PCoursePlayer({
     [enrolmentId, total, reached],
   );
 
+  // Listen once for H5P xAPI "answered"/"completed" statements and record the
+  // distinct interactions answered on the current page.
+  useEffect(() => {
+    let cancelled = false;
+    const timer = setInterval(() => {
+      const dispatcher = window.H5P?.externalDispatcher;
+      if (cancelled || !dispatcher) return;
+      clearInterval(timer);
+      dispatcher.on("xAPI", (e) => {
+        const verb = e.getVerb?.();
+        if (verb !== "answered" && verb !== "completed") return;
+        const id = e.data?.statement?.object?.id ?? `q-${answeredRef.current.size}`;
+        if (!answeredRef.current.has(id)) {
+          answeredRef.current.add(id);
+          setAnsweredCount(answeredRef.current.size);
+        }
+      });
+    }, 200);
+    return () => {
+      cancelled = true;
+      clearInterval(timer);
+    };
+  }, []);
+
   // (Re)mount the H5P package whenever the page changes.
   useEffect(() => {
     let disposed = false;
     const el = containerRef.current;
     if (!el) return;
     el.innerHTML = "";
+    // Reset the answered-question tracker for the new page.
+    answeredRef.current = new Set();
+    setAnsweredCount(0);
     setLoading(true);
     (async () => {
       try {
@@ -175,6 +216,14 @@ export function H5PCoursePlayer({
       {/* h5p-standalone mounts the current page here. */}
       <div ref={containerRef} className="h5p-mount" />
 
+      {/* Answer-required hint */}
+      {gated && !loading && (
+        <p className="text-center text-sm font-medium text-amber-600">
+          Answer the question{requiredQuestions > 1 ? "s" : ""} on this page to
+          continue ({answeredCount}/{requiredQuestions} answered).
+        </p>
+      )}
+
       {/* Navigation + save */}
       <div className="flex items-center justify-between gap-3 border-t pt-4">
         <Button variant="outline" onClick={() => goTo(index - 1)} disabled={index === 0}>
@@ -183,7 +232,9 @@ export function H5PCoursePlayer({
         <Button variant="ghost" onClick={saveAndExit}>
           Save &amp; come back later
         </Button>
-        <Button onClick={next}>{index < total - 1 ? "Next" : "Finish"}</Button>
+        <Button onClick={next} disabled={gated}>
+          {index < total - 1 ? "Next" : "Finish"}
+        </Button>
       </div>
     </div>
   );

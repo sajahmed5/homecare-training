@@ -40,6 +40,11 @@ export interface H5PBlock {
   path: string;
   /** Optional friendly name for the interaction (defaults to "Interactive"). */
   label?: string;
+  /**
+   * Number of gradeable questions on this page (MCQ / drag-text / true-false).
+   * The player requires all of them to be answered before allowing "Next".
+   */
+  questions?: number;
 }
 
 export type ContentBlock =
