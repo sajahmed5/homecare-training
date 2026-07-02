@@ -157,11 +157,11 @@ export default async function LearnerDashboard() {
 
         {/* Stat tiles */}
         <div className="grid gap-4 grid-cols-2 lg:grid-cols-5">
-          <StatTile label="Assigned" value={stats.assigned} icon={BookOpen} color="#0284c7" />
-          <StatTile label="In progress" value={stats.inProgress} icon={Clock} color="#d97706" />
-          <StatTile label="Completed" value={stats.completed} icon={CheckCircle2} color="#16a34a" />
-          <StatTile label="Certificates" value={stats.certificates} icon={Award} color="#7c3aed" />
-          <StatTile label="Need attention" value={stats.overdue + stats.expiring} icon={AlertTriangle} color="#e11d48" />
+          <StatTile label="Assigned" value={stats.assigned} icon={BookOpen} color="#0284c7" href="/learn/modules" />
+          <StatTile label="In progress" value={stats.inProgress} icon={Clock} color="#d97706" href="/learn/modules" />
+          <StatTile label="Completed" value={stats.completed} icon={CheckCircle2} color="#16a34a" href="/learn/modules/completed" />
+          <StatTile label="Certificates" value={stats.certificates} icon={Award} color="#7c3aed" href="/learn/certificates" />
+          <StatTile label="Need attention" value={stats.overdue + stats.expiring} icon={AlertTriangle} color="#e11d48" href="/learn/notifications" />
         </div>
 
         <div className="grid gap-6 lg:grid-cols-2">

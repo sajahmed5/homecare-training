@@ -68,14 +68,16 @@ export function StatTile({
   value,
   icon: Icon,
   color = "#0d9488",
+  href,
 }: {
   label: string;
   value: number | string;
   icon: LucideIcon;
   color?: string;
+  href?: string;
 }) {
-  return (
-    <div className="rounded-2xl border bg-card p-4 shadow-sm">
+  const inner = (
+    <>
       <div
         className="flex size-10 items-center justify-center rounded-xl"
         style={{ backgroundColor: tint(color), color }}
@@ -84,8 +86,21 @@ export function StatTile({
       </div>
       <p className="mt-3 text-3xl font-semibold tracking-tight">{value}</p>
       <p className="text-sm text-muted-foreground">{label}</p>
-    </div>
+    </>
   );
+
+  if (href) {
+    return (
+      <Link
+        href={href}
+        className="block rounded-2xl border bg-card p-4 shadow-sm transition-shadow hover:border-foreground/20 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+      >
+        {inner}
+      </Link>
+    );
+  }
+
+  return <div className="rounded-2xl border bg-card p-4 shadow-sm">{inner}</div>;
 }
 
 /** SVG progress ring with centred content. */
