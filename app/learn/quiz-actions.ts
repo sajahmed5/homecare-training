@@ -7,17 +7,20 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { generateCertificatePdf } from "@/lib/certificate";
 import {
   QUIZ_TARGET,
+  PASS_PERCENT,
   makeCertificateNumber,
   computeExpiry,
-  gradeQuiz,
-  type QuizQuestion,
+  gradeAnswer,
+  toPublicQuestion,
+  type PublicQuestion,
+  type StoredQuestion,
 } from "@/lib/quiz";
 
 export interface StartQuizResult {
   ok: boolean;
   error?: string;
   attemptId?: string;
-  questions?: QuizQuestion[];
+  questions?: PublicQuestion[];
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -47,14 +50,17 @@ export async function startQuizAction(
   const admin = createAdminClient();
   const { data: bank } = await admin
     .from("quiz_questions")
-    .select("id, question, options")
+    .select("id, type, question, options, answer_index, payload")
     .eq("course_id", courseId);
 
   if (!bank || bank.length === 0) {
     return { ok: false, error: "This course has no assessment questions yet." };
   }
 
-  const selected = shuffle(bank).slice(0, Math.min(QUIZ_TARGET, bank.length));
+  const selected = shuffle(bank as StoredQuestion[]).slice(
+    0,
+    Math.min(QUIZ_TARGET, bank.length),
+  );
 
   const { data: attempt, error } = await admin
     .from("quiz_attempts")
@@ -70,14 +76,11 @@ export async function startQuizAction(
     return { ok: false, error: "Could not start the assessment." };
   }
 
+  // Send an answer-stripped projection — correct answers never leave the server.
   return {
     ok: true,
     attemptId: attempt.id,
-    questions: selected.map((q) => ({
-      id: q.id as string,
-      question: q.question as string,
-      options: q.options as string[],
-    })),
+    questions: selected.map(toPublicQuestion),
   };
 }
 
@@ -94,7 +97,7 @@ export interface SubmitQuizResult {
 /** Grade an attempt server-side, update counters, and issue a certificate on a pass. */
 export async function submitQuizAction(
   attemptId: string,
-  answers: Record<string, number>,
+  answers: Record<string, unknown>,
 ): Promise<SubmitQuizResult> {
   const context = await requireRole("learner");
   const admin = createAdminClient();
@@ -114,18 +117,21 @@ export async function submitQuizAction(
   const questionIds = attempt.question_ids as string[];
   const { data: questions } = await admin
     .from("quiz_questions")
-    .select("id, answer_index")
+    .select("id, type, question, options, answer_index, payload")
     .in("id", questionIds);
 
-  const answerKey = new Map<string, number>(
-    (questions ?? []).map((q) => [q.id as string, q.answer_index as number]),
+  // Grade every question server-side against the stored answer key (per type).
+  const byId = new Map<string, StoredQuestion>(
+    (questions ?? []).map((q) => [q.id as string, q as StoredQuestion]),
   );
-
-  const { correct, total, score, passed } = gradeQuiz(
-    questionIds,
-    answerKey,
-    answers,
-  );
+  let correct = 0;
+  for (const id of questionIds) {
+    const q = byId.get(id);
+    if (q && gradeAnswer(q, answers[id])) correct += 1;
+  }
+  const total = questionIds.length;
+  const score = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const passed = score >= PASS_PERCENT;
 
   await admin
     .from("quiz_attempts")
