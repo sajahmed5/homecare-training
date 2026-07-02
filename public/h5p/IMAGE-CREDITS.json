@@ -258,5 +258,85 @@
     "alt": "group of people wearing white and orange backpacks walking on gray concrete pavement during daytime",
     "width": 1080,
     "height": 968
+  },
+  "wb-speakup.jpg": {
+    "query": "person raising hand in meeting",
+    "id": "0RDBOAdnbWM",
+    "photographer": "Jaime Lopes",
+    "photographerUrl": "https://unsplash.com/@jaimelopes",
+    "photoUrl": "https://unsplash.com/photos/people-raising-hands-with-bokeh-lights-0RDBOAdnbWM",
+    "alt": "people raising hands with bokeh lights",
+    "width": 1080,
+    "height": 720
+  },
+  "wb-report.jpg": {
+    "query": "serious conversation with manager office",
+    "id": "wrdvOKfgzRo",
+    "photographer": "airfocus",
+    "photographerUrl": "https://unsplash.com/@airfocus",
+    "photoUrl": "https://unsplash.com/photos/man-in-red-and-black-crew-neck-t-shirt-using-silver-macbook-wrdvOKfgzRo",
+    "alt": "man in red and black crew neck t-shirt using silver macbook",
+    "width": 1080,
+    "height": 720
+  },
+  "med-blister.jpg": {
+    "query": "blister pack tablets medication",
+    "id": "jwWtZrm67VI",
+    "photographer": "Christine Sandu",
+    "photographerUrl": "https://unsplash.com/@lenscapewithme",
+    "photoUrl": "https://unsplash.com/photos/white-and-blue-medication-pill-blister-pack-jwWtZrm67VI",
+    "alt": "white and blue medication pill blister pack",
+    "width": 1080,
+    "height": 755
+  },
+  "med-organiser.jpg": {
+    "query": "weekly pill organiser dosette box",
+    "id": "1TL8AoEDj_c",
+    "photographer": "Laurynas Me",
+    "photographerUrl": "https://unsplash.com/@laurynasm",
+    "photoUrl": "https://unsplash.com/photos/person-about-to-pick-medicine-from-medicine-organizer-1TL8AoEDj_c",
+    "alt": "person about to pick medicine from medicine organizer",
+    "width": 1080,
+    "height": 720
+  },
+  "mca-support.jpg": {
+    "query": "carer explaining document to elderly person",
+    "id": "bSXk1lOp8T0",
+    "photographer": "Age Cymru",
+    "photographerUrl": "https://unsplash.com/@agecymru",
+    "photoUrl": "https://unsplash.com/photos/caregiver-assisting-elderly-couple-with-coloring-bSXk1lOp8T0",
+    "alt": "Caregiver assisting elderly couple with coloring",
+    "width": 1080,
+    "height": 764
+  },
+  "mca-choice.jpg": {
+    "query": "elderly person hands making choice",
+    "id": "oydOFpht1QU",
+    "photographer": "أخٌ‌في‌الله",
+    "photographerUrl": "https://unsplash.com/@mhrezaa",
+    "photoUrl": "https://unsplash.com/photos/silver-colored-ring-oydOFpht1QU",
+    "alt": "silver-colored ring",
+    "width": 1080,
+    "height": 720
+  },
+  "food-prep.jpg": {
+    "query": "chopping fresh vegetables kitchen board",
+    "id": "WzrojlIzgyQ",
+    "photographer": "Peyman Shojaei",
+    "photographerUrl": "https://unsplash.com/@withpeyman",
+    "photoUrl": "https://unsplash.com/photos/a-person-chopping-green-vegetables-on-a-cutting-board-WzrojlIzgyQ",
+    "alt": "a person chopping green vegetables on a cutting board",
+    "width": 1080,
+    "height": 720
+  },
+  "food-meal.jpg": {
+    "query": "healthy balanced meal plate vegetables",
+    "id": "IGfIGP5ONV0",
+    "photographer": "Anna Pelzer",
+    "photographerUrl": "https://unsplash.com/@annapelzer",
+    "photoUrl": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+    "alt": "bowl of vegetable salads",
+    "width": 1080,
+    "height": 720
   }
 }

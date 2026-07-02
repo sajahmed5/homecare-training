@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" width="660" height="230" role="img" aria-label="The 4 Cs of food safety: cleaning, cooking, chilling, cross-contamination">
+  <rect width="660" height="230" rx="16" fill="#f0fdf4"/>
+  <text x="330" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#15803d">The 4 Cs of food safety</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(90 70)">
+      <rect width="130" height="120" rx="12" fill="#fff" stroke="#86efac" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#16a34a"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">C</text>
+      <text x="65" y="86" fill="#166534" font-size="14" font-weight="700">Cleaning</text>
+      <text x="65" y="104" fill="#15803d" font-size="10">hands &amp; surfaces</text>
+    </g>
+    <g transform="translate(240 70)">
+      <rect width="130" height="120" rx="12" fill="#fff" stroke="#86efac" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#16a34a"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">C</text>
+      <text x="65" y="86" fill="#166534" font-size="14" font-weight="700">Cooking</text>
+      <text x="65" y="104" fill="#15803d" font-size="10">75°C right through</text>
+    </g>
+    <g transform="translate(390 70)">
+      <rect width="130" height="120" rx="12" fill="#fff" stroke="#86efac" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#16a34a"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">C</text>
+      <text x="65" y="86" fill="#166534" font-size="14" font-weight="700">Chilling</text>
+      <text x="65" y="104" fill="#15803d" font-size="10">fridge 5°C or below</text>
+    </g>
+    <g transform="translate(540 70)">
+      <rect width="130" height="120" rx="12" fill="#fff" stroke="#86efac" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#16a34a"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">C</text>
+      <text x="65" y="82" fill="#166534" font-size="12" font-weight="700">Cross-</text>
+      <text x="65" y="97" fill="#166534" font-size="12" font-weight="700">contamination</text>
+      <text x="65" y="112" fill="#15803d" font-size="10">keep raw apart</text>
+    </g>
+  </g>
+</svg>

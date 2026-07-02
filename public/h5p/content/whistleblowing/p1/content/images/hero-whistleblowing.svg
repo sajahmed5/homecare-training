@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" width="640" height="250" role="img" aria-label="Whistleblowing: see it, report it, protected">
+  <rect width="640" height="250" rx="16" fill="#fff1f2"/>
+  <text x="320" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#be123c">Speak up — raising a concern</text>
+
+  <!-- whistle -->
+  <g transform="translate(90 130)">
+    <rect x="-30" y="-22" width="52" height="44" rx="10" fill="#e11d48"/>
+    <circle cx="30" cy="0" r="22" fill="#e11d48"/>
+    <circle cx="30" cy="0" r="9" fill="#fff1f2"/>
+    <rect x="-8" y="-30" width="16" height="10" rx="3" fill="#9f1239"/>
+    <g stroke="#fca5a5" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M-40 -18 q-14 0 -20 -8"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></path>
+      <path d="M-42 0 h-22"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.3s" repeatCount="indefinite"/></path>
+      <path d="M-40 18 q-14 0 -20 8"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.6s" repeatCount="indefinite"/></path>
+    </g>
+  </g>
+
+  <!-- steps -->
+  <defs><marker id="wb-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e11d48"/></marker></defs>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(300 130)"><rect x="-70" y="-30" width="140" height="60" rx="12" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="-4" fill="#be123c" font-size="13" font-weight="700">See wrongdoing</text><text y="16" fill="#9f1239" font-size="10">risk, abuse, malpractice</text></g>
+    <g transform="translate(500 130)"><rect x="-70" y="-30" width="140" height="60" rx="12" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="-4" fill="#be123c" font-size="13" font-weight="700">Report it</text><text y="16" fill="#9f1239" font-size="10">manager / lead / CQC</text></g>
+  </g>
+  <path d="M382 130 h44" fill="none" stroke="#e11d48" stroke-width="3" marker-end="url(#wb-arrow)"/>
+  <text x="320" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#9f1239">The law protects you when you raise a genuine concern in the public interest</text>
+</svg>
