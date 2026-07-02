@@ -1,0 +1,102 @@
+{
+  "fire-electrical.jpg": {
+    "query": "overloaded electrical extension plug socket",
+    "id": "exfrR9KkzlE",
+    "photographer": "Clint Patterson",
+    "photographerUrl": "https://unsplash.com/@cbpsc1",
+    "photoUrl": "https://unsplash.com/photos/black-male-plug-in-front-of-electric-socket-exfrR9KkzlE",
+    "alt": "black male plug in front of electric socket",
+    "width": 1080,
+    "height": 721
+  },
+  "fire-extinguishers.jpg": {
+    "query": "red fire extinguishers row",
+    "id": "PWOV__8cRpw",
+    "photographer": "Tak Kei Wong",
+    "photographerUrl": "https://unsplash.com/@kevphotomcr",
+    "photoUrl": "https://unsplash.com/photos/red-fire-extinguisher-on-gray-wall-PWOV__8cRpw",
+    "alt": "red fire extinguisher on gray wall",
+    "width": 1080,
+    "height": 720
+  },
+  "ipc-handwashing.jpg": {
+    "query": "washing hands soap water sink hygiene",
+    "id": "Ks4RTBgQ_64",
+    "photographer": "Mélissa Jeanty",
+    "photographerUrl": "https://unsplash.com/@meljeanty",
+    "photoUrl": "https://unsplash.com/photos/person-in-white-shirt-washing-hands-Ks4RTBgQ_64",
+    "alt": "person in white shirt washing hands",
+    "width": 1080,
+    "height": 720
+  },
+  "ipc-ppe.jpg": {
+    "query": "healthcare worker gloves apron mask ppe",
+    "id": "Jeanfy1trxI",
+    "photographer": "Jan Kopřiva",
+    "photographerUrl": "https://unsplash.com/@jxk",
+    "photoUrl": "https://unsplash.com/photos/a-person-in-blue-gloves-and-blue-gloves-Jeanfy1trxI",
+    "alt": "a person in blue gloves and blue gloves",
+    "width": 1080,
+    "height": 720
+  },
+  "ipc-cleaning.jpg": {
+    "query": "cleaning surface disinfectant gloves",
+    "id": "-9gPKrsbGmc",
+    "photographer": "Towfiqu barbhuiya",
+    "photographerUrl": "https://unsplash.com/@towfiqu999999",
+    "photoUrl": "https://unsplash.com/photos/person-in-blue-long-sleeve-shirt-sitting-beside-black-laptop-computer--9gPKrsbGmc",
+    "alt": "person in blue long sleeve shirt sitting beside black laptop computer",
+    "width": 1080,
+    "height": 720
+  },
+  "hs-wetfloor.jpg": {
+    "query": "wet floor caution sign yellow",
+    "id": "W-MQQDdO4Oc",
+    "photographer": "Lx1",
+    "photographerUrl": "https://unsplash.com/@lx1",
+    "photoUrl": "https://unsplash.com/photos/a-yellow-caution-sign-sitting-on-top-of-a-sidewalk-W-MQQDdO4Oc",
+    "alt": "A yellow caution sign sitting on top of a sidewalk",
+    "width": 1080,
+    "height": 716
+  },
+  "hs-support.jpg": {
+    "query": "carer supporting elderly person walking",
+    "id": "VUOiQW4OeLI",
+    "photographer": "Dominik Lange",
+    "photographerUrl": "https://unsplash.com/@the_real_napster",
+    "photoUrl": "https://unsplash.com/photos/woman-standing-next-to-woman-riding-wheelchair-VUOiQW4OeLI",
+    "alt": "woman standing next to woman riding wheelchair",
+    "width": 1080,
+    "height": 720
+  },
+  "sg-hands.jpg": {
+    "query": "holding hands elderly care compassion",
+    "id": "BxXgTQEw1M4",
+    "photographer": "National Cancer Institute",
+    "photographerUrl": "https://unsplash.com/@nci",
+    "photoUrl": "https://unsplash.com/photos/person-wearing-gold-wedding-band-BxXgTQEw1M4",
+    "alt": "person wearing gold wedding band",
+    "width": 1080,
+    "height": 720
+  },
+  "sg-conversation.jpg": {
+    "query": "carer listening talking with elderly woman",
+    "id": "6RZXBjjAtbU",
+    "photographer": "Age Cymru",
+    "photographerUrl": "https://unsplash.com/@agecymru",
+    "photoUrl": "https://unsplash.com/photos/two-elderly-women-sitting-and-talking-6RZXBjjAtbU",
+    "alt": "Two elderly women sitting and talking",
+    "width": 1080,
+    "height": 720
+  },
+  "fire-alarm.jpg": {
+    "query": "fire alarm red wall building",
+    "id": "T-y-hZzNXWA",
+    "photographer": "Jakub Żerdzicki",
+    "photographerUrl": "https://unsplash.com/@jakubzerdzicki",
+    "photoUrl": "https://unsplash.com/photos/a-red-and-white-sign-on-a-concrete-wall-T-y-hZzNXWA",
+    "alt": "a red and white sign on a concrete wall",
+    "width": 1080,
+    "height": 720
+  }
+}

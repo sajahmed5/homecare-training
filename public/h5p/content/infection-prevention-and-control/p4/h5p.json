@@ -19,6 +19,11 @@
    "minorVersion": 1
   },
   {
+   "machineName": "H5P.Image",
+   "majorVersion": 1,
+   "minorVersion": 1
+  },
+  {
    "machineName": "H5P.DragText",
    "majorVersion": 1,
    "minorVersion": 10

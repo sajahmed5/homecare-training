@@ -59,7 +59,9 @@ let panelWrap = (library, params, title) => ({
   useSeparator: "auto",
 });
 
-const imgRef = (file, w, h) => ({ path: `images/${file}`, mime: "image/svg+xml", width: w || 360, height: h || 200, copyright: { license: "U" } });
+const MIME = { svg: "image/svg+xml", jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp" };
+const mimeFor = (file) => MIME[file.split(".").pop().toLowerCase()] || "image/svg+xml";
+const imgRef = (file, w, h) => ({ path: `images/${file}`, mime: mimeFor(file), width: w || 360, height: h || 200, copyright: { license: "U" } });
 
 // --- item -> {panel, library, assets[]} --------------------------------------
 function buildItem(it) {
