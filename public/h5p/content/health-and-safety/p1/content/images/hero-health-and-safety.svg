@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="The five steps of risk assessment">
+  <rect width="640" height="220" rx="16" fill="#fffbeb"/>
+  <text x="320" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#b45309">The 5 steps of risk assessment</text>
+
+  <defs>
+    <marker id="hs-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#d97706"/>
+    </marker>
+  </defs>
+
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <!-- 5 numbered steps -->
+    <g transform="translate(80 130)">
+      <circle r="34" fill="#d97706"/><text y="-4" fill="#fff" font-size="20" font-weight="800">1</text><text y="12" fill="#fef3c7" font-size="8">hazards</text>
+      <text y="58" fill="#92400e" font-size="10" font-weight="600">Identify</text>
+    </g>
+    <g transform="translate(210 130)">
+      <circle r="34" fill="#d97706"/><text y="-4" fill="#fff" font-size="20" font-weight="800">2</text><text y="12" fill="#fef3c7" font-size="8">at risk</text>
+      <text y="58" fill="#92400e" font-size="10" font-weight="600">Who &amp; how</text>
+    </g>
+    <g transform="translate(340 130)">
+      <circle r="34" fill="#d97706"/><text y="-4" fill="#fff" font-size="20" font-weight="800">3</text><text y="12" fill="#fef3c7" font-size="8">control</text>
+      <text y="58" fill="#92400e" font-size="10" font-weight="600">Evaluate</text>
+    </g>
+    <g transform="translate(470 130)">
+      <circle r="34" fill="#d97706"/><text y="-4" fill="#fff" font-size="20" font-weight="800">4</text><text y="12" fill="#fef3c7" font-size="8">findings</text>
+      <text y="58" fill="#92400e" font-size="10" font-weight="600">Record</text>
+    </g>
+    <g transform="translate(600 130)">
+      <circle r="34" fill="#d97706"/><text y="-4" fill="#fff" font-size="20" font-weight="800">5</text><text y="12" fill="#fef3c7" font-size="8">&amp; update</text>
+      <text y="58" fill="#92400e" font-size="10" font-weight="600">Review</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#d97706" stroke-width="3">
+    <path d="M120 130 h56" marker-end="url(#hs-arrow)"/>
+    <path d="M250 130 h56" marker-end="url(#hs-arrow)"/>
+    <path d="M380 130 h56" marker-end="url(#hs-arrow)"/>
+    <path d="M510 130 h56" marker-end="url(#hs-arrow)"/>
+  </g>
+</svg>

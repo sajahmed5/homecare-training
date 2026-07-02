@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" role="img" aria-label="The six principles of safeguarding around a shield">
+  <rect width="620" height="300" rx="16" fill="#fff1f2"/>
+  <text x="310" y="34" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#be123c">The six safeguarding principles</text>
+
+  <!-- central shield -->
+  <g transform="translate(310 165)">
+    <path d="M0 -66 C34 -50 60 -50 66 -46 C66 20 40 56 0 74 C-40 56 -66 20 -66 -46 C-60 -50 -34 -50 0 -66 Z" fill="#e11d48"/>
+    <path d="M-22 0 l14 16 30 -34" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- six principle pills -->
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-size="12" font-weight="600">
+    <g transform="translate(120 80)"><rect x="-72" y="-17" width="144" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Empowerment</text></g>
+    <g transform="translate(120 165)"><rect x="-72" y="-17" width="144" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Prevention</text></g>
+    <g transform="translate(120 250)"><rect x="-84" y="-17" width="168" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Proportionality</text></g>
+    <g transform="translate(500 80)"><rect x="-72" y="-17" width="144" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Protection</text></g>
+    <g transform="translate(500 165)"><rect x="-72" y="-17" width="144" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Partnership</text></g>
+    <g transform="translate(500 250)"><rect x="-80" y="-17" width="160" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Accountability</text></g>
+  </g>
+</svg>

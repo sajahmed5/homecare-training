@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" role="img" aria-label="The chain of infection and how to break it">
+  <rect width="620" height="260" rx="16" fill="#f5f3ff"/>
+  <text x="310" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#6d28d9">The chain of infection</text>
+  <text x="310" y="57" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#7c3aed">Break any link and you stop the spread</text>
+
+  <defs>
+    <marker id="ic-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#a78bfa"/>
+    </marker>
+  </defs>
+
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <!-- 6 links arranged around -->
+    <g transform="translate(90 120)"><circle r="34" fill="#7c3aed"/><text y="-2" fill="#fff" font-size="9" font-weight="700">Infectious</text><text y="10" fill="#ede9fe" font-size="9">agent</text></g>
+    <g transform="translate(230 100)"><circle r="34" fill="#7c3aed"/><text y="2" fill="#fff" font-size="10" font-weight="700">Reservoir</text></g>
+    <g transform="translate(370 100)"><circle r="34" fill="#7c3aed"/><text y="-2" fill="#fff" font-size="9" font-weight="700">Portal of</text><text y="10" fill="#ede9fe" font-size="9">exit</text></g>
+    <g transform="translate(510 120)"><circle r="34" fill="#7c3aed"/><text y="2" fill="#fff" font-size="9" font-weight="700">Transmission</text></g>
+    <g transform="translate(370 200)"><circle r="34" fill="#7c3aed"/><text y="-2" fill="#fff" font-size="9" font-weight="700">Portal of</text><text y="10" fill="#ede9fe" font-size="9">entry</text></g>
+    <g transform="translate(200 200)"><circle r="34" fill="#7c3aed"/><text y="-2" fill="#fff" font-size="9" font-weight="700">Susceptible</text><text y="10" fill="#ede9fe" font-size="9">host</text></g>
+  </g>
+
+  <!-- connecting arrows -->
+  <g fill="none" stroke="#a78bfa" stroke-width="2.5">
+    <path d="M124 112 q40 -20 74 -8" marker-end="url(#ic-arrow)"/>
+    <path d="M264 100 h72" marker-end="url(#ic-arrow)"/>
+    <path d="M404 108 q40 4 74 8" marker-end="url(#ic-arrow)"/>
+    <path d="M498 150 q-40 40 -92 44" marker-end="url(#ic-arrow)"/>
+    <path d="M336 200 h-100" marker-end="url(#ic-arrow)"/>
+    <path d="M172 178 q-40 -30 -60 -34" marker-end="url(#ic-arrow)"/>
+  </g>
+</svg>
