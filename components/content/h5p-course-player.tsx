@@ -83,28 +83,18 @@ export function H5PCoursePlayer({
     [enrolmentId, total, reached],
   );
 
-  // Listen once for H5P xAPI "answered"/"completed" statements and record the
-  // distinct interactions answered on the current page.
-  useEffect(() => {
-    let cancelled = false;
-    const timer = setInterval(() => {
-      const dispatcher = window.H5P?.externalDispatcher;
-      if (cancelled || !dispatcher) return;
-      clearInterval(timer);
-      dispatcher.on("xAPI", (e) => {
-        const verb = e.getVerb?.();
-        if (verb !== "answered" && verb !== "completed") return;
-        const id = e.data?.statement?.object?.id ?? `q-${answeredRef.current.size}`;
-        if (!answeredRef.current.has(id)) {
-          answeredRef.current.add(id);
-          setAnsweredCount(answeredRef.current.size);
-        }
-      });
-    }, 200);
-    return () => {
-      cancelled = true;
-      clearInterval(timer);
-    };
+  // Dispatchers we've already hooked (parent + each page's iframe), so we don't
+  // attach the same handler twice.
+  const attachedRef = useRef<Set<object>>(new Set());
+  // Record a distinct answered/completed interaction on the current page.
+  const onXapi = useCallback((e: XapiEvent) => {
+    const verb = e.getVerb?.();
+    if (verb !== "answered" && verb !== "completed") return;
+    const id = e.data?.statement?.object?.id ?? `q-${answeredRef.current.size}`;
+    if (!answeredRef.current.has(id)) {
+      answeredRef.current.add(id);
+      setAnsweredCount(answeredRef.current.size);
+    }
   }, []);
 
   // (Re)mount the H5P package whenever the page changes.
@@ -117,6 +107,25 @@ export function H5PCoursePlayer({
     answeredRef.current = new Set();
     setAnsweredCount(0);
     setLoading(true);
+
+    // Each page mounts a fresh H5P (often inside a new iframe), so hook the
+    // xAPI dispatcher on both the parent and this page's iframe, retrying while
+    // the iframe's H5P initialises.
+    const attach = () => {
+      const iframe = el.querySelector("iframe") as HTMLIFrameElement | null;
+      const dispatchers = [
+        window.H5P?.externalDispatcher,
+        iframe?.contentWindow?.H5P?.externalDispatcher,
+      ];
+      for (const d of dispatchers) {
+        if (d && !attachedRef.current.has(d)) {
+          attachedRef.current.add(d);
+          d.on("xAPI", onXapi);
+        }
+      }
+    };
+    const attachTimer = setInterval(attach, 200);
+
     (async () => {
       try {
         const { H5P } = await import("h5p-standalone");
@@ -127,7 +136,10 @@ export function H5PCoursePlayer({
           frameJs: "/h5p/assets/frame.bundle.js",
           frameCss: "/h5p/assets/styles/h5p.css",
         });
-        if (!disposed) setLoading(false);
+        if (!disposed) {
+          setLoading(false);
+          attach();
+        }
       } catch (err) {
         console.error("H5P load failed", err);
         if (!disposed) setLoading(false);
@@ -135,8 +147,9 @@ export function H5PCoursePlayer({
     })();
     return () => {
       disposed = true;
+      clearInterval(attachTimer);
     };
-  }, [index, pages]);
+  }, [index, pages, onXapi]);
 
   // Best-effort save if the learner leaves mid-page.
   useEffect(() => {
