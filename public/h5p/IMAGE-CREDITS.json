@@ -178,5 +178,85 @@
     "alt": "person holding white ceramic teacup",
     "width": 1080,
     "height": 720
+  },
+  "bls-cpr.jpg": {
+    "query": "CPR chest compressions training manikin",
+    "id": "24zAUw5c2R4",
+    "photographer": "Tim Cooper",
+    "photographerUrl": "https://unsplash.com/@tcooper86",
+    "photoUrl": "https://unsplash.com/photos/cpr-dummy-24zAUw5c2R4",
+    "alt": "CPR dummy",
+    "width": 1080,
+    "height": 720
+  },
+  "bls-aed.jpg": {
+    "query": "defibrillator green cabinet outdoor",
+    "id": "dCTPe3CZTz8",
+    "photographer": "Yuri Krupenin",
+    "photographerUrl": "https://unsplash.com/@cubeofwood",
+    "photoUrl": "https://unsplash.com/photos/ashtray-on-a-green-wooden-crate-outdoors-dCTPe3CZTz8",
+    "alt": "Ashtray on a green wooden crate outdoors.",
+    "width": 1080,
+    "height": 720
+  },
+  "mh-hoist.jpg": {
+    "query": "mobility hoist patient care equipment",
+    "id": "MIBHIZ1xwbU",
+    "photographer": "Josh Keys",
+    "photographerUrl": "https://unsplash.com/@joshkeys",
+    "photoUrl": "https://unsplash.com/photos/people-in-wheelchairs-and-mobility-scooters-outside-shop-MIBHIZ1xwbU",
+    "alt": "People in wheelchairs and mobility scooters outside shop",
+    "width": 1080,
+    "height": 721
+  },
+  "mh-assist.jpg": {
+    "query": "carer helping elderly person stand from chair",
+    "id": "I626rRZB-xE",
+    "photographer": "zhang kaiyv",
+    "photographerUrl": "https://unsplash.com/@zhangkaiyv",
+    "photoUrl": "https://unsplash.com/photos/man-in-blue-polo-shirt-and-blue-denim-jeans-standing-beside-woman-in-black-and-white-I626rRZB-xE",
+    "alt": "man in blue polo shirt and blue denim jeans standing beside woman in black and white",
+    "width": 1080,
+    "height": 720
+  },
+  "fa-kit.jpg": {
+    "query": "first aid kit box open supplies",
+    "id": "j-ped4HD32Q",
+    "photographer": "Ploegerson",
+    "photographerUrl": "https://unsplash.com/@boombasti",
+    "photoUrl": "https://unsplash.com/photos/orange-erste-hilfe-med-kit-j-ped4HD32Q",
+    "alt": "orange Erste Hilfe med kit",
+    "width": 1080,
+    "height": 810
+  },
+  "fa-bandage.jpg": {
+    "query": "applying bandage to hand first aid",
+    "id": "SwWjCbIIoFE",
+    "photographer": "Diana Polekhina",
+    "photographerUrl": "https://unsplash.com/@diana_pole",
+    "photoUrl": "https://unsplash.com/photos/person-with-band-aid-on-middle-finger-SwWjCbIIoFE",
+    "alt": "person with band aid on middle finger",
+    "width": 1080,
+    "height": 720
+  },
+  "sc-hands.jpg": {
+    "query": "child hand holding adult hand",
+    "id": "_yER0N7ztEE",
+    "photographer": "Cristofer Maximilian",
+    "photographerUrl": "https://unsplash.com/@cristofer",
+    "photoUrl": "https://unsplash.com/photos/a-person-holding-a-small-green-insect-in-their-hand-_yER0N7ztEE",
+    "alt": "a person holding a small green insect in their hand",
+    "width": 1080,
+    "height": 720
+  },
+  "sc-school.jpg": {
+    "query": "children walking to school backpacks",
+    "id": "CYlPykF-qAM",
+    "photographer": "note thanun",
+    "photographerUrl": "https://unsplash.com/@notethanun",
+    "photoUrl": "https://unsplash.com/photos/group-of-people-wearing-white-and-orange-backpacks-walking-on-gray-concrete-pavement-during-daytime-CYlPykF-qAM",
+    "alt": "group of people wearing white and orange backpacks walking on gray concrete pavement during daytime",
+    "width": 1080,
+    "height": 968
   }
 }

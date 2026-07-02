@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" width="660" height="230" role="img" aria-label="TILE: assess the Task, Individual, Load and Environment before moving">
+  <rect width="660" height="230" rx="16" fill="#fffbeb"/>
+  <text x="330" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#b45309">Assess before you move — TILE</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(90 70)">
+      <rect x="0" y="0" width="130" height="120" rx="12" fill="#fff" stroke="#fcd34d" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#d97706"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">T</text>
+      <text x="65" y="86" fill="#92400e" font-size="14" font-weight="700">Task</text>
+      <text x="65" y="104" fill="#a16207" font-size="10">what's involved?</text>
+    </g>
+    <g transform="translate(240 70)">
+      <rect x="0" y="0" width="130" height="120" rx="12" fill="#fff" stroke="#fcd34d" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#d97706"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">I</text>
+      <text x="65" y="86" fill="#92400e" font-size="14" font-weight="700">Individual</text>
+      <text x="65" y="104" fill="#a16207" font-size="10">the handler</text>
+    </g>
+    <g transform="translate(390 70)">
+      <rect x="0" y="0" width="130" height="120" rx="12" fill="#fff" stroke="#fcd34d" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#d97706"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">L</text>
+      <text x="65" y="86" fill="#92400e" font-size="14" font-weight="700">Load</text>
+      <text x="65" y="104" fill="#a16207" font-size="10">person or object</text>
+    </g>
+    <g transform="translate(540 70)">
+      <rect x="0" y="0" width="130" height="120" rx="12" fill="#fff" stroke="#fcd34d" stroke-width="2"/>
+      <circle cx="65" cy="40" r="24" fill="#d97706"/><text x="65" y="49" fill="#fff" font-size="26" font-weight="800">E</text>
+      <text x="65" y="86" fill="#92400e" font-size="14" font-weight="700">Environment</text>
+      <text x="65" y="104" fill="#a16207" font-size="10">space &amp; floor</text>
+    </g>
+  </g>
+</svg>

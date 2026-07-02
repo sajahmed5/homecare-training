@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 280" width="620" height="280" role="img" aria-label="Safeguarding children: recognising the four categories of abuse">
+  <rect width="620" height="280" rx="16" fill="#fff1f2"/>
+  <text x="310" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#be123c">Safeguarding children is everyone's responsibility</text>
+
+  <!-- shield with child -->
+  <g transform="translate(310 165)">
+    <path d="M0 -70 C36 -52 62 -52 68 -48 C68 22 40 58 0 78 C-40 58 -68 22 -68 -48 C-62 -52 -36 -52 0 -70 Z" fill="#e11d48"/>
+    <circle cx="0" cy="-18" r="15" fill="#fff"/>
+    <path d="M-20 26 a20 24 0 0 1 40 0 z" fill="#fff"/>
+  </g>
+
+  <!-- four category pills -->
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-size="12" font-weight="600">
+    <g transform="translate(120 110)"><rect x="-64" y="-17" width="128" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Physical</text></g>
+    <g transform="translate(120 210)"><rect x="-64" y="-17" width="128" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Emotional</text></g>
+    <g transform="translate(500 110)"><rect x="-64" y="-17" width="128" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Sexual</text></g>
+    <g transform="translate(500 210)"><rect x="-64" y="-17" width="128" height="34" rx="17" fill="#fff" stroke="#fecdd3" stroke-width="2"/><text y="4" fill="#be123c">Neglect</text></g>
+  </g>
+</svg>
