@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" width="660" height="240" role="img" aria-label="The 6 Cs of care: care, compassion, competence, communication, courage, commitment">
+  <rect width="660" height="240" rx="16" fill="#f0fdfa"/>
+  <text x="330" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f766e">The 6 Cs of care</text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <!-- 6 circles -->
+    <g transform="translate(80 120)"><circle r="40" fill="#0d9488"/><text y="8" fill="#fff" font-size="30" font-weight="800">C</text><text y="66" fill="#0f766e" font-size="12" font-weight="600">Care</text></g>
+    <g transform="translate(210 120)"><circle r="40" fill="#0d9488"/><text y="8" fill="#fff" font-size="30" font-weight="800">C</text><text y="66" fill="#0f766e" font-size="12" font-weight="600">Compassion</text></g>
+    <g transform="translate(340 120)"><circle r="40" fill="#0d9488"/><text y="8" fill="#fff" font-size="30" font-weight="800">C</text><text y="66" fill="#0f766e" font-size="12" font-weight="600">Competence</text></g>
+    <g transform="translate(470 120)"><circle r="40" fill="#0d9488"/><text y="8" fill="#fff" font-size="30" font-weight="800">C</text><text y="66" fill="#0f766e" font-size="11" font-weight="600">Communication</text></g>
+    <g transform="translate(580 120)"><circle r="40" fill="#0d9488"/><text y="8" fill="#fff" font-size="30" font-weight="800">C</text><text y="66" fill="#0f766e" font-size="12" font-weight="600">Courage</text></g>
+  </g>
+  <text x="330" y="228" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#115e59">…and Commitment — the values behind everything a care worker does</text>
+</svg>

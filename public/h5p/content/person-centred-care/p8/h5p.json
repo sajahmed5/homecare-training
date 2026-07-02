@@ -1,0 +1,22 @@
+{
+ "title": "Person-Centred Care — Small things",
+ "language": "en",
+ "mainLibrary": "H5P.Column",
+ "embedTypes": [
+  "div"
+ ],
+ "license": "U",
+ "defaultLanguage": "en",
+ "preloadedDependencies": [
+  {
+   "machineName": "H5P.Column",
+   "majorVersion": 1,
+   "minorVersion": 18
+  },
+  {
+   "machineName": "H5P.AdvancedText",
+   "majorVersion": 1,
+   "minorVersion": 1
+  }
+ ]
+}

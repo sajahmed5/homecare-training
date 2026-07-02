@@ -98,5 +98,85 @@
     "alt": "a red and white sign on a concrete wall",
     "width": 1080,
     "height": 720
+  },
+  "intro-carer.jpg": {
+    "query": "care worker smiling with elderly resident",
+    "id": "c4Fl1BKDJLQ",
+    "photographer": "Adelson Gomz",
+    "photographerUrl": "https://unsplash.com/@adelsojgp",
+    "photoUrl": "https://unsplash.com/photos/an-old-man-and-a-young-woman-are-smiling-c4Fl1BKDJLQ",
+    "alt": "an old man and a young woman are smiling",
+    "width": 1080,
+    "height": 720
+  },
+  "intro-team.jpg": {
+    "query": "care team support meeting",
+    "id": "WY5kuE0R4-k",
+    "photographer": "TienDat Nguyen",
+    "photographerUrl": "https://unsplash.com/@tiend_",
+    "photoUrl": "https://unsplash.com/photos/2-women-sitting-on-black-sofa-WY5kuE0R4-k",
+    "alt": "2 women sitting on black sofa",
+    "width": 1080,
+    "height": 720
+  },
+  "edi-diverse.jpg": {
+    "query": "diverse group of people portrait",
+    "id": "q1jHh0MWTFk",
+    "photographer": "Vitaly Gariev",
+    "photographerUrl": "https://unsplash.com/@silverkblack",
+    "photoUrl": "https://unsplash.com/photos/diverse-group-of-professionals-standing-together-indoors-q1jHh0MWTFk",
+    "alt": "Diverse group of professionals standing together indoors.",
+    "width": 1080,
+    "height": 608
+  },
+  "edi-access.jpg": {
+    "query": "wheelchair ramp accessibility building",
+    "id": "UudGNHJdNSo",
+    "photographer": "AbsolutVision",
+    "photographerUrl": "https://unsplash.com/@codzilla_swiss",
+    "photoUrl": "https://unsplash.com/photos/handicap-symbol-UudGNHJdNSo",
+    "alt": "handicap symbol",
+    "width": 1080,
+    "height": 720
+  },
+  "duty-conversation.jpg": {
+    "query": "care worker serious conversation with resident",
+    "id": "GPrh_GLiWCI",
+    "photographer": "Age Cymru",
+    "photographerUrl": "https://unsplash.com/@agecymru",
+    "photoUrl": "https://unsplash.com/photos/two-women-laughing-together-indoors-GPrh_GLiWCI",
+    "alt": "Two women laughing together indoors.",
+    "width": 1080,
+    "height": 764
+  },
+  "duty-records.jpg": {
+    "query": "writing notes clipboard healthcare records",
+    "id": "J5UTvRgse7Q",
+    "photographer": "Nappy",
+    "photographerUrl": "https://unsplash.com/@nappystudio",
+    "photoUrl": "https://unsplash.com/photos/a-doctor-showing-a-patient-something-on-the-tablet-J5UTvRgse7Q",
+    "alt": "a doctor showing a patient something on the tablet",
+    "width": 1080,
+    "height": 720
+  },
+  "pcc-listening.jpg": {
+    "query": "carer chatting smiling elderly woman",
+    "id": "MMhazsT2wtM",
+    "photographer": "Tatiana Zanon",
+    "photographerUrl": "https://unsplash.com/@tatizanon",
+    "photoUrl": "https://unsplash.com/photos/smiling-woman-in-gray-cardigan-MMhazsT2wtM",
+    "alt": "smiling woman in gray cardigan",
+    "width": 1080,
+    "height": 720
+  },
+  "pcc-comfort.jpg": {
+    "query": "elderly hands holding cup of tea",
+    "id": "L30rgHYSyuU",
+    "photographer": "Claudia Love",
+    "photographerUrl": "https://unsplash.com/@claudz",
+    "photoUrl": "https://unsplash.com/photos/person-holding-white-ceramic-teacup-L30rgHYSyuU",
+    "alt": "person holding white ceramic teacup",
+    "width": 1080,
+    "height": 720
   }
 }

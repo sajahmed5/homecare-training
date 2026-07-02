@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" role="img" aria-label="Equality, diversity and inclusion overlapping to give fair care for all">
+  <rect width="620" height="300" rx="16" fill="#f0fdfa"/>
+  <text x="310" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#0f766e">Equality, diversity &amp; inclusion</text>
+
+  <!-- three overlapping circles (Venn) -->
+  <g opacity="0.75">
+    <circle cx="250" cy="160" r="90" fill="#5eead4"/>
+    <circle cx="370" cy="160" r="90" fill="#2dd4bf"/>
+    <circle cx="310" cy="235" r="90" fill="#14b8a6"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <text x="205" y="130" font-size="14" fill="#0f766e">Equality</text>
+    <text x="205" y="148" font-size="9" font-weight="500" fill="#134e4a">fair treatment</text>
+    <text x="415" y="130" font-size="14" fill="#0f766e">Diversity</text>
+    <text x="415" y="148" font-size="9" font-weight="500" fill="#134e4a">valuing difference</text>
+    <text x="310" y="268" font-size="14" fill="#0f766e">Inclusion</text>
+    <text x="310" y="285" font-size="9" font-weight="500" fill="#134e4a">everyone belongs</text>
+    <text x="310" y="182" font-size="12" fill="#fff">Fair care</text>
+    <text x="310" y="198" font-size="12" fill="#fff">for all</text>
+  </g>
+</svg>
