@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" width="360" height="150" role="img" aria-label="Visual and assistive communication">
+  <rect width="360" height="150" rx="12" fill="#dcfce7"/>
+  <g transform="translate(180 75)">
+    <rect x="-38" y="-28" width="34" height="34" rx="6" fill="#16a34a"/>
+    <circle cx="26" cy="-10" r="18" fill="#22c55e"/>
+    <path d="M-34 38 l18 -22 13 16 13 -13 16 19 z" fill="#15803d"/>
+  </g>
+</svg>
