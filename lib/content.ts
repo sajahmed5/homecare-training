@@ -29,11 +29,25 @@ export interface DragDropBlock {
   pairs: { item: string; match: string }[];
 }
 
+/**
+ * An H5P interactive package played by the client-side h5p-standalone player.
+ * `path` is the folder under /public/h5p/content (e.g. "communication-skills"),
+ * which holds h5p.json + content/content.json; libraries are shared from
+ * /public/h5p/libraries.
+ */
+export interface H5PBlock {
+  type: "h5p";
+  path: string;
+  /** Optional friendly name for the interaction (defaults to "Interactive"). */
+  label?: string;
+}
+
 export type ContentBlock =
   | SlideBlock
   | McqBlock
   | FillGapBlock
-  | DragDropBlock;
+  | DragDropBlock
+  | H5PBlock;
 
 /** True for blocks that require learner interaction (formative, not graded). */
 export function isInteractive(block: ContentBlock): boolean {
@@ -50,8 +64,12 @@ export function blockLabel(block: ContentBlock): string {
       return "Fill the gap";
     case "drag_drop":
       return "Match the pairs";
+    case "h5p":
+      return block.label ?? "Interactive";
   }
 }
+
+const BLOCK_TYPES = ["slide", "mcq", "fill_gap", "drag_drop", "h5p"];
 
 /** Coerce unknown jsonb into a ContentBlock[] (tolerant of bad data). */
 export function parseBlocks(value: unknown): ContentBlock[] {
@@ -61,8 +79,12 @@ export function parseBlocks(value: unknown): ContentBlock[] {
       !!b &&
       typeof b === "object" &&
       "type" in b &&
-      ["slide", "mcq", "fill_gap", "drag_drop"].includes(
-        (b as { type: string }).type,
-      ),
+      BLOCK_TYPES.includes((b as { type: string }).type),
   );
+}
+
+/** A course whose sole content is one full-module H5P package. */
+export function isSingleH5P(blocks: ContentBlock[]): H5PBlock | null {
+  if (blocks.length === 1 && blocks[0].type === "h5p") return blocks[0];
+  return null;
 }

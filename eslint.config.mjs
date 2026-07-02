@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored H5P runtime + content-type libraries (third-party, not ours).
+    "public/h5p/**",
   ]),
 ]);
 
