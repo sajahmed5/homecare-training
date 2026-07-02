@@ -338,5 +338,85 @@
     "alt": "bowl of vegetable salads",
     "width": 1080,
     "height": 720
+  },
+  "coshh-products.jpg": {
+    "query": "cleaning products spray bottles",
+    "id": "__ZMnefoI3k",
+    "photographer": "JESHOOTS.COM",
+    "photographerUrl": "https://unsplash.com/@jeshoots",
+    "photoUrl": "https://unsplash.com/photos/person-holding-yellow-plastic-spray-bottle-__ZMnefoI3k",
+    "alt": "person holding yellow plastic spray bottle",
+    "width": 1080,
+    "height": 720
+  },
+  "coshh-gloves.jpg": {
+    "query": "rubber gloves cleaning chemicals",
+    "id": "__ZMnefoI3k",
+    "photographer": "JESHOOTS.COM",
+    "photographerUrl": "https://unsplash.com/@jeshoots",
+    "photoUrl": "https://unsplash.com/photos/person-holding-yellow-plastic-spray-bottle-__ZMnefoI3k",
+    "alt": "person holding yellow plastic spray bottle",
+    "width": 1080,
+    "height": 720
+  },
+  "stf-cables.jpg": {
+    "query": "trailing cables trip hazard floor",
+    "id": "5lbFmAsPfmk",
+    "photographer": "Ambitious Studio* | Rick Barrett",
+    "photographerUrl": "https://unsplash.com/@weareambitious",
+    "photoUrl": "https://unsplash.com/photos/a-red-and-black-object-sitting-on-the-ground-5lbFmAsPfmk",
+    "alt": "a red and black object sitting on the ground",
+    "width": 1080,
+    "height": 720
+  },
+  "stf-handrail.jpg": {
+    "query": "elderly person using handrail",
+    "id": "cw2bX6cQ8Zs",
+    "photographer": "Claudio Schwarz",
+    "photographerUrl": "https://unsplash.com/@purzlbaum",
+    "photoUrl": "https://unsplash.com/photos/man-in-red-shirt-and-black-pants-sitting-on-black-and-silver-wheel-chair-cw2bX6cQ8Zs",
+    "alt": "man in red shirt and black pants sitting on black and silver wheel chair",
+    "width": 1080,
+    "height": 720
+  },
+  "lw-visit.jpg": {
+    "query": "care worker arriving at front door",
+    "id": "ZnhLxDMsCbY",
+    "photographer": "Centre for Ageing Better",
+    "photographerUrl": "https://unsplash.com/@ageing_better",
+    "photoUrl": "https://unsplash.com/photos/a-woman-is-opening-a-blue-door-and-smiling-ZnhLxDMsCbY",
+    "alt": "a woman is opening a blue door and smiling",
+    "width": 1080,
+    "height": 720
+  },
+  "lw-phone.jpg": {
+    "query": "person checking phone outdoors street",
+    "id": "pB64MrH7ePU",
+    "photographer": "Nhung Le",
+    "photographerUrl": "https://unsplash.com/@nhunglee",
+    "photoUrl": "https://unsplash.com/photos/people-sitting-on-small-stools-by-a-wall-pB64MrH7ePU",
+    "alt": "People sitting on small stools by a wall.",
+    "width": 1080,
+    "height": 608
+  },
+  "air-review.jpg": {
+    "query": "team meeting reviewing documents office",
+    "id": "ecHGTPfjNfA",
+    "photographer": "Anastassia Anufrieva",
+    "photographerUrl": "https://unsplash.com/@antoie",
+    "photoUrl": "https://unsplash.com/photos/a-woman-sitting-at-a-table-reading-a-paper-ecHGTPfjNfA",
+    "alt": "a woman sitting at a table reading a paper",
+    "width": 1080,
+    "height": 720
+  },
+  "air-form.jpg": {
+    "query": "filling in paperwork with pen",
+    "id": "doplSDELX7E",
+    "photographer": "Romain Dancre",
+    "photographerUrl": "https://unsplash.com/@romaindancre",
+    "photoUrl": "https://unsplash.com/photos/person-in-orange-long-sleeve-shirt-writing-on-white-paper-doplSDELX7E",
+    "alt": "person in orange long sleeve shirt writing on white paper",
+    "width": 1080,
+    "height": 810
   }
 }

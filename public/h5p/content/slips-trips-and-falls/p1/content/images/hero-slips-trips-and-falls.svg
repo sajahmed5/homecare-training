@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250" role="img" aria-label="Slips, trips and falls: spot the hazards">
+  <rect width="620" height="250" rx="16" fill="#fffbeb"/>
+  <text x="310" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#b45309">Spot the hazards</text>
+
+  <!-- wet floor A-frame sign -->
+  <g transform="translate(150 150)">
+    <polygon points="0,-70 44,44 -44,44" fill="#f59e0b" stroke="#b45309" stroke-width="3" stroke-linejoin="round"/>
+    <!-- slipping figure -->
+    <circle cx="0" cy="-40" r="8" fill="#111827"/>
+    <path d="M0 -32 l-2 20 M-2 -12 l-16 8 M-2 -12 l14 12 M-2 -24 l16 -6 M-2 -24 l-16 4" stroke="#111827" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-30 40 h60" stroke="#111827" stroke-width="4"/>
+    <text y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#92400e" font-weight="600">Wet floor</text>
+  </g>
+
+  <!-- cause chips -->
+  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#92400e">
+    <g transform="translate(350 80)"><rect width="230" height="34" rx="17" fill="#fff" stroke="#fcd34d" stroke-width="2"/><text x="115" y="22" text-anchor="middle">Spills &amp; wet floors</text></g>
+    <g transform="translate(350 124)"><rect width="230" height="34" rx="17" fill="#fff" stroke="#fcd34d" stroke-width="2"/><text x="115" y="22" text-anchor="middle">Trailing cables &amp; clutter</text></g>
+    <g transform="translate(350 168)"><rect width="230" height="34" rx="17" fill="#fff" stroke="#fcd34d" stroke-width="2"/><text x="115" y="22" text-anchor="middle">Poor lighting</text></g>
+    <g transform="translate(350 212)"><rect width="230" height="34" rx="17" fill="#fff" stroke="#fcd34d" stroke-width="2"/><text x="115" y="22" text-anchor="middle">Unsuitable footwear</text></g>
+  </g>
+</svg>
