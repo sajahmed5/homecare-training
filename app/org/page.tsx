@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { AlertTriangle, BookOpen, CheckCircle2, Users } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { tierLabel } from "@/lib/organisations";
 import { buttonVariants } from "@/components/ui/button";
+import { StatTile } from "@/components/learner-ui";
 import { DashboardShell } from "@/components/dashboard-shell";
 import {
   Card,
@@ -73,19 +75,23 @@ export default async function OrgDashboard() {
   function rag(userId: string): { label: string; className: string } {
     const c = compliance.get(userId);
     if (!c || c.assigned === 0)
-      return { label: "—", className: "bg-muted text-muted-foreground" };
+      return { label: "—", className: "bg-slate-100 text-slate-500" };
     if (c.overdue > 0)
-      return { label: "Overdue", className: "bg-destructive/15 text-destructive" };
+      return { label: "Overdue", className: "bg-rose-100 text-rose-700" };
     if (c.completed < c.assigned)
-      return {
-        label: "In progress",
-        className: "bg-amber-500/15 text-amber-700 dark:text-amber-500",
-      };
-    return {
-      label: "Compliant",
-      className: "bg-green-500/15 text-green-700 dark:text-green-500",
-    };
+      return { label: "In progress", className: "bg-amber-100 text-amber-700" };
+    return { label: "Compliant", className: "bg-emerald-100 text-emerald-700" };
   }
+
+  // Org-wide compliance rollup for the summary tiles.
+  const totals = [...compliance.values()].reduce(
+    (t, c) => ({
+      assigned: t.assigned + c.assigned,
+      completed: t.completed + c.completed,
+      overdue: t.overdue + c.overdue,
+    }),
+    { assigned: 0, completed: 0, overdue: 0 },
+  );
 
   const exportRows = (staff ?? []).map((u) => ({
     full_name: u.full_name,
@@ -131,6 +137,14 @@ export default async function OrgDashboard() {
           </div>
         </div>
 
+        {/* At-a-glance compliance across the whole team */}
+        <section className="grid gap-4 grid-cols-2 lg:grid-cols-4">
+          <StatTile label="Staff" value={staff?.length ?? 0} icon={Users} color="#0284c7" />
+          <StatTile label="Assigned" value={totals.assigned} icon={BookOpen} color="#7c3aed" />
+          <StatTile label="Completed" value={totals.completed} icon={CheckCircle2} color="#16a34a" />
+          <StatTile label="Overdue" value={totals.overdue} icon={AlertTriangle} color="#e11d48" />
+        </section>
+
         <div className="grid gap-6 lg:grid-cols-2">
           <Card>
             <CardHeader>
@@ -167,7 +181,8 @@ export default async function OrgDashboard() {
             />
           </CardHeader>
           <CardContent>
-            <div className="overflow-x-auto">
+            {/* Desktop: table */}
+            <div className="hidden overflow-x-auto md:block">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b text-left text-muted-foreground">
@@ -220,6 +235,47 @@ export default async function OrgDashboard() {
                 </tbody>
               </table>
             </div>
+
+            {/* Mobile: cards */}
+            <div className="space-y-2 md:hidden">
+              {(staff ?? []).map((u) => {
+                const status = u.status ?? "active";
+                const isSelf = u.id === context.userId;
+                return (
+                  <div key={u.id} className="rounded-xl border p-3">
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="min-w-0">
+                        <p className="truncate font-medium">
+                          {u.full_name || u.email}
+                        </p>
+                        <p className="truncate text-xs text-muted-foreground">
+                          {u.email}
+                        </p>
+                      </div>
+                      <Badge
+                        variant={
+                          status === "deactivated" ? "destructive" : "secondary"
+                        }
+                      >
+                        {status}
+                      </Badge>
+                    </div>
+                    <div className="mt-2 flex items-center justify-between gap-2">
+                      <span className="text-xs text-muted-foreground">
+                        {ROLE_LABELS[u.role] ?? u.role}
+                      </span>
+                      {isSelf ? (
+                        <span className="text-xs text-muted-foreground">
+                          You
+                        </span>
+                      ) : (
+                        <StatusToggle userId={u.id} status={status} />
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </CardContent>
         </Card>
 
@@ -247,12 +303,13 @@ export default async function OrgDashboard() {
           <CardHeader>
             <CardTitle>Compliance</CardTitle>
             <CardDescription>
-              Training status per staff member. Full completion + certificate
-              tracking lands with assessments in Phase 5.
+              Training status per staff member — assigned, completed, overdue
+              and their overall RAG rating.
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="overflow-x-auto">
+            {/* Desktop: table */}
+            <div className="hidden overflow-x-auto md:block">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b text-left text-muted-foreground">
@@ -277,7 +334,7 @@ export default async function OrgDashboard() {
                         <td className="py-2">{c?.overdue ?? 0}</td>
                         <td className="py-2">
                           <span
-                            className={`inline-flex rounded-full px-2 py-0.5 text-xs ${tag.className}`}
+                            className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${tag.className}`}
                           >
                             {tag.label}
                           </span>
@@ -287,6 +344,33 @@ export default async function OrgDashboard() {
                   })}
                 </tbody>
               </table>
+            </div>
+
+            {/* Mobile: cards */}
+            <div className="space-y-2 md:hidden">
+              {activeStaff.map((u) => {
+                const c = compliance.get(u.id);
+                const tag = rag(u.id);
+                return (
+                  <div key={u.id} className="rounded-xl border p-3">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="min-w-0 truncate font-medium">
+                        {u.full_name || u.email}
+                      </span>
+                      <span
+                        className={`inline-flex shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${tag.className}`}
+                      >
+                        {tag.label}
+                      </span>
+                    </div>
+                    <div className="mt-2 flex gap-4 text-xs text-muted-foreground">
+                      <span>Assigned {c?.assigned ?? 0}</span>
+                      <span>Completed {c?.completed ?? 0}</span>
+                      <span>Overdue {c?.overdue ?? 0}</span>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </CardContent>
         </Card>

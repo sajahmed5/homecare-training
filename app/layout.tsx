@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { CookieConsent } from "@/components/cookie-consent";
@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   title: "My Care Academy",
   description:
     "Compliance-first training platform for the UK care sector — training, certificates and CQC-ready records for care organisations.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
