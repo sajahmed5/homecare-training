@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="A storage shelf — click the hazardous substances">
+  <rect width="800" height="460" fill="#f4f7fb"/>
+  <rect x="0" y="360" width="800" height="20" fill="#c9a06a"/>
+  <rect x="0" y="380" width="800" height="80" fill="#eaeef4"/>
+
+  <defs>
+    <g id="diamond"><polygon points="0,-30 30,0 0,30 -30,0" fill="#fff" stroke="#dc2626" stroke-width="5" stroke-linejoin="round"/></g>
+  </defs>
+
+  <!-- 1. Bleach — CORROSIVE (HAZARD) -->
+  <g transform="translate(90 0)">
+    <rect x="-30" y="248" width="60" height="112" rx="10" fill="#e2e8f0" stroke="#9ca3af" stroke-width="2"/>
+    <rect x="-14" y="232" width="28" height="18" fill="#cbd5e1"/>
+    <rect x="-26" y="290" width="52" height="40" fill="#38bdf8"/>
+    <g transform="translate(0 310) scale(0.7)"><use href="#diamond"/>
+      <rect x="-16" y="8" width="32" height="4" fill="#111"/><path d="M-10 -10 v14 l-6 8 M-10 4 l6 8 M8 -8 v12 l-6 8 M8 4 l6 8" stroke="#111" stroke-width="3" fill="none"/></g>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Bleach</text>
+  </g>
+
+  <!-- 2. Spray cleaner — HARMFUL (HAZARD) -->
+  <g transform="translate(220 0)">
+    <rect x="-26" y="262" width="52" height="98" rx="8" fill="#fde68a" stroke="#d4a017" stroke-width="2"/>
+    <path d="M-8 262 v-20 h22 l10 10 v10 z" fill="#4b5563"/>
+    <g transform="translate(0 312) scale(0.7)"><use href="#diamond"/>
+      <rect x="-4" y="-16" width="8" height="20" rx="3" fill="#111"/><circle cx="0" cy="12" r="5" fill="#111"/></g>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Cleaner</text>
+  </g>
+
+  <!-- 3. Aerosol — FLAMMABLE (HAZARD) -->
+  <g transform="translate(350 0)">
+    <rect x="-22" y="256" width="44" height="104" rx="6" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="-8" y="240" width="16" height="16" fill="#6b7280"/><rect x="-4" y="232" width="8" height="10" fill="#374151"/>
+    <g transform="translate(0 312) scale(0.7)"><use href="#diamond"/>
+      <path d="M2 -14 C16 -2 16 10 4 18 C11 6 2 0 0 -6 C1 6 -8 8 -8 16 C-18 4 -12 -12 2 -14 Z" fill="#111"/></g>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Aerosol</text>
+  </g>
+
+  <!-- 4. Water jug (SAFE) -->
+  <g transform="translate(480 0)">
+    <rect x="-30" y="250" width="60" height="110" rx="10" fill="#bae6fd" stroke="#7dd3fc" stroke-width="2"/>
+    <rect x="30" y="280" width="16" height="40" rx="6" fill="none" stroke="#7dd3fc" stroke-width="6"/>
+    <rect x="-16" y="236" width="32" height="16" fill="#7dd3fc"/>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Water</text>
+  </g>
+
+  <!-- 5. Paper towels (SAFE) -->
+  <g transform="translate(610 0)">
+    <rect x="-30" y="270" width="60" height="90" rx="8" fill="#fef3c7" stroke="#e5d089" stroke-width="2"/>
+    <ellipse cx="0" cy="270" rx="30" ry="10" fill="#fffbeb" stroke="#e5d089" stroke-width="2"/>
+    <rect x="-6" y="250" width="12" height="24" fill="#fde68a"/>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Paper towels</text>
+  </g>
+
+  <!-- 6. Chemical jar — TOXIC (HAZARD) -->
+  <g transform="translate(730 0)">
+    <rect x="-28" y="258" width="56" height="102" rx="8" fill="#d9f99d" stroke="#84cc16" stroke-width="2"/>
+    <rect x="-16" y="244" width="32" height="14" fill="#65a30d"/>
+    <g transform="translate(0 312) scale(0.7)"><use href="#diamond"/>
+      <circle cx="0" cy="-4" r="10" fill="#111"/><circle cx="-4" cy="-6" r="2.5" fill="#fff"/><circle cx="4" cy="-6" r="2.5" fill="#fff"/><path d="M-9 10 l18 8 M9 10 l-18 8" stroke="#111" stroke-width="3"/></g>
+    <text x="0" y="392" text-anchor="middle" font-family="Arial" font-size="12" fill="#334155">Chemical</text>
+  </g>
+</svg>
