@@ -4,7 +4,7 @@ import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
 import { AppSidebar } from "@/components/app-sidebar";
 import { createClient } from "@/lib/supabase/server";
-import { loadLearner } from "@/lib/learner-data";
+import { loadBadgeData } from "@/lib/learner-data";
 import { deriveNotifications, unreadCount } from "@/lib/notifications";
 import type { UserContext } from "@/lib/auth";
 
@@ -14,23 +14,8 @@ async function learnerBadges(
   if (context.role !== "learner") return {};
   try {
     const supabase = await createClient();
-    const data = await loadLearner(supabase);
-    const notifs = deriveNotifications(
-      data.enrolments.map((e) => ({
-        course_id: e.course_id,
-        status: e.status,
-        assigned_at: e.assigned_at,
-        title: e.title,
-      })),
-      data.certificates.map((c) => ({
-        id: c.id,
-        course_id: c.course_id,
-        issued_at: c.issued_at,
-        expires_at: c.expires_at,
-        title: c.title,
-      })),
-      new Date(),
-    );
+    const data = await loadBadgeData(supabase);
+    const notifs = deriveNotifications(data.enrolments, data.certificates, new Date());
     return { "/learn/notifications": unreadCount(notifs, data.readAt) };
   } catch {
     return {};

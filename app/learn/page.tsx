@@ -98,6 +98,11 @@ export default async function LearnerDashboard() {
 
   return (
     <DashboardShell title="Dashboard" context={context}>
+      {/* Warm the shared H5P runtime at low priority so the first course the
+          learner opens loads from cache (cached long-term via next.config). */}
+      <link rel="prefetch" href="/h5p/assets/frame.bundle.js" as="script" />
+      <link rel="prefetch" href="/h5p/assets/main.bundle.js" as="script" />
+      <link rel="prefetch" href="/h5p/assets/styles/h5p.css" as="style" />
       <div className="mx-auto max-w-5xl space-y-6">
         <DueSoonBanner count={stats.overdue + stats.expiring} />
 

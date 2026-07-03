@@ -120,6 +120,50 @@ export async function loadLearner(
   };
 }
 
+/** Minimal shapes the notifications badge needs (see lib/notifications.ts). */
+export interface BadgeData {
+  enrolments: { course_id: string; status: string; assigned_at: string; title: string }[];
+  certificates: {
+    id: string;
+    course_id: string;
+    issued_at: string;
+    expires_at: string | null;
+    title: string;
+  }[];
+  readAt: string | null;
+}
+
+/**
+ * Lightweight load for the sidebar unread-notifications badge. Runs on EVERY
+ * learner page (via DashboardShell), so it deliberately skips the 300-row
+ * quiz_attempts read, ordering and extra columns that full loadLearner pulls.
+ */
+export async function loadBadgeData(
+  supabase: SupabaseClient,
+): Promise<BadgeData> {
+  const [{ data: enrRaw }, { data: certRaw }, { data: me }] = await Promise.all([
+    supabase.from("enrolments").select("course_id, status, assigned_at, courses(title)"),
+    supabase.from("certificates").select("id, course_id, issued_at, expires_at, courses(title)"),
+    supabase.from("users").select("notifications_read_at").single(),
+  ]);
+  return {
+    enrolments: (enrRaw ?? []).map((e) => ({
+      course_id: e.course_id,
+      status: e.status,
+      assigned_at: e.assigned_at,
+      title: pickCourse(e).title ?? "Course",
+    })),
+    certificates: (certRaw ?? []).map((c) => ({
+      id: c.id,
+      course_id: c.course_id,
+      issued_at: c.issued_at,
+      expires_at: c.expires_at,
+      title: pickCourse(c).title ?? "Course",
+    })),
+    readAt: me?.notifications_read_at ?? null,
+  };
+}
+
 export interface LearnerStats {
   assigned: number;
   notStarted: number;
