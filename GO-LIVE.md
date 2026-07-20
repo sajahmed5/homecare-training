@@ -2,33 +2,43 @@
 
 ## 0. Deploying
 
-**Deploys happen through the Vercel CLI.** The Vercel project is **not** connected to a Git
-repository (verified 2026-07-03: `vercel project inspect` shows no Git section), so pushing to
-GitHub does *not* trigger a deploy. GitHub is source control and off-machine backup; Vercel is
-deployed explicitly.
+**Primary path — push to GitHub.** The Vercel project is connected to
+`sajahmed5/homecare-training` (Project → Settings → Git). Pushing to `main` builds and
+promotes to production automatically; any other branch gets its own preview URL.
+
+```bash
+git push            # main -> production deploy, no further action needed
+```
+
+This is the route to prefer: it deploys a *commit*, so what is live always matches something
+in git history.
+
+**Secondary path — Vercel CLI.** For a throwaway preview without committing, or to ship when
+GitHub is unavailable.
 
 ```bash
 npm run deploy:preview   # private preview deploy, throwaway URL
 npm run deploy           # production deploy
 ```
 
-The CLI uploads the **local working tree**, not a commit — so uncommitted or stale local files
-go live. Always `git status` first, and run `npm run build && npm run lint && npm test` before
-a production deploy.
+Caveat: the CLI uploads the **local working tree**, not a commit, so uncommitted or stale files
+go live and production can drift from `main`. Check `git status` first. Because both routes are
+live, a push *and* a `npm run deploy` will each produce a deployment — prefer git for anything
+that should stick.
+
+Before any production deploy: `npm run build && npm run lint && npm test`.
 
 One-time setup on a new machine: `npm run vercel:login`, then `npm run vercel:link`.
 `npm run vercel:env` pulls the project's environment variables into `.env.local`.
 
-**Optional: connect Git for automatic deploys.** In the Vercel dashboard → Project → Settings →
-Git, connect `sajahmed5/homecare-training`. After that, pushes to `main` deploy to production
-and other branches get preview URLs — and the working-tree caveat above goes away. Note that
-once connected, `npm run deploy` and a push would both deploy, so pick one as the normal route.
+**Push auth.** The remote uses SSH with a repo-scoped key (`~/.ssh/id_ed25519_homecare`, wired
+up via this repo's `core.sshCommand`), so pushes need no token and never expire. The public key
+is registered on the repo as a deploy key **with write access**
+(GitHub → repo → Settings → Deploy keys).
 
-**Pushing to GitHub.** The remote uses SSH with a repo-scoped key
-(`~/.ssh/id_ed25519_homecare`, wired up via this repo's `core.sshCommand`), so pushes need no
-token and never expire. The public key must be registered on the repo as a deploy key **with
-write access** (GitHub → repo → Settings → Deploy keys), or on the account under
-Settings → SSH and GPG keys.
+> Note: `vercel project inspect` does **not** report the Git connection — its absence there
+> means nothing. Check Project → Settings → Git in the dashboard, or just look at whether a
+> push produced a deployment in `vercel ls`.
 
 Do **not** install `gh` into a temp directory — a previous setup did that and wrote a dead
 absolute path into `~/.gitconfig`, which silently disabled the keychain helper for every repo
