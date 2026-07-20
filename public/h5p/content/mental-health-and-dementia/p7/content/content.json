@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication that connects</h2><p>Good communication is the heart of supporting someone with a mental health condition or dementia. It is about far more than words &mdash; your tone, pace, face and body all send messages. When words become difficult, these become even more important.</p><ul><li><strong>Give time:</strong> slow down, pause, and allow the person space to respond without pressure.</li><li><strong>Keep it simple:</strong> short sentences and one idea at a time are easier to follow.</li><li><strong>Get down to eye level:</strong> approach calmly from the front and make gentle eye contact.</li><li><strong>Watch non-verbal cues:</strong> a frown, a turned shoulder or a smile tells you a great deal.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7d441898-e22e-420f-991b-11f5eb10530e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communicating well",
+          "decorative": false,
+          "file": {
+            "path": "images/communicating-well.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f891405b-c30c-4b5f-997d-c29f68aca0c2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Listening and reassuring</h2><p>Listening well shows respect and builds trust. Let the person lead where you can, and value what they are trying to express even if the words are muddled.</p><ul><li><strong>Listen actively:</strong> nod, reflect back what you hear, and show you are interested.</li><li><strong>Avoid arguing:</strong> if someone believes something that is not accurate, focus on the feeling behind it rather than correcting the facts.</li><li><strong>Reduce distractions:</strong> turn down background noise so the person can concentrate.</li><li><strong>Offer reassurance:</strong> a calm voice and a warm manner can ease worry when words cannot.</li></ul><p>Communication is a two-way relationship. When you adapt to the person &mdash; their pace, their preferred name, their good time of day &mdash; you help them stay connected, understood and valued. If communication needs change, report it so the care plan stays up to date.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "868c0677-ee7c-4813-b192-ecf6af8039f4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person living with dementia insists it is time to collect her children from school, though they are grown adults. What is the most person-centred response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Respond calmly to the feeling behind her words, offering reassurance rather than correcting the facts.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Acknowledging the emotion and reassuring her respects her reality and reduces distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Explain firmly that her children are adults now and there is no school to go to.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Bluntly correcting the facts can cause distress and confusion. Focus on the feeling, not the accuracy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore what she says and carry on with the task at hand.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Ignoring the person dismisses a real feeling. She needs acknowledgement and reassurance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell her she is confused because of her dementia.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is neither kind nor helpful. Connect with the emotion behind her words instead.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a7d34c8e-643e-44e9-92d3-c489047769c1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

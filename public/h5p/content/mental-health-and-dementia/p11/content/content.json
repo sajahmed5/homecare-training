@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness of the Mental Health Act 1983</h2><p>The Mental Health Act 1983 is the main law in England and Wales that covers the assessment, care and treatment of people with a mental health condition, including where this may need to happen without their consent. You are not expected to apply this law &mdash; this is awareness only &mdash; but understanding its purpose helps you support people's rights.</p><p>The Act's central purpose is to allow people to be assessed or treated for a mental health condition when this is necessary for their own health or safety, or for the protection of others, and when they may not agree to it. Being formally detained under the Act is often called being &ldquo;sectioned&rdquo;.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ecfa743d-cc17-4da2-89e2-1443f11db466",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Mental Health Act",
+          "decorative": false,
+          "file": {
+            "path": "images/mental-health-act.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c88df9af-1bbc-47cb-b8dc-8617836417fa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Safeguards and your role</h2><p>The Act is not only about detention. It also builds in protections to make sure people are treated lawfully, fairly and with dignity.</p><ul><li><strong>Safeguards:</strong> there are rules about who can make decisions, rights to appeal and access to independent support.</li><li><strong>Least restriction:</strong> the aim is always to use the least restrictive option that keeps the person and others safe.</li><li><strong>Rights remain:</strong> a person subject to the Act keeps their dignity, their voice and their right to be treated with respect.</li><li><strong>Your part:</strong> you provide day-to-day care, treat the person as an individual, and report concerns &mdash; you do not make or enforce legal decisions.</li></ul><p>At awareness level, the key message is simple: know that this law exists to protect and support people, and keep treating everyone with the same compassion and respect.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ffdbb86a-e9e4-470d-900d-320458d1d0fd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>At awareness level, care workers are expected to decide when a person should be detained under the Mental Health Act 1983.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Care workers do not make detention decisions &mdash; those rest with qualified professionals. Your role is care and reporting.",
+            "correctAnswerMessage": "Correct. Legal decisions under the Act are made by qualified professionals. Your role is day-to-day care, respect and reporting concerns."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "9b039342-70f8-4702-9692-ae4c35f89907",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

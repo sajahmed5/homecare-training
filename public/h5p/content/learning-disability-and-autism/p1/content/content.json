@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What a learning disability is</h2><p>A learning disability is a lifelong condition that affects the way a person understands new or complex information, learns new skills, and copes independently with everyday life. It begins before adulthood and has a lasting effect on development. A person may need extra time, clearer explanations, or practical support to do things that others find straightforward.</p><p>Learning disabilities range from mild to profound. Some people you support will live largely independently with a little help; others will need support with almost every part of daily life. Each person is an individual with their own strengths, preferences, relationships, and goals.</p><ul><li><strong>Not an illness:</strong> a learning disability is not something to be cured or treated away.</li><li><strong>Not a mental illness:</strong> though a person can also experience mental ill health, as anyone can.</li><li><strong>Lifelong:</strong> it is a difference in how someone learns and manages daily living, not a phase.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4d81fee8-7709-4639-9eed-864f699366e7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What it is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-it-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1688bb13-96bd-490e-abfb-28373e15f87e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What it is not &mdash; and a note on this course</h2><p>A learning disability is different from a <strong>learning difficulty</strong> such as dyslexia, which affects specific skills but not general everyday functioning. It is also different from acquired brain injury or dementia, which develop later in life.</p><p><strong>Important compliance statement:</strong> This e-learning gives you the <em>knowledge and awareness</em> element only. It is <strong>not</strong> the Oliver McGowan Mandatory Training on Learning Disability and Autism and does not replace it. Under the Health and Care Act 2022, your employer must ensure you complete the Oliver McGowan Mandatory Training at the tier appropriate to your role, delivered by an approved provider and co-delivered with people with lived experience of learning disability and autism.</p><ul><li><strong>Awareness level:</strong> this course builds foundational understanding.</li><li><strong>Your duty:</strong> apply respect and reasonable adjustments in daily practice.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7ade25bd-cea7-4adf-acc1-75f9792a21d7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

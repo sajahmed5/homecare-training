@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The duty to make reasonable adjustments</h2><p>Under the <strong>Equality Act 2010</strong>, disability is a protected characteristic, and organisations have a legal <strong>duty to make reasonable adjustments</strong> so that disabled people are not put at a disadvantage. This applies across health and social care, and it is anticipatory: services should plan ahead rather than wait for a problem.</p><p>A reasonable adjustment is a change that removes or reduces a barrier. It does not mean giving someone an unfair advantage &mdash; it means giving them fair access to the same care and opportunities as everyone else.</p><ul><li><strong>Legal, not optional:</strong> failing to adjust can be unlawful discrimination.</li><li><strong>Individual:</strong> what is reasonable depends on the person and the situation.</li><li><strong>Everyday:</strong> many adjustments are small, cost little, and take moments.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f4a7fecc-5d7b-4a79-8abd-171f6823a051",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reasonable adjustments",
+          "decorative": false,
+          "file": {
+            "path": "images/reasonable-adjustments.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6713d83c-63e6-4912-9450-c7d13d394af9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Adjustments in practice</h2><p>Reasonable adjustments are practical and personal. The key is to ask the individual what helps them, and then to make it happen.</p><ul><li><strong>Communication:</strong> easy-read information, extra time, pictures, or a communication aid.</li><li><strong>Environment:</strong> a quieter room, dimmed lights, or the first or last appointment of the day.</li><li><strong>Time:</strong> longer appointments so that nothing is rushed.</li><li><strong>Familiarity:</strong> the same worker where possible, and a trusted person present.</li><li><strong>Preparation:</strong> a visit in advance so a place or procedure feels less frightening.</li></ul><p>Recording someone's adjustments clearly, so every worker knows them, means the person does not have to explain their needs over and over. Consistency is part of respect.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "99022143-15b2-4dea-b917-2dd34f338a28",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Making reasonable adjustments under the Equality Act 2010 is a legal duty, not just a nice thing to do when there is time.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Reasonable adjustments are a legal duty under the Equality Act 2010, not an optional extra.",
+            "correctAnswerMessage": "Correct. The duty to make reasonable adjustments is a legal requirement, and failing to make them can amount to unlawful discrimination."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "bf253e49-7ee7-42c2-8e6d-f093c8024ca2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

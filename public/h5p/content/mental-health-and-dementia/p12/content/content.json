@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Crossover with the Mental Capacity Act 2005</h2><p>Mental health law does not stand alone. Many people you support are also protected by the Mental Capacity Act 2005 (MCA), which is about making decisions when a person may not be able to make a particular decision for themselves. A person living with dementia or a mental health condition may still have capacity for many decisions &mdash; capacity is specific to each decision and each moment.</p><p>The MCA works on key principles: assume capacity unless proven otherwise, support people to decide for themselves, and where someone cannot decide, act in their <strong>best interests</strong> in the least restrictive way. Where a person needs to be deprived of their liberty to keep them safe, the <strong>Deprivation of Liberty Safeguards (DoLS)</strong> provide legal protection and oversight.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "54740368-7ab0-4d5e-99f5-02f927edd163",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for MCA, DoLS, advocacy",
+          "decorative": false,
+          "file": {
+            "path": "images/mca-dols-advocacy.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6a883b50-87c2-4eee-b73f-ad8036fa9235",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Advocacy, carers and going further</h2><p>People do not face these situations alone, and neither do you.</p><ul><li><strong>Advocacy:</strong> an independent advocate helps a person express their wishes and understand their rights, especially when they have little other support.</li><li><strong>Carers:</strong> family and friends often know the person best; involve and value them, and remember they need support too.</li><li><strong>Your role:</strong> respect choices, report concerns about capacity or restrictions, and follow the care plan.</li></ul><p>This page is an introduction only. The Mental Capacity Act, best interests, DoLS and the wider Liberty Protection framework are detailed areas in their own right. For proper depth, complete the separate <strong>Mental Capacity Act course</strong>, which covers these duties fully. Here, simply be aware that these safeguards exist and that they protect the rights of the people you care for.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fee87f9b-d8e7-4079-986d-0afc662f95a9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these points about the Mental Capacity Act and related safeguards.</p></p>",
+          "textField": "The Mental Capacity Act 2005 assumes a person has *capacity* unless shown otherwise. Where someone cannot make a decision, others must act in their best *interests* in the least restrictive way. An independent *advocate* can help a person express their wishes, and the Deprivation of Liberty *Safeguards* provide legal oversight when someone's freedom must be restricted.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "9f1c2da2-64a7-44de-ba7a-51205142c983",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

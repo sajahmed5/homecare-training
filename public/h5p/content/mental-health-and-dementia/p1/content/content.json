@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyone has mental health</h2><p>Mental health is part of every person you support, and part of you too. It describes how we think, feel and cope with everyday life. Just as physical health moves up and down, so does mental health &mdash; some days we feel steady, other days we struggle. A person can live with a diagnosed condition and still have good days, meaningful relationships and a full life.</p><p>Mental health conditions are common. Many people will experience one at some point, whether a period of low mood after a loss or a long-standing condition managed over years. The people you care for are no different. Recognising this helps you offer support without surprise or judgement.</p><p>At this awareness level, your role is to <strong>recognise, respond and report</strong>. You are not expected to diagnose, label or treat &mdash; that is for qualified professionals.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8028e297-1556-44a9-be7d-dea9ae22accd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What mental health is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-mental-health-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "275ecb43-ca0d-4b2a-a0d6-d5f284512649",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Language and stigma</h2><p>Stigma is the unfair judgement attached to mental health. It can stop people asking for help and leave them feeling ashamed or isolated. The words you choose either challenge stigma or reinforce it.</p><ul><li><strong>Use person-first language:</strong> say &ldquo;a person experiencing psychosis&rdquo;, not &ldquo;a psychotic&rdquo;.</li><li><strong>Avoid casual labels:</strong> words like &ldquo;mad&rdquo;, &ldquo;crazy&rdquo; or &ldquo;attention-seeking&rdquo; are hurtful and dismissive.</li><li><strong>Take distress seriously:</strong> never treat someone's feelings as a nuisance or an act.</li><li><strong>Speak with, not about:</strong> include the person in conversations that concern them.</li></ul><p>Challenging stigma is everyday work. When you treat a mental health condition with the same respect and openness as a physical one, you help create a culture where people feel safe to speak up and ask for support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7a05f0be-8e38-4807-a5d1-122aa5044d03",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

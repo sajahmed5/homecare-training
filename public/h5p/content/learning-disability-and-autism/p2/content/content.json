@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating well</h2><p>Good communication is the foundation of good care. People with a learning disability communicate in many ways &mdash; through speech, but also through pictures, symbols, objects, signing such as Makaton, body language, and behaviour. Never assume that someone who does not use words has nothing to say.</p><p>Simple habits make a real difference:</p><ul><li><strong>Slow down:</strong> give the person time to take in what you say and to respond.</li><li><strong>Keep it clear:</strong> use short sentences, plain words, and one idea at a time.</li><li><strong>Use easy-read:</strong> pictures alongside simple text support understanding.</li><li><strong>Check, do not assume:</strong> ask the person to show you or tell you back, rather than assuming they have understood.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "96a31c15-3e77-4239-84c9-0d3cb23216e2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication",
+          "decorative": false,
+          "file": {
+            "path": "images/communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0222790b-d687-4ab3-8082-ed0448583f98",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Diagnostic overshadowing</h2><p><strong>Diagnostic overshadowing</strong> happens when a person's physical or mental health symptoms are wrongly put down to their learning disability, so a real, treatable illness is missed. For example, a change in behaviour might be a sign of pain, infection, constipation, or a dental problem &mdash; not simply &ldquo;how they are&rdquo;.</p><p>This is one of the most serious risks in health and social care, because it delays diagnosis and treatment. You can help prevent it:</p><ul><li><strong>Notice change:</strong> know the person's baseline, and take any change seriously.</li><li><strong>Look for causes:</strong> distress or withdrawal often signals an unmet physical need.</li><li><strong>Speak up:</strong> report and record what you see, and push for it to be investigated.</li><li><strong>Advocate:</strong> stay alongside the person during health appointments.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d75088ef-6297-4e5d-8023-bc8b7e075453",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support who is usually cheerful becomes withdrawn and hits out at mealtimes. What is the best first response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Consider that a physical cause such as toothache or pain may be behind the change, and report it to be checked.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A change in behaviour often signals an unmet physical need. Investigating rather than assuming helps prevent diagnostic overshadowing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume this is just part of their learning disability and carry on as normal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is diagnostic overshadowing &mdash; putting symptoms down to the learning disability, so a treatable cause could be missed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stop offering meals until the behaviour settles.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This risks the person's nutrition and ignores the possible cause. The change needs to be understood, not avoided.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record it only if it happens several more times.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Delaying reporting can delay treatment. A clear change from baseline should be reported and recorded promptly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f43811d3-42ff-4516-b589-addd9a9d9215",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

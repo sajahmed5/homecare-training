@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Restrictive practice and least restriction</h2><p>A <strong>restrictive practice</strong> is anything that limits a person's movement, freedom, or choices &mdash; from physically stopping someone, to locking a door, to withholding something they want, or using medication to control behaviour. Restrictive practices can cause real harm and can breach a person's human rights.</p><p>The guiding rule is the <strong>least restrictive principle</strong>: any restriction must be the minimum necessary, used only to prevent harm, for the shortest time, and always in the person's best interests.</p><ul><li><strong>Last resort:</strong> restriction is never a first response or a routine.</li><li><strong>Proportionate:</strong> it must match the level of real risk.</li><li><strong>Accountable:</strong> it must be recorded, reported, and reviewed.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "516d9af4-e317-49c8-9200-3532bdcc03af",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Restrictive practice",
+          "decorative": false,
+          "file": {
+            "path": "images/restrictive-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f419f8a5-57b8-4fa7-949e-5679ce616a3d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Positive behaviour support</h2><p><strong>Positive behaviour support (PBS)</strong> is a respectful, person-centred approach that aims to improve someone's quality of life and, in doing so, reduce behaviour that others find challenging. It starts from a simple idea: behaviour is a form of <strong>communication</strong>, and distress usually has a cause.</p><ul><li><strong>Understand the why:</strong> look for the unmet need behind the behaviour &mdash; pain, fear, boredom, or a sensory issue.</li><li><strong>Change the environment:</strong> reduce triggers and add things that help.</li><li><strong>Build a good life:</strong> meaningful activity, relationships, and choice reduce distress.</li><li><strong>Prevent, do not react:</strong> the goal is to stop crises before they start.</li></ul><p>At awareness level, remember this: understanding and preventing distress is always better than restricting a person once they are already in crisis.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "13c5b470-b8f3-4c74-acfe-18f150745b17",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which approach best reflects the least restrictive principle and positive behaviour support?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Look for the cause behind a person's distress and change the environment to prevent it, using any restriction only as a proportionate last resort.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. PBS treats behaviour as communication and focuses on prevention, while any restriction must be minimal, proportionate, and a last resort.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use restriction routinely to keep situations under control.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Restriction is never routine. It must be the least restrictive option, used only to prevent harm and for the shortest time.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore the reasons behind behaviour and focus only on stopping it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Behaviour is communication. Ignoring the cause misses the point and does not help the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Withhold things the person enjoys as a way of managing their behaviour.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Withholding what someone wants is itself a restrictive practice and can cause harm; it is not positive behaviour support.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a6725d50-3c05-46fa-bb4b-84d88a769db6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

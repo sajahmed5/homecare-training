@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a personal development plan?</h2><p>A <strong>personal development plan</strong>, or <strong>PDP</strong>, is a simple written plan that sets out what you want to learn and how you will get there. It brings together the goals from your induction, supervision and appraisal into one place, so your development has a clear direction rather than happening by chance.</p><p>A PDP usually records where you are now, the knowledge or skills you want to build, the steps you will take, the support you need, and a date to review your progress. It belongs to you, and it should grow and change as you do. Your manager will help you create it, but it works best when you feel real ownership of it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "223f400a-e754-4538-8cc7-a9e2f1546c4b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Development plans",
+          "decorative": false,
+          "file": {
+            "path": "images/development-plans.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "38be8f7a-533d-40e6-8a07-77628310f1ef",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to use your PDP</h2><p>A PDP is only useful if it is a living document, not a form filled in once and forgotten.</p><ul><li><strong>Set clear goals:</strong> name what you want to achieve and why it matters for your role.</li><li><strong>Break it down:</strong> list the small, realistic steps that will get you there.</li><li><strong>Identify support:</strong> note the training, people or resources you will need.</li><li><strong>Review regularly:</strong> revisit it in supervision and appraisal, and update it as you progress.</li></ul><p>Talk your PDP through with your manager so you are working towards the same aims. Tick off what you achieve, add new goals as they arise, and use it to steer conversations about your learning. Kept up to date, your PDP keeps your development purposeful and visible.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9c92697b-805b-4109-8495-e618e364f9a1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the description of a personal development plan.</p></p>",
+          "textField": "A personal development *plan* brings your learning goals together in one place. It records where you are now, the *skills* you want to build, the *steps* you will take, and the *support* you need. You should *review* it regularly in supervision and update it as you progress.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "dc451bd3-ea87-43e7-9995-889be1c3fce0",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

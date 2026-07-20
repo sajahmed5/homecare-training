@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping a portfolio of evidence</h2><p>A <strong>portfolio</strong> is an organised collection of evidence that shows what you have learned and what you can do. Building one as you go gives you a clear record of your development and makes it far easier to prove your progress &mdash; for the Care Certificate, for qualifications, and for future roles.</p><p>Your portfolio can be a folder, a ring binder or a digital file. What matters is that it is kept up to date, well organised, and stored securely, especially where it contains any information about the people you support. A little time spent filing things sensibly now will save you a great deal of searching later.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6766a31e-15bd-4928-a89f-7a22bfa83a39",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your portfolio",
+          "decorative": false,
+          "file": {
+            "path": "images/your-portfolio.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2d720964-567d-4c47-9bac-ca081ca42755",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to include</h2><p>A useful portfolio brings together different kinds of evidence in one place.</p><ul><li><strong>Certificates:</strong> records of training and qualifications you have completed.</li><li><strong>Reflections:</strong> your written thoughts on experiences and what you learned.</li><li><strong>Feedback:</strong> comments from managers, colleagues or the people you support.</li><li><strong>Observations:</strong> records of your practice being watched and assessed at work.</li><li><strong>Your PDP:</strong> your plan and notes on the goals you have met.</li></ul><p>Always protect confidentiality: remove or anonymise personal details about the people you support, and follow your employer's policy on storing records. Add to your portfolio little and often, rather than trying to pull everything together at the last minute, so that when you need to show how far you have come, the evidence is already there and ready to use.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cb09d41d-71dd-462d-bdf7-7cfb05904fba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When adding feedback or observations to your portfolio, you must protect the confidentiality of the people you support.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Confidentiality always applies &mdash; personal details about the people you support must be protected in your portfolio.",
+            "correctAnswerMessage": "Correct. Always anonymise or remove personal details and follow your employer's policy on storing records securely."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7560359d-7b09-443a-9416-85df2ec5e2af",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Delirium: a medical emergency</h2><p>Delirium is a <strong>sudden</strong> change in a person's mental state, usually developing over hours or days. It is not the same as dementia, though the two can occur together. Crucially, delirium is a sign that something is physically wrong, and it is a medical emergency that needs urgent attention.</p><p>The key clue is <strong>sudden change</strong> from how the person normally is. Look for:</p><ul><li><strong>New or worsening confusion:</strong> far more muddled than usual, coming on quickly.</li><li><strong>Changes in alertness:</strong> drowsy and hard to rouse, or restless and agitated.</li><li><strong>Fluctuation:</strong> symptoms that come and go through the day, often worse later on.</li><li><strong>New hallucinations or fear:</strong> seeing things or becoming suddenly frightened.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9b4a5c0-2071-48b4-9b14-c11940f5f359",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising delirium",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-delirium.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bbbb8128-f6ea-494e-951a-e36d389524f9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When and how to escalate</h2><p>Common causes of delirium include infection (such as a urine or chest infection), dehydration, constipation, pain and medication. Many are treatable, which is exactly why fast action matters &mdash; and why you must never dismiss sudden confusion as &ldquo;just their dementia&rdquo;.</p><ul><li><strong>Act quickly:</strong> report a sudden change to your senior or the nurse straight away.</li><li><strong>Seek medical help:</strong> the person needs urgent review &mdash; contact the GP or 111, and call <strong>999</strong> if they are seriously unwell.</li><li><strong>Keep them safe and calm:</strong> reassure, reduce noise, and stay with them where you can.</li><li><strong>Record the facts:</strong> when the change started and what you noticed helps professionals act.</li></ul><p>Recognising delirium and escalating without delay can save a life. When in doubt, always raise your concern.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "636643e3-f1ce-4533-af4f-654374808586",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person who is normally alert becomes suddenly and increasingly confused over a few hours, seeing things that are not there. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat it as a possible medical emergency and escalate urgently to your senior, the nurse or medical help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Sudden confusion may be delirium, a medical emergency needing urgent escalation &mdash; never dismiss it as 'just dementia'.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume it is a normal part of their dementia and monitor over the coming week.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A sudden change is not normal and should never be assumed to be dementia. Delirium needs urgent action.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the next scheduled GP visit to mention it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting is dangerous. Delirium is a medical emergency requiring prompt escalation, not a routine mention.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage the person to rest and see if they are better tomorrow.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Delay could be harmful. Sudden confusion must be escalated urgently for medical review.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "251a1f5c-4afc-40a9-bc16-873df937d7e8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

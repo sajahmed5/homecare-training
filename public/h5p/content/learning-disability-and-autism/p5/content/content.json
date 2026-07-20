@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication and processing information</h2><p>Autistic people often communicate and process information differently. Language may be understood very literally, so sarcasm, hints, and figures of speech can be confusing. Facial expressions and tone may not carry the meaning you expect, in either direction.</p><p>Processing spoken information can also take longer. What looks like ignoring you may simply be someone still working out what you said. You can help by:</p><ul><li><strong>Being literal and clear:</strong> say exactly what you mean, avoiding idioms.</li><li><strong>Allowing processing time:</strong> pause after speaking and wait patiently.</li><li><strong>Reducing demands:</strong> ask one thing at a time, and back words up with writing or pictures.</li><li><strong>Respecting communication style:</strong> some people prefer text, email, or gestures to speech.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "86953d10-084a-4285-83d8-a84857c751f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication and masking",
+          "decorative": false,
+          "file": {
+            "path": "images/communication-and-masking.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4e9e7dc2-d4be-41fd-a5f3-87365780d020",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Masking</h2><p><strong>Masking</strong> is when an autistic person hides or suppresses their natural responses in order to appear to fit in &mdash; for example forcing eye contact, copying others' behaviour, or holding in distress. It is often unconscious and can be a way of staying safe or accepted.</p><p>Masking is exhausting. It can hide how much support a person actually needs, and the effort may lead to burnout, anxiety, or a delayed &ldquo;crash&rdquo; once the person is somewhere they feel safe.</p><ul><li><strong>Do not be misled:</strong> someone coping on the surface may be struggling underneath.</li><li><strong>Create safety:</strong> a person who feels accepted has less need to mask.</li><li><strong>Believe people:</strong> take reported difficulties seriously even if they are not visible.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7a4ab208-615c-4292-94fe-19a5a618eefb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the passage about masking.</p></p>",
+          "textField": "Masking is when an autistic person *hides* their natural responses to appear to fit in. It is often *exhausting* and can conceal how much *support* someone truly needs. A person who feels *accepted* has less need to mask.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "02b15d32-076e-40f4-8299-b6572aa8377c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

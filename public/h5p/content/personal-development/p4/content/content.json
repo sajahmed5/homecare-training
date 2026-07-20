@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is reflective practice?</h2><p><strong>Reflection</strong> means thinking carefully about your work &mdash; looking back at what you did, how it went and what you felt &mdash; so that you can learn from it. Reflective practice turns everyday experience into learning. Instead of rushing from one task to the next, you pause to ask honest questions: What happened? Why did it happen that way? What does it tell me?</p><p>You can reflect on the things that went well and on the moments that felt difficult. Both are valuable. Reflection is not about blaming yourself; it is about understanding your practice so you can keep improving it. Over time it becomes second nature, and you start to notice useful lessons in the middle of your work, not only afterwards.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "60bd0fe2-6b84-4aca-8f33-fe86ea0d79e8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What reflection is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-reflection-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a047ca4f-33e3-42ec-a872-b793d5e7642f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why it improves care</h2><p>Reflecting regularly makes you a safer and more thoughtful care worker.</p><ul><li><strong>Better outcomes:</strong> you notice what works for each person and do more of it.</li><li><strong>Learning from mistakes:</strong> you understand why something went wrong and prevent it next time.</li><li><strong>Self-awareness:</strong> you recognise how your own values, mood and assumptions affect your work.</li><li><strong>Confidence:</strong> you see your progress and identify what to develop next.</li></ul><p>Reflection can be a quiet few minutes at the end of a shift, a note in a journal, or a conversation with a trusted colleague. Done often, it becomes a habit that steadily raises the quality of your care. It also protects your own wellbeing, because it helps you make sense of hard days rather than carrying them home unexamined.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "05adb25d-a0cd-4bb6-a279-15f41715680c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Reflective practice is only about identifying your mistakes and what you did wrong.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Reflection is not only about mistakes; you learn just as much from thinking about what went well.",
+            "correctAnswerMessage": "Correct. Reflection covers what went well as well as what was difficult &mdash; both help you learn and improve."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "1a1cbd9f-8ea8-44a5-bf12-10ca314e8167",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

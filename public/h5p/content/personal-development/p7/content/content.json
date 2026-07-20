@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is supervision?</h2><p><strong>Supervision</strong> is a regular, planned meeting between you and your supervisor or manager. It is protected time to talk about your work: how you are getting on, the people you support, any challenges you are facing, and your learning and wellbeing. Supervision is supportive, not a telling-off. It is a two-way conversation where you are encouraged to speak openly, and where your supervisor listens as much as they guide.</p><p>Most employers hold supervision every few weeks or months, and it may be one-to-one or sometimes in a group. What matters is that it happens regularly and that you know it is coming, so you can prepare and make good use of it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8eb8be4-b8be-4b04-99a1-a5dbda316301",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What supervision is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-supervision-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8fe15b7b-0e30-4dcc-a848-d332d9d6c11e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to expect from it</h2><p>Good supervision gives you space to grow and be supported. You can expect to:</p><ul><li><strong>Review your practice:</strong> discuss what is going well and where you need help.</li><li><strong>Raise concerns:</strong> talk about worries, including about the safety of the people you support.</li><li><strong>Plan development:</strong> agree training, goals and next steps.</li><li><strong>Feel supported:</strong> consider your wellbeing and workload.</li></ul><p>Supervision is usually <strong>confidential</strong>, within the limits of safeguarding and your employer's policy. Notes are often kept and agreed by both of you, so there is a shared record of what was discussed and decided. Treat it as valuable time set aside just for you and your development, and try not to let it be cancelled or rushed when the workplace gets busy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "353d27c3-e4e4-44b3-903b-064e9b93f6f5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes supervision in adult social care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A regular, supportive meeting to review your work, wellbeing and development</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Supervision is planned, supportive time to reflect on your practice, raise concerns and plan your development.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A disciplinary meeting held only when you have done something wrong</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; supervision is supportive and regular, not a disciplinary process used only when there is a problem.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An informal chat with no purpose, notes or follow-up</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Supervision is planned and purposeful; notes are usually kept and actions are agreed and followed up.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A yearly review of your pay and contract terms</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That is closer to an appraisal or a pay review; supervision is more frequent and focuses on your practice and support.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "be576313-ae3a-4506-b8c5-99f113b453a1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

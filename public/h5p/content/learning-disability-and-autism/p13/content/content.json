@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Respect, adjust, include</h2><p>You have completed an awareness introduction to learning disability and autism. Three ideas run through everything you have learned:</p><ul><li><strong>Respect:</strong> every person is an individual with their own strengths, preferences, and rights. Learning disability and autism are differences, not deficits, and neither is an illness to be cured.</li><li><strong>Adjust:</strong> make the reasonable adjustments each person needs &mdash; in communication, environment, and time &mdash; so they get fair access to good care. Watch for diagnostic overshadowing, support annual health checks and hospital passports, and question over-medication through STOMP.</li><li><strong>Include:</strong> presume capacity, support people to make their own decisions, use the least restrictive approach, and understand behaviour as communication.</li></ul><p>Small, consistent actions from you help close the health inequalities that people with a learning disability and autistic people still face.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0172c728-6c65-497b-8298-e65c59ad00dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "46195b4e-123a-4fba-9cd4-33f957677cdb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your legal obligation &mdash; compliance statement</h2><p><strong>Please read this carefully.</strong> This e-learning has given you the <em>knowledge and awareness</em> element only. It is <strong>not</strong> the Oliver McGowan Mandatory Training on Learning Disability and Autism, and completing it does <strong>not</strong> meet that requirement.</p><p>Under the <strong>Health and Care Act 2022</strong>, your employer must ensure you complete the <strong>Oliver McGowan Mandatory Training</strong> at the tier appropriate to your role &mdash; Tier 1 or Tier 2 &mdash; delivered by an approved provider and co-delivered with people who have lived experience of learning disability and autism.</p><ul><li><strong>Next step:</strong> speak to your manager to confirm your tier and how your organisation delivers the training.</li><li><strong>Keep learning:</strong> revisit our Mental Capacity Act course to deepen your understanding of consent and best interests.</li></ul><p>Thank you for taking the time to learn how to care well for people with a learning disability and autistic people.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "86bf6064-ef99-47c8-ba0a-95d04b61a014",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

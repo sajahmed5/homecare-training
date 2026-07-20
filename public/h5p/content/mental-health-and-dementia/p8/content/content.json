@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The environment matters</h2><p>Surroundings have a powerful effect on how a person feels and copes. A confusing or overwhelming space can add to distress, while a calm, familiar one can settle it. Small adjustments often make a real difference.</p><ul><li><strong>Reduce noise and clutter:</strong> too much noise or busyness can overload and unsettle a person.</li><li><strong>Good lighting:</strong> bright, even light reduces shadows that can be misread or frightening.</li><li><strong>Familiar cues:</strong> clear signs, familiar objects and personal belongings help with orientation and comfort.</li><li><strong>Safe to move:</strong> space to walk freely supports independence and eases restlessness.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6c99f94-3c1b-4686-aef6-a8ead9453adf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Environment and activity",
+          "decorative": false,
+          "file": {
+            "path": "images/environment-and-activity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "108159bc-9212-4178-8a05-ef8c4d3dafe0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Meaningful activity</h2><p>Everyone needs purpose and enjoyment. Meaningful activity &mdash; occupation that connects with who a person is &mdash; supports wellbeing, reduces boredom and can lessen distress. It does not have to be organised or elaborate.</p><ul><li><strong>Match interests and abilities:</strong> build on hobbies, past work and things the person still enjoys and can do.</li><li><strong>Focus on the doing, not the result:</strong> the pleasure of folding towels or sorting buttons matters more than a perfect outcome.</li><li><strong>Use the senses:</strong> music, textures, scents, gardening and gentle movement can all engage and soothe.</li><li><strong>Keep it dignified:</strong> activities should feel adult and purposeful, never childish.</li></ul><p>Boredom, loneliness and a lack of purpose are common causes of distress. By shaping a calm environment and offering meaningful occupation, you support wellbeing and often prevent difficulties before they begin.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c800fdcf-afe8-47ee-93da-681b9ef61a7f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these points about environment and activity.</p></p>",
+          "textField": "A calm environment with less *noise* and good *lighting* can ease distress. Offering meaningful *activity* that matches a person's interests supports wellbeing, because boredom and *loneliness* are common causes of distress.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "ee0d3a9f-bbb4-4d0e-bd76-e1bc08d86139",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

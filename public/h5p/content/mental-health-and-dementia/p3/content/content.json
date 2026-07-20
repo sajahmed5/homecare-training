@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting good mental wellbeing</h2><p>Good mental health is not just the absence of a condition. It grows from the everyday things that give life meaning: connection, purpose, activity and a sense of control. As a care worker you are well placed to nurture these in small, consistent ways.</p><ul><li><strong>Connection:</strong> a warm greeting, time to talk, and help to stay in touch with family and friends.</li><li><strong>Purpose:</strong> chances to contribute, whether folding laundry, tending a plant or choosing the day's music.</li><li><strong>Activity:</strong> movement, fresh air and hobbies that suit the person's interests and abilities.</li><li><strong>Control:</strong> real choices over daily life, from what to wear to when to rise.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a41cf51b-1183-469a-9526-aadfee800c12",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Positive wellbeing",
+          "decorative": false,
+          "file": {
+            "path": "images/positive-wellbeing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "49c4761a-3a49-4e07-b55d-a3fbadc28758",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Small things, real difference</h2><p>Wellbeing is built through relationships and routine, not grand gestures. When you take the time to learn what matters to a person and weave it into their day, you protect their sense of identity and belonging.</p><p>Notice what lifts someone and what drains them. A favourite radio programme, a walk in the garden, or a chat about grandchildren can steady a difficult day. Equally, rushing, noise or being talked over can wear a person down.</p><ul><li><strong>Offer choice, not commands:</strong> &ldquo;Would you like tea or coffee?&rdquo; respects autonomy.</li><li><strong>Protect dignity:</strong> privacy, gentle language and unhurried care all matter.</li><li><strong>Encourage strengths:</strong> focus on what a person can do, not only what they cannot.</li></ul><p>Promoting wellbeing sits alongside spotting problems. Both keep the person, not the task, at the centre of your care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fce0283d-bfc1-4717-aa50-17b563dbe081",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Promoting positive mental health means only stepping in once a person shows signs of a mental health condition.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Supporting wellbeing is proactive and ongoing, not just a reaction to signs of a condition.",
+            "correctAnswerMessage": "Correct. Wellbeing is built every day through connection, purpose, activity and choice &mdash; not only in response to problems."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "15f3e406-7f9e-44b0-803d-2be6d0633a00",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

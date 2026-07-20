@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preparing for supervision</h2><p>You get far more from supervision when you prepare for it rather than arriving with nothing in mind. A little thought beforehand turns the meeting into time that genuinely helps you.</p><ul><li><strong>Look back:</strong> think about what has gone well and what has been challenging since you last met.</li><li><strong>Note questions:</strong> jot down anything you are unsure about or want to learn.</li><li><strong>Review actions:</strong> check what you agreed last time and how it went.</li><li><strong>Bring examples:</strong> real situations help make the conversation useful and specific.</li></ul><p>Writing a few notes in advance means you will not forget the things that matter most to you, and it shows your supervisor that you take your development seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "91716ad7-65bf-4168-a278-2764b39524ec",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting the most",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-the-most.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f6f6fe02-5ee2-4464-8b38-6985f4c662b4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Getting the most from it</h2><p>During supervision, be honest and take an active part. Supervision works best when you treat it as <em>your</em> time.</p><p>Speak openly about difficulties &mdash; your supervisor cannot support you with things they do not know about. Ask for feedback on your practice, and listen to it thoughtfully. Be willing to agree clear actions, and make sure you understand who is doing what and by when. Afterwards, follow through on what you agreed and keep any notes safely.</p><p>If something is worrying you about a person's safety or wellbeing, supervision is a good place to raise it &mdash; but never wait for supervision to report an urgent safeguarding concern. Raise those straight away, following your safeguarding policy, because some things simply cannot wait for a scheduled meeting.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44f3dc31-f485-49dd-b4fb-814ea801700b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Preparing beforehand and taking an active part helps you get the most from your supervision.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Preparing and taking an active part really do help &mdash; supervision works best when you engage with it.",
+            "correctAnswerMessage": "Correct. Thinking ahead, bringing examples and speaking openly turn supervision into time that genuinely supports your development."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "4a5c4377-013e-4d23-9b65-ed615cc148c0",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "personal-development",
+  "title": "Your Personal Development",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "personal-development/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Your role and standards"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p2",
+      "label": "Your job role",
+      "questions": 1,
+      "section": "Your role and standards"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p3",
+      "label": "The Care Certificate",
+      "questions": 1,
+      "section": "Your role and standards"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p4",
+      "label": "What reflection is",
+      "questions": 1,
+      "section": "Reflective practice"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p5",
+      "label": "A reflective model",
+      "questions": 1,
+      "section": "Reflective practice"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p6",
+      "label": "Feedback and setbacks",
+      "questions": 1,
+      "section": "Reflective practice"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p7",
+      "label": "What supervision is",
+      "questions": 1,
+      "section": "Supervision and appraisal"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p8",
+      "label": "Getting the most",
+      "questions": 1,
+      "section": "Supervision and appraisal"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p9",
+      "label": "Appraisals",
+      "questions": 1,
+      "section": "Supervision and appraisal"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p10",
+      "label": "Development plans",
+      "questions": 1,
+      "section": "Your development plan"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p11",
+      "label": "Ways of learning",
+      "questions": 1,
+      "section": "Your development plan"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p12",
+      "label": "Your portfolio",
+      "questions": 1,
+      "section": "Your development plan"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-development/p13",
+      "label": "Summary",
+      "questions": 0,
+      "section": "Your development plan"
+    }
+  ]
+}

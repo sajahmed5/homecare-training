@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Standard 2</h2><p>Welcome to <strong>Your Personal Development</strong>. This is the knowledge element of <strong>Standard 2 of the Care Certificate</strong> (2025 framework), which every new care worker in England works through during induction. Personal development simply means the steps you take to grow the knowledge, skills and confidence you need to give safe, kind and effective care &mdash; and to keep improving throughout your career.</p><p>Good care is never something you finish learning. The people you support, the guidance you follow and the tasks you carry out all change over time. By developing yourself, you keep your practice current, you protect the people in your care, and you build a working life you can feel proud of. Developing yourself is also part of your professional responsibility, and it is something your employer should actively support you to do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6d7da79e-31fa-4c57-b113-2e6808890d8c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a3bfeb22-b1eb-4e88-a52c-afbc7d3c06a7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will explore what personal development means, how reflective practice sharpens your care, what to expect from supervision and appraisal, and how to build a personal development plan and portfolio.</p><ul><li><strong>Important:</strong> this e-learning covers the <em>knowledge</em> element only.</li><li><strong>Remember:</strong> achieving the Care Certificate also needs your <em>competence</em> observed in real work by your employer, who signs it off.</li><li><strong>So:</strong> an online course alone cannot complete the Care Certificate &mdash; it is one part of a wider process.</li></ul><p>Keep that in mind as you learn, and think about how each idea applies to your own role.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b3e57050-3859-46ed-be1c-1e30bfacc15d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

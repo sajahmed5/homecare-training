@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Understanding distress reactions</h2><p>You may hear terms like &ldquo;challenging behaviour&rdquo;, but this language is unhelpful and unfair. It blames the person and misses the point. Instead we speak of <strong>distress reactions</strong>: understandable responses from a person who is upset, frightened or trying to meet a need they cannot easily express.</p><p>When someone becomes agitated, tearful, resistant or restless, they are communicating. Behind almost every distress reaction is an <strong>unmet need</strong>. The behaviour is not the problem to be managed &mdash; it is a signal to be understood.</p><p>Your task is to look beyond what you see and ask: what is this person trying to tell me? Answering that question with curiosity and compassion is far more effective than trying to stop the behaviour itself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11509122-31c5-4f6c-8375-777d72a82d58",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Distress reactions",
+          "decorative": false,
+          "file": {
+            "path": "images/distress-reactions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e995d116-1812-4db9-9c08-0ad33bfef500",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Finding the unmet need</h2><p>Needs come in many forms, and they are often practical. Working through the possibilities calmly helps you find the cause.</p><ul><li><strong>Physical:</strong> pain, hunger, thirst, needing the toilet, being too hot or cold, or tiredness.</li><li><strong>Emotional:</strong> fear, boredom, loneliness, grief or feeling ignored.</li><li><strong>Environmental:</strong> noise, crowding, unfamiliar surroundings or too much going on.</li><li><strong>Communication:</strong> not being understood, or not understanding what is happening.</li></ul><p>Stay calm, keep yourself and the person safe, and give them space if they need it. Do not take distress personally. Afterwards, record what happened, what came before it and what helped, then report it &mdash; patterns you notice can guide the care plan. Pain in particular is easily missed and should always be considered and reported.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1da73157-1975-464c-9c98-c2c68643d3f0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A distress reaction is usually a way of communicating an unmet need rather than deliberate difficult behaviour.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. Distress reactions communicate an unmet need; your role is to understand and respond to it.",
+            "correctAnswerMessage": "Correct. Distress reactions signal an unmet need &mdash; physical, emotional or environmental &mdash; and call for understanding, not blame."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "a668fc2d-1791-4e41-b1e0-270177f5fb86",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

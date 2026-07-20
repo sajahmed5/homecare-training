@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What autism is</h2><p>Autism is a lifelong <strong>difference in how a person experiences and makes sense of the world</strong>. It affects how someone communicates, relates to other people, and processes information and their surroundings. Autism is not an illness or a disease, and it cannot, and should not, be &ldquo;cured&rdquo;.</p><p>Autism is often described as a spectrum, but this does not mean a simple line from &ldquo;a little&rdquo; to &ldquo;a lot&rdquo;. Each autistic person has a unique profile of strengths and challenges that can vary from day to day and from one situation to another.</p><ul><li><strong>Communication:</strong> differences in understanding and using language, tone, and social cues.</li><li><strong>Interests and routine:</strong> deep, focused interests and comfort in predictability.</li><li><strong>Strengths:</strong> honesty, attention to detail, loyalty, and unique perspectives.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c1a9a5d6-f257-40ac-8952-bb45011ba033",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What autism is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-autism-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "21354330-d482-44e5-acc2-111762f91d19",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Not a learning disability &mdash; and sensory differences</h2><p>Autism is <strong>not</strong> a learning disability. Many autistic people do not have a learning disability at all. However, the two can <strong>co-occur</strong>, and a person may have both. Always find out about the individual rather than assuming.</p><p>Many autistic people experience <strong>sensory differences</strong>: the world can feel too loud, too bright, or overwhelming. Some senses may be heightened (hypersensitive) and others reduced (hyposensitive).</p><ul><li><strong>Sound:</strong> everyday noise can feel painful or exhausting.</li><li><strong>Light and touch:</strong> lighting, textures, or labels in clothing may cause real distress.</li><li><strong>Environment:</strong> small adjustments &mdash; a quieter space, dimmer lights &mdash; can transform someone's experience.</li></ul><p>Many autistic people prefer <strong>identity-first</strong> language (&ldquo;autistic person&rdquo;) rather than person-first (&ldquo;person with autism&rdquo;). Ask each person what they prefer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1345e9bd-d63f-474f-8c77-6f0710cfe8c2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about autism and learning disability is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Autism is not a learning disability, but a person can have both.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Autism and learning disability are different things. They sometimes co-occur, so always find out about the individual.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Autism and learning disability are the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are different. Autism is a difference in how someone experiences the world; a learning disability affects learning and everyday functioning.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Every autistic person also has a learning disability.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Many autistic people do not have a learning disability. Assuming they do is inaccurate and unhelpful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A person can never have both autism and a learning disability.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They can co-occur. Some people you support will have both, each affecting them in individual ways.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8d264c13-19cc-47f2-ab76-d3358ebe7fcd",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

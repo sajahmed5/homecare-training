@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A simple reflective model</h2><p>You do not need a complicated theory to reflect well. A simple, three-step model works for everyday care:</p><ul><li><strong>Describe:</strong> what actually happened? Set out the facts plainly, without judging yourself yet.</li><li><strong>Evaluate:</strong> what went well, and what went less well? Be honest and balanced.</li><li><strong>Plan:</strong> what would you do differently, or keep doing, next time?</li></ul><p>Moving through these steps stops you from either dwelling on a bad moment or ignoring it. It gives your thinking a clear shape and always ends by looking forward. You can run through it in your head in a couple of minutes, or write it down when something feels worth returning to.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3385e2de-29d1-45c8-9235-a5d6e93a65e8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for A reflective model",
+          "decorative": false,
+          "file": {
+            "path": "images/a-reflective-model.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d191bb4c-679a-4c9a-8c0f-aca891c2b2ba",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A care example</h2><p>Imagine you supported Doris, who became upset during personal care.</p><ul><li><strong>Describe:</strong> Doris pulled away and raised her voice when you began to help her wash; she settled once you stopped and sat with her.</li><li><strong>What went well:</strong> you stayed calm, did not rush her, and offered her a choice about when to continue.</li><li><strong>What went less well:</strong> you had not explained each step before starting, which may have startled her.</li><li><strong>Do differently:</strong> next time you will talk her through what you are doing and check she is ready at each stage.</li></ul><p>That small piece of reflection turns one difficult morning into a lasting improvement in how you support Doris and others. You could also share what you learned with the rest of the team, so everyone approaches her personal care in the same calm, respectful way.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "12e20637-4ac0-4331-a8b2-f60a5588fa9f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Using the simple reflective model, what is the final step after describing what happened and evaluating what went well and less well?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Plan what you would do differently or keep doing next time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reflection always ends by looking forward: deciding what to change or repeat next time.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record the incident and take no further action</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Recording matters, but the model ends by planning improvements, not simply filing it away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide who was to blame for what happened</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Reflection is not about blame; the final step is planning what you would do differently.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Repeat exactly the same approach to stay consistent</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The point of reflecting is to improve, so you consider what to change, not simply repeat everything.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2ddcb2d6-d164-4789-be3d-c335f07cf147",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

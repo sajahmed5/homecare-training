@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Appraisals</h2><p>An <strong>appraisal</strong> is a wider review of your work, usually held once a year. Where supervision looks at how you are getting on day to day, an appraisal steps back to look at the bigger picture: your progress over the whole year, your strengths, your development and your goals for the year ahead. It is a chance to celebrate what you have achieved and to plan where you want to go next.</p><p>Your appraisal is often linked to your personal development plan, and the two work together to keep your learning on track. Because it comes round only once a year, it helps to think in advance about what you are most proud of and what you would like to focus on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a1053bba-a58f-4957-923f-493bba1e287f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Appraisals",
+          "decorative": false,
+          "file": {
+            "path": "images/appraisals.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f3fb031d-82f1-4519-9eb4-9cf717c37a33",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Objectives and acting on feedback</h2><p>A key part of appraisal is agreeing <strong>objectives</strong> &mdash; clear goals for your development. Helpful objectives are specific and realistic, with a timescale, so you and your manager can both see whether you have met them.</p><ul><li><strong>Specific:</strong> &ldquo;complete moving-and-handling refresher training&rdquo; rather than &ldquo;get better at manual handling&rdquo;.</li><li><strong>Realistic:</strong> something achievable alongside your work.</li><li><strong>Time-bound:</strong> with a date to aim for and review.</li></ul><p>Appraisal only works if you <strong>act on the feedback</strong> you receive. Reflect on what your manager says, agree what you will do differently, and follow through on your objectives during the year. Your objectives should not be forgotten until the next appraisal; revisiting them in supervision keeps them alive. Then, at your next review, you can look back and see how far you have come.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6f1262ca-1dbd-44de-a9c2-e3cb6530c9ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main difference between supervision and an appraisal?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Supervision is a regular day-to-day review, while an appraisal is a wider, usually yearly review of your progress and goals</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Supervision happens frequently and focuses on ongoing work; appraisal steps back once a year to review overall progress and set goals.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Supervision is yearly, while an appraisal happens every few weeks</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is the other way round: supervision is frequent, and appraisal is usually annual.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are exactly the same meeting with two different names</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are related but different: supervision is regular and ongoing, while appraisal is a wider periodic review.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An appraisal is only about your pay, with no link to development</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Appraisal focuses on your progress, development and objectives, not simply pay.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5f34f9a1-3f55-4bd5-a496-12584c41423f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

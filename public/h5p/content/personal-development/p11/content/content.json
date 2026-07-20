@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Ways people learn</h2><p>People learn in many different ways, and no single method suits everyone. Understanding how you learn best helps you choose development that will actually stick.</p><ul><li><strong>Formal training:</strong> courses, e-learning and qualifications such as the Care Certificate or a diploma.</li><li><strong>Learning on the job:</strong> watching experienced colleagues, being shown, and practising with support.</li><li><strong>Reflection and reading:</strong> thinking about your practice and keeping up with guidance.</li><li><strong>Feedback and coaching:</strong> learning through conversations with others.</li></ul><p>A good mix of these keeps your learning varied and rooted in real practice. It is worth noticing which methods help you most, so you can seek out more of what works for you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "496ca22d-a935-45a1-8780-2de35ab6ed6a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Ways of learning",
+          "decorative": false,
+          "file": {
+            "path": "images/ways-of-learning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "de2da257-60d6-4e0e-b746-25de8eb1b68f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Where to get support</h2><p>You are not expected to develop on your own. Support is all around you, and asking for it is a sign of a good care worker, not a weak one.</p><ul><li><strong>Colleagues:</strong> experienced team members who can show you and share what they know.</li><li><strong>Mentors:</strong> someone who guides you and helps you grow over time.</li><li><strong>Your manager:</strong> who arranges training and helps plan your development.</li><li><strong>Training and funded learning:</strong> courses your employer provides, and funded programmes such as apprenticeships or grants that can help you gain qualifications.</li></ul><p>Ask your manager what learning and funding is available to you &mdash; there is often more support than people realise. In England, organisations such as Skills for Care also point employers and workers towards funded development. Making use of this support is one of the best investments you can make in your career.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "066d2dc7-b56d-4963-9c58-e879d374cb6f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A colleague says they only ever learn through formal classroom courses. What is the most helpful response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>People learn in many ways, and a mix of training, on-the-job learning, reflection and feedback usually works best</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. No single method suits everyone, and combining different ways of learning keeps development varied and grounded in practice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Classroom courses are the only learning that counts towards your development</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not so &mdash; learning on the job, reflection and feedback all count and are highly valuable.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no point learning at all once your induction is finished</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Development is ongoing throughout your career, not something that ends after induction.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should only learn from written guidance, never from colleagues</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Colleagues and mentors are a valuable source of learning; you should not rule them out.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c6bd4b47-ce4b-4263-843f-b3610bbda08e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

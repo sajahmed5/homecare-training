@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Pulling it together</h2><p>Well done for completing the knowledge element of <strong>Care Certificate Standard 2: Your Personal Development</strong>. You have explored a great deal:</p><ul><li><strong>Your role:</strong> how your job description and agreed ways of working set clear, safe boundaries.</li><li><strong>Reflective practice:</strong> using a simple describe, evaluate and plan model to learn from everyday care and from feedback.</li><li><strong>Supervision and appraisal:</strong> making the most of supportive meetings and acting on the feedback you receive.</li><li><strong>Your development plan:</strong> using a PDP, learning in ways that suit you, seeking support and building a portfolio of evidence.</li></ul><p>Together these turn everyday work into steady, purposeful growth. None of them needs to be difficult or time-consuming; the value comes from doing them a little and often.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b8f1cee0-203a-4197-ae2c-53344cf3f261",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8204226c-4dcc-4f51-bd39-38e83e6413f3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your ongoing responsibility</h2><p>Personal development is not a one-off task &mdash; it is part of being a professional care worker throughout your career. The people you support deserve care from someone who keeps learning, reflects honestly, and works to improve. Keep reflecting, keep using supervision and appraisal, and keep your development plan and portfolio alive.</p><p>Finally, remember the important point from the start: <strong>this e-learning covers the knowledge element only</strong>. Achieving the Care Certificate also needs your competence observed in real work by your employer, who signs it off. An online course alone cannot complete it. Speak to your manager about arranging the workplace observation and assessment that go alongside this learning &mdash; and enjoy the journey of developing your practice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "03bd9bd7-b782-4527-a47d-179152ec7c61",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

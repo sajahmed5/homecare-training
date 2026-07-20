@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Understanding dementia</h2><p>Dementia is not a single illness but a set of symptoms caused by different diseases that damage the brain. It is progressive, meaning it develops over time, and it is not a normal part of ageing. It affects memory, thinking, communication and the ability to carry out everyday tasks.</p><p>Dementia is caused by physical changes in the brain. It is not something a person chooses, and it cannot be reversed by trying harder. Understanding this helps you respond with patience rather than frustration when someone repeats a question or struggles with a familiar task.</p><p>At awareness level you do not diagnose dementia or judge its stage. You support the person, notice changes and report them to the nurse, senior or care plan so professional assessment can follow.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5cba3ebd-4f3e-4b64-bd97-6264f70e981a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What dementia is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-dementia-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "858f296f-6eaa-418b-8929-0243feaf7356",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The main types</h2><p>Different diseases cause dementia, and they can affect people in different ways. A person may even have more than one type at once.</p><ul><li><strong>Alzheimer's disease:</strong> the most common cause, usually beginning with memory difficulties and often progressing gradually.</li><li><strong>Vascular dementia:</strong> caused by reduced blood flow to the brain, sometimes after a stroke, and may progress in noticeable steps.</li><li><strong>Lewy body dementia:</strong> linked with changes in alertness, visual hallucinations and movement difficulties similar to Parkinson's.</li><li><strong>Frontotemporal dementia:</strong> often affects younger people and can change personality, behaviour or language more than memory at first.</li></ul><p>You do not need to identify which type someone has. Knowing that types differ simply reminds you to see each person as an individual whose experience will be their own.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8552eaec-e831-4d16-b5c7-d9660d6600f5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these facts about dementia.</p></p>",
+          "textField": "Dementia is *progressive* and is not a normal part of ageing. The most common cause is *Alzheimer's* disease, while a reduced blood supply to the brain causes *vascular* dementia. Visual hallucinations and changes in alertness are linked with *Lewy* body dementia.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "6e4757c0-69cd-44c4-bd46-c538262a42cd",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

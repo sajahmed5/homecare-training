@@ -1,0 +1,784 @@
+{
+ "outDir": ".",
+ "scenes": [
+  {
+   "outDir": "public/h5p/content/personal-development/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Standard 2",
+   "accent": "#0d9488",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Important",
+    "Remember",
+    "So"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p2/content/images",
+   "file": "your-job-role.svg",
+   "title": "Your job description",
+   "accent": "#0d9488",
+   "alt": "Illustration for Your job role",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Policies",
+    "Procedures",
+    "Boundaries"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p3/content/images",
+   "file": "the-care-certificate.svg",
+   "title": "The Care Certificate and your induction",
+   "accent": "#0d9488",
+   "alt": "Illustration for The Care Certificate",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Knowledge",
+    "Competence"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p4/content/images",
+   "file": "what-reflection-is.svg",
+   "title": "What is reflective practice?",
+   "accent": "#0d9488",
+   "alt": "Illustration for What reflection is",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Better outcomes",
+    "Learning from mistakes",
+    "Self-awareness"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p5/content/images",
+   "file": "a-reflective-model.svg",
+   "title": "A simple reflective model",
+   "accent": "#0d9488",
+   "alt": "Illustration for A reflective model",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Describe",
+    "Evaluate",
+    "Plan"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p6/content/images",
+   "file": "feedback-and-setbacks.svg",
+   "title": "Reflecting on feedback",
+   "accent": "#0d9488",
+   "alt": "Illustration for Feedback and setbacks",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Be honest",
+    "Report it",
+    "Reflect"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p7/content/images",
+   "file": "what-supervision-is.svg",
+   "title": "What is supervision?",
+   "accent": "#0d9488",
+   "alt": "Illustration for What supervision is",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Review your practice",
+    "Raise concerns",
+    "Plan development"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p8/content/images",
+   "file": "getting-the-most.svg",
+   "title": "Preparing for supervision",
+   "accent": "#0d9488",
+   "alt": "Illustration for Getting the most",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Look back",
+    "Note questions",
+    "Review actions"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p9/content/images",
+   "file": "appraisals.svg",
+   "title": "Appraisals",
+   "accent": "#0d9488",
+   "alt": "Illustration for Appraisals",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Specific",
+    "Realistic",
+    "Time-bound"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p10/content/images",
+   "file": "development-plans.svg",
+   "title": "What is a personal development plan?",
+   "accent": "#0d9488",
+   "alt": "Illustration for Development plans",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Set clear goals",
+    "Break it down",
+    "Identify support"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p11/content/images",
+   "file": "ways-of-learning.svg",
+   "title": "Ways people learn",
+   "accent": "#0d9488",
+   "alt": "Illustration for Ways of learning",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Formal training",
+    "Learning on the job",
+    "Reflection and reading"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p12/content/images",
+   "file": "your-portfolio.svg",
+   "title": "Keeping a portfolio of evidence",
+   "accent": "#0d9488",
+   "alt": "Illustration for Your portfolio",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Certificates",
+    "Reflections",
+    "Feedback"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/personal-development/p13/content/images",
+   "file": "summary.svg",
+   "title": "Pulling it together",
+   "accent": "#0d9488",
+   "alt": "Illustration for Summary",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Your role",
+    "Reflective practice",
+    "Supervision and appraisal"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p1/content/images",
+   "file": "what-mental-health-is.svg",
+   "title": "Everyone has mental health",
+   "accent": "#0d9488",
+   "alt": "Illustration for What mental health is",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Use person-first language",
+    "Avoid casual labels",
+    "Take distress seriously"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p2/content/images",
+   "file": "common-conditions.svg",
+   "title": "Conditions you may come across",
+   "accent": "#0d9488",
+   "alt": "Illustration for Common conditions",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Anxiety",
+    "Depression",
+    "Bipolar disorder"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p3/content/images",
+   "file": "positive-wellbeing.svg",
+   "title": "Supporting good mental wellbeing",
+   "accent": "#0d9488",
+   "alt": "Illustration for Positive wellbeing",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Connection",
+    "Purpose",
+    "Activity"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p4/content/images",
+   "file": "what-dementia-is.svg",
+   "title": "Understanding dementia",
+   "accent": "#0d9488",
+   "alt": "Illustration for What dementia is",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Alzheimer's disease",
+    "Vascular dementia",
+    "Lewy body dementia"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p5/content/images",
+   "file": "how-dementia-changes.svg",
+   "title": "How dementia progresses",
+   "accent": "#0d9488",
+   "alt": "Illustration for How dementia changes",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Memory",
+    "Communication",
+    "Orientation"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p6/content/images",
+   "file": "the-person-behind.svg",
+   "title": "Seeing the person, not the diagnosis",
+   "accent": "#0d9488",
+   "alt": "Illustration for The person behind",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Learn what matters",
+    "Respect identity",
+    "Involve families"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p7/content/images",
+   "file": "communicating-well.svg",
+   "title": "Communication that connects",
+   "accent": "#0d9488",
+   "alt": "Illustration for Communicating well",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Give time",
+    "Keep it simple",
+    "Get down to eye level"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p8/content/images",
+   "file": "environment-and-activity.svg",
+   "title": "The environment matters",
+   "accent": "#0d9488",
+   "alt": "Illustration for Environment and activity",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Reduce noise and clutter",
+    "Good lighting",
+    "Familiar cues"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p9/content/images",
+   "file": "distress-reactions.svg",
+   "title": "Understanding distress reactions",
+   "accent": "#0d9488",
+   "alt": "Illustration for Distress reactions",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Physical",
+    "Emotional",
+    "Environmental"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p10/content/images",
+   "file": "recognising-delirium.svg",
+   "title": "Delirium: a medical emergency",
+   "accent": "#0d9488",
+   "alt": "Illustration for Recognising delirium",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "New or worsening confusion",
+    "Changes in alertness",
+    "Fluctuation"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p11/content/images",
+   "file": "mental-health-act.svg",
+   "title": "Awareness of the Mental Health Act 1983",
+   "accent": "#0d9488",
+   "alt": "Illustration for Mental Health Act",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Safeguards",
+    "Least restriction",
+    "Rights remain"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p12/content/images",
+   "file": "mca-dols-advocacy.svg",
+   "title": "Crossover with the Mental Capacity Act 2005",
+   "accent": "#0d9488",
+   "alt": "Illustration for MCA, DoLS, advocacy",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Advocacy",
+    "Carers",
+    "Your role"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-health-and-dementia/p13/content/images",
+   "file": "summary.svg",
+   "title": "Recognise, respond, report",
+   "accent": "#0d9488",
+   "alt": "Illustration for Summary",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Recognise",
+    "Respond",
+    "Report"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p1/content/images",
+   "file": "what-it-is.svg",
+   "title": "What a learning disability is",
+   "accent": "#0d9488",
+   "alt": "Illustration for What it is",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Not an illness",
+    "Not a mental illness",
+    "Lifelong"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p2/content/images",
+   "file": "communication.svg",
+   "title": "Communicating well",
+   "accent": "#0d9488",
+   "alt": "Illustration for Communication",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Slow down",
+    "Keep it clear",
+    "Use easy-read"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p3/content/images",
+   "file": "health-inequalities.svg",
+   "title": "Health inequalities",
+   "accent": "#0d9488",
+   "alt": "Illustration for Health inequalities",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Access",
+    "Communication",
+    "Overshadowing"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p4/content/images",
+   "file": "what-autism-is.svg",
+   "title": "What autism is",
+   "accent": "#0d9488",
+   "alt": "Illustration for What autism is",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Communication",
+    "Interests and routine",
+    "Strengths"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p5/content/images",
+   "file": "communication-and-masking.svg",
+   "title": "Communication and processing information",
+   "accent": "#0d9488",
+   "alt": "Illustration for Communication and masking",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Being literal and clear",
+    "Allowing processing time",
+    "Reducing demands"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p6/content/images",
+   "file": "meltdown-and-shutdown.svg",
+   "title": "Meltdown and shutdown",
+   "accent": "#0d9488",
+   "alt": "Illustration for Meltdown and shutdown",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Meltdown",
+    "Shutdown",
+    "Reduce input"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p7/content/images",
+   "file": "reasonable-adjustments.svg",
+   "title": "The duty to make reasonable adjustments",
+   "accent": "#0d9488",
+   "alt": "Illustration for Reasonable adjustments",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Legal, not optional",
+    "Individual",
+    "Everyday"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p8/content/images",
+   "file": "passports-and-checks.svg",
+   "title": "Hospital and health passports",
+   "accent": "#0d9488",
+   "alt": "Illustration for Passports and checks",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "How I communicate",
+    "What matters to me",
+    "My health"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p9/content/images",
+   "file": "stomp.svg",
+   "title": "Over-medication and STOMP",
+   "accent": "#0d9488",
+   "alt": "Illustration for STOMP",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "pills"
+    }
+   ],
+   "points": [
+    "Right reason",
+    "Right review",
+    "Understand behaviour"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p10/content/images",
+   "file": "health-and-care-act.svg",
+   "title": "The Health and Care Act 2022",
+   "accent": "#0d9488",
+   "alt": "Illustration for Health and Care Act",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Legal basis",
+    "Named after Oliver",
+    "Tier 1"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p11/content/images",
+   "file": "capacity-and-consent.svg",
+   "title": "Capacity and consent",
+   "accent": "#0d9488",
+   "alt": "Illustration for Capacity and consent",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Assume capacity",
+    "Unwise is allowed",
+    "Go deeper"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p12/content/images",
+   "file": "restrictive-practice.svg",
+   "title": "Restrictive practice and least restriction",
+   "accent": "#0d9488",
+   "alt": "Illustration for Restrictive practice",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Last resort",
+    "Proportionate",
+    "Accountable"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/learning-disability-and-autism/p13/content/images",
+   "file": "summary.svg",
+   "title": "Respect, adjust, include",
+   "accent": "#0d9488",
+   "alt": "Illustration for Summary",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Respect",
+    "Adjust",
+    "Include"
+   ]
+  }
+ ]
+}

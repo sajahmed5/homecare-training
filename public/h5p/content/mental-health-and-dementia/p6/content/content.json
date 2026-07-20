@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Seeing the person, not the diagnosis</h2><p>A diagnosis of dementia describes part of a person's health &mdash; it does not describe who they are. Behind every diagnosis is a whole life: a childhood, a career perhaps, relationships, achievements, losses and passions. Person-centred care means keeping that individual, not the condition, at the heart of everything you do.</p><p>When you know someone's story, care becomes easier and kinder. Knowing that a man was a lifelong gardener helps you understand why he wants to be outside. Knowing that a woman raised four children helps you see why she worries about &ldquo;the little ones&rdquo; in the afternoon. Their words make sense in the context of their life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c19a6f36-3b4e-4f1f-9a27-1f483d44195e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The person behind",
+          "decorative": false,
+          "file": {
+            "path": "images/the-person-behind.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "63ed3ca5-8a46-4673-a8c2-b156ea987297",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using life history and identity</h2><p>Life-history work is not just pleasant background &mdash; it is a practical tool for good care. Many services use a life-story book, a &ldquo;this is me&rdquo; document or a similar record. Read it, add to it, and use it.</p><ul><li><strong>Learn what matters:</strong> preferred name, routines, faith, food, music and past occupation.</li><li><strong>Respect identity:</strong> support people to dress, groom and live in ways that feel like themselves.</li><li><strong>Involve families:</strong> relatives hold precious knowledge and can help you understand the person.</li><li><strong>Connect through interests:</strong> a shared love of football or a favourite hymn can open real communication.</li></ul><p>When identity is honoured, people are calmer, more engaged and more themselves. Seeing the person behind the diagnosis is the foundation of everything that follows.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "df81dd93-7660-4488-89f2-22756dd12b40",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is knowing a person's life history useful when supporting someone living with dementia?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It helps you understand the person's needs, wishes and behaviour, and connect with them meaningfully.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Life history is a practical tool that makes care more personal, more understandable and more effective.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It lets you decide which stage of dementia the person has reached.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Assessing stages is not your role. Life history is about knowing the person, not judging their condition.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is interesting background but has little effect on day-to-day care.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Life history has a real, practical impact &mdash; it helps you understand behaviour and communicate well.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It allows you to correct the person whenever their memories are inaccurate.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The aim is to connect and reassure, not to correct. Life history helps you understand, not to challenge someone's reality.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3b151cf8-a3f5-4450-8e53-669e1bbbcd6a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

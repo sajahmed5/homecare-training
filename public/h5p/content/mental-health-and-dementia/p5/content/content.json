@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How dementia progresses</h2><p>Dementia usually develops gradually, and every person's journey is different. Broadly, needs tend to increase over time, but there is no fixed timetable. Someone may stay independent in many areas for a long while, then need more support in others.</p><ul><li><strong>Memory:</strong> recent events may be forgotten while memories from long ago stay vivid.</li><li><strong>Communication:</strong> finding the right words, following a conversation or reading may become harder.</li><li><strong>Orientation:</strong> a person may lose track of the time, date or place, or become confused about where they are.</li><li><strong>Everyday tasks:</strong> familiar activities such as cooking or dressing can take more time and support.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4afb054-0d1f-4c4d-959d-3eddd2698f56",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for How dementia changes",
+          "decorative": false,
+          "file": {
+            "path": "images/how-dementia-changes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2204b220-20d8-42f1-ab43-9ffa66ee8e08",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What does not change</h2><p>It is easy to focus on loss, but a great deal remains. Above all, the person is still there. Their character, their history and their capacity to feel do not disappear.</p><ul><li><strong>The person:</strong> their identity, humour and personality remain part of who they are.</li><li><strong>Feelings:</strong> people living with dementia feel joy, love, fear, boredom and grief just as anyone does &mdash; often more strongly.</li><li><strong>The need for connection:</strong> warmth, respect and companionship matter as much as ever.</li><li><strong>Emotional memory:</strong> a person may forget an event but still remember how it made them feel.</li></ul><p>This is why <em>how</em> you make someone feel is so important. A kind tone and a calm presence reach a person even when words are lost. Care that protects feelings protects the person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b18cb72e-52aa-440b-912c-a3c1fdcefd7b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person living with dementia may forget a conversation but still be left with the feeling it gave them.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. People often retain the feeling an interaction created even after forgetting the event itself.",
+            "correctAnswerMessage": "Correct. Emotional memory often outlasts factual memory, which is why a warm, respectful manner matters so much."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "53e8c4ff-bc93-44d9-83e3-a4e960e29967",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

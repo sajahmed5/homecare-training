@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hospital and health passports</h2><p>A <strong>hospital passport</strong> (also called a health passport) is a personal document that travels with a person into a healthcare setting. It gives staff who do not know them the essential information they need to provide safe, personalised care &mdash; quickly, and without the person having to repeat it while unwell or anxious.</p><p>A passport typically includes:</p><ul><li><strong>How I communicate:</strong> the person's words, signs, and cues.</li><li><strong>What matters to me:</strong> likes, dislikes, and how I show pain or distress.</li><li><strong>My health:</strong> conditions, medicines, and allergies.</li><li><strong>My reasonable adjustments:</strong> what I need to feel safe and understood.</li></ul><p>You can help by keeping a person's passport up to date and making sure it goes with them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6f8ee43-e834-44d4-8538-0cba5317d691",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Passports and checks",
+          "decorative": false,
+          "file": {
+            "path": "images/passports-and-checks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "09264dc2-16f2-4be9-aac1-06cd5f8be5c0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Annual health checks</h2><p>People with a learning disability aged 14 and over are entitled to a free <strong>annual health check</strong> from their GP, even if they feel well. Because health problems in this group are so often missed, these checks are a vital way of finding and treating issues early &mdash; directly tackling health inequalities.</p><p>The check reviews the person's overall health, medicines, and any changes, and produces a <strong>health action plan</strong> for the year ahead.</p><ul><li><strong>Encourage:</strong> support the person to attend and to prepare.</li><li><strong>Register:</strong> the person needs to be on the GP's learning disability register.</li><li><strong>Follow up:</strong> help make sure actions from the plan actually happen.</li></ul><p>Your encouragement and practical support can make the difference between a check happening or being missed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1bb8606a-910e-4976-ba62-80fcedb0dd0d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main purpose of a hospital (health) passport?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To give healthcare staff who do not know the person the key information they need to provide safe, personalised care.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A hospital passport shares how the person communicates, what matters to them, and their health needs and adjustments, so care is safe and personal.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To replace the need for the person to attend appointments.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A passport supports appointments; it does not replace them. The person still receives care in person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To act as legal proof of the person's diagnosis for benefits.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A passport is a care tool for sharing needs and preferences, not a legal or benefits document.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To record staff rotas and shift patterns on the ward.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A passport is about the individual person's needs, not staff organisation.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "cf7d6655-7927-4306-a29f-773d8a8822ca",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

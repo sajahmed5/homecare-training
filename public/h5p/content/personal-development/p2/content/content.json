@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your job description</h2><p>Your <strong>job description</strong> is the starting point for your development. It sets out your duties, who you are responsible to, and the standards expected of you. Reading it closely helps you understand exactly what your role does &mdash; and, just as importantly, what it does not. Knowing the boundaries of your role keeps everyone safe. If a task falls outside your role or your training, the right thing to do is to say so and ask, not to guess.</p><p>When your duties are clear, you can spot the areas where you feel confident and the areas where you would benefit from more training or support. If anything in your job description is unclear, ask your manager to talk it through with you, and revisit it whenever your role changes.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7e76e130-044a-46bc-a316-b496925f6141",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your job role",
+          "decorative": false,
+          "file": {
+            "path": "images/your-job-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ff827830-6a4d-4b2f-a1ab-fc7028f12052",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Agreed ways of working</h2><p>Alongside your job description sit your employer's <strong>policies and procedures</strong> &mdash; often called your <strong>agreed ways of working</strong>. These describe how tasks should be carried out in your workplace, from moving and handling to safeguarding, medication and confidentiality.</p><ul><li><strong>Policies:</strong> tell you what your organisation expects and why.</li><li><strong>Procedures:</strong> give you the step-by-step way to do something safely.</li><li><strong>Boundaries:</strong> make clear where your responsibility ends and a colleague's or manager's begins.</li></ul><p>Agreed ways of working must always be current, so check you are following the latest version rather than relying on how something was done in the past. If a policy seems out of date or you cannot find the guidance you need, raise it with your manager. Working within your agreed ways of working protects the people you support, your colleagues and you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "915de961-eeae-446a-8eb5-3df7963f51b5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about your role.</p></p>",
+          "textField": "Your *description* sets out your duties and the standards expected of you, while your agreed ways of *working* explain how tasks should be carried out. Following your employer's *policies* keeps the people you support safe, and knowing the *boundaries* of your role tells you when to ask for *help*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "67739a0c-4186-479a-abbe-14fbe793752d",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

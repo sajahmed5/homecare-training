@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reflecting on feedback</h2><p>Feedback is information about how your work is seen by others &mdash; the people you support, their families, your colleagues and your manager. It can be praise, a gentle suggestion or a clear concern. All of it is useful. Try to receive feedback with an open mind rather than taking it personally.</p><p>When someone offers feedback, listen fully, ask questions if you are unsure what they mean, and thank them. Then reflect: is there something here I can act on? Even feedback that feels uncomfortable at first often points to a real chance to improve. It is worth seeking feedback out, too, rather than only waiting for it to come to you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2d3e70f8-74c5-49ae-a9c8-f4c15d39b2d7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Feedback and setbacks",
+          "decorative": false,
+          "file": {
+            "path": "images/feedback-and-setbacks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "76354bc4-78fa-4ac0-9dd1-bb203b31f6d8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When things do not go to plan</h2><p>Everyone has shifts where something goes wrong &mdash; a task takes longer than expected, a person's needs change suddenly, or a mistake is made. These moments are difficult, but they are also some of your richest sources of learning.</p><ul><li><strong>Be honest:</strong> acknowledge what happened rather than hiding it.</li><li><strong>Report it:</strong> follow your workplace procedures and tell your manager where required.</li><li><strong>Reflect:</strong> ask what led to it and what would reduce the chance of it happening again.</li><li><strong>Be kind to yourself:</strong> learning from a setback is a strength, not a failure.</li></ul><p>Handled this way, a difficult experience becomes a step forward for you and safer care for others. Organisations that encourage staff to be open about mistakes, rather than punishing them, tend to be the safest places to work and to receive care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "51451aa6-f17f-4af1-b0e6-789e63705c21",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on feedback and setbacks.</p></p>",
+          "textField": "When you receive feedback, try to *listen* with an open mind rather than taking it personally. When something does not go to plan, be *honest* about what happened, *report* it in line with your workplace procedures, and then *reflect* on what would reduce the chance of it happening again.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "be1693c9-8c82-4394-8ed9-9fc0162086a5",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

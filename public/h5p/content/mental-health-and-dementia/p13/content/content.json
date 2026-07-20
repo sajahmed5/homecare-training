@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognise, respond, report</h2><p>Across this course, one thread runs through everything: your role is to <strong>recognise, respond and report</strong>. You bring awareness, kindness and good observation &mdash; not diagnosis or treatment.</p><ul><li><strong>Recognise:</strong> notice changes in mood, behaviour or wellbeing, and know that a sudden change may be delirium &mdash; a medical emergency.</li><li><strong>Respond:</strong> communicate calmly, protect dignity, meet needs, and treat distress reactions as signals of an unmet need rather than difficult behaviour.</li><li><strong>Report:</strong> record what you observe factually and pass concerns to your senior, the nurse or the care plan so the right professional can act.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "72b101fb-78ec-453b-a33c-d3887c6cbae7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a0088016-abc4-4609-aa37-0ad856a64be9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and its limits</h2><p>Supporting people with mental health conditions and dementia is skilled, human work. It rests on seeing the person behind any diagnosis, honouring their history and feelings, and challenging stigma through the language and respect you offer every day.</p><p>Know your limits too. You do not diagnose, you do not make legal decisions under the Mental Health Act, and you do not carry serious concerns alone.</p><ul><li><strong>Escalate promptly:</strong> report distress, decline or risk without delay.</li><li><strong>Seek medical help:</strong> use the GP, 111, or 999 for emergencies such as suspected delirium or risk of harm.</li><li><strong>Keep learning:</strong> complete the separate Mental Capacity Act course for the law in depth.</li></ul><p>When you recognise, respond and report with compassion, you help people live with dignity, safety and a sense of themselves &mdash; whatever they are facing.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5ad6f361-06d7-4ae8-a0c4-110841fd635a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

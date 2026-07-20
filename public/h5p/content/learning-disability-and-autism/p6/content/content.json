@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Meltdown and shutdown</h2><p>When an autistic person is completely overwhelmed &mdash; often by sensory overload, too many demands, or unexpected change &mdash; they may experience a meltdown or a shutdown. Neither is bad behaviour, naughtiness, or something done deliberately. Both are responses to distress that the person cannot control.</p><ul><li><strong>Meltdown:</strong> an intense, outward response &mdash; the person may shout, cry, or move suddenly as overwhelming feelings spill over.</li><li><strong>Shutdown:</strong> an inward response &mdash; the person may go quiet, still, or withdrawn, becoming unable to respond or communicate.</li></ul><p>A shutdown can be easy to miss because it is quiet, but the person is just as overwhelmed as during a meltdown.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40a8ec59-14ae-42e4-96d0-1cb534c28e85",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Meltdown and shutdown",
+          "decorative": false,
+          "file": {
+            "path": "images/meltdown-and-shutdown.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9b1521bd-5655-474c-afcc-ec01252ce59e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What helps</h2><p>Your calm, low-key response matters enormously. The goal is to reduce demands and help the person feel safe, not to talk them out of how they feel.</p><ul><li><strong>Reduce input:</strong> lower noise and light, and give space and quiet.</li><li><strong>Stay calm:</strong> keep your voice gentle and your language minimal.</li><li><strong>Do not crowd:</strong> avoid too many questions, instructions, or touch.</li><li><strong>Give time:</strong> allow the person to recover at their own pace.</li><li><strong>Learn triggers:</strong> knowing what overwhelms someone helps you prevent it next time.</li></ul><p>Afterwards, a person may be tired and need rest. Recording what led up to it, respectfully, helps everyone understand and reduce future distress.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "31e2c84c-b7de-443d-a7a3-ec6da8967c9d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>An autistic person you support suddenly goes silent, still, and stops responding in a busy, noisy room. What is happening, and what helps most?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>This may be a shutdown; reduce noise and light, give space and quiet, and allow time to recover.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A quiet, withdrawn response can be a shutdown. Lowering demands and sensory input, and allowing recovery time, is what helps.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are being rude and ignoring you, so you should insist they answer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A shutdown is not rudeness or a choice. Insisting on answers adds demand and makes overwhelm worse.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing is wrong because they are quiet, so no support is needed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A shutdown is easy to miss precisely because it is quiet, but the person is overwhelmed and does need calm support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Move closer, ask lots of questions, and touch their arm to get a response.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Crowding, questioning, and touch increase sensory input and demand, which can deepen the shutdown.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9e3908eb-ef0e-45cd-a327-ac415e556d89",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "learning-disability-and-autism",
+  "title": "Awareness of Learning Disability and Autism",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p1",
+      "label": "What it is",
+      "questions": 0,
+      "section": "Learning disability"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p2",
+      "label": "Communication",
+      "questions": 1,
+      "section": "Learning disability"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p3",
+      "label": "Health inequalities",
+      "questions": 1,
+      "section": "Learning disability"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p4",
+      "label": "What autism is",
+      "questions": 1,
+      "section": "Autism"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p5",
+      "label": "Communication and masking",
+      "questions": 1,
+      "section": "Autism"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p6",
+      "label": "Meltdown and shutdown",
+      "questions": 1,
+      "section": "Autism"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p7",
+      "label": "Reasonable adjustments",
+      "questions": 1,
+      "section": "Reasonable adjustments"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p8",
+      "label": "Passports and checks",
+      "questions": 1,
+      "section": "Reasonable adjustments"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p9",
+      "label": "STOMP",
+      "questions": 1,
+      "section": "Reasonable adjustments"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p10",
+      "label": "Health and Care Act",
+      "questions": 1,
+      "section": "Rights and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p11",
+      "label": "Capacity and consent",
+      "questions": 1,
+      "section": "Rights and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p12",
+      "label": "Restrictive practice",
+      "questions": 1,
+      "section": "Rights and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "learning-disability-and-autism/p13",
+      "label": "Summary",
+      "questions": 0,
+      "section": "Rights and the law"
+    }
+  ]
+}

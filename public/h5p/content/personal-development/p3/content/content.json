@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Care Certificate and your induction</h2><p>The <strong>Care Certificate</strong> is a set of <strong>16 standards</strong> that describe the values, knowledge and skills every new health and social care worker should have. It was designed so that, wherever you work, you begin with the same solid foundation. Standard 2, which you are studying now, sits alongside standards on topics such as duty of care, safeguarding, communication, privacy and dignity, and infection prevention.</p><p>You usually work through the Care Certificate during your <strong>induction</strong> &mdash; the structured start to a new role where you learn how your organisation works and get to know the people you support. Induction is not a test to survive but a supported period of learning, and you should feel able to ask plenty of questions as you go.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ebb8f4b3-01f7-4cfe-84bc-cedab7690319",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Care Certificate",
+          "decorative": false,
+          "file": {
+            "path": "images/the-care-certificate.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8b446be6-58ff-4869-99de-71eee757edc7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowledge versus observed competence</h2><p>Each standard has two parts, and it is important to understand the difference.</p><ul><li><strong>Knowledge:</strong> what you understand &mdash; the theory you can show through learning like this course, discussion or written work.</li><li><strong>Competence:</strong> what you can actually <em>do</em> in practice &mdash; carrying out tasks safely and well in your real workplace.</li></ul><p>An assessor or manager confirms your competence by <strong>observing</strong> you at work over time. Both parts must be met, and your employer signs off the completed certificate. That is why finishing the knowledge does not, on its own, complete the standard &mdash; your practice has to be seen and verified too. Keeping a record of your learning and asking your assessor to observe you when you feel ready both help move you towards full sign-off.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ace0ef3c-b941-4f78-893e-8c1f5fff986f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The Care Certificate is made up of how many standards, and what two things must be met to complete it?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>16 standards, requiring both knowledge and observed competence in practice</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The Care Certificate has 16 standards, and each needs the knowledge understood and your competence observed at work.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>12 standards, requiring only completion of online learning</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. There are 16 standards, and online learning alone is not enough &mdash; competence must be observed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>16 standards, requiring only a written test to be passed</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The number is right, but a written test alone does not show competence; your practice must be observed at work.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>20 standards, requiring a manager's signature only</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "There are 16 standards, not 20, and a signature must follow both knowledge and observed competence.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f8e2380f-d17f-4581-8a28-ccaffe352444",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Health inequalities</h2><p>People with a learning disability face significant <strong>health inequalities</strong>. On average they experience poorer health and die younger than the general population, often from conditions that could have been prevented or treated. These deaths are frequently linked to barriers in care rather than to the learning disability itself.</p><p>Barriers include:</p><ul><li><strong>Access:</strong> services that are hard to reach, book, or understand.</li><li><strong>Communication:</strong> information not provided in accessible formats.</li><li><strong>Overshadowing:</strong> symptoms wrongly attributed to the learning disability.</li><li><strong>Attitudes:</strong> assumptions about someone's quality of life affecting decisions.</li></ul><p>Recognising that these deaths are often avoidable is the first step. Your everyday vigilance and advocacy directly help to close this gap.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f023d9d5-963e-4275-892f-2d10467f6ccb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Health inequalities",
+          "decorative": false,
+          "file": {
+            "path": "images/health-inequalities.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a064dd1c-ffbe-4f90-a32a-75bd5f13d92f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Learning from lives and deaths &mdash; LeDeR</h2><p>The <strong>LeDeR programme</strong> (Learning from Lives and Deaths &mdash; People with a Learning Disability and Autistic People) reviews the deaths of people with a learning disability, and of autistic people, in England. Its purpose is not to blame, but to <strong>learn</strong>.</p><p>By looking at what happened, LeDeR identifies patterns and common problems &mdash; such as delayed diagnosis or missed reasonable adjustments &mdash; and turns them into improvements in care.</p><ul><li><strong>Aim:</strong> to reduce avoidable deaths and health inequalities.</li><li><strong>How:</strong> structured, respectful reviews that involve families and carers.</li><li><strong>Your part:</strong> good records and honest reporting feed this learning.</li></ul><p>At awareness level, you simply need to know that LeDeR exists, why it matters, and that the quality of your daily recording supports it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c96b7177-c49a-40f7-bfe7-a891e80d24cd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The main purpose of the LeDeR programme is to blame individual staff for the deaths of people with a learning disability.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. LeDeR is a learning programme, not a blame process. It reviews lives and deaths to identify improvements in care.",
+            "correctAnswerMessage": "Correct. LeDeR is about learning, not blame. It reviews deaths to spot patterns and improve care so that avoidable deaths are reduced."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "023484ba-9710-4f23-b403-6a2bd6e896fd",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

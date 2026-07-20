@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Health and Care Act 2022</h2><p>The <strong>Health and Care Act 2022</strong> introduced a legal requirement that health and social care staff receive training on learning disability and autism appropriate to their role. This was a direct response to campaigning by families &mdash; most notably the family of Oliver McGowan, a young autistic man with a learning disability who died after being given medication against his and his family's wishes.</p><p>The result is the <strong>Oliver McGowan Mandatory Training on Learning Disability and Autism</strong>: the government's preferred, standardised training to meet this legal duty. Its aim is to give staff the right knowledge and skills so that people with a learning disability and autistic people receive safe, compassionate, and informed care.</p><ul><li><strong>Legal basis:</strong> mandated under the Health and Care Act 2022.</li><li><strong>Named after Oliver:</strong> created so that his death leads to lasting change.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "85e8db2a-b4d7-481c-8936-3de1e1d67295",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Health and Care Act",
+          "decorative": false,
+          "file": {
+            "path": "images/health-and-care-act.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "382e7f9b-01f7-47ab-b142-36fd715a8d04",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The two tiers and lived experience</h2><p>The Oliver McGowan Mandatory Training is delivered at <strong>two tiers</strong>, and your employer decides which applies to your role.</p><ul><li><strong>Tier 1:</strong> for staff who need general awareness &mdash; those in roles with limited or no direct care responsibility.</li><li><strong>Tier 2:</strong> for staff who provide care and support directly, including most care workers, requiring deeper knowledge and skills.</li></ul><p>A defining feature is <strong>co-delivery with people with lived experience</strong>: the training is delivered together with people with a learning disability and autistic people. This ensures learning is grounded in real understanding, not just theory.</p><p><strong>Remember:</strong> the course you are doing now is awareness only. It does not count as the Oliver McGowan Mandatory Training, which your employer must arrange through an approved provider.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "216ad570-850c-446b-87d3-a389c6f21cf1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes the Oliver McGowan Mandatory Training?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It is delivered at two tiers and co-delivered with people who have lived experience of learning disability and autism.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The training has Tier 1 and Tier 2, and is co-delivered with people with lived experience, as mandated under the Health and Care Act 2022.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is a single course that everyone completes in exactly the same way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is delivered at two tiers, with the tier matched to the person's role.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is delivered only by academics, without involving people with lived experience.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Co-delivery with people who have lived experience is a defining feature of the training.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>This e-learning course counts as the Oliver McGowan Mandatory Training.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It does not. This course is awareness only; your employer must arrange the Oliver McGowan Mandatory Training through an approved provider.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9ee985e3-bd05-4612-a3e2-8164b62a87b7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

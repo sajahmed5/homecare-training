@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Conditions you may come across</h2><p>You do not need clinical knowledge to support someone well, but a general awareness helps you notice when a person is struggling. Remember: these are things you might <em>notice</em>, not a checklist for diagnosis.</p><ul><li><strong>Anxiety:</strong> excessive worry, restlessness, a racing heart, avoiding situations, or seeking constant reassurance.</li><li><strong>Depression:</strong> lasting low mood, loss of interest, tiredness, changes in appetite or sleep, and feelings of hopelessness.</li><li><strong>Bipolar disorder:</strong> marked swings between very low periods and elevated, high-energy periods.</li><li><strong>Psychosis:</strong> losing touch with shared reality &mdash; this can include hallucinations (sensing things others do not) or delusions (strongly held beliefs that are not based in fact).</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d83e0eb3-d4aa-4f67-8d68-dca2cecf1def",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Common conditions",
+          "decorative": false,
+          "file": {
+            "path": "images/common-conditions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c1e54501-5eda-4ce5-9fa4-d46b792610f6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Noticing and reporting</h2><p>People express distress in different ways. Some withdraw and go quiet; others become agitated or tearful. A change from what is usual for that person often matters more than any single sign. You know the people you support &mdash; trust that knowledge.</p><ul><li><strong>Watch for change:</strong> a normally sociable person who stops joining in, or someone who suddenly cannot sleep.</li><li><strong>Listen without fixing:</strong> you do not need answers; presence and attention help.</li><li><strong>Record what you observe:</strong> note the facts, not your interpretation.</li><li><strong>Report promptly:</strong> pass concerns to your senior, the nurse or the care plan so the right professional can act.</li></ul><p>If someone talks about harming themselves or others, treat it seriously and escalate straight away. This is never something to keep to yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1add4de6-3eb3-4ce2-a053-c7f9512f3721",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support usually enjoys the lunch club but has stopped attending, seems tearful and is not eating well. What is the most appropriate awareness-level response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Note the changes factually and report your concern to your senior or the care plan.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Recognising a change from what is usual, recording it and reporting it is exactly your role at awareness level.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person they are showing signs of depression so they can get treatment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Diagnosing is not your role. You recognise, respond and report &mdash; qualified professionals assess and diagnose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few weeks to see whether the low mood clears up by itself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Delaying could leave the person without support they need. A clear change should be reported promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage the person to cheer up and join in as normal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This dismisses genuine distress. Listen and report rather than urging someone to simply feel better.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c45cd0d3-ffdd-4481-8c5c-f104f519c1b7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
