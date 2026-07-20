@@ -45,6 +45,36 @@ export interface H5PBlock {
    * The player requires all of them to be answered before allowing "Next".
    */
   questions?: number;
+  /**
+   * Section this page belongs to. Consecutive pages sharing a section are
+   * grouped in the contents panel so learners can see what they have covered
+   * and what is left. Pages without one fall into a single unnamed section.
+   */
+  section?: string;
+}
+
+export interface CourseSection {
+  title: string;
+  /** Index of the first page in this section. */
+  start: number;
+  /** Page indexes belonging to this section, in order. */
+  pages: number[];
+}
+
+/**
+ * Group consecutive pages by their `section`. Consecutive rather than by name
+ * so a section title reused later in a course produces two separate blocks
+ * rather than one impossible non-contiguous group.
+ */
+export function groupSections(pages: H5PBlock[]): CourseSection[] {
+  const sections: CourseSection[] = [];
+  pages.forEach((page, i) => {
+    const title = page.section?.trim() || "Course content";
+    const last = sections[sections.length - 1];
+    if (last && last.title === title) last.pages.push(i);
+    else sections.push({ title, start: i, pages: [i] });
+  });
+  return sections;
 }
 
 export type ContentBlock =

@@ -3,9 +3,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Check, ListTree, Lock, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { saveProgressAction } from "@/app/learn/actions";
-import type { H5PBlock } from "@/lib/content";
+import { groupSections, type H5PBlock } from "@/lib/content";
 
 // Isolate the impure clock read from the component/hook bodies.
 const nowMs = () => Date.now();
@@ -52,6 +53,10 @@ export function H5PCoursePlayer({
   const [reached, setReached] = useState(startIndex);
   const [loading, setLoading] = useState(true);
   const [finished, setFinished] = useState(false);
+  const [contentsOpen, setContentsOpen] = useState(false);
+
+  const sections = groupSections(pages);
+  const currentSection = sections.find((s) => s.pages.includes(index));
 
   // Track which questions on the current page have been answered (by xAPI
   // object id) so we can require them before "Next".
@@ -204,14 +209,32 @@ export function H5PCoursePlayer({
     <div className="mx-auto max-w-3xl space-y-4">
       {/* Header + progress bar */}
       <div className="space-y-2">
-        <div className="flex items-center justify-between text-sm text-muted-foreground">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
           <Link href="/learn" className="hover:underline">
             ← My training
           </Link>
-          <span>
-            {pages[index].label ?? `Page ${index + 1}`} · {index + 1} of {total}
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="truncate">
+              {pages[index].label ?? `Page ${index + 1}`} · {index + 1} of {total}
+            </span>
+            <button
+              type="button"
+              onClick={() => setContentsOpen((o) => !o)}
+              aria-expanded={contentsOpen}
+              className="inline-flex items-center gap-1.5 rounded-full border bg-card px-3 py-1 font-medium text-foreground transition hover:shadow-sm"
+            >
+              {contentsOpen ? <X className="size-3.5" /> : <ListTree className="size-3.5" />}
+              Contents
+            </button>
+          </div>
         </div>
+
+        {currentSection && sections.length > 1 && (
+          <p className="text-sm font-medium text-primary">
+            {currentSection.title}
+          </p>
+        )}
+
         <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
           <div
             className="h-full rounded-full bg-primary transition-all"
@@ -219,6 +242,69 @@ export function H5PCoursePlayer({
           />
         </div>
       </div>
+
+      {/* Contents — what's done, where you are, what's left. Pages you have
+          not reached stay locked so the question gating can't be skipped. */}
+      {contentsOpen && (
+        <nav className="rounded-2xl border bg-card p-4 shadow-sm">
+          <ul className="space-y-4">
+            {sections.map((section) => {
+              const done = section.pages.filter((p) => p < reached).length;
+              const isCurrent = section.pages.includes(index);
+              return (
+                <li key={`${section.title}-${section.start}`}>
+                  <div className="flex items-baseline justify-between gap-2">
+                    <h3
+                      className={`text-sm font-semibold ${isCurrent ? "text-primary" : ""}`}
+                    >
+                      {section.title}
+                    </h3>
+                    <span className="shrink-0 text-xs text-muted-foreground">
+                      {done}/{section.pages.length}
+                    </span>
+                  </div>
+                  <ul className="mt-1.5 space-y-0.5">
+                    {section.pages.map((p) => {
+                      const visited = p <= reached;
+                      const isNow = p === index;
+                      return (
+                        <li key={p}>
+                          <button
+                            type="button"
+                            disabled={!visited}
+                            onClick={() => {
+                              goTo(p);
+                              setContentsOpen(false);
+                            }}
+                            className={`flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-left text-sm transition ${
+                              isNow
+                                ? "bg-primary/10 font-medium text-primary"
+                                : visited
+                                  ? "hover:bg-muted"
+                                  : "cursor-not-allowed text-muted-foreground/60"
+                            }`}
+                          >
+                            {p < reached ? (
+                              <Check className="size-3.5 shrink-0 text-emerald-600" />
+                            ) : visited ? (
+                              <span className="size-1.5 shrink-0 rounded-full bg-primary" />
+                            ) : (
+                              <Lock className="size-3 shrink-0" />
+                            )}
+                            <span className="truncate">
+                              {pages[p].label ?? `Page ${p + 1}`}
+                            </span>
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      )}
 
       {loading && (
         <div className="rounded-xl border p-6 text-sm text-muted-foreground">
