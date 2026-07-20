@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Choice, control and independence</h2><p>Dignity and independence are closely linked. When people keep control over their own lives &mdash; even in small ways &mdash; they keep their sense of self. Standard 7 asks you to support people's right to make choices and to take an <strong>active part</strong> in their own care.</p><ul><li>Offer <strong>real choices</strong>: what to wear, what to eat, when to get up, whether to have a bath or a shower.</li><li>Support people to <strong>do things for themselves</strong> wherever they can, rather than doing everything for them &quot;to save time&quot;.</li><li>Respect <strong>preferences and routines</strong> &mdash; the small habits that make someone feel like themselves.</li><li>Involve people in <strong>decisions about their care</strong>, and honour choices even when they differ from your own.</li></ul><p>Doing <em>with</em> a person rather than <em>for</em> them takes patience, but it protects both their independence and their dignity.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"6cab424f-1226-44a5-b53a-aeb1adf0b703","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>It is more respectful to quickly dress someone yourself than to let them slowly do the parts they are able to do, because it saves them effort.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Taking over removes the person's independence and control. Good practice is to support people to do what they can for themselves, even if it takes longer.","correctAnswerMessage":"Correct. Doing everything for someone to save time removes their independence. Supporting them to do what they can, at their own pace, is more dignified."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"bd43f774-4ff5-4a2f-9e1e-5ececede0317","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Choice, control and independence</h2><p>Dignity and independence are closely linked. When people keep control over their own lives &mdash; even in small ways &mdash; they keep their sense of self. Standard 7 asks you to support people's right to make choices and to take an <strong>active part</strong> in their own care.</p><ul><li>Offer <strong>real choices</strong>: what to wear, what to eat, when to get up, whether to have a bath or a shower.</li><li>Support people to <strong>do things for themselves</strong> wherever they can, rather than doing everything for them &quot;to save time&quot;.</li><li>Respect <strong>preferences and routines</strong> &mdash; the small habits that make someone feel like themselves.</li><li>Involve people in <strong>decisions about their care</strong>, and honour choices even when they differ from your own.</li></ul><p>Doing <em>with</em> a person rather than <em>for</em> them takes patience, but it protects both their independence and their dignity.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6cab424f-1226-44a5-b53a-aeb1adf0b703",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "An older woman using her mobile phone independently in her own living room",
+          "decorative": false,
+          "file": {
+            "path": "images/privacy-independence.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 608,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "31659358-fc69-4ecd-85cd-dea5a9315b47",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is more respectful to quickly dress someone yourself than to let them slowly do the parts they are able to do, because it saves them effort.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Taking over removes the person's independence and control. Good practice is to support people to do what they can for themselves, even if it takes longer.",
+            "correctAnswerMessage": "Correct. Doing everything for someone to save time removes their independence. Supporting them to do what they can, at their own pace, is more dignified."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "bd43f774-4ff5-4a2f-9e1e-5ececede0317",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

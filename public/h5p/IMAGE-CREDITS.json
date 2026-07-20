@@ -418,5 +418,105 @@
     "alt": "person in orange long sleeve shirt writing on white paper",
     "width": 1080,
     "height": 810
+  },
+  "privacy-personal-care.jpg": {
+    "query": "caregiver helping elderly woman at home",
+    "id": "bSXk1lOp8T0",
+    "photographer": "Age Cymru",
+    "photographerUrl": "https://unsplash.com/@agecymru",
+    "photoUrl": "https://unsplash.com/photos/caregiver-assisting-elderly-couple-with-coloring-bSXk1lOp8T0",
+    "alt": "Caregiver assisting elderly couple with coloring",
+    "width": 1080,
+    "height": 764
+  },
+  "privacy-independence.jpg": {
+    "query": "senior woman making tea independent living",
+    "id": "cHbyGVOQspk",
+    "photographer": "Vitaly Gariev",
+    "photographerUrl": "https://unsplash.com/@silverkblack",
+    "photoUrl": "https://unsplash.com/photos/elderly-woman-smiling-while-looking-at-smartphone-cHbyGVOQspk",
+    "alt": "Elderly woman smiling while looking at smartphone.",
+    "width": 1080,
+    "height": 608
+  },
+  "records-writing-notes.jpg": {
+    "query": "nurse writing notes on clipboard",
+    "id": "eXcF6L9pEug",
+    "photographer": "Phil Hearing",
+    "photographerUrl": "https://unsplash.com/@philhearing",
+    "photoUrl": "https://unsplash.com/photos/hand-holding-pen-over-a-blue-clipboard-eXcF6L9pEug",
+    "alt": "Hand holding pen over a blue clipboard.",
+    "width": 1080,
+    "height": 720
+  },
+  "records-electronic.jpg": {
+    "query": "healthcare worker using digital tablet",
+    "id": "heGTlwA705U",
+    "photographer": "Nappy",
+    "photographerUrl": "https://unsplash.com/@nappystudio",
+    "photoUrl": "https://unsplash.com/photos/a-close-up-of-a-hand-on-a-laptop-heGTlwA705U",
+    "alt": "a close-up of a hand on a laptop",
+    "width": 1080,
+    "height": 720
+  },
+  "govern-secure-storage.jpg": {
+    "query": "locked filing cabinet office documents",
+    "id": "Q9y3LRuuxmg",
+    "photographer": "Maksym Kaharlytskyi",
+    "photographerUrl": "https://unsplash.com/@qwitka",
+    "photoUrl": "https://unsplash.com/photos/file-cabinet-Q9y3LRuuxmg",
+    "alt": "file cabinet",
+    "width": 1080,
+    "height": 719
+  },
+  "govern-password-security.jpg": {
+    "query": "nurse working on laptop at desk",
+    "id": "egCFrNJ6Djw",
+    "photographer": "Vitaly Gariev",
+    "photographerUrl": "https://unsplash.com/@silverkblack",
+    "photoUrl": "https://unsplash.com/photos/doctor-on-phone-working-on-laptop-in-office-egCFrNJ6Djw",
+    "alt": "Doctor on phone, working on laptop in office.",
+    "width": 1080,
+    "height": 608
+  },
+  "conflict-deescalation.jpg": {
+    "query": "two people calm conversation listening",
+    "id": "LQ1t-8Ms5PY",
+    "photographer": "Christina @ wocintechchat.com M",
+    "photographerUrl": "https://unsplash.com/@wocintechchat",
+    "photoUrl": "https://unsplash.com/photos/two-women-sitting-beside-table-and-talking-LQ1t-8Ms5PY",
+    "alt": "two women sitting beside table and talking",
+    "width": 1080,
+    "height": 720
+  },
+  "conflict-support.jpg": {
+    "query": "support worker listening to distressed person",
+    "id": "pBJDpxw8Ptk",
+    "photographer": "Vitaly Gariev",
+    "photographerUrl": "https://unsplash.com/@silverkblack",
+    "photoUrl": "https://unsplash.com/photos/a-woman-talking-to-a-man-at-a-table-pBJDpxw8Ptk",
+    "alt": "a woman talking to a man at a table",
+    "width": 1080,
+    "height": 608
+  },
+  "complaints-listening.jpg": {
+    "query": "carer holding hands comforting elderly woman",
+    "id": "7ZqA1NT0pj4",
+    "photographer": "Saulo Meza",
+    "photographerUrl": "https://unsplash.com/@saulo_tana",
+    "photoUrl": "https://unsplash.com/photos/a-close-up-of-two-people-holding-hands-7ZqA1NT0pj4",
+    "alt": "a close up of two people holding hands",
+    "width": 1080,
+    "height": 725
+  },
+  "complaints-team-review.jpg": {
+    "query": "professional team meeting in conference room",
+    "id": "ONe-snuCaqQ",
+    "photographer": "Rodeo Project Management Software",
+    "photographerUrl": "https://unsplash.com/@getrodeo",
+    "photoUrl": "https://unsplash.com/photos/people-sitting-on-chair-inside-building-ONe-snuCaqQ",
+    "alt": "people sitting on chair inside building",
+    "width": 1080,
+    "height": 720
   }
 }

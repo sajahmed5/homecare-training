@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Turning complaints into better care</h2><p>A complaint is only truly resolved when the service <strong>learns</strong> from it. Responding to the individual matters, but the real value comes from asking, &ldquo;What does this tell us, and how do we stop it happening again?&rdquo; This is exactly what CQC Regulation 16 means by acting on complaints.</p><ul><li>Look for <strong>themes and patterns</strong> across complaints, not just one-off incidents.</li><li>Feed the learning into <strong>training, procedures and staffing</strong> so real change happens.</li><li>Close the loop by telling the person, where appropriate, <strong>what changed</strong> as a result of their complaint &mdash; this shows their voice made a difference.</li><li>Share learning with the team so the whole service improves, not just one worker.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"00892353-30e1-4c7d-9712-8e980fec483a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>The link to duty of candour</h2><p>The <strong>duty of candour</strong> (CQC Regulation 20) requires services to be open and honest when something goes wrong, especially when a person has been harmed. That means telling the person what happened, <strong>apologising</strong>, and explaining what will be done to put it right &mdash; whether or not they have complained. Candour and good complaints handling go hand in hand: both are built on honesty, openness and a genuine willingness to learn.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"9fd5d89a-b302-4dfe-80eb-c1540d2c25ce","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>What best shows that a service is genuinely learning from complaints?</p>","answers":[{"correct":true,"text":"<div>It looks for patterns and changes its training, procedures or staffing as a result.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Acting on themes and making real changes is what learning from complaints looks like.","notChosenFeedback":""}},{"correct":false,"text":"<div>It records the complaint but changes nothing afterwards.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Recording alone is not enough; the point is to act and improve.","notChosenFeedback":""}},{"correct":false,"text":"<div>It treats every complaint as a one-off with no wider lessons.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Ignoring patterns means the same problems keep recurring.","notChosenFeedback":""}},{"correct":false,"text":"<div>It discourages people from complaining so the numbers look good.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Suppressing complaints hides problems and puts people at risk &mdash; the opposite of learning.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"03382edf-1705-467d-81ff-6e80c08882be","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Turning complaints into better care</h2><p>A complaint is only truly resolved when the service <strong>learns</strong> from it. Responding to the individual matters, but the real value comes from asking, &ldquo;What does this tell us, and how do we stop it happening again?&rdquo; This is exactly what CQC Regulation 16 means by acting on complaints.</p><ul><li>Look for <strong>themes and patterns</strong> across complaints, not just one-off incidents.</li><li>Feed the learning into <strong>training, procedures and staffing</strong> so real change happens.</li><li>Close the loop by telling the person, where appropriate, <strong>what changed</strong> as a result of their complaint &mdash; this shows their voice made a difference.</li><li>Share learning with the team so the whole service improves, not just one worker.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "00892353-30e1-4c7d-9712-8e980fec483a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A team meeting in a bright office to review and learn from feedback",
+          "decorative": false,
+          "file": {
+            "path": "images/complaints-team-review.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 720,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e666edc5-0143-42bd-b980-93907341d3d3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The link to duty of candour</h2><p>The <strong>duty of candour</strong> (CQC Regulation 20) requires services to be open and honest when something goes wrong, especially when a person has been harmed. That means telling the person what happened, <strong>apologising</strong>, and explaining what will be done to put it right &mdash; whether or not they have complained. Candour and good complaints handling go hand in hand: both are built on honesty, openness and a genuine willingness to learn.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9fd5d89a-b302-4dfe-80eb-c1540d2c25ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What best shows that a service is genuinely learning from complaints?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It looks for patterns and changes its training, procedures or staffing as a result.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Acting on themes and making real changes is what learning from complaints looks like.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It records the complaint but changes nothing afterwards.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Recording alone is not enough; the point is to act and improve.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It treats every complaint as a one-off with no wider lessons.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Ignoring patterns means the same problems keep recurring.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It discourages people from complaining so the numbers look good.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Suppressing complaints hides problems and puts people at risk &mdash; the opposite of learning.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "03382edf-1705-467d-81ff-6e80c08882be",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

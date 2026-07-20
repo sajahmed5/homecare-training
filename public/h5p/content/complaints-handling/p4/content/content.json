@@ -1,1 +1,94 @@
-{"content":[{"content":{"params":{"text":"<h2>How to respond in the moment</h2><p>How you react when someone first complains sets the tone for everything that follows. A calm, warm response can turn a frustrated person into someone who feels genuinely heard. The core skills are simple but powerful.</p><ul><li><strong>Listen</strong> properly &mdash; give the person your full attention and let them finish.</li><li><strong>Take it seriously</strong> &mdash; even if it seems minor to you, it matters to them.</li><li><strong>Stay calm and non-defensive</strong> &mdash; do not argue, make excuses or interrupt.</li><li><strong>Apologise</strong> sincerely that they have had a poor experience &mdash; saying sorry is not admitting legal fault.</li><li><strong>Don&rsquo;t take it personally</strong> &mdash; the person is unhappy with a situation, not attacking you.</li><li><strong>Reassure</strong> them that their concern will be taken forward and acted on.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"bfe0337b-79bd-4e8b-a562-bcfc132218ee","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>The power of a good apology</h2><p>Many complaints escalate simply because no one said sorry. An apology acknowledges the person&rsquo;s experience and shows respect. It is <strong>not</strong> an admission of liability, and it should never be withheld out of fear. Being honest and open when things go wrong links directly to the <strong>duty of candour</strong>, which we return to later.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"c902b7bf-77f0-4fec-bc16-6e1c1cb862bd","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Fill in the key skills for handling a complaint well. Drag each word to the right gap.</p>","textField":"When someone complains, first *listen* carefully and let them finish. Stay *calm* and do not become defensive. *Apologise* sincerely for their poor experience, remembering this is not an admission of fault. Try not to take it *personally*, and *reassure* the person that their concern will be acted on.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"8e7c6b7d-89fa-40d3-8c12-3d08dda01b90","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to respond in the moment</h2><p>How you react when someone first complains sets the tone for everything that follows. A calm, warm response can turn a frustrated person into someone who feels genuinely heard. The core skills are simple but powerful.</p><ul><li><strong>Listen</strong> properly &mdash; give the person your full attention and let them finish.</li><li><strong>Take it seriously</strong> &mdash; even if it seems minor to you, it matters to them.</li><li><strong>Stay calm and non-defensive</strong> &mdash; do not argue, make excuses or interrupt.</li><li><strong>Apologise</strong> sincerely that they have had a poor experience &mdash; saying sorry is not admitting legal fault.</li><li><strong>Don&rsquo;t take it personally</strong> &mdash; the person is unhappy with a situation, not attacking you.</li><li><strong>Reassure</strong> them that their concern will be taken forward and acted on.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bfe0337b-79bd-4e8b-a562-bcfc132218ee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A carer holding an older person's hand while listening to them",
+          "decorative": false,
+          "file": {
+            "path": "images/complaints-listening.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 725,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ab9b471e-a91a-471e-8a50-d4f96a5b69db",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The power of a good apology</h2><p>Many complaints escalate simply because no one said sorry. An apology acknowledges the person&rsquo;s experience and shows respect. It is <strong>not</strong> an admission of liability, and it should never be withheld out of fear. Being honest and open when things go wrong links directly to the <strong>duty of candour</strong>, which we return to later.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c902b7bf-77f0-4fec-bc16-6e1c1cb862bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Fill in the key skills for handling a complaint well. Drag each word to the right gap.</p>",
+          "textField": "When someone complains, first *listen* carefully and let them finish. Stay *calm* and do not become defensive. *Apologise* sincerely for their poor experience, remembering this is not an admission of fault. Try not to take it *personally*, and *reassure* the person that their concern will be acted on.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "8e7c6b7d-89fa-40d3-8c12-3d08dda01b90",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

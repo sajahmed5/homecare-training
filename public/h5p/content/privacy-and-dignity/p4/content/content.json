@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Dignity is in the small things</h2><p>Dignity is upheld or eroded in ordinary, everyday moments &mdash; often more through <em>how</em> you do something than <em>what</em> you do.</p><ul><li><strong>How you speak to people:</strong> use the name they prefer, speak <em>to</em> them rather than over them, and never use childish or belittling language like &quot;good girl&quot; to an adult.</li><li><strong>How you speak about people:</strong> never discuss someone's care or body in front of others as if they were not there.</li><li><strong>Appearance:</strong> help people look the way they want &mdash; clean clothes, hair done, glasses on, dentures in &mdash; because how we look affects how we feel.</li><li><strong>Mealtimes:</strong> unhurried, at the table where possible, with the right support and never force-feeding or standing over someone.</li><li><strong>Continence and personal care:</strong> handled discreetly, calmly and without any sign of disgust or impatience.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"e87e6f9f-ef80-4335-adcb-7a5039c2d57c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Don't rush &mdash; presence is care</h2><p>Rushing is one of the most common ways dignity slips away. When people feel hurried, they feel they are a nuisance and stop asking for what they need. Working at the person's pace, giving them time to do what they can for themselves, and staying calm and attentive turns a task into genuine care.</p><p>Small courtesies matter: asking permission, saying what you are doing, thanking someone for their patience. These are the everyday habits of the <strong>10 Dignity Do's</strong> in action.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"5dcd7423-4d3c-4f11-95a5-2e4fe38a371f","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>During a busy shift, a colleague calls an 84-year-old man &quot;sweetie&quot; and talks over him to another carer about his incontinence while he sits in the lounge. Which response best upholds his dignity?</p>","answers":[{"correct":true,"text":"<div>Address him by the name he prefers, speak directly to him, and discuss any personal care needs privately, not in front of others.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Using his chosen name, speaking to him directly and keeping personal matters private all protect his dignity and self-esteem.","notChosenFeedback":""}},{"correct":false,"text":"<div>Say nothing &mdash; the colleague is friendly and clearly means no harm.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Good intentions don't make it acceptable. Belittling names and public discussion of personal care undermine dignity and should be challenged.","notChosenFeedback":""}},{"correct":false,"text":"<div>Join in with the nickname so he feels part of a warm, informal team.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Pet names like this can feel patronising to an adult. Unless he has asked to be called this, use the name he prefers.","notChosenFeedback":""}},{"correct":false,"text":"<div>Finish the conversation quickly and move on to the next task.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Rushing past the problem leaves his dignity unprotected. The public discussion of his continence needs is the real issue to address.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"879aeafb-ae10-408c-8d06-a6a1c3bc4529","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity is in the small things</h2><p>Dignity is upheld or eroded in ordinary, everyday moments &mdash; often more through <em>how</em> you do something than <em>what</em> you do.</p><ul><li><strong>How you speak to people:</strong> use the name they prefer, speak <em>to</em> them rather than over them, and never use childish or belittling language like &quot;good girl&quot; to an adult.</li><li><strong>How you speak about people:</strong> never discuss someone's care or body in front of others as if they were not there.</li><li><strong>Appearance:</strong> help people look the way they want &mdash; clean clothes, hair done, glasses on, dentures in &mdash; because how we look affects how we feel.</li><li><strong>Mealtimes:</strong> unhurried, at the table where possible, with the right support and never force-feeding or standing over someone.</li><li><strong>Continence and personal care:</strong> handled discreetly, calmly and without any sign of disgust or impatience.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e87e6f9f-ef80-4335-adcb-7a5039c2d57c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker supporting two older people with an everyday activity at home",
+          "decorative": false,
+          "file": {
+            "path": "images/privacy-personal-care.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 764,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d1091150-8938-4a8f-a640-abf999fb33d0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Don't rush &mdash; presence is care</h2><p>Rushing is one of the most common ways dignity slips away. When people feel hurried, they feel they are a nuisance and stop asking for what they need. Working at the person's pace, giving them time to do what they can for themselves, and staying calm and attentive turns a task into genuine care.</p><p>Small courtesies matter: asking permission, saying what you are doing, thanking someone for their patience. These are the everyday habits of the <strong>10 Dignity Do's</strong> in action.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5dcd7423-4d3c-4f11-95a5-2e4fe38a371f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>During a busy shift, a colleague calls an 84-year-old man &quot;sweetie&quot; and talks over him to another carer about his incontinence while he sits in the lounge. Which response best upholds his dignity?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Address him by the name he prefers, speak directly to him, and discuss any personal care needs privately, not in front of others.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Using his chosen name, speaking to him directly and keeping personal matters private all protect his dignity and self-esteem.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing &mdash; the colleague is friendly and clearly means no harm.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Good intentions don't make it acceptable. Belittling names and public discussion of personal care undermine dignity and should be challenged.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Join in with the nickname so he feels part of a warm, informal team.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Pet names like this can feel patronising to an adult. Unless he has asked to be called this, use the name he prefers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Finish the conversation quickly and move on to the next task.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing past the problem leaves his dignity unprotected. The public discussion of his continence needs is the real issue to address.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "879aeafb-ae10-408c-8d06-a6a1c3bc4529",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
