@@ -2,31 +2,37 @@
 
 ## 0. Deploying
 
-**Primary path — git.** The Vercel project is connected to the GitHub repo, with `main` as
-production. Pushing to `main` triggers a production deploy; any other branch gets a preview
-deploy with its own URL.
+**Deploys happen through the Vercel CLI.** The Vercel project is **not** connected to a Git
+repository (verified 2026-07-03: `vercel project inspect` shows no Git section), so pushing to
+GitHub does *not* trigger a deploy. GitHub is source control and off-machine backup; Vercel is
+deployed explicitly.
 
 ```bash
-git push            # main -> production deploy
-```
-
-*One-time auth:* git credentials live in the macOS keychain. If a push fails with
-`could not read Username for 'https://github.com'`, run `git push` once in an interactive
-terminal and enter your GitHub username plus a **personal access token** (GitHub no longer
-accepts account passwords for git). Alternatively `brew install gh && gh auth login`.
-Do **not** install `gh` into a temp directory — a previous setup did that and wrote a dead
-absolute path into `~/.gitconfig`, which silently disabled the keychain helper for every repo.
-
-**Fallback path — Vercel CLI.** Useful for a preview build without a commit, or if GitHub is
-down. Note it uploads the **local working tree**, so uncommitted changes go live — prefer git
-for anything production.
-
-```bash
-npm run vercel:login     # one-time, opens browser auth
-npm run vercel:link      # one-time, links this folder to the Vercel project
-npm run deploy:preview   # preview deploy, throwaway URL
+npm run deploy:preview   # private preview deploy, throwaway URL
 npm run deploy           # production deploy
 ```
+
+The CLI uploads the **local working tree**, not a commit — so uncommitted or stale local files
+go live. Always `git status` first, and run `npm run build && npm run lint && npm test` before
+a production deploy.
+
+One-time setup on a new machine: `npm run vercel:login`, then `npm run vercel:link`.
+`npm run vercel:env` pulls the project's environment variables into `.env.local`.
+
+**Optional: connect Git for automatic deploys.** In the Vercel dashboard → Project → Settings →
+Git, connect `sajahmed5/homecare-training`. After that, pushes to `main` deploy to production
+and other branches get preview URLs — and the working-tree caveat above goes away. Note that
+once connected, `npm run deploy` and a push would both deploy, so pick one as the normal route.
+
+**Pushing to GitHub.** The remote uses SSH with a repo-scoped key
+(`~/.ssh/id_ed25519_homecare`, wired up via this repo's `core.sshCommand`), so pushes need no
+token and never expire. The public key must be registered on the repo as a deploy key **with
+write access** (GitHub → repo → Settings → Deploy keys), or on the account under
+Settings → SSH and GPG keys.
+
+Do **not** install `gh` into a temp directory — a previous setup did that and wrote a dead
+absolute path into `~/.gitconfig`, which silently disabled the keychain helper for every repo
+on the machine.
 
 `npm run vercel:env` pulls the project's environment variables into `.env.local` — handy when
 setting up a new machine. Both `.vercel/` and `.env.local` are gitignored.
