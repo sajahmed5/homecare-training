@@ -1,5 +1,38 @@
 # My Care Academy — Go-Live Checklist & Runbook
 
+## 0. Deploying
+
+**Primary path — git.** The Vercel project is connected to the GitHub repo, with `main` as
+production. Pushing to `main` triggers a production deploy; any other branch gets a preview
+deploy with its own URL.
+
+```bash
+git push            # main -> production deploy
+```
+
+*One-time auth:* git credentials live in the macOS keychain. If a push fails with
+`could not read Username for 'https://github.com'`, run `git push` once in an interactive
+terminal and enter your GitHub username plus a **personal access token** (GitHub no longer
+accepts account passwords for git). Alternatively `brew install gh && gh auth login`.
+Do **not** install `gh` into a temp directory — a previous setup did that and wrote a dead
+absolute path into `~/.gitconfig`, which silently disabled the keychain helper for every repo.
+
+**Fallback path — Vercel CLI.** Useful for a preview build without a commit, or if GitHub is
+down. Note it uploads the **local working tree**, so uncommitted changes go live — prefer git
+for anything production.
+
+```bash
+npm run vercel:login     # one-time, opens browser auth
+npm run vercel:link      # one-time, links this folder to the Vercel project
+npm run deploy:preview   # preview deploy, throwaway URL
+npm run deploy           # production deploy
+```
+
+`npm run vercel:env` pulls the project's environment variables into `.env.local` — handy when
+setting up a new machine. Both `.vercel/` and `.env.local` are gitignored.
+
+Before any production deploy: `npm run build && npm run lint && npm test`.
+
 ## 1. Environment variables (Vercel → Project → Settings → Environment Variables)
 
 | Variable | Notes |

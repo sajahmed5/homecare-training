@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "vercel:login": "npx --yes vercel login",
+    "vercel:link": "npx --yes vercel link",
+    "vercel:env": "npx --yes vercel env pull .env.local",
+    "deploy:preview": "npx --yes vercel",
+    "deploy": "npx --yes vercel --prod"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
