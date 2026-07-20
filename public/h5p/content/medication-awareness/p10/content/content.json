@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Medicines you will meet most often</h2><p>You are not expected to know how each medicine works. You need to know roughly what it is for, what to look out for, and when to pick up the phone. Always work from the person's care plan, their MAR chart and the dispensing label &mdash; never from what you remember about someone else's medicines. Your job is to observe and report, not to assess or diagnose.</p><ul><li><strong>Analgesics (painkillers):</strong> report pain that is not settling, pain returning before the next dose is due, or new drowsiness, confusion or constipation after doses.</li><li><strong>Antibiotics:</strong> a course is prescribed to be finished as directed, even once the person feels better. Report refusals, missed doses, rash, diarrhoea or sickness.</li><li><strong>Anticoagulants (blood thinners):</strong> report new or unusual bruising, nosebleeds, bleeding gums, blood in urine or stools, cuts that keep bleeding, and any fall or bump to the head.</li><li><strong>Insulin and diabetes medicines:</strong> know the hypo signs recorded in the care plan &mdash; shaking, sweating, pallor, irritability, confusion, drowsiness. Follow the plan and get help quickly.</li><li><strong>Inhalers and respiratory medicines:</strong> report increasing breathlessness, more frequent use of a reliever inhaler, or a device that is empty, out of date or not being used properly.</li><li><strong>Laxatives:</strong> report no result, or the opposite &mdash; loose stools, cramping or signs of dehydration.</li><li><strong>Diuretics (water tablets):</strong> report dizziness on standing, falls, much reduced urine output or increased ankle swelling.</li><li><strong>Antidepressants and antipsychotics:</strong> report changes in mood, agitation, unusual drowsiness, stiffness, tremor or restless movements.</li><li><strong>Eye drops and creams:</strong> only apply these if it is in your role and set out in the care plan. Report soreness, redness, broken or reddened skin.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"2d555898-95c2-4150-84db-b8efb8623d67","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>Side effects, allergies and reactions</h3><p>A side effect is an unwanted effect of a medicine that is working normally &mdash; drowsiness, nausea, dry mouth. An allergic reaction is different: the body's immune system reacting to the medicine, which can escalate quickly. You are not expected to tell them apart clinically. You are expected to notice the change, act on what the care plan says, and pass it on.</p><ul><li><strong>Notice and describe:</strong> record what you saw, when it started and how it relates to the dose. Plain factual description is far more useful than a guess at a cause.</li><li><strong>Anaphylaxis is a 999 emergency:</strong> swelling of the lips, tongue or throat, difficulty breathing or noisy breathing, a widespread rash, feeling faint or collapse. Call 999 immediately, say you suspect anaphylaxis, stay with the person and follow the care plan and the call handler's instructions.</li><li><strong>Report and record every time:</strong> tell your manager or the office the same day, write it in the care records, and make sure the pharmacist, GP or prescriber is informed so the medicine can be reviewed.</li></ul><p>If you are unsure whether something is a reaction, report it anyway. Deciding it is probably nothing is a clinical judgement, and that is not your decision to make.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"cdfc4c30-a9b0-4acd-a7ef-35670d89662f","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You visit a person who takes an anticoagulant. This morning they have several large new bruises and their gums are bleeding when they clean their teeth. What should you do?</p>","answers":[{"correct":true,"text":"<div>Record exactly what you have seen, contact your manager or the office straight away, and follow their instructions about getting advice from the pharmacist, GP or 111.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Bleeding and unusual bruising in someone on an anticoagulant always needs reporting promptly. You describe what you observed and pass it to someone who can seek clinical advice.","notChosenFeedback":""}},{"correct":false,"text":"<div>Decide whether the bruising looks serious enough to be worth mentioning, and only report it if it is.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Judging whether bleeding is significant is a clinical decision, and that sits outside a care worker's role. Report it and let a clinician decide.","notChosenFeedback":""}},{"correct":false,"text":"<div>Advise the person to skip today's dose until the bruising settles down.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Never advise a person to stop, skip or alter a prescribed medicine. Only the prescriber can change it.","notChosenFeedback":""}},{"correct":false,"text":"<div>Write it in the daily notes and leave it for the next carer to follow up.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Writing it down is necessary but not enough on its own. This needs to be escalated the same day, not left in the notes.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"a356cf45-14f1-4663-beb8-505096e0b3fc","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Medicines you will meet most often</h2><p>You are not expected to know how each medicine works. You need to know roughly what it is for, what to look out for, and when to pick up the phone. Always work from the person's care plan, their MAR chart and the dispensing label &mdash; never from what you remember about someone else's medicines. Your job is to observe and report, not to assess or diagnose.</p><ul><li><strong>Analgesics (painkillers):</strong> report pain that is not settling, pain returning before the next dose is due, or new drowsiness, confusion or constipation after doses.</li><li><strong>Antibiotics:</strong> a course is prescribed to be finished as directed, even once the person feels better. Report refusals, missed doses, rash, diarrhoea or sickness.</li><li><strong>Anticoagulants (blood thinners):</strong> report new or unusual bruising, nosebleeds, bleeding gums, blood in urine or stools, cuts that keep bleeding, and any fall or bump to the head.</li><li><strong>Insulin and diabetes medicines:</strong> know the hypo signs recorded in the care plan &mdash; shaking, sweating, pallor, irritability, confusion, drowsiness. Follow the plan and get help quickly.</li><li><strong>Inhalers and respiratory medicines:</strong> report increasing breathlessness, more frequent use of a reliever inhaler, or a device that is empty, out of date or not being used properly.</li><li><strong>Laxatives:</strong> report no result, or the opposite &mdash; loose stools, cramping or signs of dehydration.</li><li><strong>Diuretics (water tablets):</strong> report dizziness on standing, falls, much reduced urine output or increased ankle swelling.</li><li><strong>Antidepressants and antipsychotics:</strong> report changes in mood, agitation, unusual drowsiness, stiffness, tremor or restless movements.</li><li><strong>Eye drops and creams:</strong> only apply these if it is in your role and set out in the care plan. Report soreness, redness, broken or reddened skin.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2d555898-95c2-4150-84db-b8efb8623d67",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker observing and recording how someone responds to medicines",
+          "decorative": false,
+          "file": {
+            "path": "images/medicine-groups.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b5a011b0-564b-453b-9b23-32003f521bc8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h3>Side effects, allergies and reactions</h3><p>A side effect is an unwanted effect of a medicine that is working normally &mdash; drowsiness, nausea, dry mouth. An allergic reaction is different: the body's immune system reacting to the medicine, which can escalate quickly. You are not expected to tell them apart clinically. You are expected to notice the change, act on what the care plan says, and pass it on.</p><ul><li><strong>Notice and describe:</strong> record what you saw, when it started and how it relates to the dose. Plain factual description is far more useful than a guess at a cause.</li><li><strong>Anaphylaxis is a 999 emergency:</strong> swelling of the lips, tongue or throat, difficulty breathing or noisy breathing, a widespread rash, feeling faint or collapse. Call 999 immediately, say you suspect anaphylaxis, stay with the person and follow the care plan and the call handler's instructions.</li><li><strong>Report and record every time:</strong> tell your manager or the office the same day, write it in the care records, and make sure the pharmacist, GP or prescriber is informed so the medicine can be reviewed.</li></ul><p>If you are unsure whether something is a reaction, report it anyway. Deciding it is probably nothing is a clinical judgement, and that is not your decision to make.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cdfc4c30-a9b0-4acd-a7ef-35670d89662f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You visit a person who takes an anticoagulant. This morning they have several large new bruises and their gums are bleeding when they clean their teeth. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record exactly what you have seen, contact your manager or the office straight away, and follow their instructions about getting advice from the pharmacist, GP or 111.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Bleeding and unusual bruising in someone on an anticoagulant always needs reporting promptly. You describe what you observed and pass it to someone who can seek clinical advice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide whether the bruising looks serious enough to be worth mentioning, and only report it if it is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Judging whether bleeding is significant is a clinical decision, and that sits outside a care worker's role. Report it and let a clinician decide.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Advise the person to skip today's dose until the bruising settles down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Never advise a person to stop, skip or alter a prescribed medicine. Only the prescriber can change it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Write it in the daily notes and leave it for the next carer to follow up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Writing it down is necessary but not enough on its own. This needs to be escalated the same day, not left in the notes.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a356cf45-14f1-4663-beb8-505096e0b3fc",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

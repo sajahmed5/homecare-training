@@ -1,1 +1,94 @@
-{"content":[{"content":{"params":{"text":"<h2>When medicines practice becomes abuse</h2><p>Under the Care Act 2014 safeguarding is everyone's business, and poor medicines practice can meet the legal definition of neglect or abuse. It is not only deliberate cruelty that counts &mdash; shortcuts and carelessness cause real harm.</p><ul><li><strong>Missed or withheld doses:</strong> skipping a dose because you were running late, or withholding one to make someone easier to manage, is neglect.</li><li><strong>Falsifying records:</strong> signing a MAR chart for a dose you did not give is falsification of a legal record of care, whatever the reason.</li><li><strong>Theft and diversion:</strong> taking medicines for yourself or anyone else is theft. It is treated especially seriously with controlled drugs, which carry extra storage, recording and witnessing requirements.</li><li><strong>Chemical restraint:</strong> giving medicine to sedate or control someone rather than to treat a diagnosed condition. STOMP &mdash; stopping over-medication of people with a learning disability, autism or both &mdash; exists because psychotropic medicines have been used in exactly this way.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"022c7fe8-0f4a-47fa-ae34-8db7336c91cf","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>Covert administration and raising concerns</h3><p>Covert administration means hiding a medicine in food or drink so the person does not know they are taking it. It is lawful only in narrow, tightly documented circumstances.</p><ul><li>The person must lack capacity for that specific decision at that time, assessed under the Mental Capacity Act 2005.</li><li>There must be a recorded best-interests decision involving the prescriber, the pharmacist and the person's family or advocate, with a written plan agreed in advance and reviewed.</li><li>A care worker can never decide in the moment to give a medicine covertly.</li><li>It is never lawful for a person who has capacity. An adult with capacity may refuse any medicine, for any reason or none, and that refusal must be respected and recorded.</li></ul><p>If you suspect poor practice &mdash; by a colleague, a family member or yourself &mdash; raise it under your employer's safeguarding policy straight away. Whistleblowing law protects workers who raise genuine concerns, and you must not be penalised for speaking up. Report factually and in writing what you saw. Do not question the person, warn the colleague or gather evidence: investigating is for the safeguarding lead and the local authority.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"d88f916b-9b4d-4622-8cc3-3948a2ee8a0c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p><p>Drag each word into the gap to complete these statements about medicines and safeguarding.</p></p>","textField":"Signing a MAR chart for a dose you did not give is *falsification* of records. Covert administration is only lawful after a documented *best-interests* decision under the Mental Capacity Act 2005. Giving medicine to sedate someone rather than to treat a condition is chemical *restraint*. The *STOMP* programme aims to stop over-medication of people with a learning disability or autism. If you suspect poor practice you *report* the concern rather than investigating it yourself.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"7022b67b-a89b-4292-b901-67716d9d6133","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When medicines practice becomes abuse</h2><p>Under the Care Act 2014 safeguarding is everyone's business, and poor medicines practice can meet the legal definition of neglect or abuse. It is not only deliberate cruelty that counts &mdash; shortcuts and carelessness cause real harm.</p><ul><li><strong>Missed or withheld doses:</strong> skipping a dose because you were running late, or withholding one to make someone easier to manage, is neglect.</li><li><strong>Falsifying records:</strong> signing a MAR chart for a dose you did not give is falsification of a legal record of care, whatever the reason.</li><li><strong>Theft and diversion:</strong> taking medicines for yourself or anyone else is theft. It is treated especially seriously with controlled drugs, which carry extra storage, recording and witnessing requirements.</li><li><strong>Chemical restraint:</strong> giving medicine to sedate or control someone rather than to treat a diagnosed condition. STOMP &mdash; stopping over-medication of people with a learning disability, autism or both &mdash; exists because psychotropic medicines have been used in exactly this way.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "022c7fe8-0f4a-47fa-ae34-8db7336c91cf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker raising a safeguarding concern about medicines",
+          "decorative": false,
+          "file": {
+            "path": "images/safeguarding-meds.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0086b626-bd66-4321-887b-6254e1d6d796",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h3>Covert administration and raising concerns</h3><p>Covert administration means hiding a medicine in food or drink so the person does not know they are taking it. It is lawful only in narrow, tightly documented circumstances.</p><ul><li>The person must lack capacity for that specific decision at that time, assessed under the Mental Capacity Act 2005.</li><li>There must be a recorded best-interests decision involving the prescriber, the pharmacist and the person's family or advocate, with a written plan agreed in advance and reviewed.</li><li>A care worker can never decide in the moment to give a medicine covertly.</li><li>It is never lawful for a person who has capacity. An adult with capacity may refuse any medicine, for any reason or none, and that refusal must be respected and recorded.</li></ul><p>If you suspect poor practice &mdash; by a colleague, a family member or yourself &mdash; raise it under your employer's safeguarding policy straight away. Whistleblowing law protects workers who raise genuine concerns, and you must not be penalised for speaking up. Report factually and in writing what you saw. Do not question the person, warn the colleague or gather evidence: investigating is for the safeguarding lead and the local authority.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d88f916b-9b4d-4622-8cc3-3948a2ee8a0c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the gap to complete these statements about medicines and safeguarding.</p></p>",
+          "textField": "Signing a MAR chart for a dose you did not give is *falsification* of records. Covert administration is only lawful after a documented *best-interests* decision under the Mental Capacity Act 2005. Giving medicine to sedate someone rather than to treat a condition is chemical *restraint*. The *STOMP* programme aims to stop over-medication of people with a learning disability or autism. If you suspect poor practice you *report* the concern rather than investigating it yourself.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "7022b67b-a89b-4292-b901-67716d9d6133",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

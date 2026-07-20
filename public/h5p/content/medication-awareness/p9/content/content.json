@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Knowing which level you are working at</h2><p>NICE guideline NG67 describes different levels of medicines support so that everyone is clear about who does what. The level is decided by assessment, not by habit. Care workers are not nurses or prescribers &mdash; you support a person with medicines somebody else has prescribed.</p><ul><li><strong>General support, or prompting:</strong> reminding someone it is time to take their medicine, reading the label out to them, or opening a container at their request. The person decides and takes the medicine themselves.</li><li><strong>Assisting:</strong> selecting the medicine they asked for, popping a tablet from a blister pack into a pot, or steadying a hand or glass. The person still directs what happens.</li><li><strong>Administering:</strong> putting the medicine into the person's hand or mouth, applying a prescribed cream, or giving it through a device such as an inhaler or eye drops. You carry out the act, so the responsibility sits with you.</li><li><strong>Specialised techniques:</strong> tasks such as support with a feeding tube or rectal medicines. These need task-specific training from a qualified health professional and a signed competency assessment, usually delegated for one named person only.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"a27704a2-d6e5-458f-8dc3-981a5e10dd4e","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>Recorded, agreed, and never assumed</h3><p>The level follows an assessment of what the person can manage themselves, and it goes in the care plan with the date agreed and the review date. If it is not recorded, it has not been agreed.</p><ul><li><strong>It differs per medicine:</strong> someone may use their inhaler independently but need you to administer eye drops. Read the plan medicine by medicine.</li><li><strong>It changes:</strong> illness, a hospital stay or reduced dexterity all shift what a person can do. Report it and ask for a reassessment &mdash; do not quietly start doing more.</li><li><strong>Consent comes first:</strong> say what you are offering and ask before you act. A person with capacity may refuse any medicine, and refusal is not a failure on your part. Record and report it as your policy requires.</li><li><strong>Stay inside your level:</strong> never administer, and never use a specialised technique, unless you have been trained, assessed as competent for that task, and it is in the plan. Being the only person there does not change that.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"b36e9add-13d0-4f7e-accf-29d8a20e563c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A person asks you to unscrew the cap on their tablet bottle because their hands are stiff. They then take the tablet out and swallow it themselves. Which level of support is this?</p>","answers":[{"correct":true,"text":"<div>General support, or prompting</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Opening a container at the person's request, reminding them, or reading the label to them is general support. The person selects and takes the medicine themselves.","notChosenFeedback":""}},{"correct":false,"text":"<div>Assisting</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Not quite. Assisting would mean you selected the medicine or popped it out of the pack. Here the person did that part themselves.","notChosenFeedback":""}},{"correct":false,"text":"<div>Administering</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Administering means you put the medicine into the person's hand or mouth, apply a cream, or give it through a device. Opening a lid is not administering.","notChosenFeedback":""}},{"correct":false,"text":"<div>A specialised technique</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Specialised techniques are tasks such as support with a feeding tube or rectal medicines, which need extra training and a signed competency sign-off.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"b6699ba7-8ecd-4082-9384-a8f263e834fb","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing which level you are working at</h2><p>NICE guideline NG67 describes different levels of medicines support so that everyone is clear about who does what. The level is decided by assessment, not by habit. Care workers are not nurses or prescribers &mdash; you support a person with medicines somebody else has prescribed.</p><ul><li><strong>General support, or prompting:</strong> reminding someone it is time to take their medicine, reading the label out to them, or opening a container at their request. The person decides and takes the medicine themselves.</li><li><strong>Assisting:</strong> selecting the medicine they asked for, popping a tablet from a blister pack into a pot, or steadying a hand or glass. The person still directs what happens.</li><li><strong>Administering:</strong> putting the medicine into the person's hand or mouth, applying a prescribed cream, or giving it through a device such as an inhaler or eye drops. You carry out the act, so the responsibility sits with you.</li><li><strong>Specialised techniques:</strong> tasks such as support with a feeding tube or rectal medicines. These need task-specific training from a qualified health professional and a signed competency assessment, usually delegated for one named person only.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a27704a2-d6e5-458f-8dc3-981a5e10dd4e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker supporting a person with their medicines",
+          "decorative": false,
+          "file": {
+            "path": "images/levels-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "71931f03-e718-40ee-940f-81d17530eb8e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h3>Recorded, agreed, and never assumed</h3><p>The level follows an assessment of what the person can manage themselves, and it goes in the care plan with the date agreed and the review date. If it is not recorded, it has not been agreed.</p><ul><li><strong>It differs per medicine:</strong> someone may use their inhaler independently but need you to administer eye drops. Read the plan medicine by medicine.</li><li><strong>It changes:</strong> illness, a hospital stay or reduced dexterity all shift what a person can do. Report it and ask for a reassessment &mdash; do not quietly start doing more.</li><li><strong>Consent comes first:</strong> say what you are offering and ask before you act. A person with capacity may refuse any medicine, and refusal is not a failure on your part. Record and report it as your policy requires.</li><li><strong>Stay inside your level:</strong> never administer, and never use a specialised technique, unless you have been trained, assessed as competent for that task, and it is in the plan. Being the only person there does not change that.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b36e9add-13d0-4f7e-accf-29d8a20e563c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person asks you to unscrew the cap on their tablet bottle because their hands are stiff. They then take the tablet out and swallow it themselves. Which level of support is this?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>General support, or prompting</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Opening a container at the person's request, reminding them, or reading the label to them is general support. The person selects and takes the medicine themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assisting</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Assisting would mean you selected the medicine or popped it out of the pack. Here the person did that part themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Administering</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Administering means you put the medicine into the person's hand or mouth, apply a cream, or give it through a device. Opening a lid is not administering.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A specialised technique</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Specialised techniques are tasks such as support with a feeding tube or rectal medicines, which need extra training and a signed competency sign-off.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b6699ba7-8ecd-4082-9384-a8f263e834fb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

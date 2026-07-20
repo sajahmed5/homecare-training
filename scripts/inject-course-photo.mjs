@@ -17,7 +17,7 @@
 // i.e. just after the opening text block — matching the existing courses).
 // Idempotent: re-running replaces a previously injected image of the same file.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
 import { randomUUID } from "node:crypto";
 
 const planPath = process.argv[2];
@@ -32,6 +32,25 @@ const credits = existsSync(plan.creditsFile)
 
 // Read intrinsic size straight from the JPEG SOF marker so the H5P metadata
 // matches the actual file rather than an assumed aspect ratio.
+const MIME = {
+  svg: "image/svg+xml",
+  jpg: "image/jpeg",
+  jpeg: "image/jpeg",
+  png: "image/png",
+  webp: "image/webp",
+  gif: "image/gif",
+};
+
+/** Intrinsic size from the SVG's width/height, falling back to the viewBox. */
+function svgSize(text) {
+  const w = text.match(/\bwidth="([\d.]+)"/);
+  const h = text.match(/\bheight="([\d.]+)"/);
+  if (w && h) return { width: Math.round(+w[1]), height: Math.round(+h[1]) };
+  const vb = text.match(/viewBox="[\d.\-]+\s+[\d.\-]+\s+([\d.]+)\s+([\d.]+)"/);
+  if (vb) return { width: Math.round(+vb[1]), height: Math.round(+vb[2]) };
+  return { width: 640, height: 240 };
+}
+
 function jpegSize(buf) {
   let i = 2;
   while (i < buf.length) {
@@ -55,7 +74,7 @@ for (const ins of plan.insertions) {
     continue;
   }
 
-  const src = join(plan.srcDir, ins.file);
+  const src = join(ins.srcDir ?? plan.srcDir, ins.file);
   if (!existsSync(src)) {
     console.error(`✗ ${ins.course} p${ins.page}: missing source ${ins.file}`);
     continue;
@@ -63,10 +82,15 @@ for (const ins of plan.insertions) {
 
   const imagesDir = join(pageDir, "content", "images");
   mkdirSync(imagesDir, { recursive: true });
-  copyFileSync(src, join(imagesDir, ins.file));
+  const dest = join(imagesDir, ins.file);
+  // Generated illustrations are written straight into the page folder, so the
+  // source and destination can be the same file.
+  if (resolve(src) !== resolve(dest)) copyFileSync(src, dest);
 
   const buf = readFileSync(src);
-  const size = jpegSize(buf) ?? { width: 1080, height: 720 };
+  const size = ins.file.endsWith(".svg")
+    ? svgSize(buf.toString("utf8"))
+    : (jpegSize(buf) ?? { width: 1080, height: 720 });
 
   const doc = JSON.parse(readFileSync(contentPath, "utf8"));
   const items = doc.content;
@@ -87,7 +111,7 @@ for (const ins of plan.insertions) {
         decorative: false,
         file: {
           path: relPath,
-          mime: ins.file.endsWith(".png") ? "image/png" : "image/jpeg",
+          mime: MIME[ins.file.split(".").pop().toLowerCase()] ?? "image/jpeg",
           width: size.width,
           height: size.height,
           copyright: { license: "U" },

@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Packs, boxes and labels</h2><p>A monitored dosage system (MDS) &mdash; also called a dosette box or blister pack &mdash; is filled and sealed by a pharmacy, with a compartment for each time of day. Original packs are the manufacturer's boxes and bottles with the pharmacy label attached. Many pharmacists prefer original packs because the full label, the patient information leaflet and the expiry date stay with the medicine.</p><ul><li><strong>You cannot see the original label:</strong> an MDS shows loose tablets, not the name, strength or warnings for each one, so work from the MAR chart and the pharmacy's description sheet.</li><li><strong>Never re-fill or re-pack:</strong> filling, topping up or correcting an MDS is a pharmacy task, not yours. If a compartment looks wrong or is empty, stop and ring the pharmacy.</li><li><strong>Never transfer medicines:</strong> do not move tablets into a pot, envelope or another box, and never give a medicine from an unlabelled container.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"9a86f4b1-65d1-425c-9e97-75d9bfb63ee8","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>Devices, patches and thickeners</h3><p>The care plan tells you which device a person uses and how they like to be supported. Follow it, and never switch method yourself.</p><ul><li><strong>Inhalers and spacers:</strong> a spacer helps the dose reach the lungs. Follow the plan for cleaning and replacement.</li><li><strong>Eye-drop dispensers:</strong> these steady the bottle for someone with a tremor or poor grip. Record the date the bottle was opened.</li><li><strong>Oral syringes:</strong> used to measure liquid medicines. They are marked for oral use only and must never be confused with, or replaced by, an injection syringe.</li><li><strong>Transdermal patches:</strong> remove the old patch first, rotate to a fresh site, record the site used, and dispose of used patches safely &mdash; they still hold medicine.</li><li><strong>Creams and topical medicines:</strong> a body map records exactly where each product is applied.</li><li><strong>Thickening agents:</strong> the consistency is set by a speech and language therapist and written into the plan.</li></ul><p><strong>Never crush a tablet or open a capsule</strong> unless a prescriber or pharmacist has authorised it in writing for that person and it is recorded in the care plan. Crushing changes how the medicine is released and takes its use outside the licence. If swallowing is a problem, report it rather than solving it yourself.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"f44bc812-756a-44db-a430-66a2e75c740f","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>If someone finds a tablet hard to swallow, you can crush it into their food as long as you record what you did on the MAR chart.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Recording an action does not make it lawful or safe. Crushing changes how the medicine is absorbed and takes it outside its licence, so it must never be done unless a prescriber or pharmacist has authorised it in writing for that person and it is recorded in the care plan.","correctAnswerMessage":"Correct. Crushing a tablet or opening a capsule changes how the medicine works and makes its use unlicensed. It can only happen where a prescriber or pharmacist has specifically authorised it in writing for that person and it is written into the care plan. Report the swallowing difficulty instead &mdash; a different formulation may be available."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"857acf3e-ad0a-4c11-907c-35178859996a","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Packs, boxes and labels</h2><p>A monitored dosage system (MDS) &mdash; also called a dosette box or blister pack &mdash; is filled and sealed by a pharmacy, with a compartment for each time of day. Original packs are the manufacturer's boxes and bottles with the pharmacy label attached. Many pharmacists prefer original packs because the full label, the patient information leaflet and the expiry date stay with the medicine.</p><ul><li><strong>You cannot see the original label:</strong> an MDS shows loose tablets, not the name, strength or warnings for each one, so work from the MAR chart and the pharmacy's description sheet.</li><li><strong>Never re-fill or re-pack:</strong> filling, topping up or correcting an MDS is a pharmacy task, not yours. If a compartment looks wrong or is empty, stop and ring the pharmacy.</li><li><strong>Never transfer medicines:</strong> do not move tablets into a pot, envelope or another box, and never give a medicine from an unlabelled container.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9a86f4b1-65d1-425c-9e97-75d9bfb63ee8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker with a monitored dosage system",
+          "decorative": false,
+          "file": {
+            "path": "images/medication-aids.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0a86d2a9-cf58-43bd-8ba5-0e8211a2a420",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h3>Devices, patches and thickeners</h3><p>The care plan tells you which device a person uses and how they like to be supported. Follow it, and never switch method yourself.</p><ul><li><strong>Inhalers and spacers:</strong> a spacer helps the dose reach the lungs. Follow the plan for cleaning and replacement.</li><li><strong>Eye-drop dispensers:</strong> these steady the bottle for someone with a tremor or poor grip. Record the date the bottle was opened.</li><li><strong>Oral syringes:</strong> used to measure liquid medicines. They are marked for oral use only and must never be confused with, or replaced by, an injection syringe.</li><li><strong>Transdermal patches:</strong> remove the old patch first, rotate to a fresh site, record the site used, and dispose of used patches safely &mdash; they still hold medicine.</li><li><strong>Creams and topical medicines:</strong> a body map records exactly where each product is applied.</li><li><strong>Thickening agents:</strong> the consistency is set by a speech and language therapist and written into the plan.</li></ul><p><strong>Never crush a tablet or open a capsule</strong> unless a prescriber or pharmacist has authorised it in writing for that person and it is recorded in the care plan. Crushing changes how the medicine is released and takes its use outside the licence. If swallowing is a problem, report it rather than solving it yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f44bc812-756a-44db-a430-66a2e75c740f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone finds a tablet hard to swallow, you can crush it into their food as long as you record what you did on the MAR chart.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Recording an action does not make it lawful or safe. Crushing changes how the medicine is absorbed and takes it outside its licence, so it must never be done unless a prescriber or pharmacist has authorised it in writing for that person and it is recorded in the care plan.",
+            "correctAnswerMessage": "Correct. Crushing a tablet or opening a capsule changes how the medicine works and makes its use unlicensed. It can only happen where a prescriber or pharmacist has specifically authorised it in writing for that person and it is written into the care plan. Report the swallowing difficulty instead &mdash; a different formulation may be available."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "857acf3e-ad0a-4c11-907c-35178859996a",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
