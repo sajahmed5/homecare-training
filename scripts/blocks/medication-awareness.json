@@ -1,0 +1,104 @@
+{
+  "slug": "medication-awareness",
+  "title": "Medication Awareness",
+  "content_blocks": [
+    {
+      "path": "medication-awareness/p1",
+      "type": "h5p",
+      "label": "Introduction",
+      "section": "Your role and the rights",
+      "questions": 0
+    },
+    {
+      "path": "medication-awareness/p2",
+      "type": "h5p",
+      "label": "Your role and its limits",
+      "section": "Your role and the rights",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p9",
+      "type": "h5p",
+      "label": "Levels of medicines support",
+      "section": "Your role and the rights",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p3",
+      "type": "h5p",
+      "label": "The rights of medication",
+      "section": "Your role and the rights",
+      "questions": 0
+    },
+    {
+      "path": "medication-awareness/p10",
+      "type": "h5p",
+      "label": "Common medicine groups",
+      "section": "Knowing the medicines",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p11",
+      "type": "h5p",
+      "label": "Time-critical medicines",
+      "section": "Knowing the medicines",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p4",
+      "type": "h5p",
+      "label": "Routes and forms",
+      "section": "Knowing the medicines",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p12",
+      "type": "h5p",
+      "label": "Medication aids and equipment",
+      "section": "Handling and recording",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p5",
+      "type": "h5p",
+      "label": "MAR charts and recording",
+      "section": "Handling and recording",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p6",
+      "type": "h5p",
+      "label": "Ordering, storage and disposal",
+      "section": "Handling and recording",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p7",
+      "type": "h5p",
+      "label": "Controlled drugs and PRN",
+      "section": "Handling and recording",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p8",
+      "type": "h5p",
+      "label": "Covert, self-admin and errors",
+      "section": "Safety and safeguarding",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p13",
+      "type": "h5p",
+      "label": "Safeguarding and medicines",
+      "section": "Safety and safeguarding",
+      "questions": 1
+    },
+    {
+      "path": "medication-awareness/p14",
+      "type": "h5p",
+      "label": "Getting help, staying competent",
+      "section": "Safety and safeguarding",
+      "questions": 1
+    }
+  ]
+}

@@ -11,6 +11,24 @@ import { config } from "dotenv";
 config({ path: ".env.local" });
 import { createClient } from "@supabase/supabase-js";
 
+// DESTRUCTIVE: this REPLACES each course's quiz_questions (deletes then inserts)
+// and overwrites content_blocks with the pre-H5P authored blocks. Re-running it
+// against the shared production DB wipes every quiz-bank expansion and reverts
+// the interactive H5P courses. Require an explicit acknowledgement flag.
+if (!process.argv.includes("--i-know-this-destroys-content")) {
+  console.error(
+    [
+      "REFUSING TO RUN. seed-content.mjs deletes and replaces every course's quiz",
+      "bank and overwrites content_blocks — it would wipe bank expansions and revert",
+      "the H5P courses in the SHARED PRODUCTION database.",
+      "",
+      "If that is genuinely what you want, re-run with:",
+      "  node scripts/seed-content.mjs --i-know-this-destroys-content",
+    ].join("\n"),
+  );
+  process.exit(1);
+}
+
 import { careFundamentals } from "./content/care-fundamentals.mjs";
 import { safeguarding } from "./content/safeguarding.mjs";
 import { healthSafety } from "./content/health-safety.mjs";

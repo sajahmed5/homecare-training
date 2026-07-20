@@ -1,0 +1,62 @@
+{
+  "slug": "information-governance-and-gdpr",
+  "title": "Information Governance & GDPR",
+  "content_blocks": [
+    {
+      "path": "information-governance-and-gdpr/p1",
+      "type": "h5p",
+      "label": "Why it matters",
+      "section": "Data protection basics",
+      "questions": 0
+    },
+    {
+      "path": "information-governance-and-gdpr/p2",
+      "type": "h5p",
+      "label": "The principles",
+      "section": "Data protection basics",
+      "questions": 0
+    },
+    {
+      "path": "information-governance-and-gdpr/p3",
+      "type": "h5p",
+      "label": "Kinds of data",
+      "section": "Data and people's rights",
+      "questions": 1
+    },
+    {
+      "path": "information-governance-and-gdpr/p4",
+      "type": "h5p",
+      "label": "Individual rights",
+      "section": "Data and people's rights",
+      "questions": 1
+    },
+    {
+      "path": "information-governance-and-gdpr/p5",
+      "type": "h5p",
+      "label": "Confidentiality",
+      "section": "Confidentiality and sharing",
+      "questions": 1
+    },
+    {
+      "path": "information-governance-and-gdpr/p6",
+      "type": "h5p",
+      "label": "Sharing safely",
+      "section": "Confidentiality and sharing",
+      "questions": 1
+    },
+    {
+      "path": "information-governance-and-gdpr/p7",
+      "type": "h5p",
+      "label": "Data breaches",
+      "section": "Breaches and safe handling",
+      "questions": 1
+    },
+    {
+      "path": "information-governance-and-gdpr/p8",
+      "type": "h5p",
+      "label": "Secure handling",
+      "section": "Breaches and safe handling",
+      "questions": 1
+    }
+  ]
+}

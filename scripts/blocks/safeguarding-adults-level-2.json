@@ -1,0 +1,62 @@
+{
+  "slug": "safeguarding-adults-level-2",
+  "title": "Safeguarding Adults Level 2",
+  "content_blocks": [
+    {
+      "path": "safeguarding-adults-level-2/p1",
+      "type": "h5p",
+      "label": "What safeguarding means",
+      "section": "Safeguarding and its principles",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p2",
+      "type": "h5p",
+      "label": "The six principles",
+      "section": "Safeguarding and its principles",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p3",
+      "type": "h5p",
+      "label": "Categories of abuse",
+      "section": "Recognising abuse",
+      "questions": 0
+    },
+    {
+      "path": "safeguarding-adults-level-2/p4",
+      "type": "h5p",
+      "label": "More categories",
+      "section": "Recognising abuse",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p5",
+      "type": "h5p",
+      "label": "Mental capacity & consent",
+      "section": "Capacity and raising concerns",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p6",
+      "type": "h5p",
+      "label": "Raising a concern",
+      "section": "Capacity and raising concerns",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p7",
+      "type": "h5p",
+      "label": "Whistleblowing & Prevent",
+      "section": "Speaking up and standards",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-adults-level-2/p8",
+      "type": "h5p",
+      "label": "Standards & summary",
+      "section": "Speaking up and standards",
+      "questions": 1
+    }
+  ]
+}

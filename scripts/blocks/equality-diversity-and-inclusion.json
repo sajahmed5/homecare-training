@@ -1,0 +1,62 @@
+{
+  "slug": "equality-diversity-and-inclusion",
+  "title": "Equality, Diversity & Inclusion",
+  "content_blocks": [
+    {
+      "path": "equality-diversity-and-inclusion/p1",
+      "type": "h5p",
+      "label": "What EDI means",
+      "section": "Equality and the law",
+      "questions": 1
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p2",
+      "type": "h5p",
+      "label": "The Equality Act 2010",
+      "section": "Equality and the law",
+      "questions": 1
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p3",
+      "type": "h5p",
+      "label": "Protected characteristics",
+      "section": "Equality and the law",
+      "questions": 1
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p4",
+      "type": "h5p",
+      "label": "Types of discrimination",
+      "section": "How discrimination happens",
+      "questions": 0
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p5",
+      "type": "h5p",
+      "label": "Unconscious bias",
+      "section": "How discrimination happens",
+      "questions": 1
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p6",
+      "type": "h5p",
+      "label": "Reasonable adjustments",
+      "section": "Making care inclusive",
+      "questions": 1
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p7",
+      "type": "h5p",
+      "label": "Promoting inclusion",
+      "section": "Making care inclusive",
+      "questions": 0
+    },
+    {
+      "path": "equality-diversity-and-inclusion/p8",
+      "type": "h5p",
+      "label": "If you witness it",
+      "section": "Taking action",
+      "questions": 2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "fire-safety",
+  "title": "Fire Safety",
+  "content_blocks": [
+    {
+      "path": "fire-safety/p1",
+      "type": "h5p",
+      "label": "Why fire safety matters",
+      "section": "How fires start",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p2",
+      "type": "h5p",
+      "label": "How fire works",
+      "section": "How fires start",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p3",
+      "type": "h5p",
+      "label": "Causes of fire in care",
+      "section": "Fire risks in care",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p4",
+      "type": "h5p",
+      "label": "Emollient cream risk",
+      "section": "Fire risks in care",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p5",
+      "type": "h5p",
+      "label": "Detection & alarms",
+      "section": "Detecting and fighting fire",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p6",
+      "type": "h5p",
+      "label": "Extinguishers & PASS",
+      "section": "Detecting and fighting fire",
+      "questions": 0
+    },
+    {
+      "path": "fire-safety/p7",
+      "type": "h5p",
+      "label": "Evacuation & PEEPs",
+      "section": "Getting everyone out",
+      "questions": 1
+    },
+    {
+      "path": "fire-safety/p8",
+      "type": "h5p",
+      "label": "If a fire starts",
+      "section": "Getting everyone out",
+      "questions": 2
+    }
+  ]
+}

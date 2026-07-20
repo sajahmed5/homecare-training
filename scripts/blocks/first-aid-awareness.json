@@ -1,0 +1,62 @@
+{
+  "slug": "first-aid-awareness",
+  "title": "First Aid Awareness",
+  "content_blocks": [
+    {
+      "path": "first-aid-awareness/p1",
+      "type": "h5p",
+      "label": "Welcome & the first aider's role",
+      "section": "Your role as first aider",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p2",
+      "type": "h5p",
+      "label": "The primary survey (DR ABC)",
+      "section": "Your role as first aider",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p3",
+      "type": "h5p",
+      "label": "Calling for help",
+      "section": "Your role as first aider",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p4",
+      "type": "h5p",
+      "label": "Bleeding & shock",
+      "section": "Bleeding, burns and injuries",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p5",
+      "type": "h5p",
+      "label": "Burns, choking & falls",
+      "section": "Bleeding, burns and injuries",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p6",
+      "type": "h5p",
+      "label": "Medical emergencies",
+      "section": "Medical emergencies",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p7",
+      "type": "h5p",
+      "label": "Diabetic emergencies & recovery position",
+      "section": "Medical emergencies",
+      "questions": 1
+    },
+    {
+      "path": "first-aid-awareness/p8",
+      "type": "h5p",
+      "label": "Recording & reporting",
+      "section": "Recording and reporting",
+      "questions": 1
+    }
+  ]
+}

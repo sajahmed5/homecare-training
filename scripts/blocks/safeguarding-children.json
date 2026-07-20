@@ -1,0 +1,62 @@
+{
+  "slug": "safeguarding-children",
+  "title": "Safeguarding Children",
+  "content_blocks": [
+    {
+      "path": "safeguarding-children/p1",
+      "type": "h5p",
+      "label": "What safeguarding means",
+      "section": "Understanding harm to children",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p2",
+      "type": "h5p",
+      "label": "Categories of abuse",
+      "section": "Understanding harm to children",
+      "questions": 0
+    },
+    {
+      "path": "safeguarding-children/p3",
+      "type": "h5p",
+      "label": "Contextual harms",
+      "section": "Understanding harm to children",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p4",
+      "type": "h5p",
+      "label": "In need or at risk?",
+      "section": "Levels of need and disclosure",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p5",
+      "type": "h5p",
+      "label": "If a child discloses",
+      "section": "Levels of need and disclosure",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p6",
+      "type": "h5p",
+      "label": "Who to tell",
+      "section": "Reporting and sharing safely",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p7",
+      "type": "h5p",
+      "label": "Sharing information",
+      "section": "Reporting and sharing safely",
+      "questions": 1
+    },
+    {
+      "path": "safeguarding-children/p8",
+      "type": "h5p",
+      "label": "It could happen here",
+      "section": "Staying alert",
+      "questions": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "privacy-and-dignity",
+  "title": "Privacy & Dignity",
+  "content_blocks": [
+    {
+      "path": "privacy-and-dignity/p1",
+      "type": "h5p",
+      "label": "What we mean",
+      "section": "What privacy and dignity mean",
+      "questions": 0
+    },
+    {
+      "path": "privacy-and-dignity/p2",
+      "type": "h5p",
+      "label": "The law behind it",
+      "section": "What privacy and dignity mean",
+      "questions": 0
+    },
+    {
+      "path": "privacy-and-dignity/p3",
+      "type": "h5p",
+      "label": "Privacy in personal care",
+      "section": "Privacy and dignity in practice",
+      "questions": 1
+    },
+    {
+      "path": "privacy-and-dignity/p4",
+      "type": "h5p",
+      "label": "Dignity in everyday care",
+      "section": "Privacy and dignity in practice",
+      "questions": 1
+    },
+    {
+      "path": "privacy-and-dignity/p5",
+      "type": "h5p",
+      "label": "Choice & independence",
+      "section": "Choice and positive risk",
+      "questions": 1
+    },
+    {
+      "path": "privacy-and-dignity/p6",
+      "type": "h5p",
+      "label": "Dignity of risk",
+      "section": "Choice and positive risk",
+      "questions": 1
+    },
+    {
+      "path": "privacy-and-dignity/p7",
+      "type": "h5p",
+      "label": "Dementia & communication",
+      "section": "Communication and speaking up",
+      "questions": 0
+    },
+    {
+      "path": "privacy-and-dignity/p8",
+      "type": "h5p",
+      "label": "Challenging poor practice",
+      "section": "Communication and speaking up",
+      "questions": 1
+    }
+  ]
+}

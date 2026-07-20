@@ -1,0 +1,48 @@
+{
+  "slug": "communication-skills",
+  "title": "Communication Skills",
+  "content_blocks": [
+    {
+      "path": "communication-skills/p1",
+      "type": "h5p",
+      "label": "Introduction",
+      "section": "Ways we communicate",
+      "questions": 0
+    },
+    {
+      "path": "communication-skills/p2",
+      "type": "h5p",
+      "label": "Types of communication",
+      "section": "Ways we communicate",
+      "questions": 0
+    },
+    {
+      "path": "communication-skills/p3",
+      "type": "h5p",
+      "label": "Active listening",
+      "section": "Listening and barriers",
+      "questions": 1
+    },
+    {
+      "path": "communication-skills/p4",
+      "type": "h5p",
+      "label": "Barriers",
+      "section": "Listening and barriers",
+      "questions": 1
+    },
+    {
+      "path": "communication-skills/p5",
+      "type": "h5p",
+      "label": "Individual needs",
+      "section": "Meeting individual needs",
+      "questions": 1
+    },
+    {
+      "path": "communication-skills/p6",
+      "type": "h5p",
+      "label": "Recording & summary",
+      "section": "Meeting individual needs",
+      "questions": 0
+    }
+  ]
+}

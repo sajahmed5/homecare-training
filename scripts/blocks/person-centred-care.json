@@ -1,0 +1,62 @@
+{
+  "slug": "person-centred-care",
+  "title": "Person-Centred Care",
+  "content_blocks": [
+    {
+      "path": "person-centred-care/p1",
+      "type": "h5p",
+      "label": "What it means",
+      "section": "The idea and the values",
+      "questions": 0
+    },
+    {
+      "path": "person-centred-care/p2",
+      "type": "h5p",
+      "label": "The values",
+      "section": "The idea and the values",
+      "questions": 0
+    },
+    {
+      "path": "person-centred-care/p3",
+      "type": "h5p",
+      "label": "Know the person",
+      "section": "Knowing and involving the person",
+      "questions": 1
+    },
+    {
+      "path": "person-centred-care/p4",
+      "type": "h5p",
+      "label": "Consent",
+      "section": "Knowing and involving the person",
+      "questions": 1
+    },
+    {
+      "path": "person-centred-care/p5",
+      "type": "h5p",
+      "label": "Active participation",
+      "section": "Knowing and involving the person",
+      "questions": 1
+    },
+    {
+      "path": "person-centred-care/p6",
+      "type": "h5p",
+      "label": "Choice & control",
+      "section": "Choice, dignity and detail",
+      "questions": 1
+    },
+    {
+      "path": "person-centred-care/p7",
+      "type": "h5p",
+      "label": "Dignity & holism",
+      "section": "Choice, dignity and detail",
+      "questions": 1
+    },
+    {
+      "path": "person-centred-care/p8",
+      "type": "h5p",
+      "label": "Small things",
+      "section": "Choice, dignity and detail",
+      "questions": 0
+    }
+  ]
+}

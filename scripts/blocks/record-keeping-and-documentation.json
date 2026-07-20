@@ -1,0 +1,62 @@
+{
+  "slug": "record-keeping-and-documentation",
+  "title": "Record Keeping & Documentation",
+  "content_blocks": [
+    {
+      "path": "record-keeping-and-documentation/p1",
+      "type": "h5p",
+      "label": "Why records matter",
+      "section": "Why records matter",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p2",
+      "type": "h5p",
+      "label": "The rules & regulator",
+      "section": "Why records matter",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p3",
+      "type": "h5p",
+      "label": "Principles of good records",
+      "section": "What good records look like",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p4",
+      "type": "h5p",
+      "label": "Facts, not opinions",
+      "section": "What good records look like",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p5",
+      "type": "h5p",
+      "label": "Types of records",
+      "section": "Records you will complete",
+      "questions": 0
+    },
+    {
+      "path": "record-keeping-and-documentation/p6",
+      "type": "h5p",
+      "label": "Do's & don'ts",
+      "section": "Records you will complete",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p7",
+      "type": "h5p",
+      "label": "Correcting an error",
+      "section": "Errors and confidentiality",
+      "questions": 1
+    },
+    {
+      "path": "record-keeping-and-documentation/p8",
+      "type": "h5p",
+      "label": "Confidentiality & storage",
+      "section": "Errors and confidentiality",
+      "questions": 1
+    }
+  ]
+}

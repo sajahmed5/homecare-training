@@ -1,0 +1,62 @@
+{
+  "slug": "food-hygiene-and-nutrition",
+  "title": "Food Hygiene & Nutrition",
+  "content_blocks": [
+    {
+      "path": "food-hygiene-and-nutrition/p1",
+      "type": "h5p",
+      "label": "Why it matters",
+      "section": "Safe food handling",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p2",
+      "type": "h5p",
+      "label": "The 4 Cs",
+      "section": "Safe food handling",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p3",
+      "type": "h5p",
+      "label": "Temperature control",
+      "section": "Safe food handling",
+      "questions": 2
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p4",
+      "type": "h5p",
+      "label": "Personal hygiene",
+      "section": "Hygiene, allergens and controls",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p5",
+      "type": "h5p",
+      "label": "Dates, allergens & HACCP",
+      "section": "Hygiene, allergens and controls",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p6",
+      "type": "h5p",
+      "label": "Nutrition & hydration",
+      "section": "Eating and drinking well",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p7",
+      "type": "h5p",
+      "label": "Malnutrition & MUST",
+      "section": "Eating and drinking well",
+      "questions": 1
+    },
+    {
+      "path": "food-hygiene-and-nutrition/p8",
+      "type": "h5p",
+      "label": "Dysphagia & choice",
+      "section": "Support with swallowing",
+      "questions": 1
+    }
+  ]
+}

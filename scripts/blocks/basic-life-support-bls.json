@@ -1,0 +1,62 @@
+{
+  "slug": "basic-life-support-bls",
+  "title": "Basic Life Support (BLS)",
+  "content_blocks": [
+    {
+      "path": "basic-life-support-bls/p1",
+      "type": "h5p",
+      "label": "What BLS is",
+      "section": "Why BLS saves lives",
+      "questions": 0
+    },
+    {
+      "path": "basic-life-support-bls/p2",
+      "type": "h5p",
+      "label": "Chain of Survival",
+      "section": "Why BLS saves lives",
+      "questions": 0
+    },
+    {
+      "path": "basic-life-support-bls/p3",
+      "type": "h5p",
+      "label": "Danger & Response",
+      "section": "Checking the casualty",
+      "questions": 1
+    },
+    {
+      "path": "basic-life-support-bls/p4",
+      "type": "h5p",
+      "label": "Airway & Breathing",
+      "section": "Checking the casualty",
+      "questions": 1
+    },
+    {
+      "path": "basic-life-support-bls/p5",
+      "type": "h5p",
+      "label": "Call 999 & AED",
+      "section": "Getting help and starting CPR",
+      "questions": 1
+    },
+    {
+      "path": "basic-life-support-bls/p6",
+      "type": "h5p",
+      "label": "Chest compressions",
+      "section": "Getting help and starting CPR",
+      "questions": 1
+    },
+    {
+      "path": "basic-life-support-bls/p7",
+      "type": "h5p",
+      "label": "Breaths & AED",
+      "section": "Breaths, AED and aftercare",
+      "questions": 1
+    },
+    {
+      "path": "basic-life-support-bls/p8",
+      "type": "h5p",
+      "label": "Recovery & choking",
+      "section": "Breaths, AED and aftercare",
+      "questions": 1
+    }
+  ]
+}

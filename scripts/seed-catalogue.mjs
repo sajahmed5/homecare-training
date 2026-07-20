@@ -10,6 +10,24 @@ import { config } from "dotenv";
 config({ path: ".env.local" });
 import { createClient } from "@supabase/supabase-js";
 
+// DESTRUCTIVE: this upserts every course by slug INCLUDING placeholder
+// content_blocks, so re-running against the shared production DB replaces all
+// 26 authored courses with empty placeholder slides. It exists only for a
+// from-scratch bootstrap. Require an explicit acknowledgement flag.
+if (!process.argv.includes("--i-know-this-destroys-content")) {
+  console.error(
+    [
+      "REFUSING TO RUN. seed-catalogue.mjs overwrites courses.content_blocks with",
+      "placeholder slides for all 26 courses — it would wipe the authored content",
+      "in the SHARED PRODUCTION database.",
+      "",
+      "This is a from-scratch bootstrap only. If that is genuinely what you want,",
+      "re-run with:  node scripts/seed-catalogue.mjs --i-know-this-destroys-content",
+    ].join("\n"),
+  );
+  process.exit(1);
+}
+
 const admin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY,

@@ -1,0 +1,62 @@
+{
+  "slug": "whistleblowing",
+  "title": "Whistleblowing",
+  "content_blocks": [
+    {
+      "path": "whistleblowing/p1",
+      "type": "h5p",
+      "label": "What is whistleblowing?",
+      "section": "What whistleblowing is",
+      "questions": 0
+    },
+    {
+      "path": "whistleblowing/p2",
+      "type": "h5p",
+      "label": "Concern, complaint or grievance?",
+      "section": "What whistleblowing is",
+      "questions": 0
+    },
+    {
+      "path": "whistleblowing/p3",
+      "type": "h5p",
+      "label": "Protected disclosures",
+      "section": "Making a protected disclosure",
+      "questions": 1
+    },
+    {
+      "path": "whistleblowing/p4",
+      "type": "h5p",
+      "label": "How to raise a concern",
+      "section": "Making a protected disclosure",
+      "questions": 1
+    },
+    {
+      "path": "whistleblowing/p5",
+      "type": "h5p",
+      "label": "Prescribed persons & CQC",
+      "section": "Going further and your protection",
+      "questions": 1
+    },
+    {
+      "path": "whistleblowing/p6",
+      "type": "h5p",
+      "label": "Protection from detriment",
+      "section": "Going further and your protection",
+      "questions": 1
+    },
+    {
+      "path": "whistleblowing/p7",
+      "type": "h5p",
+      "label": "Confidentiality & anonymity",
+      "section": "Confidence to speak up",
+      "questions": 0
+    },
+    {
+      "path": "whistleblowing/p8",
+      "type": "h5p",
+      "label": "Safeguarding, candour & courage",
+      "section": "Confidence to speak up",
+      "questions": 1
+    }
+  ]
+}

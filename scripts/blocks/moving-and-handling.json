@@ -1,0 +1,62 @@
+{
+  "slug": "moving-and-handling",
+  "title": "Moving & Handling",
+  "content_blocks": [
+    {
+      "path": "moving-and-handling/p1",
+      "type": "h5p",
+      "label": "Why it matters",
+      "section": "The law and the risks",
+      "questions": 1
+    },
+    {
+      "path": "moving-and-handling/p2",
+      "type": "h5p",
+      "label": "The law",
+      "section": "The law and the risks",
+      "questions": 1
+    },
+    {
+      "path": "moving-and-handling/p3",
+      "type": "h5p",
+      "label": "Avoid, Assess, Reduce",
+      "section": "Assessing before you move",
+      "questions": 2
+    },
+    {
+      "path": "moving-and-handling/p4",
+      "type": "h5p",
+      "label": "TILE risk assessment",
+      "section": "Assessing before you move",
+      "questions": 0
+    },
+    {
+      "path": "moving-and-handling/p5",
+      "type": "h5p",
+      "label": "Safe principles",
+      "section": "Safe technique and equipment",
+      "questions": 2
+    },
+    {
+      "path": "moving-and-handling/p6",
+      "type": "h5p",
+      "label": "Using equipment",
+      "section": "Safe technique and equipment",
+      "questions": 1
+    },
+    {
+      "path": "moving-and-handling/p7",
+      "type": "h5p",
+      "label": "Never lift & person-centred",
+      "section": "Dignity and reporting",
+      "questions": 1
+    },
+    {
+      "path": "moving-and-handling/p8",
+      "type": "h5p",
+      "label": "Reporting & review",
+      "section": "Dignity and reporting",
+      "questions": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "complaints-handling",
+  "title": "Complaints Handling",
+  "content_blocks": [
+    {
+      "path": "complaints-handling/p1",
+      "type": "h5p",
+      "label": "Complaints are a gift",
+      "section": "Why complaints matter",
+      "questions": 1
+    },
+    {
+      "path": "complaints-handling/p2",
+      "type": "h5p",
+      "label": "Complaint or something else?",
+      "section": "Why complaints matter",
+      "questions": 0
+    },
+    {
+      "path": "complaints-handling/p3",
+      "type": "h5p",
+      "label": "An accessible procedure",
+      "section": "A clear procedure",
+      "questions": 1
+    },
+    {
+      "path": "complaints-handling/p4",
+      "type": "h5p",
+      "label": "Handling it well",
+      "section": "A clear procedure",
+      "questions": 1
+    },
+    {
+      "path": "complaints-handling/p5",
+      "type": "h5p",
+      "label": "The process",
+      "section": "Working through a complaint",
+      "questions": 1
+    },
+    {
+      "path": "complaints-handling/p6",
+      "type": "h5p",
+      "label": "Your role as a care worker",
+      "section": "Working through a complaint",
+      "questions": 2
+    },
+    {
+      "path": "complaints-handling/p7",
+      "type": "h5p",
+      "label": "Learning and improving",
+      "section": "Learning and escalation",
+      "questions": 1
+    },
+    {
+      "path": "complaints-handling/p8",
+      "type": "h5p",
+      "label": "Escalation & the Ombudsman",
+      "section": "Learning and escalation",
+      "questions": 1
+    }
+  ]
+}

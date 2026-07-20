@@ -1,0 +1,62 @@
+{
+  "slug": "slips-trips-and-falls",
+  "title": "Slips, Trips & Falls",
+  "content_blocks": [
+    {
+      "path": "slips-trips-and-falls/p1",
+      "type": "h5p",
+      "label": "Why this matters",
+      "section": "Why slips and trips happen",
+      "questions": 1
+    },
+    {
+      "path": "slips-trips-and-falls/p2",
+      "type": "h5p",
+      "label": "Slip & trip causes",
+      "section": "Why slips and trips happen",
+      "questions": 0
+    },
+    {
+      "path": "slips-trips-and-falls/p3",
+      "type": "h5p",
+      "label": "Prevention & housekeeping",
+      "section": "Preventing and assessing",
+      "questions": 2
+    },
+    {
+      "path": "slips-trips-and-falls/p4",
+      "type": "h5p",
+      "label": "Risk assessment",
+      "section": "Preventing and assessing",
+      "questions": 1
+    },
+    {
+      "path": "slips-trips-and-falls/p5",
+      "type": "h5p",
+      "label": "Why people fall",
+      "section": "Understanding falls",
+      "questions": 0
+    },
+    {
+      "path": "slips-trips-and-falls/p6",
+      "type": "h5p",
+      "label": "Falls prevention",
+      "section": "Understanding falls",
+      "questions": 1
+    },
+    {
+      "path": "slips-trips-and-falls/p7",
+      "type": "h5p",
+      "label": "If someone falls",
+      "section": "After a fall",
+      "questions": 2
+    },
+    {
+      "path": "slips-trips-and-falls/p8",
+      "type": "h5p",
+      "label": "Recording & reporting",
+      "section": "After a fall",
+      "questions": 1
+    }
+  ]
+}

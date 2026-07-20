@@ -1,0 +1,62 @@
+{
+  "slug": "infection-prevention-and-control",
+  "title": "Infection Prevention & Control",
+  "content_blocks": [
+    {
+      "path": "infection-prevention-and-control/p1",
+      "type": "h5p",
+      "label": "Why IPC matters",
+      "section": "How infection spreads",
+      "questions": 1
+    },
+    {
+      "path": "infection-prevention-and-control/p2",
+      "type": "h5p",
+      "label": "The chain of infection",
+      "section": "How infection spreads",
+      "questions": 0
+    },
+    {
+      "path": "infection-prevention-and-control/p3",
+      "type": "h5p",
+      "label": "Standard precautions",
+      "section": "Standard precautions",
+      "questions": 1
+    },
+    {
+      "path": "infection-prevention-and-control/p4",
+      "type": "h5p",
+      "label": "Hand hygiene",
+      "section": "Standard precautions",
+      "questions": 1
+    },
+    {
+      "path": "infection-prevention-and-control/p5",
+      "type": "h5p",
+      "label": "PPE",
+      "section": "PPE, waste and cleaning",
+      "questions": 1
+    },
+    {
+      "path": "infection-prevention-and-control/p6",
+      "type": "h5p",
+      "label": "Sharps, waste & spills",
+      "section": "PPE, waste and cleaning",
+      "questions": 1
+    },
+    {
+      "path": "infection-prevention-and-control/p7",
+      "type": "h5p",
+      "label": "Cleaning & HCAIs",
+      "section": "PPE, waste and cleaning",
+      "questions": 0
+    },
+    {
+      "path": "infection-prevention-and-control/p8",
+      "type": "h5p",
+      "label": "Sepsis & reporting",
+      "section": "Spotting serious infection",
+      "questions": 1
+    }
+  ]
+}

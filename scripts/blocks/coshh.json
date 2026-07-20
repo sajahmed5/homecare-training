@@ -1,0 +1,62 @@
+{
+  "slug": "coshh",
+  "title": "COSHH",
+  "content_blocks": [
+    {
+      "path": "coshh/p1",
+      "type": "h5p",
+      "label": "What is COSHH?",
+      "section": "Hazardous substances at work",
+      "questions": 1
+    },
+    {
+      "path": "coshh/p2",
+      "type": "h5p",
+      "label": "Substances in care",
+      "section": "Hazardous substances at work",
+      "questions": 1
+    },
+    {
+      "path": "coshh/p3",
+      "type": "h5p",
+      "label": "Pictograms & labels",
+      "section": "Labels and assessments",
+      "questions": 0
+    },
+    {
+      "path": "coshh/p4",
+      "type": "h5p",
+      "label": "SDS & assessment",
+      "section": "Labels and assessments",
+      "questions": 1
+    },
+    {
+      "path": "coshh/p5",
+      "type": "h5p",
+      "label": "Routes of entry",
+      "section": "Routes of harm and control",
+      "questions": 0
+    },
+    {
+      "path": "coshh/p6",
+      "type": "h5p",
+      "label": "Hierarchy of control",
+      "section": "Routes of harm and control",
+      "questions": 1
+    },
+    {
+      "path": "coshh/p7",
+      "type": "h5p",
+      "label": "Storage & spills",
+      "section": "Storage, spills and reporting",
+      "questions": 1
+    },
+    {
+      "path": "coshh/p8",
+      "type": "h5p",
+      "label": "Reporting & review",
+      "section": "Storage, spills and reporting",
+      "questions": 1
+    }
+  ]
+}

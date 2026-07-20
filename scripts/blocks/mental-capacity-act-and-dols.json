@@ -1,0 +1,62 @@
+{
+  "slug": "mental-capacity-act-and-dols",
+  "title": "Mental Capacity Act & DoLS",
+  "content_blocks": [
+    {
+      "path": "mental-capacity-act-and-dols/p1",
+      "type": "h5p",
+      "label": "Why the MCA matters",
+      "section": "The Act and its principles",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p2",
+      "type": "h5p",
+      "label": "The five principles",
+      "section": "The Act and its principles",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p3",
+      "type": "h5p",
+      "label": "Testing capacity",
+      "section": "Capacity and best interests",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p4",
+      "type": "h5p",
+      "label": "Best interests",
+      "section": "Capacity and best interests",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p5",
+      "type": "h5p",
+      "label": "Planning ahead: LPA, ADRT & IMCA",
+      "section": "Planning ahead and restraint",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p6",
+      "type": "h5p",
+      "label": "Restraint & restriction",
+      "section": "Planning ahead and restraint",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p7",
+      "type": "h5p",
+      "label": "Deprivation of Liberty",
+      "section": "Deprivation of liberty in practice",
+      "questions": 1
+    },
+    {
+      "path": "mental-capacity-act-and-dols/p8",
+      "type": "h5p",
+      "label": "Putting it into practice",
+      "section": "Deprivation of liberty in practice",
+      "questions": 2
+    }
+  ]
+}

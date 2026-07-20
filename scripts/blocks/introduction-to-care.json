@@ -1,0 +1,62 @@
+{
+  "slug": "introduction-to-care",
+  "title": "Introduction to Care",
+  "content_blocks": [
+    {
+      "path": "introduction-to-care/p1",
+      "type": "h5p",
+      "label": "Welcome & what is care",
+      "section": "What care work is",
+      "questions": 0
+    },
+    {
+      "path": "introduction-to-care/p2",
+      "type": "h5p",
+      "label": "Your role & responsibilities",
+      "section": "What care work is",
+      "questions": 1
+    },
+    {
+      "path": "introduction-to-care/p3",
+      "type": "h5p",
+      "label": "The 6 Cs",
+      "section": "Values and ways of working",
+      "questions": 0
+    },
+    {
+      "path": "introduction-to-care/p4",
+      "type": "h5p",
+      "label": "Agreed ways of working",
+      "section": "Values and ways of working",
+      "questions": 1
+    },
+    {
+      "path": "introduction-to-care/p5",
+      "type": "h5p",
+      "label": "Working relationships",
+      "section": "Working with others",
+      "questions": 1
+    },
+    {
+      "path": "introduction-to-care/p6",
+      "type": "h5p",
+      "label": "Person-centred care & duty of care",
+      "section": "Working with others",
+      "questions": 1
+    },
+    {
+      "path": "introduction-to-care/p7",
+      "type": "h5p",
+      "label": "Your own development",
+      "section": "Development and regulation",
+      "questions": 1
+    },
+    {
+      "path": "introduction-to-care/p8",
+      "type": "h5p",
+      "label": "Regulation & recap",
+      "section": "Development and regulation",
+      "questions": 1
+    }
+  ]
+}

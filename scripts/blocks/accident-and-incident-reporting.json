@@ -1,0 +1,62 @@
+{
+  "slug": "accident-and-incident-reporting",
+  "title": "Accident & Incident Reporting",
+  "content_blocks": [
+    {
+      "path": "accident-and-incident-reporting/p1",
+      "type": "h5p",
+      "label": "Why it matters",
+      "section": "What counts as an incident",
+      "questions": 0
+    },
+    {
+      "path": "accident-and-incident-reporting/p2",
+      "type": "h5p",
+      "label": "Accident, incident, near miss",
+      "section": "What counts as an incident",
+      "questions": 0
+    },
+    {
+      "path": "accident-and-incident-reporting/p3",
+      "type": "h5p",
+      "label": "Why near misses matter",
+      "section": "What counts as an incident",
+      "questions": 1
+    },
+    {
+      "path": "accident-and-incident-reporting/p4",
+      "type": "h5p",
+      "label": "How to record",
+      "section": "Recording what happened",
+      "questions": 1
+    },
+    {
+      "path": "accident-and-incident-reporting/p5",
+      "type": "h5p",
+      "label": "RIDDOR: what to report",
+      "section": "RIDDOR and the regulator",
+      "questions": 1
+    },
+    {
+      "path": "accident-and-incident-reporting/p6",
+      "type": "h5p",
+      "label": "RIDDOR: timescales",
+      "section": "RIDDOR and the regulator",
+      "questions": 1
+    },
+    {
+      "path": "accident-and-incident-reporting/p7",
+      "type": "h5p",
+      "label": "CQC & duty of candour",
+      "section": "RIDDOR and the regulator",
+      "questions": 1
+    },
+    {
+      "path": "accident-and-incident-reporting/p8",
+      "type": "h5p",
+      "label": "Learning & confidentiality",
+      "section": "Learning from it",
+      "questions": 1
+    }
+  ]
+}

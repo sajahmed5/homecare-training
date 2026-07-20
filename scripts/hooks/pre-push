@@ -1,0 +1,33 @@
+#!/bin/sh
+# Course-integrity gate on `git push` — the primary deploy route.
+#
+# content_blocks lives in the shared production DB, so a mismatch between the DB
+# and the repo means a learner hits a 404 mid-course. `npm run deploy` already
+# runs this audit via predeploy, but pushing to main deploys through Vercel's
+# GitHub integration and bypasses that. This closes the gap.
+#
+# Skips gracefully when it cannot run (no node, no .env.local — e.g. CI or a
+# fresh clone) so it never blocks a push it has no way to check. Set
+# SKIP_COURSE_AUDIT=1 to bypass deliberately.
+
+if [ "$SKIP_COURSE_AUDIT" = "1" ]; then
+  exit 0
+fi
+
+# Only relevant when course content or the DB-writing scripts changed.
+if ! command -v node >/dev/null 2>&1; then
+  exit 0
+fi
+if [ ! -f .env.local ]; then
+  echo "pre-push: no .env.local, skipping course audit"
+  exit 0
+fi
+
+echo "pre-push: auditing course integrity (DB <-> repo)…"
+if ! node scripts/audit-courses.mjs; then
+  echo ""
+  echo "pre-push: course audit FAILED — push blocked."
+  echo "Fix the errors above, or bypass with: SKIP_COURSE_AUDIT=1 git push"
+  exit 1
+fi
+exit 0

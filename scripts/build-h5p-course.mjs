@@ -161,7 +161,12 @@ spec.pages.forEach((page, i) => {
   writeFileSync(join(dir, "h5p.json"), JSON.stringify(h5p, null, 1));
   // Count gradeable questions the player will gate "Next" on.
   const questions = page.items.filter((it) => ["multichoice", "dragtext", "truefalse"].includes(it.type)).length;
-  blocks.push({ type: "h5p", path: `${spec.slug}/p${i + 1}`, label: page.label, questions });
+  const block = { type: "h5p", path: `${spec.slug}/p${i + 1}`, label: page.label, questions };
+  // Carry the section through so the player's Contents panel groups pages. The
+  // section lives only in content_blocks, so a spec that omits it produces
+  // sectionless blocks — set-course-blocks.mjs is the reproducible path.
+  if (page.section) block.section = page.section;
+  blocks.push(block);
   console.log(`  p${i + 1} "${page.label}" — ${built.length} panel(s), ${questions} question(s)`);
 });
 

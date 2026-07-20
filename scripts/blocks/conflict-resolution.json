@@ -1,0 +1,62 @@
+{
+  "slug": "conflict-resolution",
+  "title": "Conflict Resolution",
+  "content_blocks": [
+    {
+      "path": "conflict-resolution/p1",
+      "type": "h5p",
+      "label": "What is conflict?",
+      "section": "Understanding conflict",
+      "questions": 1
+    },
+    {
+      "path": "conflict-resolution/p2",
+      "type": "h5p",
+      "label": "Causes and triggers",
+      "section": "Understanding conflict",
+      "questions": 1
+    },
+    {
+      "path": "conflict-resolution/p3",
+      "type": "h5p",
+      "label": "The escalation cycle",
+      "section": "Understanding conflict",
+      "questions": 0
+    },
+    {
+      "path": "conflict-resolution/p4",
+      "type": "h5p",
+      "label": "De-escalation skills",
+      "section": "Calming the situation",
+      "questions": 1
+    },
+    {
+      "path": "conflict-resolution/p5",
+      "type": "h5p",
+      "label": "Managing aggression",
+      "section": "Calming the situation",
+      "questions": 1
+    },
+    {
+      "path": "conflict-resolution/p6",
+      "type": "h5p",
+      "label": "Keeping safe",
+      "section": "Keeping yourself safe",
+      "questions": 1
+    },
+    {
+      "path": "conflict-resolution/p7",
+      "type": "h5p",
+      "label": "Assertive not aggressive",
+      "section": "Keeping yourself safe",
+      "questions": 0
+    },
+    {
+      "path": "conflict-resolution/p8",
+      "type": "h5p",
+      "label": "After an incident",
+      "section": "After an incident",
+      "questions": 1
+    }
+  ]
+}

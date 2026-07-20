@@ -1,0 +1,97 @@
+{
+  "slug": "lone-working",
+  "title": "Lone Working",
+  "content_blocks": [
+    {
+      "path": "lone-working/p1",
+      "type": "h5p",
+      "label": "What is lone working?",
+      "section": "Understanding lone working",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p2",
+      "type": "h5p",
+      "label": "The law and duties",
+      "section": "The law and your duties",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p9",
+      "type": "h5p",
+      "label": "Legal duties in practice",
+      "section": "The law and your duties",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p3",
+      "type": "h5p",
+      "label": "The risks",
+      "section": "Assessing the risks",
+      "questions": 0
+    },
+    {
+      "path": "lone-working/p4",
+      "type": "h5p",
+      "label": "Risk assessment",
+      "section": "Assessing the risks",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p10",
+      "type": "h5p",
+      "label": "Travelling between calls",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p5",
+      "type": "h5p",
+      "label": "Safe systems of work",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p6",
+      "type": "h5p",
+      "label": "Dynamic risk assessment",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p11",
+      "type": "h5p",
+      "label": "Hazards inside the home",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p7",
+      "type": "h5p",
+      "label": "Personal safety and de-escalation",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p8",
+      "type": "h5p",
+      "label": "If you feel unsafe",
+      "section": "Staying safe on the job",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p12",
+      "type": "h5p",
+      "label": "After an incident",
+      "section": "After an incident",
+      "questions": 1
+    },
+    {
+      "path": "lone-working/p13",
+      "type": "h5p",
+      "label": "Support and learning",
+      "section": "After an incident",
+      "questions": 1
+    }
+  ]
+}
