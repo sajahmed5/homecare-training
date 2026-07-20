@@ -28,6 +28,20 @@ that should stick.
 
 Before any production deploy: `npm run build && npm run lint && npm test`.
 
+**Course integrity — `npm run audit:courses`.** Course content lives in three places that
+drift apart: the database (`courses.content_blocks`), the repo (`public/h5p/content/<slug>/pN`)
+and the deployed site. Because the database is **shared with production**, editing
+`content_blocks` goes live *immediately* while the page files wait for a deploy — that gap is
+how a learner ends up on a 404 halfway through a course. The audit checks all three agree:
+pages exist, are **committed** (not local-only), declare every H5P library they use, resolve
+their images, match their gating question counts, and have an assessment bank. Use
+`npm run audit:courses:prod` to also HEAD every page on the live site.
+
+It runs automatically as `predeploy`, so `npm run deploy` is gated on it. **It does not gate
+`git push`** — the primary deploy route — so run it yourself after any course restructure, or
+add it to CI. Rule of thumb: change `content_blocks` immediately *before* deploying, never
+hours ahead.
+
 One-time setup on a new machine: `npm run vercel:login`, then `npm run vercel:link`.
 `npm run vercel:env` pulls the project's environment variables into `.env.local`.
 
