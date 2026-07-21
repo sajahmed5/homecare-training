@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Depression Awareness</h2><p>Depression is one of the most common mental health problems, and many of the people you support in adult social care will experience it at some point. As a care worker you are often with people day to day, which means you are well placed to notice when someone's mood, energy or behaviour changes. This course builds your awareness so you can offer warm, respectful support and know when to get further help.</p><ul><li><strong>Understand:</strong> what depression is and why it is an illness, not a weakness.</li><li><strong>Notice:</strong> the emotional, physical and behavioural signs.</li><li><strong>Support:</strong> respond kindly and escalate concerns safely.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e5f562ba-b1e9-49a2-9efe-240498f5439b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "36789e69-d3b2-4f59-8150-95a5c7b727d8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn what depression is, how it differs from everyday low mood, the signs to look out for, and how to support someone in a person-centred way. You will also learn how to recognise and respond to signs of self-harm or suicidal thoughts, and how to look after your own wellbeing. It is grounded in NICE guidance and information from Mind and the Mental Health Foundation.</p><p>This is an <strong>awareness and knowledge</strong> course. It helps you notice changes, offer support and know when to raise a concern, but it does <strong>not</strong> replace professional mental health assessment and treatment. You do not diagnose or treat depression &mdash; that is a clinical decision. Any risk of self-harm or suicide must always be taken seriously and escalated urgently.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9107919a-2b12-4d6a-af67-150c71368c36",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

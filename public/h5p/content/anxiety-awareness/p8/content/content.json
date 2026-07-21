@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred support</h2><p>Every person experiences anxiety differently, so support must fit the individual. What soothes one person may unsettle another. Person-centred support means learning what anxiety feels like for this person, what helps and what makes it worse, and shaping your care around their wishes rather than a fixed routine.</p><ul><li><strong>Know the person:</strong> learn their triggers, their warning signs and what reassures them.</li><li><strong>Follow their lead:</strong> ask what would help rather than assuming.</li><li><strong>Use the care plan:</strong> record and share what works so support stays consistent.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "63a2d606-7736-4f50-982a-803fd504b078",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Person-centred support",
+          "decorative": false,
+          "file": {
+            "path": "images/person-centred-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "228ac02d-9dba-4af1-840b-163de6e6c7f3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying calm and listening</h2><p>When someone is anxious, your own manner matters enormously. Anxiety can be eased by a calm, unhurried presence, and made worse by rushing, raised voices or visible frustration. Keeping yourself steady helps the person feel safe.</p><ul><li><strong>Stay calm:</strong> speak slowly and gently, and keep your body language open and relaxed.</li><li><strong>Listen actively:</strong> give the person time, show that you are listening, and reflect back what you hear.</li><li><strong>Do not dismiss:</strong> never tell someone to simply &ldquo;stop worrying&rdquo; &mdash; acknowledge how real the feeling is.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4c2bde10-955c-48e2-8baf-3029a61c42e2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

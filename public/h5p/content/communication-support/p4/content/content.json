@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising barriers to communication</h2><p>A communication barrier is anything that gets in the way of a message being sent, received, or understood. Many barriers are created by the environment or by how we communicate &mdash; which means we can often remove them.</p><ul><li><strong>Environmental:</strong> background noise, poor lighting, or a busy, distracting space.</li><li><strong>Physical and sensory:</strong> a flat hearing-aid battery, missing glasses, pain, or tiredness.</li><li><strong>Attitudes and habits:</strong> rushing, jargon, talking over people, or assuming someone cannot understand.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "77d0aa38-4f24-4284-b1b0-d2780c5a5da6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising barriers",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-barriers.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3cb71737-2b84-482d-99d7-cecc3dceb631",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reducing barriers</h2><p>Small changes make a real difference. Reduce background noise, make sure the room is well lit so your face can be seen, and check that any aids the person uses are working and to hand. Face the person, get down to their level, and give them your full attention.</p><p>Watch your own habits too. Speak clearly but naturally, avoid jargon, and do not rush to fill every silence. Above all, <strong>presume competence</strong>: assume the person has something to say and can understand, and adjust your approach until you find what works. Barriers are usually about the situation, not the person, and recognising this shift in thinking is one of the most useful things you can do. When you look for what is getting in the way, you can nearly always do something about it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5f230f41-547c-411a-b69a-ebac47f1d270",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You need to talk with someone who wears hearing aids, but the television is loud and the room is dim. What is the best approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Turn the television down, make sure the room is well lit and the hearing aids are working, then face the person and speak clearly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reducing background noise, improving lighting, and checking the aids all remove barriers so the person can hear and see you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Speak much louder over the television so they can hear you above the noise.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Shouting distorts speech and the noise remains a barrier. Reducing the background noise helps far more.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on regardless, as it is not your place to change the environment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Adjusting the environment to support communication is a core part of your role.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they will not understand and speak to their relative instead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. This takes away the person's voice. Presume competence and communicate with the person directly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e89afb31-03c3-4f02-95a9-381dd5e18a73",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Respecting choices</h2><p>People have the right to make their own decisions about their lives and care, including when they are unwell. Someone with depression may decline activities, support or company, and it is important to respect this while continuing to offer, encourage and stay alongside them. Support should never become pressure.</p><ul><li><strong>Their decisions:</strong> respect the person's right to choose.</li><li><strong>Keep offering:</strong> stay warm and available, without forcing.</li><li><strong>Mental capacity:</strong> follow your training and the care plan.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c8043ec9-2c68-4c29-a2da-24cd6fdbcdf4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Choices and recording",
+          "decorative": false,
+          "file": {
+            "path": "images/choices-and-recording.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8121ba3b-55e0-4785-9b74-16a07202e4b5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and reporting changes</h2><p>Because you see people regularly, you are well placed to notice changes over time &mdash; in mood, appetite, sleep, self-care, behaviour or the things a person says. <strong>Recording</strong> what you observe, clearly and factually, helps build a picture that others can act on. Note what you saw or heard, when, and anything the person told you, and avoid guessing at causes.</p><p>Just as important is <strong>reporting</strong> your concerns promptly to your manager, senior colleague or the relevant professional, in line with your service's procedures. If a person's mood is getting worse, or they say something that worries you, do not keep it to yourself. Clear records and prompt reporting help make sure the person gets the right help at the right time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4e6b7c3f-44d4-46fd-b2c9-f30d3108b139",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "You are well placed to *notice* changes in mood or behaviour. *Record* what you see clearly and factually, and *report* any concerns promptly to the right person.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "42fe7b81-5221-485e-9c9c-1710ddc513d4",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

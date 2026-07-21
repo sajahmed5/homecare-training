@@ -1,0 +1,278 @@
+{
+  "slug": "depression-awareness",
+  "courseTitle": "Depression Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What depression is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Depression Awareness</h2><p>Depression is one of the most common mental health problems, and many of the people you support in adult social care will experience it at some point. As a care worker you are often with people day to day, which means you are well placed to notice when someone's mood, energy or behaviour changes. This course builds your awareness so you can offer warm, respectful support and know when to get further help.</p><ul><li><strong>Understand:</strong> what depression is and why it is an illness, not a weakness.</li><li><strong>Notice:</strong> the emotional, physical and behavioural signs.</li><li><strong>Support:</strong> respond kindly and escalate concerns safely.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn what depression is, how it differs from everyday low mood, the signs to look out for, and how to support someone in a person-centred way. You will also learn how to recognise and respond to signs of self-harm or suicidal thoughts, and how to look after your own wellbeing. It is grounded in NICE guidance and information from Mind and the Mental Health Foundation.</p><p>This is an <strong>awareness and knowledge</strong> course. It helps you notice changes, offer support and know when to raise a concern, but it does <strong>not</strong> replace professional mental health assessment and treatment. You do not diagnose or treat depression &mdash; that is a clinical decision. Any risk of self-harm or suicide must always be taken seriously and escalated urgently.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Low mood or depression",
+      "section": "What depression is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Low mood or depression?</h2><p>Everyone feels down, sad or fed up from time to time. This is a normal part of life, and low mood usually lifts within a few days once the cause passes or circumstances change. Depression is different. It is a lasting low mood that goes on for weeks or months and starts to affect how a person thinks, feels and manages everyday life.</p><ul><li><strong>Low mood:</strong> a normal reaction that usually lifts within days.</li><li><strong>Depression:</strong> lasts weeks or longer and affects daily life.</li><li><strong>The difference:</strong> how long it lasts and how much it affects the person.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A common and treatable illness</h2><p>Depression is one of the most common mental health problems, and it can affect anyone, of any age or background. Some people have one episode; others experience depression more than once during their lives. It ranges from mild, where a person can still get through the day with effort, to severe, where even simple tasks can feel impossible.</p><p>The most important message is that depression is <strong>treatable</strong>. With the right support &mdash; which may include talking therapies, medication, or both &mdash; most people get better. Recognising that someone may be depressed, and helping them reach their GP or mental health services, is one of the most valuable things you can do.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the main difference between everyday low mood and depression?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Depression is a lasting low mood, over weeks or months, that affects how a person thinks, feels and copes with daily life.", "correct": true, "feedback": "Correct. It is the length of time and the effect on daily life that mark depression out from ordinary low mood." },
+            { "text": "Low mood only happens to older people, while depression only affects younger people.", "correct": false, "feedback": "Both low mood and depression can affect people of any age; the difference is how long it lasts and its impact." },
+            { "text": "Depression always has an obvious cause, whereas low mood never does.", "correct": false, "feedback": "Depression sometimes has no clear cause at all; the key difference is how lasting it is and how it affects daily life." },
+            { "text": "There is no real difference; the two words mean exactly the same thing.", "correct": false, "feedback": "They are different. Low mood usually passes in days, while depression lasts and affects everyday life." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Illness not weakness",
+      "section": "What depression is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>An illness, not a weakness</h2><p>People sometimes believe that depression is a sign of weakness, or that someone should be able to &lsquo;snap out of it&rsquo; or &lsquo;pull themselves together&rsquo;. This is not true, and such comments can leave a person feeling ashamed or misunderstood. Depression is a genuine illness that affects the mind and body, and it is not something a person chooses or can simply switch off.</p><ul><li><strong>Not a choice:</strong> people cannot simply will depression away.</li><li><strong>Real illness:</strong> it affects both mind &amp; body.</li><li><strong>Stigma harms:</strong> unhelpful comments add to a person's distress.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your supportive role</h2><p>Depression can have many causes, and often there is no single reason. It may be linked to difficult life events such as bereavement, illness, isolation or money worries, to physical health problems, or to changes in the brain and body; sometimes it appears for no clear reason at all. Understanding this helps you respond with compassion rather than judgement.</p><p>Your role is to <strong>support, notice and report</strong>, not to diagnose or treat. By being kind, patient and observant, encouraging someone gently, and passing on your concerns to the right people, you help make sure they get the professional help they need. You are part of a wider team around the person, alongside their family, GP and mental health services, and your everyday observations are genuinely important because you often spot changes before anyone else does.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Depression is a sign of weakness, and most people could overcome it simply by trying harder to cheer up.",
+          "correct": false,
+          "correctMsg": "Correct. Depression is a genuine illness, not a weakness, and people cannot simply will it away.",
+          "wrongMsg": "Not quite. Depression is an illness, not a weakness; telling someone to cheer up is unhelpful and untrue."
+        }
+      ]
+    },
+    {
+      "label": "How it feels",
+      "section": "Signs and effects",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>How depression can feel</h2><p>Depression affects how a person feels and thinks, often in ways that are not obvious from the outside. Someone may seem quiet or withdrawn, or may keep going while struggling inside. Knowing the emotional and mental signs helps you notice when something may be wrong.</p><ul><li><strong>Emotional signs:</strong> persistent sadness, hopelessness or emptiness.</li><li><strong>Loss of interest:</strong> no longer enjoying things they used to.</li><li><strong>Cognitive signs:</strong> trouble concentrating, remembering or deciding.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Emotional and cognitive signs</h2><p>Emotionally, a person with depression may feel <strong>sad</strong>, low or tearful much of the time, or may feel numb and empty. They may lose interest and pleasure in activities, hobbies or people they once enjoyed &mdash; often described as losing the spark in life. Feelings of <strong>hopelessness</strong>, worthlessness, guilt or irritability are common, and some people feel anxious or on edge.</p><p>Depression also affects thinking. A person may find it hard to <strong>concentrate</strong>, remember things or make even small decisions. They may be full of negative thoughts about themselves, the world and the future. These changes are part of the illness, not a true reflection of the person or their situation, even though they can feel very real to the person experiencing them.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a common emotional or cognitive sign of depression?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Persistent low mood, loss of interest in things once enjoyed, and difficulty concentrating or making decisions.", "correct": true, "feedback": "Correct. Lasting low mood, loss of pleasure and difficulty thinking clearly are common signs of depression." },
+            { "text": "Feeling more energetic and sociable than usual.", "correct": false, "feedback": "Depression more often brings low energy and withdrawal, not increased energy and sociability." },
+            { "text": "A short-lived bad mood that lifts within an hour.", "correct": false, "feedback": "A brief bad mood is ordinary. Depression is a lasting low mood that affects daily life." },
+            { "text": "Enjoying hobbies more than ever before.", "correct": false, "feedback": "Depression usually causes a loss of interest and pleasure in hobbies, not more enjoyment." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Physical and behaviour",
+      "section": "Signs and effects",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The physical side of depression</h2><p>Depression is not only about mood; it affects the body too. In fact, some people first notice physical changes rather than feeling sad. These physical and behavioural signs are important to recognise, because a person may not describe their feelings, but their body and habits may show that something is wrong.</p><ul><li><strong>Physical signs:</strong> tiredness, low energy, aches and pains.</li><li><strong>Sleep and appetite:</strong> changes in how a person sleeps and eats.</li><li><strong>Behavioural signs:</strong> withdrawing, doing less, neglecting tasks.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Physical and behavioural signs</h2><p>Physically, depression often brings <strong>tiredness</strong> and a lack of energy, so that everything feels like an effort. People may have disturbed <strong>sleep</strong> &mdash; struggling to fall asleep, waking in the night or very early, or sleeping far more than usual. <strong>Appetite</strong> often changes too, with some people eating little and losing weight, and others eating more for comfort. Unexplained aches, pains or a slowed-down feeling are also common.</p><p>Behaviour changes as well. A person may <strong>withdraw</strong> from friends, family and activities, stop answering the phone or door, or let go of things they usually keep on top of, such as housework, hobbies or personal care. Noticing these changes, and how they differ from what is usual for that person, is a valuable part of your role.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Depression can bring constant *tiredness*, disturbed *sleep* and a change in *appetite*. A person may *withdraw* from the people and activities they used to enjoy."
+        }
+      ]
+    },
+    {
+      "label": "Effect on daily life",
+      "section": "Signs and effects",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The effect on everyday life</h2><p>Depression can make ordinary daily life feel overwhelming. Tasks that were once simple &mdash; getting up, washing, dressing, cooking or going out &mdash; can take enormous effort or feel impossible. This is part of the illness, not laziness, and understanding it helps you offer the right kind of support.</p><ul><li><strong>Daily tasks:</strong> even simple activities can feel exhausting.</li><li><strong>Self-care:</strong> washing, dressing and eating may be neglected.</li><li><strong>Routine:</strong> sleep and mealtimes can become disrupted.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Appetite, sleep and self-care</h2><p>Because depression affects <strong>appetite</strong>, a person may skip meals, eat very little or lose interest in food, which can affect their physical health and energy. Disturbed <strong>sleep</strong> leaves people exhausted and can make low mood worse, creating a tiring cycle. When someone lacks the energy or motivation to look after themselves, their <strong>self-care</strong> may slip &mdash; they may not wash, change their clothes or keep their home as they usually would.</p><p>These changes matter because they affect health, dignity and wellbeing, and left unnoticed they can gradually worsen a person's physical health as well as their mood. Supporting someone gently with meals, rest and personal care, without taking over or making them feel judged, can make a real difference and helps them keep a sense of dignity. Offer choices, go at their pace, and always record and report the changes you notice, so the wider team can respond and the person can get the help they need.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Depression in older people",
+      "section": "Signs and effects",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Depression in older people</h2><p>Depression is not a normal or inevitable part of getting older, yet it is often missed in older people. Signs may be put down to ageing, physical illness or bereavement, or the person may not talk about their feelings and instead describe physical complaints. Being aware of this helps you notice depression that might otherwise be overlooked.</p><ul><li><strong>Not normal ageing:</strong> older people should not be expected to feel low.</li><li><strong>Often missed:</strong> signs can be mistaken for other things.</li><li><strong>Physical focus:</strong> some people describe aches rather than sadness.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Overlap with other conditions</h2><p>In older people, depression can overlap with, or be hidden by, other conditions. It can exist alongside long-term physical illness, pain or disability, and living with these can itself contribute to low mood. Depression can also be confused with <strong>dementia</strong>, because both can cause poor concentration, memory difficulties and withdrawal &mdash; and the two can occur together. It is not your job to tell them apart, but it is important to report the changes you see.</p><p>Some medicines and physical illnesses can also affect mood. Because of these overlaps, any concern that an older person may be depressed should be shared so that a professional can assess them properly. Depression is treatable at any age, so noticing and reporting it can greatly improve someone's quality of life.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement about depression in older people is correct?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Depression is not a normal part of ageing, is often missed, and can overlap with conditions such as dementia or physical illness.", "correct": true, "feedback": "Correct. Depression is not part of normal ageing, is easily missed, and can overlap with other conditions." },
+            { "text": "Depression is a natural part of growing old and does not need attention.", "correct": false, "feedback": "Depression is never just a normal part of ageing; it should always be taken seriously and reported." },
+            { "text": "Older people cannot be treated for depression, so there is no point reporting it.", "correct": false, "feedback": "Depression is treatable at any age, so reporting it can make a real difference to someone's life." },
+            { "text": "If an older person has memory problems, it is always dementia and never depression.", "correct": false, "feedback": "Memory and concentration problems can be caused by depression too, and the two can occur together." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Person-centred support",
+      "section": "Supporting someone",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred support</h2><p>Supporting someone with depression starts with seeing the whole person, not just their illness. Person-centred support means understanding what matters to that individual, respecting their choices, and working at their pace. There is no single right way to support everyone, so your care should fit the person in front of you.</p><ul><li><strong>The whole person:</strong> value who they are, not just their diagnosis.</li><li><strong>Their pace:</strong> small steps, without pressure.</li><li><strong>Their choices:</strong> support decisions rather than taking over.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Listening without judgement</h2><p>One of the most helpful things you can do is <strong>listen</strong>. Give the person time and your full attention, let them talk without rushing them, and try to understand how they feel without judging or trying to fix everything. You do not need to have all the answers or the perfect words &mdash; simply being present, patient and kind matters a great deal.</p><p>Avoid comments such as &lsquo;cheer up&rsquo; or &lsquo;others are worse off&rsquo;, which can make someone feel worse or ashamed. Instead, acknowledge their feelings, reassure them that depression is treatable and that help is available, and encourage them gently. Let them know they are not alone and that you will keep supporting them. Small gestures of warmth &mdash; a familiar face, a calm voice, unhurried time together &mdash; can matter more than finding the right words, and warm, non-judgemental listening helps a person feel safe enough to accept support.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "When supporting someone with depression, it helps to listen patiently and without judgement, rather than telling them to cheer up.",
+          "correct": true,
+          "correctMsg": "Correct. Warm, non-judgemental listening helps a person feel heard and safe, unlike being told to cheer up.",
+          "wrongMsg": "Not quite. Patient, non-judgemental listening is helpful; telling someone to cheer up tends to make them feel worse."
+        }
+      ]
+    },
+    {
+      "label": "Routine and connection",
+      "section": "Supporting someone",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Routine, activity and connection</h2><p>Depression can make people withdraw and do less, which often deepens low mood. Gently encouraging a familiar routine, some activity and a little social contact can help, as long as it is at the person's own pace and never forced. Small, achievable steps tend to work better than big changes.</p><ul><li><strong>Routine:</strong> regular sleep, meals and daily structure.</li><li><strong>Activity:</strong> gentle exercise and enjoyable things, in small steps.</li><li><strong>Connection:</strong> staying in touch with others to ease isolation.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The Five Ways to Wellbeing</h2><p>The <strong>Five Ways to Wellbeing</strong> are simple, evidence-based actions that can support mental health, and you can weave them gently into everyday support. They are:</p><ul><li><strong>Connect:</strong> spend time with other people.</li><li><strong>Be active:</strong> move in a way that suits the person.</li><li><strong>Take notice:</strong> pay attention to the present moment.</li><li><strong>Keep learning:</strong> try or rediscover an interest.</li><li><strong>Give:</strong> do something kind for others.</li></ul><p>These are not a cure, and you should always respect what the person feels able to do. Even a short walk, a chat over a cup of tea, or noticing something pleasant can lift a moment. Encourage, offer and invite, but never pressure, and always follow the person's care plan and wishes.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What are the Five Ways to Wellbeing?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Connect, be active, take notice, keep learning, and give.", "correct": true, "feedback": "Correct. These five simple actions can help support mental health and wellbeing." },
+            { "text": "Diagnose, prescribe, treat, discharge and review.", "correct": false, "feedback": "These are clinical tasks, not the Five Ways to Wellbeing, which are everyday supportive actions." },
+            { "text": "Sleep, eat, work, worry and rest.", "correct": false, "feedback": "Not quite. The Five Ways are connect, be active, take notice, keep learning and give." },
+            { "text": "Ignore, avoid, isolate, rush and criticise.", "correct": false, "feedback": "These would be unhelpful. The Five Ways are connect, be active, take notice, keep learning and give." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Choices and recording",
+      "section": "Supporting someone",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Respecting choices</h2><p>People have the right to make their own decisions about their lives and care, including when they are unwell. Someone with depression may decline activities, support or company, and it is important to respect this while continuing to offer, encourage and stay alongside them. Support should never become pressure.</p><ul><li><strong>Their decisions:</strong> respect the person's right to choose.</li><li><strong>Keep offering:</strong> stay warm and available, without forcing.</li><li><strong>Mental capacity:</strong> follow your training and the care plan.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Recording and reporting changes</h2><p>Because you see people regularly, you are well placed to notice changes over time &mdash; in mood, appetite, sleep, self-care, behaviour or the things a person says. <strong>Recording</strong> what you observe, clearly and factually, helps build a picture that others can act on. Note what you saw or heard, when, and anything the person told you, and avoid guessing at causes.</p><p>Just as important is <strong>reporting</strong> your concerns promptly to your manager, senior colleague or the relevant professional, in line with your service's procedures. If a person's mood is getting worse, or they say something that worries you, do not keep it to yourself. Clear records and prompt reporting help make sure the person gets the right help at the right time.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "You are well placed to *notice* changes in mood or behaviour. *Record* what you see clearly and factually, and *report* any concerns promptly to the right person."
+        }
+      ]
+    },
+    {
+      "label": "Risk of self-harm",
+      "section": "Risk and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising risk</h2><p>Some people with depression have thoughts of harming themselves or of not wanting to be alive. This is difficult to think about, but it is important to be aware of, because taking any sign seriously can save a life. You are not expected to assess risk yourself &mdash; your job is to notice, respond calmly and get help quickly.</p><ul><li><strong>Take seriously:</strong> never dismiss talk of self-harm or suicide.</li><li><strong>Warning signs:</strong> hopeless comments, giving things away, withdrawing.</li><li><strong>Act:</strong> escalate any concern urgently.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Responding to signs of self-harm or suicide</h2><p>Warning signs can include a person talking about feeling hopeless, being a burden, or not wanting to go on; saying goodbye or giving away belongings; withdrawing from everyone; or hurting themselves. Take any such sign <strong>seriously</strong>. If someone confides in you, stay calm, listen without judgement, and do not promise to keep it secret &mdash; be honest that you need to share it to keep them safe.</p><p>It is a myth that asking about suicide puts the idea in someone's head; talking openly can be a relief and can help. Any risk of self-harm or suicide must be <strong>escalated immediately</strong> to the right person, following your service's procedures. If someone is in immediate danger or has seriously harmed themselves, call <strong>999</strong>. Never leave someone you believe is at immediate risk alone.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you support says they feel hopeless and no longer want to be alive. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Stay calm, listen, take it seriously, do not promise secrecy, and escalate the concern immediately following your procedures.", "correct": true, "feedback": "Correct. Any risk of suicide must be taken seriously and escalated urgently to keep the person safe." },
+            { "text": "Promise to keep it a secret so they keep trusting you, and say nothing to anyone.", "correct": false, "feedback": "Never promise secrecy about risk to life. You must share it to keep the person safe." },
+            { "text": "Change the subject, as talking about it might give them ideas.", "correct": false, "feedback": "It is a myth that asking or talking about suicide plants the idea; talking openly can help. Escalate the concern." },
+            { "text": "Wait a few days to see whether they feel better before telling anyone.", "correct": false, "feedback": "Any risk of suicide must be escalated immediately, not left to see if it passes." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Getting help",
+      "section": "Risk and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Depression can be treated</h2><p>An encouraging fact to hold on to is that depression is treatable, and most people improve with the right support. Being aware of the main types of treatment helps you reassure people and encourage them towards help &mdash; though you do not provide treatment or advise on medication yourself.</p><ul><li><strong>Talking therapies:</strong> such as counselling or cognitive behavioural therapy.</li><li><strong>Medication:</strong> antidepressants prescribed by a doctor.</li><li><strong>Combined support:</strong> therapy &amp; medication together for some people.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Encouraging professional help</h2><p>Treatment depends on the person and how severe their depression is. <strong>Talking therapies</strong>, such as counselling or cognitive behavioural therapy (CBT), help people understand and change unhelpful patterns of thinking and behaviour. <strong>Antidepressant medication</strong>, prescribed and reviewed by a doctor, can help many people, and some benefit from a combination of therapy and medication. Self-help, activity and support all play a part too.</p><p>The usual first step is the <strong>GP</strong>, who can talk things through, arrange treatment or refer to mental health services. Encourage the people you support to speak to their GP, and offer practical help such as reminding them of an appointment or supporting them to attend, in line with the care plan. Reassure them that seeking help is a positive step and that depression can get better.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these are recognised treatments for depression?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Talking therapies such as CBT, antidepressant medication prescribed by a doctor, or a combination of both.", "correct": true, "feedback": "Correct. Talking therapies, medication, or both together are recognised treatments for depression." },
+            { "text": "Being told to pull yourself together and get on with it.", "correct": false, "feedback": "This is neither a treatment nor helpful. Talking therapies and medication are recognised treatments." },
+            { "text": "Avoiding the GP and hoping it passes on its own.", "correct": false, "feedback": "Depression should not be left untreated. The GP is usually the first step towards effective help." },
+            { "text": "Only expensive private treatments that most people cannot access.", "correct": false, "feedback": "Effective treatment is available through the GP and NHS services, not only privately." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your wellbeing",
+      "section": "Risk and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Looking after your own wellbeing</h2><p>Supporting people who are depressed or distressed can affect you too. It is normal to find some situations upsetting, and looking after your own mental health helps you keep caring well for others. Your wellbeing matters just as much as anyone else's.</p><ul><li><strong>Notice yourself:</strong> be aware of your own stress and mood.</li><li><strong>Talk:</strong> share how you feel with a manager or colleague.</li><li><strong>Seek support:</strong> use supervision, support lines or your own GP.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>Depression is a common and treatable illness, not a weakness. As a care worker you support, notice changes and escalate concerns &mdash; you do not diagnose or treat. By offering warm, person-centred, non-judgemental support, encouraging routine, activity and connection, respecting people's choices, and recording and reporting what you notice, you help people get the professional help they need. Remember to make use of support for yourself as well.</p><p>This has been an <strong>awareness and knowledge</strong> course. It does <strong>not</strong> replace professional mental health assessment and treatment, and you should always work within your role and your service's procedures. Above all, any risk of self-harm or suicide must be taken seriously and escalated urgently; if someone is in immediate danger, call <strong>999</strong>. Depression can get better, and the support you give truly makes a difference.</p>"
+        }
+      ]
+    }
+  ]
+}

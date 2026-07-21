@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication is a human right</h2><p>Communication is how we connect with others, express who we are, make choices, and stay safe. For the people you support, being understood is not a luxury &mdash; it is a fundamental human right. When someone cannot make their needs known, or cannot understand what is happening to them, their dignity, wellbeing, and safety are all put at risk.</p><ul><li><strong>Dignity:</strong> being heard and understood is central to being treated as a person.</li><li><strong>Choice:</strong> people can only make real decisions when information reaches them in a way they understand.</li><li><strong>Safety:</strong> a person who can report pain, worry, or a mistake is far safer.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1501a19c-7486-4240-9f11-7e1aa35b3901",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication and rights",
+          "decorative": false,
+          "file": {
+            "path": "images/communication-and-rights.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4dc9439b-6111-46f3-ba15-e1f5b8829d0a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>About this course</h2><p>This course builds on basic communication skills, but it focuses on supporting people who have additional communication needs. You will learn why communication support matters, how to recognise and reduce barriers, the tools and aids that help, and how to work in a person-centred way.</p><p><strong>Please note:</strong> this course provides awareness and knowledge only. It does not replace supervised, hands-on training, and it does not replace the assessment and advice of a qualified speech and language therapist (SALT). Always follow the person's care plan, and seek professional guidance for individual needs. If you are ever unsure how best to support someone, ask your manager or the person's speech and language therapist rather than guessing.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0ac6a104-950f-4206-b088-70582326ccc5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

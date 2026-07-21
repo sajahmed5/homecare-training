@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role in supporting communication</h2><p>As a care worker, your role is to <strong>support</strong> communication and to <strong>follow the plan</strong> that has been put in place for each person. You are with people day to day, so you are often the first to notice what helps, what frustrates, and what changes over time.</p><ul><li><strong>Support:</strong> use the person's preferred methods, and give them your time and attention.</li><li><strong>Follow the plan:</strong> apply the communication guidance recorded in the care plan consistently.</li><li><strong>Observe and report:</strong> notice and pass on what works and what does not.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0b47aeae-d870-43e5-84a0-2295d412279d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role and SALT",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-and-salt.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5e2cebc9-07a4-4bc1-8c41-067451b5c1bc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The role of the speech and language therapist</h2><p>A <strong>speech and language therapist (SALT)</strong> is a qualified professional who <strong>assesses</strong> a person's communication &mdash; and often their eating and swallowing &mdash; and <strong>advises</strong> on how best to support them. They may recommend particular tools, techniques, or aids, and they set out the approach that goes into the care plan.</p><p>The two roles work together: the SALT assesses and advises, and you carry out the agreed approach in daily life and feed back what you observe. You should never change a specialist plan on your own &mdash; if something is not working, report it so it can be reviewed. If you have any concern about a person's swallowing, seek professional advice promptly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8f8eed5-fd0d-4851-ad96-2f637dd953e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>As a care worker, it is your job to assess a person's communication needs and decide which specialist tools they should use.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Assessing and advising is the SALT's role. You support communication, follow the plan, and report back what works.",
+            "correctAnswerMessage": "Correct. Assessing needs and recommending tools is the role of the speech and language therapist. Your role is to support communication, follow the agreed plan, and report what you observe."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "3acc286b-5162-4b47-9dfa-8857da5ed0a2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Objects of reference</h2><p>An <strong>object of reference</strong> is a real object used to stand for an activity, person, or place. Showing someone their coat can mean &ldquo;we are going out&rdquo;; a cup can mean &ldquo;would you like a drink?&rdquo;. Objects are concrete and easy to understand, which makes them valuable for people who find pictures or words difficult, including some people with a learning disability or a sensory impairment.</p><ul><li><strong>Consistent:</strong> the same object should always mean the same thing.</li><li><strong>Meaningful:</strong> choose objects that connect naturally to the activity.</li><li><strong>Multi-sensory:</strong> an object can be seen, touched, and sometimes heard or smelled.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7fa04afa-7095-4dfc-aa47-de7e340a656e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Time and objects",
+          "decorative": false,
+          "file": {
+            "path": "images/time-and-objects.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2c6def64-718a-4c82-8ed0-5e3a6ed3a7b3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Giving people time</h2><p>One of the most powerful things you can offer is <strong>time</strong>. Many people need longer to process what you have said and to form a response &mdash; this is sometimes called processing time. Rushing a person, or answering for them, takes away their voice and can leave them anxious and unheard.</p><p>Ask one thing at a time, then pause and wait. Resist the urge to fill the silence or to guess. Give the person space to point, sign, reach for an object, or find their words. A few extra seconds of patience often makes the difference between a person communicating for themselves and being spoken for.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4acef6a0-ac7b-436e-b009-0f9fd3a8c1d6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support takes a long time to respond to questions. What is the most person-centred approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Ask one question at a time, then pause and give them plenty of time to respond in their own way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Giving processing time and asking one thing at a time lets the person communicate for themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Answer for them to save time and keep things moving.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Answering for someone takes away their voice and can leave them unheard.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask several questions quickly so they only need to respond once.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Multiple questions at once are harder to process. Ask one at a time and wait.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume no response means they have nothing to say and move on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A slow response is not no response. Give the person time and watch how they reply.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "dc73267f-8b76-43b7-89d8-d06a17f3fdfd",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "depression-awareness",
+  "title": "Depression Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What depression is"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p2",
+      "label": "Low mood or depression",
+      "questions": 1,
+      "section": "What depression is"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p3",
+      "label": "Illness not weakness",
+      "questions": 1,
+      "section": "What depression is"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p4",
+      "label": "How it feels",
+      "questions": 1,
+      "section": "Signs and effects"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p5",
+      "label": "Physical and behaviour",
+      "questions": 1,
+      "section": "Signs and effects"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p6",
+      "label": "Effect on daily life",
+      "questions": 0,
+      "section": "Signs and effects"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p7",
+      "label": "Depression in older people",
+      "questions": 1,
+      "section": "Signs and effects"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p8",
+      "label": "Person-centred support",
+      "questions": 1,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p9",
+      "label": "Routine and connection",
+      "questions": 1,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p10",
+      "label": "Choices and recording",
+      "questions": 1,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p11",
+      "label": "Risk of self-harm",
+      "questions": 1,
+      "section": "Risk and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p12",
+      "label": "Getting help",
+      "questions": 1,
+      "section": "Risk and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "depression-awareness/p13",
+      "label": "Your wellbeing",
+      "questions": 0,
+      "section": "Risk and getting help"
+    }
+  ]
+}

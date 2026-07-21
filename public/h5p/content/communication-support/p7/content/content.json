@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Easy read information</h2><p><strong>Easy read</strong> presents information using simple words and clear pictures side by side, so that written information is easier to understand. Each idea is kept short, the language is plain, and a relevant image sits next to the text to support its meaning. It is widely used to make letters, leaflets, and care information more accessible.</p><ul><li><strong>Plain words:</strong> short sentences and everyday language, one idea at a time.</li><li><strong>Pictures:</strong> images that illustrate and reinforce the meaning of the text.</li><li><strong>Clear layout:</strong> larger text and plenty of space make it easier to follow.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5c2a9edd-6371-4eaf-99c3-d0cdd1ac641b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Easy read",
+          "decorative": false,
+          "file": {
+            "path": "images/easy-read.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a5ee2523-8d70-444c-ba7b-c86ce29ca28c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using easy read well</h2><p>Easy read is not only a document to hand over &mdash; it is a tool to use together. Sit alongside the person, go through it at their pace, and talk about the pictures. This helps you check that the information has genuinely been understood, rather than assuming it has.</p><p>Remember that easy read suits many people but not everyone, and it is not a substitute for talking with someone. Some people will prefer photographs of their own life, others symbols, and others will need information spoken or signed. Always match the format to the individual, and offer support to understand it, not just to receive it. A well-made easy-read document can turn a confusing letter into something a person can genuinely take part in, but only if you take the time to read it through with them and answer their questions.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c63a3b6a-52ea-40b0-bc0a-ccdc137e8747",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

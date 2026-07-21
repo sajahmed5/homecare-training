@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Following the communication care plan</h2><p>Each person's care plan should include a <strong>communication section</strong> that sets out how they communicate and how you should support them. This might describe their preferred methods, the aids they use, words or signs that matter to them, and how they show yes, no, or distress. Following it consistently is at the heart of good, safe support.</p><ul><li><strong>Read it:</strong> know the communication plan before and while you support someone.</li><li><strong>Apply it consistently:</strong> everyone in the team should support the person the same way.</li><li><strong>Keep it current:</strong> flag anything that is out of date so it can be updated.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d4b8ad77-69ab-4793-809c-7d3046fb2bcd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Following the plan",
+          "decorative": false,
+          "file": {
+            "path": "images/following-the-plan.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4c910ca8-525d-4e82-b06c-92818eab5c99",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Checking understanding and adapting</h2><p>Do not assume a person has understood just because they nodded or said yes. Some people say yes to please, or to end a conversation. <strong>Check understanding</strong> gently &mdash; for example by asking the person to show you, or to tell you in their own way what will happen next &mdash; rather than asking closed questions that only need a yes.</p><p>Be ready to <strong>adapt your approach</strong>. If one method is not working, try another: add a picture, use an object, slow down, or find a quieter space. Communication can change from day to day, and with tiredness, illness, or mood, so stay flexible and keep watching how the person responds.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bac48e6e-1368-4ed4-94bc-ac5cc89328b5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You have explained an activity and the person nods and says yes. What is the best way to check they have understood?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Gently ask them to show you, or tell you in their own way, what will happen next.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. An open check like this confirms real understanding, rather than relying on a nod that may just be agreement to please.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Accept the nod as proof they have fully understood.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Some people say yes to please or to end the conversation, so check in an open way.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Repeat exactly the same words, only louder.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Volume does not aid understanding. Try a different approach, such as pictures or objects.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Move on quickly before they change their mind.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Rushing on risks the person not understanding what is happening to them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d37d3ae7-2c51-404b-a2fe-23df09a1a5ae",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

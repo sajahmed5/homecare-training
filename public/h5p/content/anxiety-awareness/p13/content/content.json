@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and escalating concerns</h2><p>Careful recording and timely reporting turn what you notice into support that reaches the person. Write down what you observe factually &mdash; what you saw or heard, when, and what helped &mdash; rather than your own interpretation. Share concerns through the right channels so the care plan stays current and professionals can act.</p><ul><li><strong>Record the facts:</strong> note changes in mood, behaviour, sleep or appetite clearly and without judgement.</li><li><strong>Report promptly:</strong> pass concerns to your senior, the nurse or the care plan.</li><li><strong>Escalate urgently when needed:</strong> any mention of self-harm or feeling unable to go on must be raised straight away.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "17e21245-3cb8-401a-aef7-0bfcb8fc12ed",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting help and recording",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-help-and-recording.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ef9bb388-c37b-4afe-8fc6-ccec1aefbda7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking after your own wellbeing</h2><p>Supporting people who are anxious or distressed can affect you too. Looking after your own mental wellbeing is not selfish &mdash; it keeps you able to care well for others. Use the same ideas you offer to others: stay connected, take breaks, and talk to someone you trust.</p><ul><li><strong>Notice your own signs:</strong> tiredness, tension or low mood are worth paying attention to.</li><li><strong>Seek support:</strong> talk to your manager, a colleague or your own GP if you are struggling.</li><li><strong>Use supervision:</strong> raise how you feel in supervision and team meetings.</li></ul><p>Just as anxiety is common among the people you support, it is common among those who care for them. Taking your own wellbeing seriously, and encouraging colleagues to do the same, helps build a kinder and more sustainable team around every person you care for.</p><p>This course has raised your awareness of anxiety and how to support people with warmth and respect. It is knowledge-level learning only. It does not replace supervised, hands-on training, and it is not a substitute for professional mental health assessment, diagnosis or treatment. Recognise, support and signpost &mdash; and encourage everyone to access their GP and mental health services, because anxiety is treatable and help works.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "94e3162f-af52-4603-85c3-709cf1af8775",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

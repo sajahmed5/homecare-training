@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hearing aids and glasses</h2><p>Sometimes the most important communication support is simply making sure a person's everyday aids are working and being used. Hearing aids and glasses are easy to overlook, yet without them a person may seem confused or unresponsive when in fact they simply cannot hear or see clearly.</p><ul><li><strong>Check daily:</strong> make sure hearing aids are switched on and have working batteries.</li><li><strong>Keep them clean:</strong> smeared glasses or a blocked hearing aid reduce their benefit.</li><li><strong>Encourage use:</strong> support the person to wear the aids they rely on.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11e2e8e7-81e0-4ab5-8380-36ffe45f0488",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Aids and interpreters",
+          "decorative": false,
+          "file": {
+            "path": "images/aids-and-interpreters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5b0717bf-ba95-4e36-8048-2d2eb50b724e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Interpreters</h2><p>Some people communicate best in a language other than English, or through <strong>British Sign Language (BSL)</strong>. In these situations a qualified <strong>interpreter</strong> may be needed, particularly for important conversations such as health appointments or decisions about care. Family members should not be relied on to interpret sensitive or complex information.</p><p>When you work with an interpreter, speak directly to the person, not to the interpreter, and use short, clear sentences with pauses. Look at and address the person themselves, keeping your attention on them. The interpreter conveys the words; the relationship and the respect still flow between you and the person you support. Allow extra time, as interpreting takes longer than an ordinary exchange, and check afterwards that the person feels their questions were answered.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8da977d1-3c25-4f13-ac28-f4a5285929d4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the passage about aids and interpreters.</p></p>",
+          "textField": "Always check that a person's hearing aids and *glasses* are clean and working, as without them someone may seem *confused* when they simply cannot hear or see. For important conversations, a qualified *interpreter* may be needed, and you should speak directly to the *person* rather than to the interpreter.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "8f798738-a6b3-442e-bfd0-7a3eb2a33aa1",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

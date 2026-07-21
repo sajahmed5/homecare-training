@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Accessible Information Standard</h2><p>The <strong>Accessible Information Standard</strong> applies to organisations that provide NHS or adult social care. It sets out that people who have information or communication needs relating to a disability, impairment, or sensory loss must have those needs met, so they can access services on an equal footing with everyone else.</p><ul><li><strong>Identify:</strong> find out what a person's information and communication needs are.</li><li><strong>Record:</strong> note those needs clearly in their records.</li><li><strong>Meet and share:</strong> act on the needs, and share them, with consent, so others can too.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad21d323-af71-4fb0-ba87-1cd4fa09c853",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Accessible Information Standard",
+          "decorative": false,
+          "file": {
+            "path": "images/accessible-information-standard.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7d1bfb65-e21f-45ca-a71a-2b9d40ca886a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working with families and the wider team</h2><p>Families, friends, and advocates often know a person's communication best, especially when the person cannot easily tell you themselves. With the person's consent, they can help you learn what someone's expressions and sounds mean, and what helps them feel at ease. Value this knowledge while keeping the person themselves at the centre.</p><p>Work closely with the <strong>speech and language therapist</strong> and the rest of the team. Follow the SALT's advice, report how well it is working, and raise any new concerns so plans can be reviewed. Good communication support is a shared effort, and your daily observations are an important part of it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "82b6f767-aa4c-40ae-93ae-b15f7101973f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does the Accessible Information Standard require of health and adult social care services?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To identify, record, meet, and share people's information and communication needs so they can access care equally.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The standard sets out these steps so that disability, impairment, or sensory loss does not prevent equal access to services.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To provide all information in easy read to absolutely everyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. It is about meeting each person's identified needs in the format that suits them, not one format for all.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To translate every document into every language automatically.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. It is about meeting individual, identified needs, which may or may not involve translation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It applies only to hospitals and not to social care.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. It applies across NHS and adult social care, including services like yours.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3295f90a-2a20-4f4e-b9eb-5463f5629da5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

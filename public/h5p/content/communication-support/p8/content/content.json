@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Makaton and signing</h2><p><strong>Makaton</strong> is a language programme that uses <strong>signs and symbols alongside speech</strong> to support communication. Unlike British Sign Language, which is a full language in its own right used mainly within the Deaf community, Makaton is used together with the spoken word to support understanding, often by people with a learning disability.</p><ul><li><strong>Signs with speech:</strong> you speak and sign the key words at the same time.</li><li><strong>Symbols:</strong> simple line drawings can be used in the same way in writing.</li><li><strong>Key words:</strong> you usually sign only the main words in a sentence.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "917bb171-6014-4ab3-83dd-2134f0e012eb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Signing and symbols",
+          "decorative": false,
+          "file": {
+            "path": "images/signing-and-symbols.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e22c15ec-d283-43a7-aa37-344b23995d3c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Picture boards and symbols</h2><p>Picture boards and symbol charts let a person communicate by pointing to images that represent objects, activities, feelings, or needs. They can be simple, such as a board showing food and drink choices, or more detailed. Symbols give people a reliable way to make choices and express themselves without relying on speech.</p><p>To use these tools well, keep them within the person's reach, learn what each symbol means to them, and give them time to point. Consistency matters: everyone in the team should use the same symbols in the same way. If you are supporting someone who uses Makaton or symbols, learn the signs and symbols they rely on so you can meet them halfway.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a456b0d0-48b2-4104-a818-8b6d002df0bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How is Makaton mainly used?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Signs and symbols are used at the same time as speech to support understanding.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Makaton uses signs and symbols alongside the spoken word, so speech and signing happen together.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It replaces speech completely and is used only within the Deaf community.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. That describes British Sign Language more closely. Makaton is used together with speech.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is a written code that only trained therapists can understand.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Makaton is designed to be widely used by families, carers, and people it supports.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is used silently, without any speaking.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. With Makaton you speak and sign the key words at the same time.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "224d8a4f-1d40-4627-93e7-48a14b160583",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

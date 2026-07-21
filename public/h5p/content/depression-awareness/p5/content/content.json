@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The physical side of depression</h2><p>Depression is not only about mood; it affects the body too. In fact, some people first notice physical changes rather than feeling sad. These physical and behavioural signs are important to recognise, because a person may not describe their feelings, but their body and habits may show that something is wrong.</p><ul><li><strong>Physical signs:</strong> tiredness, low energy, aches and pains.</li><li><strong>Sleep and appetite:</strong> changes in how a person sleeps and eats.</li><li><strong>Behavioural signs:</strong> withdrawing, doing less, neglecting tasks.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "04a1844e-7d6c-4b64-aa2e-ab4aa6c0fdbc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Physical and behaviour",
+          "decorative": false,
+          "file": {
+            "path": "images/physical-and-behaviour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e0ba6440-1c6d-4e7d-a710-4a4cf68fb4de",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical and behavioural signs</h2><p>Physically, depression often brings <strong>tiredness</strong> and a lack of energy, so that everything feels like an effort. People may have disturbed <strong>sleep</strong> &mdash; struggling to fall asleep, waking in the night or very early, or sleeping far more than usual. <strong>Appetite</strong> often changes too, with some people eating little and losing weight, and others eating more for comfort. Unexplained aches, pains or a slowed-down feeling are also common.</p><p>Behaviour changes as well. A person may <strong>withdraw</strong> from friends, family and activities, stop answering the phone or door, or let go of things they usually keep on top of, such as housework, hobbies or personal care. Noticing these changes, and how they differ from what is usual for that person, is a valuable part of your role.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7184df2f-4485-4dcf-b99f-f78530415542",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Depression can bring constant *tiredness*, disturbed *sleep* and a change in *appetite*. A person may *withdraw* from the people and activities they used to enjoy.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "418fa9e8-92ab-4dc3-ac1a-5997b826ab2b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

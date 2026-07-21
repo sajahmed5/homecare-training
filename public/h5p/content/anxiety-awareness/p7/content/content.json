@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>OCD at awareness level</h2><p>Obsessive-compulsive disorder (OCD) involves unwanted, distressing thoughts, known as obsessions, and repetitive actions, known as compulsions, that a person feels driven to carry out to ease the anxiety those thoughts cause &mdash; such as repeated checking, washing or counting. The relief is only brief, so the cycle repeats.</p><ul><li><strong>Obsessions:</strong> intrusive thoughts, images or urges that cause distress.</li><li><strong>Compulsions:</strong> repeated actions or rituals carried out to reduce that distress.</li><li><strong>A distressing cycle:</strong> the person often knows the ritual is excessive but feels unable to stop.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3d930ce7-c1d7-4a21-b143-452218cf95fc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for OCD and PTSD",
+          "decorative": false,
+          "file": {
+            "path": "images/ocd-and-ptsd.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f7d8b13d-43a5-4db5-97bc-53eed70f2621",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Post-traumatic stress</h2><p>Post-traumatic stress disorder (PTSD) can develop after a frightening or distressing event, such as an accident, an assault, serious illness or a wartime experience. A person may relive the event through flashbacks or nightmares, feel constantly on edge, and avoid reminders of what happened. Some of the people you support may carry trauma from many years ago.</p><p>You do not need to explore or treat these conditions. Approach the person with patience, avoid pushing them to talk about distressing memories, keep to reassuring routines, and report any signs of distress so professional support can be arranged.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8534d7a2-3e78-48e4-8c92-7f030b10b86c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is a care worker&rsquo;s job to encourage someone with PTSD to talk in detail about their traumatic memories so they can move on.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Encouraging someone to relive trauma can be harmful. Your role is calm support and signposting, not therapy.",
+            "correctAnswerMessage": "Correct. Pressing someone to relive trauma can cause harm. Offer patient reassurance and report concerns so trained professionals can help."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "6dba2a95-a8d1-4633-b06b-ad4c67c6a59c",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The effect on everyday life</h2><p>Depression can make ordinary daily life feel overwhelming. Tasks that were once simple &mdash; getting up, washing, dressing, cooking or going out &mdash; can take enormous effort or feel impossible. This is part of the illness, not laziness, and understanding it helps you offer the right kind of support.</p><ul><li><strong>Daily tasks:</strong> even simple activities can feel exhausting.</li><li><strong>Self-care:</strong> washing, dressing and eating may be neglected.</li><li><strong>Routine:</strong> sleep and mealtimes can become disrupted.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7dc108c3-e03c-4e7d-8349-760ba7245760",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Effect on daily life",
+          "decorative": false,
+          "file": {
+            "path": "images/effect-on-daily-life.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b6662b1e-7f42-44f6-9660-1a67ef648b4a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Appetite, sleep and self-care</h2><p>Because depression affects <strong>appetite</strong>, a person may skip meals, eat very little or lose interest in food, which can affect their physical health and energy. Disturbed <strong>sleep</strong> leaves people exhausted and can make low mood worse, creating a tiring cycle. When someone lacks the energy or motivation to look after themselves, their <strong>self-care</strong> may slip &mdash; they may not wash, change their clothes or keep their home as they usually would.</p><p>These changes matter because they affect health, dignity and wellbeing, and left unnoticed they can gradually worsen a person's physical health as well as their mood. Supporting someone gently with meals, rest and personal care, without taking over or making them feel judged, can make a real difference and helps them keep a sense of dignity. Offer choices, go at their pace, and always record and report the changes you notice, so the wider team can respond and the person can get the help they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3805a2cd-972e-4f0d-b9c3-bdc5cd55c9bf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

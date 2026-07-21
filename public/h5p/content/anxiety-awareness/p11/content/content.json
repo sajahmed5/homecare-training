@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Self-help and everyday wellbeing</h2><p>Alongside professional treatment, there is a great deal that supports good mental wellbeing day to day. Small, regular habits can help a person feel calmer and more in control. As a care worker, you can gently encourage and enable these, always at the person&rsquo;s pace and according to their wishes.</p><ul><li><strong>Keep active:</strong> gentle movement and fresh air can ease tension and lift mood.</li><li><strong>Stay connected:</strong> contact with family, friends and others reduces isolation.</li><li><strong>Rest and routine:</strong> good sleep, regular meals and predictable days all steady anxiety.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "773677ae-1aed-44bf-a014-f953ea2466d9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Self-help and wellbeing",
+          "decorative": false,
+          "file": {
+            "path": "images/self-help-and-wellbeing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "956016b6-02fb-48b8-a44f-868131ac662d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Five Ways to Wellbeing</h2><p>The Five Ways to Wellbeing are a well-known set of everyday actions that support mental health. You can weave them naturally into the support you already give.</p><ul><li><strong>Connect:</strong> encourage relationships and time with others.</li><li><strong>Be active:</strong> support movement suited to the person&rsquo;s ability.</li><li><strong>Take notice:</strong> help the person pay attention to the present and to simple pleasures.</li></ul><p>The remaining two are to <strong>keep learning</strong> &mdash; trying new or familiar activities &mdash; and to <strong>give</strong>, through small acts of kindness or helping others. Together these build a sense of purpose and connection.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d78eec16-7284-49f7-80b6-238966033464",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The Five Ways to Wellbeing include connecting with others, being active, taking notice, giving, and which of the following?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep learning &mdash; trying new or familiar activities that give a sense of achievement.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The fifth of the Five Ways is to keep learning, which builds confidence and a sense of purpose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoiding all contact with other people to reduce stress.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The opposite is true &mdash; connecting with others is one of the Five Ways. Isolation tends to worsen anxiety.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Taking prescription medication without medical advice.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Medication is only ever a matter for a professional, and never without advice. It is not one of the Five Ways.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Staying in bed as much as possible each day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Being active is one of the Five Ways. Gentle activity supports wellbeing far more than staying in bed.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f6d50bc9-0526-4cc2-a7c9-42a5279ab70f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

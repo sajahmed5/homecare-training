@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording what works</h2><p>Communication support only stays consistent if what works is written down and shared. When you discover something that helps a person &mdash; a sign they respond to, an object that reassures them, or the time of day they communicate best &mdash; record it clearly and factually so the whole team can benefit. Without this, useful knowledge stays in one worker's head, and the person has to keep starting again with each new face. Good records mean a person is understood consistently, whoever is on shift.</p><ul><li><strong>Be specific:</strong> describe what you did and how the person responded.</li><li><strong>Keep it current:</strong> update records as the person's needs change.</li><li><strong>Share it:</strong> make sure new information reaches the care plan and the team.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5eb65a5e-8aaf-4390-a6d8-aa078c97e8fe",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and summary",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fff3f2b0-18a5-4e41-a3fe-f6564d58db34",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Summary and important note</h2><p>You have learned why communication is a human right linked to dignity, choice, and safety; who may have additional communication needs; how to recognise barriers and use a total communication approach; the tools and aids available, from easy read and signing to communication passports and AAC; and how to work in a person-centred way. Throughout, remember your role: you support communication and follow the plan, while the speech and language therapist assesses and advises.</p><p><strong>Please note:</strong> this course has provided awareness and knowledge only. It does not replace supervised, hands-on training, nor the assessment and advice of a qualified speech and language therapist. Always follow each person's care plan, seek professional guidance for individual needs, and speak to your manager about further training.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a90da865-c4e0-4fc8-98a7-379e8df22530",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

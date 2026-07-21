@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Anorexia and bulimia</h2><p>In <strong>anorexia</strong>, a person severely limits what they eat, often alongside excessive exercise, because of an overwhelming fear of gaining weight and a distorted view of their body. They may see themselves as larger than they are, even when dangerously underweight. In <strong>bulimia</strong>, a person eats a large amount in a short time (a binge) and then tries to undo it &mdash; by vomiting, using laxatives, fasting or over-exercising &mdash; often trapped in a cycle they feel unable to break.</p><ul><li><strong>Anorexia:</strong> restriction, fear of weight gain, distorted body image.</li><li><strong>Bulimia:</strong> binge and purge cycles, often hidden and full of shame.</li><li><strong>Secrecy:</strong> both are frequently concealed from others.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e68d2990-c53c-4b77-9733-6dcdd3050b81",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising types",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-types.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "130dafd7-7498-4c24-a9bf-8da0e2d2d468",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Binge eating disorder</h2><p>In <strong>binge eating disorder</strong>, a person regularly eats very large amounts of food in one go, feeling a loss of control while doing so, and usually great distress, guilt or shame afterwards. Unlike bulimia, the binges are not followed by purging. It is the most common eating disorder, and it is a recognised mental illness &mdash; not simply overeating or a lack of willpower.</p><p>People with binge eating disorder often eat in secret and may be at any weight. As with every eating disorder, the behaviour is bound up with difficult emotions rather than with hunger or greed, so responding with understanding rather than judgement is essential.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f427aec3-b195-45cb-9eae-0ac6a4b886da",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is a key difference between bulimia and binge eating disorder?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>In bulimia, binges are followed by purging or compensating; in binge eating disorder, they usually are not.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Purging or compensating after a binge is a feature of bulimia, not of binge eating disorder.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Binge eating disorder only affects people who are overweight.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People with binge eating disorder can be at any weight.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Bulimia is not a real illness, but binge eating disorder is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Both are recognised, serious mental illnesses.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no difference; the two terms mean the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are distinct conditions, though both involve episodes of bingeing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "23baaa03-53e4-4516-bbff-a5a5337dac7f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

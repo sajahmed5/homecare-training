@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking after your own wellbeing</h2><p>Supporting people who are depressed or distressed can affect you too. It is normal to find some situations upsetting, and looking after your own mental health helps you keep caring well for others. Your wellbeing matters just as much as anyone else's.</p><ul><li><strong>Notice yourself:</strong> be aware of your own stress and mood.</li><li><strong>Talk:</strong> share how you feel with a manager or colleague.</li><li><strong>Seek support:</strong> use supervision, support lines or your own GP.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d1e733d9-b3cf-4d55-b98c-894a391ebbbd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your wellbeing",
+          "decorative": false,
+          "file": {
+            "path": "images/your-wellbeing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d89722e0-4077-42a8-8f59-abf43360fff8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Depression is a common and treatable illness, not a weakness. As a care worker you support, notice changes and escalate concerns &mdash; you do not diagnose or treat. By offering warm, person-centred, non-judgemental support, encouraging routine, activity and connection, respecting people's choices, and recording and reporting what you notice, you help people get the professional help they need. Remember to make use of support for yourself as well.</p><p>This has been an <strong>awareness and knowledge</strong> course. It does <strong>not</strong> replace professional mental health assessment and treatment, and you should always work within your role and your service's procedures. Above all, any risk of self-harm or suicide must be taken seriously and escalated urgently; if someone is in immediate danger, call <strong>999</strong>. Depression can get better, and the support you give truly makes a difference.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8ef2faf4-17d0-4eef-b5d5-ff788092b498",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

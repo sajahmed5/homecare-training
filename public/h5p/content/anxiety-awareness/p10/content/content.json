@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reducing triggers and respecting choices</h2><p>Anxiety is often set off by particular triggers &mdash; certain places, times of day, noise, crowds or unexpected changes to routine. Learning a person&rsquo;s triggers helps you reduce or prepare for them, easing anxiety before it builds. At the same time, you must respect the person&rsquo;s own choices about what feels safe, even where their decisions differ from what you might choose.</p><ul><li><strong>Know the triggers:</strong> notice and record what tends to set off anxiety.</li><li><strong>Prepare and adapt:</strong> give warning of changes and keep to reassuring routines.</li><li><strong>Respect choices:</strong> support the person&rsquo;s decisions and never force them into feared situations.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1e408ebd-9e15-4c21-845c-8284f5cbeafb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Triggers and health",
+          "decorative": false,
+          "file": {
+            "path": "images/triggers-and-health.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "743525cf-0dc5-46e8-ad03-60949edbda28",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The link with physical health</h2><p>Mind and body are closely connected. Anxiety can disturb sleep, appetite and energy, and it often occurs alongside physical illness or other conditions such as depression, dementia or long-term pain. A person who is unwell, in pain or newly diagnosed may become more anxious, and anxiety can in turn make physical symptoms feel worse.</p><p>Because of this overlap, always take physical health seriously too. Sudden anxiety or confusion can sometimes signal a physical problem such as an infection, so report changes so the person can be properly checked.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27cf1c07-9d4e-4ab0-936f-bc28bec96ac6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Learning what upsets a person helps you reduce their *triggers* before anxiety builds. Anxiety is closely linked with physical *health*, disturbing sleep and appetite, and it often overlaps with other long-term *conditions*. Whatever you notice, always respect the person&rsquo;s own *choices* about what feels safe.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "db072941-a1da-4fa8-98b4-ab0108c22d77",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

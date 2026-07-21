@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Generalised anxiety disorder</h2><p>Generalised anxiety disorder, or GAD, is ongoing anxiety that is not tied to one particular thing. A person feels worried and on edge about many different areas of life &mdash; health, money, family, small daily tasks &mdash; more days than not, over a long period. The worry feels hard to control and can be exhausting.</p><ul><li><strong>Widespread worry:</strong> anxiety spreads across many situations rather than just one.</li><li><strong>Persistent:</strong> the feelings continue over weeks and months, not just a bad day.</li><li><strong>Wearing:</strong> constant worry drains energy and disturbs sleep and concentration.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "82e2e2c5-5162-4ef3-91da-505fdf2ad2d2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Generalised anxiety",
+          "decorative": false,
+          "file": {
+            "path": "images/generalised-anxiety.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "af253126-50c5-40b3-ae34-b9385b36815c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How it might show</h2><p>Someone living with GAD may seek frequent reassurance, struggle to relax, or seem tense and irritable. They might imagine the worst outcome in ordinary situations, or avoid things in case something goes wrong. Physical signs such as headaches, tiredness and a churning stomach are common, because the body stays on alert.</p><p>You are not expected to label this as GAD. Simply notice the pattern &mdash; long-standing, wide-ranging worry that affects daily life &mdash; and treat it as a reason to offer support and encourage a conversation with the GP. Because the worry ranges so widely, it can be easy to take each concern at face value and try to solve them one by one. Recognising the underlying pattern helps you respond to the anxiety itself, with patience and steady reassurance, rather than chasing each individual worry.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "69d5262c-1ab2-42e1-a3c6-05cae4ad8242",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following best describes generalised anxiety disorder (GAD)?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Ongoing, hard-to-control worry that spreads across many areas of life over a long period.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. GAD is persistent, wide-ranging worry that is difficult to control and affects daily life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An intense fear of one specific object or situation, such as spiders or heights.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That describes a phobia. GAD is not focused on one thing but spreads across many worries.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A single panic attack that happens once and never returns.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "GAD is long-standing worry rather than a one-off event. Panic attacks are a separate feature of panic disorder.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Worry that lasts only a few minutes before a stressful event.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Brief, situation-linked worry is normal anxiety. GAD is persistent and continues over weeks and months.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5de5c2e5-3ed1-4a9a-b633-9f5dc8491c77",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

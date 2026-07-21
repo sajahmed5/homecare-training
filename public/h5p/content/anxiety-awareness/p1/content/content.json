@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What anxiety is</h2><p>Anxiety is a feeling of unease, worry or fear that everyone experiences from time to time. It is the body&rsquo;s natural response to a situation it senses as threatening &mdash; a hospital appointment, a money worry, or waiting for news. In small amounts anxiety can be useful, keeping you alert and helping you prepare, and it usually settles once the situation has passed.</p><ul><li><strong>A normal feeling:</strong> short-lived worry before a stressful event is part of everyday life.</li><li><strong>A physical response:</strong> the body readies itself for action, sometimes called the &ldquo;fight or flight&rdquo; response.</li><li><strong>Usually passes:</strong> ordinary anxiety eases once the cause is over.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d95a2bdb-5caf-439b-826f-5ff7d6bef99d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What anxiety is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-anxiety-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "48a0ae46-35ec-44b2-b414-d2917e1559bc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When worry becomes a disorder</h2><p>For some people anxiety does not settle. It becomes an anxiety disorder when the feelings are strong, last for weeks or months, feel out of proportion to the situation, and begin to interfere with everyday life, relationships or sleep. Anxiety disorders are among the most common mental health conditions, and importantly they are treatable &mdash; with the right support, most people improve.</p><p>This course raises your awareness so you can recognise anxiety, offer kind support and signpost people towards help. It is knowledge-level learning only. It does not replace supervised, hands-on training, and it is never a substitute for professional mental health assessment, diagnosis or treatment. You support and signpost &mdash; you do not diagnose or treat.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f7721432-6d68-4912-abd7-b9bfbd04f03f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

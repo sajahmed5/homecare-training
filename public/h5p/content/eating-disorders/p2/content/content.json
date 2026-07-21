@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Serious mental illnesses</h2><p>An eating disorder is a mental illness, not a lifestyle choice, a diet that went too far or a bid for attention. It is not about vanity, and a person cannot simply decide to stop. Eating behaviours &mdash; restricting food, bingeing, purging or exercising to excess &mdash; are usually a way of coping with difficult thoughts and feelings that feel out of control. Understanding this helps you respond with compassion rather than frustration.</p><ul><li><strong>Not a choice:</strong> no one chooses to have an eating disorder.</li><li><strong>Not vanity:</strong> it is a serious illness of the mind, not fussiness.</li><li><strong>A way of coping:</strong> food behaviours often mask deeper distress.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "64cbc992-3e0c-4e47-b605-9463477645ff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Not a choice",
+          "decorative": false,
+          "file": {
+            "path": "images/not-a-choice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8675fb09-335b-4dec-b73f-c17b48e3abff",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Complex causes</h2><p>There is no single cause of an eating disorder. Research points to a mix of factors &mdash; genetic and biological make-up, psychological traits such as anxiety or perfectionism, and social pressures &mdash; that combine differently in each person. Difficult life events, trauma, bullying or major change can all play a part.</p><p>Because the causes are complex, it is never helpful to look for someone to blame, least of all the person themselves or their family. What matters for you is not working out why, but recognising that the person is unwell and needs understanding and professional support. Treating an eating disorder as a moral failing or a bad habit only adds shame, and shame keeps people from asking for the help that could turn things around.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "01a646be-5953-426f-aea3-d72b413c155c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes what an eating disorder is?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A serious mental illness, often a way of coping with distress, that a person cannot simply choose to stop.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Eating disorders are recognised mental illnesses, not choices, and they call for compassion and professional help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A lifestyle choice that the person could change if they really wanted to.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No one chooses to have an eating disorder, and a person cannot simply decide to stop.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A form of vanity about appearance that is not really an illness.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Eating disorders are not about vanity &mdash; they are serious illnesses of the mind.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Just fussy eating that people grow out of on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These are serious illnesses that need proper support, not a phase people grow out of.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "821712e9-e6d9-4b6d-b3d5-7fd4228f987d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "eating-disorders",
+  "courseTitle": "Eating Disorders Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What eating disorders are",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome</h2><p>Welcome to <strong>Eating Disorders Awareness</strong>. Eating disorders are serious mental illnesses that affect how a person thinks and feels about food, eating, their body and themselves. They are more common than many people realise, and the people you support &mdash; or their families &mdash; may be living with one. As a care worker, you are often close enough to notice when something is not right.</p><ul><li><strong>Serious:</strong> these are recognised mental illnesses, not fads or phases.</li><li><strong>Treatable:</strong> with the right help, people can and do recover.</li><li><strong>Your role:</strong> to notice, support kindly and pass concerns on.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn what eating disorders are, the main types and the signs that someone may be struggling, the serious effects they can have on body and mind, and how to offer kind, person-centred support while encouraging professional help. Throughout, the message is a hopeful one: eating disorders are treatable, and the sooner someone gets specialist help, the better their chances of recovery.</p><p>This course raises <strong>awareness</strong> and builds knowledge only. It does not qualify you to diagnose, assess or treat an eating disorder, and it does not replace supervised training or the professional assessment and treatment that a GP and specialist services provide. Your part is to notice, support and escalate &mdash; and to remember that getting professional help early genuinely matters.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Not a choice",
+      "section": "What eating disorders are",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Serious mental illnesses</h2><p>An eating disorder is a mental illness, not a lifestyle choice, a diet that went too far or a bid for attention. It is not about vanity, and a person cannot simply decide to stop. Eating behaviours &mdash; restricting food, bingeing, purging or exercising to excess &mdash; are usually a way of coping with difficult thoughts and feelings that feel out of control. Understanding this helps you respond with compassion rather than frustration.</p><ul><li><strong>Not a choice:</strong> no one chooses to have an eating disorder.</li><li><strong>Not vanity:</strong> it is a serious illness of the mind, not fussiness.</li><li><strong>A way of coping:</strong> food behaviours often mask deeper distress.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Complex causes</h2><p>There is no single cause of an eating disorder. Research points to a mix of factors &mdash; genetic and biological make-up, psychological traits such as anxiety or perfectionism, and social pressures &mdash; that combine differently in each person. Difficult life events, trauma, bullying or major change can all play a part.</p><p>Because the causes are complex, it is never helpful to look for someone to blame, least of all the person themselves or their family. What matters for you is not working out why, but recognising that the person is unwell and needs understanding and professional support. Treating an eating disorder as a moral failing or a bad habit only adds shame, and shame keeps people from asking for the help that could turn things around.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement best describes what an eating disorder is?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A serious mental illness, often a way of coping with distress, that a person cannot simply choose to stop.", "correct": true, "feedback": "Yes. Eating disorders are recognised mental illnesses, not choices, and they call for compassion and professional help." },
+            { "text": "A lifestyle choice that the person could change if they really wanted to.", "correct": false, "feedback": "No one chooses to have an eating disorder, and a person cannot simply decide to stop." },
+            { "text": "A form of vanity about appearance that is not really an illness.", "correct": false, "feedback": "Eating disorders are not about vanity &mdash; they are serious illnesses of the mind." },
+            { "text": "Just fussy eating that people grow out of on their own.", "correct": false, "feedback": "These are serious illnesses that need proper support, not a phase people grow out of." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Anyone affected",
+      "section": "What eating disorders are",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>It can affect anyone</h2><p>Eating disorders do not fit one picture. They affect people of every age, gender, ethnicity, body shape and background &mdash; children, older adults, men and women alike. The common belief that they only affect young, thin women is a harmful myth that leaves many people unrecognised and undiagnosed. Someone in a larger body, an older man or a person from any community can be seriously unwell.</p><ul><li><strong>Any age:</strong> from childhood through to later life.</li><li><strong>Any gender:</strong> men and boys are affected too, and often overlooked.</li><li><strong>Any body:</strong> you cannot tell by looking at someone.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your supportive role</h2><p>You are not expected to diagnose an eating disorder or to be an expert &mdash; that is the job of GPs and specialist eating disorder services. Your role is a supportive one: to build a trusting relationship, to notice changes in the people you support, to offer kind and consistent care, and to raise concerns with the right person so that professional help can follow.</p><p>Because eating disorders can affect anyone, it is worth staying alert with everyone in your care rather than only those who match a stereotype. Noticing early and speaking up is one of the most valuable things you can do, and it costs nothing to treat every person with the same open, non-judgemental attention.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Eating disorders only affect young women, so you do not need to consider them in older people or in men.",
+          "correct": false,
+          "correctMsg": "Correct. Eating disorders affect people of any age, gender and background &mdash; assuming otherwise leaves many people unrecognised.",
+          "wrongMsg": "Not quite. Eating disorders can affect anyone, including men and older people. That belief is a harmful myth."
+        }
+      ]
+    },
+    {
+      "label": "Types overview",
+      "section": "Types and signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The main types</h2><p>There are several recognised eating disorders, and a person's difficulties may not fit neatly into one box. You do not need to work out which type someone has &mdash; that is for professionals &mdash; but a basic awareness helps you understand what you might see and why it matters.</p><ul><li><strong>Anorexia:</strong> restricting food, with an intense fear of weight gain.</li><li><strong>Bulimia:</strong> cycles of bingeing and then purging or compensating.</li><li><strong>Binge eating disorder:</strong> regular episodes of eating large amounts, with a loss of control.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>OSFED and ARFID</h2><p>Two further terms are worth knowing. <strong>OSFED</strong> stands for Other Specified Feeding or Eating Disorder. It is used when someone has a serious eating disorder whose symptoms do not exactly match anorexia, bulimia or binge eating disorder. OSFED is common and just as serious &mdash; it is not a milder or lesser problem.</p><p><strong>ARFID</strong> stands for Avoidant or Restrictive Food Intake Disorder. Unlike the others, it is not driven by concerns about weight or body shape. A person with ARFID may avoid food because of its taste, smell or texture, because they have little interest in eating, or because they fear choking or being sick. ARFID can affect people of any age and can seriously harm health if it is not addressed.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Recognising types",
+      "section": "Types and signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Anorexia and bulimia</h2><p>In <strong>anorexia</strong>, a person severely limits what they eat, often alongside excessive exercise, because of an overwhelming fear of gaining weight and a distorted view of their body. They may see themselves as larger than they are, even when dangerously underweight. In <strong>bulimia</strong>, a person eats a large amount in a short time (a binge) and then tries to undo it &mdash; by vomiting, using laxatives, fasting or over-exercising &mdash; often trapped in a cycle they feel unable to break.</p><ul><li><strong>Anorexia:</strong> restriction, fear of weight gain, distorted body image.</li><li><strong>Bulimia:</strong> binge and purge cycles, often hidden and full of shame.</li><li><strong>Secrecy:</strong> both are frequently concealed from others.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Binge eating disorder</h2><p>In <strong>binge eating disorder</strong>, a person regularly eats very large amounts of food in one go, feeling a loss of control while doing so, and usually great distress, guilt or shame afterwards. Unlike bulimia, the binges are not followed by purging. It is the most common eating disorder, and it is a recognised mental illness &mdash; not simply overeating or a lack of willpower.</p><p>People with binge eating disorder often eat in secret and may be at any weight. As with every eating disorder, the behaviour is bound up with difficult emotions rather than with hunger or greed, so responding with understanding rather than judgement is essential.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is a key difference between bulimia and binge eating disorder?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "In bulimia, binges are followed by purging or compensating; in binge eating disorder, they usually are not.", "correct": true, "feedback": "Correct. Purging or compensating after a binge is a feature of bulimia, not of binge eating disorder." },
+            { "text": "Binge eating disorder only affects people who are overweight.", "correct": false, "feedback": "People with binge eating disorder can be at any weight." },
+            { "text": "Bulimia is not a real illness, but binge eating disorder is.", "correct": false, "feedback": "Both are recognised, serious mental illnesses." },
+            { "text": "There is no difference; the two terms mean the same thing.", "correct": false, "feedback": "They are distinct conditions, though both involve episodes of bingeing." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Warning signs",
+      "section": "Types and signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Behavioural signs</h2><p>Eating disorders are often hidden, so changes in behaviour are frequently the first clue. You might notice someone becoming secretive around food, avoiding meals or eating with others, or developing strict rules and rituals such as cutting food into tiny pieces or only eating certain things.</p><ul><li><strong>Around food:</strong> skipping meals, dieting, secrecy or unusual rituals.</li><li><strong>Around others:</strong> withdrawing socially, especially from shared meals.</li><li><strong>Other habits:</strong> excessive exercise, or frequent trips to the toilet after eating.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Physical and emotional signs</h2><p>Physical signs can include weight changes (up, down, or none at all), feeling cold, tiredness, dizziness, hair thinning, or problems with teeth and a sore throat from vomiting. Emotional and psychological signs are just as telling: low mood, anxiety, irritability, a preoccupation with food, weight or body shape, and low self-esteem.</p><p>No single sign proves that someone has an eating disorder, and many signs overlap with other conditions. What matters is noticing a pattern, or a change from how the person usually is, and reporting what you have seen so that someone qualified can look into it. You are gathering observations, not making a diagnosis.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Eating disorders are often *hidden*, so a *change* in someone's usual behaviour is often the first clue. Your job is to *notice* and report what you see, not to *diagnose* the person yourself."
+        }
+      ]
+    },
+    {
+      "label": "Common myths",
+      "section": "Types and signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Common myths</h2><p>Myths about eating disorders stop people being recognised and getting help. Challenging them in your own thinking helps you support people better. One of the most damaging myths is that you can tell whether someone has an eating disorder just by looking at them &mdash; in reality, most people with an eating disorder are not visibly underweight.</p><ul><li><strong>Not visible:</strong> you usually cannot tell someone has an eating disorder by looking.</li><li><strong>Not a phase:</strong> it is a serious illness, not a diet or a passing phase.</li><li><strong>Not only girls:</strong> people of any age and gender are affected.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why myths are harmful</h2><p>When we believe that eating disorders are about vanity, willpower or attention-seeking, we are less likely to take them seriously or to offer help. When we believe someone has to look severely underweight to be ill, we miss the many people who are a normal weight or larger and just as unwell. Men, older people and those from minority communities are especially likely to be overlooked because they do not fit the stereotype.</p><p>Letting go of these myths means treating any concern seriously, whoever the person is and whatever they weigh. It also means understanding that recovery is possible &mdash; another myth is that eating disorders are lifelong and untreatable, when in fact many people make a full recovery with the right support.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is the belief that you can always tell an eating disorder just by looking at someone so harmful?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Most people with an eating disorder are not visibly underweight, so the belief causes many to be missed and left without help.", "correct": true, "feedback": "Yes. Relying on appearance means people who do not look ill are overlooked and left without support." },
+            { "text": "Because people with eating disorders are always overweight.", "correct": false, "feedback": "People with eating disorders can be at any weight; there is no single appearance." },
+            { "text": "Because only a doctor is allowed to look at someone.", "correct": false, "feedback": "The problem is that weight is not a reliable guide, not who is doing the looking." },
+            { "text": "It is not harmful; weight is a reliable guide to how ill someone is.", "correct": false, "feedback": "Weight is not a reliable guide &mdash; someone can be very unwell at any weight." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Effects on the body",
+      "section": "Effects and risks",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Effects on the body</h2><p>Eating disorders take a heavy toll on physical health. Whatever the type, the body can be starved of the energy and nutrients it needs, or damaged by repeated purging, and almost every system can be affected. Many of these effects are hidden and build up over time, which is why an eating disorder can be dangerous even when a person looks well.</p><ul><li><strong>Heart:</strong> the heart can be weakened and its rhythm disturbed.</li><li><strong>Body systems:</strong> bones, muscles, digestion, fertility and the immune system can all suffer.</li><li><strong>Chemistry:</strong> the balance of salts in the blood can become dangerously upset.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why they can be life-threatening</h2><p>Some effects are immediately dangerous. Restriction and purging can upset the balance of essential salts, such as potassium, in the blood, which can disturb the heart's rhythm and, in the worst cases, cause it to stop. Eating disorders carry one of the highest risks to life of any mental illness, both from these physical complications and, tragically, from suicide.</p><p>You do not need to understand the medicine in detail. What you must hold on to is that eating disorders are genuinely life-threatening illnesses, that a person can deteriorate quickly, and that any sign of physical distress &mdash; fainting, chest pain, severe weakness or a sudden change &mdash; needs urgent medical help, following your organisation's procedures.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Unwell at any weight",
+      "section": "Effects and risks",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Very unwell at any weight</h2><p>It is a dangerous mistake to judge how ill someone is by their weight. A person can be seriously, even critically, unwell with an eating disorder while being a normal weight or above. The physical dangers come from what is happening inside the body &mdash; starvation, purging, disturbed blood chemistry &mdash; and these can be present whatever the number on the scales.</p><ul><li><strong>Not the scales:</strong> weight is not a reliable measure of danger.</li><li><strong>Inside matters:</strong> serious harm can be happening out of sight.</li><li><strong>Take it seriously:</strong> never wait for someone to look ill.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Do not rely on weight</h2><p>National guidance for professionals is clear that a single measure such as body weight should not be used on its own to decide how serious someone's eating disorder is, or whether they need help. Someone who does not look underweight can still be in real danger, and rapid weight loss can be as concerning as a low weight itself.</p><p>For you, this means never reassuring yourself that a person must be fine because of how they look, and never letting anyone's appearance stop you from taking a concern seriously. If you are worried, report it &mdash; the professionals will make the assessment. Trusting your observation of the whole person, rather than their size, is what keeps people safe.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "A person can be seriously unwell with an eating disorder even if they are a normal weight or above.",
+          "correct": true,
+          "correctMsg": "Correct. Serious harm can be happening inside the body at any weight, so appearance is never a safe guide.",
+          "wrongMsg": "Not quite. Weight is not a reliable measure &mdash; someone can be critically unwell at any weight."
+        }
+      ]
+    },
+    {
+      "label": "Effects on the mind",
+      "section": "Effects and risks",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The psychological impact</h2><p>Eating disorders are exhausting to live with. The illness can dominate a person's every waking thought, filling the mind with rules and fears about food, eating and their body. This leaves little room for anything else and can be deeply isolating, cutting people off from friends, family and the things they once enjoyed.</p><ul><li><strong>Preoccupation:</strong> thoughts about food and weight can take over.</li><li><strong>Low mood:</strong> anxiety, depression and shame are common companions.</li><li><strong>Isolation:</strong> people often withdraw and hide their struggle.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Shame, secrecy and hope</h2><p>Many people feel deep shame about their eating disorder and go to great lengths to hide it. They may deny there is a problem, resist help, or feel that they do not deserve to recover. This is part of the illness, not stubbornness, and it means your patience and warmth matter enormously.</p><p>It is vital to hold on to hope. Eating disorders are treatable, and with specialist help many people recover fully and go on to live well. The distress you see is real, but it is not permanent. By staying kind, consistent and non-judgemental, and by helping the person towards professional support, you play a genuine part in that recovery.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "An eating disorder can fill a person's *mind* with fears about food and cause deep *shame*, which often leads them to *hide* their struggle. Holding on to *hope* matters, because eating disorders are *treatable*."
+        }
+      ]
+    },
+    {
+      "label": "Supporting someone",
+      "section": "Supporting someone and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Kind, person-centred support</h2><p>Supporting someone with an eating disorder starts with the person, not the illness. Treat them with the same respect, warmth and interest you would want for yourself, and remember there is far more to them than their eating disorder. A trusting, non-judgemental relationship is the foundation that makes everything else possible.</p><ul><li><strong>Be patient:</strong> recovery is rarely quick or straightforward.</li><li><strong>Be non-judgemental:</strong> never blame, shame or lecture.</li><li><strong>Listen:</strong> let the person feel heard and understood.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What not to say</h2><p>Well-meant comments can do harm. Try to avoid remarks about a person's weight, size or appearance &mdash; even ones intended as praise, such as saying someone looks well &mdash; because these can feed the illness or cause distress. Avoid comments about how much or how little someone is eating, and steer clear of talking about diets, calories or your own eating in front of them.</p><p>Instead, show that you care about the person rather than the food. Listen without judgement, take their feelings seriously, and let them know that help is available and that recovery is possible. If you are unsure what to say, it is fine to be honest and gentle: simply showing that you have noticed and that you care can mean a great deal.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is the best approach when supporting someone with an eating disorder?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Be patient and non-judgemental, and avoid comments about their weight, appearance or how much they are eating.", "correct": true, "feedback": "Yes. Patience, warmth and avoiding remarks about weight or food help the person feel safe and supported." },
+            { "text": "Praise them for looking healthier so they feel encouraged.", "correct": false, "feedback": "Comments about appearance, even kindly meant, can feed the illness or cause distress." },
+            { "text": "Remind them regularly how much or how little they have eaten.", "correct": false, "feedback": "Drawing attention to how much someone eats tends to increase anxiety and shame." },
+            { "text": "Encourage them to try a new diet to feel more in control.", "correct": false, "feedback": "Encouraging dieting can be harmful; the person needs professional support, not a new diet." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Getting help",
+      "section": "Supporting someone and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Support at mealtimes</h2><p>Mealtimes can be very hard for someone with an eating disorder, stirring up anxiety and fear. Follow the person's <strong>care plan</strong>, which may set out exactly how to offer food and drink and how much support the person needs. Keep the atmosphere calm and unhurried, avoid drawing attention to what or how much someone eats, and offer gentle, steady encouragement without pressure or force.</p><ul><li><strong>Follow the plan:</strong> the care plan guides how to support each person.</li><li><strong>Stay calm:</strong> keep mealtimes relaxed and free of pressure.</li><li><strong>No force:</strong> encourage gently; never force or coerce.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Encouraging professional help early</h2><p>The single most important thing you can do is help the person towards professional support, and the earlier the better. Getting specialist help early gives the best chance of a full recovery, so concerns should never be left to see if they pass. The usual route is the person's <strong>GP</strong>, who can assess them and refer them to specialist eating disorder services.</p><p>You can gently encourage someone to see their GP and offer to support them in taking that step. You can also point people and their families towards <strong>Beat</strong>, the UK's eating disorder charity, which runs a helpline and offers information and support. Encouraging that first step, without pushing, can be the moment things begin to change.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is it important to encourage someone to seek professional help as early as possible?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Early specialist help gives the best chance of a full recovery, so concerns should not be left to see if they pass.", "correct": true, "feedback": "Correct. The sooner someone reaches specialist help, the better their chances of recovery." },
+            { "text": "Because eating disorders always get better on their own if you wait.", "correct": false, "feedback": "Eating disorders rarely improve without help, and waiting can allow harm to build." },
+            { "text": "Because you are expected to treat the eating disorder yourself first.", "correct": false, "feedback": "Treatment is for GPs and specialist services, not for care workers." },
+            { "text": "Because there is nothing that professionals can do once someone is ill.", "correct": false, "feedback": "Eating disorders are treatable, and specialist services can do a great deal to help." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Escalate and self-care",
+      "section": "Supporting someone and getting help",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Escalating your concerns</h2><p>You are not expected to manage an eating disorder alone. When you notice worrying signs, record what you have seen factually and report it to your senior or manager, following your organisation's procedures, so the right professionals can become involved. If someone is in immediate physical danger &mdash; for example, collapsing, chest pain or severe weakness &mdash; seek urgent medical help straight away.</p><ul><li><strong>Record:</strong> note what you have actually observed, clearly and factually.</li><li><strong>Report:</strong> pass concerns to a senior or manager promptly.</li><li><strong>Urgent help:</strong> act at once if someone is physically unsafe.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Looking after yourself</h2><p>Supporting someone with a serious illness can affect you too. It is normal to feel worried, helpless or upset at times. Look after your own wellbeing: talk things through in supervision, use any support your employer offers, and share the load with your team rather than carrying it alone. Caring for yourself helps you keep caring well for others.</p><p>Remember that this course has raised <strong>awareness</strong> and built knowledge only. It does not qualify you to diagnose, assess or treat an eating disorder, and it does not replace supervised training or the professional assessment and treatment provided by a GP and specialist services. Your part &mdash; noticing, supporting kindly and escalating early &mdash; matters, because getting professional help early gives people the best chance of recovery.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You are worried that someone you support may have an eating disorder. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Record what you have observed and report your concerns to a senior or manager so professional help can be arranged.", "correct": true, "feedback": "Correct. Recording clearly and reporting promptly gets the person the professional help they need." },
+            { "text": "Keep it to yourself until you are completely sure.", "correct": false, "feedback": "Waiting until you are certain can delay help. Report concerns early so someone can assess the person." },
+            { "text": "Tell the person you think they have an eating disorder and start treating it.", "correct": false, "feedback": "Diagnosis and treatment are for professionals, not care workers." },
+            { "text": "Wait several weeks to see whether the problem goes away by itself.", "correct": false, "feedback": "Eating disorders rarely resolve on their own, and delay can allow serious harm." }
+          ]
+        }
+      ]
+    }
+  ]
+}

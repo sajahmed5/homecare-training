@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your supportive role</h2><p>Supporting someone with anxiety does not mean having clinical answers. Your role is to be a calm, reliable and compassionate presence &mdash; to recognise when someone is struggling, respond with warmth, and help them reach the right professional support. You are not there to diagnose the type of anxiety or to provide therapy.</p><ul><li><strong>Recognise:</strong> notice signs and changes in how a person seems from day to day.</li><li><strong>Respond:</strong> stay calm, listen, and offer reassurance without judgement.</li><li><strong>Signpost and report:</strong> encourage professional help and pass concerns on through the right channels.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0492fb31-9069-4f8f-b30c-3de40d766f13",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your supportive role",
+          "decorative": false,
+          "file": {
+            "path": "images/your-supportive-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c1f45c82-fe20-4569-a277-2b4e1e032ca9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying within your limits</h2><p>Knowing the boundaries of your role protects both you and the person you support. Anxiety disorders are health conditions that qualified professionals assess and treat. If you try to counsel someone or explain away their fears, you may unintentionally cause harm or miss something serious.</p><ul><li><strong>Do not diagnose:</strong> avoid telling someone which condition they have.</li><li><strong>Do not treat:</strong> leave therapy and medication decisions to professionals.</li><li><strong>Do share concerns:</strong> anyone talking about self-harm or feeling unable to cope should always be escalated promptly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "af80467d-1394-4f59-ad23-af9830bd09f8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care worker&rsquo;s role in anxiety is to recognise, support and signpost, rather than to diagnose or provide treatment.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. Your role is to recognise, support and signpost &mdash; not to diagnose or treat.",
+            "correctAnswerMessage": "Correct. You recognise, support and signpost. Diagnosis and treatment are for qualified professionals."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b2bbde1e-3084-4fa3-99d6-9fb29efbccf0",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

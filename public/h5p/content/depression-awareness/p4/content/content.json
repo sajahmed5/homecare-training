@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How depression can feel</h2><p>Depression affects how a person feels and thinks, often in ways that are not obvious from the outside. Someone may seem quiet or withdrawn, or may keep going while struggling inside. Knowing the emotional and mental signs helps you notice when something may be wrong.</p><ul><li><strong>Emotional signs:</strong> persistent sadness, hopelessness or emptiness.</li><li><strong>Loss of interest:</strong> no longer enjoying things they used to.</li><li><strong>Cognitive signs:</strong> trouble concentrating, remembering or deciding.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e9f2e4e4-ecfa-45af-8d54-c6cb04122ff7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for How it feels",
+          "decorative": false,
+          "file": {
+            "path": "images/how-it-feels.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f3ff526b-45c6-44fc-8a90-368ad5d10c4d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Emotional and cognitive signs</h2><p>Emotionally, a person with depression may feel <strong>sad</strong>, low or tearful much of the time, or may feel numb and empty. They may lose interest and pleasure in activities, hobbies or people they once enjoyed &mdash; often described as losing the spark in life. Feelings of <strong>hopelessness</strong>, worthlessness, guilt or irritability are common, and some people feel anxious or on edge.</p><p>Depression also affects thinking. A person may find it hard to <strong>concentrate</strong>, remember things or make even small decisions. They may be full of negative thoughts about themselves, the world and the future. These changes are part of the illness, not a true reflection of the person or their situation, even though they can feel very real to the person experiencing them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4457cc2f-07bb-41b0-82d4-43298ffb0368",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a common emotional or cognitive sign of depression?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Persistent low mood, loss of interest in things once enjoyed, and difficulty concentrating or making decisions.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Lasting low mood, loss of pleasure and difficulty thinking clearly are common signs of depression.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Feeling more energetic and sociable than usual.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression more often brings low energy and withdrawal, not increased energy and sociability.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A short-lived bad mood that lifts within an hour.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A brief bad mood is ordinary. Depression is a lasting low mood that affects daily life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Enjoying hobbies more than ever before.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression usually causes a loss of interest and pleasure in hobbies, not more enjoyment.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "08da1e5d-924c-4a93-b1e5-136975e240c5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

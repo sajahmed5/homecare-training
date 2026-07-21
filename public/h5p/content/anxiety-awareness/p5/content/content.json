@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Panic disorder and panic attacks</h2><p>A panic attack is a sudden rush of intense fear and uncomfortable physical sensations that builds quickly and usually peaks within minutes. It can feel frightening and overwhelming &mdash; some people fear they are having a heart attack or losing control &mdash; but a panic attack is not dangerous and the feelings do pass. Panic disorder is when someone has repeated panic attacks and worries about having more.</p><ul><li><strong>Sudden and intense:</strong> fear rises rapidly, often without an obvious trigger.</li><li><strong>Physical symptoms:</strong> a racing heart, shortness of breath, dizziness, sweating or shaking.</li><li><strong>Frightening but not harmful:</strong> the sensations feel alarming yet cause no physical harm.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "99a7a572-061c-4da7-803f-faecb7ebae33",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Panic and panic attacks",
+          "decorative": false,
+          "file": {
+            "path": "images/panic-and-panic-attacks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "77360f54-a0f7-4406-b681-e77d54d23973",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The cycle of panic</h2><p>Panic attacks can lead to a fear of the fear itself. After a frightening episode, a person may begin to dread the next one and avoid places where an attack happened before. Over time this avoidance can narrow their life and, for some, lead to a fear of leaving home. Understanding this cycle helps you offer calm, patient reassurance rather than adding to the alarm.</p><p>Knowing that the physical sensations, though intense, are not a sign of physical danger allows you to stay steady and help the person feel safe. Your calm confidence is reassuring in itself, showing the person that what is happening is understood and will pass. In between attacks, a person may live with a background sense of dread, so a warm, predictable relationship with you can offer real comfort.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "949ca48e-b76f-4da1-a469-27555d4a5f02",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A sudden rush of intense fear that peaks within minutes is called a *panic* attack. During one, a person may feel their *heart* racing and become short of *breath*, and may fear something terrible is happening. These sensations feel alarming but are not *dangerous* and will pass.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "41f1a314-f6b3-403e-b185-0735444fc40c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

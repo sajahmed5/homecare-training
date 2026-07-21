@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Routine, activity and connection</h2><p>Depression can make people withdraw and do less, which often deepens low mood. Gently encouraging a familiar routine, some activity and a little social contact can help, as long as it is at the person's own pace and never forced. Small, achievable steps tend to work better than big changes.</p><ul><li><strong>Routine:</strong> regular sleep, meals and daily structure.</li><li><strong>Activity:</strong> gentle exercise and enjoyable things, in small steps.</li><li><strong>Connection:</strong> staying in touch with others to ease isolation.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2611e38f-dcf9-445a-ae7d-0af057e7c226",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Routine and connection",
+          "decorative": false,
+          "file": {
+            "path": "images/routine-and-connection.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e9b8f103-ae6d-42ba-a68e-41974b72df1f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Five Ways to Wellbeing</h2><p>The <strong>Five Ways to Wellbeing</strong> are simple, evidence-based actions that can support mental health, and you can weave them gently into everyday support. They are:</p><ul><li><strong>Connect:</strong> spend time with other people.</li><li><strong>Be active:</strong> move in a way that suits the person.</li><li><strong>Take notice:</strong> pay attention to the present moment.</li><li><strong>Keep learning:</strong> try or rediscover an interest.</li><li><strong>Give:</strong> do something kind for others.</li></ul><p>These are not a cure, and you should always respect what the person feels able to do. Even a short walk, a chat over a cup of tea, or noticing something pleasant can lift a moment. Encourage, offer and invite, but never pressure, and always follow the person's care plan and wishes.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "36780e0f-1a67-4cff-b15e-04113e03771c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What are the Five Ways to Wellbeing?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Connect, be active, take notice, keep learning, and give.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These five simple actions can help support mental health and wellbeing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Diagnose, prescribe, treat, discharge and review.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These are clinical tasks, not the Five Ways to Wellbeing, which are everyday supportive actions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Sleep, eat, work, worry and rest.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. The Five Ways are connect, be active, take notice, keep learning and give.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore, avoid, isolate, rush and criticise.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These would be unhelpful. The Five Ways are connect, be active, take notice, keep learning and give.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "352d9f65-1022-4da3-9d96-6bc7eb1963cb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

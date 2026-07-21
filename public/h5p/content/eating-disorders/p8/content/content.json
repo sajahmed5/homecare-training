@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Effects on the body</h2><p>Eating disorders take a heavy toll on physical health. Whatever the type, the body can be starved of the energy and nutrients it needs, or damaged by repeated purging, and almost every system can be affected. Many of these effects are hidden and build up over time, which is why an eating disorder can be dangerous even when a person looks well.</p><ul><li><strong>Heart:</strong> the heart can be weakened and its rhythm disturbed.</li><li><strong>Body systems:</strong> bones, muscles, digestion, fertility and the immune system can all suffer.</li><li><strong>Chemistry:</strong> the balance of salts in the blood can become dangerously upset.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44af7252-d03b-4065-b6ea-54437ddd14f1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Effects on the body",
+          "decorative": false,
+          "file": {
+            "path": "images/effects-on-the-body.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cf8a3c54-2eb4-4141-849f-fbb2060657b9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why they can be life-threatening</h2><p>Some effects are immediately dangerous. Restriction and purging can upset the balance of essential salts, such as potassium, in the blood, which can disturb the heart's rhythm and, in the worst cases, cause it to stop. Eating disorders carry one of the highest risks to life of any mental illness, both from these physical complications and, tragically, from suicide.</p><p>You do not need to understand the medicine in detail. What you must hold on to is that eating disorders are genuinely life-threatening illnesses, that a person can deteriorate quickly, and that any sign of physical distress &mdash; fainting, chest pain, severe weakness or a sudden change &mdash; needs urgent medical help, following your organisation's procedures.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b0fbf837-9855-4c4c-8aee-7d5dc79672f5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

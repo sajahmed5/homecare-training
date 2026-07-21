@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Phobias</h2><p>A phobia is an intense, overwhelming fear of a particular object, situation or activity that is out of proportion to any real danger. Common examples include heights, enclosed spaces, needles or animals. A person will often go to great lengths to avoid what they fear, which can interfere with everyday life &mdash; for example, avoiding a medical appointment because of a fear of needles.</p><ul><li><strong>Focused fear:</strong> the anxiety centres on one specific thing.</li><li><strong>Out of proportion:</strong> the fear is far greater than the actual risk.</li><li><strong>Avoidance:</strong> the person arranges life around avoiding the trigger.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "00aa7acb-37a7-461f-ae4a-ff9ae1008732",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Phobias and social anxiety",
+          "decorative": false,
+          "file": {
+            "path": "images/phobias-and-social-anxiety.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cfd760da-98e8-40f2-85ca-853b09877b84",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Social anxiety</h2><p>Social anxiety disorder is a lasting and overwhelming fear of social situations, and it is much more than shyness. A person may dread everyday interactions such as eating in front of others, making phone calls or joining group activities, fearing they will be judged, embarrassed or humiliated. They may worry for days beforehand and replay the event afterwards.</p><p>For the people you support, social anxiety can lead to isolation and missed chances for connection. Gentle encouragement, respecting the person&rsquo;s pace, and never pushing or embarrassing them are all ways you can help them feel safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67901dea-0403-40fc-80c2-122ed995d3a0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support refuses to join the day centre, saying they are terrified of being judged and humiliated in front of the group. This is most consistent with:</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Social anxiety &mdash; an overwhelming fear of social situations, rather than simple shyness.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A lasting, overwhelming fear of being judged in social situations points to social anxiety.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A specific phobia of an object such as needles or heights.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A phobia centres on a specific object or situation. Here the fear is of being judged by others.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ordinary shyness that needs no understanding or support.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Social anxiety is far more than shyness and can cause real distress and isolation. It deserves support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deliberate refusal that is best ignored.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is genuine fear, not defiance. The person needs patience, reassurance and support at their own pace.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1c23016b-ed07-4021-98c3-b6b9e2e8c493",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising risk</h2><p>Some people with depression have thoughts of harming themselves or of not wanting to be alive. This is difficult to think about, but it is important to be aware of, because taking any sign seriously can save a life. You are not expected to assess risk yourself &mdash; your job is to notice, respond calmly and get help quickly.</p><ul><li><strong>Take seriously:</strong> never dismiss talk of self-harm or suicide.</li><li><strong>Warning signs:</strong> hopeless comments, giving things away, withdrawing.</li><li><strong>Act:</strong> escalate any concern urgently.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7076a847-796b-44ca-a296-f2d1f4ee9938",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Risk of self-harm",
+          "decorative": false,
+          "file": {
+            "path": "images/risk-of-self-harm.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3ef50333-ea47-43d0-a420-28553bc3845d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Responding to signs of self-harm or suicide</h2><p>Warning signs can include a person talking about feeling hopeless, being a burden, or not wanting to go on; saying goodbye or giving away belongings; withdrawing from everyone; or hurting themselves. Take any such sign <strong>seriously</strong>. If someone confides in you, stay calm, listen without judgement, and do not promise to keep it secret &mdash; be honest that you need to share it to keep them safe.</p><p>It is a myth that asking about suicide puts the idea in someone's head; talking openly can be a relief and can help. Any risk of self-harm or suicide must be <strong>escalated immediately</strong> to the right person, following your service's procedures. If someone is in immediate danger or has seriously harmed themselves, call <strong>999</strong>. Never leave someone you believe is at immediate risk alone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "15d59635-0d5f-431d-9d03-de12bb8e41e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support says they feel hopeless and no longer want to be alive. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stay calm, listen, take it seriously, do not promise secrecy, and escalate the concern immediately following your procedures.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Any risk of suicide must be taken seriously and escalated urgently to keep the person safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Promise to keep it a secret so they keep trusting you, and say nothing to anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never promise secrecy about risk to life. You must share it to keep the person safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Change the subject, as talking about it might give them ideas.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is a myth that asking or talking about suicide plants the idea; talking openly can help. Escalate the concern.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few days to see whether they feel better before telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Any risk of suicide must be escalated immediately, not left to see if it passes.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a37bd089-b350-438e-b3f9-978a50f3ceac",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

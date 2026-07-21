@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Anxiety is common</h2><p>Anxiety disorders affect a great many people across the UK and can begin at any age. The people you support are no exception. Those living with long-term illness, in pain, or coping with loss or trauma may be especially vulnerable, yet anxiety can affect anyone. Knowing how common it is helps you respond with understanding rather than surprise.</p><ul><li><strong>Anyone can be affected:</strong> anxiety does not depend on age, background or circumstances.</li><li><strong>Often hidden:</strong> people may feel ashamed and hide how much they are struggling.</li><li><strong>Frequently overlooked:</strong> signs can be mistaken for physical illness or simply &ldquo;being a worrier&rdquo;.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bea7b04f-cb2e-4ed2-9b64-42cb39c6fead",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for How common it is",
+          "decorative": false,
+          "file": {
+            "path": "images/how-common-it-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "49f3af33-1afd-4631-9164-7940a77d994f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why awareness matters</h2><p>Because anxiety is so common and so easily missed, your awareness makes a real difference. You often spend more time with a person than any other worker, so you are well placed to notice when something changes. Someone who becomes withdrawn, restless or reluctant to leave their room may be struggling with anxiety they cannot easily put into words.</p><p>Left unrecognised, anxiety can shrink a person&rsquo;s world, keeping them from activities, friendships and appointments they value. When you notice it early and encourage the right support, you help protect their independence, dignity and quality of life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "72959ecc-574c-4f55-847a-2602742aac0c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best reflects an accurate, awareness-level understanding of anxiety among the people you support?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Anxiety is common, can affect anyone, and is often hidden or mistaken for something else.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Anxiety is widespread and easily overlooked, which is exactly why your awareness matters.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Anxiety only affects people who already have a formal mental health diagnosis.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not so. Anxiety can affect anyone, whether or not they have ever seen a professional about it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Older people cannot develop anxiety because it only affects younger adults.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Anxiety can begin at any age. Older people and those with long-term illness may be especially vulnerable.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>If someone hides their anxiety well, there is no need to report a concern.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People often hide distress. If you notice signs, it is still worth recording and reporting your concern.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "153a13ce-a977-4f89-978c-cd821910f829",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

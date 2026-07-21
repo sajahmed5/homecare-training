@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Support at mealtimes</h2><p>Mealtimes can be very hard for someone with an eating disorder, stirring up anxiety and fear. Follow the person's <strong>care plan</strong>, which may set out exactly how to offer food and drink and how much support the person needs. Keep the atmosphere calm and unhurried, avoid drawing attention to what or how much someone eats, and offer gentle, steady encouragement without pressure or force.</p><ul><li><strong>Follow the plan:</strong> the care plan guides how to support each person.</li><li><strong>Stay calm:</strong> keep mealtimes relaxed and free of pressure.</li><li><strong>No force:</strong> encourage gently; never force or coerce.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6b5ab36b-4341-4607-9078-1c4dddc7532a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting help",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-help.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f5bdbe6b-e4f9-421f-9cc4-04f581d1745c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Encouraging professional help early</h2><p>The single most important thing you can do is help the person towards professional support, and the earlier the better. Getting specialist help early gives the best chance of a full recovery, so concerns should never be left to see if they pass. The usual route is the person's <strong>GP</strong>, who can assess them and refer them to specialist eating disorder services.</p><p>You can gently encourage someone to see their GP and offer to support them in taking that step. You can also point people and their families towards <strong>Beat</strong>, the UK's eating disorder charity, which runs a helpline and offers information and support. Encouraging that first step, without pushing, can be the moment things begin to change.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2318661f-8d62-4b4d-9bcf-1e705f9ec566",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is it important to encourage someone to seek professional help as early as possible?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Early specialist help gives the best chance of a full recovery, so concerns should not be left to see if they pass.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The sooner someone reaches specialist help, the better their chances of recovery.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because eating disorders always get better on their own if you wait.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Eating disorders rarely improve without help, and waiting can allow harm to build.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because you are expected to treat the eating disorder yourself first.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Treatment is for GPs and specialist services, not for care workers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because there is nothing that professionals can do once someone is ill.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Eating disorders are treatable, and specialist services can do a great deal to help.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "eab83462-6f8f-4afb-ae1d-3503a86c89ae",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

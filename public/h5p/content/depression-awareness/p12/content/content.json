@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Depression can be treated</h2><p>An encouraging fact to hold on to is that depression is treatable, and most people improve with the right support. Being aware of the main types of treatment helps you reassure people and encourage them towards help &mdash; though you do not provide treatment or advise on medication yourself.</p><ul><li><strong>Talking therapies:</strong> such as counselling or cognitive behavioural therapy.</li><li><strong>Medication:</strong> antidepressants prescribed by a doctor.</li><li><strong>Combined support:</strong> therapy &amp; medication together for some people.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eb2455d1-9fb3-465e-b526-06aa9cbe363b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting help",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-help.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6e4657c9-92d5-4b8b-a8cf-5dc69e9701ee",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Encouraging professional help</h2><p>Treatment depends on the person and how severe their depression is. <strong>Talking therapies</strong>, such as counselling or cognitive behavioural therapy (CBT), help people understand and change unhelpful patterns of thinking and behaviour. <strong>Antidepressant medication</strong>, prescribed and reviewed by a doctor, can help many people, and some benefit from a combination of therapy and medication. Self-help, activity and support all play a part too.</p><p>The usual first step is the <strong>GP</strong>, who can talk things through, arrange treatment or refer to mental health services. Encourage the people you support to speak to their GP, and offer practical help such as reminding them of an appointment or supporting them to attend, in line with the care plan. Reassure them that seeking help is a positive step and that depression can get better.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9dfa4932-bd7e-4c00-bfd8-c73c9ee277de",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these are recognised treatments for depression?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Talking therapies such as CBT, antidepressant medication prescribed by a doctor, or a combination of both.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Talking therapies, medication, or both together are recognised treatments for depression.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Being told to pull yourself together and get on with it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is neither a treatment nor helpful. Talking therapies and medication are recognised treatments.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoiding the GP and hoping it passes on its own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression should not be left untreated. The GP is usually the first step towards effective help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only expensive private treatments that most people cannot access.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Effective treatment is available through the GP and NHS services, not only privately.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d8970034-3423-41e0-9e8e-a327b7baba33",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

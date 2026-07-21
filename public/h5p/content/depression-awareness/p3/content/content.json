@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>An illness, not a weakness</h2><p>People sometimes believe that depression is a sign of weakness, or that someone should be able to &lsquo;snap out of it&rsquo; or &lsquo;pull themselves together&rsquo;. This is not true, and such comments can leave a person feeling ashamed or misunderstood. Depression is a genuine illness that affects the mind and body, and it is not something a person chooses or can simply switch off.</p><ul><li><strong>Not a choice:</strong> people cannot simply will depression away.</li><li><strong>Real illness:</strong> it affects both mind &amp; body.</li><li><strong>Stigma harms:</strong> unhelpful comments add to a person's distress.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c44d0408-881d-45be-a383-9d7d5cdedf2c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Illness not weakness",
+          "decorative": false,
+          "file": {
+            "path": "images/illness-not-weakness.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9ab5d100-e47e-4f19-84b3-966f95387aec",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your supportive role</h2><p>Depression can have many causes, and often there is no single reason. It may be linked to difficult life events such as bereavement, illness, isolation or money worries, to physical health problems, or to changes in the brain and body; sometimes it appears for no clear reason at all. Understanding this helps you respond with compassion rather than judgement.</p><p>Your role is to <strong>support, notice and report</strong>, not to diagnose or treat. By being kind, patient and observant, encouraging someone gently, and passing on your concerns to the right people, you help make sure they get the professional help they need. You are part of a wider team around the person, alongside their family, GP and mental health services, and your everyday observations are genuinely important because you often spot changes before anyone else does.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a784c214-d78b-44eb-9ae8-a27abcff8fd1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Depression is a sign of weakness, and most people could overcome it simply by trying harder to cheer up.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Depression is an illness, not a weakness; telling someone to cheer up is unhelpful and untrue.",
+            "correctAnswerMessage": "Correct. Depression is a genuine illness, not a weakness, and people cannot simply will it away."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "abb12297-8c18-4cb0-b48d-50f41c0bf019",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

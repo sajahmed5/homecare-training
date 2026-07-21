@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication passports</h2><p>A <strong>communication passport</strong> is a personal document that describes how someone communicates. It is written with the person and gathers, in one place, the practical knowledge that helps others communicate with them well &mdash; especially people who do not know them.</p><ul><li><strong>How I communicate:</strong> the words, signs, sounds, and gestures I use.</li><li><strong>How to support me:</strong> what helps me to understand and to be understood.</li><li><strong>What my responses mean:</strong> how I show yes, no, pain, or distress.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "34dafcea-fe37-40a3-b2e4-e394940335e1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Passports and AAC",
+          "decorative": false,
+          "file": {
+            "path": "images/passports-and-aac.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b137fee3-13da-4ef7-9200-a80bf9baaf84",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Augmentative and alternative communication (AAC)</h2><p><strong>Augmentative and alternative communication (AAC)</strong> is the term for methods that add to or replace speech. It ranges from <strong>low-tech</strong> tools, such as communication books and symbol boards, to <strong>high-tech</strong> AAC devices &mdash; electronic aids and apps that speak aloud when the person selects words, symbols, or letters, sometimes controlled by touch or eye gaze.</p><p>An AAC device is a person's voice, so treat it with the same respect. Keep it charged, clean, and always within reach, and never move it away or speak for the person. Give people time to build their message, and wait for them to finish. A speech and language therapist sets up AAC; your job is to make sure it is available and to support its use every day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "42c5e23c-e0bb-4446-bf67-76a0d2f10a01",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is fine to move a person's AAC device out of the way when you are busy, as long as you give it back later.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. An AAC device is the person's voice and should always stay within reach, so they can communicate whenever they need to.",
+            "correctAnswerMessage": "Correct. An AAC device is the person's voice and must always be within their reach. Moving it away, even briefly, takes away their ability to communicate."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7629e0bd-ff0d-4db2-abff-ce4902e1bd27",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

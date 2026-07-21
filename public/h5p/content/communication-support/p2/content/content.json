@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who may have additional communication needs</h2><p>Many people you support may have communication needs that go beyond everyday conversation. These needs can be lifelong or acquired, permanent or temporary, and they vary enormously from one person to the next. What matters is finding out about the individual in front of you.</p><ul><li><strong>Lifelong:</strong> people with a learning disability or autistic people may communicate differently from birth.</li><li><strong>Acquired:</strong> a stroke, brain injury, or progressive illness can change how someone communicates.</li><li><strong>Sensory and physical:</strong> hearing loss, sight loss, or physical conditions can affect speech and understanding.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c52fadbe-c8e0-4824-ac4b-2affc3fc7286",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who needs support",
+          "decorative": false,
+          "file": {
+            "path": "images/who-needs-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "782aaf81-3ed6-4f46-b92b-b5d671bf3cfb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Some common examples</h2><p>A person with a <strong>learning disability</strong> may need shorter sentences, pictures, or extra time. An <strong>autistic</strong> person may take language literally and find busy environments overwhelming. Someone living with <strong>dementia</strong> may struggle to find words or follow a long conversation. After a <strong>stroke</strong>, a person may have <strong>aphasia</strong> &mdash; difficulty using or understanding language &mdash; even though their intelligence is unchanged.</p><p><strong>Sensory loss</strong>, such as being deaf, hard of hearing, or blind, affects how information is sent and received. <strong>Physical conditions</strong> affecting the muscles used for speech, such as cerebral palsy or motor neurone disease, can make speech hard to produce. Never assume that difficulty speaking means difficulty thinking.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "405fcca8-5829-4050-af18-b63152d0fd9f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about additional communication needs is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Communication needs vary from person to person and can be lifelong or acquired, permanent or temporary.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Needs differ for every individual, so you find out what each person needs rather than making assumptions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only people with a learning disability have additional communication needs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Additional needs can arise from stroke, dementia, sensory loss, physical conditions, and much more.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>If a person cannot speak clearly, it means they cannot understand or think clearly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Many people who find speech difficult understand perfectly well. Never assume difficulty speaking means difficulty thinking.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Communication needs are always permanent and never change.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Needs can be temporary or change over time, for example after a stroke or with tiredness or illness.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f51ff0a6-9712-42c9-a84b-45efe02e2ab2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -141,6 +141,34 @@ const NEW_COURSES = [
     description:
       "Understanding epilepsy, giving safe seizure first aid and recognising emergencies. Awareness only; rescue medication is given only with specific training, competence and an individual protocol.",
   },
+  {
+    slug: "anxiety-awareness",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Awareness of anxiety and anxiety disorders — the signs, supporting someone (including through a panic attack) and encouraging help. Awareness only; it does not replace professional mental health assessment or treatment.",
+  },
+  {
+    slug: "depression-awareness",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Awareness of depression — recognising the signs, supporting someone and responding to risk. Awareness only; any risk of self-harm or suicide must be escalated urgently, and it does not replace professional treatment.",
+  },
+  {
+    slug: "eating-disorders",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Awareness of eating disorders — types, warning signs, myths and how to support someone with dignity. Awareness only; early professional help matters and this does not replace assessment or treatment.",
+  },
+  {
+    slug: "communication-support",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Supporting people with additional communication needs — barriers, total communication, tools and aids, and person-centred practice. Awareness only; speech and language therapists assess and advise.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

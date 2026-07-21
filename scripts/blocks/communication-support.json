@@ -1,0 +1,97 @@
+{
+  "slug": "communication-support",
+  "title": "Supporting Communication Needs",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "communication-support/p1",
+      "label": "Communication and rights",
+      "questions": 0,
+      "section": "Why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p2",
+      "label": "Who needs support",
+      "questions": 1,
+      "section": "Why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p3",
+      "label": "Your role and SALT",
+      "questions": 1,
+      "section": "Why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p4",
+      "label": "Recognising barriers",
+      "questions": 1,
+      "section": "Barriers and total communication"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p5",
+      "label": "Total communication",
+      "questions": 1,
+      "section": "Barriers and total communication"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p6",
+      "label": "Time and objects",
+      "questions": 1,
+      "section": "Barriers and total communication"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p7",
+      "label": "Easy read",
+      "questions": 0,
+      "section": "Tools and aids"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p8",
+      "label": "Signing and symbols",
+      "questions": 1,
+      "section": "Tools and aids"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p9",
+      "label": "Passports and AAC",
+      "questions": 1,
+      "section": "Tools and aids"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p10",
+      "label": "Aids and interpreters",
+      "questions": 1,
+      "section": "Tools and aids"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p11",
+      "label": "Following the plan",
+      "questions": 1,
+      "section": "Person-centred practice"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p12",
+      "label": "Accessible Information Standard",
+      "questions": 1,
+      "section": "Person-centred practice"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-support/p13",
+      "label": "Recording and summary",
+      "questions": 0,
+      "section": "Person-centred practice"
+    }
+  ]
+}

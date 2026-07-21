@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred support</h2><p>Supporting someone with depression starts with seeing the whole person, not just their illness. Person-centred support means understanding what matters to that individual, respecting their choices, and working at their pace. There is no single right way to support everyone, so your care should fit the person in front of you.</p><ul><li><strong>The whole person:</strong> value who they are, not just their diagnosis.</li><li><strong>Their pace:</strong> small steps, without pressure.</li><li><strong>Their choices:</strong> support decisions rather than taking over.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9baaa7cf-dffc-4fe7-b64c-e17ac3120795",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Person-centred support",
+          "decorative": false,
+          "file": {
+            "path": "images/person-centred-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "85f2eba0-eec9-4bf9-9c4e-50abe6fdc371",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Listening without judgement</h2><p>One of the most helpful things you can do is <strong>listen</strong>. Give the person time and your full attention, let them talk without rushing them, and try to understand how they feel without judging or trying to fix everything. You do not need to have all the answers or the perfect words &mdash; simply being present, patient and kind matters a great deal.</p><p>Avoid comments such as &lsquo;cheer up&rsquo; or &lsquo;others are worse off&rsquo;, which can make someone feel worse or ashamed. Instead, acknowledge their feelings, reassure them that depression is treatable and that help is available, and encourage them gently. Let them know they are not alone and that you will keep supporting them. Small gestures of warmth &mdash; a familiar face, a calm voice, unhurried time together &mdash; can matter more than finding the right words, and warm, non-judgemental listening helps a person feel safe enough to accept support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e7fb010e-7bde-4401-bbf8-7170d2fb0688",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When supporting someone with depression, it helps to listen patiently and without judgement, rather than telling them to cheer up.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Patient, non-judgemental listening is helpful; telling someone to cheer up tends to make them feel worse.",
+            "correctAnswerMessage": "Correct. Warm, non-judgemental listening helps a person feel heard and safe, unlike being told to cheer up."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "eb67bbae-f35b-45aa-9447-374c02684bff",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

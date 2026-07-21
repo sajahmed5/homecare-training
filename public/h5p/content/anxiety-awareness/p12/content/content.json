@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Talking therapies and treatment</h2><p>Anxiety disorders are treatable, and most people improve with the right help. Treatment is decided by professionals, but being aware of the options helps you reassure people that help exists and encourage them to seek it. No one has to simply live with severe anxiety.</p><ul><li><strong>Talking therapies:</strong> approaches such as cognitive behavioural therapy (CBT) help people understand and manage anxious thoughts.</li><li><strong>Medication:</strong> a GP may prescribe medication for some people, alone or alongside therapy.</li><li><strong>Self-referral:</strong> in England, people can often refer themselves directly to NHS talking therapies.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e41fe75c-b4aa-46cc-80f3-c5902ddd9d69",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Therapies and treatment",
+          "decorative": false,
+          "file": {
+            "path": "images/therapies-and-treatment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2f98eabc-91d2-471e-af7a-097c8ffb786c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Encouraging professional help</h2><p>Because anxiety responds so well to treatment, encouraging someone towards professional help is one of the most valuable things you can do. Many people delay because of stigma, fear or simply not knowing where to turn. A calm, supportive conversation can be the nudge that helps.</p><ul><li><strong>Start with the GP:</strong> the family doctor is usually the first step and can arrange further support.</li><li><strong>Offer practical help:</strong> you might help the person note their symptoms or prepare for an appointment, within your role.</li><li><strong>Reassure, do not pressure:</strong> encourage gently and respect that the choice is theirs.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "16b3766d-de27-4dc0-8ab1-68a1c17751d6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about treatment for anxiety is accurate at awareness level?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Anxiety disorders are treatable, and encouraging someone to speak to their GP is a helpful step.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Anxiety responds well to treatment, and gently encouraging a GP conversation is genuinely valuable.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Anxiety cannot be treated, so there is little point encouraging professional help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Anxiety is very treatable. Encouraging professional help is one of the most useful things you can do.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Care workers should decide which therapy or medication a person needs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Those decisions belong to qualified professionals. Your role is to reassure and signpost, not to prescribe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>People should be pressured into treatment whether they want it or not.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The choice is always the person&rsquo;s own. Encourage gently and respect their decision.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2a484a97-3ba8-49aa-8c3b-6daca67bc3f5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

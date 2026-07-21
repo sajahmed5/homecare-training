@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>It can affect anyone</h2><p>Eating disorders do not fit one picture. They affect people of every age, gender, ethnicity, body shape and background &mdash; children, older adults, men and women alike. The common belief that they only affect young, thin women is a harmful myth that leaves many people unrecognised and undiagnosed. Someone in a larger body, an older man or a person from any community can be seriously unwell.</p><ul><li><strong>Any age:</strong> from childhood through to later life.</li><li><strong>Any gender:</strong> men and boys are affected too, and often overlooked.</li><li><strong>Any body:</strong> you cannot tell by looking at someone.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e74798dc-0a54-4985-90a8-6ac1727cc9d0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Anyone affected",
+          "decorative": false,
+          "file": {
+            "path": "images/anyone-affected.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a7e195d5-5c47-4415-bd75-b5ed5fa739c0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your supportive role</h2><p>You are not expected to diagnose an eating disorder or to be an expert &mdash; that is the job of GPs and specialist eating disorder services. Your role is a supportive one: to build a trusting relationship, to notice changes in the people you support, to offer kind and consistent care, and to raise concerns with the right person so that professional help can follow.</p><p>Because eating disorders can affect anyone, it is worth staying alert with everyone in your care rather than only those who match a stereotype. Noticing early and speaking up is one of the most valuable things you can do, and it costs nothing to treat every person with the same open, non-judgemental attention.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1205ab16-58e2-4b0e-99df-04b798c54436",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Eating disorders only affect young women, so you do not need to consider them in older people or in men.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Eating disorders can affect anyone, including men and older people. That belief is a harmful myth.",
+            "correctAnswerMessage": "Correct. Eating disorders affect people of any age, gender and background &mdash; assuming otherwise leaves many people unrecognised."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "19d9b3e7-ff41-45f5-9cdb-9bc0c097007a",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

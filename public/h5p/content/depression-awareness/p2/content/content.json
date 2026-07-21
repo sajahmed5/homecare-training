@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Low mood or depression?</h2><p>Everyone feels down, sad or fed up from time to time. This is a normal part of life, and low mood usually lifts within a few days once the cause passes or circumstances change. Depression is different. It is a lasting low mood that goes on for weeks or months and starts to affect how a person thinks, feels and manages everyday life.</p><ul><li><strong>Low mood:</strong> a normal reaction that usually lifts within days.</li><li><strong>Depression:</strong> lasts weeks or longer and affects daily life.</li><li><strong>The difference:</strong> how long it lasts and how much it affects the person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c5c07f4c-3c13-4130-92ec-4f541b3448a0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Low mood or depression",
+          "decorative": false,
+          "file": {
+            "path": "images/low-mood-or-depression.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "692da6ee-8a87-47f7-a85b-73947bd10f1c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A common and treatable illness</h2><p>Depression is one of the most common mental health problems, and it can affect anyone, of any age or background. Some people have one episode; others experience depression more than once during their lives. It ranges from mild, where a person can still get through the day with effort, to severe, where even simple tasks can feel impossible.</p><p>The most important message is that depression is <strong>treatable</strong>. With the right support &mdash; which may include talking therapies, medication, or both &mdash; most people get better. Recognising that someone may be depressed, and helping them reach their GP or mental health services, is one of the most valuable things you can do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f3cb1944-784a-42f8-954e-eac734d5a16e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main difference between everyday low mood and depression?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Depression is a lasting low mood, over weeks or months, that affects how a person thinks, feels and copes with daily life.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. It is the length of time and the effect on daily life that mark depression out from ordinary low mood.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Low mood only happens to older people, while depression only affects younger people.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Both low mood and depression can affect people of any age; the difference is how long it lasts and its impact.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Depression always has an obvious cause, whereas low mood never does.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression sometimes has no clear cause at all; the key difference is how lasting it is and how it affects daily life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no real difference; the two words mean exactly the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are different. Low mood usually passes in days, while depression lasts and affects everyday life.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c831f05c-8272-43f2-b361-827c8cb79229",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

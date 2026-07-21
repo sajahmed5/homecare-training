@@ -2,1042 +2,263 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/sepsis/p1/content/images",
-   "file": "welcome.svg",
-   "title": "Welcome to Sepsis Awareness",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Welcome",
+   "outDir": "public/h5p/content/communication-support/p1/content/images",
+   "file": "communication-and-rights.svg",
+   "title": "Communication is a human right",
+   "accent": "#0d9488",
+   "alt": "Illustration for Communication and rights",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Recognise",
-    "Escalate",
-    "Speak up"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p2/content/images",
-   "file": "what-sepsis-is.svg",
-   "title": "What sepsis is",
-   "accent": "#7c3aed",
-   "alt": "Illustration for What sepsis is",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Trigger",
-    "The problem",
-    "The danger"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p3/content/images",
-   "file": "who-is-at-risk.svg",
-   "title": "Sepsis can affect anyone",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Who is at risk",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Age",
-    "Immunity",
-    "Recent illness"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p4/content/images",
-   "file": "recognising-sepsis.svg",
-   "title": "“Could this be sepsis?”",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Recognising sepsis",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Stay curious",
-    "Trust your instinct",
-    "Act on change"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p5/content/images",
-   "file": "key-warning-signs.svg",
-   "title": "Common signs of sepsis",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Key warning signs",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "New confusion",
-    "Fast breathing",
-    "Temperature"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p6/content/images",
-   "file": "more-warning-signs.svg",
-   "title": "Further signs to watch for",
-   "accent": "#7c3aed",
-   "alt": "Illustration for More warning signs",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "heart"
     }
    ],
    "points": [
-    "Skin",
-    "Urine",
-    "Feeling"
+    "Dignity",
+    "Choice",
+    "Safety"
    ]
   },
   {
-   "outDir": "public/h5p/content/sepsis/p7/content/images",
-   "file": "any-infection-counts.svg",
-   "title": "Sepsis can follow any infection",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Any infection counts",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Chest",
-    "Urine",
-    "Skin and wounds"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p8/content/images",
-   "file": "your-role.svg",
-   "title": "Recognise and escalate",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Your role",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Don't diagnose",
-    "Do escalate",
-    "Be fast"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p9/content/images",
-   "file": "say-the-word.svg",
-   "title": "Say the word “sepsis”",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Say the word",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Be direct",
-    "Be specific",
-    "Be persistent"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p10/content/images",
-   "file": "stay-and-record.svg",
-   "title": "Stay with the person",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Stay and record",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Stay close",
-    "Reassure",
-    "Keep watching"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p11/content/images",
-   "file": "preventing-infection.svg",
-   "title": "Preventing infection",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Preventing infection",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Hand hygiene",
-    "Clean practice",
-    "General health"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p12/content/images",
-   "file": "recovery-and-support.svg",
-   "title": "Recovery after sepsis",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Recovery and support",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Physical effects",
-    "Emotional effects",
-    "Cognitive effects"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/sepsis/p13/content/images",
-   "file": "bringing-it-together.svg",
-   "title": "Recording and learning",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Bringing it together",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Record early",
-    "Be factual",
-    "Share it"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p1/content/images",
-   "file": "welcome.svg",
-   "title": "Welcome to Stroke Awareness",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Welcome",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Recognise",
-    "Act",
-    "Support"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p2/content/images",
-   "file": "what-is-a-stroke.svg",
-   "title": "What happens during a stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for What is a stroke?",
+   "outDir": "public/h5p/content/communication-support/p2/content/images",
+   "file": "who-needs-support.svg",
+   "title": "Who may have additional communication needs",
+   "accent": "#0d9488",
+   "alt": "Illustration for Who needs support",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "The cause",
-    "The effect",
-    "The result"
+    "Lifelong",
+    "Acquired",
+    "Sensory and physical"
    ]
   },
   {
-   "outDir": "public/h5p/content/stroke-awareness/p3/content/images",
-   "file": "types-of-stroke.svg",
-   "title": "Two main types of stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Types of stroke",
+   "outDir": "public/h5p/content/communication-support/p3/content/images",
+   "file": "your-role-and-salt.svg",
+   "title": "Your role in supporting communication",
+   "accent": "#0d9488",
+   "alt": "Illustration for Your role and SALT",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Ischaemic stroke",
-    "Haemorrhagic stroke",
-    "Both are emergencies"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p4/content/images",
-   "file": "risk-factors.svg",
-   "title": "What raises the risk of a stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Risk factors",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "High blood pressure",
-    "Heart rhythm problems",
-    "Other factors"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p5/content/images",
-   "file": "the-fast-test.svg",
-   "title": "The FAST test",
-   "accent": "#7c3aed",
-   "alt": "Illustration for The FAST test",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Face",
-    "Arms",
-    "Speech"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p6/content/images",
-   "file": "other-signs.svg",
-   "title": "Other signs of a stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Other signs",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Sudden weakness",
-    "Sudden confusion",
-    "Sudden problems"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p7/content/images",
-   "file": "recognising-in-practice.svg",
-   "title": "Putting recognition into practice",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Recognising in practice",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "heart"
-    }
-   ],
-   "points": [
-    "Know the person",
-    "Trust the signs",
-    "Do not delay"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p8/content/images",
-   "file": "call-999-now.svg",
-   "title": "Call 999 immediately",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Call 999 now",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Dial 999",
-    "Say “stroke”",
-    "Do not delay"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p9/content/images",
-   "file": "note-the-time-stay.svg",
-   "title": "Note the time symptoms started",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Note the time, stay",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Note the time",
-    "Last seen well",
-    "Pass it on"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p10/content/images",
-   "file": "comfort-no-food-or-drink.svg",
-   "title": "Comfort, but no food or drink",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Comfort, no food or drink",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "No food or drink",
-    "No medication by mouth",
-    "Keep comfortable"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p11/content/images",
-   "file": "effects-of-a-stroke.svg",
-   "title": "Common effects of a stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Effects of a stroke",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Physical",
-    "Communication",
-    "Hidden effects"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p12/content/images",
-   "file": "communication-and-rehab.svg",
-   "title": "Communication and aphasia",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Communication and rehab",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Aphasia",
-    "Not intelligence",
-    "Your role"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/stroke-awareness/p13/content/images",
-   "file": "reducing-risk-and-summary.svg",
-   "title": "Reducing the risk of another stroke",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Reducing risk and summary",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Medication",
-    "Healthy habits",
-    "Report changes"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p1/content/images",
-   "file": "welcome.svg",
-   "title": "Welcome to Diabetes Awareness",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Welcome",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Understand",
-    "Recognise",
-    "Respond"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p2/content/images",
-   "file": "glucose-and-insulin.svg",
-   "title": "How the body uses glucose",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Glucose and insulin",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Glucose",
-    "Blood glucose",
-    "Balance"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p3/content/images",
-   "file": "types-of-diabetes.svg",
-   "title": "The main types of diabetes",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Types of diabetes",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Type 1",
-    "Type 2",
-    "Both"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p4/content/images",
-   "file": "good-control-matters.svg",
-   "title": "Why good control matters",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Good control matters",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Steady levels",
-    "Whole person",
-    "Everyday care"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p5/content/images",
-   "file": "what-is-a-hypo.svg",
-   "title": "What is a hypo?",
-   "accent": "#7c3aed",
-   "alt": "Illustration for What is a hypo",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Low glucose",
-    "Comes on fast",
-    "Act quickly"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p6/content/images",
-   "file": "signs-of-a-hypo.svg",
-   "title": "Recognising a hypo",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Signs of a hypo",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Physical signs",
-    "How they seem",
-    "Getting worse"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p7/content/images",
-   "file": "responding-to-a-hypo.svg",
-   "title": "Treating a hypo",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Responding to a hypo",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Fast-acting sugar first",
-    "Recheck",
-    "Then longer-acting carbohydrate"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p8/content/images",
-   "file": "high-blood-glucose.svg",
-   "title": "What is a hyper?",
-   "accent": "#7c3aed",
-   "alt": "Illustration for High blood glucose",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "High glucose",
-    "Slower onset",
-    "Common triggers"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p9/content/images",
-   "file": "dka-emergency.svg",
-   "title": "Diabetic ketoacidosis (DKA)",
-   "accent": "#7c3aed",
-   "alt": "Illustration for DKA emergency",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "What it is",
-    "Who is most at risk",
-    "How serious"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p10/content/images",
-   "file": "when-to-escalate.svg",
-   "title": "Knowing when to escalate",
-   "accent": "#7c3aed",
-   "alt": "Illustration for When to escalate",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Emergencies",
-    "Urgent concerns",
-    "Always"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p11/content/images",
-   "file": "eating-and-activity.svg",
-   "title": "Person-centred daily support",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Eating and activity",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Follow the plan",
-    "Encourage",
-    "Respect choice"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p12/content/images",
-   "file": "medication-and-feet.svg",
-   "title": "Diabetes medication awareness",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Medication and feet",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "pills"
-    }
-   ],
-   "points": [
-    "Tablets",
-    "Insulin",
-    "GLP-1 medicines"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/diabetes-awareness/p13/content/images",
-   "file": "your-everyday-role.svg",
-   "title": "Monitoring, recording and reporting",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Your everyday role",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Monitoring awareness",
-    "Record",
-    "Report"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p1/content/images",
-   "file": "welcome.svg",
-   "title": "Welcome to Epilepsy Awareness",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Welcome",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Awareness",
-    "Individual",
-    "Knowledge only"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p2/content/images",
-   "file": "what-epilepsy-is.svg",
-   "title": "What is epilepsy?",
-   "accent": "#7c3aed",
-   "alt": "Illustration for What epilepsy is",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Electrical activity",
-    "A tendency",
-    "Not always known"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p3/content/images",
-   "file": "common-and-your-role.svg",
-   "title": "Common, and your role",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Common and your role",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "alert"
     }
    ],
    "points": [
     "Support",
-    "Safe first aid",
-    "Recognise and escalate"
+    "Follow the plan",
+    "Observe and report"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p4/content/images",
-   "file": "tonic-clonic-and-absence.svg",
-   "title": "Different types of seizure",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Tonic-clonic and absence",
+   "outDir": "public/h5p/content/communication-support/p4/content/images",
+   "file": "recognising-barriers.svg",
+   "title": "Recognising barriers to communication",
+   "accent": "#0d9488",
+   "alt": "Illustration for Recognising barriers",
    "cast": [
     {
      "skin": 3,
      "hair": "short",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Tonic-clonic",
-    "Absence",
-    "Recognition"
+    "Environmental",
+    "Physical and sensory",
+    "Attitudes and habits"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p5/content/images",
-   "file": "focal-seizures.svg",
-   "title": "Focal seizures",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Focal seizures",
+   "outDir": "public/h5p/content/communication-support/p5/content/images",
+   "file": "total-communication.svg",
+   "title": "The total communication approach",
+   "accent": "#0d9488",
+   "alt": "Illustration for Total communication",
    "cast": [
     {
      "skin": 4,
      "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Focal aware",
-    "Focal impaired awareness",
-    "Varied"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p6/content/images",
-   "file": "auras-and-triggers.svg",
-   "title": "Auras and warning signs",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Auras and triggers",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "heart"
     }
    ],
    "points": [
-    "Sensations",
-    "Feelings",
-    "Personal"
+    "Whatever works",
+    "Two-way",
+    "Person-led"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p7/content/images",
-   "file": "convulsive-first-aid.svg",
-   "title": "First aid for a convulsive seizure",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Convulsive first aid",
+   "outDir": "public/h5p/content/communication-support/p6/content/images",
+   "file": "time-and-objects.svg",
+   "title": "Objects of reference",
+   "accent": "#0d9488",
+   "alt": "Illustration for Time and objects",
    "cast": [
     {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Protect from injury",
-    "Cushion the head",
-    "Time it"
+    "Consistent",
+    "Meaningful",
+    "Multi-sensory"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p8/content/images",
-   "file": "what-not-to-do.svg",
-   "title": "What not to do",
-   "accent": "#7c3aed",
-   "alt": "Illustration for What not to do",
+   "outDir": "public/h5p/content/communication-support/p7/content/images",
+   "file": "easy-read.svg",
+   "title": "Easy read information",
+   "accent": "#0d9488",
+   "alt": "Illustration for Easy read",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Plain words",
+    "Pictures",
+    "Clear layout"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/communication-support/p8/content/images",
+   "file": "signing-and-symbols.svg",
+   "title": "Makaton and signing",
+   "accent": "#0d9488",
+   "alt": "Illustration for Signing and symbols",
    "cast": [
     {
      "skin": 1,
      "hair": "short",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Do not restrain",
-    "Nothing in the mouth"
+    "Signs with speech",
+    "Symbols",
+    "Key words"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p9/content/images",
-   "file": "timing-and-dignity.svg",
-   "title": "Timing and staying with the person",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Timing and dignity",
+   "outDir": "public/h5p/content/communication-support/p9/content/images",
+   "file": "passports-and-aac.svg",
+   "title": "Communication passports",
+   "accent": "#0d9488",
+   "alt": "Illustration for Passports and AAC",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "heart"
     }
    ],
    "points": [
-    "Start the clock",
-    "Stay with them",
-    "Watch and remember"
+    "How I communicate",
+    "How to support me",
+    "What my responses mean"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p10/content/images",
-   "file": "when-to-call-999.svg",
-   "title": "When a seizure is an emergency",
-   "accent": "#7c3aed",
-   "alt": "Illustration for When to call 999",
+   "outDir": "public/h5p/content/communication-support/p10/content/images",
+   "file": "aids-and-interpreters.svg",
+   "title": "Hearing aids and glasses",
+   "accent": "#0d9488",
+   "alt": "Illustration for Aids and interpreters",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Lasting too long",
-    "One after another",
-    "Other danger signs"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p11/content/images",
-   "file": "rescue-medication.svg",
-   "title": "Rescue medication",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Rescue medication",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "pills"
-    }
-   ],
-   "points": [
-    "Prescribed individually",
-    "Specific training",
-    "Not this course"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/epilepsy-awareness/p12/content/images",
-   "file": "records-and-sudep.svg",
-   "title": "Recording seizures",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Records and SUDEP",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "What you saw",
-    "How long",
-    "Recovery"
+    "Check daily",
+    "Keep them clean",
+    "Encourage use"
    ]
   },
   {
-   "outDir": "public/h5p/content/epilepsy-awareness/p13/content/images",
-   "file": "person-centred-support.svg",
-   "title": "Person-centred, dignified support",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Person-centred support",
+   "outDir": "public/h5p/content/communication-support/p11/content/images",
+   "file": "following-the-plan.svg",
+   "title": "Following the communication care plan",
+   "accent": "#0d9488",
+   "alt": "Illustration for Following the plan",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Read it",
+    "Apply it consistently",
+    "Keep it current"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/communication-support/p12/content/images",
+   "file": "accessible-information-standard.svg",
+   "title": "The Accessible Information Standard",
+   "accent": "#0d9488",
+   "alt": "Illustration for Accessible Information Standard",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Identify",
+    "Record",
+    "Meet and share"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/communication-support/p13/content/images",
+   "file": "recording-and-summary.svg",
+   "title": "Recording what works",
+   "accent": "#0d9488",
+   "alt": "Illustration for Recording and summary",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "heart"
+     "tunic": "#0d9488",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Independence",
-    "Dignity",
-    "Accurate recording"
+    "Be specific",
+    "Keep it current",
+    "Share it"
    ]
   }
  ]

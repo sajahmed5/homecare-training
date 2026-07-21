@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Very unwell at any weight</h2><p>It is a dangerous mistake to judge how ill someone is by their weight. A person can be seriously, even critically, unwell with an eating disorder while being a normal weight or above. The physical dangers come from what is happening inside the body &mdash; starvation, purging, disturbed blood chemistry &mdash; and these can be present whatever the number on the scales.</p><ul><li><strong>Not the scales:</strong> weight is not a reliable measure of danger.</li><li><strong>Inside matters:</strong> serious harm can be happening out of sight.</li><li><strong>Take it seriously:</strong> never wait for someone to look ill.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1bbea287-adbd-4e83-b2aa-f5cf7222ac85",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Unwell at any weight",
+          "decorative": false,
+          "file": {
+            "path": "images/unwell-at-any-weight.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bf8607ac-be13-4ab9-bf87-be148a3afb76",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Do not rely on weight</h2><p>National guidance for professionals is clear that a single measure such as body weight should not be used on its own to decide how serious someone's eating disorder is, or whether they need help. Someone who does not look underweight can still be in real danger, and rapid weight loss can be as concerning as a low weight itself.</p><p>For you, this means never reassuring yourself that a person must be fine because of how they look, and never letting anyone's appearance stop you from taking a concern seriously. If you are worried, report it &mdash; the professionals will make the assessment. Trusting your observation of the whole person, rather than their size, is what keeps people safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "95a41614-34c0-4232-95ea-971ee92751ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person can be seriously unwell with an eating disorder even if they are a normal weight or above.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Weight is not a reliable measure &mdash; someone can be critically unwell at any weight.",
+            "correctAnswerMessage": "Correct. Serious harm can be happening inside the body at any weight, so appearance is never a safe guide."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7e8c1935-6949-47cf-b1a6-43ec8412738f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

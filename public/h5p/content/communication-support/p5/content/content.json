@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The total communication approach</h2><p><strong>Total communication</strong> means using every available method, together, to help a person understand and be understood. Instead of relying on speech alone, you combine words with gesture, facial expression, pictures, objects, signing, and writing &mdash; whatever helps that individual.</p><ul><li><strong>Whatever works:</strong> there is no single right method; you use the mix that suits the person.</li><li><strong>Two-way:</strong> it supports both how you get information across and how the person responds.</li><li><strong>Person-led:</strong> the person's own preferences guide which methods you use.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dbdca74d-7488-4e27-882e-7df12ec31942",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Total communication",
+          "decorative": false,
+          "file": {
+            "path": "images/total-communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "42207410-465a-4584-b2af-71e4964f1750",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Non-verbal communication</h2><p>Most communication is <strong>non-verbal</strong>. Facial expression, eye contact, gesture, posture, and tone of voice all carry meaning, and for some people they are the main way they communicate. Pay close attention to a person's body language: it may tell you they are in pain, anxious, happy, or ready to end a conversation.</p><p>Be aware of the messages your own body sends. A warm expression, an unhurried manner, and an open posture help a person feel safe and listened to. A glance at the clock or a tense stance can say more than your words. Match your tone and pace to the person, and let them see your face clearly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e95b8f69-c423-4d7a-bc7b-030cebf59caf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the passage about total communication.</p></p>",
+          "textField": "*Total* communication means using every available method together, combining speech with gesture, pictures, and *signing*. Most communication is *non-verbal*, so a person's body language and facial *expression* often tell you how they feel.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "c9519156-8e80-4396-908b-d84e5665df0b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

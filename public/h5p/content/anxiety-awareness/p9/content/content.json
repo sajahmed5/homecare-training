@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Helping through a panic attack</h2><p>Seeing someone have a panic attack can be alarming, but your calm response can make a real difference. The person is frightened and their body feels out of control. Your aim is to help them feel safe and to let the attack pass, which it will. Stay with them unless they ask you to leave, and keep your voice quiet and reassuring.</p><ul><li><strong>Stay and reassure:</strong> tell them calmly that they are safe and that this will pass.</li><li><strong>Encourage slow breathing:</strong> breathe with them, gently slowing each breath.</li><li><strong>Give space and privacy:</strong> reduce noise, onlookers and pressure.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f03c97c8-fc59-4301-9fd7-36a8e875414d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Helping through panic",
+          "decorative": false,
+          "file": {
+            "path": "images/helping-through-panic.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ef2b4f4f-de07-4a79-9059-4cff5611f21d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Grounding techniques</h2><p>Grounding helps a person reconnect with the present moment when anxiety feels overwhelming. Simple techniques can steady someone during or after a panic attack. Offer them gently, never force them, and follow whatever the person finds helpful.</p><ul><li><strong>Focus on the senses:</strong> invite them to name things they can see, hear and touch around them.</li><li><strong>Steady the breath:</strong> encourage slow breaths in and longer breaths out.</li><li><strong>Use calm words:</strong> short, reassuring phrases repeated gently can help more than long explanations.</li></ul><p>Afterwards, give the person time to recover, and record what happened so their support can be reviewed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "612e9243-456f-4907-bb3d-2a15e1187f94",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support is having a panic attack &mdash; their heart is racing and they feel they cannot breathe. What is the most helpful response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stay calm, reassure them they are safe and that it will pass, and gently encourage slow breathing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A calm, reassuring presence and slow breathing help the person feel safe while the attack passes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them firmly to pull themselves together and get on with the day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This dismisses genuine fear and can make things worse. Offer calm reassurance instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave them completely alone at once and say nothing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Unless they ask you to step back, stay with them and reassure them &mdash; they need to feel safe, not abandoned.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Insist they describe in detail everything that is frightening them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "During an attack, pressing for detail adds pressure. Keep words short, calm and reassuring.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f5124100-86e5-4964-bf46-a39decfd572f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

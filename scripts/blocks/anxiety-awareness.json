@@ -1,0 +1,97 @@
+{
+  "slug": "anxiety-awareness",
+  "title": "Anxiety Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p1",
+      "label": "What anxiety is",
+      "questions": 0,
+      "section": "Understanding anxiety"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p2",
+      "label": "How common it is",
+      "questions": 1,
+      "section": "Understanding anxiety"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p3",
+      "label": "Your supportive role",
+      "questions": 1,
+      "section": "Understanding anxiety"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p4",
+      "label": "Generalised anxiety",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p5",
+      "label": "Panic and panic attacks",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p6",
+      "label": "Phobias and social anxiety",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p7",
+      "label": "OCD and PTSD",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p8",
+      "label": "Person-centred support",
+      "questions": 0,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p9",
+      "label": "Helping through panic",
+      "questions": 1,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p10",
+      "label": "Triggers and health",
+      "questions": 1,
+      "section": "Supporting someone"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p11",
+      "label": "Self-help and wellbeing",
+      "questions": 1,
+      "section": "Wellbeing and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p12",
+      "label": "Therapies and treatment",
+      "questions": 1,
+      "section": "Wellbeing and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "anxiety-awareness/p13",
+      "label": "Getting help and recording",
+      "questions": 0,
+      "section": "Wellbeing and getting help"
+    }
+  ]
+}

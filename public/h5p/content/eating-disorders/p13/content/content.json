@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Escalating your concerns</h2><p>You are not expected to manage an eating disorder alone. When you notice worrying signs, record what you have seen factually and report it to your senior or manager, following your organisation's procedures, so the right professionals can become involved. If someone is in immediate physical danger &mdash; for example, collapsing, chest pain or severe weakness &mdash; seek urgent medical help straight away.</p><ul><li><strong>Record:</strong> note what you have actually observed, clearly and factually.</li><li><strong>Report:</strong> pass concerns to a senior or manager promptly.</li><li><strong>Urgent help:</strong> act at once if someone is physically unsafe.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3afc0090-fc3e-46ed-b553-dbdf1560cd47",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Escalate and self-care",
+          "decorative": false,
+          "file": {
+            "path": "images/escalate-and-self-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9da5c853-3cd3-4c93-89c6-30c9aa53ee74",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking after yourself</h2><p>Supporting someone with a serious illness can affect you too. It is normal to feel worried, helpless or upset at times. Look after your own wellbeing: talk things through in supervision, use any support your employer offers, and share the load with your team rather than carrying it alone. Caring for yourself helps you keep caring well for others.</p><p>Remember that this course has raised <strong>awareness</strong> and built knowledge only. It does not qualify you to diagnose, assess or treat an eating disorder, and it does not replace supervised training or the professional assessment and treatment provided by a GP and specialist services. Your part &mdash; noticing, supporting kindly and escalating early &mdash; matters, because getting professional help early gives people the best chance of recovery.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "17f61e1b-25cd-43cc-afac-e862286ddb02",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are worried that someone you support may have an eating disorder. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record what you have observed and report your concerns to a senior or manager so professional help can be arranged.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Recording clearly and reporting promptly gets the person the professional help they need.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Keep it to yourself until you are completely sure.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting until you are certain can delay help. Report concerns early so someone can assess the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person you think they have an eating disorder and start treating it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Diagnosis and treatment are for professionals, not care workers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several weeks to see whether the problem goes away by itself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Eating disorders rarely resolve on their own, and delay can allow serious harm.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2d1035af-bde5-41d8-b384-f4ddfdf5c4c3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

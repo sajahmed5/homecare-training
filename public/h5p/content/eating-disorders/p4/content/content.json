@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The main types</h2><p>There are several recognised eating disorders, and a person's difficulties may not fit neatly into one box. You do not need to work out which type someone has &mdash; that is for professionals &mdash; but a basic awareness helps you understand what you might see and why it matters.</p><ul><li><strong>Anorexia:</strong> restricting food, with an intense fear of weight gain.</li><li><strong>Bulimia:</strong> cycles of bingeing and then purging or compensating.</li><li><strong>Binge eating disorder:</strong> regular episodes of eating large amounts, with a loss of control.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cf141019-0273-4b47-a108-88efbe11eee9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types overview",
+          "decorative": false,
+          "file": {
+            "path": "images/types-overview.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "38b5450e-6025-4571-bb27-b38f8972bb44",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>OSFED and ARFID</h2><p>Two further terms are worth knowing. <strong>OSFED</strong> stands for Other Specified Feeding or Eating Disorder. It is used when someone has a serious eating disorder whose symptoms do not exactly match anorexia, bulimia or binge eating disorder. OSFED is common and just as serious &mdash; it is not a milder or lesser problem.</p><p><strong>ARFID</strong> stands for Avoidant or Restrictive Food Intake Disorder. Unlike the others, it is not driven by concerns about weight or body shape. A person with ARFID may avoid food because of its taste, smell or texture, because they have little interest in eating, or because they fear choking or being sick. ARFID can affect people of any age and can seriously harm health if it is not addressed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6cba56a3-647e-4e5d-91c4-b1706a8ca668",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome</h2><p>Welcome to <strong>Eating Disorders Awareness</strong>. Eating disorders are serious mental illnesses that affect how a person thinks and feels about food, eating, their body and themselves. They are more common than many people realise, and the people you support &mdash; or their families &mdash; may be living with one. As a care worker, you are often close enough to notice when something is not right.</p><ul><li><strong>Serious:</strong> these are recognised mental illnesses, not fads or phases.</li><li><strong>Treatable:</strong> with the right help, people can and do recover.</li><li><strong>Your role:</strong> to notice, support kindly and pass concerns on.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "68b735da-2605-47ce-aa14-c20966e2a45f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "95c8f149-0fdd-4000-8323-08120fd2f0f8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn what eating disorders are, the main types and the signs that someone may be struggling, the serious effects they can have on body and mind, and how to offer kind, person-centred support while encouraging professional help. Throughout, the message is a hopeful one: eating disorders are treatable, and the sooner someone gets specialist help, the better their chances of recovery.</p><p>This course raises <strong>awareness</strong> and builds knowledge only. It does not qualify you to diagnose, assess or treat an eating disorder, and it does not replace supervised training or the professional assessment and treatment that a GP and specialist services provide. Your part is to notice, support and escalate &mdash; and to remember that getting professional help early genuinely matters.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0640942d-4fa3-454d-b271-7f63dfe05a8b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

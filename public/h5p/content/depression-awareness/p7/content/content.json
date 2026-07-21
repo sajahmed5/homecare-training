@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Depression in older people</h2><p>Depression is not a normal or inevitable part of getting older, yet it is often missed in older people. Signs may be put down to ageing, physical illness or bereavement, or the person may not talk about their feelings and instead describe physical complaints. Being aware of this helps you notice depression that might otherwise be overlooked.</p><ul><li><strong>Not normal ageing:</strong> older people should not be expected to feel low.</li><li><strong>Often missed:</strong> signs can be mistaken for other things.</li><li><strong>Physical focus:</strong> some people describe aches rather than sadness.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b5cf24af-5b36-4389-9a22-17ba57c56522",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Depression in older people",
+          "decorative": false,
+          "file": {
+            "path": "images/depression-in-older-people.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "97b37840-5cc8-4551-bcc5-45f53dd68a8c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Overlap with other conditions</h2><p>In older people, depression can overlap with, or be hidden by, other conditions. It can exist alongside long-term physical illness, pain or disability, and living with these can itself contribute to low mood. Depression can also be confused with <strong>dementia</strong>, because both can cause poor concentration, memory difficulties and withdrawal &mdash; and the two can occur together. It is not your job to tell them apart, but it is important to report the changes you see.</p><p>Some medicines and physical illnesses can also affect mood. Because of these overlaps, any concern that an older person may be depressed should be shared so that a professional can assess them properly. Depression is treatable at any age, so noticing and reporting it can greatly improve someone's quality of life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9884a729-f112-4b95-ba7c-a9120083832e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about depression in older people is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Depression is not a normal part of ageing, is often missed, and can overlap with conditions such as dementia or physical illness.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Depression is not part of normal ageing, is easily missed, and can overlap with other conditions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Depression is a natural part of growing old and does not need attention.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression is never just a normal part of ageing; it should always be taken seriously and reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Older people cannot be treated for depression, so there is no point reporting it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Depression is treatable at any age, so reporting it can make a real difference to someone's life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>If an older person has memory problems, it is always dementia and never depression.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Memory and concentration problems can be caused by depression too, and the two can occur together.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "21e70008-e079-44ef-a5cc-9affb9f21ab1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common myths</h2><p>Myths about eating disorders stop people being recognised and getting help. Challenging them in your own thinking helps you support people better. One of the most damaging myths is that you can tell whether someone has an eating disorder just by looking at them &mdash; in reality, most people with an eating disorder are not visibly underweight.</p><ul><li><strong>Not visible:</strong> you usually cannot tell someone has an eating disorder by looking.</li><li><strong>Not a phase:</strong> it is a serious illness, not a diet or a passing phase.</li><li><strong>Not only girls:</strong> people of any age and gender are affected.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "57963a33-7545-426c-a426-95d86fe88586",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Common myths",
+          "decorative": false,
+          "file": {
+            "path": "images/common-myths.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c29e8d90-7898-46c2-8216-c16ce50a7497",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why myths are harmful</h2><p>When we believe that eating disorders are about vanity, willpower or attention-seeking, we are less likely to take them seriously or to offer help. When we believe someone has to look severely underweight to be ill, we miss the many people who are a normal weight or larger and just as unwell. Men, older people and those from minority communities are especially likely to be overlooked because they do not fit the stereotype.</p><p>Letting go of these myths means treating any concern seriously, whoever the person is and whatever they weigh. It also means understanding that recovery is possible &mdash; another myth is that eating disorders are lifelong and untreatable, when in fact many people make a full recovery with the right support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a3982539-6246-4020-ac13-325ab625cdf2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is the belief that you can always tell an eating disorder just by looking at someone so harmful?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Most people with an eating disorder are not visibly underweight, so the belief causes many to be missed and left without help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Relying on appearance means people who do not look ill are overlooked and left without support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because people with eating disorders are always overweight.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People with eating disorders can be at any weight; there is no single appearance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because only a doctor is allowed to look at someone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The problem is that weight is not a reliable guide, not who is doing the looking.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is not harmful; weight is a reliable guide to how ill someone is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Weight is not a reliable guide &mdash; someone can be very unwell at any weight.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ae0ec8ca-bea0-4743-aa0d-11d6142143ea",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

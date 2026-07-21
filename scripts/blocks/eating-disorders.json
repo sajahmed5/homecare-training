@@ -1,0 +1,97 @@
+{
+  "slug": "eating-disorders",
+  "title": "Eating Disorders Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What eating disorders are"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p2",
+      "label": "Not a choice",
+      "questions": 1,
+      "section": "What eating disorders are"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p3",
+      "label": "Anyone affected",
+      "questions": 1,
+      "section": "What eating disorders are"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p4",
+      "label": "Types overview",
+      "questions": 0,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p5",
+      "label": "Recognising types",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p6",
+      "label": "Warning signs",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p7",
+      "label": "Common myths",
+      "questions": 1,
+      "section": "Types and signs"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p8",
+      "label": "Effects on the body",
+      "questions": 0,
+      "section": "Effects and risks"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p9",
+      "label": "Unwell at any weight",
+      "questions": 1,
+      "section": "Effects and risks"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p10",
+      "label": "Effects on the mind",
+      "questions": 1,
+      "section": "Effects and risks"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p11",
+      "label": "Supporting someone",
+      "questions": 1,
+      "section": "Supporting someone and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p12",
+      "label": "Getting help",
+      "questions": 1,
+      "section": "Supporting someone and getting help"
+    },
+    {
+      "type": "h5p",
+      "path": "eating-disorders/p13",
+      "label": "Escalate and self-care",
+      "questions": 1,
+      "section": "Supporting someone and getting help"
+    }
+  ]
+}

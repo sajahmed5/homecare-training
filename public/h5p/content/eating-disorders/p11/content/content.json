@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Kind, person-centred support</h2><p>Supporting someone with an eating disorder starts with the person, not the illness. Treat them with the same respect, warmth and interest you would want for yourself, and remember there is far more to them than their eating disorder. A trusting, non-judgemental relationship is the foundation that makes everything else possible.</p><ul><li><strong>Be patient:</strong> recovery is rarely quick or straightforward.</li><li><strong>Be non-judgemental:</strong> never blame, shame or lecture.</li><li><strong>Listen:</strong> let the person feel heard and understood.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6e53f42e-f2a9-4ccb-a6f4-ac1cd20f0f04",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Supporting someone",
+          "decorative": false,
+          "file": {
+            "path": "images/supporting-someone.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ba216799-4e99-435a-8fc7-e001e97a8775",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What not to say</h2><p>Well-meant comments can do harm. Try to avoid remarks about a person's weight, size or appearance &mdash; even ones intended as praise, such as saying someone looks well &mdash; because these can feed the illness or cause distress. Avoid comments about how much or how little someone is eating, and steer clear of talking about diets, calories or your own eating in front of them.</p><p>Instead, show that you care about the person rather than the food. Listen without judgement, take their feelings seriously, and let them know that help is available and that recovery is possible. If you are unsure what to say, it is fine to be honest and gentle: simply showing that you have noticed and that you care can mean a great deal.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c5f9139a-88e5-48d7-81e1-80e354c10ad5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is the best approach when supporting someone with an eating disorder?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Be patient and non-judgemental, and avoid comments about their weight, appearance or how much they are eating.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Patience, warmth and avoiding remarks about weight or food help the person feel safe and supported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Praise them for looking healthier so they feel encouraged.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Comments about appearance, even kindly meant, can feed the illness or cause distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Remind them regularly how much or how little they have eaten.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Drawing attention to how much someone eats tends to increase anxiety and shame.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage them to try a new diet to feel more in control.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Encouraging dieting can be harmful; the person needs professional support, not a new diet.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5347b079-984d-405e-b390-c8107611ab4f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
