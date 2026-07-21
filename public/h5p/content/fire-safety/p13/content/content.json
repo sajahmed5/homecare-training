@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The fire warden role and drills</h2><p>Many services appoint fire wardens, sometimes called fire marshals, to take a lead if the alarm sounds. It is a support and co-ordination role, not a firefighting one. A warden typically helps direct people to the exits, checks that rooms and toilets are clear where it is safe to do so, and reports to the person in charge at the assembly point.</p><p>Fire drills give everyone the chance to practise before a real emergency. Take them seriously, learn your nearest exits and the sound of the alarm, and treat every alarm as real until you are told otherwise.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1e07a3b3-6d2d-4d28-9e51-e887f183e4be",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Fire wardens & drills",
+          "decorative": false,
+          "file": {
+            "path": "images/fire-wardens-drills.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4ecf4fbf-1296-46c5-8850-475faf9b5e2d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>After a fire</h2><p>Once everyone is out and the fire service has taken over, there is still important work to do.</p><ul><li><strong>Account for people:</strong> confirm who has been evacuated and tell the fire service immediately about anyone unaccounted for.</li><li><strong>Do not go back:</strong> only the fire service decides when a building is safe to re-enter.</li><li><strong>Support people:</strong> keep those you care for warm, calm and reassured, as a fire is frightening and disorientating.</li><li><strong>Record and review:</strong> report what happened so the incident can be recorded and the fire risk assessment reviewed and improved.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "767e4cd5-a6d2-4670-ab0c-b02a395447d1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is a night shift in a care home that uses progressive horizontal evacuation. The alarm sounds and you find smoke coming from a resident&rsquo;s bedroom on your corridor. What is the best action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Raise the alarm, close the door on the fire, and help move people through the fire doors into the next compartment while 999 is called.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Raising the alarm, containing the fire by closing the door and moving people to an adjoining compartment fits a progressive horizontal evacuation and puts people first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Go into the bedroom and try to put the fire out before waking anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Warning people and getting them to safety comes first; a fire producing smoke in a bedroom is not a small contained fire to tackle alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Open the windows in the corridor to clear the smoke.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Extra air feeds a fire, and the priority is to raise the alarm and move people to safety, not to ventilate the area.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help residents gather their belongings before leaving the corridor.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. There is no time to collect belongings; people must be moved to safety first, as possessions can be replaced but lives cannot.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "be2cd707-fae3-474b-b151-8ad286069c4c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

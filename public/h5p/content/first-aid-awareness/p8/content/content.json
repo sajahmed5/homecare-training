@@ -1,1 +1,140 @@
-{"content":[{"content":{"params":{"text":"<h2>Recording and reporting incidents</h2><p>After any first-aid incident, make an accurate written record as soon as you can, while events are fresh. Note who was involved, what happened, when and where, what care you gave, and what happened next. Many workplaces record this in an <strong>accident book</strong> (which may be paper or electronic); records should be kept securely and in line with data-protection rules.</p><p>Good records protect the casualty, support any follow-up care, and help your organisation spot patterns and prevent future harm. Always report the incident to your manager and follow your setting's own policies.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"9d764305-203c-4a5a-bad4-2d6294e3d51c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>RIDDOR: when it must be reported</h2><p>Under the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (<strong>RIDDOR</strong>), certain serious work-related injuries, occupational diseases and dangerous occurrences must be reported to the Health and Safety Executive (HSE). Recording an incident in the accident book is not the same as making a RIDDOR report &mdash; your organisation's responsible person decides when a formal RIDDOR report is required and submits it. Know who fills that role in your workplace, and pass on the details they need.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"0ba40314-0b08-4c30-bdc5-2270d4140d9d","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Course summary</h2><p>You have learned to work through <strong>DR ABC</strong>, call for help, and give safe first aid for bleeding, shock, burns, choking, falls, and serious medical emergencies including stroke, heart attack, anaphylaxis, seizures and diabetic emergencies &mdash; plus the recovery position and how to record and report incidents.</p><p><strong>Remember:</strong> this awareness course does not replace hands-on, certificated first-aid training. To act as a designated first aider, complete an accredited practical course and keep your skills up to date.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"b84b0e60-820c-420f-bea8-91a4e4aec7c9","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Which statement about recording and reporting is correct?</p>","answers":[{"correct":true,"text":"<div>Every first-aid incident should be recorded, but only certain serious cases must be reported to the HSE under RIDDOR</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Record all incidents in the accident book; RIDDOR reporting to the HSE applies to specified serious injuries, diseases and dangerous occurrences.","notChosenFeedback":""}},{"correct":false,"text":"<div>There is no need to write anything down as long as you tell your manager verbally</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. An accurate written record is important for the casualty's care and your organisation's legal duties.","notChosenFeedback":""}},{"correct":false,"text":"<div>Recording an incident in the accident book automatically sends a RIDDOR report to the HSE</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. They are separate steps. A responsible person decides when a RIDDOR report is needed and submits it to the HSE.","notChosenFeedback":""}},{"correct":false,"text":"<div>Records should be destroyed immediately after the casualty recovers</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Records must be kept securely for a set period to support follow-up and comply with the law.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"70d2919d-75b6-4215-a9ff-772bc8a9580d","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and reporting incidents</h2><p>After any first-aid incident, make an accurate written record as soon as you can, while events are fresh. Note who was involved, what happened, when and where, what care you gave, and what happened next. Many workplaces record this in an <strong>accident book</strong> (which may be paper or electronic); records should be kept securely and in line with data-protection rules.</p><p>Good records protect the casualty, support any follow-up care, and help your organisation spot patterns and prevent future harm. Always report the incident to your manager and follow your setting's own policies.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9d764305-203c-4a5a-bad4-2d6294e3d51c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording & reporting",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-reporting.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6f6ca7f2-6de8-42da-93fb-480806556d8f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>RIDDOR: when it must be reported</h2><p>Under the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (<strong>RIDDOR</strong>), certain serious work-related injuries, occupational diseases and dangerous occurrences must be reported to the Health and Safety Executive (HSE). Recording an incident in the accident book is not the same as making a RIDDOR report &mdash; your organisation's responsible person decides when a formal RIDDOR report is required and submits it. Know who fills that role in your workplace, and pass on the details they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0ba40314-0b08-4c30-bdc5-2270d4140d9d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Course summary</h2><p>You have learned to work through <strong>DR ABC</strong>, call for help, and give safe first aid for bleeding, shock, burns, choking, falls, and serious medical emergencies including stroke, heart attack, anaphylaxis, seizures and diabetic emergencies &mdash; plus the recovery position and how to record and report incidents.</p><p><strong>Remember:</strong> this awareness course does not replace hands-on, certificated first-aid training. To act as a designated first aider, complete an accredited practical course and keep your skills up to date.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b84b0e60-820c-420f-bea8-91a4e4aec7c9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about recording and reporting is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Every first-aid incident should be recorded, but only certain serious cases must be reported to the HSE under RIDDOR</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Record all incidents in the accident book; RIDDOR reporting to the HSE applies to specified serious injuries, diseases and dangerous occurrences.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no need to write anything down as long as you tell your manager verbally</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. An accurate written record is important for the casualty's care and your organisation's legal duties.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Recording an incident in the accident book automatically sends a RIDDOR report to the HSE</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. They are separate steps. A responsible person decides when a RIDDOR report is needed and submits it to the HSE.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Records should be destroyed immediately after the casualty recovers</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Records must be kept securely for a set period to support follow-up and comply with the law.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "70d2919d-75b6-4215-a9ff-772bc8a9580d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

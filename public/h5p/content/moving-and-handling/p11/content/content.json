@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Principles for common tasks</h2><p>The moves you do most often are the ones most likely to catch you out. The principles below apply to all of them &mdash; but reading about a task is never a substitute for being shown it and practising under a trainer before you do it for real.</p><ul><li><strong>Plan first:</strong> read the person&rsquo;s handling plan, clear the space, and check any equipment.</li><li><strong>Encourage independence:</strong> let the person do what they safely can; you assist, you do not take over.</li><li><strong>Keep close and stable:</strong> work near your body, keep a stable base and move your feet instead of twisting.</li><li><strong>Communicate:</strong> explain what will happen and agree a clear signal so you move together.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5293af48-e0f3-47d5-be85-5421dc5905c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Everyday tasks safely",
+          "decorative": false,
+          "file": {
+            "path": "images/everyday-tasks-safely.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b154a9eb-b133-4009-9c7c-b58d57e2d0e6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Three tasks you will meet often</h2><p>These are the everyday moves where technique and equipment matter most.</p><ul><li><strong>Sit-to-stand:</strong> the person shuffles to the edge of the seat, leans forward &lsquo;nose over toes&rsquo; and rises using the chair arms; you guide and steady rather than pull them up.</li><li><strong>Repositioning in bed:</strong> use slide sheets and, where needed, a profiling bed to move someone up or turn them, so you never drag them by hand.</li><li><strong>Bed to chair:</strong> for someone who can weight-bear, a stand aid or a well-planned assisted transfer; for someone who cannot, a hoist.</li></ul><p>If the plan calls for a hoist, use a hoist. Choosing a quicker manual method to save time is exactly how both you and the person get hurt.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0e0bbac8-6cfd-4c00-b1ea-046df81a78b2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on everyday moving tasks.</p></p>",
+          "textField": "To help someone stand, ask them to shuffle forward and lean &lsquo;nose over *toes*&rsquo; before rising. To move a person up or turn them in bed, use *slide* sheets so you never drag them. Where the handling plan calls for a *hoist*, you must use one rather than a quicker manual method. Throughout any task you should encourage the person&rsquo;s *independence* and let them do what they safely can. Always move your *feet* rather than twisting your spine.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "a39a795b-d45f-4618-9327-1ef818e07f5b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

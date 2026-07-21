@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What good CPR looks like</h2><p>Chest compressions keep a trickle of oxygen-rich blood moving to the brain and heart, so their quality matters enormously. For an adult, aim to:</p><ul><li><strong>Push hard:</strong> press down about <strong>5 to 6 cm</strong> &mdash; roughly a third of the depth of the chest.</li><li><strong>Push fast:</strong> at a rate of <strong>100 to 120 compressions a minute</strong>.</li><li><strong>Let the chest rise:</strong> allow it to come back up fully between each push without leaning on it.</li><li><strong>Combine with breaths:</strong> give <strong>30 compressions to 2 rescue breaths</strong> if you are trained and willing.</li></ul><p>Every pause lets the blood flow drop away, so keep any interruptions as short as you possibly can.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "275c6284-1de0-43f3-ab75-e243d913fa07",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Quality CPR as a team",
+          "decorative": false,
+          "file": {
+            "path": "images/quality-cpr-as-a-team.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0322f45c-ee11-4d4b-8ea2-f3d3bb30f449",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sharing the effort</h2><p>Good CPR is genuinely tiring, and tired rescuers push more shallowly and slowly without realising it. Whenever a second trained person is available, <strong>share the work</strong>.</p><ul><li><strong>Swap roughly every two minutes:</strong> change over before fatigue sets in.</li><li><strong>Keep pauses tiny:</strong> plan the swap so compressions stop for barely a second.</li><li><strong>Coach each other:</strong> count out loud and give honest feedback on depth and rate.</li><li><strong>Take turns with the AED:</strong> one person can fetch and set it up while the other keeps compressing.</li></ul><p>Working smoothly as a team keeps compressions strong from the very first minute until the ambulance crew take over.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9674038e-d195-4cdc-8928-fd47a13b93c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You and a colleague are giving CPR. After a couple of minutes you feel your compressions getting shallower and slower. What is the best action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Swap over quickly with your colleague, keeping any pause in compressions as short as possible.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Swapping about every two minutes keeps compressions strong, and a slick change-over avoids a long, harmful pause.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on alone until the ambulance arrives so the count is not lost.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Pushing on while tired means shallow, slow compressions; sharing the effort keeps quality high.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stop CPR completely for a minute to rest, then start again.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A long pause lets blood flow to the brain collapse; you should swap over rather than stop.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Push faster than 120 a minute to make up for being tired.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Going faster than 120 reduces the depth and effectiveness of each compression; swap instead.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "36d75902-9988-432d-88ff-bbaeeca516be",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

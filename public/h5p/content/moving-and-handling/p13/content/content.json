@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When needs are more complex</h2><p>Some people need extra thought before you move them, and their handling plan should set out exactly how.</p><ul><li><strong>Bariatric needs:</strong> a person of larger body size may need specialist bariatric equipment rated for a higher safe working load, more space and often more staff. Standard equipment used beyond its safe working load can fail.</li><li><strong>Unpredictable movement:</strong> someone who is distressed, confused, has spasms or reacts to pain may move suddenly. Plan for it, keep clear of harm, and never rush.</li><li><strong>Pain and fragile skin:</strong> conditions such as arthritis, recent surgery, contractures or fragile skin change how a person can be handled and how much they can help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "76df0319-8c57-4a84-882a-9a706b1e5a69",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Changing needs",
+          "decorative": false,
+          "file": {
+            "path": "images/changing-needs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ec04659c-4229-43a6-84e4-7f9ec68df52f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Risk assessments change</h2><p>A handling plan is based on a TILE(O) assessment &mdash; the Task, the Individual, the Load or person, the Environment, and Other factors such as equipment. None of these stays fixed. A person&rsquo;s health, weight, pain, mood and skill can change day to day, and so can the space and equipment around them.</p><p>This is why you also make a dynamic risk assessment in the moment: before every move, check that the plan still fits what you see today. If the person is more unwell, more agitated or in more pain than usual, or if the equipment or environment is not right, stop. Do not force a move that no longer feels safe. Report the change so the written assessment can be reviewed and, in line with Care Certificate Standard 13.3, agree a safe way forward before continuing.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a0c58a4c-f73e-491d-ac36-79c0ff00cbd5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mrs Devi normally does a stand-aid transfer, but today she is drowsy, in pain and cannot grip the handles. Her plan still says stand aid. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stop, do not force the stand-aid transfer, keep her comfortable and report the change so her assessment can be reviewed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Your dynamic risk assessment shows the plan no longer fits today; the safe course is to pause, keep her safe and get the plan reviewed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on with the stand aid because that is what the written plan says.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A plan is a starting point, not a rule to follow blindly; if the person cannot safely use the stand aid today, using it could injure you both.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Lift her across yourself just this once as she seems too weak for the stand aid.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A manual lift is hazardous and controversial practice; the answer to an unsafe stand aid is never to lift by hand.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give her some time and then insist she grips the handles and stands.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Pressing on with a move she cannot safely manage risks a fall and injury; the situation needs stopping and reviewing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "41aa6cb0-1d5d-4296-8aa5-dd0eab0c2995",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

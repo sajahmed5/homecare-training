@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stroke and heart attack</h2><p>A stroke happens when the blood supply to part of the brain is cut off, and fast action helps save brain tissue. Remember <strong>FAST</strong>: <strong>Face</strong> &mdash; has it dropped on one side?; <strong>Arms</strong> &mdash; can they raise both and keep them there?; <strong>Speech</strong> &mdash; is it slurred or muddled?; <strong>Time</strong> &mdash; if you see any one of these signs, it is time to call <strong>999</strong>.</p><p>A heart attack may cause central chest pain that can spread to the arms, neck or jaw, along with breathlessness, sweating and nausea. Call 999, help the person rest in a comfortable position, and if they are not allergic and it is to hand, offer a single 300mg aspirin to chew slowly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e87da417-3b72-4a69-91f6-10ed65118eaa",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stroke, heart and fainting",
+          "decorative": false,
+          "file": {
+            "path": "images/stroke-heart-and-fainting.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3d4abab1-907c-4f29-961d-84748461fac5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fainting, and a real scenario</h2><p>Fainting is a brief loss of consciousness caused by a temporary drop in blood flow to the brain, and the person usually recovers quickly. If someone feels faint, help them lie down and raise their legs; as they come round, reassure them and let them get up slowly.</p><p><strong>Scenario.</strong> During a lunch club, Mr Devlin suddenly cannot lift his right arm, the right side of his face has drooped, and his words are slurred. He is still awake. You recognise these as possible signs of a stroke, note the time the symptoms began, call 999, and stay with him, keeping him calm and comfortable until the ambulance arrives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e7b5f5ec-5c0a-4254-ad40-b2925a54c12c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>At a lunch club, Mr Devlin's face has drooped on one side, he cannot raise his right arm, and his speech is slurred. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Recognise the FAST signs of a stroke, call 999 immediately, and note when the symptoms started.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Face, Arms and Speech point to a stroke, and any one FAST sign means it is time to call 999; the onset time helps the hospital.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give him a cup of tea and a biscuit and see if he improves after his meal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A stroke needs urgent hospital treatment; delaying to see if he improves wastes vital time and could cause lasting harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help him walk around to get his circulation going.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Walking him around does not treat a stroke and risks a fall; the priority is to call 999 without delay.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait an hour to see whether the symptoms pass before calling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. With a stroke, the faster the response the better the outcome, so you call 999 as soon as you spot a FAST sign.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7518214b-fec0-4a97-bd52-876475a995b6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

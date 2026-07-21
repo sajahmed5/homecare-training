@@ -3,277 +3,277 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "infection-prevention-and-control",
+   "course": "basic-life-support-bls",
+   "page": 2,
+   "file": "chain-of-survival.svg",
+   "alt": "Illustration for Chain of Survival",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p2/content/images"
+  },
+  {
+   "course": "basic-life-support-bls",
    "page": 9,
-   "file": "micro-organisms-explained.svg",
-   "alt": "Illustration for Micro-organisms explained",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p9/content/images"
+   "file": "theory-then-practice.svg",
+   "alt": "Illustration for Theory then practice",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p9/content/images"
   },
   {
-   "course": "infection-prevention-and-control",
-   "page": 2,
-   "file": "the-chain-of-infection.svg",
-   "alt": "Illustration for The chain of infection",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p2/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 3,
-   "file": "standard-precautions.svg",
-   "alt": "Illustration for Standard precautions",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p3/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 10,
-   "file": "using-ppe-safely.svg",
-   "alt": "Illustration for Using PPE safely",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p10/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 6,
-   "file": "sharps-waste-spills.svg",
-   "alt": "Illustration for Sharps, waste & spills",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p6/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 13,
-   "file": "laundry-food-and-scenario.svg",
-   "alt": "Illustration for Laundry, food and scenario",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p13/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 11,
-   "file": "infections-and-outbreaks.svg",
-   "alt": "Illustration for Infections and outbreaks",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p11/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 12,
-   "file": "antibiotics-and-resistance.svg",
-   "alt": "Illustration for Antibiotics and resistance",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p12/content/images"
-  },
-  {
-   "course": "infection-prevention-and-control",
-   "page": 8,
-   "file": "sepsis-reporting.svg",
-   "alt": "Illustration for Sepsis & reporting",
-   "srcDir": "public/h5p/content/infection-prevention-and-control/p8/content/images"
-  },
-  {
-   "course": "record-keeping-and-documentation",
-   "page": 2,
-   "file": "the-rules-regulator.svg",
-   "alt": "Illustration for The rules & regulator",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p2/content/images"
-  },
-  {
-   "course": "record-keeping-and-documentation",
+   "course": "basic-life-support-bls",
    "page": 4,
-   "file": "facts-not-opinions.svg",
-   "alt": "Illustration for Facts, not opinions",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p4/content/images"
+   "file": "airway-breathing.svg",
+   "alt": "Illustration for Airway & Breathing",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p4/content/images"
   },
   {
-   "course": "record-keeping-and-documentation",
-   "page": 9,
-   "file": "data-protection-in-depth.svg",
-   "alt": "Illustration for Data protection in depth",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p9/content/images"
-  },
-  {
-   "course": "record-keeping-and-documentation",
+   "course": "basic-life-support-bls",
    "page": 10,
-   "file": "consent-and-access.svg",
-   "alt": "Illustration for Consent and access",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p10/content/images"
+   "file": "is-it-cardiac-arrest.svg",
+   "alt": "Illustration for Is it cardiac arrest?",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p10/content/images"
   },
   {
-   "course": "record-keeping-and-documentation",
+   "course": "basic-life-support-bls",
    "page": 5,
-   "file": "types-of-records.svg",
-   "alt": "Illustration for Types of records",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p5/content/images"
+   "file": "call-999-aed.svg",
+   "alt": "Illustration for Call 999 & AED",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p5/content/images"
   },
   {
-   "course": "record-keeping-and-documentation",
-   "page": 6,
-   "file": "do-s-don-ts.svg",
-   "alt": "Illustration for Do's & don'ts",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p6/content/images"
-  },
-  {
-   "course": "record-keeping-and-documentation",
+   "course": "basic-life-support-bls",
    "page": 11,
-   "file": "electronic-and-paper-records.svg",
-   "alt": "Illustration for Electronic and paper records",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p11/content/images"
+   "file": "quality-cpr-as-a-team.svg",
+   "alt": "Illustration for Quality CPR as a team",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p11/content/images"
   },
   {
-   "course": "record-keeping-and-documentation",
-   "page": 12,
-   "file": "sharing-and-caldicott.svg",
-   "alt": "Illustration for Sharing and Caldicott",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p12/content/images"
-  },
-  {
-   "course": "record-keeping-and-documentation",
+   "course": "basic-life-support-bls",
    "page": 7,
-   "file": "correcting-an-error.svg",
-   "alt": "Illustration for Correcting an error",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p7/content/images"
+   "file": "breaths-aed.svg",
+   "alt": "Illustration for Breaths & AED",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p7/content/images"
   },
   {
-   "course": "record-keeping-and-documentation",
-   "page": 13,
-   "file": "breaches-and-a-scenario.svg",
-   "alt": "Illustration for Breaches and a scenario",
-   "srcDir": "public/h5p/content/record-keeping-and-documentation/p13/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 2,
-   "file": "the-4-cs.svg",
-   "alt": "Illustration for The 4 Cs",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p2/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 9,
-   "file": "food-poisoning-risks.svg",
-   "alt": "Illustration for Food poisoning risks",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p9/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 4,
-   "file": "personal-hygiene.svg",
-   "alt": "Illustration for Personal hygiene",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p4/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 5,
-   "file": "dates-allergens-haccp.svg",
-   "alt": "Illustration for Dates, allergens & HACCP",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p5/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 10,
-   "file": "the-eatwell-guide.svg",
-   "alt": "Illustration for The Eatwell Guide",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p10/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 11,
-   "file": "hydration-in-depth.svg",
-   "alt": "Illustration for Hydration in depth",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p11/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
-   "page": 7,
-   "file": "malnutrition-must.svg",
-   "alt": "Illustration for Malnutrition & MUST",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p7/content/images"
-  },
-  {
-   "course": "food-hygiene-and-nutrition",
+   "course": "basic-life-support-bls",
    "page": 12,
-   "file": "dignity-at-mealtimes.svg",
-   "alt": "Illustration for Dignity at mealtimes",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p12/content/images"
+   "file": "using-an-aed.svg",
+   "alt": "Illustration for Using an AED",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p12/content/images"
   },
   {
-   "course": "food-hygiene-and-nutrition",
+   "course": "basic-life-support-bls",
    "page": 13,
-   "file": "special-diets-textures.svg",
-   "alt": "Illustration for Special diets & textures",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p13/content/images"
+   "file": "after-the-attempt.svg",
+   "alt": "Illustration for After the attempt",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p13/content/images"
   },
   {
-   "course": "food-hygiene-and-nutrition",
+   "course": "basic-life-support-bls",
    "page": 8,
-   "file": "dysphagia-choice.svg",
-   "alt": "Illustration for Dysphagia & choice",
-   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p8/content/images"
+   "file": "recovery-choking.svg",
+   "alt": "Illustration for Recovery & choking",
+   "srcDir": "public/h5p/content/basic-life-support-bls/p8/content/images"
   },
   {
-   "course": "safeguarding-children",
-   "page": 9,
-   "file": "the-law-and-framework.svg",
-   "alt": "Illustration for The law and framework",
-   "srcDir": "public/h5p/content/safeguarding-children/p9/content/images"
-  },
-  {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
    "page": 2,
-   "file": "categories-of-abuse.svg",
-   "alt": "Illustration for Categories of abuse",
-   "srcDir": "public/h5p/content/safeguarding-children/p2/content/images"
+   "file": "the-primary-survey-dr-abc.svg",
+   "alt": "Illustration for The primary survey (DR ABC)",
+   "srcDir": "public/h5p/content/first-aid-awareness/p2/content/images"
   },
   {
-   "course": "safeguarding-children",
-   "page": 10,
-   "file": "signs-and-indicators.svg",
-   "alt": "Illustration for Signs and indicators",
-   "srcDir": "public/h5p/content/safeguarding-children/p10/content/images"
+   "course": "first-aid-awareness",
+   "page": 9,
+   "file": "awareness-and-readiness.svg",
+   "alt": "Illustration for Awareness and readiness",
+   "srcDir": "public/h5p/content/first-aid-awareness/p9/content/images"
   },
   {
-   "course": "safeguarding-children",
-   "page": 11,
-   "file": "specific-risks.svg",
-   "alt": "Illustration for Specific risks",
-   "srcDir": "public/h5p/content/safeguarding-children/p11/content/images"
-  },
-  {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
    "page": 4,
-   "file": "in-need-or-at-risk.svg",
-   "alt": "Illustration for In need or at risk?",
-   "srcDir": "public/h5p/content/safeguarding-children/p4/content/images"
+   "file": "bleeding-shock.svg",
+   "alt": "Illustration for Bleeding & shock",
+   "srcDir": "public/h5p/content/first-aid-awareness/p4/content/images"
   },
   {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
    "page": 5,
-   "file": "if-a-child-discloses.svg",
-   "alt": "Illustration for If a child discloses",
-   "srcDir": "public/h5p/content/safeguarding-children/p5/content/images"
+   "file": "burns-choking-falls.svg",
+   "alt": "Illustration for Burns, choking & falls",
+   "srcDir": "public/h5p/content/first-aid-awareness/p5/content/images"
   },
   {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
+   "page": 10,
+   "file": "head-spine-and-bones.svg",
+   "alt": "Illustration for Head, spine and bones",
+   "srcDir": "public/h5p/content/first-aid-awareness/p10/content/images"
+  },
+  {
+   "course": "first-aid-awareness",
    "page": 7,
-   "file": "sharing-information.svg",
-   "alt": "Illustration for Sharing information",
-   "srcDir": "public/h5p/content/safeguarding-children/p7/content/images"
+   "file": "diabetic-emergencies-recovery-position.svg",
+   "alt": "Illustration for Diabetic emergencies & recovery position",
+   "srcDir": "public/h5p/content/first-aid-awareness/p7/content/images"
   },
   {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
+   "page": 11,
+   "file": "seizures-and-epilepsy.svg",
+   "alt": "Illustration for Seizures and epilepsy",
+   "srcDir": "public/h5p/content/first-aid-awareness/p11/content/images"
+  },
+  {
+   "course": "first-aid-awareness",
    "page": 12,
-   "file": "responding-and-thresholds.svg",
-   "alt": "Illustration for Responding and thresholds",
-   "srcDir": "public/h5p/content/safeguarding-children/p12/content/images"
+   "file": "allergies-and-asthma.svg",
+   "alt": "Illustration for Allergies and asthma",
+   "srcDir": "public/h5p/content/first-aid-awareness/p12/content/images"
   },
   {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
    "page": 13,
-   "file": "your-role-and-boundaries.svg",
-   "alt": "Illustration for Your role and boundaries",
-   "srcDir": "public/h5p/content/safeguarding-children/p13/content/images"
+   "file": "stroke-heart-and-fainting.svg",
+   "alt": "Illustration for Stroke, heart and fainting",
+   "srcDir": "public/h5p/content/first-aid-awareness/p13/content/images"
   },
   {
-   "course": "safeguarding-children",
+   "course": "first-aid-awareness",
    "page": 8,
-   "file": "it-could-happen-here.svg",
-   "alt": "Illustration for It could happen here",
-   "srcDir": "public/h5p/content/safeguarding-children/p8/content/images"
+   "file": "recording-reporting.svg",
+   "alt": "Illustration for Recording & reporting",
+   "srcDir": "public/h5p/content/first-aid-awareness/p8/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 2,
+   "file": "the-law.svg",
+   "alt": "Illustration for The law",
+   "srcDir": "public/h5p/content/moving-and-handling/p2/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 9,
+   "file": "your-back-at-risk.svg",
+   "alt": "Illustration for Your back at risk",
+   "srcDir": "public/h5p/content/moving-and-handling/p9/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 4,
+   "file": "tile-risk-assessment.svg",
+   "alt": "Illustration for TILE risk assessment",
+   "srcDir": "public/h5p/content/moving-and-handling/p4/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 5,
+   "file": "safe-principles.svg",
+   "alt": "Illustration for Safe principles",
+   "srcDir": "public/h5p/content/moving-and-handling/p5/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 10,
+   "file": "equipment-in-depth.svg",
+   "alt": "Illustration for Equipment in depth",
+   "srcDir": "public/h5p/content/moving-and-handling/p10/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 11,
+   "file": "everyday-tasks-safely.svg",
+   "alt": "Illustration for Everyday tasks safely",
+   "srcDir": "public/h5p/content/moving-and-handling/p11/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 12,
+   "file": "when-someone-falls.svg",
+   "alt": "Illustration for When someone falls",
+   "srcDir": "public/h5p/content/moving-and-handling/p12/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 13,
+   "file": "changing-needs.svg",
+   "alt": "Illustration for Changing needs",
+   "srcDir": "public/h5p/content/moving-and-handling/p13/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 7,
+   "file": "never-lift-person-centred.svg",
+   "alt": "Illustration for Never lift & person-centred",
+   "srcDir": "public/h5p/content/moving-and-handling/p7/content/images"
+  },
+  {
+   "course": "moving-and-handling",
+   "page": 8,
+   "file": "reporting-review.svg",
+   "alt": "Illustration for Reporting & review",
+   "srcDir": "public/h5p/content/moving-and-handling/p8/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 2,
+   "file": "how-fire-works.svg",
+   "alt": "Illustration for How fire works",
+   "srcDir": "public/h5p/content/fire-safety/p2/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 9,
+   "file": "the-law-duties.svg",
+   "alt": "Illustration for The law & duties",
+   "srcDir": "public/h5p/content/fire-safety/p9/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 4,
+   "file": "emollient-cream-risk.svg",
+   "alt": "Illustration for Emollient cream risk",
+   "srcDir": "public/h5p/content/fire-safety/p4/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 10,
+   "file": "preventing-fire-daily.svg",
+   "alt": "Illustration for Preventing fire daily",
+   "srcDir": "public/h5p/content/fire-safety/p10/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 11,
+   "file": "extinguisher-types-classes.svg",
+   "alt": "Illustration for Extinguisher types & classes",
+   "srcDir": "public/h5p/content/fire-safety/p11/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 7,
+   "file": "evacuation-peeps.svg",
+   "alt": "Illustration for Evacuation & PEEPs",
+   "srcDir": "public/h5p/content/fire-safety/p7/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 12,
+   "file": "evacuation-strategies.svg",
+   "alt": "Illustration for Evacuation strategies",
+   "srcDir": "public/h5p/content/fire-safety/p12/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 13,
+   "file": "fire-wardens-drills.svg",
+   "alt": "Illustration for Fire wardens & drills",
+   "srcDir": "public/h5p/content/fire-safety/p13/content/images"
+  },
+  {
+   "course": "fire-safety",
+   "page": 8,
+   "file": "if-a-fire-starts.svg",
+   "alt": "Illustration for If a fire starts",
+   "srcDir": "public/h5p/content/fire-safety/p8/content/images"
   }
  ]
 }

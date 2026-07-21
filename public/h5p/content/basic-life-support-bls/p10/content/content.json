@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What cardiac arrest looks like</h2><p>Cardiac arrest happens when the heart stops pumping blood properly. The person suddenly becomes <strong>unresponsive</strong> and is <strong>not breathing normally</strong>. If you have checked for danger, tried to rouse them, opened the airway and then looked, listened and felt for no more than ten seconds, and breathing is absent or abnormal, treat it as cardiac arrest and start CPR.</p><p>In the first minutes, some people take slow, gasping, snoring or irregular breaths. These are called <strong>agonal breaths</strong>. They are a sign of cardiac arrest, not of recovery, and you must not let them fool you into waiting. If you are in any doubt, start CPR.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2710b72c-efbb-4612-bbfa-9ca2795e681d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Is it cardiac arrest?",
+          "decorative": false,
+          "file": {
+            "path": "images/is-it-cardiac-arrest.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "57560fae-f0f2-4982-ae14-bb36c8d2706a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When it is a different emergency</h2><p>Not every collapse is a cardiac arrest, and CPR is only for someone who is unresponsive and not breathing normally.</p><ul><li><strong>Breathing normally:</strong> if an unresponsive person is breathing normally, place them in the recovery position and call for help.</li><li><strong>Fainting or a seizure:</strong> protect them from injury and check them once it passes; they usually keep breathing on their own.</li><li><strong>Conscious and struggling:</strong> chest pain or breathlessness needs a 999 call, but not compressions while the heart is still beating.</li></ul><p>You may also come across a valid <strong>DNACPR</strong> or <strong>ReSPECT</strong> decision that says CPR should not be attempted; you will look at these later. If you are ever unsure, phone 999 and the call handler will guide you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0d80795d-9e92-484c-bef7-23a37a156af8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find a man collapsed and unresponsive. Over the next ten seconds he takes a few slow, noisy, irregular gasps. What does this most likely mean?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>These are agonal gasps, a sign of cardiac arrest &mdash; treat him as not breathing normally and start CPR.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Occasional gasping breaths after a collapse are agonal breathing and point to cardiac arrest, so CPR should begin at once.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>He is breathing normally, so place him in the recovery position and monitor him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Slow, irregular gasps are not normal breathing; treating them as recovery would fatally delay CPR.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>He is simply asleep, so leave him and check again in a few minutes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An unresponsive person who only gasps is in cardiac arrest; waiting would cost vital minutes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>He is choking, so give five back blows straight away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. There is nothing here to suggest a blocked airway; unresponsive plus abnormal breathing means start CPR.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f228f1c5-5445-4882-b284-e27a1517bbc3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -3,60 +3,95 @@
   "title": "Fire Safety",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "fire-safety/p1",
-      "type": "h5p",
       "label": "Why fire safety matters",
-      "section": "How fires start",
-      "questions": 1
+      "questions": 1,
+      "section": "Why fire safety matters"
     },
     {
+      "type": "h5p",
       "path": "fire-safety/p2",
-      "type": "h5p",
       "label": "How fire works",
-      "section": "How fires start",
-      "questions": 1
+      "questions": 1,
+      "section": "Why fire safety matters"
     },
     {
+      "type": "h5p",
+      "path": "fire-safety/p9",
+      "label": "The law & duties",
+      "questions": 1,
+      "section": "The law and preventing fire"
+    },
+    {
+      "type": "h5p",
       "path": "fire-safety/p3",
-      "type": "h5p",
       "label": "Causes of fire in care",
-      "section": "Fire risks in care",
-      "questions": 1
+      "questions": 1,
+      "section": "The law and preventing fire"
     },
     {
+      "type": "h5p",
       "path": "fire-safety/p4",
-      "type": "h5p",
       "label": "Emollient cream risk",
-      "section": "Fire risks in care",
-      "questions": 1
+      "questions": 1,
+      "section": "The law and preventing fire"
     },
     {
+      "type": "h5p",
+      "path": "fire-safety/p10",
+      "label": "Preventing fire daily",
+      "questions": 1,
+      "section": "The law and preventing fire"
+    },
+    {
+      "type": "h5p",
       "path": "fire-safety/p5",
-      "type": "h5p",
       "label": "Detection & alarms",
-      "section": "Detecting and fighting fire",
-      "questions": 1
+      "questions": 1,
+      "section": "Detecting and fighting fire"
     },
     {
+      "type": "h5p",
       "path": "fire-safety/p6",
-      "type": "h5p",
       "label": "Extinguishers & PASS",
-      "section": "Detecting and fighting fire",
-      "questions": 0
+      "questions": 0,
+      "section": "Detecting and fighting fire"
     },
     {
+      "type": "h5p",
+      "path": "fire-safety/p11",
+      "label": "Extinguisher types & classes",
+      "questions": 1,
+      "section": "Detecting and fighting fire"
+    },
+    {
+      "type": "h5p",
       "path": "fire-safety/p7",
-      "type": "h5p",
       "label": "Evacuation & PEEPs",
-      "section": "Getting everyone out",
-      "questions": 1
+      "questions": 1,
+      "section": "Evacuating safely"
     },
     {
-      "path": "fire-safety/p8",
       "type": "h5p",
+      "path": "fire-safety/p12",
+      "label": "Evacuation strategies",
+      "questions": 1,
+      "section": "Evacuating safely"
+    },
+    {
+      "type": "h5p",
+      "path": "fire-safety/p13",
+      "label": "Fire wardens & drills",
+      "questions": 1,
+      "section": "Roles, drills and after a fire"
+    },
+    {
+      "type": "h5p",
+      "path": "fire-safety/p8",
       "label": "If a fire starts",
-      "section": "Getting everyone out",
-      "questions": 2
+      "questions": 2,
+      "section": "Roles, drills and after a fire"
     }
   ]
 }

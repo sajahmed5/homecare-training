@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Progressive horizontal evacuation and fire doors</h2><p>Many care buildings are designed so that people do not have to leave the building straight away. Progressive horizontal evacuation means moving people sideways, through fire doors into an adjoining fire compartment on the same floor, away from the fire but still in a place of relative safety. This suits people who are frail or hard to move quickly, and it buys time.</p><p>Fire doors are central to this. They hold back smoke and flames for a set period, giving people time to move to safety. Never wedge or prop a fire door open, and make sure nothing stops it closing fully.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c5a103c0-7194-4403-9adf-9b4811998f0e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Evacuation strategies",
+          "decorative": false,
+          "file": {
+            "path": "images/evacuation-strategies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "80ba3918-7322-4c08-9336-0df892426951",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stay put, simultaneous evacuation and PEEPs</h2><p>Your fire risk assessment sets the evacuation strategy for the building, and you must know which one applies where you work.</p><ul><li><strong>Simultaneous evacuation:</strong> everyone leaves at once to the assembly point when the alarm sounds &mdash; common in smaller settings.</li><li><strong>Stay put:</strong> in some buildings, people in unaffected areas stay where they are while the fire is contained, unless staff or the fire service tell them to move.</li><li><strong>Assembly point:</strong> gather at the agreed place so everyone can be accounted for, and never go back inside for any reason.</li></ul><p>A Personal Emergency Evacuation Plan (PEEP) records the help each person needs &mdash; equipment such as an evacuation sledge, how many staff, and their communication needs &mdash; so no one is overlooked in an emergency.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "db7c1dbf-23b0-4e09-b87b-c1e7ce6d57b1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is acceptable to wedge a fire door open on a warm day, as long as staff are working nearby.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: fire doors must always be able to close fully, because a propped-open door lets smoke and fire spread and undermines the whole evacuation strategy.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Fire doors must be free to close so they can hold back smoke and flames; wedging one open removes that protection and puts everyone at risk."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "75ced167-32f0-4b54-bfc0-2272011762a1",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

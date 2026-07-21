@@ -3,60 +3,95 @@
   "title": "First Aid Awareness",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "first-aid-awareness/p1",
-      "type": "h5p",
       "label": "Welcome & the first aider's role",
-      "section": "Your role as first aider",
-      "questions": 1
+      "questions": 1,
+      "section": "Your role and readiness"
     },
     {
+      "type": "h5p",
       "path": "first-aid-awareness/p2",
-      "type": "h5p",
       "label": "The primary survey (DR ABC)",
-      "section": "Your role as first aider",
-      "questions": 1
+      "questions": 1,
+      "section": "Your role and readiness"
     },
     {
+      "type": "h5p",
       "path": "first-aid-awareness/p3",
-      "type": "h5p",
       "label": "Calling for help",
-      "section": "Your role as first aider",
-      "questions": 1
+      "questions": 1,
+      "section": "Your role and readiness"
     },
     {
+      "type": "h5p",
+      "path": "first-aid-awareness/p9",
+      "label": "Awareness and readiness",
+      "questions": 1,
+      "section": "Your role and readiness"
+    },
+    {
+      "type": "h5p",
       "path": "first-aid-awareness/p4",
-      "type": "h5p",
       "label": "Bleeding & shock",
-      "section": "Bleeding, burns and injuries",
-      "questions": 1
+      "questions": 1,
+      "section": "Wounds and physical injuries"
     },
     {
+      "type": "h5p",
       "path": "first-aid-awareness/p5",
-      "type": "h5p",
       "label": "Burns, choking & falls",
-      "section": "Bleeding, burns and injuries",
-      "questions": 1
+      "questions": 1,
+      "section": "Wounds and physical injuries"
     },
     {
+      "type": "h5p",
+      "path": "first-aid-awareness/p10",
+      "label": "Head, spine and bones",
+      "questions": 1,
+      "section": "Wounds and physical injuries"
+    },
+    {
+      "type": "h5p",
       "path": "first-aid-awareness/p6",
-      "type": "h5p",
       "label": "Medical emergencies",
-      "section": "Medical emergencies",
-      "questions": 1
+      "questions": 1,
+      "section": "Medical emergencies"
     },
     {
+      "type": "h5p",
       "path": "first-aid-awareness/p7",
-      "type": "h5p",
       "label": "Diabetic emergencies & recovery position",
-      "section": "Medical emergencies",
-      "questions": 1
+      "questions": 1,
+      "section": "Medical emergencies"
     },
     {
-      "path": "first-aid-awareness/p8",
       "type": "h5p",
+      "path": "first-aid-awareness/p11",
+      "label": "Seizures and epilepsy",
+      "questions": 1,
+      "section": "Medical emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "first-aid-awareness/p12",
+      "label": "Allergies and asthma",
+      "questions": 1,
+      "section": "Life-threatening emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "first-aid-awareness/p13",
+      "label": "Stroke, heart and fainting",
+      "questions": 1,
+      "section": "Life-threatening emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "first-aid-awareness/p8",
       "label": "Recording & reporting",
-      "section": "Recording and reporting",
-      "questions": 1
+      "questions": 1,
+      "section": "Recording and reporting"
     }
   ]
 }

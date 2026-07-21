@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowledge is only half the training</h2><p>This course teaches the knowledge element of moving and handling &mdash; the law, the principles and the reasons behind safe practice. It cannot make you competent on its own. Safe moving and handling needs practical, hands-on training. Before you move any person or any load as part of your work, you must also complete practical training and be assessed as competent by a qualified trainer or assessor. Only ever use equipment you have been trained to use; if you have not been shown how to use a piece of equipment, do not use it.</p><p>With that in mind, this page explains why technique matters so much. The part of you most at risk is your back.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "73f4c5ec-f14b-4ff9-bc61-cc34c7e2b200",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your back at risk",
+          "decorative": false,
+          "file": {
+            "path": "images/your-back-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0017a618-4965-46d0-8c48-9230faa99843",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your spine and how it gets hurt</h2><p>Your spine is a column of small bones called vertebrae, cushioned by soft discs and held together by muscles and ligaments. It is strong when you keep its natural curves and work close to your body, but it is easily overloaded. Back injuries in care rarely come from one dramatic lift; more often they build up over months of small, awkward strains.</p><ul><li><strong>Bending and twisting:</strong> loading the spine while it is curved or turned puts great strain on the discs.</li><li><strong>Reaching and stooping:</strong> holding weight away from your body multiplies the force through your back.</li><li><strong>Repetition and fatigue:</strong> the same task done many times, or when you are tired, wears the back down.</li></ul><p>Damage such as a slipped disc or long-term back pain can end a career, which is exactly why the Manual Handling Operations Regulations 1992 exist.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "20571460-86ae-4013-a6e6-30bcb55080a4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Most back injuries in care work are caused by a single heavy lift going wrong.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: back injuries usually build up over time from repeated awkward movements, not from a single heavy lift.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Most back damage builds up gradually from repeated bending, twisting, stooping and reaching, often while tired, rather than from one dramatic lift."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "e3597066-3836-46e9-a821-e1b0382d8dd2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

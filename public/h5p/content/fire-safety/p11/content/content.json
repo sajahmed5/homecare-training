@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fire classes and the right extinguisher</h2><p>Fires are grouped into classes by what is burning, and using the wrong extinguisher can make matters far worse. You are not expected to be an expert, but a basic awareness helps you understand the equipment around you and why it is placed where it is.</p><ul><li><strong>Class A</strong> &mdash; solids such as paper, wood and fabric: water or foam.</li><li><strong>Class B</strong> &mdash; flammable liquids such as petrol or spirits: foam, carbon dioxide or powder.</li><li><strong>Class C</strong> &mdash; flammable gases: the supply should be shut off; powder may be used.</li><li><strong>Electrical fires:</strong> carbon dioxide (CO2) suits live electrical equipment and leaves no residue.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bc2ed409-bb1d-46c9-8dce-305d2fbe40f6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Extinguisher types & classes",
+          "decorative": false,
+          "file": {
+            "path": "images/extinguisher-types-classes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "500909a1-d08a-4d45-8d44-1c0b674767b2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Cooking fires and when not to fight</h2><p>Two further types matter in care settings. Wet chemical extinguishers are made for Class F fires &mdash; cooking oils and deep fat &mdash; while dry powder is versatile but creates a choking cloud that is unpleasant and hard to see through indoors. Colour-coded labels help you tell them apart.</p><p>Fighting a fire is always a last resort. Only ever tackle a small fire if you have been trained, it is not spreading, you have raised the alarm first, and you have a clear escape route at your back. Never use water on electrical equipment or on a cooking-oil fire. If you are in any doubt at all, get out and leave it to the fire service.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2c01733c-8983-46e2-8551-1cd71c2b3aea",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A small fire has started in live electrical equipment. Which extinguisher is most suitable, and what is the safest overall approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Carbon dioxide (CO2), but only tackle it if trained, it is not spreading and you have raised the alarm and kept an escape route.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. CO2 suits electrical fires, and fighting any fire is a last resort that depends on training, a contained fire and a clear exit.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A water extinguisher, aimed straight at the equipment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Water conducts electricity and must never be used on live electrical equipment; CO2 is the safer choice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A wet chemical extinguisher.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Wet chemical is designed for cooking-oil (Class F) fires, not electrical equipment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any extinguisher will do, so grab the nearest one and start spraying.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Using the wrong extinguisher can make a fire worse, and fighting a fire is only ever a last resort when it is safe to do so.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0b277310-e44e-4781-a2d7-f57b0d4abfa7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

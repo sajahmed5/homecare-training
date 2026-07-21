@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Attaching an AED</h2><p>An automated external defibrillator (AED) analyses the heart rhythm and, if it is needed, delivers a controlled electric shock to help the heart re-establish a normal beat. It is designed for untrained members of the public, so you cannot easily go wrong: <strong>turn it on and do exactly what it tells you</strong>.</p><p>Bare the chest and attach the sticky pads to clean, dry skin exactly as shown on the pictures &mdash; one below the right collarbone, the other on the left side below the armpit. If a second rescuer is there, keep chest compressions going while the pads are being put on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0a797b91-5595-421e-99b0-53e6aaee5d74",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Using an AED",
+          "decorative": false,
+          "file": {
+            "path": "images/using-an-aed.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7fb2aa59-b35a-495d-9adf-e8efbb7923b1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying safe and special situations</h2><p>The AED will tell everyone to stand clear while it analyses the rhythm and while it shocks. Nobody must be touching the casualty at that moment.</p><ul><li><strong>Dry the chest:</strong> wipe off sweat or water so the pads stick and the shock is not spread across wet skin.</li><li><strong>Move hazards:</strong> keep pads clear of jewellery, medication patches and any implanted pacemaker lump.</li><li><strong>Oxygen away:</strong> move any oxygen mask away from the chest before a shock is given.</li><li><strong>Children:</strong> for a child use paediatric pads or a paediatric setting if available, but never delay using a standard AED if that is all you have.</li></ul><p>Follow the voice prompts and get back to compressions the instant you are told to.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40ac82c3-4d30-4d73-a585-fbe333951fb8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about using an AED safely.</p></p>",
+          "textField": "An AED will only deliver a *shock* if the heart rhythm actually needs one. Attach the *pads* to the casualty&rsquo;s bare, dry chest exactly as shown in the pictures. Then simply follow the spoken *prompts* the machine gives you. Before any shock, make sure that nobody is *touching* the casualty. Keep giving good chest compressions and only *pause* them when the AED tells you to.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "26766aa9-50b0-4d88-bd30-ac756597caea",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

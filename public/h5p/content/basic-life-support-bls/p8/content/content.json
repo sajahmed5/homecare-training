@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Recovery position and choking</h2><h3>The recovery position</h3><p>If a person is <strong>unresponsive but breathing normally</strong>, place them in the <strong>recovery position</strong>. Rolling them onto their side keeps the airway open and lets any fluids or vomit drain out rather than blocking their breathing. Tilt the head slightly back, keep monitoring their breathing, and be ready to start CPR if they stop breathing normally.</p><h3>Choking (person still conscious)</h3><p>If someone is choking, follow this sequence:</p><ul><li><strong>Encourage coughing</strong> &mdash; if they can still cough, speak or breathe, encourage them to cough hard to clear the blockage themselves.</li><li><strong>5 back blows</strong> &mdash; if the cough is ineffective, lean them forward and give up to five sharp blows between the shoulder blades with the heel of your hand.</li><li><strong>5 abdominal thrusts</strong> &mdash; if back blows fail, stand behind them, place a fist between the navel and breastbone, grasp it with your other hand and pull sharply inwards and upwards up to five times.</li></ul><p>Repeat five back blows and five abdominal thrusts, checking the mouth each time. Call 999 if the blockage does not clear. If the person becomes unresponsive, start CPR.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"3c8c4be2-dc87-4a5f-a1f6-6eddff9a4ec1","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>If someone is choking but can still cough forcefully, your first action should be to give five abdominal thrusts.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. If they can cough forcefully, encourage coughing first. Back blows and abdominal thrusts come only when the cough becomes ineffective.","correctAnswerMessage":"Correct. While they can cough effectively, encourage them to keep coughing. Back blows and abdominal thrusts are only for when coughing fails."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"2683f843-eacc-45f0-95cc-3ece65832655","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Remember</h2><p>You have now covered the principles of adult BLS: the Chain of Survival, DRABC, opening the airway and checking breathing, calling 999, high-quality compressions, rescue breaths, using an AED, the recovery position and choking.</p><p><strong>This awareness module does not replace hands-on, certificated BLS/CPR training with a manikin.</strong> Make sure you attend accredited practical training and keep your skills up to date. In a real emergency, act quickly &mdash; doing something is always better than doing nothing.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"43ddd0b4-964f-4e78-9c0b-f41eb25f2002","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recovery position and choking</h2><h3>The recovery position</h3><p>If a person is <strong>unresponsive but breathing normally</strong>, place them in the <strong>recovery position</strong>. Rolling them onto their side keeps the airway open and lets any fluids or vomit drain out rather than blocking their breathing. Tilt the head slightly back, keep monitoring their breathing, and be ready to start CPR if they stop breathing normally.</p><h3>Choking (person still conscious)</h3><p>If someone is choking, follow this sequence:</p><ul><li><strong>Encourage coughing</strong> &mdash; if they can still cough, speak or breathe, encourage them to cough hard to clear the blockage themselves.</li><li><strong>5 back blows</strong> &mdash; if the cough is ineffective, lean them forward and give up to five sharp blows between the shoulder blades with the heel of your hand.</li><li><strong>5 abdominal thrusts</strong> &mdash; if back blows fail, stand behind them, place a fist between the navel and breastbone, grasp it with your other hand and pull sharply inwards and upwards up to five times.</li></ul><p>Repeat five back blows and five abdominal thrusts, checking the mouth each time. Call 999 if the blockage does not clear. If the person becomes unresponsive, start CPR.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3c8c4be2-dc87-4a5f-a1f6-6eddff9a4ec1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recovery & choking",
+          "decorative": false,
+          "file": {
+            "path": "images/recovery-choking.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ef9d23d1-846c-46be-a5d4-307e7abb5c42",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone is choking but can still cough forcefully, your first action should be to give five abdominal thrusts.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. If they can cough forcefully, encourage coughing first. Back blows and abdominal thrusts come only when the cough becomes ineffective.",
+            "correctAnswerMessage": "Correct. While they can cough effectively, encourage them to keep coughing. Back blows and abdominal thrusts are only for when coughing fails."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "2683f843-eacc-45f0-95cc-3ece65832655",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Remember</h2><p>You have now covered the principles of adult BLS: the Chain of Survival, DRABC, opening the airway and checking breathing, calling 999, high-quality compressions, rescue breaths, using an AED, the recovery position and choking.</p><p><strong>This awareness module does not replace hands-on, certificated BLS/CPR training with a manikin.</strong> Make sure you attend accredited practical training and keep your skills up to date. In a real emergency, act quickly &mdash; doing something is always better than doing nothing.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "43ddd0b4-964f-4e78-9c0b-f41eb25f2002",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

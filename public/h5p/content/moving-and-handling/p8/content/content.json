@@ -1,1 +1,116 @@
-{"content":[{"content":{"params":{"text":"<h2>Reporting concerns and faulty equipment</h2><p>Safe handling depends on equipment that works and risks that are flagged early. You have a duty to speak up.</p><ul><li><strong>Faulty equipment:</strong> if a hoist, sling or other aid is damaged, worn or overdue for inspection, take it out of use, label it clearly and report it immediately. Do not use equipment you suspect is unsafe.</li><li><strong>LOLER inspections:</strong> hoists and slings used to lift people must be thoroughly examined by a competent person at least every six months. Never use a hoist that has no current inspection record.</li><li><strong>Concerns and near misses:</strong> report unsafe practices, injuries and near misses through your provider's system so they can be learned from and put right.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"9a5524a3-567b-4865-90a9-11b927cc0cfd","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Key takeaways</h2><ul><li>Safe moving and handling protects both you and the people you support from serious harm.</li><li>Work through the hierarchy: <strong>Avoid &rarr; Assess &rarr; Reduce</strong>, and use <strong>TILE</strong> to assess each move.</li><li>Keep a stable base, bend your knees, keep the load close and never twist.</li><li>Use the right equipment, only when trained; follow the person's care plan; never use banned lifts.</li><li>Report faulty equipment and concerns straight away &mdash; and remember practical, hands-on training is essential before you carry out any handling task.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"b2e77eba-a45d-4bbc-b86f-e7c018fc801e","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You notice a sling has a frayed strap. What is the correct action?</p>","answers":[{"correct":true,"text":"<div>Take it out of use, label it, and report it straight away</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Damaged equipment must be removed from use and reported so it can be repaired or replaced before anyone is put at risk.","notChosenFeedback":""}},{"correct":false,"text":"<div>Use it carefully just for today until it can be checked</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No &mdash; a frayed sling could fail and drop the person. Never use equipment you suspect is unsafe.","notChosenFeedback":""}},{"correct":false,"text":"<div>Leave it where it is for the next shift to notice</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No &mdash; leaving faulty equipment in circulation risks serious injury. Remove and report it immediately.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"21ca6e34-ad12-4207-94ec-65aa1ecbcc32","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting concerns and faulty equipment</h2><p>Safe handling depends on equipment that works and risks that are flagged early. You have a duty to speak up.</p><ul><li><strong>Faulty equipment:</strong> if a hoist, sling or other aid is damaged, worn or overdue for inspection, take it out of use, label it clearly and report it immediately. Do not use equipment you suspect is unsafe.</li><li><strong>LOLER inspections:</strong> hoists and slings used to lift people must be thoroughly examined by a competent person at least every six months. Never use a hoist that has no current inspection record.</li><li><strong>Concerns and near misses:</strong> report unsafe practices, injuries and near misses through your provider's system so they can be learned from and put right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9a5524a3-567b-4865-90a9-11b927cc0cfd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting & review",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-review.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2dcca521-2d22-4c39-976a-7002bb51aaa5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Key takeaways</h2><ul><li>Safe moving and handling protects both you and the people you support from serious harm.</li><li>Work through the hierarchy: <strong>Avoid &rarr; Assess &rarr; Reduce</strong>, and use <strong>TILE</strong> to assess each move.</li><li>Keep a stable base, bend your knees, keep the load close and never twist.</li><li>Use the right equipment, only when trained; follow the person's care plan; never use banned lifts.</li><li>Report faulty equipment and concerns straight away &mdash; and remember practical, hands-on training is essential before you carry out any handling task.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b2e77eba-a45d-4bbc-b86f-e7c018fc801e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice a sling has a frayed strap. What is the correct action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Take it out of use, label it, and report it straight away</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Damaged equipment must be removed from use and reported so it can be repaired or replaced before anyone is put at risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use it carefully just for today until it can be checked</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a frayed sling could fail and drop the person. Never use equipment you suspect is unsafe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave it where it is for the next shift to notice</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; leaving faulty equipment in circulation risks serious injury. Remove and report it immediately.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "21ca6e34-ad12-4207-94ec-65aa1ecbcc32",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

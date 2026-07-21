@@ -1,1 +1,95 @@
-{"content":[{"content":{"params":{"text":"<h2>The Chain of Survival</h2><p>Survival from cardiac arrest depends on a series of linked actions happening quickly, one after another. Resuscitation Council UK describes this as the <strong>Chain of Survival</strong>. Each link relies on the ones before it &mdash; the chain is only as strong as its weakest link.</p><ul><li><strong>Early recognition and call for help</strong> &mdash; spot the emergency and call 999 to get the ambulance service on its way.</li><li><strong>Early CPR</strong> &mdash; start chest compressions straight away to buy time and keep blood moving to the brain.</li><li><strong>Early defibrillation</strong> &mdash; use an automated external defibrillator (AED) as soon as possible to try to restart a normal heart rhythm.</li><li><strong>Post-resuscitation care</strong> &mdash; expert treatment by paramedics and in hospital to give the best chance of a full recovery.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"b3f8a7be-7334-4b5e-81ca-627a024638ca","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>The four links in the Chain of Survival. Tap each card to reveal why that link matters.</p>","dialogs":[{"text":"<p>Link 1: Early recognition and call for help</p>","answer":"<p>Recognising cardiac arrest early and calling 999 immediately gets skilled help on the way and stops precious minutes being lost.</p>","tips":{}},{"text":"<p>Link 2: Early CPR</p>","answer":"<p>Starting chest compressions straight away keeps oxygen-carrying blood flowing to the brain and buys time until a defibrillator arrives.</p>","tips":{}},{"text":"<p>Link 3: Early defibrillation</p>","answer":"<p>Using an AED quickly can shock the heart back into a normal rhythm. The chance of survival falls with every minute of delay.</p>","tips":{}},{"text":"<p>Link 4: Post-resuscitation care</p>","answer":"<p>Once the heart is restarted, expert care from paramedics and hospital teams gives the person the best chance of a good recovery.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"2543952e-9c70-4917-bbfa-675f9bc65f2b","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Chain of Survival</h2><p>Survival from cardiac arrest depends on a series of linked actions happening quickly, one after another. Resuscitation Council UK describes this as the <strong>Chain of Survival</strong>. Each link relies on the ones before it &mdash; the chain is only as strong as its weakest link.</p><ul><li><strong>Early recognition and call for help</strong> &mdash; spot the emergency and call 999 to get the ambulance service on its way.</li><li><strong>Early CPR</strong> &mdash; start chest compressions straight away to buy time and keep blood moving to the brain.</li><li><strong>Early defibrillation</strong> &mdash; use an automated external defibrillator (AED) as soon as possible to try to restart a normal heart rhythm.</li><li><strong>Post-resuscitation care</strong> &mdash; expert treatment by paramedics and in hospital to give the best chance of a full recovery.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b3f8a7be-7334-4b5e-81ca-627a024638ca",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Chain of Survival",
+          "decorative": false,
+          "file": {
+            "path": "images/chain-of-survival.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "99200904-693c-4821-804e-c02b9d5037d3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>The four links in the Chain of Survival. Tap each card to reveal why that link matters.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Link 1: Early recognition and call for help</p>",
+              "answer": "<p>Recognising cardiac arrest early and calling 999 immediately gets skilled help on the way and stops precious minutes being lost.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Link 2: Early CPR</p>",
+              "answer": "<p>Starting chest compressions straight away keeps oxygen-carrying blood flowing to the brain and buys time until a defibrillator arrives.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Link 3: Early defibrillation</p>",
+              "answer": "<p>Using an AED quickly can shock the heart back into a normal rhythm. The chance of survival falls with every minute of delay.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Link 4: Post-resuscitation care</p>",
+              "answer": "<p>Once the heart is restarted, expert care from paramedics and hospital teams gives the person the best chance of a good recovery.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "2543952e-9c70-4917-bbfa-675f9bc65f2b",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

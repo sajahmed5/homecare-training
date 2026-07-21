@@ -3,60 +3,95 @@
   "title": "Basic Life Support (BLS)",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "basic-life-support-bls/p1",
-      "type": "h5p",
       "label": "What BLS is",
-      "section": "Why BLS saves lives",
-      "questions": 0
+      "questions": 0,
+      "section": "Understanding BLS"
     },
     {
+      "type": "h5p",
       "path": "basic-life-support-bls/p2",
-      "type": "h5p",
       "label": "Chain of Survival",
-      "section": "Why BLS saves lives",
-      "questions": 0
+      "questions": 0,
+      "section": "Understanding BLS"
     },
     {
+      "type": "h5p",
+      "path": "basic-life-support-bls/p9",
+      "label": "Theory then practice",
+      "questions": 1,
+      "section": "Understanding BLS"
+    },
+    {
+      "type": "h5p",
       "path": "basic-life-support-bls/p3",
-      "type": "h5p",
       "label": "Danger & Response",
-      "section": "Checking the casualty",
-      "questions": 1
+      "questions": 1,
+      "section": "Checking the casualty"
     },
     {
+      "type": "h5p",
       "path": "basic-life-support-bls/p4",
-      "type": "h5p",
       "label": "Airway & Breathing",
-      "section": "Checking the casualty",
-      "questions": 1
+      "questions": 1,
+      "section": "Checking the casualty"
     },
     {
+      "type": "h5p",
+      "path": "basic-life-support-bls/p10",
+      "label": "Is it cardiac arrest?",
+      "questions": 1,
+      "section": "Checking the casualty"
+    },
+    {
+      "type": "h5p",
       "path": "basic-life-support-bls/p5",
-      "type": "h5p",
       "label": "Call 999 & AED",
-      "section": "Getting help and starting CPR",
-      "questions": 1
+      "questions": 1,
+      "section": "Getting help and starting CPR"
     },
     {
+      "type": "h5p",
       "path": "basic-life-support-bls/p6",
-      "type": "h5p",
       "label": "Chest compressions",
-      "section": "Getting help and starting CPR",
-      "questions": 1
+      "questions": 1,
+      "section": "Getting help and starting CPR"
     },
     {
+      "type": "h5p",
+      "path": "basic-life-support-bls/p11",
+      "label": "Quality CPR as a team",
+      "questions": 1,
+      "section": "Getting help and starting CPR"
+    },
+    {
+      "type": "h5p",
       "path": "basic-life-support-bls/p7",
-      "type": "h5p",
       "label": "Breaths & AED",
-      "section": "Breaths, AED and aftercare",
-      "questions": 1
+      "questions": 1,
+      "section": "Breaths, the AED and teamwork"
     },
     {
-      "path": "basic-life-support-bls/p8",
       "type": "h5p",
+      "path": "basic-life-support-bls/p12",
+      "label": "Using an AED",
+      "questions": 1,
+      "section": "Breaths, the AED and teamwork"
+    },
+    {
+      "type": "h5p",
+      "path": "basic-life-support-bls/p13",
+      "label": "After the attempt",
+      "questions": 1,
+      "section": "After the emergency"
+    },
+    {
+      "type": "h5p",
+      "path": "basic-life-support-bls/p8",
       "label": "Recovery & choking",
-      "section": "Breaths, AED and aftercare",
-      "questions": 1
+      "questions": 1,
+      "section": "After the emergency"
     }
   ]
 }

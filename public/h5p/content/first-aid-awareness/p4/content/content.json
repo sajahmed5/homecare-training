@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Managing severe bleeding</h2><p>Heavy bleeding needs to be controlled quickly. If you have them, put on protective gloves to reduce the risk of infection. Then:</p><ul><li><strong>Apply pressure:</strong> press firmly on the wound with a sterile dressing or a clean, non-fluffy pad. If an object is embedded, press <em>around</em> it rather than on it &mdash; never pull it out.</li><li><strong>Dress the wound:</strong> secure the dressing with a bandage, firm enough to keep pressure on but not so tight it cuts off circulation.</li><li><strong>Support and reassure:</strong> help the casualty sit or lie down and support the injured part.</li></ul><p>Call 999 or 112. If blood soaks through, add another dressing on top and keep up the pressure.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ea5597db-e09f-484f-8909-513037c6430c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Recognising shock</h2><p>Serious blood loss (or other causes) can lead to <strong>shock</strong> &mdash; a life-threatening state where not enough oxygen reaches the vital organs. Watch for pale, cold, clammy skin, a fast but weak pulse, rapid shallow breathing, and the casualty feeling faint, dizzy, sick or anxious.</p><p>To help: lay them down, <strong>raise and support their legs</strong> above the level of the heart, loosen tight clothing, keep them warm with a blanket, and reassure them. Do not give food or drink. Call 999 and monitor their breathing, ready to start CPR if they become unresponsive.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"cf86c462-1013-4580-a56e-021ef52e0074","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>If an object such as a shard of glass is embedded in a bleeding wound, you should pull it out and then press on the wound.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Never remove an embedded object &mdash; pulling it out can cause worse bleeding. Press around it instead.","correctAnswerMessage":"Correct. Leave an embedded object in place &mdash; it may be plugging the wound. Apply pressure around it and get medical help."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"48c8db3b-77af-46ad-9469-9152513a9a85","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Managing severe bleeding</h2><p>Heavy bleeding needs to be controlled quickly. If you have them, put on protective gloves to reduce the risk of infection. Then:</p><ul><li><strong>Apply pressure:</strong> press firmly on the wound with a sterile dressing or a clean, non-fluffy pad. If an object is embedded, press <em>around</em> it rather than on it &mdash; never pull it out.</li><li><strong>Dress the wound:</strong> secure the dressing with a bandage, firm enough to keep pressure on but not so tight it cuts off circulation.</li><li><strong>Support and reassure:</strong> help the casualty sit or lie down and support the injured part.</li></ul><p>Call 999 or 112. If blood soaks through, add another dressing on top and keep up the pressure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ea5597db-e09f-484f-8909-513037c6430c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Bleeding & shock",
+          "decorative": false,
+          "file": {
+            "path": "images/bleeding-shock.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c66ec999-9405-48f0-a18a-c9e97eb5dc28",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising shock</h2><p>Serious blood loss (or other causes) can lead to <strong>shock</strong> &mdash; a life-threatening state where not enough oxygen reaches the vital organs. Watch for pale, cold, clammy skin, a fast but weak pulse, rapid shallow breathing, and the casualty feeling faint, dizzy, sick or anxious.</p><p>To help: lay them down, <strong>raise and support their legs</strong> above the level of the heart, loosen tight clothing, keep them warm with a blanket, and reassure them. Do not give food or drink. Call 999 and monitor their breathing, ready to start CPR if they become unresponsive.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cf86c462-1013-4580-a56e-021ef52e0074",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If an object such as a shard of glass is embedded in a bleeding wound, you should pull it out and then press on the wound.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Never remove an embedded object &mdash; pulling it out can cause worse bleeding. Press around it instead.",
+            "correctAnswerMessage": "Correct. Leave an embedded object in place &mdash; it may be plugging the wound. Apply pressure around it and get medical help."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "48c8db3b-77af-46ad-9469-9152513a9a85",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

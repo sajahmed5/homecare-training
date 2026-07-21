@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>If a person slips or falls during a move</h2><p>Even with good planning, a person may slip, lose their balance or begin to fall while you are assisting them. You cannot safely catch a falling adult &mdash; trying to do so is one of the commonest ways carers injure their backs, and it can hurt the person too.</p><p>If someone starts to fall, do not fight it. Protect their head as best you can, guide them gently towards the floor or back into a chair, and lower yourself with them, keeping your own posture as safe as you can. A controlled slide to the floor is far safer than a sudden grab or a struggle to hold them upright.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "559bf6d0-7833-49dd-995b-28b4c274d56b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When someone falls",
+          "decorative": false,
+          "file": {
+            "path": "images/when-someone-falls.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7f3e1623-4e66-4340-ad94-e427e78ef65b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>After a fall: never lift from the floor by hand</h2><p>Once a person is on the floor, do not lift them manually and do not let them be dragged or hauled up by their arms.</p><ul><li><strong>Check them first:</strong> stay calm, keep them still and warm, and look for injury, pain or a change in how they seem.</li><li><strong>Get help:</strong> if they are hurt, unwell or you are unsure, call for medical help or an ambulance and follow your falls procedure.</li><li><strong>Use the right equipment:</strong> if it is safe to lift them, use a suitable hoist &mdash; often a specialist raising or floor hoist &mdash; not your own strength.</li><li><strong>Record and report:</strong> write an accurate account and report the fall so the cause can be reviewed.</li></ul><p>A person who has fallen may have a fracture or a head injury that is not obvious, so a manual lift risks serious harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac3232f6-ef97-4aa9-a555-399684a11574",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>During an assisted walk, Mr Price&rsquo;s knees give way and he sinks to the floor. He is conscious but complains his hip hurts. What is the safest response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep him still and reassured, check for injury, call for medical help, and use a hoist rather than lifting him by hand.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A hip that hurts after a fall may be fractured; he should not be moved by hand, and any lift should use suitable equipment after he has been checked.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Lift him under the arms back onto his feet before he gets cold.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Hauling him up by the arms could worsen a possible fracture and injure your own back; he must not be lifted manually.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask him to push himself up quickly while you pull on his hands.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Pulling him up risks his injury and yours; he needs checking and, if lifted, a hoist rather than manual effort.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave him where he is and carry on with your other tasks until help is free.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. He must not be left unattended; stay with him, keep him warm and safe, and summon help straight away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ed0d9968-b828-46c4-9f60-d12c85e0a08c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

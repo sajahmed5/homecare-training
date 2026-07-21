@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Open the airway and check breathing</h2><h3>Airway</h3><p>An unresponsive person's tongue can fall back and block the airway. Open it using <strong>head-tilt, chin-lift</strong>: place one hand on their forehead and gently tilt the head back, then use two fingertips of your other hand under the point of the chin to lift it. This moves the tongue clear of the airway.</p><h3>Breathing</h3><p>Keeping the airway open, look, listen and feel for normal breathing for <strong>no more than 10 seconds</strong>:</p><ul><li><strong>Look</strong> for the chest rising and falling.</li><li><strong>Listen</strong> at the mouth and nose for breathing sounds.</li><li><strong>Feel</strong> for air on your cheek.</li></ul><p><strong>Agonal gasps &mdash; occasional, slow, noisy or laboured gasping &mdash; are NOT normal breathing.</strong> They are common in the first minutes after a cardiac arrest and can fool people into thinking the person is still breathing. If breathing is absent or abnormal, treat it as a cardiac arrest and act immediately.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"4246e781-a020-4bf2-a280-ace32a48c77b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You open an unresponsive person's airway and notice occasional slow, noisy gasping. What does this most likely mean?</p>","answers":[{"correct":false,"text":"<div>They are breathing normally, so you can leave them</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Occasional gasping is not normal breathing and must never be mistaken for it.","notChosenFeedback":""}},{"correct":true,"text":"<div>This is agonal gasping &mdash; treat it as cardiac arrest and start CPR</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Agonal gasps are common early after cardiac arrest and are NOT normal breathing. Call 999 and begin CPR.","notChosenFeedback":""}},{"correct":false,"text":"<div>You should wait several minutes to see if the gasping settles</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Waiting wastes vital time. Abnormal breathing means you must act now.","notChosenFeedback":""}},{"correct":false,"text":"<div>You should give them water to help them breathe</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Never give an unresponsive person anything by mouth. This is a cardiac arrest &mdash; start CPR.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"6b772913-a655-4eb8-b460-bb76fa8afdd0","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Open the airway and check breathing</h2><h3>Airway</h3><p>An unresponsive person's tongue can fall back and block the airway. Open it using <strong>head-tilt, chin-lift</strong>: place one hand on their forehead and gently tilt the head back, then use two fingertips of your other hand under the point of the chin to lift it. This moves the tongue clear of the airway.</p><h3>Breathing</h3><p>Keeping the airway open, look, listen and feel for normal breathing for <strong>no more than 10 seconds</strong>:</p><ul><li><strong>Look</strong> for the chest rising and falling.</li><li><strong>Listen</strong> at the mouth and nose for breathing sounds.</li><li><strong>Feel</strong> for air on your cheek.</li></ul><p><strong>Agonal gasps &mdash; occasional, slow, noisy or laboured gasping &mdash; are NOT normal breathing.</strong> They are common in the first minutes after a cardiac arrest and can fool people into thinking the person is still breathing. If breathing is absent or abnormal, treat it as a cardiac arrest and act immediately.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4246e781-a020-4bf2-a280-ace32a48c77b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Airway & Breathing",
+          "decorative": false,
+          "file": {
+            "path": "images/airway-breathing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c3495ce1-66ab-4d47-be9d-5d8d54b4be05",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You open an unresponsive person's airway and notice occasional slow, noisy gasping. What does this most likely mean?</p>",
+          "answers": [
+            {
+              "correct": false,
+              "text": "<div>They are breathing normally, so you can leave them</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Occasional gasping is not normal breathing and must never be mistaken for it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>This is agonal gasping &mdash; treat it as cardiac arrest and start CPR</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Agonal gasps are common early after cardiac arrest and are NOT normal breathing. Call 999 and begin CPR.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should wait several minutes to see if the gasping settles</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Waiting wastes vital time. Abnormal breathing means you must act now.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should give them water to help them breathe</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Never give an unresponsive person anything by mouth. This is a cardiac arrest &mdash; start CPR.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6b772913-a655-4eb8-b460-bb76fa8afdd0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

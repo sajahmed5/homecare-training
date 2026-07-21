@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Handing over to the ambulance crew</h2><p>Keep going until professional help takes over, the person shows clear signs of life such as normal breathing, or you become too exhausted to continue. When the ambulance crew arrive, do not simply stop &mdash; give them a quick, clear <strong>handover</strong> and carry on with CPR until they are ready to take charge.</p><p>Tell them what happened, roughly when the person collapsed, what you have done so far, how many shocks the AED has advised, and whether there is any <strong>DNACPR</strong> or <strong>ReSPECT</strong> form. If the person recovers, place them in the recovery position and keep a close watch on their breathing.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bb81de59-479d-4cae-9a2d-d2d89e92d546",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for After the attempt",
+          "decorative": false,
+          "file": {
+            "path": "images/after-the-attempt.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2e4bdf42-8342-4af4-8c14-042b9b30ed31",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Afterwards, and looking after yourself</h2><p>Being part of a resuscitation attempt is intense, whatever the outcome. Make sure the event is recorded accurately, and take part in any <strong>debrief</strong> your service offers.</p><ul><li><strong>Your wellbeing matters:</strong> it is normal to feel shaken; talk to your manager, a trusted colleague or an employee assistance scheme.</li><li><strong>Respect end-of-life decisions:</strong> a valid DNACPR or ReSPECT record exists to prevent unwanted CPR, not to deny someone care.</li></ul><p>Finally, remember the most important point of all: <strong>this course has given you the theory only</strong>. Before you perform CPR for real, you must complete practical, hands-on manikin training and assessment, in line with Resuscitation Council UK guidance.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7b69fd84-c645-4af1-8279-640fc28a73f1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The ambulance crew arrive while you are doing CPR on a resident. What is the most helpful thing to do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Give a clear handover &mdash; what happened, when she collapsed, what you have done and any DNACPR or ReSPECT information &mdash; and keep going until they take over.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A brief, clear handover while you continue CPR gives the crew what they need without any harmful break in compressions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stop immediately and step well back so they can take charge.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Stopping abruptly leaves a gap in compressions; keep going and hand over as they get ready.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave the room to start writing your notes while they work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The crew need your account of what happened; recording can wait until after the handover.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing so that you do not get in their way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Staying silent hides vital information; a short, clear handover genuinely helps them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8df81097-deab-491b-901e-39ee35c1f4d9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

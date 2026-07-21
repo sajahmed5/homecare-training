@@ -1,1 +1,100 @@
-{"content":[{"content":{"params":{"text":"<h2>Assessing the risk: TILE</h2><p>When a handling task cannot be avoided, it must be assessed. Care staff often use the memory aid <strong>TILE</strong> (sometimes written <strong>LITE</strong>) to think through the risks before they act:</p><ul><li><strong>T &ndash; Task:</strong> what does the move involve? Does it require twisting, stooping, reaching, holding a position or repeating the move often?</li><li><strong>I &ndash; Individual:</strong> your own capability &mdash; your training, fitness, health, and whether you are pregnant or have an injury.</li><li><strong>L &ndash; Load:</strong> the person or object being moved &mdash; their weight, ability to help, cooperation, pain, or medical devices such as a catheter.</li><li><strong>E &ndash; Environment:</strong> the space around you &mdash; floor surface, clutter, lighting, room to move and where the equipment is.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"19d63fd1-4ff1-42e8-baf9-fd303fc804c0","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Explore each part of the TILE assessment. Tap a card to reveal what to check.</p>","dialogs":[{"text":"<p>T &ndash; Task</p>","answer":"<p>What does the move involve? Watch for twisting, stooping, reaching, holding awkward positions, long distances or frequent repetition.</p>","tips":{}},{"text":"<p>I &ndash; Individual</p>","answer":"<p>Are you fit and trained for this move? Consider your own health, strength, any injury or pregnancy, and whether you need a second person.</p>","tips":{}},{"text":"<p>L &ndash; Load</p>","answer":"<p>For a person, think about their weight, how much they can help, their cooperation, pain, skin condition and any tubes or devices attached.</p>","tips":{}},{"text":"<p>E &ndash; Environment</p>","answer":"<p>Is there enough space? Check the floor, clutter, lighting, temperature and whether the right equipment is close to hand.</p>","tips":{}},{"text":"<p>Why use TILE?</p>","answer":"<p>It gives you a quick, structured pause before any move so nothing important is missed &mdash; a safe move can still go wrong in an unsafe environment.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"0beaa2a8-4b2b-4c96-9c67-53ba8298b8c3","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Assessing the risk: TILE</h2><p>When a handling task cannot be avoided, it must be assessed. Care staff often use the memory aid <strong>TILE</strong> (sometimes written <strong>LITE</strong>) to think through the risks before they act:</p><ul><li><strong>T &ndash; Task:</strong> what does the move involve? Does it require twisting, stooping, reaching, holding a position or repeating the move often?</li><li><strong>I &ndash; Individual:</strong> your own capability &mdash; your training, fitness, health, and whether you are pregnant or have an injury.</li><li><strong>L &ndash; Load:</strong> the person or object being moved &mdash; their weight, ability to help, cooperation, pain, or medical devices such as a catheter.</li><li><strong>E &ndash; Environment:</strong> the space around you &mdash; floor surface, clutter, lighting, room to move and where the equipment is.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "19d63fd1-4ff1-42e8-baf9-fd303fc804c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for TILE risk assessment",
+          "decorative": false,
+          "file": {
+            "path": "images/tile-risk-assessment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "87412338-a3c9-4851-ad42-d3d993e60136",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Explore each part of the TILE assessment. Tap a card to reveal what to check.</p>",
+          "dialogs": [
+            {
+              "text": "<p>T &ndash; Task</p>",
+              "answer": "<p>What does the move involve? Watch for twisting, stooping, reaching, holding awkward positions, long distances or frequent repetition.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>I &ndash; Individual</p>",
+              "answer": "<p>Are you fit and trained for this move? Consider your own health, strength, any injury or pregnancy, and whether you need a second person.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>L &ndash; Load</p>",
+              "answer": "<p>For a person, think about their weight, how much they can help, their cooperation, pain, skin condition and any tubes or devices attached.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>E &ndash; Environment</p>",
+              "answer": "<p>Is there enough space? Check the floor, clutter, lighting, temperature and whether the right equipment is close to hand.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Why use TILE?</p>",
+              "answer": "<p>It gives you a quick, structured pause before any move so nothing important is missed &mdash; a safe move can still go wrong in an unsafe environment.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "0beaa2a8-4b2b-4c96-9c67-53ba8298b8c3",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

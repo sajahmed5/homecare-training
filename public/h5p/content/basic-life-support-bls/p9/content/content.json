@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>This course teaches the theory only</h2><p>It is important to be clear from the outset: this course gives you the <strong>knowledge element</strong> of Basic Life Support only. Reading about chest compressions is not the same as being able to do them well under pressure, and you cannot become competent at CPR by learning online.</p><p>Before you perform CPR on a real person, you must also complete <strong>practical, hands-on training and assessment on a manikin</strong>, supervised by a qualified trainer and in line with Resuscitation Council UK guidance. That practical session lets you feel the right depth and rate, practise opening the airway, and get feedback you simply cannot get from a screen.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0303b6a0-d543-4e08-9409-722108369e30",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Theory then practice",
+          "decorative": false,
+          "file": {
+            "path": "images/theory-then-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "46f52485-98f5-4b76-8bdc-9dddbd0f904d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping your skills current</h2><p>Resuscitation skills fade surprisingly quickly &mdash; often within months of training. This is why your employer will arrange regular refresher sessions, usually every year, so that your knowledge and your hands-on ability both stay sharp.</p><ul><li><strong>Attend refreshers:</strong> keep your practical training up to date and never let it lapse.</li><li><strong>Know your limits:</strong> only give the care you are trained and confident to give.</li><li><strong>Practise the theory:</strong> use this course to prepare for and reinforce your hands-on sessions.</li><li><strong>Ask questions:</strong> raise anything you are unsure about with your trainer.</li></ul><p>Treat what follows as the foundation you build on in the training room, not a substitute for it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2d0798da-13cb-49a9-b69a-c54b059c04da",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Passing this online course on its own makes you fully competent to carry out CPR on a real person.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; this is false. Online theory cannot build the practical skill of CPR; you must also complete supervised manikin training and assessment before performing it for real.",
+            "correctAnswerMessage": "Correct &mdash; this is false. This course covers the knowledge only. You must also complete hands-on manikin training and assessment, in line with Resuscitation Council UK guidance, before you are competent to perform CPR."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "823a8c68-90a6-4f67-a56b-cf0a71548e1a",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

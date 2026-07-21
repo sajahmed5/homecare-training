@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness is not the same as being qualified</h2><p>This course raises your awareness of first aid so that you can recognise an emergency and act sensibly while help is on its way. Please be clear: this is <strong>awareness only</strong> and does not make you a qualified first aider. Real competence in first aid needs practical, hands-on training and assessment with a qualified trainer &mdash; something a screen cannot give you.</p><p>If you may be the designated first aider in your workplace, you need a recognised, assessed course such as Emergency First Aid at Work. In any life-threatening emergency, call <strong>999</strong> straight away and do only what you can safely do until the ambulance service arrives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a7b3cbd0-3821-401d-873f-091798ec39e1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Awareness and readiness",
+          "decorative": false,
+          "file": {
+            "path": "images/awareness-and-readiness.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d40166a1-70d7-4a8c-8567-61faa1160b98",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>First aid kits, provision and hygiene</h2><p>Your employer must make suitable first aid provision. In a care setting that usually means a stocked first aid kit, an appointed person or trained first aider, and clear information on what to do in an emergency.</p><ul><li><strong>Know your kit:</strong> find out where it is kept, and check that dressings, plasters and gloves are in date and restocked after use.</li><li><strong>Protect against infection:</strong> wash your hands and put on disposable gloves before giving first aid whenever you can.</li><li><strong>Guard against blood:</strong> treat blood and body fluids as a possible source of infection and avoid direct contact.</li><li><strong>Clean up safely:</strong> dispose of used dressings and gloves as clinical waste and wash your hands afterwards.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "481f8558-0d77-4af1-b3c2-f38db7b0c7f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support has a bleeding wound and you are about to help. What is the best first step for hygiene and infection control?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Put on disposable gloves, and wash your hands first if you have time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Gloves and clean hands protect both you and the person from infection when there is contact with blood.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use your bare hands so that you can feel the wound more clearly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Bare-handed contact with blood is an infection risk; you should wear disposable gloves whenever you can.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip the gloves because this is someone you know well.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. How well you know someone makes no difference to the infection risk from blood and body fluids.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only rinse your hands afterwards, as putting on gloves wastes time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Gloves take only moments and are a basic infection-control measure that should not be skipped.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5dcefc8f-8cba-4cf2-9808-82952b2677e6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

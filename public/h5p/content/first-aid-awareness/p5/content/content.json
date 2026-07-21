@@ -1,1 +1,140 @@
-{"content":[{"content":{"params":{"text":"<h2>Burns and scalds</h2><p>The priority is to cool the burn as quickly as possible. Cool it under <strong>cool or lukewarm running water for at least 20 minutes</strong> &mdash; do not use ice, iced water, creams or greasy substances. While cooling, gently remove any clothing or jewellery near the burn, unless it is stuck to the skin. Afterwards, cover the burn loosely with cling film or a clean, non-fluffy dressing to protect it.</p><p><strong>Do not burst any blisters</strong> &mdash; they protect the skin underneath. Seek medical help for large or deep burns, burns to the face, hands or feet, chemical or electrical burns, or any burn on a vulnerable person.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"4b499b85-a1e1-4e42-a29f-78b29dd16b75","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Choking</h2><p>If someone can still cough, encourage them to keep coughing. If the airway is blocked and they cannot cough, speak or breathe:</p><ul><li>Give up to <strong>five sharp back blows</strong> between the shoulder blades with the heel of your hand.</li><li>If that fails, give up to <strong>five abdominal thrusts</strong>: stand behind them, place a clenched fist between the navel and the bottom of the breastbone, grasp it with your other hand and pull sharply inwards and upwards.</li></ul><p>Repeat the cycle of five back blows and five abdominal thrusts. If the blockage does not clear, call 999 or 112.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ac422de1-820d-43a4-990b-55408d8480ff","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Falls and suspected fractures</h2><p>Falls are common, especially among older or frailer people. If you suspect a broken bone or a spinal injury, <strong>do not move the person unnecessarily</strong>. Steady and support the injured part in the position you found it, keep them still and warm, and call for an ambulance. Reassure them and watch for signs of shock. Only move a casualty if leaving them would put them in greater danger.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"215e8738-0f49-426a-bc05-b14070af309f","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>How should you cool a burn as first aid?</p>","answers":[{"correct":true,"text":"<div>Under cool running water for at least 20 minutes</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Cooling for at least 20 minutes limits the damage and eases the pain.","notChosenFeedback":""}},{"correct":false,"text":"<div>By applying butter or a greasy cream to soothe it</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Greasy substances trap heat and increase the risk of infection. Use cool running water.","notChosenFeedback":""}},{"correct":false,"text":"<div>By packing it with ice cubes for a few minutes</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Ice can damage the skin further. Use cool, not freezing, running water for at least 20 minutes.","notChosenFeedback":""}},{"correct":false,"text":"<div>By bursting any blisters first, then covering it</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Never burst blisters &mdash; they protect the healing skin beneath. Cool the burn under running water instead.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"706e388e-6346-4db5-9e11-dc8d2ccb5e90","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Burns and scalds</h2><p>The priority is to cool the burn as quickly as possible. Cool it under <strong>cool or lukewarm running water for at least 20 minutes</strong> &mdash; do not use ice, iced water, creams or greasy substances. While cooling, gently remove any clothing or jewellery near the burn, unless it is stuck to the skin. Afterwards, cover the burn loosely with cling film or a clean, non-fluffy dressing to protect it.</p><p><strong>Do not burst any blisters</strong> &mdash; they protect the skin underneath. Seek medical help for large or deep burns, burns to the face, hands or feet, chemical or electrical burns, or any burn on a vulnerable person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4b499b85-a1e1-4e42-a29f-78b29dd16b75",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Burns, choking & falls",
+          "decorative": false,
+          "file": {
+            "path": "images/burns-choking-falls.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c53bb8c9-dabc-4f08-b28a-39cb2e0169b4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Choking</h2><p>If someone can still cough, encourage them to keep coughing. If the airway is blocked and they cannot cough, speak or breathe:</p><ul><li>Give up to <strong>five sharp back blows</strong> between the shoulder blades with the heel of your hand.</li><li>If that fails, give up to <strong>five abdominal thrusts</strong>: stand behind them, place a clenched fist between the navel and the bottom of the breastbone, grasp it with your other hand and pull sharply inwards and upwards.</li></ul><p>Repeat the cycle of five back blows and five abdominal thrusts. If the blockage does not clear, call 999 or 112.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac422de1-820d-43a4-990b-55408d8480ff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Falls and suspected fractures</h2><p>Falls are common, especially among older or frailer people. If you suspect a broken bone or a spinal injury, <strong>do not move the person unnecessarily</strong>. Steady and support the injured part in the position you found it, keep them still and warm, and call for an ambulance. Reassure them and watch for signs of shock. Only move a casualty if leaving them would put them in greater danger.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "215e8738-0f49-426a-bc05-b14070af309f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How should you cool a burn as first aid?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Under cool running water for at least 20 minutes</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Cooling for at least 20 minutes limits the damage and eases the pain.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By applying butter or a greasy cream to soothe it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Greasy substances trap heat and increase the risk of infection. Use cool running water.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By packing it with ice cubes for a few minutes</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Ice can damage the skin further. Use cool, not freezing, running water for at least 20 minutes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By bursting any blisters first, then covering it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Never burst blisters &mdash; they protect the healing skin beneath. Cool the burn under running water instead.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "706e388e-6346-4db5-9e11-dc8d2ccb5e90",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

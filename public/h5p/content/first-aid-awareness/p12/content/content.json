@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Severe allergic reaction: anaphylaxis</h2><p>Anaphylaxis is a severe, life-threatening allergic reaction that can develop within minutes of contact with a trigger, such as certain foods, insect stings or medicines. Signs include a widespread rash, swelling of the face, lips, tongue or throat, difficulty or noisy breathing, a sense of something being seriously wrong, and collapse.</p><p>Anaphylaxis is a medical emergency. Call <strong>999</strong> immediately and tell the call handler that you suspect anaphylaxis, so that the right help is sent quickly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0c78eba8-83ce-4351-9451-658277df1a80",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Allergies and asthma",
+          "decorative": false,
+          "file": {
+            "path": "images/allergies-and-asthma.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "666280c6-c1d1-43d3-94a4-f464fbc48831",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Adrenaline auto-injectors and asthma attacks</h2><p>Many people at risk of anaphylaxis carry an adrenaline auto-injector, such as an EpiPen. If the person has one, help them use it without delay, following the instructions on the device, and note the time. A second dose may be given after five minutes if there is no improvement and another injector is available.</p><ul><li><strong>Position them:</strong> help them sit up if breathing is hard, or lie flat with legs raised if they feel faint.</li><li><strong>Asthma attack:</strong> help the person sit up and take their reliever inhaler, usually blue, one puff at a time.</li><li><strong>Call 999:</strong> if the inhaler does not help, symptoms get worse, or they cannot speak in full sentences.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bdbfb2bb-c4c9-4bfd-88f5-84662f365c0c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on severe allergic reactions and asthma attacks.</p></p>",
+          "textField": "A severe, life-threatening allergic reaction is called *anaphylaxis*. If you suspect it, call *999* straight away. If the person carries an adrenaline *auto-injector*, help them use it without delay. Someone having an asthma attack should sit up and use their reliever inhaler, which is usually *blue*. A second dose of adrenaline may be given after *five* minutes if there is no improvement.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "7304344a-c759-42a9-96e8-61e3a29e364b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

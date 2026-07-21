@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Head and spinal injuries</h2><p>A blow to the head can range from a mild bump to a serious brain injury. Watch for warning signs that develop after a knock to the head: drowsiness, confusion, repeated vomiting, a severe headache, unequal pupils, or fluid or blood coming from the nose or ears. These are red flags &mdash; call <strong>999</strong>.</p><p>If someone has fallen from a height, had a heavy fall, or has neck or back pain after an accident, suspect a spinal injury. Unnecessary movement could cause lasting harm, so encourage them to keep still and gently support their head in the position you found it while you wait for help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c3568bec-2ef5-491f-832d-c20637ff7909",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Head, spine and bones",
+          "decorative": false,
+          "file": {
+            "path": "images/head-spine-and-bones.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bb8fd6cc-99c7-4ed6-abd1-68cf33499f42",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Broken bones, sprains and strains</h2><p>You cannot always tell a fracture from a sprain, so if you are in any doubt, treat it as the more serious injury. Signs of a broken bone include pain, swelling, bruising, an odd shape, and being unable to use the limb.</p><ul><li><strong>Keep it still:</strong> support the injured part in the position that is most comfortable and avoid moving it unnecessarily.</li><li><strong>Do not move the person needlessly:</strong> only move someone who is in danger, and never force a limb straight.</li><li><strong>Cool a sprain:</strong> a cold pack wrapped in a cloth can ease pain and swelling in a soft-tissue injury.</li><li><strong>Get the right help:</strong> call 999 for an open or severe fracture, and arrange other medical care for lesser injuries.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d99e9597-7758-42e5-acbb-30c8ad19ed39",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone may have a spinal injury after a fall, you should quickly move them into a more comfortable position to help them relax.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: moving someone with a suspected spinal injury can cause lasting harm, so keep them still and support the head until help arrives.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Unnecessary movement can worsen a spinal injury, so keep the person still, support their head in the position found, and wait for the ambulance."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ad88e0fa-f7ea-4a9f-b5c6-034d2ce1d1ea",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

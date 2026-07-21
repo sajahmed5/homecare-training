@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Rescue breaths and using an AED</h2><h3>Rescue breaths (30:2)</h3><p>If you are trained and willing, combine compressions with rescue breaths in a ratio of <strong>30 compressions to 2 breaths</strong>. After 30 compressions, open the airway again with head-tilt chin-lift, pinch the nose, seal your lips around their mouth and blow steadily until the chest just begins to rise. Give two breaths, then return to compressions.</p><p><strong>Compression-only CPR:</strong> if you are untrained, unwilling, or unable to give rescue breaths, do <strong>continuous chest compressions without stopping</strong>. This is far better than doing nothing.</p><h3>Using an AED</h3><ul><li>Turn the AED <strong>on</strong> as soon as it arrives and <strong>follow the spoken voice prompts</strong>.</li><li>Attach the pads to the person's bare, dry chest exactly as shown in the pictures on the pads.</li><li>Stand clear and make sure <strong>nobody touches the person while it analyses</strong> the heart rhythm.</li><li>If a shock is advised, make sure everyone is clear, then press the shock button. <strong>Do not touch the person during analysis or shock.</strong></li><li>Immediately restart compressions after the shock and keep following the AED's prompts.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"61ff5396-9027-4417-b6b8-1e00bbfa5723","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>An AED has arrived and is analysing the heart rhythm. What should everyone do?</p>","answers":[{"correct":false,"text":"<div>Keep doing chest compressions to be safe</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Movement interferes with the AED's analysis. Everyone must stand clear while it analyses.","notChosenFeedback":""}},{"correct":true,"text":"<div>Make sure nobody is touching the person while it analyses</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Touching the person can disrupt the analysis, and you must also be clear before any shock is delivered.","notChosenFeedback":""}},{"correct":false,"text":"<div>Turn the AED off and restart it</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Leave the AED on and simply follow its voice prompts.","notChosenFeedback":""}},{"correct":false,"text":"<div>Remove the pads and reposition them elsewhere</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Leave the pads in the positions shown and let the AED analyse and advise.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"783a026b-0bee-4046-a6a1-45c6f1c7da0c","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Rescue breaths and using an AED</h2><h3>Rescue breaths (30:2)</h3><p>If you are trained and willing, combine compressions with rescue breaths in a ratio of <strong>30 compressions to 2 breaths</strong>. After 30 compressions, open the airway again with head-tilt chin-lift, pinch the nose, seal your lips around their mouth and blow steadily until the chest just begins to rise. Give two breaths, then return to compressions.</p><p><strong>Compression-only CPR:</strong> if you are untrained, unwilling, or unable to give rescue breaths, do <strong>continuous chest compressions without stopping</strong>. This is far better than doing nothing.</p><h3>Using an AED</h3><ul><li>Turn the AED <strong>on</strong> as soon as it arrives and <strong>follow the spoken voice prompts</strong>.</li><li>Attach the pads to the person's bare, dry chest exactly as shown in the pictures on the pads.</li><li>Stand clear and make sure <strong>nobody touches the person while it analyses</strong> the heart rhythm.</li><li>If a shock is advised, make sure everyone is clear, then press the shock button. <strong>Do not touch the person during analysis or shock.</strong></li><li>Immediately restart compressions after the shock and keep following the AED's prompts.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "61ff5396-9027-4417-b6b8-1e00bbfa5723",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Breaths & AED",
+          "decorative": false,
+          "file": {
+            "path": "images/breaths-aed.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ffd2f4d2-b630-4377-a20d-58a002187722",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>An AED has arrived and is analysing the heart rhythm. What should everyone do?</p>",
+          "answers": [
+            {
+              "correct": false,
+              "text": "<div>Keep doing chest compressions to be safe</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Movement interferes with the AED's analysis. Everyone must stand clear while it analyses.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Make sure nobody is touching the person while it analyses</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Touching the person can disrupt the analysis, and you must also be clear before any shock is delivered.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Turn the AED off and restart it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Leave the AED on and simply follow its voice prompts.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Remove the pads and reposition them elsewhere</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Leave the pads in the positions shown and let the AED analyse and advise.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "783a026b-0bee-4046-a6a1-45c6f1c7da0c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

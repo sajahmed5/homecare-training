@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a seizure</h2><p>Epilepsy is a common condition, and a person may also have a seizure for other reasons, such as a very high temperature or low blood sugar. In a generalised seizure, someone may suddenly fall, go stiff and then make jerking movements, may not respond to you, and may lose control of their bladder or bowel.</p><p>A seizure can look frightening, but most stop on their own within a few minutes. Your job is not to stop the seizure but to keep the person safe while it runs its course and to know when extra help is needed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9f55dfcc-5ece-4dd9-9e8c-d7e23e33d155",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Seizures and epilepsy",
+          "decorative": false,
+          "file": {
+            "path": "images/seizures-and-epilepsy.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1690912e-b184-4a24-8ee5-fdd671310649",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to do and what not to do</h2><p>Stay calm and protect the person from harm.</p><ul><li><strong>Protect them:</strong> clear the space around them, cushion their head, and move away anything hard or sharp.</li><li><strong>Note the time:</strong> time how long the seizure lasts, as this affects whether you call 999.</li><li><strong>Do not restrain:</strong> never hold them down, and never put anything in their mouth.</li><li><strong>Afterwards:</strong> once the jerking stops, place them in the recovery position and reassure them gently as they come round.</li></ul><p>Call <strong>999</strong> if a seizure lasts more than five minutes, if one seizure follows another without recovery, if it is their first ever seizure, or if they are injured or do not wake up.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40caac5d-e787-40c3-bf6f-6347f4096f9e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Someone is having a seizure on the floor, with jerking movements of their arms and legs. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Move objects away, cushion their head, and let the seizure run its course while timing it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Protecting them from injury and timing the seizure is safe practice; you only intervene further if it lasts too long or they are hurt.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hold their arms and legs firmly to stop the shaking.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. You should never restrain someone during a seizure, as it can cause injury; let the movements happen safely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put a spoon or your fingers in their mouth so they cannot bite their tongue.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Never put anything in the mouth of someone having a seizure &mdash; it can cause serious injury to them or to you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Lift them onto a nearby chair so that they are more comfortable.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Moving someone mid-seizure risks injury; keep them where they are, cushion the head and clear the area.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2558225a-3f43-47db-affa-73fdded60c87",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
