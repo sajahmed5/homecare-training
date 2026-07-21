@@ -7,7 +7,6 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
 import { logAudit } from "@/lib/audit";
-import { INDUCTION_PATHWAY_SLUG } from "@/lib/recruitment";
 
 async function assertRecruitment(context: UserContext): Promise<void> {
   const supabase = await createClient();
@@ -141,7 +140,7 @@ export async function getDocUrlAction(
   return { url: data?.signedUrl };
 }
 
-/** Mark hired; optionally create the candidate as a learner + enrol in induction. */
+/** Mark hired; optionally create the candidate as a learner (no auto-enrolment). */
 export async function hireCandidateAction(
   candidateId: string,
   createLearner: boolean,
@@ -172,28 +171,9 @@ export async function hireCandidateAction(
     });
     if (result.userId) {
       invited = true;
-      // Auto-enrol in the induction pathway.
-      const { data: pathway } = await admin
-        .from("pathways")
-        .select("id")
-        .eq("slug", INDUCTION_PATHWAY_SLUG)
-        .maybeSingle();
-      if (pathway) {
-        const { data: links } = await admin
-          .from("pathway_courses")
-          .select("course_id")
-          .eq("pathway_id", pathway.id);
-        const rows = (links ?? []).map((l) => ({
-          organisation_id: context.organisationId,
-          user_id: result.userId,
-          course_id: l.course_id,
-        }));
-        if (rows.length > 0) {
-          await admin
-            .from("enrolments")
-            .upsert(rows, { onConflict: "user_id,course_id" });
-        }
-      }
+      // No auto-enrolment. The org admin assigns courses to each staff
+      // member from the Team page (assignTrainingAction), so training is
+      // chosen per person rather than applied automatically on hire.
     }
   }
 

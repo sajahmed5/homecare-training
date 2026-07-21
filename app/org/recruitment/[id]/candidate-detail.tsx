@@ -177,7 +177,7 @@ export function CandidateDetail({
     setStatus("hired");
     setMsg(
       r.invited
-        ? "Marked hired and invited as a learner (enrolled in induction)."
+        ? "Marked hired and invited as a learner. Assign their courses from the Team page."
         : "Marked hired.",
     );
     router.refresh();
@@ -244,7 +244,7 @@ export function CandidateDetail({
               checked={createLearner}
               onChange={(e) => setCreateLearner(e.target.checked)}
             />
-            Also create as a learner &amp; enrol in induction
+            Also create as a learner (assign courses separately)
           </label>
         </div>
         <Button onClick={hire} disabled={busy || status === "hired"}>
