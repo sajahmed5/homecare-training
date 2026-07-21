@@ -1,0 +1,546 @@
+{
+  "slug": "continence-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does the term \"continence\" mean?",
+      "options": [
+        "Needing to use the toilet more often at night",
+        "Being able to control when and where you pass urine and stool",
+        "Any involuntary leaking of urine or stool",
+        "Always requiring pads to manage the bladder"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does \"incontinence\" mean?",
+      "options": [
+        "A normal, unavoidable part of getting older",
+        "Any involuntary leaking of urine or stool",
+        "Being able to hold urine until reaching a toilet",
+        "Drinking too little fluid across the day"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why should incontinence never be treated as simply a practical problem to be managed?",
+      "options": [
+        "Because it only matters if the person mentions it themselves",
+        "Because pads are the only support anyone ever needs",
+        "Because it affects a person's dignity, self-esteem and wider health, and can often be improved with the right support",
+        "Because it is a normal, unavoidable part of getting older"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person leaks a small amount of urine each time they cough, sneeze or laugh. Which type of incontinence does this describe?",
+      "options": [
+        "Overflow incontinence",
+        "Functional incontinence",
+        "Urge incontinence",
+        "Stress incontinence"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of incontinence involves a sudden, intense need to pass urine, followed by leaking before the person can reach a toilet?",
+      "options": [
+        "Stress incontinence",
+        "Overflow incontinence",
+        "Functional incontinence",
+        "Urge incontinence"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A man passes frequent small dribbles, feels his bladder is never quite empty, and strains to pass urine. Which type of incontinence does this best describe?",
+      "options": [
+        "Functional incontinence",
+        "Overflow incontinence",
+        "Stress incontinence",
+        "Urge incontinence"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person's bladder and bowel work normally, but poor mobility and confusion mean they cannot reach or use the toilet in time. Which type of incontinence is this?",
+      "options": [
+        "Functional incontinence",
+        "Urge incontinence",
+        "Overflow incontinence",
+        "Stress incontinence"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Who carries out a continence assessment and prescribes continence products?",
+      "options": [
+        "The person's family or next of kin",
+        "Any care worker who knows the person's routine",
+        "Whoever is nearest when an accident happens",
+        "A nurse or continence advisor"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best supports a person to stay continent and dignified?",
+      "options": [
+        "Leaving the toilet door open and hurrying the person along",
+        "Knowing their usual routine, responding to requests promptly, and keeping the route to the toilet clear and easy to use",
+        "Waiting until an accident happens before offering any help",
+        "Encouraging the person to drink very little so they need the toilet less"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Unless a person's care plan says otherwise, roughly how much should most adults be encouraged to drink across the day?",
+      "options": [
+        "As little as possible to avoid accidents",
+        "Only water first thing in the morning",
+        "At least 5 litres",
+        "Around 1.5 to 2 litres"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What happens when a person drinks too little fluid?",
+      "options": [
+        "Their urine becomes concentrated, which can irritate the bladder and raise the risk of infection and constipation",
+        "Their skin becomes better protected from damage",
+        "Their bladder muscles become stronger over time",
+        "Their continence always improves"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How should continence products be used within a person's care?",
+      "options": [
+        "As one part of a plan that still promotes independence, with the right product used privately and changed promptly",
+        "By choosing whatever pad is nearest, regardless of fit or assessment",
+        "By leaving them in place as long as possible to save changes",
+        "As a replacement for helping the person get to the toilet"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does prompt changing and keeping skin clean and dry matter so much in continence care?",
+      "options": [
+        "Because urine and stool irritate the skin, which can become red, sore and broken if not managed",
+        "Because it allows one pad to be used for the whole day",
+        "Because it means the person can be given fewer drinks",
+        "Because it removes the need for any continence assessment"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How are continence and pressure damage connected?",
+      "options": [
+        "They are completely unrelated to one another",
+        "Keeping skin damp actually protects it from pressure damage",
+        "Skin that is repeatedly wet from urine or stool becomes more fragile and can combine with pressure to cause pressure ulcers",
+        "Pressure ulcers only affect people who are fully continent"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You notice an older person has become suddenly confused, and their urine is cloudy and strong-smelling. What should you do?",
+      "options": [
+        "Assume the confusion is just part of getting older and do nothing",
+        "Start the person on antibiotics yourself",
+        "Report it promptly to a senior colleague or nurse and record what you have observed, as these can be signs of a UTI",
+        "Cut back their fluids to reduce how often they use the toilet"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following can be a sign of constipation?",
+      "options": [
+        "Leaking urine when laughing or coughing",
+        "A burning feeling when passing urine",
+        "Cloudy, strong-smelling urine",
+        "Going to the toilet less often than usual, with hard or painful stools"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When should you involve a nurse or continence advisor?",
+      "options": [
+        "Only if the person specifically asks you to",
+        "Only once a problem has become severe and cannot be ignored",
+        "Never, because care workers should manage all continence problems alone",
+        "When someone develops new incontinence, their pattern changes, or you see signs of infection, constipation or skin damage"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the care worker's role in continence care?",
+      "options": [
+        "To follow the agreed care plan, promote independence, and observe and report changes",
+        "To diagnose and treat any infections that arise",
+        "To carry out the continence assessment and prescribe products",
+        "To decide when a person needs to start wearing pads"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Stress incontinence is linked to which of the following?",
+      "options": [
+        "Weakened pelvic floor muscles, which can follow childbirth, ageing or some surgery",
+        "An enlarged prostate blocking the bladder",
+        "An overactive bladder made worse by caffeine",
+        "Not being able to find or reach the toilet in time"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Overflow incontinence can be linked to which of the following?",
+      "options": [
+        "A blockage or, in men, an enlarged prostate",
+        "Clothing that is hard to undo",
+        "Weakened pelvic floor muscles after childbirth",
+        "Drinking caffeine late in the day"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a possible cause of functional incontinence?",
+      "options": [
+        "Poor mobility, pain, poor eyesight, confusion, or clothing that is hard to undo",
+        "An overactive bladder",
+        "A bladder that cannot empty fully",
+        "Weakened pelvic floor muscles"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why should incontinence be understood through a proper assessment rather than an assumption?",
+      "options": [
+        "Because assessment is only needed for people living with dementia",
+        "Because guessing the cause or simply reaching for pads can miss a treatable problem",
+        "Because all types of incontinence are supported in exactly the same way",
+        "Because it removes the need for the care worker to report anything"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The course stresses that continence care should never be seen as \"just pads\". What does this mean?",
+      "options": [
+        "Care workers should choose their own products for each person",
+        "Continence care is skilled, dignified work, and products are only one part of good support",
+        "Pads should never be used under any circumstances",
+        "Only nurses are allowed to touch continence products"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How can drinks such as caffeine affect some people's continence?",
+      "options": [
+        "They make the bladder empty more completely",
+        "They prevent urinary infections",
+        "They can worsen urgency and make urge incontinence worse",
+        "They strengthen the pelvic floor muscles"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When supporting someone with a continence product, which approach protects their dignity?",
+      "options": [
+        "Leaving the product in place as long as possible to reduce changes",
+        "Explaining what you are doing, keeping the person covered, working gently, and not making comments that could embarrass them",
+        "Commenting on any smell so the person knows to be more careful",
+        "Working quickly in an open doorway to save time"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If someone in your care starts having accidents, it is fine for you to decide on your own that they need to start wearing continence pads.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Incontinence is a normal, unavoidable part of getting older that people simply have to put up with.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Constipation can make bladder problems worse and can sometimes cause loose stool to leak, so changes in someone's bowel habits should be reported.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Encouraging a person to drink much less is a good way to reduce accidents and improve their continence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "In older people especially, a sudden change such as new confusion or agitation can be an important early sign of a urinary tract infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A wet or soiled pad left in place quickly makes the skin sore and undermines the person's dignity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you suspect a person has a urinary tract infection, it is part of your role to diagnose it and start them on treatment yourself.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Good continence care and good skin care always go together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be signs of a urinary tract infection (UTI)? (Select all that apply)",
+      "options": [
+        "Leaking a small amount of urine when coughing or sneezing",
+        "An improved appetite and more energy than usual",
+        "Pain or a burning feeling when passing urine",
+        "Cloudy, dark or strong-smelling urine",
+        "New or worse confusion in an older person"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are types of incontinence described in this course? (Select all that apply)",
+      "options": [
+        "Caffeine incontinence",
+        "Urge incontinence",
+        "Functional incontinence",
+        "Overflow incontinence",
+        "Stress incontinence"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which actions help make the toilet easier for a person to reach and use in time? (Select all that apply)",
+      "options": [
+        "Choosing clothing with easier fastenings",
+        "Making sure walking aids are within reach",
+        "Keeping the way to the toilet clear and well lit",
+        "Using signs or a clear line of sight to help someone with dementia find the toilet",
+        "Encouraging the person to drink very little"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be signs of constipation? (Select all that apply)",
+      "options": [
+        "Going to the toilet less often than usual",
+        "Cloudy, strong-smelling urine",
+        "Tummy discomfort and a poor appetite",
+        "Straining, or hard or painful stools"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are good practice when supporting someone with a continence product? (Select all that apply)",
+      "options": [
+        "Explaining what you are doing and keeping the person covered",
+        "Checking products regularly and changing them promptly when needed",
+        "Making comments about the product that could cause embarrassment",
+        "Switching the person to a different product yourself if one seems wrong",
+        "Handling used products hygienically and disposing of them correctly"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When should you report to a nurse or continence advisor? (Select all that apply)",
+      "options": [
+        "When their skin becomes red, sore or broken",
+        "When their usual pattern changes",
+        "When someone develops new incontinence",
+        "Only after a problem has already become severe",
+        "When you see signs of infection or constipation"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good practice for skin care in continence support? (Select all that apply)",
+      "options": [
+        "Looking at the skin each time and reporting redness or soreness straight away",
+        "Applying any barrier cream that has been prescribed",
+        "Leaving the skin in contact with a wet product to save time",
+        "Patting rather than rubbing the skin dry",
+        "Cleaning the skin gently with plain water or a mild product as set out in the care plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Leaking urine when you cough or sneeze is called ___ incontinence.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "stress"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A sudden, desperate need to pass urine that is hard to hold is called ___ incontinence.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "urge"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When the bladder never empties fully and leaks or dribbles, this is called ___ incontinence.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "overflow"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When someone cannot reach the toilet in time because of mobility or memory, it is called ___ incontinence.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "functional"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Drinking too little makes urine ___ and can irritate the bladder.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "concentrated"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

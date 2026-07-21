@@ -1,0 +1,549 @@
+{
+  "slug": "personal-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does acting with dignity mean when giving personal care?",
+      "options": [
+        "Treating the person as a valued human being and protecting their self-respect, whatever help they need",
+        "Only helping people who can no longer speak",
+        "Making all the person's decisions for them",
+        "Getting the task done as quickly as you can"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which set of actions best protects a person's privacy during personal care?",
+      "options": [
+        "Leaving the door open so colleagues can see you are working",
+        "Talking loudly so everyone knows what care is being given",
+        "Uncovering the whole body at once to save time",
+        "Closing doors and curtains, covering the parts of the body you are not washing, and knocking and waiting before entering"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "During personal care you learn something private about a person. How should you treat this information?",
+      "options": [
+        "Keep it confidential and share only what colleagues need to know to give safe care",
+        "Share it freely with anyone who asks",
+        "Discuss it openly in front of the person",
+        "Write it on a public noticeboard"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does it mean to gain a person's consent for personal care?",
+      "options": [
+        "The person understands what you are offering and freely agrees to it",
+        "The task is written in the care plan, so no agreement is needed",
+        "You have decided the care is good for them",
+        "A relative has agreed on the person's behalf without asking them"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Part way through helping someone shower, they ask to stop. What should you do?",
+      "options": [
+        "Stop, respect their decision, check they are safe and comfortable, and report the refusal so it can be recorded",
+        "Carry on because the task is nearly finished",
+        "Leave them alone in the shower without telling anyone",
+        "Tell them they must continue as it is in their care plan"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which is good communication practice when giving personal care?",
+      "options": [
+        "Talk about the person to a colleague as though they were not there",
+        "Touch the person first and explain afterwards",
+        "Tell the person what you are going to do before you do it, and check it is alright",
+        "Rush the person so they do not have time to respond"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You are unsure about a person's cultural or religious wishes around washing. What is the best approach?",
+      "options": [
+        "Ignore culture because it is not part of personal care",
+        "Ask, listen and respect, checking their care plan and asking the person or family kindly rather than assuming",
+        "Assume their wishes based on their appearance",
+        "Decide it does not matter and carry on as usual"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Before helping someone to wash, how should you prepare the environment?",
+      "options": [
+        "Only prepare the room if the person asks you to",
+        "Leave the person undressed while you look for a towel",
+        "Start straight away and fetch things as you need them",
+        "Gather towels, soap, clean clothes and equipment first, and make the room private and warm"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why must you test the water temperature before a person gets into a bath or shower?",
+      "options": [
+        "To make the wash quicker",
+        "Only because the person expects it",
+        "Because water that is too hot can scald the person",
+        "There is no need to test it if the room is warm"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When should you carry out hand hygiene during personal care?",
+      "options": [
+        "Only if the person appears to be unwell",
+        "Before and after giving personal care, after using the toilet, and whenever your hands are visibly dirty",
+        "Only after you have finished all your visits for the day",
+        "Only at the start of your shift"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the correct approach to single-use gloves and aprons?",
+      "options": [
+        "Wear the same PPE for several people to save supplies",
+        "Only wear PPE when a person looks unwell",
+        "Reuse gloves if they still look clean",
+        "Put on fresh PPE for each task and each person, and dispose of it in the correct waste"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should you promote a person's independence during personal care?",
+      "options": [
+        "Rush them so they do not get tired",
+        "Do everything for them so it is done properly",
+        "Offer help but let the person try first, use aids and gentle prompts, and give time and praise",
+        "Only let them help if it saves you time"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person finds open questions hard to answer. How can you still offer them a real choice of clothing?",
+      "options": [
+        "Choose for them without asking",
+        "Insist they answer an open question",
+        "Tell them their choice does not matter",
+        "Hold up two tops so they can respond to the option they can see"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In which direction should you wash a person's body?",
+      "options": [
+        "From the least clean area to the cleanest area",
+        "Always start with the genital area",
+        "It does not matter which way you wash",
+        "From the cleanest area to the least clean area"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it important to dry carefully between skin folds and toes?",
+      "options": [
+        "It makes the wash quicker to finish",
+        "Moisture left on the skin can lead to soreness, breakdown and infection",
+        "Drying is not necessary if the room is warm",
+        "It is only important for people who can walk"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How often should you help a person with brushing their teeth or cleaning their dentures?",
+      "options": [
+        "Only on bath days",
+        "Only when they complain of pain",
+        "Once a week",
+        "Twice a day"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, whose nails should only be cut by a specialist?",
+      "options": [
+        "Anyone who asks for help",
+        "A person with diabetes, as their care plan may say only a specialist should cut their nails",
+        "No one, care workers may always cut nails",
+        "Only people who can walk"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When helping someone with weakness on one side to dress, which side do you put clothing onto first?",
+      "options": [
+        "Whichever side is nearest to you",
+        "It makes no difference which side",
+        "The weaker or more painful side first",
+        "The stronger side first"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is good practice when supporting someone with toileting or continence?",
+      "options": [
+        "Respond promptly, give as much privacy as is safe, keep skin clean and dry, and wear appropriate PPE",
+        "Make them wait so you can finish other tasks",
+        "Leave the door wide open at all times",
+        "Show that it is an inconvenience so they ask less often"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "While washing someone, you see redness over the base of the spine that does not fade when pressed. What should you do?",
+      "options": [
+        "Avoid massaging the area and report it promptly so it can be assessed and acted on",
+        "Wait a few days to see whether it gets worse before telling anyone",
+        "Rub the area firmly to improve the blood flow",
+        "Ignore it, as redness is always harmless"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which bony areas should you look at closely for early signs of pressure damage?",
+      "options": [
+        "Heels, hips, base of the spine and elbows",
+        "Only the stomach",
+        "Only the face",
+        "Only the palms of the hands"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "You notice a change in a person while giving personal care but you are not sure what is causing it. What is your role?",
+      "options": [
+        "To notice the change and pass it on, without needing to give a diagnosis",
+        "To diagnose the cause yourself before telling anyone",
+        "To decide it is not important and say nothing",
+        "To wait until you are certain what it is"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A usually cheerful person has become quiet and withdrawn over several visits. What should you do?",
+      "options": [
+        "Decide it must be nothing and forget about it",
+        "Say nothing, as mood is not part of personal care",
+        "Report the change so the team can look into it, even though you cannot say what is causing it",
+        "Wait until the next monthly review to mention it"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person refuses to be washed. What is the right response?",
+      "options": [
+        "Shame them into agreeing",
+        "Stay calm, offer gently, try again later, explore the reason, and report worrying or repeated refusals",
+        "Force the task quickly before they can object",
+        "Insist and wash them anyway because it is good for them"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "While helping someone dress, you notice unexplained bruising and signs the person is frightened. What must you do?",
+      "options": [
+        "Keep it to yourself to avoid trouble",
+        "Ask the person's neighbour what they think",
+        "Wait to see if it happens again",
+        "Report the safeguarding concern straight away, following your employer's policy"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "You should test the temperature of the water before a person gets into a bath or shower.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to continue personal care after a person withdraws consent, as long as the task is nearly finished.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Hand hygiene is the single most important way to prevent the spread of infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Single-use gloves may be reused for the next task if they still look clean.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When dressing a person with weakness on one side, you should put clothing onto the weaker side first.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you see redness that does not fade when pressed, you should massage the area firmly to improve blood flow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person's cultural and religious wishes should be recorded in their care plan and followed as carefully as any other part of their care.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Reporting what you notice by word of mouth is enough, and there is no need to write it down.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are core values that run through good personal care? (Select all that apply)",
+      "options": [
+        "Privacy",
+        "Taking over every task for the person",
+        "Respect",
+        "Dignity",
+        "Working as fast as possible"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which actions help protect a person's privacy during personal care? (Select all that apply)",
+      "options": [
+        "Discussing the person's difficulties in front of them",
+        "Leaving the door open so others can watch",
+        "Knocking and waiting before entering a room",
+        "Covering the parts of the body you are not washing",
+        "Closing doors and curtains before anyone undresses"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can be early signs of pressure damage that you should report? (Select all that apply)",
+      "options": [
+        "Skin that is a normal colour and comfortable",
+        "Redness that does not fade when pressed",
+        "An area that is unusually warm",
+        "Skin that is hard or painful",
+        "Clothing the person has chosen themselves"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of good infection prevention and control during personal care? (Select all that apply)",
+      "options": [
+        "Reusing single-use gloves between people",
+        "Skipping hand hygiene when you are busy",
+        "Wearing gloves and an apron for tasks where you may touch bodily fluids",
+        "Handling soiled laundry and clinical waste according to your employer's policy",
+        "Washing your hands before and after giving personal care"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which changes in a person are worth noticing and reporting to the care team? (Select all that apply)",
+      "options": [
+        "Low mood, confusion, or new difficulty with tasks",
+        "Weight loss or gain, poor appetite, or new pain",
+        "The person choosing a different top to wear today",
+        "Redness, broken skin, rashes, bruising or swelling",
+        "The person preferring a shower to a bath"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What makes a good care record? (Select all that apply)",
+      "options": [
+        "Clear and factual, avoiding opinion",
+        "Left for several days before writing it up",
+        "Accurate, writing what you actually saw or did",
+        "Timely, recorded as soon as you can while it is fresh",
+        "Based mainly on your assumptions"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which actions help you promote a person's independence during personal care? (Select all that apply)",
+      "options": [
+        "Doing everything for them to save time",
+        "Rushing the person so care is finished quickly",
+        "Letting the person try before you step in",
+        "Giving time and praise rather than rushing",
+        "Using aids and gentle prompts so tasks stay within reach"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Always gain a person's ___ before you begin personal care.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "consent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ is described as the single most important way to prevent the spread of infection.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hand hygiene",
+              "handwashing",
+              "hand washing",
+              "washing your hands"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When washing a person, always work from the ___ area to the least clean area.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "cleanest",
+              "clean"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Redness that does not ___ when pressed can be an early sign of a pressure ulcer.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fade"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When helping someone with weakness on one side to dress, put clothing onto the ___ side first.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "weaker",
+              "weak",
+              "affected"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

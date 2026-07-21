@@ -1,0 +1,545 @@
+{
+  "slug": "end-of-life-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which statement best describes palliative care?",
+      "options": [
+        "Care that focuses on comfort and quality of life for the whole person living with a serious, incurable illness, and which can begin well before the final days",
+        "Care aimed at curing the underlying illness as quickly as possible",
+        "Care given only in the final few hours of life, once all other options have stopped",
+        "Care that concentrates only on treating physical symptoms and pain"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How is end of life care best described in relation to palliative care?",
+      "options": [
+        "A completely separate service that has nothing to do with palliative care",
+        "Care that begins only after a person has already died",
+        "The part of palliative care given when a person is thought to be in the last year, and especially the last days, of their life",
+        "Care given years before any serious illness develops"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When care is described as 'holistic', what does this mean?",
+      "options": [
+        "It focuses only on the person's medicines and physical symptoms",
+        "It looks after the whole person and those close to them, including emotional, social and spiritual needs",
+        "It replaces the judgement of the nursing and palliative care team",
+        "It is delivered entirely by a single care worker"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main part of a care worker's role in end of life care?",
+      "options": [
+        "To decide alone when a person is dying and inform the family",
+        "To change the person's medicines whenever symptoms appear",
+        "To diagnose the person's illness and decide which treatments they need",
+        "To support everyday comfort and dignity, follow the care plan, and report changes to a nurse or senior"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who delivers end of life care?",
+      "options": [
+        "Only the person's family members",
+        "A single care worker acting on their own",
+        "Only doctors, with no involvement from anyone else",
+        "A multidisciplinary team, such as district nurses, GPs, specialist palliative care nurses and sometimes hospice staff"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a change commonly seen as a person enters the last days of life?",
+      "options": [
+        "A sudden, lasting increase in appetite and energy",
+        "Wanting to eat and drink much more than usual",
+        "Becoming very drowsy, sleeping more or being hard to rouse",
+        "Breathing that becomes deeper and more regular than normal"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which national guidance describes changes that are commonly seen as death approaches?",
+      "options": [
+        "A DNACPR form",
+        "The Gold Standards Framework alone",
+        "The Mental Capacity Act",
+        "NICE NG31"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main purpose of advance care planning?",
+      "options": [
+        "To speed up paperwork so staff can spend less time with families",
+        "To make a legally binding demand for any treatment the person chooses",
+        "To let the care team decide in advance what is best without involving the person",
+        "To let a person set out their wishes and preferences for future care while they are able, so these can guide decisions if they can no longer speak for themselves"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How does the Gold Standards Framework help teams?",
+      "options": [
+        "It helps teams identify people who may be approaching the end of life early, assess their needs and wishes, and plan their care",
+        "It removes the need to review a person's plan as things change",
+        "It allows care workers to prescribe medicines themselves",
+        "It requires that all care decisions are made in a crisis rather than in advance"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a ReSPECT plan?",
+      "options": [
+        "A plan that covers resuscitation and nothing else",
+        "A Recommended Summary Plan for Emergency Care and Treatment that sets out, in the person's own words alongside clinical advice, what should and should not happen in an emergency",
+        "A record used only after a person has died",
+        "A form that withdraws all comfort and pain relief from a person"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does a DNACPR decision mean?",
+      "options": [
+        "That the person will no longer receive food, fluids or pain relief",
+        "That if the person's heart or breathing stops, cardiopulmonary resuscitation will not be attempted",
+        "That all comfort and dignity measures should stop",
+        "That the care worker may decide alone whether to attempt CPR"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How is a DNACPR decision made and recorded?",
+      "options": [
+        "By the care worker who spends the most time with the person",
+        "It is made informally and never written down",
+        "By the family alone, with no clinical involvement",
+        "It is a clinical decision, recorded on a form, and should be discussed with the person or those close to them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How does the Mental Capacity Act begin when considering a person's ability to make a decision?",
+      "options": [
+        "It gives the care team the right to decide for the person straight away",
+        "It assumes everyone can make their own decisions, and says a person must be given all reasonable help to do so before anyone decides they cannot",
+        "It assumes a person cannot make any decisions once they are seriously ill",
+        "It treats capacity as fixed and unchanging once assessed"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about mental capacity is correct?",
+      "options": [
+        "Capacity is the same for every decision a person faces",
+        "Capacity is decision-specific and can change from day to day",
+        "Once a person loses capacity for one decision, they lose a voice in all decisions",
+        "Capacity can only ever be assessed by a family member"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When a person can no longer make a particular decision, how must any decision made for them be reached?",
+      "options": [
+        "By ignoring any valid advance decision the person made",
+        "By choosing whatever is quickest for the care team",
+        "In the person's best interests, taking account of their past wishes, feelings, beliefs and values",
+        "By excluding anyone holding lasting power of attorney for health"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person who is very drowsy and cannot speak may still be in pain. Which of these can be a sign of that pain?",
+      "options": [
+        "Sleeping peacefully with no change in expression",
+        "Asking clearly and directly for pain relief",
+        "Appearing relaxed and settled during personal care",
+        "A furrowed brow, tense or rigid limbs, groaning, or becoming distressed during movement"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who gives prescribed medicines, including 'as required' pain relief, to a person at the end of life?",
+      "options": [
+        "Any family member who is present",
+        "The appropriate professional, such as the nurse",
+        "The care worker, using another resident's medicines",
+        "The care worker, adjusting the dose as they see fit"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does frequent mouth care matter so much at the very end of life?",
+      "options": [
+        "Because it is a way of forcing the person to take fluids",
+        "Because a dry mouth is a common cause of distress",
+        "Because it speeds up recovery from the illness",
+        "Because it replaces the need for any other comfort care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it natural for someone to want little or no food and drink as they come to the very end of life?",
+      "options": [
+        "Because they no longer need any comfort or company",
+        "Because they are deliberately refusing to cooperate",
+        "Because they should always be encouraged to eat more to build strength",
+        "Because it is part of the body slowing down, not the person 'giving up'"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is often the most valuable emotional support you can offer someone facing the end of life?",
+      "options": [
+        "Finding the perfect words to take away their fear",
+        "Telling them exactly what will happen and when",
+        "Reassuring them that they have nothing to be sad about",
+        "Simply being there, to sit, listen and let them feel they are not alone"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should you approach a person's cultural, religious and spiritual needs at the end of life?",
+      "options": [
+        "Never assume; ask respectfully, follow the care plan, and support the person's and family's wishes",
+        "Arrange customs yourself without telling your senior",
+        "Decide that spirituality only ever means organised religion",
+        "Assume their needs from their background so you do not have to ask"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person appears unconscious in their last hours. How should you communicate around them?",
+      "options": [
+        "Stop talking to them, since they cannot hear anything now",
+        "Speak as loudly as possible to try to wake them",
+        "Continue to speak gently, tell them what you are doing and keep including them, because hearing is often the last sense to fade",
+        "Talk about their condition freely at the bedside as though they were not there"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A family member asks you a question about the person's illness and what to expect. What is the best response?",
+      "options": [
+        "Answer what you can honestly within your role, and pass questions about the illness or treatment to the nurse",
+        "Give them a confident answer even if you are unsure, to reassure them",
+        "Tell them it is not your job to speak with families",
+        "Promise them an outcome so they feel better"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is good practice in caring for a person after death?",
+      "options": [
+        "Working as quickly as possible and skipping the person's cultural or religious wishes",
+        "Deciding that the family does not need time with the person",
+        "Beginning washing or last offices straight away, before checking faith customs or the family's wishes",
+        "Continuing to treat the person with the same gentleness, privacy and dignity as in life, and following any recorded cultural or religious wishes"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should a care worker regard their own feelings of grief when someone they have cared for dies?",
+      "options": [
+        "As something that never happens to professional carers",
+        "As normal and valid, and looking after their own wellbeing is not a weakness but helps them keep caring for others",
+        "As a sign of weakness that should be hidden from colleagues",
+        "As a reason to stop working in care altogether"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Palliative care can begin months or even years before the final days, running alongside other treatment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Recognising that a person is dying is a decision a care worker should make alone and then tell the family.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A DNACPR decision relates only to CPR and does not mean that comfort, pain relief, food, fluids or dignity should stop.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Forcing food or fluids on someone at the very end of life is a good way to build up their strength.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Because hearing is often the last sense to fade, you should keep speaking gently to a dying person and tell them what you are doing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Under the Mental Capacity Act you should assume a person cannot make their own decisions until it is proven that they can.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Care and respect for the person continue after death, including following any recorded cultural or religious customs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A care worker may change a person's medicines themselves if they believe the person is in pain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are features of good, holistic palliative care? (Select all that apply)",
+      "options": [
+        "Attending to emotional, social and spiritual needs as well as physical ones",
+        "Caring for the mind and spirit, not only the body",
+        "Aiming to cure the underlying illness as quickly as possible",
+        "Helping people live as well as possible, focusing on quality of life"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can be signs that a person may be entering the last days of life? (Select all that apply)",
+      "options": [
+        "Sleeping more, becoming very drowsy or hard to rouse",
+        "Wanting to take up vigorous exercise",
+        "Eating and drinking less, losing interest in food and fluids",
+        "Changes in breathing, such as irregular patterns or noisy breaths",
+        "A sudden, lasting increase in appetite and physical strength"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are among the five priorities for the care of a dying person? (Select all that apply)",
+      "options": [
+        "Recognise that the person may be dying and act on it",
+        "Prescribe and adjust medicines yourself as a care worker",
+        "Involve the person and those important to them in decisions",
+        "Hasten the person's death",
+        "Communicate clearly and sensitively"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are part of a care worker's role in end of life care? (Select all that apply)",
+      "options": [
+        "Decide alone about the person's treatment",
+        "Diagnose the person's illness",
+        "Notice changes in pain, mood, eating or breathing",
+        "Help with comfort, cleanliness and gentle company",
+        "Pass concerns on promptly so the team can act"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following support everyday comfort and dignity at the end of life? (Select all that apply)",
+      "options": [
+        "Repositioning gently to ease pressure and aid breathing",
+        "Keeping the room bright and noisy to keep the person awake",
+        "Keeping the mouth and lips moist and clean",
+        "Encouraging large meals even when the person cannot manage them",
+        "Keeping the person clean, warm and their surroundings calm"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following may form part of a person's cultural, religious or spiritual needs at the end of life? (Select all that apply)",
+      "options": [
+        "Prayers, rituals or particular foods",
+        "Wishes about who may be present",
+        "Assuming their needs from their background rather than asking respectfully",
+        "A meaning found in relationships, nature or a life's story rather than religion",
+        "Ignoring the family's wishes to save time"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these help a care worker look after their own and colleagues' wellbeing when someone dies? (Select all that apply)",
+      "options": [
+        "Taking your breaks and using the support that is offered",
+        "Ignoring a colleague who is clearly struggling",
+        "Allowing yourself to feel and to grieve",
+        "Hiding your feelings because grief is a sign of weakness",
+        "Sharing how you feel with colleagues or your manager"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A decision not to attempt resuscitation is recorded on a ___ form.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "DNACPR"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ is often the last sense to fade, so you should keep speaking gently to a dying person.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Hearing",
+              "hearing"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ plan (Recommended Summary Plan for Emergency Care and Treatment) sets out what should and should not happen if a person suddenly becomes very unwell.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "ReSPECT",
+              "respect"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Care that looks after the whole person and those close to them, not only the body, is described as ___ care.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "holistic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Care after death is sometimes called last ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "offices",
+              "office"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

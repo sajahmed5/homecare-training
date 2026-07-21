@@ -1,0 +1,541 @@
+{
+  "slug": "catheter-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is a urinary catheter?",
+      "options": [
+        "A dressing placed over a wound to keep it clean and dry.",
+        "A thin, flexible tube that drains urine from the bladder when a person cannot pass it in the usual way.",
+        "A monitor that measures a person's blood pressure.",
+        "A tube used to give someone food and fluids through the stomach."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What usually holds an indwelling catheter in place inside the bladder?",
+      "options": [
+        "Nothing; it is simply held in place by hand.",
+        "A stitch through the skin.",
+        "A small water-filled balloon.",
+        "Strong adhesive tape wrapped around the tube."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Where does a suprapubic catheter enter the body?",
+      "options": [
+        "Through a vein in the arm.",
+        "Through a small opening in the wall of the lower abdomen, directly into the bladder.",
+        "Through the back passage into the bowel.",
+        "Along the urethra."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where does a urethral catheter pass?",
+      "options": [
+        "Into the stomach to drain fluids.",
+        "Through the abdomen directly into the bladder.",
+        "Along the urethra, the natural tube through which urine normally leaves the body.",
+        "Through a stoma in the side of the neck."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which staff may insert or remove a urinary catheter?",
+      "options": [
+        "Only a registered nurse or doctor; never a care worker.",
+        "Anyone who has completed this awareness course.",
+        "Any care worker who has watched the task being done.",
+        "The person's family members."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under what circumstances may a care worker carry out delegated catheter care such as emptying a drainage bag?",
+      "options": [
+        "Only after task-specific training, being assessed as competent, and the task being delegated by a registered nurse and set out in the care plan.",
+        "Only if no registered nurse is available at the time.",
+        "Whenever they feel confident enough to try.",
+        "As soon as they have finished this awareness course."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is meant by a closed drainage system?",
+      "options": [
+        "The catheter, connecting tube and drainage bag forming one sealed circuit that keeps urine flowing away and germs out.",
+        "A system that is only ever opened at night.",
+        "A drainage bag fitted with a lid instead of a tap.",
+        "A catheter that is clamped shut and never drains."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a CAUTI?",
+      "options": [
+        "A device that measures a person's urine output.",
+        "A catheter-associated urinary tract infection.",
+        "A type of drainage bag worn only at night.",
+        "A fixing strap that secures the catheter to the leg."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does having a catheter increase the risk of infection?",
+      "options": [
+        "It does not; catheters lower the risk of infection.",
+        "Because it raises the person's blood pressure.",
+        "Because the tube gives germs a direct path into the bladder.",
+        "Because it makes the person drink less."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the single most effective way to stop the spread of infection?",
+      "options": [
+        "Emptying the drainage bag less often.",
+        "Clean hands, through good hand hygiene.",
+        "Applying antiseptic to the skin every day.",
+        "Wearing two pairs of gloves at once."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is asepsis?",
+      "options": [
+        "Restricting the person's fluids.",
+        "Measuring urine output accurately.",
+        "Cleaning the floor around the person's bed.",
+        "Working in a way that keeps harmful germs away from a vulnerable site."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should urine normally be emptied from a drainage bag?",
+      "options": [
+        "Through the outlet tap at the bottom of the bag.",
+        "By disconnecting the bag from the catheter.",
+        "By squeezing it out through the top of the bag.",
+        "By briefly removing the catheter."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a night bag and how is it used?",
+      "options": [
+        "A bag worn on the thigh during the day.",
+        "A larger bag attached to the outlet of the leg bag at night, keeping the day system closed.",
+        "A bag that permanently removes the need for a catheter valve.",
+        "A spare catheter kept for emergencies."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where must a catheter drainage bag always be positioned?",
+      "options": [
+        "Above the level of the bladder.",
+        "At the same height as the bladder.",
+        "On the floor beside the bed.",
+        "Below the level of the bladder."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why must a drainage bag never be placed on the floor?",
+      "options": [
+        "Because the bag drains faster when it is on the floor.",
+        "Because the outlet tap could freeze.",
+        "Because the floor is heavily contaminated and germs can travel up into the system.",
+        "Because it looks untidy in the room."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When should a catheter drainage bag usually be emptied?",
+      "options": [
+        "Before it becomes too full or heavy, generally around two-thirds full.",
+        "By disconnecting it whenever convenient.",
+        "Only when it is completely full to the top.",
+        "Only once a day, no matter how full it is."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do when recording a person's urine output?",
+      "options": [
+        "Only record it if it looks abnormal.",
+        "Record the amount accurately and at the time, noting anything unusual about the urine.",
+        "Estimate the amount from memory at the end of the shift.",
+        "Round the figures up to make the chart look tidy."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does meatal hygiene mean?",
+      "options": [
+        "Sterilising the catheter tubing.",
+        "Cleaning the drainage bag with antiseptic.",
+        "Keeping clean the area where the catheter enters the body.",
+        "Washing the person's hands before meals."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is normally needed for routine meatal hygiene?",
+      "options": [
+        "An alcohol hand rub applied to the skin.",
+        "Mild soap and water.",
+        "Talcum powder and special cleansers.",
+        "A strong antiseptic solution."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it good to encourage someone with a catheter to drink well, unless they have a fluid restriction?",
+      "options": [
+        "It means the drainage bag never needs emptying.",
+        "It removes the need for the catheter.",
+        "It makes no real difference but does no harm.",
+        "Good fluid intake keeps urine flowing, which helps flush the system and reduces blockages and infection."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is a catheter passport?",
+      "options": [
+        "A legal document allowing a person to travel abroad with a catheter.",
+        "A personal record holding key information about the person's catheter that travels with them.",
+        "A permit that lets a care worker change catheters.",
+        "A waterproof cover fitted over the drainage bag."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these could be a sign of a catheter-associated urinary infection?",
+      "options": [
+        "The drainage bag hanging below the level of the bladder.",
+        "A raised temperature, cloudy or foul-smelling urine, and new confusion in an older person.",
+        "Pale, clear urine and the person feeling completely well.",
+        "The person drinking plenty of fluids through the day."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is sepsis?",
+      "options": [
+        "A mild irritation of the skin around the catheter.",
+        "The body's life-threatening reaction to an infection, which is a medical emergency.",
+        "A blockage in the drainage tube.",
+        "A normal effect of having a catheter in place."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do if a person's catheter falls out?",
+      "options": [
+        "Flush it with water before replacing it.",
+        "Do nothing, as a catheter falling out is never a problem.",
+        "Reassure the person, note the time, keep them comfortable, and contact the registered nurse straight away.",
+        "Gently push it back in yourself to save time."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is bypassing in relation to a catheter?",
+      "options": [
+        "When the night bag is attached to the leg bag.",
+        "When the catheter is changed by a registered nurse.",
+        "When the person drinks extra fluids.",
+        "When urine leaks around the outside of the catheter."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Wearing gloves means you do not need to clean your hands before and after catheter care.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A urinary catheter should only ever be inserted or removed by a registered nurse or doctor, never by a care worker.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Routine meatal hygiene for a catheter usually needs only mild soap and water, not antiseptics or powders.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to empty a drainage bag by disconnecting it from the catheter each time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A catheter drainage bag should always sit below the level of the bladder.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "The risk of infection falls the longer a catheter stays in place.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "New or increased confusion in an older person can be an early sign of a catheter-associated infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If a catheter becomes blocked, a care worker should flush or unblock it themselves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are correct infection-prevention practices during catheter care? (Select all that apply)",
+      "options": [
+        "Clean your hands before and after the task",
+        "Rely on gloves instead of washing your hands",
+        "Wear clean disposable gloves and an apron for the task",
+        "Let the outlet tap touch the floor",
+        "Keep the drainage system closed"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these could be signs of a catheter-associated urinary infection? (Select all that apply)",
+      "options": [
+        "New or increased confusion in an older person",
+        "Cloudy, dark or strong-smelling urine",
+        "Pale, clear urine and the person feeling completely well",
+        "The drainage bag positioned below the bladder",
+        "A raised temperature or feeling hot and shivery"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are warning signs of sepsis? (Select all that apply)",
+      "options": [
+        "Cold, pale or blotchy skin",
+        "Feeling completely well and comfortable",
+        "Fast breathing or a racing heart",
+        "Pale, clear urine"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "For a care worker to carry out delegated catheter care, which of the following must be in place? (Select all that apply)",
+      "options": [
+        "They feel confident enough to try without training",
+        "They have been assessed as competent",
+        "They have simply watched a colleague do it once",
+        "They have had task-specific training",
+        "The task has been delegated by a registered nurse and set out in the care plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these should be reported to the registered nurse? (Select all that apply)",
+      "options": [
+        "Urine bypassing, leaking around the catheter",
+        "Blood or clots in the urine",
+        "A drainage bag that is around half full",
+        "The bag correctly positioned below the bladder",
+        "No urine draining for a few hours"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are good practice when positioning the catheter and tubing? (Select all that apply)",
+      "options": [
+        "Rest the bag on the floor when the person is in bed",
+        "Allow the person to sit or lie on the tubing",
+        "Keep the tubing free of kinks and loops",
+        "Keep the bag off the floor using a stand or holder",
+        "Keep the bag below the level of the bladder"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which information may a catheter passport hold? (Select all that apply)",
+      "options": [
+        "When the catheter was inserted and when it is next due to be changed",
+        "The person's bank details",
+        "The care worker's home address",
+        "The type and size of the catheter",
+        "Who to contact with problems"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Always keep the drainage bag ___ the level of the bladder.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "below"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "An indwelling catheter is usually held in place inside the bladder by a small water-filled ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "balloon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Urine should be emptied through the ___ at the bottom of the drainage bag, never by disconnecting it.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "tap"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ catheter enters through a small opening in the wall of the lower abdomen called a stoma.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "suprapubic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A care worker must never ___ or remove a urinary catheter.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "insert"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
