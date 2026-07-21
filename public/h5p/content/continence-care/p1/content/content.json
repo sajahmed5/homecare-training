@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Continence Care</h2><p>Welcome to <strong>Continence Care</strong>. Supporting someone with their bladder and bowels is one of the most personal things you will ever do in care. Done with warmth and respect, it protects a person's health and helps them feel comfortable, confident and in control. This course is about seeing continence care as skilled, dignified work &mdash; never as &ldquo;just pads&rdquo;.</p><ul><li><strong>Continence:</strong> being able to control when and where you pass urine and stool.</li><li><strong>Incontinence:</strong> any involuntary leaking of urine or stool.</li><li><strong>Dignity:</strong> supporting people in a way that protects their privacy and self-respect.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41942ed1-b3f4-4c42-97b6-e25de72591a2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a90ca692-7646-4c97-8cbe-4905ee129c5b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn what continence and incontinence are, why continence matters so much for dignity, health and self-esteem, and the main types of incontinence and their causes. You will look at how to support continence well in everyday practice, and how to recognise and report concerns such as infection, constipation and skin damage.</p><p>This e-learning builds <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on supervised training, your employer's policies, or the assessment of a nurse or continence advisor. Continence assessment and the prescribing of products are carried out by a qualified professional &mdash; your role is to support the agreed plan and to report anything that changes or worries you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "da34abec-d22e-4e2f-8fce-60201a89eedc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

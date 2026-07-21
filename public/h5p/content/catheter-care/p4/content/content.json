@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Catheter-associated urinary infection</h2><p>A <strong>catheter-associated urinary tract infection</strong>, or <strong>CAUTI</strong>, is an infection of the urinary system that develops because a catheter is in place. Urinary catheters are one of the most common causes of healthcare-associated infection, because the tube gives germs a direct path into the bladder. The longer a catheter stays in, the greater the chance of infection, which is one reason catheters are used only for as long as they are genuinely needed.</p><ul><li><strong>What it is:</strong> a urinary infection linked to the catheter.</li><li><strong>Why it happens:</strong> the tube offers germs a route into the bladder.</li><li><strong>Key risk:</strong> risk rises the longer the catheter is in place.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d466e242-67db-4f4b-8e02-a8b629973e0e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for CAUTI and IPC",
+          "decorative": false,
+          "file": {
+            "path": "images/cauti-and-ipc.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d1d5295f-ef50-4c17-9744-eabc97b161af",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in preventing it</h2><p>Much of the harm from CAUTI is preventable, and everyday care is where prevention happens. National guidance on preventing healthcare-associated infection sets out the core principles: clean your hands at the right moments, keep the drainage system closed, position the bag correctly, and keep everything clean. None of these are complicated, but they only work if they are done every time.</p><p>You do not need to be a nurse to help prevent infection &mdash; the small, consistent habits of good hand hygiene and careful handling are exactly what protects people. In the next pages we look at each of these principles in turn, starting with the single most important one: hand hygiene.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "259bf535-b204-4804-8918-b5b67a29bc52",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A urinary infection linked to a catheter is called a *CAUTI*. The risk of infection *rises* the longer the catheter stays in place, so catheters are used only for as long as they are *needed*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "d2846b58-15c4-45e0-9c70-2a4c7986d481",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

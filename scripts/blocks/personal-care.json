@@ -1,0 +1,97 @@
+{
+  "slug": "personal-care",
+  "title": "Personal Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "personal-care/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Personal care and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p2",
+      "label": "The values",
+      "questions": 1,
+      "section": "Personal care and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p3",
+      "label": "Consent and culture",
+      "questions": 1,
+      "section": "Personal care and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p4",
+      "label": "Consent and communication",
+      "questions": 1,
+      "section": "Preparing and delivering care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p5",
+      "label": "The right environment",
+      "questions": 1,
+      "section": "Preparing and delivering care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p6",
+      "label": "Infection control and PPE",
+      "questions": 1,
+      "section": "Preparing and delivering care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p7",
+      "label": "Independence and choice",
+      "questions": 1,
+      "section": "Preparing and delivering care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p8",
+      "label": "Washing and bathing",
+      "questions": 1,
+      "section": "The main areas of care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p9",
+      "label": "Grooming and dressing",
+      "questions": 1,
+      "section": "The main areas of care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p10",
+      "label": "Toileting and skin care",
+      "questions": 1,
+      "section": "The main areas of care"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p11",
+      "label": "Noticing changes",
+      "questions": 1,
+      "section": "Observing, reporting and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p12",
+      "label": "Refusals and safeguarding",
+      "questions": 0,
+      "section": "Observing, reporting and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "personal-care/p13",
+      "label": "Reporting and recording",
+      "questions": 0,
+      "section": "Observing, reporting and recording"
+    }
+  ]
+}

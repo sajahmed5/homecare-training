@@ -3,95 +3,186 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "fluids-and-nutrition",
+   "course": "catheter-care",
    "page": 1,
    "file": "welcome.svg",
    "alt": "Illustration for Welcome",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p1/content/images"
+   "srcDir": "public/h5p/content/catheter-care/p1/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "catheter-care",
    "page": 2,
-   "file": "more-than-fuel.svg",
-   "alt": "Illustration for More than fuel",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p2/content/images"
+   "file": "what-is-a-catheter.svg",
+   "alt": "Illustration for What is a catheter?",
+   "srcDir": "public/h5p/content/catheter-care/p2/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "catheter-care",
+   "page": 3,
+   "file": "types-and-reasons.svg",
+   "alt": "Illustration for Types and reasons",
+   "srcDir": "public/h5p/content/catheter-care/p3/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 4,
+   "file": "cauti-and-ipc.svg",
+   "alt": "Illustration for CAUTI and IPC",
+   "srcDir": "public/h5p/content/catheter-care/p4/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 5,
+   "file": "hands-and-asepsis.svg",
+   "alt": "Illustration for Hands and asepsis",
+   "srcDir": "public/h5p/content/catheter-care/p5/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 6,
+   "file": "closed-system.svg",
+   "alt": "Illustration for Closed system",
+   "srcDir": "public/h5p/content/catheter-care/p6/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 7,
+   "file": "positioning-the-bag.svg",
+   "alt": "Illustration for Positioning the bag",
+   "srcDir": "public/h5p/content/catheter-care/p7/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 8,
+   "file": "emptying-and-output.svg",
+   "alt": "Illustration for Emptying and output",
+   "srcDir": "public/h5p/content/catheter-care/p8/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 9,
+   "file": "hygiene-and-securing.svg",
+   "alt": "Illustration for Hygiene and securing",
+   "srcDir": "public/h5p/content/catheter-care/p9/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 10,
+   "file": "fluids-and-passport.svg",
+   "alt": "Illustration for Fluids and passport",
+   "srcDir": "public/h5p/content/catheter-care/p10/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 11,
+   "file": "infection-and-sepsis.svg",
+   "alt": "Illustration for Infection and sepsis",
+   "srcDir": "public/h5p/content/catheter-care/p11/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 12,
+   "file": "blockage-and-leakage.svg",
+   "alt": "Illustration for Blockage and leakage",
+   "srcDir": "public/h5p/content/catheter-care/p12/content/images"
+  },
+  {
+   "course": "catheter-care",
+   "page": 13,
+   "file": "when-to-escalate.svg",
+   "alt": "Illustration for When to escalate",
+   "srcDir": "public/h5p/content/catheter-care/p13/content/images"
+  },
+  {
+   "course": "continence-care",
+   "page": 1,
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/continence-care/p1/content/images"
+  },
+  {
+   "course": "continence-care",
+   "page": 2,
+   "file": "why-it-matters.svg",
+   "alt": "Illustration for Why it matters",
+   "srcDir": "public/h5p/content/continence-care/p2/content/images"
+  },
+  {
+   "course": "continence-care",
    "page": 3,
    "file": "your-role-and-limits.svg",
    "alt": "Illustration for Your role and limits",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p3/content/images"
+   "srcDir": "public/h5p/content/continence-care/p3/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 4,
-   "file": "why-hydration-matters.svg",
-   "alt": "Illustration for Why hydration matters",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p4/content/images"
+   "file": "stress-and-urge.svg",
+   "alt": "Illustration for Stress and urge",
+   "srcDir": "public/h5p/content/continence-care/p4/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 5,
-   "file": "spotting-dehydration.svg",
-   "alt": "Illustration for Spotting dehydration",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p5/content/images"
+   "file": "overflow-and-functional.svg",
+   "alt": "Illustration for Overflow and functional",
+   "srcDir": "public/h5p/content/continence-care/p5/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 6,
-   "file": "who-is-at-risk.svg",
-   "alt": "Illustration for Who is at risk",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p6/content/images"
+   "file": "assessment-not-assumption.svg",
+   "alt": "Illustration for Assessment, not assumption",
+   "srcDir": "public/h5p/content/continence-care/p6/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 7,
-   "file": "encouraging-fluids.svg",
-   "alt": "Illustration for Encouraging fluids",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p7/content/images"
+   "file": "toileting-support.svg",
+   "alt": "Illustration for Toileting support",
+   "srcDir": "public/h5p/content/continence-care/p7/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 8,
-   "file": "a-balanced-diet.svg",
-   "alt": "Illustration for A balanced diet",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p8/content/images"
+   "file": "fluids-and-diet.svg",
+   "alt": "Illustration for Fluids and diet",
+   "srcDir": "public/h5p/content/continence-care/p8/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 9,
-   "file": "malnutrition.svg",
-   "alt": "Illustration for Malnutrition",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p9/content/images"
+   "file": "products-with-dignity.svg",
+   "alt": "Illustration for Products with dignity",
+   "srcDir": "public/h5p/content/continence-care/p9/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 10,
-   "file": "diets-and-choices.svg",
-   "alt": "Illustration for Diets and choices",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p10/content/images"
+   "file": "skin-and-pressure-care.svg",
+   "alt": "Illustration for Skin and pressure care",
+   "srcDir": "public/h5p/content/continence-care/p10/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 11,
-   "file": "mealtime-support.svg",
-   "alt": "Illustration for Mealtime support",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p11/content/images"
+   "file": "signs-of-infection.svg",
+   "alt": "Illustration for Signs of infection",
+   "srcDir": "public/h5p/content/continence-care/p11/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 12,
-   "file": "swallowing-and-iddsi.svg",
-   "alt": "Illustration for Swallowing and IDDSI",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p12/content/images"
+   "file": "constipation-and-change.svg",
+   "alt": "Illustration for Constipation and change",
+   "srcDir": "public/h5p/content/continence-care/p12/content/images"
   },
   {
-   "course": "fluids-and-nutrition",
+   "course": "continence-care",
    "page": 13,
-   "file": "safety-and-concerns.svg",
-   "alt": "Illustration for Safety and concerns",
-   "srcDir": "public/h5p/content/fluids-and-nutrition/p13/content/images"
+   "file": "reporting-and-support.svg",
+   "alt": "Illustration for Reporting and support",
+   "srcDir": "public/h5p/content/continence-care/p13/content/images"
   }
  ]
 }

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Personal Care</h2><p>Welcome to this awareness course on <strong>personal care</strong>. Personal care means supporting someone with the everyday, intimate tasks of looking after their own body &mdash; washing, dressing, using the toilet, and caring for skin, hair, nails and mouth. For most people these are private moments, and how you help with them says a great deal about the respect you show. This course is for care workers in England and is grounded in the values of the Care Certificate and good-practice guidance.</p><ul><li><strong>Dignity first:</strong> personal care touches the most private parts of a person's life.</li><li><strong>Your role:</strong> to support, never to take over, and always to follow the care plan.</li><li><strong>Awareness:</strong> this is knowledge, and your practice must also be seen at work.</li></ul><p>This e-learning covers the <strong>knowledge</strong> element only. Being able to deliver personal care safely and kindly must also be observed by your employer, who watches your competence in real work before signing it off. An online course alone cannot confirm that you are ready.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "52a2e91b-cd9b-4117-b9dd-785786b5daad",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "048116f1-b7f4-4ca9-8738-894391e4d8b6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will move from the values behind personal care to the practical skill of delivering it well.</p><ul><li><strong>Values:</strong> dignity, privacy, respect, consent, choice, independence and cultural needs.</li><li><strong>Preparing and delivering:</strong> consent, communication, the right environment, infection control and independence.</li><li><strong>The main areas:</strong> washing, mouth care, grooming, dressing, toileting and skin care.</li></ul><p>The final section looks at how you observe, report and record what you notice. Throughout, remember that personal care is delivered according to each person's <strong>care plan</strong>, and that any change you see is reported so the plan can be kept up to date. Keep your own workplace and the people you support in mind as you learn.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "07d9fdc6-fe55-48ba-8cd8-cc0824094f02",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

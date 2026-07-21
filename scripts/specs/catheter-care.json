@@ -1,0 +1,278 @@
+{
+  "slug": "catheter-care",
+  "courseTitle": "Catheter Care",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "About urinary catheters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Catheter Care</h2><p>Welcome to <strong>Catheter Care</strong>. Many of the people you support live with a urinary catheter, and the everyday care around it has a direct effect on their comfort, dignity and safety. This course helps you understand what a catheter is, why people have one, and how clean, careful, person-centred support helps prevent infection and other problems.</p><ul><li><strong>Understand:</strong> what a urinary catheter is and why it is used.</li><li><strong>Prevent:</strong> how good practice reduces the risk of infection.</li><li><strong>Escalate:</strong> when and how to report concerns to a registered nurse.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness only &mdash; know your limits</h2><p>Catheter care is a <strong>delegated clinical task</strong>. This course raises your <strong>awareness</strong> only. You must <strong>never</strong> insert or remove a urinary catheter &mdash; that is the role of a registered nurse or doctor. You may only carry out delegated catheter care, such as emptying a drainage bag or supporting meatal hygiene, if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you by a registered nurse</strong> and set out in the person's care plan.</p><p>This course does not authorise you to carry out catheter care without task-specific training, assessed competence and delegation by a registered nurse. If anything looks or feels abnormal, you stop and escalate to the nurse. Throughout, remember that your two most important skills are noticing changes and reporting them promptly.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a catheter?",
+      "section": "About urinary catheters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is a urinary catheter?</h2><p>A urinary catheter is a thin, flexible, hollow tube that drains urine from the bladder when a person cannot pass urine in the usual way. Most indwelling catheters are held in place by a small water-filled balloon inside the bladder, and the tube connects to a drainage bag or a valve that the person opens to empty. Because the catheter creates a direct route into the bladder, it needs careful, clean handling every single time it is touched.</p><ul><li><strong>Drains urine:</strong> when the bladder cannot empty normally.</li><li><strong>Held in place:</strong> usually by a small balloon in the bladder.</li><li><strong>A direct route:</strong> into the bladder, so infection risk is real.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A closed drainage system</h2><p>An indwelling catheter is part of a <strong>closed drainage system</strong>: the catheter, the connecting tube and the drainage bag form one sealed circuit that keeps urine flowing away from the body and keeps germs out. Urine drains down into the bag by gravity, so the system only works well when it is kept sealed and the bag sits lower than the bladder.</p><p>Keeping this system closed is one of the most important things you can do to protect the person. Every time the system is opened unnecessarily &mdash; for example by disconnecting the bag &mdash; germs can get in and travel up towards the bladder. Understanding how the system works helps you see why the small, careful habits in this course matter so much.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is a urinary catheter?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A thin, flexible tube that drains urine from the bladder when a person cannot pass it in the usual way.", "correct": true, "feedback": "Correct. It drains urine when the bladder cannot empty normally, and connects to a drainage bag or valve." },
+            { "text": "A dressing placed over a wound to keep it clean and dry.", "correct": false, "feedback": "No &mdash; that describes a wound dressing, not a catheter." },
+            { "text": "A tube used to give someone food and fluids through the stomach.", "correct": false, "feedback": "No &mdash; that is a feeding tube. A urinary catheter drains urine." },
+            { "text": "A monitor that measures a person's blood pressure.", "correct": false, "feedback": "No &mdash; a catheter drains urine; it does not measure blood pressure." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Types and reasons",
+      "section": "About urinary catheters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Two main types</h2><p>Indwelling catheters are described by where they enter the body. A <strong>urethral catheter</strong> is passed along the urethra &mdash; the natural tube through which urine normally leaves the body. A <strong>suprapubic catheter</strong> is inserted by a doctor through a small opening in the wall of the lower abdomen, directly into the bladder, and this opening is called a stoma.</p><ul><li><strong>Urethral:</strong> enters through the urethra.</li><li><strong>Suprapubic:</strong> enters through the abdomen into the bladder.</li><li><strong>Both:</strong> are placed and changed only by trained clinical staff.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why people have a catheter</h2><p>People need catheters for many different reasons, and the reason is always a clinical decision. Some have a blockage or retention that stops them passing urine; some need one after surgery; some have their urine output measured closely when they are seriously unwell; and some have a long-term catheter to manage a bladder that no longer works as it should.</p><p>A suprapubic catheter is sometimes chosen for long-term use because it can be more comfortable, keeps the tube away from the genital area, and can make personal and sexual life easier for the person. Whatever the type, catheters are used only when there is a clear need, because every catheter carries a risk of infection. Your role is to support the person and their catheter safely, never to question or change the clinical decision behind it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Where does a suprapubic catheter enter the body?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Through a small opening in the wall of the lower abdomen, directly into the bladder.", "correct": true, "feedback": "Correct. A suprapubic catheter is placed by a doctor through the abdomen into the bladder." },
+            { "text": "Along the urethra, the natural tube that urine passes through.", "correct": false, "feedback": "That describes a urethral catheter, not a suprapubic one." },
+            { "text": "Through the back passage into the bowel.", "correct": false, "feedback": "No &mdash; a catheter drains the bladder, not the bowel." },
+            { "text": "Through a vein in the arm.", "correct": false, "feedback": "No &mdash; that would be an intravenous line, not a urinary catheter." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CAUTI and IPC",
+      "section": "Preventing infection",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Catheter-associated urinary infection</h2><p>A <strong>catheter-associated urinary tract infection</strong>, or <strong>CAUTI</strong>, is an infection of the urinary system that develops because a catheter is in place. Urinary catheters are one of the most common causes of healthcare-associated infection, because the tube gives germs a direct path into the bladder. The longer a catheter stays in, the greater the chance of infection, which is one reason catheters are used only for as long as they are genuinely needed.</p><ul><li><strong>What it is:</strong> a urinary infection linked to the catheter.</li><li><strong>Why it happens:</strong> the tube offers germs a route into the bladder.</li><li><strong>Key risk:</strong> risk rises the longer the catheter is in place.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your part in preventing it</h2><p>Much of the harm from CAUTI is preventable, and everyday care is where prevention happens. National guidance on preventing healthcare-associated infection sets out the core principles: clean your hands at the right moments, keep the drainage system closed, position the bag correctly, and keep everything clean. None of these are complicated, but they only work if they are done every time.</p><p>You do not need to be a nurse to help prevent infection &mdash; the small, consistent habits of good hand hygiene and careful handling are exactly what protects people. In the next pages we look at each of these principles in turn, starting with the single most important one: hand hygiene.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A urinary infection linked to a catheter is called a *CAUTI*. The risk of infection *rises* the longer the catheter stays in place, so catheters are used only for as long as they are *needed*."
+        }
+      ]
+    },
+    {
+      "label": "Hands and asepsis",
+      "section": "Preventing infection",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Hand hygiene comes first</h2><p>Clean hands are the single most effective way to stop the spread of infection. Before and after any contact with a person's catheter or drainage system you must decontaminate your hands, using soap and water or alcohol hand rub as appropriate, and put on clean disposable gloves and an apron. After the task you remove your gloves and apron and clean your hands again, because gloves are never a substitute for hand hygiene.</p><ul><li><strong>Before:</strong> clean your hands and put on gloves and apron.</li><li><strong>After:</strong> remove gloves and apron, then clean your hands again.</li><li><strong>Always:</strong> gloves do not replace handwashing.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The principles of asepsis</h2><p><strong>Asepsis</strong> means working in a way that keeps harmful germs away from a vulnerable site &mdash; here, the point where the catheter meets the body and the connections in the drainage system. In practice this means clean hands, clean gloves, not touching the parts that need to stay clean, and using a clean technique for any delegated task.</p><p>You should never touch the tip of the catheter, the connection points or the outlet tap with your bare hands, and you should never let these parts touch clothing, bedding or the floor. If a connection is accidentally touched or contaminated, you stop and report it to the nurse rather than carrying on. Keeping these key points clean is what stops infection travelling into the bladder.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Wearing gloves means you do not need to clean your hands before and after catheter care.",
+          "correct": false,
+          "correctMsg": "Correct. Gloves are never a substitute for hand hygiene &mdash; always clean your hands before and after.",
+          "wrongMsg": "Not quite. Gloves do not replace handwashing; you must clean your hands both before and after."
+        }
+      ]
+    },
+    {
+      "label": "Closed system",
+      "section": "Preventing infection",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keep the closed system closed</h2><p>The drainage system works best when it stays sealed. Every unnecessary break in the system is a chance for germs to enter, so the golden rule is to keep the connection between the catheter and the drainage bag closed unless there is a clinical reason to open it. Urine is emptied through the tap at the bottom of the bag, never by disconnecting the bag from the catheter.</p><ul><li><strong>Do not disconnect:</strong> keep the catheter and bag connected.</li><li><strong>Empty via the tap:</strong> use the outlet tap, not the connection.</li><li><strong>Only open:</strong> when clinically necessary and delegated to you.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bags and how they connect</h2><p>Many people wear a <strong>leg bag</strong> during the day, held on the thigh or calf, which is emptied through its tap. At night, a larger <strong>night bag</strong> is usually attached to the outlet of the leg bag so the person does not have to wake to empty it, and this keeps the day system closed. Some people use a <strong>catheter valve</strong> instead of a bag, opening it regularly to drain urine.</p><p>Whatever the arrangement, follow the person's care plan and change bags only as directed and only if this has been delegated to you. If a bag is leaking, disconnected, or the wrong type appears to be in use, do not improvise &mdash; report it to the nurse. Keeping the right, closed arrangement in place protects the person from infection.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Urine should be emptied through the *tap* at the bottom of the bag, never by *disconnecting* the bag. At night a larger *night* bag is attached to keep the system *closed*."
+        }
+      ]
+    },
+    {
+      "label": "Positioning the bag",
+      "section": "Preventing infection",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Position the bag below the bladder</h2><p>Urine drains by gravity, so the drainage bag must always sit <strong>below the level of the bladder</strong>. This lets urine flow away freely and stops urine already in the bag from flowing back up towards the bladder, which could carry germs with it. Whether the person is sitting, standing, lying down or being moved, check that the bag stays below bladder level.</p><ul><li><strong>Below the bladder:</strong> so urine drains and does not flow back.</li><li><strong>Never on the floor:</strong> keep the bag off the ground at all times.</li><li><strong>Support it:</strong> use a stand, hanger or holder, not the floor.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Free flow, no kinks, off the floor</h2><p>For the system to drain, the tubing must be free of kinks, loops and pressure. A tube trapped under a leg, caught in bedding or looped below the bag can stop urine draining and cause it to pool, which is uncomfortable and raises the infection risk. Check that the person is not lying or sitting on the tube.</p><p>The bag must <strong>never</strong> touch the floor, because the floor is heavily contaminated and germs can travel up into the system. When someone is in bed, hang the bag on a stand or holder at the side of the bed; when they are in a chair, use a floor stand or bag holder that keeps it clear of the ground. These simple positioning habits, done every time, make a real difference to preventing infection.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Emptying and output",
+      "section": "Everyday supported care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Emptying the drainage bag</h2><p>A drainage bag is emptied regularly so it does not become too full and drag on the catheter. As a general rule it is emptied when it is around two-thirds full, and before it becomes heavy. If this task is delegated to you, clean your hands and put on gloves and an apron, then open the outlet tap and let urine drain into a clean container held below the bag.</p><ul><li><strong>When:</strong> before the bag becomes too full or heavy.</li><li><strong>How:</strong> clean hands and gloves, then use the outlet tap.</li><li><strong>Clean tap:</strong> do not let the tap touch the container or floor.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Measuring and recording output</h2><p>After draining, close the tap firmly, wipe it if the care plan directs, and dispose of the urine, gloves and apron correctly before cleaning your hands again. Take care that the tap does not touch the container, the floor or your gloves, as this could carry germs back into the system. Each person should have their own clean container that is not shared.</p><p>You may be asked to <strong>measure and record</strong> how much urine the person passes, on a fluid balance or output chart. Record the amount accurately and at the time, and note anything unusual about the urine &mdash; for example if it is very dark, cloudy, bloodstained, strong-smelling or much less than usual. Accurate records help the nurse spot problems early, so never guess or fill a chart in from memory.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "When should a catheter drainage bag usually be emptied?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Before it becomes too full or heavy &mdash; generally around two-thirds full.", "correct": true, "feedback": "Correct. Emptying before it overfills stops the bag dragging on the catheter." },
+            { "text": "Only once a day, no matter how full it is.", "correct": false, "feedback": "No &mdash; a full, heavy bag drags on the catheter and should be emptied before that." },
+            { "text": "Only when it is completely full to the top.", "correct": false, "feedback": "No &mdash; waiting until it is completely full lets it become heavy and drag on the catheter." },
+            { "text": "By disconnecting the bag from the catheter each time.", "correct": false, "feedback": "No &mdash; always empty through the tap; disconnecting breaks the closed system." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hygiene and securing",
+      "section": "Everyday supported care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Meatal and personal hygiene</h2><p><strong>Meatal hygiene</strong> means keeping clean the area where the catheter enters the body &mdash; the urethral opening, or the stoma site for a suprapubic catheter. Routine daily washing with mild soap and water is all that is usually needed, along with washing after each bowel movement. There is no need for antiseptics, powders or special cleansers unless the care plan specifically says so.</p><ul><li><strong>What:</strong> keep the entry point clean and dry.</li><li><strong>How:</strong> mild soap and water, washing away from the body.</li><li><strong>When:</strong> daily and after any bowel movement.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Securing the catheter and protecting dignity</h2><p>Wash gently along the catheter in the direction away from the body, never pulling or tugging on the tube, and pat the area dry. For an intimate task like this, always explain what you are doing, gain the person's consent, and protect their privacy and dignity by keeping them covered as much as possible. Where the person can do their own hygiene, support them to do so.</p><p>The catheter should also be <strong>secured</strong> &mdash; using a leg strap or fixing device as set out in the care plan &mdash; so that it does not pull on the bladder or get tugged during movement, which is painful and can cause damage. Check the skin around any strap, or around the stoma, for redness, soreness or discharge, and report anything abnormal to the nurse rather than treating it yourself.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Routine meatal hygiene for a catheter usually needs only mild soap and water, not antiseptics or powders.",
+          "correct": true,
+          "correctMsg": "Correct. Daily washing with mild soap and water is normally all that is needed, unless the care plan says otherwise.",
+          "wrongMsg": "Not quite. Routine care is usually just mild soap and water; antiseptics and powders are not needed unless directed."
+        }
+      ]
+    },
+    {
+      "label": "Fluids and passport",
+      "section": "Everyday supported care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Fluids and comfort</h2><p>Unless the person has been told to limit fluids for a medical reason, encourage them to drink well throughout the day. A good fluid intake keeps urine flowing freely through the catheter, which helps flush the system and reduces the risk of blockages and infection. Always follow the person's care plan, as some people do have fluid restrictions.</p><ul><li><strong>Encourage fluids:</strong> unless restricted by the care plan.</li><li><strong>Why:</strong> good flow helps prevent blockage and infection.</li><li><strong>Comfort:</strong> watch for any sign of pain or discomfort.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The catheter passport</h2><p>Many people with a long-term catheter have a <strong>catheter passport</strong> &mdash; a personal record that travels with them. It holds key information such as the type and size of catheter, when it was inserted, when it is next due to be changed, and who to contact with problems. It gives everyone involved in the person's care the same essential information and supports safe care across different settings.</p><p>Keep the passport up to date where that is part of your role, make sure it goes with the person to hospital or other appointments, and treat it as important. Throughout all daily care, protect the person's <strong>dignity and privacy</strong>: many people feel embarrassed about a catheter, so be discreet, keep bags covered under clothing where possible, gain consent, and never make the person feel like a task. Kind, respectful support matters just as much as clean technique.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Unless the person has a fluid restriction, why is it good to encourage them to drink well?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A good fluid intake keeps urine flowing, which helps flush the system and reduces blockages and infection.", "correct": true, "feedback": "Correct. Good flow helps keep the catheter clear and lowers the infection risk." },
+            { "text": "Drinking more makes the catheter unnecessary.", "correct": false, "feedback": "No &mdash; fluids do not remove the need for a catheter, which is a clinical decision." },
+            { "text": "It means the drainage bag never needs emptying.", "correct": false, "feedback": "No &mdash; drinking well actually means the bag fills and needs emptying regularly." },
+            { "text": "There is no reason; fluids make no difference to a catheter.", "correct": false, "feedback": "No &mdash; good fluid intake genuinely helps prevent blockages and infection." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Infection and sepsis",
+      "section": "Recognising and reporting problems",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Signs of a catheter infection</h2><p>Because a catheter raises the risk of urinary infection, you need to recognise the signs so you can report them early. A person developing a catheter-associated infection may have a raised temperature or feel hot and shivery, have cloudy, dark or strong-smelling urine, feel pain or tenderness in the lower tummy or back, or simply seem generally unwell. In older people, new or increased <strong>confusion</strong> can be an early and important sign.</p><ul><li><strong>Feeling unwell:</strong> fever, shivering, aches, feeling washed out.</li><li><strong>Urine changes:</strong> cloudy, dark, bloody or foul-smelling.</li><li><strong>Confusion:</strong> new or worsening confusion, especially in older people.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Sepsis &mdash; a medical emergency</h2><p>Sometimes an infection can become <strong>sepsis</strong>, the body's life-threatening reaction to an infection. Catheter infections are one cause, so you must know the warning signs. These can include shivering and fever or a very low temperature, fast breathing or a racing heart, cold, pale or blotchy skin, drowsiness or a big change in how alert the person is, and severe confusion. A person with sepsis may say they feel they might die.</p><p>Sepsis is a <strong>medical emergency</strong>. If you suspect it, get urgent medical help straight away &mdash; call for the nurse immediately and follow your service's emergency procedure, seeking emergency help without delay. It is always better to raise the alarm and be wrong than to wait. Rapid action saves lives.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these might be a sign of a catheter-associated urinary infection?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A raised temperature, cloudy or foul-smelling urine, and new confusion in an older person.", "correct": true, "feedback": "Correct. These are common signs of a catheter-associated infection and should be reported." },
+            { "text": "Pale, clear urine and the person feeling completely well.", "correct": false, "feedback": "No &mdash; those are signs of things going well, not of infection." },
+            { "text": "The drainage bag hanging below the level of the bladder.", "correct": false, "feedback": "No &mdash; that is correct positioning, not a sign of infection." },
+            { "text": "The person drinking plenty of fluids through the day.", "correct": false, "feedback": "No &mdash; good fluid intake is helpful, not a sign of infection." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Blockage and leakage",
+      "section": "Recognising and reporting problems",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Other problems to watch for</h2><p>As well as infection, several other problems can affect a catheter, and each one needs reporting. If <strong>no urine drains</strong> for a few hours, or the person has tummy pain and feels their bladder is full, the catheter may be blocked or kinked. <strong>Bypassing</strong> is when urine leaks around the outside of the catheter, which can be a sign of a blockage, a bladder spasm or a problem with the catheter itself.</p><ul><li><strong>Not draining:</strong> a possible blockage or a kinked tube.</li><li><strong>Bypassing:</strong> urine leaking around the catheter.</li><li><strong>Blood or pain:</strong> visible blood, or new pain and discomfort.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Blood, pain and a catheter that comes out</h2><p>Always report <strong>blood in the urine</strong>, clots, or heavily bloodstained urine, as well as any new <strong>pain</strong>, discomfort or dragging sensation. If the <strong>catheter falls out</strong> or is pulled out, this is not something you replace &mdash; only a trained clinician can do that. Reassure the person, keep them comfortable and clean, note the time it happened, and contact the nurse straight away, because a person who normally cannot pass urine may be unable to empty their bladder without it.</p><p>The rule with every problem is the same: you observe and report, you do not attempt to fix, unblock, reinsert or flush the catheter yourself. First check simple, safe things within your role &mdash; that the person is not lying on the tube, that it is not kinked, and that the bag is below the bladder &mdash; then escalate anything you cannot resolve to the registered nurse.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person's catheter has fallen out. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Reassure the person, note the time, keep them comfortable, and contact the registered nurse straight away.", "correct": true, "feedback": "Correct. You never reinsert a catheter; report it promptly so a trained clinician can act." },
+            { "text": "Gently push it back in yourself to save time.", "correct": false, "feedback": "No &mdash; you must never reinsert a catheter; only a trained clinician can do that." },
+            { "text": "Do nothing, as a catheter falling out is never a problem.", "correct": false, "feedback": "No &mdash; a person who cannot pass urine may be unable to empty their bladder, so report it at once." },
+            { "text": "Flush the catheter with water before replacing it.", "correct": false, "feedback": "No &mdash; you never flush or reinsert a catheter; escalate to the nurse." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "When to escalate",
+      "section": "Recognising and reporting problems",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>When to escalate</h2><p>Knowing what to report, and how quickly, keeps people safe. Some things need <strong>urgent</strong> action &mdash; get help immediately. Others should be reported <strong>promptly</strong> so the nurse can review the person. When in doubt, always escalate; it is never wrong to raise a concern about someone in your care.</p><ul><li><strong>Urgent:</strong> suspected sepsis, no urine draining, catheter out, heavy bleeding.</li><li><strong>Prompt:</strong> signs of infection, bypassing, cloudy urine, discomfort.</li><li><strong>Always:</strong> record what you saw and who you told.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have seen how a urinary catheter works, why people have one, and how good hand hygiene, aseptic principles, a closed system and correct bag positioning all help prevent infection. You have also seen how everyday support &mdash; careful emptying, gentle hygiene, encouraging fluids, securing the catheter and protecting dignity &mdash; keeps people comfortable, and how recognising and reporting problems early keeps them safe.</p><p>Finally, remember the boundary this course has stressed throughout. This training is <strong>awareness only</strong> and does <strong>not</strong> authorise anyone to carry out catheter care without task-specific training, assessed competence and delegation by a registered nurse. You must not insert or remove a catheter, and you may only carry out delegated catheter care when it is set out in the care plan. Anything abnormal, you escalate to the nurse.</p>"
+        }
+      ]
+    }
+  ]
+}

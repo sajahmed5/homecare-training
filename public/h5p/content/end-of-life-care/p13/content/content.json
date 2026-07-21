@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking after yourself</h2><p>Caring for people who are dying is a privilege, but it can also be sad and tiring. It is normal to feel grief when someone you have cared for dies, especially if you knew them well. Your feelings are valid, and looking after your own wellbeing is not a weakness &mdash; it helps you keep caring for others.</p><ul><li><strong>Acknowledge it:</strong> allow yourself to feel and to grieve.</li><li><strong>Talk:</strong> share how you feel with colleagues or your manager.</li><li><strong>Rest:</strong> take your breaks and use the support that is offered.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "92a13d14-8c5c-438e-a8df-4269b244aee1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Looking after you",
+          "decorative": false,
+          "file": {
+            "path": "images/looking-after-you.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "45371a86-e10b-4aab-93d6-f4690399e4ee",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting each other</h2><p>Grief is easier carried together. Notice when a colleague is struggling, and offer them the same kindness you would give a family. Many workplaces hold time to remember people who have died, or offer supervision, counselling or an employee assistance line &mdash; ask your manager what is available, and use it.</p><p>Remember that this course has built <strong>awareness and knowledge</strong> only. It does not replace hands-on, supervised training, and it never replaces the judgement of the nursing and palliative care team. Always work within your role and the person's care plan, and escalate symptoms and concerns to a nurse or senior. In doing so, you help people reach the end of their lives with comfort, dignity and the reassurance of not being alone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "af4cc43e-40fb-4b91-a5c3-eafdd19c2636",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

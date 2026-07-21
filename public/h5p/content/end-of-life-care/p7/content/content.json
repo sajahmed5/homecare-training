@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Mental capacity and best interests</h2><p>The <strong>Mental Capacity Act</strong> protects people who may not be able to make certain decisions for themselves. It begins by assuming everyone can make their own decisions, and says a person must be given all reasonable help to do so before anyone decides they cannot. Capacity is decision-specific and can change from day to day.</p><ul><li><strong>Assume capacity:</strong> start by presuming the person can decide.</li><li><strong>Support choice:</strong> help them to understand and take part.</li><li><strong>Best interests:</strong> if they cannot decide, act in their best interests.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e4310a49-fa04-42c3-8ddf-6edb4fb58902",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Capacity and wishes",
+          "decorative": false,
+          "file": {
+            "path": "images/capacity-and-wishes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7ae5f1b3-3b1b-408b-abf1-b455fbbfe170",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Respecting the person's wishes</h2><p>When a person can no longer make a particular decision, any choice made for them must be in their <strong>best interests</strong> and must take account of their past wishes, feelings, beliefs and values. A valid advance decision to refuse a treatment must be respected, and anyone holding lasting power of attorney for health should be involved.</p><p>In everyday care this means keeping the person at the centre of everything. Keep offering the choices they <em>can</em> still make &mdash; how they like to be positioned, what they wear, who sits with them. Report anything they express about their wishes, and never assume that losing capacity for one decision means losing a voice altogether. This course raises awareness only; the team leads decisions about capacity and best interests.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ede4ada1-0f26-4ffb-b2eb-5ebc5fc35ba0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

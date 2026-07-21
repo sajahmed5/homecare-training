@@ -1,0 +1,278 @@
+{
+  "slug": "end-of-life-care",
+  "courseTitle": "End of Life Care",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What end of life care means",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to End of Life Care</h2><p>Caring for someone in the last months, weeks or days of their life is some of the most important work you will ever do. It asks for skill, patience and, above all, compassion. This course introduces the ideas behind good <strong>end of life care</strong> so that you can help people to be comfortable, feel safe and keep their dignity right to the end.</p><ul><li><strong>Comfort:</strong> easing pain and distressing symptoms.</li><li><strong>Dignity:</strong> treating the person exactly as they wish to be treated.</li><li><strong>Presence:</strong> offering kind, calm and unhurried company.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Across the next pages you will learn what palliative and end of life care mean, how the team recognises that someone may be dying, and how a person's wishes are recorded and respected. You will look at supporting comfort and dignity, communicating gently with the person and their family, care after death, and how to look after yourself when someone you have cared for dies.</p><p>This course builds <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on, supervised training, and it never replaces the judgement of the nursing and palliative care team. End of life care is delivered by a multidisciplinary team; your part is to support comfort and dignity within your role and the care plan, and to escalate symptoms and concerns to a nurse or senior.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Palliative care",
+      "section": "What end of life care means",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What palliative care means</h2><p>Palliative care is care that focuses on quality of life for someone living with a serious, progressive illness that cannot be cured. It is not only for the very end of life &mdash; it can run for months or even years alongside other treatment. <strong>End of life care</strong> is the part of palliative care given when a person is thought to be in the last year, and especially the last days, of their life.</p><ul><li><strong>Quality of life:</strong> helping people live as well as possible.</li><li><strong>Whole person:</strong> caring for mind and spirit, not only the body.</li><li><strong>Alongside treatment:</strong> comfort care can begin early.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Holistic care</h2><p>Good palliative care is <em>holistic</em>, which means it looks after the whole person and those close to them. Alongside physical symptoms, it attends to how someone feels emotionally, their relationships and social life, and what gives their life meaning &mdash; their faith, culture or values.</p><p>A person may be free of pain yet frightened, lonely or worried about the family they will leave behind. All of these needs matter, and one can affect another &mdash; unspoken fear can make physical symptoms feel worse, while feeling safe and heard can ease them. Palliative care therefore brings together everyone who can help, from nurses and doctors to family, friends and, where the person wishes, spiritual support. By noticing the emotional and spiritual side as well as the physical, you help the whole person, not just the illness.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement best describes palliative care?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Care that focuses on comfort and quality of life for the whole person living with a serious, incurable illness, and which can begin well before the final days.", "correct": true, "feedback": "Yes. Palliative care is holistic and can run for a long time alongside other treatment." },
+            { "text": "Care given only in the last few hours of life, once all other options have stopped.", "correct": false, "feedback": "Palliative care can run for months or years, not only the final hours." },
+            { "text": "Care that concentrates only on treating physical symptoms and pain.", "correct": false, "feedback": "It is holistic &mdash; emotional, social and spiritual needs matter just as much." },
+            { "text": "Care aimed at curing the underlying illness as quickly as possible.", "correct": false, "feedback": "Palliative care is for illness that cannot be cured; its goal is comfort and quality of life." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your role",
+      "section": "What end of life care means",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Your role &amp; its limits</h2><p>As a care worker you spend more time with people than almost anyone else on the team, so you are often the first to notice a change. Your role is to support everyday comfort and dignity, follow the <strong>care plan</strong>, and report anything new or worrying to a nurse or senior straight away.</p><ul><li><strong>Support:</strong> help with comfort, cleanliness and gentle company.</li><li><strong>Observe:</strong> notice changes in pain, mood, eating or breathing.</li><li><strong>Escalate:</strong> pass concerns on promptly so the team can act.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Working as part of a team</h2><p>End of life care is always delivered by a multidisciplinary team &mdash; district nurses, GPs, specialist palliative care nurses, and sometimes hospice staff, therapists and social workers. Each brings something you do not, and decisions about medicines, symptoms and treatment are made together.</p><p>Knowing the limits of your role keeps people safe. You do not diagnose, change medicines or make decisions about treatment. What you do brilliantly is notice, comfort and communicate &mdash; and raise the alarm when something needs a professional's attention.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Your role is to support *comfort* and *dignity* within the *care plan*, to *observe* changes closely, and to *escalate* new symptoms to a nurse or senior."
+        }
+      ]
+    },
+    {
+      "label": "Recognising decline",
+      "section": "Recognising the end of life",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising the last days of life</h2><p>Recognising that a person may be entering the last days of life helps the team give the right care and prepares everyone gently. There is no single sign, and it can be hard to be certain, but experienced nurses and doctors look at changes over time. Guidance such as <strong>NICE NG31</strong> describes changes that are commonly seen as death approaches.</p><ul><li><strong>Sleeping more:</strong> becoming very drowsy or hard to rouse.</li><li><strong>Eating and drinking less:</strong> losing interest in food and fluids.</li><li><strong>Changes in breathing:</strong> irregular patterns or noisy breaths.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The five priorities for care</h2><p>When someone is recognised as dying, national guidance sets out five priorities for their care. These are to <strong>recognise</strong> that the person may be dying and to act on it; to <strong>communicate</strong> clearly and sensitively; to <strong>involve</strong> the person and those important to them in decisions; to <strong>support</strong> the family and those close to them; and to create and deliver an individual <strong>plan</strong> of care.</p><p>You will not make these decisions alone, but you help deliver them every day &mdash; and reporting the changes you notice is what allows the team to recognise the last days of life in time.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice a person you support is sleeping much more, taking very little food or fluid, and their breathing has changed. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report these changes to a nurse or senior promptly, and continue to keep the person comfortable, as these can be signs that the last days of life are approaching.", "correct": true, "feedback": "Yes. Noticing and reporting these changes helps the team give the right care in time." },
+            { "text": "Say nothing, as these changes are normal in older people and never need reporting.", "correct": false, "feedback": "Such changes should always be passed on so the team can assess them." },
+            { "text": "Try to make the person eat and drink more to build their strength up.", "correct": false, "feedback": "Forcing food or fluids can cause distress and harm near the end of life." },
+            { "text": "Decide yourself that the person is dying and tell the family.", "correct": false, "feedback": "Recognising that someone is dying is a team decision, not yours to make alone." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Advance care planning",
+      "section": "Recognising the end of life",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Advance care planning</h2><p>Advance care planning is a voluntary process in which a person, while they are able, thinks and talks about the care they would want in the future. It gives people a say in what happens to them even if they later become too unwell to speak for themselves, and it brings real comfort to know their wishes are understood.</p><ul><li><strong>Wishes:</strong> what matters most, and where they wish to be cared for.</li><li><strong>Preferences:</strong> treatments they would or would not want.</li><li><strong>People:</strong> who they want involved in decisions.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The Gold Standards Framework</h2><p>Many services use the <strong>Gold Standards Framework</strong> to plan ahead well. It helps teams identify people who may be approaching the end of life early, assess their needs and wishes, and plan their care so that fewer things happen in a crisis and more happen the way the person wanted.</p><p>Plans made ahead should be reviewed as things change, because what someone wants can shift over time. Your part is to know the person's plan, honour the small choices it contains &mdash; a favourite chair, some music, familiar visitors &mdash; and to tell the team if the person says anything that suggests their wishes have changed. Even a passing comment about where they would like to be, or who they want near them, can be an important clue for the team to follow up.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the main purpose of advance care planning?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "To let a person set out their wishes and preferences for future care while they are able, so these can guide decisions if they can no longer speak for themselves.", "correct": true, "feedback": "Yes. It is voluntary and led by the person, giving them a voice in future care." },
+            { "text": "To let the care team decide in advance what is best, without needing to involve the person.", "correct": false, "feedback": "Advance care planning is led by the person; it is not something done to them." },
+            { "text": "To make a legally binding demand for any treatment the person chooses.", "correct": false, "feedback": "It records wishes and preferences; it cannot demand treatment that is not clinically appropriate." },
+            { "text": "To speed up paperwork so staff can spend less time with families.", "correct": false, "feedback": "Its purpose is to honour the person's wishes, not to save time." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ReSPECT and DNACPR",
+      "section": "Recognising the end of life",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>ReSPECT and DNACPR</h2><p>Some plans record decisions about treatment in an emergency. A <strong>ReSPECT</strong> plan (Recommended Summary Plan for Emergency Care and Treatment) sets out, in the person's own words alongside clinical advice, what should and should not happen if they suddenly become very unwell. It covers far more than resuscitation.</p><ul><li><strong>Personalised:</strong> reflects the person's own priorities and wishes.</li><li><strong>Clinical advice:</strong> agreed together with a doctor or nurse.</li><li><strong>Emergency guidance:</strong> used if the person cannot speak for themselves.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Understanding DNACPR</h2><p>A <strong>DNACPR</strong> decision &mdash; Do Not Attempt Cardiopulmonary Resuscitation &mdash; means that if the person's heart or breathing stops, CPR will not be attempted, because it would not work or would not be in their best interests. It is a clinical decision, recorded on a form, and it should be discussed with the person or those close to them.</p><p>A DNACPR relates only to CPR. It does <strong>not</strong> mean withdrawing other care &mdash; comfort, pain relief, food, fluids, kindness and dignity all continue exactly as before. If you are ever unsure what a person's plan means, ask the nurse.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "A DNACPR decision means that all other care and treatment, such as pain relief and help with comfort, should also stop.",
+          "correct": false,
+          "correctMsg": "Correct. A DNACPR relates only to CPR &mdash; all other comfort, pain relief, food, fluids and dignity continue as normal.",
+          "wrongMsg": "This is false. A DNACPR applies only to CPR; every other kind of comfort and care carries on exactly as before."
+        }
+      ]
+    },
+    {
+      "label": "Capacity and wishes",
+      "section": "Recognising the end of life",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Mental capacity and best interests</h2><p>The <strong>Mental Capacity Act</strong> protects people who may not be able to make certain decisions for themselves. It begins by assuming everyone can make their own decisions, and says a person must be given all reasonable help to do so before anyone decides they cannot. Capacity is decision-specific and can change from day to day.</p><ul><li><strong>Assume capacity:</strong> start by presuming the person can decide.</li><li><strong>Support choice:</strong> help them to understand and take part.</li><li><strong>Best interests:</strong> if they cannot decide, act in their best interests.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Respecting the person's wishes</h2><p>When a person can no longer make a particular decision, any choice made for them must be in their <strong>best interests</strong> and must take account of their past wishes, feelings, beliefs and values. A valid advance decision to refuse a treatment must be respected, and anyone holding lasting power of attorney for health should be involved.</p><p>In everyday care this means keeping the person at the centre of everything. Keep offering the choices they <em>can</em> still make &mdash; how they like to be positioned, what they wear, who sits with them. Report anything they express about their wishes, and never assume that losing capacity for one decision means losing a voice altogether. This course raises awareness only; the team leads decisions about capacity and best interests.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Pain and symptoms",
+      "section": "Comfort and dignity",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising pain and symptoms</h2><p>People near the end of life may have symptoms such as pain, breathlessness, nausea, agitation or a dry mouth. Managing these well is at the heart of comfort. Your job is not to treat symptoms but to <strong>notice</strong> them early and report them, so the nurse can act quickly &mdash; often before the person has to ask.</p><ul><li><strong>Watch:</strong> facial expressions, restlessness, guarding or moaning.</li><li><strong>Listen:</strong> to what the person and family tell you.</li><li><strong>Report:</strong> pass on new or worsening symptoms without delay.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Pain in people who cannot tell you</h2><p>Some people cannot say that they are in pain &mdash; perhaps because they are very drowsy, or living with advanced dementia. Pain can still show in the body: a furrowed brow, tense or rigid limbs, groaning, becoming withdrawn, or growing distressed during movement or personal care.</p><p>Trust these signs and report them. If you think someone is uncomfortable, tell the nurse rather than waiting to be sure; it is always better to raise a concern that turns out to be nothing than to leave someone in pain. Family who know the person well may spot changes too, so listen to what they tell you. Prescribed medicines, including any &lsquo;as required&rsquo; pain relief, are given by the appropriate professional &mdash; but timely, well-managed relief usually begins with you noticing and speaking up.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person who is very drowsy and cannot speak seems to frown and tense up whenever you help to reposition them. What is the best response?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Treat these as possible signs of pain, keep your movements gentle, and report it to the nurse so the person's comfort can be reviewed.", "correct": true, "feedback": "Yes. People who cannot speak may still be in pain, and body signs matter." },
+            { "text": "Assume there is no pain because the person has not asked for anything.", "correct": false, "feedback": "Someone who cannot speak may still be in pain; watch the body and report it." },
+            { "text": "Give the person some of another resident's pain relief to help quickly.", "correct": false, "feedback": "Never give medicines that are not prescribed for that person; report to the nurse instead." },
+            { "text": "Avoid repositioning the person again so you do not upset them.", "correct": false, "feedback": "Repositioning is important for comfort; the answer is to ease the pain, not to stop essential care." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comfort care",
+      "section": "Comfort and dignity",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Everyday comfort and dignity</h2><p>Much of end of life care is made up of small, gentle acts. Keeping someone clean, warm and comfortable, and their surroundings calm, does an enormous amount of good. As the body slows down, comfort &mdash; not cure &mdash; guides everything you do, always within the care plan and the nurse's guidance.</p><ul><li><strong>Mouth care:</strong> keep the mouth and lips moist and clean.</li><li><strong>Positioning:</strong> reposition gently to ease pressure and aid breathing.</li><li><strong>Cleanliness:</strong> attend to skin, continence and freshness with dignity.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Food &amp; fluids at the end of life</h2><p>As someone comes to the very end of life it is natural for them to want little or no food and drink. This is part of the body slowing down, not the person &lsquo;giving up&rsquo;. Forcing food or fluids can cause discomfort and even harm, for example if swallowing is no longer safe.</p><p>Instead, food and drink are offered for <strong>comfort</strong> &mdash; sips, tastes or moist mouth care &mdash; if the person still wants them and can manage safely. Frequent mouth care matters more than ever, because a dry mouth is a common cause of distress. Follow the care plan, and report any concerns about eating, drinking or swallowing to the nurse.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Frequent *mouth* care keeps the lips moist, gentle *repositioning* eases pressure and helps breathing, and at the very end of life food and *fluids* are offered for *comfort* rather than forced."
+        }
+      ]
+    },
+    {
+      "label": "Emotional and spiritual",
+      "section": "Comfort and dignity",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Emotional and spiritual support</h2><p>Facing the end of life can bring fear, sadness, anger or a search for meaning. You do not need special words or all the answers. Often the most valuable thing you can offer is simply to be there &mdash; to sit, listen and let the person feel that they are not alone.</p><ul><li><strong>Be present:</strong> a calm, unhurried presence reassures.</li><li><strong>Listen:</strong> let people share fears without rushing to fix them.</li><li><strong>Comfort:</strong> a held hand or gentle voice says a great deal.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Cultural, religious and spiritual needs</h2><p>How people understand dying, and what they need around it, is deeply shaped by their culture, faith and beliefs. There may be prayers, rituals, particular foods, or wishes about who may be present and how the body should be cared for after death. For some people spirituality has nothing to do with religion &mdash; it is about relationships, nature or a life's meaning.</p><p>Never assume; ask respectfully, follow the care plan, and support the person's wishes and those of their family. If particular customs need to be arranged, tell your senior so the right support &mdash; a chaplain, faith leader or interpreter &mdash; can be brought in.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "You can safely assume what religious or cultural needs a person has at the end of life based on their background, without needing to ask.",
+          "correct": false,
+          "correctMsg": "Correct. Never assume &mdash; ask respectfully and follow the person's own wishes and care plan, as needs vary greatly even within the same background.",
+          "wrongMsg": "This is false. People's beliefs and wishes vary widely, so always ask and follow the individual's own wishes rather than assume."
+        }
+      ]
+    },
+    {
+      "label": "Communication",
+      "section": "Communication and after death",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Communicating with care</h2><p>Gentle, honest communication is one of the greatest comforts you can offer a dying person and their family. Speak calmly and unhurriedly, use the person's name, and keep including them even if they seem unresponsive &mdash; hearing is often the last sense to fade, so tell them what you are doing and speak kindly at the bedside.</p><ul><li><strong>Be honest and kind:</strong> never make promises you cannot keep.</li><li><strong>Listen more than you speak:</strong> follow the person's lead.</li><li><strong>Include them:</strong> talk to, not over, the dying person.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Supporting the family</h2><p>Families and friends are living through something painful, and they will remember how they were treated. They may be exhausted, frightened or not getting along with one another. Simple kindness &mdash; a chair, a cup of tea, clear information about who to ask &mdash; means a great deal.</p><p>Answer what you can honestly and within your role, and pass questions about the illness, treatment or what to expect to the nurse. If you do not know something, it is always fine to say so and to find someone who does. Small, steady acts &mdash; keeping them informed, remembering their names, treating their loved one gently &mdash; build the trust that helps a family through. Your warmth and reliability are a comfort in themselves.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you are caring for appears unconscious in their last hours. How should you communicate around them?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Continue to speak gently to them, tell them what you are doing and keep including them, because hearing is often the last sense to fade.", "correct": true, "feedback": "Yes. Always assume the person may still hear you, and speak with the same warmth and respect." },
+            { "text": "Stop talking to them and only discuss their care with colleagues, as they cannot hear anything now.", "correct": false, "feedback": "Hearing may remain to the end; keep speaking kindly to the person." },
+            { "text": "Talk about the person's condition freely at the bedside as though they were not there.", "correct": false, "feedback": "Always assume they may hear, and speak with the same dignity you would if they were awake." },
+            { "text": "Speak as loudly as possible to try to wake them.", "correct": false, "feedback": "A calm, gentle voice is what comforts; there is no need to rouse them." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Care after death",
+      "section": "Communication and after death",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Care after death</h2><p>When a person dies, the care and respect you have shown them continues. There are practical steps to follow, and every one of them should be done gently, calmly and with the same dignity the person had in life. Always follow your workplace procedure and the wishes of the person and their family.</p><ul><li><strong>Confirm and inform:</strong> a death must be verified by the right professional, and the team informed.</li><li><strong>Respect the body:</strong> handle the person gently and privately.</li><li><strong>Honour wishes:</strong> follow any cultural or religious customs that are recorded.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Dignity and support after death</h2><p>Care after death, sometimes called last offices, is carried out according to your training, the care plan and the family's wishes &mdash; and some faiths have specific customs about who may wash or touch the body, so check before you act. Give the family time and privacy to be with the person if they wish.</p><p>Handle belongings with care, keep the surroundings calm, and follow your organisation's procedures for records and property. Speak quietly and move unhurriedly, just as you would have done while the person was alive. Doing these final tasks well is a last act of respect for someone you have cared for, and it matters greatly to the family who are watching.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is good practice in caring for a person after death?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Continuing to treat the person with the same gentleness, privacy and dignity as in life, and following any recorded cultural or religious wishes.", "correct": true, "feedback": "Yes. The person's dignity and wishes still matter after death." },
+            { "text": "Working as quickly as possible and skipping the person's cultural or religious wishes to save time.", "correct": false, "feedback": "Their wishes and dignity still matter and must be followed." },
+            { "text": "Beginning any washing or last offices straight away, before checking the person's faith customs or the family's wishes.", "correct": false, "feedback": "Some faiths have specific customs; always check before you act." },
+            { "text": "Deciding that the family does not need to be offered time with the person.", "correct": false, "feedback": "Offer the family privacy and time with the person if they wish it." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Looking after you",
+      "section": "Communication and after death",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Looking after yourself</h2><p>Caring for people who are dying is a privilege, but it can also be sad and tiring. It is normal to feel grief when someone you have cared for dies, especially if you knew them well. Your feelings are valid, and looking after your own wellbeing is not a weakness &mdash; it helps you keep caring for others.</p><ul><li><strong>Acknowledge it:</strong> allow yourself to feel and to grieve.</li><li><strong>Talk:</strong> share how you feel with colleagues or your manager.</li><li><strong>Rest:</strong> take your breaks and use the support that is offered.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Supporting each other</h2><p>Grief is easier carried together. Notice when a colleague is struggling, and offer them the same kindness you would give a family. Many workplaces hold time to remember people who have died, or offer supervision, counselling or an employee assistance line &mdash; ask your manager what is available, and use it.</p><p>Remember that this course has built <strong>awareness and knowledge</strong> only. It does not replace hands-on, supervised training, and it never replaces the judgement of the nursing and palliative care team. Always work within your role and the person's care plan, and escalate symptoms and concerns to a nurse or senior. In doing so, you help people reach the end of their lives with comfort, dignity and the reassurance of not being alone.</p>"
+        }
+      ]
+    }
+  ]
+}

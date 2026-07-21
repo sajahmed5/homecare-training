@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity, privacy and respect</h2><p>Dignity is at the heart of personal care. To act with <strong>dignity</strong> is to treat someone as a valued human being, whatever help they need. When you support a person to wash or dress, you are helping with something they would normally do alone and unseen, so small acts of thoughtfulness matter enormously.</p><ul><li><strong>Dignity:</strong> valuing the person and protecting their self-respect.</li><li><strong>Privacy:</strong> keeping their body, their space and their information private.</li><li><strong>Respect:</strong> treating their wishes, background and choices as important.</li></ul><p>These values are not extra steps to fit in when there is time. They shape every part of good personal care, and they cost nothing but attention.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5185c443-b2eb-4533-a6a1-ec4be7779306",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The values",
+          "decorative": false,
+          "file": {
+            "path": "images/the-values.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "73f73980-4e07-4c6e-b28e-29728c318211",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Protecting privacy in practice</h2><p>Privacy is easy to overlook when you are busy, yet it is one of the things people say matters most to them. Simple actions protect it: closing doors and curtains, covering the parts of the body you are not washing, and knocking and waiting before you enter a room.</p><p>Privacy also means keeping what you learn about a person confidential. During personal care you may see or hear things they would not share widely &mdash; a scar, a worry, a moment of embarrassment. Treat all of it with discretion, sharing only what colleagues need to know to give safe care. Protecting a person's privacy tells them, without words, that you see them as a whole person and not just a task to complete.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "56d9f0ee-18d0-4a03-88e7-82381a8a3cc4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person is embarrassed about needing help to wash. Which approach best protects their dignity and privacy?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Close the door and curtains, cover the parts of the body you are not washing, and explain each step as you go</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Privacy, keeping the person covered, and gentle explanation all protect their dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Work as quickly as possible and leave the door open so you can call for help</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Leaving the door open exposes the person and does not respect their privacy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Chat to a colleague about the person's difficulties while you work</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Discussing the person's difficulties in front of them breaches confidentiality and dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person there is nothing to be embarrassed about and carry on without explaining</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dismissing someone's feelings and not explaining what you are doing does not protect their dignity.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "12aeb33b-8861-4d7f-b3a9-d0837b45d0c6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "continence-care",
+  "courseTitle": "Continence Care",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Understanding continence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Continence Care</h2><p>Welcome to <strong>Continence Care</strong>. Supporting someone with their bladder and bowels is one of the most personal things you will ever do in care. Done with warmth and respect, it protects a person's health and helps them feel comfortable, confident and in control. This course is about seeing continence care as skilled, dignified work &mdash; never as &ldquo;just pads&rdquo;.</p><ul><li><strong>Continence:</strong> being able to control when and where you pass urine and stool.</li><li><strong>Incontinence:</strong> any involuntary leaking of urine or stool.</li><li><strong>Dignity:</strong> supporting people in a way that protects their privacy and self-respect.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn what continence and incontinence are, why continence matters so much for dignity, health and self-esteem, and the main types of incontinence and their causes. You will look at how to support continence well in everyday practice, and how to recognise and report concerns such as infection, constipation and skin damage.</p><p>This e-learning builds <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on supervised training, your employer's policies, or the assessment of a nurse or continence advisor. Continence assessment and the prescribing of products are carried out by a qualified professional &mdash; your role is to support the agreed plan and to report anything that changes or worries you.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Why it matters",
+      "section": "Understanding continence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>More than a physical need</h2><p>Being continent is something most adults take for granted, so losing that control can be deeply distressing. Incontinence is not simply a practical problem to be managed; it touches how a person feels about themselves and how they live their daily life. The way you respond can either protect someone's dignity or quietly chip away at it.</p><ul><li><strong>Dignity:</strong> continence is closely tied to privacy and self-respect.</li><li><strong>Health:</strong> good continence care helps prevent infection and skin damage.</li><li><strong>Self-esteem:</strong> feeling in control supports confidence and independence.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The wider impact</h2><p>When incontinence is not supported well, its effects reach far beyond the bathroom. People may feel embarrassed or ashamed, withdraw from friends and activities, or stop going out for fear of an accident. Some drink less to reduce the risk of leaking, which can lead to dehydration, urinary infections and constipation &mdash; and, in turn, make continence worse.</p><p>Incontinence is common, and it is often treatable or can be improved with the right support. It should never be dismissed as an inevitable part of ageing or something to simply put up with. By treating continence as important, keeping a calm and matter-of-fact manner, and never making a person feel like a burden, you help protect both their health and their sense of who they are.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why should incontinence never be treated as simply a practical problem to be managed?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Because it affects a person's dignity, self-esteem and wider health, and can often be improved with the right support.", "correct": true, "feedback": "Yes. Continence is tied to how people feel about themselves, and good support protects both dignity and health." },
+            { "text": "Because incontinence is a normal, unavoidable part of getting older.", "correct": false, "feedback": "Incontinence is common but is not an inevitable part of ageing &mdash; it can often be treated or improved." },
+            { "text": "Because pads are the only support anyone ever needs.", "correct": false, "feedback": "Good continence care is far more than products &mdash; it is skilled, person-centred support." },
+            { "text": "Because it only matters if the person mentions it themselves.", "correct": false, "feedback": "People often feel too embarrassed to raise it, so your sensitivity and attention matter greatly." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your role and limits",
+      "section": "Understanding continence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The care worker's role</h2><p>As a care worker, you are often the person closest to someone's daily routine, so you are well placed to support their continence and to notice changes early. Your role is to follow the agreed care plan, offer timely and respectful support, promote independence, and report any concerns to the right person.</p><ul><li><strong>Support the plan:</strong> follow what the assessment and care plan set out.</li><li><strong>Promote independence:</strong> help people do as much as they safely can for themselves.</li><li><strong>Observe and report:</strong> notice changes and pass them on promptly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Knowing where your role ends</h2><p>Good continence care also means knowing the limits of your role. You should never decide by yourself that someone &ldquo;needs pads&rdquo;, choose or change continence products, or assume that leaking is just to be expected. A proper <strong>continence assessment</strong> and the prescribing of any products are carried out by a nurse or continence advisor, who works out the cause and the right plan for that individual.</p><p>What you must always do is support the plan carefully and report concerns quickly. If someone starts leaking when they did not before, seems in pain, or their skin is becoming sore, tell a senior colleague or nurse so the person can be assessed. Noticing a change and passing it on is exactly what is expected of you, and it can make a real difference.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "If someone in your care starts having accidents, it is fine for you to decide on your own that they need to start wearing continence pads.",
+          "correct": false,
+          "correctMsg": "Correct. Assessing continence and prescribing products is the job of a nurse or continence advisor &mdash; you report the change so the person can be assessed.",
+          "wrongMsg": "Not quite. You should report the change rather than decide on products yourself. A nurse or continence advisor carries out the assessment."
+        }
+      ]
+    },
+    {
+      "label": "Stress and urge",
+      "section": "Types of incontinence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Not all incontinence is the same</h2><p>Incontinence is not a single condition. There are different types, each with its own causes and its own best support, which is why a proper assessment matters so much. Two of the most common types are stress incontinence and urge incontinence.</p><ul><li><strong>Stress incontinence:</strong> leaking when the bladder is put under sudden pressure.</li><li><strong>Urge incontinence:</strong> a sudden, strong need to pass urine that is hard to hold.</li><li><strong>Different causes:</strong> each type has different causes and different support.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Stress and urge incontinence</h2><p><strong>Stress incontinence</strong> is leaking that happens when pressure on the bladder rises suddenly &mdash; for example when someone coughs, sneezes, laughs or lifts something. It is linked to weakened pelvic floor muscles, which can follow childbirth, ageing or some surgery. The leaks are often small but can happen many times a day.</p><p><strong>Urge incontinence</strong> is a sudden, intense need to pass urine, followed by leaking before the person can reach a toilet. It is linked to an overactive bladder and is sometimes made worse by conditions affecting the nervous system, or by drinks such as caffeine. People with urge incontinence often also feel they need the toilet very frequently, including at night. Understanding which type someone has helps the team choose support that genuinely fits their needs.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person leaks a small amount of urine each time they cough, sneeze or laugh. Which type of incontinence does this describe?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Stress incontinence, which is leaking when sudden pressure is put on the bladder.", "correct": true, "feedback": "Correct. Coughing, sneezing and laughing raise pressure on the bladder, causing stress incontinence." },
+            { "text": "Urge incontinence, caused by a sudden desperate need to pass urine.", "correct": false, "feedback": "Urge incontinence is a sudden strong urge &mdash; this description is leaking on physical effort, which is stress incontinence." },
+            { "text": "Overflow incontinence, where the bladder never empties fully.", "correct": false, "feedback": "Overflow is frequent dribbling from a bladder that does not empty &mdash; not leaking triggered by coughing." },
+            { "text": "Functional incontinence, caused by not reaching the toilet in time.", "correct": false, "feedback": "Functional incontinence is about barriers to reaching the toilet, not pressure on the bladder." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Overflow and functional",
+      "section": "Types of incontinence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Two more common types</h2><p>Alongside stress and urge incontinence, you may support people with overflow or functional incontinence. As with the others, knowing the type helps everyone give the right support rather than guessing.</p><ul><li><strong>Overflow incontinence:</strong> the bladder does not empty fully and leaks or dribbles.</li><li><strong>Functional incontinence:</strong> the person cannot reach or use the toilet in time.</li><li><strong>Mixed:</strong> some people have more than one type at once.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Overflow and functional incontinence</h2><p><strong>Overflow incontinence</strong> happens when the bladder cannot empty properly, so it becomes overfull and leaks. The person may pass frequent small dribbles, feel that the bladder is never quite empty, or strain to pass urine. It can be linked to a blockage or, in men, to an enlarged prostate, and it always needs medical assessment.</p><p><strong>Functional incontinence</strong> is different: the bladder and bowel may work normally, but something gets in the way of reaching or using the toilet in time. This might be poor mobility, pain, poor eyesight, confusion or dementia, clothing that is hard to undo, or simply not being able to find or reach the toilet quickly enough. Functional incontinence often responds very well to practical support &mdash; and that support is largely in your hands.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Leaking urine when you cough or sneeze is called *stress* incontinence, while a sudden desperate need to pass urine is *urge* incontinence. When the bladder never empties fully and dribbles, this is *overflow* incontinence, and when someone cannot reach the toilet in time because of mobility or memory, it is *functional* incontinence."
+        }
+      ]
+    },
+    {
+      "label": "Assessment, not assumption",
+      "section": "Types of incontinence",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why a proper assessment matters</h2><p>Because incontinence has different types and many possible causes, it should always be understood through a proper assessment rather than an assumption. Guessing the cause &mdash; or simply reaching for pads &mdash; can miss a treatable problem and leave a person struggling for longer than they need to.</p><ul><li><strong>Find the cause:</strong> assessment looks for why the incontinence is happening.</li><li><strong>Rule out illness:</strong> it can uncover infection, constipation or other conditions.</li><li><strong>Plan support:</strong> it leads to a personal plan, not a one-size-fits-all approach.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Led by the right professional</h2><p>A continence assessment is carried out by a nurse or continence advisor. It considers the person's medical history, medicines, fluids, diet, mobility and daily routine, and often uses a record of how much someone drinks and passes over a few days. From this the professional can identify the type of incontinence, look for causes that can be treated, and agree a plan that may include exercises, changes to routine, treatment, or the right products for that person.</p><p>Your part is just as important. The information you notice and record &mdash; when leaks happen, how often, and anything that seems to trigger them &mdash; helps make the assessment accurate. Incontinence should never be treated as inevitable; with a proper assessment, many people can be cured or greatly improved.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Toileting support",
+      "section": "Supporting continence in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred toileting</h2><p>Much of what keeps people continent and comfortable is thoughtful, everyday support with getting to the toilet. Good toileting support is planned around the individual, unhurried and private. It starts with knowing the person's usual routine and responding promptly when they need to go.</p><ul><li><strong>Routine:</strong> support people at the times they usually need the toilet.</li><li><strong>Respond promptly:</strong> answer requests quickly and never keep someone waiting.</li><li><strong>Privacy:</strong> protect dignity by closing doors and giving space where safe.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Making the toilet easy to reach</h2><p>Many accidents happen simply because a person cannot reach or use the toilet in time. You can help by making sure the way to the toilet is clear and well lit, that walking aids are within reach, and that clothing is easy to manage &mdash; sometimes an adaptation as small as easier fastenings makes all the difference. Signs or a clear line of sight to the toilet help people living with dementia find it.</p><p>Where the care plan includes a routine such as prompted or timed toileting, follow it consistently, offering support at regular times rather than waiting for an accident. Always respond to requests promptly and kindly, keep a calm and matter-of-fact manner, and protect the person's privacy throughout. Supporting someone to stay independent in the toilet is far better for their dignity than managing incontinence after the event.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following best supports a person to stay continent and dignified?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Knowing their usual routine, responding to requests promptly, and keeping the route to the toilet clear and easy to use.", "correct": true, "feedback": "Yes. Timely, planned, private support helps prevent accidents and protects dignity." },
+            { "text": "Waiting until an accident happens before offering any help.", "correct": false, "feedback": "Waiting for accidents is not person-centred &mdash; timely support helps people stay continent." },
+            { "text": "Encouraging the person to drink very little so they need the toilet less.", "correct": false, "feedback": "Restricting fluids causes dehydration, infection and constipation, and can make incontinence worse." },
+            { "text": "Leaving the toilet door open and hurrying the person along.", "correct": false, "feedback": "This removes privacy and dignity, and rushing can cause distress and accidents." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fluids and diet",
+      "section": "Supporting continence in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The link with fluids and food</h2><p>What a person drinks and eats has a direct effect on their continence. It is a common mistake to think that drinking less will reduce accidents; in fact, drinking too little often makes things worse. Supporting people to drink and eat well is a key part of continence care.</p><ul><li><strong>Enough fluid:</strong> good hydration keeps urine dilute and the bladder healthy.</li><li><strong>Healthy diet:</strong> enough fibre helps prevent constipation.</li><li><strong>Bladder irritants:</strong> some drinks, such as caffeine, can worsen urgency.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Getting the balance right</h2><p>When someone drinks too little, their urine becomes concentrated, which can irritate the bladder, increase urgency and raise the risk of urinary infection and constipation. Most adults should be encouraged to drink regularly across the day &mdash; often around 1.5 to 2 litres unless their care plan says otherwise. Reassuring people who limit drinks for fear of leaking, and supporting good toileting, helps them feel able to drink enough.</p><p>Diet matters too. A diet with enough fibre, fruit and vegetables, alongside good fluids, helps prevent constipation, which can press on the bladder and make both urinary and bowel problems worse. If someone is cutting back on fluids, becoming constipated, or you are unsure what is right for them, report it so the plan can be reviewed rather than changing their diet yourself.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Drinking too little makes urine *concentrated* and can irritate the bladder, so people should be encouraged to drink *regularly* through the day. A diet with enough *fibre*, fruit and vegetables helps prevent *constipation*, which can make incontinence worse."
+        }
+      ]
+    },
+    {
+      "label": "Products with dignity",
+      "section": "Supporting continence in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Continence products are one part of care</h2><p>Continence products &mdash; such as pads, pants and sometimes other aids &mdash; can help people stay comfortable, confident and active. They are a valuable support, but they are only ever one part of good continence care, used within a plan that also promotes independence. Reaching for a pad should never replace helping someone get to the toilet.</p><ul><li><strong>Right product:</strong> the type and size are decided by assessment, not guesswork.</li><li><strong>Used with dignity:</strong> support privately, calmly and respectfully.</li><li><strong>Change promptly:</strong> check and change products as needed to protect skin.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Using products respectfully</h2><p>The type of product a person uses is decided through their continence assessment, so it suits their needs, is the right size and fit, and does not limit their independence more than necessary. When you support someone with a product, do so with the same care and privacy you would want yourself: explain what you are doing, keep the person covered, work gently, and never make comments that could cause embarrassment.</p><p>Check products regularly and change them promptly when needed, because a wet or soiled pad left in place quickly makes skin sore and undermines dignity. Handle used products hygienically and dispose of them correctly. If a product is leaking, uncomfortable, or no longer seems right for the person, report it so the plan can be reviewed &mdash; do not simply switch to a different product yourself.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "How should continence products be used within a person's care?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "As one part of a plan that still promotes independence, with the right product used privately and changed promptly.", "correct": true, "feedback": "Correct. Products support care but never replace toileting support, and must be used with dignity and good skin care." },
+            { "text": "As a replacement for helping the person get to the toilet.", "correct": false, "feedback": "Products should support, not replace, toileting support and independence." },
+            { "text": "By choosing whatever pad is nearest, regardless of fit or assessment.", "correct": false, "feedback": "The right product is decided by assessment &mdash; the wrong size or type can leak and harm skin." },
+            { "text": "By leaving them in place as long as possible to save changes.", "correct": false, "feedback": "Leaving a wet or soiled product in place makes skin sore and removes dignity." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Skin and pressure care",
+      "section": "Supporting continence in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Protecting the skin</h2><p>Skin that is often wet or soiled is at real risk of damage, so skin care is a central part of continence care. Urine and stool irritate the skin, and if this is not managed the skin can become red, sore and broken. Careful, gentle skin care keeps people comfortable and helps prevent more serious harm.</p><ul><li><strong>Keep skin clean and dry:</strong> clean gently and thoroughly after each episode.</li><li><strong>Change promptly:</strong> do not leave skin in contact with wet or soiled products.</li><li><strong>Check the skin:</strong> look for redness or soreness and report early signs.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The link with pressure damage</h2><p>Continence and pressure damage are closely connected. Skin that is repeatedly wet from urine or stool becomes more fragile and breaks down more easily, and this moisture-related damage can combine with pressure to cause pressure ulcers, particularly for people who are less mobile. This is why prompt changing, gentle cleansing and keeping skin dry matter so much.</p><p>When you support someone, clean the skin gently with plain water or a mild product as set out in the care plan, pat rather than rub it dry, and apply any barrier cream that has been prescribed. Look at the skin each time and report any redness, soreness or broken areas straight away &mdash; especially over bony areas &mdash; so it can be treated before it worsens. Good continence care and good skin care always go together.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Signs of infection",
+      "section": "Recognising and reporting concerns",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising a urinary tract infection</h2><p>A urinary tract infection, or UTI, is a common problem that you can help to spot early. Because you know the people you support, you are often the first to notice that something is not right. Catching a UTI early means the person can be seen and treated before they become more unwell.</p><ul><li><strong>Urine changes:</strong> cloudy, dark or strong-smelling urine.</li><li><strong>Discomfort:</strong> pain or burning when passing urine, or needing to go more often.</li><li><strong>Feeling unwell:</strong> a high temperature, or new or worse confusion.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Spotting and reporting a UTI</h2><p>Signs of a UTI can include needing to pass urine more often or more urgently, pain or a burning feeling when passing urine, cloudy or strong-smelling urine, lower tummy or back pain, and feeling generally unwell or feverish. In older people especially, a sudden change such as new confusion, agitation or drowsiness can be an important early sign, so never dismiss it as simply part of getting older.</p><p>Good hydration and careful hygiene help reduce the risk of infection, but if you notice any of these signs you should report them promptly to a senior colleague or nurse and record what you have seen. It is not your role to diagnose or to give any treatment &mdash; your job is to notice, report and record clearly so the person can be assessed quickly.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice an older person has become suddenly confused, and their urine is cloudy and strong-smelling. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it promptly to a senior colleague or nurse and record what you have observed, as these can be signs of a UTI.", "correct": true, "feedback": "Yes. New confusion with cloudy, strong-smelling urine can signal a UTI and should be reported and recorded straight away." },
+            { "text": "Assume the confusion is just part of getting older and do nothing.", "correct": false, "feedback": "Sudden confusion is not normal ageing &mdash; it can be an early sign of infection and must be reported." },
+            { "text": "Start the person on antibiotics yourself.", "correct": false, "feedback": "Diagnosing and treating infection is not your role &mdash; report so the person can be assessed." },
+            { "text": "Cut back their fluids to reduce how often they use the toilet.", "correct": false, "feedback": "Restricting fluids makes infection and dehydration more likely, not less." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Constipation and change",
+      "section": "Recognising and reporting concerns",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Constipation and sudden changes</h2><p>Continence care is about bowels as well as bladder. Constipation is common and can cause real discomfort, and it can also make urinary problems worse by pressing on the bladder. Watching for changes in someone's normal pattern is an important part of your role.</p><ul><li><strong>Constipation:</strong> passing stool less often than usual, or hard, difficult stools.</li><li><strong>Overflow:</strong> constipation can cause unexpected leaking of loose stool.</li><li><strong>Sudden change:</strong> any new change in bladder or bowel habit should be reported.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Watching bowel habits</h2><p>Signs of constipation can include going to the toilet less often than usual, straining, hard or painful stools, tummy discomfort and a poor appetite. Constipation can sometimes lead to loose stool leaking around the blockage, which may be mistaken for diarrhoea. Enough fluid, a diet with fibre, and staying as active as possible all help prevent it, in line with the person's care plan.</p><p>Just as important is noticing any sudden change &mdash; new incontinence in someone who was continent, a change in how often or how urgently they go, blood in urine or stool, or new pain. These changes always deserve attention and should be reported and recorded, never ignored. You do not need to know the cause; noticing and passing on the change quickly is what matters.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Constipation can make bladder problems worse and can sometimes cause loose stool to leak, so changes in someone's bowel habits should be reported.",
+          "correct": true,
+          "correctMsg": "Correct. Constipation affects the bladder too and can cause overflow leaking, so bowel changes should always be reported and recorded.",
+          "wrongMsg": "Not quite. Constipation can press on the bladder and cause leaking around a blockage, so bowel changes do matter and should be reported."
+        }
+      ]
+    },
+    {
+      "label": "Reporting and support",
+      "section": "Recognising and reporting concerns",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Knowing when to raise concerns</h2><p>Bringing it all together, the most important thing you can do is stay alert to concerns and report them clearly and promptly. You are the eyes and ears of the team, and the changes you notice help the right professional step in at the right time.</p><ul><li><strong>Report early:</strong> raise concerns with a senior colleague or nurse promptly.</li><li><strong>Record clearly:</strong> note what you have seen, factually and at the time.</li><li><strong>Know your limits:</strong> assessment and treatment belong to the right professional.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When to involve the nurse or continence advisor</h2><p>Report to a nurse or continence advisor when someone develops new incontinence, when their pattern changes, when you see signs of infection or constipation, or when their skin becomes red, sore or broken. A continence assessment or review may be needed if a person's current plan or products are no longer working well, or if their needs have changed. When you report, describe clearly what you have noticed and when, and record it accurately so the person gets the right help.</p><p>Remember: this course has built <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on supervised training, your employer's policies, or the assessment of a nurse or continence advisor. By treating continence care as skilled, dignified work &mdash; and never as &ldquo;just pads&rdquo; &mdash; you protect people's health, comfort and self-respect every day.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "When should you involve a nurse or continence advisor?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "When someone develops new incontinence, their pattern changes, or you see signs of infection, constipation or skin damage.", "correct": true, "feedback": "Correct. These changes need proper assessment, so report them promptly and record what you have seen." },
+            { "text": "Only once a problem has become severe and cannot be ignored.", "correct": false, "feedback": "Reporting early gives the best chance of putting things right before harm develops." },
+            { "text": "Never &mdash; care workers should manage all continence problems alone.", "correct": false, "feedback": "Assessment and treatment are the job of the nurse or continence advisor, working with your observations." },
+            { "text": "Only if the person specifically asks you to.", "correct": false, "feedback": "People may feel too embarrassed to ask, so you should report concerns you notice yourself." }
+          ]
+        }
+      ]
+    }
+  ]
+}

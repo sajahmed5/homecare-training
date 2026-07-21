@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Toileting and continence support</h2><p>Helping someone use the toilet, or supporting them with continence, calls for great sensitivity. These are among the most private of all personal care tasks, and a person may feel embarrassed or upset. Your calm, matter-of-fact and respectful manner makes an enormous difference.</p><ul><li><strong>Respond promptly:</strong> answer requests for the toilet without delay.</li><li><strong>Privacy:</strong> give as much privacy as is safe at every stage.</li><li><strong>Hygiene:</strong> clean and dry the skin well, and wear appropriate PPE.</li></ul><p>Follow the person's continence care plan, and never make someone feel they are a nuisance for needing help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad4c56d4-9bd0-4df9-8215-57c7cb52dd66",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Toileting and skin care",
+          "decorative": false,
+          "file": {
+            "path": "images/toileting-and-skin-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5fe4b7e0-0f72-4908-81e2-2f44eb305697",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Skin care and pressure damage</h2><p>Skin is easily harmed when a person sits or lies in one position for a long time, or when skin stays damp. This can lead to <strong>pressure ulcers</strong> (also called pressure sores), which are painful and serious but often preventable. Personal care is a key chance to protect the skin and to spot early warning signs.</p><p>Keep skin clean and dry, change soiled pads or clothing promptly, and help the person change position regularly if their care plan says so. As you wash and dress someone, look closely at the skin, especially over bony areas such as the heels, hips, base of the spine and elbows. Early signs include redness that does not fade when pressed, or areas that are unusually warm, hard or painful. If you see any of these, do not massage the area &mdash; report it straight away so action can be taken.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bc8a3391-7b84-4afb-9298-94df51d42f19",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>While helping someone wash, you notice redness over the base of their spine that does not fade when you press it. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Avoid massaging the area and report it promptly so it can be assessed and acted on</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Non-fading redness can be an early pressure ulcer; do not massage it, and report it straight away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Rub the area firmly to improve the blood flow</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Massaging or rubbing damaged skin can make pressure damage worse and should be avoided.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore it, as redness is always harmless</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Redness that does not fade when pressed can be an early sign of serious pressure damage.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few days to see whether it gets worse before telling anyone</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Pressure damage can develop quickly, so it must be reported promptly, not left to worsen.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "52ea9c6f-ad23-4317-a226-4345076224f6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

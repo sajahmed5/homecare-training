@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Meatal and personal hygiene</h2><p><strong>Meatal hygiene</strong> means keeping clean the area where the catheter enters the body &mdash; the urethral opening, or the stoma site for a suprapubic catheter. Routine daily washing with mild soap and water is all that is usually needed, along with washing after each bowel movement. There is no need for antiseptics, powders or special cleansers unless the care plan specifically says so.</p><ul><li><strong>What:</strong> keep the entry point clean and dry.</li><li><strong>How:</strong> mild soap and water, washing away from the body.</li><li><strong>When:</strong> daily and after any bowel movement.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ff797027-dcf9-4402-9f44-20f69142737c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hygiene and securing",
+          "decorative": false,
+          "file": {
+            "path": "images/hygiene-and-securing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6ea833bf-6d57-4b2b-8ee6-52783dfa9b43",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Securing the catheter and protecting dignity</h2><p>Wash gently along the catheter in the direction away from the body, never pulling or tugging on the tube, and pat the area dry. For an intimate task like this, always explain what you are doing, gain the person's consent, and protect their privacy and dignity by keeping them covered as much as possible. Where the person can do their own hygiene, support them to do so.</p><p>The catheter should also be <strong>secured</strong> &mdash; using a leg strap or fixing device as set out in the care plan &mdash; so that it does not pull on the bladder or get tugged during movement, which is painful and can cause damage. Check the skin around any strap, or around the stoma, for redness, soreness or discharge, and report anything abnormal to the nurse rather than treating it yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1ef738ae-87a1-4ec1-aede-d27c6dcd4f62",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Routine meatal hygiene for a catheter usually needs only mild soap and water, not antiseptics or powders.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Routine care is usually just mild soap and water; antiseptics and powders are not needed unless directed.",
+            "correctAnswerMessage": "Correct. Daily washing with mild soap and water is normally all that is needed, unless the care plan says otherwise."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "39207440-5e8b-4a38-b3b4-bda7a134d025",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

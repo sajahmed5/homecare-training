@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why a proper assessment matters</h2><p>Because incontinence has different types and many possible causes, it should always be understood through a proper assessment rather than an assumption. Guessing the cause &mdash; or simply reaching for pads &mdash; can miss a treatable problem and leave a person struggling for longer than they need to.</p><ul><li><strong>Find the cause:</strong> assessment looks for why the incontinence is happening.</li><li><strong>Rule out illness:</strong> it can uncover infection, constipation or other conditions.</li><li><strong>Plan support:</strong> it leads to a personal plan, not a one-size-fits-all approach.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "57e084c3-7f26-464b-b8c1-ea3156af7c18",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Assessment, not assumption",
+          "decorative": false,
+          "file": {
+            "path": "images/assessment-not-assumption.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3d11eed6-b777-4b0a-9a40-51631b549354",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Led by the right professional</h2><p>A continence assessment is carried out by a nurse or continence advisor. It considers the person's medical history, medicines, fluids, diet, mobility and daily routine, and often uses a record of how much someone drinks and passes over a few days. From this the professional can identify the type of incontinence, look for causes that can be treated, and agree a plan that may include exercises, changes to routine, treatment, or the right products for that person.</p><p>Your part is just as important. The information you notice and record &mdash; when leaks happen, how often, and anything that seems to trigger them &mdash; helps make the assessment accurate. Incontinence should never be treated as inevitable; with a proper assessment, many people can be cured or greatly improved.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fbd594cd-3773-47db-bf6b-15373297054e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -2,263 +2,523 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p1/content/images",
+   "outDir": "public/h5p/content/catheter-care/p1/content/images",
    "file": "welcome.svg",
-   "title": "Welcome to Standard 8",
-   "accent": "#0d9488",
+   "title": "Welcome to Catheter Care",
+   "accent": "#7c3aed",
    "alt": "Illustration for Welcome",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "heart"
+     "tunic": "#7c3aed",
+     "prop": "alert"
     }
    ],
    "points": [
-    "Hydration",
-    "Nutrition",
-    "Dignity"
+    "Understand",
+    "Prevent",
+    "Escalate"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p2/content/images",
-   "file": "more-than-fuel.svg",
-   "title": "More than fuel",
-   "accent": "#0d9488",
-   "alt": "Illustration for More than fuel",
+   "outDir": "public/h5p/content/catheter-care/p2/content/images",
+   "file": "what-is-a-catheter.svg",
+   "title": "What is a urinary catheter?",
+   "accent": "#7c3aed",
+   "alt": "Illustration for What is a catheter?",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Drains urine",
+    "Held in place",
+    "A direct route"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p3/content/images",
+   "file": "types-and-reasons.svg",
+   "title": "Two main types",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Types and reasons",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Urethral",
+    "Suprapubic",
+    "Both"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p4/content/images",
+   "file": "cauti-and-ipc.svg",
+   "title": "Catheter-associated urinary infection",
+   "accent": "#7c3aed",
+   "alt": "Illustration for CAUTI and IPC",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "What it is",
+    "Why it happens",
+    "Key risk"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p5/content/images",
+   "file": "hands-and-asepsis.svg",
+   "title": "Hand hygiene comes first",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Hands and asepsis",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Before",
+    "After",
+    "Always"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p6/content/images",
+   "file": "closed-system.svg",
+   "title": "Keep the closed system closed",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Closed system",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#7c3aed",
      "prop": "heart"
     }
    ],
    "points": [
-    "Health",
-    "Wellbeing",
-    "Connection"
+    "Do not disconnect",
+    "Empty via the tap",
+    "Only open"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p3/content/images",
+   "outDir": "public/h5p/content/catheter-care/p7/content/images",
+   "file": "positioning-the-bag.svg",
+   "title": "Position the bag below the bladder",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Positioning the bag",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Below the bladder",
+    "Never on the floor",
+    "Support it"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p8/content/images",
+   "file": "emptying-and-output.svg",
+   "title": "Emptying the drainage bag",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Emptying and output",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "When",
+    "How",
+    "Clean tap"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p9/content/images",
+   "file": "hygiene-and-securing.svg",
+   "title": "Meatal and personal hygiene",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Hygiene and securing",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "What",
+    "How",
+    "When"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p10/content/images",
+   "file": "fluids-and-passport.svg",
+   "title": "Fluids and comfort",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Fluids and passport",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Encourage fluids",
+    "Why",
+    "Comfort"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p11/content/images",
+   "file": "infection-and-sepsis.svg",
+   "title": "Signs of a catheter infection",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Infection and sepsis",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Feeling unwell",
+    "Urine changes",
+    "Confusion"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p12/content/images",
+   "file": "blockage-and-leakage.svg",
+   "title": "Other problems to watch for",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Blockage and leakage",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Not draining",
+    "Bypassing",
+    "Blood or pain"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/catheter-care/p13/content/images",
+   "file": "when-to-escalate.svg",
+   "title": "When to escalate",
+   "accent": "#7c3aed",
+   "alt": "Illustration for When to escalate",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Urgent",
+    "Prompt",
+    "Always"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Continence Care",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Continence",
+    "Incontinence",
+    "Dignity"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p2/content/images",
+   "file": "why-it-matters.svg",
+   "title": "More than a physical need",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Why it matters",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Dignity",
+    "Health",
+    "Self-esteem"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p3/content/images",
    "file": "your-role-and-limits.svg",
-   "title": "Your role at mealtimes",
-   "accent": "#0d9488",
+   "title": "The care worker's role",
+   "accent": "#7c3aed",
    "alt": "Illustration for Your role and limits",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Offer",
-    "Encourage",
-    "Observe"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p4/content/images",
-   "file": "why-hydration-matters.svg",
-   "title": "Why water matters",
-   "accent": "#0d9488",
-   "alt": "Illustration for Why hydration matters",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Body",
-    "Brain",
-    "Kidneys"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p5/content/images",
-   "file": "spotting-dehydration.svg",
-   "title": "Spotting dehydration",
-   "accent": "#0d9488",
-   "alt": "Illustration for Spotting dehydration",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
      "prop": "heart"
     }
    ],
    "points": [
-    "Early signs",
-    "Feeling unwell",
-    "Serious signs"
+    "Support the plan",
+    "Promote independence",
+    "Observe and report"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p6/content/images",
-   "file": "who-is-at-risk.svg",
-   "title": "Who is most at risk",
-   "accent": "#0d9488",
-   "alt": "Illustration for Who is at risk",
+   "outDir": "public/h5p/content/continence-care/p4/content/images",
+   "file": "stress-and-urge.svg",
+   "title": "Not all incontinence is the same",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Stress and urge",
    "cast": [
     {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Older people",
-    "People with dementia or confusion",
-    "People who need help"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p7/content/images",
-   "file": "encouraging-fluids.svg",
-   "title": "Making drinking easier",
-   "accent": "#0d9488",
-   "alt": "Illustration for Encouraging fluids",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Offer often",
-    "Right drink",
-    "Right cup"
+    "Stress incontinence",
+    "Urge incontinence",
+    "Different causes"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p8/content/images",
-   "file": "a-balanced-diet.svg",
-   "title": "A balanced diet",
-   "accent": "#0d9488",
-   "alt": "Illustration for A balanced diet",
+   "outDir": "public/h5p/content/continence-care/p5/content/images",
+   "file": "overflow-and-functional.svg",
+   "title": "Two more common types",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Overflow and functional",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Overflow incontinence",
+    "Functional incontinence",
+    "Mixed"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p6/content/images",
+   "file": "assessment-not-assumption.svg",
+   "title": "Why a proper assessment matters",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Assessment, not assumption",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Find the cause",
+    "Rule out illness",
+    "Plan support"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p7/content/images",
+   "file": "toileting-support.svg",
+   "title": "Person-centred toileting",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Toileting support",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Routine",
+    "Respond promptly",
+    "Privacy"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/continence-care/p8/content/images",
+   "file": "fluids-and-diet.svg",
+   "title": "The link with fluids and food",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Fluids and diet",
    "cast": [
     {
      "skin": 1,
      "hair": "short",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Variety",
-    "Balance",
-    "Enjoyment"
+    "Enough fluid",
+    "Healthy diet",
+    "Bladder irritants"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p9/content/images",
-   "file": "malnutrition.svg",
-   "title": "Understanding malnutrition",
-   "accent": "#0d9488",
-   "alt": "Illustration for Malnutrition",
+   "outDir": "public/h5p/content/continence-care/p9/content/images",
+   "file": "products-with-dignity.svg",
+   "title": "Continence products are one part of care",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Products with dignity",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
+     "tunic": "#7c3aed",
+     "prop": "heart"
     }
    ],
    "points": [
-    "What it is",
-    "Causes",
-    "Signs"
+    "Right product",
+    "Used with dignity",
+    "Change promptly"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p10/content/images",
-   "file": "diets-and-choices.svg",
-   "title": "Different needs, different diets",
-   "accent": "#0d9488",
-   "alt": "Illustration for Diets and choices",
+   "outDir": "public/h5p/content/continence-care/p10/content/images",
+   "file": "skin-and-pressure-care.svg",
+   "title": "Protecting the skin",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Skin and pressure care",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Therapeutic diets",
-    "Cultural and religious",
-    "Allergies"
+    "Keep skin clean and dry",
+    "Change promptly",
+    "Check the skin"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p11/content/images",
-   "file": "mealtime-support.svg",
-   "title": "Making mealtimes better",
-   "accent": "#0d9488",
-   "alt": "Illustration for Mealtime support",
+   "outDir": "public/h5p/content/continence-care/p11/content/images",
+   "file": "signs-of-infection.svg",
+   "title": "Recognising a urinary tract infection",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Signs of infection",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
+     "tunic": "#7c3aed",
+     "prop": "heart"
     }
    ],
    "points": [
-    "Choice",
-    "Environment",
-    "Positioning"
+    "Urine changes",
+    "Discomfort",
+    "Feeling unwell"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p12/content/images",
-   "file": "swallowing-and-iddsi.svg",
-   "title": "Swallowing difficulties",
-   "accent": "#0d9488",
-   "alt": "Illustration for Swallowing and IDDSI",
+   "outDir": "public/h5p/content/continence-care/p12/content/images",
+   "file": "constipation-and-change.svg",
+   "title": "Constipation and sudden changes",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Constipation and change",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "What it is",
-    "Warning signs",
-    "Other clues"
+    "Constipation",
+    "Overflow",
+    "Sudden change"
    ]
   },
   {
-   "outDir": "public/h5p/content/fluids-and-nutrition/p13/content/images",
-   "file": "safety-and-concerns.svg",
-   "title": "Safety, recording and speaking up",
-   "accent": "#0d9488",
-   "alt": "Illustration for Safety and concerns",
+   "outDir": "public/h5p/content/continence-care/p13/content/images",
+   "file": "reporting-and-support.svg",
+   "title": "Knowing when to raise concerns",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Reporting and support",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#0d9488",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Safe food handling",
-    "Accurate records",
-    "Report concerns"
+    "Report early",
+    "Record clearly",
+    "Know your limits"
    ]
   }
  ]

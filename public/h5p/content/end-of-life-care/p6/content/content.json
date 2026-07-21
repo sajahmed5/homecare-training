@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>ReSPECT and DNACPR</h2><p>Some plans record decisions about treatment in an emergency. A <strong>ReSPECT</strong> plan (Recommended Summary Plan for Emergency Care and Treatment) sets out, in the person's own words alongside clinical advice, what should and should not happen if they suddenly become very unwell. It covers far more than resuscitation.</p><ul><li><strong>Personalised:</strong> reflects the person's own priorities and wishes.</li><li><strong>Clinical advice:</strong> agreed together with a doctor or nurse.</li><li><strong>Emergency guidance:</strong> used if the person cannot speak for themselves.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "10eccd10-0830-4e62-9a73-14065c2c9eb8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for ReSPECT and DNACPR",
+          "decorative": false,
+          "file": {
+            "path": "images/respect-and-dnacpr.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e205e2d2-f855-4d8e-9519-7582bc512c26",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Understanding DNACPR</h2><p>A <strong>DNACPR</strong> decision &mdash; Do Not Attempt Cardiopulmonary Resuscitation &mdash; means that if the person's heart or breathing stops, CPR will not be attempted, because it would not work or would not be in their best interests. It is a clinical decision, recorded on a form, and it should be discussed with the person or those close to them.</p><p>A DNACPR relates only to CPR. It does <strong>not</strong> mean withdrawing other care &mdash; comfort, pain relief, food, fluids, kindness and dignity all continue exactly as before. If you are ever unsure what a person's plan means, ask the nurse.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5442a54a-ee37-46a1-9de8-590c8f25f070",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A DNACPR decision means that all other care and treatment, such as pain relief and help with comfort, should also stop.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. A DNACPR applies only to CPR; every other kind of comfort and care carries on exactly as before.",
+            "correctAnswerMessage": "Correct. A DNACPR relates only to CPR &mdash; all other comfort, pain relief, food, fluids and dignity continue as normal."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "f5b1b856-916c-43b0-9e56-72b27d4f7826",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

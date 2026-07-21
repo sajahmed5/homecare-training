@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Emotional and spiritual support</h2><p>Facing the end of life can bring fear, sadness, anger or a search for meaning. You do not need special words or all the answers. Often the most valuable thing you can offer is simply to be there &mdash; to sit, listen and let the person feel that they are not alone.</p><ul><li><strong>Be present:</strong> a calm, unhurried presence reassures.</li><li><strong>Listen:</strong> let people share fears without rushing to fix them.</li><li><strong>Comfort:</strong> a held hand or gentle voice says a great deal.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1efeb462-acf4-4e05-800f-3505a866499c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Emotional and spiritual",
+          "decorative": false,
+          "file": {
+            "path": "images/emotional-and-spiritual.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ef81e4c0-6d78-4e64-9b46-fd52da70e8cb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Cultural, religious and spiritual needs</h2><p>How people understand dying, and what they need around it, is deeply shaped by their culture, faith and beliefs. There may be prayers, rituals, particular foods, or wishes about who may be present and how the body should be cared for after death. For some people spirituality has nothing to do with religion &mdash; it is about relationships, nature or a life's meaning.</p><p>Never assume; ask respectfully, follow the care plan, and support the person's wishes and those of their family. If particular customs need to be arranged, tell your senior so the right support &mdash; a chaplain, faith leader or interpreter &mdash; can be brought in.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c9c37401-9e9d-41a1-b325-435d8f308202",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You can safely assume what religious or cultural needs a person has at the end of life based on their background, without needing to ask.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. People's beliefs and wishes vary widely, so always ask and follow the individual's own wishes rather than assume.",
+            "correctAnswerMessage": "Correct. Never assume &mdash; ask respectfully and follow the person's own wishes and care plan, as needs vary greatly even within the same background."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "19436bde-5eab-4075-8893-574aaac283a8",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

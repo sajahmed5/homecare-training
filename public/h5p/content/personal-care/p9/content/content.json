@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Mouth care, hair and nails</h2><p>Personal care is about far more than washing. Caring for the mouth, hair and nails keeps a person comfortable, healthy and feeling like themselves. Oral care in particular is easily overlooked, yet a sore or dry mouth can cause real pain and make eating difficult.</p><ul><li><strong>Mouth care:</strong> help with brushing teeth or cleaning dentures twice a day.</li><li><strong>Hair:</strong> support washing, brushing and styling to the person's liking.</li><li><strong>Nails:</strong> keep them clean, and follow policy on who may cut nails.</li></ul><p>Always follow the care plan &mdash; for example, some people's nails, such as those of a person with diabetes, should only be cut by a specialist.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "210220f5-d8c2-47b5-b61f-e0509fe3ba11",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Grooming and dressing",
+          "decorative": false,
+          "file": {
+            "path": "images/grooming-and-dressing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e3ed0065-d384-41ac-82c3-9d952224067d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Support with dressing</h2><p>Getting dressed is deeply personal. What we wear expresses who we are, so involve the person at every step. Offer a genuine choice of clothing, respecting their taste, the weather and any cultural or religious dress they prefer. Lay clothes out in order and encourage the person to do as much as they can themselves.</p><p>Work at the person's pace and keep them covered as you go, dressing the weaker or more painful side first when someone has limited movement on one side. Check that clothing is comfortable, not twisted or rubbing, and that fastenings are done up. Well-chosen, comfortable clothes that the person has helped select support both their dignity and their independence. As always, notice and report anything that concerns you, such as clothes that no longer fit or skin that looks sore.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "71f747a2-ae79-46f9-897f-4e4e0ae19b07",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When helping someone with weakness on one side to dress, you should put clothing onto the weaker side first.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You should dress the weaker or more affected side first, as this is more comfortable and easier.",
+            "correctAnswerMessage": "Correct. Dressing the weaker or more painful side first is gentler and easier for the person."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "43f10bf7-8dbe-47d1-9a6c-43e10f693972",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

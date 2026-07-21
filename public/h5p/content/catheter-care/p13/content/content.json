@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to escalate</h2><p>Knowing what to report, and how quickly, keeps people safe. Some things need <strong>urgent</strong> action &mdash; get help immediately. Others should be reported <strong>promptly</strong> so the nurse can review the person. When in doubt, always escalate; it is never wrong to raise a concern about someone in your care.</p><ul><li><strong>Urgent:</strong> suspected sepsis, no urine draining, catheter out, heavy bleeding.</li><li><strong>Prompt:</strong> signs of infection, bypassing, cloudy urine, discomfort.</li><li><strong>Always:</strong> record what you saw and who you told.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e9c81cdc-e603-40a7-bdac-98c245b0d946",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When to escalate",
+          "decorative": false,
+          "file": {
+            "path": "images/when-to-escalate.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "09a7dea0-61c3-4db0-951f-2360ba4d425c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have seen how a urinary catheter works, why people have one, and how good hand hygiene, aseptic principles, a closed system and correct bag positioning all help prevent infection. You have also seen how everyday support &mdash; careful emptying, gentle hygiene, encouraging fluids, securing the catheter and protecting dignity &mdash; keeps people comfortable, and how recognising and reporting problems early keeps them safe.</p><p>Finally, remember the boundary this course has stressed throughout. This training is <strong>awareness only</strong> and does <strong>not</strong> authorise anyone to carry out catheter care without task-specific training, assessed competence and delegation by a registered nurse. You must not insert or remove a catheter, and you may only carry out delegated catheter care when it is set out in the care plan. Anything abnormal, you escalate to the nurse.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4ad193d0-d056-4b91-9f6d-0e9c248f77a1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

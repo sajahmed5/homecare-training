@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The care worker's role</h2><p>As a care worker, you are often the person closest to someone's daily routine, so you are well placed to support their continence and to notice changes early. Your role is to follow the agreed care plan, offer timely and respectful support, promote independence, and report any concerns to the right person.</p><ul><li><strong>Support the plan:</strong> follow what the assessment and care plan set out.</li><li><strong>Promote independence:</strong> help people do as much as they safely can for themselves.</li><li><strong>Observe and report:</strong> notice changes and pass them on promptly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "65e23cfa-2263-4b58-ad7f-7a0f124ecdfa",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role and limits",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-and-limits.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fa44bd1e-8236-483b-b254-74ab2e7c4d90",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing where your role ends</h2><p>Good continence care also means knowing the limits of your role. You should never decide by yourself that someone &ldquo;needs pads&rdquo;, choose or change continence products, or assume that leaking is just to be expected. A proper <strong>continence assessment</strong> and the prescribing of any products are carried out by a nurse or continence advisor, who works out the cause and the right plan for that individual.</p><p>What you must always do is support the plan carefully and report concerns quickly. If someone starts leaking when they did not before, seems in pain, or their skin is becoming sore, tell a senior colleague or nurse so the person can be assessed. Noticing a change and passing it on is exactly what is expected of you, and it can make a real difference.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "39783610-86df-4de7-b52b-db6e4391be96",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone in your care starts having accidents, it is fine for you to decide on your own that they need to start wearing continence pads.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You should report the change rather than decide on products yourself. A nurse or continence advisor carries out the assessment.",
+            "correctAnswerMessage": "Correct. Assessing continence and prescribing products is the job of a nurse or continence advisor &mdash; you report the change so the person can be assessed."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7dc57cf1-80d9-4eb6-a7af-63555e6cc0c0",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

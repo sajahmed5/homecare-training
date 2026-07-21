@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising pain and symptoms</h2><p>People near the end of life may have symptoms such as pain, breathlessness, nausea, agitation or a dry mouth. Managing these well is at the heart of comfort. Your job is not to treat symptoms but to <strong>notice</strong> them early and report them, so the nurse can act quickly &mdash; often before the person has to ask.</p><ul><li><strong>Watch:</strong> facial expressions, restlessness, guarding or moaning.</li><li><strong>Listen:</strong> to what the person and family tell you.</li><li><strong>Report:</strong> pass on new or worsening symptoms without delay.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c5f360db-8a10-4cb2-8774-c02b56571718",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Pain and symptoms",
+          "decorative": false,
+          "file": {
+            "path": "images/pain-and-symptoms.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2d6e813d-3061-4ab8-b8e4-957691891252",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Pain in people who cannot tell you</h2><p>Some people cannot say that they are in pain &mdash; perhaps because they are very drowsy, or living with advanced dementia. Pain can still show in the body: a furrowed brow, tense or rigid limbs, groaning, becoming withdrawn, or growing distressed during movement or personal care.</p><p>Trust these signs and report them. If you think someone is uncomfortable, tell the nurse rather than waiting to be sure; it is always better to raise a concern that turns out to be nothing than to leave someone in pain. Family who know the person well may spot changes too, so listen to what they tell you. Prescribed medicines, including any &lsquo;as required&rsquo; pain relief, are given by the appropriate professional &mdash; but timely, well-managed relief usually begins with you noticing and speaking up.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1fa605f3-c426-4c78-b939-718a12b94c6a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person who is very drowsy and cannot speak seems to frown and tense up whenever you help to reposition them. What is the best response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat these as possible signs of pain, keep your movements gentle, and report it to the nurse so the person's comfort can be reviewed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. People who cannot speak may still be in pain, and body signs matter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume there is no pain because the person has not asked for anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Someone who cannot speak may still be in pain; watch the body and report it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give the person some of another resident's pain relief to help quickly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never give medicines that are not prescribed for that person; report to the nurse instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoid repositioning the person again so you do not upset them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Repositioning is important for comfort; the answer is to ease the pain, not to stop essential care.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b4bd3f1e-5d88-4045-9ac7-e3b0cbd29c6d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

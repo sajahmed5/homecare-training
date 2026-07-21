@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyday comfort and dignity</h2><p>Much of end of life care is made up of small, gentle acts. Keeping someone clean, warm and comfortable, and their surroundings calm, does an enormous amount of good. As the body slows down, comfort &mdash; not cure &mdash; guides everything you do, always within the care plan and the nurse's guidance.</p><ul><li><strong>Mouth care:</strong> keep the mouth and lips moist and clean.</li><li><strong>Positioning:</strong> reposition gently to ease pressure and aid breathing.</li><li><strong>Cleanliness:</strong> attend to skin, continence and freshness with dignity.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ceccb243-8410-4a43-a1a0-312b38766c38",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Comfort care",
+          "decorative": false,
+          "file": {
+            "path": "images/comfort-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cdfd84cd-372f-49cf-8e47-21d4a26f801b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Food &amp; fluids at the end of life</h2><p>As someone comes to the very end of life it is natural for them to want little or no food and drink. This is part of the body slowing down, not the person &lsquo;giving up&rsquo;. Forcing food or fluids can cause discomfort and even harm, for example if swallowing is no longer safe.</p><p>Instead, food and drink are offered for <strong>comfort</strong> &mdash; sips, tastes or moist mouth care &mdash; if the person still wants them and can manage safely. Frequent mouth care matters more than ever, because a dry mouth is a common cause of distress. Follow the care plan, and report any concerns about eating, drinking or swallowing to the nurse.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0d7c4a0b-51cf-4045-b82e-d2764a29ee28",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Frequent *mouth* care keeps the lips moist, gentle *repositioning* eases pressure and helps breathing, and at the very end of life food and *fluids* are offered for *comfort* rather than forced.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "25a16e86-b3eb-4a68-aa8d-c7c90749e392",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

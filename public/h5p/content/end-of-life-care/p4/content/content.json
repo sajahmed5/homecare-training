@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising the last days of life</h2><p>Recognising that a person may be entering the last days of life helps the team give the right care and prepares everyone gently. There is no single sign, and it can be hard to be certain, but experienced nurses and doctors look at changes over time. Guidance such as <strong>NICE NG31</strong> describes changes that are commonly seen as death approaches.</p><ul><li><strong>Sleeping more:</strong> becoming very drowsy or hard to rouse.</li><li><strong>Eating and drinking less:</strong> losing interest in food and fluids.</li><li><strong>Changes in breathing:</strong> irregular patterns or noisy breaths.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "db2fd73d-979a-4cbe-bd04-0b3e03b2605b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising decline",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-decline.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "264aeb59-41fa-4a0f-969f-47e7fb4a62ae",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The five priorities for care</h2><p>When someone is recognised as dying, national guidance sets out five priorities for their care. These are to <strong>recognise</strong> that the person may be dying and to act on it; to <strong>communicate</strong> clearly and sensitively; to <strong>involve</strong> the person and those important to them in decisions; to <strong>support</strong> the family and those close to them; and to create and deliver an individual <strong>plan</strong> of care.</p><p>You will not make these decisions alone, but you help deliver them every day &mdash; and reporting the changes you notice is what allows the team to recognise the last days of life in time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "040dfdc3-f2fe-4b46-a280-f43e2a30cc9c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice a person you support is sleeping much more, taking very little food or fluid, and their breathing has changed. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report these changes to a nurse or senior promptly, and continue to keep the person comfortable, as these can be signs that the last days of life are approaching.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Noticing and reporting these changes helps the team give the right care in time.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, as these changes are normal in older people and never need reporting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Such changes should always be passed on so the team can assess them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to make the person eat and drink more to build their strength up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Forcing food or fluids can cause distress and harm near the end of life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide yourself that the person is dying and tell the family.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Recognising that someone is dying is a team decision, not yours to make alone.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "89a9db48-b9ca-4ad4-98d8-22539670a176",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

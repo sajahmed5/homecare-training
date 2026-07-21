@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Position the bag below the bladder</h2><p>Urine drains by gravity, so the drainage bag must always sit <strong>below the level of the bladder</strong>. This lets urine flow away freely and stops urine already in the bag from flowing back up towards the bladder, which could carry germs with it. Whether the person is sitting, standing, lying down or being moved, check that the bag stays below bladder level.</p><ul><li><strong>Below the bladder:</strong> so urine drains and does not flow back.</li><li><strong>Never on the floor:</strong> keep the bag off the ground at all times.</li><li><strong>Support it:</strong> use a stand, hanger or holder, not the floor.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "08e5121c-89c2-4581-8bfd-f1c1061a7380",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Positioning the bag",
+          "decorative": false,
+          "file": {
+            "path": "images/positioning-the-bag.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b9363a09-7d32-4a3a-9ab9-5ebf17d3afac",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Free flow, no kinks, off the floor</h2><p>For the system to drain, the tubing must be free of kinks, loops and pressure. A tube trapped under a leg, caught in bedding or looped below the bag can stop urine draining and cause it to pool, which is uncomfortable and raises the infection risk. Check that the person is not lying or sitting on the tube.</p><p>The bag must <strong>never</strong> touch the floor, because the floor is heavily contaminated and germs can travel up into the system. When someone is in bed, hang the bag on a stand or holder at the side of the bed; when they are in a chair, use a floor stand or bag holder that keeps it clear of the ground. These simple positioning habits, done every time, make a real difference to preventing infection.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8f31b571-4ec6-4636-be02-3a44369eb217",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

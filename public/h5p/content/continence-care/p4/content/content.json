@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Not all incontinence is the same</h2><p>Incontinence is not a single condition. There are different types, each with its own causes and its own best support, which is why a proper assessment matters so much. Two of the most common types are stress incontinence and urge incontinence.</p><ul><li><strong>Stress incontinence:</strong> leaking when the bladder is put under sudden pressure.</li><li><strong>Urge incontinence:</strong> a sudden, strong need to pass urine that is hard to hold.</li><li><strong>Different causes:</strong> each type has different causes and different support.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4d0f3cc-aa8e-48ef-8fa1-4ada4bca18a1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stress and urge",
+          "decorative": false,
+          "file": {
+            "path": "images/stress-and-urge.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cb7e9c5c-b9bd-424e-ab2e-6c3c28febcd4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stress and urge incontinence</h2><p><strong>Stress incontinence</strong> is leaking that happens when pressure on the bladder rises suddenly &mdash; for example when someone coughs, sneezes, laughs or lifts something. It is linked to weakened pelvic floor muscles, which can follow childbirth, ageing or some surgery. The leaks are often small but can happen many times a day.</p><p><strong>Urge incontinence</strong> is a sudden, intense need to pass urine, followed by leaking before the person can reach a toilet. It is linked to an overactive bladder and is sometimes made worse by conditions affecting the nervous system, or by drinks such as caffeine. People with urge incontinence often also feel they need the toilet very frequently, including at night. Understanding which type someone has helps the team choose support that genuinely fits their needs.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "91fda464-d758-47c0-ada0-1ac498f760fd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person leaks a small amount of urine each time they cough, sneeze or laugh. Which type of incontinence does this describe?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stress incontinence, which is leaking when sudden pressure is put on the bladder.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Coughing, sneezing and laughing raise pressure on the bladder, causing stress incontinence.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Urge incontinence, caused by a sudden desperate need to pass urine.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Urge incontinence is a sudden strong urge &mdash; this description is leaking on physical effort, which is stress incontinence.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Overflow incontinence, where the bladder never empties fully.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Overflow is frequent dribbling from a bladder that does not empty &mdash; not leaking triggered by coughing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Functional incontinence, caused by not reaching the toilet in time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Functional incontinence is about barriers to reaching the toilet, not pressure on the bladder.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b73e7d7a-4408-40aa-9706-107060837f83",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

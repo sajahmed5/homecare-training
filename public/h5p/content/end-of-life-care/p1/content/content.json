@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to End of Life Care</h2><p>Caring for someone in the last months, weeks or days of their life is some of the most important work you will ever do. It asks for skill, patience and, above all, compassion. This course introduces the ideas behind good <strong>end of life care</strong> so that you can help people to be comfortable, feel safe and keep their dignity right to the end.</p><ul><li><strong>Comfort:</strong> easing pain and distressing symptoms.</li><li><strong>Dignity:</strong> treating the person exactly as they wish to be treated.</li><li><strong>Presence:</strong> offering kind, calm and unhurried company.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "65ed011e-6b9a-4987-876e-38a0ee39e6ec",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "877e717c-4712-4540-bbc3-5e46bdaa11ec",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Across the next pages you will learn what palliative and end of life care mean, how the team recognises that someone may be dying, and how a person's wishes are recorded and respected. You will look at supporting comfort and dignity, communicating gently with the person and their family, care after death, and how to look after yourself when someone you have cared for dies.</p><p>This course builds <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on, supervised training, and it never replaces the judgement of the nursing and palliative care team. End of life care is delivered by a multidisciplinary team; your part is to support comfort and dignity within your role and the care plan, and to escalate symptoms and concerns to a nurse or senior.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "52b16d49-d506-430a-9ce8-72f777677b3f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

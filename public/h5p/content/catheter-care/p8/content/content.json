@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Emptying the drainage bag</h2><p>A drainage bag is emptied regularly so it does not become too full and drag on the catheter. As a general rule it is emptied when it is around two-thirds full, and before it becomes heavy. If this task is delegated to you, clean your hands and put on gloves and an apron, then open the outlet tap and let urine drain into a clean container held below the bag.</p><ul><li><strong>When:</strong> before the bag becomes too full or heavy.</li><li><strong>How:</strong> clean hands and gloves, then use the outlet tap.</li><li><strong>Clean tap:</strong> do not let the tap touch the container or floor.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ee83da7c-e9d9-46a5-9c83-6139c6ce045b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Emptying and output",
+          "decorative": false,
+          "file": {
+            "path": "images/emptying-and-output.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1ad6a05e-4412-4fa0-ba7a-799c9f3bc289",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Measuring and recording output</h2><p>After draining, close the tap firmly, wipe it if the care plan directs, and dispose of the urine, gloves and apron correctly before cleaning your hands again. Take care that the tap does not touch the container, the floor or your gloves, as this could carry germs back into the system. Each person should have their own clean container that is not shared.</p><p>You may be asked to <strong>measure and record</strong> how much urine the person passes, on a fluid balance or output chart. Record the amount accurately and at the time, and note anything unusual about the urine &mdash; for example if it is very dark, cloudy, bloodstained, strong-smelling or much less than usual. Accurate records help the nurse spot problems early, so never guess or fill a chart in from memory.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "761ffb33-ad74-4267-8cfb-0934b060743d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When should a catheter drainage bag usually be emptied?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Before it becomes too full or heavy &mdash; generally around two-thirds full.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Emptying before it overfills stops the bag dragging on the catheter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only once a day, no matter how full it is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a full, heavy bag drags on the catheter and should be emptied before that.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only when it is completely full to the top.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; waiting until it is completely full lets it become heavy and drag on the catheter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By disconnecting the bag from the catheter each time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; always empty through the tap; disconnecting breaks the closed system.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6de1a046-fa9e-46b2-bb8a-08631e8c3d3a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

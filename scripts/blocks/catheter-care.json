@@ -1,0 +1,97 @@
+{
+  "slug": "catheter-care",
+  "title": "Catheter Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "catheter-care/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "About urinary catheters"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p2",
+      "label": "What is a catheter?",
+      "questions": 1,
+      "section": "About urinary catheters"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p3",
+      "label": "Types and reasons",
+      "questions": 1,
+      "section": "About urinary catheters"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p4",
+      "label": "CAUTI and IPC",
+      "questions": 1,
+      "section": "Preventing infection"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p5",
+      "label": "Hands and asepsis",
+      "questions": 1,
+      "section": "Preventing infection"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p6",
+      "label": "Closed system",
+      "questions": 1,
+      "section": "Preventing infection"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p7",
+      "label": "Positioning the bag",
+      "questions": 0,
+      "section": "Preventing infection"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p8",
+      "label": "Emptying and output",
+      "questions": 1,
+      "section": "Everyday supported care"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p9",
+      "label": "Hygiene and securing",
+      "questions": 1,
+      "section": "Everyday supported care"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p10",
+      "label": "Fluids and passport",
+      "questions": 1,
+      "section": "Everyday supported care"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p11",
+      "label": "Infection and sepsis",
+      "questions": 1,
+      "section": "Recognising and reporting problems"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p12",
+      "label": "Blockage and leakage",
+      "questions": 1,
+      "section": "Recognising and reporting problems"
+    },
+    {
+      "type": "h5p",
+      "path": "catheter-care/p13",
+      "label": "When to escalate",
+      "questions": 0,
+      "section": "Recognising and reporting problems"
+    }
+  ]
+}

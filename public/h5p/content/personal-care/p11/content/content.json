@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Noticing changes</h2><p>Because you help a person with such close, regular care, you are often the first to notice when something changes. This makes you an important pair of eyes for the whole care team. A change may be physical, or it may be in how a person seems in themselves.</p><ul><li><strong>Skin:</strong> redness, broken skin, rashes, bruising or swelling.</li><li><strong>Body:</strong> weight loss or gain, poor appetite, or new pain.</li><li><strong>Mood and ability:</strong> low mood, confusion, or new difficulty with tasks.</li></ul><p>None of these needs a diagnosis from you &mdash; your job is simply to notice and to pass it on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c77e7218-8baf-4831-b713-76281cba0d59",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Noticing changes",
+          "decorative": false,
+          "file": {
+            "path": "images/noticing-changes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d7b0ae59-a0b1-4b37-8273-ade32e4960db",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why small changes matter</h2><p>A change that seems minor can be the first sign of something that needs attention &mdash; an infection, dehydration, a pressure ulcer beginning to form, or a person becoming unwell or unhappy. Someone who is normally chatty falling quiet, or who suddenly needs more help than usual, is telling you something even without words.</p><p>Because you see the person regularly, you come to know what is normal for them, and that makes you well placed to spot what is not. Trust your instinct: if something feels different or not right, it is always worth reporting. It is far better to mention a change that turns out to be nothing than to stay silent about one that mattered. Reporting early gives the team the best chance to help the person quickly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6804f056-4654-42d0-8ea0-f30133a760e4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice that a person who is usually cheerful and chatty has become quiet and withdrawn over a few visits. What is the right thing to do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report the change so the team can look into it, even though you cannot say what is causing it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A change in mood can be an early sign of something wrong, so report it for the team to explore.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, as mood is not part of personal care</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Changes in mood and manner are important and should always be noticed and reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the next monthly review to mention it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Waiting weeks could delay help; changes should be reported promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide it must be nothing and forget about it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. It is not for you to dismiss a change; report it so the team can decide whether it matters.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3db306bd-736d-457d-9684-0693048ac5ec",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

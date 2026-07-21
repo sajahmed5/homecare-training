@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>More than a physical need</h2><p>Being continent is something most adults take for granted, so losing that control can be deeply distressing. Incontinence is not simply a practical problem to be managed; it touches how a person feels about themselves and how they live their daily life. The way you respond can either protect someone's dignity or quietly chip away at it.</p><ul><li><strong>Dignity:</strong> continence is closely tied to privacy and self-respect.</li><li><strong>Health:</strong> good continence care helps prevent infection and skin damage.</li><li><strong>Self-esteem:</strong> feeling in control supports confidence and independence.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ab42a886-ae4a-483a-b184-8630a94c3bdc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why it matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-it-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "61fce561-ba77-4a39-80b9-bbe7a4a2fb8f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The wider impact</h2><p>When incontinence is not supported well, its effects reach far beyond the bathroom. People may feel embarrassed or ashamed, withdraw from friends and activities, or stop going out for fear of an accident. Some drink less to reduce the risk of leaking, which can lead to dehydration, urinary infections and constipation &mdash; and, in turn, make continence worse.</p><p>Incontinence is common, and it is often treatable or can be improved with the right support. It should never be dismissed as an inevitable part of ageing or something to simply put up with. By treating continence as important, keeping a calm and matter-of-fact manner, and never making a person feel like a burden, you help protect both their health and their sense of who they are.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "10e6cf7f-2282-43cc-bf29-2d8f7976a61a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why should incontinence never be treated as simply a practical problem to be managed?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because it affects a person's dignity, self-esteem and wider health, and can often be improved with the right support.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Continence is tied to how people feel about themselves, and good support protects both dignity and health.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because incontinence is a normal, unavoidable part of getting older.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incontinence is common but is not an inevitable part of ageing &mdash; it can often be treated or improved.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because pads are the only support anyone ever needs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Good continence care is far more than products &mdash; it is skilled, person-centred support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because it only matters if the person mentions it themselves.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People often feel too embarrassed to raise it, so your sensitivity and attention matter greatly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0a57cf48-1869-4575-be37-0a10976f6871",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

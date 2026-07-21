@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preparing the environment</h2><p>Where and how personal care takes place affects how safe and dignified it feels. A little preparation makes everything go more smoothly and protects the person from cold, embarrassment and risk. Before you start, get the space and everything you need ready.</p><ul><li><strong>Privacy:</strong> close doors, curtains and blinds before anyone undresses.</li><li><strong>Warmth:</strong> make sure the room and any water are at a comfortable temperature.</li><li><strong>Everything to hand:</strong> gather towels, soap, clean clothes and equipment first.</li></ul><p>Preparing well means you will not have to leave a person exposed or alone while you fetch something you forgot.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8da5bcd-36ce-4cb7-84f0-8ee35905ee3a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The right environment",
+          "decorative": false,
+          "file": {
+            "path": "images/the-right-environment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1ace9b2d-1a34-41af-9aea-82846bf39a51",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Safety and comfort</h2><p>Personal care often takes place in bathrooms and around water, which can be slippery and hazardous. Check that the floor is dry, that any grab rails and equipment are sound, and that the water is a safe, comfortable temperature before the person gets in &mdash; test it yourself or with a thermometer, as very hot water can scald.</p><p>Think about comfort as well as safety. Warm the towels if you can, keep the person covered as much as possible, and uncover only the part of the body you are caring for. If you use any equipment such as a hoist or shower chair, follow your moving-and-handling training and the person's care plan. A calm, warm, well-prepared environment tells the person they are cared for and safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1f4dea65-6fbe-4c86-a437-3fcbf6170934",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should test the temperature of the water before a person gets into a bath or shower.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You must always check the water temperature first &mdash; water that is too hot can cause serious scalds.",
+            "correctAnswerMessage": "Correct. Always check the water is comfortable and safe first, as water that is too hot can scald."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "be7fe9d9-572d-4ec5-9923-597fee27c2ba",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

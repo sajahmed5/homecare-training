@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Catheter Care</h2><p>Welcome to <strong>Catheter Care</strong>. Many of the people you support live with a urinary catheter, and the everyday care around it has a direct effect on their comfort, dignity and safety. This course helps you understand what a catheter is, why people have one, and how clean, careful, person-centred support helps prevent infection and other problems.</p><ul><li><strong>Understand:</strong> what a urinary catheter is and why it is used.</li><li><strong>Prevent:</strong> how good practice reduces the risk of infection.</li><li><strong>Escalate:</strong> when and how to report concerns to a registered nurse.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d60418ff-4b15-48e4-8606-1fff6f870ce6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3a26bc9c-d507-4620-a184-eb77ce8053f1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness only &mdash; know your limits</h2><p>Catheter care is a <strong>delegated clinical task</strong>. This course raises your <strong>awareness</strong> only. You must <strong>never</strong> insert or remove a urinary catheter &mdash; that is the role of a registered nurse or doctor. You may only carry out delegated catheter care, such as emptying a drainage bag or supporting meatal hygiene, if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you by a registered nurse</strong> and set out in the person's care plan.</p><p>This course does not authorise you to carry out catheter care without task-specific training, assessed competence and delegation by a registered nurse. If anything looks or feels abnormal, you stop and escalate to the nurse. Throughout, remember that your two most important skills are noticing changes and reporting them promptly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "021a2cd0-663b-40b7-bfed-d4d93869fa8c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

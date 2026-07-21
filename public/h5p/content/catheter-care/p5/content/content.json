@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hand hygiene comes first</h2><p>Clean hands are the single most effective way to stop the spread of infection. Before and after any contact with a person's catheter or drainage system you must decontaminate your hands, using soap and water or alcohol hand rub as appropriate, and put on clean disposable gloves and an apron. After the task you remove your gloves and apron and clean your hands again, because gloves are never a substitute for hand hygiene.</p><ul><li><strong>Before:</strong> clean your hands and put on gloves and apron.</li><li><strong>After:</strong> remove gloves and apron, then clean your hands again.</li><li><strong>Always:</strong> gloves do not replace handwashing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "19f8d721-51f2-4e64-9a29-82a86f6f4d88",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hands and asepsis",
+          "decorative": false,
+          "file": {
+            "path": "images/hands-and-asepsis.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8c7a7d99-840a-431e-b3ba-8ffd1818cda7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The principles of asepsis</h2><p><strong>Asepsis</strong> means working in a way that keeps harmful germs away from a vulnerable site &mdash; here, the point where the catheter meets the body and the connections in the drainage system. In practice this means clean hands, clean gloves, not touching the parts that need to stay clean, and using a clean technique for any delegated task.</p><p>You should never touch the tip of the catheter, the connection points or the outlet tap with your bare hands, and you should never let these parts touch clothing, bedding or the floor. If a connection is accidentally touched or contaminated, you stop and report it to the nurse rather than carrying on. Keeping these key points clean is what stops infection travelling into the bladder.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bdd0715d-f9a2-4851-93d8-75ceb4b622f6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Wearing gloves means you do not need to clean your hands before and after catheter care.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Gloves do not replace handwashing; you must clean your hands both before and after.",
+            "correctAnswerMessage": "Correct. Gloves are never a substitute for hand hygiene &mdash; always clean your hands before and after."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "75ac51e3-43d7-473d-a5b9-353524fa4513",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

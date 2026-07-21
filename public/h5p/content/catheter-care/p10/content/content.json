@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fluids and comfort</h2><p>Unless the person has been told to limit fluids for a medical reason, encourage them to drink well throughout the day. A good fluid intake keeps urine flowing freely through the catheter, which helps flush the system and reduces the risk of blockages and infection. Always follow the person's care plan, as some people do have fluid restrictions.</p><ul><li><strong>Encourage fluids:</strong> unless restricted by the care plan.</li><li><strong>Why:</strong> good flow helps prevent blockage and infection.</li><li><strong>Comfort:</strong> watch for any sign of pain or discomfort.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ce9b15ac-a54e-4bf4-ac91-f1e685887b29",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Fluids and passport",
+          "decorative": false,
+          "file": {
+            "path": "images/fluids-and-passport.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c836a960-02f4-4a47-ad46-b772799b0002",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The catheter passport</h2><p>Many people with a long-term catheter have a <strong>catheter passport</strong> &mdash; a personal record that travels with them. It holds key information such as the type and size of catheter, when it was inserted, when it is next due to be changed, and who to contact with problems. It gives everyone involved in the person's care the same essential information and supports safe care across different settings.</p><p>Keep the passport up to date where that is part of your role, make sure it goes with the person to hospital or other appointments, and treat it as important. Throughout all daily care, protect the person's <strong>dignity and privacy</strong>: many people feel embarrassed about a catheter, so be discreet, keep bags covered under clothing where possible, gain consent, and never make the person feel like a task. Kind, respectful support matters just as much as clean technique.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3c1faf41-c19a-4c0f-974b-4df3c6d6c706",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Unless the person has a fluid restriction, why is it good to encourage them to drink well?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A good fluid intake keeps urine flowing, which helps flush the system and reduces blockages and infection.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Good flow helps keep the catheter clear and lowers the infection risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drinking more makes the catheter unnecessary.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; fluids do not remove the need for a catheter, which is a clinical decision.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It means the drainage bag never needs emptying.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; drinking well actually means the bag fills and needs emptying regularly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no reason; fluids make no difference to a catheter.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; good fluid intake genuinely helps prevent blockages and infection.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "62c9b891-0d61-4271-9d81-f31d5ad105ea",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

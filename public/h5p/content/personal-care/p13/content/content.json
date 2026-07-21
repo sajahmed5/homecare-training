@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping accurate records</h2><p>Reporting what you notice by word of mouth is important, but it must also be written down. Accurate records mean the whole team knows what has happened, care stays consistent, and any change can be tracked over time. Good records are also a legal requirement, and they protect both the person and you.</p><ul><li><strong>Accurate:</strong> write what you actually saw or did, not what you assume.</li><li><strong>Timely:</strong> record as soon as you can, while it is fresh.</li><li><strong>Clear and factual:</strong> avoid opinion, and keep records confidential and secure.</li></ul><p>Record the personal care you gave, any refusals, and any changes you noticed, following your workplace's system.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9d1f81a-b189-4126-a238-9196189d3a64",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting and recording",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-and-recording.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "685a912d-67cd-4dd6-98f3-a91c8416c261",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on personal care. You have explored what personal care is and the values of dignity, privacy, consent and choice that run through it; how to prepare and deliver care safely, including consent, communication, the environment, infection control and independence; the main areas of care from washing to skin protection; and how to observe, report and record what you notice. Throughout, personal care is delivered according to the person's care plan, and any change is reported.</p><p>Remember the key point from the start: <strong>this e-learning covers the knowledge element only</strong>. Being able to deliver personal care safely, kindly and competently must also be observed by your employer in your real work before it is signed off. An online course alone cannot confirm your competence. Speak to your manager about the workplace observation and assessment that go alongside this learning &mdash; and carry these values into every person you support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f033ba66-80cf-48b7-b3ae-fec957f68590",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

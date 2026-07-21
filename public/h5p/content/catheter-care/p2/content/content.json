@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a urinary catheter?</h2><p>A urinary catheter is a thin, flexible, hollow tube that drains urine from the bladder when a person cannot pass urine in the usual way. Most indwelling catheters are held in place by a small water-filled balloon inside the bladder, and the tube connects to a drainage bag or a valve that the person opens to empty. Because the catheter creates a direct route into the bladder, it needs careful, clean handling every single time it is touched.</p><ul><li><strong>Drains urine:</strong> when the bladder cannot empty normally.</li><li><strong>Held in place:</strong> usually by a small balloon in the bladder.</li><li><strong>A direct route:</strong> into the bladder, so infection risk is real.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1c5d1b1f-7c28-4a42-adcc-720fc4f51838",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a catheter?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-catheter.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "894f82f1-9c5a-41b6-8b17-a123d5c045fe",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A closed drainage system</h2><p>An indwelling catheter is part of a <strong>closed drainage system</strong>: the catheter, the connecting tube and the drainage bag form one sealed circuit that keeps urine flowing away from the body and keeps germs out. Urine drains down into the bag by gravity, so the system only works well when it is kept sealed and the bag sits lower than the bladder.</p><p>Keeping this system closed is one of the most important things you can do to protect the person. Every time the system is opened unnecessarily &mdash; for example by disconnecting the bag &mdash; germs can get in and travel up towards the bladder. Understanding how the system works helps you see why the small, careful habits in this course matter so much.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "766dad0b-87d7-455b-80c5-314941294da6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is a urinary catheter?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A thin, flexible tube that drains urine from the bladder when a person cannot pass it in the usual way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. It drains urine when the bladder cannot empty normally, and connects to a drainage bag or valve.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A dressing placed over a wound to keep it clean and dry.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that describes a wound dressing, not a catheter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A tube used to give someone food and fluids through the stomach.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is a feeding tube. A urinary catheter drains urine.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A monitor that measures a person's blood pressure.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a catheter drains urine; it does not measure blood pressure.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c7360a59-71d0-40dd-becc-310b3faaa0e9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

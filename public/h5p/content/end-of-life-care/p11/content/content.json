@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating with care</h2><p>Gentle, honest communication is one of the greatest comforts you can offer a dying person and their family. Speak calmly and unhurriedly, use the person's name, and keep including them even if they seem unresponsive &mdash; hearing is often the last sense to fade, so tell them what you are doing and speak kindly at the bedside.</p><ul><li><strong>Be honest and kind:</strong> never make promises you cannot keep.</li><li><strong>Listen more than you speak:</strong> follow the person's lead.</li><li><strong>Include them:</strong> talk to, not over, the dying person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0e3d0ee5-dd7a-499e-a3a1-45873cda3ffb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication",
+          "decorative": false,
+          "file": {
+            "path": "images/communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d6898221-21d2-4cbf-89d4-2b7de8144650",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting the family</h2><p>Families and friends are living through something painful, and they will remember how they were treated. They may be exhausted, frightened or not getting along with one another. Simple kindness &mdash; a chair, a cup of tea, clear information about who to ask &mdash; means a great deal.</p><p>Answer what you can honestly and within your role, and pass questions about the illness, treatment or what to expect to the nurse. If you do not know something, it is always fine to say so and to find someone who does. Small, steady acts &mdash; keeping them informed, remembering their names, treating their loved one gently &mdash; build the trust that helps a family through. Your warmth and reliability are a comfort in themselves.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4c3f6204-cf6b-4acd-b236-758bc2f35508",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you are caring for appears unconscious in their last hours. How should you communicate around them?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Continue to speak gently to them, tell them what you are doing and keep including them, because hearing is often the last sense to fade.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Always assume the person may still hear you, and speak with the same warmth and respect.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stop talking to them and only discuss their care with colleagues, as they cannot hear anything now.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Hearing may remain to the end; keep speaking kindly to the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Talk about the person's condition freely at the bedside as though they were not there.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Always assume they may hear, and speak with the same dignity you would if they were awake.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Speak as loudly as possible to try to wake them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A calm, gentle voice is what comforts; there is no need to rouse them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8f498907-4c81-4f96-a8de-989325289ab6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -10,9 +10,18 @@ import { join } from "node:path";
 import { execSync } from "node:child_process";
 import { createClient } from "@supabase/supabase-js";
 
-const slugs = process.argv.slice(2);
+// Optional `--topic "<Name>"` forces the accent colour for every slug in this
+// run — needed for a brand-new course whose topic isn't in the DB yet (it would
+// otherwise fall back to the default teal).
+const rawArgs = process.argv.slice(2);
+let topicOverride = null;
+const slugs = [];
+for (let i = 0; i < rawArgs.length; i++) {
+  if (rawArgs[i] === "--topic") { topicOverride = rawArgs[++i]; continue; }
+  slugs.push(rawArgs[i]);
+}
 if (!slugs.length) {
-  console.error("Usage: node scripts/gen-illustrations.mjs <slug> [<slug> ...]");
+  console.error('Usage: node scripts/gen-illustrations.mjs <slug> [<slug> ...] [--topic "<Name>"]');
   process.exit(1);
 }
 
@@ -66,9 +75,9 @@ for (const slug of slugs) {
   const blocks = existsSync(snapPath)
     ? JSON.parse(readFileSync(snapPath, "utf8")).content_blocks
     : (course?.content_blocks ?? []);
-  const topicTitle = Array.isArray(course?.topic)
+  const topicTitle = topicOverride ?? (Array.isArray(course?.topic)
     ? course.topic[0]?.title
-    : course?.topic?.title;
+    : course?.topic?.title);
   const accent = TOPIC_COLOUR[topicTitle] ?? DEFAULT_COLOUR;
 
   blocks.forEach((b, idx) => {

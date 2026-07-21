@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Gaining and checking consent</h2><p>Consent is not a single moment at the start of a task; it runs through the whole of personal care. Before you begin, explain what you would like to do and ask if that is alright. As you work, keep checking &mdash; a person can change their mind at any point, and you must respect that.</p><ul><li><strong>Informed:</strong> the person understands what you are offering and why.</li><li><strong>Freely given:</strong> they agree without pressure or being rushed.</li><li><strong>Ongoing:</strong> you keep checking they are still happy to continue.</li></ul><p>Consent can be spoken, or shown through a nod, a gesture or body language. Learning to read these signals is an important part of the job.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "081ee8fa-06b5-459b-a9f2-03dc3740193b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent and communication",
+          "decorative": false,
+          "file": {
+            "path": "images/consent-and-communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e561e91b-0891-457c-a787-eadbf18afa4e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating well</h2><p>Good personal care depends on good communication. Speak clearly and warmly, at the person's pace, and tell them what you are going to do before you do it &mdash; &ldquo;I am going to help you wash your back now, is that alright?&rdquo; This keeps them informed and in control, and prevents the startle of being touched unexpectedly.</p><p>Communication is two-way. Watch the person's face and body for signs of pain, cold, tiredness or discomfort, especially if they cannot easily tell you in words. Give them time to respond, and never talk over them or about them as though they were not there. If someone communicates differently &mdash; through pictures, signs, or a communication aid &mdash; use the methods recorded in their care plan so their voice is always heard.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "652a058f-0b2a-46ee-b351-41f0e2fecccf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Part way through helping someone shower, they say they would like to stop. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stop, respect their decision, check they are safe and comfortable, and report the refusal so it can be recorded</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Consent is ongoing; you stop, keep the person safe, and report and record the refusal.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on quickly because the task is nearly finished</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Continuing after someone withdraws consent is never acceptable, however nearly finished you are.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them they must continue because it is written in their care plan</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. A care plan does not override a person's right to withdraw consent at any time.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave them alone in the shower and come back later without telling anyone</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Leaving them unsafe and telling no one puts the person at risk and fails to report the refusal.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "14df4a94-6d28-4167-b0c9-794b468b7cbb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

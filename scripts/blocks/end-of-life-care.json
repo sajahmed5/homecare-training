@@ -1,0 +1,97 @@
+{
+  "slug": "end-of-life-care",
+  "title": "End of Life Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What end of life care means"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p2",
+      "label": "Palliative care",
+      "questions": 1,
+      "section": "What end of life care means"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p3",
+      "label": "Your role",
+      "questions": 1,
+      "section": "What end of life care means"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p4",
+      "label": "Recognising decline",
+      "questions": 1,
+      "section": "Recognising the end of life"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p5",
+      "label": "Advance care planning",
+      "questions": 1,
+      "section": "Recognising the end of life"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p6",
+      "label": "ReSPECT and DNACPR",
+      "questions": 1,
+      "section": "Recognising the end of life"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p7",
+      "label": "Capacity and wishes",
+      "questions": 0,
+      "section": "Recognising the end of life"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p8",
+      "label": "Pain and symptoms",
+      "questions": 1,
+      "section": "Comfort and dignity"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p9",
+      "label": "Comfort care",
+      "questions": 1,
+      "section": "Comfort and dignity"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p10",
+      "label": "Emotional and spiritual",
+      "questions": 1,
+      "section": "Comfort and dignity"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p11",
+      "label": "Communication",
+      "questions": 1,
+      "section": "Communication and after death"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p12",
+      "label": "Care after death",
+      "questions": 1,
+      "section": "Communication and after death"
+    },
+    {
+      "type": "h5p",
+      "path": "end-of-life-care/p13",
+      "label": "Looking after you",
+      "questions": 0,
+      "section": "Communication and after death"
+    }
+  ]
+}

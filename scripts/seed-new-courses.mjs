@@ -50,6 +50,34 @@ const NEW_COURSES = [
     description:
       "Care Certificate Standard 8 — supporting people to have enough to eat and drink: hydration, malnutrition, swallowing difficulties and person-centred mealtime support. This covers the knowledge element only; your employer must also observe your competence at work and sign it off.",
   },
+  {
+    slug: "end-of-life-care",
+    topic: "Person & Service Quality",
+    expiry_months: 24,
+    description:
+      "Awareness of palliative and end of life care — supporting comfort, dignity and the person's wishes in the last months and days of life. Awareness only; end of life care is delivered by the wider team and does not replace supervised training.",
+  },
+  {
+    slug: "catheter-care",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Awareness of urinary catheter care and infection prevention. Awareness only — catheter care is a delegated clinical task you may carry out only after task-specific training, assessed competence and delegation by a registered nurse.",
+  },
+  {
+    slug: "continence-care",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Promoting continence and delivering dignified, person-centred continence care. Awareness only; continence assessment and products are directed by a nurse or continence advisor.",
+  },
+  {
+    slug: "personal-care",
+    topic: "Person & Service Quality",
+    expiry_months: 24,
+    description:
+      "Delivering personal care with dignity, privacy and consent — washing, oral care, grooming, dressing and skin care. Covers the knowledge element; your employer must also observe your competence at work.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

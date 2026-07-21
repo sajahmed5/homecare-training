@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing when to raise concerns</h2><p>Bringing it all together, the most important thing you can do is stay alert to concerns and report them clearly and promptly. You are the eyes and ears of the team, and the changes you notice help the right professional step in at the right time.</p><ul><li><strong>Report early:</strong> raise concerns with a senior colleague or nurse promptly.</li><li><strong>Record clearly:</strong> note what you have seen, factually and at the time.</li><li><strong>Know your limits:</strong> assessment and treatment belong to the right professional.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a4ac122d-f734-4673-947a-6ff64cdfb904",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting and support",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-and-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e1bb66b5-0f90-4de0-8c46-684df941ac6f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to involve the nurse or continence advisor</h2><p>Report to a nurse or continence advisor when someone develops new incontinence, when their pattern changes, when you see signs of infection or constipation, or when their skin becomes red, sore or broken. A continence assessment or review may be needed if a person's current plan or products are no longer working well, or if their needs have changed. When you report, describe clearly what you have noticed and when, and record it accurately so the person gets the right help.</p><p>Remember: this course has built <strong>awareness and good-practice knowledge</strong> only. It does not replace hands-on supervised training, your employer's policies, or the assessment of a nurse or continence advisor. By treating continence care as skilled, dignified work &mdash; and never as &ldquo;just pads&rdquo; &mdash; you protect people's health, comfort and self-respect every day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c95707b1-c521-43f0-bf86-0f8159affb8c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When should you involve a nurse or continence advisor?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>When someone develops new incontinence, their pattern changes, or you see signs of infection, constipation or skin damage.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These changes need proper assessment, so report them promptly and record what you have seen.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only once a problem has become severe and cannot be ignored.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Reporting early gives the best chance of putting things right before harm develops.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Never &mdash; care workers should manage all continence problems alone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Assessment and treatment are the job of the nurse or continence advisor, working with your observations.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only if the person specifically asks you to.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People may feel too embarrassed to ask, so you should report concerns you notice yourself.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "73156401-d3e7-4361-a2e6-f0761fc27e7b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

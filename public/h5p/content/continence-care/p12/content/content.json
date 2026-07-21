@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Constipation and sudden changes</h2><p>Continence care is about bowels as well as bladder. Constipation is common and can cause real discomfort, and it can also make urinary problems worse by pressing on the bladder. Watching for changes in someone's normal pattern is an important part of your role.</p><ul><li><strong>Constipation:</strong> passing stool less often than usual, or hard, difficult stools.</li><li><strong>Overflow:</strong> constipation can cause unexpected leaking of loose stool.</li><li><strong>Sudden change:</strong> any new change in bladder or bowel habit should be reported.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "702c4318-6bf4-416a-82e8-3208dad1e594",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Constipation and change",
+          "decorative": false,
+          "file": {
+            "path": "images/constipation-and-change.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "87570e95-d195-432c-a018-5b0a50064afc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Watching bowel habits</h2><p>Signs of constipation can include going to the toilet less often than usual, straining, hard or painful stools, tummy discomfort and a poor appetite. Constipation can sometimes lead to loose stool leaking around the blockage, which may be mistaken for diarrhoea. Enough fluid, a diet with fibre, and staying as active as possible all help prevent it, in line with the person's care plan.</p><p>Just as important is noticing any sudden change &mdash; new incontinence in someone who was continent, a change in how often or how urgently they go, blood in urine or stool, or new pain. These changes always deserve attention and should be reported and recorded, never ignored. You do not need to know the cause; noticing and passing on the change quickly is what matters.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "95a9a71e-f110-4508-a380-fa3ee8f3b3c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Constipation can make bladder problems worse and can sometimes cause loose stool to leak, so changes in someone's bowel habits should be reported.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Constipation can press on the bladder and cause leaking around a blockage, so bowel changes do matter and should be reported.",
+            "correctAnswerMessage": "Correct. Constipation affects the bladder too and can cause overflow leaking, so bowel changes should always be reported and recorded."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b991c7d8-aa03-48f7-b311-fbcfb819d17e",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

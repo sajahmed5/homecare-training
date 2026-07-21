@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Protecting the skin</h2><p>Skin that is often wet or soiled is at real risk of damage, so skin care is a central part of continence care. Urine and stool irritate the skin, and if this is not managed the skin can become red, sore and broken. Careful, gentle skin care keeps people comfortable and helps prevent more serious harm.</p><ul><li><strong>Keep skin clean and dry:</strong> clean gently and thoroughly after each episode.</li><li><strong>Change promptly:</strong> do not leave skin in contact with wet or soiled products.</li><li><strong>Check the skin:</strong> look for redness or soreness and report early signs.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "35c514d7-35c0-41f1-88da-42e92a06d281",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Skin and pressure care",
+          "decorative": false,
+          "file": {
+            "path": "images/skin-and-pressure-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bab9f1d4-5371-45d9-9c7c-917af2a741f8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The link with pressure damage</h2><p>Continence and pressure damage are closely connected. Skin that is repeatedly wet from urine or stool becomes more fragile and breaks down more easily, and this moisture-related damage can combine with pressure to cause pressure ulcers, particularly for people who are less mobile. This is why prompt changing, gentle cleansing and keeping skin dry matter so much.</p><p>When you support someone, clean the skin gently with plain water or a mild product as set out in the care plan, pat rather than rub it dry, and apply any barrier cream that has been prescribed. Look at the skin each time and report any redness, soreness or broken areas straight away &mdash; especially over bony areas &mdash; so it can be treated before it worsens. Good continence care and good skin care always go together.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4b0d223b-5321-434e-88be-003b4384bf97",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

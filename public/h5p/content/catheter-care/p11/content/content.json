@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of a catheter infection</h2><p>Because a catheter raises the risk of urinary infection, you need to recognise the signs so you can report them early. A person developing a catheter-associated infection may have a raised temperature or feel hot and shivery, have cloudy, dark or strong-smelling urine, feel pain or tenderness in the lower tummy or back, or simply seem generally unwell. In older people, new or increased <strong>confusion</strong> can be an early and important sign.</p><ul><li><strong>Feeling unwell:</strong> fever, shivering, aches, feeling washed out.</li><li><strong>Urine changes:</strong> cloudy, dark, bloody or foul-smelling.</li><li><strong>Confusion:</strong> new or worsening confusion, especially in older people.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "29aea328-32fc-4327-b753-78307f199ee8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Infection and sepsis",
+          "decorative": false,
+          "file": {
+            "path": "images/infection-and-sepsis.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b26b94a4-c5f9-4eae-9e43-eaaadf2c98cc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sepsis &mdash; a medical emergency</h2><p>Sometimes an infection can become <strong>sepsis</strong>, the body's life-threatening reaction to an infection. Catheter infections are one cause, so you must know the warning signs. These can include shivering and fever or a very low temperature, fast breathing or a racing heart, cold, pale or blotchy skin, drowsiness or a big change in how alert the person is, and severe confusion. A person with sepsis may say they feel they might die.</p><p>Sepsis is a <strong>medical emergency</strong>. If you suspect it, get urgent medical help straight away &mdash; call for the nurse immediately and follow your service's emergency procedure, seeking emergency help without delay. It is always better to raise the alarm and be wrong than to wait. Rapid action saves lives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b62bcdce-69ed-419a-8e2b-d60a7361537f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these might be a sign of a catheter-associated urinary infection?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A raised temperature, cloudy or foul-smelling urine, and new confusion in an older person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are common signs of a catheter-associated infection and should be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Pale, clear urine and the person feeling completely well.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; those are signs of things going well, not of infection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The drainage bag hanging below the level of the bladder.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is correct positioning, not a sign of infection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person drinking plenty of fluids through the day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; good fluid intake is helpful, not a sign of infection.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7c5fa5d7-a759-4478-b006-1a81d4a624a5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What palliative care means</h2><p>Palliative care is care that focuses on quality of life for someone living with a serious, progressive illness that cannot be cured. It is not only for the very end of life &mdash; it can run for months or even years alongside other treatment. <strong>End of life care</strong> is the part of palliative care given when a person is thought to be in the last year, and especially the last days, of their life.</p><ul><li><strong>Quality of life:</strong> helping people live as well as possible.</li><li><strong>Whole person:</strong> caring for mind and spirit, not only the body.</li><li><strong>Alongside treatment:</strong> comfort care can begin early.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8ea76a9c-bb19-44c3-b6ef-6fb21ec8a484",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Palliative care",
+          "decorative": false,
+          "file": {
+            "path": "images/palliative-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5c6c0f5e-92ff-4c25-8045-6be6eb8b740b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Holistic care</h2><p>Good palliative care is <em>holistic</em>, which means it looks after the whole person and those close to them. Alongside physical symptoms, it attends to how someone feels emotionally, their relationships and social life, and what gives their life meaning &mdash; their faith, culture or values.</p><p>A person may be free of pain yet frightened, lonely or worried about the family they will leave behind. All of these needs matter, and one can affect another &mdash; unspoken fear can make physical symptoms feel worse, while feeling safe and heard can ease them. Palliative care therefore brings together everyone who can help, from nurses and doctors to family, friends and, where the person wishes, spiritual support. By noticing the emotional and spiritual side as well as the physical, you help the whole person, not just the illness.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "189b0dd5-492b-46d9-81d4-9a192a34495c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes palliative care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Care that focuses on comfort and quality of life for the whole person living with a serious, incurable illness, and which can begin well before the final days.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Palliative care is holistic and can run for a long time alongside other treatment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Care given only in the last few hours of life, once all other options have stopped.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Palliative care can run for months or years, not only the final hours.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Care that concentrates only on treating physical symptoms and pain.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is holistic &mdash; emotional, social and spiritual needs matter just as much.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Care aimed at curing the underlying illness as quickly as possible.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Palliative care is for illness that cannot be cured; its goal is comfort and quality of life.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f4225c02-909a-450f-9e34-c22b87ae2553",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

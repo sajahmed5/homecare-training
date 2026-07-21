@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Consent, choice and independence</h2><p>No one has the right to touch another person without their agreement, and personal care is no exception. <strong>Consent</strong> means the person understands what you are offering and freely agrees to it. Alongside consent sit choice and independence &mdash; the person's right to have a say and to do as much as they can for themselves.</p><ul><li><strong>Consent:</strong> gained before you begin and checked as you go.</li><li><strong>Choice:</strong> a say in how, when and by whom care is given.</li><li><strong>Independence:</strong> doing for themselves what they are able to do.</li></ul><p>Honouring these values changes personal care from something done <em>to</em> a person into something done <em>with</em> them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "776d9042-e44d-4fde-939e-2f3a6175b873",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent and culture",
+          "decorative": false,
+          "file": {
+            "path": "images/consent-and-culture.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1cf7557c-1923-4e32-bb07-24b9f6342c68",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Cultural and religious needs</h2><p>People's backgrounds shape how they wish to be cared for, and personal care is an area where this matters deeply. A person may prefer a carer of the same sex, may follow particular routines for washing before prayer, or may have customs around hair, modesty, or the use of the right and left hand. Some have grooming and dietary practices tied to their faith.</p><p>You are not expected to know every custom, but you are expected to <strong>ask, listen and respect</strong>. The care plan should record a person's cultural and religious wishes, and you should follow them just as carefully as any other part of their care. Where you are unsure, ask the person or their family kindly rather than assuming. Respecting who someone is, including their faith and culture, is part of respecting their dignity.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ead9d5c3-8919-4517-bd52-4897a6259278",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about values in personal care.</p></p>",
+          "textField": "Always gain a person's *consent* before you begin, and offer them *choice* about how and when care is given. Support their *independence* by letting them do what they can for themselves, and respect their *cultural* and religious wishes as recorded in the care plan.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "23d2394b-edaf-4c9f-aa6d-27080afb075f",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

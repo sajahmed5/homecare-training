@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Care after death</h2><p>When a person dies, the care and respect you have shown them continues. There are practical steps to follow, and every one of them should be done gently, calmly and with the same dignity the person had in life. Always follow your workplace procedure and the wishes of the person and their family.</p><ul><li><strong>Confirm and inform:</strong> a death must be verified by the right professional, and the team informed.</li><li><strong>Respect the body:</strong> handle the person gently and privately.</li><li><strong>Honour wishes:</strong> follow any cultural or religious customs that are recorded.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "210bd7a7-1a96-4b31-9c40-0d2f381f0e0d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Care after death",
+          "decorative": false,
+          "file": {
+            "path": "images/care-after-death.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4c50af5f-6fbc-4463-ab57-504a69033cfa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity and support after death</h2><p>Care after death, sometimes called last offices, is carried out according to your training, the care plan and the family's wishes &mdash; and some faiths have specific customs about who may wash or touch the body, so check before you act. Give the family time and privacy to be with the person if they wish.</p><p>Handle belongings with care, keep the surroundings calm, and follow your organisation's procedures for records and property. Speak quietly and move unhurriedly, just as you would have done while the person was alive. Doing these final tasks well is a last act of respect for someone you have cared for, and it matters greatly to the family who are watching.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d73d7a97-aca2-4a36-8829-26e533cb57d1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is good practice in caring for a person after death?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Continuing to treat the person with the same gentleness, privacy and dignity as in life, and following any recorded cultural or religious wishes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. The person's dignity and wishes still matter after death.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Working as quickly as possible and skipping the person's cultural or religious wishes to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Their wishes and dignity still matter and must be followed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Beginning any washing or last offices straight away, before checking the person's faith customs or the family's wishes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Some faiths have specific customs; always check before you act.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deciding that the family does not need to be offered time with the person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Offer the family privacy and time with the person if they wish it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9fbda0de-ad14-4576-ba69-6a5009244e1c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

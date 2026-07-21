@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preventing the spread of infection</h2><p>Personal care brings you into close contact with people and with bodily fluids, so <strong>infection prevention and control</strong> protects both you and the people you support. Good habits stop germs passing from one person to another, which matters greatly when the people you care for may be frail or unwell.</p><ul><li><strong>Hand hygiene:</strong> the single most important way to prevent infection.</li><li><strong>PPE:</strong> gloves and aprons used correctly for the task.</li><li><strong>Clean as you go:</strong> safe handling of laundry, waste and equipment.</li></ul><p>These are everyday routines, but doing them properly every time is what keeps people safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d21dbb32-a626-4205-a26f-5613f09ab72d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Infection control and PPE",
+          "decorative": false,
+          "file": {
+            "path": "images/infection-control-and-ppe.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ac21752e-46e1-423c-8abf-e68a8e3bbe85",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hand hygiene and PPE</h2><p><strong>Handwashing</strong> is the foundation of infection control. Wash your hands with soap and water before and after giving personal care, after using the toilet, and whenever they are visibly dirty, following your workplace's technique. Where sinks are not to hand, use the hand sanitiser your employer provides.</p><p><strong>Personal protective equipment</strong> &mdash; usually disposable gloves and aprons for personal care &mdash; adds a barrier when you may touch bodily fluids. Put on fresh PPE for each task and each person, remove it carefully to avoid contaminating yourself, and dispose of it in the correct waste. Never reuse single-use gloves. Deal with soiled laundry and clinical waste according to your employer's policy. Following these steps protects the person, your colleagues, your own family and you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8bd7f36c-b672-451a-8acc-4e3b992ac1b8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When should you carry out hand hygiene during personal care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Before and after giving personal care, after using the toilet, and whenever your hands are visibly dirty</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Hand hygiene at these key moments is the most effective way to prevent the spread of infection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only at the start of your shift</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Washing once at the start of a shift does not protect people through the tasks that follow.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only if the person appears to be unwell</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Germs spread even when no one looks unwell, so hand hygiene is always needed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only after you have finished all your visits for the day</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Hand hygiene must happen around each task, not just once at the end of the day.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5797a513-1fc8-4c21-8c52-9c9685195a07",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

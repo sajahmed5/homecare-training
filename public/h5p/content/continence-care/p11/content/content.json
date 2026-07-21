@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a urinary tract infection</h2><p>A urinary tract infection, or UTI, is a common problem that you can help to spot early. Because you know the people you support, you are often the first to notice that something is not right. Catching a UTI early means the person can be seen and treated before they become more unwell.</p><ul><li><strong>Urine changes:</strong> cloudy, dark or strong-smelling urine.</li><li><strong>Discomfort:</strong> pain or burning when passing urine, or needing to go more often.</li><li><strong>Feeling unwell:</strong> a high temperature, or new or worse confusion.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "090b7f1d-ce1f-48d6-a97c-285ec9d52260",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Signs of infection",
+          "decorative": false,
+          "file": {
+            "path": "images/signs-of-infection.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9a5531e5-f0f0-41d0-ab43-e0d08b0ab1b6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Spotting and reporting a UTI</h2><p>Signs of a UTI can include needing to pass urine more often or more urgently, pain or a burning feeling when passing urine, cloudy or strong-smelling urine, lower tummy or back pain, and feeling generally unwell or feverish. In older people especially, a sudden change such as new confusion, agitation or drowsiness can be an important early sign, so never dismiss it as simply part of getting older.</p><p>Good hydration and careful hygiene help reduce the risk of infection, but if you notice any of these signs you should report them promptly to a senior colleague or nurse and record what you have seen. It is not your role to diagnose or to give any treatment &mdash; your job is to notice, report and record clearly so the person can be assessed quickly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d4f9d09a-b60f-40f0-9038-29170c19dd1f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice an older person has become suddenly confused, and their urine is cloudy and strong-smelling. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly to a senior colleague or nurse and record what you have observed, as these can be signs of a UTI.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. New confusion with cloudy, strong-smelling urine can signal a UTI and should be reported and recorded straight away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume the confusion is just part of getting older and do nothing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Sudden confusion is not normal ageing &mdash; it can be an early sign of infection and must be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Start the person on antibiotics yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Diagnosing and treating infection is not your role &mdash; report so the person can be assessed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Cut back their fluids to reduce how often they use the toilet.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Restricting fluids makes infection and dehydration more likely, not less.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c06618db-5e14-4ac4-8f0e-94ec89d3647f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Advance care planning</h2><p>Advance care planning is a voluntary process in which a person, while they are able, thinks and talks about the care they would want in the future. It gives people a say in what happens to them even if they later become too unwell to speak for themselves, and it brings real comfort to know their wishes are understood.</p><ul><li><strong>Wishes:</strong> what matters most, and where they wish to be cared for.</li><li><strong>Preferences:</strong> treatments they would or would not want.</li><li><strong>People:</strong> who they want involved in decisions.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a3854d0f-5891-4075-ad5d-011c956c98d9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Advance care planning",
+          "decorative": false,
+          "file": {
+            "path": "images/advance-care-planning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7cda523b-fa5a-4b0a-8b9f-7fcf023d27b4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Gold Standards Framework</h2><p>Many services use the <strong>Gold Standards Framework</strong> to plan ahead well. It helps teams identify people who may be approaching the end of life early, assess their needs and wishes, and plan their care so that fewer things happen in a crisis and more happen the way the person wanted.</p><p>Plans made ahead should be reviewed as things change, because what someone wants can shift over time. Your part is to know the person's plan, honour the small choices it contains &mdash; a favourite chair, some music, familiar visitors &mdash; and to tell the team if the person says anything that suggests their wishes have changed. Even a passing comment about where they would like to be, or who they want near them, can be an important clue for the team to follow up.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5b76688e-c887-40c8-bacb-b4514dca98a6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main purpose of advance care planning?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To let a person set out their wishes and preferences for future care while they are able, so these can guide decisions if they can no longer speak for themselves.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. It is voluntary and led by the person, giving them a voice in future care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To let the care team decide in advance what is best, without needing to involve the person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Advance care planning is led by the person; it is not something done to them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To make a legally binding demand for any treatment the person chooses.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It records wishes and preferences; it cannot demand treatment that is not clinically appropriate.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To speed up paperwork so staff can spend less time with families.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Its purpose is to honour the person's wishes, not to save time.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1abc31e0-e7d7-43e6-bbf6-1a62c8832601",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

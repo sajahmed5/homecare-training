@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Two more common types</h2><p>Alongside stress and urge incontinence, you may support people with overflow or functional incontinence. As with the others, knowing the type helps everyone give the right support rather than guessing.</p><ul><li><strong>Overflow incontinence:</strong> the bladder does not empty fully and leaks or dribbles.</li><li><strong>Functional incontinence:</strong> the person cannot reach or use the toilet in time.</li><li><strong>Mixed:</strong> some people have more than one type at once.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "97a0add8-d86b-49c9-8fd0-c7f4331d7439",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Overflow and functional",
+          "decorative": false,
+          "file": {
+            "path": "images/overflow-and-functional.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a19a7f8d-2cea-4577-871c-da8c67d6666a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Overflow and functional incontinence</h2><p><strong>Overflow incontinence</strong> happens when the bladder cannot empty properly, so it becomes overfull and leaks. The person may pass frequent small dribbles, feel that the bladder is never quite empty, or strain to pass urine. It can be linked to a blockage or, in men, to an enlarged prostate, and it always needs medical assessment.</p><p><strong>Functional incontinence</strong> is different: the bladder and bowel may work normally, but something gets in the way of reaching or using the toilet in time. This might be poor mobility, pain, poor eyesight, confusion or dementia, clothing that is hard to undo, or simply not being able to find or reach the toilet quickly enough. Functional incontinence often responds very well to practical support &mdash; and that support is largely in your hands.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c50dd759-aa6a-4cc8-9792-470af3af55f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Leaking urine when you cough or sneeze is called *stress* incontinence, while a sudden desperate need to pass urine is *urge* incontinence. When the bladder never empties fully and dribbles, this is *overflow* incontinence, and when someone cannot reach the toilet in time because of mobility or memory, it is *functional* incontinence.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "a66fb118-c1fa-4065-83ec-43702cc83568",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

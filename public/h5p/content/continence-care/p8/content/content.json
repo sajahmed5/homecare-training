@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The link with fluids and food</h2><p>What a person drinks and eats has a direct effect on their continence. It is a common mistake to think that drinking less will reduce accidents; in fact, drinking too little often makes things worse. Supporting people to drink and eat well is a key part of continence care.</p><ul><li><strong>Enough fluid:</strong> good hydration keeps urine dilute and the bladder healthy.</li><li><strong>Healthy diet:</strong> enough fibre helps prevent constipation.</li><li><strong>Bladder irritants:</strong> some drinks, such as caffeine, can worsen urgency.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a0cb990a-bc68-4ee0-afff-c0e8ba78d9d3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Fluids and diet",
+          "decorative": false,
+          "file": {
+            "path": "images/fluids-and-diet.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a6f94b03-70b6-45c4-b903-44ab6d53f9d0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Getting the balance right</h2><p>When someone drinks too little, their urine becomes concentrated, which can irritate the bladder, increase urgency and raise the risk of urinary infection and constipation. Most adults should be encouraged to drink regularly across the day &mdash; often around 1.5 to 2 litres unless their care plan says otherwise. Reassuring people who limit drinks for fear of leaking, and supporting good toileting, helps them feel able to drink enough.</p><p>Diet matters too. A diet with enough fibre, fruit and vegetables, alongside good fluids, helps prevent constipation, which can press on the bladder and make both urinary and bowel problems worse. If someone is cutting back on fluids, becoming constipated, or you are unsure what is right for them, report it so the plan can be reviewed rather than changing their diet yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9ba8ee7a-16f1-4940-8ddc-d3fffffb6ebc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Drinking too little makes urine *concentrated* and can irritate the bladder, so people should be encouraged to drink *regularly* through the day. A diet with enough *fibre*, fruit and vegetables helps prevent *constipation*, which can make incontinence worse.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "2be1e13c-5990-4fa8-b996-7b917a482ef2",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

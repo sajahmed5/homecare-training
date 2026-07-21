@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred toileting</h2><p>Much of what keeps people continent and comfortable is thoughtful, everyday support with getting to the toilet. Good toileting support is planned around the individual, unhurried and private. It starts with knowing the person's usual routine and responding promptly when they need to go.</p><ul><li><strong>Routine:</strong> support people at the times they usually need the toilet.</li><li><strong>Respond promptly:</strong> answer requests quickly and never keep someone waiting.</li><li><strong>Privacy:</strong> protect dignity by closing doors and giving space where safe.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1a151f24-8d03-40e6-bdf3-b45fe5c7a355",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Toileting support",
+          "decorative": false,
+          "file": {
+            "path": "images/toileting-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "29d8d735-554b-4351-b639-49145d62721c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making the toilet easy to reach</h2><p>Many accidents happen simply because a person cannot reach or use the toilet in time. You can help by making sure the way to the toilet is clear and well lit, that walking aids are within reach, and that clothing is easy to manage &mdash; sometimes an adaptation as small as easier fastenings makes all the difference. Signs or a clear line of sight to the toilet help people living with dementia find it.</p><p>Where the care plan includes a routine such as prompted or timed toileting, follow it consistently, offering support at regular times rather than waiting for an accident. Always respond to requests promptly and kindly, keep a calm and matter-of-fact manner, and protect the person's privacy throughout. Supporting someone to stay independent in the toilet is far better for their dignity than managing incontinence after the event.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "75b4bf28-4d9a-4a9c-83b5-b962df2a74bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following best supports a person to stay continent and dignified?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Knowing their usual routine, responding to requests promptly, and keeping the route to the toilet clear and easy to use.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Timely, planned, private support helps prevent accidents and protects dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Waiting until an accident happens before offering any help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting for accidents is not person-centred &mdash; timely support helps people stay continent.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encouraging the person to drink very little so they need the toilet less.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Restricting fluids causes dehydration, infection and constipation, and can make incontinence worse.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leaving the toilet door open and hurrying the person along.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This removes privacy and dignity, and rushing can cause distress and accidents.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "91954bca-9351-402e-9b5f-44e48f703d2e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

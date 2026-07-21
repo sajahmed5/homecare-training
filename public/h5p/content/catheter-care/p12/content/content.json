@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Other problems to watch for</h2><p>As well as infection, several other problems can affect a catheter, and each one needs reporting. If <strong>no urine drains</strong> for a few hours, or the person has tummy pain and feels their bladder is full, the catheter may be blocked or kinked. <strong>Bypassing</strong> is when urine leaks around the outside of the catheter, which can be a sign of a blockage, a bladder spasm or a problem with the catheter itself.</p><ul><li><strong>Not draining:</strong> a possible blockage or a kinked tube.</li><li><strong>Bypassing:</strong> urine leaking around the catheter.</li><li><strong>Blood or pain:</strong> visible blood, or new pain and discomfort.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27bd8c49-4d77-4aee-aa78-868e9635213a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Blockage and leakage",
+          "decorative": false,
+          "file": {
+            "path": "images/blockage-and-leakage.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ba1dbcd6-bc2d-46a3-a819-0fa19016c956",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Blood, pain and a catheter that comes out</h2><p>Always report <strong>blood in the urine</strong>, clots, or heavily bloodstained urine, as well as any new <strong>pain</strong>, discomfort or dragging sensation. If the <strong>catheter falls out</strong> or is pulled out, this is not something you replace &mdash; only a trained clinician can do that. Reassure the person, keep them comfortable and clean, note the time it happened, and contact the nurse straight away, because a person who normally cannot pass urine may be unable to empty their bladder without it.</p><p>The rule with every problem is the same: you observe and report, you do not attempt to fix, unblock, reinsert or flush the catheter yourself. First check simple, safe things within your role &mdash; that the person is not lying on the tube, that it is not kinked, and that the bag is below the bladder &mdash; then escalate anything you cannot resolve to the registered nurse.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1ecb85e8-0104-4b2c-b68d-2db1e8fa7a46",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person's catheter has fallen out. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Reassure the person, note the time, keep them comfortable, and contact the registered nurse straight away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. You never reinsert a catheter; report it promptly so a trained clinician can act.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Gently push it back in yourself to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you must never reinsert a catheter; only a trained clinician can do that.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do nothing, as a catheter falling out is never a problem.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a person who cannot pass urine may be unable to empty their bladder, so report it at once.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Flush the catheter with water before replacing it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you never flush or reinsert a catheter; escalate to the nurse.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "814c091c-8e0b-4d6a-8f09-993c1e41c889",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

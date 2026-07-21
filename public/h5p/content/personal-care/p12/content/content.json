@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Respecting refusals</h2><p>A person has every right to refuse personal care, or part of it, even when you feel it would do them good. Refusal must be respected &mdash; you cannot force or pressure someone into being washed, dressed or changed. What you can do is offer gently, try again later, and find out what lies behind the &ldquo;no&rdquo;.</p><ul><li><strong>Stay calm:</strong> do not argue, rush or shame the person.</li><li><strong>Explore:</strong> they may be in pain, tired, cold, frightened or embarrassed.</li><li><strong>Report and record:</strong> pass on repeated or worrying refusals.</li></ul><p>Respecting a refusal is part of respecting the person &mdash; but a pattern of refusal that affects someone's health must always be reported.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "85a0d0f6-6512-42b5-b16d-61a25f3ec2dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Refusals and safeguarding",
+          "decorative": false,
+          "file": {
+            "path": "images/refusals-and-safeguarding.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b32c8443-c9ca-4b8b-900b-ed5c433a772a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Links to safeguarding and safe moving</h2><p>Personal care connects closely to keeping people safe from harm. As you help someone wash or dress, you may notice unexplained bruises, injuries, poor conditions, or signs that a person is frightened or neglected. These can be indicators of abuse or neglect, and you have a <strong>duty to report</strong> any safeguarding concern straight away, following your employer's policy &mdash; never keep it to yourself.</p><p>Personal care also often involves helping people move &mdash; into a bath, on and off the toilet, or turning in bed to protect their skin. Always follow your <strong>moving-and-handling</strong> training and the person's care plan, using the equipment provided. Never improvise a lift or put yourself or the person at risk to save time. Working safely protects the person from injury and protects you too. When you are unsure, stop and ask.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4fcb2f0b-fc3c-4f4e-bb4a-2cbba0a0d46a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

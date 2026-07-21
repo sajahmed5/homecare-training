@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Washing, bathing and showering</h2><p>Helping someone stay clean and fresh supports their health, comfort and self-esteem. How much help a person needs varies widely &mdash; some manage with a little encouragement, others need full support &mdash; and the care plan sets this out. Whatever the level of help, the same values of dignity, privacy and choice apply.</p><ul><li><strong>Ask first:</strong> agree what help the person wants and how.</li><li><strong>Keep covered:</strong> wash and dry one area at a time, covering the rest.</li><li><strong>Be gentle:</strong> use warm water and mild products, and dry thoroughly.</li></ul><p>A wash can be a bath, a shower or a supported wash in bed &mdash; whatever suits the person and their needs that day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3a16c58f-b185-4351-879f-faf47ceed780",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Washing and bathing",
+          "decorative": false,
+          "file": {
+            "path": "images/washing-and-bathing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1034442f-d80f-4ce4-a1d9-671470f1fa45",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A safe and dignified wash</h2><p>Prepare the environment and gather everything first, so the person is never left cold or exposed. Check the water temperature, help the person into a safe position, and encourage them to wash the parts they can reach themselves. Work gently and unhurriedly, watching their face for any sign of discomfort.</p><p>Take particular care to wash and dry skin folds, between the toes, and the genital and bottom area, as moisture left here can cause soreness and infection. Always wash from the cleanest to the least clean area. Pat the skin dry rather than rubbing, and notice its condition as you go &mdash; this is a good chance to spot any redness or broken skin. When you have finished, help the person into clean, comfortable clothes and leave them warm and settled.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e54fe90e-2930-407c-8c64-675027a10d4b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>While helping someone wash, why is it important to dry carefully between skin folds and toes?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Moisture left on the skin can lead to soreness, breakdown and infection</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Damp skin in folds and between toes can become sore and broken, so thorough drying matters.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It makes the wash quicker to finish</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Careful drying is about protecting the skin, not about speed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only important for people who can walk</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Skin needs protecting for everyone, whether or not they are able to walk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drying is not necessary if the room is warm</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A warm room does not remove moisture from skin folds; you must still dry carefully.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "677a5c19-4ef9-480b-b342-2c8bfe75f64d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

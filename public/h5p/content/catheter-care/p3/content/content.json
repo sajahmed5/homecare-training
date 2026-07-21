@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Two main types</h2><p>Indwelling catheters are described by where they enter the body. A <strong>urethral catheter</strong> is passed along the urethra &mdash; the natural tube through which urine normally leaves the body. A <strong>suprapubic catheter</strong> is inserted by a doctor through a small opening in the wall of the lower abdomen, directly into the bladder, and this opening is called a stoma.</p><ul><li><strong>Urethral:</strong> enters through the urethra.</li><li><strong>Suprapubic:</strong> enters through the abdomen into the bladder.</li><li><strong>Both:</strong> are placed and changed only by trained clinical staff.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ffdef22c-ed52-4f85-bd86-ec64c8c159ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types and reasons",
+          "decorative": false,
+          "file": {
+            "path": "images/types-and-reasons.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "293cd81f-e934-4491-a058-0668df335c49",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why people have a catheter</h2><p>People need catheters for many different reasons, and the reason is always a clinical decision. Some have a blockage or retention that stops them passing urine; some need one after surgery; some have their urine output measured closely when they are seriously unwell; and some have a long-term catheter to manage a bladder that no longer works as it should.</p><p>A suprapubic catheter is sometimes chosen for long-term use because it can be more comfortable, keeps the tube away from the genital area, and can make personal and sexual life easier for the person. Whatever the type, catheters are used only when there is a clear need, because every catheter carries a risk of infection. Your role is to support the person and their catheter safely, never to question or change the clinical decision behind it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e02de640-f815-430b-b466-406b5bb74b37",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Where does a suprapubic catheter enter the body?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Through a small opening in the wall of the lower abdomen, directly into the bladder.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A suprapubic catheter is placed by a doctor through the abdomen into the bladder.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Along the urethra, the natural tube that urine passes through.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That describes a urethral catheter, not a suprapubic one.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Through the back passage into the bowel.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a catheter drains the bladder, not the bowel.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Through a vein in the arm.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that would be an intravenous line, not a urinary catheter.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "11084245-1325-4c93-b251-f125f0f0ccc5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
