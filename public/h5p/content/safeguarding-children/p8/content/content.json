@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Professional curiosity</h2><p>Serious case reviews repeatedly find that warning signs were present but were explained away. The mindset that keeps children safe is <strong>professional curiosity</strong> &ndash; actively looking, listening and questioning rather than taking things at face value.</p><ul><li>Notice what does not add up, and gently explore it rather than accepting the first explanation.</li><li>Hold the possibility that <strong>&ldquo;it could happen here&rdquo;</strong> &ndash; abuse occurs in every kind of family and community, including ones that seem entirely respectable.</li><li>Avoid the trap of &ldquo;disguised compliance,&rdquo; where a family appears to co-operate just enough to reduce professional concern.</li><li>Keep the child in focus. Whose voice is being heard, and whose is missing?</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"5a2972e8-20a0-4d5c-92a4-3ab60fe2bab3","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Putting it into practice</h2><p>You do not need to have all the answers. Your job is to notice, to be curious, to record what you see, and to raise concerns without delay. A single piece of information from you may be the missing part of a picture that only makes sense when several people share what they know.</p><p>If something does not feel right about a child's welfare, trust that instinct and speak to your Designated Safeguarding Lead. Doing nothing is never the safe option.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"14fe6c57-71c6-479f-aa23-fa9509d64dff","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Professional curiosity means accepting a family's explanation so long as it sounds plausible.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Professional curiosity means not simply accepting a plausible-sounding explanation. It means being curious and exploring what does not add up.","correctAnswerMessage":"Correct. Professional curiosity is the opposite &ndash; it means looking, questioning and testing explanations rather than taking them at face value."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"8f0d1c58-b816-45b8-bd94-42ce5e0d0904","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Professional curiosity</h2><p>Serious case reviews repeatedly find that warning signs were present but were explained away. The mindset that keeps children safe is <strong>professional curiosity</strong> &ndash; actively looking, listening and questioning rather than taking things at face value.</p><ul><li>Notice what does not add up, and gently explore it rather than accepting the first explanation.</li><li>Hold the possibility that <strong>&ldquo;it could happen here&rdquo;</strong> &ndash; abuse occurs in every kind of family and community, including ones that seem entirely respectable.</li><li>Avoid the trap of &ldquo;disguised compliance,&rdquo; where a family appears to co-operate just enough to reduce professional concern.</li><li>Keep the child in focus. Whose voice is being heard, and whose is missing?</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5a2972e8-20a0-4d5c-92a4-3ab60fe2bab3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for It could happen here",
+          "decorative": false,
+          "file": {
+            "path": "images/it-could-happen-here.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b9757a5e-8241-42ca-9726-934182aaf172",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting it into practice</h2><p>You do not need to have all the answers. Your job is to notice, to be curious, to record what you see, and to raise concerns without delay. A single piece of information from you may be the missing part of a picture that only makes sense when several people share what they know.</p><p>If something does not feel right about a child's welfare, trust that instinct and speak to your Designated Safeguarding Lead. Doing nothing is never the safe option.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "14fe6c57-71c6-479f-aa23-fa9509d64dff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Professional curiosity means accepting a family's explanation so long as it sounds plausible.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Professional curiosity means not simply accepting a plausible-sounding explanation. It means being curious and exploring what does not add up.",
+            "correctAnswerMessage": "Correct. Professional curiosity is the opposite &ndash; it means looking, questioning and testing explanations rather than taking them at face value."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "8f0d1c58-b816-45b8-bd94-42ce5e0d0904",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

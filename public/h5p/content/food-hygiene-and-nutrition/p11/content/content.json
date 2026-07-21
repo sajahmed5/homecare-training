@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why fluids matter so much</h2><p>Every part of the body needs fluid to work properly. The NHS suggests most adults aim for around six to eight drinks a day, though the right amount varies from person to person and some may be on a fluid plan. Older people often feel thirst less strongly, so they can become dehydrated without realising it.</p><p>Poor hydration is linked to serious problems in care: urinary infections, constipation, confusion, dizziness and falls, pressure ulcers and kidney problems. Keeping people well hydrated is one of the simplest and most important things you do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6f0d45c1-71c3-4729-ad55-2d3a15a3387a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hydration in depth",
+          "decorative": false,
+          "file": {
+            "path": "images/hydration-in-depth.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "eda23970-fbbd-4f82-990b-c761c67c3a62",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Spotting dehydration and encouraging fluids</h2><p>Learn to notice the early signs so you can act before someone becomes unwell:</p><ul><li><strong>Dark, strong-smelling urine:</strong> a common early clue that fluids are low.</li><li><strong>Dry mouth and lips:</strong> along with headache, tiredness or dizziness.</li><li><strong>New confusion or drowsiness:</strong> which should always be reported.</li></ul><p>Encourage drinks by offering them regularly, respecting preferred drinks, and keeping an accessible cup and jug within easy reach. Foods such as soup, jelly and fruit add fluid too. Where intake is being monitored, record drinks accurately on a fluid balance chart and report any concerns.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9b7ac32a-03f2-497f-b7f9-589ea2ee57e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>During a visit you notice Mr Bianchi has become unusually confused and his urine is very dark. What is the most appropriate response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Offer him a drink he likes, encourage fluids, record his intake and report the new confusion to a senior or nurse.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These can be signs of dehydration; encouraging fluids and reporting the change promptly allows any underlying cause to be checked.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume it is normal for his age and say nothing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. New confusion is never simply &lsquo;normal ageing&rsquo; and should always be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Restrict his drinks so he does not need the toilet as often.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Restricting fluids would make dehydration worse and could cause serious harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several days to see whether it settles on its own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Delaying could allow him to become seriously unwell; the signs should be acted on now.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "71394096-0f4d-4f87-8a58-3f19eb0f66db",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -3,60 +3,95 @@
   "title": "Safeguarding Children",
   "content_blocks": [
     {
+      "type": "h5p",
+      "path": "safeguarding-children/p9",
+      "label": "The law and framework",
+      "questions": 1,
+      "section": "Safeguarding and the law"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-children/p1",
-      "type": "h5p",
       "label": "What safeguarding means",
-      "section": "Understanding harm to children",
-      "questions": 1
+      "questions": 1,
+      "section": "Safeguarding and the law"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-children/p2",
-      "type": "h5p",
       "label": "Categories of abuse",
-      "section": "Understanding harm to children",
-      "questions": 0
+      "questions": 0,
+      "section": "Safeguarding and the law"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-children/p10",
+      "label": "Signs and indicators",
+      "questions": 1,
+      "section": "Recognising abuse and harm"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-children/p3",
-      "type": "h5p",
       "label": "Contextual harms",
-      "section": "Understanding harm to children",
-      "questions": 1
+      "questions": 1,
+      "section": "Recognising abuse and harm"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-children/p11",
+      "label": "Specific risks",
+      "questions": 1,
+      "section": "Recognising abuse and harm"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-children/p4",
-      "type": "h5p",
       "label": "In need or at risk?",
-      "section": "Levels of need and disclosure",
-      "questions": 1
+      "questions": 1,
+      "section": "Levels of need and disclosure"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-children/p5",
-      "type": "h5p",
       "label": "If a child discloses",
-      "section": "Levels of need and disclosure",
-      "questions": 1
+      "questions": 1,
+      "section": "Levels of need and disclosure"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-children/p6",
-      "type": "h5p",
       "label": "Who to tell",
-      "section": "Reporting and sharing safely",
-      "questions": 1
+      "questions": 1,
+      "section": "Reporting and responding"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-children/p7",
-      "type": "h5p",
       "label": "Sharing information",
-      "section": "Reporting and sharing safely",
-      "questions": 1
+      "questions": 1,
+      "section": "Reporting and responding"
     },
     {
-      "path": "safeguarding-children/p8",
       "type": "h5p",
+      "path": "safeguarding-children/p12",
+      "label": "Responding and thresholds",
+      "questions": 1,
+      "section": "Reporting and responding"
+    },
+    {
+      "type": "h5p",
+      "path": "safeguarding-children/p13",
+      "label": "Your role and boundaries",
+      "questions": 1,
+      "section": "Your role and staying alert"
+    },
+    {
+      "type": "h5p",
+      "path": "safeguarding-children/p8",
       "label": "It could happen here",
-      "section": "Staying alert",
-      "questions": 1
+      "questions": 1,
+      "section": "Your role and staying alert"
     }
   ]
 }

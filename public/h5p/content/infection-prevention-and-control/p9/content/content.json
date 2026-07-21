@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The tiny organisms that cause infection</h2><p>Infections are caused by micro-organisms &mdash; living things far too small to see without a microscope. They are often called germs, and only a minority of them are actually harmful to people. Knowing the main groups helps you understand why different precautions are used at different times.</p><ul><li><strong>Bacteria:</strong> single-celled organisms. Many are harmless or even helpful, such as those in your gut, but some cause infections like urinary tract infections or <em>Clostridioides difficile</em>. Many, though not all, respond to antibiotics.</li><li><strong>Viruses:</strong> much smaller than bacteria and need to enter a living cell to multiply. They cause colds, flu, norovirus and COVID-19. Antibiotics do not work against them.</li><li><strong>Fungi:</strong> include yeasts and moulds, and cause infections such as thrush and athlete&rsquo;s foot.</li><li><strong>Parasites:</strong> organisms such as the mite that causes scabies, which spreads through close contact.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c074f21c-ef22-4116-ac44-1cdd0aa6a176",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Micro-organisms explained",
+          "decorative": false,
+          "file": {
+            "path": "images/micro-organisms-explained.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "86356e37-30d4-4759-ab15-48177c63f28c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Colonisation, infection and how harm happens</h2><p>Not every micro-organism on or in the body makes a person unwell. Understanding the difference helps you protect the people you support without becoming fearful of normal, harmless germs.</p><ul><li><strong>Colonisation:</strong> micro-organisms live on the skin or in the gut without causing any symptoms. A person can carry MRSA on their skin, for example, and feel completely well.</li><li><strong>Infection:</strong> the organisms multiply and damage tissue, producing signs such as fever, redness, swelling, pain or discharge.</li><li><strong>Passing it on:</strong> someone who is colonised can still spread an organism to a person who is more vulnerable, where it may cause a serious infection.</li></ul><p>This is why standard precautions apply to everyone, all the time &mdash; you can rarely tell just by looking who is carrying a harmful organism.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2a8c858c-495c-4795-b9e7-2208aa104cab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Antibiotics are generally effective against which type of micro-organism?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Some bacteria.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Antibiotics act against certain bacteria; they do nothing to viruses, fungi or parasites.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Viruses such as norovirus and flu.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Viruses are not affected by antibiotics; taking them for a virus gives no benefit.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>All micro-organisms equally.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Antibiotics target bacteria only, and even then not every type.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only fungi and parasites.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Fungal and parasitic infections need different treatments, not antibiotics.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5289b032-1fa8-421b-80f3-c95ee863cfbb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -3,284 +3,277 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "person-centred-care",
+   "course": "infection-prevention-and-control",
    "page": 9,
-   "file": "why-it-matters.svg",
-   "alt": "Illustration for Why it matters",
-   "srcDir": "public/h5p/content/person-centred-care/p9/content/images"
+   "file": "micro-organisms-explained.svg",
+   "alt": "Illustration for Micro-organisms explained",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p9/content/images"
   },
   {
-   "course": "person-centred-care",
+   "course": "infection-prevention-and-control",
    "page": 2,
-   "file": "the-values.svg",
-   "alt": "Illustration for The values",
-   "srcDir": "public/h5p/content/person-centred-care/p2/content/images"
+   "file": "the-chain-of-infection.svg",
+   "alt": "Illustration for The chain of infection",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p2/content/images"
   },
   {
-   "course": "person-centred-care",
-   "page": 4,
-   "file": "consent.svg",
-   "alt": "Illustration for Consent",
-   "srcDir": "public/h5p/content/person-centred-care/p4/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 11,
-   "file": "mental-capacity.svg",
-   "alt": "Illustration for Mental capacity",
-   "srcDir": "public/h5p/content/person-centred-care/p11/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 5,
-   "file": "active-participation.svg",
-   "alt": "Illustration for Active participation",
-   "srcDir": "public/h5p/content/person-centred-care/p5/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 10,
-   "file": "planning-care.svg",
-   "alt": "Illustration for Planning care",
-   "srcDir": "public/h5p/content/person-centred-care/p10/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 7,
-   "file": "dignity-holism.svg",
-   "alt": "Illustration for Dignity & holism",
-   "srcDir": "public/h5p/content/person-centred-care/p7/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 12,
-   "file": "comfort-and-distress.svg",
-   "alt": "Illustration for Comfort and distress",
-   "srcDir": "public/h5p/content/person-centred-care/p12/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 13,
-   "file": "working-together.svg",
-   "alt": "Illustration for Working together",
-   "srcDir": "public/h5p/content/person-centred-care/p13/content/images"
-  },
-  {
-   "course": "person-centred-care",
-   "page": 8,
-   "file": "small-things.svg",
-   "alt": "Illustration for Small things",
-   "srcDir": "public/h5p/content/person-centred-care/p8/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 2,
-   "file": "the-equality-act-2010.svg",
-   "alt": "Illustration for The Equality Act 2010",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p2/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 9,
-   "file": "human-rights-and-freda.svg",
-   "alt": "Illustration for Human rights and FREDA",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p9/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 4,
-   "file": "types-of-discrimination.svg",
-   "alt": "Illustration for Types of discrimination",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p4/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 5,
-   "file": "unconscious-bias.svg",
-   "alt": "Illustration for Unconscious bias",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p5/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 11,
-   "file": "intersectionality.svg",
-   "alt": "Illustration for Intersectionality",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p11/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 10,
-   "file": "inclusive-communication.svg",
-   "alt": "Illustration for Inclusive communication",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p10/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 7,
-   "file": "promoting-inclusion.svg",
-   "alt": "Illustration for Promoting inclusion",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p7/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 12,
-   "file": "culture-religion-and-belief.svg",
-   "alt": "Illustration for Culture, religion and belief",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p12/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 13,
-   "file": "getting-information-and-support.svg",
-   "alt": "Illustration for Getting information and support",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p13/content/images"
-  },
-  {
-   "course": "equality-diversity-and-inclusion",
-   "page": 8,
-   "file": "if-you-witness-it.svg",
-   "alt": "Illustration for If you witness it",
-   "srcDir": "public/h5p/content/equality-diversity-and-inclusion/p8/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
-   "page": 2,
-   "file": "the-six-principles.svg",
-   "alt": "Illustration for The six principles",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p2/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
-   "page": 9,
-   "file": "adults-at-risk.svg",
-   "alt": "Illustration for Adults at risk",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p9/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
+   "course": "infection-prevention-and-control",
    "page": 3,
+   "file": "standard-precautions.svg",
+   "alt": "Illustration for Standard precautions",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p3/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 10,
+   "file": "using-ppe-safely.svg",
+   "alt": "Illustration for Using PPE safely",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p10/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 6,
+   "file": "sharps-waste-spills.svg",
+   "alt": "Illustration for Sharps, waste & spills",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p6/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 13,
+   "file": "laundry-food-and-scenario.svg",
+   "alt": "Illustration for Laundry, food and scenario",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p13/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 11,
+   "file": "infections-and-outbreaks.svg",
+   "alt": "Illustration for Infections and outbreaks",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p11/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 12,
+   "file": "antibiotics-and-resistance.svg",
+   "alt": "Illustration for Antibiotics and resistance",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p12/content/images"
+  },
+  {
+   "course": "infection-prevention-and-control",
+   "page": 8,
+   "file": "sepsis-reporting.svg",
+   "alt": "Illustration for Sepsis & reporting",
+   "srcDir": "public/h5p/content/infection-prevention-and-control/p8/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 2,
+   "file": "the-rules-regulator.svg",
+   "alt": "Illustration for The rules & regulator",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p2/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 4,
+   "file": "facts-not-opinions.svg",
+   "alt": "Illustration for Facts, not opinions",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p4/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 9,
+   "file": "data-protection-in-depth.svg",
+   "alt": "Illustration for Data protection in depth",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p9/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 10,
+   "file": "consent-and-access.svg",
+   "alt": "Illustration for Consent and access",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p10/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 5,
+   "file": "types-of-records.svg",
+   "alt": "Illustration for Types of records",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p5/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 6,
+   "file": "do-s-don-ts.svg",
+   "alt": "Illustration for Do's & don'ts",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p6/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 11,
+   "file": "electronic-and-paper-records.svg",
+   "alt": "Illustration for Electronic and paper records",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p11/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 12,
+   "file": "sharing-and-caldicott.svg",
+   "alt": "Illustration for Sharing and Caldicott",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p12/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 7,
+   "file": "correcting-an-error.svg",
+   "alt": "Illustration for Correcting an error",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p7/content/images"
+  },
+  {
+   "course": "record-keeping-and-documentation",
+   "page": 13,
+   "file": "breaches-and-a-scenario.svg",
+   "alt": "Illustration for Breaches and a scenario",
+   "srcDir": "public/h5p/content/record-keeping-and-documentation/p13/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 2,
+   "file": "the-4-cs.svg",
+   "alt": "Illustration for The 4 Cs",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p2/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 9,
+   "file": "food-poisoning-risks.svg",
+   "alt": "Illustration for Food poisoning risks",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p9/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 4,
+   "file": "personal-hygiene.svg",
+   "alt": "Illustration for Personal hygiene",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p4/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 5,
+   "file": "dates-allergens-haccp.svg",
+   "alt": "Illustration for Dates, allergens & HACCP",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p5/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 10,
+   "file": "the-eatwell-guide.svg",
+   "alt": "Illustration for The Eatwell Guide",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p10/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 11,
+   "file": "hydration-in-depth.svg",
+   "alt": "Illustration for Hydration in depth",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p11/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 7,
+   "file": "malnutrition-must.svg",
+   "alt": "Illustration for Malnutrition & MUST",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p7/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 12,
+   "file": "dignity-at-mealtimes.svg",
+   "alt": "Illustration for Dignity at mealtimes",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p12/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 13,
+   "file": "special-diets-textures.svg",
+   "alt": "Illustration for Special diets & textures",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p13/content/images"
+  },
+  {
+   "course": "food-hygiene-and-nutrition",
+   "page": 8,
+   "file": "dysphagia-choice.svg",
+   "alt": "Illustration for Dysphagia & choice",
+   "srcDir": "public/h5p/content/food-hygiene-and-nutrition/p8/content/images"
+  },
+  {
+   "course": "safeguarding-children",
+   "page": 9,
+   "file": "the-law-and-framework.svg",
+   "alt": "Illustration for The law and framework",
+   "srcDir": "public/h5p/content/safeguarding-children/p9/content/images"
+  },
+  {
+   "course": "safeguarding-children",
+   "page": 2,
    "file": "categories-of-abuse.svg",
    "alt": "Illustration for Categories of abuse",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p3/content/images"
+   "srcDir": "public/h5p/content/safeguarding-children/p2/content/images"
   },
   {
-   "course": "safeguarding-adults-level-2",
+   "course": "safeguarding-children",
+   "page": 10,
+   "file": "signs-and-indicators.svg",
+   "alt": "Illustration for Signs and indicators",
+   "srcDir": "public/h5p/content/safeguarding-children/p10/content/images"
+  },
+  {
+   "course": "safeguarding-children",
+   "page": 11,
+   "file": "specific-risks.svg",
+   "alt": "Illustration for Specific risks",
+   "srcDir": "public/h5p/content/safeguarding-children/p11/content/images"
+  },
+  {
+   "course": "safeguarding-children",
    "page": 4,
-   "file": "more-categories.svg",
-   "alt": "Illustration for More categories",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p4/content/images"
+   "file": "in-need-or-at-risk.svg",
+   "alt": "Illustration for In need or at risk?",
+   "srcDir": "public/h5p/content/safeguarding-children/p4/content/images"
   },
   {
-   "course": "safeguarding-adults-level-2",
-   "page": 10,
-   "file": "specific-abuse-types.svg",
-   "alt": "Illustration for Specific abuse types",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p10/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
+   "course": "safeguarding-children",
    "page": 5,
-   "file": "mental-capacity-consent.svg",
-   "alt": "Illustration for Mental capacity & consent",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p5/content/images"
+   "file": "if-a-child-discloses.svg",
+   "alt": "Illustration for If a child discloses",
+   "srcDir": "public/h5p/content/safeguarding-children/p5/content/images"
   },
   {
-   "course": "safeguarding-adults-level-2",
-   "page": 11,
-   "file": "responding-to-disclosure.svg",
-   "alt": "Illustration for Responding to disclosure",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p11/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
-   "page": 12,
-   "file": "reporting-and-agencies.svg",
-   "alt": "Illustration for Reporting and agencies",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p12/content/images"
-  },
-  {
-   "course": "safeguarding-adults-level-2",
+   "course": "safeguarding-children",
    "page": 7,
-   "file": "whistleblowing-prevent.svg",
-   "alt": "Illustration for Whistleblowing & Prevent",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p7/content/images"
+   "file": "sharing-information.svg",
+   "alt": "Illustration for Sharing information",
+   "srcDir": "public/h5p/content/safeguarding-children/p7/content/images"
   },
   {
-   "course": "safeguarding-adults-level-2",
-   "page": 13,
-   "file": "the-legal-framework.svg",
-   "alt": "Illustration for The legal framework",
-   "srcDir": "public/h5p/content/safeguarding-adults-level-2/p13/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 2,
-   "file": "the-law.svg",
-   "alt": "Illustration for The law",
-   "srcDir": "public/h5p/content/health-and-safety/p2/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 9,
-   "file": "key-h-s-law.svg",
-   "alt": "Illustration for Key H&S law",
-   "srcDir": "public/h5p/content/health-and-safety/p9/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 3,
-   "file": "risk-assessment.svg",
-   "alt": "Illustration for Risk assessment",
-   "srcDir": "public/h5p/content/health-and-safety/p3/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 6,
-   "file": "ppe-infection.svg",
-   "alt": "Illustration for PPE & infection",
-   "srcDir": "public/h5p/content/health-and-safety/p6/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 10,
-   "file": "coshh-and-substances.svg",
-   "alt": "Illustration for COSHH and substances",
-   "srcDir": "public/h5p/content/health-and-safety/p10/content/images"
-  },
-  {
-   "course": "health-and-safety",
-   "page": 11,
-   "file": "fire-safety-at-work.svg",
-   "alt": "Illustration for Fire safety at work",
-   "srcDir": "public/h5p/content/health-and-safety/p11/content/images"
-  },
-  {
-   "course": "health-and-safety",
+   "course": "safeguarding-children",
    "page": 12,
-   "file": "equipment-and-security.svg",
-   "alt": "Illustration for Equipment and security",
-   "srcDir": "public/h5p/content/health-and-safety/p12/content/images"
+   "file": "responding-and-thresholds.svg",
+   "alt": "Illustration for Responding and thresholds",
+   "srcDir": "public/h5p/content/safeguarding-children/p12/content/images"
   },
   {
-   "course": "health-and-safety",
-   "page": 7,
-   "file": "reporting-incidents.svg",
-   "alt": "Illustration for Reporting incidents",
-   "srcDir": "public/h5p/content/health-and-safety/p7/content/images"
-  },
-  {
-   "course": "health-and-safety",
+   "course": "safeguarding-children",
    "page": 13,
-   "file": "emergencies-and-you.svg",
-   "alt": "Illustration for Emergencies and you",
-   "srcDir": "public/h5p/content/health-and-safety/p13/content/images"
+   "file": "your-role-and-boundaries.svg",
+   "alt": "Illustration for Your role and boundaries",
+   "srcDir": "public/h5p/content/safeguarding-children/p13/content/images"
   },
   {
-   "course": "health-and-safety",
+   "course": "safeguarding-children",
    "page": 8,
-   "file": "lone-working-stress-first-aid.svg",
-   "alt": "Illustration for Lone working, stress & first aid",
-   "srcDir": "public/h5p/content/health-and-safety/p8/content/images"
+   "file": "it-could-happen-here.svg",
+   "alt": "Illustration for It could happen here",
+   "srcDir": "public/h5p/content/safeguarding-children/p8/content/images"
   }
  ]
 }

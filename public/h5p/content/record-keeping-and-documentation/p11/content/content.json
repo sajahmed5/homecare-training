@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Two ways of keeping records</h2><p>Care records may be kept on paper, in an electronic care planning system, or a mix of both. Whichever your workplace uses, the same duty applies: information must be accurate, up to date and kept secure. The format changes the practical risks, not the underlying principle.</p><p>Paper records can be lost, left open on a side, or read by the wrong person. Electronic records can be seen by anyone who gets into an unlocked account. Good everyday habits are what protect both.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f1aca8b7-7bd8-428a-b440-a16019e9400f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Electronic and paper records",
+          "decorative": false,
+          "file": {
+            "path": "images/electronic-and-paper-records.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "90cb0bf8-fc94-44bc-9a9a-42b1d1f95369",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping devices and passwords safe</h2><p>Many care workers now record on a phone, tablet or laptop, sometimes in a person&rsquo;s own home. Handled carelessly, a small device can expose a great deal of personal data.</p><ul><li><strong>Keep passwords private:</strong> never share your login or write it on a sticky note.</li><li><strong>Log out or lock:</strong> lock the screen whenever you step away from a device.</li><li><strong>One person at a time:</strong> do not let colleagues use your account, because entries are linked to you.</li><li><strong>Store paper safely:</strong> keep paper notes out of sight and return them to secure storage.</li><li><strong>Report loss quickly:</strong> tell your manager at once if a device or file goes missing.</li></ul><p>Your login is like your signature: whatever is recorded under it is treated as having been done by you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eca78093-c84d-434c-8feb-063c4424a54f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are recording on a shared work tablet and are called away to help another person. What is the safest thing to do with the tablet?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Lock or log out of the tablet before you step away, then log back in when you return.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Locking or logging out stops anyone else seeing personal data under your account while you are away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave it open on the care system so you can carry on quickly afterwards.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An unlocked device leaves personal data on show to whoever passes by.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask a colleague to finish your entry under your login while you are gone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Entries are linked to your login, so nobody else should record under it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hand the unlocked tablet to the person to hold for you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This exposes other people&rsquo;s records and is not a safe way to secure the device.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "96f9c92f-1586-4b5d-b766-e6b00d6f211d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

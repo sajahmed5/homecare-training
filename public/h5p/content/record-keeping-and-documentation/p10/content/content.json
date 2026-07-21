@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Consent and being open</h2><p>People have a right to know what information is held about them and, in most cases, to have a say in how it is used. Being transparent is both part of the law and part of treating someone with respect. The people you support should never feel that records are being kept about them in secret.</p><p>When you gather information, explain simply why you need it and what will happen to it. A person who understands and agrees is far more likely to share the details that help you support them well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fcca4227-7204-4783-9118-3bf9fe5b0f83",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent and access",
+          "decorative": false,
+          "file": {
+            "path": "images/consent-and-access.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7ee95f26-ea6d-4577-90db-4ed055d18f8f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Seeing their own records</h2><p>Under data protection law, a person has the right to ask for a copy of the personal information held about them. This is called a subject access request, and it can be made either verbally or in writing. It is one of the strongest rights the law gives people.</p><ul><li><strong>Anyone can ask:</strong> a person does not have to give a reason for the request.</li><li><strong>Usually free:</strong> a copy is normally provided without any charge.</li><li><strong>There is a time limit:</strong> your organisation must respond within the period set out in law.</li><li><strong>Pass it on:</strong> if someone asks to see their records, report the request to your manager straight away.</li></ul><p>Writing clear, factual and respectful records matters all the more when the person themselves may one day read them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9cd1a32-5c60-44ec-b0c8-07df0e495565",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If a person you support asks to see the information held about them, they must give a reason and put the request in writing before it can be considered.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. A subject access request needs no reason and can be made verbally as well as in writing, so it should always be taken seriously.",
+            "correctAnswerMessage": "Correct. A subject access request can be made verbally or in writing, and the person does not have to give any reason."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "efb3a715-0283-4697-9acd-2ddfcb13313e",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

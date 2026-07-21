@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and its boundaries</h2><p>You are employed to support adults, but your duty to safeguard children does not switch off when you step into a service user&rsquo;s home. Children may be present as sons, daughters, grandchildren or visitors, and you may be one of the few outsiders who sees them. Knowing your boundaries keeps children safe and keeps you acting professionally.</p><p>Your role is to notice, to record factually, and to report through your organisation&rsquo;s safeguarding lead and local procedures. It is not your role to investigate, to question a child at length, to confront a parent, or to decide whether abuse has happened. Never promise a child that you will keep what they tell you a secret &mdash; explain kindly that you may need to tell someone who can help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "26aa3ce4-5fca-4755-b61e-677534b23c78",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role and boundaries",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-and-boundaries.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6f01802b-e7b0-4121-8c83-7d0e403d641a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A realistic scenario</h2><p>You visit Mr Adeyemi twice a week. His seven-year-old granddaughter, Grace, is often there. Over several visits you notice she is thin, wears the same unwashed clothes, flinches when her father raises his voice, and one day says quietly, &ldquo;I&rsquo;m not allowed to tell you about home.&rdquo;</p><p>You feel unsure &mdash; Grace is not the person you were sent to support. Even so, you stay calm, you do not press her for detail or promise secrecy, and you reassure her that she was right to talk to you. As soon as you leave you write down her exact words and what you saw, and you report the same day to your safeguarding lead so children&rsquo;s social care can consider what help Grace needs.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fd578ea3-78ed-42ec-b16c-ab7dcd7cd6c3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, what is the right thing to do about your concerns for Grace?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stay calm, avoid promising secrecy, record her exact words, and report to your safeguarding lead the same day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Calm listening, factual recording and prompt reporting let children&rsquo;s social care consider what help Grace needs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, because you were sent to support Mr Adeyemi, not Grace.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Your duty to safeguard children applies to any child you encounter, not only the person you were sent to support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Question Grace closely to find out exactly what is happening at home.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Investigating is not your role; pressing a child for detail can cause harm and complicate any enquiry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Warn Grace&rsquo;s father that you have concerns about how he speaks to her.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Confronting a parent may place Grace at greater risk; report through safeguarding routes instead.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "668b6940-0bf7-46eb-a75e-5800dc14c3bc",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

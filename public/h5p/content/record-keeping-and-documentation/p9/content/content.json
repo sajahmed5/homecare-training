@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The law behind your records</h2><p>Almost every record you keep contains personal data &mdash; information that identifies a living person. In the UK this information is protected by the UK GDPR and the Data Protection Act 2018. These laws do not exist to make your job harder; they set out how personal data must be handled so the people you support keep control of information about their own lives.</p><p>The regulator for data protection is the Information Commissioner&rsquo;s Office, known as the ICO. Your employer is responsible for following the law, but every entry you make is part of how your organisation meets it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d25a122b-3211-495a-b351-ec331c4c625c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Data protection in depth",
+          "decorative": false,
+          "file": {
+            "path": "images/data-protection-in-depth.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "890f5766-566a-4f52-992a-2efc4719a603",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The data protection principles</h2><p>The UK GDPR sets out core principles for handling personal data. In your everyday recording they mean you should:</p><ul><li><strong>Lawfulness, fairness and transparency:</strong> have a proper reason to record, and be open about it.</li><li><strong>Purpose limitation:</strong> use information only for the care purpose it was gathered for.</li><li><strong>Data minimisation:</strong> record what is relevant and necessary, not everything you know.</li><li><strong>Accuracy:</strong> keep records correct and up to date.</li><li><strong>Storage limitation:</strong> keep records only as long as they are genuinely needed.</li><li><strong>Integrity and confidentiality:</strong> keep the information secure at all times.</li></ul><p>Health and care records also count as special category data, which needs extra protection because it is so sensitive.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d1a2d00a-eae8-4d09-87af-08768d9b7ea8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the data protection principle of data minimisation, what should you record in a person&rsquo;s care notes?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Only the information that is relevant and necessary for their care.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Data minimisation means recording what is needed for the care purpose, not everything you happen to know.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Everything you have learned about the person, in case it proves useful one day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Recording more than is needed goes against data minimisation and can expose private details unnecessarily.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>As little as possible, even if some relevant care details are left out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Records must still be complete enough for safe care; minimisation is about relevance, not leaving gaps.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Whatever the person&rsquo;s family would like to see included.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. What you record is guided by the care purpose and the law, not by what others would prefer to add.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0ce943eb-1789-44df-9f85-198ff903c885",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

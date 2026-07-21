@@ -1,1 +1,160 @@
-{"content":[{"content":{"params":{"text":"<h2>The 4 Cs of food safety</h2><p>The FSA sums up safe food handling in four simple principles known as the <strong>4 Cs</strong>: <strong>Cleaning</strong>, <strong>Cooking</strong>, <strong>Chilling</strong> and avoiding <strong>Cross-contamination</strong>. Together they cover the main ways harmful bacteria are killed, kept out or stopped from spreading.</p><p>Applying the 4 Cs consistently, every time food is handled, is the foundation of good practice in any kitchen.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"442e7406-6f2d-4cb2-b91f-2361d593dce8","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>The 4 Cs of food safety - flip each card to see what it means in practice.</p>","dialogs":[{"text":"<p>Cleaning</p>","answer":"<p>Keep hands, surfaces and equipment clean. Wash hands thoroughly with warm water and soap, and clean and disinfect food-contact surfaces before and after preparing food.</p>","tips":{}},{"text":"<p>Cooking</p>","answer":"<p>Cook food thoroughly so harmful bacteria are killed. Aim for a core temperature of 75C, and check that food is piping hot all the way through, especially poultry, mince and reheated dishes.</p>","tips":{}},{"text":"<p>Chilling</p>","answer":"<p>Keep chilled food cold to slow bacterial growth. Store it in a fridge at 5C or below, cool cooked food quickly, and never leave perishable food standing at room temperature.</p>","tips":{}},{"text":"<p>Cross-contamination</p>","answer":"<p>Stop harmful bacteria spreading from raw food to ready-to-eat food. Use separate boards and utensils, store raw meat below other foods, and wash hands between tasks.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"0f6ea38a-1a0f-42df-8e8f-6b8a93615758","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Which of the following are among the FSA's 4 Cs of food safety? (Select all that apply)</p>","answers":[{"correct":true,"text":"<div>Cleaning</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Keeping hands, surfaces and equipment clean is one of the 4 Cs.","notChosenFeedback":""}},{"correct":true,"text":"<div>Chilling</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Chilling keeps perishable food cold to slow bacterial growth.","notChosenFeedback":""}},{"correct":true,"text":"<div>Cross-contamination</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Avoiding cross-contamination stops bacteria spreading between foods.","notChosenFeedback":""}},{"correct":false,"text":"<div>Colouring</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This is not one of the 4 Cs. The four are Cleaning, Cooking, Chilling and Cross-contamination.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"0af97708-36af-42f3-948a-614f24a38713","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The 4 Cs of food safety</h2><p>The FSA sums up safe food handling in four simple principles known as the <strong>4 Cs</strong>: <strong>Cleaning</strong>, <strong>Cooking</strong>, <strong>Chilling</strong> and avoiding <strong>Cross-contamination</strong>. Together they cover the main ways harmful bacteria are killed, kept out or stopped from spreading.</p><p>Applying the 4 Cs consistently, every time food is handled, is the foundation of good practice in any kitchen.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "442e7406-6f2d-4cb2-b91f-2361d593dce8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The 4 Cs",
+          "decorative": false,
+          "file": {
+            "path": "images/the-4-cs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f97c9b89-3fd8-4fd1-b799-c24f8cb40acc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>The 4 Cs of food safety - flip each card to see what it means in practice.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Cleaning</p>",
+              "answer": "<p>Keep hands, surfaces and equipment clean. Wash hands thoroughly with warm water and soap, and clean and disinfect food-contact surfaces before and after preparing food.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Cooking</p>",
+              "answer": "<p>Cook food thoroughly so harmful bacteria are killed. Aim for a core temperature of 75C, and check that food is piping hot all the way through, especially poultry, mince and reheated dishes.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Chilling</p>",
+              "answer": "<p>Keep chilled food cold to slow bacterial growth. Store it in a fridge at 5C or below, cool cooked food quickly, and never leave perishable food standing at room temperature.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Cross-contamination</p>",
+              "answer": "<p>Stop harmful bacteria spreading from raw food to ready-to-eat food. Use separate boards and utensils, store raw meat below other foods, and wash hands between tasks.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "0f6ea38a-1a0f-42df-8e8f-6b8a93615758",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following are among the FSA's 4 Cs of food safety? (Select all that apply)</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Cleaning</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Keeping hands, surfaces and equipment clean is one of the 4 Cs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Chilling</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Chilling keeps perishable food cold to slow bacterial growth.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Cross-contamination</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Avoiding cross-contamination stops bacteria spreading between foods.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Colouring</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is not one of the 4 Cs. The four are Cleaning, Cooking, Chilling and Cross-contamination.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0af97708-36af-42f3-948a-614f24a38713",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

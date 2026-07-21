@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>A child in need vs a child at risk of significant harm</h2><p>Not every worry means a child is being abused. The Children Act 1989 sets out two important thresholds that shape what help a child receives.</p><ul><li><strong>Child in need (section 17)</strong> &ndash; a child who is unlikely to reach or keep a reasonable standard of health or development without extra support, or who is disabled. These children need help, but the situation is not necessarily one of harm. Support is offered on a voluntary basis with the family.</li><li><strong>Child at risk of significant harm (section 47)</strong> &ndash; where a local authority has reasonable cause to suspect a child is suffering, or is likely to suffer, significant harm, it has a duty to make enquiries. This triggers a child protection response.</li></ul><p>There is no fixed legal definition of &ldquo;significant&rdquo; harm. Practitioners weigh up the severity, duration and frequency of the harm, and its impact on the child's health and development.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"c4590b30-4773-4a9a-81e8-c229381a63c9","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Thresholds and early help</h2><p>Support for children works as a continuum. At the lowest level of need, universal services meet a child's needs. When extra support is needed, <strong>early help</strong> steps in &ndash; co-ordinated, voluntary support offered before problems become serious. Where needs are more complex, a child in need assessment under section 17 may follow, and where there is a risk of significant harm, a section 47 child protection enquiry is triggered.</p><p>Each local safeguarding partnership publishes a <strong>threshold document</strong> that describes the levels of need and when a case should be referred. If you are ever unsure which level a concern sits at, that is precisely when you should seek advice rather than decide alone.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"d07abc2c-d68f-4185-8e37-e4ec7a093207","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A local authority has 'reasonable cause to suspect' that a child is suffering, or is likely to suffer, significant harm. Which duty does this trigger?</p>","answers":[{"correct":true,"text":"<div>A section 47 enquiry</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Section 47 of the Children Act 1989 places a duty on the local authority to make enquiries where there is reasonable cause to suspect significant harm.","notChosenFeedback":""}},{"correct":false,"text":"<div>A section 17 child in need assessment only</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Section 17 covers children in need of support, but a suspicion of significant harm raises the response to a section 47 child protection enquiry.","notChosenFeedback":""}},{"correct":false,"text":"<div>No formal duty; the family can ask for help if they wish</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Where significant harm is suspected, the local authority has a legal duty to act; it does not depend on the family requesting help.","notChosenFeedback":""}},{"correct":false,"text":"<div>Automatic removal of the child from the home</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"A section 47 enquiry is an investigation to decide what action is needed. It does not automatically mean a child is removed.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"2ff4b32a-af05-4969-a6a6-289a5e3f8312","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A child in need vs a child at risk of significant harm</h2><p>Not every worry means a child is being abused. The Children Act 1989 sets out two important thresholds that shape what help a child receives.</p><ul><li><strong>Child in need (section 17)</strong> &ndash; a child who is unlikely to reach or keep a reasonable standard of health or development without extra support, or who is disabled. These children need help, but the situation is not necessarily one of harm. Support is offered on a voluntary basis with the family.</li><li><strong>Child at risk of significant harm (section 47)</strong> &ndash; where a local authority has reasonable cause to suspect a child is suffering, or is likely to suffer, significant harm, it has a duty to make enquiries. This triggers a child protection response.</li></ul><p>There is no fixed legal definition of &ldquo;significant&rdquo; harm. Practitioners weigh up the severity, duration and frequency of the harm, and its impact on the child's health and development.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4590b30-4773-4a9a-81e8-c229381a63c9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for In need or at risk?",
+          "decorative": false,
+          "file": {
+            "path": "images/in-need-or-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1aae9beb-6399-4122-a595-f339c96a8a20",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Thresholds and early help</h2><p>Support for children works as a continuum. At the lowest level of need, universal services meet a child's needs. When extra support is needed, <strong>early help</strong> steps in &ndash; co-ordinated, voluntary support offered before problems become serious. Where needs are more complex, a child in need assessment under section 17 may follow, and where there is a risk of significant harm, a section 47 child protection enquiry is triggered.</p><p>Each local safeguarding partnership publishes a <strong>threshold document</strong> that describes the levels of need and when a case should be referred. If you are ever unsure which level a concern sits at, that is precisely when you should seek advice rather than decide alone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d07abc2c-d68f-4185-8e37-e4ec7a093207",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A local authority has 'reasonable cause to suspect' that a child is suffering, or is likely to suffer, significant harm. Which duty does this trigger?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A section 47 enquiry</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Section 47 of the Children Act 1989 places a duty on the local authority to make enquiries where there is reasonable cause to suspect significant harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A section 17 child in need assessment only</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Section 17 covers children in need of support, but a suspicion of significant harm raises the response to a section 47 child protection enquiry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No formal duty; the family can ask for help if they wish</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Where significant harm is suspected, the local authority has a legal duty to act; it does not depend on the family requesting help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Automatic removal of the child from the home</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A section 47 enquiry is an investigation to decide what action is needed. It does not automatically mean a child is removed.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2ff4b32a-af05-4969-a6a6-289a5e3f8312",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

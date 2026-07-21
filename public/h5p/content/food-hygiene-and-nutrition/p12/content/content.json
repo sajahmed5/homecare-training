@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The right environment and position</h2><p>Mealtimes are about more than food; they are social, enjoyable and a chance for people to keep control of their day. Give meals the time they deserve rather than rushing them. A calm, pleasant setting, free of unpleasant smells and clutter, helps people relax and eat well.</p><p>Good positioning matters for comfort and safety. Support the person to sit upright and well-supported, and sit down beside them at eye level rather than standing over them. Offer real choice about what and how much they eat, and encourage independence with adapted plates or cutlery instead of taking over.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "211fe026-8f54-4ea1-9b27-0ce6daefaa0d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dignity at mealtimes",
+          "decorative": false,
+          "file": {
+            "path": "images/dignity-at-mealtimes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2bbc1895-0b43-40e9-9059-a1c859989eb6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Pace, assistance and cultural needs</h2><p>When you assist someone to eat, follow their lead. Go at their pace, offer small amounts, and give plenty of time to chew and swallow before the next mouthful. Alternate food with sips of drink, watch for tiredness, and use gentle verbal encouragement rather than hurrying.</p><p>Food is deeply personal and often tied to culture and faith. Someone may need halal or kosher food, follow a vegetarian or vegan diet, or observe fasting. Always respect these choices, along with personal likes and dislikes, and make sure they are recorded in the care plan so everyone honours them consistently.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e93f7502-e673-4076-856e-cccce45965c5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on dignity at mealtimes.</p></p>",
+          "textField": "To support someone safely to eat, help them to sit *upright* and sit beside them at eye *level*. Assist at their own *pace*, offering small amounts and allowing time to chew and *swallow*. A person&rsquo;s cultural and religious food needs should be respected and written in their care *plan*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "580b0172-8df8-42ec-b830-2f4cfdeaa971",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

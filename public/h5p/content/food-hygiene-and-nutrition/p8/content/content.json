@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Dysphagia, modified diets and IDDSI</h2><p><strong>Dysphagia</strong> means difficulty swallowing. It raises the risk of choking and of food or fluid entering the airway (aspiration), which can cause chest infections and pneumonia. People with dysphagia may need a <strong>texture-modified diet</strong> or <strong>thickened fluids</strong>, prescribed by a speech and language therapist (SALT) or dietitian.</p><p>The <strong>IDDSI</strong> framework (International Dysphagia Diet Standardisation Initiative) provides a common set of levels - numbered 0 to 7, with colour codes and names - so that thickened drinks and modified-texture foods are prepared consistently and safely, wherever the person is cared for. Always follow the exact level in the person's care plan, and watch for signs of difficulty such as coughing, a wet or gurgly voice, or food pocketing in the mouth.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"3f565556-d901-42d4-8184-83e460d6b7d0","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Culture, religion and choice</h2><p>Food is deeply personal. Supporting people to eat and drink well means respecting their <strong>cultural and religious dietary needs</strong> - for example halal, kosher, vegetarian or vegan diets, or fasting practices - and their individual likes, dislikes and routines. People have the right to make their own choices about what they eat and drink, and mealtimes should promote independence, dignity and enjoyment. Provide appropriate support and aids, offer choice, and never make assumptions on a person's behalf.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"150386d0-a380-4175-a1ba-34550ff4c57c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A person's care plan states they need IDDSI Level 2 (mildly thick) fluids because of dysphagia. What is the safest action?</p>","answers":[{"correct":true,"text":"<div>Prepare their drinks to the exact IDDSI level in the care plan every time</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Following the prescribed IDDSI level consistently reduces the risk of choking and aspiration.","notChosenFeedback":""}},{"correct":false,"text":"<div>Give them a normal, unthickened drink because it is quicker</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Unsafe. Thin fluids may cause choking or aspiration for someone who needs thickened drinks. Always follow the prescribed level.","notChosenFeedback":""}},{"correct":false,"text":"<div>Make the drink much thicker than prescribed to be extra safe</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. Fluids that are too thick can also be unsafe and unpleasant. The prescribed level must be followed exactly.","notChosenFeedback":""}},{"correct":false,"text":"<div>Decide the level yourself based on how the person seems</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"The level is set by a speech and language therapist or dietitian. Care workers must follow the care plan, not change it themselves.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"9bc4f761-fdb8-4f86-8101-ac4ff77e5a23","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dysphagia, modified diets and IDDSI</h2><p><strong>Dysphagia</strong> means difficulty swallowing. It raises the risk of choking and of food or fluid entering the airway (aspiration), which can cause chest infections and pneumonia. People with dysphagia may need a <strong>texture-modified diet</strong> or <strong>thickened fluids</strong>, prescribed by a speech and language therapist (SALT) or dietitian.</p><p>The <strong>IDDSI</strong> framework (International Dysphagia Diet Standardisation Initiative) provides a common set of levels - numbered 0 to 7, with colour codes and names - so that thickened drinks and modified-texture foods are prepared consistently and safely, wherever the person is cared for. Always follow the exact level in the person's care plan, and watch for signs of difficulty such as coughing, a wet or gurgly voice, or food pocketing in the mouth.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3f565556-d901-42d4-8184-83e460d6b7d0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dysphagia & choice",
+          "decorative": false,
+          "file": {
+            "path": "images/dysphagia-choice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "10f14d2d-3854-4129-b16f-f0a940cafe86",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Culture, religion and choice</h2><p>Food is deeply personal. Supporting people to eat and drink well means respecting their <strong>cultural and religious dietary needs</strong> - for example halal, kosher, vegetarian or vegan diets, or fasting practices - and their individual likes, dislikes and routines. People have the right to make their own choices about what they eat and drink, and mealtimes should promote independence, dignity and enjoyment. Provide appropriate support and aids, offer choice, and never make assumptions on a person's behalf.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "150386d0-a380-4175-a1ba-34550ff4c57c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person's care plan states they need IDDSI Level 2 (mildly thick) fluids because of dysphagia. What is the safest action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Prepare their drinks to the exact IDDSI level in the care plan every time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Following the prescribed IDDSI level consistently reduces the risk of choking and aspiration.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them a normal, unthickened drink because it is quicker</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Unsafe. Thin fluids may cause choking or aspiration for someone who needs thickened drinks. Always follow the prescribed level.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Make the drink much thicker than prescribed to be extra safe</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Fluids that are too thick can also be unsafe and unpleasant. The prescribed level must be followed exactly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide the level yourself based on how the person seems</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The level is set by a speech and language therapist or dietitian. Care workers must follow the care plan, not change it themselves.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9bc4f761-fdb8-4f86-8101-ac4ff77e5a23",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

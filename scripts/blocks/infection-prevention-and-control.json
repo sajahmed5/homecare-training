@@ -3,60 +3,95 @@
   "title": "Infection Prevention & Control",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p1",
-      "type": "h5p",
       "label": "Why IPC matters",
-      "section": "How infection spreads",
-      "questions": 1
+      "questions": 1,
+      "section": "How infection spreads"
     },
     {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p9",
+      "label": "Micro-organisms explained",
+      "questions": 1,
+      "section": "How infection spreads"
+    },
+    {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p2",
-      "type": "h5p",
       "label": "The chain of infection",
-      "section": "How infection spreads",
-      "questions": 0
+      "questions": 0,
+      "section": "How infection spreads"
     },
     {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p3",
-      "type": "h5p",
       "label": "Standard precautions",
-      "section": "Standard precautions",
-      "questions": 1
+      "questions": 1,
+      "section": "Standard precautions"
     },
     {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p4",
-      "type": "h5p",
       "label": "Hand hygiene",
-      "section": "Standard precautions",
-      "questions": 1
+      "questions": 1,
+      "section": "Standard precautions"
     },
     {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p5",
-      "type": "h5p",
       "label": "PPE",
-      "section": "PPE, waste and cleaning",
-      "questions": 1
+      "questions": 1,
+      "section": "PPE, waste and cleaning"
     },
     {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p10",
+      "label": "Using PPE safely",
+      "questions": 1,
+      "section": "PPE, waste and cleaning"
+    },
+    {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p6",
-      "type": "h5p",
       "label": "Sharps, waste & spills",
-      "section": "PPE, waste and cleaning",
-      "questions": 1
+      "questions": 1,
+      "section": "PPE, waste and cleaning"
     },
     {
+      "type": "h5p",
       "path": "infection-prevention-and-control/p7",
-      "type": "h5p",
       "label": "Cleaning & HCAIs",
-      "section": "PPE, waste and cleaning",
-      "questions": 0
+      "questions": 0,
+      "section": "PPE, waste and cleaning"
     },
     {
-      "path": "infection-prevention-and-control/p8",
       "type": "h5p",
+      "path": "infection-prevention-and-control/p13",
+      "label": "Laundry, food and scenario",
+      "questions": 1,
+      "section": "PPE, waste and cleaning"
+    },
+    {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p11",
+      "label": "Infections and outbreaks",
+      "questions": 1,
+      "section": "Infections and resistance"
+    },
+    {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p12",
+      "label": "Antibiotics and resistance",
+      "questions": 1,
+      "section": "Infections and resistance"
+    },
+    {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p8",
       "label": "Sepsis & reporting",
-      "section": "Spotting serious infection",
-      "questions": 1
+      "questions": 1,
+      "section": "Spotting serious infection"
     }
   ]
 }

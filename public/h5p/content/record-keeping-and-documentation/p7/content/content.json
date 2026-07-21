@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>How to correct an error properly</h2><p>Everyone makes the occasional mistake in a record. What matters is correcting it honestly and transparently, so the original entry can still be seen. On a <strong>paper record</strong>:</p><ul><li>Draw a <strong>single line</strong> through the incorrect words &mdash; leave them still readable.</li><li>Write the correction alongside or on the next line.</li><li><strong>Initial and date</strong> the change (add the time too), and a brief reason if helpful.</li></ul><p><strong>Never</strong> erase, scribble over, cover up, or use correction fluid &mdash; hiding an entry looks like you are concealing something and destroys the record's legal value. On <strong>electronic records</strong>, don't delete: the system keeps an audit trail, so add a correcting entry and let the timestamp and your login show who amended it and when.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"5a10f046-ab9c-49a2-943a-ed09ac11d9ab","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You realise you wrote the wrong time on a paper daily note. What is the correct way to fix it?</p>","answers":[{"correct":true,"text":"<div>Draw a single line through the error so it can still be read, write the correction, then initial and date it.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. The original stays visible and it is clear who changed it and when.","notChosenFeedback":""}},{"correct":false,"text":"<div>Cover the mistake with correction fluid and write the right time over the top.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Never use correction fluid. Hiding an entry destroys the record's integrity and looks like concealment.","notChosenFeedback":""}},{"correct":false,"text":"<div>Scribble it out heavily so the wrong time can't be read at all.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"The original entry must remain legible. Use a single line, not a scribble.","notChosenFeedback":""}},{"correct":false,"text":"<div>Rip out the page and rewrite the whole note cleanly.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Never remove or destroy pages. Correct the entry in place so the full history is preserved.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"8820232b-63bb-4d6e-8409-b1a979b817c5","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to correct an error properly</h2><p>Everyone makes the occasional mistake in a record. What matters is correcting it honestly and transparently, so the original entry can still be seen. On a <strong>paper record</strong>:</p><ul><li>Draw a <strong>single line</strong> through the incorrect words &mdash; leave them still readable.</li><li>Write the correction alongside or on the next line.</li><li><strong>Initial and date</strong> the change (add the time too), and a brief reason if helpful.</li></ul><p><strong>Never</strong> erase, scribble over, cover up, or use correction fluid &mdash; hiding an entry looks like you are concealing something and destroys the record's legal value. On <strong>electronic records</strong>, don't delete: the system keeps an audit trail, so add a correcting entry and let the timestamp and your login show who amended it and when.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5a10f046-ab9c-49a2-943a-ed09ac11d9ab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Correcting an error",
+          "decorative": false,
+          "file": {
+            "path": "images/correcting-an-error.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0d640037-cbac-4602-90cb-a62568458531",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You realise you wrote the wrong time on a paper daily note. What is the correct way to fix it?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Draw a single line through the error so it can still be read, write the correction, then initial and date it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The original stays visible and it is clear who changed it and when.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Cover the mistake with correction fluid and write the right time over the top.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never use correction fluid. Hiding an entry destroys the record's integrity and looks like concealment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Scribble it out heavily so the wrong time can't be read at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The original entry must remain legible. Use a single line, not a scribble.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Rip out the page and rewrite the whole note cleanly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never remove or destroy pages. Correct the entry in place so the full history is preserved.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8820232b-63bb-4d6e-8409-b1a979b817c5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

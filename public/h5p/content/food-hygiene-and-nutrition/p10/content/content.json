@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A balanced diet and the Eatwell Guide</h2><p>The NHS Eatwell Guide shows the balance of foods that make up a healthy diet over a day or week. It divides food into groups and shows roughly how much of each we should aim for:</p><ul><li><strong>Fruit and vegetables:</strong> aim for at least five portions a day.</li><li><strong>Starchy carbohydrates:</strong> potatoes, bread, rice and pasta, choosing wholegrain where possible.</li><li><strong>Protein:</strong> beans, pulses, fish, eggs and meat.</li><li><strong>Dairy or alternatives:</strong> milk, cheese and yoghurt or fortified substitutes.</li><li><strong>Oils and spreads:</strong> only small amounts, and limit foods high in fat, salt and sugar.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9aed6d4a-5f7f-4480-8d6d-ca4bbd53c7b9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Eatwell Guide",
+          "decorative": false,
+          "file": {
+            "path": "images/the-eatwell-guide.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "74ee395a-96c7-4de6-950f-4e1af3ce1e06",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why nutrients matter in later life</h2><p>Each nutrient does a job. Protein helps maintain muscle and heal wounds, calcium and vitamin D keep bones strong, fibre supports digestion, and iron and vitamins keep the body working well. Older and unwell people often eat smaller amounts, so every mouthful needs to count.</p><p>Appetite can fade with age, illness or medication, and small, frequent, nourishing meals often work better than large plates. Remember that the Eatwell Guide is aimed at healthy adults; someone who is underweight or at risk of malnutrition may need a higher-calorie, fortified approach set out in their care plan rather than a low-fat one.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "75856370-fc6d-4c2d-adb2-b8c074fc792a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The standard Eatwell Guide balance of foods is the right target for everyone, including people who are underweight or at risk of malnutrition.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: someone who is underweight or malnourished may need a fortified, higher-calorie diet rather than the standard Eatwell balance.",
+            "correctAnswerMessage": "Correct &mdash; this is false. The Eatwell Guide is designed for the general healthy population. People who are underweight or malnourished often need a higher-calorie, fortified diet set out in their care plan."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "5334374a-399a-436d-9704-a9f04ec3942f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What antimicrobial resistance means</h2><p>Antimicrobials are medicines that kill or slow the growth of micro-organisms, and antibiotics are the group that act on bacteria. Antimicrobial resistance, or AMR, is when these micro-organisms change so that the medicines no longer work well against them.</p><p>When an antibiotic stops working, an infection that was once easy to treat can become serious or even life-threatening. Resistant organisms such as MRSA are already found in care settings, and the more antibiotics are used, the more chances bacteria have to become resistant.</p><p>AMR matters to everyone. It is not caused by one person; it builds up across whole populations, which is why using antibiotics carefully protects people well beyond the person taking them today.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e2e85b17-99b5-4d66-9396-5a4b999dbcb8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Antibiotics and resistance",
+          "decorative": false,
+          "file": {
+            "path": "images/antibiotics-and-resistance.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "24c995cb-9af7-4b17-962b-145a6659e696",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using antibiotics responsibly</h2><p>You do not prescribe medicines, but you play a real part in slowing resistance through everyday good practice.</p><ul><li><strong>Prevent infection first:</strong> strong hand hygiene, PPE and cleaning mean fewer infections and so fewer antibiotics needed.</li><li><strong>Support the full course:</strong> help people take antibiotics exactly as prescribed, at the right times.</li><li><strong>Never share or save:</strong> antibiotics are for one named person and one infection, never passed to someone else or kept for later.</li><li><strong>Report concerns:</strong> tell a nurse or GP if an infection is not improving, rather than assuming a different antibiotic is simply needed.</li></ul><p>Remember that antibiotics do nothing for colds, flu or most sore throats, which are usually caused by viruses.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "654080f0-3845-43be-865d-ee5b9b8144e4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Good infection prevention, such as hand hygiene and cleaning, helps reduce antimicrobial resistance because fewer infections mean fewer antibiotics are needed.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Preventing infections reduces how often antibiotics are needed, which in turn helps slow the spread of resistance.",
+            "correctAnswerMessage": "Correct. Preventing infection in the first place is one of the most powerful ways to reduce the need for antibiotics and slow resistance."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "445af9e0-84a2-4bf8-814c-3af31deae5c0",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

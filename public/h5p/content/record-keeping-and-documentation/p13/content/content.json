@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What a data breach looks like</h2><p>A personal data breach is any event where personal information is lost, stolen, seen by the wrong person, or destroyed by accident. It is not always dramatic. A care record emailed to the wrong address, a paper file left on a bus, or a private conversation overheard in a corridor can all be breaches.</p><p>Serious breaches must be reported to the ICO, sometimes within a tight time limit, so acting quickly really matters. You are not expected to make that legal judgement on your own &mdash; but you are expected to raise it without delay.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "065f8e21-4cf9-45af-80fb-dbd3d0a72c2b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Breaches and a scenario",
+          "decorative": false,
+          "file": {
+            "path": "images/breaches-and-a-scenario.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6b49652d-38fc-4980-ae07-e075cc4d5634",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting it together</h2><p>You finish a visit to Mrs Okafor and realise the daily notes you printed for handover are missing from your bag. You think you may have left them at the previous person&rsquo;s home. What should you do?</p><ul><li><strong>Act quickly:</strong> tell your manager straight away rather than waiting to see if the notes turn up.</li><li><strong>Be honest:</strong> explain exactly what happened, without playing it down.</li><li><strong>Record the facts:</strong> note what was lost, when, and what you have done since.</li><li><strong>Learn from it:</strong> agree how to carry records more safely in future.</li></ul><p>Reporting your own mistake is not a failure &mdash; it is what protects Mrs Okafor and helps your organisation put things right.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a1a78954-141e-4ab9-bf03-b3ecc6a30fb1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You realise you may have left a person&rsquo;s printed care notes at another address. What should you do first?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it to your manager straight away and be honest about what happened.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reporting promptly and honestly lets your organisation act within any legal time limits and reduce the harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a day or two to see whether the notes are handed back before saying anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Waiting risks missing a reporting deadline and leaves the person&rsquo;s data exposed for longer.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, as admitting the mistake could get you into trouble.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Hiding a breach is far more serious than the loss itself and breaks your duty to be open.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deal with it yourself by retracing your route, without telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. You may retrace your steps, but the breach must still be reported so it can be handled properly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3949723f-a470-4c6c-92af-b644d307cd28",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

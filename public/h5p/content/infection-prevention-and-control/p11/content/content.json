@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Infections you may meet in care</h2><p>Some infections appear regularly in care settings, and recognising them early helps you act quickly to protect others.</p><ul><li><strong>Norovirus:</strong> causes sudden vomiting and diarrhoea and spreads very easily; thorough hand washing with soap and water is essential, as gel alone is less effective against it.</li><li><strong>Flu and COVID-19:</strong> respiratory illnesses spread by droplets, causing fever, cough and aches.</li><li><strong>C. difficile:</strong> a gut infection causing diarrhoea, often linked to antibiotic use, that produces spores needing soap-and-water hand washing and careful cleaning.</li><li><strong>MRSA:</strong> a bacterium resistant to some antibiotics; people are often colonised without symptoms but it can cause serious infection in a wound.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e8fdca54-e76f-47b0-b18a-67e31f2ce71d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Infections and outbreaks",
+          "decorative": false,
+          "file": {
+            "path": "images/infections-and-outbreaks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "02902cc6-c41b-4b88-9fa3-95af5b8692f7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising and responding to an outbreak</h2><p>An outbreak is usually described as two or more linked cases of the same infection in the same place around the same time. Spotting the pattern early is one of the most useful things you can do.</p><ul><li><strong>Report promptly:</strong> tell your senior or manager as soon as you notice several people with similar symptoms, such as diarrhoea and vomiting.</li><li><strong>Follow control measures:</strong> these may include isolating affected people, enhanced cleaning and restricting movement between areas.</li><li><strong>Reinforce basics:</strong> hand hygiene, correct PPE and prompt cleaning of spills all become even more important.</li><li><strong>Support communication:</strong> visitors and staff may need clear information about the risk.</li></ul><p>Your manager will involve the health protection team when needed; your job is to notice, report and follow the agreed steps.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "24c9986a-28d3-47ea-95c1-9c0e4646a3a4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Several people on your unit develop sudden vomiting and diarrhoea within a day of each other. What is your best first action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it to your senior or manager straight away so control measures can start.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Early reporting of a possible outbreak lets the team isolate cases, increase cleaning and limit spread.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few days to see whether more people become unwell.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Delay lets an infection like norovirus spread widely; prompt reporting is key.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Rely on alcohol hand gel alone to stop it spreading.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Gel is less effective against norovirus; soap-and-water hand washing and reporting are needed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Move affected people together with unaffected people to keep an eye on them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Mixing affected and unaffected people spreads infection; isolation is part of outbreak control.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4961193b-a998-411d-9c1c-0f7ad7cf12fc",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

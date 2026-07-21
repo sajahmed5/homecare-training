@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of physical abuse and neglect</h2><p>You already know the four categories of abuse. Recognising them in real life means noticing signs that do not add up. Possible indicators of physical abuse include injuries in unusual places, bruises in the shape of a hand or an object, injuries that do not match the explanation given, or a child who flinches at contact. One sign on its own rarely proves anything; it is the pattern and the context that matter.</p><p>Neglect &mdash; the ongoing failure to meet a child&rsquo;s basic needs &mdash; may show as a child who is often hungry, dirty or dressed unsuitably for the weather, who has untreated medical or dental problems, or who is repeatedly left without proper supervision.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "969e10bc-e55d-4db8-a033-f663eeb831cd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Signs and indicators",
+          "decorative": false,
+          "file": {
+            "path": "images/signs-and-indicators.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7a109f58-a1e8-4daa-aa88-cadd94b4465f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of emotional and sexual abuse</h2><p>Emotional abuse can be the hardest to see because it leaves no marks. You might notice a child who is withdrawn or overly anxious, who seems fearful of a parent, who is desperate for attention, or whose confidence and development lag without a clear reason.</p><p>Sexual abuse indicators can be physical or behavioural: pain or discomfort, sexual knowledge or behaviour beyond what you would expect for the child&rsquo;s age, or a sudden change such as becoming secretive or afraid of a particular person. Children are rarely able to say plainly what is wrong, so changes in mood, behaviour or routine are often the first clue. Trust what you observe, write it down, and share it &mdash; you do not need to be certain to raise a concern.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "97d847b0-31d2-4e80-9967-03eb8c22d624",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these key points about recognising abuse.</p></p>",
+          "textField": "A *pattern* of injuries that do not match the explanation may point to physical abuse. Neglect is the ongoing failure to meet a child&rsquo;s basic *needs*, such as food, warmth and supervision. Emotional abuse often leaves no *marks*, showing instead as fear or withdrawal. Sexual knowledge beyond a child&rsquo;s *age* can be an indicator of sexual abuse. You do not have to be *certain* before you raise a concern.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "f20f96ef-8209-4665-8fb4-884f085c499f",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

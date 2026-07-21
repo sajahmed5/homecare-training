@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Early help and thresholds</h2><p>Not every worry means a child is at immediate risk, and the right response is matched to the level of need. Where a child and family would benefit from support before problems grow, &lsquo;early help&rsquo; offers coordinated assistance &mdash; for example around housing, parenting or a child&rsquo;s behaviour. Where a child may be in need or suffering significant harm, a referral to children&rsquo;s social care is needed.</p><p>Local safeguarding partners publish threshold guidance describing what level of concern calls for what kind of help. You are not expected to judge the exact threshold yourself. Your task is to describe clearly and honestly what you have seen and heard, and to pass it to the people whose role is to decide.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f0cb53f3-17b6-4013-8551-3792af67e41a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Responding and thresholds",
+          "decorative": false,
+          "file": {
+            "path": "images/responding-and-thresholds.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4c164e09-9002-4003-90d2-05dc4bf29b55",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>MASH and what happens next</h2><p>Many areas run a Multi-Agency Safeguarding Hub, or MASH, where the local authority, police, health and other partners share information about a child. This helps them build a fuller picture quickly and agree the right response.</p><p>After you report a concern, it may be screened, information may be gathered from other agencies, and a decision is made: no further action, early help, an assessment of a child in need, or &mdash; where significant harm is suspected &mdash; a child protection enquiry under section 47 of the Children Act 1989. If a child is in immediate danger you do not wait: you call 999. You may not always hear the outcome, but your report still matters.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b80f2800-dfa5-47a8-92f8-140c573ab360",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>As an adult social care worker, it is your job to decide exactly which threshold a concern meets before you report it.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Deciding the threshold is the role of children&rsquo;s social care. You simply report your concerns clearly and let them decide the right response.",
+            "correctAnswerMessage": "Correct. You are not expected to judge the threshold. Your job is to describe clearly what you have seen and heard and pass it to those whose role is to decide."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "8e734fb8-3c2a-4635-8909-c9263f4fae73",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

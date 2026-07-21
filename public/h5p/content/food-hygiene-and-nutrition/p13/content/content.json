@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Modified textures and fortified diets</h2><p>Some people cannot manage ordinary food and drink safely. Those with swallowing difficulties (dysphagia) may need texture-modified food or thickened fluids. The IDDSI framework gives these standard levels &mdash; from thin drinks through to soft and bite-sized or pureed food &mdash; so everyone uses the same descriptions.</p><p>A speech and language therapist (SALT) assesses swallowing and sets the level a person needs. Your role is to follow that plan exactly and never change the texture or thickness yourself. Others may need a fortified diet with extra calories and protein, or a strict allergen-free diet where even a trace could cause serious harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "658b0515-441f-4e59-bc9b-3221d686e30d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Special diets & textures",
+          "decorative": false,
+          "file": {
+            "path": "images/special-diets-textures.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "61cb14ac-8bbd-43b3-bf3b-8e84cba51d2b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A mealtime scenario</h2><p>Mrs Kaur&rsquo;s care plan says she is on IDDSI Level 5 minced and moist food with mildly thick (Level 2) drinks, following a SALT assessment. Today she is tired, the kitchen is busy, and a colleague suggests just giving her the normal shepherd&rsquo;s pie and a cup of tea to save time.</p><p>Giving her ordinary food and thin tea would go against her prescribed plan and could cause her to choke or aspirate. The safe, respectful choice is to prepare her meal and drink to the correct levels, support her calmly and unhurried, and raise any concerns about her swallowing with the nurse or SALT rather than changing things yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2343ed47-ec09-40ec-8e3a-f7ad4f80acba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mrs Kaur is prescribed minced and moist food with mildly thick drinks after a SALT assessment. A colleague suggests giving her normal food and thin tea to save time. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Prepare her food and drink to the prescribed IDDSI levels and raise any swallowing concerns with the nurse or SALT.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The prescribed texture keeps her safe from choking and aspiration; only the SALT can review or change the level.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give her the normal food and tea, as she seems well enough today.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Changing her prescribed textures could cause choking or aspiration and is never a care worker&rsquo;s decision to make.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide yourself to thicken the tea a little more than usual to be safe.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. You should follow the level set by the SALT exactly, not adjust it up or down on your own judgement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip her meal so she does not have to eat while tired.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Missing meals risks poor nutrition and hydration; she should be supported to eat safely at her own pace.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "465a75b7-a38e-4c24-9bba-133320e1c013",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

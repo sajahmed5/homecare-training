@@ -1,1 +1,140 @@
-{"content":[{"content":{"params":{"text":"<h2>Date labels: use-by vs best-before</h2><p>Understanding date labels helps prevent both food poisoning and food waste.</p><ul><li><strong>Use-by</strong> dates are about <strong>safety</strong>. Never eat, cook or serve food after its use-by date, even if it looks and smells fine. This appears on perishable foods such as meat, fish and prepared salads.</li><li><strong>Best-before</strong> dates are about <strong>quality</strong>. Food is usually still safe to eat after this date but may have lost some flavour or texture. It appears on longer-life foods such as tinned, dried and frozen items.</li></ul><p>Follow storage instructions and the 'once opened, use within' guidance, and operate stock rotation so older stock is used first.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"7b1c852f-5801-4874-ad92-8b897134b725","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Allergens and Natasha's Law</h2><p>There are <strong>14 major allergens</strong> that must be declared by law: celery, cereals containing gluten, crustaceans, eggs, fish, lupin, milk, molluscs, mustard, tree nuts, peanuts, sesame, soya and sulphur dioxide (sulphites).</p><p><strong>Natasha's Law</strong> came into force in October 2021 after the death of Natasha Ednan-Laperouse from an allergic reaction to hidden sesame. It requires foods that are <em>prepacked for direct sale</em> (made and packed on the same premises) to carry a full ingredients list with the 14 allergens emphasised. In care, always know what is in the food you serve, take allergy information seriously, keep allergen-containing foods separate, and never guess - an allergic reaction can be life-threatening.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"de65a9c4-9628-4c5b-9e9a-b5524fa7725c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>HACCP in principle</h2><p><strong>HACCP</strong> stands for Hazard Analysis and Critical Control Points. It is a systematic way of managing food safety by identifying where things could go wrong (hazards), deciding the critical points where control is essential - such as cooking or chilling temperatures - setting safe limits, monitoring them, and recording what you do. Most care kitchens follow the FSA's <em>Safer Food, Better Business</em> pack, which puts HACCP principles into practical everyday steps.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"522c90bf-eb2b-4421-b669-7e67d07397ce","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A tub of prepared salad has passed its use-by date but looks and smells perfectly fine. What should you do?</p>","answers":[{"correct":true,"text":"<div>Throw it away - use-by is about safety, not appearance</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Use-by dates are a safety limit. Harmful bacteria can be present without any change in smell, look or taste.","notChosenFeedback":""}},{"correct":false,"text":"<div>Serve it, because it looks and smells fine</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Unsafe. You cannot see, smell or taste many harmful bacteria. Food past its use-by date must not be served.","notChosenFeedback":""}},{"correct":false,"text":"<div>Cook it thoroughly and then serve it</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Cooking cannot make food past its use-by date safe, as some bacteria produce toxins that are not destroyed by heat.","notChosenFeedback":""}},{"correct":false,"text":"<div>Treat the use-by date like a best-before date</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"These are different. Best-before is about quality; use-by is a strict safety deadline that must not be exceeded.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"59699c03-d3d3-4d7a-a37f-5909f1889de3","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Date labels: use-by vs best-before</h2><p>Understanding date labels helps prevent both food poisoning and food waste.</p><ul><li><strong>Use-by</strong> dates are about <strong>safety</strong>. Never eat, cook or serve food after its use-by date, even if it looks and smells fine. This appears on perishable foods such as meat, fish and prepared salads.</li><li><strong>Best-before</strong> dates are about <strong>quality</strong>. Food is usually still safe to eat after this date but may have lost some flavour or texture. It appears on longer-life foods such as tinned, dried and frozen items.</li></ul><p>Follow storage instructions and the 'once opened, use within' guidance, and operate stock rotation so older stock is used first.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7b1c852f-5801-4874-ad92-8b897134b725",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dates, allergens & HACCP",
+          "decorative": false,
+          "file": {
+            "path": "images/dates-allergens-haccp.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d0a25513-4add-4177-aa1f-c91f9da93815",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Allergens and Natasha's Law</h2><p>There are <strong>14 major allergens</strong> that must be declared by law: celery, cereals containing gluten, crustaceans, eggs, fish, lupin, milk, molluscs, mustard, tree nuts, peanuts, sesame, soya and sulphur dioxide (sulphites).</p><p><strong>Natasha's Law</strong> came into force in October 2021 after the death of Natasha Ednan-Laperouse from an allergic reaction to hidden sesame. It requires foods that are <em>prepacked for direct sale</em> (made and packed on the same premises) to carry a full ingredients list with the 14 allergens emphasised. In care, always know what is in the food you serve, take allergy information seriously, keep allergen-containing foods separate, and never guess - an allergic reaction can be life-threatening.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "de65a9c4-9628-4c5b-9e9a-b5524fa7725c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>HACCP in principle</h2><p><strong>HACCP</strong> stands for Hazard Analysis and Critical Control Points. It is a systematic way of managing food safety by identifying where things could go wrong (hazards), deciding the critical points where control is essential - such as cooking or chilling temperatures - setting safe limits, monitoring them, and recording what you do. Most care kitchens follow the FSA's <em>Safer Food, Better Business</em> pack, which puts HACCP principles into practical everyday steps.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "522c90bf-eb2b-4421-b669-7e67d07397ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A tub of prepared salad has passed its use-by date but looks and smells perfectly fine. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Throw it away - use-by is about safety, not appearance</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Use-by dates are a safety limit. Harmful bacteria can be present without any change in smell, look or taste.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Serve it, because it looks and smells fine</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Unsafe. You cannot see, smell or taste many harmful bacteria. Food past its use-by date must not be served.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Cook it thoroughly and then serve it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Cooking cannot make food past its use-by date safe, as some bacteria produce toxins that are not destroyed by heat.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Treat the use-by date like a best-before date</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These are different. Best-before is about quality; use-by is a strict safety deadline that must not be exceeded.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "59699c03-d3d3-4d7a-a37f-5909f1889de3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

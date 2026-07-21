@@ -1,1 +1,79 @@
-{"content":[{"content":{"params":{"text":"<h2>When a child tells you something</h2><p>A child may choose to tell you about abuse because they trust you. How you respond in that moment matters enormously. The aim is to receive what the child says, keep them safe, and pass the concern on &ndash; not to investigate.</p><ul><li><strong>Listen</strong> calmly and take the child seriously. Let them use their own words and do not show shock or disbelief.</li><li><strong>Reassure</strong> them that they have done the right thing by telling you and that it is not their fault.</li><li><strong>Do not promise to keep it secret.</strong> Explain gently that you may need to tell someone whose job is to keep them safe.</li><li><strong>Do not investigate</strong> or ask leading questions, and never confront the alleged abuser. That is a job for trained professionals, and questioning can compromise a later investigation.</li><li><strong>Record</strong> what was said as soon as possible, in the child's own words, with the date, time and place, and stick to the facts.</li><li><strong>Report promptly</strong> to your Designated Safeguarding Lead or follow your organisation's safeguarding policy.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"846d3837-0dda-4047-af0d-763e90c252ee","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Complete this guidance on responding to a disclosure by dragging each word into the correct gap.</p>","textField":"If a child discloses abuse, first *listen* calmly and take them seriously. Never promise to keep it a *secret*, because you may need to pass it on to keep the child safe. Do not *investigate* the concern or question the child in detail. Write an accurate *record* of what was said as soon as you can, using the child's own words. Finally, *report* the concern promptly to your Designated Safeguarding Lead.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"c3d93336-80ab-49bb-a719-7bbaacde71d5","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When a child tells you something</h2><p>A child may choose to tell you about abuse because they trust you. How you respond in that moment matters enormously. The aim is to receive what the child says, keep them safe, and pass the concern on &ndash; not to investigate.</p><ul><li><strong>Listen</strong> calmly and take the child seriously. Let them use their own words and do not show shock or disbelief.</li><li><strong>Reassure</strong> them that they have done the right thing by telling you and that it is not their fault.</li><li><strong>Do not promise to keep it secret.</strong> Explain gently that you may need to tell someone whose job is to keep them safe.</li><li><strong>Do not investigate</strong> or ask leading questions, and never confront the alleged abuser. That is a job for trained professionals, and questioning can compromise a later investigation.</li><li><strong>Record</strong> what was said as soon as possible, in the child's own words, with the date, time and place, and stick to the facts.</li><li><strong>Report promptly</strong> to your Designated Safeguarding Lead or follow your organisation's safeguarding policy.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "846d3837-0dda-4047-af0d-763e90c252ee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for If a child discloses",
+          "decorative": false,
+          "file": {
+            "path": "images/if-a-child-discloses.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "08728e6d-d641-46fa-87b6-f19f352d6d02",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Complete this guidance on responding to a disclosure by dragging each word into the correct gap.</p>",
+          "textField": "If a child discloses abuse, first *listen* calmly and take them seriously. Never promise to keep it a *secret*, because you may need to pass it on to keep the child safe. Do not *investigate* the concern or question the child in detail. Write an accurate *record* of what was said as soon as you can, using the child's own words. Finally, *report* the concern promptly to your Designated Safeguarding Lead.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "c3d93336-80ab-49bb-a719-7bbaacde71d5",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

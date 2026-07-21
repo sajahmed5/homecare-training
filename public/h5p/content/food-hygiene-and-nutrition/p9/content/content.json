@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What causes food poisoning</h2><p>Food poisoning is illness caused by eating contaminated food. Most cases come from harmful bacteria such as <em>Salmonella</em>, <em>Campylobacter</em>, <em>E. coli</em> and <em>Listeria</em>, or from viruses like norovirus. These germs are usually invisible, and food that carries them can look, smell and taste perfectly normal.</p><p>Harmful bacteria reach food through poor hygiene, cross-contamination from raw meat, undercooking, or letting cooked food sit in the warm danger zone where bacteria multiply. Symptoms often appear hours or days later and include nausea, being sick, diarrhoea, stomach cramps and a raised temperature.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1100bd00-5673-4b0d-90f6-68c76165d576",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Food poisoning risks",
+          "decorative": false,
+          "file": {
+            "path": "images/food-poisoning-risks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2f38ef5c-ea12-4f5a-915f-a1cc65ffd107",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>High-risk foods and vulnerable people</h2><p>Some foods support the growth of bacteria more readily and need extra care. These high-risk foods are usually ready to eat and moist:</p><ul><li><strong>Cooked meat, poultry and gravy:</strong> handle, cool and store these promptly.</li><li><strong>Dairy, eggs and cooked rice:</strong> keep them chilled and use within their date.</li><li><strong>Shellfish, p&acirc;t&eacute; and prepared salads:</strong> treat as ready-to-eat and keep them cold.</li></ul><p>Many people you support are more vulnerable to serious illness &mdash; older adults, those who are frail or unwell, and anyone with a weakened immune system. What gives you a mild upset stomach could put them in hospital, so careful food handling protects lives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "adc6df62-1c9c-4739-8e0b-7262bd64fffb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why do care workers need to take extra care with food safety for the older and unwell people they support?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Vulnerable people are more likely to become seriously ill from food poisoning that might only mildly affect a healthy adult.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Older, frail and immunocompromised people can be much more severely affected, so good food hygiene genuinely protects their health.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Older people always dislike the taste of fresh food.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This is not true and has nothing to do with food safety; the real reason is their greater vulnerability to illness.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Food poisoning only affects people over sixty-five.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Anyone can get food poisoning, but vulnerable groups tend to be affected far more seriously.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Extra care is only needed with raw meat, never with cooked or ready-to-eat food.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Many high-risk foods are cooked or ready to eat, such as cooked rice, gravy and prepared salads.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "83064fe5-07d5-4dc4-bd7f-36adbce646b2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

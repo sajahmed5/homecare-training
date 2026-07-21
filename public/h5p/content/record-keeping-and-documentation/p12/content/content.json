@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality is not the same as secrecy</h2><p>Confidentiality means personal information is shared only with those who have a genuine need to know it for the person&rsquo;s care. It does not mean information is never shared at all. Sometimes sharing is exactly the right thing to do &mdash; for example, passing a change in someone&rsquo;s condition to a nurse or GP.</p><p>The skill is knowing what to share, with whom, and why. Share too little and a person may not get safe care; share too widely and you break both their trust and the law.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "afa4e071-fda8-45a1-840f-148fc75f4423",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Sharing and Caldicott",
+          "decorative": false,
+          "file": {
+            "path": "images/sharing-and-caldicott.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0e7831fb-dc8f-41e3-914c-ad30d7b143ff",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Caldicott principles</h2><p>The Caldicott principles are a well-known guide for handling confidential health and care information. They help you judge when sharing is appropriate. In short, they remind you to:</p><ul><li><strong>Justify the purpose:</strong> be clear about why information is being shared.</li><li><strong>Use only what is needed:</strong> share the minimum amount necessary.</li><li><strong>Share on a need-to-know basis:</strong> only with those involved in the person&rsquo;s care.</li><li><strong>Respect duties both ways:</strong> the duty to share can matter as much as the duty to protect.</li><li><strong>Follow the law:</strong> everyone handling information should understand their responsibilities.</li></ul><p>A further principle reminds services to be open with people about how their information is used.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "24a5f11c-c4fa-40fc-8b27-7c68749b6236",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these sentences about sharing information.</p></p>",
+          "textField": "*Confidentiality* means sharing personal information only with those who genuinely need it. Sharing on a *need-to-know* basis limits who can see a person&rsquo;s details. The Caldicott principles say you should share the *minimum* amount of information necessary. Sometimes the duty to *share* is as important as the duty to protect. Being *open* with people about how their information is used helps build trust.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "be84338d-824b-4c29-b21b-713333b549e1",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

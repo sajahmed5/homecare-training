@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Personal hygiene and handwashing</h2><p>People are one of the main ways bacteria get onto food. Good personal hygiene - especially thorough, frequent handwashing - is one of the simplest and most effective safeguards.</p><p>Wash your hands with warm water and soap, cover all surfaces, rinse and dry thoroughly using a clean or disposable towel. Do this:</p><ul><li>before starting work and before handling food;</li><li>after using the toilet;</li><li>after handling raw meat, poultry, fish or eggs;</li><li>after touching bins, cleaning, coughing, sneezing or blowing your nose.</li></ul><p>Also tie back hair, keep nails short and clean, cover cuts with a brightly coloured waterproof dressing, wear clean protective clothing, and never handle food if you have sickness or diarrhoea (you should stay off food handling until 48 hours after symptoms stop).</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"67c77376-0dd5-4ba9-8855-1e6d4d14d8b8","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A care worker has just handled raw chicken and is about to prepare a sandwich for someone. What should they do first?</p>","answers":[{"correct":true,"text":"<div>Wash their hands thoroughly with warm water and soap, and use clean equipment</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Washing hands and using clean, separate equipment prevents bacteria from raw chicken contaminating the ready-to-eat sandwich.","notChosenFeedback":""}},{"correct":false,"text":"<div>Wipe their hands on a tea towel and carry on</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This does not remove bacteria and can spread contamination. Hands must be washed properly with soap and water.","notChosenFeedback":""}},{"correct":false,"text":"<div>Put on gloves over unwashed hands</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Gloves are not a substitute for handwashing. Hands must be washed first, and gloves changed between tasks.","notChosenFeedback":""}},{"correct":false,"text":"<div>Nothing, because the sandwich will not be cooked anyway</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This is exactly why care is needed. The sandwich is ready-to-eat, so any bacteria carried across on hands will not be cooked away.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"657ced13-911d-4dc1-8ca6-7fc333623f7b","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Personal hygiene and handwashing</h2><p>People are one of the main ways bacteria get onto food. Good personal hygiene - especially thorough, frequent handwashing - is one of the simplest and most effective safeguards.</p><p>Wash your hands with warm water and soap, cover all surfaces, rinse and dry thoroughly using a clean or disposable towel. Do this:</p><ul><li>before starting work and before handling food;</li><li>after using the toilet;</li><li>after handling raw meat, poultry, fish or eggs;</li><li>after touching bins, cleaning, coughing, sneezing or blowing your nose.</li></ul><p>Also tie back hair, keep nails short and clean, cover cuts with a brightly coloured waterproof dressing, wear clean protective clothing, and never handle food if you have sickness or diarrhoea (you should stay off food handling until 48 hours after symptoms stop).</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67c77376-0dd5-4ba9-8855-1e6d4d14d8b8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Personal hygiene",
+          "decorative": false,
+          "file": {
+            "path": "images/personal-hygiene.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6335577c-611a-4174-adfa-05d85a60bd4e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care worker has just handled raw chicken and is about to prepare a sandwich for someone. What should they do first?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Wash their hands thoroughly with warm water and soap, and use clean equipment</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Washing hands and using clean, separate equipment prevents bacteria from raw chicken contaminating the ready-to-eat sandwich.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wipe their hands on a tea towel and carry on</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This does not remove bacteria and can spread contamination. Hands must be washed properly with soap and water.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put on gloves over unwashed hands</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Gloves are not a substitute for handwashing. Hands must be washed first, and gloves changed between tasks.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing, because the sandwich will not be cooked anyway</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is exactly why care is needed. The sandwich is ready-to-eat, so any bacteria carried across on hands will not be cooked away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "657ced13-911d-4dc1-8ca6-7fc333623f7b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

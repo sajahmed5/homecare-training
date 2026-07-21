@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The laws behind safeguarding children</h2><p>Two Acts set the legal ground for protecting children in England. The Children Act 1989 established that a child&rsquo;s welfare is the paramount consideration when a court decides questions about their upbringing. It defines when a child is &lsquo;in need&rsquo;, and it places a duty on local authorities to investigate where there is reasonable cause to suspect that a child is suffering, or likely to suffer, significant harm. In law, a child is anyone who has not yet reached their eighteenth birthday.</p><p>The Children Act 2004 built on this after reviews showed agencies working in isolation. It strengthened the duty on organisations to work together and to make arrangements that safeguard and promote the welfare of children.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "804140cd-b811-4ded-afce-a3850664d16a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The law and framework",
+          "decorative": false,
+          "file": {
+            "path": "images/the-law-and-framework.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "decc8a32-dc9c-4741-a31a-3737ed6f5a8d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working Together and everyone&rsquo;s responsibility</h2><p>Working Together to Safeguard Children is the statutory guidance that puts these duties into practice, and its 2023 edition is clear that safeguarding is everyone&rsquo;s responsibility. No single agency can keep a child safe alone, and every worker who comes into contact with children and families has a part to play.</p><ul><li><strong>Safeguarding partners:</strong> the local authority, the police and the integrated care board share leadership for children in their area.</li><li><strong>Your part:</strong> you are not expected to investigate, but you are expected to notice, to be curious, and to pass concerns on.</li><li><strong>Health roles:</strong> if you work in a health role you also follow the intercollegiate guidance from the Royal College of Nursing and the Royal College of Paediatrics and Child Health, trained to the level that matches your role.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "af9c73d9-9763-45a4-bc4c-0b66116b8e16",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the Children Act 1989, what must be the paramount consideration when a court makes decisions about a child&rsquo;s upbringing?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The welfare of the child.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The 1989 Act makes the child&rsquo;s welfare the paramount consideration in decisions about their upbringing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The wishes of the child&rsquo;s parents.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A parent&rsquo;s wishes are considered, but the child&rsquo;s welfare comes first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The cost to the local authority.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Cost does not override a child&rsquo;s welfare, which is the paramount consideration.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The reputation of the agencies involved.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Agency reputation is never the deciding factor; the child&rsquo;s welfare is paramount.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e3a39570-fdeb-4e55-ab63-5947f53f17ef",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

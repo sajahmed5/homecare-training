@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Exploitation: county lines and CSE</h2><p>Some children are harmed by people outside their family who deliberately exploit them. Child criminal exploitation includes &lsquo;county lines&rsquo;, where criminal groups use children to store and sell drugs, often moving them away from home. Signs can include a child with unexplained money, phones or clothing, going missing, or seeming frightened of older &lsquo;friends&rsquo;.</p><p>Child sexual exploitation is a form of sexual abuse in which a child is manipulated or coerced into sexual activity, sometimes in return for gifts, affection or status. Exploited children are often groomed into believing they are willing participants, so they may not see themselves as victims &mdash; which is exactly why the adults around them must stay alert.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "886d3c82-d763-4dd4-b9c1-0c1fed29c805",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Specific risks",
+          "decorative": false,
+          "file": {
+            "path": "images/specific-risks.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7278f05e-8c24-40f1-9dd3-f92787882155",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Online harm, FGM and radicalisation</h2><p>Harm increasingly reaches children through screens. Online risks include grooming, bullying, and exposure to harmful or extremist material.</p><ul><li><strong>FGM:</strong> female genital mutilation is the partial or total removal of external female genitalia for non-medical reasons. It is illegal in the UK and is child abuse; warning signs may include talk of a &lsquo;special procedure&rsquo; or a long trip abroad.</li><li><strong>Radicalisation:</strong> the process by which someone comes to support terrorism or extremist ideologies. Prevent is the part of the Government&rsquo;s counter-terrorism strategy that aims to stop people being drawn into terrorism.</li><li><strong>Your response:</strong> in every case you notice and report through the usual safeguarding routes &mdash; it is not for you to decide whether the risk is real.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6f227999-a77b-4ff4-b7c8-f9e6261d1a67",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>An adult you support has a teenage grandson who is often at the home. He has begun going missing for days, has a second phone and trainers no one can explain, and seems frightened of older men who wait outside. What might this suggest?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Possible child criminal exploitation, such as county lines, which you should report.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Going missing, unexplained items and fear of older figures are recognised signs of criminal exploitation, and you should report them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Normal teenage behaviour that is none of your concern.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. These signs together may point to exploitation, and safeguarding a child is always your concern.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>That he is simply doing well and earning his own money.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Unexplained money and phones alongside going missing and fear are warning signs, not signs of success.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A matter to raise directly with the older men outside.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Confronting the people involved could place the child and you at risk; report through safeguarding routes instead.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4ce5d7b1-7c38-4b33-aa02-88173b41e54b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

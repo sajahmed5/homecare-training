@@ -3,60 +3,95 @@
   "title": "Food Hygiene & Nutrition",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p1",
-      "type": "h5p",
       "label": "Why it matters",
-      "section": "Safe food handling",
-      "questions": 1
+      "questions": 1,
+      "section": "Keeping food safe"
     },
     {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p2",
-      "type": "h5p",
       "label": "The 4 Cs",
-      "section": "Safe food handling",
-      "questions": 1
+      "questions": 1,
+      "section": "Keeping food safe"
     },
     {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p3",
-      "type": "h5p",
       "label": "Temperature control",
-      "section": "Safe food handling",
-      "questions": 2
+      "questions": 2,
+      "section": "Keeping food safe"
     },
     {
+      "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p9",
+      "label": "Food poisoning risks",
+      "questions": 1,
+      "section": "Keeping food safe"
+    },
+    {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p4",
-      "type": "h5p",
       "label": "Personal hygiene",
-      "section": "Hygiene, allergens and controls",
-      "questions": 1
+      "questions": 1,
+      "section": "Hygiene, allergens and controls"
     },
     {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p5",
-      "type": "h5p",
       "label": "Dates, allergens & HACCP",
-      "section": "Hygiene, allergens and controls",
-      "questions": 1
+      "questions": 1,
+      "section": "Hygiene, allergens and controls"
     },
     {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p6",
-      "type": "h5p",
       "label": "Nutrition & hydration",
-      "section": "Eating and drinking well",
-      "questions": 1
+      "questions": 1,
+      "section": "Eating and drinking well"
     },
     {
+      "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p10",
+      "label": "The Eatwell Guide",
+      "questions": 1,
+      "section": "Eating and drinking well"
+    },
+    {
+      "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p11",
+      "label": "Hydration in depth",
+      "questions": 1,
+      "section": "Eating and drinking well"
+    },
+    {
+      "type": "h5p",
       "path": "food-hygiene-and-nutrition/p7",
-      "type": "h5p",
       "label": "Malnutrition & MUST",
-      "section": "Eating and drinking well",
-      "questions": 1
+      "questions": 1,
+      "section": "When eating is a struggle"
     },
     {
-      "path": "food-hygiene-and-nutrition/p8",
       "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p12",
+      "label": "Dignity at mealtimes",
+      "questions": 1,
+      "section": "When eating is a struggle"
+    },
+    {
+      "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p13",
+      "label": "Special diets & textures",
+      "questions": 1,
+      "section": "Support at mealtimes"
+    },
+    {
+      "type": "h5p",
+      "path": "food-hygiene-and-nutrition/p8",
       "label": "Dysphagia & choice",
-      "section": "Support with swallowing",
-      "questions": 1
+      "questions": 1,
+      "section": "Support at mealtimes"
     }
   ]
 }

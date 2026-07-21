@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Laundry, food and the wider environment</h2><p>Infection can spread through the everyday tasks of a care setting, so safe routines with laundry, food and surfaces matter as much as clinical care.</p><ul><li><strong>Laundry:</strong> handle used linen away from your body, do not shake it, and bag soiled items at the point of use. Wash infected linen on the hottest cycle the fabric allows, following your workplace policy.</li><li><strong>Food:</strong> clean your hands before handling food, keep raw and cooked foods apart, store food at the right temperature and never prepare food for others if you have diarrhoea or vomiting.</li><li><strong>Environment:</strong> clean frequently touched surfaces such as handrails, door handles and light switches regularly, using the correct products and colour-coded equipment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7459ceaa-3074-4aef-b109-b2b756a65fc5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Laundry, food and scenario",
+          "decorative": false,
+          "file": {
+            "path": "images/laundry-food-and-scenario.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5240da15-6aca-4ce4-93eb-1e6ea11896c6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together: a realistic scenario</h2><p>You arrive for an early shift and find that Mrs Okafor, who you support at home, was sick twice overnight and has had diarrhoea. She looks tired but is talking normally. Her daughter has left the soiled bedding in a pile on the floor.</p><p>You think through what you know. Sudden vomiting and diarrhoea suggest a possible infection such as norovirus, which spreads easily. Before anything else you put on an apron and gloves, and you plan to wash your hands with soap and water, not just gel. You bag the soiled linen where it lies without shaking it, clean the affected surfaces, and report the symptoms to your manager so advice can be sought. You keep Mrs Okafor comfortable and encourage fluids while you wait.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7e35a334-6a77-4a85-a7dc-dcab41c8a116",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, which combination of actions best protects Mrs Okafor and others from a possible norovirus infection?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Wear apron and gloves, wash your hands with soap and water, bag the linen without shaking it, clean surfaces and report the symptoms.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. This combines the right PPE, effective hand washing, safe laundry handling, cleaning and prompt reporting.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use alcohol hand gel only and carry the bedding to the machine, giving it a good shake to loosen it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Gel is less effective against norovirus, and shaking linen releases the virus into the air.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the end of your shift to mention the sickness to your manager.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Prompt reporting lets advice and control measures start before infection spreads.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip PPE because you know Mrs Okafor well and do not want to seem distant.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Standard precautions apply with everyone; PPE protects you both regardless of how well you know her.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f33bf823-adbc-4bb8-bccc-272351768c4b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
