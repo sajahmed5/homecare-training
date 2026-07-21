@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Caldicott principles</h2><p>The Caldicott principles guide how confidential health and care information should be handled. They ask you to justify the purpose of every use of that information, and not to use it unless it is genuinely necessary. When you do use it, you should use the minimum amount required for the task &mdash; no more &lsquo;just in case&rsquo;. Access should be on a strict need-to-know basis, so that people see only the information their role requires. Everyone handling confidential information must understand their responsibilities and comply with the law. A later principle also asks organisations to be open with people about how their information is used, so there are no surprises.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7673d376-1e37-4f9f-a984-4f2c472b8890",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Caldicott principles",
+          "decorative": false,
+          "file": {
+            "path": "images/caldicott-principles.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ccde924e-5a62-494a-b5af-0cf8a954dfda",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Need to know, and the duty to share</h2><p>&lsquo;Need to know&rsquo; is a practical test: before you look at, discuss or pass on information, ask whether you actually need it to do your job or keep someone safe. Curiosity is never a good enough reason. At the same time, protecting information is not the same as hoarding it. One Caldicott principle makes clear that the <strong>duty to share</strong> information can be as important as the duty to protect it. If a person could be harmed because professionals held back information that should have been shared, that failure is just as serious as an inappropriate disclosure. Safe, joined-up care depends on getting this balance right, and on recording your reasons.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7315a48b-3828-4cf7-8df6-db19c9963385",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the summary of the Caldicott principles.</p></p>",
+          "textField": "You should use the *minimum* amount of confidential information needed, and only access records on a strict need-to-*know* basis. Every use of that information must have a justified *purpose*. One principle reminds us that the duty to *share* can be as important as the duty to protect, so that people receive safe, joined-up *care*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "09f78a87-70db-405b-b80c-ebd9663da78c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

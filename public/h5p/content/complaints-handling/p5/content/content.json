@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>From receiving to responding</h2><p>Beyond the first conversation, there is a clear process every complaint should follow so that nothing is lost and the person is treated fairly.</p><ul><li><strong>Acknowledge</strong> the complaint promptly &mdash; under the 2009 Regulations this must be within <strong>three working days</strong> of receiving it.</li><li><strong>Record</strong> it accurately, capturing what the person said and what they would like to happen.</li><li><strong>Investigate fairly</strong> &mdash; look at the facts openly and without taking sides.</li><li><strong>Agree timescales</strong> &mdash; give a realistic idea of how long it will take and set an expected date for the final response.</li><li><strong>Keep the person informed</strong> throughout, so they are never left wondering.</li><li><strong>Respond</strong> clearly, explaining what was found, what will change and how to take it further if they are still unhappy.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"8a9d9faa-e7eb-463a-8000-7e4c49cf027a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Timescales that keep trust</h2><p>The 2009 Regulations do not set one fixed deadline for the final response; instead they require the service to <strong>agree a realistic timescale</strong> with the complainant and keep them updated. A person also generally has up to <strong>12 months</strong> from the event (or from when they became aware of it) to make a complaint. What matters most is that people are never left in silence &mdash; regular, honest updates are what keep trust alive.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"31265f6e-718d-48bb-8a99-12c793255cf6","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Under the 2009 Complaints Regulations, how quickly must a complaint normally be acknowledged?</p>","answers":[{"correct":true,"text":"<div>Within three working days of receiving it.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Acknowledgement should be made no later than three working days after the complaint is received.","notChosenFeedback":""}},{"correct":false,"text":"<div>Within three calendar months.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Three months is far too long; acknowledgement is expected within three working days.","notChosenFeedback":""}},{"correct":false,"text":"<div>Only once the investigation is fully complete.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Acknowledgement comes first and quickly; the investigation follows.","notChosenFeedback":""}},{"correct":false,"text":"<div>There is no need to acknowledge a complaint at all.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Prompt acknowledgement is a clear requirement and shows the person they have been heard.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"e442f54b-c223-43c9-b1a8-95ee0c8b48da","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>From receiving to responding</h2><p>Beyond the first conversation, there is a clear process every complaint should follow so that nothing is lost and the person is treated fairly.</p><ul><li><strong>Acknowledge</strong> the complaint promptly &mdash; under the 2009 Regulations this must be within <strong>three working days</strong> of receiving it.</li><li><strong>Record</strong> it accurately, capturing what the person said and what they would like to happen.</li><li><strong>Investigate fairly</strong> &mdash; look at the facts openly and without taking sides.</li><li><strong>Agree timescales</strong> &mdash; give a realistic idea of how long it will take and set an expected date for the final response.</li><li><strong>Keep the person informed</strong> throughout, so they are never left wondering.</li><li><strong>Respond</strong> clearly, explaining what was found, what will change and how to take it further if they are still unhappy.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8a9d9faa-e7eb-463a-8000-7e4c49cf027a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The process",
+          "decorative": false,
+          "file": {
+            "path": "images/the-process.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "237fc745-0fbf-44ad-bb4b-58f41312e890",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Timescales that keep trust</h2><p>The 2009 Regulations do not set one fixed deadline for the final response; instead they require the service to <strong>agree a realistic timescale</strong> with the complainant and keep them updated. A person also generally has up to <strong>12 months</strong> from the event (or from when they became aware of it) to make a complaint. What matters most is that people are never left in silence &mdash; regular, honest updates are what keep trust alive.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "31265f6e-718d-48bb-8a99-12c793255cf6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the 2009 Complaints Regulations, how quickly must a complaint normally be acknowledged?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Within three working days of receiving it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Acknowledgement should be made no later than three working days after the complaint is received.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Within three calendar months.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Three months is far too long; acknowledgement is expected within three working days.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only once the investigation is fully complete.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Acknowledgement comes first and quickly; the investigation follows.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no need to acknowledge a complaint at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Prompt acknowledgement is a clear requirement and shows the person they have been heard.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e442f54b-c223-43c9-b1a8-95ee0c8b48da",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Some events must reach the CQC</h2><p>Registered providers in England have a legal duty to notify the Care Quality Commission about certain serious events, so that the regulator can see what is happening and act if it needs to. Your manager or the registered manager makes these notifications, not you as an individual worker &mdash; but you play a vital part by reporting promptly and recording clearly, because they can only notify what they know about. These notifications sit alongside, and are separate from, any RIDDOR report to the HSE and any safeguarding referral to the local authority.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "45e07898-8a61-4b5d-bc77-59eaf9956f16",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for CQC notifications",
+          "decorative": false,
+          "file": {
+            "path": "images/cqc-notifications.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "83b4e5d5-2bb3-448e-82fc-9501ffaa8be8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Notifiable events</h2><p>Among the events a provider must tell the CQC about are:</p><ul><li>the death of a person using the service;</li><li>a serious injury to a person using the service;</li><li>abuse, or an allegation of abuse, concerning a person using the service;</li><li>an application or authorisation to deprive a person of their liberty;</li><li>any event that stops, or may stop, the service running safely.</li></ul><p>Where a death is unexpected, unexplained or may be linked to the care given, it can also have to be reported to the coroner, who may investigate and hold an inquest. You do not decide these things on your own; your job is to escalate quickly so that those responsible can meet the timescales.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "23c66229-02b8-4cd7-a936-721eff0b6290",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support dies suddenly and unexpectedly during your shift. Beyond giving emergency care, what is the right understanding of reporting?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>You escalate to your manager immediately and record what happened; the registered manager notifies the CQC, and an unexpected death may also be reported to the coroner.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Your part is to act, escalate and record accurately; the registered manager makes the CQC notification, and an unexpected death may involve the coroner.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You must ring the CQC yourself straight away, or you will be personally fined.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The notification is the registered provider&rsquo;s duty, not the individual worker&rsquo;s; your duty is to escalate and record promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing needs reporting to any regulator, because death is a natural part of care work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The death of a person using the service is a notifiable event, and an unexpected death may also concern the coroner.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should wait until the family has been told before writing anything down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Record the facts as soon as you can while they are fresh; informing the family is important but does not delay accurate recording.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "cfd53d5d-291b-4618-a76d-9dfd15b232d5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

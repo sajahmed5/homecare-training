@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Complaints are a legal duty, not a favour</h2><p>Handling complaints well is something you should want to do &mdash; but it is also something the law requires. Every adult social care service in England must, by law, run a proper complaints procedure. You cannot choose to ignore a complaint, brush it aside, or treat the person raising it as a nuisance.</p><p>The main rules are set by the Local Authority Social Services and NHS Complaints (England) Regulations 2009. These regulations cover complaints about both adult social care and NHS services, and they set out what a lawful procedure must do: make it easy for people to complain, name a responsible person who oversees the process, acknowledge each complaint promptly, investigate it properly, and give a clear response.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eef5c175-4c88-43aa-90a5-0784e8f8a9a5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The legal duty",
+          "decorative": false,
+          "file": {
+            "path": "images/the-legal-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "62cd41d9-4e72-46c4-9614-06880f26b649",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Complaints are a regulated activity</h2><p>On top of those regulations, the Care Quality Commission (CQC) inspects how services handle complaints. CQC Regulation 16, &ldquo;Receiving and acting on complaints&rdquo;, says every provider must operate an accessible system to receive, handle and respond to complaints, investigate them, and take any action the investigation shows is needed.</p><ul><li><strong>It is inspected:</strong> the CQC can ask to see your complaints records as evidence of a safe, well-led service.</li><li><strong>It is everyone&rsquo;s business:</strong> the legal duty sits with the provider, but it is met through the everyday actions of workers like you.</li><li><strong>It protects people:</strong> a strong procedure is one of the ways poor care is caught and put right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27008ea0-839a-4623-9523-71579d7ecdf9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these best describes the legal position on complaints in adult social care in England?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Services must run a proper complaints procedure under the 2009 Complaints Regulations, and the CQC inspects this under Regulation 16.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The Complaints Regulations 2009 require a lawful procedure, and CQC Regulation 16 makes handling complaints a regulated, inspected activity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Handling complaints is good practice but there is no law that requires it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. It is a legal duty under the 2009 regulations and is regulated by the CQC under Regulation 16.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only the NHS has to follow complaints law; adult social care services are exempt.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The 2009 regulations cover adult social care as well as the NHS, and the CQC regulates social care providers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A complaint only has to be dealt with if the person puts it in writing and signs it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The law does not require a signed written complaint; services must accept and act on concerns raised in many ways.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a8004e5a-9f30-4adc-bcfe-3e530417db0a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

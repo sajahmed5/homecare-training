@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying calm when someone is upset</h2><p>Often a complaint reaches you first, in the moment, from someone who is frustrated, frightened or angry. How you respond in those first few seconds shapes everything that follows. The most important thing is to stay calm and not take it personally &mdash; even when the words feel sharp, the person is usually reacting to a situation, not attacking you.</p><p>Resist the urge to defend yourself, argue back, or explain why they are wrong. Getting defensive tells the person you are more interested in protecting yourself than in helping them. Instead, listen. Give the person your full attention, let them finish without interrupting, and show with your face and body that you are taking them seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4cf3f240-8a09-4eb0-a98f-e3ddd2423926",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Handling it in person",
+          "decorative": false,
+          "file": {
+            "path": "images/handling-it-in-person.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e952f5f2-25e7-4c9c-b74c-5872619ff633",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A simple structure to remember</h2><p>When your mind goes blank, it helps to have a few steps to fall back on. A widely used approach can be remembered as LEARN:</p><ul><li><strong>Listen:</strong> hear the person out fully before you respond.</li><li><strong>Empathise:</strong> acknowledge how they feel &mdash; &ldquo;I can see this has really upset you.&rdquo;</li><li><strong>Apologise:</strong> say sorry that they have had this experience, even before anything is investigated.</li><li><strong>React:</strong> explain what you will do next and who you will tell.</li><li><strong>Notify:</strong> make sure the concern reaches the right person so it is not lost.</li></ul><p>Empathy and active listening cost nothing, yet they defuse most situations and often turn a tense moment into the start of trust being rebuilt.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c022013f-2a71-479d-9393-5cff2efd7aaf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When someone complains to you angrily in the moment, it is best to explain straight away why they have misunderstood the situation, so they calm down.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Leaping in to correct the person sounds defensive and makes things worse. Listen first, empathise, and say sorry for their experience before anything else.",
+            "correctAnswerMessage": "Correct. Jumping in to explain why they are wrong comes across as defensive; listening, empathising and apologising for their experience works far better."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "2b52a3a0-a131-4f01-b94b-e9da145124ae",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

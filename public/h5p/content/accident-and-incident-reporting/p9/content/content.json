@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>More than accidents</h2><p>An accident such as a fall or a scald is only one kind of incident you might have to report. In adult social care, an incident is any unplanned event that did, or could have, caused harm to a person you support, a colleague, a visitor or yourself. Some are obvious; many are not. Recognising the full range matters, because an event you do not treat as an incident is one you will not record, and one that nobody can learn from. If you are ever in doubt, report it and let a senior decide.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d94f96fc-d16a-4e79-aa0a-34454321c4db",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types of incident",
+          "decorative": false,
+          "file": {
+            "path": "images/types-of-incident.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "54270813-19d0-44ac-beb0-72d9f5c4af57",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common types in care</h2><ul><li><strong>Medication errors:</strong> a missed dose, wrong dose, wrong person or wrong time.</li><li><strong>Safeguarding incidents:</strong> suspected abuse, neglect or a disclosure of harm.</li><li><strong>Missed or late visits:</strong> a call not made can leave someone without food, medication or help.</li><li><strong>Going missing or absconding:</strong> a person leaving unnoticed and at risk.</li><li><strong>Behaviour that challenges:</strong> aggression or distress that risks harm to someone.</li><li><strong>Data and IT incidents:</strong> a lost work phone, a care plan left on a bus, or notes emailed to the wrong address.</li></ul><p>Pressure ulcers, unexplained injuries and equipment failures count too. Several of these may be events your manager has to report onward, so none should be brushed aside as &lsquo;just one of those things&rsquo;.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b2601e3c-8a34-4a01-be5d-df5a4f47b008",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A carer arrives in the morning to find yesterday evening&rsquo;s medication still sitting untaken in the blister pack. Is this an incident?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Yes &mdash; a missed dose is a medication error, an incident in its own right, and must be recorded and reported even though no harm is yet obvious.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A missed dose is a recognised medication error and needs recording and reporting so the person can be checked and the cause looked into.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No, because the person seems well this morning, so there is nothing to record.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Harm from a missed dose may appear later, and a near miss still has to be recorded so it can be reviewed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No, medication mistakes are only incidents if the person is taken to hospital.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A medication error is an incident regardless of the outcome; the outcome affects what happens next, not whether it is reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only the next carer needs to know; it does not need writing down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A quiet word is not enough; a medication error must be formally recorded and escalated.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1f811e6e-dccd-48d6-93d3-e643582ad9ca",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

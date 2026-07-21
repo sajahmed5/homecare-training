@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Passwords, devices and phishing</h2><p>Most information now lives on computers, phones and care systems, so everyday digital habits are part of keeping it safe. Use a strong, unique password or passphrase for each account, never share your login, and switch on multi-factor authentication where it is offered. Lock your screen whenever you step away, and never leave a device unattended where others could use it. Be alert to <strong>phishing</strong>: emails, texts or calls that try to trick you into clicking a link, opening an attachment or handing over details. Check who a message is really from, do not be rushed by urgent-sounding demands, and if something feels wrong, report it rather than clicking.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "906d62b3-ced0-44e0-ae61-47327d29e89f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Cyber security",
+          "decorative": false,
+          "file": {
+            "path": "images/cyber-security.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "55189e7d-848d-40be-85f4-569c0c56be36",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Remote working and social media</h2><p>Working away from the office brings extra care. Only use devices and networks your employer allows, keep records out of sight of family and members of the public, and avoid working over unsecured public Wi-Fi. Do not save confidential information onto personal phones, laptops or memory sticks unless your policy permits it and it is properly encrypted. Social media deserves special caution: never post anything that identifies the people you support, share photographs of them or their homes, or discuss your work in a way that could reveal who is being cared for. Your duty of confidentiality does not clock off when your shift ends &mdash; it applies online, at home and among friends.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "aa61369a-f987-40c2-b62b-eb5fff0b5f0f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is fine to share your care-system login with a colleague who has forgotten theirs, as long as you trust them and it saves time.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; this is false. Sharing logins is never acceptable, because records must show exactly who accessed or changed information; a forgotten password should be reset, not worked around.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Logins must never be shared, even with someone you trust: they identify who did what, and sharing them breaks that accountability and your security policy. Your colleague should get their own access sorted out."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "1505e32f-2659-4a70-8efa-a454d753b886",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

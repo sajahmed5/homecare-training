@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>People's rights over their information</h2><p>UK GDPR gives individuals rights over the information held about them. The ones you're most likely to meet in care are:</p><ul><li><strong>Right to be informed</strong> &ndash; people should know what information you hold and why, usually through a privacy notice.</li><li><strong>Right of access</strong> &ndash; people can ask to see the information you hold about them. This is a <strong>subject access request (SAR)</strong>.</li><li><strong>Right to rectification</strong> &ndash; people can ask you to correct information that is wrong or incomplete.</li><li><strong>Right to erasure</strong> &ndash; people can ask you to delete information in certain circumstances (this right is not absolute, especially where records must be kept for care or legal reasons).</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"a77ab161-f7b9-4042-a9b6-59f8a9e5e304","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Handling a subject access request</h2><p>A SAR can be made <strong>verbally or in writing</strong>, by any staff member, and even through social media &mdash; the person does not have to use a special form or say the words 'subject access request'. Because of this, you need to recognise one when it happens and pass it on.</p><p>Organisations must normally respond <strong>within one month</strong>, and usually free of charge. If a resident says, &quot;I want to see everything you've written about me,&quot; that is a SAR &mdash; report it to your manager promptly so it can be handled correctly and on time.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ef4cb246-e09e-4cd7-b9df-19f7008562f9","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A subject access request must always be made in writing on an official form before it counts.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. There is no set format: people can make a subject access request verbally or in writing, so any such request must be taken seriously.","correctAnswerMessage":"Correct. A SAR can be made verbally or in writing, in any format &mdash; so you must recognise and act on it however it arrives."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"a10715ac-8749-4eb7-8328-88f2c8f0fe27","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>People's rights over their information</h2><p>UK GDPR gives individuals rights over the information held about them. The ones you're most likely to meet in care are:</p><ul><li><strong>Right to be informed</strong> &ndash; people should know what information you hold and why, usually through a privacy notice.</li><li><strong>Right of access</strong> &ndash; people can ask to see the information you hold about them. This is a <strong>subject access request (SAR)</strong>.</li><li><strong>Right to rectification</strong> &ndash; people can ask you to correct information that is wrong or incomplete.</li><li><strong>Right to erasure</strong> &ndash; people can ask you to delete information in certain circumstances (this right is not absolute, especially where records must be kept for care or legal reasons).</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a77ab161-f7b9-4042-a9b6-59f8a9e5e304",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Individual rights",
+          "decorative": false,
+          "file": {
+            "path": "images/individual-rights.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d86bdf56-2f9d-4e1b-a99b-71b283604765",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Handling a subject access request</h2><p>A SAR can be made <strong>verbally or in writing</strong>, by any staff member, and even through social media &mdash; the person does not have to use a special form or say the words 'subject access request'. Because of this, you need to recognise one when it happens and pass it on.</p><p>Organisations must normally respond <strong>within one month</strong>, and usually free of charge. If a resident says, &quot;I want to see everything you've written about me,&quot; that is a SAR &mdash; report it to your manager promptly so it can be handled correctly and on time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ef4cb246-e09e-4cd7-b9df-19f7008562f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A subject access request must always be made in writing on an official form before it counts.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. There is no set format: people can make a subject access request verbally or in writing, so any such request must be taken seriously.",
+            "correctAnswerMessage": "Correct. A SAR can be made verbally or in writing, in any format &mdash; so you must recognise and act on it however it arrives."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "a10715ac-8749-4eb7-8328-88f2c8f0fe27",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

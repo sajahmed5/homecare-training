@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>CQC notifications and being open</h2><p>Alongside RIDDOR, the CQC requires registered providers to send <strong>statutory notifications</strong> about certain events. These include the death of a person using the service, serious injuries, abuse or allegations of abuse, and events that stop the service running safely.</p><p>The <strong>duty of candour (Regulation 20)</strong> requires registered persons to be open and honest when something goes wrong and causes, or could cause, harm. When a notifiable safety incident occurs, the service must:</p><ul><li>Tell the person affected (or their representative) <strong>in person</strong> as soon as reasonably practicable.</li><li>Give a truthful, step-by-step account of what happened.</li><li><strong>Apologise</strong> &mdash; saying sorry is the right thing to do and is not an admission of legal liability.</li><li>Explain what will be done next and offer reasonable support.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"6e8c6e7c-916f-4288-b3f4-3714987f7366","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Under the duty of candour, apologising to a person after something has gone wrong counts as admitting legal liability.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Saying sorry is required by the duty of candour and is not an admission of liability.","correctAnswerMessage":"Correct. An apology is an act of openness and compassion; it is not, in itself, an admission of legal liability."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"cabc8509-bc95-4127-bc51-7b4c2249a505","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>CQC notifications and being open</h2><p>Alongside RIDDOR, the CQC requires registered providers to send <strong>statutory notifications</strong> about certain events. These include the death of a person using the service, serious injuries, abuse or allegations of abuse, and events that stop the service running safely.</p><p>The <strong>duty of candour (Regulation 20)</strong> requires registered persons to be open and honest when something goes wrong and causes, or could cause, harm. When a notifiable safety incident occurs, the service must:</p><ul><li>Tell the person affected (or their representative) <strong>in person</strong> as soon as reasonably practicable.</li><li>Give a truthful, step-by-step account of what happened.</li><li><strong>Apologise</strong> &mdash; saying sorry is the right thing to do and is not an admission of legal liability.</li><li>Explain what will be done next and offer reasonable support.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6e8c6e7c-916f-4288-b3f4-3714987f7366",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for CQC & duty of candour",
+          "decorative": false,
+          "file": {
+            "path": "images/cqc-duty-of-candour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "08d01cf5-8ed1-4e41-8b7a-89dd466d74b1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the duty of candour, apologising to a person after something has gone wrong counts as admitting legal liability.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Saying sorry is required by the duty of candour and is not an admission of liability.",
+            "correctAnswerMessage": "Correct. An apology is an act of openness and compassion; it is not, in itself, an admission of legal liability."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "cabc8509-bc95-4127-bc51-7b4c2249a505",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

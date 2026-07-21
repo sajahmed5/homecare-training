@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Conflict is not only with the people you support</h2><p>Not all conflict happens at the bedside. Some of the tension you meet will be with colleagues, managers, relatives or visiting professionals. A relative may be angry about a missed visit; a nurse and a carer may disagree about a plan; a handover may be tense because everyone is tired and stretched.</p><p>These disagreements are normal and, handled well, can improve care. Left to fester, they damage teamwork and put people who rely on you at risk. Families in particular are often anxious or grieving, and what sounds like a complaint is frequently worry about someone they love.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7b7e1c63-4788-4542-8840-6ec4a33a07d2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Colleagues and families",
+          "decorative": false,
+          "file": {
+            "path": "images/colleagues-and-families.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3715269b-021f-407d-8273-af467ef3742b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Resolving it constructively</h2><p>The aim is to disagree well, not to avoid disagreement altogether.</p><ul><li><strong>Listen first:</strong> let the other person feel heard before you explain your side.</li><li><strong>Focus on the issue:</strong> talk about the situation and its effect, not the person&rsquo;s character.</li><li><strong>Find common ground:</strong> you usually share the same goal &mdash; good, safe care.</li><li><strong>Stay professional:</strong> keep confidences, avoid gossip and do not take sides in corridors.</li><li><strong>Escalate properly:</strong> if you cannot resolve it, raise it calmly with your manager rather than letting it simmer.</li></ul><p>Handled openly and respectfully, workplace conflict becomes a chance to understand each other better.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a9a70940-e0ee-4057-a89e-537f4dc4ff10",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative confronts you angrily in the corridor, saying their mother was not helped to the toilet in time. What is the best first response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Listen calmly and let them feel heard before you explain or offer to look into what happened.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Anger from families is often worry; listening first lowers the tension and shows you take their concern seriously.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Defend the team straight away and explain how busy the shift has been.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Jumping to defend yourself before listening tends to make the person feel dismissed and more angry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them this is not the time or place and walk away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Dismissing them escalates the conflict; you can move somewhere private, but do not shut them down.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Agree the care was terrible so they calm down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Making promises or judgements you cannot stand behind is not honest; listen, then follow the proper process.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "78a3f8b6-253a-4aaa-a0b2-56b75160589e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

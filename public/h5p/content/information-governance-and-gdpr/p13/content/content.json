@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Subject access requests and records rights</h2><p>People have a legal right to see the personal information held about them. When someone asks for a copy of their own records, this is a <strong>subject access request</strong>. They are entitled to a copy, normally free of charge, and the organisation must respond without undue delay &mdash; usually within one month. You are not expected to handle a request alone or hand over a file on the spot. Your job is to recognise the request, treat it seriously, and pass it promptly to your manager or the responsible person, who will confirm the requester&rsquo;s identity and make sure information about other people is properly protected before anything is released.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e0759f8b-73b8-4356-acbd-3b90825a8ffd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Access &amp; retention",
+          "decorative": false,
+          "file": {
+            "path": "images/access-amp-retention.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8404c3bb-0cb5-48b2-b9ee-7f435c95f12e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping records only as long as needed</h2><p>Information should be kept accurate and up to date, and held only for as long as there is a genuine reason to keep it. Organisations follow retention schedules &mdash; for health and care records these are set out in the Records Management Code of Practice &mdash; which say how long different records should be kept. Keeping information forever &lsquo;just in case&rsquo; is not lawful, and neither is destroying records too early. When information does reach the end of its life, it must be disposed of securely: paper shredded or placed in confidential waste, and electronic records deleted so they cannot be recovered. Never simply bin confidential paperwork or leave old devices lying around.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "29268c81-8009-4906-b3ec-4e830b1a26d3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support says: &lsquo;I want to see everything that is written about me in my care file.&rsquo; What is the correct response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat it as a subject access request: they have a right to a copy of their information, so pass the request promptly to your manager or the responsible person to handle, usually within one month.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. This is a subject access request; recognising it and escalating it properly is exactly what is expected of you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Refuse, because care records belong to the organisation and people have no right to see what is written about them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. People have a clear legal right of access to their own personal information; refusing outright is unlawful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hand over the whole file on the spot yourself, including notes about other people, without telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Requests must be handled properly, with identity checked and other people&rsquo;s information protected before anything is released.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them they must pay a large fee and wait at least a year for a decision.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A copy is normally provided free of charge and the response is usually due within one month, not a year.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "cab12a35-06fe-433d-8fe5-5c64467a9e8e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

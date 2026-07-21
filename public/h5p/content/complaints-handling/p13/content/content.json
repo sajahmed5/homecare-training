@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Look for themes and trends</h2><p>A single complaint tells you about one moment. Many complaints, looked at together, tell you about your service. This is where the real value of complaints lies: not just in fixing one problem, but in spotting the patterns behind them.</p><p>When complaints are logged and reviewed over time, themes appear &mdash; perhaps calls for help take too long at night, or a particular meal is regularly cold. On their own each grumble seems small; grouped together they point clearly to something that needs to change. Reviewing trends turns scattered complaints into useful information the whole team can act on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "18041aab-8663-4141-a914-8da917131035",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Turning complaints into change",
+          "decorative": false,
+          "file": {
+            "path": "images/turning-complaints-into-change.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "090bde42-06af-4e76-a8a4-42164d2ed125",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Close the loop and share the learning</h2><p>Improvement only counts if people can see it. A simple &ldquo;you said, we did&rdquo; approach &mdash; telling people what you changed as a result of their feedback &mdash; shows complaints are taken seriously and encourages others to speak up.</p><p><strong>A realistic scenario.</strong> Over a month, three families mention that evening drinks are served too early and residents get thirsty overnight. Individually the staff had reassured each family and moved on. At the team meeting the pattern is noticed, the routine is changed so a later drinks round is added, and a note on the noticeboard tells families what was done. A handful of small complaints becomes a real improvement in care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11ee8022-b6c6-479b-ba9d-06e0564e2324",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, what turned three separate comments about evening drinks into a genuine improvement?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The comments were logged and reviewed together, the pattern was spotted at a team meeting, the routine was changed, and families were told.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reviewing complaints for themes, acting on the pattern and feeding back &ldquo;you said, we did&rdquo; is how complaints drive improvement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Each family was reassured on the day, so nothing further was needed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Reassuring people one by one is exactly what stopped the pattern being seen and the problem being fixed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The complaints were kept separate so no one would think there was a wider issue.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Keeping them separate hides the trend; it is bringing them together that reveals the problem.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The families were asked to stop raising the same point repeatedly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Discouraging feedback is the opposite of learning from complaints and would let the problem continue.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "aee08232-fab7-4b23-959f-f80f7e774f9c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

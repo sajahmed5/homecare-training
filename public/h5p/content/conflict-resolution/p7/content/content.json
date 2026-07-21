@@ -1,1 +1,90 @@
-{"content":[{"content":{"params":{"text":"<h2>The difference between assertiveness and aggression</h2><p>Being assertive is one of the most useful skills in conflict resolution &mdash; and it is very different from being aggressive. Assertiveness means expressing your needs, limits, and views clearly and respectfully, while still valuing the other person. Its underlying message is &quot;I matter, and you matter too.&quot;</p><p>Aggression, by contrast, tries to dominate or overpower &mdash; through shouting, threats, or intimidation &mdash; and sends the message &quot;I matter, and you don't.&quot; Passivity is the opposite problem: giving in and not stating your needs at all, which can leave issues unresolved.</p><ul><li><strong>Assertive</strong> &mdash; calm, clear, honest, respects both people's rights.</li><li><strong>Aggressive</strong> &mdash; loud, hostile, blaming, ignores the other person's feelings.</li><li><strong>Passive</strong> &mdash; avoids the issue, suppresses your own needs, may build resentment.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"60bea67c-5514-49c6-b9c7-7105b7c08d55","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Assertive or aggressive? Tap each card to reveal the assertive alternative.</p>","dialogs":[{"text":"<p>\"You never listen to a word I say!\"</p>","answer":"<p>Assertive version: \"I feel I'm not being heard, and it's important to me. Can we go through this together?\"</p>","tips":{}},{"text":"<p>\"Do it now, I haven't got time for this.\"</p>","answer":"<p>Assertive version: \"I'm a little short on time, so let's agree what we can sort out right now and what can wait.\"</p>","tips":{}},{"text":"<p>Standing over someone, pointing, raised voice</p>","answer":"<p>Assertive body language: steady calm tone, relaxed open posture, respectful eye contact, and a comfortable distance.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"9008d152-aee6-4dc2-b826-b7d81dd46dc0","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The difference between assertiveness and aggression</h2><p>Being assertive is one of the most useful skills in conflict resolution &mdash; and it is very different from being aggressive. Assertiveness means expressing your needs, limits, and views clearly and respectfully, while still valuing the other person. Its underlying message is &quot;I matter, and you matter too.&quot;</p><p>Aggression, by contrast, tries to dominate or overpower &mdash; through shouting, threats, or intimidation &mdash; and sends the message &quot;I matter, and you don't.&quot; Passivity is the opposite problem: giving in and not stating your needs at all, which can leave issues unresolved.</p><ul><li><strong>Assertive</strong> &mdash; calm, clear, honest, respects both people's rights.</li><li><strong>Aggressive</strong> &mdash; loud, hostile, blaming, ignores the other person's feelings.</li><li><strong>Passive</strong> &mdash; avoids the issue, suppresses your own needs, may build resentment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "60bea67c-5514-49c6-b9c7-7105b7c08d55",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Assertive not aggressive",
+          "decorative": false,
+          "file": {
+            "path": "images/assertive-not-aggressive.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fb0aaefe-7a48-400b-a847-7e012617ab74",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Assertive or aggressive? Tap each card to reveal the assertive alternative.</p>",
+          "dialogs": [
+            {
+              "text": "<p>\"You never listen to a word I say!\"</p>",
+              "answer": "<p>Assertive version: \"I feel I'm not being heard, and it's important to me. Can we go through this together?\"</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>\"Do it now, I haven't got time for this.\"</p>",
+              "answer": "<p>Assertive version: \"I'm a little short on time, so let's agree what we can sort out right now and what can wait.\"</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Standing over someone, pointing, raised voice</p>",
+              "answer": "<p>Assertive body language: steady calm tone, relaxed open posture, respectful eye contact, and a comfortable distance.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "9008d152-aee6-4dc2-b826-b7d81dd46dc0",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

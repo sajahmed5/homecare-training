@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication that calms</h2><p>How you communicate can lower the temperature long before words are even heard. Research on face-to-face contact suggests that tone of voice and body language often carry more meaning than the words themselves, so a calm manner matters as much as what you say.</p><ul><li><strong>Tone:</strong> keep your voice low, slow and warm, even if the person is loud.</li><li><strong>Body language:</strong> stay open and relaxed; avoid pointing, folded arms or standing over someone.</li><li><strong>Personal space:</strong> give more room than usual and approach from the side, not head-on.</li><li><strong>Active listening:</strong> let them finish, reflect back what you hear, and show you are taking it seriously.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2a21fec5-2007-43c1-beaa-2c31ec5918db",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Betari Box",
+          "decorative": false,
+          "file": {
+            "path": "images/the-betari-box.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b58ea4d0-0630-44bc-a562-02f744d07a41",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Betari Box</h2><p>The Betari Box is a simple way to understand how attitudes and behaviour feed each other. It describes a loop: your attitude shapes your behaviour, your behaviour affects the other person&rsquo;s attitude, and their attitude then shapes their behaviour back towards you.</p><p>In practice, if you approach someone feeling irritated, it leaks into your face and voice, they pick up on it and respond in kind, and the situation spirals. The good news is that the loop works both ways. By deliberately staying calm and respectful, you can help steady the other person &mdash; you are the part of the cycle you can always control.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8b575f8f-c167-425b-a030-30196f50d706",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The Betari Box suggests that if you change your own attitude and behaviour, you can influence how the other person responds to you.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. The Betari Box is about a two-way loop: changing your own attitude and behaviour genuinely influences how the other person responds.",
+            "correctAnswerMessage": "Correct. Attitude and behaviour feed each other in a loop, so staying calm and respectful can help steady the other person &mdash; and your own response is the part you can control."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b10cd899-3938-457f-941b-810ba6fa5174",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

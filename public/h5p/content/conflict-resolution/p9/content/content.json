@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Behaviour that challenges, not &ldquo;difficult people&rdquo;</h2><p>When someone shouts, refuses care or lashes out, it is tempting to label them as aggressive or difficult. A far more useful view is that all behaviour is a form of communication. What looks like defiance is very often distress &mdash; a person trying to tell you that something is wrong when they cannot find the words.</p><p>This matters most for people living with dementia, a learning disability or autism, who may struggle to explain what they need. Someone in pain, frightened or overwhelmed may reach for the only response they have left. The behaviour is a signal, not the whole story, and rarely a personal attack on you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0ba911ee-e554-4612-ae09-cda06dcd99df",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Distress not defiance",
+          "decorative": false,
+          "file": {
+            "path": "images/distress-not-defiance.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f3f10e02-b144-4695-895a-f5e7a104e993",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking for the unmet need</h2><p>Behind most distress reactions sits an unmet need. Your task is to stay curious about the cause rather than react only to the surface.</p><ul><li><strong>Pain or illness:</strong> discomfort, infection or needing the toilet that the person cannot describe.</li><li><strong>Fear or confusion:</strong> not recognising you, the room or what is happening next.</li><li><strong>Environment:</strong> noise, crowding, heat or rushing that feels overwhelming.</li><li><strong>Loss of control:</strong> having choices taken away or being hurried through personal care.</li></ul><p>When you notice and meet the need, the distress usually eases on its own &mdash; without anyone having to &ldquo;win&rdquo;.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c3b05dc7-0848-4152-a7bb-46000b4cce8d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A resident with dementia becomes agitated and pushes your hand away during personal care. What is the most helpful first way to understand this?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>As communication &mdash; she may be in pain, frightened or feeling rushed, and is telling you something is wrong.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Treating behaviour as a message about an unmet need helps you respond to the cause rather than the surface.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>As deliberate aggression that you must firmly correct.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Framing distress as defiance tends to escalate it and misses what the person actually needs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>As a sign she is simply a difficult person to care for.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Labelling the person, rather than looking for the trigger, stops you finding what would actually help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>As something to ignore so it does not get attention.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Ignoring distress leaves the need unmet and the person is likely to become more distressed, not less.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "dc99a3bb-5c1e-45b5-b2f7-83d8158609ff",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

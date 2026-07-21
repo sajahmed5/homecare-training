@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Keeping yourself and others safe</h2><p>De-escalation always comes first, but your personal safety and that of others is never negotiable. Plan for safety before you are in the middle of a difficult situation, and act decisively if the risk rises.</p><ul><li><strong>Know your exit routes</strong> &mdash; position yourself so you can leave the room, and never let yourself be backed into a corner.</li><li><strong>Withdraw when needed</strong> &mdash; if the risk is rising and de-escalation is not working, calmly remove yourself. Retreating is not failure; it is a sound safety decision.</li><li><strong>Call for help</strong> &mdash; summon colleagues, use your alarm or phone, and contact emergency services if there is a serious threat.</li><li><strong>Protect others</strong> &mdash; move other people away from the area if it is safe to do so.</li><li><strong>Never attempt physical restraint</strong> unless you are specifically trained and it is a genuine last resort to prevent harm.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"897437e5-774f-4e32-a0c6-08d6359d46bb","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>If de-escalation is not working and you feel the risk to your safety is rising, withdrawing from the situation is the right thing to do.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Withdrawing is exactly the right response when risk is rising and de-escalation is not working. Removing yourself and calling for help keeps everyone safer.","correctAnswerMessage":"Correct. Withdrawing to safety and calling for help is a responsible decision, not a failure. Your personal safety must never be compromised."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"b0403892-ed67-4b20-84d2-ea9dff23f0c7","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping yourself and others safe</h2><p>De-escalation always comes first, but your personal safety and that of others is never negotiable. Plan for safety before you are in the middle of a difficult situation, and act decisively if the risk rises.</p><ul><li><strong>Know your exit routes</strong> &mdash; position yourself so you can leave the room, and never let yourself be backed into a corner.</li><li><strong>Withdraw when needed</strong> &mdash; if the risk is rising and de-escalation is not working, calmly remove yourself. Retreating is not failure; it is a sound safety decision.</li><li><strong>Call for help</strong> &mdash; summon colleagues, use your alarm or phone, and contact emergency services if there is a serious threat.</li><li><strong>Protect others</strong> &mdash; move other people away from the area if it is safe to do so.</li><li><strong>Never attempt physical restraint</strong> unless you are specifically trained and it is a genuine last resort to prevent harm.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "897437e5-774f-4e32-a0c6-08d6359d46bb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Keeping safe",
+          "decorative": false,
+          "file": {
+            "path": "images/keeping-safe.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "68888b4f-6bbe-47a0-a518-d79b2523eb84",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If de-escalation is not working and you feel the risk to your safety is rising, withdrawing from the situation is the right thing to do.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Withdrawing is exactly the right response when risk is rising and de-escalation is not working. Removing yourself and calling for help keeps everyone safer.",
+            "correctAnswerMessage": "Correct. Withdrawing to safety and calling for help is a responsible decision, not a failure. Your personal safety must never be compromised."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b0403892-ed67-4b20-84d2-ea9dff23f0c7",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,1 +1,100 @@
-{"content":[{"content":{"params":{"text":"<h2>The seven data protection principles</h2><p>UK GDPR is built on seven principles. They are not optional extras &mdash; they shape every decision you make about personal information.</p><ol><li><strong>Lawfulness, fairness and transparency</strong> &ndash; have a valid reason to use the information, be fair, and be open about what you do with it.</li><li><strong>Purpose limitation</strong> &ndash; only use information for the specific purpose it was collected for.</li><li><strong>Data minimisation</strong> &ndash; collect only what you actually need, nothing more.</li><li><strong>Accuracy</strong> &ndash; keep records correct and up to date; correct mistakes promptly.</li><li><strong>Storage limitation</strong> &ndash; do not keep information for longer than necessary.</li><li><strong>Integrity and confidentiality (security)</strong> &ndash; keep information safe from loss, damage or unauthorised access.</li><li><strong>Accountability</strong> &ndash; be able to show that you are meeting all the other principles.</li></ol>"},"library":"H5P.AdvancedText 1.1","subContentId":"df3bcaa9-4fa8-4988-9fc9-b7cb90545306","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Match each principle to what it means in your everyday work.</p>","dialogs":[{"text":"<p>Data minimisation</p>","answer":"<p>Only record what you genuinely need. Don't note a person's religion or a family member's phone number 'just in case' if it isn't relevant to their care.</p>","tips":{}},{"text":"<p>Purpose limitation</p>","answer":"<p>Information gathered to plan someone's care must not be reused for an unrelated purpose, such as marketing, without a proper basis.</p>","tips":{}},{"text":"<p>Accuracy</p>","answer":"<p>If a service user tells you their allergy or next of kin has changed, update the record straight away so the wrong information can't cause harm.</p>","tips":{}},{"text":"<p>Storage limitation</p>","answer":"<p>Old records shouldn't pile up forever. Follow your organisation's retention schedule and dispose of them securely when the time comes.</p>","tips":{}},{"text":"<p>Accountability</p>","answer":"<p>Your service must be able to prove it follows the rules &mdash; through policies, training, records and clear responsibilities.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"da927ade-6120-4ed9-a15a-f67777c58be7","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The seven data protection principles</h2><p>UK GDPR is built on seven principles. They are not optional extras &mdash; they shape every decision you make about personal information.</p><ol><li><strong>Lawfulness, fairness and transparency</strong> &ndash; have a valid reason to use the information, be fair, and be open about what you do with it.</li><li><strong>Purpose limitation</strong> &ndash; only use information for the specific purpose it was collected for.</li><li><strong>Data minimisation</strong> &ndash; collect only what you actually need, nothing more.</li><li><strong>Accuracy</strong> &ndash; keep records correct and up to date; correct mistakes promptly.</li><li><strong>Storage limitation</strong> &ndash; do not keep information for longer than necessary.</li><li><strong>Integrity and confidentiality (security)</strong> &ndash; keep information safe from loss, damage or unauthorised access.</li><li><strong>Accountability</strong> &ndash; be able to show that you are meeting all the other principles.</li></ol>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "df3bcaa9-4fa8-4988-9fc9-b7cb90545306",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The principles",
+          "decorative": false,
+          "file": {
+            "path": "images/the-principles.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1dfbfd2a-70f9-40cb-94a7-69ee8121109c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Match each principle to what it means in your everyday work.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Data minimisation</p>",
+              "answer": "<p>Only record what you genuinely need. Don't note a person's religion or a family member's phone number 'just in case' if it isn't relevant to their care.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Purpose limitation</p>",
+              "answer": "<p>Information gathered to plan someone's care must not be reused for an unrelated purpose, such as marketing, without a proper basis.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Accuracy</p>",
+              "answer": "<p>If a service user tells you their allergy or next of kin has changed, update the record straight away so the wrong information can't cause harm.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Storage limitation</p>",
+              "answer": "<p>Old records shouldn't pile up forever. Follow your organisation's retention schedule and dispose of them securely when the time comes.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Accountability</p>",
+              "answer": "<p>Your service must be able to prove it follows the rules &mdash; through policies, training, records and clear responsibilities.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "da927ade-6120-4ed9-a15a-f67777c58be7",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

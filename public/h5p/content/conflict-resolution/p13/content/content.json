@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Trauma-informed and person-centred approaches</h2><p>Many people who use care have lived through trauma &mdash; abuse, loss or frightening experiences &mdash; that shapes how they react today. A trauma-informed approach asks &ldquo;what happened to this person?&rdquo; rather than &ldquo;what is wrong with them?&rdquo;. It means offering safety, choice and predictability so people do not feel cornered.</p><p>Positive behaviour support builds on this. It focuses on understanding why distress happens and changing things around the person to prevent it, always using the least restrictive option. Physical intervention is a last resort, used only by staff trained in it, never as routine or punishment. The goal is a better quality of life, not simply control.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a20d3834-65cc-4015-b0b2-76584c832cab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Learning and recovering",
+          "decorative": false,
+          "file": {
+            "path": "images/learning-and-recovering.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cfb47467-af29-4a4d-940d-9e1cc12ea58d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>After an incident: support and reflection</h2><p>Being involved in conflict is stressful, and it is normal to feel shaken. Good services expect this and offer support &mdash; a chance to talk it through, a debrief, and time to recover.</p><p>Consider Amir, a carer supporting Joan, who has dementia. Joan grabs his arm and shouts during a rushed morning wash. Amir steps back, keeps his voice gentle and gives her space until she settles. Afterwards he records what happened, tells his manager, and in the debrief they realise Joan is calmer when care is unhurried and she is given choices. Reflecting like this turns a difficult moment into a change that prevents the next one.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b609dd57-ffa5-46b0-99bc-2e14eae41dd7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which set of ideas best describes a trauma-informed, positive behaviour support approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Ask what happened to the person, offer safety and choice, change things to prevent distress, and use the least restrictive option.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These approaches focus on understanding, prevention and least restriction, with physical intervention only ever a trained last resort.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide what is wrong with the person and use firm control to manage their behaviour.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Trauma-informed care asks what happened to someone, not what is wrong with them, and avoids control-first responses.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use physical intervention early so situations never escalate.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Physical intervention is a last resort, only by trained staff; the aim is to prevent distress, not to restrain quickly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Keep routines rigid so people learn to cope with whatever happens.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Predictability helps, but forcing people to cope ignores their needs; the approach flexes around the person.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "692c7591-262d-4d92-be67-197651067c89",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

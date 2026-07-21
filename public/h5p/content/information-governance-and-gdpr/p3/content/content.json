@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Personal data and special category data</h2><p><strong>Personal data</strong> is any information that identifies a living person &mdash; a name, address, date of birth, care ID or even a photo. If someone can be identified from it, it counts.</p><p>Some information is more sensitive and needs extra protection. This is called <strong>special category data</strong>. It includes:</p><ul><li>Health, physical or mental (this covers almost everything in a care record)</li><li>Race or ethnic origin</li><li>Religious or philosophical beliefs</li><li>Sexual orientation and sex life</li><li>Genetic and biometric data</li></ul><p>Because care records are full of <strong>health data</strong>, most of the information you handle is special category data and must be treated with particular care.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"bf817bee-bba7-499a-9c66-fe4097a50d02","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Lawful basis for using information</h2><p>You can't use personal data just because it would be helpful &mdash; you need a valid <strong>lawful basis</strong>. UK GDPR sets out six, such as consent, a legal obligation, protecting someone's vital interests, or performing a public task.</p><p>For <strong>special category data</strong> like health information, you need <em>both</em> a lawful basis <em>and</em> an extra condition. In care, this is usually the condition for the <strong>provision of health or social care</strong>, backed by law &mdash; not simply the person's consent. Your organisation identifies the correct basis; your job is to use information only within it.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"31d30cb2-876a-403e-815a-b59c3772975d","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A care record lists a service user's diabetes, medication and mental health history. How should this information be classified under UK GDPR?</p>","answers":[{"correct":true,"text":"<div>Special category data, because it is health information and needs extra protection</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Health data is special category data, so it requires both a lawful basis and an additional condition to process.","notChosenFeedback":""}},{"correct":false,"text":"<div>Ordinary personal data, no different from a name and address</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Not quite. Health details are more sensitive than basic contact information and carry stronger protections.","notChosenFeedback":""}},{"correct":false,"text":"<div>Public information, because it is needed to deliver care</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. Being needed for care does not make health data public &mdash; it remains confidential and sensitive.","notChosenFeedback":""}},{"correct":false,"text":"<div>Not personal data at all, as long as the surname is hidden</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. If the person can still be identified from the record, it is personal &mdash; and health details make it special category data.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"f5eed8d0-3064-4a46-91fb-fd9c2fdaefd2","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Personal data and special category data</h2><p><strong>Personal data</strong> is any information that identifies a living person &mdash; a name, address, date of birth, care ID or even a photo. If someone can be identified from it, it counts.</p><p>Some information is more sensitive and needs extra protection. This is called <strong>special category data</strong>. It includes:</p><ul><li>Health, physical or mental (this covers almost everything in a care record)</li><li>Race or ethnic origin</li><li>Religious or philosophical beliefs</li><li>Sexual orientation and sex life</li><li>Genetic and biometric data</li></ul><p>Because care records are full of <strong>health data</strong>, most of the information you handle is special category data and must be treated with particular care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bf817bee-bba7-499a-9c66-fe4097a50d02",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Kinds of data",
+          "decorative": false,
+          "file": {
+            "path": "images/kinds-of-data.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b695dee8-776b-48ff-8de9-5c9e589191ff",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Lawful basis for using information</h2><p>You can't use personal data just because it would be helpful &mdash; you need a valid <strong>lawful basis</strong>. UK GDPR sets out six, such as consent, a legal obligation, protecting someone's vital interests, or performing a public task.</p><p>For <strong>special category data</strong> like health information, you need <em>both</em> a lawful basis <em>and</em> an extra condition. In care, this is usually the condition for the <strong>provision of health or social care</strong>, backed by law &mdash; not simply the person's consent. Your organisation identifies the correct basis; your job is to use information only within it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "31d30cb2-876a-403e-815a-b59c3772975d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care record lists a service user's diabetes, medication and mental health history. How should this information be classified under UK GDPR?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Special category data, because it is health information and needs extra protection</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Health data is special category data, so it requires both a lawful basis and an additional condition to process.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ordinary personal data, no different from a name and address</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Health details are more sensitive than basic contact information and carry stronger protections.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Public information, because it is needed to deliver care</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Being needed for care does not make health data public &mdash; it remains confidential and sensitive.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Not personal data at all, as long as the surname is hidden</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. If the person can still be identified from the record, it is personal &mdash; and health details make it special category data.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f5eed8d0-3064-4a46-91fb-fd9c2fdaefd2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

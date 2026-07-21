@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Recognising a data breach</h2><p>A <strong>personal data breach</strong> is any security incident that leads to personal information being lost, destroyed, altered, disclosed or accessed without authorisation. It isn't always a hacker &mdash; in care it is often something everyday:</p><ul><li>A care folder or handover sheet left on a bus or in a car.</li><li>An email with sensitive details sent to the wrong person.</li><li>A lost, unencrypted phone or USB stick.</li><li>Records left open on a screen where a visitor can read them.</li><li>Talking about a service user where others can overhear.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"6a7a4ae3-b014-405c-a93d-b66cdbe29017","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Reporting a breach promptly</h2><p>If you think a breach has happened, <strong>report it straight away</strong> to your manager or the person responsible for data protection &mdash; do not try to hide or fix it quietly. Fast reporting limits the harm and lets the organisation act.</p><p>Where a breach is likely to put people's rights at risk, the organisation must tell the <strong>ICO within 72 hours</strong> of becoming aware of it. If there is a high risk to the individuals affected, they must be told too. You are not expected to make that judgement yourself &mdash; your job is to raise the alarm quickly so those who can, do.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"d61c6de4-b7af-47e8-a5e7-a9e727d6a516","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Where a personal data breach is likely to risk people's rights, the organisation must report it to the ICO within 72 hours of becoming aware of it.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Actually this is true. Where required, the ICO must be notified within 72 hours, so you must report a suspected breach promptly.","correctAnswerMessage":"Correct. Notifiable breaches must reach the ICO without undue delay and within 72 hours &mdash; which is why prompt internal reporting matters."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"3f19ef50-a274-4e91-9a5a-7f02fddb61ce","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a data breach</h2><p>A <strong>personal data breach</strong> is any security incident that leads to personal information being lost, destroyed, altered, disclosed or accessed without authorisation. It isn't always a hacker &mdash; in care it is often something everyday:</p><ul><li>A care folder or handover sheet left on a bus or in a car.</li><li>An email with sensitive details sent to the wrong person.</li><li>A lost, unencrypted phone or USB stick.</li><li>Records left open on a screen where a visitor can read them.</li><li>Talking about a service user where others can overhear.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6a7a4ae3-b014-405c-a93d-b66cdbe29017",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Data breaches",
+          "decorative": false,
+          "file": {
+            "path": "images/data-breaches.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "03a35629-9c3b-467b-9425-bb9066a6bcd2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting a breach promptly</h2><p>If you think a breach has happened, <strong>report it straight away</strong> to your manager or the person responsible for data protection &mdash; do not try to hide or fix it quietly. Fast reporting limits the harm and lets the organisation act.</p><p>Where a breach is likely to put people's rights at risk, the organisation must tell the <strong>ICO within 72 hours</strong> of becoming aware of it. If there is a high risk to the individuals affected, they must be told too. You are not expected to make that judgement yourself &mdash; your job is to raise the alarm quickly so those who can, do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d61c6de4-b7af-47e8-a5e7-a9e727d6a516",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Where a personal data breach is likely to risk people's rights, the organisation must report it to the ICO within 72 hours of becoming aware of it.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. Where required, the ICO must be notified within 72 hours, so you must report a suspected breach promptly.",
+            "correctAnswerMessage": "Correct. Notifiable breaches must reach the ICO without undue delay and within 72 hours &mdash; which is why prompt internal reporting matters."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "3f19ef50-a274-4e91-9a5a-7f02fddb61ce",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,1 +1,100 @@
-{"content":[{"content":{"params":{"text":"<h2>Four routes that are easy to confuse</h2><p>People sometimes muddle four different things. They can overlap, but each has its own process, so it helps to recognise which one you are dealing with.</p><ul><li>A <strong>concern</strong> is an informal worry raised in the moment &mdash; it can often be sorted out there and then by listening and putting it right quickly.</li><li>A <strong>complaint</strong> is an expression of dissatisfaction about the care or service a person has received, which needs a proper response through the complaints procedure.</li><li>A <strong>safeguarding issue</strong> is where an adult is being harmed, abused or neglected, or is at risk of it &mdash; this must be reported straight away through safeguarding routes, never treated as &ldquo;just&rdquo; a complaint.</li><li><strong>Whistleblowing</strong> is a worker raising a concern in the public interest about wrongdoing or serious risk at work &mdash; it protects others, rather than resolving a personal service issue.</li></ul><p>If you are ever unsure which route applies, do not sit on it. Report it and let it be directed to the right process. When a complaint reveals possible abuse or neglect, safeguarding always takes priority.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"eb617d23-8495-4616-9d35-c6bb964f30da","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Which route does each situation belong to?</p>","dialogs":[{"text":"<p>A resident&rsquo;s son says the lunch was cold again and he is unhappy about it.</p>","answer":"<p>Complaint &mdash; dissatisfaction with the service received. Handle it through the complaints procedure.</p>","tips":{}},{"text":"<p>During a visit, someone mentions the TV remote is missing and asks if you can find it.</p>","answer":"<p>Concern &mdash; an informal, everyday niggle that can usually be sorted out on the spot.</p>","tips":{}},{"text":"<p>You notice unexplained bruising and the person flinches when a particular carer approaches.</p>","answer":"<p>Safeguarding issue &mdash; report immediately through safeguarding routes; do not treat it as an ordinary complaint.</p>","tips":{}},{"text":"<p>A carer suspects records are being falsified to hide medication errors across the service.</p>","answer":"<p>Whistleblowing &mdash; a public-interest concern about wrongdoing, raised through the speaking-up route.</p>","tips":{}},{"text":"<p>A relative is frustrated that no one returned her call about the care plan.</p>","answer":"<p>Complaint &mdash; dissatisfaction with the service; acknowledge it and follow the complaints process.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"a898f2ef-5735-47c2-8dd0-1b8d9fe91bb5","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Four routes that are easy to confuse</h2><p>People sometimes muddle four different things. They can overlap, but each has its own process, so it helps to recognise which one you are dealing with.</p><ul><li>A <strong>concern</strong> is an informal worry raised in the moment &mdash; it can often be sorted out there and then by listening and putting it right quickly.</li><li>A <strong>complaint</strong> is an expression of dissatisfaction about the care or service a person has received, which needs a proper response through the complaints procedure.</li><li>A <strong>safeguarding issue</strong> is where an adult is being harmed, abused or neglected, or is at risk of it &mdash; this must be reported straight away through safeguarding routes, never treated as &ldquo;just&rdquo; a complaint.</li><li><strong>Whistleblowing</strong> is a worker raising a concern in the public interest about wrongdoing or serious risk at work &mdash; it protects others, rather than resolving a personal service issue.</li></ul><p>If you are ever unsure which route applies, do not sit on it. Report it and let it be directed to the right process. When a complaint reveals possible abuse or neglect, safeguarding always takes priority.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eb617d23-8495-4616-9d35-c6bb964f30da",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Complaint or something else?",
+          "decorative": false,
+          "file": {
+            "path": "images/complaint-or-something-else.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "22c29c09-2687-418d-8b5d-4a5dea4931b5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Which route does each situation belong to?</p>",
+          "dialogs": [
+            {
+              "text": "<p>A resident&rsquo;s son says the lunch was cold again and he is unhappy about it.</p>",
+              "answer": "<p>Complaint &mdash; dissatisfaction with the service received. Handle it through the complaints procedure.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>During a visit, someone mentions the TV remote is missing and asks if you can find it.</p>",
+              "answer": "<p>Concern &mdash; an informal, everyday niggle that can usually be sorted out on the spot.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>You notice unexplained bruising and the person flinches when a particular carer approaches.</p>",
+              "answer": "<p>Safeguarding issue &mdash; report immediately through safeguarding routes; do not treat it as an ordinary complaint.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A carer suspects records are being falsified to hide medication errors across the service.</p>",
+              "answer": "<p>Whistleblowing &mdash; a public-interest concern about wrongdoing, raised through the speaking-up route.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A relative is frustrated that no one returned her call about the care plan.</p>",
+              "answer": "<p>Complaint &mdash; dissatisfaction with the service; acknowledge it and follow the complaints process.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "a898f2ef-5735-47c2-8dd0-1b8d9fe91bb5",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

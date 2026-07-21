@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>What RIDDOR requires</h2><p>RIDDOR 2013 requires the <strong>responsible person</strong> &mdash; usually the employer or the person in control of the premises &mdash; to report certain serious work-related events to the <strong>HSE</strong>. Front-line staff are not expected to report to the HSE themselves, but you must pass information up so the responsible person can decide.</p><p>The main reportable categories are:</p><ul><li><strong>Deaths</strong> arising from a work-related accident.</li><li><strong>Specified injuries</strong> &mdash; such as fractures (other than to fingers, thumbs or toes), amputations, permanent loss of sight, crush injuries to the head or torso, serious burns, scalpings, and loss of consciousness from a head injury or asphyxia.</li><li><strong>Over-seven-day injuries</strong> &mdash; where a worker cannot do their normal duties for more than seven consecutive days.</li><li><strong>Reportable occupational diseases</strong> &mdash; such as occupational dermatitis, severe cramp of the hand or forearm, and certain infections linked to work.</li><li><strong>Dangerous occurrences</strong> &mdash; specified near-miss events with high potential to cause harm, for example the collapse or failure of lifting equipment.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"8e9be6c1-7a8b-49cd-871d-46cfddaed81a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Under RIDDOR, who is normally responsible for making the report to the HSE?</p>","answers":[{"correct":true,"text":"<div>The responsible person &mdash; usually the employer or the person in control of the premises.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. The duty to report to the HSE sits with the responsible person, not with the individual care worker.","notChosenFeedback":""}},{"correct":false,"text":"<div>Every member of care staff must report directly to the HSE themselves.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Individual staff pass information to the responsible person, who decides on RIDDOR reporting.","notChosenFeedback":""}},{"correct":false,"text":"<div>The person who was injured must report their own injury to the HSE.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. The legal duty rests with the responsible person, typically the employer.","notChosenFeedback":""}},{"correct":false,"text":"<div>No one &mdash; RIDDOR reporting is optional in care settings.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. RIDDOR is a legal requirement and reporting the specified events is mandatory.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"02793f50-9fa5-48f2-8a02-6c857e843798","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What RIDDOR requires</h2><p>RIDDOR 2013 requires the <strong>responsible person</strong> &mdash; usually the employer or the person in control of the premises &mdash; to report certain serious work-related events to the <strong>HSE</strong>. Front-line staff are not expected to report to the HSE themselves, but you must pass information up so the responsible person can decide.</p><p>The main reportable categories are:</p><ul><li><strong>Deaths</strong> arising from a work-related accident.</li><li><strong>Specified injuries</strong> &mdash; such as fractures (other than to fingers, thumbs or toes), amputations, permanent loss of sight, crush injuries to the head or torso, serious burns, scalpings, and loss of consciousness from a head injury or asphyxia.</li><li><strong>Over-seven-day injuries</strong> &mdash; where a worker cannot do their normal duties for more than seven consecutive days.</li><li><strong>Reportable occupational diseases</strong> &mdash; such as occupational dermatitis, severe cramp of the hand or forearm, and certain infections linked to work.</li><li><strong>Dangerous occurrences</strong> &mdash; specified near-miss events with high potential to cause harm, for example the collapse or failure of lifting equipment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8e9be6c1-7a8b-49cd-871d-46cfddaed81a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for RIDDOR: what to report",
+          "decorative": false,
+          "file": {
+            "path": "images/riddor-what-to-report.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e6abaff4-160d-4ad6-8367-b4ed4e21a4c0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under RIDDOR, who is normally responsible for making the report to the HSE?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The responsible person &mdash; usually the employer or the person in control of the premises.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The duty to report to the HSE sits with the responsible person, not with the individual care worker.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Every member of care staff must report directly to the HSE themselves.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Individual staff pass information to the responsible person, who decides on RIDDOR reporting.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person who was injured must report their own injury to the HSE.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. The legal duty rests with the responsible person, typically the employer.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No one &mdash; RIDDOR reporting is optional in care settings.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. RIDDOR is a legal requirement and reporting the specified events is mandatory.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "02793f50-9fa5-48f2-8a02-6c857e843798",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

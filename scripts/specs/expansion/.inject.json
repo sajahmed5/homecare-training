@@ -3,284 +3,284 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 2,
-   "file": "the-five-principles.svg",
-   "alt": "Illustration for The five principles",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p2/content/images"
+   "file": "accident-incident-near-miss.svg",
+   "alt": "Illustration for Accident, incident, near miss",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p2/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 9,
-   "file": "consent-in-care.svg",
-   "alt": "Illustration for Consent in care",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p9/content/images"
+   "file": "types-of-incident.svg",
+   "alt": "Illustration for Types of incident",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p9/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 10,
-   "file": "supporting-decisions.svg",
-   "alt": "Illustration for Supporting decisions",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p10/content/images"
+   "file": "in-the-moment.svg",
+   "alt": "Illustration for In the moment",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p10/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
-   "page": 11,
-   "file": "unwise-decisions.svg",
-   "alt": "Illustration for Unwise decisions",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p11/content/images"
-  },
-  {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 4,
-   "file": "best-interests.svg",
-   "alt": "Illustration for Best interests",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p4/content/images"
+   "file": "how-to-record.svg",
+   "alt": "Illustration for How to record",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p4/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
+   "page": 11,
+   "file": "writing-it-up-well.svg",
+   "alt": "Illustration for Writing it up well",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p11/content/images"
+  },
+  {
+   "course": "accident-and-incident-reporting",
    "page": 5,
-   "file": "planning-ahead-lpa-adrt-imca.svg",
-   "alt": "Illustration for Planning ahead: LPA, ADRT & IMCA",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p5/content/images"
+   "file": "riddor-what-to-report.svg",
+   "alt": "Illustration for RIDDOR: what to report",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p5/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 7,
-   "file": "deprivation-of-liberty.svg",
-   "alt": "Illustration for Deprivation of Liberty",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p7/content/images"
+   "file": "cqc-duty-of-candour.svg",
+   "alt": "Illustration for CQC & duty of candour",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p7/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 12,
-   "file": "dols-and-lps.svg",
-   "alt": "Illustration for DoLS and LPS",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p12/content/images"
+   "file": "cqc-notifications.svg",
+   "alt": "Illustration for CQC notifications",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p12/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 13,
-   "file": "everyday-practice.svg",
-   "alt": "Illustration for Everyday practice",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p13/content/images"
+   "file": "investigation-and-learning.svg",
+   "alt": "Illustration for Investigation and learning",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p13/content/images"
   },
   {
-   "course": "mental-capacity-act-and-dols",
+   "course": "accident-and-incident-reporting",
    "page": 8,
-   "file": "putting-it-into-practice.svg",
-   "alt": "Illustration for Putting it into practice",
-   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p8/content/images"
+   "file": "learning-confidentiality.svg",
+   "alt": "Illustration for Learning & confidentiality",
+   "srcDir": "public/h5p/content/accident-and-incident-reporting/p8/content/images"
   },
   {
-   "course": "whistleblowing",
+   "course": "information-governance-and-gdpr",
+   "page": 9,
+   "file": "information-governance.svg",
+   "alt": "Illustration for Information governance",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p9/content/images"
+  },
+  {
+   "course": "information-governance-and-gdpr",
    "page": 2,
-   "file": "concern-complaint-or-grievance.svg",
-   "alt": "Illustration for Concern, complaint or grievance?",
-   "srcDir": "public/h5p/content/whistleblowing/p2/content/images"
+   "file": "the-principles.svg",
+   "alt": "Illustration for The principles",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p2/content/images"
   },
   {
-   "course": "whistleblowing",
-   "page": 9,
-   "file": "why-culture-matters.svg",
-   "alt": "Illustration for Why culture matters",
-   "srcDir": "public/h5p/content/whistleblowing/p9/content/images"
+   "course": "information-governance-and-gdpr",
+   "page": 3,
+   "file": "kinds-of-data.svg",
+   "alt": "Illustration for Kinds of data",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p3/content/images"
   },
   {
-   "course": "whistleblowing",
+   "course": "information-governance-and-gdpr",
    "page": 10,
-   "file": "what-to-raise.svg",
-   "alt": "Illustration for What to raise",
-   "srcDir": "public/h5p/content/whistleblowing/p10/content/images"
+   "file": "lawful-bases-amp-consent.svg",
+   "alt": "Illustration for Lawful bases &amp; consent",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p10/content/images"
   },
   {
-   "course": "whistleblowing",
-   "page": 11,
-   "file": "pida-in-depth.svg",
-   "alt": "Illustration for PIDA in depth",
-   "srcDir": "public/h5p/content/whistleblowing/p11/content/images"
-  },
-  {
-   "course": "whistleblowing",
+   "course": "information-governance-and-gdpr",
    "page": 4,
-   "file": "how-to-raise-a-concern.svg",
-   "alt": "Illustration for How to raise a concern",
-   "srcDir": "public/h5p/content/whistleblowing/p4/content/images"
+   "file": "individual-rights.svg",
+   "alt": "Illustration for Individual rights",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p4/content/images"
   },
   {
-   "course": "whistleblowing",
-   "page": 5,
-   "file": "prescribed-persons-cqc.svg",
-   "alt": "Illustration for Prescribed persons & CQC",
-   "srcDir": "public/h5p/content/whistleblowing/p5/content/images"
+   "course": "information-governance-and-gdpr",
+   "page": 11,
+   "file": "caldicott-principles.svg",
+   "alt": "Illustration for Caldicott principles",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p11/content/images"
   },
   {
-   "course": "whistleblowing",
+   "course": "information-governance-and-gdpr",
+   "page": 6,
+   "file": "sharing-safely.svg",
+   "alt": "Illustration for Sharing safely",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p6/content/images"
+  },
+  {
+   "course": "information-governance-and-gdpr",
    "page": 12,
-   "file": "barriers-and-support.svg",
-   "alt": "Illustration for Barriers and support",
-   "srcDir": "public/h5p/content/whistleblowing/p12/content/images"
+   "file": "cyber-security.svg",
+   "alt": "Illustration for Cyber security",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p12/content/images"
   },
   {
-   "course": "whistleblowing",
-   "page": 7,
-   "file": "confidentiality-anonymity.svg",
-   "alt": "Illustration for Confidentiality & anonymity",
-   "srcDir": "public/h5p/content/whistleblowing/p7/content/images"
-  },
-  {
-   "course": "whistleblowing",
+   "course": "information-governance-and-gdpr",
    "page": 13,
-   "file": "after-you-speak-up.svg",
-   "alt": "Illustration for After you speak up",
-   "srcDir": "public/h5p/content/whistleblowing/p13/content/images"
+   "file": "access-amp-retention.svg",
+   "alt": "Illustration for Access &amp; retention",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p13/content/images"
   },
   {
-   "course": "whistleblowing",
-   "page": 8,
-   "file": "safeguarding-candour-courage.svg",
-   "alt": "Illustration for Safeguarding, candour & courage",
-   "srcDir": "public/h5p/content/whistleblowing/p8/content/images"
+   "course": "information-governance-and-gdpr",
+   "page": 7,
+   "file": "data-breaches.svg",
+   "alt": "Illustration for Data breaches",
+   "srcDir": "public/h5p/content/information-governance-and-gdpr/p7/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
    "page": 2,
-   "file": "substances-in-care.svg",
-   "alt": "Illustration for Substances in care",
-   "srcDir": "public/h5p/content/coshh/p2/content/images"
+   "file": "causes-and-triggers.svg",
+   "alt": "Illustration for Causes and triggers",
+   "srcDir": "public/h5p/content/conflict-resolution/p2/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
    "page": 9,
-   "file": "health-effects.svg",
-   "alt": "Illustration for Health effects",
-   "srcDir": "public/h5p/content/coshh/p9/content/images"
+   "file": "distress-not-defiance.svg",
+   "alt": "Illustration for Distress not defiance",
+   "srcDir": "public/h5p/content/conflict-resolution/p9/content/images"
   },
   {
-   "course": "coshh",
-   "page": 4,
-   "file": "sds-assessment.svg",
-   "alt": "Illustration for SDS & assessment",
-   "srcDir": "public/h5p/content/coshh/p4/content/images"
+   "course": "conflict-resolution",
+   "page": 3,
+   "file": "the-escalation-cycle.svg",
+   "alt": "Illustration for The escalation cycle",
+   "srcDir": "public/h5p/content/conflict-resolution/p3/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
    "page": 10,
-   "file": "hazards-in-care.svg",
-   "alt": "Illustration for Hazards in care",
-   "srcDir": "public/h5p/content/coshh/p10/content/images"
+   "file": "the-betari-box.svg",
+   "alt": "Illustration for The Betari Box",
+   "srcDir": "public/h5p/content/conflict-resolution/p10/content/images"
   },
   {
-   "course": "coshh",
-   "page": 5,
-   "file": "routes-of-entry.svg",
-   "alt": "Illustration for Routes of entry",
-   "srcDir": "public/h5p/content/coshh/p5/content/images"
-  },
-  {
-   "course": "coshh",
-   "page": 11,
-   "file": "ppe-and-rpe.svg",
-   "alt": "Illustration for PPE and RPE",
-   "srcDir": "public/h5p/content/coshh/p11/content/images"
-  },
-  {
-   "course": "coshh",
+   "course": "conflict-resolution",
    "page": 12,
-   "file": "safe-use-and-storage.svg",
-   "alt": "Illustration for Safe use and storage",
-   "srcDir": "public/h5p/content/coshh/p12/content/images"
+   "file": "warning-signs-and-risk.svg",
+   "alt": "Illustration for Warning signs and risk",
+   "srcDir": "public/h5p/content/conflict-resolution/p12/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
+   "page": 6,
+   "file": "keeping-safe.svg",
+   "alt": "Illustration for Keeping safe",
+   "srcDir": "public/h5p/content/conflict-resolution/p6/content/images"
+  },
+  {
+   "course": "conflict-resolution",
    "page": 7,
-   "file": "storage-spills.svg",
-   "alt": "Illustration for Storage & spills",
-   "srcDir": "public/h5p/content/coshh/p7/content/images"
+   "file": "assertive-not-aggressive.svg",
+   "alt": "Illustration for Assertive not aggressive",
+   "srcDir": "public/h5p/content/conflict-resolution/p7/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
+   "page": 11,
+   "file": "colleagues-and-families.svg",
+   "alt": "Illustration for Colleagues and families",
+   "srcDir": "public/h5p/content/conflict-resolution/p11/content/images"
+  },
+  {
+   "course": "conflict-resolution",
    "page": 13,
-   "file": "spills-and-exposure.svg",
-   "alt": "Illustration for Spills and exposure",
-   "srcDir": "public/h5p/content/coshh/p13/content/images"
+   "file": "learning-and-recovering.svg",
+   "alt": "Illustration for Learning and recovering",
+   "srcDir": "public/h5p/content/conflict-resolution/p13/content/images"
   },
   {
-   "course": "coshh",
+   "course": "conflict-resolution",
    "page": 8,
-   "file": "reporting-review.svg",
-   "alt": "Illustration for Reporting & review",
-   "srcDir": "public/h5p/content/coshh/p8/content/images"
+   "file": "after-an-incident.svg",
+   "alt": "Illustration for After an incident",
+   "srcDir": "public/h5p/content/conflict-resolution/p8/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
    "page": 2,
-   "file": "slip-trip-causes.svg",
-   "alt": "Illustration for Slip & trip causes",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p2/content/images"
+   "file": "complaint-or-something-else.svg",
+   "alt": "Illustration for Complaint or something else?",
+   "srcDir": "public/h5p/content/complaints-handling/p2/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
    "page": 9,
-   "file": "the-cost-and-the-law.svg",
-   "alt": "Illustration for The cost and the law",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p9/content/images"
+   "file": "the-legal-duty.svg",
+   "alt": "Illustration for The legal duty",
+   "srcDir": "public/h5p/content/complaints-handling/p9/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
-   "page": 4,
-   "file": "risk-assessment.svg",
-   "alt": "Illustration for Risk assessment",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p4/content/images"
+   "course": "complaints-handling",
+   "page": 3,
+   "file": "an-accessible-procedure.svg",
+   "alt": "Illustration for An accessible procedure",
+   "srcDir": "public/h5p/content/complaints-handling/p3/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
-   "page": 5,
-   "file": "why-people-fall.svg",
-   "alt": "Illustration for Why people fall",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p5/content/images"
-  },
-  {
-   "course": "slips-trips-and-falls",
-   "page": 10,
-   "file": "why-people-fall.svg",
-   "alt": "Illustration for Why people fall",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p10/content/images"
-  },
-  {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
    "page": 11,
-   "file": "environment-and-equipment.svg",
-   "alt": "Illustration for Environment and equipment",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p11/content/images"
+   "file": "supporting-people-to-complain.svg",
+   "alt": "Illustration for Supporting people to complain",
+   "srcDir": "public/h5p/content/complaints-handling/p11/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
+   "page": 10,
+   "file": "handling-it-in-person.svg",
+   "alt": "Illustration for Handling it in person",
+   "srcDir": "public/h5p/content/complaints-handling/p10/content/images"
+  },
+  {
+   "course": "complaints-handling",
+   "page": 5,
+   "file": "the-process.svg",
+   "alt": "Illustration for The process",
+   "srcDir": "public/h5p/content/complaints-handling/p5/content/images"
+  },
+  {
+   "course": "complaints-handling",
+   "page": 6,
+   "file": "your-role-as-a-care-worker.svg",
+   "alt": "Illustration for Your role as a care worker",
+   "srcDir": "public/h5p/content/complaints-handling/p6/content/images"
+  },
+  {
+   "course": "complaints-handling",
    "page": 12,
-   "file": "staying-active.svg",
-   "alt": "Illustration for Staying active",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p12/content/images"
+   "file": "recording-and-responding.svg",
+   "alt": "Illustration for Recording and responding",
+   "srcDir": "public/h5p/content/complaints-handling/p12/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
-   "page": 7,
-   "file": "if-someone-falls.svg",
-   "alt": "Illustration for If someone falls",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p7/content/images"
-  },
-  {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
    "page": 13,
-   "file": "after-a-fall-in-depth.svg",
-   "alt": "Illustration for After a fall in depth",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p13/content/images"
+   "file": "turning-complaints-into-change.svg",
+   "alt": "Illustration for Turning complaints into change",
+   "srcDir": "public/h5p/content/complaints-handling/p13/content/images"
   },
   {
-   "course": "slips-trips-and-falls",
+   "course": "complaints-handling",
    "page": 8,
-   "file": "recording-reporting.svg",
-   "alt": "Illustration for Recording & reporting",
-   "srcDir": "public/h5p/content/slips-trips-and-falls/p8/content/images"
+   "file": "escalation-the-ombudsman.svg",
+   "alt": "Illustration for Escalation & the Ombudsman",
+   "srcDir": "public/h5p/content/complaints-handling/p8/content/images"
   }
  ]
 }

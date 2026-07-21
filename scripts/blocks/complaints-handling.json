@@ -3,60 +3,95 @@
   "title": "Complaints Handling",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "complaints-handling/p1",
-      "type": "h5p",
       "label": "Complaints are a gift",
-      "section": "Why complaints matter",
-      "questions": 1
+      "questions": 1,
+      "section": "Why complaints matter"
     },
     {
+      "type": "h5p",
       "path": "complaints-handling/p2",
-      "type": "h5p",
       "label": "Complaint or something else?",
-      "section": "Why complaints matter",
-      "questions": 0
+      "questions": 0,
+      "section": "Why complaints matter"
     },
     {
+      "type": "h5p",
+      "path": "complaints-handling/p9",
+      "label": "The legal duty",
+      "questions": 1,
+      "section": "Why complaints matter"
+    },
+    {
+      "type": "h5p",
       "path": "complaints-handling/p3",
-      "type": "h5p",
       "label": "An accessible procedure",
-      "section": "A clear procedure",
-      "questions": 1
+      "questions": 1,
+      "section": "A clear, accessible procedure"
     },
     {
+      "type": "h5p",
       "path": "complaints-handling/p4",
-      "type": "h5p",
       "label": "Handling it well",
-      "section": "A clear procedure",
-      "questions": 1
+      "questions": 1,
+      "section": "A clear, accessible procedure"
     },
     {
+      "type": "h5p",
+      "path": "complaints-handling/p11",
+      "label": "Supporting people to complain",
+      "questions": 1,
+      "section": "A clear, accessible procedure"
+    },
+    {
+      "type": "h5p",
+      "path": "complaints-handling/p10",
+      "label": "Handling it in person",
+      "questions": 1,
+      "section": "Handling it in person"
+    },
+    {
+      "type": "h5p",
       "path": "complaints-handling/p5",
-      "type": "h5p",
       "label": "The process",
-      "section": "Working through a complaint",
-      "questions": 1
+      "questions": 1,
+      "section": "Handling it in person"
     },
     {
+      "type": "h5p",
       "path": "complaints-handling/p6",
-      "type": "h5p",
       "label": "Your role as a care worker",
-      "section": "Working through a complaint",
-      "questions": 2
+      "questions": 2,
+      "section": "Handling it in person"
     },
     {
+      "type": "h5p",
+      "path": "complaints-handling/p12",
+      "label": "Recording and responding",
+      "questions": 1,
+      "section": "Responding and learning"
+    },
+    {
+      "type": "h5p",
       "path": "complaints-handling/p7",
-      "type": "h5p",
       "label": "Learning and improving",
-      "section": "Learning and escalation",
-      "questions": 1
+      "questions": 1,
+      "section": "Responding and learning"
     },
     {
-      "path": "complaints-handling/p8",
       "type": "h5p",
+      "path": "complaints-handling/p13",
+      "label": "Turning complaints into change",
+      "questions": 1,
+      "section": "Improvement and escalation"
+    },
+    {
+      "type": "h5p",
+      "path": "complaints-handling/p8",
       "label": "Escalation & the Ombudsman",
-      "section": "Learning and escalation",
-      "questions": 1
+      "questions": 1,
+      "section": "Improvement and escalation"
     }
   ]
 }

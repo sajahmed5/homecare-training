@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stick to the facts</h2><p>A good incident report records what actually happened, in plain, objective language. Write down what you saw, heard and did, in the order it happened, using the person&rsquo;s own words in quotation marks where you can. Keep opinion and guesswork out of it. &lsquo;I found Mr Ali sitting on the floor beside his bed&rsquo; is a fact; &lsquo;Mr Ali fell because he was being careless&rsquo; is an assumption you did not witness. Avoid labels and avoid blaming anyone. If you genuinely must record an opinion, make it clear that is what it is.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "822aac07-7ba5-4cea-bef6-a5408301b606",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Writing it up well",
+          "decorative": false,
+          "file": {
+            "path": "images/writing-it-up-well.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "599c2754-13f2-4f89-9a23-83794ba35a5d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Timely, complete and signed</h2><p>Write your report as soon as possible while your memory is accurate, ideally before the end of your shift. Include the date, the exact time, the location, who was present, and what injuries or effects you noticed. A body map &mdash; an outline of the body on which you mark the site, size and appearance of any injury &mdash; helps you describe bruises or wounds precisely without handling the person unnecessarily. Do not leave gaps or use correction fluid; if you make a mistake, cross it out with a single line, initial it, and write the correction alongside. Sign and date the report, because it is a legal record that may later be read by managers, the CQC, families or a court.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f101de5d-fa3d-48d9-af46-9344599bcb5c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete this guidance on writing an incident report.</p></p>",
+          "textField": "A report should record what you saw and did as *facts*, not opinions, and be written while your memory is still *accurate*. Use a *body* map to show exactly where an injury is, and never use correction *fluid* to hide a mistake. Finally, *sign* the report, because it is a legal record.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "6853b08d-6ff5-4244-800b-b321da351a39",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

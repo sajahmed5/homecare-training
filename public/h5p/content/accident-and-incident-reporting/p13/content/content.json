@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Look for causes, not culprits</h2><p>Reporting an incident is only worthwhile if something is learned from it. After a serious or recurring incident, your service will investigate to understand what happened and why. A good investigation looks for the root cause &mdash; the underlying reason &mdash; rather than for someone to blame. Most incidents come from a chain of factors such as staffing, training, equipment, procedures or communication, not simply one careless person. A no-blame, open culture encourages people to report honestly, including their own mistakes, because they know the aim is to prevent harm rather than to punish.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "53a7b143-b4da-4e4f-8cff-1624cfe168f2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Investigation and learning",
+          "decorative": false,
+          "file": {
+            "path": "images/investigation-and-learning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ae1c6bd9-d741-4547-a03b-54b2996b2f1b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Being open and changing practice</h2><p>Openness is also a legal duty. Under the duty of candour (Regulation 20), providers must be honest with people and their families when something goes wrong and causes certain harm &mdash; telling them what happened, apologising, and explaining what will be done. Learning must then change practice: updating a care plan, repairing or replacing equipment, revising a procedure or arranging training. Consider Mrs Okafor, who was given another resident&rsquo;s tablets. The investigation found the two had similar names and the medication trolley was crowded and rushed at breakfast. The service added photographs to the medication records and calmed the morning routine &mdash; a change that protects everyone, prompted by one honest report.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ce61c5da-ba04-4a30-9181-3a547d21c83b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Your service uses a &lsquo;no-blame&rsquo; approach to incident reporting. What does this mean in practice?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Staff are encouraged to report incidents and their own mistakes honestly, so the real causes can be found and put right, rather than facing automatic punishment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A no-blame culture is about honest reporting and finding root causes; it makes services safer by helping mistakes come to light.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nobody is ever accountable, and even serious misconduct is simply ignored.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. No-blame does not remove accountability for genuine misconduct; it removes the fear that stops honest reporting of ordinary mistakes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Incidents are recorded but never investigated, so that staff are not upset.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Incidents are still investigated; the point is to learn from them and change practice, not to avoid looking at them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only managers may report incidents, so that frontline staff are shielded from blame.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Everyone is encouraged to report; limiting reporting to managers would hide exactly the events the service needs to learn from.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5d204fd8-fe09-4301-b7ff-84a8bb6c46d8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

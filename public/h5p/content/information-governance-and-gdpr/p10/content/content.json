@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Having a lawful basis</h2><p>Under the UK GDPR you may only use personal information if you have a lawful basis for doing so. There are six lawful bases, including consent, legal obligation, vital interests, public task and legitimate interests. In health and social care, day-to-day record-keeping usually does <em>not</em> rely on the person&rsquo;s consent. Instead it rests on bases such as a legal obligation, a public task, or the organisation&rsquo;s legitimate interests in providing safe care. This matters because consent can be withdrawn at any time &mdash; and care records still need to be kept accurately whether or not someone consents. Consent to your care or treatment is a separate, important idea from the lawful basis for processing the data.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c7693b4a-6a77-4540-9dd0-b4af72c02b37",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Lawful bases &amp; consent",
+          "decorative": false,
+          "file": {
+            "path": "images/lawful-bases-amp-consent.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "003e0171-930c-490e-96b2-3b8f04ccfa5f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Special category data and valid consent</h2><p>Health information is <strong>special category data</strong>, alongside details such as race, religion, sexual orientation and genetic data. Because it is more sensitive, using it needs an extra safeguard: a specific Article 9 condition on top of your lawful basis &mdash; commonly the condition for providing health or social care. When consent <em>is</em> genuinely the basis, the UK GDPR sets a high bar. Valid consent must be freely given, specific, informed and unambiguous, shown by a clear positive action &mdash; never assumed from silence, inactivity or a pre-ticked box. It can also be withdrawn as easily as it was given. Understanding this stops you relying on &lsquo;consent&rsquo; when a firmer, more appropriate basis actually applies.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2e839d0d-6d75-4561-ae62-09b4af1ff712",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care organisation records health information in order to provide care. Which statement best reflects the UK GDPR position on the lawful basis for this?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It usually relies on a basis such as legal obligation, public task or legitimate interests, plus a special category condition for the health data &mdash; not on the person&rsquo;s consent.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Care records typically rest on a firmer basis than consent, with an additional Article 9 condition for the sensitive health information.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Consent is always the only valid basis, so care cannot be recorded unless the person ticks a consent box.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Consent is one of six bases and is often not the right one for care records, which must be kept accurately regardless.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because the information is sensitive, no lawful basis is needed at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Sensitive data needs more protection, not less &mdash; a lawful basis and an extra special category condition are both required.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A single lawful basis covers everything, so special category health data needs no additional safeguard.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Special category data such as health always needs an additional Article 9 condition on top of the lawful basis.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b766f1f6-32fc-4b56-8be6-e8cbeb90c883",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

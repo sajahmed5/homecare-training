@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>People come first</h2><p>When something goes wrong, your first duty is to the people involved, not to the paperwork. Stay calm, make the immediate area safe, and check whether anyone is hurt. Give first aid within the limits of your training, and if someone is seriously injured, unresponsive, or you are simply unsure, call 999 without delay. Do not move a person who may have a spinal or hip injury unless they are in immediate danger. Reassure the person and anyone who witnessed the event, and stay with them until help arrives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c755071c-4ac4-47ea-ba03-f2dab35d3bc6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for In the moment",
+          "decorative": false,
+          "file": {
+            "path": "images/in-the-moment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "28c365b0-5ff8-4b60-9899-45f0ef3894b4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preserve the scene and raise the alarm</h2><p>Once people are safe, protect any evidence about what happened. If a piece of equipment failed or a substance was involved, leave things as they are where you safely can, and do not clean up or repair anything until a senior has seen it &mdash; this matters especially where the event may need reporting to the regulator or the police. Then tell the right people, in the right order:</p><ul><li><strong>Emergency services:</strong> for anything life-threatening.</li><li><strong>Your manager or on-call senior:</strong> as soon as the person is safe.</li><li><strong>Family or next of kin:</strong> as your manager directs.</li></ul><p>Record what you saw and did as soon as you can, while it is fresh in your mind.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27555872-fc68-48b3-9587-6ea58236334b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>After a fall involving a hoist sling that tore, you should tidy the area and put the damaged sling back in the store cupboard before your manager arrives, to keep things neat.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; this is false. You should never tidy away or reuse equipment involved in an incident; leave it as it is and take it out of use so it can be inspected.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Faulty equipment involved in an incident should be left as it is, taken out of use and kept for inspection, because it may be evidence for an investigation or a report to the regulator."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ac0d13bf-4ceb-431a-8fb5-353bc06366e5",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

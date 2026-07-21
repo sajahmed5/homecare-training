@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reading the warning signs</h2><p>Aggression rarely comes from nowhere. Learning to read the early signs gives you time to calm things down or step back before harm is done. Watch for changes in the whole person, not just their words.</p><ul><li><strong>Body:</strong> clenched fists, pacing, trembling, a rigid or squared-up stance.</li><li><strong>Face and voice:</strong> reddening, a fixed stare, a rising or faster voice.</li><li><strong>Manner:</strong> sudden silence, sarcasm, invading your space or ignoring boundaries.</li></ul><p>These signals are your cue to slow down, give space and think about safety &mdash; not to press on regardless.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "52a6e40a-3792-43ca-924b-bc45c556f474",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Warning signs and risk",
+          "decorative": false,
+          "file": {
+            "path": "images/warning-signs-and-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b5c14d9b-a837-41e3-8003-5fd40418b3a3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dynamic risk assessment and knowing when to withdraw</h2><p>Dynamic risk assessment simply means judging the risk moment by moment as a situation unfolds, and adjusting what you do. Ask yourself: is this getting safer or more dangerous? What is my way out? Is anyone else at risk?</p><p>Your safety comes first. If a situation feels unsafe, it is always right to withdraw to a safe distance, call for help and let the person cool down. Withdrawing is a professional decision, not a failure. This matters even more when you are lone working: tell someone your movements, keep your phone charged and follow your service&rsquo;s check-in and alarm procedures so help can reach you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0461bcc0-24f0-4803-8c1d-3c258dc180fb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about staying safe.</p></p>",
+          "textField": "Judging risk moment by moment as things unfold is called *dynamic* risk assessment. Early warning signs include clenched fists and *pacing*. Your own *safety* always comes first. If a situation feels unsafe it is right to *withdraw* to a safe distance and call for help. When *lone* working, tell someone your movements and follow check-in procedures.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "e6a36274-12f7-4fd0-bf99-6995ef0a7190",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

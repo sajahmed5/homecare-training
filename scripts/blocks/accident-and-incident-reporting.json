@@ -3,60 +3,95 @@
   "title": "Accident & Incident Reporting",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p1",
-      "type": "h5p",
       "label": "Why it matters",
-      "section": "What counts as an incident",
-      "questions": 0
+      "questions": 0,
+      "section": "What counts as an incident"
     },
     {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p2",
-      "type": "h5p",
       "label": "Accident, incident, near miss",
-      "section": "What counts as an incident",
-      "questions": 0
+      "questions": 0,
+      "section": "What counts as an incident"
     },
     {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p3",
-      "type": "h5p",
       "label": "Why near misses matter",
-      "section": "What counts as an incident",
-      "questions": 1
+      "questions": 1,
+      "section": "What counts as an incident"
     },
     {
+      "type": "h5p",
+      "path": "accident-and-incident-reporting/p9",
+      "label": "Types of incident",
+      "questions": 1,
+      "section": "What counts as an incident"
+    },
+    {
+      "type": "h5p",
+      "path": "accident-and-incident-reporting/p10",
+      "label": "In the moment",
+      "questions": 1,
+      "section": "Responding safely in the moment"
+    },
+    {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p4",
-      "type": "h5p",
       "label": "How to record",
-      "section": "Recording what happened",
-      "questions": 1
+      "questions": 1,
+      "section": "Recording and reporting"
     },
     {
+      "type": "h5p",
+      "path": "accident-and-incident-reporting/p11",
+      "label": "Writing it up well",
+      "questions": 1,
+      "section": "Recording and reporting"
+    },
+    {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p5",
-      "type": "h5p",
       "label": "RIDDOR: what to report",
-      "section": "RIDDOR and the regulator",
-      "questions": 1
+      "questions": 1,
+      "section": "Recording and reporting"
     },
     {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p6",
-      "type": "h5p",
       "label": "RIDDOR: timescales",
-      "section": "RIDDOR and the regulator",
-      "questions": 1
+      "questions": 1,
+      "section": "Recording and reporting"
     },
     {
+      "type": "h5p",
       "path": "accident-and-incident-reporting/p7",
-      "type": "h5p",
       "label": "CQC & duty of candour",
-      "section": "RIDDOR and the regulator",
-      "questions": 1
+      "questions": 1,
+      "section": "Regulators and notifications"
     },
     {
-      "path": "accident-and-incident-reporting/p8",
       "type": "h5p",
+      "path": "accident-and-incident-reporting/p12",
+      "label": "CQC notifications",
+      "questions": 1,
+      "section": "Regulators and notifications"
+    },
+    {
+      "type": "h5p",
+      "path": "accident-and-incident-reporting/p13",
+      "label": "Investigation and learning",
+      "questions": 1,
+      "section": "Learning from it"
+    },
+    {
+      "type": "h5p",
+      "path": "accident-and-incident-reporting/p8",
       "label": "Learning & confidentiality",
-      "section": "Learning from it",
-      "questions": 1
+      "questions": 1,
+      "section": "Learning from it"
     }
   ]
 }

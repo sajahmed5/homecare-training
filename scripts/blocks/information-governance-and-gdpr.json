@@ -3,60 +3,95 @@
   "title": "Information Governance & GDPR",
   "content_blocks": [
     {
+      "type": "h5p",
+      "path": "information-governance-and-gdpr/p9",
+      "label": "Information governance",
+      "questions": 1,
+      "section": "The information governance framework"
+    },
+    {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p1",
-      "type": "h5p",
       "label": "Why it matters",
-      "section": "Data protection basics",
-      "questions": 0
+      "questions": 0,
+      "section": "The information governance framework"
     },
     {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p2",
-      "type": "h5p",
       "label": "The principles",
-      "section": "Data protection basics",
-      "questions": 0
+      "questions": 0,
+      "section": "The information governance framework"
     },
     {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p3",
-      "type": "h5p",
       "label": "Kinds of data",
-      "section": "Data and people's rights",
-      "questions": 1
+      "questions": 1,
+      "section": "Data, lawful bases and rights"
     },
     {
+      "type": "h5p",
+      "path": "information-governance-and-gdpr/p10",
+      "label": "Lawful bases &amp; consent",
+      "questions": 1,
+      "section": "Data, lawful bases and rights"
+    },
+    {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p4",
-      "type": "h5p",
       "label": "Individual rights",
-      "section": "Data and people's rights",
-      "questions": 1
+      "questions": 1,
+      "section": "Data, lawful bases and rights"
     },
     {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p5",
-      "type": "h5p",
       "label": "Confidentiality",
-      "section": "Confidentiality and sharing",
-      "questions": 1
+      "questions": 1,
+      "section": "Confidentiality and the duty to share"
     },
     {
+      "type": "h5p",
+      "path": "information-governance-and-gdpr/p11",
+      "label": "Caldicott principles",
+      "questions": 1,
+      "section": "Confidentiality and the duty to share"
+    },
+    {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p6",
-      "type": "h5p",
       "label": "Sharing safely",
-      "section": "Confidentiality and sharing",
-      "questions": 1
+      "questions": 1,
+      "section": "Confidentiality and the duty to share"
     },
     {
+      "type": "h5p",
+      "path": "information-governance-and-gdpr/p12",
+      "label": "Cyber security",
+      "questions": 1,
+      "section": "Cyber security and records rights"
+    },
+    {
+      "type": "h5p",
+      "path": "information-governance-and-gdpr/p13",
+      "label": "Access &amp; retention",
+      "questions": 1,
+      "section": "Cyber security and records rights"
+    },
+    {
+      "type": "h5p",
       "path": "information-governance-and-gdpr/p7",
-      "type": "h5p",
       "label": "Data breaches",
-      "section": "Breaches and safe handling",
-      "questions": 1
+      "questions": 1,
+      "section": "Breaches and safe handling"
     },
     {
-      "path": "information-governance-and-gdpr/p8",
       "type": "h5p",
+      "path": "information-governance-and-gdpr/p8",
       "label": "Secure handling",
-      "section": "Breaches and safe handling",
-      "questions": 1
+      "questions": 1,
+      "section": "Breaches and safe handling"
     }
   ]
 }

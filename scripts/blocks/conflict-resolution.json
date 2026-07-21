@@ -3,60 +3,95 @@
   "title": "Conflict Resolution",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "conflict-resolution/p1",
-      "type": "h5p",
       "label": "What is conflict?",
-      "section": "Understanding conflict",
-      "questions": 1
+      "questions": 1,
+      "section": "Understanding conflict and distress"
     },
     {
+      "type": "h5p",
       "path": "conflict-resolution/p2",
-      "type": "h5p",
       "label": "Causes and triggers",
-      "section": "Understanding conflict",
-      "questions": 1
+      "questions": 1,
+      "section": "Understanding conflict and distress"
     },
     {
+      "type": "h5p",
+      "path": "conflict-resolution/p9",
+      "label": "Distress not defiance",
+      "questions": 1,
+      "section": "Understanding conflict and distress"
+    },
+    {
+      "type": "h5p",
       "path": "conflict-resolution/p3",
-      "type": "h5p",
       "label": "The escalation cycle",
-      "section": "Understanding conflict",
-      "questions": 0
+      "questions": 0,
+      "section": "Understanding conflict and distress"
     },
     {
+      "type": "h5p",
+      "path": "conflict-resolution/p10",
+      "label": "The Betari Box",
+      "questions": 1,
+      "section": "Communicating to de-escalate"
+    },
+    {
+      "type": "h5p",
       "path": "conflict-resolution/p4",
-      "type": "h5p",
       "label": "De-escalation skills",
-      "section": "Calming the situation",
-      "questions": 1
+      "questions": 1,
+      "section": "Communicating to de-escalate"
     },
     {
+      "type": "h5p",
       "path": "conflict-resolution/p5",
-      "type": "h5p",
       "label": "Managing aggression",
-      "section": "Calming the situation",
-      "questions": 1
+      "questions": 1,
+      "section": "Communicating to de-escalate"
     },
     {
+      "type": "h5p",
+      "path": "conflict-resolution/p12",
+      "label": "Warning signs and risk",
+      "questions": 1,
+      "section": "Keeping yourself safe"
+    },
+    {
+      "type": "h5p",
       "path": "conflict-resolution/p6",
-      "type": "h5p",
       "label": "Keeping safe",
-      "section": "Keeping yourself safe",
-      "questions": 1
+      "questions": 1,
+      "section": "Keeping yourself safe"
     },
     {
+      "type": "h5p",
       "path": "conflict-resolution/p7",
-      "type": "h5p",
       "label": "Assertive not aggressive",
-      "section": "Keeping yourself safe",
-      "questions": 0
+      "questions": 0,
+      "section": "Keeping yourself safe"
     },
     {
-      "path": "conflict-resolution/p8",
       "type": "h5p",
+      "path": "conflict-resolution/p11",
+      "label": "Colleagues and families",
+      "questions": 1,
+      "section": "Working with colleagues and families"
+    },
+    {
+      "type": "h5p",
+      "path": "conflict-resolution/p13",
+      "label": "Learning and recovering",
+      "questions": 1,
+      "section": "Learning and recovering"
+    },
+    {
+      "type": "h5p",
+      "path": "conflict-resolution/p8",
       "label": "After an incident",
-      "section": "After an incident",
-      "questions": 1
+      "questions": 1,
+      "section": "Learning and recovering"
     }
   ]
 }

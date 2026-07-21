@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Record it and get it investigated</h2><p>A complaint that stays in your head helps no one. Write it down accurately and factually as soon as you can: what was said, who by, when, and what you did in response. Stick to what actually happened rather than your opinion of it, and pass the record to the right person so the complaint can be looked into properly.</p><p>Timescales matter. Under the Complaints Regulations, a complaint should be acknowledged promptly &mdash; usually within three working days &mdash; and then investigated and responded to within the timescale agreed with the person. Keeping people informed while an investigation is underway is as important as the final answer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d4cb24e8-207b-498f-b04a-3921fdfdb0f3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and responding",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-responding.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a9ac84e7-cb65-4775-a1ce-242ffb92bc67",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Being open and apologising well</h2><p>When something has gone wrong, people deserve honesty. The statutory duty of candour (CQC Regulation 20) requires providers to be open and transparent, to tell people when they have been harmed, and to say sorry. Being open is not weakness &mdash; it is the law and it is what rebuilds trust.</p><ul><li><strong>Apologise sincerely:</strong> saying sorry is not an admission of legal liability, so never withhold an apology out of fear.</li><li><strong>Explain honestly:</strong> tell people what happened and what you have found, in plain language.</li><li><strong>Say what will change:</strong> a good response sets out the action being taken so it does not happen again.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7d249e60-088b-4d72-a455-63c3eb8c61c5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative complains that their mother missed her lunchtime medication. What is the best response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record the facts, acknowledge the complaint promptly, apologise sincerely, and pass it on to be investigated with the relative kept informed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Accurate recording, a prompt acknowledgement, an honest apology and a proper investigation reflect both the regulations and the duty of candour.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoid apologising in case saying sorry counts as admitting the service is legally at fault.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An apology is not an admission of legal liability, and the duty of candour expects openness and a sincere sorry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Reassure the relative it was probably nothing and there is no need to record it formally.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Playing a concern down and failing to record it breaches both good practice and the complaints procedure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether they complain again before doing anything about it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Complaints must be acknowledged and acted on promptly, not left to see if the person persists.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a20ac4de-1e33-4bbf-a423-434deb3e9675",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
