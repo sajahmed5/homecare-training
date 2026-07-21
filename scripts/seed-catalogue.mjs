@@ -81,21 +81,6 @@ const COURSES = [
 ];
 
 // Courses that make up the induction pathway.
-const INDUCTION = [
-  "Introduction to Care",
-  "Duty of Care",
-  "Person-Centred Care",
-  "Communication Skills",
-  "Equality, Diversity & Inclusion",
-  "Safeguarding Adults Level 2",
-  "Health & Safety",
-  "Fire Safety",
-  "Infection Prevention & Control",
-  "Moving & Handling",
-  "Basic Life Support (BLS)",
-  "First Aid Awareness",
-];
-
 /** Placeholder content blocks so the player renders. Real content is authored later. */
 function blocksFor(title) {
   return [
@@ -177,31 +162,8 @@ async function main() {
   }
   console.log(`courses: ${Object.keys(courseIds).length}`);
 
-  // Induction pathway
-  const { data: pathway, error: pErr } = await admin
-    .from("pathways")
-    .upsert(
-      {
-        title: "Care Certificate Induction",
-        slug: "care-certificate-induction",
-        description: "Core induction training for new care staff.",
-      },
-      { onConflict: "slug" },
-    )
-    .select("id")
-    .single();
-  if (pErr) throw pErr;
-
-  const links = INDUCTION.map((title, i) => ({
-    pathway_id: pathway.id,
-    course_id: courseIds[title],
-    sort_order: i,
-  }));
-  const { error: linkErr } = await admin
-    .from("pathway_courses")
-    .upsert(links, { onConflict: "pathway_id,course_id" });
-  if (linkErr) throw linkErr;
-  console.log(`pathway: Care Certificate Induction (${links.length} courses)`);
+  // The Care Certificate programme (16 standards) is seeded separately by
+  // scripts/seed-programme.mjs — not here.
 }
 
 main().then(
