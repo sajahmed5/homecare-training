@@ -1,0 +1,65 @@
+import { notFound } from "next/navigation";
+import { Info } from "lucide-react";
+import { requireRole } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
+import { loadProgramme } from "@/lib/programmes";
+import { DashboardShell } from "@/components/dashboard-shell";
+import { ProgressRing } from "@/components/learner-ui";
+import { StandardGrid } from "./standard-grid";
+
+export default async function ProgrammePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const context = await requireRole("learner");
+  const { slug } = await params;
+
+  const supabase = await createClient();
+  const programme = await loadProgramme(supabase, slug);
+  if (!programme) notFound();
+
+  const pct = programme.total
+    ? Math.round((programme.completedCount / programme.total) * 100)
+    : 0;
+
+  return (
+    <DashboardShell title={programme.title} context={context}>
+      <div className="mx-auto max-w-5xl space-y-6">
+        {/* Header: intro + overall progress ring */}
+        <div className="flex flex-col items-center gap-6 rounded-3xl border bg-gradient-to-br from-primary/10 via-card to-card p-6 sm:flex-row sm:justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight">
+              {programme.title}
+            </h2>
+            {programme.summary && (
+              <p className="mt-2 max-w-2xl text-muted-foreground">
+                {programme.summary}
+              </p>
+            )}
+            <p className="mt-3 text-sm font-medium text-primary">
+              {programme.completedCount} of {programme.total} standards complete
+            </p>
+          </div>
+          <ProgressRing value={pct} color="#0d9488">
+            <span className="text-2xl font-bold">{pct}%</span>
+            <span className="text-xs text-muted-foreground">complete</span>
+          </ProgressRing>
+        </div>
+
+        {/* Compliance callout — non-dismissible; sourced from the DB so it can be
+            edited without a deploy. This is where a learner forms the belief
+            "finishing these gives me the Care Certificate", so it must be here. */}
+        {programme.complianceNote && (
+          <div className="flex gap-3 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
+            <Info className="mt-0.5 size-5 shrink-0 text-amber-600" />
+            <p>{programme.complianceNote}</p>
+          </div>
+        )}
+
+        {/* The standards */}
+        <StandardGrid standards={programme.standards} />
+      </div>
+    </DashboardShell>
+  );
+}

@@ -13,6 +13,8 @@ export interface CertificateData {
   certificateNumber: string;
   issuedAt: Date;
   expiresAt: Date | null;
+  /** Optional footer line, e.g. the Care Certificate knowledge-only statement. */
+  note?: string | null;
 }
 
 const styles = StyleSheet.create({
@@ -39,6 +41,13 @@ const styles = StyleSheet.create({
   meta: { alignItems: "center" },
   metaValue: { fontSize: 12, fontFamily: "Helvetica-Bold" },
   number: { marginTop: 28, fontSize: 10, color: "#6b7280" },
+  note: {
+    marginTop: 14,
+    fontSize: 8,
+    color: "#6b7280",
+    textAlign: "center",
+    maxWidth: 460,
+  },
 });
 
 function fmt(date: Date): string {
@@ -58,7 +67,9 @@ function CertificateDoc({ data }: { data: CertificateData }) {
           <Text style={styles.heading}>Certificate of Completion</Text>
           <Text style={styles.label}>This certifies that</Text>
           <Text style={styles.name}>{data.learnerName}</Text>
-          <Text style={styles.label}>has successfully completed</Text>
+          <Text style={styles.label}>
+            {data.note ? "has successfully completed the knowledge assessment for" : "has successfully completed"}
+          </Text>
           <Text style={styles.course}>{data.courseTitle}</Text>
 
           <View style={styles.row}>
@@ -77,6 +88,7 @@ function CertificateDoc({ data }: { data: CertificateData }) {
           <Text style={styles.number}>
             Certificate no. {data.certificateNumber} · verify at /verify
           </Text>
+          {data.note && <Text style={styles.note}>{data.note}</Text>}
         </View>
       </Page>
     </Document>

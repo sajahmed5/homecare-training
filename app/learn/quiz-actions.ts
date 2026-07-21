@@ -191,7 +191,7 @@ async function issueCertificate({
     admin.from("users").select("full_name, email").eq("id", userId).single(),
     admin
       .from("courses")
-      .select("title, expiry_months")
+      .select("title, expiry_months, certificate_note")
       .eq("id", courseId)
       .single(),
   ]);
@@ -221,6 +221,7 @@ async function issueCertificate({
       certificateNumber: cert.certificate_number as string,
       issuedAt,
       expiresAt,
+      note: (course.certificate_note as string | null) ?? null,
     });
     const path = `${userId}/${cert.id}.pdf`;
     await admin.storage

@@ -14,6 +14,7 @@ import {
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { loadLearner, learnerStats } from "@/lib/learner-data";
+import { loadProgramme } from "@/lib/programmes";
 import { computeBadges, computeStreak } from "@/lib/gamification";
 import { topicTheme, tint } from "@/lib/topic-theme";
 import { DashboardShell } from "@/components/dashboard-shell";
@@ -50,7 +51,12 @@ export default async function LearnerDashboard() {
   const data = await loadLearner(supabase);
   const stats = learnerStats(data.enrolments, data.certificates, now);
 
-  // Induction pathway progress.
+  // The Care Certificate programme (16 standards) for the dashboard card.
+  const programme = await loadProgramme(supabase, "care-certificate");
+
+  // The induction pathway still feeds the "Inducted" badge — deliberately kept
+  // separate from the 16-standard programme so no learner who has earned the
+  // badge loses it.
   const { data: pathway } = await supabase
     .from("pathways")
     .select("id")
@@ -207,24 +213,29 @@ export default async function LearnerDashboard() {
 
           {/* Induction + recent */}
           <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Care Certificate induction</CardTitle>
-                <CardDescription>
-                  {inductionCompleted}/{inductionTotal} courses complete
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="h-2 overflow-hidden rounded-full bg-muted">
-                  <div
-                    className="h-full rounded-full bg-primary"
-                    style={{
-                      width: `${inductionTotal ? Math.round((inductionCompleted / inductionTotal) * 100) : 0}%`,
-                    }}
-                  />
-                </div>
-              </CardContent>
-            </Card>
+            {programme && (
+              <Link href={`/learn/programmes/${programme.slug}`} className="block">
+                <Card className="transition-shadow hover:shadow-md">
+                  <CardHeader>
+                    <CardTitle>The Care Certificate</CardTitle>
+                    <CardDescription>
+                      {programme.completedCount}/{programme.total} standards
+                      complete
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="h-2 overflow-hidden rounded-full bg-muted">
+                      <div
+                        className="h-full rounded-full bg-primary"
+                        style={{
+                          width: `${programme.total ? Math.round((programme.completedCount / programme.total) * 100) : 0}%`,
+                        }}
+                      />
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            )}
 
             <Card>
               <CardHeader>

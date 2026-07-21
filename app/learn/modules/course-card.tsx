@@ -19,11 +19,12 @@ export interface CourseCardData {
   dueDate?: string | null;
 }
 
-function variantFor(
+export function variantFor(
   status: string,
   progress: number,
   dueDate?: string | null,
 ): StatusVariant {
+  if (status === "not_enrolled") return "not_enrolled";
   if (status === "completed") return "completed";
   if (status === "expired") return "retake";
   // Content finished but the course isn't complete → the assessment is outstanding.
@@ -33,22 +34,21 @@ function variantFor(
   return "assigned";
 }
 
+/** The call-to-action label for a course in the learner's current state. */
+export function ctaFor(status: string, progress: number): string {
+  if (status === "completed") return "Review";
+  if (status === "expired") return "Redo";
+  if (status !== "completed" && progress >= 100) return "Take assessment";
+  if (progress > 0) return "Resume";
+  return "Start";
+}
+
 export function CourseCard({ c }: { c: CourseCardData }) {
   const theme = topicTheme(c.topic);
   const status = c.status ?? "not_started";
   const progress = c.progress ?? 0;
   const assessmentDue = status !== "completed" && progress >= 100;
-
-  const cta =
-    status === "completed"
-      ? "Review"
-      : status === "expired"
-        ? "Redo"
-        : assessmentDue
-          ? "Take assessment"
-          : progress > 0
-            ? "Resume"
-            : "Start";
+  const cta = ctaFor(status, progress);
 
   return (
     <div className="flex flex-col gap-3 rounded-2xl border bg-card p-3 shadow-sm transition-shadow hover:shadow-md">
