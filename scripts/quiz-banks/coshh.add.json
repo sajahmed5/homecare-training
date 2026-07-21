@@ -1,0 +1,305 @@
+{
+  "slug": "coshh",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which of the following is NOT covered by COSHH because it has its own separate regulations?",
+      "options": [
+        "Disinfectant used on a commode",
+        "Thick bleach",
+        "Dust from a dry mop",
+        "Asbestos"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "An effect that appears quickly after exposure, sometimes within minutes, such as stinging eyes, dizziness or a chemical burn, is described as which type of effect?",
+      "options": [
+        "Delayed",
+        "Cumulative",
+        "Acute",
+        "Chronic"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A chronic health effect from a hazardous substance is best described as one that:",
+      "options": [
+        "Only ever affects the skin",
+        "Appears within minutes of a single exposure",
+        "Is always too trivial to worry about",
+        "Builds up slowly over months or years of repeated contact"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In care work, dermatitis of the hands is most often caused by:",
+      "options": [
+        "Eating contaminated food",
+        "Frequent contact with water, cleaning products and long spells in gloves ('wet work')",
+        "Breathing in fine dust",
+        "A single one-off chemical splash"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Once a worker's airways have become sensitised in occupational asthma, what is true?",
+      "options": [
+        "Even tiny amounts of the substance can trigger an attack",
+        "They can no longer be affected by that substance",
+        "The condition always clears up on its own",
+        "Only very large amounts will cause any symptoms"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the CLP Regulation, what does a hazard pictogram look like?",
+      "options": [
+        "A red-bordered diamond with a black symbol on a white background",
+        "A plain yellow triangle",
+        "A solid green circle",
+        "A blue square with white text"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a signal word you would find on a CLP hazard label?",
+      "options": [
+        "Emergency",
+        "Hazardous",
+        "Toxic-alert",
+        "Danger"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A safety data sheet is a standard document made up of how many sections?",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "12"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the key difference between a safety data sheet (SDS) and a COSHH assessment?",
+      "options": [
+        "They are simply two names for exactly the same document",
+        "The SDS is written by your own employer for each task",
+        "The COSHH assessment is written by the product's manufacturer",
+        "The SDS is supplier information about the substance, while the COSHH assessment is your organisation's plan for using it safely in your setting"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Where do Legionella bacteria multiply, creating a risk of serious pneumonia if fine droplets are breathed in?",
+      "options": [
+        "In warm, stagnant water",
+        "In dry household dust",
+        "Inside sealed bleach bottles",
+        "In cold, fast-running water"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which everyday action helps keep the risk of Legionella under control?",
+      "options": [
+        "Running taps and showers regularly and reporting water faults",
+        "Leaving rarely used showers switched off for months",
+        "Storing water at a warm room temperature",
+        "Mixing bleach with a descaler to clean the shower"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the golden rule about decanting (transferring) a chemical from its original container?",
+      "options": [
+        "Only decant into clear glass jars",
+        "Always decant into a clean squash bottle for convenience",
+        "Never decant into an unlabelled container, and never into a drinks bottle or food tub",
+        "Decanting is fine as long as you remember what is inside"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A hazardous chemical has splashed into a person's eyes. What is the correct first response?",
+      "options": [
+        "Wait to see whether the stinging settles by itself",
+        "Rinse gently with clean water for at least ten to fifteen minutes and get medical help",
+        "Apply a soothing skin cream to the eyes",
+        "Rub the eyes with a dry cloth"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If someone has swallowed a hazardous substance, what should you do?",
+      "options": [
+        "Do nothing and keep them at home",
+        "Always make them vomit straight away",
+        "Do not make them vomit unless the safety data sheet says so, and ring 111 or 999",
+        "Give them a large drink of milk and wait"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "COSHH does not cover asbestos, lead or radioactive substances, which have their own separate regulations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A safety data sheet and a COSHH assessment are the same document with two different names.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Good ventilation, such as opening a window or using extraction, lowers the concentration of fumes and vapours in the air.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A tight-fitting respirator (RPE) will still seal properly and protect the wearer over a beard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are safe storage rules for hazardous substances under COSHH? (Select all that apply)",
+      "options": [
+        "Stockpile as much as possible in case you run out",
+        "Keep them in a cool, dry, well-ventilated place",
+        "Store containers upright so they cannot leak",
+        "Store bleach next to acids to save cupboard space",
+        "Store them away from food and out of reach of the people you support"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which groups of people are especially vulnerable to hazardous substances? (Select all that apply)",
+      "options": [
+        "Anyone who is pregnant or breastfeeding",
+        "New and young workers",
+        "People who never come into contact with any cleaning products",
+        "Those with existing skin or breathing conditions"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are correct first-response actions when someone is exposed to a hazardous substance? (Select all that apply)",
+      "options": [
+        "Always make the person vomit whatever they have been exposed to",
+        "If it has been breathed in, move the person to fresh air",
+        "Keep the product label or safety data sheet with you so medical staff know what they are dealing with",
+        "For skin contact, remove contaminated clothing and rinse the area with plenty of water",
+        "Ignore it completely if the symptoms seem mild"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are correct ways to dispose of hazardous waste in a care setting? (Select all that apply)",
+      "options": [
+        "Put clinical waste in the correct colour-coded bags",
+        "Dispose of waste as instructed by your procedures",
+        "Pour leftover hazardous chemicals down the drain",
+        "Put sharps in a sharps bin"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "COSHH stands for the Control of Substances Hazardous to ___ Regulations 2002.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "health"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "An inflamed, cracked or blistered skin condition, usually on the hands, caused by frequent contact with water and cleaning products, is called ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dermatitis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Certain work-related illnesses caused by hazardous substances must be reported to the Health and Safety Executive under ___, the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "RIDDOR",
+              "riddor"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

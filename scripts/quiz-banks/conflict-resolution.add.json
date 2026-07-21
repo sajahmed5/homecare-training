@@ -1,0 +1,306 @@
+{
+  "slug": "conflict-resolution",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How does the Health and Safety Executive (HSE) define work-related violence?",
+      "options": [
+        "A written complaint made by a relative",
+        "Only a physical assault that leaves a visible injury",
+        "Any disagreement between two members of staff during a shift",
+        "Any incident in which a person is abused, threatened or assaulted in circumstances relating to their work"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the Betari Box help you understand?",
+      "options": [
+        "A method for scoring how aggressive a person is",
+        "How your attitude and behaviour feed into the other person's attitude and behaviour in a loop",
+        "The safest way to physically restrain a person",
+        "The legal duty to report an incident within 24 hours"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "After a person reaches the peak of anger and begins to calm down, why should you avoid rushing them back into a task?",
+      "options": [
+        "Pushing too soon can trigger a second escalation",
+        "It is against the law to continue care after an outburst",
+        "The person will no longer remember the incident",
+        "Recovery always takes exactly one hour"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which question best reflects a trauma-informed approach to a person's distress?",
+      "options": [
+        "Why is this person being so difficult?",
+        "What happened to this person?",
+        "How can I make this person comply?",
+        "What is wrong with this person?"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Positive behaviour support focuses on changing things around the person to prevent distress, always using the:",
+      "options": [
+        "least restrictive option",
+        "strongest medication available",
+        "same fixed routine for everyone",
+        "quickest form of physical control"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'dynamic risk assessment' mean during a developing conflict?",
+      "options": [
+        "Judging the risk moment by moment as the situation unfolds and adjusting what you do",
+        "Assessing the risk only after the incident is over",
+        "Leaving the risk decision entirely to your manager",
+        "Completing a written risk form once a year"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, physical intervention should be:",
+      "options": [
+        "used routinely to keep people calm",
+        "carried out by any staff member who feels threatened",
+        "the first response whenever a person refuses care",
+        "a last resort, used only by staff trained in it and never as punishment"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best describes passive communication?",
+      "options": [
+        "Standing up for your needs clearly while still respecting the other person",
+        "Giving in and not stating your needs, which can leave issues unresolved and build resentment",
+        "Shouting and using threats to get your own way",
+        "Calmly offering the person a choice"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You are lone working in the community. Which action follows good lone-working practice?",
+      "options": [
+        "Keep your visits secret from colleagues to protect the person's privacy",
+        "Share your schedule, keep a charged phone and any alarm, and check in as agreed",
+        "Leave your phone in the car so it does not disturb the visit",
+        "Stay in a home that feels unsafe until the person calms down"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, conflict happens when:",
+      "options": [
+        "someone has been physically injured",
+        "the needs, wishes or expectations of two or more people clash",
+        "a person deliberately sets out to cause trouble",
+        "a care worker makes a mistake during a task"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A relative is angry about a missed visit. The material suggests that what sounds like a complaint is frequently:",
+      "options": [
+        "a sign the family should be avoided",
+        "an attempt to get a staff member sacked",
+        "always an unreasonable demand",
+        "worry about someone they love"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When resolving a disagreement with a colleague, the material advises you to focus on:",
+      "options": [
+        "who is most to blame for the situation",
+        "avoiding the disagreement altogether",
+        "winning the argument in front of others",
+        "the issue and its effect, not the person's character"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Research on face-to-face contact quoted in the course suggests that, when calming someone, which often carries more meaning?",
+      "options": [
+        "Your tone of voice and body language",
+        "The exact words you choose",
+        "The length of your explanation",
+        "How quickly you speak"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "During de-escalation, why does the material say you should avoid correcting, blaming or trying to 'win'?",
+      "options": [
+        "It wastes time that should be spent restraining the person",
+        "It breaks data protection rules",
+        "The person is always right",
+        "Arguing only fuels the conflict"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "A trauma-informed approach asks 'what happened to this person?' rather than 'what is wrong with them?'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Physical restraint may be used routinely by any care worker to keep a person under control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Verbal abuse and threats count as work-related violence under the HSE definition, even when no physical assault takes place.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Withdrawing from an unsafe situation to a safe distance and calling for help means you have failed as a carer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised warning signs that a person's aggression may be building? (Select all that apply)",
+      "options": [
+        "Smiling warmly and stepping back to give you room",
+        "Clenched fists, pacing or a squared-up stance",
+        "A fixed stare and reddening of the face",
+        "Sudden silence, sarcasm or invading your space",
+        "A relaxed, open posture and calm breathing"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which principles support resolving conflict with a colleague constructively? (Select all that apply)",
+      "options": [
+        "Focus on the issue and its effect, not the person's character",
+        "Listen first so the other person feels heard before you explain your side",
+        "Try to win the argument at all costs",
+        "Find common ground, as you usually share the goal of good, safe care",
+        "Take sides in corridors and share the disagreement as gossip"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What does a trauma-informed, person-centred approach involve? (Select all that apply)",
+      "options": [
+        "Using physical intervention as a routine first response",
+        "Focusing only on controlling the person's behaviour",
+        "Offering safety, choice and predictability so people do not feel cornered",
+        "Using the least restrictive option to prevent distress",
+        "Asking what happened to the person rather than what is wrong with them"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which questions form part of a dynamic risk assessment as a situation unfolds? (Select all that apply)",
+      "options": [
+        "Is this getting safer or more dangerous?",
+        "Who is to blame for starting this?",
+        "How can I win this argument?",
+        "Is anyone else at risk?",
+        "What is my way out?"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The ___ Box describes a loop in which your attitude shapes your behaviour, which affects the other person's attitude, which then shapes their behaviour back towards you.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Betari"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Physical intervention should only ever be used as a last ___, by staff trained in it, and never as routine or punishment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "resort"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Judging the risk moment by moment as a situation unfolds, and adjusting what you do, is called ___ risk assessment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dynamic"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

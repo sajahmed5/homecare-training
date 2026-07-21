@@ -1,0 +1,306 @@
+{
+  "slug": "whistleblowing",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How does the course describe a 'complaint', as distinct from a whistleblowing concern?",
+      "options": [
+        "A concern usually raised by a person who uses the service, or their family, about the quality of care they have personally received",
+        "A disclosure that can only lawfully be made to the CQC",
+        "A personal workplace issue affecting your own pay, rota or treatment",
+        "A concern raised in the public interest about wrongdoing that could harm others"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Freedom to Speak Up principle of 'Openness', how should concerns be viewed?",
+      "options": [
+        "As a sign of disloyalty to the team",
+        "As a gift that helps care improve",
+        "As a nuisance to be managed quietly",
+        "As a matter only for the police"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Winterbourne View, cited as a serious care failing where warning signs went unheard, was a hospital for people with:",
+      "options": [
+        "dementia",
+        "learning disabilities",
+        "acute infections",
+        "physical injuries"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Whistleblowing protections under PIDA are described as 'day one' rights because:",
+      "options": [
+        "the protection lasts only for your first day of employment",
+        "you must report any wrongdoing within one day of seeing it",
+        "they only apply after one year of service",
+        "you are protected from your very first day at work, with no minimum length of service required"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is one of the qualifying categories of wrongdoing a protected disclosure can be about?",
+      "options": [
+        "Dissatisfaction with your own pay",
+        "A colleague being promoted ahead of you",
+        "Damage to the environment",
+        "A disagreement over your rota"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the tiers of disclosure, making a wider disclosure — for example to the media — is:",
+      "options": [
+        "the recommended first step",
+        "treated the same as telling your line manager",
+        "never allowed under any circumstances",
+        "allowed only in limited and stricter circumstances"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Since the law was updated in 2013, what is the position on a whistleblower acting in 'good faith'?",
+      "options": [
+        "You no longer have to prove good faith, though bad faith can reduce any award you might receive",
+        "Your motives can never be questioned by a tribunal",
+        "You must prove good faith or lose all protection",
+        "You are protected only if a manager confirms your good faith in writing"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If a worker is dismissed because they made a protected disclosure, the law treats that dismissal as:",
+      "options": [
+        "a fair dismissal",
+        "a personal grievance only",
+        "automatically unfair",
+        "a matter solely for the police"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In the course, 'Protect' is best described as:",
+      "options": [
+        "a whistleblowing charity offering free, confidential advice",
+        "a government inspection body",
+        "a trade union for care workers",
+        "the employment tribunal service"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "The barrier to speaking up summed up as 'that is just how things are done here' is described as:",
+      "options": [
+        "Loyalty",
+        "Doubt",
+        "Fear",
+        "Habit"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If you are unsure whether an issue is a complaint, a grievance or a whistleblowing concern, the course advises you to:",
+      "options": [
+        "stay silent until you are completely certain which it is",
+        "act only if it is definitely whistleblowing",
+        "raise the concern and let it be directed to the right process",
+        "wait for a colleague to report it first"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A disadvantage of raising a concern anonymously (giving no name at all) is that:",
+      "options": [
+        "it is unlawful in adult social care",
+        "it removes all of your legal protection",
+        "it is harder to investigate the concern, or to give you feedback and support",
+        "it automatically triggers a police investigation"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Alongside the CQC, which of the following is named as an appropriate professional regulator that can receive a concern?",
+      "options": [
+        "A national newspaper, as the first step",
+        "The Nursing and Midwifery Council",
+        "The person suspected of the wrongdoing",
+        "Your next-door neighbour"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the realistic scenario, you notice a colleague regularly signs the medication chart before residents have taken their tablets. The course shows the best action is to:",
+      "options": [
+        "write down the dates and exactly what you saw, then raise it with your manager the same day",
+        "wait several weeks until you are absolutely certain before acting",
+        "confront her privately and then let the matter drop",
+        "say nothing, because you like her and dread being seen as a troublemaker"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Since 2013, a whistleblower must still prove they acted in 'good faith' in order to be protected at all.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A gagging or confidentiality clause in a contract or settlement can be lawfully used to stop you making a protected disclosure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Raising a genuine concern with the CQC, where it can act on it, can still count as a protected disclosure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If a worker is dismissed because of a protected disclosure, an employment tribunal can order compensation or reinstatement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are described as barriers that can hold care workers back from speaking up? (Select all that apply)",
+      "options": [
+        "A legal requirement to stay silent about wrongdoing",
+        "A financial reward for keeping quiet",
+        "Loyalty — not wanting to get a colleague or employer into trouble",
+        "Fear of losing your job or being blamed",
+        "Doubt that you are right or that anyone will believe you"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are named in the course as sources of support or advice for someone with a concern? (Select all that apply)",
+      "options": [
+        "The person you are raising the concern about",
+        "Protect, a whistleblowing charity",
+        "An anonymous social media group",
+        "Your manager",
+        "Your union, if you are a member"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are steps you can expect after you raise a concern? (Select all that apply)",
+      "options": [
+        "Feedback on the outcome, as far as is possible",
+        "Acknowledgement that your concern has been heard",
+        "Assessment and, where needed, investigation",
+        "Immediate dismissal of the person who raised it",
+        "A guaranteed cash payment"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of concerns that whistleblowing would cover in a care setting? (Select all that apply)",
+      "options": [
+        "A personal dispute about your own shift rota",
+        "Dangerous staffing levels or missed medication",
+        "A colleague falsifying records or covering up a mistake",
+        "Your dislike of a manager's communication style",
+        "Abuse or neglect of a person who uses the service"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The deliberate ___ (cover-up) of wrongdoing is itself one of the qualifying categories under PIDA.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "concealment"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Protect is a whistleblowing ___ that offers free, confidential advice to people thinking about speaking up.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "charity"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Freedom to Speak Up approach describes concerns as a ___ that helps care improve.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "gift"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

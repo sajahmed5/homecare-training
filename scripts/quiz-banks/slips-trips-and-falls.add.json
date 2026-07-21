@@ -1,0 +1,311 @@
+{
+  "slug": "slips-trips-and-falls",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to the material, most slips at work happen when a floor becomes:",
+      "options": [
+        "Wet or contaminated",
+        "Newly carpeted",
+        "Freshly swept",
+        "Brightly lit"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does the material give as the usual cause of most trips at work?",
+      "options": [
+        "Poor housekeeping, such as clutter and obstructions left in walkways",
+        "Faulty electrical wiring",
+        "Staff walking too quickly",
+        "Worn-out light bulbs"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "The Health and Safety Executive (HSE) records slips and trips as a leading source of what every year?",
+      "options": [
+        "Staff absences unrelated to work",
+        "Equipment breakdowns",
+        "Minor paperwork errors",
+        "Major injuries"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which fracture caused by a fall does the material describe as especially serious?",
+      "options": [
+        "A broken finger",
+        "A broken hip",
+        "A broken toe",
+        "A broken wrist"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why can a 'fear of falling' actually make matters worse for a person?",
+      "options": [
+        "They avoid walking and stairs, so muscles weaken and balance declines, raising the risk of another fall",
+        "They quickly regain full strength without help",
+        "They automatically become more confident over time",
+        "They no longer need any support"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does the material describe as the strongest single predictor that a person may fall again?",
+      "options": [
+        "A history of falling in the past year",
+        "Their exact age in years",
+        "Their preferred style of footwear",
+        "The size of their home"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How does NICE guidance describe falls among older people?",
+      "options": [
+        "As always due to medication alone",
+        "As entirely random events",
+        "As multifactorial, with several risk factors usually combining",
+        "As caused by a single identifiable factor"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of an intrinsic risk factor for falling?",
+      "options": [
+        "Poor or uncorrected eyesight",
+        "Trailing cables across the floor",
+        "A loose rug in the hallway",
+        "Dim or glaring lighting"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of an extrinsic risk factor for falling?",
+      "options": [
+        "Dizziness",
+        "Arthritis",
+        "Loose slippers with worn soles",
+        "Confusion"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person who has fallen takes warfarin, a blood-thinning medicine. What does the material advise?",
+      "options": [
+        "Give them a hot drink and wait to see how they feel",
+        "Help them straight up from the floor by hand",
+        "Call 999, because anticoagulants can cause dangerous bleeding after a knock",
+        "Assume there is no risk as long as they say they feel fine"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign of a possible fracture to look for in someone who has fallen?",
+      "options": [
+        "A shortened or turned-out leg, or an obvious deformity",
+        "A cheerful mood",
+        "Warm hands",
+        "A slightly raised appetite"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If a person who has fallen is unresponsive or not breathing normally, what should you do?",
+      "options": [
+        "Call 999 and start your emergency procedure",
+        "Give them food and drink to help them recover",
+        "Wait to see whether they improve on their own",
+        "Move them onto a bed before doing anything else"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does NICE recommend for older people at risk of falling, as one of the few measures shown to make a real difference?",
+      "options": [
+        "Complete bed rest",
+        "Wearing loose slippers indoors",
+        "Avoiding all walking",
+        "Strength and balance training"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Equipment such as walking aids and hip protectors should be recommended through assessment, often by:",
+      "options": [
+        "A passing visitor",
+        "A receptionist",
+        "The person's neighbour",
+        "An occupational therapist or physiotherapist"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Every fall must be recorded, even if the person seems unhurt, because a fall without injury is still a fall.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Because a person's falls usually have several causes, tackling just one risk factor on its own is normally enough to prevent them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If a person may be injured after a fall, you should never lift them from the floor by hand.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Encouraging a person to stay active with safe, regular movement generally increases their risk of falling.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are intrinsic risk factors for falling? (Select all that apply)",
+      "options": [
+        "Muscle weakness and poor balance",
+        "Poor eyesight",
+        "Loose rugs and trailing cables",
+        "Medication side effects such as drowsiness or dizziness",
+        "Dim or glaring lighting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are extrinsic (environmental) risk factors for falls? (Select all that apply)",
+      "options": [
+        "Poor eyesight",
+        "Dim or glaring lighting",
+        "A walking frame of the wrong height or left out of reach",
+        "An urgent or frequent need for the toilet",
+        "Trailing cables, clutter and loose rugs"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When should you call 999 for a person who has fallen, even if they play it down? (Select all that apply)",
+      "options": [
+        "They hit their head or seem drowsy or confused afterwards",
+        "They take blood-thinning medicines such as warfarin or apixaban",
+        "They laugh it off and there are no other concerns",
+        "They have severe pain and cannot move or bear weight on a limb",
+        "They have a minor graze that has already been cleaned"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What should be recorded after a fall? (Select all that apply)",
+      "options": [
+        "What happened and what care was given",
+        "Nothing, provided the person seems unhurt",
+        "The date, time and place of the fall",
+        "The person's condition, any injury, and who was informed",
+        "The person's shoe size"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Because falls usually have several causes at once, NICE recommends a ___ assessment that considers all of a person's risk factors together.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "multifactorial"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a person may be injured after a fall, you must never lift them from the floor by ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hand"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "NICE recommends ___ and ___ training for older people at risk of falling, as one of the few measures shown to reduce falls.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "strength"
+            ]
+          },
+          {
+            "answers": [
+              "balance"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

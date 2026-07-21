@@ -1,0 +1,306 @@
+{
+  "slug": "fire-safety",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How often should the fire risk assessment normally be reviewed to keep it up to date?",
+      "options": [
+        "At least once a year",
+        "Once every five years",
+        "Every three months",
+        "Once a month"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Class B fires involve which of the following?",
+      "options": [
+        "Cooking oils and deep fat",
+        "Flammable liquids such as petrol or spirits",
+        "Solids such as wood and paper",
+        "Live electrical equipment"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is a dry powder extinguisher a poor choice for use indoors?",
+      "options": [
+        "It leaves a thick sticky residue on skin",
+        "It creates a choking cloud that is unpleasant and hard to see through",
+        "It only works on electrical fires",
+        "It makes flammable liquids spread faster"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which extinguisher is suitable for a Class A fire involving paper, wood or fabric?",
+      "options": [
+        "Wet chemical only",
+        "Such a fire cannot be extinguished",
+        "Water or foam",
+        "Carbon dioxide only"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When using an extinguisher, where should you aim the nozzle?",
+      "options": [
+        "At the base of the fire",
+        "At the smoke above the fire",
+        "At the ceiling directly overhead",
+        "At the top of the flames"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In a fire alarm system, manual call points are the...?",
+      "options": [
+        "Red 'break-glass' boxes at exits and along corridors",
+        "Fire alarm control panel",
+        "Green emergency exit signs",
+        "Automatic smoke detectors"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A fire door only does its job of holding back fire and smoke when it is...?",
+      "options": [
+        "Closed",
+        "Painted a bright colour",
+        "Removed from its hinges",
+        "Wedged open for easy access"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If a fire door genuinely needs to be held open for daily use, what must be fitted?",
+      "options": [
+        "A simple metal hook",
+        "An approved automatic release device that closes it when the alarm sounds",
+        "A rubber wedge",
+        "A rope tie-back"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "After a fire, who decides when it is safe to re-enter the building?",
+      "options": [
+        "Any senior member of staff on duty",
+        "The registered manager",
+        "The fire marshal",
+        "Only the fire service"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, what is the single biggest cause of fire in care homes?",
+      "options": [
+        "Cooking",
+        "Candles",
+        "Arson",
+        "Electrical faults and appliances"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The fire warden (fire marshal) role is best described as...?",
+      "options": [
+        "A support and co-ordination role, not a firefighting one",
+        "A medical first-aid role",
+        "A role that is only active during planned drills",
+        "A firefighting role, tackling the blaze directly"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a Personal Emergency Evacuation Plan (PEEP)?",
+      "options": [
+        "A written, individual plan recording exactly how a specific person will be helped to safety",
+        "A general fire procedure covering the whole building",
+        "A map of fire extinguisher locations",
+        "The schedule for the weekly alarm test"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When you call 999 for the fire service from a care home, what should you do?",
+      "options": [
+        "Assume a colleague has already called",
+        "Wait until the fire is out before calling",
+        "Give the full address, say it is a care home, and say if anyone is trapped or has restricted mobility",
+        "Give only the postcode to save time"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Where should battery equipment such as phones and mobility scooters be charged?",
+      "options": [
+        "Inside a closed wardrobe",
+        "On a hard surface, and unplugged once charged",
+        "On a resident's bed for convenience",
+        "On a soft sofa"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A fire door will still hold back fire and smoke effectively even when it is propped open.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Wet chemical extinguishers are designed for Class F fires, such as cooking oils and deep fat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Normal washing fully removes emollient residue from clothing and bedding.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Carbon dioxide (CO2) extinguishers suit live electrical equipment and leave no residue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are your own duties in relation to the fire risk assessment and fire procedures? (Select all that apply)",
+      "options": [
+        "Report faults, missing signs or blocked exits straight away",
+        "Take part in the training and fire drills your employer arranges",
+        "Decide the building's overall evacuation strategy",
+        "Work in line with the fire procedures the assessment leads to",
+        "Personally sign off the annual fire risk assessment"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which duties belong to a fire marshal or warden during an evacuation? (Select all that apply)",
+      "options": [
+        "Coordinate the evacuation and direct people to the exits",
+        "Check rooms, toilets and communal areas are clear where it is safe to do so",
+        "Enter the fire compartment to put the fire out themselves",
+        "Carry out a headcount or roll call at the assembly point",
+        "Decide when the building can be re-entered"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are recognised ways to reduce the fire risk from emollient creams? (Select all that apply)",
+      "options": [
+        "Choose only paraffin-free emollients, which carry no fire risk",
+        "Record the risk in the person's care plan",
+        "Wash contact clothing, bedding and towels regularly, daily where possible",
+        "Apply extra emollient at bedtime to protect the skin overnight",
+        "Keep the person well away from cigarettes, lighters and naked flames"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Once everyone is out and the fire service has taken over, what should still be done? (Select all that apply)",
+      "options": [
+        "Keep those you care for warm, calm and reassured",
+        "Re-enter as soon as the visible flames are out to check the rooms",
+        "Account for people and tell the fire service immediately about anyone unaccounted for",
+        "Go back inside to collect residents' belongings",
+        "Report what happened so the incident is recorded and the fire risk assessment reviewed"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Wet chemical extinguishers are made for Class ___ fires, such as cooking oils and deep fat.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "F"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In the UK, extinguisher bodies are ___ with a coloured label or band showing the type.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "red"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Moving residents sideways through fire doors into an adjoining protected compartment on the same floor is called progressive ___ evacuation.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "horizontal"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

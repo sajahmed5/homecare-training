@@ -1,0 +1,303 @@
+{
+  "slug": "safeguarding-adults-level-2",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "You are told about possible abuse. Which of these is NOT part of your role as a frontline care worker?",
+      "options": [
+        "Recognising the signs of abuse",
+        "Reporting your concern to the right person without delay",
+        "Recording what you have seen or been told",
+        "Investigating the allegation to decide whether abuse definitely happened"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Someone you support is in immediate danger and a crime is happening in front of you. What should you do first?",
+      "options": [
+        "Confront the alleged abuser about what they have done",
+        "Call 999",
+        "Wait until your next shift to mention it",
+        "Tidy the area before anyone else arrives"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Care Act, which body is the lead agency for safeguarding enquiries?",
+      "options": [
+        "The care provider",
+        "The CQC",
+        "The local authority",
+        "The police"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What protection does the Public Interest Disclosure Act 1998 provide?",
+      "options": [
+        "It gives legal protection to workers who raise genuine concerns in the public interest",
+        "It requires local authorities to make section 42 enquiries",
+        "It regulates care services against fundamental standards",
+        "It sets out the five principles of mental capacity"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "According to the Mental Capacity Act, capacity is described as being decision-specific and also:",
+      "options": [
+        "time-specific",
+        "the same for every decision",
+        "permanent once it has been lost",
+        "something only a doctor can judge"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Prevent duty, radicalisation is treated as a form of:",
+      "options": [
+        "neglect",
+        "organisational abuse",
+        "exploitation",
+        "self-neglect"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main role of a Safeguarding Adults Board?",
+      "options": [
+        "To regulate the quality and safety of individual care services",
+        "To investigate crimes committed against adults",
+        "To bring partners together to agree how agencies protect adults locally and to learn from serious cases",
+        "To provide day-to-day personal care to adults at risk"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In multi-agency safeguarding, which partner investigates where a crime may have been committed?",
+      "options": [
+        "The CQC",
+        "The care provider",
+        "The Safeguarding Adults Board",
+        "The police"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the CQC's role in safeguarding adults?",
+      "options": [
+        "It makes best-interests decisions for people who lack capacity",
+        "It regulates care services and acts on concerns about the quality and safety of care",
+        "It gives legal protection to whistleblowers",
+        "It leads adult safeguarding and decides whether a formal enquiry is needed"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support has no identity documents, seems fearful of a controlling companion, works excessive hours and keeps none of their own earnings. Which category of abuse do these signs most suggest?",
+      "options": [
+        "Organisational abuse",
+        "Self-neglect",
+        "Modern slavery",
+        "Discriminatory abuse"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Discriminatory abuse involves harassment or unequal treatment based on:",
+      "options": [
+        "a person's level of care and support needs",
+        "a person's lack of mental capacity",
+        "the routines and culture of a service",
+        "a protected characteristic such as race, religion, disability, age or sex"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Mental Capacity Act, anything done for a person who lacks capacity must be:",
+      "options": [
+        "in their best interests",
+        "kept secret from the person",
+        "the cheapest option available",
+        "decided solely by their family"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When someone begins to disclose abuse to you, the best response is to:",
+      "options": [
+        "go and challenge the person they are describing",
+        "promise them it will stay between the two of you",
+        "stay calm, give them your full attention and let them speak in their own words",
+        "ask lots of detailed questions to get the full story quickly"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes self-neglect?",
+      "options": [
+        "Abuse carried out by a paid carer",
+        "Financial exploitation of an adult by a relative",
+        "Where an adult neglects their own health, hygiene or surroundings, or hoards to a degree that puts them at risk",
+        "Neglect caused by a service's routines and culture"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "You should never promise to keep a disclosure of abuse secret, because you have a duty to pass concerns on.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If someone is in immediate danger or a serious crime is taking place, you should call 999 first.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Because safeguarding respects a person's wishes, you should never report a concern if an adult with capacity asks you not to.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When there may have been a crime, it is helpful to wash, tidy and move things in the area before reporting the concern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following should you NOT do when someone discloses abuse to you? (Select all that apply)",
+      "options": [
+        "Reassure the person that they were right to tell you",
+        "Ask leading questions or press the person for detail",
+        "Promise to keep the disclosure secret",
+        "Confront the alleged abuser"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In which situations should you still report a safeguarding concern even if the person does not want you to? (Select all that apply)",
+      "options": [
+        "Where others may be at risk",
+        "Where a crime may have been committed",
+        "Where the person may be under coercion",
+        "Where the person simply prefers you not to make a fuss"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised warning signs that an adult may be experiencing abuse? (Select all that apply)",
+      "options": [
+        "A consistently well-explained set of injuries",
+        "Sudden changes in mood or withdrawal",
+        "Fearfulness around certain people",
+        "Reluctance to be left alone with someone"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are partners that work together in multi-agency safeguarding, each with a distinct role? (Select all that apply)",
+      "options": [
+        "The alleged abuser's family",
+        "The Care Quality Commission",
+        "The police",
+        "The Public Interest Disclosure Act 1998",
+        "The local authority"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If someone is in immediate danger or a serious crime is taking place, you should call ___ first.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "You should never ___ to keep a disclosure of abuse secret, because you have a duty to pass the concern on.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "promise"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Radicalisation is treated as a form of ___, where a vulnerable person is drawn towards extremism or terrorism by others.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "exploitation"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

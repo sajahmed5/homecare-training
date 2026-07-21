@@ -1,0 +1,307 @@
+{
+  "slug": "record-keeping-and-documentation",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which body is the UK regulator responsible for data protection?",
+      "options": [
+        "The Information Commissioner's Office (ICO)",
+        "Skills for Care",
+        "The Care Quality Commission (CQC)",
+        "The local coroner"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When someone asks to see a copy of the records held about them, within what period must the provider respond?",
+      "options": [
+        "One week",
+        "One month",
+        "One year",
+        "Three months"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "For how long are adult social care records generally kept, as a minimum, following an organisation's retention policy?",
+      "options": [
+        "Eight years",
+        "Five years",
+        "Three years",
+        "Twenty years"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How can a subject access request be made?",
+      "options": [
+        "Only by a solicitor on the person's behalf",
+        "Either verbally or in writing",
+        "Only in person at the office",
+        "Only in writing on an official form"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What are the Caldicott principles best described as?",
+      "options": [
+        "A method for writing daily notes in black ink",
+        "A guide for handling confidential health and care information and judging when sharing is appropriate",
+        "A checklist for how long to keep paper records",
+        "A set of rules for disposing of electronic devices"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does confidentiality mean when handling care records?",
+      "options": [
+        "Personal information can be shared with any colleague who is curious",
+        "Personal information is kept secret even from the person it is about",
+        "Personal information is shared only with those who have a genuine need to know it for the person's care",
+        "Personal information is never shared with anyone"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of a personal data breach?",
+      "options": [
+        "Recording only relevant, necessary information",
+        "Passing a change in a person's condition to their GP for their care",
+        "A care record emailed to the wrong address",
+        "Logging out of a device before leaving it"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Because they are so sensitive, health and care records count as which type of data under the UK GDPR?",
+      "options": [
+        "Ordinary personal data",
+        "Anonymous data",
+        "Special category data",
+        "Public data"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What should you write paper records in?",
+      "options": [
+        "Blue erasable ink",
+        "Permanent black ink",
+        "Any colour, as long as it is neat",
+        "Pencil, so mistakes can be rubbed out"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You need to correct a mistake in an electronic record. What is the correct approach?",
+      "options": [
+        "Delete the wrong entry so it no longer appears",
+        "Add a correcting entry and let the system's timestamp and your login show who amended it and when",
+        "Leave the mistake because electronic records cannot be edited",
+        "Ask a colleague to log in and change it for you"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the data protection principle of 'data minimisation' mean in everyday recording?",
+      "options": [
+        "Use the fewest possible documents in the setting",
+        "Write records as quickly as possible using abbreviations",
+        "Keep records for the shortest possible time",
+        "Record what is relevant and necessary, not everything you know"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you never let a colleague record an entry using your login?",
+      "options": [
+        "It uses up the account's storage space",
+        "Entries are linked to you, so anything recorded under your login is treated as done by you",
+        "It slows the electronic system down",
+        "Colleagues are not allowed to write records at all"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You finish a visit and realise the printed daily notes are missing and may have been left at a previous person's home. What should you do first?",
+      "options": [
+        "Tell your manager straight away and explain exactly what happened",
+        "Ask the previous person to post them back before mentioning it",
+        "Wait a few days to see if the notes turn up",
+        "Rewrite the notes from memory and say nothing"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you avoid leaving blank lines or gaps in a paper record?",
+      "options": [
+        "It wastes paper and ink",
+        "The pages will not scan into the electronic system",
+        "It makes the page look untidy for inspectors",
+        "Someone could write in them later, altering the record"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Confidentiality means that personal information is never shared with anyone else under any circumstances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Electronic care records keep an automatic audit trail showing who made or amended an entry and when.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A subject access request must always be made in writing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Serious personal data breaches may need to be reported to the ICO, sometimes within a tight time limit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are Caldicott principles for handling confidential information? (Select all that apply)",
+      "options": [
+        "Justify the purpose for sharing information",
+        "Keep all records for at least twenty years",
+        "Share on a need-to-know basis with those involved in the person's care",
+        "Use only the minimum information necessary",
+        "Record everything you know about a person, just in case"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of a personal data breach? (Select all that apply)",
+      "options": [
+        "A paper care file left on a bus",
+        "A care record emailed to the wrong address",
+        "Sharing a change in condition with the district nurse to deliver care",
+        "A private conversation about a person overheard in a corridor",
+        "Logging out of a tablet when stepping away from it"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good habits for keeping devices and paper records secure? (Select all that apply)",
+      "options": [
+        "Lock or log out of a device whenever you step away from it",
+        "Leave records open on an unattended screen",
+        "Keep your login password private and never write it on a sticky note",
+        "Return paper notes to secure storage and keep them out of sight",
+        "Share your login so colleagues can help enter notes"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are 'don'ts' of good record keeping? (Select all that apply)",
+      "options": [
+        "Record refusals and concerns, not just what went well",
+        "Sign, date and time each entry",
+        "Guess or exaggerate what happened",
+        "Write entries in advance before care has happened",
+        "Use correction fluid to hide a mistake"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The UK regulator for data protection is the Information Commissioner's Office, usually known by its initials, the ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "ICO"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Adult social care records are generally kept for a minimum of ___ years, in line with the organisation's retention policy.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "eight",
+              "8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When a person asks for a copy of the personal information held about them, this is called a ___ access request.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "subject"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

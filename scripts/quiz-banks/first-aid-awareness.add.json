@@ -1,0 +1,307 @@
+{
+  "slug": "first-aid-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to the course, what is a first aider?",
+      "options": [
+        "A person qualified to prescribe medication in an emergency",
+        "A doctor or paramedic who arrives with the ambulance",
+        "The manager responsible for completing the accident book",
+        "The person who gives immediate help to a casualty before the emergency services take over"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Two of a first aider's 'three Ps' are to preserve life and promote recovery. What is the third?",
+      "options": [
+        "Predict the likely diagnosis",
+        "Prevent the situation getting worse",
+        "Provide pain relief",
+        "Prescribe treatment"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the primary survey DR ABC, what does the 'R' stand for?",
+      "options": [
+        "Response",
+        "Recovery",
+        "Reassurance",
+        "Resuscitation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How does the course say you should open an unconscious casualty's airway?",
+      "options": [
+        "Raise and support both of their legs",
+        "Turn them onto their front",
+        "Press firmly on the centre of the chest",
+        "Tilt the head back with a hand on the forehead and lift the chin with two fingers"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When checking for normal breathing in the primary survey, for how long should you look, listen and feel?",
+      "options": [
+        "At least 60 seconds",
+        "Exactly 2 minutes",
+        "No more than 10 seconds",
+        "No more than 30 seconds"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A casualty is unresponsive but breathing normally. What should you do?",
+      "options": [
+        "Sit them upright against a wall",
+        "Place them in the recovery position and call for help",
+        "Start chest compressions straight away",
+        "Give them a sugary drink"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A casualty is unresponsive and not breathing normally. What is the correct action?",
+      "options": [
+        "Offer them a reliever inhaler",
+        "Give five abdominal thrusts",
+        "Place them in the recovery position and wait",
+        "Call 999 or 112, start CPR and send someone for a defibrillator (AED)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "There is an object embedded in a bleeding wound. What should you do?",
+      "options": [
+        "Leave the wound uncovered and only raise the limb",
+        "Press firmly directly on top of the object",
+        "Press around the object rather than on it, and never pull it out",
+        "Pull the object straight out, then apply pressure"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should you position someone showing signs of shock?",
+      "options": [
+        "Walk them around to keep their circulation going",
+        "Lay them down and raise and support their legs above the level of the heart",
+        "Sit them upright and give them a warm drink",
+        "Place them face down on the floor"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "After cooling a burn, how should you cover it?",
+      "options": [
+        "Loosely with cling film or a clean, non-fluffy dressing",
+        "Tightly with a bandage to stop the swelling",
+        "With ice wrapped in a towel",
+        "With a greasy cream and cotton wool"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Someone is choking but can still cough. What should you do first?",
+      "options": [
+        "Encourage them to keep coughing",
+        "Give five abdominal thrusts immediately",
+        "Give five back blows immediately",
+        "Lay them down in the recovery position"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person with high blood sugar (hyperglycaemia) may have breath that smells of what?",
+      "options": [
+        "Nothing unusual",
+        "Stale smoke",
+        "Bleach",
+        "Fruity or of pear drops"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "For a conscious heart attack casualty, what may you offer if they are not allergic and it is to hand?",
+      "options": [
+        "A single 300mg aspirin to chew slowly",
+        "Two paracetamol tablets to swallow",
+        "A blue reliever inhaler",
+        "A sugary fizzy drink"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under RIDDOR, certain serious work-related incidents must be reported to which body?",
+      "options": [
+        "The ambulance service",
+        "The local council",
+        "The Care Quality Commission",
+        "The Health and Safety Executive (HSE)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "In the UK, 999 and 112 both connect to the same emergency operators and are free to call.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "During the primary survey (DR ABC) you should check Circulation before you check the Airway.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person showing signs of shock should be given a warm, sweet drink to help them recover.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should time how long a seizure lasts, as this affects whether you need to call 999.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are signs of hypoglycaemia (low blood sugar)? (Select all that apply)",
+      "options": [
+        "Confusion or irritability",
+        "Pale, sweaty skin",
+        "Excessive thirst",
+        "Trembling",
+        "Warm, dry skin"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are red-flag warning signs after a blow to the head that mean you should call 999? (Select all that apply)",
+      "options": [
+        "Feeling hungry",
+        "Drowsiness or confusion",
+        "Repeated vomiting",
+        "Fluid or blood coming from the nose or ears",
+        "A small bruise that quickly fades"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised signs of anaphylaxis? (Select all that apply)",
+      "options": [
+        "A widespread rash",
+        "A slow, steady pulse",
+        "Swelling of the face, lips, tongue or throat",
+        "Difficulty or noisy breathing",
+        "Breath that smells of pear drops"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are correct actions when treating a burn? (Select all that apply)",
+      "options": [
+        "Gently remove clothing or jewellery near the burn unless it is stuck to the skin",
+        "Cover it loosely afterwards with cling film",
+        "Apply a greasy cream or butter",
+        "Cool it under cool or lukewarm running water",
+        "Burst any blisters to help it heal faster"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "For abdominal thrusts on a choking adult, place a clenched fist between the navel and the bottom of the ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "breastbone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Under RIDDOR, certain serious work-related incidents must be reported to the Health and Safety ___ (HSE).",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Executive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A second dose of adrenaline from an auto-injector may be given after ___ minutes if there is no improvement.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "5",
+              "five"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

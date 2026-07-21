@@ -1,0 +1,304 @@
+{
+  "slug": "mental-capacity-act-and-dols",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The MCA is backed by a statutory Code of Practice. What does a care worker's legal duty to 'have regard to' the Code mean in practice?",
+      "options": [
+        "You must follow it unless you have a good reason not to",
+        "It applies only to doctors and managers",
+        "You may ignore it because it is only guidance",
+        "You must follow it only when a manager is present"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "For consent to a piece of everyday care to be valid, it must be:",
+      "options": [
+        "Informed, given voluntarily, and given by someone with capacity for that decision",
+        "Renewed in writing every week",
+        "Given by a family member on the person's behalf",
+        "Written down and signed once, then filed away"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "'Informed' consent means the person understands what you are proposing, why you are proposing it, and:",
+      "options": [
+        "how long you have worked in care",
+        "the names of everyone on shift",
+        "what the alternatives are, including the option of doing nothing at all",
+        "the cost of the care package"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of Lasting Power of Attorney can be used while the donor still has capacity, if they agree?",
+      "options": [
+        "Health and welfare LPA",
+        "Property and financial affairs LPA",
+        "An advance decision to refuse treatment",
+        "A Court of Protection deputyship"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "An LPA is only legally valid once it has been registered with which body?",
+      "options": [
+        "The Care Quality Commission",
+        "The local authority",
+        "The Office of the Public Guardian",
+        "The Court of Protection"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about an advance decision to refuse treatment (ADRT) is correct?",
+      "options": [
+        "It can demand that a specific treatment is given",
+        "It can be made by a child of any age",
+        "It is binding only if a family member agrees",
+        "It can only refuse treatment, not demand a particular treatment"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the MCA, which of these best describes what counts as 'restraint'?",
+      "options": [
+        "Only actions the person actively resists",
+        "Only help given against a doctor's advice",
+        "Only physical holds count as restraint",
+        "Physical holds, and also things like locking a door, using bed rails or covert medication"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A deprivation of liberty in a setting such as supported living or a person's own home is authorised by:",
+      "options": [
+        "The Court of Protection",
+        "The managing authority",
+        "The Deprivation of Liberty Safeguards",
+        "The Office of the Public Guardian"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is one of the six qualifying requirements assessed before a DoLS authorisation can be granted?",
+      "options": [
+        "The person's length of residence",
+        "The consent of the next of kin",
+        "The person's financial means",
+        "No refusals (no valid conflicting advance decision or attorney/deputy decision)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In the DoLS process, who is the 'managing authority'?",
+      "options": [
+        "The care home or hospital providing the care",
+        "The Court of Protection",
+        "An Independent Mental Capacity Advocate",
+        "The local council"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "The Liberty Protection Safeguards (LPS) were created by which piece of legislation?",
+      "options": [
+        "The Mental Capacity (Amendment) Act 2019",
+        "The Mental Capacity Act 2005",
+        "The Care Act 2014",
+        "The Mental Health Act 1983"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A DoLS authorisation is time-limited to a maximum of:",
+      "options": [
+        "1 month",
+        "12 months",
+        "No maximum applies",
+        "6 months"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Under the 'acid test', does a person's compliance or lack of objection to their placement stop it being a deprivation of liberty?",
+      "options": [
+        "Yes, if the person is content it is not a deprivation",
+        "Yes, if the placement is a good one",
+        "No — compliance or lack of objection does not stop it being a deprivation of liberty",
+        "Only if the person is actively trying to leave"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "An unauthorised deprivation of liberty breaches a person's human rights under:",
+      "options": [
+        "The Health and Safety at Work Act",
+        "The Data Protection Act 2018",
+        "The Equality Act 2010",
+        "Article 5 of the European Convention on Human Rights"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Under the MCA, a person may have capacity to choose what to wear yet lack capacity to make a complex decision about their finances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A single unwise choice is, on its own, enough to prove that a person lacks capacity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Restraint may be used for staff convenience or because a service is short-staffed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The Deprivation of Liberty Safeguards (DoLS) provide the legal process for authorising a deprivation of liberty for people in care homes and hospitals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are practical ways to support a person to make their own decision? (Select all that apply)",
+      "options": [
+        "Choose the time of day when the person is at their best",
+        "Find a quiet, familiar place free of distractions",
+        "Rush the person so the decision is made quickly",
+        "Use plain language, pictures, objects or a communication aid",
+        "Simply decide for them to save time"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When making a best-interests decision, the decision-maker must: (Select all that apply)",
+      "options": [
+        "Consider whether the person is likely to regain capacity, and whether the decision can wait",
+        "Ignore the views of family and carers entirely",
+        "Decide purely on the basis of the person's age or appearance",
+        "Encourage and support the person to take part as far as they are able",
+        "Consider the person's past and present wishes and feelings"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "For an advance decision to refuse life-sustaining treatment to be valid, it must: (Select all that apply)",
+      "options": [
+        "Demand a specific alternative treatment",
+        "Be in writing",
+        "Be approved by a judge before it takes effect",
+        "Clearly state that it applies even if life is at risk",
+        "Be signed and witnessed"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which two roles sit at the heart of the DoLS process? (Select all that apply)",
+      "options": [
+        "The Office of the Public Guardian",
+        "The Care Quality Commission",
+        "The supervisory body (the local authority)",
+        "The managing authority (the care home or hospital)"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The MCA two-stage test begins with the diagnostic question: is there an impairment of, or disturbance in the functioning of, the person's mind or ___?",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "brain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Restraint of a person who lacks capacity is only lawful when it is necessary and a ___ response to the likelihood and seriousness of the harm.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "proportionate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a DoLS authorisation is granted, the person must have a Relevant Person's ___ to support them and to help them challenge the authorisation.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Representative"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "slug": "medication-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How often should a care worker's competency to administer medicines be reviewed?",
+      "options": [
+        "Once every five years",
+        "It never needs reviewing once it has been signed off",
+        "At least once a year, and sooner after a medicines incident",
+        "Only when the care worker changes employer"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which level of medicines support means simply reminding someone that it is time to take their medicine?",
+      "options": [
+        "A specialised technique",
+        "Administering",
+        "Prompting (general support)",
+        "Assisting"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to NICE guideline NG67, how is the level of medicines support a person needs decided?",
+      "options": [
+        "By whichever approach is quickest on the round",
+        "By an assessment that is recorded in the care plan",
+        "By the care worker's judgement at each visit",
+        "By habit and by what has always been done"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person uses their inhaler independently but needs you to administer their eye drops. What does this illustrate?",
+      "options": [
+        "You should administer all of their medicines to stay consistent",
+        "The care plan can be ignored once you know the person well",
+        "The level of support can differ from one medicine to another",
+        "The person no longer has capacity"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "The 'Get It On Time' principle is most closely associated with which medicines?",
+      "options": [
+        "Parkinson's disease medicines",
+        "Topical creams",
+        "Laxatives",
+        "Antibiotics"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "You realise you are going to be late for a visit where a dose is due. What should you do first?",
+      "options": [
+        "Decide it can wait until the next scheduled call",
+        "Ring the office or your manager immediately",
+        "Give two doses together at the next call",
+        "Wait until the visit to see whether it matters"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is good practice when supporting someone with a transdermal (skin) patch?",
+      "options": [
+        "Always use exactly the same spot each time",
+        "Remove the old patch, rotate to a fresh site and record where it is placed",
+        "Apply the new patch on top of the old one",
+        "Cut the patch to adjust the dose"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a monitored dosage system (MDS)?",
+      "options": [
+        "A container filled and sealed by a pharmacy, with a compartment for each time of day",
+        "An injection device for insulin",
+        "A box the care worker fills fresh each morning",
+        "The manufacturer's original bottle with the leaflet inside"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A compartment in a person's monitored dosage system looks wrong or is empty. What should you do?",
+      "options": [
+        "Give what is left and make a note afterwards",
+        "Move tablets from a different box to correct it",
+        "Refill it yourself from another pack",
+        "Stop and ring the pharmacy"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about an oral syringe is correct?",
+      "options": [
+        "It is marked for oral use only and must never be confused with an injection syringe",
+        "It is designed to give eye drops",
+        "It can be swapped for an injection syringe if none is available",
+        "The care worker should refill it between doses"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When may a tablet be crushed, or a capsule opened, before it is given?",
+      "options": [
+        "Never, under any circumstances whatsoever",
+        "Only if a prescriber or pharmacist has authorised it in writing for that person and it is recorded in the care plan",
+        "Whenever the person finds swallowing difficult",
+        "At the care worker's discretion to make it easier to take"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where must controlled drugs be stored?",
+      "options": [
+        "In any lockable drawer that staff can reach",
+        "In the medicines fridge",
+        "In a dedicated, secured controlled-drug cabinet",
+        "On an open shelf for easy access"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'chemical restraint' mean?",
+      "options": [
+        "Storing medicines securely in a locked cupboard",
+        "Giving medicine to sedate or control someone rather than to treat a diagnosed condition",
+        "Thickening a medicine so it is easier to swallow",
+        "Using a medicine to treat a diagnosed condition"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is STOMP concerned with?",
+      "options": [
+        "Storing medicines at the correct temperature",
+        "Speeding up the medication round",
+        "Stopping the over-medication of people with a learning disability, autism or both",
+        "A specific type of controlled-drug register"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "Completing this e-learning course means you are competent to administer medicines to the people you support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "An oral syringe is marked for oral use only and must never be confused with, or replaced by, an injection syringe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you suspect poor medicines practice, you should question the person, warn the colleague and gather your own evidence before reporting it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "An adult with capacity may refuse any medicine, for any reason or none, and that refusal must be respected and recorded.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are described as time-critical medicines? (Select all that apply)",
+      "options": [
+        "Parkinson's disease medicines",
+        "Laxatives",
+        "Epilepsy medicines",
+        "Insulin",
+        "Topical creams"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are additional requirements that apply to controlled drugs? (Select all that apply)",
+      "options": [
+        "Recorded in a separate controlled drugs register",
+        "Running balances (stock counts) are kept and checked",
+        "Stored in a dedicated, secured controlled-drug cabinet",
+        "Kept loosely alongside all other medicines"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are signs of anaphylaxis that mean you should call 999? (Select all that apply)",
+      "options": [
+        "A mild headache that soon passes",
+        "Swelling of the lips, tongue or throat",
+        "A slightly dry mouth",
+        "Feeling faint or collapse",
+        "Difficulty breathing or noisy breathing"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of poor medicines practice that can meet the legal definition of neglect or abuse under the Care Act 2014? (Select all that apply)",
+      "options": [
+        "Missing or withholding doses to make someone easier to manage",
+        "Falsifying a MAR chart entry for a dose that was not given",
+        "Encouraging self-administration where a risk assessment shows it is safe",
+        "Chemical restraint"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Care workers are not nurses or prescribers — you support a person with medicines that somebody else has ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "prescribed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A monitored dosage system is also called a dosette box or a ___ pack.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "blister"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Under the ___ Act 2014, safeguarding is everyone's business and poor medicines practice can meet the legal definition of neglect or abuse.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Care"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

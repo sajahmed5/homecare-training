@@ -1,0 +1,306 @@
+{
+  "slug": "moving-and-handling",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Under the Health and Safety at Work etc. Act 1974 (HASAWA), what is the employer's core duty?",
+      "options": [
+        "To avoid providing any lifting equipment in order to reduce costs",
+        "To move every person using a hoist, regardless of their ability",
+        "To protect the health, safety and welfare of staff and anyone affected by their work, so far as is reasonably practicable",
+        "To lift people manually whenever it is quicker than fetching equipment"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which body inspects care services to check that staff are trained, risks are assessed, and people are moved safely and with dignity?",
+      "options": [
+        "The National Manual Handling Board",
+        "The Royal College of Nursing",
+        "The Care Quality Commission (CQC)",
+        "The local fire and rescue service"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In a TILE risk assessment, which of these does the 'Task' element prompt you to consider?",
+      "options": [
+        "The floor surface and the lighting in the room",
+        "The person's weight and their ability to help",
+        "Your own fitness, training and health",
+        "Whether the move involves twisting, stooping, reaching or repetition"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In a TILE risk assessment, the 'Load' element mainly refers to what?",
+      "options": [
+        "The person or object being moved, including their weight, ability to help and any medical devices such as a catheter",
+        "The amount of equipment stored in the room",
+        "The employer's overall legal responsibilities",
+        "The number of staff working on shift that day"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does the 'never lift' (minimal lifting) approach mean in modern care?",
+      "options": [
+        "People should never be moved out of their bed",
+        "Staff should manually lift people whenever the person asks them to",
+        "Staff should not manually lift the full weight of a person unless there is no safe alternative, such as a genuine emergency",
+        "Staff should never use hoists or any other equipment"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If a person begins to fall while you are assisting them, what is the safest response?",
+      "options": [
+        "Do not fight it; protect their head, guide them gently towards the floor and lower yourself with them",
+        "Grab them firmly under the arms and haul them back upright",
+        "Twist your body sharply to swing them back into the chair",
+        "Step away quickly so that they are not close to you"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Once a person is on the floor after a fall and it is safe to lift them, how should they be raised?",
+      "options": [
+        "By dragging them across the floor onto a chair",
+        "By two staff pulling on their arms",
+        "By using a suitable hoist, such as a specialist raising or floor hoist",
+        "By a single carer lifting them using good posture"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you never manually lift a person up from the floor by hand after a fall?",
+      "options": [
+        "Because it simply takes longer than using a hoist",
+        "Because the person will always refuse to be helped",
+        "Because their care plan forbids them from ever being moved again",
+        "Because they may have a fracture or head injury that is not obvious, so a manual lift risks serious harm"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is a transfer board used for?",
+      "options": [
+        "Bridging a small gap, for example between a wheelchair and a bed, for someone who can shuffle across",
+        "Taking the full weight of a person who cannot bear any weight at all",
+        "Repositioning someone up the bed without dragging them",
+        "Supporting a person to rise to standing from a chair"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A stand aid or standing hoist is designed to do what?",
+      "options": [
+        "Support a person who can take some weight to rise and transfer",
+        "Bridge the gap between a bed and a wheelchair",
+        "Lift the full weight of a person who cannot weight-bear at all",
+        "Slide a person up the bed using low friction"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person of larger body size with bariatric needs may require what?",
+      "options": [
+        "Standard equipment used beyond its stated safe working load",
+        "Specialist bariatric equipment rated for a higher safe working load, more space and often more staff",
+        "No equipment at all, as manual lifting is safer for them",
+        "Less space and fewer staff than usual"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a dynamic risk assessment in moving and handling?",
+      "options": [
+        "An assessment that only the CQC is allowed to carry out",
+        "The six-monthly LOLER examination of a hoist",
+        "A written plan that, once agreed, never needs changing",
+        "A check you make in the moment, before every move, that the plan still fits what you see today"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which organisation regards the drag lift (underarm lift) as a form of abuse?",
+      "options": [
+        "The Care Quality Commission",
+        "The Health and Safety Executive",
+        "The Royal College of Nursing",
+        "The local authority safeguarding team"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, how do most back injuries in care actually arise?",
+      "options": [
+        "From a build-up of small, awkward strains over months, such as bending, twisting and reaching",
+        "From spending too much time sitting down",
+        "From using hoists too frequently",
+        "From a single dramatic lift"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A carer can safely catch a falling adult provided they use good posture.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Under the 'never lift' approach, staff use equipment and encourage the person to do what they safely can for themselves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You may use any piece of moving-and-handling equipment as long as it looks in good working order, even if you have never been trained on it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A hoist that has no current LOLER inspection record should never be used.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are now considered dangerous or banned techniques, except in true life-or-death emergencies? (Select all that apply)",
+      "options": [
+        "The drag lift, hooking your arms under a person's armpits to haul them up",
+        "The orthodox or cradle lift, where a person clings around the carer's neck",
+        "Pulling a person up by their arms out of a chair or bed",
+        "Using a hoist and sling to move someone who cannot weight-bear",
+        "Using a slide sheet to reposition someone in bed"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In a TILE assessment, which of these fall under the 'Individual' element — your own capability? (Select all that apply)",
+      "options": [
+        "Your training and experience",
+        "Your own fitness and health",
+        "The weight of the person being moved",
+        "The floor surface and clutter in the room",
+        "Whether you are pregnant or have an injury"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are correct actions to take once a person is on the floor after a fall? (Select all that apply)",
+      "options": [
+        "Drag them up by their arms onto a chair",
+        "Immediately lift them by hand to get them up quickly",
+        "Call for medical help or an ambulance if they are hurt, unwell or you are unsure",
+        "Record an accurate account and report the fall so the cause can be reviewed",
+        "Check them for injury and keep them calm and warm"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are recognised principles when planning a common handling task? (Select all that apply)",
+      "options": [
+        "Choose a quicker manual method to save time",
+        "Twist at the waist to turn quickly while holding the person",
+        "Explain what will happen and agree a clear signal so you move together",
+        "Read the person's handling plan before you start",
+        "Let the person do what they safely can for themselves"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Royal College of Nursing regards the drag lift as a form of ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "abuse"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Modern care follows a '___ lift' (minimal lifting) approach, meaning staff avoid manually lifting a person's full weight wherever there is a safe alternative.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "never"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "This is awareness training only; before you carry out any handling task for real, you must complete practical training and be assessed as ___ by a qualified trainer.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "competent"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

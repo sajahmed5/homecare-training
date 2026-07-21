@@ -1,0 +1,184 @@
+{
+  "slug": "personal-development",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which standard of the Care Certificate is 'Your Personal Development'?",
+      "options": [
+        "Standard 1",
+        "Standard 2",
+        "Standard 8",
+        "Standard 16"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is 'feedback' as described in this course?",
+      "options": [
+        "A once-a-year score of your overall performance",
+        "A list of tasks that fall outside your job description",
+        "A formal written warning from your manager",
+        "Information about how your work is seen by others"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If something goes wrong during a shift, what does the course recommend you do?",
+      "options": [
+        "Wait until your next appraisal before mentioning it",
+        "Put it down to the person's needs changing and move on",
+        "Be honest about it, report it where required, and reflect on it",
+        "Keep it to yourself so that no one worries"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does reflective practice do with your everyday work?",
+      "options": [
+        "It is only useful after something has gone wrong",
+        "It turns everyday experience into learning",
+        "It guarantees that mistakes will never happen again",
+        "It removes the need to attend training courses"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Within your agreed ways of working, what does a procedure provide?",
+      "options": [
+        "A record of the training you have completed",
+        "The reasons your organisation exists",
+        "Your objectives for the year ahead",
+        "The step-by-step way to carry out something safely"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In England, which organisation helps point employers and workers towards funded development?",
+      "options": [
+        "The Care Certificate",
+        "Ofsted",
+        "Skills for Care",
+        "Your local job centre"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "An appraisal is often linked to which of the following?",
+      "options": [
+        "Your monthly payslip",
+        "Your original job interview",
+        "Your personal development plan",
+        "The organisation's safeguarding policy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How is induction best described?",
+      "options": [
+        "A single online course that completes the Care Certificate",
+        "An optional extra intended only for experienced workers",
+        "A test you must survive at the very start of a role",
+        "A supported period of learning where you can ask plenty of questions"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of 'learning on the job'?",
+      "options": [
+        "Reading national guidance in the evening",
+        "Completing an e-learning module at home",
+        "Studying for a diploma qualification",
+        "Watching an experienced colleague and practising with support"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "You should never wait for a scheduled supervision meeting to report an urgent safeguarding concern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Your agreed ways of working stay fixed once they are written and never need to be updated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are benefits of reflecting regularly on your practice? (Select all that apply)",
+      "options": [
+        "You become more aware of how your mood and assumptions affect your work",
+        "It guarantees you will never make another mistake",
+        "You see your progress and identify what to develop next",
+        "You notice what works for each person and do more of it",
+        "It removes the need for any feedback from others"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What might a well-kept portfolio of evidence include? (Select all that apply)",
+      "options": [
+        "Certificates of training and qualifications",
+        "A printed copy of every policy in the organisation",
+        "Written reflections on your experiences",
+        "The full, identifiable personal records of everyone you support",
+        "Records of observations of your practice at work"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Each Care Certificate standard has two parts: knowledge, which is what you understand, and ___, which is what you can actually do in practice.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "competence"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A PDP is only useful when it is treated as a ___ document, rather than a form filled in once and forgotten.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "living"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

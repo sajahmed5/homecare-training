@@ -1,0 +1,302 @@
+{
+  "slug": "health-and-safety",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which national body is responsible for enforcing the Health and Safety at Work etc. Act 1974?",
+      "options": [
+        "The local authority",
+        "The Care Quality Commission (CQC)",
+        "The Environment Agency",
+        "The Health and Safety Executive (HSE)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Health and Safety at Work etc. Act 1974, an employer must provide a safe workplace and safe systems of work 'so far as is reasonably ___'. Which word completes the phrase?",
+      "options": [
+        "possible",
+        "affordable",
+        "required",
+        "practicable"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulations build on the 1974 Act and make carrying out risk assessments an explicit legal requirement?",
+      "options": [
+        "The Manual Handling Operations Regulations 1992",
+        "The Management of Health and Safety at Work Regulations 1999",
+        "The COSHH Regulations",
+        "The Lifting Operations and Lifting Equipment Regulations"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the HSE's five-step approach to risk assessment, what is the SECOND step?",
+      "options": [
+        "Review and update",
+        "Identify the hazards",
+        "Decide who might be harmed and how",
+        "Record your significant findings and act on them"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulations require your employer to assess hazardous substances such as cleaning products and disinfectants and tell you how to use them safely?",
+      "options": [
+        "The COSHH Regulations",
+        "PUWER",
+        "RIDDOR",
+        "The Manual Handling Operations Regulations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulations specifically cover the moving of people and heavy loads in care?",
+      "options": [
+        "The Lifting Operations and Lifting Equipment Regulations",
+        "The COSHH Regulations",
+        "RIDDOR",
+        "The Manual Handling Operations Regulations 1992"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under LOLER, how often is a hoist and its sling usually given a thorough examination?",
+      "options": [
+        "Every month",
+        "Every three months",
+        "Every year",
+        "Every six months"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulations require work equipment such as hoists, beds and wheelchairs to be suitable, maintained and used only by people who are trained?",
+      "options": [
+        "The Lifting Operations and Lifting Equipment Regulations (LOLER)",
+        "RIDDOR",
+        "The COSHH Regulations",
+        "The Provision and Use of Work Equipment Regulations (PUWER)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A fire needs three things together in order to start or continue. Which of these is one of them?",
+      "options": [
+        "Water",
+        "Nitrogen",
+        "Oxygen",
+        "Smoke"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which piece of legislation makes your employer responsible for assessing fire risks and keeping people safe from fire?",
+      "options": [
+        "The Regulatory Reform (Fire Safety) Order 2005",
+        "The Health and Safety at Work etc. Act 1974",
+        "RIDDOR 2013",
+        "The COSHH Regulations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What should be in place for a person who cannot escape a building unaided?",
+      "options": [
+        "A fire extinguisher by their bed",
+        "A COSHH assessment",
+        "A Personal Emergency Evacuation Plan (PEEP)",
+        "A moving-and-handling plan"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under RIDDOR, within how long must an over-seven-day injury report be made to the HSE?",
+      "options": [
+        "24 hours",
+        "15 days",
+        "10 days",
+        "7 days"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who is normally responsible for making a RIDDOR report to the HSE?",
+      "options": [
+        "The visiting CQC inspector",
+        "The service user affected",
+        "The responsible person, usually the employer",
+        "The injured care worker personally"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You find a hoist that is out of its test date. What is the correct action?",
+      "options": [
+        "Keep using it carefully because you are busy",
+        "Leave it for the next shift to notice",
+        "Try to repair it yourself straight away",
+        "Take it out of use, label it clearly and report it"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "COSHH stands for the Control of Substances Hazardous to Health Regulations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Under LOLER, a hoist and its sling are usually given a thorough examination only once every twelve months.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If you smell gas in someone's home, you should avoid using light switches or naked flames and get fresh air in.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to combine different cleaning chemicals to save time, provided they are kept in labelled containers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are common hazards in care settings described in the material? (Select all that apply)",
+      "options": [
+        "Violence and aggression",
+        "Slips, trips and falls",
+        "Manual handling injuries",
+        "Attending a team meeting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following should you do if you discover a fire? (Select all that apply)",
+      "options": [
+        "Make sure the fire service has been called on 999",
+        "Go back inside to fetch belongings",
+        "Raise the alarm and warn people nearby",
+        "Help people evacuate by the nearest safe route"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are safe ways to handle hazardous substances in care? (Select all that apply)",
+      "options": [
+        "Keep substances in their original labelled containers",
+        "Read the label and COSHH information before use",
+        "Store products locked away from the people you support",
+        "Mix cleaning chemicals together to save time"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following count as work equipment covered by PUWER? (Select all that apply)",
+      "options": [
+        "Hoists",
+        "Visitors to the home",
+        "Wheelchairs",
+        "Pressure-relieving mattresses"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Control of Substances Hazardous to Health Regulations are commonly known by the abbreviation ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "COSHH"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fire needs three things together: a source of heat, fuel to burn and ___ from the air.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "oxygen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A person who cannot escape a building unaided should have a Personal Emergency Evacuation Plan, known by the abbreviation ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "PEEP"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "slug": "accident-and-incident-reporting",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The course gives three linked reasons why reporting accidents and incidents exists. Which set correctly lists them?",
+      "options": [
+        "Secrecy, privacy and reputation",
+        "Safety, learning and legal duty",
+        "Blame, punishment and discipline",
+        "Speed, cost and convenience"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which piece of law places a general duty on employers to protect the health, safety and welfare of workers and others affected by the work?",
+      "options": [
+        "RIDDOR 2013",
+        "UK GDPR",
+        "The Health and Safety at Work etc. Act 1974",
+        "CQC Regulation 20 (duty of candour)"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under RIDDOR 2013, what does an 'over-seven-day injury' actually describe?",
+      "options": [
+        "A worker who is kept in hospital for exactly seven days",
+        "A worker who cannot do their normal duties for more than seven consecutive days",
+        "A worker who dies within seven days of the accident",
+        "A worker who takes seven days of annual leave after an accident"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is listed as a 'specified injury' under RIDDOR 2013?",
+      "options": [
+        "A fracture to a finger",
+        "A minor bruise to the arm",
+        "A common cold",
+        "An amputation"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "For the most serious cases such as a death, how does RIDDOR require the initial notification to be made?",
+      "options": [
+        "In writing within fifteen days of the event",
+        "Without delay, by the quickest means such as a phone call",
+        "Within three years of the event",
+        "Only within the provider's annual report"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "For how long must records of RIDDOR-reportable events be kept?",
+      "options": [
+        "At least six months",
+        "At least ten days",
+        "For no set period",
+        "At least three years"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When is a reportable occupational disease reported under RIDDOR?",
+      "options": [
+        "Occupational diseases are never reportable under RIDDOR",
+        "Only once the worker has fully recovered",
+        "As soon as the responsible person receives a written diagnosis",
+        "Within fifteen days of the worker first feeling unwell"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under the duty of candour, how and when must the person affected by a notifiable safety incident be told what happened?",
+      "options": [
+        "In person, as soon as reasonably practicable",
+        "Only if they specifically ask about it",
+        "Through the provider's solicitor",
+        "By letter, no sooner than ten days afterwards"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, saying sorry to the person affected under the duty of candour is best described as:",
+      "options": [
+        "Something that should always be avoided",
+        "The right thing to do, and not an admission of legal liability",
+        "An automatic admission of legal liability",
+        "A task only a lawyer is allowed to carry out"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a body map used for when recording an incident?",
+      "options": [
+        "To mark the site, size and appearance of any injury",
+        "To record staff shift patterns for the week",
+        "To plot the building's fire exits and escape routes",
+        "To track medication stock levels"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If you make a mistake while completing a paper incident record, what should you do?",
+      "options": [
+        "Leave the mistake and finish the record next shift",
+        "Cover it over completely with correction fluid",
+        "Tear the page out and dispose of it",
+        "Cross it out with a single line, initial it, and write the correction alongside"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these entries is a factual statement suitable for an incident report?",
+      "options": [
+        "\"Mr Ali is always so clumsy at night\"",
+        "\"It was probably the night staff's fault\"",
+        "\"I found Mr Ali sitting on the floor beside his bed\"",
+        "\"Mr Ali fell because he was being careless\""
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "After a serious incident, what should a good investigation look for first and foremost?",
+      "options": [
+        "The root cause — the underlying reason it happened",
+        "Grounds to discipline the staff involved",
+        "The quickest way to close the file",
+        "A single person who can be blamed"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the example, Mrs Okafor was given another resident's tablets. What change did the service make after investigating?",
+      "options": [
+        "Dismissed the member of staff who made the error",
+        "Added photographs to the medication records and calmed the morning routine",
+        "Stopped keeping medication records altogether",
+        "Banned all medication from being given at breakfast"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A service that records a large number of near misses is usually more dangerous than one that records very few.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Where a person's death is unexpected, unexplained or may be linked to the care given, it can also have to be reported to the coroner.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If equipment failed or a substance was involved, you should not clean up or repair anything until a senior has seen it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If someone is seriously injured or unresponsive, you should wait for your manager's permission before calling 999.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are listed as common types of incident in adult social care? (Select all that apply)",
+      "options": [
+        "Safeguarding incidents",
+        "Medication errors",
+        "A scheduled staff lunch break",
+        "Missed or late visits",
+        "A planned team handover meeting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When something goes wrong, which actions come first, before dealing with the paperwork? (Select all that apply)",
+      "options": [
+        "Check whether anyone is hurt",
+        "Complete the incident form before checking on anyone",
+        "Stay calm and make the immediate area safe",
+        "Repair any broken equipment straight away",
+        "Give first aid within the limits of your training"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When a notifiable safety incident occurs, what does the duty of candour require the service to do? (Select all that apply)",
+      "options": [
+        "Explain what will be done next and offer reasonable support",
+        "Give a truthful, step-by-step account of what happened",
+        "Conceal the mistake so the person is not worried",
+        "Apologise to the person affected",
+        "Publicly blame the individual worker involved"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "The course says most incidents come from a chain of factors, rather than one careless person. Which factors does it list? (Select all that apply)",
+      "options": [
+        "The weather outside the building",
+        "Staffing",
+        "Equipment and procedures",
+        "One careless individual to blame",
+        "Training"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A near ___ is an event that could have caused harm but, by luck or quick action, did not.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "miss"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The duty of candour is set out in CQC Regulation ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "20",
+              "twenty"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Records of RIDDOR-reportable events must be kept for at least ___ years.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "three",
+              "3"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

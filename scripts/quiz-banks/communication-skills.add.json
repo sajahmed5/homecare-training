@@ -1,0 +1,307 @@
+{
+  "slug": "communication-skills",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The course describes good communication as a two-way process. What does this mean?",
+      "options": [
+        "It means only the most senior person present does the talking",
+        "It means giving clear instructions and then moving on to the next task",
+        "It means writing everything down so nothing has to be said aloud",
+        "It is not only about giving information but also about making sure each person has understood the other"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which element of the communication cycle turns one-way talking into real communication?",
+      "options": [
+        "Jargon",
+        "The sender",
+        "Feedback",
+        "A noisy room"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is counted as verbal communication in the course material?",
+      "options": [
+        "An open, relaxed posture",
+        "Written notes and messages",
+        "A genuine smile",
+        "Maintaining eye contact"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which is recommended good practice for verbal communication in care?",
+      "options": [
+        "Use abbreviations and jargon to save time",
+        "Use plain, respectful language and the person's preferred name",
+        "Speak as quickly as possible to get through the information",
+        "Use baby talk so you seem friendly"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does the course say you should allow pauses and silence when listening to someone?",
+      "options": [
+        "Silence shows the person you are too busy to talk to them",
+        "It encourages the person to stop talking sooner",
+        "It gives you time to plan which task you will do next",
+        "Silence gives people time to think, especially if they find talking difficult or tiring"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which kind of question is most likely to draw out more than a simple yes or no answer?",
+      "options": [
+        "Closed questions answered with yes or no",
+        "Open questions beginning with 'what', 'how' or 'tell me'",
+        "Questions asked very quickly one after another",
+        "Questions that already suggest the answer you want"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person who speaks a different first language struggles to follow an explanation full of unfamiliar words. This is an example of which type of barrier?",
+      "options": [
+        "A physical and sensory barrier",
+        "A language barrier",
+        "An environmental barrier",
+        "An emotional barrier"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Anxiety, low mood, embarrassment and feeling rushed are examples of which type of communication barrier?",
+      "options": [
+        "Language barriers",
+        "Physical and sensory barriers",
+        "Emotional barriers",
+        "Environmental barriers"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How does the course describe Makaton?",
+      "options": [
+        "A written language used only by doctors",
+        "A translation app for foreign languages",
+        "Signs and symbols used alongside speech",
+        "A type of hearing aid battery"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person who has both hearing and sight loss may communicate using touch, objects of reference or which of the following?",
+      "options": [
+        "A loudspeaker system",
+        "A long written report",
+        "A communicator guide",
+        "Standing further away from them"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person becomes angry during a difficult conversation. What does the course advise you to do?",
+      "options": [
+        "Raise your voice to match theirs",
+        "Ignore the complaint and walk away without a word",
+        "Listen first, keep your tone low and steady, and try not to take the anger personally",
+        "Argue back firmly so they know you are right"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the 'need to know' principle of confidentiality mean?",
+      "options": [
+        "You may share information freely with the person's neighbours",
+        "You keep all information to yourself, even from the care team",
+        "You may tell anyone who says that they need to know",
+        "You share information only with those directly involved in the person's care"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When someone's first language is not English, whom should you use to interpret?",
+      "options": [
+        "Whoever in the room happens to speak the most languages",
+        "No one; carry on in English regardless",
+        "A family member, because they will always translate accurately",
+        "A professional interpreter or an approved translation service"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, who is the best source for learning how a person prefers to communicate?",
+      "options": [
+        "Another person who has broadly similar needs",
+        "A standard routine used for everyone the same way",
+        "The person themselves, as they are the expert on their own needs",
+        "Your own first impressions of them"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "Your words and your body language do not need to agree with each other.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "An aid such as a hearing aid only helps if it is available and in good working order when the person needs it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "When using an interpreter, you should speak to the interpreter rather than to the person you are supporting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Confidentiality is not absolute; if someone is at risk of serious harm, you may have to share information to keep them or others safe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of non-verbal communication? (Select all that apply)",
+      "options": [
+        "Facial expression",
+        "A written handover note",
+        "Saying the person's preferred name aloud",
+        "Gestures",
+        "Personal space and posture"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help when communicating with someone who has hearing loss? (Select all that apply)",
+      "options": [
+        "Shout as loudly as you can",
+        "Cover your mouth while you speak",
+        "Speak clearly and be ready to write things down",
+        "Face them in good light",
+        "Reduce background noise"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good confidentiality practice? (Select all that apply)",
+      "options": [
+        "Post updates about people you support on social media",
+        "Share information only on a need-to-know basis",
+        "Keep records locked away or password-protected",
+        "Seek the person's consent before sharing wherever you can",
+        "Discuss the people you support in corridors and lifts"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which approaches does the course recommend when communicating with a person living with dementia? (Select all that apply)",
+      "options": [
+        "Allow plenty of time to respond",
+        "Use a calm tone and gentle body language",
+        "Correct them harshly over small details",
+        "Rush them so the conversation is quicker",
+        "Keep language simple and ask one thing at a time"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "For deaf people who use British Sign Language, a qualified ___ interpreter may be needed.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "BSL",
+              "British Sign Language"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Under the ___ Information Standard, services must ask about, record and meet the communication and information needs of the people they support.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Accessible"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In the communication cycle, the person who has a message they want to share is called the ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "sender"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

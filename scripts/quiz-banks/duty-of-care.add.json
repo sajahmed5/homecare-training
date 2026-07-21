@@ -1,0 +1,309 @@
+{
+  "slug": "duty-of-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to the material, your employer's own duty of care towards you means they must:",
+      "options": [
+        "Give you proper training, safe equipment, clear procedures and enough support to do your job well",
+        "Remove every possible risk from the lives of the people you support",
+        "Deal with complaints without ever telling you they were made",
+        "Make every difficult decision on your behalf so you never face a dilemma"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Besides the people you support, to whom does the material say you also owe a duty of care?",
+      "options": [
+        "Only to the CQC and the local authority",
+        "To your colleagues and to yourself",
+        "To no one else once you are on shift",
+        "Only to your line manager"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Your duty of care says that when a task is one you have not been trained for, you should:",
+      "options": [
+        "Not attempt it, and work within your training and competence",
+        "Attempt it anyway so the person is not kept waiting",
+        "Ask the person to guide you through it themselves",
+        "Delegate it to whichever colleague is nearest"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Mental Capacity Act 2005, a person who has capacity:",
+      "options": [
+        "Must always follow the advice of a dietitian or GP",
+        "Is allowed to make a decision that others might see as unwise",
+        "Loses the right to choose once a professional disagrees",
+        "Can only make choices that carry no risk at all"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How does the material best describe professional boundaries?",
+      "options": [
+        "Rules that only apply to managers and senior staff",
+        "Restrictions that prevent you from ever building trust",
+        "A reason to keep the people you support at an emotional distance",
+        "The lines that keep a caring relationship safe, respectful and focused on the person's needs"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support tries to give you a personal gift. In line with the material, you should:",
+      "options": [
+        "Accept it but keep it a secret from your manager",
+        "Politely decline it",
+        "Sell it and share the money with the team",
+        "Accept it quietly so you do not cause offence"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If you are asked to become involved in decisions about a person's money, estate or will, the material advises you to:",
+      "options": [
+        "Agree, as long as the person insists it is what they want",
+        "Only get involved if no family member is available",
+        "Step back from the decision and report that you were asked",
+        "Handle it privately without troubling your manager"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, an advocate is:",
+      "options": [
+        "A care worker assigned to enforce the person's care plan",
+        "A family member who takes over all of a person's choices",
+        "A senior manager who decides complaints on the person's behalf",
+        "An independent person who helps someone understand their rights and speak up for what they want"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In the material, an 'error' is defined as:",
+      "options": [
+        "An event that caused or could have caused harm",
+        "A mistake, such as giving the wrong medication",
+        "Something that could have gone wrong but was caught in time",
+        "A complaint raised by a person's family"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does the material describe near misses as especially valuable?",
+      "options": [
+        "They are early warnings that let a service fix a problem before someone is harmed",
+        "They allow the service to identify who is to blame",
+        "They rarely need to be written down or reported",
+        "They prove that a service is completely free of risk"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "For your organisation, the duty of candour is described as a legal requirement under:",
+      "options": [
+        "The Health and Safety at Work Act alone",
+        "CQC Regulation 20",
+        "The Equality Act 2010",
+        "The Data Protection Act"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, offering a sincere apology when something goes wrong:",
+      "options": [
+        "Is not an admission of legal liability",
+        "Is only necessary if the person was physically harmed",
+        "Proves that you are a bad worker",
+        "Should be avoided until an investigation is complete"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "The material suggests that behaviour which seems difficult or challenging is often:",
+      "options": [
+        "A deliberate attempt to make your job harder",
+        "A reason to leave the person alone until they calm down completely",
+        "Something that should never be reported after the event",
+        "A form of communication about pain, fear, confusion or an unmet need"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If you feel a safeguarding concern is not being acted on internally, the material says you can raise it externally with:",
+      "options": [
+        "The CQC or the local safeguarding team",
+        "The person's family and no one else",
+        "A colleague on the same team",
+        "The local newspaper"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Your employer also owes you a duty of care, which includes providing proper training, safe equipment and clear procedures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Meeting your duty of care means wrapping people in cotton wool and taking away their independence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You do not need to be certain that abuse is happening before you raise a concern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is your job to fully investigate a safeguarding concern yourself before passing it on to anyone else.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "When someone wants to do something that carries risk, how can you support their choice safely? (Select all that apply)",
+      "options": [
+        "Give them clear, honest information about the possible benefits and dangers",
+        "Overrule the choice if you personally think it is unwise",
+        "Record the decision and the risks that were discussed",
+        "Work with them, their family and the wider team to agree a plan",
+        "Refuse to discuss the risks so as not to worry them"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are appropriate ways to handle a possible conflict of interest? (Select all that apply)",
+      "options": [
+        "Keep your private phone number and social media separate from your work",
+        "Tell your manager as soon as you notice a possible conflict",
+        "Agree to be named in a person's will if they ask you",
+        "Politely decline personal gifts from the people you support",
+        "Lend money to a person you support to help them out"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "After a difficult or confrontational situation, what should you always do? (Select all that apply)",
+      "options": [
+        "Record what happened factually and objectively",
+        "Reflect on any triggers or warning signs so the team can prevent a repeat",
+        "Report the incident to your manager",
+        "Keep it to yourself to avoid embarrassing the person",
+        "Pretend it did not happen so that no one worries"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are steps in working through a duty-of-care dilemma? (Select all that apply)",
+      "options": [
+        "Seek support by talking to your manager rather than deciding alone",
+        "Pause to notice the competing duties or rights in the situation",
+        "Make a quick decision on your own to resolve it fast",
+        "Impose your own view of what is best for the person",
+        "Gather facts about what the person actually wants and the real risks"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "An event that could have gone wrong but was caught in time and did not cause harm is called a near ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "miss",
+              "misses"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "An independent person who helps someone understand their rights and speak up for what they want is called an ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "advocate",
+              "advocates"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The material explains that behaviour which seems difficult or challenging is often a form of ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "communication",
+              "communicating"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

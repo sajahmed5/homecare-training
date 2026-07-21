@@ -1,0 +1,306 @@
+{
+  "slug": "safeguarding-children",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In law, a child is defined as anyone who has not yet reached their:",
+      "options": [
+        "16th birthday",
+        "25th birthday",
+        "21st birthday",
+        "18th birthday"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which Act introduced the principle that a child's welfare is the paramount consideration when a court decides questions about their upbringing?",
+      "options": [
+        "Care Act 2014",
+        "Data Protection Act 2018",
+        "Children Act 2004",
+        "Children Act 1989"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which Act strengthened multi-agency working and placed a duty on organisations to co-operate to improve children's wellbeing?",
+      "options": [
+        "Children Act 2004",
+        "Mental Capacity Act 2005",
+        "Children Act 1989",
+        "Equality Act 2010"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Persistent maltreatment such as constant criticism, humiliation, threats, or making a child feel worthless or unloved describes which category of abuse?",
+      "options": [
+        "Emotional abuse",
+        "Neglect",
+        "Sexual abuse",
+        "Physical abuse"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Deliberately fabricating the symptoms of an illness in a child is an example of which category of abuse?",
+      "options": [
+        "Sexual abuse",
+        "Physical abuse",
+        "Neglect",
+        "Emotional abuse"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The ongoing failure to meet a child's basic physical or psychological needs, such as food, shelter, supervision or emotional warmth, describes which category of abuse?",
+      "options": [
+        "Physical abuse",
+        "Neglect",
+        "Sexual abuse",
+        "Emotional abuse"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Forcing or enticing a child to take part in sexual activities, whether or not the child is aware of what is happening, describes which category of abuse?",
+      "options": [
+        "Sexual abuse",
+        "Neglect",
+        "Physical abuse",
+        "Emotional abuse"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Because there is no fixed legal definition of 'significant' harm, practitioners weigh up its severity, duration and frequency, and its impact on:",
+      "options": [
+        "the child's health and development",
+        "the local threshold document",
+        "the family's income",
+        "the parents' wishes"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Support to a 'child in need' under section 17 of the Children Act 1989 is offered:",
+      "options": [
+        "only by the police",
+        "only after a section 47 enquiry",
+        "on a compulsory basis by court order",
+        "on a voluntary basis with the family"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In an emergency where a child is in immediate danger, who should be contacted?",
+      "options": [
+        "The DSL, by email",
+        "Children's social care, within 48 hours",
+        "The NSPCC helpline",
+        "The police, on 999"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which legislation allows you to share information in order to safeguard a child?",
+      "options": [
+        "The Human Rights Act 1998",
+        "The Children Act 1989 only",
+        "The Data Protection Act 2018 and UK GDPR",
+        "The Care Act 2014"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A Multi-Agency Safeguarding Hub (MASH) is best described as:",
+      "options": [
+        "a national database of all children",
+        "a hub where the local authority, police, health and other partners share information about a child",
+        "a police-only investigation unit",
+        "a team that only investigates adult abuse"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Child sexual exploitation (CSE) is best described as:",
+      "options": [
+        "the neglect of a child's medical needs",
+        "a voluntary early help service for families",
+        "a form of sexual abuse where a child is manipulated or coerced into sexual activity in exchange for something such as money, gifts, affection or status",
+        "bullying between children at school"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Prevent is best described as:",
+      "options": [
+        "a type of early help assessment",
+        "a local threshold document",
+        "the part of the Government's counter-terrorism strategy that aims to stop people being drawn into terrorism",
+        "a child protection enquiry under section 47"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "There is a fixed legal definition of 'significant harm' set out in the Children Act 1989.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Fear of breaching confidentiality or data protection law is a valid reason to leave a child at risk without sharing information.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Some level of emotional abuse is present in all types of child maltreatment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A child may experience more than one category of abuse at the same time, and abuse can be inflicted by an adult, another child, or a group.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be possible indicators of physical abuse? (Select all that apply)",
+      "options": [
+        "Injuries that always appear only on the hands",
+        "A child who is meeting all developmental milestones",
+        "A child who flinches at contact",
+        "Bruises in the shape of a hand or an object",
+        "Injuries in unusual places"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be possible signs of emotional or sexual abuse? (Select all that apply)",
+      "options": [
+        "A child consistently excelling at school, proving they are safe",
+        "A child who is unusually confident with every adult",
+        "A child who seems fearful of a parent",
+        "Sexual knowledge or behaviour beyond what is expected for the child's age",
+        "A child who is withdrawn or overly anxious"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be possible signs of child criminal exploitation or 'county lines'? (Select all that apply)",
+      "options": [
+        "Unexplained money, phones or clothing",
+        "Seeming frightened of older 'friends'",
+        "Doing well in age-appropriate hobbies",
+        "Being secretive about a phone",
+        "Going missing from home"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are principles of sharing information well to safeguard a child? (Select all that apply)",
+      "options": [
+        "Share what is necessary and proportionate with those who need it",
+        "Record what you shared and why",
+        "Withhold information to protect the family's privacy even when a child may be at risk",
+        "Normally be open and honest with the family, unless doing so would put the child at greater risk"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When sharing information to safeguard a child, you should share only what is necessary and ___, with those who need it.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "proportionate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Child protection is the part of safeguarding that responds when a child is suffering, or is likely to suffer, ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "harm"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Many areas run a Multi-Agency Safeguarding Hub, commonly abbreviated as ___, where partners share information to build a fuller picture of a child.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "MASH"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

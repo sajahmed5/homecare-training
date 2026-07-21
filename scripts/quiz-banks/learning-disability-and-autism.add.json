@@ -1,0 +1,185 @@
+{
+  "slug": "learning-disability-and-autism",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "The Oliver McGowan Mandatory Training is delivered at two tiers. Which tier applies to most care workers who provide care and support directly?",
+      "options": [
+        "A separate tier only for family carers",
+        "No tier is needed for care workers",
+        "Tier 1",
+        "Tier 2"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a defining feature of the Oliver McGowan Mandatory Training?",
+      "options": [
+        "It can be completed instead of speaking to your manager about your tier",
+        "It is co-delivered together with people who have lived experience of learning disability and autism",
+        "It is optional for care workers who already feel confident",
+        "It is delivered only as a written test"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The duty to make reasonable adjustments is described as 'anticipatory'. What does this mean in practice?",
+      "options": [
+        "Services should plan ahead rather than wait for a problem to arise",
+        "Only large organisations are required to make them",
+        "Adjustments can only be made after a complaint is received",
+        "Adjustments are optional if they would cost any money"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under which law must your employer ensure you complete the Oliver McGowan Mandatory Training at the tier appropriate to your role?",
+      "options": [
+        "The Equality Act 2010",
+        "The Mental Capacity Act 2005",
+        "The Care Standards Act",
+        "The Health and Care Act 2022"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the purpose of a hospital passport (also called a health passport)?",
+      "options": [
+        "To act as legal proof of a person's diagnosis",
+        "To permanently replace the person's GP records",
+        "To give staff who do not know the person the essential information they need to provide safe, personalised care quickly",
+        "To record staff working hours on a ward"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what can the effort of masking lead to for an autistic person?",
+      "options": [
+        "A permanent reduction in the support they need",
+        "Improved long-term physical health",
+        "A cure for their autism",
+        "Burnout, anxiety, or a delayed 'crash' once the person is somewhere they feel safe"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Before anyone concludes that a person cannot make a particular decision, what must happen first?",
+      "options": [
+        "The decision must be delayed for a set period of 28 days",
+        "The decision must be made for them by a manager",
+        "They must prove their capacity in writing",
+        "They must be given all practicable support to make the decision themselves"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes a shutdown?",
+      "options": [
+        "An inward response where the person goes quiet or withdrawn, which can be easy to miss",
+        "A deliberate attempt to gain attention",
+        "A loud, outward response with shouting and sudden movement",
+        "A sign that the person is no longer overwhelmed"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best reflects the 'least restrictive principle'?",
+      "options": [
+        "Restriction should be used routinely so that people stay safe",
+        "Restrictions do not need to be recorded or reviewed",
+        "The most secure option is always the best option",
+        "Any restriction must be the minimum necessary, used only to prevent harm, for the shortest time, and in the person's best interests"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "People with a learning disability aged 14 and over are entitled to a free annual health check from their GP, even if they feel well.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Making a reasonable adjustment means giving a disabled person an unfair advantage over everyone else.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are examples of reasonable adjustments in practice? (Select all that apply)",
+      "options": [
+        "Asking the person to re-explain their needs at every single visit",
+        "Allowing longer appointments so that nothing is rushed",
+        "Increasing psychotropic medication to keep the person calm",
+        "Providing a quieter room with dimmed lights",
+        "Offering the first or last appointment of the day"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "You are supporting someone under the STOMP approach. Which of these are part of your role? (Select all that apply)",
+      "options": [
+        "Helping make sure medicines are reviewed and questioned, not just repeated",
+        "Supporting alternatives such as good communication, routine, and activity to reduce distress",
+        "Changing or stopping the person's medication yourself",
+        "Observing and recording the effects and side effects of medicines",
+        "Aiming to stop all of the person's medicines as quickly as possible"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When some of a person's senses are heightened, so that everyday noise can feel painful or exhausting, they are described as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hypersensitive",
+              "hyper-sensitive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "STOMP works alongside ___, which promotes the same safe approach to medicines for children and young people.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "STAMP"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "slug": "equality-diversity-and-inclusion",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which standard of the Care Certificate asks you to put equality, diversity and inclusion at the heart of your practice?",
+      "options": [
+        "Standard 4",
+        "Standard 2",
+        "Standard 6",
+        "Standard 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the FREDA principles, what does the letter 'D' stand for?",
+      "options": [
+        "Difference",
+        "Diversity",
+        "Dignity",
+        "Disability"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which Act gives everyone in the UK a set of basic rights simply because they are human, and requires public bodies to respect them?",
+      "options": [
+        "Human Rights Act 1998",
+        "Care Act 2014",
+        "Equality Act 2010",
+        "Data Protection Act 2018"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which body enforces the Equality Act 2010?",
+      "options": [
+        "The Care Quality Commission (CQC)",
+        "Skills for Care",
+        "ACAS",
+        "The Equality and Human Rights Commission (EHRC)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the idea of 'intersectionality' recognise?",
+      "options": [
+        "That a person's overlapping identities combine to shape their experience",
+        "That people can only be defined by one protected characteristic",
+        "That everyone should be treated in exactly the same way",
+        "That discrimination is always intentional"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the first of the five steps in the Accessible Information Standard?",
+      "options": [
+        "Act",
+        "Flag",
+        "Share",
+        "Ask"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best describes the protected characteristic of gender reassignment under the Equality Act 2010?",
+      "options": [
+        "Being married or in a civil partnership",
+        "Being attracted to the same or opposite sex",
+        "Being pregnant or having recently given birth",
+        "Proposing to undergo, undergoing or having undergone a process to reassign one's sex"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Equality Act 2010, the protected characteristic of race includes which of the following?",
+      "options": [
+        "Marriage and civil partnership",
+        "Religion and philosophical belief",
+        "Age and disability",
+        "Colour, nationality and ethnic or national origin"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of a reasonable adjustment in everyday care?",
+      "options": [
+        "Providing information in easy-read, large print or braille",
+        "Expecting a person to manage without any communication aids",
+        "Requiring everyone to follow an identical daily routine",
+        "Refusing to change mealtimes for any reason"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the role of an independent advocate?",
+      "options": [
+        "To make all decisions on the person's behalf",
+        "To enforce the Equality Act 2010",
+        "To help a person understand their rights and speak up for what they want",
+        "To provide the person's medical treatment"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Equality Act 2010, the protected characteristic 'religion or belief':",
+      "options": [
+        "does not include philosophical beliefs",
+        "only applies during religious festivals",
+        "only covers the major world religions",
+        "includes having no religion"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In the FREDA principles, what does the letter 'A' stand for?",
+      "options": [
+        "Autonomy",
+        "Advocacy",
+        "Assessment",
+        "Access"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulator expects providers to deliver care that is fair, person-centred and free from discrimination?",
+      "options": [
+        "The Equality and Human Rights Commission (EHRC)",
+        "ACAS",
+        "The Care Quality Commission (CQC)",
+        "A trade union"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How does the Equality Act 2010 define 'disability'?",
+      "options": [
+        "Being a particular age or age group",
+        "A short-term illness that soon passes",
+        "A physical or mental impairment with a long-term effect on everyday activities",
+        "Any difference in a person's culture or background"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "The Human Rights Act 1998 means a person's basic human rights can be taken away because of their age or illness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The Equality Act 2010 brought together many older laws into a single Act.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Making reasonable adjustments for a disabled person is an optional favour rather than a legal duty.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Under the Accessible Information Standard, a person's communication needs should be shared with others involved in their care with the person's consent.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are principles in the FREDA framework? (Select all that apply)",
+      "options": [
+        "Reliability",
+        "Punctuality",
+        "Dignity",
+        "Autonomy",
+        "Fairness"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are steps in the Accessible Information Standard? (Select all that apply)",
+      "options": [
+        "Flag",
+        "Charge",
+        "Record",
+        "Ignore",
+        "Ask"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are sources of help within your own organisation when you have an EDI question? (Select all that apply)",
+      "options": [
+        "The Equality and Human Rights Commission",
+        "ACAS",
+        "Care plans and colleagues",
+        "Your workplace equality, diversity and inclusion policy",
+        "Your line manager"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "If you witness discrimination, which of the following should you do? (Select all that apply)",
+      "options": [
+        "Support the person affected and protect their dignity",
+        "Record your personal opinions about who was to blame",
+        "Report it to your manager or supervisor",
+        "Keep it to yourself to avoid conflict",
+        "Challenge it appropriately if it is safe to do so"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Since 2016, all organisations providing NHS or adult social care in England must follow the Accessible ___ Standard.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Information"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ is the idea that a person's overlapping identities combine to shape their experience in ways unique to them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Intersectionality"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Human Rights Act ___ protects rights such as dignity and freedom from degrading treatment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "1998"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

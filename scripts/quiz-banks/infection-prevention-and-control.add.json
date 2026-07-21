@@ -1,0 +1,308 @@
+{
+  "slug": "infection-prevention-and-control",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Antibiotics do not work against which type of micro-organism?",
+      "options": [
+        "Viruses",
+        "Bacteria",
+        "Fungi only",
+        "All micro-organisms equally"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In infection control, what does 'colonisation' mean?",
+      "options": [
+        "Micro-organisms live on the skin or in the gut without causing any symptoms",
+        "The body has become resistant to all antibiotics",
+        "The person becomes critically unwell within a few hours",
+        "The organisms multiply and damage tissue, causing fever and swelling"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which infection is caused by a mite/parasite that spreads through close contact?",
+      "options": [
+        "Norovirus",
+        "Scabies",
+        "Thrush",
+        "Athlete's foot"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The 'bare below the elbows' principle means removing which of the following before giving care?",
+      "options": [
+        "Your name badge",
+        "Rings, wristwatches and false nails",
+        "Your apron and gloves",
+        "Your shoes and socks"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "For roughly how long should you rub all surfaces of your hands when washing with soap and water?",
+      "options": [
+        "Around 45 seconds",
+        "Around 5 seconds",
+        "Around 20 seconds",
+        "Around 2 minutes"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which body inspects registered providers against the Health and Social Care Act 2008 Code of Practice on the prevention and control of infections?",
+      "options": [
+        "The Care Quality Commission (CQC)",
+        "The UKHSA laboratory service",
+        "The local council housing department",
+        "The person's own family"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which waste bag is generally used for offensive/hygiene waste that is non-infectious, such as incontinence pads from someone with no known infection?",
+      "options": [
+        "Red bags",
+        "Black bags",
+        "Orange bags",
+        "Yellow-and-black \"tiger\" bags"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which colour bag is generally used for ordinary domestic (household) waste?",
+      "options": [
+        "Purple bags",
+        "Black bags",
+        "Yellow bags",
+        "Orange bags"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which colour bags are generally used for waste destined for incineration, such as some medicinally contaminated items?",
+      "options": [
+        "Clear bags",
+        "Green bags",
+        "Yellow bags",
+        "Black bags"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You suffer a needlestick injury while providing care. What is the correct immediate action?",
+      "options": [
+        "Re-cap the needle and carry on with the task",
+        "Ignore it unless the skin is obviously broken",
+        "Encourage bleeding, wash under running water, cover the wound and report it immediately",
+        "Apply a plaster and finish your shift before mentioning it"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In the chain of infection, which link describes how a germ travels, for example via unwashed hands, droplets in the air or contaminated surfaces?",
+      "options": [
+        "Reservoir",
+        "Portal of entry",
+        "Susceptible host",
+        "Mode of transmission"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How is an outbreak usually described?",
+      "options": [
+        "Two or more linked cases of the same infection in the same place around the same time",
+        "Ten or more cases occurring within one day only",
+        "A single case of any infection in a care setting",
+        "Any person who simply feels unwell at work"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When removing (doffing) your fluid-resistant surgical mask, how should you handle it?",
+      "options": [
+        "By leaving it on until you have left the building",
+        "By pinching and folding the front of the mask",
+        "By the ties or ear loops, without touching the front",
+        "By pulling it off before you remove your gloves"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does antimicrobial resistance (AMR) mean?",
+      "options": [
+        "Too small a dose of antibiotic was prescribed for one person",
+        "Micro-organisms change so that the medicines no longer work well against them",
+        "A person has become allergic to antibiotics",
+        "Antibiotics have been stored at the wrong temperature"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Alcohol-based hand rub is suitable for most of the WHO 5 Moments when your hands are visibly clean.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If no tissue is to hand, coughing into the crook of your elbow is far better than coughing into your bare hands.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A used needle should be re-sheathed (re-capped) before it is placed into the sharps bin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Antibiotics are an effective treatment for colds, flu and most sore throats.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised links in the chain of infection? (Select all that apply)",
+      "options": [
+        "Reservoir",
+        "Vaccination schedule",
+        "Infectious agent",
+        "Antibiotic resistance",
+        "Portal of exit"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In which of the following situations must you use soap and water rather than alcohol hand gel? (Select all that apply)",
+      "options": [
+        "Your hands are visibly soiled with body fluids",
+        "You are caring for someone with confirmed C. difficile",
+        "You have just used the toilet yourself",
+        "You have touched a clean table with clean hands",
+        "Your hands are visibly clean and you have not touched any fluids"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are items of personal protective equipment (PPE) used in care? (Select all that apply)",
+      "options": [
+        "Eye protection such as goggles or a visor",
+        "Disposable apron",
+        "Disposable gloves",
+        "A wristwatch",
+        "Alcohol hand gel"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following signs should make you escalate urgently because you suspect sepsis? (Select all that apply)",
+      "options": [
+        "A single mild sneeze",
+        "Skin that is mottled, blotchy or bluish",
+        "Passing little or no urine",
+        "Slurred speech or new confusion",
+        "Slightly dry lips after a nap"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The respiratory and cough hygiene slogan is 'catch it, ___ it, kill it'.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "bin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Alcohol hand gel does not kill C. difficile ___, which is why hands must be physically washed with soap and water instead.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "spores",
+              "spore"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When dealing with a blood or body fluid spillage, you can use a spill kit containing a chlorine-releasing granule or solution such as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "NaDCC",
+              "sodium dichloroisocyanurate"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

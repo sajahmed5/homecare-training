@@ -44,3 +44,6 @@ next-env.d.ts
 
 # local-only: env values for Vercel upload (never commit)
 vercel-env.txt
+
+# Derived quiz-authoring context packs (regenerate: node scripts/build-quiz-context.mjs)
+scripts/quiz-banks/.context/

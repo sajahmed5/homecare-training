@@ -1,0 +1,301 @@
+{
+  "slug": "basic-life-support-bls",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What happens in the body during a cardiac arrest?",
+      "options": [
+        "Blood pressure rises sharply but circulation continues",
+        "The lungs slowly fill with fluid over several hours",
+        "The brain swells and pushes against the skull",
+        "Blood stops flowing to the brain and vital organs"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which guidance is this BLS awareness course based on?",
+      "options": [
+        "Historical first-aid advice from the 1980s",
+        "A single manufacturer's defibrillator manual",
+        "Resuscitation Council UK guidelines and NHS guidance",
+        "Local care home policy only"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How often will your employer usually arrange BLS refresher sessions?",
+      "options": [
+        "Only when a new member of staff joins",
+        "Every month without fail",
+        "Once every five years",
+        "Usually every year"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, how quickly can resuscitation skills fade after training?",
+      "options": [
+        "Often within months of training",
+        "Within a few hours",
+        "Not for at least ten years",
+        "Skills never fade once learned"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the DRABC approach, what does the 'R' stand for?",
+      "options": [
+        "Response",
+        "Recovery",
+        "Rate",
+        "Rescue"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How should you open the airway of an unresponsive person?",
+      "options": [
+        "Head-tilt, chin-lift",
+        "Press firmly on the top of the head",
+        "Turn their head fully to one side",
+        "Lift both shoulders off the ground"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why can an unresponsive person's airway become blocked?",
+      "options": [
+        "Their throat muscles turn rigid",
+        "Their saliva hardens quickly",
+        "Their tongue can fall back",
+        "Their jaw locks tightly shut"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "For how long should you look, listen and feel for normal breathing?",
+      "options": [
+        "Exactly five minutes",
+        "At least one full minute",
+        "No more than 30 seconds",
+        "No more than 10 seconds"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When checking for normal breathing, what should you feel for?",
+      "options": [
+        "Warmth on the chest",
+        "Movement of the eyelids",
+        "A pulse at the wrist",
+        "Air on your cheek"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If someone has a seizure, what does the course advise you to do?",
+      "options": [
+        "Hold their limbs firmly still until it stops",
+        "Give five abdominal thrusts",
+        "Start chest compressions immediately",
+        "Protect them from injury and check them once it passes"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do with your arms while giving chest compressions?",
+      "options": [
+        "Keep your shoulders behind your hands",
+        "Rest your forearms on the person's chest",
+        "Bend your elbows to cushion each push",
+        "Keep them straight with your shoulders directly above your hands"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If a second trained rescuer is available, roughly how often should you swap over during CPR?",
+      "options": [
+        "Only when the AED tells you to",
+        "Every 30 seconds",
+        "Roughly every two minutes",
+        "Only after ten minutes"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "The recommended compression depth of 5 to 6 cm is described as roughly what fraction of the depth of the chest?",
+      "options": [
+        "About two thirds",
+        "About a half",
+        "About a third",
+        "About a quarter"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Where should one of the AED pads be placed?",
+      "options": [
+        "On the right side below the armpit",
+        "Below the right collarbone",
+        "On the stomach near the navel",
+        "Over the spine"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When calling 999 during a cardiac arrest, you should put your phone on speaker so your hands are free and the call handler can guide you.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you are on your own and there is no AED with you, you should leave the person to go and find one.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "An automated external defibrillator (AED) is designed so that untrained members of the public can use it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "For a child, you must always wait for paediatric pads and never use a standard adult AED.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are dangers you should look for before approaching a collapsed person? (Select all that apply)",
+      "options": [
+        "Traffic",
+        "A locked door nearby",
+        "Water",
+        "Electricity"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following should you tell the ambulance crew when you hand over? (Select all that apply)",
+      "options": [
+        "Whether there is a DNACPR or ReSPECT form",
+        "What happened",
+        "Roughly when the person collapsed",
+        "The make of your phone"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help you stay safe when using an AED? (Select all that apply)",
+      "options": [
+        "Dry the chest before attaching the pads",
+        "Keep the pads clear of medication patches",
+        "Keep touching the person while it analyses the rhythm",
+        "Move any oxygen mask away before a shock is given"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Why is the recovery position used for an unresponsive person who is breathing normally? (Select all that apply)",
+      "options": [
+        "It restarts the heart",
+        "It lets any fluids or vomit drain out",
+        "It keeps the airway open",
+        "It delivers a controlled electric shock"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Chest compressions on an adult should be at least 5 cm deep but no more than ___ cm.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The recovery position keeps the airway open and lets any fluids or vomit ___ out rather than blocking breathing.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "drain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When treating a conscious choking adult, if the cough is ineffective you give up to five back blows followed by up to five abdominal ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "thrusts"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "slug": "person-centred-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Historically, much care in large institutions in England was organised mainly around what?",
+      "options": [
+        "The convenience of the service rather than the person",
+        "Each individual's personal history and tastes",
+        "The latest medical research",
+        "The wishes of families and unpaid carers"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which Care Certificate Standard is titled \"Work in a person-centred way\"?",
+      "options": [
+        "Standard 9",
+        "Standard 14",
+        "Standard 1",
+        "Standard 5"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under CQC Regulation 9, providers must give care and treatment that is:",
+      "options": [
+        "The same for everyone so it is fair",
+        "Appropriate, meets people's needs and reflects their personal preferences",
+        "Focused only on physical health tasks",
+        "Decided entirely by staff without the person's input"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How is a care and support plan best described?",
+      "options": [
+        "A one-off form filed away in a folder",
+        "A record kept only by managers",
+        "A fixed routine that should not be changed",
+        "A living document, owned by the individual"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of active participation at mealtimes?",
+      "options": [
+        "Feeding the person quickly to save time",
+        "The person choosing the ingredients, stirring the pot or laying the table",
+        "Staff preparing and serving the whole meal while the person waits",
+        "Giving the person exactly the same meal as everyone else"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Mental Capacity Act 2005, a person's capacity is:",
+      "options": [
+        "Fixed for life once it has been assessed",
+        "Decision-specific and can change over time",
+        "The same at every time of day",
+        "Determined solely by their diagnosis"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You must never decide that someone lacks capacity simply because of:",
+      "options": [
+        "Their age, a diagnosis such as dementia, or a choice you think is unwise",
+        "Their own request for extra support",
+        "A completed assessment showing they cannot decide",
+        "Clear evidence that they cannot understand the decision"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When a decision is made in a person's best interests, it should:",
+      "options": [
+        "Ignore the views of people who know the person well",
+        "Be whatever is easiest for staff",
+        "Consider the person's past and present wishes, feelings, beliefs and values",
+        "Always choose the most restrictive option"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Choosing the \"least restrictive\" option means selecting the choice that:",
+      "options": [
+        "Limits the person's rights and freedom as little as possible",
+        "Keeps the person safest whatever the cost to their freedom",
+        "The manager happens to prefer",
+        "Is quickest for the service to deliver"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "NICE guidance on person-centred care is built on which three principles?",
+      "options": [
+        "Safety, staffing and cost",
+        "Diagnosis, treatment and discharge",
+        "Efficiency, routine and record-keeping",
+        "Choice, independence and control"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Supporting real choice for a person includes:",
+      "options": [
+        "Respecting their decision even when you would choose differently, including the right to take positive risks",
+        "Making the decision for them to keep them safe",
+        "Offering options that are not actually available",
+        "Overriding any choice you consider unwise"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the scenario, what helped Doreen eat better and feel more settled at teatime?",
+      "options": [
+        "Prescribing her new medication",
+        "Encouraging her to eat a larger evening meal",
+        "Listening to her daughter and moving her main cooked meal to lunchtime",
+        "Recording 'poor appetite' and moving on"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a possible facial sign that someone who cannot use words may be in pain?",
+      "options": [
+        "Making comfortable eye contact",
+        "Steady, even breathing",
+        "Frowning, grimacing or wincing during movement",
+        "A relaxed, smiling expression"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When you notice that a person is in pain or distress, a good first step is to:",
+      "options": [
+        "Record it only at the very end of the shift",
+        "Move them into a busier room",
+        "Wait to see whether it passes on its own",
+        "Check the simple things, such as whether they are too hot, cold, hungry or need the toilet"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Person-centred care focuses only on what is the matter with someone, not on what matters to them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The care and support plan is shared with others only with the individual's consent.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Consent can be given non-verbally, for example by a nod or by holding out an arm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Following an out-of-date care plan still counts as person-centred care, as long as you do it carefully.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are dimensions of a holistic approach to a person's needs? (Select all that apply)",
+      "options": [
+        "The person's credit score",
+        "Physical needs such as mobility and comfort",
+        "Emotional and mental wellbeing and mood",
+        "Social relationships, family and community"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What can active participation do for a person? (Select all that apply)",
+      "options": [
+        "Increase self-esteem, purpose and a sense of belonging",
+        "Maintain and build skills and independence",
+        "Reduce isolation and the risk of learned helplessness",
+        "Ensure staff do everything for the person"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which small adjustments to the surroundings can help ease a person's distress? (Select all that apply)",
+      "options": [
+        "Soften lighting to avoid glare and harsh shadows",
+        "Insist the person stays in a busy communal area",
+        "Adjust seating, temperature and clothing for comfort",
+        "Turn down a blaring television or move to a quieter space"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How should you work with families and others to keep care person-centred? (Select all that apply)",
+      "options": [
+        "Involve families in a way the person agrees to",
+        "Share relevant information appropriately",
+        "Respect confidentiality",
+        "Share all details freely regardless of the person's consent"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Mental Capacity Act 2005 starts from the assumption that every adult has the ___ to make their own decisions unless it is shown otherwise.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "capacity"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Active participation means treating the person as an active ___ in their own care, rather than a passive recipient.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "partner"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a person genuinely cannot make a specific decision even with support, anything done for them must be in their ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "best interests",
+              "best interest"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

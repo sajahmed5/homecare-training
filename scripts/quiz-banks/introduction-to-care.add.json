@@ -1,0 +1,311 @@
+{
+  "slug": "introduction-to-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In supported living, what is typically true of the people who receive support?",
+      "options": [
+        "They stay only for short respite breaks",
+        "They hold their own tenancy and choose the support they receive",
+        "They receive care but make none of their own choices",
+        "They live in a hospital ward"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'domiciliary care' refer to?",
+      "options": [
+        "Care given only in a nursing home",
+        "Supporting people in their own homes, often travelling between several people in a shift",
+        "Round-the-clock care in a residential home",
+        "Daytime activities at a community centre"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these best describes extra care housing?",
+      "options": [
+        "A residential home with staff on site around the clock",
+        "A hospital ward",
+        "A short-stay respite service",
+        "Having your own flat with care and support available on site if you need it"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Besides supporting the individual, what is one benefit of day services?",
+      "options": [
+        "They replace the need for any home care",
+        "They remove the need for a care plan",
+        "They give unpaid family carers a welcome break",
+        "They provide 24-hour nursing care"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the title of Care Certificate Standard 1?",
+      "options": [
+        "Duty of candour",
+        "Handling information",
+        "Your personal development",
+        "Understand your role"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is a Personal Development Plan (PDP)?",
+      "options": [
+        "A moving and handling risk assessment",
+        "A person's medication record",
+        "A written plan, usually reviewed each year, setting out what you need to learn and how",
+        "A legal employment contract"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "The CQC checks whether care services are which of the following?",
+      "options": [
+        "Large, modern and busy",
+        "Safe, effective, caring, responsive and well-led",
+        "Cheap, fast and popular",
+        "Profitable and well-advertised"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the 'duty of candour', one of the CQC fundamental standards, mean?",
+      "options": [
+        "Completing the Care Certificate on time",
+        "Working only within your job description",
+        "Keeping all mistakes secret from families",
+        "Being open and honest, especially when something goes wrong"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Equality Act, what is it unlawful to do?",
+      "options": [
+        "Offer someone a choice of what to eat",
+        "Treat someone worse because of things like their age, disability, race, religion or sexual orientation",
+        "Involve someone in decisions about their own care",
+        "Ask someone the name they prefer to be called"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does promoting a person's independence mean in practice?",
+      "options": [
+        "Doing everything for the person to save time",
+        "Doing things with a person rather than for them, so they keep the skills and confidence they already have",
+        "Making all decisions on the person's behalf",
+        "Discouraging the person from taking any risks at all"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of respecting a person's dignity during personal care?",
+      "options": [
+        "Rushing them so the visit finishes sooner",
+        "Discussing their care with your own family",
+        "Knocking before you enter and keeping them covered",
+        "Entering their room without knocking"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If you are asked to carry out a task you have not been trained for, what should you do?",
+      "options": [
+        "Ask another new starter to do it instead",
+        "Do it quickly to save time",
+        "Stop, ask, and not carry it out until you are trained",
+        "Guess how it should be done"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which law, alongside the UK General Data Protection Regulation, governs how personal information must be handled?",
+      "options": [
+        "The Health and Safety at Work Act",
+        "The Equality Act",
+        "The Care Standards Act",
+        "The Data Protection Act 2018"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Confidentiality is important, but if you believe someone is at risk of harm or abuse, what should you do?",
+      "options": [
+        "Pass your concern on straight away",
+        "Keep the information secret to protect their trust",
+        "Wait until your next supervision to mention it",
+        "Only tell the person's family"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "In supported living, people hold their own tenancy and choose the support they receive.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Confidentiality is absolute, so you must never share information even if you believe someone is at risk of harm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Health and safety at work is a shared responsibility between the employer and the worker.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "To save time, it is acceptable to carry out a moving and handling task you have not been trained to do.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are among the CQC's five key questions about a service? (Select all that apply)",
+      "options": [
+        "Is it caring?",
+        "Is it the busiest?",
+        "Is it profitable?",
+        "Is it safe?",
+        "Is it well-led?"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In which of the following settings is adult social care delivered? (Select all that apply)",
+      "options": [
+        "A person's own home (domiciliary care)",
+        "Supported living accommodation",
+        "A football stadium",
+        "A supermarket checkout",
+        "A residential care home"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are among the CQC fundamental standards? (Select all that apply)",
+      "options": [
+        "Advertising as widely as possible",
+        "Person-centred care",
+        "Making a profit",
+        "Dignity and respect",
+        "Consent"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of your personal development under Care Certificate Standard 2? (Select all that apply)",
+      "options": [
+        "Supervision and appraisal",
+        "A Personal Development Plan (PDP)",
+        "Refusing all further training",
+        "Ignoring feedback from others",
+        "Feedback and reflection"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Promoting independence means doing things ___ a person rather than ___ them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "with"
+            ]
+          },
+          {
+            "answers": [
+              "for"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Care Certificate Standard 2 is about your personal ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "development"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The five key questions the CQC asks are whether a service is safe, effective, caring, responsive and well-___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "led"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

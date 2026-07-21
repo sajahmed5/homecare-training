@@ -1,0 +1,183 @@
+{
+  "slug": "mental-health-and-dementia",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What effect can the stigma attached to mental health have on a person?",
+      "options": [
+        "It removes the need for any professional support",
+        "It can stop them asking for help and leave them feeling ashamed or isolated",
+        "It speeds up their recovery from a mental health condition",
+        "It has no real effect on how a person feels"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "According to the material, which of these best describes a delusion?",
+      "options": [
+        "A lasting low mood with loss of interest and tiredness",
+        "A strongly held belief that is not based in fact",
+        "Sensing things that other people do not sense",
+        "Marked swings between very low and high-energy periods"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of dementia often affects younger people and can change personality, behaviour or language more than memory at first?",
+      "options": [
+        "Lewy body dementia",
+        "Alzheimer's disease",
+        "Vascular dementia",
+        "Frontotemporal dementia"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The course teaches that behind almost every distress reaction there is:",
+      "options": [
+        "a deliberate attempt to be difficult",
+        "an unmet need the person is trying to express",
+        "a symptom that should simply be managed and stopped",
+        "a normal part of ageing that can be ignored"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A man living with dementia keeps trying to go outside. Knowing that he was a lifelong gardener most helps you to:",
+      "options": [
+        "understand the meaning behind his wish and respond in a person-centred way",
+        "correct him firmly about the facts of his situation",
+        "work out which type of dementia he has",
+        "insist he stays indoors for his own good"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Being formally detained under the Mental Health Act 1983 is often referred to as being:",
+      "options": [
+        "sectioned",
+        "discharged",
+        "safeguarded",
+        "assessed"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about mental capacity is correct according to the material?",
+      "options": [
+        "A person living with dementia never has capacity for any decision",
+        "Capacity is decided once and then never changes",
+        "Care workers are responsible for formally assessing a person's capacity",
+        "Capacity is specific to each decision and each moment"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Good wellbeing grows from everyday things like connection, purpose, activity and control. Which is an example of supporting a person's sense of control?",
+      "options": [
+        "Giving them chances to fold laundry or tend a plant",
+        "Encouraging a walk in the garden for fresh air",
+        "Helping them stay in touch with family and friends",
+        "Offering real choices such as what to wear or when to get up"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support talks about harming themselves. What does the material say you should do?",
+      "options": [
+        "Treat it seriously and escalate straight away",
+        "Wait to see if the feeling passes on its own",
+        "Keep it to yourself unless it happens again",
+        "Tell them not to be so dramatic"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Delirium is not the same as dementia, although the two can occur together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A diagnosis of dementia describes who a person is.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "When looking for the unmet need behind a distress reaction, which of these are possible causes the material suggests you consider? (Select all that apply)",
+      "options": [
+        "Physical needs such as pain, hunger or needing the toilet",
+        "The person deliberately trying to annoy staff",
+        "Emotional needs such as fear, boredom or loneliness",
+        "Environmental factors such as noise or unfamiliar surroundings"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are warning signs of delirium described in the material? (Select all that apply)",
+      "options": [
+        "Symptoms that fluctuate, often worse later in the day",
+        "Gradual memory loss developing slowly over many years",
+        "Changes in alertness, such as being drowsy or agitated",
+        "New or worsening confusion that comes on quickly"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Instead of the unhelpful term 'challenging behaviour', the course prefers to speak of distress ___, which are understandable responses from someone who is upset or frightened.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "reactions",
+              "reaction"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Where a person needs to be deprived of their liberty to keep them safe, the Deprivation of Liberty Safeguards, abbreviated ___, provide legal protection and oversight.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "DoLS"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

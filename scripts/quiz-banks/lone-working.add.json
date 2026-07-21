@@ -1,0 +1,185 @@
+{
+  "slug": "lone-working",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which set of regulations requires your employer to make a suitable and sufficient assessment of working alone, reviewed when the person you support, the property or the round changes?",
+      "options": [
+        "CQC Regulation 18",
+        "The Management of Health and Safety at Work Regulations 1999",
+        "RIDDOR 2013",
+        "The Corporate Manslaughter and Corporate Homicide Act 2007"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where a gross breach of a duty of care causes a death, and senior management failings are a substantial part of it, under which law can the organisation be prosecuted?",
+      "options": [
+        "Section 8 of the Health and Safety at Work etc. Act 1974",
+        "CQC Regulation 20",
+        "The Corporate Manslaughter and Corporate Homicide Act 2007",
+        "RIDDOR 2013"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under regulation 10 of the Management of Health and Safety at Work Regulations 1999, what does your employer owe you about lone-working risks?",
+      "options": [
+        "Clear information on the risks and the controls in place",
+        "Nothing, provided the assessment is kept on file in the office",
+        "A guarantee that you will never be asked to work alone",
+        "A signed disclaimer in which you accept the risks of working alone"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what is de-escalation ultimately about?",
+      "options": [
+        "Winning the argument by staying calmer than the other person",
+        "Physically holding the person until they calm down",
+        "Buying time so that you can leave safely",
+        "Persuading the person to apologise for their behaviour"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You break down on a fast road on your way to a call. What does the guidance advise?",
+      "options": [
+        "Leave the vehicle by the nearside door and wait behind a barrier",
+        "Stand in front of the vehicle so that oncoming traffic can see you",
+        "Cross to the central reservation and wait there",
+        "Stay in the driver's seat with the hazard lights on until help arrives"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How does HSE guidance on lone working (INDG73) treat the time you spend getting to and from a call?",
+      "options": [
+        "As part of the job, which your employer should support you to do safely",
+        "As the worker's own private time, outside health and safety",
+        "As unpaid time over which the employer has no duty",
+        "As the responsibility of the service user you are visiting"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does clutter and hoarding in a service user's home matter to a lone worker?",
+      "options": [
+        "It automatically means the visit must be carried out by two workers",
+        "Narrow walkways and blocked exits make moving and handling unsafe and slow any evacuation",
+        "It is the worker's job to tidy and clear the walkways every visit",
+        "It is a sign the person no longer has the capacity to consent to care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You smell gas inside a service user's home. What does the material tell you to do?",
+      "options": [
+        "Finish the visit quickly, then mention it at the end of your round",
+        "Leave, ring the national gas emergency line and tell the office",
+        "Switch the lights on to check the cooker and boiler",
+        "Open the windows and carry on with the essential care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A dog bites you on the way into a call. The wound looks minor and you feel fine. What does the guidance say?",
+      "options": [
+        "Only report it if it later becomes infected",
+        "Wait until the end of the round before deciding what to do",
+        "Clean it yourself and carry on, as it is too small to matter",
+        "Get medical attention anyway, because bites can look minor at the time"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Reporting a near miss matters just as much as reporting an actual incident, because near misses are what shape the next risk assessment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If a risk assessment says a visit needs two people, a single worker may still attempt it alone as long as they feel confident.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are personal-safety habits the material recommends when walking or using public transport between calls? (Select all that apply)",
+      "options": [
+        "Wear headphones so that you appear relaxed and unbothered",
+        "Keep your head up and hands free, with headphones out, especially in the dark",
+        "Take a quiet alley shortcut to reach the next visit faster",
+        "On the bus, sit near the driver or other passengers",
+        "Tuck your ID lanyard away between calls"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When writing up a lone-working incident, what does the material say you should do? (Select all that apply)",
+      "options": [
+        "Complete the organisation's accident and incident form, the same day if you can",
+        "Stick to facts and direct quotes rather than opinions about why someone behaved as they did",
+        "Record the date, time and place, and exactly what happened and in what order",
+        "Wait until your next shift so that you can describe it more calmly",
+        "Send a brief text to your manager instead of completing a form"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "After an incident, make yourself ___ first: leave the property and put distance between you and the risk before you do anything else.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "safe"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The course sums up the response when you feel unsafe in three steps: leave, ___, report.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "alarm",
+              "raise the alarm"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

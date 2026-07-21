@@ -1,0 +1,306 @@
+{
+  "slug": "information-governance-and-gdpr",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which role advises an organisation on data protection law and acts as the contact point for the Information Commissioner's Office?",
+      "options": [
+        "Data Protection Officer (DPO)",
+        "Registered care worker",
+        "Caldicott Guardian",
+        "Senior Information Risk Owner (SIRO)"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Organisations that handle NHS patient data complete which annual online self-assessment against national data security standards?",
+      "options": [
+        "The Data Security and Protection Toolkit",
+        "A retention schedule",
+        "A subject access request",
+        "A privacy notice"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How many lawful bases does the UK GDPR set out for using personal data?",
+      "options": [
+        "Seven",
+        "Five",
+        "Four",
+        "Six"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "For special category data such as health information, the extra condition usually relied on in care is:",
+      "options": [
+        "A court order",
+        "The condition for the provision of health or social care",
+        "The person's signed consent form",
+        "The legitimate interests of a visitor"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How long does an organisation normally have to respond to a subject access request?",
+      "options": [
+        "One month",
+        "One year",
+        "72 hours",
+        "One week"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the UK GDPR, for consent to be valid it must be:",
+      "options": [
+        "Impossible to withdraw once given",
+        "Given only in writing on an official form",
+        "Freely given, specific, informed and unambiguous",
+        "Assumed from a pre-ticked box"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which body expects services to keep records securely and use information responsibly as part of being safe and well-led?",
+      "options": [
+        "The Data Protection Officer",
+        "The Senior Information Risk Owner",
+        "The Care Quality Commission (CQC)",
+        "The person's next of kin"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of a personal data breach?",
+      "options": [
+        "Shredding old records in confidential waste",
+        "An email with sensitive details sent to the wrong person",
+        "Storing paper records in a locked cabinet",
+        "Locking your screen when you step away"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Retention periods for how long health and care records should be kept are set out in which document?",
+      "options": [
+        "The Data Protection Act 2018",
+        "The Caldicott Principles",
+        "The privacy notice",
+        "The Records Management Code of Practice"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The right to rectification means that a person can:",
+      "options": [
+        "Ask you to correct information that is wrong or incomplete",
+        "Insist their data is shared with anyone they choose",
+        "Ask to see all the information held about them",
+        "Demand that all their records are deleted immediately"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is classed as special category data?",
+      "options": [
+        "A person's date of birth",
+        "A person's care ID number",
+        "A person's religious or philosophical beliefs",
+        "A person's home address"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A resident says, \"I want to see everything you've written about me.\" What should you do?",
+      "options": [
+        "Hand over the full care file on the spot",
+        "Refuse, because records are confidential to staff",
+        "Recognise it as a subject access request and report it to your manager promptly",
+        "Tell them they must fill in a special form first before anything happens"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why does day-to-day care record-keeping usually NOT rely on the person's consent as its lawful basis?",
+      "options": [
+        "Because consent is illegal in health and social care",
+        "Because consent can be withdrawn at any time, yet records still need to be kept accurately",
+        "Because consent lasts forever and cannot be changed",
+        "Because residents are never asked about their care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The principle of purpose limitation requires that personal information is:",
+      "options": [
+        "Only used for the specific purpose it was collected for",
+        "Collected in the largest amount possible",
+        "Shared freely with any colleague who asks",
+        "Kept forever in case it is useful later"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You should switch on multi-factor authentication for work accounts where it is offered.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is fine to save confidential information onto a personal memory stick, as long as you delete it afterwards.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The right to erasure is an absolute right, so a person's records must always be deleted whenever they ask.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A subject access request can be made verbally, including through social media, and does not have to use a special form or the words 'subject access request'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of a personal data breach? (Select all that apply)",
+      "options": [
+        "A care folder or handover sheet left on a bus",
+        "Records left open on a screen where a visitor can read them",
+        "Checking the recipient carefully before sending a secure email",
+        "Storing paper records in a locked cabinet",
+        "A lost, unencrypted phone or USB stick"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good practices when working away from the office? (Select all that apply)",
+      "options": [
+        "Avoid working over unsecured public Wi-Fi",
+        "Keep records out of sight of family and members of the public",
+        "Post photographs of the people you support on social media",
+        "Only use devices and networks your employer allows",
+        "Save confidential records onto your own personal laptop"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are senior roles that support information governance in health and social care? (Select all that apply)",
+      "options": [
+        "Fire safety officer",
+        "Caldicott Guardian",
+        "Catering supervisor",
+        "Data Protection Officer (DPO)",
+        "Senior Information Risk Owner (SIRO)"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In which situations can you share information without the person's consent? (Select all that apply)",
+      "options": [
+        "A legal duty, for example where a court order requires it",
+        "Vital interests, in a medical emergency to protect someone's life",
+        "To discuss the person's details with friends outside work",
+        "Because a colleague is curious about a service user",
+        "Safeguarding, where an adult or child is at risk of abuse or serious harm"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Because care records are full of ___ data, most of the information you handle is special category data and must be treated with particular care.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "health"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Caldicott principles ask you to use the ___ amount of confidential information necessary for the task, and no more 'just in case'.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "minimum"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When paper records reach the end of their life they must be ___ or placed in confidential waste, never put in an ordinary bin.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "shredded"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
