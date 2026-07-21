@@ -3,74 +3,95 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "lone-working",
+   "course": "fluids-and-nutrition",
+   "page": 1,
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p1/content/images"
+  },
+  {
+   "course": "fluids-and-nutrition",
    "page": 2,
-   "file": "the-law-and-duties.svg",
-   "alt": "Illustration for The law and duties",
-   "srcDir": "public/h5p/content/lone-working/p2/content/images"
+   "file": "more-than-fuel.svg",
+   "alt": "Illustration for More than fuel",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p2/content/images"
   },
   {
-   "course": "lone-working",
+   "course": "fluids-and-nutrition",
+   "page": 3,
+   "file": "your-role-and-limits.svg",
+   "alt": "Illustration for Your role and limits",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p3/content/images"
+  },
+  {
+   "course": "fluids-and-nutrition",
    "page": 4,
-   "file": "risk-assessment.svg",
-   "alt": "Illustration for Risk assessment",
-   "srcDir": "public/h5p/content/lone-working/p4/content/images"
+   "file": "why-hydration-matters.svg",
+   "alt": "Illustration for Why hydration matters",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p4/content/images"
   },
   {
-   "course": "lone-working",
+   "course": "fluids-and-nutrition",
    "page": 5,
-   "file": "safe-systems-of-work.svg",
-   "alt": "Illustration for Safe systems of work",
-   "srcDir": "public/h5p/content/lone-working/p5/content/images"
+   "file": "spotting-dehydration.svg",
+   "alt": "Illustration for Spotting dehydration",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p5/content/images"
   },
   {
-   "course": "lone-working",
+   "course": "fluids-and-nutrition",
+   "page": 6,
+   "file": "who-is-at-risk.svg",
+   "alt": "Illustration for Who is at risk",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p6/content/images"
+  },
+  {
+   "course": "fluids-and-nutrition",
    "page": 7,
-   "file": "personal-safety-and-de-escalation.svg",
-   "alt": "Illustration for Personal safety and de-escalation",
-   "srcDir": "public/h5p/content/lone-working/p7/content/images"
+   "file": "encouraging-fluids.svg",
+   "alt": "Illustration for Encouraging fluids",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p7/content/images"
   },
   {
-   "course": "lone-working",
+   "course": "fluids-and-nutrition",
    "page": 8,
-   "file": "if-you-feel-unsafe.svg",
-   "alt": "Illustration for If you feel unsafe",
-   "srcDir": "public/h5p/content/lone-working/p8/content/images"
+   "file": "a-balanced-diet.svg",
+   "alt": "Illustration for A balanced diet",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p8/content/images"
   },
   {
-   "course": "medication-awareness",
-   "page": 2,
-   "file": "your-role-and-its-limits.svg",
-   "alt": "Illustration for Your role and its limits",
-   "srcDir": "public/h5p/content/medication-awareness/p2/content/images"
+   "course": "fluids-and-nutrition",
+   "page": 9,
+   "file": "malnutrition.svg",
+   "alt": "Illustration for Malnutrition",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p9/content/images"
   },
   {
-   "course": "medication-awareness",
-   "page": 4,
-   "file": "routes-and-forms.svg",
-   "alt": "Illustration for Routes and forms",
-   "srcDir": "public/h5p/content/medication-awareness/p4/content/images"
+   "course": "fluids-and-nutrition",
+   "page": 10,
+   "file": "diets-and-choices.svg",
+   "alt": "Illustration for Diets and choices",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p10/content/images"
   },
   {
-   "course": "medication-awareness",
-   "page": 5,
-   "file": "mar-charts-and-recording.svg",
-   "alt": "Illustration for MAR charts and recording",
-   "srcDir": "public/h5p/content/medication-awareness/p5/content/images"
+   "course": "fluids-and-nutrition",
+   "page": 11,
+   "file": "mealtime-support.svg",
+   "alt": "Illustration for Mealtime support",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p11/content/images"
   },
   {
-   "course": "medication-awareness",
-   "page": 7,
-   "file": "controlled-drugs-and-prn.svg",
-   "alt": "Illustration for Controlled drugs and PRN",
-   "srcDir": "public/h5p/content/medication-awareness/p7/content/images"
+   "course": "fluids-and-nutrition",
+   "page": 12,
+   "file": "swallowing-and-iddsi.svg",
+   "alt": "Illustration for Swallowing and IDDSI",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p12/content/images"
   },
   {
-   "course": "medication-awareness",
-   "page": 8,
-   "file": "covert-self-admin-and-errors.svg",
-   "alt": "Illustration for Covert, self-admin and errors",
-   "srcDir": "public/h5p/content/medication-awareness/p8/content/images"
+   "course": "fluids-and-nutrition",
+   "page": 13,
+   "file": "safety-and-concerns.svg",
+   "alt": "Illustration for Safety and concerns",
+   "srcDir": "public/h5p/content/fluids-and-nutrition/p13/content/images"
   }
  ]
 }

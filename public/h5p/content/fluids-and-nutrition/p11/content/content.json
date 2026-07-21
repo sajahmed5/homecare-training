@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making mealtimes better</h2><p>How a meal is served matters as much as what is on the plate. Person-centred mealtime support starts with offering genuine choice, creating a pleasant, calm environment, and giving people the time and help they need without taking over.</p><ul><li><strong>Choice:</strong> what to eat, how much, and where to sit.</li><li><strong>Environment:</strong> calm, unhurried and free of clutter and distractions.</li><li><strong>Positioning:</strong> sitting upright and comfortable to eat safely.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "865ed1d2-1539-4664-85ec-72d5c360f5b7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Mealtime support",
+          "decorative": false,
+          "file": {
+            "path": "images/mealtime-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3c3a0331-09d4-4849-8bde-173f9861c34e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Support and independence</h2><p>Many services use <strong>protected mealtimes</strong>, where non-urgent tasks pause so staff can focus on helping people eat. When you assist someone, sit down at their eye level, go at their pace and never rush them.</p><p>Encourage people to do as much as they can for themselves, and use assistive equipment where it helps &mdash; adapted cutlery, plate guards, non-slip mats and special cups can all support independence and dignity. Good positioning, sitting upright, also helps people swallow safely.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "74326144-c9f7-4757-806d-54d2dfc5f67a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When helping someone to eat, you should sit down at their level, go at their pace and encourage them to do as much as they can for themselves.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Sitting down, going at the person's pace and supporting their independence is good person-centred practice.",
+            "correctAnswerMessage": "Correct. Sitting at their level, not rushing, and supporting independence keeps mealtimes safe and dignified."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "eb94961c-aed7-4374-bfd2-0f145dda2e00",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -43,6 +43,13 @@ const NEW_COURSES = [
     description:
       "Care Certificate Standard 16 — awareness of learning disability and autism, reasonable adjustments and the law. This is awareness only and is NOT the Oliver McGowan Mandatory Training, which your employer must arrange separately.",
   },
+  {
+    slug: "fluids-and-nutrition",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Care Certificate Standard 8 — supporting people to have enough to eat and drink: hydration, malnutrition, swallowing difficulties and person-centred mealtime support. This covers the knowledge element only; your employer must also observe your competence at work and sign it off.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

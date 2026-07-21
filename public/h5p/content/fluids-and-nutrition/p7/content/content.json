@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making drinking easier</h2><p>Small, thoughtful changes make a real difference to how much someone drinks. Offer drinks regularly throughout the day rather than only at mealtimes, and offer drinks people actually like, at a temperature they enjoy.</p><ul><li><strong>Offer often:</strong> little and often, and always leave a drink within reach.</li><li><strong>Right drink:</strong> a favourite drink at the right temperature.</li><li><strong>Right cup:</strong> a cup, beaker or aid the person can manage.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6d4021a-36bf-410b-b623-362a2cbc9d10",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Encouraging fluids",
+          "decorative": false,
+          "file": {
+            "path": "images/encouraging-fluids.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0cb8c4cb-bd75-489a-a142-10a9626c8039",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fluid charts</h2><p>When someone is at risk of dehydration, the team may keep a <strong>fluid balance chart</strong> that records what the person drinks across the day, and sometimes their output too. This helps everyone see at a glance whether the person is getting enough.</p><p>If you are asked to complete one, record each drink accurately and at the time, note the amount taken rather than the amount offered, and tell a senior colleague if the person is not reaching their target. Foods such as jelly, ice lollies and soup can also help top up fluids.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7ab430fe-acbf-479a-b17b-f18b0f7995ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

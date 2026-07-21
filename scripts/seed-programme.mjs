@@ -35,7 +35,7 @@ const STANDARDS = [
   [5, "Work in a person-centred way", "person-centred-care"],
   [6, "Communication", "communication-skills"],
   [7, "Privacy and dignity", "privacy-and-dignity"],
-  [8, "Fluids and nutrition", "food-hygiene-and-nutrition"],
+  [8, "Fluids and nutrition", "fluids-and-nutrition"],
   [9, "Awareness of mental health and dementia", "mental-health-and-dementia"],
   [10, "Adult safeguarding", "safeguarding-adults-level-2"],
   [11, "Safeguarding children", "safeguarding-children"],

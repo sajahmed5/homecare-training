@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A balanced diet</h2><p>A balanced diet gives the body the range of nutrients it needs to stay healthy. The NHS <strong>Eatwell Guide</strong> shows the proportions of different food groups that make up a healthy diet for most adults. The key ideas are variety, balance and enjoyment.</p><ul><li><strong>Variety:</strong> foods from each of the main groups.</li><li><strong>Balance:</strong> the right proportions, not too much of any one thing.</li><li><strong>Enjoyment:</strong> meals the person likes and looks forward to.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0ae4ea27-9221-46c8-8140-005e16966eff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for A balanced diet",
+          "decorative": false,
+          "file": {
+            "path": "images/a-balanced-diet.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "acf9e298-7556-47bb-9a9a-d2c4eb41ee13",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Eatwell Guide</h2><p>The Eatwell Guide suggests plenty of fruit and vegetables, meals based on starchy foods such as potatoes, bread, rice and pasta (wholegrain where possible), some protein like beans, pulses, fish, eggs and meat, and some dairy or dairy alternatives. It also advises small amounts of unsaturated oils, and less sugar, salt and saturated fat.</p><p>Remember, though, that healthy-eating advice is not right for everyone. People who are underweight or at risk of malnutrition often need higher-calorie, nourishing food rather than low-fat choices, so always follow the individual's care plan.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b243b254-413c-4c27-a5c6-a2b5cda19531",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "The Eatwell Guide suggests we eat at least *five* portions of fruit and vegetables a day, base meals on *starchy* foods, choose *wholegrain* options where possible, and include beans, pulses and *fish* as protein.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "70e90934-a857-49ba-b62b-f1db5cf2e009",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

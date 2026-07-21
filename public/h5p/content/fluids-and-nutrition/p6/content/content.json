@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who is most at risk</h2><p>Some people are far more likely to become dehydrated and need extra support and closer watching. As we age, the sense of thirst becomes weaker, so many older people simply do not feel thirsty even when their body needs fluid.</p><ul><li><strong>Older people:</strong> a reduced sense of thirst.</li><li><strong>People with dementia or confusion:</strong> may forget to drink or forget they are thirsty.</li><li><strong>People who need help:</strong> those who cannot reach or hold a drink unaided.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "239280e2-8fd9-492f-80cc-b0d1d020f47e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who is at risk",
+          "decorative": false,
+          "file": {
+            "path": "images/who-is-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "52fb622b-e39c-4287-9edf-02cc95e3b0ec",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Barriers to drinking</h2><p>It is worth understanding why someone might not drink enough, because the reason often points to the solution. Some people deliberately drink less because they worry about needing the toilet often or about incontinence &mdash; reassuring them and supporting toileting can help.</p><p>Others struggle because a drink is out of reach, because swallowing is difficult, or because they cannot easily ask. People who find communication hard, or who are unwell or nearing the end of life, all need extra attention to their fluids.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8bcaeba1-0d65-4144-b8fa-974582833e6b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Some people deliberately limit how much they drink. What is a common reason for this?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>They worry about needing the toilet often, or about incontinence.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Reassurance and good toileting support often help people feel able to drink more.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They have been told that fluids are bad for their health.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Fluids are essential; this is not a usual reason.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They no longer need any fluid once they reach old age.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Everyone needs fluids throughout life &mdash; older people are actually more at risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drinking less has no effect on the body.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Drinking too little quickly leads to dehydration and its many risks.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e0988ac4-3898-4367-8d27-d9d575b6dac5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

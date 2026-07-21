@@ -2,187 +2,264 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/lone-working/p2/content/images",
-   "file": "the-law-and-duties.svg",
-   "title": "What the law expects",
-   "accent": "#d97706",
-   "alt": "Illustration for The law and duties",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Standard 8",
+   "accent": "#0d9488",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Hydration",
+    "Nutrition",
+    "Dignity"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p2/content/images",
+   "file": "more-than-fuel.svg",
+   "title": "More than fuel",
+   "accent": "#0d9488",
+   "alt": "Illustration for More than fuel",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#d97706",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Health",
+    "Wellbeing",
+    "Connection"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p3/content/images",
+   "file": "your-role-and-limits.svg",
+   "title": "Your role at mealtimes",
+   "accent": "#0d9488",
+   "alt": "Illustration for Your role and limits",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Employers must",
-    "Employees must"
+    "Offer",
+    "Encourage",
+    "Observe"
    ]
   },
   {
-   "outDir": "public/h5p/content/lone-working/p4/content/images",
-   "file": "risk-assessment.svg",
-   "title": "Assessing the risk before you go",
-   "accent": "#d97706",
-   "alt": "Illustration for Risk assessment",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p4/content/images",
+   "file": "why-hydration-matters.svg",
+   "title": "Why water matters",
+   "accent": "#0d9488",
+   "alt": "Illustration for Why hydration matters",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Body",
+    "Brain",
+    "Kidneys"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p5/content/images",
+   "file": "spotting-dehydration.svg",
+   "title": "Spotting dehydration",
+   "accent": "#0d9488",
+   "alt": "Illustration for Spotting dehydration",
    "cast": [
     {
      "skin": 4,
      "hair": "bun",
-     "tunic": "#d97706",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Early signs",
+    "Feeling unwell",
+    "Serious signs"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p6/content/images",
+   "file": "who-is-at-risk.svg",
+   "title": "Who is most at risk",
+   "accent": "#0d9488",
+   "alt": "Illustration for Who is at risk",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
      "prop": "alert"
     }
    ],
-   "points": []
+   "points": [
+    "Older people",
+    "People with dementia or confusion",
+    "People who need help"
+   ]
   },
   {
-   "outDir": "public/h5p/content/lone-working/p5/content/images",
-   "file": "safe-systems-of-work.svg",
-   "title": "Systems that keep you safe",
-   "accent": "#d97706",
-   "alt": "Illustration for Safe systems of work",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p7/content/images",
+   "file": "encouraging-fluids.svg",
+   "title": "Making drinking easier",
+   "accent": "#0d9488",
+   "alt": "Illustration for Encouraging fluids",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
-     "tunic": "#d97706",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Check-in and check-out",
-    "Buddy systems",
-    "Lone-worker devices and apps"
+    "Offer often",
+    "Right drink",
+    "Right cup"
    ]
   },
   {
-   "outDir": "public/h5p/content/lone-working/p7/content/images",
-   "file": "personal-safety-and-de-escalation.svg",
-   "title": "Staying safe on visits and de-escalating tensi",
-   "accent": "#d97706",
-   "alt": "Illustration for Personal safety and de-escalation",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/lone-working/p8/content/images",
-   "file": "if-you-feel-unsafe.svg",
-   "title": "Trust your instincts and act",
-   "accent": "#d97706",
-   "alt": "Illustration for If you feel unsafe",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Leave",
-    "Raise the alarm",
-    "Report"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/medication-awareness/p2/content/images",
-   "file": "your-role-and-its-limits.svg",
-   "title": "The care worker's role — and where it stops",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Your role and its limits",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p8/content/images",
+   "file": "a-balanced-diet.svg",
+   "title": "A balanced diet",
+   "accent": "#0d9488",
+   "alt": "Illustration for A balanced diet",
    "cast": [
     {
      "skin": 1,
-     "hair": "curly",
-     "tunic": "#7c3aed",
+     "hair": "short",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Prompting",
-    "Assisting",
-    "Administering"
+    "Variety",
+    "Balance",
+    "Enjoyment"
    ]
   },
   {
-   "outDir": "public/h5p/content/medication-awareness/p4/content/images",
-   "file": "routes-and-forms.svg",
-   "title": "Common routes and forms of medicines",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Routes and forms",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "pills"
-    }
-   ],
-   "points": [
-    "Oral",
-    "Topical",
-    "Inhaled"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/medication-awareness/p5/content/images",
-   "file": "mar-charts-and-recording.svg",
-   "title": "Reading and completing a MAR chart",
-   "accent": "#7c3aed",
-   "alt": "Illustration for MAR charts and recording",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p9/content/images",
+   "file": "malnutrition.svg",
+   "title": "Understanding malnutrition",
+   "accent": "#0d9488",
+   "alt": "Illustration for Malnutrition",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "as soon as"
+    "What it is",
+    "Causes",
+    "Signs"
    ]
   },
   {
-   "outDir": "public/h5p/content/medication-awareness/p7/content/images",
-   "file": "controlled-drugs-and-prn.svg",
-   "title": "Controlled drugs and PRN medicines",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Controlled drugs and PRN",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p10/content/images",
+   "file": "diets-and-choices.svg",
+   "title": "Different needs, different diets",
+   "accent": "#0d9488",
+   "alt": "Illustration for Diets and choices",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Therapeutic diets",
+    "Cultural and religious",
+    "Allergies"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p11/content/images",
+   "file": "mealtime-support.svg",
+   "title": "Making mealtimes better",
+   "accent": "#0d9488",
+   "alt": "Illustration for Mealtime support",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "pills"
+     "tunic": "#0d9488",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "controlled drugs register"
+    "Choice",
+    "Environment",
+    "Positioning"
    ]
   },
   {
-   "outDir": "public/h5p/content/medication-awareness/p8/content/images",
-   "file": "covert-self-admin-and-errors.svg",
-   "title": "Covert administration, self-administration and",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Covert, self-admin and errors",
+   "outDir": "public/h5p/content/fluids-and-nutrition/p12/content/images",
+   "file": "swallowing-and-iddsi.svg",
+   "title": "Swallowing difficulties",
+   "accent": "#0d9488",
+   "alt": "Illustration for Swallowing and IDDSI",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
-     "tunic": "#7c3aed",
+     "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
-   "points": []
+   "points": [
+    "What it is",
+    "Warning signs",
+    "Other clues"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/fluids-and-nutrition/p13/content/images",
+   "file": "safety-and-concerns.svg",
+   "title": "Safety, recording and speaking up",
+   "accent": "#0d9488",
+   "alt": "Illustration for Safety and concerns",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Safe food handling",
+    "Accurate records",
+    "Report concerns"
+   ]
   }
  ]
 }

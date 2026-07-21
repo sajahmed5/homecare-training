@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>More than fuel</h2><p>Good food and drink keep the body working. They give people energy, help wounds heal, protect against infection and keep muscles and bones strong enough to stay active and independent. When someone is eating and drinking poorly, they tire quickly, recover slowly and are far more likely to become unwell.</p><ul><li><strong>Health:</strong> supports recovery, immunity and energy.</li><li><strong>Wellbeing:</strong> a good meal lifts mood and comfort.</li><li><strong>Connection:</strong> mealtimes bring people together.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1480a6f5-23fc-453e-a4e9-c678c95e0821",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for More than fuel",
+          "decorative": false,
+          "file": {
+            "path": "images/more-than-fuel.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dbab2406-f721-48d3-b560-edae2a524380",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Food, culture and identity</h2><p>Food is never only about nutrients. What we eat is tied to who we are &mdash; our religion, culture, family and memories. A favourite meal can bring comfort on a hard day, and sharing food is one of the main ways people stay connected to others.</p><p>Because of this, offering people real choice about what, when and how they eat is part of treating them with dignity. A meal someone enjoys and has chosen does far more good than one they simply tolerate.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b95bc15b-3ee2-4e27-b47f-299a1a7db7c2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is it important to see food and drink as more than just nutrition?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because meals are also linked to comfort, culture, identity and social connection, all of which support wellbeing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Enjoyment, choice and social contact matter as much as the nutrients themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because the calories in food are the only thing that affects health.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Nutrition matters, but food also shapes mood, dignity and social life.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because everyone should eat exactly the same balanced diet.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People's tastes, cultures and needs differ &mdash; one diet does not suit all.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because mealtimes are mainly a chance to get tasks finished quickly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing mealtimes removes the comfort and connection that make them valuable.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9db4bcaa-a37a-4a9c-942a-46011fd63d57",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Safety, recording and speaking up</h2><p>Keeping people safe around food and drink brings together good hygiene, careful recording and the confidence to raise concerns. Safe food handling is one basic principle &mdash; wash your hands, store food correctly, check use-by dates and never serve food that may be unsafe.</p><ul><li><strong>Safe food handling:</strong> clean hands, correct storage, check dates &mdash; covered fully in the Food Hygiene course.</li><li><strong>Accurate records:</strong> complete food and fluid charts honestly and at the time.</li><li><strong>Report concerns:</strong> raise changes early with a senior colleague or nurse.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "90503d50-4c6d-4f8d-9d5b-4eb1172321a8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safety and concerns",
+          "decorative": false,
+          "file": {
+            "path": "images/safety-and-concerns.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f7ccc48d-2367-4446-801d-bbda6738c074",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Throughout your work, keep monitoring how people eat and drink, watch for weight loss and record what you see on food and fluid charts. If someone is refusing food or drink, losing weight, or coughing when they swallow, report it promptly so the right professional can help &mdash; small changes noticed early can prevent serious harm.</p><p>Remember: this course covered the <strong>knowledge</strong> element of Standard 8 only. Your employer must also observe your <strong>competence</strong> at work and sign it off &mdash; My Care Academy cannot award the Care Certificate on its own.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "facae66b-2eaf-4ca9-a76c-bf77bb09ff8a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice that someone has eaten almost nothing for two days and has started coughing when they drink. What is the right action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report your concerns to a senior colleague or nurse straight away, and record what you have observed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prompt reporting and clear recording get the person the assessment and help they need.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few more days to see whether things improve on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting risks serious harm. Both poor intake and coughing when drinking need reporting now.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Change their meals and drinks yourself without telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Changes to diet or fluid texture must be led by the right professional, not decided alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they are just not hungry and move on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Two days of eating almost nothing plus coughing are clear warning signs to escalate.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ba51525a-129f-4d05-979a-bd6afcaa75c3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

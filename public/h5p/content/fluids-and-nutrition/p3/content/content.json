@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role at mealtimes</h2><p>As a care worker, you are often the person who notices first when someone is not eating or drinking as they should. Your role is to offer, encourage and support people to eat and drink well according to their care plan, and to watch closely for any changes.</p><ul><li><strong>Offer:</strong> present food and drink people like, in the way they prefer.</li><li><strong>Encourage:</strong> gently prompt and support without forcing.</li><li><strong>Observe:</strong> notice how much someone eats, drinks and enjoys.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2ce838c7-d454-4961-ae1d-8971218c9992",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role and limits",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-and-limits.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "aa406b9a-eede-4c14-a87a-8b0dfa6b39c3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing your limits</h2><p>Supporting people well also means knowing where your role ends. You should follow the person's care plan, but you should not change someone's diet, decide they need supplements, or give specialist dietary advice yourself. Those decisions belong to nurses, dietitians and speech and language therapists.</p><p>What you must always do is report concerns promptly. If you are worried that someone is losing weight, refusing food or drink, or struggling to swallow, tell a senior colleague or nurse so the right professional can assess them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44f22432-5455-4098-881b-9bb68ee1d509",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If you are worried that someone is not eating or drinking enough, you should keep it to yourself until you are completely certain there is a problem.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Waiting until you are certain can delay help. Report changes early so someone can assess the person.",
+            "correctAnswerMessage": "Correct. Report concerns early &mdash; noticing and passing on changes is a key part of your role."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "4792f923-7473-430f-9eeb-6b6b0edc7731",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

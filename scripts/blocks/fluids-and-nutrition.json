@@ -1,0 +1,97 @@
+{
+  "slug": "fluids-and-nutrition",
+  "title": "Fluids and Nutrition",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Why food and fluids matter"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p2",
+      "label": "More than fuel",
+      "questions": 1,
+      "section": "Why food and fluids matter"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p3",
+      "label": "Your role and limits",
+      "questions": 1,
+      "section": "Why food and fluids matter"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p4",
+      "label": "Why hydration matters",
+      "questions": 1,
+      "section": "Meeting hydration needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p5",
+      "label": "Spotting dehydration",
+      "questions": 1,
+      "section": "Meeting hydration needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p6",
+      "label": "Who is at risk",
+      "questions": 1,
+      "section": "Meeting hydration needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p7",
+      "label": "Encouraging fluids",
+      "questions": 0,
+      "section": "Meeting hydration needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p8",
+      "label": "A balanced diet",
+      "questions": 1,
+      "section": "Meeting nutrition needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p9",
+      "label": "Malnutrition",
+      "questions": 1,
+      "section": "Meeting nutrition needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p10",
+      "label": "Diets and choices",
+      "questions": 0,
+      "section": "Meeting nutrition needs"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p11",
+      "label": "Mealtime support",
+      "questions": 1,
+      "section": "Support, safety and concerns"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p12",
+      "label": "Swallowing and IDDSI",
+      "questions": 1,
+      "section": "Support, safety and concerns"
+    },
+    {
+      "type": "h5p",
+      "path": "fluids-and-nutrition/p13",
+      "label": "Safety and concerns",
+      "questions": 1,
+      "section": "Support, safety and concerns"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Swallowing difficulties</h2><p><strong>Dysphagia</strong> is the word for difficulty swallowing. It is common after a stroke, and in dementia and some other conditions. It is serious because it can lead to choking, and to food or drink going into the lungs (aspiration), which can cause chest infections and pneumonia.</p><ul><li><strong>What it is:</strong> difficulty or discomfort when swallowing.</li><li><strong>Warning signs:</strong> coughing or choking when eating or drinking, a wet or gurgly voice.</li><li><strong>Other clues:</strong> food held in the mouth, recurrent chest infections, weight loss.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5ca824ab-b229-453a-8c5b-4ad77f53fe24",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Swallowing and IDDSI",
+          "decorative": false,
+          "file": {
+            "path": "images/swallowing-and-iddsi.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "25e416fc-cdae-4d46-a694-9acc288c5987",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>SALT and IDDSI</h2><p>If you notice signs of swallowing difficulty, report them so the person can be referred to a <strong>speech and language therapist (SALT)</strong>, who assesses swallowing and advises on how to keep the person safe.</p><p>A SALT may recommend texture-modified food and thickened drinks, described using the <strong>IDDSI</strong> framework, which sets out standard levels for how thick a drink or how soft a food should be. Always give the exact texture and thickness written in the care plan &mdash; giving the wrong one, such as a thin drink to someone who needs thickened fluids, can be dangerous.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "807a35ca-db13-43c5-b191-2c9d540f5325",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support keeps coughing and sounds wet and gurgly when they drink. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it, as these can be signs of a swallowing difficulty (dysphagia) that needs a SALT assessment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Coughing and a wet, gurgly voice are warning signs that should always be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide yourself to thicken all their drinks from now on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never change textures yourself &mdash; a SALT must assess and set the right level first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage them to drink faster to get it over with.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing increases the risk of choking and aspiration.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore it, as coughing during drinks is completely normal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Regular coughing when drinking is not normal and should be reported.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "155bf6f4-f3f0-474c-a63f-aa35c1eed6b8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
