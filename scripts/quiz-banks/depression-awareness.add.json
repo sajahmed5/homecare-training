@@ -1,0 +1,561 @@
+{
+  "slug": "depression-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What best distinguishes everyday low mood from depression?",
+      "options": [
+        "Low mood only ever affects older people",
+        "Depression always lifts within a few days",
+        "Depression is a lasting low mood, over weeks or months, that affects how a person thinks, feels and copes with daily life",
+        "Low mood is an illness while depression is a normal reaction"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How long does everyday low mood usually last before it lifts?",
+      "options": [
+        "A few days, once the cause passes or circumstances change",
+        "At least a year",
+        "It never lifts without medication",
+        "Several months"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about depression as an illness is correct?",
+      "options": [
+        "People can simply 'snap out of it' if they try harder",
+        "It only affects the mind and never the body",
+        "It is a sign of weakness that a person chooses",
+        "It is a genuine illness affecting mind and body, not something a person can switch off"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is described as a common emotional or cognitive sign of depression?",
+      "options": [
+        "A short-lived bad mood that lifts within an hour",
+        "Enjoying hobbies more than ever before",
+        "Feeling more energetic and sociable than usual",
+        "Persistent low mood, loss of interest in things once enjoyed, and difficulty concentrating"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How does depression commonly affect a person's thinking?",
+      "options": [
+        "It improves memory and focus",
+        "It has no effect on thinking at all",
+        "It can make it hard to concentrate, remember things or make even small decisions",
+        "It makes decisions much quicker and easier"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a common physical sign of depression?",
+      "options": [
+        "A stronger appetite for exercise",
+        "Tiredness, low energy and everything feeling like an effort",
+        "Boundless energy and restlessness in a positive way",
+        "Sharper eyesight and hearing"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How can depression affect a person's sleep?",
+      "options": [
+        "It only affects sleep in children",
+        "It always improves the quality of sleep",
+        "It never changes sleep patterns",
+        "It can cause trouble falling asleep, waking early, or sleeping far more than usual"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of a behavioural sign of depression?",
+      "options": [
+        "Withdrawing from friends and family, or stopping answering the phone or door",
+        "Becoming more outgoing than usual",
+        "Keeping the home tidier than ever",
+        "Taking on many new hobbies at once"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When someone with depression stops washing, changing clothes or keeping their home as usual, this is best understood as:",
+      "options": [
+        "Part of the illness affecting their energy and motivation for self-care",
+        "A normal part of ageing to ignore",
+        "A deliberate choice to be difficult",
+        "Laziness that should be challenged firmly"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about depression in older people is correct?",
+      "options": [
+        "It is a natural part of growing old and needs no attention",
+        "Older people cannot be treated for depression",
+        "Memory problems in older people always mean dementia and never depression",
+        "It is not a normal part of ageing, is often missed, and can overlap with conditions such as dementia"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Depression in an older person can be confused with dementia because both can cause:",
+      "options": [
+        "Improved memory and sharper focus",
+        "Poor concentration, memory difficulties and withdrawal",
+        "Higher energy levels",
+        "Increased sociability"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does person-centred support for someone with depression mean?",
+      "options": [
+        "Focusing only on the diagnosis rather than the person",
+        "Making all decisions on the person's behalf",
+        "Understanding what matters to the individual, respecting their choices and working at their pace",
+        "Treating everyone in exactly the same way"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the most helpful approach when listening to someone with depression?",
+      "options": [
+        "Insist on providing the perfect solution to every problem",
+        "Rush them so they do not dwell on things",
+        "Give them time and full attention, listening without judging or trying to fix everything",
+        "Tell them others are worse off"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What are the Five Ways to Wellbeing?",
+      "options": [
+        "Diagnose, prescribe, treat, discharge and review",
+        "Sleep, eat, work, worry and rest",
+        "Connect, be active, take notice, keep learning, and give",
+        "Ignore, avoid, isolate, rush and criticise"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should gentle encouragement of routine, activity and social contact be offered?",
+      "options": [
+        "Only if the person can complete a full exercise programme",
+        "By insisting on big changes all at once",
+        "At the person's own pace and never forced, using small achievable steps",
+        "By forcing the person to join in activities"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If a person with depression declines an activity or company, you should:",
+      "options": [
+        "Pressure them until they agree",
+        "Respect their decision while continuing to offer, encourage and stay alongside them",
+        "Stop offering support altogether",
+        "Report them for being uncooperative"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How should you record the changes you notice in someone's mood or behaviour?",
+      "options": [
+        "By guessing at the likely causes",
+        "Clearly and factually, noting what you saw or heard and when",
+        "In vague terms so as not to worry anyone",
+        "Only if a manager asks you to"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If a person's mood is getting worse or they say something that worries you, you should:",
+      "options": [
+        "Keep it to yourself to protect their privacy",
+        "Report your concerns promptly to your manager or the relevant professional",
+        "Decide yourself whether it is serious enough to mention",
+        "Wait until your next supervision in a few weeks"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support says they feel hopeless and no longer want to be alive. What should you do?",
+      "options": [
+        "Wait a few days to see whether they feel better before telling anyone",
+        "Change the subject in case talking gives them ideas",
+        "Stay calm, listen, take it seriously, do not promise secrecy, and escalate immediately following your procedures",
+        "Promise to keep it a secret so they keep trusting you"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If someone confides thoughts of suicide, why should you not promise to keep it secret?",
+      "options": [
+        "Because it is not important enough to remember",
+        "Because the person did not really mean it",
+        "Because you need to share it with the right person to keep them safe",
+        "Because secrets are against the rules for no particular reason"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these could be a warning sign of self-harm or suicidal thoughts?",
+      "options": [
+        "Reconnecting happily with old friends",
+        "Talking about feeling a burden, giving away belongings, or saying goodbye",
+        "Talking about starting an exciting new job",
+        "Making detailed holiday plans for next year"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the truth about asking someone directly about suicidal thoughts?",
+      "options": [
+        "It is never allowed under any circumstances",
+        "It always makes the situation worse",
+        "It should only be done by a doctor",
+        "It is a myth that asking puts the idea in someone's head; talking openly can be a relief"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If someone is in immediate danger or has seriously harmed themselves, what should you do?",
+      "options": [
+        "Send an email to the GP",
+        "Leave a note for the next shift",
+        "Call 999",
+        "Wait for your manager to return to work"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If you believe someone is at immediate risk of harming themselves, you should:",
+      "options": [
+        "Assume it is not serious and carry on",
+        "Go home and report it tomorrow",
+        "Leave them alone to calm down",
+        "Never leave them alone while getting help"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these are recognised treatments for depression?",
+      "options": [
+        "Avoiding the GP and hoping it passes",
+        "Only expensive private treatments",
+        "Talking therapies such as CBT, antidepressant medication prescribed by a doctor, or a combination of both",
+        "Being told to pull yourself together"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is usually the first step in getting professional help for depression?",
+      "options": [
+        "Speaking to the GP, who can talk things through, arrange treatment or refer to services",
+        "Waiting for the depression to become severe",
+        "Booking a private hospital stay",
+        "Contacting the emergency services for every case"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is your role as a care worker in relation to depression?",
+      "options": [
+        "To provide talking therapy sessions",
+        "To support, notice changes and escalate concerns, not to diagnose or treat",
+        "To diagnose the type of depression",
+        "To prescribe and review medication"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How can you look after your own wellbeing when supporting people who are distressed?",
+      "options": [
+        "Avoid all difficult situations entirely",
+        "Keep all feelings to yourself and never discuss them",
+        "Stop caring about the people you support",
+        "Notice your own stress, talk to a manager or colleague, and use supervision or support lines"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Depression is a sign of weakness that most people could overcome simply by trying harder to cheer up.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Depression is a common illness that is treatable, and most people get better with the right support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Low mood and depression mean exactly the same thing and last for the same length of time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When supporting someone with depression, it helps to listen patiently and without judgement rather than telling them to cheer up.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Depression is a normal and inevitable part of getting older.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should promise to keep a person's suicidal thoughts secret so they continue to trust you.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Any risk of self-harm or suicide must always be taken seriously and escalated urgently.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are emotional or cognitive signs of depression? (Select all that apply)",
+      "options": [
+        "Loss of interest or pleasure in things once enjoyed",
+        "Feeling more energetic and sociable than ever",
+        "Persistent sadness, hopelessness or feeling empty",
+        "Difficulty concentrating, remembering or making decisions"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are physical or behavioural signs of depression? (Select all that apply)",
+      "options": [
+        "Improved focus and increased motivation",
+        "Disturbed sleep and changes in appetite",
+        "Withdrawing from friends, family and activities",
+        "Tiredness and lack of energy"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What are helpful ways to support someone with depression? (Select all that apply)",
+      "options": [
+        "Tell them others are worse off",
+        "Gently encourage routine, activity and social contact at their pace",
+        "Listen without judgement and give them time",
+        "Respect their choices while continuing to offer support"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which actions are part of the Five Ways to Wellbeing? (Select all that apply)",
+      "options": [
+        "Criticise",
+        "Take notice",
+        "Be active",
+        "Connect"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these could be warning signs that someone may be at risk of self-harm or suicide? (Select all that apply)",
+      "options": [
+        "Making plans for enjoyable future events",
+        "Withdrawing from everyone",
+        "Talking about feeling hopeless or being a burden",
+        "Giving away belongings or saying goodbye"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How should you respond if someone confides thoughts of not wanting to be alive? (Select all that apply)",
+      "options": [
+        "Escalate the concern immediately following your procedures",
+        "Avoid promising to keep it secret",
+        "Stay calm and listen without judgement",
+        "Change the subject so it is not mentioned again"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised treatments or steps for getting help with depression? (Select all that apply)",
+      "options": [
+        "Talking therapies such as counselling or CBT",
+        "Speaking to the GP as a first step",
+        "Being told to pull yourself together",
+        "Antidepressant medication prescribed by a doctor"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Depression is an ___, not a weakness, and is not something a person can simply switch off.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "illness"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Any sign of ___ thoughts must be taken seriously and escalated urgently.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "suicidal",
+              "suicide"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "As a care worker your role is to support, ___ changes and report concerns, not to diagnose or treat.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "notice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If someone confides thoughts of suicide, you must not promise to keep it a ___, because you need to share it to keep them safe.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "secret"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a person is in immediate danger or has seriously harmed themselves, you should call ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

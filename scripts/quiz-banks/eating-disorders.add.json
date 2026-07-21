@@ -1,0 +1,544 @@
+{
+  "slug": "eating-disorders",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which statement best describes an eating disorder?",
+      "options": [
+        "A lifestyle choice made out of vanity about appearance",
+        "A passing phase of fussy eating that people grow out of on their own",
+        "A serious, treatable mental illness that a person cannot simply choose to stop",
+        "A diet that has gone only slightly too far"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Eating behaviours such as restricting, bingeing or purging are usually best understood as:",
+      "options": [
+        "A bid to gain attention from other people",
+        "A way of coping with difficult thoughts and feelings that feel out of control",
+        "An attempt to improve appearance and fitness",
+        "A way of punishing family members"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the course say about the causes of eating disorders?",
+      "options": [
+        "They are caused solely by the media",
+        "There is no single cause; a mix of genetic, psychological and social factors combine differently in each person",
+        "They are caused simply by a lack of willpower",
+        "There is one clear cause in every case"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When someone develops an eating disorder, who is it helpful to blame?",
+      "options": [
+        "Their family",
+        "No one; looking for someone to blame is never helpful",
+        "The person themselves",
+        "Whoever introduced them to dieting"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who can be affected by an eating disorder?",
+      "options": [
+        "Only people who are visibly underweight",
+        "Only young women",
+        "People of any age, gender, ethnicity, body shape and background",
+        "Only teenagers"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is your role as a care worker in relation to eating disorders?",
+      "options": [
+        "To assess and treat the person yourself",
+        "To diagnose the specific type of eating disorder",
+        "To decide whether the person really needs any help",
+        "To notice changes, offer kind support and raise concerns so professional help can follow"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Anorexia is characterised by:",
+      "options": [
+        "Regular binges that are never followed by purging",
+        "Avoiding foods because of their taste, smell or texture",
+        "Eating large amounts and always feeling in control",
+        "Severely limiting food, an intense fear of gaining weight and a distorted view of the body"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Bulimia typically involves:",
+      "options": [
+        "Only ever restricting food and never bingeing",
+        "Avoiding food because of a fear of choking",
+        "Eating slowly and never feeling out of control",
+        "Eating a large amount in a short time and then trying to undo it by vomiting, laxatives, fasting or over-exercising"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about binge eating disorder is correct?",
+      "options": [
+        "It is simply overeating and a lack of willpower",
+        "It is the most common eating disorder, and the binges are not followed by purging",
+        "It only affects people who are overweight",
+        "The binges are always followed by purging"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does OSFED stand for?",
+      "options": [
+        "Occasional Selective Food Eating Difficulty",
+        "Ongoing Selective Emotional Dieting",
+        "Overeating and Severe Fasting Eating Disorder",
+        "Other Specified Feeding or Eating Disorder"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "OSFED is best described as:",
+      "options": [
+        "Not really an eating disorder at all",
+        "A condition only ever diagnosed in children",
+        "Common and just as serious as other eating disorders",
+        "A mild, lesser problem than other eating disorders"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does ARFID stand for?",
+      "options": [
+        "Avoidant or Restrictive Food Intake Disorder",
+        "Anorexia-Related Food Intake Difficulty",
+        "Avoidant Reaction to Fatty Ingredient Diets",
+        "Anxious Refusal of Food In Daytime"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Unlike the other eating disorders, ARFID is:",
+      "options": [
+        "Always about wanting to lose weight",
+        "Not driven by concerns about weight or body shape",
+        "Only ever found in adults",
+        "Never harmful to a person's health"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a behavioural warning sign that someone may be struggling?",
+      "options": [
+        "Looking forward to sharing meals with others",
+        "Feeling warm and comfortable all the time",
+        "Suddenly having noticeably stronger teeth",
+        "Becoming secretive around food or developing strict eating rituals"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a physical sign that might be linked to an eating disorder?",
+      "options": [
+        "A steady, untroubled appetite",
+        "Feeling cold, tiredness, dizziness, hair thinning or a sore throat from vomiting",
+        "Increased warmth and boundless energy",
+        "Stronger teeth and thicker hair"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "No single sign proves that someone has an eating disorder, so what matters most is:",
+      "options": [
+        "Keeping your observations to yourself",
+        "Noticing a pattern, or a change from how the person usually is, and reporting what you have seen",
+        "Waiting until you are completely certain of the diagnosis",
+        "Ignoring it unless the person looks underweight"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "One of the most damaging myths about eating disorders is that:",
+      "options": [
+        "Recovery is genuinely possible",
+        "They are serious mental illnesses",
+        "They can affect people of any gender",
+        "You can tell whether someone has one just by looking at them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which people are especially likely to be overlooked because they do not fit the stereotype?",
+      "options": [
+        "Only very young children",
+        "Men, older people and those from minority communities",
+        "No one is ever overlooked",
+        "Young, thin women"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about recovery is true?",
+      "options": [
+        "Eating disorders are lifelong and untreatable",
+        "Only a very few people ever improve",
+        "Recovery is impossible without medication",
+        "Eating disorders are treatable, and many people make a full recovery with the right support"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Eating disorders can damage physical health because:",
+      "options": [
+        "They only cause mild tiredness",
+        "They only ever affect the stomach",
+        "They have no real physical effects",
+        "The body can be starved of the energy and nutrients it needs, or damaged by repeated purging, and almost every system can be affected"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Purging and restriction can upset the balance of essential salts such as potassium, which can:",
+      "options": [
+        "Disturb the heart's rhythm and, in the worst cases, cause it to stop",
+        "Actually improve how the heart works",
+        "Cause only a mild, brief headache",
+        "Have no effect on the body at all"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Compared with other mental illnesses, eating disorders carry:",
+      "options": [
+        "A very low risk to life",
+        "A risk only to older people",
+        "No risk to life at all",
+        "One of the highest risks to life, from physical complications and, tragically, from suicide"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If someone shows signs of physical distress such as fainting, chest pain or severe weakness, you should:",
+      "options": [
+        "Wait quietly to see whether it passes",
+        "Say nothing to anyone and let them rest",
+        "Seek urgent medical help, following your organisation's procedures",
+        "Offer them a large meal to build their strength"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "National guidance for professionals says that body weight on its own:",
+      "options": [
+        "Always shows exactly how ill someone is",
+        "Should not be used alone to decide how serious an eating disorder is or whether someone needs help",
+        "Is the only measure that really matters",
+        "Can be ignored completely in every case"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is Beat?",
+      "options": [
+        "A recommended mealtime routine",
+        "A specific type of eating disorder",
+        "A specialist hospital ward for eating disorders",
+        "The UK's eating disorder charity, which runs a helpline and offers information and support"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "An eating disorder is a lifestyle choice that a person can simply decide to stop.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "No one chooses to have an eating disorder.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Eating disorders only affect young women, so you need not consider them in men or older people.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You can usually tell whether someone has an eating disorder just by looking at them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person can be seriously, even critically, unwell with an eating disorder while being a normal weight or above.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "ARFID is driven by a person's concerns about their weight and body shape.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Getting specialist help early gives someone the best chance of a full recovery.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is a good idea to praise someone with an eating disorder for looking well or healthier.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are recognised eating disorders described in the course? (Select all that apply)",
+      "options": [
+        "Anorexia",
+        "Binge eating disorder",
+        "Bulimia",
+        "A seasonal eating habit",
+        "Occasional social dieting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are behavioural warning signs? (Select all that apply)",
+      "options": [
+        "Feeling warm and full of energy",
+        "Becoming secretive around food",
+        "Happily enjoying shared family meals",
+        "Strict rules and rituals, such as cutting food into tiny pieces",
+        "Avoiding meals or eating with others"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are physical signs that might be linked to an eating disorder? (Select all that apply)",
+      "options": [
+        "Noticeably improved eyesight",
+        "Increased muscle strength",
+        "Dizziness",
+        "Hair thinning",
+        "Feeling cold"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are emotional or psychological signs? (Select all that apply)",
+      "options": [
+        "A preoccupation with food, weight or body shape",
+        "A relaxed, untroubled attitude to eating",
+        "Anxiety and irritability",
+        "Consistently high self-esteem",
+        "Low mood"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When supporting someone at mealtimes, what should you do? (Select all that apply)",
+      "options": [
+        "Draw attention to exactly how much they are eating",
+        "Keep the atmosphere calm and unhurried",
+        "Offer gentle, steady encouragement without pressure",
+        "Follow the person's care plan",
+        "Force or coerce the person to eat"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these should you try to avoid when supporting someone with an eating disorder? (Select all that apply)",
+      "options": [
+        "Talking about diets, calories or your own eating in front of them",
+        "Comments about their weight, size or appearance",
+        "Listening without judgement",
+        "Taking their feelings seriously",
+        "Comments about how much or how little they are eating"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When you are worried that someone may have an eating disorder, which actions are appropriate? (Select all that apply)",
+      "options": [
+        "Wait several weeks to see whether it goes away on its own",
+        "Diagnose and start treating the eating disorder yourself",
+        "Report your concerns to a senior or manager, following your organisation's procedures",
+        "Record what you have observed, clearly and factually",
+        "Point the person and their family towards Beat"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A person can be seriously unwell with an eating disorder at any ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "weight"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ is the UK's eating disorder charity, which runs a helpline and offers information and support.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Beat"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The usual route to specialist help is the person's ___, who can assess them and refer them to specialist eating disorder services.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "GP",
+              "doctor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "OSFED is common and just as ___ as anorexia, bulimia or binge eating disorder.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "serious"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "At mealtimes, follow the person's care ___, which may set out exactly how to offer food and drink and how much support they need.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "plan"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

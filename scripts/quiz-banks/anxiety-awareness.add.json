@@ -1,0 +1,548 @@
+{
+  "slug": "anxiety-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How is anxiety best described at an awareness level?",
+      "options": [
+        "A sign that a person is being difficult or attention-seeking",
+        "A rare condition that only affects people with a physical illness",
+        "A feeling of unease, worry or fear that everyone experiences from time to time",
+        "A deliberate choice a person makes to avoid activities"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "The body's natural readiness for action when it senses a threat is often called the:",
+      "options": [
+        "\"stop and think\" response",
+        "\"fight or flight\" response",
+        "\"wait and see\" response",
+        "\"rest and digest\" response"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In small amounts, ordinary anxiety can be:",
+      "options": [
+        "Useful, keeping a person alert and helping them prepare",
+        "Something that never passes once it starts",
+        "A reason to keep someone away from all stressful events",
+        "Harmful and always a sign of illness"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Worry is more likely to be an anxiety disorder when the feelings:",
+      "options": [
+        "Ease as soon as a stressful event is over",
+        "Last only a few minutes before an appointment",
+        "Only ever appear in young adults",
+        "Are strong, last for weeks or months and interfere with everyday life"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about how common anxiety is among the people you support is accurate?",
+      "options": [
+        "Anxiety can affect anyone and can begin at any age",
+        "Older people cannot develop anxiety",
+        "Anxiety only affects people who already have a formal diagnosis",
+        "Anxiety only affects people with no physical health problems"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is anxiety often missed in the people you support?",
+      "options": [
+        "Care workers are never in a position to notice changes",
+        "It only ever shows as a single panic attack",
+        "It always produces obvious, dramatic behaviour",
+        "People may feel ashamed and hide it, and signs can be mistaken for physical illness"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which three words best sum up your supportive role in anxiety?",
+      "options": [
+        "Recognise, respond and signpost",
+        "Counsel, analyse and cure",
+        "Assess, prescribe and review",
+        "Diagnose, treat and discharge"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which action stays within the proper limits of a care worker's role?",
+      "options": [
+        "Telling the person which anxiety condition they have",
+        "Deciding what medication the person should take",
+        "Providing therapy to explain away the person's fears",
+        "Sharing concerns and encouraging professional help"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes generalised anxiety disorder (GAD)?",
+      "options": [
+        "Worry that lasts only a few minutes before a stressful event",
+        "An intense fear of one specific object such as spiders",
+        "A single panic attack that happens once and never returns",
+        "Ongoing, hard-to-control worry that spreads across many areas of life over a long period"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which physical signs are commonly linked with generalised anxiety disorder because the body stays on alert?",
+      "options": [
+        "A complete loss of any worried thoughts",
+        "Improved sleep and boundless energy",
+        "A total absence of physical symptoms",
+        "Headaches, tiredness and a churning stomach"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A panic attack is best described as:",
+      "options": [
+        "A permanent physical illness of the heart",
+        "A sudden rush of intense fear and physical sensations that peaks within minutes",
+        "A gentle feeling of calm that comes and goes",
+        "A slow build-up of mild worry lasting several weeks"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about the physical sensations of a panic attack is correct?",
+      "options": [
+        "They can only be stopped with medication",
+        "They are dangerous and cause lasting physical harm",
+        "They feel alarming but are not dangerous and will pass",
+        "They mean the person is definitely having a heart attack"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Panic disorder is best described as:",
+      "options": [
+        "A one-off panic attack that never happens again",
+        "Ongoing worry about many different areas of life",
+        "A fear of a single specific object such as needles",
+        "Repeated panic attacks together with worry about having more"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How can repeated panic attacks begin to narrow a person's life?",
+      "options": [
+        "By curing their anxiety completely on its own",
+        "By removing all fear so they take more risks",
+        "By leading them to dread the next attack and avoid places where one happened before",
+        "By making the person seek out crowded places more often"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes a phobia?",
+      "options": [
+        "Reliving a past traumatic event through flashbacks",
+        "Wide-ranging worry about many areas of life at once",
+        "An intense, overwhelming fear of a particular object or situation that is out of proportion to real danger",
+        "A repeated ritual carried out to reduce distress"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person refuses to join the day centre, saying they are terrified of being judged and humiliated in front of the group. This is most consistent with:",
+      "options": [
+        "Deliberate refusal that is best ignored",
+        "A specific phobia of an object such as heights",
+        "Social anxiety — an overwhelming fear of social situations",
+        "Ordinary shyness that needs no support"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In obsessive-compulsive disorder (OCD), the unwanted, distressing thoughts, images or urges are known as:",
+      "options": [
+        "Flashbacks",
+        "Obsessions",
+        "Compulsions",
+        "Phobias"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In OCD, the repeated actions or rituals a person feels driven to carry out to ease their anxiety are known as:",
+      "options": [
+        "Obsessions",
+        "Grounding techniques",
+        "Compulsions",
+        "Triggers"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Post-traumatic stress disorder (PTSD) can develop:",
+      "options": [
+        "Purely because a person chooses to dwell on the past",
+        "After a frightening or distressing event such as an accident, assault or serious illness",
+        "Only in people who have never experienced difficulty",
+        "Only in children and never in older adults"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most appropriate approach when supporting someone who has PTSD?",
+      "options": [
+        "Encourage them to describe their traumatic memories in full detail",
+        "Ignore any signs of distress so as not to make a fuss",
+        "Approach with patience, keep to reassuring routines and report signs of distress",
+        "Insist they confront their fears straight away"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does person-centred support for anxiety mean in practice?",
+      "options": [
+        "Learning what anxiety feels like for this person and shaping care around their wishes",
+        "Deciding for the person what will make them feel better",
+        "Applying the same fixed routine to everyone",
+        "Avoiding the care plan so support stays flexible"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How should you use your own manner when someone is anxious?",
+      "options": [
+        "Show your frustration so they understand the urgency",
+        "Raise your voice so they can focus on you",
+        "Stay calm, speak slowly and gently, and keep your body language open and relaxed",
+        "Speak quickly and firmly to snap them out of it"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support is having a panic attack, with a racing heart and feeling unable to breathe. What is the most helpful response?",
+      "options": [
+        "Stay calm, reassure them they are safe and it will pass, and gently encourage slow breathing",
+        "Tell them firmly to pull themselves together",
+        "Leave them completely alone at once and say nothing",
+        "Insist they describe in detail everything that is frightening them"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes a grounding technique you might gently offer someone whose anxiety feels overwhelming?",
+      "options": [
+        "Telling them to think harder about what frightens them",
+        "Asking them to hold their breath for as long as possible",
+        "Inviting them to name things they can see, hear and touch around them",
+        "Leaving them to work through it entirely on their own"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about treatment for anxiety is accurate at awareness level?",
+      "options": [
+        "Anxiety cannot be treated, so there is little point encouraging help",
+        "People should be pressured into treatment whether they want it or not",
+        "Care workers should decide which therapy or medication a person needs",
+        "Anxiety disorders are treatable, and encouraging someone to speak to their GP is a helpful step"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Anxiety is a feeling of unease, worry or fear that everyone experiences from time to time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "In small amounts, anxiety can be useful, keeping a person alert and helping them prepare.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A panic attack, though frightening, is not physically dangerous and the feelings do pass.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A phobia is simply a mild preference to avoid something and rarely affects everyday life.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Social anxiety disorder is exactly the same as ordinary shyness and needs no support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "It is a care worker's job to decide which medication a person with anxiety should take.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Looking after your own mental wellbeing helps keep you able to care well for others.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You should always tell an anxious person to simply \"stop worrying\" so they can move on.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are common physical symptoms of a panic attack? (Select all that apply)",
+      "options": [
+        "Shortness of breath",
+        "A racing heart",
+        "A permanently slowed pulse",
+        "A complete absence of any physical sensation",
+        "Dizziness, sweating or shaking"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of the Five Ways to Wellbeing? (Select all that apply)",
+      "options": [
+        "Avoid all contact with other people",
+        "Be active",
+        "Keep learning",
+        "Connect with others",
+        "Take notice"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which changes might suggest someone you support is struggling with anxiety they cannot easily put into words? (Select all that apply)",
+      "options": [
+        "Seeming restless",
+        "Seeking frequent reassurance",
+        "Becoming withdrawn",
+        "Consistently feeling calmer and more sociable than usual",
+        "Being reluctant to leave their room"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How can you help someone through a panic attack? (Select all that apply)",
+      "options": [
+        "Insist they explain every frightening thought in detail",
+        "Stay with them and reassure them they are safe and it will pass",
+        "Tell them firmly to hurry up and get on with the day",
+        "Gently encourage slow breathing, breathing with them",
+        "Reduce noise, onlookers and pressure"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are things a care worker should NOT do when supporting someone with anxiety? (Select all that apply)",
+      "options": [
+        "Encourage the person gently towards professional help",
+        "Pressure the person into a feared situation",
+        "Tell the person which anxiety condition they have",
+        "Notice and record changes in mood or behaviour",
+        "Make decisions about therapy or medication"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good practice when recording and escalating concerns about anxiety? (Select all that apply)",
+      "options": [
+        "Keep concerns to yourself so as not to worry anyone",
+        "Write down your own guesses about a diagnosis instead of the facts",
+        "Raise any mention of self-harm or feeling unable to go on straight away",
+        "Report concerns promptly to your senior, the nurse or the care plan",
+        "Record the facts — what you saw or heard, when, and what helped"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are ways you can support a person's everyday wellbeing, at their own pace? (Select all that apply)",
+      "options": [
+        "Discourage all contact with other people",
+        "Support contact with family, friends and others",
+        "Encourage them to stay in bed as much as possible each day",
+        "Encourage gentle movement and fresh air",
+        "Help with good sleep, regular meals and a predictable routine"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A sudden rush of intense fear with physical symptoms that peaks within minutes is a ___ attack.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "panic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The body's natural readiness for action when it senses a threat is sometimes called the \"___ or flight\" response.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fight"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Ongoing, hard-to-control worry that spreads across many areas of life over a long period is called ___ anxiety disorder.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "generalised",
+              "generalized"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A talking therapy that helps people understand and manage anxious thoughts, cognitive behavioural therapy, is often shortened to ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "cbt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The usual first step in helping someone access professional support for anxiety is to encourage a conversation with their ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "gp",
+              "doctor",
+              "general practitioner"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
