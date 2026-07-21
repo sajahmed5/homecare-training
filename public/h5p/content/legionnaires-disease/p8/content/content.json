@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping water moving</h2><p>Alongside temperature, the other main control is keeping water fresh and moving so it never has the chance to stagnate. This is where the simple tasks you may be asked to do come in, and flushing little-used outlets is the most common of them.</p><ul><li><strong>Flushing:</strong> running little-used taps and showers to refresh the water.</li><li><strong>Regular use:</strong> making sure outlets are not left standing for long.</li><li><strong>Recording:</strong> noting down the tasks you have completed.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4e684c84-8d17-450c-aa91-d3f3ec41a219",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Flushing outlets",
+          "decorative": false,
+          "file": {
+            "path": "images/flushing-outlets.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4934e9ea-46f6-4b6c-88c3-aa5781453945",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Flushing little-used outlets</h2><p>Flushing simply means running a tap or shower for a set time so that fresh water replaces the water that has been standing in the pipe. Your service will tell you which outlets need flushing, how often and for how long &mdash; often weekly for anything not in regular use. When you flush a shower, open it gently to avoid creating a big spray, and follow any instructions about doing it safely.</p><p>These tasks may feel small, but they are a real and effective control. By keeping water moving you stop it stagnating and stop legionella building up. Always record what you have done, so the responsible person can see the plan is being followed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "554e9f74-a1dd-43a5-91e3-bd6e8e84ef53",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

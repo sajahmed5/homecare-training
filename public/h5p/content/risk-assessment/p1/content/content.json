@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Risk Assessment</h2><p>Every day you make judgements that keep people safe &mdash; helping someone move, noticing a wet floor, deciding whether an activity is safe to go ahead. <strong>Risk assessment</strong> is the structured way health and social care manages these decisions so that people who use services, and the staff who support them, are protected from harm. This course explains what risk assessment is, the law behind it, and how you take part in it every shift.</p><ul><li><strong>Purpose:</strong> to spot what could cause harm and act before it does.</li><li><strong>Balance:</strong> keeping people safe while supporting their choices.</li><li><strong>Your part:</strong> following, contributing to and using assessments day to day.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "58fc43ed-6b5e-459a-871b-5d03de634e1a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8e734765-50ab-4c23-b0e6-55c4bc52406d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to use this course</h2><p>Over the next pages you will learn the difference between a hazard and a risk, the legal duty that sits behind assessment, the HSE five steps, control measures and the hierarchy that ranks them, and how risk works in real care practice &mdash; including dynamic risk assessment and positive risk-taking.</p><p>This e-learning covers <strong>awareness and knowledge</strong> only. It does not replace supervised, hands-on training or the formal risk assessments that a manager or other competent person is responsible for carrying out and signing off. Use it to understand your role and to work more confidently within the assessments your service already has in place.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8d4348cf-fd3c-4fef-82f6-0a7dc122e214",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

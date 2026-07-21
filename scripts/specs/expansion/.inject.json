@@ -3,186 +3,186 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 1,
    "file": "welcome.svg",
    "alt": "Illustration for Welcome",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p1/content/images"
+   "srcDir": "public/h5p/content/risk-assessment/p1/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 2,
-   "file": "what-pbs-is.svg",
-   "alt": "Illustration for What PBS is",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p2/content/images"
+   "file": "hazard-and-risk.svg",
+   "alt": "Illustration for Hazard and risk",
+   "srcDir": "public/h5p/content/risk-assessment/p2/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 3,
-   "file": "values-and-old-approaches.svg",
-   "alt": "Illustration for Values and old approaches",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p3/content/images"
+   "file": "the-legal-duty.svg",
+   "alt": "Illustration for The legal duty",
+   "srcDir": "public/h5p/content/risk-assessment/p3/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 4,
-   "file": "behaviour-has-a-function.svg",
-   "alt": "Illustration for Behaviour has a function",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p4/content/images"
+   "file": "five-steps-hazards.svg",
+   "alt": "Illustration for Five steps: hazards",
+   "srcDir": "public/h5p/content/risk-assessment/p4/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 5,
-   "file": "functions-of-behaviour.svg",
-   "alt": "Illustration for Functions of behaviour",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p5/content/images"
+   "file": "who-might-be-harmed.svg",
+   "alt": "Illustration for Who might be harmed",
+   "srcDir": "public/h5p/content/risk-assessment/p5/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 6,
-   "file": "triggers-and-the-person.svg",
-   "alt": "Illustration for Triggers and the person",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p6/content/images"
+   "file": "evaluate-and-control.svg",
+   "alt": "Illustration for Evaluate and control",
+   "srcDir": "public/h5p/content/risk-assessment/p6/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 7,
-   "file": "primary-prevention.svg",
-   "alt": "Illustration for Primary prevention",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p7/content/images"
+   "file": "record-and-review.svg",
+   "alt": "Illustration for Record and review",
+   "srcDir": "public/h5p/content/risk-assessment/p7/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 8,
-   "file": "meaningful-days.svg",
-   "alt": "Illustration for Meaningful days",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p8/content/images"
+   "file": "the-hierarchy.svg",
+   "alt": "Illustration for The hierarchy",
+   "srcDir": "public/h5p/content/risk-assessment/p8/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 9,
-   "file": "secondary-strategies.svg",
-   "alt": "Illustration for Secondary strategies",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p9/content/images"
+   "file": "safe-systems-of-work.svg",
+   "alt": "Illustration for Safe systems of work",
+   "srcDir": "public/h5p/content/risk-assessment/p9/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 10,
-   "file": "the-pbs-plan.svg",
-   "alt": "Illustration for The PBS plan",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p10/content/images"
+   "file": "who-is-responsible.svg",
+   "alt": "Illustration for Who is responsible",
+   "srcDir": "public/h5p/content/risk-assessment/p10/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 11,
-   "file": "reactive-strategies.svg",
-   "alt": "Illustration for Reactive strategies",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p11/content/images"
+   "file": "dynamic-risk-assessment.svg",
+   "alt": "Illustration for Dynamic risk assessment",
+   "srcDir": "public/h5p/content/risk-assessment/p11/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 12,
-   "file": "restraint-reduction.svg",
-   "alt": "Illustration for Restraint reduction",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p12/content/images"
+   "file": "positive-risk-taking.svg",
+   "alt": "Illustration for Positive risk-taking",
+   "srcDir": "public/h5p/content/risk-assessment/p12/content/images"
   },
   {
-   "course": "positive-behaviour-support",
+   "course": "risk-assessment",
    "page": 13,
-   "file": "recording-and-support.svg",
-   "alt": "Illustration for Recording and support",
-   "srcDir": "public/h5p/content/positive-behaviour-support/p13/content/images"
+   "file": "review-and-report.svg",
+   "alt": "Illustration for Review and report",
+   "srcDir": "public/h5p/content/risk-assessment/p13/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 1,
-   "file": "what-the-term-means.svg",
-   "alt": "Illustration for What the term means",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p1/content/images"
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/legionnaires-disease/p1/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 2,
-   "file": "behaviour-as-communication.svg",
-   "alt": "Illustration for Behaviour as communication",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p2/content/images"
+   "file": "legionnaires-disease.svg",
+   "alt": "Illustration for Legionnaires' disease",
+   "srcDir": "public/h5p/content/legionnaires-disease/p2/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 3,
-   "file": "who-may-be-affected.svg",
-   "alt": "Illustration for Who may be affected",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p3/content/images"
+   "file": "who-is-at-risk.svg",
+   "alt": "Illustration for Who is at risk",
+   "srcDir": "public/h5p/content/legionnaires-disease/p3/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 4,
-   "file": "common-triggers.svg",
-   "alt": "Illustration for Common triggers",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p4/content/images"
+   "file": "how-legionella-grows.svg",
+   "alt": "Illustration for How legionella grows",
+   "srcDir": "public/h5p/content/legionnaires-disease/p4/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 5,
-   "file": "the-escalation-cycle.svg",
-   "alt": "Illustration for The escalation cycle",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p5/content/images"
+   "file": "breathable-droplets.svg",
+   "alt": "Illustration for Breathable droplets",
+   "srcDir": "public/h5p/content/legionnaires-disease/p5/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 6,
-   "file": "knowing-the-person.svg",
-   "alt": "Illustration for Knowing the person",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p6/content/images"
+   "file": "stagnant-water.svg",
+   "alt": "Illustration for Stagnant water",
+   "srcDir": "public/h5p/content/legionnaires-disease/p6/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 7,
-   "file": "staying-calm.svg",
-   "alt": "Illustration for Staying calm",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p7/content/images"
+   "file": "temperature-control.svg",
+   "alt": "Illustration for Temperature control",
+   "srcDir": "public/h5p/content/legionnaires-disease/p7/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 8,
-   "file": "listening-and-space.svg",
-   "alt": "Illustration for Listening and space",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p8/content/images"
+   "file": "flushing-outlets.svg",
+   "alt": "Illustration for Flushing outlets",
+   "srcDir": "public/h5p/content/legionnaires-disease/p8/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 9,
-   "file": "offering-choices.svg",
-   "alt": "Illustration for Offering choices",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p9/content/images"
+   "file": "cleaning-showerheads.svg",
+   "alt": "Illustration for Cleaning showerheads",
+   "srcDir": "public/h5p/content/legionnaires-disease/p9/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 10,
-   "file": "following-the-plan.svg",
-   "alt": "Illustration for Following the plan",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p10/content/images"
+   "file": "the-water-safety-plan.svg",
+   "alt": "Illustration for The water safety plan",
+   "srcDir": "public/h5p/content/legionnaires-disease/p10/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 11,
-   "file": "keeping-everyone-safe.svg",
-   "alt": "Illustration for Keeping everyone safe",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p11/content/images"
+   "file": "symptoms-to-know.svg",
+   "alt": "Illustration for Symptoms to know",
+   "srcDir": "public/h5p/content/legionnaires-disease/p11/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 12,
-   "file": "least-restrictive-practice.svg",
-   "alt": "Illustration for Least restrictive practice",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p12/content/images"
+   "file": "reporting-problems.svg",
+   "alt": "Illustration for Reporting problems",
+   "srcDir": "public/h5p/content/legionnaires-disease/p12/content/images"
   },
   {
-   "course": "behaviours-that-challenge",
+   "course": "legionnaires-disease",
    "page": 13,
-   "file": "recording-and-learning.svg",
-   "alt": "Illustration for Recording and learning",
-   "srcDir": "public/h5p/content/behaviours-that-challenge/p13/content/images"
+   "file": "your-role.svg",
+   "alt": "Illustration for Your role",
+   "srcDir": "public/h5p/content/legionnaires-disease/p13/content/images"
   }
  ]
 }

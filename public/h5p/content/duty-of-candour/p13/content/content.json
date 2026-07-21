@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>The duty of candour comes down to a simple commitment: be open and honest with people, especially when something goes wrong. You have seen that it has two sides that work together &mdash; the statutory duty on your organisation and the professional duty on you &mdash; and that honesty, apology and support run through both.</p><ul><li><strong>Everyone is honest:</strong> being open when things go wrong is every worker&rsquo;s duty.</li><li><strong>The organisation notifies:</strong> the provider makes the formal Regulation 20 notifications.</li><li><strong>You report, apologise and support:</strong> tell someone, say sorry, and help put things right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40ddc98a-0e22-4a6f-ad9b-3cce5a1da3f8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f00617d4-280a-4ba7-ade3-204246c77d7e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Remember</h2><p>When something goes wrong, tell the person or their family as soon as you can, give a truthful account, say sorry &mdash; remembering that an apology is not an admission of legal liability &mdash; and follow up honestly. Report mistakes and near misses promptly, record what happened accurately, and speak up when you have a concern. In doing so you protect the people you support, uphold their trust, and help your organisation learn.</p><p>This course has built <strong>awareness and knowledge</strong> only. It does not replace your organisation&rsquo;s duty-of-candour policy, its reporting procedures, or the supervised training you receive at work. Always follow your workplace policy, and if you are ever unsure what to do after an incident, ask your manager.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9bdf9559-ecca-4dc6-b8e0-97cbf7a3e8b0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

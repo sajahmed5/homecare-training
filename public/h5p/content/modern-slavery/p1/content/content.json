@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Modern Slavery Awareness</h2><p>Modern slavery is a serious crime and a safeguarding issue. It happens in the UK today, often hidden in plain sight, and some of the people you support may be at risk. As a care worker you build trusting relationships and see people closely, which places you in a strong position to notice when something is wrong. This course helps you recognise the signs and report them safely.</p><ul><li><strong>Recognise:</strong> the signs that someone may be a victim of modern slavery.</li><li><strong>Report:</strong> pass your concerns on so that specialists can investigate.</li><li><strong>Protect:</strong> keep yourself and the person safe at all times.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d575ea65-807f-40cf-a276-cc570dbfd691",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "036a16fb-3304-4837-ae3e-83e63b93f1af",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>This is awareness, not investigation</h2><p>This course gives you <strong>awareness and knowledge</strong> to help you <strong>recognise and report</strong> possible modern slavery. It does <strong>not</strong> replace your organisation&rsquo;s safeguarding policy or the supervised training you receive, and it does not make you an investigator. Your role is to notice, to keep people safe, and to raise a concern &mdash; specialist agencies such as the police and the National Referral Mechanism carry out the investigation.</p><p>You do not need to be certain that modern slavery is happening before you speak up. If you are worried, report it to your manager or safeguarding lead, and in an emergency call 999. Throughout this course, remember that recognising and reporting are exactly what is being asked of you &mdash; nothing more and nothing less.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7d32fa10-0fa8-4c00-b774-b590d1a520f7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

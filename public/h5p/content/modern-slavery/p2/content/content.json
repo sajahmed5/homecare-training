@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What modern slavery is</h2><p>Modern slavery is an umbrella term for the exploitation of one person by another for someone else&rsquo;s gain. It covers slavery, servitude, forced or compulsory labour and human trafficking. Victims are controlled and treated as though they were property, unable to leave freely because of violence, threats, deception or debt. It exists in cities, towns and rural areas across England, and it is often deliberately hidden from view.</p><ul><li><strong>Exploitation:</strong> a person is used for another&rsquo;s profit or benefit.</li><li><strong>Control:</strong> the victim cannot simply walk away.</li><li><strong>Hidden:</strong> it is kept out of sight, so the signs are easy to miss.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eeb05134-bbc9-4311-bf38-5b16952fe32d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What it is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-it-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8c45e988-d15c-4ede-aa13-146bfefa79da",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hidden in plain sight</h2><p>Victims of modern slavery can be any age, gender or nationality, and many are British. They may live on ordinary streets, work in car washes, nail bars, farms or care settings, or be moved between addresses. Because they are frightened, controlled or do not see themselves as victims, they rarely ask for help directly. This is why the everyday observations of people like you matter so much.</p><p>You may be one of very few people from outside a victim&rsquo;s controlled world who sees them regularly. Something that feels slightly wrong &mdash; a person who is never allowed to speak for themselves, or who seems fearful of a &ldquo;friend&rdquo; &mdash; can be an important clue. Noticing it, and reporting it, could open the door to their rescue.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "29475003-395e-460d-86a6-7f727c2f13a4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes modern slavery?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The exploitation and control of a person for someone else&rsquo;s gain, so that they cannot leave freely.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Modern slavery is the control and exploitation of a person for another&rsquo;s gain, and it happens in the UK today.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A historical crime that no longer happens in the UK today.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; modern slavery is happening now, hidden in communities across England.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A problem that only affects people who have entered the country illegally.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; victims can be any nationality, and many are British citizens.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A situation people can always simply walk away from whenever they choose.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; victims are controlled through violence, threats, deception or debt and cannot leave freely.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5a055585-9817-42e6-b125-6028fc56e206",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

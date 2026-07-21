@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who is responsible for what</h2><p>Managing risk is a shared effort, but responsibilities are not identical. Knowing where yours begin and end helps everything work as it should.</p><ul><li><strong>Employer:</strong> ensures assessments are done, provides safe systems, equipment and training.</li><li><strong>Competent person:</strong> a manager or suitably trained colleague who carries out and signs off the formal assessment.</li><li><strong>You:</strong> follow the controls, use equipment properly, and report hazards and changes.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "63a9858e-668a-4628-8ada-1150c760f6e8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who is responsible",
+          "decorative": false,
+          "file": {
+            "path": "images/who-is-responsible.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "59cb5863-c97d-4524-a757-410257a7861f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in making controls work</h2><p>The formal assessment and its sign-off sit with managers and other competent persons &mdash; people with the training, experience and authority to judge what is reasonably practicable and to put controls in place. That is not your responsibility to decide alone, and you should never feel you have to.</p><p>What you are responsible for is putting the agreed controls into practice reliably, and being the eyes and ears of the service. You follow the safe systems, use the equipment provided, and raise it promptly when a control is missing, broken or no longer fits the person. A well-written assessment is only as good as the day-to-day practice that carries it out, and that practice is largely yours.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3a1f7d96-567d-4a75-a85f-d25cbefdc2cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>As a care worker, you are personally responsible for carrying out and signing off your service's formal risk assessments.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; you contribute to and follow assessments, but signing them off is the competent person's responsibility.",
+            "correctAnswerMessage": "Correct. Formal assessment and sign-off rest with managers or another competent person; your job is to follow controls and report concerns."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "0ff8afbb-378f-420a-9410-f6eef91253f5",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

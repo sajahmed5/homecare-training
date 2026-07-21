@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical and behavioural signs</h2><p>Victims of modern slavery often show physical and emotional signs of what they are enduring. They may look malnourished, unkempt or exhausted, have untreated injuries, or wear the same worn clothing every day. Emotionally, they may seem frightened, withdrawn, anxious or confused, avoid eye contact, and appear to have been coached in what to say. No single sign proves modern slavery, but a pattern of them is a warning.</p><ul><li><strong>Physical:</strong> injuries, poor health, hunger or a neglected appearance.</li><li><strong>Emotional:</strong> fear, anxiety, withdrawal or distrust.</li><li><strong>Coached:</strong> answers that sound rehearsed or inconsistent.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "968f19c8-d363-4e89-9fda-cf14caa6f617",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Physical &amp; behavioural signs",
+          "decorative": false,
+          "file": {
+            "path": "images/physical-amp-behavioural-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5e5e6bcc-c62b-4f68-880a-15e9df96549c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reading the whole picture</h2><p>Because each of these signs can have an innocent explanation, it is the overall picture that matters. Ask yourself whether things add up. Does the person seem afraid of someone who is with them? Are they unusually reluctant to give information about where they live or work? Do they flinch, fall silent, or look to another person before answering simple questions? Trust the sense that something is not right.</p><p>You are not diagnosing or investigating when you notice these things &mdash; you are gathering the ordinary observations that let a trained safeguarding lead and specialist agencies act. Keep noticing, stay curious, and remember that your instinct that a person is being controlled or harmed is worth reporting, even if you cannot yet explain why.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8e3ccbeb-4fb6-4284-99ae-2c29279b3d83",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is most likely to suggest that someone could be a victim of modern slavery?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Several signs together &mdash; fearfulness, untreated injuries, rehearsed answers and reluctance to give information.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. It is the overall pattern of signs, rather than any single one, that should raise your concern.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A single bruise in a person who has clearly explained a recent accidental fall.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; one sign with a clear explanation is not, on its own, a strong indicator.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A person who talks openly and freely about their home and their work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; being open and free to speak points away from exploitation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Someone who is simply having a quiet or tired day but seems otherwise settled.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a quiet day on its own is not a warning sign; look for a pattern.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2e4f2414-0c29-4f4d-8059-c32ac1fe6c5b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

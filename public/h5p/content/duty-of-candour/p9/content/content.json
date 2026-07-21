@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Saying sorry</h2><p>A meaningful apology is central to candour. When something has gone wrong in a person&rsquo;s care, they deserve to hear a genuine &lsquo;sorry&rsquo; &mdash; not a defensive half-apology, and not silence. Saying sorry acknowledges the person&rsquo;s experience and shows that you take what happened seriously.</p><ul><li><strong>Be sincere:</strong> a real apology, not a form of words that avoids responsibility.</li><li><strong>Be specific:</strong> acknowledge what actually happened to the person.</li><li><strong>Be human:</strong> show genuine care for how the person has been affected.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4c79619-e7ce-40ff-8a87-8547106dafac",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Saying sorry",
+          "decorative": false,
+          "file": {
+            "path": "images/saying-sorry.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "65a64a22-3ed3-4506-9203-5a246a934e7f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>An apology is not liability</h2><p>Some workers worry that saying sorry means admitting they are legally at fault, or that it will cause trouble for them or the organisation. This is a common misunderstanding. In England and Wales the law is clear that an apology is not, in itself, an admission of legal liability. Saying sorry is the right and expected thing to do.</p><p>An apology is an expression of care and regret that something has happened to the person &mdash; it is not a legal confession, and regulators actively encourage it. Far from causing trouble, a timely and sincere apology usually helps: it maintains trust, eases distress, and often prevents a small problem from growing into a formal complaint. If you are ever unsure how to word an apology, ask your manager, but never let that fear stop you from being honest and kind.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d0695244-8c30-415c-b412-a63a4866bd63",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Saying sorry to a person after a mistake is an admission of legal liability.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. In England and Wales an apology is not, of itself, an admission of legal liability, and regulators encourage saying sorry.",
+            "correctAnswerMessage": "Correct &mdash; this is false. An apology is not, in itself, an admission of legal liability, and saying sorry is the right thing to do."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "01adf0f2-7b72-4a0e-a724-71ed6b85ed67",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

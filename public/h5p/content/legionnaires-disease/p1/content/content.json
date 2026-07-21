@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Legionella Awareness</h2><p>Welcome to <strong>Legionella Awareness</strong>. Legionella bacteria can grow in the water systems of care homes and other buildings, and in the right conditions they can cause a serious lung infection called Legionnaires' disease. As a care worker you have a small but genuinely important part to play in helping to keep the people you support safe from this risk.</p><ul><li><strong>Awareness:</strong> understanding what legionella is and why it matters.</li><li><strong>Good practice:</strong> the simple everyday habits that help keep water safe.</li><li><strong>Your role:</strong> following the plan, doing assigned tasks and reporting concerns.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "62a480cf-e316-4125-82a4-b55e60f8da2e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8fa157a7-3be7-4f2f-a456-466284caf2b8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn what legionella and Legionnaires' disease are, where the risk comes from in a building's water system, how that risk is controlled, and how to recognise and report problems. The guidance here is based on the Health &amp; Safety Executive's advice and on the principles of the Approved Code of Practice L8 and HSG274 for controlling legionella in water systems.</p><p>This e-learning gives you <strong>awareness and background knowledge</strong> only. It does not replace the hands-on, supervised training your employer provides, and it does not replace your service's <strong>legionella risk assessment</strong>, which is carried out and managed by the duty holder and the responsible person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9d1de5e4-4f07-44ad-a2d2-964e4bad6043",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

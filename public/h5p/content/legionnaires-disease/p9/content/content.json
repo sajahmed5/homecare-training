@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Clean showerheads and taps</h2><p>Because scale and biofilm feed and shelter legionella, keeping fittings clean is another important control. Showerheads and spray taps are a particular focus, as they combine standing water, warmth and the very spray that carries droplets into the air.</p><ul><li><strong>Descaling:</strong> removing the scale that builds up in showerheads and taps.</li><li><strong>Cleaning:</strong> washing away biofilm and debris.</li><li><strong>Routine:</strong> doing this on the schedule your service sets.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e36c5176-3c16-4cb5-88ad-db615b79849d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Cleaning showerheads",
+          "decorative": false,
+          "file": {
+            "path": "images/cleaning-showerheads.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1deaaac6-c73d-4460-9bbb-4d5371a4f3dc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How cleaning helps</h2><p>Over time, limescale and a slimy biofilm build up inside showerheads and around taps, giving legionella both food and a protected place to grow. Cleaning and descaling these fittings on a regular schedule removes that build-up and keeps the spray cleaner and safer.</p><p>If you are asked to clean or descale a showerhead, follow your service's method and schedule, and record that you have done it. As with flushing, this is a straightforward task, but doing it properly and on time makes a genuine difference. If a showerhead is heavily furred with scale, or a fitting looks dirty or slimy, report it so it can be dealt with.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ba2742b2-dc44-4c0d-bb25-d274bc1d8c7d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why does your service ask you to descale and clean showerheads regularly?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Scale and biofilm feed and shelter legionella, so removing them keeps the spray cleaner and safer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Cleaning away scale and biofilm removes the food and shelter that let legionella grow.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Clean showerheads make the water come out hotter.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Cleaning is about removing scale and biofilm, not about water temperature.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only about appearance and has no effect on safety.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is a genuine safety control, not just about how things look.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It removes the need to keep hot water hot or cold water cold.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Cleaning works alongside temperature control, not instead of it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8fee1dbf-b6d1-4bd7-a523-99ee6145a64d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Duty of Candour</h2><p>Everyone who draws on care and support has the right to be told the truth about their care &mdash; and never more so than when something has gone wrong. The <strong>duty of candour</strong> is the expectation that you and your organisation are open and honest with people and the people close to them at all times. This course explains what that duty means and how you put it into practice in your everyday work.</p><ul><li><strong>Openness:</strong> being open with people about their care and treatment.</li><li><strong>Honesty:</strong> telling the truth promptly when something goes wrong.</li><li><strong>Learning:</strong> using mistakes to improve care, not to hide it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4738f14e-4fe7-4fa4-96fa-30a0924e5687",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dfc11799-ce74-4027-9009-53068e468229",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Across the next pages you will learn what the duty of candour is and why it matters, the statutory duty set out in the Care Quality Commission&rsquo;s Regulation 20, how to be candid well when things go wrong, and how honesty shapes your everyday practice. You will see that being open is everyone&rsquo;s responsibility, while the formal notifications about serious safety incidents are made by your organisation.</p><p>This course builds <strong>awareness and knowledge</strong> only. It does not replace your organisation&rsquo;s duty-of-candour policy, its reporting procedures, or the supervised training you receive at work. If you are ever unsure what to do after something has gone wrong, speak to your manager and follow your workplace policy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "77eefdb9-11a7-4412-9366-088d59853ba2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

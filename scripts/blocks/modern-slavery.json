@@ -1,0 +1,97 @@
+{
+  "slug": "modern-slavery",
+  "title": "Modern Slavery Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What modern slavery is"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p2",
+      "label": "What it is",
+      "questions": 1,
+      "section": "What modern slavery is"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p3",
+      "label": "The law &amp; your role",
+      "questions": 1,
+      "section": "What modern slavery is"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p4",
+      "label": "Forced labour",
+      "questions": 1,
+      "section": "Types of modern slavery"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p5",
+      "label": "Sexual &amp; domestic",
+      "questions": 0,
+      "section": "Types of modern slavery"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p6",
+      "label": "Criminal &amp; county lines",
+      "questions": 1,
+      "section": "Types of modern slavery"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p7",
+      "label": "Trafficking &amp; control",
+      "questions": 1,
+      "section": "Types of modern slavery"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p8",
+      "label": "Physical &amp; behavioural signs",
+      "questions": 1,
+      "section": "Recognising the signs"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p9",
+      "label": "Control &amp; conditions",
+      "questions": 1,
+      "section": "Recognising the signs"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p10",
+      "label": "Who is at risk",
+      "questions": 1,
+      "section": "Recognising the signs"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p11",
+      "label": "Stay safe",
+      "questions": 1,
+      "section": "Responding &amp; reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p12",
+      "label": "Reporting &amp; the NRM",
+      "questions": 1,
+      "section": "Responding &amp; reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "modern-slavery/p13",
+      "label": "Recording &amp; summary",
+      "questions": 0,
+      "section": "Responding &amp; reporting"
+    }
+  ]
+}

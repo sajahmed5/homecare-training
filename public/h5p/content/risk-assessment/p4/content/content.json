@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The HSE five steps</h2><p>The Health and Safety Executive (HSE) sets out a simple, practical approach to assessing risk, often described as <strong>five steps</strong>. It gives everyone a shared method, whether they are assessing a whole building or a single task at the bedside.</p><ul><li><strong>Step 1:</strong> identify the hazards.</li><li><strong>Step 2:</strong> decide who might be harmed and how.</li><li><strong>Step 3:</strong> evaluate the risks and decide on controls.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c359d9f4-1bdb-4367-9244-18ab4ad3c0ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Five steps: hazards",
+          "decorative": false,
+          "file": {
+            "path": "images/five-steps-hazards.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "07442ac1-d630-466f-a59e-2ec76bc79988",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Step 1 &mdash; identify the hazards</h2><p>Start by looking for the things that could realistically cause harm. Walk through the environment and the task and think about what you handle, where you move and what could go wrong. In care, hazards fall into familiar groups &mdash; slips, trips and falls; moving and handling people or loads; infection; hazardous substances such as cleaning products or medicines; equipment; hot water; and behaviours that may put people at risk.</p><p>The best hazard-spotting draws on more than a walk round. Ask experienced colleagues, look at accident and incident records, read manufacturers' instructions and safety data sheets, and listen to the people you support, who often know the risks in their own home better than anyone. Your first-hand observations feed directly into this step.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "507f5300-b85c-4ce4-b959-43ee45dee98b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which is the first of the HSE five steps to risk assessment?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Identify the hazards.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. You cannot assess or control a risk until you have first spotted the hazard.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record your findings.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Recording comes later, once hazards, those at risk and controls have been considered.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Provide personal protective equipment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "PPE is a control measure, not a step in the assessment method itself.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Review and update the assessment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Review is the final step, done after the assessment is in use.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a1b73370-b752-4430-b085-dc08240a4839",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -197,6 +197,34 @@ const NEW_COURSES = [
     description:
       "Understanding and responding to behaviour that challenges — distress and unmet need, de-escalation, and keeping everyone safe. Awareness only; physical intervention needs specific training and is a last resort.",
   },
+  {
+    slug: "duty-of-candour",
+    topic: "Governance & Records",
+    expiry_months: 24,
+    description:
+      "The duty of candour — being open and honest when things go wrong. Awareness of CQC Regulation 20 and the professional duty; the organisation makes the formal notifications. Awareness only.",
+  },
+  {
+    slug: "modern-slavery",
+    topic: "Safeguarding",
+    expiry_months: 24,
+    description:
+      "Modern slavery awareness — the types, recognising the signs and how to report safely. Awareness only; specialist agencies investigate and this does not replace your safeguarding policy.",
+  },
+  {
+    slug: "risk-assessment",
+    topic: "Health & Safety",
+    expiry_months: 24,
+    description:
+      "Risk assessment awareness — hazard vs risk, the HSE five steps, control measures and dynamic and positive risk-taking. Awareness only; formal assessments sit with a competent person.",
+  },
+  {
+    slug: "legionnaires-disease",
+    topic: "Health & Safety",
+    expiry_months: 24,
+    description:
+      "Legionella awareness — what Legionnaires' disease is, where the risk comes from and how it is controlled. Awareness only; the legionella risk assessment sits with the responsible person.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

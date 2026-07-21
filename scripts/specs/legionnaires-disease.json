@@ -1,0 +1,278 @@
+{
+  "slug": "legionnaires-disease",
+  "courseTitle": "Legionella Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Legionella and Legionnaires' disease",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Legionella Awareness</h2><p>Welcome to <strong>Legionella Awareness</strong>. Legionella bacteria can grow in the water systems of care homes and other buildings, and in the right conditions they can cause a serious lung infection called Legionnaires' disease. As a care worker you have a small but genuinely important part to play in helping to keep the people you support safe from this risk.</p><ul><li><strong>Awareness:</strong> understanding what legionella is and why it matters.</li><li><strong>Good practice:</strong> the simple everyday habits that help keep water safe.</li><li><strong>Your role:</strong> following the plan, doing assigned tasks and reporting concerns.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn what legionella and Legionnaires' disease are, where the risk comes from in a building's water system, how that risk is controlled, and how to recognise and report problems. The guidance here is based on the Health &amp; Safety Executive's advice and on the principles of the Approved Code of Practice L8 and HSG274 for controlling legionella in water systems.</p><p>This e-learning gives you <strong>awareness and background knowledge</strong> only. It does not replace the hands-on, supervised training your employer provides, and it does not replace your service's <strong>legionella risk assessment</strong>, which is carried out and managed by the duty holder and the responsible person.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Legionnaires' disease",
+      "section": "Legionella and Legionnaires' disease",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is Legionnaires' disease?</h2><p>Legionnaires' disease is a serious form of <strong>pneumonia</strong> &mdash; a lung infection &mdash; caused by breathing in tiny droplets of water that contain legionella bacteria. It can make people very unwell, and for those who are already frail or ill it can be life-threatening. The reassuring news is that it is preventable when water systems are looked after properly.</p><ul><li><strong>A lung infection:</strong> a serious type of pneumonia.</li><li><strong>Caught from water:</strong> by breathing in contaminated droplets.</li><li><strong>Preventable:</strong> well-managed water systems keep the risk low.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How people catch it</h2><p>People catch Legionnaires' disease by <strong>inhaling</strong> a fine spray or mist of water &mdash; called an aerosol &mdash; that carries the bacteria deep into the lungs. This might come from a shower, a spray tap or other equipment that breaks water into breathable droplets. You cannot catch it simply by drinking water.</p><p>Importantly, Legionnaires' disease is <strong>not spread from person to person</strong>. One resident who becomes ill cannot pass it to another through coughing or close contact, the way a cold or flu spreads. This is why prevention always focuses on the water system itself, rather than on isolating people who are unwell.</p><p>Understanding these two facts &mdash; that the illness comes from breathing in contaminated droplets, and that it cannot pass between people &mdash; explains why so much of good practice is about the pipes, tanks, taps and showers around you. Look after the water, and you protect everyone who uses it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "How do people catch Legionnaires' disease?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "By breathing in tiny droplets of water (an aerosol) that contain legionella bacteria.", "correct": true, "feedback": "Yes. The illness is caught by inhaling a fine spray of contaminated water deep into the lungs." },
+            { "text": "By drinking a glass of ordinary tap water.", "correct": false, "feedback": "Swallowing water is not the route &mdash; the illness comes from breathing in contaminated droplets." },
+            { "text": "By close contact with someone who already has the illness.", "correct": false, "feedback": "Legionnaires' disease is not spread from person to person." },
+            { "text": "By touching a surface that an unwell person has touched.", "correct": false, "feedback": "It is not spread by contact; it comes from breathing in contaminated water droplets." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Who is at risk",
+      "section": "Legionella and Legionnaires' disease",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Who is most at risk?</h2><p>Most healthy adults who breathe in legionella do not become ill, but some people are far more vulnerable &mdash; and many of them are exactly the people you support. Age, existing illness and a weakened immune system all increase the danger, which is why care settings take the risk so seriously.</p><ul><li><strong>Older people:</strong> the risk rises with age, particularly over 45.</li><li><strong>Weakened immunity:</strong> people whose bodies fight infection less well.</li><li><strong>Lung and chest conditions:</strong> people with existing breathing problems.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why care settings take extra care</h2><p>People who are older, who have long-term lung or heart conditions, diabetes or kidney disease, or whose immune system is weakened by illness or medication, are all more likely to become seriously ill if they breathe in legionella. Smokers and heavy drinkers are also at higher risk.</p><p>Because care homes and supported living services look after many people in these groups, the potential harm from legionella is greater than in an average household. That is not a reason to worry, but it is the reason your service has a water safety plan &mdash; and the reason the small tasks you are asked to do genuinely matter.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Legionnaires' disease can be passed from one person to another, like a cold or flu.",
+          "correct": false,
+          "correctMsg": "Correct. It is not spread person to person &mdash; people catch it only by breathing in contaminated water droplets.",
+          "wrongMsg": "Not quite. Legionnaires' disease is not spread person to person; it comes from breathing in contaminated water droplets."
+        }
+      ]
+    },
+    {
+      "label": "How legionella grows",
+      "section": "Where the risk comes from",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Where legionella grows</h2><p>Legionella bacteria are found naturally in rivers and lakes, usually in numbers too low to cause harm. Problems begin when the bacteria get into a building's water system and find conditions that let them multiply. Understanding those conditions helps you see why the controls in your service exist.</p><ul><li><strong>Warmth:</strong> water that sits in the growth temperature range.</li><li><strong>Stagnation:</strong> water that is not moving or being used.</li><li><strong>Nutrients:</strong> scale, rust, sludge and biofilm that feed the bacteria.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The right conditions</h2><p>Legionella multiplies fastest in water that is <strong>warm and stagnant</strong>, roughly between <strong>20 and 45 degrees Celsius</strong>. Below about 20 degrees it stays dormant, and temperatures above around 60 degrees kill it &mdash; which is why keeping hot water hot and cold water cold is so important.</p><p>The bacteria also need something to feed on. <strong>Scale, rust, sludge and biofilm</strong> &mdash; the slimy layer that can build up inside pipes, tanks and showerheads &mdash; all provide food and shelter, helping legionella grow and protecting it. Warm, still, dirty water is the perfect breeding ground; clean, moving water at the right temperature is not.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Legionella grows best in *warm*, *stagnant* water, roughly between *20* and *45* degrees, where *scale* gives it food."
+        }
+      ]
+    },
+    {
+      "label": "Breathable droplets",
+      "section": "Where the risk comes from",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>How the risk reaches people</h2><p>Growing in the pipes is only half the story. For legionella to cause illness, contaminated water has to be broken into a fine spray of droplets small enough to breathe deep into the lungs. Anything that creates this kind of mist is a potential source.</p><ul><li><strong>Showers:</strong> spray warm water directly into the air.</li><li><strong>Taps:</strong> especially spray taps that create a fine mist.</li><li><strong>Other sprays:</strong> hoses, sprinklers and similar equipment.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Everyday sources of spray</h2><p>In a care setting the most common source of breathable droplets is the <strong>shower</strong>, which sprays warm water &mdash; often in the ideal growth temperature range &mdash; straight into the air where it can be inhaled. Spray taps, hoses and other equipment that produce a mist can do the same.</p><p>This is why showers and taps that are not used regularly are a particular concern: water sits in them, warms up and stagnates, and the bacteria are then released into the air the moment someone turns them on. Recognising which fittings create spray helps you understand why flushing and cleaning them is such an important habit.</p><p>It also helps you see why the risk is never only about whether water looks clean. A tap can run clear and still deliver a fine mist that carries bacteria into the air. The key question is always whether water has been sitting warm and still, and whether the fitting turns it into a breathable spray.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why are showers considered a particular legionella risk in care settings?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "They spray warm water into the air as fine droplets that can be breathed deep into the lungs.", "correct": true, "feedback": "Yes. Showers turn warm water into a breathable mist, which is exactly how the bacteria reach the lungs." },
+            { "text": "They use more water than any other fitting in the building.", "correct": false, "feedback": "The concern is the breathable spray they create, not how much water they use." },
+            { "text": "They are the only place legionella bacteria can grow.", "correct": false, "feedback": "Legionella can grow throughout the water system; showers release it into the air as spray." },
+            { "text": "The water in them is always too hot for bacteria to survive.", "correct": false, "feedback": "Shower water is often warm &mdash; in the very range where legionella thrives." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Stagnant water",
+      "section": "Where the risk comes from",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Stagnation and stored water</h2><p>Legionella thrives wherever water stops moving. Every time an outlet is left unused, water sits still inside the pipework and warms towards room temperature, giving the bacteria time and conditions to multiply. Stored water and rarely used fittings are therefore key areas of concern.</p><ul><li><strong>Little-used outlets:</strong> taps and showers in empty rooms or spare bathrooms.</li><li><strong>Dead legs:</strong> lengths of pipe leading to fittings that are seldom used.</li><li><strong>Stored water:</strong> tanks and cylinders where water can sit for a time.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why unused outlets matter</h2><p>A tap or shower in a vacant room, a rarely used guest bathroom, or an outlet serving someone who is away in hospital can quickly become a hidden risk. Water in these places is not refreshed, so it stagnates and warms, and any legionella present can multiply undisturbed until the outlet is next used.</p><p>Stored and standing water in tanks, cylinders and long stretches of pipe adds to this. It is a problem you cannot see, which is exactly why services keep records of little-used outlets and put a routine in place to keep water moving. Knowing where the quiet, forgotten outlets are on your unit is genuinely useful information, and mentioning them to the responsible person helps make sure none are missed from the flushing routine.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why are little-used taps and showers a legionella concern?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Water sits still and warms up in them, letting bacteria multiply before the outlet is next used.", "correct": true, "feedback": "Correct. Stagnant, warming water is exactly what legionella needs to grow." },
+            { "text": "They are usually connected to a completely separate water supply.", "correct": false, "feedback": "They share the same system; the problem is that their water is left standing." },
+            { "text": "They are cleaned far more often than outlets in daily use.", "correct": false, "feedback": "The opposite is true &mdash; rarely used outlets are easily overlooked." },
+            { "text": "Bacteria cannot survive in water that is left standing.", "correct": false, "feedback": "Standing, warm water is precisely where legionella multiplies." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Temperature control",
+      "section": "Controlling the risk",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Hot water hot, cold water cold</h2><p>The single most important control against legionella is temperature. Because the bacteria thrive between roughly 20 and 45 degrees, keeping water out of that range denies them the conditions they need. Your service manages this, but it helps to understand the principle.</p><ul><li><strong>Hot water kept hot:</strong> stored and distributed hot enough to kill bacteria.</li><li><strong>Cold water kept cold:</strong> below the temperature where legionella grows.</li><li><strong>Never left lukewarm:</strong> the danger zone is warm, in-between water.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Keeping water out of the danger zone</h2><p>In practice this means hot water is usually stored at around 60 degrees and reaches the taps hot, while cold water is kept below about 20 degrees. Because very hot water can scald, mixing valves are often fitted near showers and basins to bring the temperature down at the point of use, so the water people touch is safe.</p><p>You are not expected to set or check these temperatures yourself unless you have been specifically trained and asked to. What matters for you is knowing that lukewarm water &mdash; a hot tap that only runs warm, or a cold tap that runs warm &mdash; is a warning sign worth reporting.</p><p>Temperature control is quietly working in the background every day, but it only works if problems are noticed and put right. If the hot water is not reaching the taps properly hot, or the cold water feels warm to the touch, the danger zone has crept back in. Passing that on to the responsible person lets them check and correct it.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Keeping hot water hot and cold water cold helps control legionella because the bacteria thrive in warm, in-between temperatures.",
+          "correct": true,
+          "correctMsg": "Correct. Legionella grows in warm water, so keeping water genuinely hot or genuinely cold denies it the conditions it needs.",
+          "wrongMsg": "Not quite. Legionella thrives in warm water, so keeping water genuinely hot or genuinely cold is a key control."
+        }
+      ]
+    },
+    {
+      "label": "Flushing outlets",
+      "section": "Controlling the risk",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keeping water moving</h2><p>Alongside temperature, the other main control is keeping water fresh and moving so it never has the chance to stagnate. This is where the simple tasks you may be asked to do come in, and flushing little-used outlets is the most common of them.</p><ul><li><strong>Flushing:</strong> running little-used taps and showers to refresh the water.</li><li><strong>Regular use:</strong> making sure outlets are not left standing for long.</li><li><strong>Recording:</strong> noting down the tasks you have completed.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Flushing little-used outlets</h2><p>Flushing simply means running a tap or shower for a set time so that fresh water replaces the water that has been standing in the pipe. Your service will tell you which outlets need flushing, how often and for how long &mdash; often weekly for anything not in regular use. When you flush a shower, open it gently to avoid creating a big spray, and follow any instructions about doing it safely.</p><p>These tasks may feel small, but they are a real and effective control. By keeping water moving you stop it stagnating and stop legionella building up. Always record what you have done, so the responsible person can see the plan is being followed.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Cleaning showerheads",
+      "section": "Controlling the risk",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Clean showerheads and taps</h2><p>Because scale and biofilm feed and shelter legionella, keeping fittings clean is another important control. Showerheads and spray taps are a particular focus, as they combine standing water, warmth and the very spray that carries droplets into the air.</p><ul><li><strong>Descaling:</strong> removing the scale that builds up in showerheads and taps.</li><li><strong>Cleaning:</strong> washing away biofilm and debris.</li><li><strong>Routine:</strong> doing this on the schedule your service sets.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How cleaning helps</h2><p>Over time, limescale and a slimy biofilm build up inside showerheads and around taps, giving legionella both food and a protected place to grow. Cleaning and descaling these fittings on a regular schedule removes that build-up and keeps the spray cleaner and safer.</p><p>If you are asked to clean or descale a showerhead, follow your service's method and schedule, and record that you have done it. As with flushing, this is a straightforward task, but doing it properly and on time makes a genuine difference. If a showerhead is heavily furred with scale, or a fitting looks dirty or slimy, report it so it can be dealt with.</p><p>Cleaning and descaling do not work on their own &mdash; they sit alongside keeping water hot or cold and keeping it moving. Together these controls tackle the three things legionella needs: warmth, stillness and something to feed on. Each small task you complete removes one of those conditions and makes the water that bit safer.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why does your service ask you to descale and clean showerheads regularly?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Scale and biofilm feed and shelter legionella, so removing them keeps the spray cleaner and safer.", "correct": true, "feedback": "Yes. Cleaning away scale and biofilm removes the food and shelter that let legionella grow." },
+            { "text": "Clean showerheads make the water come out hotter.", "correct": false, "feedback": "Cleaning is about removing scale and biofilm, not about water temperature." },
+            { "text": "It is only about appearance and has no effect on safety.", "correct": false, "feedback": "It is a genuine safety control, not just about how things look." },
+            { "text": "It removes the need to keep hot water hot or cold water cold.", "correct": false, "feedback": "Cleaning works alongside temperature control, not instead of it." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The water safety plan",
+      "section": "Controlling the risk",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The water safety plan</h2><p>Everything you have learned so far comes together in your service's <strong>water safety plan</strong> &mdash; the written scheme that sets out how legionella risk is controlled in the building. It is based on a legionella risk assessment and it names who is responsible for each part of the work.</p><ul><li><strong>Duty holder:</strong> the employer or person in overall charge of the building.</li><li><strong>Responsible person:</strong> the named person who manages the day-to-day controls.</li><li><strong>Your part:</strong> the specific tasks assigned to you within the plan.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Who does what</h2><p>The <strong>duty holder</strong> has overall legal responsibility, and they appoint a <strong>responsible person</strong> to manage legionella control day to day. The responsible person makes sure the risk assessment is done and kept up to date, that temperatures are checked, and that tasks like flushing and cleaning are carried out and recorded.</p><p>Your role sits within this. You carry out the simple tasks you are assigned, you record them, and you report anything that concerns you. You are <strong>not</strong> expected to carry out the risk assessment or decide what controls are needed &mdash; that responsibility stays firmly with the duty holder and the responsible person. Knowing where your role begins and ends is part of doing it well.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "The *responsible* person manages the water *safety* plan, while your job is to carry out assigned *tasks* and *report* any concerns."
+        }
+      ]
+    },
+    {
+      "label": "Symptoms to know",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising the symptoms</h2><p>Being aware of the symptoms of Legionnaires' disease helps you act quickly if someone you support becomes unwell. The illness often begins like a bad case of flu before it affects the lungs, so the early signs can be easy to miss.</p><ul><li><strong>Flu-like start:</strong> high temperature, chills, headache and aching muscles.</li><li><strong>Chest signs:</strong> a cough, breathlessness and sometimes chest pain.</li><li><strong>Other signs:</strong> confusion, tiredness, and sometimes sickness or diarrhoea.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When to raise the alarm</h2><p>Legionnaires' disease usually starts with flu-like symptoms &mdash; a high temperature, chills, headache and muscle aches &mdash; and then develops into a cough, difficulty breathing and sometimes chest pain. Some people also become confused or develop sickness or diarrhoea. Symptoms generally appear a few days after exposure.</p><p>You are not expected to diagnose anyone. What matters is that if someone becomes unwell with these symptoms, you report it promptly to a senior colleague or nurse so they can arrange medical help. If more than one person on the same unit develops a chest infection, mention that too &mdash; a possible link is exactly the kind of thing the responsible person needs to know about.</p><p>Reporting early does two things. It gets the unwell person the medical care they need sooner, and it prompts the service to check whether the water system may have played a part. You do not need to work out the cause yourself &mdash; simply describing what you have seen, clearly and promptly, is enough to set the right people in motion.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A resident develops a high temperature, muscle aches, a cough and breathlessness. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it promptly to a senior colleague or nurse so that medical help can be arranged.", "correct": true, "feedback": "Correct. Prompt reporting gets the person the medical assessment they need." },
+            { "text": "Decide yourself that it is Legionnaires' disease and tell the resident.", "correct": false, "feedback": "You are not expected to diagnose &mdash; report the symptoms so professionals can assess." },
+            { "text": "Wait several days to see whether the symptoms clear up on their own.", "correct": false, "feedback": "Waiting risks serious harm; these symptoms need reporting now." },
+            { "text": "Assume it cannot be serious because chest infections are common.", "correct": false, "feedback": "These symptoms should always be taken seriously and reported." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reporting problems",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Spotting and reporting problems</h2><p>As the person on the unit every day, you are well placed to notice early warning signs that a water system is not working as it should. Reporting these promptly lets the responsible person act before a small issue becomes a real risk.</p><ul><li><strong>Lukewarm water:</strong> hot taps running only warm, or cold taps running warm.</li><li><strong>Unusual signs:</strong> odd smells, discoloured water or heavy scale.</li><li><strong>Unused areas:</strong> outlets in empty rooms that may have been standing.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What to report</h2><p>Tell the responsible person or a senior colleague if you notice water that is not the temperature it should be, water that looks discoloured or smells unusual, showerheads heavily coated in scale, or taps and showers that have not been used for some time. If a room has been empty, or a resident has been away, flag that the outlets there may need flushing before use.</p><p>None of this is about becoming a plumber or an expert. It is about noticing when something is not right and passing it on, so that the people whose job it is to manage the water system can look into it. A quick, clear report is always the right response when you are unsure.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Your role",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>Legionella control works because many people play their part, and your part &mdash; though small &mdash; is a real one. By following the plan, carrying out your assigned tasks and speaking up when something looks wrong, you help keep the water safe for people who could become seriously ill.</p><ul><li><strong>Follow the plan:</strong> do the tasks your service assigns you.</li><li><strong>Record your tasks:</strong> note down the flushing, cleaning and checks you complete.</li><li><strong>Report concerns:</strong> raise anything that worries you promptly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role and its limits</h2><p>Remember that carrying out and managing the <strong>legionella risk assessment</strong> is the job of the duty holder and the responsible person, not yours. Your role is to follow the water safety plan, complete simple assigned tasks such as flushing little-used outlets and cleaning showerheads, keep accurate records, and report any concerns or symptoms straight away.</p><p>This course has given you <strong>awareness and knowledge</strong> only. It does not replace the supervised, practical training your employer provides, and it does not replace your service's legionella risk assessment, which is carried out and managed by the responsible person. If you are ever unsure what to do, ask &mdash; checking is always the safe choice.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following best describes your role in controlling legionella?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Following the water safety plan, carrying out assigned tasks, recording them and reporting concerns.", "correct": true, "feedback": "Correct. That is exactly the part a care worker plays in keeping water safe." },
+            { "text": "Carrying out the legionella risk assessment for the whole building.", "correct": false, "feedback": "The risk assessment sits with the duty holder and the responsible person, not with you." },
+            { "text": "Deciding which controls the service needs and setting water temperatures.", "correct": false, "feedback": "Those decisions belong to the responsible person; your role is to follow the plan." },
+            { "text": "Doing nothing, because legionella is entirely someone else's responsibility.", "correct": false, "feedback": "You have a small but genuinely important part to play in the plan." }
+          ]
+        }
+      ]
+    }
+  ]
+}

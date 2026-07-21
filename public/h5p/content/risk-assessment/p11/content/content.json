@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Risk assessment in the moment</h2><p>Not every risk can be foreseen and written down in advance. Care happens in people's homes and lives, where things change from hour to hour. <strong>Dynamic risk assessment</strong> is the quick, continuous judgement you make on the spot as a situation unfolds, on top of the formal assessment already in place.</p><ul><li><strong>Observe:</strong> notice what has changed since the plan was written.</li><li><strong>Judge:</strong> weigh the new risk quickly but sensibly.</li><li><strong>Act:</strong> adjust what you do, or pause and seek help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "65c24d2f-913c-4c31-a9f9-49c0aaa738e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dynamic risk assessment",
+          "decorative": false,
+          "file": {
+            "path": "images/dynamic-risk-assessment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ea91f943-3686-4702-b886-12cbf7899611",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using your judgement safely</h2><p>Imagine you arrive to help someone wash and find the bathroom floor soaked, or that the person is drowsy and unsteady in a way they were not yesterday. The written plan still applies, but the situation in front of you has changed. Dynamic assessment means pausing, thinking \"what could go wrong here now?\", and taking sensible action &mdash; mopping the floor, delaying the task, or calling for support &mdash; before you continue.</p><p>Dynamic assessment is not a licence to abandon the plan or take chances; it works within your training and the agreed controls. When a change is significant or ongoing, tell a senior colleague so it can be assessed and recorded properly. Your in-the-moment judgement keeps people safe between formal reviews, but it feeds into them rather than replacing them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "82f592d1-dd77-4351-938d-ba116ea45c8b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You arrive to support someone and notice they are far more drowsy and unsteady than usual. What does good dynamic risk assessment involve?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Pause, judge the new risk, adjust what you do or seek support, then report the change so it can be assessed properly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Dynamic assessment means reacting sensibly to the change and passing it on, not ignoring it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on exactly as the written plan says, because the plan cannot be altered.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The plan still applies, but a significant change means you must adapt and report, not press on regardless.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Abandon the care visit and the plan entirely without telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dynamic assessment works within the plan and your training; concerns must always be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide the person is fine because nothing is written about drowsiness in the plan.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A new sign like this is exactly what dynamic assessment and reporting are for.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "221a3da2-c48c-4868-a4bf-9f305bfb25c0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred, positive risk-taking</h2><p>Risk assessment in care is not only about preventing harm; it is about supporting people to live the life they choose. Everyone has the right to take reasonable risks, just as they did before they needed support. <strong>Positive risk-taking</strong> means working with a person to weigh up the benefits of an activity alongside the risks, rather than saying no by default.</p><ul><li><strong>Choice:</strong> people have the right to make decisions about their own lives.</li><li><strong>Independence:</strong> doing things for yourself brings dignity and wellbeing.</li><li><strong>Balance:</strong> managing risk without removing what makes life worth living.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3967a852-6f73-4384-a56f-0acefd54d0fd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Positive risk-taking",
+          "decorative": false,
+          "file": {
+            "path": "images/positive-risk-taking.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "528dc31e-6774-42f5-935b-7471d8d36912",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Balancing safety with rights</h2><p>Wrapping people in cotton wool is itself harmful. A person who is never allowed to cook, walk to the shop or spend time alone may be physically safer but can lose confidence, skills and self-worth. Good practice looks for the safest way to support what the person wants, not the easiest way to say no. That might mean equipment, a different routine, or an agreed plan that reduces the risk to a reasonable level while keeping the activity.</p><p>Where an adult has the mental capacity to make a decision, they are entitled to make choices others might see as unwise. Your role is to make sure the risks and benefits are understood, to support the person's choice within the agreed plan, and to raise concerns through the right channels. Decisions about capacity and significant risks belong with the wider team, but the respectful, enabling attitude that makes them work belongs with you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e580074c-6120-4c93-840c-0b6c073f2054",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does positive risk-taking mean in person-centred care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Working with the person to weigh the benefits of an activity against the risks, and finding the safest way to support their choice.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. It balances safety with independence and rights, rather than saying no by default.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Letting people do whatever they want with no thought for the risks involved.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Positive risk-taking still assesses and manages risk &mdash; it is considered, not careless.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stopping people from doing anything that carries any risk at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Removing all risk removes independence and dignity, which is itself harmful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Making decisions for the person so they do not have to choose.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Person-centred practice supports the individual's own choices wherever possible.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b352192d-1c4a-4a0a-be53-7604f301855e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

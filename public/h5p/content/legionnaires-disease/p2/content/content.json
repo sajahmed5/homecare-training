@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is Legionnaires' disease?</h2><p>Legionnaires' disease is a serious form of <strong>pneumonia</strong> &mdash; a lung infection &mdash; caused by breathing in tiny droplets of water that contain legionella bacteria. It can make people very unwell, and for those who are already frail or ill it can be life-threatening. The reassuring news is that it is preventable when water systems are looked after properly.</p><ul><li><strong>A lung infection:</strong> a serious type of pneumonia.</li><li><strong>Caught from water:</strong> by breathing in contaminated droplets.</li><li><strong>Preventable:</strong> well-managed water systems keep the risk low.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "56acfa84-6557-48e8-bd63-fa340557aa60",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Legionnaires' disease",
+          "decorative": false,
+          "file": {
+            "path": "images/legionnaires-disease.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "146a04ff-fc63-4f75-8518-f779e6eebd09",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How people catch it</h2><p>People catch Legionnaires' disease by <strong>inhaling</strong> a fine spray or mist of water &mdash; called an aerosol &mdash; that carries the bacteria deep into the lungs. This might come from a shower, a spray tap or other equipment that breaks water into breathable droplets. You cannot catch it simply by drinking water.</p><p>Importantly, Legionnaires' disease is <strong>not spread from person to person</strong>. One resident who becomes ill cannot pass it to another through coughing or close contact, the way a cold or flu spreads. This is why prevention always focuses on the water system itself, rather than on isolating people who are unwell.</p><p>Understanding these two facts &mdash; that the illness comes from breathing in contaminated droplets, and that it cannot pass between people &mdash; explains why so much of good practice is about the pipes, tanks, taps and showers around you. Look after the water, and you protect everyone who uses it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b0b0da52-756b-4ffd-8bce-01a01dea677a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How do people catch Legionnaires' disease?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>By breathing in tiny droplets of water (an aerosol) that contain legionella bacteria.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. The illness is caught by inhaling a fine spray of contaminated water deep into the lungs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By drinking a glass of ordinary tap water.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Swallowing water is not the route &mdash; the illness comes from breathing in contaminated droplets.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By close contact with someone who already has the illness.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Legionnaires' disease is not spread from person to person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By touching a surface that an unwell person has touched.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is not spread by contact; it comes from breathing in contaminated water droplets.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9ad9b3b7-2be4-4c26-8ef2-517cabfebc49",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reviewing, recording and reporting</h2><p>Risk management only stays useful if it keeps pace with real life. That means reviewing assessments after things change and making sure what you see is written down and passed on to the right people.</p><ul><li><strong>Review:</strong> after any incident, near miss, or change in a person's needs.</li><li><strong>Record:</strong> note what you observed and what you did, clearly and promptly.</li><li><strong>Report:</strong> tell a senior colleague so the assessment can be updated.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fcef7590-b582-4522-827f-7be4f68c0c75",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Review and report",
+          "decorative": false,
+          "file": {
+            "path": "images/review-and-report.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "591f4396-4500-4847-a217-3ce8d87998fe",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have seen that a hazard is a source of harm and a risk is how likely and serious that harm is; that the Health and Safety at Work etc. Act 1974 and the Management of Health and Safety at Work Regulations 1999 require risks to be assessed and controlled; that the HSE five steps give a shared method; that the hierarchy of control ranks measures from eliminating a hazard down to PPE; and that person-centred, dynamic and positive risk-taking keep people both safe and free to live well.</p><p>This course has covered <strong>awareness and knowledge</strong> only. It does not replace supervised, hands-on training or the formal risk assessments that a manager or other competent person is responsible for carrying out and signing off. Your part &mdash; following the controls, using your judgement in the moment, supporting people's choices, and reporting what you see &mdash; is what turns good assessments into safe, dignified care every day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d2d58fa7-5372-4d4b-adb3-7f07d283726b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

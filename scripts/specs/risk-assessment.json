@@ -1,0 +1,278 @@
+{
+  "slug": "risk-assessment",
+  "courseTitle": "Risk Assessment",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What risk assessment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Risk Assessment</h2><p>Every day you make judgements that keep people safe &mdash; helping someone move, noticing a wet floor, deciding whether an activity is safe to go ahead. <strong>Risk assessment</strong> is the structured way health and social care manages these decisions so that people who use services, and the staff who support them, are protected from harm. This course explains what risk assessment is, the law behind it, and how you take part in it every shift.</p><ul><li><strong>Purpose:</strong> to spot what could cause harm and act before it does.</li><li><strong>Balance:</strong> keeping people safe while supporting their choices.</li><li><strong>Your part:</strong> following, contributing to and using assessments day to day.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How to use this course</h2><p>Over the next pages you will learn the difference between a hazard and a risk, the legal duty that sits behind assessment, the HSE five steps, control measures and the hierarchy that ranks them, and how risk works in real care practice &mdash; including dynamic risk assessment and positive risk-taking.</p><p>This e-learning covers <strong>awareness and knowledge</strong> only. It does not replace supervised, hands-on training or the formal risk assessments that a manager or other competent person is responsible for carrying out and signing off. Use it to understand your role and to work more confidently within the assessments your service already has in place.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Hazard and risk",
+      "section": "What risk assessment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Hazard and risk are not the same</h2><p>People often use these words to mean the same thing, but they are different, and telling them apart is the foundation of everything else. A <strong>hazard</strong> is anything with the potential to cause harm. A <strong>risk</strong> is the chance, high or low, that someone will actually be harmed by that hazard, together with how serious the harm could be.</p><ul><li><strong>Hazard:</strong> the source of possible harm &mdash; a trailing cable, a hot drink, a heavy load.</li><li><strong>Risk:</strong> how likely harm is and how bad it would be.</li><li><strong>Assessment:</strong> weighing the risk and deciding what to do about it.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What a risk assessment does</h2><p>A risk assessment is simply a careful look at what, in your work, could cause harm to people, so that you can weigh up whether you have taken enough precautions or should do more. The aim is not to record every trivial thing or to wrap people in cotton wool. It is to make sure the significant hazards are identified and that sensible, proportionate steps are in place to prevent harm.</p><p>The same hazard can carry very different risks depending on the person and the situation. A bath is a hazard to everyone, but the risk is far greater for someone who is unsteady on their feet than for someone who is not. Good assessment always considers the individual, which is exactly why your knowledge of the people you support is so valuable.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A *hazard* is anything with the potential to cause harm, while the *risk* is how *likely* that harm is and how *serious* it would be. A risk *assessment* weighs this up and decides what precautions are needed."
+        }
+      ]
+    },
+    {
+      "label": "The legal duty",
+      "section": "What risk assessment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The law behind risk assessment</h2><p>Risk assessment is not just good practice &mdash; it is a legal requirement. The <strong>Health and Safety at Work etc. Act 1974</strong> places a general duty on employers to ensure, so far as is reasonably practicable, the health, safety and welfare of their workers and of other people affected by the work, including the people you support and visitors.</p><ul><li><strong>Employers:</strong> must provide safe systems, equipment, training and supervision.</li><li><strong>Workers:</strong> must take reasonable care of themselves and others.</li><li><strong>Everyone:</strong> must co-operate so that safety measures work.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Assessment made a legal requirement</h2><p>The <strong>Management of Health and Safety at Work Regulations 1999</strong> make this duty explicit. They require every employer to carry out a <strong>suitable and sufficient assessment</strong> of the risks to workers and to others affected by the work, and to act on what the assessment finds. Where five or more people are employed, the significant findings must be recorded.</p><p>These duties protect two groups at once: the people who use your service and you as a worker. You also have your own legal duty &mdash; to take reasonable care, to follow the safe systems and training you are given, to use equipment properly, and to report hazards and concerns. Formal assessments are drawn up and signed off by managers or other competent persons, but they only work if every worker follows them and speaks up when something is wrong.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which best describes the worker's legal responsibility for risk?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "To take reasonable care, follow the safe systems and training provided, use equipment properly and report hazards.", "correct": true, "feedback": "Yes. The employer assesses and provides safe systems; you must work within them and raise concerns." },
+            { "text": "To write and sign off the service's formal risk assessments yourself.", "correct": false, "feedback": "Formal assessment and sign-off rest with managers or another competent person, not the individual worker." },
+            { "text": "You have no legal duties &mdash; health and safety is entirely the employer's problem.", "correct": false, "feedback": "The 1974 Act places clear duties on workers too, to take care and co-operate." },
+            { "text": "To remove every possible hazard from the workplace before starting any task.", "correct": false, "feedback": "The duty is to control risk so far as is reasonably practicable, not to eliminate every hazard." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Five steps: hazards",
+      "section": "The five steps",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The HSE five steps</h2><p>The Health and Safety Executive (HSE) sets out a simple, practical approach to assessing risk, often described as <strong>five steps</strong>. It gives everyone a shared method, whether they are assessing a whole building or a single task at the bedside.</p><ul><li><strong>Step 1:</strong> identify the hazards.</li><li><strong>Step 2:</strong> decide who might be harmed and how.</li><li><strong>Step 3:</strong> evaluate the risks and decide on controls.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Step 1 &mdash; identify the hazards</h2><p>Start by looking for the things that could realistically cause harm. Walk through the environment and the task and think about what you handle, where you move and what could go wrong. In care, hazards fall into familiar groups &mdash; slips, trips and falls; moving and handling people or loads; infection; hazardous substances such as cleaning products or medicines; equipment; hot water; and behaviours that may put people at risk.</p><p>The best hazard-spotting draws on more than a walk round. Ask experienced colleagues, look at accident and incident records, read manufacturers' instructions and safety data sheets, and listen to the people you support, who often know the risks in their own home better than anyone. Your first-hand observations feed directly into this step.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which is the first of the HSE five steps to risk assessment?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Identify the hazards.", "correct": true, "feedback": "Correct. You cannot assess or control a risk until you have first spotted the hazard." },
+            { "text": "Record your findings.", "correct": false, "feedback": "Recording comes later, once hazards, those at risk and controls have been considered." },
+            { "text": "Provide personal protective equipment.", "correct": false, "feedback": "PPE is a control measure, not a step in the assessment method itself." },
+            { "text": "Review and update the assessment.", "correct": false, "feedback": "Review is the final step, done after the assessment is in use." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Who might be harmed",
+      "section": "The five steps",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Step 2 &mdash; who might be harmed and how</h2><p>For each hazard, think about who could be hurt and in what way. You do not need to name individuals, but you should identify the groups at risk and be clear about how harm might happen, because that shapes the precautions you choose.</p><ul><li><strong>People you support:</strong> often more vulnerable through age, illness or reduced mobility.</li><li><strong>Staff:</strong> at risk from moving and handling, infection and stress.</li><li><strong>Others:</strong> visitors, family, contractors and members of the public.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Thinking about individual needs</h2><p>Some people face greater risk from the same hazard, and a good assessment takes this into account. Consider anyone whose needs are different &mdash; a person with a visual impairment, someone living with dementia, a new or young worker, an expectant mother, or a person who cannot easily raise the alarm. The harm should be described plainly: not just \"the floor is wet\" but \"someone could slip on the wet floor and fracture a hip\".</p><p>This is where your knowledge of the individual matters most. You may know that a particular person becomes unsteady in the afternoon, or that they will try to stand unaided. Sharing this helps the person carrying out the formal assessment tailor the controls to the real people involved rather than to a general case.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "When deciding who might be harmed, a good assessment considers people who face greater risk from the same hazard, such as someone living with dementia or a new worker.",
+          "correct": true,
+          "correctMsg": "Correct. Precautions should reflect those most at risk, not just the average person.",
+          "wrongMsg": "Not quite &mdash; Step 2 specifically asks you to think about groups and individuals who may be more vulnerable."
+        }
+      ]
+    },
+    {
+      "label": "Evaluate and control",
+      "section": "The five steps",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Step 3 &mdash; evaluate the risks</h2><p>Having found the hazards and who they threaten, weigh up each risk by considering how likely harm is and how serious it would be. Then compare what you are already doing against what more could reasonably be done. The law asks you to reduce risk so far as is <strong>reasonably practicable</strong> &mdash; balancing the level of risk against the time, trouble and cost of controlling it.</p><ul><li><strong>Likelihood:</strong> how probable is it that harm will occur?</li><li><strong>Severity:</strong> how serious would the harm be if it did?</li><li><strong>Existing controls:</strong> what is already in place, and is it enough?</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Deciding on controls</h2><p>Where existing precautions are not enough, decide what more is needed to bring the risk down to an acceptable level. The aim is always to remove the hazard altogether if you can; where you cannot, you reduce and control the risk using the hierarchy of control, which the next section explains in full.</p><p>Reasonably practicable does not mean spending without limit, but it does mean you cannot ignore a real risk simply because addressing it is inconvenient. A small, cheap change &mdash; moving a trailing cable, using a hoist, wiping a spill straight away &mdash; often removes a serious risk at almost no cost. Deciding on the right controls is part of the formal assessment; carrying them out reliably is everyone's job.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does reducing risk \"so far as is reasonably practicable\" mean?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Balancing the level of risk against the time, trouble and cost of controlling it, and acting where the benefit is worthwhile.", "correct": true, "feedback": "Yes. Greater risks justify more effort; you cannot ignore a real risk just because control is inconvenient." },
+            { "text": "Doing nothing unless an accident has already happened.", "correct": false, "feedback": "Assessment is preventive &mdash; you act before harm occurs, not only after." },
+            { "text": "Removing every conceivable hazard whatever the cost.", "correct": false, "feedback": "The test is what is reasonable and proportionate, not eliminating all hazards at any price." },
+            { "text": "Leaving all decisions about risk to chance on the day.", "correct": false, "feedback": "Controls are planned in advance; only dynamic changes are judged in the moment." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Record and review",
+      "section": "The five steps",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Step 4 &mdash; record your findings</h2><p>Once the significant risks and controls have been worked out, they are written down so everyone knows what to do. A useful record does not have to be long, but it should show that a proper check was made, that those who could be harmed were considered, that the significant hazards are dealt with, and that the remaining precautions are reasonable.</p><ul><li><strong>Clarity:</strong> written so any worker can follow it.</li><li><strong>Accessibility:</strong> kept where staff can actually find and use it.</li><li><strong>Action:</strong> a plan for anything still to be put right.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Step 5 &mdash; review and update</h2><p>A risk assessment is a living document, not a form filed and forgotten. It should be reviewed regularly and whenever something changes &mdash; a person's condition or mobility alters, new equipment or a new task is introduced, an accident or near miss occurs, or you simply notice that a control is no longer working in practice.</p><p>You may not be the person who rewrites the assessment, but you are usually the first to see that it needs updating. When a person's needs change or a control keeps failing, report it so the assessment can be looked at again. Keeping assessments current is how a service stops old paperwork from drifting out of step with the real risks people face today.</p>"
+        }
+      ]
+    },
+    {
+      "label": "The hierarchy",
+      "section": "Control measures and the hierarchy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The hierarchy of control</h2><p>When you decide how to control a risk, some measures are more reliable than others. The <strong>hierarchy of control</strong> ranks them from most to least effective, and you should always work down from the top, using higher measures wherever you reasonably can before relying on lower ones.</p><ul><li><strong>Eliminate:</strong> remove the hazard completely &mdash; the surest control of all.</li><li><strong>Reduce and isolate:</strong> substitute something safer, lessen exposure, or keep people away from the hazard.</li><li><strong>Control and PPE:</strong> use procedures and equipment, with personal protective equipment as the last line.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why the order matters</h2><p>Measures at the top protect everyone automatically and do not depend on people remembering to do the right thing. If you can <strong>eliminate</strong> a hazard &mdash; for example by not using a faulty piece of equipment at all &mdash; the risk is gone. If you cannot, you <strong>reduce</strong> it by choosing a safer option, <strong>isolate</strong> it by keeping people away, or <strong>control</strong> it through safe systems of work such as clear procedures, training and supervision.</p><p><strong>Personal protective equipment</strong> &mdash; gloves, aprons, eye protection &mdash; comes last because it protects only the individual wearing it, only if worn correctly, and does nothing to remove the hazard itself. PPE is important in care, but it is a final safeguard on top of other controls, never a substitute for them.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "The hierarchy of control lists measures from most to least effective. The most reliable is to *eliminate* the hazard; where you cannot, you *reduce* or *isolate* it, then *control* it with safe systems of work. *PPE* is the last line of defence because it protects only the wearer."
+        }
+      ]
+    },
+    {
+      "label": "Safe systems of work",
+      "section": "Control measures and the hierarchy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Safe systems of work</h2><p>A safe system of work is an agreed way of carrying out a task that has been designed to remove or reduce risk. In care it is often the main control for hazards that cannot simply be eliminated, such as moving and handling, giving medicines or managing infection.</p><ul><li><strong>Procedures:</strong> clear, step-by-step ways of doing a task safely.</li><li><strong>Training:</strong> so you know how to follow the procedure competently.</li><li><strong>Equipment:</strong> the right tools, in good order, used as intended.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Controls working together in care</h2><p>In practice, controls combine. Moving someone safely might mean using a hoist (equipment), following the moving and handling plan (procedure), having been trained to use it (competence) and wearing gloves where needed (PPE). No single measure does the whole job; each layer supports the others.</p><p>These systems only protect people if they are followed every time, including when you are busy or short of time. Shortcuts &mdash; skipping a hoist, reusing a single-use item, propping open a fire door &mdash; quietly undo the assessment and put people at risk. If a safe system cannot be followed because equipment is missing or broken, stop and report it rather than working around it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is personal protective equipment placed at the bottom of the hierarchy of control?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "It protects only the person wearing it, only when worn correctly, and does not remove the hazard itself.", "correct": true, "feedback": "Correct. PPE is a last line of defence used alongside higher, more reliable controls." },
+            { "text": "Because PPE is never useful in care settings.", "correct": false, "feedback": "PPE is important in care &mdash; but it supplements other controls rather than replacing them." },
+            { "text": "Because it is the most effective way to control any risk.", "correct": false, "feedback": "The most effective control is to eliminate the hazard; PPE is the least reliable." },
+            { "text": "Because only managers are allowed to decide when it is used.", "correct": false, "feedback": "Its position reflects how reliably it protects people, not who authorises it." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Who is responsible",
+      "section": "Control measures and the hierarchy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Who is responsible for what</h2><p>Managing risk is a shared effort, but responsibilities are not identical. Knowing where yours begin and end helps everything work as it should.</p><ul><li><strong>Employer:</strong> ensures assessments are done, provides safe systems, equipment and training.</li><li><strong>Competent person:</strong> a manager or suitably trained colleague who carries out and signs off the formal assessment.</li><li><strong>You:</strong> follow the controls, use equipment properly, and report hazards and changes.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your part in making controls work</h2><p>The formal assessment and its sign-off sit with managers and other competent persons &mdash; people with the training, experience and authority to judge what is reasonably practicable and to put controls in place. That is not your responsibility to decide alone, and you should never feel you have to.</p><p>What you are responsible for is putting the agreed controls into practice reliably, and being the eyes and ears of the service. You follow the safe systems, use the equipment provided, and raise it promptly when a control is missing, broken or no longer fits the person. A well-written assessment is only as good as the day-to-day practice that carries it out, and that practice is largely yours.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "As a care worker, you are personally responsible for carrying out and signing off your service's formal risk assessments.",
+          "correct": false,
+          "correctMsg": "Correct. Formal assessment and sign-off rest with managers or another competent person; your job is to follow controls and report concerns.",
+          "wrongMsg": "Not quite &mdash; you contribute to and follow assessments, but signing them off is the competent person's responsibility."
+        }
+      ]
+    },
+    {
+      "label": "Dynamic risk assessment",
+      "section": "Risk in care practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Risk assessment in the moment</h2><p>Not every risk can be foreseen and written down in advance. Care happens in people's homes and lives, where things change from hour to hour. <strong>Dynamic risk assessment</strong> is the quick, continuous judgement you make on the spot as a situation unfolds, on top of the formal assessment already in place.</p><ul><li><strong>Observe:</strong> notice what has changed since the plan was written.</li><li><strong>Judge:</strong> weigh the new risk quickly but sensibly.</li><li><strong>Act:</strong> adjust what you do, or pause and seek help.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Using your judgement safely</h2><p>Imagine you arrive to help someone wash and find the bathroom floor soaked, or that the person is drowsy and unsteady in a way they were not yesterday. The written plan still applies, but the situation in front of you has changed. Dynamic assessment means pausing, thinking \"what could go wrong here now?\", and taking sensible action &mdash; mopping the floor, delaying the task, or calling for support &mdash; before you continue.</p><p>Dynamic assessment is not a licence to abandon the plan or take chances; it works within your training and the agreed controls. When a change is significant or ongoing, tell a senior colleague so it can be assessed and recorded properly. Your in-the-moment judgement keeps people safe between formal reviews, but it feeds into them rather than replacing them.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You arrive to support someone and notice they are far more drowsy and unsteady than usual. What does good dynamic risk assessment involve?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Pause, judge the new risk, adjust what you do or seek support, then report the change so it can be assessed properly.", "correct": true, "feedback": "Yes. Dynamic assessment means reacting sensibly to the change and passing it on, not ignoring it." },
+            { "text": "Carry on exactly as the written plan says, because the plan cannot be altered.", "correct": false, "feedback": "The plan still applies, but a significant change means you must adapt and report, not press on regardless." },
+            { "text": "Abandon the care visit and the plan entirely without telling anyone.", "correct": false, "feedback": "Dynamic assessment works within the plan and your training; concerns must always be reported." },
+            { "text": "Decide the person is fine because nothing is written about drowsiness in the plan.", "correct": false, "feedback": "A new sign like this is exactly what dynamic assessment and reporting are for." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Positive risk-taking",
+      "section": "Risk in care practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred, positive risk-taking</h2><p>Risk assessment in care is not only about preventing harm; it is about supporting people to live the life they choose. Everyone has the right to take reasonable risks, just as they did before they needed support. <strong>Positive risk-taking</strong> means working with a person to weigh up the benefits of an activity alongside the risks, rather than saying no by default.</p><ul><li><strong>Choice:</strong> people have the right to make decisions about their own lives.</li><li><strong>Independence:</strong> doing things for yourself brings dignity and wellbeing.</li><li><strong>Balance:</strong> managing risk without removing what makes life worth living.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Balancing safety with rights</h2><p>Wrapping people in cotton wool is itself harmful. A person who is never allowed to cook, walk to the shop or spend time alone may be physically safer but can lose confidence, skills and self-worth. Good practice looks for the safest way to support what the person wants, not the easiest way to say no. That might mean equipment, a different routine, or an agreed plan that reduces the risk to a reasonable level while keeping the activity.</p><p>Where an adult has the mental capacity to make a decision, they are entitled to make choices others might see as unwise. Your role is to make sure the risks and benefits are understood, to support the person's choice within the agreed plan, and to raise concerns through the right channels. Decisions about capacity and significant risks belong with the wider team, but the respectful, enabling attitude that makes them work belongs with you.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does positive risk-taking mean in person-centred care?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Working with the person to weigh the benefits of an activity against the risks, and finding the safest way to support their choice.", "correct": true, "feedback": "Yes. It balances safety with independence and rights, rather than saying no by default." },
+            { "text": "Letting people do whatever they want with no thought for the risks involved.", "correct": false, "feedback": "Positive risk-taking still assesses and manages risk &mdash; it is considered, not careless." },
+            { "text": "Stopping people from doing anything that carries any risk at all.", "correct": false, "feedback": "Removing all risk removes independence and dignity, which is itself harmful." },
+            { "text": "Making decisions for the person so they do not have to choose.", "correct": false, "feedback": "Person-centred practice supports the individual's own choices wherever possible." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Review and report",
+      "section": "Risk in care practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Reviewing, recording and reporting</h2><p>Risk management only stays useful if it keeps pace with real life. That means reviewing assessments after things change and making sure what you see is written down and passed on to the right people.</p><ul><li><strong>Review:</strong> after any incident, near miss, or change in a person's needs.</li><li><strong>Record:</strong> note what you observed and what you did, clearly and promptly.</li><li><strong>Report:</strong> tell a senior colleague so the assessment can be updated.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have seen that a hazard is a source of harm and a risk is how likely and serious that harm is; that the Health and Safety at Work etc. Act 1974 and the Management of Health and Safety at Work Regulations 1999 require risks to be assessed and controlled; that the HSE five steps give a shared method; that the hierarchy of control ranks measures from eliminating a hazard down to PPE; and that person-centred, dynamic and positive risk-taking keep people both safe and free to live well.</p><p>This course has covered <strong>awareness and knowledge</strong> only. It does not replace supervised, hands-on training or the formal risk assessments that a manager or other competent person is responsible for carrying out and signing off. Your part &mdash; following the controls, using your judgement in the moment, supporting people's choices, and reporting what you see &mdash; is what turns good assessments into safe, dignified care every day.</p>"
+        }
+      ]
+    }
+  ]
+}

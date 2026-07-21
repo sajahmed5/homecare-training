@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Step 3 &mdash; evaluate the risks</h2><p>Having found the hazards and who they threaten, weigh up each risk by considering how likely harm is and how serious it would be. Then compare what you are already doing against what more could reasonably be done. The law asks you to reduce risk so far as is <strong>reasonably practicable</strong> &mdash; balancing the level of risk against the time, trouble and cost of controlling it.</p><ul><li><strong>Likelihood:</strong> how probable is it that harm will occur?</li><li><strong>Severity:</strong> how serious would the harm be if it did?</li><li><strong>Existing controls:</strong> what is already in place, and is it enough?</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "17b45dfb-0254-4a46-b674-81c4d20cb567",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Evaluate and control",
+          "decorative": false,
+          "file": {
+            "path": "images/evaluate-and-control.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "aa77a1af-7cbc-4a6f-9417-7056abb626b8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Deciding on controls</h2><p>Where existing precautions are not enough, decide what more is needed to bring the risk down to an acceptable level. The aim is always to remove the hazard altogether if you can; where you cannot, you reduce and control the risk using the hierarchy of control, which the next section explains in full.</p><p>Reasonably practicable does not mean spending without limit, but it does mean you cannot ignore a real risk simply because addressing it is inconvenient. A small, cheap change &mdash; moving a trailing cable, using a hoist, wiping a spill straight away &mdash; often removes a serious risk at almost no cost. Deciding on the right controls is part of the formal assessment; carrying them out reliably is everyone's job.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a1609090-358d-4957-9e36-7ffbd43b31b9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does reducing risk \"so far as is reasonably practicable\" mean?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Balancing the level of risk against the time, trouble and cost of controlling it, and acting where the benefit is worthwhile.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Greater risks justify more effort; you cannot ignore a real risk just because control is inconvenient.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Doing nothing unless an accident has already happened.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Assessment is preventive &mdash; you act before harm occurs, not only after.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Removing every conceivable hazard whatever the cost.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The test is what is reasonable and proportionate, not eliminating all hazards at any price.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leaving all decisions about risk to chance on the day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Controls are planned in advance; only dynamic changes are judged in the moment.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6073a8e0-8362-49e4-b077-f1fbf146199b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

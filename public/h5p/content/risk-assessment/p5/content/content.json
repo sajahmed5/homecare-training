@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Step 2 &mdash; who might be harmed and how</h2><p>For each hazard, think about who could be hurt and in what way. You do not need to name individuals, but you should identify the groups at risk and be clear about how harm might happen, because that shapes the precautions you choose.</p><ul><li><strong>People you support:</strong> often more vulnerable through age, illness or reduced mobility.</li><li><strong>Staff:</strong> at risk from moving and handling, infection and stress.</li><li><strong>Others:</strong> visitors, family, contractors and members of the public.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c366f85e-6fed-45bc-99fc-c87315bf099e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who might be harmed",
+          "decorative": false,
+          "file": {
+            "path": "images/who-might-be-harmed.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e720061b-e485-49f4-aab4-69a01128088f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Thinking about individual needs</h2><p>Some people face greater risk from the same hazard, and a good assessment takes this into account. Consider anyone whose needs are different &mdash; a person with a visual impairment, someone living with dementia, a new or young worker, an expectant mother, or a person who cannot easily raise the alarm. The harm should be described plainly: not just \"the floor is wet\" but \"someone could slip on the wet floor and fracture a hip\".</p><p>This is where your knowledge of the individual matters most. You may know that a particular person becomes unsteady in the afternoon, or that they will try to stand unaided. Sharing this helps the person carrying out the formal assessment tailor the controls to the real people involved rather than to a general case.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6bcdc164-d73c-44b4-b07e-bd703b3f19d5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When deciding who might be harmed, a good assessment considers people who face greater risk from the same hazard, such as someone living with dementia or a new worker.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; Step 2 specifically asks you to think about groups and individuals who may be more vulnerable.",
+            "correctAnswerMessage": "Correct. Precautions should reflect those most at risk, not just the average person."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "3a3e54a9-8db7-491c-93ef-28d310fd10c6",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

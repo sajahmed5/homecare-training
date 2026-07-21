@@ -1,0 +1,97 @@
+{
+  "slug": "legionnaires-disease",
+  "title": "Legionella Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Legionella and Legionnaires' disease"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p2",
+      "label": "Legionnaires' disease",
+      "questions": 1,
+      "section": "Legionella and Legionnaires' disease"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p3",
+      "label": "Who is at risk",
+      "questions": 1,
+      "section": "Legionella and Legionnaires' disease"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p4",
+      "label": "How legionella grows",
+      "questions": 1,
+      "section": "Where the risk comes from"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p5",
+      "label": "Breathable droplets",
+      "questions": 1,
+      "section": "Where the risk comes from"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p6",
+      "label": "Stagnant water",
+      "questions": 1,
+      "section": "Where the risk comes from"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p7",
+      "label": "Temperature control",
+      "questions": 1,
+      "section": "Controlling the risk"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p8",
+      "label": "Flushing outlets",
+      "questions": 0,
+      "section": "Controlling the risk"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p9",
+      "label": "Cleaning showerheads",
+      "questions": 1,
+      "section": "Controlling the risk"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p10",
+      "label": "The water safety plan",
+      "questions": 1,
+      "section": "Controlling the risk"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p11",
+      "label": "Symptoms to know",
+      "questions": 1,
+      "section": "Recognising and reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p12",
+      "label": "Reporting problems",
+      "questions": 0,
+      "section": "Recognising and reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "legionnaires-disease/p13",
+      "label": "Your role",
+      "questions": 1,
+      "section": "Recognising and reporting"
+    }
+  ]
+}

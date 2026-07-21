@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why openness matters</h2><p>Care is built on trust. People let you into their homes and their lives, and often depend on you at their most vulnerable. When something goes wrong &mdash; a missed medication, a fall, the wrong information written in a record &mdash; being open about it keeps that trust intact. People almost always cope far better with an honest explanation than with silence or evasion.</p><ul><li><strong>Trust:</strong> honesty protects the relationship between you and the person.</li><li><strong>Respect:</strong> people have a right to know what happened to them.</li><li><strong>Learning:</strong> openness lets the whole team put things right and prevent a repeat.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2733ec4a-6637-4465-83f7-b2b6f974765c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why openness matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-openness-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e967e2f8-ed7f-4270-ba85-0dfaf804ba20",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The harm caused by cover-ups</h2><p>Hiding a mistake almost always makes matters worse. A person who is not told the truth cannot get the follow-up care they may need, cannot make informed choices, and feels betrayed when they eventually find out &mdash; as they usually do. Cover-ups also stop organisations from learning: if errors are buried, the same thing happens to the next person.</p><p>Public inquiries into serious failings in health and social care have repeatedly found the same pattern &mdash; harm that was made worse by a culture of denial and defensiveness rather than openness. Candour reverses that pattern. By being honest early, you help the person, protect yourself, and give your organisation the chance to learn and improve.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3a9e0efa-dd98-493f-9eb8-022a41c37680",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why does being open with a person after a mistake matter so much?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It keeps their trust, lets them get any follow-up care they need, and helps the whole team learn and prevent a repeat.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Honesty protects trust, supports the person&rsquo;s care and choices, and lets the organisation improve.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only worth doing if the person is likely to find out anyway.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Candour is the right thing to do regardless of whether the person would otherwise discover the error.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It protects the organisation from ever having to change how it works.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The opposite is true &mdash; openness is what allows learning and change to happen.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It matters only for very serious incidents and not for smaller ones.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Openness and honesty apply to all mistakes and near misses, not only the most serious.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "48a57805-df0f-443c-be75-2e53afa26c0b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

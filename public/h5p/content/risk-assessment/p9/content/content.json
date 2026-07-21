@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Safe systems of work</h2><p>A safe system of work is an agreed way of carrying out a task that has been designed to remove or reduce risk. In care it is often the main control for hazards that cannot simply be eliminated, such as moving and handling, giving medicines or managing infection.</p><ul><li><strong>Procedures:</strong> clear, step-by-step ways of doing a task safely.</li><li><strong>Training:</strong> so you know how to follow the procedure competently.</li><li><strong>Equipment:</strong> the right tools, in good order, used as intended.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "864f15b7-c084-44fb-ba54-e825be53dd32",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safe systems of work",
+          "decorative": false,
+          "file": {
+            "path": "images/safe-systems-of-work.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "06d30ea6-3812-44cb-a196-811712bfe749",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Controls working together in care</h2><p>In practice, controls combine. Moving someone safely might mean using a hoist (equipment), following the moving and handling plan (procedure), having been trained to use it (competence) and wearing gloves where needed (PPE). No single measure does the whole job; each layer supports the others.</p><p>These systems only protect people if they are followed every time, including when you are busy or short of time. Shortcuts &mdash; skipping a hoist, reusing a single-use item, propping open a fire door &mdash; quietly undo the assessment and put people at risk. If a safe system cannot be followed because equipment is missing or broken, stop and report it rather than working around it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8aed49b0-1117-4df1-adc4-6cb7579521dd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is personal protective equipment placed at the bottom of the hierarchy of control?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It protects only the person wearing it, only when worn correctly, and does not remove the hazard itself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. PPE is a last line of defence used alongside higher, more reliable controls.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because PPE is never useful in care settings.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "PPE is important in care &mdash; but it supplements other controls rather than replacing them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because it is the most effective way to control any risk.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The most effective control is to eliminate the hazard; PPE is the least reliable.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because only managers are allowed to decide when it is used.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Its position reflects how reliably it protects people, not who authorises it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "93b7d1d1-916d-471b-ae55-fdfb3e1c4069",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

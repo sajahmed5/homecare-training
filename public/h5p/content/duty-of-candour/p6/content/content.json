@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What the provider must do</h2><p>When a notifiable safety incident happens, Regulation 20 sets out clear steps the provider must take. These steps put the being-open principles into a formal process, so that the person is told the truth, supported, and kept informed as any enquiries continue.</p><ul><li><strong>Notify in person:</strong> tell the person, or their representative, as soon as reasonably practicable.</li><li><strong>Explain and apologise:</strong> give a true account of what is known and offer an apology.</li><li><strong>Follow up in writing:</strong> confirm the account and the results of any enquiries in writing, and keep a record.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e74db3e7-eca6-4e6e-9139-1ee2d454a3b4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The provider's duty",
+          "decorative": false,
+          "file": {
+            "path": "images/the-provider-s-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "db1de7fa-8e74-49bd-b490-0510f2dc74f3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in the provider&rsquo;s duty</h2><p>Although these formal steps are the organisation&rsquo;s legal responsibility, they can only happen if you play your part. The provider cannot notify anyone about an incident it does not know about, and cannot give a true account of facts it has not been told. Your honest, prompt report is the foundation the whole process is built on.</p><p>You may also be asked to help with the practical steps &mdash; staying with the person, offering comfort, or giving an accurate account of what you saw. Always follow your manager&rsquo;s lead on who makes the formal contact and what is said, so that the person receives one clear, consistent and honest message rather than several different ones.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a5d3bf1d-794d-44bb-a13c-f67d311aa517",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under Regulation 20, how must the provider first notify the person of a notifiable safety incident?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>In person, as soon as reasonably practicable, with a true account of what is known and an apology.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. The initial notification is given in person and promptly, followed up in writing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only in writing, several weeks after all enquiries are complete.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The person is told in person and promptly; the written follow-up comes afterwards, not instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By waiting until the person asks what happened.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The duty is proactive &mdash; the provider tells the person without waiting to be asked.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>By posting a general notice for all service users to read.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Notification is made directly and personally to the individual affected or their representative.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "beb26276-1e0b-4d5f-85c3-d3c6ade8259f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

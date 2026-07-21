@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Forced labour</h2><p>Forced or compulsory labour is one of the most common forms of modern slavery in the UK. A person is made to work against their will through violence, threats, deception or debt, often for little or no pay and in dangerous conditions. They may have their wages taken, their documents removed, and their movements controlled. It can be found in agriculture, construction, factories, car washes, hospitality and even care.</p><ul><li><strong>Coerced:</strong> the person works under threat or force.</li><li><strong>Unpaid:</strong> wages are withheld, very low, or taken from them.</li><li><strong>Trapped:</strong> debt or control stops them from leaving.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67da3c94-0282-485e-8cbc-bce05cd2c099",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Forced labour",
+          "decorative": false,
+          "file": {
+            "path": "images/forced-labour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "57868352-7d8e-4ba5-9782-a5810281dd44",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How victims are trapped</h2><p>People are often drawn into forced labour by the promise of a genuine job, a better life, or help with travel. Once they arrive, the reality is very different. Employers or controllers take their identity documents, house them in cramped or unsafe accommodation, and tell them they owe a large debt for travel, food or rent that they can never repay. This is a common way of keeping people trapped.</p><p>Threats of violence to the person or their family, and fear of the authorities, keep many victims silent. Some do not realise their treatment is illegal, or they distrust the police because of experiences in their home country. Understanding these traps helps you see why a victim may not ask for help, even when they clearly need it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "739480db-b3f0-4639-8f61-1c695b7623f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following is a warning sign that someone may be in forced labour?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Their wages appear to be withheld, their documents are held by someone else, and they have little freedom to leave.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Withheld wages, controlled documents and a lack of freedom are recognised signs of forced labour.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They have a written contract and are paid fairly for the hours they work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; fair pay and a genuine contract point away from forced labour, not towards it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They talk openly about choosing to change jobs whenever they wish.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; being free to change jobs is a sign of freedom, not exploitation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They keep their own passport and come and go as they please.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; keeping their own documents and moving freely are not signs of forced labour.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9350b710-913f-4c4a-9077-1abed79840d6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

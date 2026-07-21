@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in candour</h2><p>You will not usually be the person who makes a formal notification &mdash; that is your organisation&rsquo;s job. Your part is just as important, though, and it is well within your role: to be honest, to report what has happened, to say sorry, and to support the person. Every member of the team plays this part, from the newest care worker to the registered manager.</p><ul><li><strong>Be honest:</strong> never hide, minimise or explain away a mistake.</li><li><strong>Report:</strong> tell your senior or manager promptly so the organisation can act.</li><li><strong>Support:</strong> stay with the person, reassure them and see that they are cared for.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3e29cda3-1621-4e45-b167-37fb0458623a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role in candour",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-in-candour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "48a1039c-a25e-4f6a-bafb-aa0671843341",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyone has this duty</h2><p>There are two sides to the duty of candour, and they work together. The <strong>statutory duty</strong> sits with your organisation as the registered provider &mdash; it decides when a serious incident is notifiable and makes the formal contact with the person and the regulator. The <strong>professional and individual duty</strong> sits with every worker: to be open and honest whenever something goes wrong, however small.</p><p>So you do not need to wait for anyone&rsquo;s permission to be truthful and kind. When you notice or make a mistake, you report it, you are honest with the person within your role, you apologise, and you help put things right. The organisation then takes over the formal steps the law requires.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dacf88e5-2785-4fa8-a812-0ef19d097abd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Being honest when something goes wrong is part of everyone&rsquo;s duty of candour, not only the manager&rsquo;s.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Openness is everyone&rsquo;s responsibility. The organisation makes the formal notifications, but honesty is part of every worker&rsquo;s role.",
+            "correctAnswerMessage": "Correct. Every worker has an individual duty to be open and honest, while the organisation makes the formal notifications."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7924f7ed-bc71-4845-811b-03059f592bd3",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

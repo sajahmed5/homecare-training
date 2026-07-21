@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who is more at risk</h2><p>Modern slavery can affect anyone, but some people are targeted because they are easier to control. Those at greater risk include people who are isolated, in poverty or debt, or who have insecure immigration status. People with learning disabilities, mental ill health, or care and support needs are also targeted, as are children and young people, and those who have experienced homelessness, addiction or abuse.</p><ul><li><strong>Vulnerability:</strong> isolation, poverty, debt or insecure status.</li><li><strong>Support needs:</strong> learning disability, mental ill health or care needs.</li><li><strong>Past harm:</strong> homelessness, addiction or previous abuse.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4f1df040-e85b-4d81-b974-716edc5be687",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who is at risk",
+          "decorative": false,
+          "file": {
+            "path": "images/who-is-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "af5a9b88-d855-477d-a5ed-d80251d8e11d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why awareness matters in care</h2><p>Many of the people you support share some of these vulnerabilities, which is exactly why your awareness matters. Someone who depends on others, who finds it hard to communicate, or who is socially isolated can be groomed and controlled without anyone outside noticing. An exploiter may even pose as a helpful friend, carer or partner in order to gain trust and take control.</p><p>Being at higher risk does not mean a person is being exploited, and you must never make assumptions about anyone. It simply means staying especially alert, valuing the person&rsquo;s own voice, and taking seriously any sign that someone else is controlling or harming them. If in doubt, report your concern and let specialists decide.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c8f0f19e-8bab-4cf7-adac-7f2369b9511b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "People are more at risk of modern slavery when they are *isolated*, living in *poverty*, or have care and support *needs* that make them easier to control.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "1f723f05-71f8-4f2d-bcf3-3ef505d56d8f",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

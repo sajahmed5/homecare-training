@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sexual exploitation</h2><p>Sexual exploitation is when a person is forced or coerced into sexual activity for someone else&rsquo;s profit. Victims, who may be women, men or children, are controlled through violence, threats, blackmail or drugs, and any money they earn is taken from them. This is a deeply harmful and hidden form of modern slavery, and victims are often moved between locations to avoid detection and to break their links with anyone who might help them.</p><ul><li><strong>Coercion:</strong> the person is forced or manipulated into sexual acts.</li><li><strong>Control:</strong> their earnings are taken and their freedom denied.</li><li><strong>Movement:</strong> victims may be moved often to avoid discovery.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "54dc945f-3ac6-4dac-99b3-4afbdf45d5ef",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Sexual &amp; domestic",
+          "decorative": false,
+          "file": {
+            "path": "images/sexual-amp-domestic.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "11333aa1-4f23-4559-8ce2-8bb9f43c3c65",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Domestic servitude</h2><p>Domestic servitude is where someone is forced to work in a private household &mdash; often cooking, cleaning and caring for children &mdash; for little or no pay and with almost no freedom. The person may live with the family who control them, work extremely long hours, be forbidden from leaving the house alone, and have their documents and phone taken away. Because it happens behind closed doors, it is especially hidden.</p><p>You might encounter domestic servitude if you visit a household to support one person and notice another individual who seems to work constantly, sleeps in a poor space such as a kitchen or garage, is never introduced, and is not free to come and go. Treating what you see as a possible safeguarding concern, and reporting it, may be that person&rsquo;s only chance of help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bf13d3e8-4afa-4c5a-b2d4-0c52934f50cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

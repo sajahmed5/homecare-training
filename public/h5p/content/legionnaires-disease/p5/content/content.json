@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How the risk reaches people</h2><p>Growing in the pipes is only half the story. For legionella to cause illness, contaminated water has to be broken into a fine spray of droplets small enough to breathe deep into the lungs. Anything that creates this kind of mist is a potential source.</p><ul><li><strong>Showers:</strong> spray warm water directly into the air.</li><li><strong>Taps:</strong> especially spray taps that create a fine mist.</li><li><strong>Other sprays:</strong> hoses, sprinklers and similar equipment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "88a326fe-3595-4b68-bbb6-76a3160e06d1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Breathable droplets",
+          "decorative": false,
+          "file": {
+            "path": "images/breathable-droplets.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e5f48fc8-656f-445c-867e-80d23a263969",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyday sources of spray</h2><p>In a care setting the most common source of breathable droplets is the <strong>shower</strong>, which sprays warm water &mdash; often in the ideal growth temperature range &mdash; straight into the air where it can be inhaled. Spray taps, hoses and other equipment that produce a mist can do the same.</p><p>This is why showers and taps that are not used regularly are a particular concern: water sits in them, warms up and stagnates, and the bacteria are then released into the air the moment someone turns them on. Recognising which fittings create spray helps you understand why flushing and cleaning them is such an important habit.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0f90a1b2-00e1-4ca3-899d-c3acc8e10a90",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why are showers considered a particular legionella risk in care settings?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>They spray warm water into the air as fine droplets that can be breathed deep into the lungs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Showers turn warm water into a breathable mist, which is exactly how the bacteria reach the lungs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They use more water than any other fitting in the building.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The concern is the breathable spray they create, not how much water they use.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are the only place legionella bacteria can grow.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Legionella can grow throughout the water system; showers release it into the air as spray.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The water in them is always too hot for bacteria to survive.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Shower water is often warm &mdash; in the very range where legionella thrives.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "be888fd8-3377-494a-938e-bb5c58d1218d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

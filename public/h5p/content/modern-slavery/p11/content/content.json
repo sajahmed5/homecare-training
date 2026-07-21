@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keep yourself and the person safe</h2><p>If you suspect modern slavery, your first duty is safety &mdash; yours and the person&rsquo;s. Do <strong>not</strong> confront the suspected trafficker or controller, and do not let on what you suspect. Confrontation can put the victim in greater danger, tip off the exploiter, and expose you to harm. Modern slavery is linked to organised crime, so the calm, careful response is always to withdraw and report, not to intervene yourself.</p><ul><li><strong>Do not confront:</strong> never challenge the suspected trafficker.</li><li><strong>Stay safe:</strong> protect yourself and avoid raising suspicion.</li><li><strong>Report, don&rsquo;t investigate:</strong> leave the investigation to specialists.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ec6e8f0f-7343-4116-8fcb-cbf273be1f81",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stay safe",
+          "decorative": false,
+          "file": {
+            "path": "images/stay-safe.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "04e7cd0e-e24c-42f5-8886-0a247f93465d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Acting with care</h2><p>Try not to do anything that could alert the exploiter or increase the risk to the victim. Avoid asking searching questions in front of others, taking photographs, or removing anything from where you are. If you can speak with the person safely and privately, be kind, listen without pressing, and reassure them that help is available &mdash; but never promise to keep a dangerous secret, because you must pass concerns on.</p><p>Above all, if anyone is in immediate danger, treat it as an emergency and call 999. In every other case, make a careful note of what you have seen and report it promptly through your organisation&rsquo;s safeguarding process. Acting calmly and safely gives the specialist agencies the best chance of helping the person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0e5d3a27-b57a-40f7-a0d8-c439b7b5a18d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You strongly suspect a person is being exploited by someone who is with them. What is the safest first step?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Do not confront the suspected controller; keep everyone safe and report your concern to your manager or safeguarding lead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Confrontation is dangerous; the safe response is to protect everyone and report through your safeguarding route.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Challenge the suspected controller directly and demand that they explain themselves.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; confronting the controller can put the victim in greater danger and expose you to harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help the person leave with you straight away, without telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; acting alone can be unsafe; report your concern so trained specialists can respond.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Take photographs of the person and their accommodation as evidence.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; gathering evidence is not your role and could alert the exploiter or increase risk.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4be0f40c-4c6d-4deb-874e-5034eb89ace0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

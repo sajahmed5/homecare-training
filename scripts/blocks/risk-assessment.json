@@ -1,0 +1,97 @@
+{
+  "slug": "risk-assessment",
+  "title": "Risk Assessment",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What risk assessment is"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p2",
+      "label": "Hazard and risk",
+      "questions": 1,
+      "section": "What risk assessment is"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p3",
+      "label": "The legal duty",
+      "questions": 1,
+      "section": "What risk assessment is"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p4",
+      "label": "Five steps: hazards",
+      "questions": 1,
+      "section": "The five steps"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p5",
+      "label": "Who might be harmed",
+      "questions": 1,
+      "section": "The five steps"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p6",
+      "label": "Evaluate and control",
+      "questions": 1,
+      "section": "The five steps"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p7",
+      "label": "Record and review",
+      "questions": 0,
+      "section": "The five steps"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p8",
+      "label": "The hierarchy",
+      "questions": 1,
+      "section": "Control measures and the hierarchy"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p9",
+      "label": "Safe systems of work",
+      "questions": 1,
+      "section": "Control measures and the hierarchy"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p10",
+      "label": "Who is responsible",
+      "questions": 1,
+      "section": "Control measures and the hierarchy"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p11",
+      "label": "Dynamic risk assessment",
+      "questions": 1,
+      "section": "Risk in care practice"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p12",
+      "label": "Positive risk-taking",
+      "questions": 1,
+      "section": "Risk in care practice"
+    },
+    {
+      "type": "h5p",
+      "path": "risk-assessment/p13",
+      "label": "Review and report",
+      "questions": 0,
+      "section": "Risk in care practice"
+    }
+  ]
+}

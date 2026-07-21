@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who to report to</h2><p>When you have a concern, report it through the right channels so that trained people can act. Start with your <strong>manager or safeguarding lead</strong>, who will follow your organisation&rsquo;s safeguarding procedure and involve the local authority and police as needed. You can also contact the <strong>Modern Slavery &amp; Exploitation Helpline on 08000 121 700</strong> for confidential advice, or the police. In an emergency, always call <strong>999</strong>.</p><ul><li><strong>Safeguarding lead:</strong> your first port of call within your organisation.</li><li><strong>Helpline:</strong> the Modern Slavery Helpline for advice and referral.</li><li><strong>Police:</strong> 101 for non-emergencies, and 999 in an emergency.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4f20dd4e-507d-4d01-8063-ca951f3d629a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting &amp; the NRM",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-amp-the-nrm.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "028586f6-df36-4795-8e69-6c9b5203a953",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The National Referral Mechanism</h2><p>The National Referral Mechanism, or <strong>NRM</strong>, is the UK&rsquo;s official system for identifying and supporting victims of modern slavery. Trained &ldquo;first responder&rdquo; organisations, such as the police and local authorities, refer potential victims into the NRM so that their situation can be formally considered and they can access support such as safe accommodation and advice. As a care worker you would not normally refer directly, but it helps to know the NRM exists.</p><p>Your part is to make sure your concern reaches a first responder by reporting it. Be aware that adults must usually consent to being referred into the NRM, which is another reason your respectful, supportive response matters. Report what you know, and let the specialists guide the person through the process.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dcce6379-e805-42b6-a4c9-a71ab18b0287",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is the correct way to raise a modern slavery concern?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it to your manager or safeguarding lead, contact the Modern Slavery Helpline for advice, and call 999 in an emergency.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are the right routes: your safeguarding lead, the Helpline for advice, and 999 in an emergency.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Keep it to yourself until you have gathered enough proof to be certain.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you do not need proof; report your concern so that specialists can investigate.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Refer the person into the National Referral Mechanism entirely on your own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; referrals into the NRM are made by trained first responders, not directly by you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Post about your concern on social media to warn other people.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; sharing publicly can endanger the victim and must never be done. Report through proper channels.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d0ca7203-4935-4183-ae37-2ad3c46459e5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

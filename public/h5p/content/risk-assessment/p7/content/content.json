@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Step 4 &mdash; record your findings</h2><p>Once the significant risks and controls have been worked out, they are written down so everyone knows what to do. A useful record does not have to be long, but it should show that a proper check was made, that those who could be harmed were considered, that the significant hazards are dealt with, and that the remaining precautions are reasonable.</p><ul><li><strong>Clarity:</strong> written so any worker can follow it.</li><li><strong>Accessibility:</strong> kept where staff can actually find and use it.</li><li><strong>Action:</strong> a plan for anything still to be put right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "012d2928-16c3-4213-b541-096140057b59",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Record and review",
+          "decorative": false,
+          "file": {
+            "path": "images/record-and-review.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "89a31547-3e06-471a-bcb9-baab879d4927",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Step 5 &mdash; review and update</h2><p>A risk assessment is a living document, not a form filed and forgotten. It should be reviewed regularly and whenever something changes &mdash; a person's condition or mobility alters, new equipment or a new task is introduced, an accident or near miss occurs, or you simply notice that a control is no longer working in practice.</p><p>You may not be the person who rewrites the assessment, but you are usually the first to see that it needs updating. When a person's needs change or a control keeps failing, report it so the assessment can be looked at again. Keeping assessments current is how a service stops old paperwork from drifting out of step with the real risks people face today.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a5c74f41-72b3-4525-9fba-e2c50eaaa99a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

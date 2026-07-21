@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Criminal exploitation and county lines</h2><p>Criminal exploitation is when a person is forced to commit crimes for another&rsquo;s gain, such as drug dealing, cannabis cultivation, theft or benefit fraud. A well-known form is <strong>county lines</strong>, where gangs use children and vulnerable adults to move and sell drugs from cities into smaller towns and rural areas. The victim carries the risk while others take the profit, controlled through violence, debt and fear.</p><ul><li><strong>Coerced crime:</strong> the person is forced to offend for others.</li><li><strong>County lines:</strong> drugs are moved and sold through vulnerable people.</li><li><strong>Blame shifted:</strong> the victim carries the risk and any punishment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "09bbab1e-4688-478c-a4da-b45bf4ceacf8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Criminal &amp; county lines",
+          "decorative": false,
+          "file": {
+            "path": "images/criminal-amp-county-lines.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "76caff5a-20eb-4c26-b397-3f735c8de8f9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Victims, not just offenders</h2><p>People exploited in this way are often seen, and see themselves, as criminals rather than victims. In truth they are being used and controlled, frequently after being groomed with gifts, friendship, money or drugs before the exploitation begins. Both children and adults with care and support needs, learning disabilities or mental ill health are targeted because they are easier to control and less likely to be believed.</p><p>Signs can include unexplained money, phones or gifts, going missing, travelling to unfamiliar places, relationships with controlling older &ldquo;friends&rdquo;, or sudden fearfulness and secrecy. If someone you support shows these signs, resist the urge to judge them. Treat it as possible exploitation and report it, so that specialists can look behind the behaviour.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11cf79bc-c68d-40a3-a0df-efdcd2c870bf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Someone you support suddenly has unexplained cash and a new phone, goes missing for days, and seems fearful of an older &ldquo;friend&rdquo;. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat it as possible criminal exploitation and report your concern to your manager or safeguarding lead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are recognised signs of exploitation, and reporting them lets specialists look behind the behaviour.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they are simply choosing to break the law and say nothing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; people are often controlled into offending; treat it as possible exploitation and report it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Confront the older &ldquo;friend&rdquo; yourself to find out what is going on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; confronting the suspected controller can put the person and you in danger.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several weeks to see whether the behaviour continues before mentioning it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; waiting can leave the person in danger. Report your concern promptly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "963a79ab-147c-4182-b414-6cd4b9fb3ef6",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

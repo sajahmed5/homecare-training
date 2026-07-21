@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising the symptoms</h2><p>Being aware of the symptoms of Legionnaires' disease helps you act quickly if someone you support becomes unwell. The illness often begins like a bad case of flu before it affects the lungs, so the early signs can be easy to miss.</p><ul><li><strong>Flu-like start:</strong> high temperature, chills, headache and aching muscles.</li><li><strong>Chest signs:</strong> a cough, breathlessness and sometimes chest pain.</li><li><strong>Other signs:</strong> confusion, tiredness, and sometimes sickness or diarrhoea.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cad7d7e9-336f-4bd2-93cf-0002236d38e5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Symptoms to know",
+          "decorative": false,
+          "file": {
+            "path": "images/symptoms-to-know.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d7f732e3-2347-410b-b09a-1e6686b991cf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to raise the alarm</h2><p>Legionnaires' disease usually starts with flu-like symptoms &mdash; a high temperature, chills, headache and muscle aches &mdash; and then develops into a cough, difficulty breathing and sometimes chest pain. Some people also become confused or develop sickness or diarrhoea. Symptoms generally appear a few days after exposure.</p><p>You are not expected to diagnose anyone. What matters is that if someone becomes unwell with these symptoms, you report it promptly to a senior colleague or nurse so they can arrange medical help. If more than one person on the same unit develops a chest infection, mention that too &mdash; a possible link is exactly the kind of thing the responsible person needs to know about.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4bbfc170-2c00-4a7c-8f57-6d046d964da8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A resident develops a high temperature, muscle aches, a cough and breathlessness. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly to a senior colleague or nurse so that medical help can be arranged.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prompt reporting gets the person the medical assessment they need.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide yourself that it is Legionnaires' disease and tell the resident.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You are not expected to diagnose &mdash; report the symptoms so professionals can assess.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several days to see whether the symptoms clear up on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting risks serious harm; these symptoms need reporting now.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume it cannot be serious because chest infections are common.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These symptoms should always be taken seriously and reported.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5b33d340-ce92-462f-9940-20a21f6598ce",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

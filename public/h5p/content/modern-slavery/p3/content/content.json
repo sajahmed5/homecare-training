@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Modern Slavery Act 2015</h2><p>The Modern Slavery Act 2015 is the main law in England and Wales dealing with this crime. It brought existing offences together and strengthened the response, creating offences of slavery, servitude and forced or compulsory labour, and of human trafficking. It also introduced measures to protect and support victims and to hold offenders to account. The Act makes plain that modern slavery is a serious criminal offence.</p><ul><li><strong>Offences:</strong> slavery, servitude, forced labour and human trafficking.</li><li><strong>Protection:</strong> stronger support and protection for victims.</li><li><strong>Accountability:</strong> tougher powers to pursue and prosecute offenders.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3b4b6afa-7c2c-4f6e-802e-e0987aac4e57",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The law &amp; your role",
+          "decorative": false,
+          "file": {
+            "path": "images/the-law-amp-your-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cf9ebbd9-f7b0-4868-9697-2a0c1b7b37d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and safeguarding</h2><p>Modern slavery is not only a crime but also a <strong>safeguarding</strong> matter. Many victims are adults at risk or children, and preventing abuse and exploitation sits at the heart of safeguarding duties under the Care Act 2014. This means your responsibility to report a modern slavery concern is the same as for any other safeguarding concern: recognise it, and pass it on without delay.</p><p>Your role is limited but vital. You are not expected to investigate, gather evidence or confirm what is happening. You are expected to stay alert, treat the person with respect, keep them and yourself safe, and report your concern to your manager or safeguarding lead. From there, trained safeguarding staff and specialist agencies take over.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4f702cd6-2662-45cd-8471-0ddfd458ca52",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Modern slavery is both a serious crime and a safeguarding issue that you should report like any other safeguarding concern.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Modern slavery is both a serious crime and a safeguarding issue, and you should report it just as you would any other safeguarding concern.",
+            "correctAnswerMessage": "Correct. Modern slavery is a crime and a safeguarding matter, and you report it through the same safeguarding route as any other concern."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "4b255093-c119-4fe2-99b1-30c416fbaddd",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

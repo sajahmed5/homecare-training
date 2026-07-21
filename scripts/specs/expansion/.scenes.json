@@ -2,523 +2,523 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p1/content/images",
+   "outDir": "public/h5p/content/risk-assessment/p1/content/images",
    "file": "welcome.svg",
-   "title": "Welcome to Positive Behaviour Support",
-   "accent": "#16a34a",
+   "title": "Welcome to Risk Assessment",
+   "accent": "#d97706",
    "alt": "Illustration for Welcome",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Purpose",
+    "Balance",
+    "Your part"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p2/content/images",
+   "file": "hazard-and-risk.svg",
+   "title": "Hazard and risk are not the same",
+   "accent": "#d97706",
+   "alt": "Illustration for Hazard and risk",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Hazard",
+    "Risk",
+    "Assessment"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p3/content/images",
+   "file": "the-legal-duty.svg",
+   "title": "The law behind risk assessment",
+   "accent": "#d97706",
+   "alt": "Illustration for The legal duty",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Employers",
+    "Workers",
+    "Everyone"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p4/content/images",
+   "file": "five-steps-hazards.svg",
+   "title": "The HSE five steps",
+   "accent": "#d97706",
+   "alt": "Illustration for Five steps: hazards",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Step 1",
+    "Step 2",
+    "Step 3"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p5/content/images",
+   "file": "who-might-be-harmed.svg",
+   "title": "Step 2 — who might be harmed and how",
+   "accent": "#d97706",
+   "alt": "Illustration for Who might be harmed",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#d97706",
      "prop": "heart"
     }
    ],
    "points": [
-    "Values-based",
-    "Person-centred",
+    "People you support",
+    "Staff",
+    "Others"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p6/content/images",
+   "file": "evaluate-and-control.svg",
+   "title": "Step 3 — evaluate the risks",
+   "accent": "#d97706",
+   "alt": "Illustration for Evaluate and control",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Likelihood",
+    "Severity",
+    "Existing controls"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p7/content/images",
+   "file": "record-and-review.svg",
+   "title": "Step 4 — record your findings",
+   "accent": "#d97706",
+   "alt": "Illustration for Record and review",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Clarity",
+    "Accessibility",
+    "Action"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p8/content/images",
+   "file": "the-hierarchy.svg",
+   "title": "The hierarchy of control",
+   "accent": "#d97706",
+   "alt": "Illustration for The hierarchy",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Eliminate",
+    "Reduce and isolate",
+    "Control and PPE"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p9/content/images",
+   "file": "safe-systems-of-work.svg",
+   "title": "Safe systems of work",
+   "accent": "#d97706",
+   "alt": "Illustration for Safe systems of work",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Procedures",
+    "Training",
+    "Equipment"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p10/content/images",
+   "file": "who-is-responsible.svg",
+   "title": "Who is responsible for what",
+   "accent": "#d97706",
+   "alt": "Illustration for Who is responsible",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Employer",
+    "Competent person",
+    "You"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p11/content/images",
+   "file": "dynamic-risk-assessment.svg",
+   "title": "Risk assessment in the moment",
+   "accent": "#d97706",
+   "alt": "Illustration for Dynamic risk assessment",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Observe",
+    "Judge",
+    "Act"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p12/content/images",
+   "file": "positive-risk-taking.svg",
+   "title": "Person-centred, positive risk-taking",
+   "accent": "#d97706",
+   "alt": "Illustration for Positive risk-taking",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Choice",
+    "Independence",
+    "Balance"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/risk-assessment/p13/content/images",
+   "file": "review-and-report.svg",
+   "title": "Reviewing, recording and reporting",
+   "accent": "#d97706",
+   "alt": "Illustration for Review and report",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Review",
+    "Record",
+    "Report"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/legionnaires-disease/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Legionella Awareness",
+   "accent": "#d97706",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Awareness",
+    "Good practice",
     "Your role"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p2/content/images",
-   "file": "what-pbs-is.svg",
-   "title": "What Positive Behaviour Support is",
-   "accent": "#16a34a",
-   "alt": "Illustration for What PBS is",
+   "outDir": "public/h5p/content/legionnaires-disease/p2/content/images",
+   "file": "legionnaires-disease.svg",
+   "title": "What is Legionnaires' disease?",
+   "accent": "#d97706",
+   "alt": "Illustration for Legionnaires' disease",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "heart"
+     "tunic": "#d97706",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Quality of life",
-    "Understanding",
-    "Support, not control"
+    "A lung infection",
+    "Caught from water",
+    "Preventable"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p3/content/images",
-   "file": "values-and-old-approaches.svg",
-   "title": "PBS and older, control-based approaches",
-   "accent": "#16a34a",
-   "alt": "Illustration for Values and old approaches",
+   "outDir": "public/h5p/content/legionnaires-disease/p3/content/images",
+   "file": "who-is-at-risk.svg",
+   "title": "Who is most at risk?",
+   "accent": "#d97706",
+   "alt": "Illustration for Who is at risk",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Old approach",
-    "PBS approach",
-    "The difference"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/positive-behaviour-support/p4/content/images",
-   "file": "behaviour-has-a-function.svg",
-   "title": "Behaviour has a function",
-   "accent": "#16a34a",
-   "alt": "Illustration for Behaviour has a function",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Purpose",
-    "Meaningful",
-    "A message"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/positive-behaviour-support/p5/content/images",
-   "file": "functions-of-behaviour.svg",
-   "title": "Common functions of behaviour",
-   "accent": "#16a34a",
-   "alt": "Illustration for Functions of behaviour",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "alert"
     }
    ],
    "points": [
-    "To gain something",
-    "To avoid or escape something",
-    "Sensory or distress"
+    "Older people",
+    "Weakened immunity",
+    "Lung and chest conditions"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p6/content/images",
-   "file": "triggers-and-the-person.svg",
-   "title": "Triggers and knowing the person",
-   "accent": "#16a34a",
-   "alt": "Illustration for Triggers and the person",
+   "outDir": "public/h5p/content/legionnaires-disease/p4/content/images",
+   "file": "how-legionella-grows.svg",
+   "title": "Where legionella grows",
+   "accent": "#d97706",
+   "alt": "Illustration for How legionella grows",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Warmth",
+    "Stagnation",
+    "Nutrients"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/legionnaires-disease/p5/content/images",
+   "file": "breathable-droplets.svg",
+   "title": "How the risk reaches people",
+   "accent": "#d97706",
+   "alt": "Illustration for Breathable droplets",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Showers",
+    "Taps",
+    "Other sprays"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/legionnaires-disease/p6/content/images",
+   "file": "stagnant-water.svg",
+   "title": "Stagnation and stored water",
+   "accent": "#d97706",
+   "alt": "Illustration for Stagnant water",
    "cast": [
     {
      "skin": 5,
      "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "heart"
+     "tunic": "#d97706",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Immediate triggers",
-    "Underlying factors",
-    "Setting events"
+    "Little-used outlets",
+    "Dead legs",
+    "Stored water"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p7/content/images",
-   "file": "primary-prevention.svg",
-   "title": "Proactive support: primary prevention",
-   "accent": "#16a34a",
-   "alt": "Illustration for Primary prevention",
+   "outDir": "public/h5p/content/legionnaires-disease/p7/content/images",
+   "file": "temperature-control.svg",
+   "title": "Hot water hot, cold water cold",
+   "accent": "#d97706",
+   "alt": "Illustration for Temperature control",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "heart"
+     "tunic": "#d97706",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "A good environment",
-    "Meaningful activity",
-    "Choice and routine"
+    "Hot water kept hot",
+    "Cold water kept cold",
+    "Never left lukewarm"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p8/content/images",
-   "file": "meaningful-days.svg",
-   "title": "Meaningful days and real choice",
-   "accent": "#16a34a",
-   "alt": "Illustration for Meaningful days",
+   "outDir": "public/h5p/content/legionnaires-disease/p8/content/images",
+   "file": "flushing-outlets.svg",
+   "title": "Keeping water moving",
+   "accent": "#d97706",
+   "alt": "Illustration for Flushing outlets",
    "cast": [
     {
      "skin": 1,
      "hair": "short",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Meaningful activity",
-    "Real choice",
-    "Independence"
+    "Flushing",
+    "Regular use",
+    "Recording"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p9/content/images",
-   "file": "secondary-strategies.svg",
-   "title": "Secondary strategies: early help",
-   "accent": "#16a34a",
-   "alt": "Illustration for Secondary strategies",
+   "outDir": "public/h5p/content/legionnaires-disease/p9/content/images",
+   "file": "cleaning-showerheads.svg",
+   "title": "Clean showerheads and taps",
+   "accent": "#d97706",
+   "alt": "Illustration for Cleaning showerheads",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Notice early",
-    "Respond calmly",
-    "Follow the plan"
+    "Descaling",
+    "Cleaning",
+    "Routine"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p10/content/images",
-   "file": "the-pbs-plan.svg",
-   "title": "The PBS plan and consistency",
-   "accent": "#16a34a",
-   "alt": "Illustration for The PBS plan",
+   "outDir": "public/h5p/content/legionnaires-disease/p10/content/images",
+   "file": "the-water-safety-plan.svg",
+   "title": "The water safety plan",
+   "accent": "#d97706",
+   "alt": "Illustration for The water safety plan",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "heart"
     }
    ],
    "points": [
-    "Personal",
-    "Practical",
-    "Shared"
+    "Duty holder",
+    "Responsible person",
+    "Your part"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p11/content/images",
-   "file": "reactive-strategies.svg",
-   "title": "Reactive strategies as a last resort",
-   "accent": "#16a34a",
-   "alt": "Illustration for Reactive strategies",
+   "outDir": "public/h5p/content/legionnaires-disease/p11/content/images",
+   "file": "symptoms-to-know.svg",
+   "title": "Recognising the symptoms",
+   "accent": "#d97706",
+   "alt": "Illustration for Symptoms to know",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Purpose",
-    "Last resort",
-    "Planned"
+    "Flu-like start",
+    "Chest signs",
+    "Other signs"
    ]
   },
   {
-   "outDir": "public/h5p/content/positive-behaviour-support/p12/content/images",
-   "file": "restraint-reduction.svg",
-   "title": "Restraint reduction and the harm of restrictio",
-   "accent": "#16a34a",
-   "alt": "Illustration for Restraint reduction",
+   "outDir": "public/h5p/content/legionnaires-disease/p12/content/images",
+   "file": "reporting-problems.svg",
+   "title": "Spotting and reporting problems",
+   "accent": "#d97706",
+   "alt": "Illustration for Reporting problems",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Restrictive practice",
-    "Real harm",
-    "The aim"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/positive-behaviour-support/p13/content/images",
-   "file": "recording-and-support.svg",
-   "title": "Recording, reflecting and post-incident suppor",
-   "accent": "#16a34a",
-   "alt": "Illustration for Recording and support",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Record",
-    "Reflect",
-    "Support"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p1/content/images",
-   "file": "what-the-term-means.svg",
-   "title": "What “behaviour that challenges” means",
-   "accent": "#16a34a",
-   "alt": "Illustration for What the term means",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Describes the behaviour",
-    "A sign of distress",
-    "Common in care"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p2/content/images",
-   "file": "behaviour-as-communication.svg",
-   "title": "Behaviour as communication",
-   "accent": "#16a34a",
-   "alt": "Illustration for Behaviour as communication",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Every behaviour has a meaning",
-    "It often replaces words",
-    "Look underneath"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p3/content/images",
-   "file": "who-may-be-affected.svg",
-   "title": "Who may be affected",
-   "accent": "#16a34a",
-   "alt": "Illustration for Who may be affected",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
+     "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "People living with dementia",
-    "People with a learning disability or autism",
-    "People with mental illness"
+    "Lukewarm water",
+    "Unusual signs",
+    "Unused areas"
    ]
   },
   {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p4/content/images",
-   "file": "common-triggers.svg",
-   "title": "Common triggers and unmet needs",
-   "accent": "#16a34a",
-   "alt": "Illustration for Common triggers",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Physical triggers",
-    "Environmental triggers",
-    "Emotional and social triggers"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p5/content/images",
-   "file": "the-escalation-cycle.svg",
-   "title": "The escalation cycle",
-   "accent": "#16a34a",
-   "alt": "Illustration for The escalation cycle",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Baseline",
-    "Build-up",
-    "Crisis and recovery"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p6/content/images",
-   "file": "knowing-the-person.svg",
-   "title": "Knowing the person and how they communicate",
-   "accent": "#16a34a",
-   "alt": "Illustration for Knowing the person",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Know their story",
-    "Know their communication",
-    "Know what helps"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p7/content/images",
-   "file": "staying-calm.svg",
-   "title": "Staying calm yourself",
-   "accent": "#16a34a",
-   "alt": "Illustration for Staying calm",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Steady yourself first",
-    "Model calm",
-    "Don’t take it personally"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p8/content/images",
-   "file": "listening-and-space.svg",
-   "title": "Active listening",
-   "accent": "#16a34a",
-   "alt": "Illustration for Listening and space",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Give full attention",
-    "Acknowledge feelings",
-    "Don’t argue"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p9/content/images",
-   "file": "offering-choices.svg",
-   "title": "Offering choices and control",
-   "accent": "#16a34a",
-   "alt": "Illustration for Offering choices",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Offer real choices",
-    "Keep it simple",
-    "Respect the answer"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p10/content/images",
-   "file": "following-the-plan.svg",
-   "title": "Following the care and behaviour support plan",
-   "accent": "#16a34a",
-   "alt": "Illustration for Following the plan",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Know the plan",
-    "Follow agreed approaches",
-    "Feed back"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p11/content/images",
-   "file": "keeping-everyone-safe.svg",
-   "title": "Dynamic risk assessment",
-   "accent": "#16a34a",
-   "alt": "Illustration for Keeping everyone safe",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Read the situation",
-    "Weigh the risk",
-    "Adjust your response"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p12/content/images",
-   "file": "least-restrictive-practice.svg",
-   "title": "Physical intervention is a last resort",
-   "accent": "#16a34a",
-   "alt": "Illustration for Least restrictive practice",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Only in emergencies",
-    "Requires specific training",
-    "Always the last option"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/behaviours-that-challenge/p13/content/images",
-   "file": "recording-and-learning.svg",
-   "title": "Recording and reporting",
-   "accent": "#16a34a",
-   "alt": "Illustration for Recording and learning",
+   "outDir": "public/h5p/content/legionnaires-disease/p13/content/images",
+   "file": "your-role.svg",
+   "title": "Bringing it together",
+   "accent": "#d97706",
+   "alt": "Illustration for Your role",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "alert"
+     "tunic": "#d97706",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Record factually",
-    "Report promptly",
-    "Note any restriction"
+    "Follow the plan",
+    "Record your tasks",
+    "Report concerns"
    ]
   }
  ]

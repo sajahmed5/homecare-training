@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Following up in writing</h2><p>Candour does not end with the first honest conversation. Regulation 20 requires the provider to follow up in writing, giving the person a written account of the incident, details and results of any enquiries, and a further apology. This gives the person a clear record they can keep, read again and return to.</p><ul><li><strong>Written record:</strong> the person receives the account and findings in writing.</li><li><strong>Enquiries:</strong> what was looked into, and what was found, is shared honestly.</li><li><strong>Consistency:</strong> the written account matches what the person was told in person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e54d20e7-1c30-4b14-86d2-84a7c026af30",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Following up",
+          "decorative": false,
+          "file": {
+            "path": "images/following-up.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "188f7ad4-0ef1-4506-bb49-ee52fae363f1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping the person supported</h2><p>Following up is not only about paperwork &mdash; it is about continuing to support the person. They may have further questions as they think things over, and they should know who to contact and how. The organisation should offer reasonable support, which might include practical help, further explanation, or signposting to independent advice or advocacy.</p><p>Your part in the follow-up is to keep being honest and reliable. Record what happened and what was said accurately and promptly, so that the written account rests on a clear factual foundation. Do what you have said you will do, and pass on any new concerns the person raises. Consistent, dependable follow-through is what turns a single honest conversation into lasting trust.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2d6f9809-e263-4154-a340-44255c2240f8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "After telling the person, you *apologise*, give a truthful *account*, explain what you *know*, and follow up in *writing*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "bac195df-d0fd-47f1-8f12-bb783c01ca53",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

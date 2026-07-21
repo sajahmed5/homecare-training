@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The statutory duty</h2><p>In England the duty of candour is written into law as <strong>Regulation 20</strong> of the Health and Social Care Act 2008 (Regulated Activities) Regulations 2014. It is enforced by the Care Quality Commission (CQC). Regulation 20 requires registered providers to act in an open and transparent way with people about their care and treatment.</p><ul><li><strong>Statutory:</strong> it is a legal requirement, not just good practice.</li><li><strong>Regulated by CQC:</strong> the Care Quality Commission checks and enforces it.</li><li><strong>On the provider:</strong> the duty applies to the organisation, not to you as an individual.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "086dbdce-c46e-4e90-9c85-2db93bc08289",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for CQC Regulation 20",
+          "decorative": false,
+          "file": {
+            "path": "images/cqc-regulation-20.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cbfc14bc-a4e1-4f42-a82a-cb9a3970b6bb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why registration matters</h2><p>To provide regulated care in England, an organisation must be registered with the CQC. Registration comes with a set of legal standards it must meet, and the duty of candour in Regulation 20 is one of them. Because the standard is attached to registration, it applies to the <strong>registered provider</strong> &mdash; the organisation and its registered manager &mdash; rather than to individual care workers.</p><p>This is why the formal, structured notification of a serious incident is your organisation&rsquo;s responsibility. Your organisation decides whether an incident meets the legal threshold, makes the formal contact, and keeps the records the law requires. Your job is to give your organisation the honest, timely information it needs to meet that duty &mdash; which is why prompt, truthful reporting from you is so important.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5589d856-a5e1-40ed-a8e8-493db4de1cba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Who does the statutory duty of candour in CQC Regulation 20 apply to?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The registered provider &mdash; the organisation and its registered manager &mdash; because the duty is attached to CQC registration.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Regulation 20 is a registration standard, so it applies to the provider organisation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Each individual care worker, who must personally notify the CQC of incidents.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The statutory notification duty sits with the provider, not with individual workers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only the person&rsquo;s GP or district nurse.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Regulation 20 applies to the registered provider of the regulated care service.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nobody &mdash; the duty of candour is only good-practice guidance.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Regulation 20 is a legal requirement enforced by the CQC, not just guidance.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4c601649-fc80-4583-9e3f-acbc9ad66748",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

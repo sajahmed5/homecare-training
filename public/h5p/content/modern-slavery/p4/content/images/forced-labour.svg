@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 232" width="640" height="232" role="img" aria-label="Illustration for Forced labour">
+  <style>
+    .bob { animation: bob 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+    .blink { animation: blink 6s step-end infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+    .rise { animation: rise .5s ease-out both; }
+    @keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1) } 95% { transform: scaleY(.1) } }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity:.9 } 50% { transform: scale(1.09); opacity:1 } }
+    @keyframes rise { from { opacity:0; transform: translateY(6px) } to { opacity:1; transform: translateY(0) } }
+    @media (prefers-reduced-motion: reduce) {
+      .bob, .blink, .pulse, .rise { animation: none }
+    }
+  </style>
+  <rect width="640" height="232" rx="18" fill="#fdeff2"/>
+  <text x="32" y="42" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#e11d48">Forced labour</text>
+  <g transform="translate(96 154)">
+  <g class="bob" style="animation-delay:0.0s">
+    <path d="M-30 46 a30 34 0 0 1 60 0 z" fill="#e11d48"/>
+    <path d="M-9 14 h18 v14 h-18 z" fill="#f1c27d"/>
+    <circle cx="0" cy="-8" r="20" fill="#f1c27d"/>
+    <path d="M-18 -28 a18 18 0 0 1 36 0 q-6 -8 -18 -8 t-18 8z" fill="#4a3728"/>
+    <g class="blink">
+      <circle cx="-7" cy="-10" r="2.2" fill="#1f2937"/>
+      <circle cx="7" cy="-10" r="2.2" fill="#1f2937"/>
+    </g>
+    <path d="M-7 0 q7 6 14 0" stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="-2" r="3.5" fill="#f87171" opacity=".28"/>
+    <circle cx="11" cy="-2" r="3.5" fill="#f87171" opacity=".28"/>
+    <g transform="translate(32 -10)"><rect width="30" height="40" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="9" y="-4" width="12" height="8" rx="2" fill="#e11d48"/><rect x="6" y="12" width="18" height="3" rx="1.5" fill="#cbd5e1"/><rect x="6" y="20" width="14" height="3" rx="1.5" fill="#cbd5e1"/><rect x="6" y="28" width="16" height="3" rx="1.5" fill="#cbd5e1"/></g>
+  </g></g>
+  
+    <g transform="translate(250 76)">
+      <g class="rise" style="animation-delay:0.15s">
+        <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#f299ad" stroke-width="2"/>
+        <circle cx="22" cy="17" r="7" fill="#e11d48"/>
+        <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Coerced</text>
+      </g>
+    </g>
+    <g transform="translate(250 120)">
+      <g class="rise" style="animation-delay:0.27s">
+        <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#f299ad" stroke-width="2"/>
+        <circle cx="22" cy="17" r="7" fill="#e11d48"/>
+        <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Unpaid</text>
+      </g>
+    </g>
+    <g transform="translate(250 164)">
+      <g class="rise" style="animation-delay:0.39s">
+        <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#f299ad" stroke-width="2"/>
+        <circle cx="22" cy="17" r="7" fill="#e11d48"/>
+        <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Trapped</text>
+      </g>
+    </g>
+</svg>

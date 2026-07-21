@@ -1,0 +1,278 @@
+{
+  "slug": "duty-of-candour",
+  "courseTitle": "Duty of Candour",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What the duty of candour is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Duty of Candour</h2><p>Everyone who draws on care and support has the right to be told the truth about their care &mdash; and never more so than when something has gone wrong. The <strong>duty of candour</strong> is the expectation that you and your organisation are open and honest with people and the people close to them at all times. This course explains what that duty means and how you put it into practice in your everyday work.</p><ul><li><strong>Openness:</strong> being open with people about their care and treatment.</li><li><strong>Honesty:</strong> telling the truth promptly when something goes wrong.</li><li><strong>Learning:</strong> using mistakes to improve care, not to hide it.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Across the next pages you will learn what the duty of candour is and why it matters, the statutory duty set out in the Care Quality Commission&rsquo;s Regulation 20, how to be candid well when things go wrong, and how honesty shapes your everyday practice. You will see that being open is everyone&rsquo;s responsibility, while the formal notifications about serious safety incidents are made by your organisation.</p><p>This course builds <strong>awareness and knowledge</strong> only. It does not replace your organisation&rsquo;s duty-of-candour policy, its reporting procedures, or the supervised training you receive at work. If you are ever unsure what to do after something has gone wrong, speak to your manager and follow your workplace policy.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Why openness matters",
+      "section": "What the duty of candour is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why openness matters</h2><p>Care is built on trust. People let you into their homes and their lives, and often depend on you at their most vulnerable. When something goes wrong &mdash; a missed medication, a fall, the wrong information written in a record &mdash; being open about it keeps that trust intact. People almost always cope far better with an honest explanation than with silence or evasion.</p><ul><li><strong>Trust:</strong> honesty protects the relationship between you and the person.</li><li><strong>Respect:</strong> people have a right to know what happened to them.</li><li><strong>Learning:</strong> openness lets the whole team put things right and prevent a repeat.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The harm caused by cover-ups</h2><p>Hiding a mistake almost always makes matters worse. A person who is not told the truth cannot get the follow-up care they may need, cannot make informed choices, and feels betrayed when they eventually find out &mdash; as they usually do. Cover-ups also stop organisations from learning: if errors are buried, the same thing happens to the next person.</p><p>Public inquiries into serious failings in health and social care have repeatedly found the same pattern &mdash; harm that was made worse by a culture of denial and defensiveness rather than openness. Candour reverses that pattern. By being honest early, you help the person, protect yourself, and give your organisation the chance to learn and improve.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why does being open with a person after a mistake matter so much?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "It keeps their trust, lets them get any follow-up care they need, and helps the whole team learn and prevent a repeat.", "correct": true, "feedback": "Yes. Honesty protects trust, supports the person&rsquo;s care and choices, and lets the organisation improve." },
+            { "text": "It is only worth doing if the person is likely to find out anyway.", "correct": false, "feedback": "Candour is the right thing to do regardless of whether the person would otherwise discover the error." },
+            { "text": "It protects the organisation from ever having to change how it works.", "correct": false, "feedback": "The opposite is true &mdash; openness is what allows learning and change to happen." },
+            { "text": "It matters only for very serious incidents and not for smaller ones.", "correct": false, "feedback": "Openness and honesty apply to all mistakes and near misses, not only the most serious." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your role in candour",
+      "section": "What the duty of candour is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Your part in candour</h2><p>You will not usually be the person who makes a formal notification &mdash; that is your organisation&rsquo;s job. Your part is just as important, though, and it is well within your role: to be honest, to report what has happened, to say sorry, and to support the person. Every member of the team plays this part, from the newest care worker to the registered manager.</p><ul><li><strong>Be honest:</strong> never hide, minimise or explain away a mistake.</li><li><strong>Report:</strong> tell your senior or manager promptly so the organisation can act.</li><li><strong>Support:</strong> stay with the person, reassure them and see that they are cared for.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Everyone has this duty</h2><p>There are two sides to the duty of candour, and they work together. The <strong>statutory duty</strong> sits with your organisation as the registered provider &mdash; it decides when a serious incident is notifiable and makes the formal contact with the person and the regulator. The <strong>professional and individual duty</strong> sits with every worker: to be open and honest whenever something goes wrong, however small.</p><p>So you do not need to wait for anyone&rsquo;s permission to be truthful and kind. When you notice or make a mistake, you report it, you are honest with the person within your role, you apologise, and you help put things right. The organisation then takes over the formal steps the law requires.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Being honest when something goes wrong is part of everyone&rsquo;s duty of candour, not only the manager&rsquo;s.",
+          "correct": true,
+          "correctMsg": "Correct. Every worker has an individual duty to be open and honest, while the organisation makes the formal notifications.",
+          "wrongMsg": "Openness is everyone&rsquo;s responsibility. The organisation makes the formal notifications, but honesty is part of every worker&rsquo;s role."
+        }
+      ]
+    },
+    {
+      "label": "CQC Regulation 20",
+      "section": "The statutory duty &mdash; Regulation 20",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The statutory duty</h2><p>In England the duty of candour is written into law as <strong>Regulation 20</strong> of the Health and Social Care Act 2008 (Regulated Activities) Regulations 2014. It is enforced by the Care Quality Commission (CQC). Regulation 20 requires registered providers to act in an open and transparent way with people about their care and treatment.</p><ul><li><strong>Statutory:</strong> it is a legal requirement, not just good practice.</li><li><strong>Regulated by CQC:</strong> the Care Quality Commission checks and enforces it.</li><li><strong>On the provider:</strong> the duty applies to the organisation, not to you as an individual.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why registration matters</h2><p>To provide regulated care in England, an organisation must be registered with the CQC. Registration comes with a set of legal standards it must meet, and the duty of candour in Regulation 20 is one of them. Because the standard is attached to registration, it applies to the <strong>registered provider</strong> &mdash; the organisation and its registered manager &mdash; rather than to individual care workers.</p><p>This is why the formal, structured notification of a serious incident is your organisation&rsquo;s responsibility. Your organisation decides whether an incident meets the legal threshold, makes the formal contact, and keeps the records the law requires. Your job is to give your organisation the honest, timely information it needs to meet that duty &mdash; which is why prompt, truthful reporting from you is so important.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Who does the statutory duty of candour in CQC Regulation 20 apply to?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The registered provider &mdash; the organisation and its registered manager &mdash; because the duty is attached to CQC registration.", "correct": true, "feedback": "Correct. Regulation 20 is a registration standard, so it applies to the provider organisation." },
+            { "text": "Each individual care worker, who must personally notify the CQC of incidents.", "correct": false, "feedback": "The statutory notification duty sits with the provider, not with individual workers." },
+            { "text": "Only the person&rsquo;s GP or district nurse.", "correct": false, "feedback": "Regulation 20 applies to the registered provider of the regulated care service." },
+            { "text": "Nobody &mdash; the duty of candour is only good-practice guidance.", "correct": false, "feedback": "Regulation 20 is a legal requirement enforced by the CQC, not just guidance." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Notifiable incidents",
+      "section": "The statutory duty &mdash; Regulation 20",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Notifiable safety incidents</h2><p>The formal part of the statutory duty is triggered by what Regulation 20 calls a <strong>notifiable safety incident</strong>. This is an unintended or unexpected incident that happened during a person&rsquo;s care and that, in the reasonable opinion of a healthcare professional, appears to have resulted in &mdash; or could still result in &mdash; a significant degree of harm.</p><ul><li><strong>Unintended or unexpected:</strong> it was not a planned or normal part of care.</li><li><strong>Linked to the care:</strong> it happened during the provision of the care service.</li><li><strong>Reaches the harm threshold:</strong> a healthcare professional judges the harm to be significant.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The threshold of harm</h2><p>Not every mistake is a notifiable safety incident in the legal sense &mdash; but every mistake still calls for openness and honesty. The formal duty is triggered when the harm reaches a defined threshold. For a care provider, this includes an incident that appears to have caused death, severe or moderate harm, or <em>prolonged</em> pain or psychological harm &mdash; where &lsquo;prolonged&rsquo; means lasting, or likely to last, for a continuous period of at least 28 days.</p><p>You are not expected to make this legal judgement yourself, and you should never try to decide alone whether an incident &lsquo;counts&rsquo;. Your task is to report clearly and promptly so that your manager and the relevant healthcare professionals can assess the harm against the threshold and take the right formal steps.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A notifiable safety incident is *unintended* or *unexpected*, and the harm it causes reaches a threshold such as *moderate*, *severe* or *prolonged* harm."
+        }
+      ]
+    },
+    {
+      "label": "The provider's duty",
+      "section": "The statutory duty &mdash; Regulation 20",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What the provider must do</h2><p>When a notifiable safety incident happens, Regulation 20 sets out clear steps the provider must take. These steps put the being-open principles into a formal process, so that the person is told the truth, supported, and kept informed as any enquiries continue.</p><ul><li><strong>Notify in person:</strong> tell the person, or their representative, as soon as reasonably practicable.</li><li><strong>Explain and apologise:</strong> give a true account of what is known and offer an apology.</li><li><strong>Follow up in writing:</strong> confirm the account and the results of any enquiries in writing, and keep a record.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your part in the provider&rsquo;s duty</h2><p>Although these formal steps are the organisation&rsquo;s legal responsibility, they can only happen if you play your part. The provider cannot notify anyone about an incident it does not know about, and cannot give a true account of facts it has not been told. Your honest, prompt report is the foundation the whole process is built on.</p><p>You may also be asked to help with the practical steps &mdash; staying with the person, offering comfort, or giving an accurate account of what you saw. Always follow your manager&rsquo;s lead on who makes the formal contact and what is said, so that the person receives one clear, consistent and honest message rather than several different ones.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Under Regulation 20, how must the provider first notify the person of a notifiable safety incident?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "In person, as soon as reasonably practicable, with a true account of what is known and an apology.", "correct": true, "feedback": "Yes. The initial notification is given in person and promptly, followed up in writing." },
+            { "text": "Only in writing, several weeks after all enquiries are complete.", "correct": false, "feedback": "The person is told in person and promptly; the written follow-up comes afterwards, not instead." },
+            { "text": "By waiting until the person asks what happened.", "correct": false, "feedback": "The duty is proactive &mdash; the provider tells the person without waiting to be asked." },
+            { "text": "By posting a general notice for all service users to read.", "correct": false, "feedback": "Notification is made directly and personally to the individual affected or their representative." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Telling the person",
+      "section": "Doing candour well",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Telling the person or family</h2><p>Doing candour well starts with telling the person &mdash; or, where appropriate, the people close to them &mdash; what has happened. This is often the hardest part, but it is also the most important. How you break the news shapes how the person experiences everything that follows, so approach it with honesty, warmth and respect.</p><ul><li><strong>Be direct and kind:</strong> tell the truth plainly, without hiding behind jargon.</li><li><strong>Choose the setting:</strong> find a private, calm place and give the person your full attention.</li><li><strong>Listen:</strong> let the person react, ask questions and say how they feel.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>As soon as possible</h2><p>Candour must be timely. The person should be told as soon as is reasonably practicable after an incident comes to light &mdash; not after a delay while people decide what to say, and never only if the person happens to ask. Prompt honesty shows respect and gives the person the chance to get any follow-up care they need.</p><p>Being timely does not mean you must have every answer before you speak. It is honest, and often reassuring, to say what you do know now and to be clear that more will follow as things become clearer. What matters is that the person is not left in the dark, and that no one is trying to delay the truth in the hope that it goes unnoticed.</p>"
+        }
+      ]
+    },
+    {
+      "label": "A truthful account",
+      "section": "Doing candour well",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Giving a truthful account</h2><p>At the heart of candour is a truthful account of what happened. The person is entitled to an honest explanation, based on the facts as they are known. You should never guess, speculate about blame, or shade the truth to make things sound better than they were.</p><ul><li><strong>Stick to the facts:</strong> describe what is known, clearly and honestly.</li><li><strong>Do not speculate:</strong> avoid guessing at causes before enquiries are done.</li><li><strong>Do not minimise:</strong> never play down the seriousness of what happened.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Explaining what you know</h2><p>An honest account also means being clear about the limits of what you know. Often, at the time you first speak to a person, not everything is understood &mdash; the full picture may only emerge once the incident has been looked into properly. It is perfectly candid to explain what has happened, to say what is not yet known, and to describe what will be done to find out.</p><p>Keep your language plain and free of jargon, and check that the person has understood. Avoid technical terms that hide the meaning, and never use vague phrases to soften the truth into something misleading. Being honest about uncertainty is part of being honest overall &mdash; it is far better than offering false certainty that later proves wrong.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You are giving a person an honest account, but you do not yet know why the incident happened. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Explain what is known now, say clearly what is not yet known, and describe what will be done to find out.", "correct": true, "feedback": "Yes. Honesty includes being clear about what is not yet known, rather than guessing." },
+            { "text": "Guess at a likely cause so the person has an answer straight away.", "correct": false, "feedback": "Speculating about causes before enquiries are complete is not honest and can mislead the person." },
+            { "text": "Say nothing until every fact is confirmed, however long that takes.", "correct": false, "feedback": "Candour must be timely; you share what is known now rather than waiting indefinitely." },
+            { "text": "Use technical language so the explanation sounds less serious.", "correct": false, "feedback": "Jargon that hides the meaning works against candour; keep the account plain and clear." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Saying sorry",
+      "section": "Doing candour well",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Saying sorry</h2><p>A meaningful apology is central to candour. When something has gone wrong in a person&rsquo;s care, they deserve to hear a genuine &lsquo;sorry&rsquo; &mdash; not a defensive half-apology, and not silence. Saying sorry acknowledges the person&rsquo;s experience and shows that you take what happened seriously.</p><ul><li><strong>Be sincere:</strong> a real apology, not a form of words that avoids responsibility.</li><li><strong>Be specific:</strong> acknowledge what actually happened to the person.</li><li><strong>Be human:</strong> show genuine care for how the person has been affected.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>An apology is not liability</h2><p>Some workers worry that saying sorry means admitting they are legally at fault, or that it will cause trouble for them or the organisation. This is a common misunderstanding. In England and Wales the law is clear that an apology is not, in itself, an admission of legal liability. Saying sorry is the right and expected thing to do.</p><p>An apology is an expression of care and regret that something has happened to the person &mdash; it is not a legal confession, and regulators actively encourage it. Far from causing trouble, a timely and sincere apology usually helps: it maintains trust, eases distress, and often prevents a small problem from growing into a formal complaint. If you are ever unsure how to word an apology, ask your manager, but never let that fear stop you from being honest and kind.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Saying sorry to a person after a mistake is an admission of legal liability.",
+          "correct": false,
+          "correctMsg": "Correct &mdash; this is false. An apology is not, in itself, an admission of legal liability, and saying sorry is the right thing to do.",
+          "wrongMsg": "This is false. In England and Wales an apology is not, of itself, an admission of legal liability, and regulators encourage saying sorry."
+        }
+      ]
+    },
+    {
+      "label": "Following up",
+      "section": "Doing candour well",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Following up in writing</h2><p>Candour does not end with the first honest conversation. Regulation 20 requires the provider to follow up in writing, giving the person a written account of the incident, details and results of any enquiries, and a further apology. This gives the person a clear record they can keep, read again and return to.</p><ul><li><strong>Written record:</strong> the person receives the account and findings in writing.</li><li><strong>Enquiries:</strong> what was looked into, and what was found, is shared honestly.</li><li><strong>Consistency:</strong> the written account matches what the person was told in person.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Keeping the person supported</h2><p>Following up is not only about paperwork &mdash; it is about continuing to support the person. They may have further questions as they think things over, and they should know who to contact and how. The organisation should offer reasonable support, which might include practical help, further explanation, or signposting to independent advice or advocacy.</p><p>Your part in the follow-up is to keep being honest and reliable. Record what happened and what was said accurately and promptly, so that the written account rests on a clear factual foundation. Do what you have said you will do, and pass on any new concerns the person raises. Consistent, dependable follow-through is what turns a single honest conversation into lasting trust.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "After telling the person, you *apologise*, give a truthful *account*, explain what you *know*, and follow up in *writing*."
+        }
+      ]
+    },
+    {
+      "label": "The professional duty",
+      "section": "Candour in everyday practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The individual duty of candour</h2><p>Alongside the statutory duty on the provider, there is a <strong>professional duty of candour</strong> that falls on every health and care worker as an individual. Professional regulators, including the Nursing and Midwifery Council and the General Medical Council, set this out in joint guidance: everyone must be open and honest with people when something goes wrong, and open and honest with colleagues and employers too.</p><ul><li><strong>Be open with people:</strong> tell them when something has gone wrong and apologise.</li><li><strong>Be open with colleagues:</strong> report errors honestly so the team can act.</li><li><strong>Support the person:</strong> offer an appropriate remedy or help to put things right.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Reporting mistakes and near misses</h2><p>The professional duty is not only about serious harm. It applies to mistakes of every size, and to <em>near misses</em> &mdash; the times when something almost went wrong but was caught before it reached the person. Reporting near misses honestly is one of the most valuable things you can do, because it lets the team fix a weakness before anyone is harmed.</p><p>This is where candour meets your wider <strong>duty of care</strong>. Your duty of care is to keep the people you support safe and well; being open when something goes wrong, and flagging risks before they cause harm, is a direct part of keeping them safe. Honest reporting is not admitting failure &mdash; it is professionalism, and it protects the very people you are there to help.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You catch a near miss &mdash; a mistake that was stopped before it reached the person. What is the candid thing to do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it honestly, because near misses show a weakness the team can fix before anyone is harmed.", "correct": true, "feedback": "Yes. Reporting near misses is a valuable part of candour and helps prevent future harm." },
+            { "text": "Say nothing, because no one was actually harmed this time.", "correct": false, "feedback": "Near misses are exactly what should be reported, so the risk can be addressed before it causes harm." },
+            { "text": "Only mention it if a colleague noticed it too.", "correct": false, "feedback": "You report honestly regardless of whether anyone else saw it." },
+            { "text": "Wait to see whether the same thing happens again before reporting.", "correct": false, "feedback": "Prompt reporting lets the team act now, rather than waiting for harm to occur." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "A just culture",
+      "section": "Candour in everyday practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>A just and learning culture</h2><p>Candour thrives in a <strong>just and learning culture</strong> &mdash; one where people feel safe to be honest about mistakes because the response is to learn and improve rather than simply to blame. Most errors in care come from problems in systems and pressures on staff, not from bad people, so a fair culture looks for what went wrong and how to prevent it.</p><ul><li><strong>Just:</strong> people are treated fairly when they are open about honest mistakes.</li><li><strong>Learning:</strong> incidents are used to improve care for everyone.</li><li><strong>Safe to speak:</strong> workers can raise concerns without fear.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Speaking up and whistleblowing</h2><p>Being open sometimes means raising a concern about something you have seen &mdash; unsafe practice, a risk to someone&rsquo;s wellbeing, or a mistake that others are trying to hide. Speaking up is part of candour, and the law protects workers who raise genuine concerns in the public interest. This protection is often called <strong>whistleblowing</strong>.</p><p>You should normally raise a concern first with your manager or through your organisation&rsquo;s speaking-up procedure, and your workplace should have a policy that tells you how. If a concern is not acted on, there are further routes, including to the CQC. A good organisation welcomes people who speak up, because their honesty is exactly what keeps people safe and drives improvement.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does a &lsquo;just and learning culture&rsquo; mean for candour?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "People feel safe to be open about honest mistakes because the focus is on learning and improving, not simply on blame.", "correct": true, "feedback": "Yes. A just culture treats people fairly and uses incidents to improve care." },
+            { "text": "Nobody is ever held accountable for anything they do.", "correct": false, "feedback": "A just culture is fair, not blame-free of all accountability; it distinguishes honest error from reckless behaviour." },
+            { "text": "Mistakes are kept quiet so the organisation looks good.", "correct": false, "feedback": "That is the opposite of a learning culture, which depends on openness about mistakes." },
+            { "text": "Only managers are allowed to raise concerns.", "correct": false, "feedback": "Everyone can and should speak up; workers who raise genuine concerns are protected in law." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Summary",
+      "section": "Candour in everyday practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>The duty of candour comes down to a simple commitment: be open and honest with people, especially when something goes wrong. You have seen that it has two sides that work together &mdash; the statutory duty on your organisation and the professional duty on you &mdash; and that honesty, apology and support run through both.</p><ul><li><strong>Everyone is honest:</strong> being open when things go wrong is every worker&rsquo;s duty.</li><li><strong>The organisation notifies:</strong> the provider makes the formal Regulation 20 notifications.</li><li><strong>You report, apologise and support:</strong> tell someone, say sorry, and help put things right.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Remember</h2><p>When something goes wrong, tell the person or their family as soon as you can, give a truthful account, say sorry &mdash; remembering that an apology is not an admission of legal liability &mdash; and follow up honestly. Report mistakes and near misses promptly, record what happened accurately, and speak up when you have a concern. In doing so you protect the people you support, uphold their trust, and help your organisation learn.</p><p>This course has built <strong>awareness and knowledge</strong> only. It does not replace your organisation&rsquo;s duty-of-candour policy, its reporting procedures, or the supervised training you receive at work. Always follow your workplace policy, and if you are ever unsure what to do after an incident, ask your manager.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The law behind risk assessment</h2><p>Risk assessment is not just good practice &mdash; it is a legal requirement. The <strong>Health and Safety at Work etc. Act 1974</strong> places a general duty on employers to ensure, so far as is reasonably practicable, the health, safety and welfare of their workers and of other people affected by the work, including the people you support and visitors.</p><ul><li><strong>Employers:</strong> must provide safe systems, equipment, training and supervision.</li><li><strong>Workers:</strong> must take reasonable care of themselves and others.</li><li><strong>Everyone:</strong> must co-operate so that safety measures work.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c9d87d73-386b-4295-8cc4-fcf1226b02c1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The legal duty",
+          "decorative": false,
+          "file": {
+            "path": "images/the-legal-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "054d1833-3b11-4051-9be3-e42e8e814bdf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Assessment made a legal requirement</h2><p>The <strong>Management of Health and Safety at Work Regulations 1999</strong> make this duty explicit. They require every employer to carry out a <strong>suitable and sufficient assessment</strong> of the risks to workers and to others affected by the work, and to act on what the assessment finds. Where five or more people are employed, the significant findings must be recorded.</p><p>These duties protect two groups at once: the people who use your service and you as a worker. You also have your own legal duty &mdash; to take reasonable care, to follow the safe systems and training you are given, to use equipment properly, and to report hazards and concerns. Formal assessments are drawn up and signed off by managers or other competent persons, but they only work if every worker follows them and speaks up when something is wrong.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27a09653-0c41-4757-9617-06650d9ba8f3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which best describes the worker's legal responsibility for risk?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To take reasonable care, follow the safe systems and training provided, use equipment properly and report hazards.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. The employer assesses and provides safe systems; you must work within them and raise concerns.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To write and sign off the service's formal risk assessments yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Formal assessment and sign-off rest with managers or another competent person, not the individual worker.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You have no legal duties &mdash; health and safety is entirely the employer's problem.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The 1974 Act places clear duties on workers too, to take care and co-operate.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To remove every possible hazard from the workplace before starting any task.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The duty is to control risk so far as is reasonably practicable, not to eliminate every hazard.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b1523bf4-445b-4ba7-9b12-ce73b3f13182",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

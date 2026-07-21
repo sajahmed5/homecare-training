@@ -1,0 +1,278 @@
+{
+  "slug": "modern-slavery",
+  "courseTitle": "Modern Slavery Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What modern slavery is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Modern Slavery Awareness</h2><p>Modern slavery is a serious crime and a safeguarding issue. It happens in the UK today, often hidden in plain sight, and some of the people you support may be at risk. As a care worker you build trusting relationships and see people closely, which places you in a strong position to notice when something is wrong. This course helps you recognise the signs and report them safely.</p><ul><li><strong>Recognise:</strong> the signs that someone may be a victim of modern slavery.</li><li><strong>Report:</strong> pass your concerns on so that specialists can investigate.</li><li><strong>Protect:</strong> keep yourself and the person safe at all times.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>This is awareness, not investigation</h2><p>This course gives you <strong>awareness and knowledge</strong> to help you <strong>recognise and report</strong> possible modern slavery. It does <strong>not</strong> replace your organisation&rsquo;s safeguarding policy or the supervised training you receive, and it does not make you an investigator. Your role is to notice, to keep people safe, and to raise a concern &mdash; specialist agencies such as the police and the National Referral Mechanism carry out the investigation.</p><p>You do not need to be certain that modern slavery is happening before you speak up. If you are worried, report it to your manager or safeguarding lead, and in an emergency call 999. Throughout this course, remember that recognising and reporting are exactly what is being asked of you &mdash; nothing more and nothing less.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What it is",
+      "section": "What modern slavery is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What modern slavery is</h2><p>Modern slavery is an umbrella term for the exploitation of one person by another for someone else&rsquo;s gain. It covers slavery, servitude, forced or compulsory labour and human trafficking. Victims are controlled and treated as though they were property, unable to leave freely because of violence, threats, deception or debt. It exists in cities, towns and rural areas across England, and it is often deliberately hidden from view.</p><ul><li><strong>Exploitation:</strong> a person is used for another&rsquo;s profit or benefit.</li><li><strong>Control:</strong> the victim cannot simply walk away.</li><li><strong>Hidden:</strong> it is kept out of sight, so the signs are easy to miss.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Hidden in plain sight</h2><p>Victims of modern slavery can be any age, gender or nationality, and many are British. They may live on ordinary streets, work in car washes, nail bars, farms or care settings, or be moved between addresses. Because they are frightened, controlled or do not see themselves as victims, they rarely ask for help directly. This is why the everyday observations of people like you matter so much.</p><p>You may be one of very few people from outside a victim&rsquo;s controlled world who sees them regularly. Something that feels slightly wrong &mdash; a person who is never allowed to speak for themselves, or who seems fearful of a &ldquo;friend&rdquo; &mdash; can be an important clue. Noticing it, and reporting it, could open the door to their rescue.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement best describes modern slavery?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The exploitation and control of a person for someone else&rsquo;s gain, so that they cannot leave freely.", "correct": true, "feedback": "Correct. Modern slavery is the control and exploitation of a person for another&rsquo;s gain, and it happens in the UK today." },
+            { "text": "A historical crime that no longer happens in the UK today.", "correct": false, "feedback": "No &mdash; modern slavery is happening now, hidden in communities across England." },
+            { "text": "A problem that only affects people who have entered the country illegally.", "correct": false, "feedback": "No &mdash; victims can be any nationality, and many are British citizens." },
+            { "text": "A situation people can always simply walk away from whenever they choose.", "correct": false, "feedback": "No &mdash; victims are controlled through violence, threats, deception or debt and cannot leave freely." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The law &amp; your role",
+      "section": "What modern slavery is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The Modern Slavery Act 2015</h2><p>The Modern Slavery Act 2015 is the main law in England and Wales dealing with this crime. It brought existing offences together and strengthened the response, creating offences of slavery, servitude and forced or compulsory labour, and of human trafficking. It also introduced measures to protect and support victims and to hold offenders to account. The Act makes plain that modern slavery is a serious criminal offence.</p><ul><li><strong>Offences:</strong> slavery, servitude, forced labour and human trafficking.</li><li><strong>Protection:</strong> stronger support and protection for victims.</li><li><strong>Accountability:</strong> tougher powers to pursue and prosecute offenders.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role and safeguarding</h2><p>Modern slavery is not only a crime but also a <strong>safeguarding</strong> matter. Many victims are adults at risk or children, and preventing abuse and exploitation sits at the heart of safeguarding duties under the Care Act 2014. This means your responsibility to report a modern slavery concern is the same as for any other safeguarding concern: recognise it, and pass it on without delay.</p><p>Your role is limited but vital. You are not expected to investigate, gather evidence or confirm what is happening. You are expected to stay alert, treat the person with respect, keep them and yourself safe, and report your concern to your manager or safeguarding lead. From there, trained safeguarding staff and specialist agencies take over.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Modern slavery is both a serious crime and a safeguarding issue that you should report like any other safeguarding concern.",
+          "correct": true,
+          "correctMsg": "Correct. Modern slavery is a crime and a safeguarding matter, and you report it through the same safeguarding route as any other concern.",
+          "wrongMsg": "Not quite. Modern slavery is both a serious crime and a safeguarding issue, and you should report it just as you would any other safeguarding concern."
+        }
+      ]
+    },
+    {
+      "label": "Forced labour",
+      "section": "Types of modern slavery",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Forced labour</h2><p>Forced or compulsory labour is one of the most common forms of modern slavery in the UK. A person is made to work against their will through violence, threats, deception or debt, often for little or no pay and in dangerous conditions. They may have their wages taken, their documents removed, and their movements controlled. It can be found in agriculture, construction, factories, car washes, hospitality and even care.</p><ul><li><strong>Coerced:</strong> the person works under threat or force.</li><li><strong>Unpaid:</strong> wages are withheld, very low, or taken from them.</li><li><strong>Trapped:</strong> debt or control stops them from leaving.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How victims are trapped</h2><p>People are often drawn into forced labour by the promise of a genuine job, a better life, or help with travel. Once they arrive, the reality is very different. Employers or controllers take their identity documents, house them in cramped or unsafe accommodation, and tell them they owe a large debt for travel, food or rent that they can never repay. This is a common way of keeping people trapped.</p><p>Threats of violence to the person or their family, and fear of the authorities, keep many victims silent. Some do not realise their treatment is illegal, or they distrust the police because of experiences in their home country. Understanding these traps helps you see why a victim may not ask for help, even when they clearly need it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following is a warning sign that someone may be in forced labour?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Their wages appear to be withheld, their documents are held by someone else, and they have little freedom to leave.", "correct": true, "feedback": "Correct. Withheld wages, controlled documents and a lack of freedom are recognised signs of forced labour." },
+            { "text": "They have a written contract and are paid fairly for the hours they work.", "correct": false, "feedback": "No &mdash; fair pay and a genuine contract point away from forced labour, not towards it." },
+            { "text": "They talk openly about choosing to change jobs whenever they wish.", "correct": false, "feedback": "No &mdash; being free to change jobs is a sign of freedom, not exploitation." },
+            { "text": "They keep their own passport and come and go as they please.", "correct": false, "feedback": "No &mdash; keeping their own documents and moving freely are not signs of forced labour." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sexual &amp; domestic",
+      "section": "Types of modern slavery",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Sexual exploitation</h2><p>Sexual exploitation is when a person is forced or coerced into sexual activity for someone else&rsquo;s profit. Victims, who may be women, men or children, are controlled through violence, threats, blackmail or drugs, and any money they earn is taken from them. This is a deeply harmful and hidden form of modern slavery, and victims are often moved between locations to avoid detection and to break their links with anyone who might help them.</p><ul><li><strong>Coercion:</strong> the person is forced or manipulated into sexual acts.</li><li><strong>Control:</strong> their earnings are taken and their freedom denied.</li><li><strong>Movement:</strong> victims may be moved often to avoid discovery.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Domestic servitude</h2><p>Domestic servitude is where someone is forced to work in a private household &mdash; often cooking, cleaning and caring for children &mdash; for little or no pay and with almost no freedom. The person may live with the family who control them, work extremely long hours, be forbidden from leaving the house alone, and have their documents and phone taken away. Because it happens behind closed doors, it is especially hidden.</p><p>You might encounter domestic servitude if you visit a household to support one person and notice another individual who seems to work constantly, sleeps in a poor space such as a kitchen or garage, is never introduced, and is not free to come and go. Treating what you see as a possible safeguarding concern, and reporting it, may be that person&rsquo;s only chance of help.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Criminal &amp; county lines",
+      "section": "Types of modern slavery",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Criminal exploitation and county lines</h2><p>Criminal exploitation is when a person is forced to commit crimes for another&rsquo;s gain, such as drug dealing, cannabis cultivation, theft or benefit fraud. A well-known form is <strong>county lines</strong>, where gangs use children and vulnerable adults to move and sell drugs from cities into smaller towns and rural areas. The victim carries the risk while others take the profit, controlled through violence, debt and fear.</p><ul><li><strong>Coerced crime:</strong> the person is forced to offend for others.</li><li><strong>County lines:</strong> drugs are moved and sold through vulnerable people.</li><li><strong>Blame shifted:</strong> the victim carries the risk and any punishment.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Victims, not just offenders</h2><p>People exploited in this way are often seen, and see themselves, as criminals rather than victims. In truth they are being used and controlled, frequently after being groomed with gifts, friendship, money or drugs before the exploitation begins. Both children and adults with care and support needs, learning disabilities or mental ill health are targeted because they are easier to control and less likely to be believed.</p><p>Signs can include unexplained money, phones or gifts, going missing, travelling to unfamiliar places, relationships with controlling older &ldquo;friends&rdquo;, or sudden fearfulness and secrecy. If someone you support shows these signs, resist the urge to judge them. Treat it as possible exploitation and report it, so that specialists can look behind the behaviour.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Someone you support suddenly has unexplained cash and a new phone, goes missing for days, and seems fearful of an older &ldquo;friend&rdquo;. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Treat it as possible criminal exploitation and report your concern to your manager or safeguarding lead.", "correct": true, "feedback": "Correct. These are recognised signs of exploitation, and reporting them lets specialists look behind the behaviour." },
+            { "text": "Assume they are simply choosing to break the law and say nothing.", "correct": false, "feedback": "No &mdash; people are often controlled into offending; treat it as possible exploitation and report it." },
+            { "text": "Confront the older &ldquo;friend&rdquo; yourself to find out what is going on.", "correct": false, "feedback": "No &mdash; confronting the suspected controller can put the person and you in danger." },
+            { "text": "Wait several weeks to see whether the behaviour continues before mentioning it.", "correct": false, "feedback": "No &mdash; waiting can leave the person in danger. Report your concern promptly." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Trafficking &amp; control",
+      "section": "Types of modern slavery",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Human trafficking</h2><p>Human trafficking is the recruitment, movement, harbouring or receiving of a person through force, fraud or deception in order to exploit them. Trafficking does not always involve crossing a border &mdash; people are trafficked within the UK, and even within a single town. What defines it is that a person is moved or held for the purpose of exploitation, whether that is labour, sexual exploitation, domestic servitude or crime.</p><ul><li><strong>Movement:</strong> a person is recruited, moved, harboured or received.</li><li><strong>Means:</strong> force, threats, deception or abuse of vulnerability.</li><li><strong>Purpose:</strong> the aim is always exploitation.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Coercion, control and debt bondage</h2><p>Traffickers keep victims under control in ways that leave few visible marks. Alongside physical violence, they use threats against the person or their family, isolation, confiscation of documents and phones, and constant surveillance. Many victims are too frightened, ashamed or dependent to leave, and some do not recognise that what is happening to them is wrong or unlawful.</p><p>A powerful tool of control is <strong>debt bondage</strong>: the victim is told they owe a huge sum for travel, accommodation, food or fees, with impossible interest added, so that the debt can never be cleared. This traps them in exploitation while appearing, on the surface, like an ordinary arrangement. Recognising coercion and debt bondage helps you understand why victims stay.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Traffickers control victims through *threats*, by taking away their *documents*, and by trapping them in a *debt* they can never repay."
+        }
+      ]
+    },
+    {
+      "label": "Physical &amp; behavioural signs",
+      "section": "Recognising the signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Physical and behavioural signs</h2><p>Victims of modern slavery often show physical and emotional signs of what they are enduring. They may look malnourished, unkempt or exhausted, have untreated injuries, or wear the same worn clothing every day. Emotionally, they may seem frightened, withdrawn, anxious or confused, avoid eye contact, and appear to have been coached in what to say. No single sign proves modern slavery, but a pattern of them is a warning.</p><ul><li><strong>Physical:</strong> injuries, poor health, hunger or a neglected appearance.</li><li><strong>Emotional:</strong> fear, anxiety, withdrawal or distrust.</li><li><strong>Coached:</strong> answers that sound rehearsed or inconsistent.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Reading the whole picture</h2><p>Because each of these signs can have an innocent explanation, it is the overall picture that matters. Ask yourself whether things add up. Does the person seem afraid of someone who is with them? Are they unusually reluctant to give information about where they live or work? Do they flinch, fall silent, or look to another person before answering simple questions? Trust the sense that something is not right.</p><p>You are not diagnosing or investigating when you notice these things &mdash; you are gathering the ordinary observations that let a trained safeguarding lead and specialist agencies act. Keep noticing, stay curious, and remember that your instinct that a person is being controlled or harmed is worth reporting, even if you cannot yet explain why.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is most likely to suggest that someone could be a victim of modern slavery?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Several signs together &mdash; fearfulness, untreated injuries, rehearsed answers and reluctance to give information.", "correct": true, "feedback": "Correct. It is the overall pattern of signs, rather than any single one, that should raise your concern." },
+            { "text": "A single bruise in a person who has clearly explained a recent accidental fall.", "correct": false, "feedback": "No &mdash; one sign with a clear explanation is not, on its own, a strong indicator." },
+            { "text": "A person who talks openly and freely about their home and their work.", "correct": false, "feedback": "No &mdash; being open and free to speak points away from exploitation." },
+            { "text": "Someone who is simply having a quiet or tired day but seems otherwise settled.", "correct": false, "feedback": "No &mdash; a quiet day on its own is not a warning sign; look for a pattern." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Control &amp; conditions",
+      "section": "Recognising the signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Signs of control by others</h2><p>One of the clearest signs of modern slavery is that another person appears to be in control. A victim may be accompanied everywhere by someone who answers all questions for them, holds their money and documents, and will not let them be seen alone. The victim may seem to defer to this person out of fear, and may not be registered with a GP or able to attend appointments without them.</p><ul><li><strong>Speaking for them:</strong> someone else always answers on their behalf.</li><li><strong>Holding everything:</strong> another person keeps their money and papers.</li><li><strong>Never alone:</strong> the person is rarely, if ever, left unaccompanied.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Poor conditions and missing documents</h2><p>Look, too, at how and where a person lives and works. Victims are often housed in overcrowded, dirty or unsafe accommodation, with many people sleeping in one room, and are transported to and from work in groups at unusual hours. They may have no identity documents at all, because a passport or ID card has been taken from them and is held by someone else as a means of control.</p><p>A person who cannot produce their own documents, does not know their own address, has no bank account, or hands all their earnings to someone else may well be being exploited. Poor living and working conditions combined with these signs are strong reasons to raise a concern. Note what you see and pass it on through your safeguarding route.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "It can be a warning sign of modern slavery when someone else insists on speaking for a person and holds their identity documents.",
+          "correct": true,
+          "correctMsg": "Correct. Another person controlling communication and holding someone&rsquo;s documents is a recognised warning sign that should be reported.",
+          "wrongMsg": "Not quite. Someone else speaking for a person and keeping their documents is a recognised sign of control that should be reported."
+        }
+      ]
+    },
+    {
+      "label": "Who is at risk",
+      "section": "Recognising the signs",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Who is more at risk</h2><p>Modern slavery can affect anyone, but some people are targeted because they are easier to control. Those at greater risk include people who are isolated, in poverty or debt, or who have insecure immigration status. People with learning disabilities, mental ill health, or care and support needs are also targeted, as are children and young people, and those who have experienced homelessness, addiction or abuse.</p><ul><li><strong>Vulnerability:</strong> isolation, poverty, debt or insecure status.</li><li><strong>Support needs:</strong> learning disability, mental ill health or care needs.</li><li><strong>Past harm:</strong> homelessness, addiction or previous abuse.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why awareness matters in care</h2><p>Many of the people you support share some of these vulnerabilities, which is exactly why your awareness matters. Someone who depends on others, who finds it hard to communicate, or who is socially isolated can be groomed and controlled without anyone outside noticing. An exploiter may even pose as a helpful friend, carer or partner in order to gain trust and take control.</p><p>Being at higher risk does not mean a person is being exploited, and you must never make assumptions about anyone. It simply means staying especially alert, valuing the person&rsquo;s own voice, and taking seriously any sign that someone else is controlling or harming them. If in doubt, report your concern and let specialists decide.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "People are more at risk of modern slavery when they are *isolated*, living in *poverty*, or have care and support *needs* that make them easier to control."
+        }
+      ]
+    },
+    {
+      "label": "Stay safe",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keep yourself and the person safe</h2><p>If you suspect modern slavery, your first duty is safety &mdash; yours and the person&rsquo;s. Do <strong>not</strong> confront the suspected trafficker or controller, and do not let on what you suspect. Confrontation can put the victim in greater danger, tip off the exploiter, and expose you to harm. Modern slavery is linked to organised crime, so the calm, careful response is always to withdraw and report, not to intervene yourself.</p><ul><li><strong>Do not confront:</strong> never challenge the suspected trafficker.</li><li><strong>Stay safe:</strong> protect yourself and avoid raising suspicion.</li><li><strong>Report, don&rsquo;t investigate:</strong> leave the investigation to specialists.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Acting with care</h2><p>Try not to do anything that could alert the exploiter or increase the risk to the victim. Avoid asking searching questions in front of others, taking photographs, or removing anything from where you are. If you can speak with the person safely and privately, be kind, listen without pressing, and reassure them that help is available &mdash; but never promise to keep a dangerous secret, because you must pass concerns on.</p><p>Above all, if anyone is in immediate danger, treat it as an emergency and call 999. In every other case, make a careful note of what you have seen and report it promptly through your organisation&rsquo;s safeguarding process. Acting calmly and safely gives the specialist agencies the best chance of helping the person.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You strongly suspect a person is being exploited by someone who is with them. What is the safest first step?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Do not confront the suspected controller; keep everyone safe and report your concern to your manager or safeguarding lead.", "correct": true, "feedback": "Correct. Confrontation is dangerous; the safe response is to protect everyone and report through your safeguarding route." },
+            { "text": "Challenge the suspected controller directly and demand that they explain themselves.", "correct": false, "feedback": "No &mdash; confronting the controller can put the victim in greater danger and expose you to harm." },
+            { "text": "Help the person leave with you straight away, without telling anyone.", "correct": false, "feedback": "No &mdash; acting alone can be unsafe; report your concern so trained specialists can respond." },
+            { "text": "Take photographs of the person and their accommodation as evidence.", "correct": false, "feedback": "No &mdash; gathering evidence is not your role and could alert the exploiter or increase risk." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reporting &amp; the NRM",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Who to report to</h2><p>When you have a concern, report it through the right channels so that trained people can act. Start with your <strong>manager or safeguarding lead</strong>, who will follow your organisation&rsquo;s safeguarding procedure and involve the local authority and police as needed. You can also contact the <strong>Modern Slavery &amp; Exploitation Helpline on 08000 121 700</strong> for confidential advice, or the police. In an emergency, always call <strong>999</strong>.</p><ul><li><strong>Safeguarding lead:</strong> your first port of call within your organisation.</li><li><strong>Helpline:</strong> the Modern Slavery Helpline for advice and referral.</li><li><strong>Police:</strong> 101 for non-emergencies, and 999 in an emergency.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The National Referral Mechanism</h2><p>The National Referral Mechanism, or <strong>NRM</strong>, is the UK&rsquo;s official system for identifying and supporting victims of modern slavery. Trained &ldquo;first responder&rdquo; organisations, such as the police and local authorities, refer potential victims into the NRM so that their situation can be formally considered and they can access support such as safe accommodation and advice. As a care worker you would not normally refer directly, but it helps to know the NRM exists.</p><p>Your part is to make sure your concern reaches a first responder by reporting it. Be aware that adults must usually consent to being referred into the NRM, which is another reason your respectful, supportive response matters. Report what you know, and let the specialists guide the person through the process.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is the correct way to raise a modern slavery concern?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it to your manager or safeguarding lead, contact the Modern Slavery Helpline for advice, and call 999 in an emergency.", "correct": true, "feedback": "Correct. These are the right routes: your safeguarding lead, the Helpline for advice, and 999 in an emergency." },
+            { "text": "Keep it to yourself until you have gathered enough proof to be certain.", "correct": false, "feedback": "No &mdash; you do not need proof; report your concern so that specialists can investigate." },
+            { "text": "Refer the person into the National Referral Mechanism entirely on your own.", "correct": false, "feedback": "No &mdash; referrals into the NRM are made by trained first responders, not directly by you." },
+            { "text": "Post about your concern on social media to warn other people.", "correct": false, "feedback": "No &mdash; sharing publicly can endanger the victim and must never be done. Report through proper channels." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Recording &amp; summary",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recording your concerns</h2><p>Good <strong>recording</strong> supports everything that follows. As soon as you safely can, write down what you saw, heard and were told, using clear, factual language and the person&rsquo;s own words where possible. Note the date, time and place, and describe the facts rather than your opinions. Follow your organisation&rsquo;s procedures for storing this information securely and sharing it only with the right people.</p><ul><li><strong>Be factual:</strong> record what you observed, not what you assume.</li><li><strong>Be specific:</strong> include dates, times, places and exact words.</li><li><strong>Be secure:</strong> store and share records as your policy requires.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Remember: recognise and report</h2><p>You have learned what modern slavery is, the forms it takes, the signs that someone may be a victim, and how to respond safely. The heart of it is simple: modern slavery is a serious crime and a safeguarding issue that is hidden all around us, so stay alert, keep people safe, and report any concern without delay.</p><p>This course has given you awareness and knowledge to help you recognise and report &mdash; it does not replace your safeguarding policy or the supervised training you receive, and specialist agencies carry out the investigation. Never confront a suspected trafficker. Report to your manager or safeguarding lead, use the Modern Slavery Helpline for advice, and call 999 in an emergency. Your noticing could change, or even save, a life.</p>"
+        }
+      ]
+    }
+  ]
+}

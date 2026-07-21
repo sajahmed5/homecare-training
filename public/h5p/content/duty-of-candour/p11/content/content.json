@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The individual duty of candour</h2><p>Alongside the statutory duty on the provider, there is a <strong>professional duty of candour</strong> that falls on every health and care worker as an individual. Professional regulators, including the Nursing and Midwifery Council and the General Medical Council, set this out in joint guidance: everyone must be open and honest with people when something goes wrong, and open and honest with colleagues and employers too.</p><ul><li><strong>Be open with people:</strong> tell them when something has gone wrong and apologise.</li><li><strong>Be open with colleagues:</strong> report errors honestly so the team can act.</li><li><strong>Support the person:</strong> offer an appropriate remedy or help to put things right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8daa8d5c-66ef-479e-9390-15d9dfb2cd13",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The professional duty",
+          "decorative": false,
+          "file": {
+            "path": "images/the-professional-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6b5f7a1f-79ca-4b55-aac1-76d76fc68581",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting mistakes and near misses</h2><p>The professional duty is not only about serious harm. It applies to mistakes of every size, and to <em>near misses</em> &mdash; the times when something almost went wrong but was caught before it reached the person. Reporting near misses honestly is one of the most valuable things you can do, because it lets the team fix a weakness before anyone is harmed.</p><p>This is where candour meets your wider <strong>duty of care</strong>. Your duty of care is to keep the people you support safe and well; being open when something goes wrong, and flagging risks before they cause harm, is a direct part of keeping them safe. Honest reporting is not admitting failure &mdash; it is professionalism, and it protects the very people you are there to help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "29852728-cf5b-4e97-a5de-39c7d48fe59e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You catch a near miss &mdash; a mistake that was stopped before it reached the person. What is the candid thing to do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it honestly, because near misses show a weakness the team can fix before anyone is harmed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Reporting near misses is a valuable part of candour and helps prevent future harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, because no one was actually harmed this time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Near misses are exactly what should be reported, so the risk can be addressed before it causes harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only mention it if a colleague noticed it too.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You report honestly regardless of whether anyone else saw it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether the same thing happens again before reporting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Prompt reporting lets the team act now, rather than waiting for harm to occur.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2e43d90f-93d6-48a8-b878-756100562474",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

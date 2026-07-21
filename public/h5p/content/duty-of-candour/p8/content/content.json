@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Giving a truthful account</h2><p>At the heart of candour is a truthful account of what happened. The person is entitled to an honest explanation, based on the facts as they are known. You should never guess, speculate about blame, or shade the truth to make things sound better than they were.</p><ul><li><strong>Stick to the facts:</strong> describe what is known, clearly and honestly.</li><li><strong>Do not speculate:</strong> avoid guessing at causes before enquiries are done.</li><li><strong>Do not minimise:</strong> never play down the seriousness of what happened.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9331853-a408-4233-8f0f-625774804ef0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for A truthful account",
+          "decorative": false,
+          "file": {
+            "path": "images/a-truthful-account.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "658c916b-c809-4cbe-961e-354ed24ec8ce",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Explaining what you know</h2><p>An honest account also means being clear about the limits of what you know. Often, at the time you first speak to a person, not everything is understood &mdash; the full picture may only emerge once the incident has been looked into properly. It is perfectly candid to explain what has happened, to say what is not yet known, and to describe what will be done to find out.</p><p>Keep your language plain and free of jargon, and check that the person has understood. Avoid technical terms that hide the meaning, and never use vague phrases to soften the truth into something misleading. Being honest about uncertainty is part of being honest overall &mdash; it is far better than offering false certainty that later proves wrong.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "26974b0c-bb4f-4338-9d87-bbafd916b1ac",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are giving a person an honest account, but you do not yet know why the incident happened. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Explain what is known now, say clearly what is not yet known, and describe what will be done to find out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Honesty includes being clear about what is not yet known, rather than guessing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Guess at a likely cause so the person has an answer straight away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Speculating about causes before enquiries are complete is not honest and can mislead the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing until every fact is confirmed, however long that takes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Candour must be timely; you share what is known now rather than waiting indefinitely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use technical language so the explanation sounds less serious.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Jargon that hides the meaning works against candour; keep the account plain and clear.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2a1fc917-2817-429d-be52-8cfeceed87fd",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

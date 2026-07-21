@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hot water hot, cold water cold</h2><p>The single most important control against legionella is temperature. Because the bacteria thrive between roughly 20 and 45 degrees, keeping water out of that range denies them the conditions they need. Your service manages this, but it helps to understand the principle.</p><ul><li><strong>Hot water kept hot:</strong> stored and distributed hot enough to kill bacteria.</li><li><strong>Cold water kept cold:</strong> below the temperature where legionella grows.</li><li><strong>Never left lukewarm:</strong> the danger zone is warm, in-between water.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d966ef06-9d16-42c8-859d-2038a5545368",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Temperature control",
+          "decorative": false,
+          "file": {
+            "path": "images/temperature-control.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6c70770a-b93a-4d5f-aca7-fda43fd681f6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping water out of the danger zone</h2><p>In practice this means hot water is usually stored at around 60 degrees and reaches the taps hot, while cold water is kept below about 20 degrees. Because very hot water can scald, mixing valves are often fitted near showers and basins to bring the temperature down at the point of use, so the water people touch is safe.</p><p>You are not expected to set or check these temperatures yourself unless you have been specifically trained and asked to. What matters for you is knowing that lukewarm water &mdash; a hot tap that only runs warm, or a cold tap that runs warm &mdash; is a warning sign worth reporting.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d5d0546c-5ed0-40f6-9948-fc214c05d35a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Keeping hot water hot and cold water cold helps control legionella because the bacteria thrive in warm, in-between temperatures.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Legionella thrives in warm water, so keeping water genuinely hot or genuinely cold is a key control.",
+            "correctAnswerMessage": "Correct. Legionella grows in warm water, so keeping water genuinely hot or genuinely cold denies it the conditions it needs."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "fae3f3c0-a8ce-499d-8c8f-cb678aa0ed27",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

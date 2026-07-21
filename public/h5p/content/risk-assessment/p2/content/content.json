@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hazard and risk are not the same</h2><p>People often use these words to mean the same thing, but they are different, and telling them apart is the foundation of everything else. A <strong>hazard</strong> is anything with the potential to cause harm. A <strong>risk</strong> is the chance, high or low, that someone will actually be harmed by that hazard, together with how serious the harm could be.</p><ul><li><strong>Hazard:</strong> the source of possible harm &mdash; a trailing cable, a hot drink, a heavy load.</li><li><strong>Risk:</strong> how likely harm is and how bad it would be.</li><li><strong>Assessment:</strong> weighing the risk and deciding what to do about it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b70fa684-630d-41ed-a5b3-93fd86fb6762",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hazard and risk",
+          "decorative": false,
+          "file": {
+            "path": "images/hazard-and-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fce14606-5cff-4bad-913f-4f406d0a222d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What a risk assessment does</h2><p>A risk assessment is simply a careful look at what, in your work, could cause harm to people, so that you can weigh up whether you have taken enough precautions or should do more. The aim is not to record every trivial thing or to wrap people in cotton wool. It is to make sure the significant hazards are identified and that sensible, proportionate steps are in place to prevent harm.</p><p>The same hazard can carry very different risks depending on the person and the situation. A bath is a hazard to everyone, but the risk is far greater for someone who is unsteady on their feet than for someone who is not. Good assessment always considers the individual, which is exactly why your knowledge of the people you support is so valuable.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1a977eab-1844-4f1e-a6b5-dcafee2329ab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A *hazard* is anything with the potential to cause harm, while the *risk* is how *likely* that harm is and how *serious* it would be. A risk *assessment* weighs this up and decides what precautions are needed.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "d52b8d2f-4a21-4fb0-b78f-bd45d54b0aa4",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

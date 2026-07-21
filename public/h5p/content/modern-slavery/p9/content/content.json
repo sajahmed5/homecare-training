@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of control by others</h2><p>One of the clearest signs of modern slavery is that another person appears to be in control. A victim may be accompanied everywhere by someone who answers all questions for them, holds their money and documents, and will not let them be seen alone. The victim may seem to defer to this person out of fear, and may not be registered with a GP or able to attend appointments without them.</p><ul><li><strong>Speaking for them:</strong> someone else always answers on their behalf.</li><li><strong>Holding everything:</strong> another person keeps their money and papers.</li><li><strong>Never alone:</strong> the person is rarely, if ever, left unaccompanied.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5a6223f2-8856-430f-b332-02513c7ce733",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Control &amp; conditions",
+          "decorative": false,
+          "file": {
+            "path": "images/control-amp-conditions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f0d2032a-fdf2-4177-a882-661ebaa5cdd0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Poor conditions and missing documents</h2><p>Look, too, at how and where a person lives and works. Victims are often housed in overcrowded, dirty or unsafe accommodation, with many people sleeping in one room, and are transported to and from work in groups at unusual hours. They may have no identity documents at all, because a passport or ID card has been taken from them and is held by someone else as a means of control.</p><p>A person who cannot produce their own documents, does not know their own address, has no bank account, or hands all their earnings to someone else may well be being exploited. Poor living and working conditions combined with these signs are strong reasons to raise a concern. Note what you see and pass it on through your safeguarding route.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad33cf49-5a83-49f4-bc91-e8c581ee5075",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It can be a warning sign of modern slavery when someone else insists on speaking for a person and holds their identity documents.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Someone else speaking for a person and keeping their documents is a recognised sign of control that should be reported.",
+            "correctAnswerMessage": "Correct. Another person controlling communication and holding someone&rsquo;s documents is a recognised warning sign that should be reported."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "eec18a63-d5a1-4c0e-96eb-c94591cac096",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

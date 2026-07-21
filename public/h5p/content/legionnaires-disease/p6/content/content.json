@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stagnation and stored water</h2><p>Legionella thrives wherever water stops moving. Every time an outlet is left unused, water sits still inside the pipework and warms towards room temperature, giving the bacteria time and conditions to multiply. Stored water and rarely used fittings are therefore key areas of concern.</p><ul><li><strong>Little-used outlets:</strong> taps and showers in empty rooms or spare bathrooms.</li><li><strong>Dead legs:</strong> lengths of pipe leading to fittings that are seldom used.</li><li><strong>Stored water:</strong> tanks and cylinders where water can sit for a time.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bef614ba-c363-4c7a-9742-1d177e453e3f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stagnant water",
+          "decorative": false,
+          "file": {
+            "path": "images/stagnant-water.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3187d420-bdf9-4576-b695-48431e46bdb6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why unused outlets matter</h2><p>A tap or shower in a vacant room, a rarely used guest bathroom, or an outlet serving someone who is away in hospital can quickly become a hidden risk. Water in these places is not refreshed, so it stagnates and warms, and any legionella present can multiply undisturbed until the outlet is next used.</p><p>Stored and standing water in tanks, cylinders and long stretches of pipe adds to this. It is a problem you cannot see, which is exactly why services keep records of little-used outlets and put a routine in place to keep water moving. Knowing where the quiet, forgotten outlets are on your unit is genuinely useful information.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "addeedd9-0af9-44fc-82df-ebe6a5bc4820",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why are little-used taps and showers a legionella concern?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Water sits still and warms up in them, letting bacteria multiply before the outlet is next used.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Stagnant, warming water is exactly what legionella needs to grow.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are usually connected to a completely separate water supply.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They share the same system; the problem is that their water is left standing.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are cleaned far more often than outlets in daily use.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The opposite is true &mdash; rarely used outlets are easily overlooked.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Bacteria cannot survive in water that is left standing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Standing, warm water is precisely where legionella multiplies.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b614baa4-3f2b-421b-83d5-a0ce9a124716",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

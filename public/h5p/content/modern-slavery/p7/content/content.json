@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Human trafficking</h2><p>Human trafficking is the recruitment, movement, harbouring or receiving of a person through force, fraud or deception in order to exploit them. Trafficking does not always involve crossing a border &mdash; people are trafficked within the UK, and even within a single town. What defines it is that a person is moved or held for the purpose of exploitation, whether that is labour, sexual exploitation, domestic servitude or crime.</p><ul><li><strong>Movement:</strong> a person is recruited, moved, harboured or received.</li><li><strong>Means:</strong> force, threats, deception or abuse of vulnerability.</li><li><strong>Purpose:</strong> the aim is always exploitation.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2b6830f1-26bc-4c6f-9400-2f21fbfabc75",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Trafficking &amp; control",
+          "decorative": false,
+          "file": {
+            "path": "images/trafficking-amp-control.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2821f56e-82c0-444e-9a0c-9b74304bbb7b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Coercion, control and debt bondage</h2><p>Traffickers keep victims under control in ways that leave few visible marks. Alongside physical violence, they use threats against the person or their family, isolation, confiscation of documents and phones, and constant surveillance. Many victims are too frightened, ashamed or dependent to leave, and some do not recognise that what is happening to them is wrong or unlawful.</p><p>A powerful tool of control is <strong>debt bondage</strong>: the victim is told they owe a huge sum for travel, accommodation, food or fees, with impossible interest added, so that the debt can never be cleared. This traps them in exploitation while appearing, on the surface, like an ordinary arrangement. Recognising coercion and debt bondage helps you understand why victims stay.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "da7f04ae-6381-4c30-9b6b-9cb74539da36",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Traffickers control victims through *threats*, by taking away their *documents*, and by trapping them in a *debt* they can never repay.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "3d506107-ce7c-429f-877c-004c0ca27725",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

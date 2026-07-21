@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Telling the person or family</h2><p>Doing candour well starts with telling the person &mdash; or, where appropriate, the people close to them &mdash; what has happened. This is often the hardest part, but it is also the most important. How you break the news shapes how the person experiences everything that follows, so approach it with honesty, warmth and respect.</p><ul><li><strong>Be direct and kind:</strong> tell the truth plainly, without hiding behind jargon.</li><li><strong>Choose the setting:</strong> find a private, calm place and give the person your full attention.</li><li><strong>Listen:</strong> let the person react, ask questions and say how they feel.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1831faeb-2c38-42e3-b8b6-f87fa62d8899",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Telling the person",
+          "decorative": false,
+          "file": {
+            "path": "images/telling-the-person.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "774fcab9-f367-4b57-aa10-716e5c18855f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>As soon as possible</h2><p>Candour must be timely. The person should be told as soon as is reasonably practicable after an incident comes to light &mdash; not after a delay while people decide what to say, and never only if the person happens to ask. Prompt honesty shows respect and gives the person the chance to get any follow-up care they need.</p><p>Being timely does not mean you must have every answer before you speak. It is honest, and often reassuring, to say what you do know now and to be clear that more will follow as things become clearer. What matters is that the person is not left in the dark, and that no one is trying to delay the truth in the hope that it goes unnoticed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "05cbae21-6e07-48da-a707-e77da5a712cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

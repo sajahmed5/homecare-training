@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording your concerns</h2><p>Good <strong>recording</strong> supports everything that follows. As soon as you safely can, write down what you saw, heard and were told, using clear, factual language and the person&rsquo;s own words where possible. Note the date, time and place, and describe the facts rather than your opinions. Follow your organisation&rsquo;s procedures for storing this information securely and sharing it only with the right people.</p><ul><li><strong>Be factual:</strong> record what you observed, not what you assume.</li><li><strong>Be specific:</strong> include dates, times, places and exact words.</li><li><strong>Be secure:</strong> store and share records as your policy requires.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "43b9aef1-c7ac-4ab8-953b-60b3fc830c8c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording &amp; summary",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-amp-summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7817f5eb-bffc-4df9-937b-7eb9634e282e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Remember: recognise and report</h2><p>You have learned what modern slavery is, the forms it takes, the signs that someone may be a victim, and how to respond safely. The heart of it is simple: modern slavery is a serious crime and a safeguarding issue that is hidden all around us, so stay alert, keep people safe, and report any concern without delay.</p><p>This course has given you awareness and knowledge to help you recognise and report &mdash; it does not replace your safeguarding policy or the supervised training you receive, and specialist agencies carry out the investigation. Never confront a suspected trafficker. Report to your manager or safeguarding lead, use the Modern Slavery Helpline for advice, and call 999 in an emergency. Your noticing could change, or even save, a life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dde21fc9-b349-45b4-964c-1566fde77d02",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

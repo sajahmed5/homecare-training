@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The water safety plan</h2><p>Everything you have learned so far comes together in your service's <strong>water safety plan</strong> &mdash; the written scheme that sets out how legionella risk is controlled in the building. It is based on a legionella risk assessment and it names who is responsible for each part of the work.</p><ul><li><strong>Duty holder:</strong> the employer or person in overall charge of the building.</li><li><strong>Responsible person:</strong> the named person who manages the day-to-day controls.</li><li><strong>Your part:</strong> the specific tasks assigned to you within the plan.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f01abe5b-4b45-4646-8a54-6636f37e4339",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The water safety plan",
+          "decorative": false,
+          "file": {
+            "path": "images/the-water-safety-plan.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b84c1ee5-f9fe-450e-9110-9c413a1f1add",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who does what</h2><p>The <strong>duty holder</strong> has overall legal responsibility, and they appoint a <strong>responsible person</strong> to manage legionella control day to day. The responsible person makes sure the risk assessment is done and kept up to date, that temperatures are checked, and that tasks like flushing and cleaning are carried out and recorded.</p><p>Your role sits within this. You carry out the simple tasks you are assigned, you record them, and you report anything that concerns you. You are <strong>not</strong> expected to carry out the risk assessment or decide what controls are needed &mdash; that responsibility stays firmly with the duty holder and the responsible person. Knowing where your role begins and ends is part of doing it well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f8475367-a08a-4a29-9979-93735f4205c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "The *responsible* person manages the water *safety* plan, while your job is to carry out assigned *tasks* and *report* any concerns.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "b2d68f4b-8dcf-4fdb-b1fe-d1df2f57b7bf",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

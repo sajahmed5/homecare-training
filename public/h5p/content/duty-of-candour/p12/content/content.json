@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A just and learning culture</h2><p>Candour thrives in a <strong>just and learning culture</strong> &mdash; one where people feel safe to be honest about mistakes because the response is to learn and improve rather than simply to blame. Most errors in care come from problems in systems and pressures on staff, not from bad people, so a fair culture looks for what went wrong and how to prevent it.</p><ul><li><strong>Just:</strong> people are treated fairly when they are open about honest mistakes.</li><li><strong>Learning:</strong> incidents are used to improve care for everyone.</li><li><strong>Safe to speak:</strong> workers can raise concerns without fear.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8be889aa-20e5-4c1e-8a94-fc0034314d9d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for A just culture",
+          "decorative": false,
+          "file": {
+            "path": "images/a-just-culture.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5eda0d7e-bfdd-43ea-bcd4-7a2b6e9252ae",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Speaking up and whistleblowing</h2><p>Being open sometimes means raising a concern about something you have seen &mdash; unsafe practice, a risk to someone&rsquo;s wellbeing, or a mistake that others are trying to hide. Speaking up is part of candour, and the law protects workers who raise genuine concerns in the public interest. This protection is often called <strong>whistleblowing</strong>.</p><p>You should normally raise a concern first with your manager or through your organisation&rsquo;s speaking-up procedure, and your workplace should have a policy that tells you how. If a concern is not acted on, there are further routes, including to the CQC. A good organisation welcomes people who speak up, because their honesty is exactly what keeps people safe and drives improvement.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1daf003e-8854-47f3-982f-632e2f0d1a82",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does a &lsquo;just and learning culture&rsquo; mean for candour?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>People feel safe to be open about honest mistakes because the focus is on learning and improving, not simply on blame.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. A just culture treats people fairly and uses incidents to improve care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nobody is ever held accountable for anything they do.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A just culture is fair, not blame-free of all accountability; it distinguishes honest error from reckless behaviour.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Mistakes are kept quiet so the organisation looks good.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That is the opposite of a learning culture, which depends on openness about mistakes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only managers are allowed to raise concerns.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Everyone can and should speak up; workers who raise genuine concerns are protected in law.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5d1d2803-9f0e-4061-84df-fc696594492c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

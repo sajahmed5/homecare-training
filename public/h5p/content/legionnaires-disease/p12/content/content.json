@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Spotting and reporting problems</h2><p>As the person on the unit every day, you are well placed to notice early warning signs that a water system is not working as it should. Reporting these promptly lets the responsible person act before a small issue becomes a real risk.</p><ul><li><strong>Lukewarm water:</strong> hot taps running only warm, or cold taps running warm.</li><li><strong>Unusual signs:</strong> odd smells, discoloured water or heavy scale.</li><li><strong>Unused areas:</strong> outlets in empty rooms that may have been standing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1eae4f5d-5535-43d5-8b26-3c28983030ef",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting problems",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-problems.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "79be164b-675b-4aad-a382-e1fb062ccd77",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to report</h2><p>Tell the responsible person or a senior colleague if you notice water that is not the temperature it should be, water that looks discoloured or smells unusual, showerheads heavily coated in scale, or taps and showers that have not been used for some time. If a room has been empty, or a resident has been away, flag that the outlets there may need flushing before use.</p><p>None of this is about becoming a plumber or an expert. It is about noticing when something is not right and passing it on, so that the people whose job it is to manage the water system can look into it. A quick, clear report is always the right response when you are unsure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1dad1ce5-1d0c-45c7-8a73-3ef6352225ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

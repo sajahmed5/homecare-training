@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Legionella control works because many people play their part, and your part &mdash; though small &mdash; is a real one. By following the plan, carrying out your assigned tasks and speaking up when something looks wrong, you help keep the water safe for people who could become seriously ill.</p><ul><li><strong>Follow the plan:</strong> do the tasks your service assigns you.</li><li><strong>Record your tasks:</strong> note down the flushing, cleaning and checks you complete.</li><li><strong>Report concerns:</strong> raise anything that worries you promptly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "81954af1-32f9-4640-bbc7-1be44a5f5997",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "759567be-d460-4f0b-9945-00847d6d78aa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and its limits</h2><p>Remember that carrying out and managing the <strong>legionella risk assessment</strong> is the job of the duty holder and the responsible person, not yours. Your role is to follow the water safety plan, complete simple assigned tasks such as flushing little-used outlets and cleaning showerheads, keep accurate records, and report any concerns or symptoms straight away.</p><p>This course has given you <strong>awareness and knowledge</strong> only. It does not replace the supervised, practical training your employer provides, and it does not replace your service's legionella risk assessment, which is carried out and managed by the responsible person. If you are ever unsure what to do, ask &mdash; checking is always the safe choice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "46823b83-87a0-4414-b5d8-1e8bac4b1351",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following best describes your role in controlling legionella?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Following the water safety plan, carrying out assigned tasks, recording them and reporting concerns.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. That is exactly the part a care worker plays in keeping water safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carrying out the legionella risk assessment for the whole building.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The risk assessment sits with the duty holder and the responsible person, not with you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deciding which controls the service needs and setting water temperatures.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Those decisions belong to the responsible person; your role is to follow the plan.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Doing nothing, because legionella is entirely someone else's responsibility.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You have a small but genuinely important part to play in the plan.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "bb0faaaa-80b6-4b7f-9aa6-d87fb6981c3d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
