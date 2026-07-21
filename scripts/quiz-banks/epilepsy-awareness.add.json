@@ -1,0 +1,538 @@
+{
+  "slug": "epilepsy-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What happens in the brain during a seizure?",
+      "options": [
+        "A sudden burst of intense electrical activity briefly disrupts how the brain normally works",
+        "The brain's blood supply is completely cut off",
+        "A permanent injury forms on the surface of the brain",
+        "The brain shrinks in size for a few minutes"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How is epilepsy best described?",
+      "options": [
+        "A condition caused only by physical head injuries",
+        "A type of mental illness that people put on for attention",
+        "A condition that gives a person a tendency to have seizures",
+        "A short-term infection that clears up within days"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, how is a diagnosis of epilepsy usually made?",
+      "options": [
+        "By a specialist doctor, usually after more than one seizure",
+        "By the person themselves once they feel unwell",
+        "By a care worker after watching a single seizure",
+        "Automatically after any one seizure of any kind"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these does the course name as a group of seizure where the whole brain is involved from the start?",
+      "options": [
+        "Focal aware seizures",
+        "Photosensitive auras",
+        "Generalised seizures",
+        "Focal impaired awareness seizures"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which description best fits a tonic-clonic (convulsive) seizure?",
+      "options": [
+        "The person loses consciousness, their body stiffens and then their muscles jerk rhythmically",
+        "The person has a headache with no change in movement or awareness",
+        "The person briefly stares and blanks out for a few seconds",
+        "The person notices a strange smell but stays fully aware"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In a tonic-clonic seizure, what happens during the tonic phase?",
+      "options": [
+        "The person's body goes stiff, often causing them to fall if standing",
+        "The person recovers and feels fully alert",
+        "The person's muscles jerk rhythmically",
+        "The person quietly daydreams for a few seconds"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which seizure type is described as a brief blanking out that is more common in children?",
+      "options": [
+        "Focal aware seizure",
+        "Absence seizure",
+        "Status epilepticus",
+        "Tonic-clonic seizure"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why can an absence seizure be easy to miss?",
+      "options": [
+        "It only affects people who are asleep",
+        "It is brief and quiet, lasting only a few seconds with the person appearing to daydream",
+        "It always happens during the night",
+        "It causes loud convulsions that distract onlookers"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where does a focal (partial) seizure start?",
+      "options": [
+        "In just one part of the brain",
+        "In both sides of the brain at once from the start",
+        "In the heart before reaching the brain",
+        "In the spine and never in the brain"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the key difference between a focal aware and a focal impaired awareness seizure?",
+      "options": [
+        "How long the person has had epilepsy",
+        "Whether the seizure happens indoors or outdoors",
+        "The person's age when first diagnosed",
+        "Whether the person stays aware during the seizure"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "During a focal aware seizure, the person:",
+      "options": [
+        "Stays conscious and can often describe it afterwards",
+        "Never notices anything unusual",
+        "Is unable to remember anything about it",
+        "Always loses consciousness completely"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Someone having a focal impaired awareness seizure is plucking at their clothing and mumbling. What is the right way to understand this?",
+      "options": [
+        "They are drunk and should be left alone",
+        "They are being deliberately difficult",
+        "They are pretending to gain attention",
+        "They are not in control of it and will usually not remember it"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is an aura?",
+      "options": [
+        "A machine used to time seizures",
+        "A medicine given after a seizure",
+        "A type of brain scan",
+        "A warning that a seizure is coming, which is itself a focal aware seizure"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person tells you they can feel a seizure coming. What is the best response?",
+      "options": [
+        "Tell them to carry on as normal",
+        "Ignore it, as auras are never reliable",
+        "Leave them alone to deal with it themselves",
+        "Take it seriously, help them to a safe place and stay with them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is named in the course as a common seizure trigger?",
+      "options": [
+        "Drinking plenty of water",
+        "Going for a gentle daily walk",
+        "Missing doses of prescribed anti-seizure medication",
+        "Eating regular, balanced meals"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the course say about flashing or flickering lights as a trigger?",
+      "options": [
+        "They trigger seizures in everyone who has epilepsy",
+        "They are the most common trigger of all",
+        "They can cure epilepsy in some people",
+        "They trigger seizures in only a minority of people with epilepsy"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person falls and begins a convulsive seizure on the floor. What should you do first?",
+      "options": [
+        "Hold their arms and legs still to stop the jerking",
+        "Lift them onto a chair straight away",
+        "Put a spoon or your fingers into their mouth",
+        "Cushion their head, move nearby objects that could harm them, and note the time"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When should you move a person who is having a convulsive seizure?",
+      "options": [
+        "Always, straight into another room",
+        "Only if they are in a dangerous place, such as a road or by a fire",
+        "Never, under any circumstances",
+        "Only if other people ask you to"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you never put anything in the mouth of someone having a seizure?",
+      "options": [
+        "It can break teeth, injure them or you, and block their airway",
+        "It stops the seizure too quickly",
+        "It makes the person swallow their tongue",
+        "It is only unnecessary but otherwise harmless"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Once the jerking movements have stopped, what should you do?",
+      "options": [
+        "Gently roll the person onto their side into the recovery position",
+        "Sit them upright in a chair immediately",
+        "Give them food and drink straight away",
+        "Leave them lying flat on their back and walk away"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is the recovery position used after the convulsive movements stop?",
+      "options": [
+        "It stops the person from ever having another seizure",
+        "It helps keep the airway clear and lets saliva drain from the mouth",
+        "It makes the person wake up instantly",
+        "It is only for comfort and has no safety purpose"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How long must a convulsive seizure last before you should call 999, if there is no care plan saying otherwise?",
+      "options": [
+        "More than 20 minutes",
+        "More than 30 seconds",
+        "More than 5 minutes",
+        "More than 1 hour"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name for a convulsive seizure lasting longer than 5 minutes, or repeated seizures without recovery in between?",
+      "options": [
+        "A focal aware seizure",
+        "An aura",
+        "Status epilepticus",
+        "An absence seizure"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who may give rescue medication such as buccal midazolam?",
+      "options": [
+        "Any care worker who has completed epilepsy awareness training",
+        "Anyone, as it is completely safe",
+        "Any family member who is present",
+        "Only staff who are trained, assessed as competent, and have the person's individual protocol"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the best summary of your role in supporting someone with epilepsy?",
+      "options": [
+        "Restrain the person to keep them still until the seizure stops",
+        "Support the person, give safe seizure first aid, recognise emergencies and escalate, and record accurately",
+        "Give rescue medication whenever a seizure happens",
+        "Diagnose the type of epilepsy and adjust their medication"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "One seizure on its own always means a person has epilepsy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Epilepsy is more common in people with a learning disability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "During a focal impaired awareness seizure, a person may wander or fumble with their clothing and not be aware of what they are doing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A person can swallow their tongue during a seizure, so you should hold their mouth open.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should give a person food or drink as soon as the jerking stops, before they are fully alert.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should never leave a person alone during a seizure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Any care worker who has completed epilepsy awareness training is allowed to give buccal midazolam rescue medication.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The risk of SUDEP is thought to be lower when seizures are better controlled.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are correct first aid actions during a convulsive seizure? (Select all that apply)",
+      "options": [
+        "Hold the person's limbs still to stop the jerking",
+        "Put something between their teeth",
+        "Time how long the seizure lasts",
+        "Move harmful objects away from the person",
+        "Cushion the person's head with something soft"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these should you NEVER do during a seizure? (Select all that apply)",
+      "options": [
+        "Stay calm and reassure them",
+        "Put your fingers or an object in their mouth",
+        "Restrain the person or hold them down",
+        "Cushion their head"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are named in the course as common seizure triggers? (Select all that apply)",
+      "options": [
+        "Lack of sleep",
+        "Stress and illness",
+        "Drinking plenty of water",
+        "Missed medication",
+        "Gentle daily exercise"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When should you call 999 for a seizure? (Select all that apply)",
+      "options": [
+        "One seizure follows another without the person recovering in between",
+        "It is the person's first-ever seizure",
+        "A convulsive seizure lasts more than 5 minutes",
+        "The seizure stops on its own within two minutes and the person recovers"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which signs might you see during a tonic-clonic seizure? (Select all that apply)",
+      "options": [
+        "Going pale or bluish around the lips",
+        "Staying fully alert and chatting throughout",
+        "Biting their tongue",
+        "Losing control of their bladder or bowels"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What should a person's epilepsy care plan typically include? (Select all that apply)",
+      "options": [
+        "A guarantee that they will never have another seizure",
+        "How long their seizures normally last",
+        "What their seizures usually look like",
+        "Their known triggers and when to call for help"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of giving dignified, person-centred support after a seizure? (Select all that apply)",
+      "options": [
+        "Reassuring the person that they are safe",
+        "Bombarding them with questions while they are still confused",
+        "Helping discreetly if they have been incontinent",
+        "Keeping onlookers back to give privacy"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "During a seizure you must never ___ the person or put anything in their mouth.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "restrain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A convulsive seizure that lasts longer than ___ minutes is a medical emergency requiring a 999 call.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "5",
+              "five"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Once the jerking movements have stopped, gently roll the person onto their side into the ___ position.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "recovery"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A warning that a seizure is coming is called an ___, and it is itself a focal aware seizure.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "aura"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "SUDEP stands for Sudden Unexpected ___ in Epilepsy.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "death"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

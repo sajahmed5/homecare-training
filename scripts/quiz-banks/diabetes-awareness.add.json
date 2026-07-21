@@ -1,0 +1,553 @@
+{
+  "slug": "diabetes-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the main job of insulin in the body?",
+      "options": [
+        "To help glucose move out of the blood and into the body's cells to be used for energy",
+        "To raise blood glucose after every meal",
+        "To turn glucose into water for the body to store",
+        "To remove carbohydrate from food before it is digested"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Where in the body is insulin made?",
+      "options": [
+        "The kidneys",
+        "The liver",
+        "The stomach",
+        "The pancreas"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is glucose?",
+      "options": [
+        "A hormone that unlocks the body's cells",
+        "A waste product the kidneys remove",
+        "A type of fat stored in the blood",
+        "A sugar that travels in the blood and is the body's main source of energy"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What happens to blood glucose when diabetes is not treated?",
+      "options": [
+        "It stays in the blood instead of getting into the cells, so levels rise too high",
+        "It is turned straight into insulin",
+        "It stays exactly the same as in someone without diabetes",
+        "It disappears from the blood completely"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What causes Type 1 diabetes?",
+      "options": [
+        "The pancreas making far too much insulin",
+        "Eating too much sugar as a child",
+        "A short-term infection that clears up on its own",
+        "The body's immune system attacking the cells that make insulin, so little or none is made"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best describes Type 2 diabetes?",
+      "options": [
+        "The body still makes some insulin but not enough, or the insulin does not work properly",
+        "The body makes no insulin at all from birth",
+        "It always starts in early childhood",
+        "It can only be treated with insulin injections"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of diabetes means a person needs insulin every day, for life?",
+      "options": [
+        "Neither type ever needs insulin",
+        "Type 1",
+        "Diabetes that develops in pregnancy",
+        "Type 2"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of diabetes is much more common?",
+      "options": [
+        "Both are equally common",
+        "Type 2",
+        "Type 1",
+        "Neither is common in adults"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The phrase 'four is the floor' reminds us that a hypo is generally treated when blood glucose drops below what level?",
+      "options": [
+        "14 mmol/L",
+        "4 mmol/L",
+        "1 mmol/L",
+        "40 mmol/L"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a common cause of a hypo in someone on insulin or certain tablets?",
+      "options": [
+        "Resting quietly after a normal meal",
+        "A meal being missed or delayed, or doing more activity than usual",
+        "Drinking plenty of water during the day",
+        "Eating a large, sugary pudding at lunchtime"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If a person with diabetes is having a hypo but is awake and able to swallow safely, what should you give first?",
+      "options": [
+        "Nothing until a nurse arrives",
+        "A large plate of pasta",
+        "A fast-acting sugar such as glucose tablets, pure fruit juice or a sugary drink",
+        "A slice of wholemeal toast"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "After a person has recovered from a hypo with fast-acting sugar, what should you give next?",
+      "options": [
+        "A diet fizzy drink",
+        "A longer-acting carbohydrate such as a sandwich, fruit or biscuits",
+        "Nothing more to eat that day",
+        "More fast-acting sugar every few minutes for an hour"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support with diabetes has become unconscious. What should you do?",
+      "options": [
+        "Try to give them a sugary drink to bring their glucose up",
+        "Wait to see whether they wake up on their own",
+        "Call 999, put them in the recovery position, stay with them, and give nothing by mouth",
+        "Put glucose gel or a biscuit into their mouth"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How long should you usually wait after giving fast-acting sugar before checking the person again?",
+      "options": [
+        "A full hour",
+        "About 1 to 2 minutes",
+        "About 10 to 15 minutes",
+        "Until the next mealtime"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which set of signs is typical of a hyper (high blood glucose)?",
+      "options": [
+        "A fast heartbeat that settles after a sugary drink",
+        "Feeling shaky, sweaty and hungry",
+        "Feeling cold, calm and full of energy",
+        "Being very thirsty, passing lots of urine and feeling tired"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Compared with a hypo, how does a hyper usually develop?",
+      "options": [
+        "Within a few seconds",
+        "It never develops gradually",
+        "Only ever while the person is asleep",
+        "More slowly, over hours or days"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In diabetic ketoacidosis (DKA), where do the harmful acids called ketones come from?",
+      "options": [
+        "The body breaking down fat for energy because there is not enough insulin",
+        "The pancreas releasing extra insulin",
+        "Eating special diabetic foods",
+        "Drinking too much water"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Diabetic ketoacidosis (DKA) is far more common in people with which type of diabetes?",
+      "options": [
+        "Diabetes that develops in pregnancy",
+        "Type 1",
+        "It is equally common in all types",
+        "Type 2"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these could be a warning sign of diabetic ketoacidosis (DKA)?",
+      "options": [
+        "Being sick, tummy pain, deep or rapid breathing and breath that smells sweet or fruity",
+        "Feeling calm and well with a normal appetite",
+        "Sleeping soundly through the night with no thirst",
+        "Feeling shaky and hungry that settles after a sugary drink"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does keeping blood glucose within a healthy range over the long term matter?",
+      "options": [
+        "It cures Type 1 diabetes",
+        "It has no real effect on long-term health",
+        "It reduces damage to the blood vessels and nerves and lowers the risk of long-term complications",
+        "It makes insulin unnecessary for everyone"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which parts of the body can be damaged by poorly controlled diabetes over time?",
+      "options": [
+        "None of the body is affected",
+        "Only the ears",
+        "Only the hair and nails",
+        "The eyes, kidneys, nerves, feet and heart"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "You notice a red, sore area on the foot of a person with diabetes. What should you do?",
+      "options": [
+        "Cut away any hard skin around it to help it heal",
+        "Report it promptly and record it, so it can be checked before it gets worse",
+        "Ignore it, as small foot problems always heal on their own",
+        "Tell the person to keep walking on it to keep the blood flowing"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who should cut a person's corns or hard skin on the feet?",
+      "options": [
+        "A podiatrist",
+        "The person's family",
+        "Any care worker who has the time",
+        "Anyone, as it is not important"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the best guidance on diet for most people with diabetes?",
+      "options": [
+        "Cutting out every trace of sugar and carbohydrate completely",
+        "A healthy, balanced diet like the Eatwell Guide, with sensible portions and food they enjoy",
+        "Skipping meals to keep blood glucose low",
+        "Eating only special, expensive 'diabetic' foods"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What effect does regular physical activity tend to have on blood glucose?",
+      "options": [
+        "It stops the body needing food altogether",
+        "It lowers blood glucose",
+        "It has no effect on blood glucose",
+        "It raises blood glucose sharply"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Can a care worker administer insulin or diabetes medication after completing this awareness course?",
+      "options": [
+        "Yes, but only at the weekend",
+        "No, that requires specific training, assessed competence and a proper delegation from a qualified professional",
+        "Yes, as long as the person asks them to",
+        "Yes, this course fully authorises it"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "People with Type 1 diabetes need insulin every day because their body makes little or no insulin of its own.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Type 2 diabetes is less common than Type 1 diabetes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Insulin raises blood glucose after a meal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A hypo is when blood glucose falls too low and needs treating straight away.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to give a sugary drink to a person who is unconscious to bring their glucose up.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Extra physical activity can lower blood glucose, so people on insulin or certain tablets may be more likely to have a hypo when they are more active than usual.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A single high blood glucose reading is usually a medical emergency that always needs a 999 call on its own.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If a person with diabetes is unwell and vomiting, or has readings that are repeatedly very high or very low, you should report it promptly rather than wait and see.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are signs of a hypo? (Select all that apply)",
+      "options": [
+        "Passing lots of urine over several days",
+        "Becoming confused or irritable",
+        "Sweating and looking pale",
+        "Feeling shaky or trembling"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are common triggers for a hypo? (Select all that apply)",
+      "options": [
+        "More physical activity than normal",
+        "A meal or snack being missed, delayed or smaller than usual",
+        "Drinking alcohol",
+        "Resting quietly after a normal meal",
+        "Drinking plenty of water"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are classic signs of a hyper (high blood glucose)? (Select all that apply)",
+      "options": [
+        "Passing lots of urine",
+        "Feeling tired or lacking energy",
+        "Feeling shaky and hungry",
+        "Being very thirsty"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are long-term complications that can result from poorly controlled diabetes? (Select all that apply)",
+      "options": [
+        "Nerve damage and foot problems",
+        "Damage to the kidneys",
+        "Damage to the eyes",
+        "Heart disease and stroke"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are good foot-care actions when supporting someone with diabetes? (Select all that apply)",
+      "options": [
+        "Report any cuts, redness, swelling or sores straight away",
+        "Help them check their feet daily",
+        "Keep the feet clean and dry and wear well-fitting shoes",
+        "Cut away corns and hard skin yourself"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are warning signs of diabetic ketoacidosis (DKA)? (Select all that apply)",
+      "options": [
+        "Deep or rapid breathing",
+        "Feeling and being sick, with tummy pain",
+        "Breath that smells sweet or fruity",
+        "Feeling calm and well with a normal appetite"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are part of your everyday role in supporting someone with diabetes? (Select all that apply)",
+      "options": [
+        "Noticing when things change, such as a hypo, hyper or foot problem",
+        "Diagnosing diabetes and deciding on treatment",
+        "Reporting changes and worries promptly",
+        "Recording readings, meals, symptoms and concerns accurately"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ is when blood glucose falls too low.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hypo",
+              "hypoglycaemia",
+              "hypoglycemia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Insulin is a hormone made in the ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "pancreas"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A hypo is generally treated when blood glucose drops below ___ mmol/L.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "4",
+              "four"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In DKA, the body breaks down fat instead of glucose, producing acids called ___ that build up and make the blood dangerously acidic.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "ketones",
+              "ketone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Never put food or drink into the mouth of someone who is ___, because it can choke them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "unconscious"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

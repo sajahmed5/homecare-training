@@ -1,0 +1,545 @@
+{
+  "slug": "stroke-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What happens to the brain during a stroke?",
+      "options": [
+        "The brain becomes tired and needs a short rest to recover.",
+        "Only the muscles are affected, not the brain itself.",
+        "The blood supply to part of the brain is cut off, so brain cells are starved of oxygen and begin to die.",
+        "The brain produces too much blood and becomes overactive."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A stroke is often called a \"brain attack\". What does the phrase \"time is brain\" mean?",
+      "options": [
+        "The brain slows down time during a stroke.",
+        "Every minute of delay means more of the brain is lost.",
+        "A stroke only affects the brain at certain times of day.",
+        "There is plenty of time to watch and wait before acting."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why do the effects of a stroke differ from one person to another?",
+      "options": [
+        "Because the effects depend only on how tall the person is.",
+        "Because they depend on which part of the brain is affected and how much damage is done.",
+        "Because effects are random and cannot be explained.",
+        "Because the effects depend on the person's age alone."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the most common type of stroke?",
+      "options": [
+        "An ischaemic stroke.",
+        "A haemorrhagic stroke.",
+        "A transient ischaemic attack.",
+        "A stroke caused by tiredness."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What causes an ischaemic stroke?",
+      "options": [
+        "A blood vessel in the brain bursts and bleeds.",
+        "The person has not eaten enough that day.",
+        "A clot blocks a blood vessel supplying the brain.",
+        "The brain makes too much oxygen."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What causes a haemorrhagic stroke?",
+      "options": [
+        "A short, harmless interruption to blood flow.",
+        "The person's blood pressure drops too low.",
+        "A clot travels from the heart to the brain.",
+        "A blood vessel in or around the brain bursts and bleeds."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes a TIA, or \"mini-stroke\"?",
+      "options": [
+        "A stroke that lasts for several weeks.",
+        "A harmless event that never needs medical attention.",
+        "A brief interruption to the blood supply whose symptoms pass, but which is a serious warning sign.",
+        "A type of stroke that only affects children."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How can medical staff tell which type of stroke a person has had?",
+      "options": [
+        "By checking the person's temperature.",
+        "By waiting to see how quickly they recover.",
+        "By asking the person which type they think it is.",
+        "Only a hospital brain scan can tell them apart."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which is described as the single biggest risk factor for stroke?",
+      "options": [
+        "Taking regular gentle walks.",
+        "High blood pressure, especially when it is not well controlled.",
+        "Reading in good lighting.",
+        "Drinking water with meals."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does atrial fibrillation increase the risk of a stroke?",
+      "options": [
+        "It has no real effect on stroke risk.",
+        "It lowers the person's blood pressure to a safe level.",
+        "This irregular heartbeat allows clots to form that can travel to the brain.",
+        "It makes the brain produce extra blood vessels."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In the FAST test, what does the letter \"T\" stand for?",
+      "options": [
+        "Test the person's balance.",
+        "Temperature to check.",
+        "Time to call 999.",
+        "Talk to the person calmly."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When checking \"Face\" in the FAST test, what should you do?",
+      "options": [
+        "Ask them to spell their name backwards.",
+        "Check whether their vision is blurred.",
+        "Ask them to raise both arms above their head.",
+        "Look at their face and ask them to smile, checking whether it has fallen on one side."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When checking \"Arms\" in the FAST test, what are you looking for?",
+      "options": [
+        "Whether their arms feel warm to the touch.",
+        "Whether they can write their name.",
+        "Whether they can raise both arms and keep them there, or whether one drifts downwards.",
+        "Whether they can clap their hands quickly."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When checking \"Speech\" in the FAST test, what might you notice?",
+      "options": [
+        "Their speech is slurred or muddled, or they cannot talk at all even though they seem awake.",
+        "The person is speaking more clearly than usual.",
+        "The person is humming a tune.",
+        "The person is speaking a foreign language."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How many FAST signs must be present before you act?",
+      "options": [
+        "At least three of the four signs.",
+        "All four signs must be present.",
+        "You must wait for the signs to appear twice.",
+        "Any single one of the signs is enough to act on."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Besides the FAST signs, which sudden symptom could also be a sign of a stroke?",
+      "options": [
+        "A sudden severe headache with no known cause, sometimes the worst the person has ever had.",
+        "A mild ache that has built up slowly over a week.",
+        "Feeling slightly hungry before lunch.",
+        "A gradual improvement in memory over several days."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "You notice a person has suddenly become muddled and one side of their mouth has drooped. What should you do?",
+      "options": [
+        "Give them a hot drink and encourage them to rest.",
+        "Wait an hour to see whether they return to normal on their own.",
+        "Recognise this as a possible stroke, check FAST, and call 999 immediately.",
+        "Assume they are just tired and note it to mention next week."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the single most important action when you suspect someone is having a stroke?",
+      "options": [
+        "Help them lie down and check again later.",
+        "Phone the person's GP for an appointment.",
+        "Call 999 for an ambulance without delay and say you suspect a stroke.",
+        "Give the person their usual medication."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A colleague suggests driving the person to hospital themselves. What should you do?",
+      "options": [
+        "Call 999 so paramedics can begin assessment on the way and take them to the right stroke unit.",
+        "Ask the person which they would prefer.",
+        "Wait for a GP appointment instead.",
+        "Agree, as it will be faster than waiting."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person showed stroke signs a few minutes ago but now seems completely back to normal. What should you do?",
+      "options": [
+        "Do nothing, because the signs have gone.",
+        "Ask them to lie down and check on them in a few hours.",
+        "Wait until tomorrow and mention it to the GP if it happens again.",
+        "Still call 999 — the signs may have been a TIA, a warning that a major stroke could follow."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it important to note the time the symptoms started?",
+      "options": [
+        "Some stroke treatments can only be given within a set time from when the stroke began.",
+        "It helps decide whether to call 999 at all.",
+        "It is needed to fill in the person's care plan later.",
+        "It tells you which type of stroke the person has had."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why must you not give a person food or drink when you suspect a stroke?",
+      "options": [
+        "Because eating slows down the recovery of brain cells.",
+        "A stroke can affect swallowing, so food or fluid could go into the airway and cause choking.",
+        "Because it would spoil their appetite for later.",
+        "Because the ambulance crew will bring their own food."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "After calling 999, what should you do while waiting for the ambulance?",
+      "options": [
+        "Move them around to keep them active.",
+        "Give them a tablet to help with any pain.",
+        "Leave the person alone so they can rest quietly.",
+        "Stay with the person, keep them calm and comfortable, and watch them closely."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the term \"dysphagia\" mean after a stroke?",
+      "options": [
+        "A sudden severe headache.",
+        "Difficulty with vision in one eye.",
+        "Weakness down one side of the body.",
+        "Difficulty swallowing, which needs careful management to help prevent choking."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about aphasia is correct?",
+      "options": [
+        "It means the person's intelligence has been permanently damaged.",
+        "It makes it hard to speak, understand, read or write, but it does not affect the person's intelligence.",
+        "It only affects the person's ability to walk.",
+        "It is a temporary tiredness that passes within an hour."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A stroke is a medical emergency that happens suddenly and is life-threatening.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You should only call 999 if a person shows all four FAST signs at the same time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A TIA can safely be ignored if the person appears to recover quickly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "High blood pressure is the single biggest risk factor for stroke.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to give a person a small sip of water while waiting for the ambulance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Noting the time a person's stroke symptoms started is useful information for the hospital.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Aphasia means a person's intelligence has been damaged by the stroke.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Overwhelming fatigue after a stroke is a real effect and is not a sign of laziness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised risk factors for stroke? (Select all that apply)",
+      "options": [
+        "Reading in good lighting",
+        "Smoking",
+        "Drinking water with meals",
+        "Atrial fibrillation",
+        "High blood pressure"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are sudden signs of a stroke beyond the FAST test? (Select all that apply)",
+      "options": [
+        "Sudden weakness or numbness down one side of the body",
+        "Sudden trouble with vision in one or both eyes",
+        "Sudden loss of balance or coordination",
+        "A gradual improvement in memory over a week",
+        "Slowly feeling hungrier than usual"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "While waiting for the ambulance after calling 999, which actions are appropriate? (Select all that apply)",
+      "options": [
+        "Give them a cup of tea to steady their nerves",
+        "Keep them calm and comfortable and reassure them",
+        "Note the time the symptoms started to pass to paramedics",
+        "Leave to phone the GP for advice",
+        "Stay with the person and do not leave them alone"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following must you NOT do when someone may be having a stroke? (Select all that apply)",
+      "options": [
+        "Give them a drink",
+        "Give them food",
+        "Give them medication by mouth",
+        "Note the time the symptoms began",
+        "Call 999 for an ambulance"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are common effects of a stroke? (Select all that apply)",
+      "options": [
+        "Overwhelming fatigue and emotional or cognitive changes",
+        "Weakness or paralysis down one side of the body",
+        "A permanent improvement in memory and concentration",
+        "Faster, stronger movement on one side",
+        "Difficulty swallowing (dysphagia)"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How can you best support someone with aphasia after a stroke? (Select all that apply)",
+      "options": [
+        "Offer other ways to communicate, such as writing, pictures or gestures",
+        "Use short sentences and questions",
+        "Give them time and do not rush or finish their sentences",
+        "Talk loudly and quickly so they keep up",
+        "Speak only to their relatives and not to them"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which everyday support can help reduce the risk of another stroke? (Select all that apply)",
+      "options": [
+        "Encouraging the person to skip their medication",
+        "Supporting the person to take prescribed medicines as directed",
+        "Ignoring any new concerns rather than reporting them",
+        "Encouraging the person not to smoke",
+        "Encouraging a balanced diet and activity where it is in the care plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The FAST test stands for Face, Arms, Speech and ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "time"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "An ischaemic stroke is caused by a ___ blocking the flow of blood to the brain.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "clot",
+              "blood clot"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ stroke is caused by a blood vessel bursting and bleeding.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "haemorrhagic",
+              "hemorrhagic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The moment you suspect someone is having a stroke, you must call ___ for an ambulance.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Difficulty swallowing after a stroke is known as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dysphagia"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

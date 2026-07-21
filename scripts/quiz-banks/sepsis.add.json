@@ -1,0 +1,692 @@
+{
+  "slug": "sepsis",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which statement best describes what sepsis is?",
+      "options": [
+        "A type of infection that only affects the lungs",
+        "The body's overwhelming and life-threatening response to an infection, which begins to damage its own tissues and organs",
+        "A long-term condition that develops slowly over many years",
+        "A mild skin rash that clears up on its own within a few days"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does speed matter so much with sepsis?",
+      "options": [
+        "It is contagious and spreads quickly between people in a care home",
+        "It can develop from a minor infection and become deadly within hours, and every hour of delay increases the risk of harm",
+        "It only becomes dangerous after several weeks, so there is time to observe",
+        "It always clears up by itself if left alone for a day"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the care worker's role when sepsis is suspected?",
+      "options": [
+        "To start antibiotics and give fluids straight away",
+        "To recognise that the person is seriously unwell and escalate immediately",
+        "To wait and watch to see whether the person improves",
+        "To diagnose the type of infection before telling anyone"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support suddenly seems very confused and “not themselves”. What is the most helpful thing to do?",
+      "options": [
+        "Assume they are just having an off day and check again tomorrow",
+        "Try to work out yourself which infection they have before telling anyone",
+        "Ask “could this be sepsis?” and escalate the change straight away",
+        "Wait until the end of your shift to mention it in the handover"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which infections can lead to sepsis?",
+      "options": [
+        "Only chest infections such as pneumonia",
+        "Almost any infection — including chest, urine, wound and skin infections",
+        "Only very serious infections that need hospital treatment from the start",
+        "Only infections in people who have just had an operation"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it important to actually say the word “sepsis” when you escalate?",
+      "options": [
+        "It confirms the diagnosis so treatment can begin without a clinician",
+        "It signals a possible emergency and prompts others to act urgently",
+        "It replaces the need to describe what you have actually seen",
+        "It is only needed when writing up notes after the emergency is over"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which everyday action helps reduce a person's risk of developing an infection that could lead to sepsis?",
+      "options": [
+        "Following infection control procedures, keeping catheters and wounds clean, and supporting good hydration",
+        "Skipping hand hygiene when you are busy to save time",
+        "Leaving a catheter drainage system open so it drains more easily",
+        "Waiting until a wound looks badly infected before mentioning it"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a common part of recovery after sepsis that you should be aware of?",
+      "options": [
+        "An immediate and complete return to normal within a day of leaving hospital",
+        "A reason to stop reporting any new changes in the person's health",
+        "A guarantee that the person can never get an infection or sepsis again",
+        "Lasting tiredness, low mood and problems with memory, sometimes called post-sepsis syndrome"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When someone has sepsis, what is it that actually causes the harm to the body?",
+      "options": [
+        "The person's own immune response going into overdrive and injuring their tissues and organs",
+        "A lack of vitamins in the person's diet",
+        "The antibiotics used to treat the infection",
+        "A single germ that attacks only the heart"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Sepsis is sometimes called “blood poisoning”, but the course explains that it is really:",
+      "options": [
+        "A condition caused only by contaminated food",
+        "A poison deliberately introduced into the bloodstream",
+        "The body's own reaction to infection that causes the harm",
+        "Something that only happens after a blood transfusion"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which group is at higher risk of becoming seriously unwell with sepsis?",
+      "options": [
+        "Older and frail people, especially those over 75",
+        "Only people who have never had an infection",
+        "Only professional athletes",
+        "Only people who live alone"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why do devices such as a urinary catheter or a drip line add to the risk of sepsis?",
+      "options": [
+        "They are always painful and cause shock",
+        "They cause the immune system to switch off completely",
+        "They give germs a route inside the body",
+        "They make the person's temperature rise on their own"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which single question does the course encourage you to ask when someone is suddenly unwell?",
+      "options": [
+        "“Which antibiotic should I give?”",
+        "“Can you wait until tomorrow?”",
+        "“Is this worth mentioning at all?”",
+        "“Could this be sepsis?”"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A family member tells you a person is “not themselves” and they seem more confused and drowsy than usual. How should you treat this?",
+      "options": [
+        "As a reason to let the person sleep it off before mentioning it",
+        "As an important early warning that should be passed on quickly",
+        "As nothing to worry about, because moods change",
+        "As information only useful for the next annual review"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is listed as a common warning sign of sepsis in adults?",
+      "options": [
+        "Slow, relaxed breathing",
+        "Bright, clear, pink skin",
+        "New confusion or slurred speech",
+        "A strong, steady appetite"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the course say about a person's temperature in sepsis?",
+      "options": [
+        "It is always very high with a clear fever",
+        "It is always normal, so temperature can be ignored",
+        "It may be either very high or abnormally low, and an older person may not develop a high fever at all",
+        "It has no connection to sepsis at all"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How might the skin of someone developing sepsis look?",
+      "options": [
+        "Always covered in a green rash",
+        "Mottled, pale, blotchy or bluish, especially on the lips, hands or feet",
+        "Deeply tanned and warm all over",
+        "Completely unchanged in every case"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Some people with sepsis describe an overwhelming feeling of impending doom. How should this be treated?",
+      "options": [
+        "Recorded only after the emergency is over",
+        "Ignored unless a temperature is also high",
+        "Dismissed as ordinary worry",
+        "Always taken seriously"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support has a urinary catheter and their urine has become cloudy and smelly, and they seem more unwell. What should you do?",
+      "options": [
+        "Assume it is normal for anyone with a catheter",
+        "Wait a few days to see whether it clears on its own",
+        "Report it, staying alert to the possibility of infection and sepsis",
+        "Remove the catheter yourself immediately"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Someone you support is already being treated with antibiotics for an infection but is becoming more unwell rather than better. What does this mean?",
+      "options": [
+        "Sepsis can develop even while treatment is under way, so this is an important warning to escalate",
+        "You should stop watching them because treatment is under way",
+        "The infection must have gone, so the decline is unrelated",
+        "Antibiotics always prevent sepsis, so there is nothing to worry about"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "The most dangerous thing you can do when sepsis is possible is to:",
+      "options": [
+        "Note the time you became concerned",
+        "Tell a nurse or senior straight away",
+        "Wait and watch to see how the person goes",
+        "Say the word “sepsis” out loud"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When should you call 999 for a person with possible sepsis?",
+      "options": [
+        "Never, because care workers are not allowed to call 999",
+        "When the person is very unwell — for example struggling to breathe, hard to rouse, or with mottled or blue skin",
+        "Only after waiting a full hour to be sure",
+        "Only once a doctor has already confirmed the diagnosis"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You raised a concern with a nurse, but the person keeps getting worse. What should you do?",
+      "options": [
+        "Wait until your next shift to raise it again",
+        "Leave the person alone so they can rest",
+        "Speak up again and be prepared to call 999 yourself",
+        "Assume it is being dealt with and say nothing more"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "After you have raised the alarm for possible sepsis, what should you do with the person?",
+      "options": [
+        "Give them food and drink to build their strength",
+        "Move them to another room and lock the door",
+        "Stay with them where you can, keep them comfortable and keep watching for change",
+        "Leave them alone to rest until help arrives"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What information is most useful to note and pass on when you suspect sepsis?",
+      "options": [
+        "Nothing — recording anything just wastes time",
+        "Only the person's date of birth",
+        "The time you first became concerned, the signs, when they started and any observations taken",
+        "A guess about which antibiotic will work best"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should recording relate to escalating when sepsis is suspected?",
+      "options": [
+        "Recording matters, but it must never slow down escalation — get help first, then record the detail",
+        "Recording should only be done a week later",
+        "Recording should always be completed before getting any help",
+        "Recording replaces the need to escalate"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these best supports a person's body in resisting infection in the first place?",
+      "options": [
+        "Avoiding hand hygiene when busy",
+        "Keeping them dehydrated and inactive",
+        "Skipping skin care to save time",
+        "Supporting good hydration, nutrition and movement"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should a urinary catheter and its drainage system be kept, in line with the care plan and your training?",
+      "options": [
+        "Clean and closed",
+        "Left unchecked for as long as possible",
+        "Open and loose so it drains faster",
+        "Shared between different people to save equipment"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which changes in a wound or pressure area should be reported promptly?",
+      "options": [
+        "Any wound that is fully healed",
+        "Increasing redness, swelling, heat, pain or discharge",
+        "Only wounds that are completely painless",
+        "Only wounds on the person's hands"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the course say about how long recovery from sepsis can take?",
+      "options": [
+        "Everyone recovers fully within one day",
+        "Recovery is always instant with no after-effects",
+        "Nobody ever recovers from sepsis",
+        "Recovery can take weeks or months, and some people are left with lasting effects"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is described as a cognitive after-effect that can be part of post-sepsis syndrome?",
+      "options": [
+        "A permanently raised temperature",
+        "Improved athletic performance",
+        "Problems with memory and concentration",
+        "Perfect long-term health"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should you support someone recovering after sepsis?",
+      "options": [
+        "Stop monitoring them completely because they have recovered",
+        "Encourage rest balanced with gentle activity, support hydration and nutrition, and be understanding about tiredness and low mood",
+        "Insist on vigorous exercise straight away regardless of tiredness",
+        "Tell them their tiredness and low mood are unusual and their fault"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you keep watching someone who has already had sepsis?",
+      "options": [
+        "Because sepsis only ever happens once and never returns",
+        "Because they can become unwell again with a new infection or further decline",
+        "Because they are now immune to all infections",
+        "Because they no longer need any care at all"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What sort of language should you use when recording what you observed?",
+      "options": [
+        "Vague guesses about the cause",
+        "Assumptions about what will happen next",
+        "Plain, factual and objective language describing what you saw and when",
+        "Only medical jargon that others may not understand"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A rash that does not fade when you press a glass against it is:",
+      "options": [
+        "A separate medical emergency in its own right that means you should not wait",
+        "A normal sign that can safely be ignored",
+        "Only important in children",
+        "A reason to wait several hours before acting"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How certain do you need to be before you escalate a concern about sepsis?",
+      "options": [
+        "You must have a doctor's confirmation in advance",
+        "You must have taken a full set of observations twice",
+        "You must be completely certain and rule out every other cause first",
+        "You never need to feel certain — if you are worried enough, raise the alarm"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which starting-point infection could be easy to overlook in the people you support?",
+      "options": [
+        "A common cough that has fully cleared",
+        "A broken bone with no infection",
+        "A healed surgical scar from years ago",
+        "A urine infection or an infected pressure sore"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If a false alarm turns out not to be sepsis after you escalated, this is:",
+      "options": [
+        "A serious mistake you should avoid repeating",
+        "A reason to stop escalating in future",
+        "Something you must apologise for at length",
+        "Never a problem — it is exactly what you are meant to do"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which organisation is named as a source of further support for people affected by sepsis?",
+      "options": [
+        "The local library",
+        "A gardening club",
+        "The UK Sepsis Trust",
+        "A car insurance company"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "Sepsis is a life-threatening medical emergency that can arise from almost any infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "New confusion or disorientation in someone you support can be an early warning sign of sepsis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you suspect sepsis, it is best to wait a few hours to see whether the person improves before telling anyone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A care worker's role includes diagnosing sepsis and starting antibiotic treatment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Someone with a normal temperature can still have sepsis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Sepsis can only develop from very serious infections and never from a seemingly minor one.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Good hand hygiene and infection control are among the best defences against sepsis, because sepsis starts with infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Once someone has survived sepsis, they can never become seriously unwell from infection again.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised warning signs of sepsis in adults? (Select all that apply)",
+      "options": [
+        "New confusion or slurred speech",
+        "Passing little or no urine",
+        "Mottled, pale or bluish skin",
+        "Fast breathing or breathlessness",
+        "A steady, calm heartbeat and clear pink skin"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which groups are at higher risk of becoming seriously unwell with sepsis? (Select all that apply)",
+      "options": [
+        "People with a weakened immune system, for example due to diabetes or chemotherapy",
+        "Healthy young adults who have never had any infection",
+        "People who have recently had surgery or an invasive procedure",
+        "Older and frail people, especially those over 75"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which infections can be a starting point for sepsis? (Select all that apply)",
+      "options": [
+        "Chest infections such as pneumonia",
+        "Urinary tract infections",
+        "Wound, skin and surgical infections",
+        "A fully healed scar with no signs of infection"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When you suspect sepsis, which actions should you take? (Select all that apply)",
+      "options": [
+        "Wait until the end of your shift before mentioning it",
+        "Say the word “sepsis” out loud",
+        "Call 999 if the person is very unwell",
+        "Escalate immediately to a senior or nurse"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which everyday actions help prevent the infections that can lead to sepsis? (Select all that apply)",
+      "options": [
+        "Keeping catheters and drainage systems clean and closed",
+        "Thorough hand hygiene at the right moments",
+        "Reporting changes in wounds and pressure areas promptly",
+        "Skipping infection control procedures when short of time"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are possible after-effects that can be part of post-sepsis syndrome? (Select all that apply)",
+      "options": [
+        "Problems with memory and concentration",
+        "Extreme tiredness and weakness",
+        "A guarantee of complete lifelong immunity to infection",
+        "Low mood or anxiety"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Once you have raised the alarm for possible sepsis, what should you do while help is on the way? (Select all that apply)",
+      "options": [
+        "Keep them comfortable and offer calm reassurance",
+        "Stay with the person and not leave them alone",
+        "Leave to complete your other tasks and return later",
+        "Keep watching for any change and report it straight away"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sepsis is the body's overwhelming and life-threatening response to an ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "infection"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When you escalate a concern, you should say the word ___ out loud so others act quickly.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "sepsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If the person is very unwell, call ___ and ask for an ambulance without delay.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The care worker's role is to recognise and ___; it does not include diagnosing or treating.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "escalate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "As soon as you can, note the ___ you first became concerned and what you observed.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "time"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

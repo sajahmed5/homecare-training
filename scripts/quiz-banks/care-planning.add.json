@@ -1,0 +1,540 @@
+{
+  "slug": "care-planning",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is a care plan?",
+      "options": [
+        "A list of a person's problems and diagnoses only",
+        "A legal contract the person signs before any care can begin",
+        "The written record of how a person wishes to be supported, what matters to them and the outcomes they hope to achieve",
+        "A fixed timetable of tasks that applies to every person a service supports"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which piece of legislation underpins the assessment of a person's needs and the duty to produce a care and support plan in England?",
+      "options": [
+        "The Care Act 2014",
+        "The Human Rights Act 1998",
+        "The Health and Safety at Work Act 1974",
+        "The Equality Act 2010"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Care planning is best described as which of the following?",
+      "options": [
+        "A task carried out only by family members",
+        "An ongoing cycle of assessment, plan and review",
+        "A single document completed once and then filed away",
+        "A form the care worker writes from scratch each visit"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who is responsible for carrying out the formal assessment and authoring the care plan?",
+      "options": [
+        "The care worker delivering daily support",
+        "A trained assessor or senior colleague",
+        "Any family member who is present",
+        "The person's neighbour or friend"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the care planning cycle, what is the purpose of a review?",
+      "options": [
+        "A regular check that the plan is still right and still working",
+        "To assess a person's eligibility for the first time",
+        "To remove the person from the service",
+        "To write the very first version of the plan"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does person-centred care mean?",
+      "options": [
+        "Doing tasks as quickly as possible to fit more people in",
+        "Planning support around the individual's own life, preferences and goals",
+        "Letting the care worker decide what is best because they are trained",
+        "Fitting the person into a fixed routine so care is consistent"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The Care Act 2014 is built on the idea of wellbeing. Which of these is part of that wellbeing?",
+      "options": [
+        "The number of workers assigned to a person",
+        "The speed at which tasks are completed",
+        "A person's dignity, control over daily life and relationships",
+        "The cost of the support provided"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the difference between a task and an outcome?",
+      "options": [
+        "A task is something a worker does, while an outcome is what the person gains",
+        "A task is what the person gains and an outcome is what the worker does",
+        "An outcome is always written by the person and a task by the family",
+        "There is no difference; the words mean the same thing"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is written as an outcome rather than a task?",
+      "options": [
+        "To be able to get to the community lunch club and stay in touch with friends",
+        "Assist the person to wash and dress each morning",
+        "Empty and clean the commode after each use",
+        "Prompt the person to take their medication at 8am"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a strengths-based approach to care planning?",
+      "options": [
+        "Planning that builds on the abilities, resources and relationships a person already has",
+        "Planning that ignores what a person can do to save time",
+        "Planning that focuses only on a person's problems and needs",
+        "Planning led entirely by the person's family"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If a person can butter their own toast but needs help making the tea, what should the plan do?",
+      "options": [
+        "Leave out the detail because it is trivial",
+        "Ask the family to make both for them",
+        "Record that they manage the toast, so no one takes over what they can do",
+        "Say a worker should do everything to be safe"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the Care Act 2014 require regarding the person's role in their own plan?",
+      "options": [
+        "The person must be involved in preparing their plan and have a genuine say",
+        "Only professionals may contribute to the plan",
+        "The person may only sign the plan once it is finished",
+        "The plan should be written for the person without their input"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Where someone would struggle to be involved in their plan, who can help their voice be heard?",
+      "options": [
+        "A member of the public",
+        "An independent advocate",
+        "The quickest available worker",
+        "The Care Quality Commission inspector"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How should family knowledge be used in a care plan?",
+      "options": [
+        "Only if the family member is a nurse",
+        "It should always override what the person wants",
+        "With the person's consent, to make the plan richer, while the person's voice comes first",
+        "Instead of asking the person anything"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which law sets out how to support people to make their own decisions and what to do when someone may not be able to?",
+      "options": [
+        "The Care Act 2014",
+        "The Data Protection Act 2018",
+        "The Equality Act 2010",
+        "The Mental Capacity Act 2005"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the starting assumption under the Mental Capacity Act 2005?",
+      "options": [
+        "That the worker decides what is safest",
+        "That family should decide for the person",
+        "That a person cannot make decisions until proven otherwise",
+        "That a person can make their own decisions"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person with capacity makes a choice about their care that you think is unwise but they clearly understand it. What does the Mental Capacity Act expect?",
+      "options": [
+        "Assume they lack capacity because the choice seems unwise",
+        "Respect their decision, as a person with capacity may make an unwise choice",
+        "Ask a relative to make the decision instead",
+        "Overrule them because your job is to keep them safe"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When a person genuinely cannot make a particular decision even with support, any decision made on their behalf must be:",
+      "options": [
+        "In their best interests and the least restrictive option",
+        "Whatever the family prefers",
+        "Decided by the care worker alone",
+        "The cheapest option available"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Capacity under the Mental Capacity Act is described as:",
+      "options": [
+        "Only relevant to people over 65",
+        "The same for every decision a person faces",
+        "Fixed for life once assessed",
+        "Decision-specific, so a person may manage some decisions and need help with others"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the SMART approach to outcomes stand for?",
+      "options": [
+        "Safe, monitored, assessed, reviewed, timed",
+        "Specific, measurable, achievable, relevant and time-bound",
+        "Simple, manageable, agreed, recorded, tidy",
+        "Strengths, motivation, ability, resources, teamwork"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does positive risk-taking mean in a care plan?",
+      "options": [
+        "Weighing a risk against the benefit to the person's independence, choice and quality of life",
+        "Removing every risk by removing the activity",
+        "Letting the family decide all risks",
+        "Ignoring risks so the person can do what they like"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Once a care plan is agreed, what is the care worker's central duty?",
+      "options": [
+        "To ignore the plan and use their own judgement",
+        "To rewrite the plan as they see fit",
+        "To work to the plan so everyone supports the person in the same agreed way",
+        "To share the plan publicly with others"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You arrive to find a task in the care plan no longer seems to suit the person. What should you do?",
+      "options": [
+        "Skip the task altogether because you disagree with it",
+        "Quietly do the task a different way and say nothing",
+        "Follow the agreed plan for now and report your concern so it can be reviewed",
+        "Wait until the annual review months away before mentioning it"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of offering everyday choice while following the plan?",
+      "options": [
+        "Asking which jumper they would like, or tea or coffee",
+        "Doing tasks in whatever order is quickest",
+        "Telling the person what they must wear",
+        "Deciding the person's whole day for them"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Over several visits you notice a person needs much more help than usual to walk to the bathroom. What is the best action?",
+      "options": [
+        "Record what you observed factually and report it so the plan and risks can be reviewed",
+        "Decide it is just old age and not worth mentioning",
+        "Say nothing unless the person falls",
+        "Change the person's mobility support yourself without telling anyone"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A care plan is a living document that is never finished and changes as the person does.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A care worker is responsible for carrying out the formal assessment and writing the care plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person should be actively involved in preparing and reviewing their own care and support plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Making a choice that others see as unwise, on its own, proves that a person lacks capacity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Consent can be withdrawn at any moment, and the care worker must respect that.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A care plan should be reviewed only once, when it is first written.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Care records must be kept confidential and handled in line with the UK GDPR and the Data Protection Act 2018.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Escalating a change in a person's needs means going over your colleagues' heads and is discouraged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are stages of the care planning cycle? (Select all that apply)",
+      "options": [
+        "Discharge from all services",
+        "Prosecution",
+        "Assessment",
+        "Review",
+        "Care and support plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What should a good, person-centred care plan capture? (Select all that apply)",
+      "options": [
+        "Only the person's medical diagnoses",
+        "The person's strengths",
+        "The person's wishes and outcomes",
+        "The person's needs",
+        "Only the tasks that are quickest for the worker"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which are key principles of the Mental Capacity Act 2005? (Select all that apply)",
+      "options": [
+        "Assume a person can make their own decisions",
+        "A relative can always take over any decision for the person",
+        "Support the person to make the decision before concluding they cannot",
+        "A person has the right to make what others see as an unwise choice"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are types of change you might notice and should record and report? (Select all that apply)",
+      "options": [
+        "The colour of the walls in the person's home",
+        "A change in the person's health, such as new pain or poor appetite",
+        "A change in mood or situation, such as low spirits or a carer becoming unwell",
+        "A change in ability, such as a task they now struggle with"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following describe a good care record? (Select all that apply)",
+      "options": [
+        "Accurate and factual, recording what you saw and did",
+        "Written from memory at the end of the week",
+        "Timely, written as soon as you can",
+        "Kept confidential and stored securely",
+        "Full of your personal opinions about the person and their family"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How can you support good teamwork and communication around a care plan? (Select all that apply)",
+      "options": [
+        "Keep useful observations to yourself to save time",
+        "Pass on important information clearly at handovers",
+        "Ask a senior when you are unsure rather than guessing",
+        "Write in the person's records so the next worker knows what happened"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which situations may trigger a care plan review sooner than planned? (Select all that apply)",
+      "options": [
+        "After a spell in hospital",
+        "When nothing about the person has changed at all",
+        "After a fall",
+        "After a bereavement"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A care plan is a ___ document that is reviewed regularly.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "living"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Person-centred care means planning support around the ___, treating them as the expert on their own life.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "individual",
+              "person"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Mental Capacity Act 2005 requires that any decision made on a person's behalf is in their best ___ and is the least restrictive option.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "interests"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A SMART outcome is specific, measurable, achievable, relevant and time-___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "bound"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When a change affects a person's safety or wellbeing and cannot wait for the next review, you need to ___ it promptly to the right person.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "escalate"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
