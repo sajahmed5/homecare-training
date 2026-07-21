@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The PBS plan and consistency</h2><p>Every person supported through PBS should have a <strong>PBS plan</strong> (sometimes called a behaviour support plan). Written by trained professionals with the person and those who know them, it draws together everything the team has learned: the person's needs, their triggers and early warning signs, what a good day looks like, and exactly how to support them &mdash; proactively, at the first sign of distress, and if things escalate.</p><ul><li><strong>Personal:</strong> the plan is built around this individual and no one else.</li><li><strong>Practical:</strong> it tells you what to do at each stage of support.</li><li><strong>Shared:</strong> everyone in the team follows the same plan.</li></ul><p>Your job is to know the plan for each person you support, and to follow it faithfully.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "015784b4-a04a-4dc8-afd4-2d42f461ab36",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The PBS plan",
+          "decorative": false,
+          "file": {
+            "path": "images/the-pbs-plan.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "542b5574-b48b-47cd-bdf0-9933edd3d9e3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why consistency matters</h2><p>PBS only works when the whole team supports a person in the same, agreed way. If one worker follows the plan and another does something different, the person receives mixed messages, which is confusing and unsettling and can make distress more likely. <strong>Consistency</strong> gives people the predictability and security that help them feel safe.</p><p>This means reading and understanding each person's PBS plan, asking if anything is unclear, and following it even on a busy day. It also means sharing what you notice &mdash; recording how strategies worked, and reporting changes &mdash; so the plan can be kept up to date by the professionals who lead it. A PBS plan is a living document, not a form filed away.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c900296c-895f-4dc8-88c5-d408977b4700",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is best if each care worker uses their own personal approach with a person, rather than all following the same PBS plan.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Consistency is essential in PBS &mdash; everyone should follow the same agreed plan, or the person receives confusing, unsettling mixed messages.",
+            "correctAnswerMessage": "Correct. The whole team should follow the same PBS plan consistently; mixed approaches confuse and unsettle the person."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "c2907c2b-16c1-4a92-93a7-201660413a8e",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

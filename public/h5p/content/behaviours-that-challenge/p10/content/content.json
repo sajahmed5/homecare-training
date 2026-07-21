@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Following the care and behaviour support plan</h2><p>You are not expected to work out what to do alone in the moment. Many people who regularly experience distress have a care plan, and sometimes a behaviour support plan, that sets out their known triggers, their early signs, and the approaches that work best for them. Following the plan means everyone responds in the same, familiar way, which is reassuring for the person and safer for all.</p><ul><li><strong>Know the plan:</strong> read it and be familiar with it before you support the person.</li><li><strong>Follow agreed approaches:</strong> use the strategies known to help this individual.</li><li><strong>Feed back:</strong> tell the team what worked and what did not, so the plan can be improved.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9cb7d39b-84da-4e55-a555-eb7cc7e0c80c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Following the plan",
+          "decorative": false,
+          "file": {
+            "path": "images/following-the-plan.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4903e0c0-a3ea-472e-9a75-20e2ca457130",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Positive behaviour support</h2><p>Behaviour support plans are often built around positive behaviour support, an approach that focuses on understanding why behaviour happens and improving the person&rsquo;s quality of life so that distress becomes less likely. Rather than waiting for behaviour to occur and reacting to it, positive behaviour support puts most of its effort into prevention &mdash; meeting needs, building good routines, and creating an environment where the person can thrive.</p><ul><li><strong>Understand the cause:</strong> look at what the behaviour achieves for the person and what need it meets.</li><li><strong>Prevent, don&rsquo;t just react:</strong> change things in advance to reduce triggers and distress.</li><li><strong>Improve quality of life:</strong> a good day, with choice and meaningful activity, is the best prevention.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3c6c8e27-7695-4ab7-b256-91df7fe39af0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A behaviour support *plan* sets out a person&rsquo;s triggers and the approaches that help them. Positive behaviour support focuses on *prevention* rather than simply reacting, by understanding the *cause* of behaviour and improving the person&rsquo;s quality of *life*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "1c79bfd7-3927-4f8d-9761-06c4977021b6",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "behaviours-that-challenge",
+  "title": "Behaviour that Challenges",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p1",
+      "label": "What the term means",
+      "questions": 0,
+      "section": "Understanding behaviour that challenges"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p2",
+      "label": "Behaviour as communication",
+      "questions": 1,
+      "section": "Understanding behaviour that challenges"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p3",
+      "label": "Who may be affected",
+      "questions": 1,
+      "section": "Understanding behaviour that challenges"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p4",
+      "label": "Common triggers",
+      "questions": 1,
+      "section": "Recognising triggers and early signs"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p5",
+      "label": "The escalation cycle",
+      "questions": 1,
+      "section": "Recognising triggers and early signs"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p6",
+      "label": "Knowing the person",
+      "questions": 1,
+      "section": "Recognising triggers and early signs"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p7",
+      "label": "Staying calm",
+      "questions": 1,
+      "section": "Responding and de-escalating"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p8",
+      "label": "Listening and space",
+      "questions": 0,
+      "section": "Responding and de-escalating"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p9",
+      "label": "Offering choices",
+      "questions": 1,
+      "section": "Responding and de-escalating"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p10",
+      "label": "Following the plan",
+      "questions": 1,
+      "section": "Responding and de-escalating"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p11",
+      "label": "Keeping everyone safe",
+      "questions": 1,
+      "section": "Keeping safe and afterwards"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p12",
+      "label": "Least restrictive practice",
+      "questions": 1,
+      "section": "Keeping safe and afterwards"
+    },
+    {
+      "type": "h5p",
+      "path": "behaviours-that-challenge/p13",
+      "label": "Recording and learning",
+      "questions": 0,
+      "section": "Keeping safe and afterwards"
+    }
+  ]
+}

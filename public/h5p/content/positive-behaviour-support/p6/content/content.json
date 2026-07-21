@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Triggers and knowing the person</h2><p>Behaviour rarely happens out of the blue. Usually there are <strong>triggers</strong> &mdash; things that set it off &mdash; and underlying conditions that make a person more likely to struggle. Some triggers are obvious, like a sudden loud noise. Others are subtle, like being hungry, tired, in pain, or having a change to a familiar routine.</p><ul><li><strong>Immediate triggers:</strong> a noise, a demand, a change of plan, or being rushed.</li><li><strong>Underlying factors:</strong> pain, illness, tiredness, hunger, or feeling unwell.</li><li><strong>Setting events:</strong> a poor night's sleep or an upsetting phone call earlier.</li></ul><p>The better you know a person, the sooner you can spot what tends to trigger their distress.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "64974bb0-155f-4fc2-aed3-b6d6868cd117",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Triggers and the person",
+          "decorative": false,
+          "file": {
+            "path": "images/triggers-and-the-person.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "95315175-47bd-4f04-992f-74b2341e85d4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Understanding the whole person</h2><p>To support someone well, you need to understand them as an individual &mdash; their history, their likes and dislikes, what frightens or soothes them, and how they communicate. A person's past experiences shape how they respond today; someone who has been hurt or ignored in the past may find certain situations especially frightening. Knowing this helps you avoid triggers and respond with compassion.</p><p>Communication is central here. Learn how each person expresses themselves, including the small early signs that they are becoming anxious or unhappy &mdash; a change in facial expression, pacing, going quiet, or fidgeting. These signs are recorded in the person's PBS plan, drawn from those who know them best. The more you understand the whole person, the more you can prevent distress before it grows, which is far better for everyone than reacting once it has.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "57561130-f973-4322-a3d4-a00d9d3c5df5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why does understanding a person's history and communication matter in PBS?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It helps you spot early signs of distress and avoid known triggers, so you can support the person before things escalate</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Knowing the person helps you prevent distress rather than only reacting to it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It lets you predict exactly how everyone will behave so you never need the PBS plan</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Understanding the person works alongside the PBS plan; it does not replace it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only useful for keeping records and does not affect day-to-day support</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Understanding the person shapes your everyday support, not just the paperwork.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It allows you to decide which behaviours to ignore and which to punish</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. PBS never uses punishment; understanding the person helps you meet their needs with compassion.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "176e2b70-3b72-4f73-ad80-8bc1a3ec5cc3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

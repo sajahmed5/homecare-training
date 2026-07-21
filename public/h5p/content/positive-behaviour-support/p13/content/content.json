@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording, reflecting and post-incident support</h2><p>What happens after an incident matters as much as the incident itself. Careful <strong>recording</strong> and honest <strong>reflection</strong> help the team understand what happened and prevent it happening again, while <strong>post-incident support</strong> looks after the wellbeing of everyone involved.</p><ul><li><strong>Record:</strong> write down clearly and factually what happened, and any restriction used.</li><li><strong>Reflect:</strong> help the team learn what triggered the incident and what would help next time.</li><li><strong>Support:</strong> check on the person, and on staff, after a distressing event.</li></ul><p>Every use of a restrictive practice must be recorded and reviewed, so that its use can be understood and reduced over time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6fa88f02-c248-431f-9afd-8eaacb9a2108",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and support",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d6870bd7-9bc6-4698-9124-8484b09d8748",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on Positive Behaviour Support. You have explored what PBS is and the values of quality of life and respect at its heart; how behaviour has a function and communicates an unmet need; the proactive and person-centred strategies that help people live well; and least restrictive practice, restraint reduction and keeping everyone safe. After any incident, remember to record, reflect, and make sure the person and your colleagues receive the support they need.</p><p>Remember the key point from the start: this course covers <strong>knowledge and awareness</strong> only. <strong>PBS plans and functional assessments are developed and led by trained professionals</strong>, and your role is to follow each person's plan and work in the least restrictive way. Any <strong>physical intervention needs specific, accredited training and is always a last resort</strong> &mdash; never something to attempt from online learning alone. Speak to your manager about the PBS plans of the people you support, and carry these values into your everyday practice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bfc79e4c-556a-4a18-a340-a7a4cd0ad0ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

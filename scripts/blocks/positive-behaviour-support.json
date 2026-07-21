@@ -1,0 +1,97 @@
+{
+  "slug": "positive-behaviour-support",
+  "title": "Positive Behaviour Support",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What PBS is and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p2",
+      "label": "What PBS is",
+      "questions": 1,
+      "section": "What PBS is and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p3",
+      "label": "Values and old approaches",
+      "questions": 1,
+      "section": "What PBS is and its values"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p4",
+      "label": "Behaviour has a function",
+      "questions": 1,
+      "section": "Understanding behaviour"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p5",
+      "label": "Functions of behaviour",
+      "questions": 1,
+      "section": "Understanding behaviour"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p6",
+      "label": "Triggers and the person",
+      "questions": 1,
+      "section": "Understanding behaviour"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p7",
+      "label": "Primary prevention",
+      "questions": 1,
+      "section": "Proactive and person-centred strategies"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p8",
+      "label": "Meaningful days",
+      "questions": 0,
+      "section": "Proactive and person-centred strategies"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p9",
+      "label": "Secondary strategies",
+      "questions": 1,
+      "section": "Proactive and person-centred strategies"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p10",
+      "label": "The PBS plan",
+      "questions": 1,
+      "section": "Proactive and person-centred strategies"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p11",
+      "label": "Reactive strategies",
+      "questions": 1,
+      "section": "Least restrictive practice and keeping safe"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p12",
+      "label": "Restraint reduction",
+      "questions": 1,
+      "section": "Least restrictive practice and keeping safe"
+    },
+    {
+      "type": "h5p",
+      "path": "positive-behaviour-support/p13",
+      "label": "Recording and support",
+      "questions": 0,
+      "section": "Least restrictive practice and keeping safe"
+    }
+  ]
+}

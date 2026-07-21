@@ -1,0 +1,97 @@
+{
+  "slug": "lgbtq-awareness",
+  "title": "LGBTQ+ Awareness in Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p1",
+      "label": "Why inclusion matters",
+      "questions": 0,
+      "section": "Why inclusion matters"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p2",
+      "label": "The Equality Act",
+      "questions": 1,
+      "section": "Why inclusion matters"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p3",
+      "label": "History and trust",
+      "questions": 1,
+      "section": "Why inclusion matters"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p4",
+      "label": "Orientation and identity",
+      "questions": 1,
+      "section": "Understanding identity"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p5",
+      "label": "Names and pronouns",
+      "questions": 1,
+      "section": "Understanding identity"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p6",
+      "label": "Never assume",
+      "questions": 1,
+      "section": "Understanding identity"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p7",
+      "label": "No assumptions",
+      "questions": 1,
+      "section": "Inclusive care"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p8",
+      "label": "Relationships and faith",
+      "questions": 0,
+      "section": "Inclusive care"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p9",
+      "label": "Trans-inclusive care",
+      "questions": 1,
+      "section": "Inclusive care"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p10",
+      "label": "Records and information",
+      "questions": 0,
+      "section": "Inclusive care"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p11",
+      "label": "Recognising discrimination",
+      "questions": 1,
+      "section": "Challenging discrimination"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p12",
+      "label": "Responding well",
+      "questions": 1,
+      "section": "Challenging discrimination"
+    },
+    {
+      "type": "h5p",
+      "path": "lgbtq-awareness/p13",
+      "label": "Getting it right",
+      "questions": 1,
+      "section": "Challenging discrimination"
+    }
+  ]
+}

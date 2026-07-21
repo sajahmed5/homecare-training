@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Two different things</h2><p>Sexual orientation and gender identity are often confused, but they are separate parts of who a person is. Keeping them clear in your mind helps you understand and support people accurately, and use the right language.</p><ul><li><strong>Sexual orientation:</strong> who a person is emotionally or romantically attracted to &mdash; for example lesbian, gay, bisexual or heterosexual.</li><li><strong>Gender identity:</strong> a person&rsquo;s own inner sense of their gender &mdash; whether they are a man, a woman, both, neither or something else.</li><li><strong>Independent of each other:</strong> knowing one tells you nothing about the other.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "769f486a-26ed-48a5-a91f-e418e176072e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Orientation and identity",
+          "decorative": false,
+          "file": {
+            "path": "images/orientation-and-identity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "294aac59-126f-42d6-83d4-50576168ec24",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Understanding trans identities</h2><p>Someone is transgender, or trans, when their gender identity is different from the sex they were recorded as at birth. A trans woman was recorded male at birth and lives as a woman; a trans man was recorded female at birth and lives as a man. Some people are non-binary, meaning they do not identify simply as a man or a woman. A trans person may be of any sexual orientation, just as anyone else may be.</p><p>You do not need to fully understand every identity to give good care. What matters is that you respect how each person describes themselves and take your lead from them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cbb43a97-9efb-4a4d-a96c-38042f59c274",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the difference between sexual orientation and gender identity?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Sexual orientation is who a person is attracted to; gender identity is a person&rsquo;s own sense of their gender.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Orientation is about attraction, and gender identity is about a person&rsquo;s inner sense of who they are. They are separate.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They mean the same thing and can be used interchangeably.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are two different things. Orientation is about attraction, while gender identity is about a person&rsquo;s sense of their own gender.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Sexual orientation applies only to trans people.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Everyone has a sexual orientation, and everyone has a gender identity. Neither applies only to trans people.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Gender identity tells you who a person is attracted to.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It does not. A trans person, like anyone, may be of any sexual orientation. The two are independent.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6405aadc-1dd0-456e-aec0-e929697d495b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

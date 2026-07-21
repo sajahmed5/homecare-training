@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Proactive support: primary prevention</h2><p>The heart of PBS is <strong>proactive</strong> support &mdash; getting things right so that a person's needs are met and distress is far less likely to build in the first place. This is called <strong>primary prevention</strong>, and it is where most of the work of PBS happens. A good life, day in and day out, is the best prevention there is.</p><ul><li><strong>A good environment:</strong> calm, comfortable surroundings that suit the person.</li><li><strong>Meaningful activity:</strong> things to do that the person enjoys and values.</li><li><strong>Choice and routine:</strong> real choices, and predictable, reassuring routines.</li></ul><p>When these things are in place, people feel safer, more settled and more in control of their lives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d165a051-0e8f-42ae-b1f8-11a3eb73a2ef",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Primary prevention",
+          "decorative": false,
+          "file": {
+            "path": "images/primary-prevention.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8ecfe6fa-ab1e-493f-8313-71eca3b8bde9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Building a good day</h2><p>Primary prevention is made up of many everyday things done well. A good <strong>environment</strong> means surroundings that are not too noisy, crowded or chaotic for the person, at a comfortable temperature, with their own familiar belongings around them. <strong>Meaningful activity</strong> means having a reason to get up &mdash; work, hobbies, seeing people, being out in the community &mdash; rather than long empty hours, which are hard for anyone to bear.</p><p>Offering genuine <strong>choice</strong> gives a person control over their own life. <strong>Predictable routines</strong> help people know what to expect, which reduces anxiety, while good communication &mdash; using whatever methods suit the person &mdash; means they can understand and be understood. None of this is dramatic, but together it prevents a great deal of distress.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c84ff916-1f88-42c6-8521-a920a3e4743d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about primary prevention.</p></p>",
+          "textField": "Primary prevention means creating a good *environment*, offering meaningful *activity* and genuine *choice*, and keeping predictable *routines* so the person feels calm and secure.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "ff11ca5c-53b6-404e-8602-3a1ad479f292",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

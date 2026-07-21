@@ -1,0 +1,374 @@
+{
+  "slug": "positive-behaviour-support",
+  "courseTitle": "Positive Behaviour Support",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What PBS is and its values",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Positive Behaviour Support</h2><p>Welcome to this awareness course on <strong>Positive Behaviour Support</strong>, usually shortened to PBS. PBS is a values-based, person-centred way of supporting people whose behaviour others may find challenging &mdash; often people with a learning disability, autistic people, or people living with dementia or a mental health condition. It is built on respect, and on the belief that everyone has the right to a good life. This course is for care workers in England and draws on the principles set out by the PBS Academy &amp; BILD, alongside the Mental Capacity Act and guidance from Skills for Care.</p><ul><li><strong>Values-based:</strong> PBS puts a person's quality of life at its very heart.</li><li><strong>Person-centred:</strong> support is built around the individual, not around control.</li><li><strong>Your role:</strong> to follow the person's PBS plan and work in the least restrictive way.</li></ul><p>This e-learning covers the <strong>knowledge and awareness</strong> element only. <strong>PBS plans, including any functional assessment, are developed and led by trained professionals</strong>, and your job is to follow the plan consistently. Any <strong>physical intervention needs specific, accredited training</strong> and is always a <strong>last resort</strong> &mdash; it can never be learned from an online course alone.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will build a clear picture of what PBS is and how you support it day to day.</p><ul><li><strong>What PBS is:</strong> its values, and how it differs from old control-based approaches.</li><li><strong>Understanding behaviour:</strong> that behaviour has a purpose and communicates a need.</li><li><strong>Strategies and safety:</strong> proactive support, and least restrictive practice.</li></ul><p>The four sections move from the values behind PBS, through understanding why behaviour happens, to the proactive and person-centred strategies that help people live well &mdash; and finally to least restrictive practice and keeping everyone safe. Throughout, keep the people you support in mind, and remember that PBS is something the whole team does together, guided by each person's plan.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What PBS is",
+      "section": "What PBS is and its values",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What Positive Behaviour Support is</h2><p>Positive Behaviour Support is a framework for supporting people who may sometimes behave in ways that challenge those around them. Rather than focusing on stopping or &ldquo;managing&rdquo; the behaviour, PBS focuses on improving the person's <strong>quality of life</strong>. The thinking is simple but powerful: when someone has a good life &mdash; with relationships, activity, choice and comfort &mdash; behaviour that others find difficult tends to reduce, because the unmet needs behind it are being met.</p><ul><li><strong>Quality of life:</strong> the goal of PBS, not simply fewer incidents.</li><li><strong>Understanding:</strong> looking for the reasons behind behaviour.</li><li><strong>Support, not control:</strong> helping the person, not managing them.</li></ul><p>PBS is evidence-informed and ethical. It never sees a person as a problem to be controlled.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Not &ldquo;managing&rdquo; people</h2><p>It is worth being clear about language. In PBS we do not talk about &ldquo;managing&rdquo; people or their behaviour, because people are not problems to be managed. Instead we talk about understanding and supporting them. This is more than a change of words &mdash; it reflects a change in attitude. When behaviour is difficult, the PBS question is not &ldquo;how do we stop this?&rdquo; but &ldquo;what is this person trying to tell us, and what do they need?&rdquo;</p><p>This shift keeps the person at the centre. A behaviour that looks challenging &mdash; shouting, refusing, hitting out, or withdrawing &mdash; is almost always a sign that something is wrong for that person. PBS treats it as important information, not as bad behaviour to be corrected. Your calm, respectful response, guided by the person's plan, is part of giving them a better day.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the main goal of Positive Behaviour Support?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "To improve the person's quality of life, so that the needs behind their behaviour are met",
+              "correct": true,
+              "feedback": "Correct. PBS puts quality of life at its heart; when needs are met, difficult behaviour tends to reduce."
+            },
+            {
+              "text": "To stop the behaviour as quickly as possible using firm rules",
+              "correct": false,
+              "feedback": "Not quite. PBS is not about stopping behaviour through rules, but about understanding and meeting the person's needs."
+            },
+            {
+              "text": "To manage the person so that staff have an easier shift",
+              "correct": false,
+              "feedback": "No. PBS is about the person's quality of life, not about managing people for staff convenience."
+            },
+            {
+              "text": "To punish behaviour that others find difficult",
+              "correct": false,
+              "feedback": "No. PBS never uses punishment; it looks for the need behind the behaviour and works to meet it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Values and old approaches",
+      "section": "What PBS is and its values",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>PBS and older, control-based approaches</h2><p>For a long time, people whose behaviour challenged others were often met with control: being told off, having things taken away, being restrained, or being given medication to keep them quiet. These approaches focused on the behaviour itself and on making it stop. They frequently made things worse, because they ignored the reasons behind the behaviour and could be frightening or degrading for the person.</p><ul><li><strong>Old approach:</strong> control the behaviour, often through punishment or restriction.</li><li><strong>PBS approach:</strong> understand the need and improve the person's life.</li><li><strong>The difference:</strong> PBS works with the person, not against them.</li></ul><p>PBS grew out of a recognition that people deserve better than to be controlled.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A values-based framework</h2><p>At its core, PBS is built on values. It holds that every person has the right to be treated with dignity, to make choices, to have relationships and meaningful activity, and to be included in their community. It rejects the idea that some people simply have to be controlled for their own good. Where old approaches asked the person to change to fit the service, PBS asks the service to change to fit the person.</p><p>These values are not soft or optional &mdash; they are what makes the framework work. Everything that follows only helps if it is done in a spirit of respect. When you support someone under a PBS plan, you are not delivering a technique; you are helping a person live the best life they can, on their own terms as far as possible.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap to complete the sentences about PBS.</p>",
+          "textField": "PBS puts a person's *quality* of life at its heart and treats behaviour as a form of *communication*. Rather than trying to *control* the person, it works to understand and meet the *need* behind what they do."
+        }
+      ]
+    },
+    {
+      "label": "Behaviour has a function",
+      "section": "Understanding behaviour",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Behaviour has a function</h2><p>A central idea in PBS is that all behaviour has a <strong>function</strong> &mdash; a purpose or reason, even when that reason is not obvious to us. Behaviour does not come from nowhere, and it is not simply &ldquo;part of the condition&rdquo;. It is a person's way of getting a need met or responding to how they feel. Once you understand that behaviour is meaningful, it becomes much easier to respond with patience rather than frustration.</p><ul><li><strong>Purpose:</strong> behaviour is always trying to achieve something for the person.</li><li><strong>Meaningful:</strong> it makes sense from the person's point of view.</li><li><strong>A message:</strong> it tells us something about the person's needs.</li></ul><p>Working out the function of a behaviour is a skilled task, led by trained professionals through careful assessment.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Behaviour as communication</h2><p>Perhaps the most important idea in PBS is that <strong>behaviour is communication</strong>. When a person cannot easily tell us in words what they need or how they feel, their behaviour speaks for them. Someone who cannot say &ldquo;I am in pain&rdquo;, &ldquo;I am frightened&rdquo;, or &ldquo;this is too much for me&rdquo; may show it instead through their actions.</p><p>This is especially true for people who communicate differently &mdash; some people with a learning disability, autistic people, or people living with advanced dementia. Behaviour that others find challenging is very often the communication of an <strong>unmet need</strong> or of distress. Seen this way, your task is not to make the behaviour stop, but to work out what the person is telling you and to help put it right. That is a far kinder and more effective way to support someone.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "In PBS, why is it helpful to see behaviour as communication?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Because behaviour often expresses an unmet need or distress that the person cannot easily put into words",
+              "correct": true,
+              "feedback": "Correct. Seeing behaviour as communication helps you ask what the person needs, rather than just trying to stop it."
+            },
+            {
+              "text": "Because it proves the person is behaving badly on purpose",
+              "correct": false,
+              "feedback": "No. PBS does not treat behaviour as deliberate bad behaviour; it treats it as meaningful communication of a need."
+            },
+            {
+              "text": "Because it means you can ignore the behaviour safely",
+              "correct": false,
+              "feedback": "Not quite. Communication should be understood and responded to, not ignored."
+            },
+            {
+              "text": "Because it shows the behaviour is just part of the person's condition and cannot change",
+              "correct": false,
+              "feedback": "No. Behaviour is not simply part of a condition; it has a function, and meeting the need behind it can change things."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Functions of behaviour",
+      "section": "Understanding behaviour",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Common functions of behaviour</h2><p>When professionals assess behaviour, they often find its function falls into one of a few broad groups. Knowing these helps the whole team make sense of what they see, though only a trained assessor can say for certain what is driving a particular person's behaviour.</p><ul><li><strong>To gain something:</strong> attention, company, an item, food, or a favourite activity.</li><li><strong>To avoid or escape something:</strong> a demand, a noise, a place, or an unwanted task.</li><li><strong>Sensory or distress:</strong> to meet a sensory need, or to express pain, fear or upset.</li></ul><p>The same behaviour can have different functions for different people, and even for the same person at different times.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Looking beneath the behaviour</h2><p>Take a person who begins to shout and push away their plate at lunchtime. One person may be trying to <strong>escape</strong> a noisy, crowded dining room that overwhelms them. Another may be in pain from a sore tooth and have no words to say so. Another may have learned that shouting brings a staff member to sit with them, meeting a need for <strong>company</strong>. The behaviour looks the same, but the function &mdash; and therefore the right response &mdash; is different.</p><p>This is why PBS never relies on a one-size-fits-all reaction. It also explains why it can be harmful simply to give someone what stops the behaviour in the moment without understanding why. Working out function is the job of trained professionals, but your careful observations of what happened before and after a behaviour are a vital part of the picture they build.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "The same behaviour, such as shouting, always has the same function for every person.",
+          "correct": false,
+          "correctMsg": "Correct. The same behaviour can have very different functions for different people, and even for the same person at different times.",
+          "wrongMsg": "Not quite. The same behaviour can serve very different functions &mdash; to gain something, to avoid something, or to express distress &mdash; depending on the person and situation."
+        }
+      ]
+    },
+    {
+      "label": "Triggers and the person",
+      "section": "Understanding behaviour",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Triggers and knowing the person</h2><p>Behaviour rarely happens out of the blue. Usually there are <strong>triggers</strong> &mdash; things that set it off &mdash; and underlying conditions that make a person more likely to struggle. Some triggers are obvious, like a sudden loud noise. Others are subtle, like being hungry, tired, in pain, or having a change to a familiar routine.</p><ul><li><strong>Immediate triggers:</strong> a noise, a demand, a change of plan, or being rushed.</li><li><strong>Underlying factors:</strong> pain, illness, tiredness, hunger, or feeling unwell.</li><li><strong>Setting events:</strong> a poor night's sleep or an upsetting phone call earlier.</li></ul><p>The better you know a person, the sooner you can spot what tends to trigger their distress.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Understanding the whole person</h2><p>To support someone well, you need to understand them as an individual &mdash; their history, their likes and dislikes, what frightens or soothes them, and how they communicate. A person's past experiences shape how they respond today; someone who has been hurt or ignored in the past may find certain situations especially frightening. Knowing this helps you avoid triggers and respond with compassion.</p><p>Communication is central here. Learn how each person expresses themselves, including the small early signs that they are becoming anxious or unhappy &mdash; a change in facial expression, pacing, going quiet, or fidgeting. These signs are recorded in the person's PBS plan, drawn from those who know them best. The more you understand the whole person, the more you can prevent distress before it grows, which is far better for everyone than reacting once it has.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why does understanding a person's history and communication matter in PBS?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "It helps you spot early signs of distress and avoid known triggers, so you can support the person before things escalate",
+              "correct": true,
+              "feedback": "Correct. Knowing the person helps you prevent distress rather than only reacting to it."
+            },
+            {
+              "text": "It lets you predict exactly how everyone will behave so you never need the PBS plan",
+              "correct": false,
+              "feedback": "No. Understanding the person works alongside the PBS plan; it does not replace it."
+            },
+            {
+              "text": "It is only useful for keeping records and does not affect day-to-day support",
+              "correct": false,
+              "feedback": "Not quite. Understanding the person shapes your everyday support, not just the paperwork."
+            },
+            {
+              "text": "It allows you to decide which behaviours to ignore and which to punish",
+              "correct": false,
+              "feedback": "No. PBS never uses punishment; understanding the person helps you meet their needs with compassion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Primary prevention",
+      "section": "Proactive and person-centred strategies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Proactive support: primary prevention</h2><p>The heart of PBS is <strong>proactive</strong> support &mdash; getting things right so that a person's needs are met and distress is far less likely to build in the first place. This is called <strong>primary prevention</strong>, and it is where most of the work of PBS happens. A good life, day in and day out, is the best prevention there is.</p><ul><li><strong>A good environment:</strong> calm, comfortable surroundings that suit the person.</li><li><strong>Meaningful activity:</strong> things to do that the person enjoys and values.</li><li><strong>Choice and routine:</strong> real choices, and predictable, reassuring routines.</li></ul><p>When these things are in place, people feel safer, more settled and more in control of their lives.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Building a good day</h2><p>Primary prevention is made up of many everyday things done well. A good <strong>environment</strong> means surroundings that are not too noisy, crowded or chaotic for the person, at a comfortable temperature, with their own familiar belongings around them. <strong>Meaningful activity</strong> means having a reason to get up &mdash; work, hobbies, seeing people, being out in the community &mdash; rather than long empty hours, which are hard for anyone to bear.</p><p>Offering genuine <strong>choice</strong> gives a person control over their own life. <strong>Predictable routines</strong> help people know what to expect, which reduces anxiety, while good communication &mdash; using whatever methods suit the person &mdash; means they can understand and be understood. None of this is dramatic, but together it prevents a great deal of distress.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap to complete the sentences about primary prevention.</p>",
+          "textField": "Primary prevention means creating a good *environment*, offering meaningful *activity* and genuine *choice*, and keeping predictable *routines* so the person feels calm and secure."
+        }
+      ]
+    },
+    {
+      "label": "Meaningful days",
+      "section": "Proactive and person-centred strategies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Meaningful days and real choice</h2><p>Proactive support only works if it is real for the person, every day. As a care worker, you help turn the idea of a good life into an ordinary good day. Much of this is about how you spend time together and how you offer choices.</p><ul><li><strong>Meaningful activity:</strong> support the person to do things they enjoy and value.</li><li><strong>Real choice:</strong> offer choices the person can make, and see them honoured.</li><li><strong>Independence:</strong> help the person do things for themselves wherever they can.</li></ul><p>Small, consistent kindnesses do more to prevent distress than any reaction after the fact.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Predictable routines and good communication</h2><p>People feel safest when the day is <strong>predictable</strong>. Following the person's usual routine, and preparing them gently for anything different &mdash; a new staff member, an appointment, a change of plan &mdash; helps them stay settled. Sudden, unexplained change is a common trigger for distress, so a little preparation goes a long way.</p><p>Good <strong>communication</strong> holds all of this together. Use the methods that work for each person, which may include simple language, pictures, objects, signing or a communication aid, and always give them time to understand and respond. Check that you have understood them, too. When a person can make sense of their world and have their voice heard, they feel calmer and more in control &mdash; and much of the distress behind challenging behaviour never needs to arise. This everyday, patient work is PBS in action.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Secondary strategies",
+      "section": "Proactive and person-centred strategies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Secondary strategies: early help</h2><p>Even with the best proactive support, there will be times when a person starts to become anxious, agitated or distressed. <strong>Secondary strategies</strong> are the things you do at this early stage to help someone calm down and feel safe again, before their distress grows. Catching this moment is one of the most valuable things you can do.</p><ul><li><strong>Notice early:</strong> spot the person's own early warning signs quickly.</li><li><strong>Respond calmly:</strong> stay calm yourself, and reduce whatever is upsetting them.</li><li><strong>Follow the plan:</strong> use the specific strategies written in the PBS plan.</li></ul><p>The right response depends on the person, which is why their plan sets out what helps them in particular.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Helping someone who is becoming distressed</h2><p>When you notice a person starting to struggle, your own manner matters enormously. Staying <strong>calm</strong>, speaking softly, and not crowding or rushing the person can help settle the situation. You might reduce demands, lower noise, offer a quiet space, give reassurance, or offer a favourite activity or object &mdash; whatever the person's plan says works for them. For one person a gentle chat helps; for another, being given space and quiet is what they need.</p><p>The aim is always to help the person feel safe and to prevent things escalating, not to &ldquo;win&rdquo; or insist on getting your own way over something that can wait. Because these strategies are personal, they are recorded in the PBS plan by those who know the person, based on what has helped before. Following them consistently, and reporting how they worked, helps the whole team support the person better next time.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you support is starting to show their early signs of distress. What is the best approach?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Stay calm, reduce whatever is upsetting them, and use the secondary strategies set out in their PBS plan",
+              "correct": true,
+              "feedback": "Correct. Calm, early, plan-led help is the best way to support someone before distress escalates."
+            },
+            {
+              "text": "Insist they do as they are told so they learn to behave",
+              "correct": false,
+              "feedback": "No. Insisting and pressuring is likely to increase distress and is not part of PBS."
+            },
+            {
+              "text": "Wait until the behaviour becomes severe before doing anything",
+              "correct": false,
+              "feedback": "Not quite. Early help is far better than waiting for distress to grow into a crisis."
+            },
+            {
+              "text": "Raise your voice to make sure they take you seriously",
+              "correct": false,
+              "feedback": "No. Raising your voice tends to escalate distress; staying calm is what helps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The PBS plan",
+      "section": "Proactive and person-centred strategies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The PBS plan and consistency</h2><p>Every person supported through PBS should have a <strong>PBS plan</strong> (sometimes called a behaviour support plan). Written by trained professionals with the person and those who know them, it draws together everything the team has learned: the person's needs, their triggers and early warning signs, what a good day looks like, and exactly how to support them &mdash; proactively, at the first sign of distress, and if things escalate.</p><ul><li><strong>Personal:</strong> the plan is built around this individual and no one else.</li><li><strong>Practical:</strong> it tells you what to do at each stage of support.</li><li><strong>Shared:</strong> everyone in the team follows the same plan.</li></ul><p>Your job is to know the plan for each person you support, and to follow it faithfully.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why consistency matters</h2><p>PBS only works when the whole team supports a person in the same, agreed way. If one worker follows the plan and another does something different, the person receives mixed messages, which is confusing and unsettling and can make distress more likely. <strong>Consistency</strong> gives people the predictability and security that help them feel safe.</p><p>This means reading and understanding each person's PBS plan, asking if anything is unclear, and following it even on a busy day. It also means sharing what you notice &mdash; recording how strategies worked, and reporting changes &mdash; so the plan can be kept up to date by the professionals who lead it. A PBS plan is a living document, not a form filed away.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "It is best if each care worker uses their own personal approach with a person, rather than all following the same PBS plan.",
+          "correct": false,
+          "correctMsg": "Correct. The whole team should follow the same PBS plan consistently; mixed approaches confuse and unsettle the person.",
+          "wrongMsg": "Not quite. Consistency is essential in PBS &mdash; everyone should follow the same agreed plan, or the person receives confusing, unsettling mixed messages."
+        }
+      ]
+    },
+    {
+      "label": "Reactive strategies",
+      "section": "Least restrictive practice and keeping safe",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Reactive strategies as a last resort</h2><p>Despite the best proactive and secondary support, there may still be rare occasions when a person's behaviour puts them or others at serious risk of harm. <strong>Reactive strategies</strong> are what the team does in that moment to keep everyone safe. In PBS these are always a <strong>last resort</strong> &mdash; the smallest part of a good plan, used as little as possible.</p><ul><li><strong>Purpose:</strong> to keep people safe in the moment, nothing more.</li><li><strong>Last resort:</strong> used only when other approaches have not been enough.</li><li><strong>Planned:</strong> set out in advance in the PBS plan, not improvised.</li></ul><p>A good PBS plan puts most of its effort into prevention, so reactive strategies are needed as rarely as possible.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Least restrictive practice</h2><p>A key principle running through PBS, and through the law, is that support should always be the <strong>least restrictive</strong> option. This means doing whatever is needed to keep people safe while limiting the person's freedom and choice as little as possible, for as short a time as possible. The <strong>Mental Capacity Act</strong> requires that where a decision is made for someone who cannot make it themselves, it must be in their best interests and the least restrictive of their rights and freedoms.</p><p>Many reactive strategies do not involve any physical contact at all &mdash; giving space, removing something risky, or calmly talking with the person are often enough. The goal is to step down to calmer, less restrictive support as soon as it is safe. Restriction is never a punishment and never for staff convenience; it is only ever to keep someone safe from harm.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does &ldquo;least restrictive practice&rdquo; mean in PBS?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Keeping people safe while limiting the person's freedom and choice as little as possible, for as short a time as possible",
+              "correct": true,
+              "feedback": "Correct. Least restrictive practice keeps people safe while protecting the person's rights and freedoms as far as possible."
+            },
+            {
+              "text": "Using restriction routinely so that staff can keep control",
+              "correct": false,
+              "feedback": "No. Restriction is never routine or for control; it is a last resort to keep someone safe."
+            },
+            {
+              "text": "Restricting a person as a consequence when they behave badly",
+              "correct": false,
+              "feedback": "No. Restriction is never a punishment or consequence; it is only ever to prevent serious harm."
+            },
+            {
+              "text": "Avoiding all action, even when someone is at serious risk of harm",
+              "correct": false,
+              "feedback": "Not quite. Least restrictive still means keeping people safe; it means using the smallest restriction needed to do so."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Restraint reduction",
+      "section": "Least restrictive practice and keeping safe",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Restraint reduction and the harm of restriction</h2><p>Restrictive practices &mdash; anything that limits a person's movement, freedom or choice, including physical restraint, seclusion, or the use of medication to control behaviour &mdash; can cause real harm. They can be frightening, undignified and even dangerous, and they can damage the trust between a person and those who support them. This is why there is a strong drive towards <strong>restraint reduction</strong>: using restrictive practices as little as possible, and working actively to reduce them.</p><ul><li><strong>Restrictive practice:</strong> anything that limits a person's freedom or choice.</li><li><strong>Real harm:</strong> restraint can be frightening, undignified and dangerous.</li><li><strong>The aim:</strong> to reduce restrictive practice through better proactive support.</li></ul><p>The best way to reduce restraint is to get proactive, person-centred support right.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Physical intervention needs specific training</h2><p>Any <strong>physical intervention</strong> &mdash; physically holding or restricting a person &mdash; is a serious step that carries real risks to the person and to you. It must only ever be used as a last resort, when there is an immediate risk of harm and no less restrictive option will do, and it must always be <strong>proportionate</strong> to that risk and the <strong>least restrictive</strong> means of managing it.</p><p>Crucially, physical intervention requires <strong>specific, accredited training</strong> from a recognised programme. It can never be learned from an e-learning course like this one, and you must never attempt a hold or restraint you have not been properly trained to use. Certain restraints, such as anything restricting a person's airway or breathing, are extremely dangerous and prohibited. If your role may involve physical intervention, your employer must arrange the proper training, and you should only ever act within it and within the person's plan.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement about physical intervention is correct?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "It is a last resort that must be proportionate, least restrictive, and only ever carried out by people with specific accredited training",
+              "correct": true,
+              "feedback": "Correct. Physical intervention is a last resort, must be proportionate and least restrictive, and needs specific accredited training."
+            },
+            {
+              "text": "Any care worker can safely use a hold if they think the situation calls for it",
+              "correct": false,
+              "feedback": "No. You must never attempt a hold you have not been specifically and properly trained to use."
+            },
+            {
+              "text": "It is a normal, everyday way to manage behaviour that challenges",
+              "correct": false,
+              "feedback": "No. Physical intervention is a rare last resort, not an everyday response."
+            },
+            {
+              "text": "It can be learned well enough from an online awareness course like this one",
+              "correct": false,
+              "feedback": "Not quite. Physical intervention can never be learned from online learning; it needs specific accredited training."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Recording and support",
+      "section": "Least restrictive practice and keeping safe",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recording, reflecting and post-incident support</h2><p>What happens after an incident matters as much as the incident itself. Careful <strong>recording</strong> and honest <strong>reflection</strong> help the team understand what happened and prevent it happening again, while <strong>post-incident support</strong> looks after the wellbeing of everyone involved.</p><ul><li><strong>Record:</strong> write down clearly and factually what happened, and any restriction used.</li><li><strong>Reflect:</strong> help the team learn what triggered the incident and what would help next time.</li><li><strong>Support:</strong> check on the person, and on staff, after a distressing event.</li></ul><p>Every use of a restrictive practice must be recorded and reviewed, so that its use can be understood and reduced over time.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on Positive Behaviour Support. You have explored what PBS is and the values of quality of life and respect at its heart; how behaviour has a function and communicates an unmet need; the proactive and person-centred strategies that help people live well; and least restrictive practice, restraint reduction and keeping everyone safe. After any incident, remember to record, reflect, and make sure the person and your colleagues receive the support they need.</p><p>Remember the key point from the start: this course covers <strong>knowledge and awareness</strong> only. <strong>PBS plans and functional assessments are developed and led by trained professionals</strong>, and your role is to follow each person's plan and work in the least restrictive way. Any <strong>physical intervention needs specific, accredited training and is always a last resort</strong> &mdash; never something to attempt from online learning alone. Speak to your manager about the PBS plans of the people you support, and carry these values into your everyday practice.</p>"
+        }
+      ]
+    }
+  ]
+}

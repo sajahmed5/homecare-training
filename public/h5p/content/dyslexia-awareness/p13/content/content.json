@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signposting to assessment and support</h2><p>Some people may wish to explore a formal assessment, whether to understand themselves better or to access particular support. A formal diagnosis is made by qualified professionals, such as specialist assessors or educational psychologists. Organisations such as the British Dyslexia Association offer information, guidance and helplines for people who want to learn more.</p><ul><li><strong>Formal assessment:</strong> carried out by qualified specialists, not by care workers.</li><li><strong>Trusted information:</strong> the British Dyslexia Association is a well-known source of guidance and support.</li><li><strong>Follow the person&rsquo;s lead:</strong> offer signposting when it is wanted, without pressure.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9f2e094f-6871-41f1-a850-fb5ccb6b270d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Signposting and next steps",
+          "decorative": false,
+          "file": {
+            "path": "images/signposting-and-next-steps.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "304ee784-2af9-47b6-ae1f-e7aad4633dbe",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting awareness into practice</h2><p>Supporting people with dyslexia rarely calls for anything dramatic. It is the everyday habits that count: sharing information clearly, allowing time, offering practical adjustments, protecting people&rsquo;s dignity and treating each person as an individual. When you build these into your routine, you help people with dyslexia take part fully, confidently and on equal terms.</p><p>If someone wants to explore assessment or support, encourage them gently and point them towards trusted sources such as their GP or the British Dyslexia Association. Record the support a person needs so that others can follow it consistently.</p><p>This course has raised your awareness of dyslexia and how to support people with dignity and reasonable adjustments. It is knowledge-level learning only. It does not replace a formal dyslexia assessment carried out by a qualified professional, and it is not a substitute for supervised, hands-on training.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "97fb7746-c9cf-44db-b4e9-6e4412cf4579",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Someone you support says they think they may be dyslexic and asks what they can do. What is the most appropriate response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Listen, reassure them, and gently signpost to trusted sources such as their GP or the British Dyslexia Association.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Listening and signposting to trusted sources is exactly the right, in-role response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them confidently that you can diagnose their dyslexia yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Diagnosis is for qualified professionals. Your role is to support and signpost, not to diagnose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say there is no point looking into it because nothing can be done.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is discouraging and untrue. Assessment and support can genuinely help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Share their concern with other people without asking them first.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This breaches confidentiality. Respect the person&rsquo;s privacy and their choice about who to tell.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "73312ac9-b7d7-4783-bb93-1e94064369e8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

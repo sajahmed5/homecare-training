@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Strengths often seen</h2><p>Dyslexia is a difference, not simply a set of difficulties, and many people with dyslexia have real strengths. While experiences vary from person to person, people with dyslexia often show creativity, strong problem-solving, and an ability to see the bigger picture or think in three dimensions. Many are articulate, good with people, and able to find original solutions that others miss.</p><ul><li><strong>Creative thinking:</strong> fresh ideas and original approaches to problems.</li><li><strong>Big-picture skills:</strong> seeing how things connect and spotting patterns.</li><li><strong>People and practical skills:</strong> strong verbal, social or hands-on abilities.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e2b9ce07-65fb-4a86-9320-b4b338792c8a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Strengths",
+          "decorative": false,
+          "file": {
+            "path": "images/strengths.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e39b2a66-f32d-4c86-b0fa-ed457b05af5e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising the whole person</h2><p>Focusing only on what a person finds hard paints an unfair and incomplete picture. When you notice and value someone&rsquo;s strengths, you help build the confidence that difficulties may have worn away. This matters for the people you support and for colleagues alike.</p><p>A strengths-based approach means shaping tasks so a person can use what they are good at, while offering support where they need it. Someone who finds forms difficult may be wonderful at talking with people, calming a situation or thinking on their feet. Seeing the whole person is at the heart of good, inclusive care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "73e53ab1-1414-4874-b706-337340524c97",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following best reflects a fair, awareness-level view of dyslexia?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Dyslexia brings difficulties with reading and writing, but people with dyslexia often have real strengths too.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A fair view recognises both the difficulties and the genuine strengths people often have.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Dyslexia is only a list of weaknesses and brings no strengths at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dyslexia is a difference, not only a difficulty. Many people show real creativity and problem-solving.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>People with dyslexia have nothing to offer in a care setting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is untrue and demeaning. People with dyslexia bring many valuable strengths.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Strengths should be ignored so that all attention goes on the difficulties.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Ignoring strengths gives an unfair picture. A strengths-based approach builds confidence.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ea009391-7a21-450b-b66a-fb69152b26ab",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

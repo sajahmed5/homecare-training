@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What &ldquo;behaviour that challenges&rdquo; means</h2><p>Behaviour that challenges describes actions that are difficult for others to manage, or that put the person or those around them at risk of harm &mdash; shouting, hitting, throwing things, refusing care, or withdrawing completely. The phrase describes the behaviour, not the person. It is never a label for a &ldquo;difficult&rdquo; or &ldquo;aggressive&rdquo; individual. Understood correctly, behaviour that challenges is almost always a sign of distress and an attempt to communicate a need that has not been met.</p><ul><li><strong>Describes the behaviour:</strong> the term names an action and its impact, not a person&rsquo;s character.</li><li><strong>A sign of distress:</strong> the behaviour usually signals that something is wrong for the person.</li><li><strong>Common in care:</strong> many people you support may show it at some point, especially at times of change or discomfort.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8f31dc16-79d5-4dde-9075-0a70ef7923e1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What the term means",
+          "decorative": false,
+          "file": {
+            "path": "images/what-the-term-means.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "74b91625-5893-4bc7-8402-a8024c766ce2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why we avoid labelling people</h2><p>Labelling someone as &ldquo;aggressive&rdquo;, &ldquo;attention-seeking&rdquo; or &ldquo;a challenge&rdquo; changes how a whole team sees and treats them, and it stops us asking the most important question: what is this person trying to tell us? When we blame the person, we look for ways to control them; when we see distress, we look for the unmet need behind it and respond with compassion.</p><p>This course raises your awareness of behaviour that challenges and how to respond calmly, safely and with respect. It is knowledge-level learning only. Physical intervention is a last resort that requires specific, accredited training, and nothing here teaches or authorises you to physically restrain anyone. This course does not replace supervised, hands-on training, and you must always work within your employer&rsquo;s policies, the person&rsquo;s care plan, and the limits of your own training and competence.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9be670b9-6667-4ebe-a324-c3adeb5843ac",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>PBS and older, control-based approaches</h2><p>For a long time, people whose behaviour challenged others were often met with control: being told off, having things taken away, being restrained, or being given medication to keep them quiet. These approaches focused on the behaviour itself and on making it stop. They frequently made things worse, because they ignored the reasons behind the behaviour and could be frightening or degrading for the person.</p><ul><li><strong>Old approach:</strong> control the behaviour, often through punishment or restriction.</li><li><strong>PBS approach:</strong> understand the need and improve the person's life.</li><li><strong>The difference:</strong> PBS works with the person, not against them.</li></ul><p>PBS grew out of a recognition that people deserve better than to be controlled.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0cdf2b1b-a80d-4117-9f0c-70b3049c0944",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Values and old approaches",
+          "decorative": false,
+          "file": {
+            "path": "images/values-and-old-approaches.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3476c93c-7c9b-478e-971c-0147a259f58f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A values-based framework</h2><p>At its core, PBS is built on values. It holds that every person has the right to be treated with dignity, to make choices, to have relationships and meaningful activity, and to be included in their community. It rejects the idea that some people simply have to be controlled for their own good. Where old approaches asked the person to change to fit the service, PBS asks the service to change to fit the person.</p><p>These values are not soft or optional &mdash; they are what makes the framework work. Everything that follows only helps if it is done in a spirit of respect. When you support someone under a PBS plan, you are not delivering a technique; you are helping a person live the best life they can, on their own terms as far as possible.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "14e2b3c7-5123-4132-9635-ed4e5e3b150b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about PBS.</p></p>",
+          "textField": "PBS puts a person's *quality* of life at its heart and treats behaviour as a form of *communication*. Rather than trying to *control* the person, it works to understand and meet the *need* behind what they do.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "33cd8119-9215-4e24-94bc-bb95ccf4f74e",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

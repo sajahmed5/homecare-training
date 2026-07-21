@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why history shapes trust</h2><p>Many older LGBTQ+ people grew up at a time when their identity was criminalised, treated as an illness, or something they could lose their home, job or family over. Sex between men was only partly decriminalised in England and Wales in 1967, and for years afterwards prejudice remained widespread and openly expressed. People learned to hide who they were simply to stay safe.</p><ul><li><strong>A lifetime of caution:</strong> some people spent decades concealing their identity to avoid harm.</li><li><strong>Hard-won trust:</strong> past experiences can make it difficult to trust services and carers.</li><li><strong>Real fear of going back:</strong> some worry that needing care means hiding who they are once again.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "194f35ce-7d39-4655-981c-75052b3c515d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for History and trust",
+          "decorative": false,
+          "file": {
+            "path": "images/history-and-trust.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d7e25ed2-1b3d-4133-94b4-dfbcdce83fe9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The worker&rsquo;s role</h2><p>Understanding this history helps you see why a person might be guarded, or might fear that being open will lead to poorer treatment. Some older people who were once open about their identity feel they have to go &ldquo;back into the closet&rdquo; when they start receiving care, because they are unsure how they will be received.</p><p>Your role is to be someone they can trust. By showing through your words and manner that you accept people exactly as they are, you help undo years of caution. Small signals of acceptance &mdash; a warm response, no awkwardness, no judgement &mdash; tell a person that they are safe with you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e44ce374-2ebe-4cb9-baf7-c03b244a2afe",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Because of the discrimination many older LGBTQ+ people experienced earlier in life, some fear having to hide their identity again when they start receiving care.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. Many older LGBTQ+ people lived through criminalisation and prejudice, and some fear hiding their identity again when they need care.",
+            "correctAnswerMessage": "Correct. Past experiences of criminalisation and prejudice can make people fear having to conceal who they are, so building trust matters."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "77f4d99a-d76a-44b3-8dc4-16d882de9605",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

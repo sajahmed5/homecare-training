@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Personal care and dignity</h2><p>Personal care is intimate, and for trans people it can feel especially exposing if it is not handled with sensitivity. Every person has the right to privacy, dignity and control over their own body and care. The way to get this right is the same as for anyone: ask the person about their preferences and follow their lead.</p><ul><li><strong>Ask, do not assume:</strong> check how the person wishes to be supported and by whom.</li><li><strong>Respect their body and choices:</strong> follow their wishes about washing, dressing and personal items.</li><li><strong>Protect privacy:</strong> maintain dignity at every step and never expose or examine out of curiosity.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "49c26303-c8b3-4c04-9d2d-2434289f138d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Trans-inclusive care",
+          "decorative": false,
+          "file": {
+            "path": "images/trans-inclusive-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d869ec04-aa44-46db-88a8-a06a6c685135",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Getting it right for trans people</h2><p>A trans person may use aids such as a binder, padding or a prosthesis as part of who they are, and these should be treated with the same respect as any other personal item. Continue to use the person&rsquo;s correct name and pronouns throughout personal care. Never ask intrusive questions about someone&rsquo;s body or medical history out of curiosity, as this is undignified and can be deeply distressing.</p><p>If you are genuinely unsure how best to support someone, ask them respectfully and privately what they would prefer. Being led by the person is always the safest and most dignified approach.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8b337f89-cdd5-4e33-8502-3eb077761645",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When providing personal care for a trans person, it is good practice to ask them privately about their preferences and follow their lead, rather than making assumptions.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. Asking privately about preferences and following the person&rsquo;s lead is the most dignified, person-centred approach.",
+            "correctAnswerMessage": "Correct. Asking respectfully and being led by the person protects their dignity, privacy and control over their own care."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "fa630bbe-9b2f-469c-a77a-e745493864c5",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

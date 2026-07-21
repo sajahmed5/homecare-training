@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dynamic risk assessment</h2><p>Keeping people safe means constantly weighing up the risk as a situation unfolds &mdash; a dynamic risk assessment. This is not a form to fill in but a way of thinking: reading the situation moment by moment, judging how much risk there is to the person, to you and to others, and adjusting what you do in response.</p><ul><li><strong>Read the situation:</strong> notice how the distress is changing and how close things are to crisis.</li><li><strong>Weigh the risk:</strong> consider the danger to the person, to yourself and to anyone nearby.</li><li><strong>Adjust your response:</strong> change your approach, or step back, as the level of risk changes.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a2385b97-d200-411f-be68-abcb1bbcb8dd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Keeping everyone safe",
+          "decorative": false,
+          "file": {
+            "path": "images/keeping-everyone-safe.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dbdc7227-2c13-41bd-86cc-db6e7b5a01da",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your own safety and when to withdraw</h2><p>You cannot help anyone if you are hurt, so your own safety matters too. If a situation becomes unsafe, the right thing to do is often to withdraw to a safe distance and summon help, rather than to press on alone. Stepping back is not failure &mdash; it is a sound decision that keeps everyone safer and gives the situation room to calm.</p><ul><li><strong>Keep yourself safe:</strong> stay out of reach of harm, keep a clear route to the door, and do not let yourself be cornered.</li><li><strong>Withdraw when needed:</strong> if risk is rising, move to safety rather than staying in danger.</li><li><strong>Get help:</strong> call colleagues or your manager, and the emergency services if there is a serious risk of harm.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "03536f08-0477-4518-894d-def923ee9b3b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A situation is becoming unsafe and you feel at risk of being hurt. What is the most appropriate action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Withdraw to a safe distance, keep others safe, and summon help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Your safety matters too; withdrawing and getting help is a sound, responsible decision.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Stay close and try to physically hold the person still until they calm down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Physically holding someone requires specific training and is a last resort, never a first response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Continue alone whatever the risk, because asking for help looks weak.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Asking for help is good practice, not weakness. Facing serious risk alone endangers everyone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Shout at the person to stop, so they know you are serious.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Raising your voice tends to escalate distress and risk. Stay calm and get help.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9cbfb023-98a6-49b2-893d-1b4e6d36de2c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

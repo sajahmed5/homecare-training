@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Accurate, respectful records</h2><p>Good records help the whole team give consistent, respectful care. Recording how a person wishes to be addressed means they should not have to explain themselves over and over to each new worker. Record what the person tells you factually and respectfully, and keep sensitive information secure.</p><ul><li><strong>Record their name and pronouns:</strong> note the name and pronouns the person uses, so every worker gets it right.</li><li><strong>Capture their wishes:</strong> record preferences about care, relationships and who may be involved.</li><li><strong>Keep it secure and shared appropriately:</strong> only those involved in the person&rsquo;s care should see sensitive details.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1ed738e2-be42-49c0-abec-4242d4d154f9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Records and information",
+          "decorative": false,
+          "file": {
+            "path": "images/records-and-information.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bd3a10de-94a3-4d63-be5e-3f28410cce85",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Accessible Information Standard</h2><p>The Accessible Information Standard is an NHS standard that requires health and care services to identify, record and meet people&rsquo;s communication needs, and to share those needs with others involved in their care where appropriate. The same spirit applies to recording how a person wishes to be addressed and supported.</p><p>Getting records right also means being careful with historical documents. A trans person&rsquo;s previous name should not be shared or referred to unnecessarily, as this can cause distress. Always check that the records you use reflect who the person is now, and correct them respectfully if they do not.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "076390e7-a98f-4732-97c3-e056c43de0de",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

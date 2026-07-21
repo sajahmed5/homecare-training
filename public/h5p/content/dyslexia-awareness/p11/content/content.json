@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting people and colleagues</h2><p>Inclusive practice means thinking about everyone around you, not only the people you directly support. A colleague may have dyslexia too, and the same understanding and adjustments that help someone using your service can help a member of the team. Whether it is a person you care for or a co-worker, the principles are the same: understand, adapt and treat people with respect.</p><ul><li><strong>People you support:</strong> adapt communication and offer reasonable adjustments as part of everyday care.</li><li><strong>Colleagues:</strong> be considerate about written handovers, rotas and instructions.</li><li><strong>Shared principles:</strong> understanding and respect apply to everyone.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "91422343-2517-4cdf-8c1a-42fbbd3f7134",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Supporting people",
+          "decorative": false,
+          "file": {
+            "path": "images/supporting-people.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f6848a85-d724-496b-bf00-165ec9306454",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred approaches</h2><p>There is no single right way to support someone with dyslexia, because every person is different. A person-centred approach means asking the individual what helps them, listening to their preferences, and shaping support around their needs rather than applying a fixed formula. The person themselves is the expert in what works for them.</p><p>This might mean using audio instead of written notes for one person, coloured paper for another, or simply more time and a patient manner. By involving the person in decisions, you offer support that genuinely fits and that respects their independence and choice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c27285af-7b4a-4da7-aa83-be07128b95d4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Reasonable adjustments and understanding for dyslexia are only relevant for the people you support, never for colleagues.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Colleagues can have dyslexia as well, so understanding and adjustments matter for the whole team.",
+            "correctAnswerMessage": "Correct. Colleagues may have dyslexia too. Inclusive practice means considering everyone, including members of your team."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "bdfd101c-df68-4b98-8ce4-8767d784e316",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "dyslexia-awareness",
+  "title": "Dyslexia Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p1",
+      "label": "What dyslexia is",
+      "questions": 0,
+      "section": "Understanding dyslexia"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p2",
+      "label": "Not about intelligence",
+      "questions": 1,
+      "section": "Understanding dyslexia"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p3",
+      "label": "Your role",
+      "questions": 1,
+      "section": "Understanding dyslexia"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p4",
+      "label": "Common signs",
+      "questions": 1,
+      "section": "Signs and impact"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p5",
+      "label": "Visual stress and impact",
+      "questions": 1,
+      "section": "Signs and impact"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p6",
+      "label": "Strengths",
+      "questions": 1,
+      "section": "Signs and impact"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p7",
+      "label": "Reasonable adjustments duty",
+      "questions": 1,
+      "section": "Reasonable adjustments and support"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p8",
+      "label": "Clear information",
+      "questions": 1,
+      "section": "Reasonable adjustments and support"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p9",
+      "label": "Practical adjustments",
+      "questions": 1,
+      "section": "Reasonable adjustments and support"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p10",
+      "label": "Breaking tasks down",
+      "questions": 0,
+      "section": "Reasonable adjustments and support"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p11",
+      "label": "Supporting people",
+      "questions": 1,
+      "section": "Inclusive practice"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p12",
+      "label": "Confidentiality and assumptions",
+      "questions": 0,
+      "section": "Inclusive practice"
+    },
+    {
+      "type": "h5p",
+      "path": "dyslexia-awareness/p13",
+      "label": "Signposting and next steps",
+      "questions": 1,
+      "section": "Inclusive practice"
+    }
+  ]
+}

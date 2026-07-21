@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Offering choices and control</h2><p>Much distress comes from feeling powerless &mdash; having things done to you, being told what to do, or losing control over your own day. Offering genuine choices hands some control back to the person and can quickly reduce tension. Even small choices can make a big difference to how safe and respected a person feels.</p><ul><li><strong>Offer real choices:</strong> &ldquo;Would you like to do this now, or in a few minutes?&rdquo; rather than a demand.</li><li><strong>Keep it simple:</strong> offer two clear options at a time, so the person is not overwhelmed.</li><li><strong>Respect the answer:</strong> if the person says no, listen &mdash; a task can often wait.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cd3c65e6-8562-4dd8-815d-5f935080ecb6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Offering choices",
+          "decorative": false,
+          "file": {
+            "path": "images/offering-choices.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0c1f009a-28b9-4f54-9e6e-c1031438d59b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Removing or reducing triggers</h2><p>If you can see what is causing the distress, changing it is often the quickest way to help. This might mean turning down noise, drawing a curtain, moving away from a crowd, or simply stopping a task that is upsetting the person and coming back to it later. Meeting an obvious need &mdash; a drink, the toilet, or pain relief arranged through the right channels &mdash; can resolve distress at its source.</p><ul><li><strong>Change the environment:</strong> reduce noise, light or crowding wherever you can.</li><li><strong>Pause the trigger:</strong> stop an upsetting activity and try again later.</li><li><strong>Meet the need:</strong> address the likely cause, such as hunger, thirst, the toilet or discomfort.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6d4f2b73-8957-4d3b-b94c-4533f932ff52",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person becomes distressed while you are helping them wash. What is usually the most helpful first response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stop, give them space, and offer a simple choice, such as taking a break and trying again shortly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Stopping, giving space and offering choice hands control back and helps the person feel safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry on quickly so the task is finished before they get more upset.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Pushing on usually increases distress and risk. Pausing and offering choice is safer and kinder.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them firmly that the wash has to be finished now.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Insisting removes the person&rsquo;s control and is likely to escalate their distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave the room immediately and do not return or tell anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Stepping back briefly can help, but you should stay aware, return, and record and share what happened.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "11df5039-3d73-46e1-bd4b-d1f15b079c24",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Never out anyone</h2><p>The single most important rule when supporting LGBTQ+ people is to respect their privacy. Whether someone has just come out to you or has been open for years, it is always their choice who knows about their identity. Passing that information on without their consent &mdash; outing them &mdash; can damage relationships and put people at risk.</p><ul><li><strong>Consent first:</strong> only share someone&rsquo;s identity with their clear agreement.</li><li><strong>Need-to-know only:</strong> where sharing is genuinely necessary for care, keep it to those directly involved.</li><li><strong>When in doubt, keep it private:</strong> if you are unsure, do not disclose &mdash; ask the person and your manager.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "52a2ca96-c2ef-4e6c-b8c6-9f7cfdaa6639",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting it right",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-it-right.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a9ca2b6e-22f4-480f-88d6-d2733a968b4d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Where to get advice</h2><p>You are not expected to have every answer. If you are unsure how to support someone, or you have witnessed discrimination, there is always help available. Speak to your manager or supervisor, use supervision and team meetings, and follow your organisation&rsquo;s equality, inclusion and safeguarding policies. Trusted organisations such as Stonewall, Skills for Care and the NHS also provide guidance on inclusive care.</p><p>This course has raised your awareness so you can offer inclusive, person-centred and dignified care to lesbian, gay, bisexual, trans and queer or questioning people, and challenge discrimination when you see it. It is knowledge-level learning only. It does not replace your organisation&rsquo;s equality and inclusion policies, its safeguarding procedures, or the supervised training your role requires. If you are ever unsure, ask &mdash; and always be led by the person about who they are and how they wish to be supported.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad79e221-17a8-45d1-bfe1-9a0c499c2715",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are unsure how best to support a resident who has told you, in confidence, that he is gay and is worried about how staff will treat him. What is the best course of action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep his confidence, reassure him, and seek advice from your manager or your organisation&rsquo;s policies without outing him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Respect his privacy, reassure him, and get guidance through the proper channels without disclosing his identity to others.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the rest of the team so they can &ldquo;keep an eye out&rdquo; for him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That would out him without consent. Only share where genuinely necessary for care and with his agreement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do nothing, as it is not your concern.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "His worry is a real concern. Reassure him and seek advice, while keeping his confidence.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage him to come out to everyone so it is out in the open.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Coming out is always the person&rsquo;s own choice, in their own time. Never pressure anyone to do so.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "54d893a9-db44-4534-863d-00494023313a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

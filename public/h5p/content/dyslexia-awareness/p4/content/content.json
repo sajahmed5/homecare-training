@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common signs in reading and writing</h2><p>Dyslexia shows itself in different ways, but there are some common signs you may notice. In reading, a person may read slowly and with effort, lose their place, or avoid reading aloud. In writing and spelling, they may spell the same word several different ways, muddle the order of letters, or produce writing that does not reflect how well they can express themselves out loud.</p><ul><li><strong>Reading:</strong> slow, effortful reading, losing the place, or avoiding reading in front of others.</li><li><strong>Spelling:</strong> inconsistent spelling and letters written in the wrong order.</li><li><strong>Writing:</strong> written work that does not match a person&rsquo;s clear spoken ability.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0e01abf2-2d04-46eb-b247-fd5e76e73c03",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Common signs",
+          "decorative": false,
+          "file": {
+            "path": "images/common-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5613c529-70fb-404f-98c0-f39943ac9255",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Memory, organisation and time</h2><p>Dyslexia is not only about reading and writing. Many people also find aspects of memory, organisation and time challenging. Someone might struggle to remember a sequence of spoken instructions, mix up appointments, or find it hard to keep track of belongings and paperwork. Telling left from right, or judging how long a task will take, can also be difficult.</p><p>These signs are easy to misread as carelessness or not paying attention. Recognising them as part of dyslexia helps you respond with patience and practical help rather than frustration, and reminds you to check understanding rather than assume someone was simply not listening.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ccfd5098-9394-4cdb-849a-2f62b55d47d5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support often loses their place when reading, spells the same word several ways, and struggles to remember a list of spoken instructions. These are:</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Common signs associated with dyslexia, which affects reading, spelling and verbal memory.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are recognised signs of dyslexia and a reason to offer patient, practical support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A clear sign that the person is not paying attention or making an effort.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These signs are easily misread as carelessness. They are more likely to reflect dyslexia.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Proof that the person has a low level of intelligence.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dyslexia is not linked to intelligence. These signs say nothing about a person&rsquo;s ability.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Signs that should be ignored, as they have nothing to do with how you communicate.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These signs are exactly when your communication should adapt to help the person.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3d3aa3a2-a3e1-451e-a2ac-32e3bd2105a9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

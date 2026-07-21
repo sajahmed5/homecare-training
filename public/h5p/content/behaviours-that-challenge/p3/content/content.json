@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who may be affected</h2><p>Anyone can show behaviour that challenges at a time of distress, but it is more likely among people who find it hard to communicate or to make sense of what is happening around them. Recognising who may be more affected helps you stay patient and prepared, without ever assuming that a particular person will behave in a particular way.</p><ul><li><strong>People living with dementia:</strong> confusion, memory loss and difficulty communicating can lead to distress.</li><li><strong>People with a learning disability or autism:</strong> unfamiliar routines, sensory overload or being misunderstood can be overwhelming.</li><li><strong>People with mental illness:</strong> conditions such as anxiety, depression or psychosis can affect how a person feels and reacts.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9eb731eb-2fc6-41d6-8915-0ee104e9124e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who may be affected",
+          "decorative": false,
+          "file": {
+            "path": "images/who-may-be-affected.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0cb5c191-76b2-4537-9442-400d0d823799",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role as a care worker</h2><p>Your role is not to control or manage a person, but to understand and support them. You are often the person who knows them best and spends the most time with them, which places you well to notice distress early and respond with kindness. You keep everyone safe by staying calm, following the person&rsquo;s plan, and knowing when to step back and call for help.</p><ul><li><strong>Understand, don&rsquo;t control:</strong> look for the reason behind the behaviour and meet the need.</li><li><strong>Keep people safe:</strong> protect the person, yourself and others from harm.</li><li><strong>Know your limits:</strong> follow the plan, work within your training, and seek help when you need it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "65de0090-b593-4044-8491-6273397dda72",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Behaviour that challenges only affects people who are naturally aggressive, so it cannot be prevented or understood.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Anyone can show behaviour that challenges when distressed, and it can be understood and often prevented.",
+            "correctAnswerMessage": "Correct. Anyone in distress may show it, and understanding the unmet need behind it is how we prevent and reduce it."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ff360eb8-c7a6-40c1-9cc4-fb22ddedeb99",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

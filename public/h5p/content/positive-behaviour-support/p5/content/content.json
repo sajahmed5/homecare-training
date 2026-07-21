@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common functions of behaviour</h2><p>When professionals assess behaviour, they often find its function falls into one of a few broad groups. Knowing these helps the whole team make sense of what they see, though only a trained assessor can say for certain what is driving a particular person's behaviour.</p><ul><li><strong>To gain something:</strong> attention, company, an item, food, or a favourite activity.</li><li><strong>To avoid or escape something:</strong> a demand, a noise, a place, or an unwanted task.</li><li><strong>Sensory or distress:</strong> to meet a sensory need, or to express pain, fear or upset.</li></ul><p>The same behaviour can have different functions for different people, and even for the same person at different times.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "22ec5f2e-13db-41d2-bdc9-0c20d815f2ab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Functions of behaviour",
+          "decorative": false,
+          "file": {
+            "path": "images/functions-of-behaviour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5ec6ab9d-afd9-4f4c-84dd-841626606bc3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking beneath the behaviour</h2><p>Take a person who begins to shout and push away their plate at lunchtime. One person may be trying to <strong>escape</strong> a noisy, crowded dining room that overwhelms them. Another may be in pain from a sore tooth and have no words to say so. Another may have learned that shouting brings a staff member to sit with them, meeting a need for <strong>company</strong>. The behaviour looks the same, but the function &mdash; and therefore the right response &mdash; is different.</p><p>This is why PBS never relies on a one-size-fits-all reaction. It also explains why it can be harmful simply to give someone what stops the behaviour in the moment without understanding why. Working out function is the job of trained professionals, but your careful observations of what happened before and after a behaviour are a vital part of the picture they build.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ce5b0cdd-c672-44d2-bcb3-7b5bd1258ed6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The same behaviour, such as shouting, always has the same function for every person.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. The same behaviour can serve very different functions &mdash; to gain something, to avoid something, or to express distress &mdash; depending on the person and situation.",
+            "correctAnswerMessage": "Correct. The same behaviour can have very different functions for different people, and even for the same person at different times."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "79d7d769-bf63-4d05-b567-f9cace74595f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

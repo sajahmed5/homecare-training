@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying calm yourself</h2><p>When a person is distressed, the single most helpful thing you can do is stay calm. Distress is contagious, and so is calm. If you become anxious, raise your voice or move quickly, you are likely to make the person feel less safe and more frightened. Managing your own reaction is the foundation of everything else you do.</p><ul><li><strong>Steady yourself first:</strong> take a breath, slow down, and keep your own feelings in check.</li><li><strong>Model calm:</strong> your composure helps the person begin to settle.</li><li><strong>Don&rsquo;t take it personally:</strong> the behaviour is about the person&rsquo;s distress, not about you.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "660d0929-20b4-45a0-b1f0-11b0dfe96070",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Staying calm",
+          "decorative": false,
+          "file": {
+            "path": "images/staying-calm.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f2aaff11-a951-44ab-89fd-86e9607e6f0e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Tone and body language</h2><p>Much of what we communicate comes not from our words but from how we say them and how we hold ourselves. A person in distress, especially one who struggles with language, will read your tone and body language closely. Keeping both gentle and unthreatening helps the person feel safe.</p><ul><li><strong>Voice:</strong> speak slowly, softly and warmly, using short, simple sentences.</li><li><strong>Body:</strong> keep an open, relaxed posture, stay at or below the person&rsquo;s eye level, and avoid looming or sudden movements.</li><li><strong>Space:</strong> keep a respectful distance, and never corner the person or block their way.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b4ef3c5d-7704-4862-b5f2-b9789d94d10f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Staying calm and using a gentle tone and open body language can help a distressed person begin to feel safe and settle.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true. A calm manner, gentle tone and open body language help a distressed person feel safe.",
+            "correctAnswerMessage": "Correct. Calm is contagious &mdash; your steady voice and open body language help the person feel safe."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "2bf0f446-4efb-41c8-b1b3-cdef25c4d031",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

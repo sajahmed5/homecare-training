@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing the person and how they communicate</h2><p>The better you know a person, the more easily you can spot when something is wrong and understand what they are trying to tell you. Each person has their own history, their own likes and dislikes, and their own way of showing that they are unsettled. What looks like agitation in one person may be their normal way of being; a slight change in another may be a serious warning.</p><ul><li><strong>Know their story:</strong> their life history, routines and what matters most to them.</li><li><strong>Know their communication:</strong> the words, sounds, gestures, expressions or behaviour they use to express needs.</li><li><strong>Know what helps:</strong> the people, places, objects and routines that reassure and calm them.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8f3140b8-9b13-4e4c-88a2-8cd4b6c6a72a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Knowing the person",
+          "decorative": false,
+          "file": {
+            "path": "images/knowing-the-person.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b6779e39-28b8-4dc6-9b83-ca23a580bf86",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The value of good records</h2><p>No one can know a person entirely on their own, and staff change from shift to shift. Good records are how a team builds a shared understanding of what triggers a person, what their early signs are, and what helps. Recording factually and consistently means the next worker does not have to start from scratch.</p><ul><li><strong>Write facts, not opinions:</strong> describe what you saw and heard, when it happened and what helped.</li><li><strong>Spot patterns:</strong> records over time can reveal a trigger, such as a certain time of day or a particular task.</li><li><strong>Share and update:</strong> keep the care plan current so that everyone supports the person in the same way.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "abae2e2a-5e54-4760-81f7-cd50684b8618",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why does keeping clear, factual records of a person&rsquo;s distress matter?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>They help the whole team recognise triggers and early signs, respond consistently, and can reveal patterns over time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Shared, factual records build a common understanding and can reveal patterns that prevent distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They provide evidence to blame the person for their behaviour.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Records are not about blame. They help the team understand and support the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They are only needed after something has gone badly wrong.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Recording routinely, not just after incidents, is what reveals patterns and helps prevent distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They remove the need to talk to colleagues or read the care plan.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Records work alongside conversation and the care plan, not instead of them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d21f914d-e9bd-4845-a12a-71409e9a99b9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

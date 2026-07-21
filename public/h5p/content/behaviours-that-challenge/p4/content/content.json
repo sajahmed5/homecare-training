@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common triggers and unmet needs</h2><p>A trigger is something that sets off distress. Triggers are often small and easy to miss, yet they matter enormously to the person. Learning the common ones, as well as the particular ones for each individual, helps you prevent distress before it builds rather than only reacting once it has taken hold.</p><ul><li><strong>Physical triggers:</strong> pain, illness, needing the toilet, hunger, tiredness or the side effects of medication.</li><li><strong>Environmental triggers:</strong> loud noise, crowds, bright lights, unfamiliar places, or too much or too little going on.</li><li><strong>Emotional and social triggers:</strong> feeling rushed, ignored or frightened, or having choices taken away.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "12b594c6-0ed3-4985-8844-109b31319a51",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Common triggers",
+          "decorative": false,
+          "file": {
+            "path": "images/common-triggers.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5cf76d51-05b1-4bb7-be17-0438a48fc395",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When care itself is a trigger</h2><p>It is worth remembering that the care we give can sometimes be the trigger. Personal care, in particular, is intimate and can feel frightening or undignified to someone who does not understand why it is happening. Being rushed, approached from behind, or having something done to them without explanation can all cause a person to resist or lash out.</p><p>This is not a failing on the person&rsquo;s part &mdash; it is a natural response to feeling unsafe or out of control. Slowing down, explaining each step, offering choices and respecting the person&rsquo;s pace can turn a distressing moment into a calm one, and prevent a great deal of behaviour that challenges before it ever starts.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6b64b65a-8e29-4978-b8ed-42ccea6f72c4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You need to support someone with personal care, and they have become distressed during it before. Which approach is most likely to reduce the risk of distress?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Slow down, explain each step before you do it, offer choices and work at the person&rsquo;s pace.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Explaining, offering choices and going at the person&rsquo;s pace helps them feel safe and in control.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Get it over with as quickly as possible so the person is not distressed for long.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing often increases fear and resistance. A calm, explained pace usually works far better.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Approach quietly from behind so they do not notice what you are doing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Being approached unseen can frighten a person. Always let them see you and know what is happening.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do the care in silence so as not to draw attention to it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Silence can leave the person confused and afraid. Gentle explanation helps them feel safe.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0c025d7a-5533-4631-a2e3-c8ccfcb97825",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

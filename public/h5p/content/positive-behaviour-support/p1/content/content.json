@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Positive Behaviour Support</h2><p>Welcome to this awareness course on <strong>Positive Behaviour Support</strong>, usually shortened to PBS. PBS is a values-based, person-centred way of supporting people whose behaviour others may find challenging &mdash; often people with a learning disability, autistic people, or people living with dementia or a mental health condition. It is built on respect, and on the belief that everyone has the right to a good life. This course is for care workers in England and draws on the principles set out by the PBS Academy &amp; BILD, alongside the Mental Capacity Act and guidance from Skills for Care.</p><ul><li><strong>Values-based:</strong> PBS puts a person's quality of life at its very heart.</li><li><strong>Person-centred:</strong> support is built around the individual, not around control.</li><li><strong>Your role:</strong> to follow the person's PBS plan and work in the least restrictive way.</li></ul><p>This e-learning covers the <strong>knowledge and awareness</strong> element only. <strong>PBS plans, including any functional assessment, are developed and led by trained professionals</strong>, and your job is to follow the plan consistently. Any <strong>physical intervention needs specific, accredited training</strong> and is always a <strong>last resort</strong> &mdash; it can never be learned from an online course alone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "be6ff702-602d-4d45-bc69-f9622500e4f7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fbfddf6c-b30e-488a-907f-ccd4e4aa0e20",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will build a clear picture of what PBS is and how you support it day to day.</p><ul><li><strong>What PBS is:</strong> its values, and how it differs from old control-based approaches.</li><li><strong>Understanding behaviour:</strong> that behaviour has a purpose and communicates a need.</li><li><strong>Strategies and safety:</strong> proactive support, and least restrictive practice.</li></ul><p>The four sections move from the values behind PBS, through understanding why behaviour happens, to the proactive and person-centred strategies that help people live well &mdash; and finally to least restrictive practice and keeping everyone safe. Throughout, keep the people you support in mind, and remember that PBS is something the whole team does together, guided by each person's plan.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9bde4151-11b9-429c-9f09-bab8139e8b9c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

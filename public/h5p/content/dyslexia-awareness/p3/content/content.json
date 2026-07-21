@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role as a care worker</h2><p>You are not expected to diagnose dyslexia or to teach reading. Your role is to be aware, understanding and practical &mdash; to recognise when someone may find written information difficult, to adapt how you communicate, and to make the reasonable adjustments that help a person take part fully and with dignity. Small changes in your everyday practice can make a real difference to someone&rsquo;s confidence and independence.</p><ul><li><strong>Be aware:</strong> notice when reading, writing or organisation seem to cause difficulty.</li><li><strong>Adapt:</strong> change how you share information so it is easier to understand.</li><li><strong>Support dignity:</strong> offer help in a way that never embarrasses or singles a person out.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5b24ddd4-2d29-41bd-827b-ef9ac6395894",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d201974d-e675-41da-bb71-8fdc2555e7ad",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working within your limits</h2><p>Understanding the boundaries of your role protects both you and the people you support. Formally identifying dyslexia is the job of qualified professionals, such as specialist teachers or educational psychologists, through a proper assessment. Your part is to spot when someone is struggling, respond helpfully, and signpost towards assessment and support where that is wanted.</p><ul><li><strong>Do not diagnose:</strong> never label someone as dyslexic yourself.</li><li><strong>Do make adjustments:</strong> you can and should adapt communication straight away, without waiting for any diagnosis.</li><li><strong>Do signpost:</strong> point people towards proper assessment and support when they wish to explore it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8e7f48c-78a1-462a-9834-bcb1fae6300e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should wait for a formal diagnosis of dyslexia before making any reasonable adjustments to how you share information.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You never need to wait for a diagnosis to make helpful adjustments &mdash; adapt your communication whenever it helps.",
+            "correctAnswerMessage": "Correct. You do not need a diagnosis to adapt your communication. Helpful adjustments can and should be made straight away."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "d827ac54-126c-44a5-8722-8333c2487af2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

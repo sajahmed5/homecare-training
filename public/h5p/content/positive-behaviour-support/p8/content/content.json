@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Meaningful days and real choice</h2><p>Proactive support only works if it is real for the person, every day. As a care worker, you help turn the idea of a good life into an ordinary good day. Much of this is about how you spend time together and how you offer choices.</p><ul><li><strong>Meaningful activity:</strong> support the person to do things they enjoy and value.</li><li><strong>Real choice:</strong> offer choices the person can make, and see them honoured.</li><li><strong>Independence:</strong> help the person do things for themselves wherever they can.</li></ul><p>Small, consistent kindnesses do more to prevent distress than any reaction after the fact.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "46f09593-ecf6-42f3-a5fe-12afa659c5d1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Meaningful days",
+          "decorative": false,
+          "file": {
+            "path": "images/meaningful-days.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6ebbc0a1-9df7-4279-9724-ed09b50336fa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Predictable routines and good communication</h2><p>People feel safest when the day is <strong>predictable</strong>. Following the person's usual routine, and preparing them gently for anything different &mdash; a new staff member, an appointment, a change of plan &mdash; helps them stay settled. Sudden, unexplained change is a common trigger for distress, so a little preparation goes a long way.</p><p>Good <strong>communication</strong> holds all of this together. Use the methods that work for each person, which may include simple language, pictures, objects, signing or a communication aid, and always give them time to understand and respond. Check that you have understood them, too. When a person can make sense of their world and have their voice heard, they feel calmer and more in control &mdash; and much of the distress behind challenging behaviour never needs to arise. This everyday, patient work is PBS in action.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "61853221-a52c-4d53-a48c-a0728e0442ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

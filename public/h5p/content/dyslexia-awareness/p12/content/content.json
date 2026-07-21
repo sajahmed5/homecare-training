@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality and respect</h2><p>Information about a person&rsquo;s dyslexia is personal, and it should be treated with the same care as any other confidential information. Some people are open about being dyslexic, while others prefer to keep it private, perhaps because of past experiences. It is not for you to share this information with others without good reason and the person&rsquo;s agreement.</p><ul><li><strong>Keep it confidential:</strong> share information only with those who need it and, wherever possible, with the person&rsquo;s consent.</li><li><strong>Respect privacy:</strong> let people decide for themselves how open to be about their dyslexia.</li><li><strong>Record appropriately:</strong> note the support a person needs in the care plan, following your organisation&rsquo;s policies.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "969202c8-96e4-40f5-bb22-ada1a5ac03f5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Confidentiality and assumptions",
+          "decorative": false,
+          "file": {
+            "path": "images/confidentiality-and-assumptions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "323246c1-facc-439f-857b-2929c60e3be2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Not making assumptions</h2><p>Dyslexia affects everyone differently, so assumptions can easily lead you astray. Do not assume that a person cannot read at all, that they will struggle with everything, or that finding one thing hard means they find everything hard. Equally, do not assume that someone who reads slowly is careless or not trying. Assumptions can be both inaccurate and demeaning.</p><p>The safest approach is to ask, listen and check. Find out what the person can do, what they find difficult, and how they would like to be supported. Treating each person as an individual, rather than as a label, keeps your care respectful, accurate and genuinely helpful.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8c083a7c-3f72-486b-87ce-91452a124911",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

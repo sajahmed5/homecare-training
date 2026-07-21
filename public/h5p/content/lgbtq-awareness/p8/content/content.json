@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Relationships and chosen family</h2><p>Family and close relationships matter deeply to wellbeing. For some LGBTQ+ people, the people closest to them are not blood relatives but a &ldquo;chosen family&rdquo; of trusted friends and partners, sometimes because they became estranged from their birth family. These bonds deserve the same respect and welcome as any other family.</p><ul><li><strong>Respect who matters to them:</strong> welcome partners, friends and chosen family as the person wishes.</li><li><strong>Do not judge relationships:</strong> treat same-sex partners exactly as you would any other couple.</li><li><strong>Support connection:</strong> help people stay in touch with the people who matter most to them.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b43affeb-d7b3-4bc2-902d-f668885409fd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Relationships and faith",
+          "decorative": false,
+          "file": {
+            "path": "images/relationships-and-faith.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "eb71ac94-30cb-4a6a-b2d1-75ba7fd2ae56",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Faith and culture</h2><p>People hold many different beliefs, and a person may be both LGBTQ+ and a person of faith. Their identity and their culture or religion are both important parts of who they are, and both deserve respect. Your own personal or religious views must never affect the care you give or lead you to treat someone as less deserving of dignity.</p><p>If you ever feel a tension between your beliefs and your duty to care inclusively, remember that your role is to support every person equally. Talk to your manager or supervisor for guidance rather than letting it affect the person&rsquo;s care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6af7dda4-6607-47e3-ae8b-4aa643d9993e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

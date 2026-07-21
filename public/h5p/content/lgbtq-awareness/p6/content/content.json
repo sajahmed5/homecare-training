@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Never assume</h2><p>It is easy to make assumptions without realising it &mdash; to assume a woman has a husband, or that an older person could not possibly be gay, bisexual or trans. Assumptions like these can make a person feel invisible and unable to be open. Inclusive care starts with keeping an open mind and letting people tell you who they are.</p><ul><li><strong>No default:</strong> do not assume anyone is heterosexual or that their gender matches their records.</li><li><strong>Use open questions:</strong> ask about &ldquo;partners&rdquo; rather than assuming a husband or wife.</li><li><strong>Let people share at their pace:</strong> give people the space to be open, without pressure.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3567a059-68e5-41ae-8938-13c20de749d4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Never assume",
+          "decorative": false,
+          "file": {
+            "path": "images/never-assume.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "69be6b2b-4d6f-4300-8dc1-06c06e7b0917",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality about identity</h2><p>A person&rsquo;s sexual orientation and gender identity are private and sensitive information. If someone shares this with you, it is not yours to pass on. You should never disclose that a person is LGBTQ+ to their family, other people they know, or colleagues who have no need to know, without the person&rsquo;s clear agreement.</p><p>Revealing someone&rsquo;s identity without their consent is called &ldquo;outing&rdquo; them, and it can cause real harm &mdash; damaging relationships, or exposing someone to prejudice or danger. Only share such information with colleagues where it is genuinely necessary for the person&rsquo;s care and where the person is content for you to do so.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "adcaabff-0bf8-416f-83f1-5089528790d4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support tells you, in confidence, that she is a lesbian. Her daughter later asks you directly whether her mother has ever had a girlfriend. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep the information confidential and do not disclose her identity without her clear consent.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A person&rsquo;s identity is private. Disclosing it without consent would be outing her, which can cause real harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the daughter the truth, as family have a right to know.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They do not. This is private information, and sharing it without consent could cause serious harm to the person&rsquo;s relationships and safety.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hint at it so the daughter can work it out for herself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Hinting still discloses private information the person shared in confidence. Keep it confidential unless she agrees you may share.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Note it in the daily log for all staff to read.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Only share such information where it is genuinely necessary for care and the person agrees. Broadcasting it to all staff is not appropriate.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "37e191a7-e68b-4ac5-9285-90d41bb4e2ee",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Equality Act 2010</h2><p>The Equality Act 2010 is the law that protects people from discrimination. It sets out nine protected characteristics, and it is against the law to discriminate against someone because of any of them. Two of these characteristics are directly relevant here: <strong>sexual orientation</strong> and <strong>gender reassignment</strong>. As a care worker delivering a service, you and your organisation must not treat anyone unfairly because of who they are.</p><ul><li><strong>Sexual orientation:</strong> protects people who are lesbian, gay, bisexual or heterosexual.</li><li><strong>Gender reassignment:</strong> protects people who are proposing to undergo, are undergoing or have undergone a process to reassign their sex.</li><li><strong>A legal duty:</strong> the protection applies to the care and services you provide, not just to employment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b143afdd-04fb-4b66-a555-d3c4be475b8f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Equality Act",
+          "decorative": false,
+          "file": {
+            "path": "images/the-equality-act.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "73286fdc-84f6-4fad-b979-6b6c3fb25c06",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What the protection means in practice</h2><p>A trans person is protected under gender reassignment from the point they decide to live in their affirmed gender. They do not need to have had any medical treatment or surgery, and they do not need a Gender Recognition Certificate, to be protected. The law also protects people from being treated unfairly because they are thought to be LGBTQ+, or because someone they are connected to is.</p><p>The Care Quality Commission (CQC) expects services to meet these duties as part of treating people with dignity and respect. Inclusive, equal care is therefore both a legal requirement and a mark of good, well-led care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "32989eea-c82c-4468-9c7c-65e84a74054a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which two protected characteristics under the Equality Act 2010 most directly protect LGBTQ+ people from discrimination in care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Sexual orientation and gender reassignment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Sexual orientation and gender reassignment are the two protected characteristics most directly relevant to LGBTQ+ people.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Age and disability.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Age and disability are protected characteristics, but they are not the ones that most directly protect LGBTQ+ people.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Marriage and religion only.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Marriage or civil partnership and religion or belief are protected too, but the key characteristics here are sexual orientation and gender reassignment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>None &mdash; the Act does not cover LGBTQ+ people.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The Act clearly protects LGBTQ+ people through sexual orientation and gender reassignment.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "054345f5-fa1f-4c30-b114-ed165b1139f5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

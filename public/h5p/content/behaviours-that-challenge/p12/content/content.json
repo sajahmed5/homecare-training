@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical intervention is a last resort</h2><p>Physically intervening &mdash; holding or restraining a person &mdash; is only ever a last resort, used when there is a real and immediate risk of serious harm and everything else has failed. It must never be a routine way of managing behaviour. Restraint carries real risks to the person&rsquo;s safety, dignity and trust, and it can cause serious physical and emotional harm.</p><ul><li><strong>Only in emergencies:</strong> used solely to prevent immediate, serious harm, never for convenience or punishment.</li><li><strong>Requires specific training:</strong> only staff trained in approved techniques may ever use physical intervention.</li><li><strong>Always the last option:</strong> every less restrictive approach should be tried first.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6146d530-67fa-46b9-8fd1-1494819e4677",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Least restrictive practice",
+          "decorative": false,
+          "file": {
+            "path": "images/least-restrictive-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b95aff4e-b1c9-4d15-be43-6cece92e3fa9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Least restrictive and proportionate</h2><p>Any restriction on a person must follow the principle of least restriction: use the least restrictive option that keeps people safe, for the shortest time, and only in proportion to the actual risk. These ideas sit at the heart of the Mental Capacity Act, which protects people who may not be able to make certain decisions for themselves and requires that anything done to them is in their best interests and as free from restriction as possible.</p><ul><li><strong>Least restrictive:</strong> always choose the option that limits the person&rsquo;s freedom the least.</li><li><strong>Proportionate:</strong> any response must match the seriousness and likelihood of the harm.</li><li><strong>Lawful and accountable:</strong> follow the Mental Capacity Act, your training and your employer&rsquo;s policy, and be ready to justify what you did.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1f761e99-2e07-487d-8756-69ef6470911d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best reflects the principle of least restrictive practice?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Use the least restrictive option that keeps people safe, for the shortest time, and in proportion to the actual risk.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Least restriction means the mildest necessary response, for the shortest time, matched to the real risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Restraint should be used early to stop any behaviour before it starts.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Restraint is a last resort for immediate, serious harm, never an early or routine measure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any restriction is fine, as long as it makes the shift easier for staff.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Restrictions must be for the person&rsquo;s safety and best interests, never for staff convenience.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Once physical intervention begins, it should continue for as long as possible.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Any intervention must last the shortest time necessary and stop as soon as the risk has passed.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "35a055d1-9e3a-4dc3-af13-f2fe66b4d298",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

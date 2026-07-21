@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Overlays, extra time and verbal instructions</h2><p>A range of simple, practical adjustments can help a person with dyslexia. Coloured overlays &mdash; tinted transparent sheets placed over a page &mdash; or coloured backgrounds and paper can reduce visual stress and make text steadier to read. Giving people extra time removes the pressure that makes reading and writing harder, and offering instructions verbally as well as in writing means a person is not relying on text alone.</p><ul><li><strong>Colour:</strong> coloured overlays, paper or screen tints can ease visual stress for some people.</li><li><strong>Extra time:</strong> allowing longer for reading, forms or tasks reduces pressure.</li><li><strong>Say it too:</strong> give key information verbally as well as in writing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "69dd04e5-a3e3-423d-89f7-b46c8a22b171",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Practical adjustments",
+          "decorative": false,
+          "file": {
+            "path": "images/practical-adjustments.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "62929a3b-d027-48d0-a34b-3304db6eb45b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Assistive technology</h2><p>Technology offers powerful support and is often built into the phones, tablets and computers people already use. Text-to-speech software reads written text aloud, while speech-to-text lets a person dictate rather than type. Spellcheckers, audio recordings and reminder apps all help reduce the load on reading, writing and memory.</p><p>You do not need to be a technology expert. Simply being aware that these tools exist means you can encourage their use and help a person access support that suits them. Where someone already uses a particular tool or method, respect it and build it into how you work together.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e65a4062-1dd6-4384-84d6-fe64353febd9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support finds reading forms tiring and stressful. Which of the following are helpful reasonable adjustments?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Offering a coloured overlay, allowing extra time, and going through the form verbally as well.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These simple adjustments reduce pressure and make the information easier to access.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Insisting they read the whole form quickly and unaided to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing a person adds pressure and makes reading harder. Allow time and offer support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Telling them that adjustments are unnecessary because everyone finds forms hard.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dismissing the difficulty denies a person fair access. Reasonable adjustments are appropriate here.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Refusing to help until they have proved they have a diagnosis.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You never need a diagnosis to make helpful adjustments. Offer support straight away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "401865df-aa70-40b5-bdaf-322f87a40d56",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Restraint reduction and the harm of restriction</h2><p>Restrictive practices &mdash; anything that limits a person's movement, freedom or choice, including physical restraint, seclusion, or the use of medication to control behaviour &mdash; can cause real harm. They can be frightening, undignified and even dangerous, and they can damage the trust between a person and those who support them. This is why there is a strong drive towards <strong>restraint reduction</strong>: using restrictive practices as little as possible, and working actively to reduce them.</p><ul><li><strong>Restrictive practice:</strong> anything that limits a person's freedom or choice.</li><li><strong>Real harm:</strong> restraint can be frightening, undignified and dangerous.</li><li><strong>The aim:</strong> to reduce restrictive practice through better proactive support.</li></ul><p>The best way to reduce restraint is to get proactive, person-centred support right.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "854c2768-7cde-4308-b40b-f11fa6aa9ef8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Restraint reduction",
+          "decorative": false,
+          "file": {
+            "path": "images/restraint-reduction.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2b96d8ba-1e20-47de-a43d-bb082bd95caf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical intervention needs specific training</h2><p>Any <strong>physical intervention</strong> &mdash; physically holding or restricting a person &mdash; is a serious step that carries real risks to the person and to you. It must only ever be used as a last resort, when there is an immediate risk of harm and no less restrictive option will do, and it must always be <strong>proportionate</strong> to that risk and the <strong>least restrictive</strong> means of managing it.</p><p>Crucially, physical intervention requires <strong>specific, accredited training</strong> from a recognised programme. It can never be learned from an e-learning course like this one, and you must never attempt a hold or restraint you have not been properly trained to use. Certain restraints, such as anything restricting a person's airway or breathing, are extremely dangerous and prohibited. If your role may involve physical intervention, your employer must arrange the proper training, and you should only ever act within it and within the person's plan.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e29d1f6d-b640-4dc7-9745-609a75615ce5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about physical intervention is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It is a last resort that must be proportionate, least restrictive, and only ever carried out by people with specific accredited training</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Physical intervention is a last resort, must be proportionate and least restrictive, and needs specific accredited training.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any care worker can safely use a hold if they think the situation calls for it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. You must never attempt a hold you have not been specifically and properly trained to use.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is a normal, everyday way to manage behaviour that challenges</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Physical intervention is a rare last resort, not an everyday response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It can be learned well enough from an online awareness course like this one</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Physical intervention can never be learned from online learning; it needs specific accredited training.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "17c17afa-fc09-49b8-a102-60b392c23c84",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

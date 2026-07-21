@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Responding to discriminatory comments</h2><p>When you hear a discriminatory or offensive remark, staying silent can feel easier, but silence can seem like agreement. You can challenge comments calmly and professionally without causing a scene. Standing up for inclusive care protects the people you support and sets the tone for the whole team.</p><ul><li><strong>Challenge the comment, not the person:</strong> make clear the remark is not acceptable, calmly and respectfully.</li><li><strong>Support anyone affected:</strong> check on the person targeted and reassure them.</li><li><strong>Report it:</strong> record what happened and tell your manager, following your organisation&rsquo;s policy.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "22d4cb1b-d34d-4560-85e1-b6e88a3c7504",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Responding well",
+          "decorative": false,
+          "file": {
+            "path": "images/responding-well.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "100d5a3c-808a-4cb0-8f41-cef64611faaf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting someone who is coming out</h2><p>&ldquo;Coming out&rdquo; is when a person chooses to share their sexual orientation or gender identity. It can take courage, especially for someone who has hidden it for years. If a person comes out to you, respond warmly and calmly, thank them for trusting you, and let them know it makes no difference to the respect and care they receive.</p><p>Follow the person&rsquo;s lead about who else, if anyone, they wish to tell. It is their information to share, in their own time. Never take it upon yourself to tell others, and never pressure someone to come out before they are ready.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "188ddfad-8414-4ff4-9765-77d670f14d35",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "If you hear a discriminatory remark, you should *challenge* it calmly and professionally, and *report* it through your organisation&rsquo;s policy. If a person comes out to you, respond with *warmth* and follow their *lead* about who else they wish to tell.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "c6d6e2ec-a3f6-41f1-ac68-22156f1cf558",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

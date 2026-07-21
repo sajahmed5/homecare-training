@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making no assumptions</h2><p>Person-centred care means seeing each person as an individual and building support around their wishes, relationships and history &mdash; not around what you expect them to be. When you make no assumptions, people feel able to be themselves, which is the foundation of good care.</p><ul><li><strong>Start with the person:</strong> ask what matters to them and how they wish to be supported.</li><li><strong>Record what they tell you:</strong> capture their preferences so care stays consistent across the team.</li><li><strong>Keep an open, curious mind:</strong> be ready to learn about the person rather than filling in the gaps yourself.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40494eab-92cb-4a15-b672-a857ffc916bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for No assumptions",
+          "decorative": false,
+          "file": {
+            "path": "images/no-assumptions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "37b952d5-6cf8-4985-bca3-8201ae9919de",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A welcoming environment</h2><p>People quickly sense whether a place is welcoming. Small, visible signals show LGBTQ+ people that they will be accepted. Inclusive-care guidance from organisations such as Stonewall, the NHS and Skills for Care encourages services to make inclusion visible and to use language that does not assume everyone is heterosexual.</p><ul><li><strong>Inclusive language:</strong> use words like &ldquo;partner&rdquo; on forms and in conversation.</li><li><strong>Visible signals:</strong> welcoming imagery or symbols can quietly reassure people they are safe here.</li><li><strong>A consistent culture:</strong> every member of the team helps set a respectful, accepting tone.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "be874108-6774-4d49-a0e4-a06da6eff9af",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these best helps create a welcoming, inclusive environment for LGBTQ+ people?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Using inclusive language such as &ldquo;partner&rdquo; and making no assumptions about anyone&rsquo;s identity.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Inclusive language and an open, assumption-free approach help people feel safe to be themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assuming everyone is heterosexual unless they say otherwise.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This assumption can make LGBTQ+ people feel invisible and unwelcome. Keep an open mind instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Waiting for people to prove their identity before treating them respectfully.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Respect is never conditional. Everyone deserves inclusive, dignified care from the outset.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoiding the subject entirely so no one is offended.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Silence can feel unwelcoming. Using inclusive language and being openly accepting is far more reassuring.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "18ffd9b4-39a9-4447-8e6c-6d7c26f44b3b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reactive strategies as a last resort</h2><p>Despite the best proactive and secondary support, there may still be rare occasions when a person's behaviour puts them or others at serious risk of harm. <strong>Reactive strategies</strong> are what the team does in that moment to keep everyone safe. In PBS these are always a <strong>last resort</strong> &mdash; the smallest part of a good plan, used as little as possible.</p><ul><li><strong>Purpose:</strong> to keep people safe in the moment, nothing more.</li><li><strong>Last resort:</strong> used only when other approaches have not been enough.</li><li><strong>Planned:</strong> set out in advance in the PBS plan, not improvised.</li></ul><p>A good PBS plan puts most of its effort into prevention, so reactive strategies are needed as rarely as possible.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0458fea5-6aa4-40cf-89e7-51e2c8eec908",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reactive strategies",
+          "decorative": false,
+          "file": {
+            "path": "images/reactive-strategies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3ac094ff-ff73-4844-86fc-01940da98d12",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Least restrictive practice</h2><p>A key principle running through PBS, and through the law, is that support should always be the <strong>least restrictive</strong> option. This means doing whatever is needed to keep people safe while limiting the person's freedom and choice as little as possible, for as short a time as possible. The <strong>Mental Capacity Act</strong> requires that where a decision is made for someone who cannot make it themselves, it must be in their best interests and the least restrictive of their rights and freedoms.</p><p>Many reactive strategies do not involve any physical contact at all &mdash; giving space, removing something risky, or calmly talking with the person are often enough. The goal is to step down to calmer, less restrictive support as soon as it is safe. Restriction is never a punishment and never for staff convenience; it is only ever to keep someone safe from harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6df09a3-3444-4072-b680-f0c47ccca1bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does &ldquo;least restrictive practice&rdquo; mean in PBS?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keeping people safe while limiting the person's freedom and choice as little as possible, for as short a time as possible</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Least restrictive practice keeps people safe while protecting the person's rights and freedoms as far as possible.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Using restriction routinely so that staff can keep control</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Restriction is never routine or for control; it is a last resort to keep someone safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Restricting a person as a consequence when they behave badly</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Restriction is never a punishment or consequence; it is only ever to prevent serious harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoiding all action, even when someone is at serious risk of harm</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Least restrictive still means keeping people safe; it means using the smallest restriction needed to do so.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1852969e-9093-4372-beb0-5132e33dfee9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

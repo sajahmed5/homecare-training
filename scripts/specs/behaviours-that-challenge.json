@@ -1,0 +1,374 @@
+{
+ "slug": "behaviours-that-challenge",
+ "courseTitle": "Behaviour that Challenges",
+ "pages": [
+  {
+   "label": "What the term means",
+   "section": "Understanding behaviour that challenges",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>What &ldquo;behaviour that challenges&rdquo; means</h2><p>Behaviour that challenges describes actions that are difficult for others to manage, or that put the person or those around them at risk of harm &mdash; shouting, hitting, throwing things, refusing care, or withdrawing completely. The phrase describes the behaviour, not the person. It is never a label for a &ldquo;difficult&rdquo; or &ldquo;aggressive&rdquo; individual. Understood correctly, behaviour that challenges is almost always a sign of distress and an attempt to communicate a need that has not been met.</p><ul><li><strong>Describes the behaviour:</strong> the term names an action and its impact, not a person&rsquo;s character.</li><li><strong>A sign of distress:</strong> the behaviour usually signals that something is wrong for the person.</li><li><strong>Common in care:</strong> many people you support may show it at some point, especially at times of change or discomfort.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Why we avoid labelling people</h2><p>Labelling someone as &ldquo;aggressive&rdquo;, &ldquo;attention-seeking&rdquo; or &ldquo;a challenge&rdquo; changes how a whole team sees and treats them, and it stops us asking the most important question: what is this person trying to tell us? When we blame the person, we look for ways to control them; when we see distress, we look for the unmet need behind it and respond with compassion.</p><p>This course raises your awareness of behaviour that challenges and how to respond calmly, safely and with respect. It is knowledge-level learning only. Physical intervention is a last resort that requires specific, accredited training, and nothing here teaches or authorises you to physically restrain anyone. This course does not replace supervised, hands-on training, and you must always work within your employer&rsquo;s policies, the person&rsquo;s care plan, and the limits of your own training and competence.</p>"
+    }
+   ]
+  },
+  {
+   "label": "Behaviour as communication",
+   "section": "Understanding behaviour that challenges",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Behaviour as communication</h2><p>When someone cannot easily tell us what is wrong &mdash; because of dementia, a learning disability, autism, pain or fear &mdash; behaviour becomes their language. A person who paces, calls out or lashes out may be saying &ldquo;I am hurting&rdquo;, &ldquo;I am frightened&rdquo; or &ldquo;I need the toilet&rdquo; in the only way available to them. Your task is to become a good listener to that language, looking past the action to the need underneath.</p><ul><li><strong>Every behaviour has a meaning:</strong> it serves a purpose for the person, even when the reason is not obvious.</li><li><strong>It often replaces words:</strong> behaviour communicates when speech is difficult or impossible.</li><li><strong>Look underneath:</strong> ask what unmet need the behaviour might be expressing.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Common unmet needs</h2><p>Many everyday needs, when unmet, can lead to distress and behaviour that challenges. Some are physical, some emotional, and some are about the environment around the person. Getting to know these possibilities helps you respond to the cause rather than only to the behaviour you can see.</p><ul><li><strong>Physical discomfort:</strong> pain, hunger, thirst, tiredness, needing the toilet, constipation, or feeling too hot or too cold.</li><li><strong>Emotional needs:</strong> fear, loneliness, boredom, frustration or feeling ignored.</li><li><strong>The environment:</strong> too much noise and bustle (over-stimulation) or too little to do (under-stimulation).</li></ul>"
+    },
+    {
+     "type": "multichoice",
+     "question": "A person living with dementia becomes agitated and tries to leave the lounge every afternoon. Which response best reflects an awareness-level understanding of their behaviour?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "Treat the behaviour as a possible sign of an unmet need &mdash; such as needing the toilet, pain or boredom &mdash; and try to find out what it is communicating.",
+       "correct": true,
+       "feedback": "Correct. Behaviour that challenges is usually communicating a need; your job is to look for it."
+      },
+      {
+       "text": "Record the person as aggressive and difficult, and warn colleagues to keep their distance.",
+       "correct": false,
+       "feedback": "Not right. Labelling the person stops the team asking what the behaviour is telling us."
+      },
+      {
+       "text": "Ignore it, because agitation in dementia never has a cause worth exploring.",
+       "correct": false,
+       "feedback": "Agitation almost always has a cause &mdash; pain, discomfort or an unmet need &mdash; that is worth exploring."
+      },
+      {
+       "text": "Insist firmly that they sit down and stay where they are told.",
+       "correct": false,
+       "feedback": "Controlling the person overlooks the need behind the behaviour and is likely to increase their distress."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Who may be affected",
+   "section": "Understanding behaviour that challenges",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Who may be affected</h2><p>Anyone can show behaviour that challenges at a time of distress, but it is more likely among people who find it hard to communicate or to make sense of what is happening around them. Recognising who may be more affected helps you stay patient and prepared, without ever assuming that a particular person will behave in a particular way.</p><ul><li><strong>People living with dementia:</strong> confusion, memory loss and difficulty communicating can lead to distress.</li><li><strong>People with a learning disability or autism:</strong> unfamiliar routines, sensory overload or being misunderstood can be overwhelming.</li><li><strong>People with mental illness:</strong> conditions such as anxiety, depression or psychosis can affect how a person feels and reacts.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Your role as a care worker</h2><p>Your role is not to control or manage a person, but to understand and support them. You are often the person who knows them best and spends the most time with them, which places you well to notice distress early and respond with kindness. You keep everyone safe by staying calm, following the person&rsquo;s plan, and knowing when to step back and call for help.</p><ul><li><strong>Understand, don&rsquo;t control:</strong> look for the reason behind the behaviour and meet the need.</li><li><strong>Keep people safe:</strong> protect the person, yourself and others from harm.</li><li><strong>Know your limits:</strong> follow the plan, work within your training, and seek help when you need it.</li></ul>"
+    },
+    {
+     "type": "truefalse",
+     "question": "Behaviour that challenges only affects people who are naturally aggressive, so it cannot be prevented or understood.",
+     "correct": false,
+     "correctMsg": "Correct. Anyone in distress may show it, and understanding the unmet need behind it is how we prevent and reduce it.",
+     "wrongMsg": "Not quite. Anyone can show behaviour that challenges when distressed, and it can be understood and often prevented."
+    }
+   ]
+  },
+  {
+   "label": "Common triggers",
+   "section": "Recognising triggers and early signs",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Common triggers and unmet needs</h2><p>A trigger is something that sets off distress. Triggers are often small and easy to miss, yet they matter enormously to the person. Learning the common ones, as well as the particular ones for each individual, helps you prevent distress before it builds rather than only reacting once it has taken hold.</p><ul><li><strong>Physical triggers:</strong> pain, illness, needing the toilet, hunger, tiredness or the side effects of medication.</li><li><strong>Environmental triggers:</strong> loud noise, crowds, bright lights, unfamiliar places, or too much or too little going on.</li><li><strong>Emotional and social triggers:</strong> feeling rushed, ignored or frightened, or having choices taken away.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>When care itself is a trigger</h2><p>It is worth remembering that the care we give can sometimes be the trigger. Personal care, in particular, is intimate and can feel frightening or undignified to someone who does not understand why it is happening. Being rushed, approached from behind, or having something done to them without explanation can all cause a person to resist or lash out.</p><p>This is not a failing on the person&rsquo;s part &mdash; it is a natural response to feeling unsafe or out of control. Slowing down, explaining each step, offering choices and respecting the person&rsquo;s pace can turn a distressing moment into a calm one, and prevent a great deal of behaviour that challenges before it ever starts.</p>"
+    },
+    {
+     "type": "multichoice",
+     "question": "You need to support someone with personal care, and they have become distressed during it before. Which approach is most likely to reduce the risk of distress?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "Slow down, explain each step before you do it, offer choices and work at the person&rsquo;s pace.",
+       "correct": true,
+       "feedback": "Correct. Explaining, offering choices and going at the person&rsquo;s pace helps them feel safe and in control."
+      },
+      {
+       "text": "Get it over with as quickly as possible so the person is not distressed for long.",
+       "correct": false,
+       "feedback": "Rushing often increases fear and resistance. A calm, explained pace usually works far better."
+      },
+      {
+       "text": "Approach quietly from behind so they do not notice what you are doing.",
+       "correct": false,
+       "feedback": "Being approached unseen can frighten a person. Always let them see you and know what is happening."
+      },
+      {
+       "text": "Do the care in silence so as not to draw attention to it.",
+       "correct": false,
+       "feedback": "Silence can leave the person confused and afraid. Gentle explanation helps them feel safe."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "The escalation cycle",
+   "section": "Recognising triggers and early signs",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>The escalation cycle</h2><p>Distress usually builds in stages rather than appearing all at once. Recognising this cycle helps you step in early, when calm support is most effective. Once a person has reached crisis, there is far less you can do except keep everyone safe and wait for the distress to pass.</p><ul><li><strong>Baseline:</strong> the person is calm and settled &mdash; their usual self.</li><li><strong>Build-up:</strong> a trigger causes early signs of anxiety, tension or agitation.</li><li><strong>Crisis and recovery:</strong> distress may peak, then gradually settles, and the person needs time and gentleness to recover.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Spotting early warning signs</h2><p>The build-up stage is your best opportunity to help. Early warning signs are the small changes that show a person&rsquo;s distress is rising, and they are often unique to the individual. The sooner you notice them, the sooner you can meet the need and prevent things escalating.</p><ul><li><strong>Body language:</strong> restlessness, pacing, clenched fists, tense posture or a change in facial expression.</li><li><strong>Voice:</strong> becoming louder, faster or quieter, or repeating the same words or questions.</li><li><strong>Changes in manner:</strong> becoming withdrawn, tearful, irritable or unusually quiet.</li></ul>"
+    },
+    {
+     "type": "dragtext",
+     "taskDescription": "<p>Drag each word into the correct gap.</p>",
+     "textField": "Distress usually builds in stages, so the *build-up* stage is your best chance to help before things reach a *crisis*. Early warning signs such as pacing, a *tense* posture or a raised *voice* tell you that a person&rsquo;s distress is rising."
+    }
+   ]
+  },
+  {
+   "label": "Knowing the person",
+   "section": "Recognising triggers and early signs",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Knowing the person and how they communicate</h2><p>The better you know a person, the more easily you can spot when something is wrong and understand what they are trying to tell you. Each person has their own history, their own likes and dislikes, and their own way of showing that they are unsettled. What looks like agitation in one person may be their normal way of being; a slight change in another may be a serious warning.</p><ul><li><strong>Know their story:</strong> their life history, routines and what matters most to them.</li><li><strong>Know their communication:</strong> the words, sounds, gestures, expressions or behaviour they use to express needs.</li><li><strong>Know what helps:</strong> the people, places, objects and routines that reassure and calm them.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>The value of good records</h2><p>No one can know a person entirely on their own, and staff change from shift to shift. Good records are how a team builds a shared understanding of what triggers a person, what their early signs are, and what helps. Recording factually and consistently means the next worker does not have to start from scratch.</p><ul><li><strong>Write facts, not opinions:</strong> describe what you saw and heard, when it happened and what helped.</li><li><strong>Spot patterns:</strong> records over time can reveal a trigger, such as a certain time of day or a particular task.</li><li><strong>Share and update:</strong> keep the care plan current so that everyone supports the person in the same way.</li></ul>"
+    },
+    {
+     "type": "multichoice",
+     "question": "Why does keeping clear, factual records of a person&rsquo;s distress matter?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "They help the whole team recognise triggers and early signs, respond consistently, and can reveal patterns over time.",
+       "correct": true,
+       "feedback": "Correct. Shared, factual records build a common understanding and can reveal patterns that prevent distress."
+      },
+      {
+       "text": "They provide evidence to blame the person for their behaviour.",
+       "correct": false,
+       "feedback": "Records are not about blame. They help the team understand and support the person."
+      },
+      {
+       "text": "They are only needed after something has gone badly wrong.",
+       "correct": false,
+       "feedback": "Recording routinely, not just after incidents, is what reveals patterns and helps prevent distress."
+      },
+      {
+       "text": "They remove the need to talk to colleagues or read the care plan.",
+       "correct": false,
+       "feedback": "Records work alongside conversation and the care plan, not instead of them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Staying calm",
+   "section": "Responding and de-escalating",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Staying calm yourself</h2><p>When a person is distressed, the single most helpful thing you can do is stay calm. Distress is contagious, and so is calm. If you become anxious, raise your voice or move quickly, you are likely to make the person feel less safe and more frightened. Managing your own reaction is the foundation of everything else you do.</p><ul><li><strong>Steady yourself first:</strong> take a breath, slow down, and keep your own feelings in check.</li><li><strong>Model calm:</strong> your composure helps the person begin to settle.</li><li><strong>Don&rsquo;t take it personally:</strong> the behaviour is about the person&rsquo;s distress, not about you.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Tone and body language</h2><p>Much of what we communicate comes not from our words but from how we say them and how we hold ourselves. A person in distress, especially one who struggles with language, will read your tone and body language closely. Keeping both gentle and unthreatening helps the person feel safe.</p><ul><li><strong>Voice:</strong> speak slowly, softly and warmly, using short, simple sentences.</li><li><strong>Body:</strong> keep an open, relaxed posture, stay at or below the person&rsquo;s eye level, and avoid looming or sudden movements.</li><li><strong>Space:</strong> keep a respectful distance, and never corner the person or block their way.</li></ul>"
+    },
+    {
+     "type": "truefalse",
+     "question": "Staying calm and using a gentle tone and open body language can help a distressed person begin to feel safe and settle.",
+     "correct": true,
+     "correctMsg": "Correct. Calm is contagious &mdash; your steady voice and open body language help the person feel safe.",
+     "wrongMsg": "Actually this is true. A calm manner, gentle tone and open body language help a distressed person feel safe."
+    }
+   ]
+  },
+  {
+   "label": "Listening and space",
+   "section": "Responding and de-escalating",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Active listening</h2><p>When someone is distressed, they need to feel heard far more than they need to be corrected. Active listening means giving the person your full attention and showing that you are trying to understand, even when their words do not make literal sense. Feeling understood can itself begin to ease distress.</p><ul><li><strong>Give full attention:</strong> stop what you are doing, face the person, and show that you are listening.</li><li><strong>Acknowledge feelings:</strong> reflect back what you hear, such as &ldquo;I can see you&rsquo;re upset&rdquo;.</li><li><strong>Don&rsquo;t argue:</strong> avoid correcting, contradicting or trying to reason a distressed person out of how they feel.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Giving space and time</h2><p>Distress needs room to settle, and it rarely does so on demand. Crowding a person, firing questions at them, or insisting they calm down quickly all tend to make things worse. Often the kindest and most effective response is to give the person space and let time do its work.</p><ul><li><strong>Reduce pressure:</strong> step back a little, lower your voice, and stop making demands.</li><li><strong>Allow silence:</strong> give the person time to respond without rushing to fill every pause.</li><li><strong>Reduce the audience:</strong> gently move others away so the person is not watched by a crowd.</li></ul>"
+    }
+   ]
+  },
+  {
+   "label": "Offering choices",
+   "section": "Responding and de-escalating",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Offering choices and control</h2><p>Much distress comes from feeling powerless &mdash; having things done to you, being told what to do, or losing control over your own day. Offering genuine choices hands some control back to the person and can quickly reduce tension. Even small choices can make a big difference to how safe and respected a person feels.</p><ul><li><strong>Offer real choices:</strong> &ldquo;Would you like to do this now, or in a few minutes?&rdquo; rather than a demand.</li><li><strong>Keep it simple:</strong> offer two clear options at a time, so the person is not overwhelmed.</li><li><strong>Respect the answer:</strong> if the person says no, listen &mdash; a task can often wait.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Removing or reducing triggers</h2><p>If you can see what is causing the distress, changing it is often the quickest way to help. This might mean turning down noise, drawing a curtain, moving away from a crowd, or simply stopping a task that is upsetting the person and coming back to it later. Meeting an obvious need &mdash; a drink, the toilet, or pain relief arranged through the right channels &mdash; can resolve distress at its source.</p><ul><li><strong>Change the environment:</strong> reduce noise, light or crowding wherever you can.</li><li><strong>Pause the trigger:</strong> stop an upsetting activity and try again later.</li><li><strong>Meet the need:</strong> address the likely cause, such as hunger, thirst, the toilet or discomfort.</li></ul>"
+    },
+    {
+     "type": "multichoice",
+     "question": "A person becomes distressed while you are helping them wash. What is usually the most helpful first response?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "Stop, give them space, and offer a simple choice, such as taking a break and trying again shortly.",
+       "correct": true,
+       "feedback": "Correct. Stopping, giving space and offering choice hands control back and helps the person feel safe."
+      },
+      {
+       "text": "Carry on quickly so the task is finished before they get more upset.",
+       "correct": false,
+       "feedback": "Pushing on usually increases distress and risk. Pausing and offering choice is safer and kinder."
+      },
+      {
+       "text": "Tell them firmly that the wash has to be finished now.",
+       "correct": false,
+       "feedback": "Insisting removes the person&rsquo;s control and is likely to escalate their distress."
+      },
+      {
+       "text": "Leave the room immediately and do not return or tell anyone.",
+       "correct": false,
+       "feedback": "Stepping back briefly can help, but you should stay aware, return, and record and share what happened."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Following the plan",
+   "section": "Responding and de-escalating",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Following the care and behaviour support plan</h2><p>You are not expected to work out what to do alone in the moment. Many people who regularly experience distress have a care plan, and sometimes a behaviour support plan, that sets out their known triggers, their early signs, and the approaches that work best for them. Following the plan means everyone responds in the same, familiar way, which is reassuring for the person and safer for all.</p><ul><li><strong>Know the plan:</strong> read it and be familiar with it before you support the person.</li><li><strong>Follow agreed approaches:</strong> use the strategies known to help this individual.</li><li><strong>Feed back:</strong> tell the team what worked and what did not, so the plan can be improved.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Positive behaviour support</h2><p>Behaviour support plans are often built around positive behaviour support, an approach that focuses on understanding why behaviour happens and improving the person&rsquo;s quality of life so that distress becomes less likely. Rather than waiting for behaviour to occur and reacting to it, positive behaviour support puts most of its effort into prevention &mdash; meeting needs, building good routines, and creating an environment where the person can thrive.</p><ul><li><strong>Understand the cause:</strong> look at what the behaviour achieves for the person and what need it meets.</li><li><strong>Prevent, don&rsquo;t just react:</strong> change things in advance to reduce triggers and distress.</li><li><strong>Improve quality of life:</strong> a good day, with choice and meaningful activity, is the best prevention.</li></ul>"
+    },
+    {
+     "type": "dragtext",
+     "taskDescription": "<p>Drag each word into the correct gap.</p>",
+     "textField": "A behaviour support *plan* sets out a person&rsquo;s triggers and the approaches that help them. Positive behaviour support focuses on *prevention* rather than simply reacting, by understanding the *cause* of behaviour and improving the person&rsquo;s quality of *life*."
+    }
+   ]
+  },
+  {
+   "label": "Keeping everyone safe",
+   "section": "Keeping safe and afterwards",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Dynamic risk assessment</h2><p>Keeping people safe means constantly weighing up the risk as a situation unfolds &mdash; a dynamic risk assessment. This is not a form to fill in but a way of thinking: reading the situation moment by moment, judging how much risk there is to the person, to you and to others, and adjusting what you do in response.</p><ul><li><strong>Read the situation:</strong> notice how the distress is changing and how close things are to crisis.</li><li><strong>Weigh the risk:</strong> consider the danger to the person, to yourself and to anyone nearby.</li><li><strong>Adjust your response:</strong> change your approach, or step back, as the level of risk changes.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Your own safety and when to withdraw</h2><p>You cannot help anyone if you are hurt, so your own safety matters too. If a situation becomes unsafe, the right thing to do is often to withdraw to a safe distance and summon help, rather than to press on alone. Stepping back is not failure &mdash; it is a sound decision that keeps everyone safer and gives the situation room to calm.</p><ul><li><strong>Keep yourself safe:</strong> stay out of reach of harm, keep a clear route to the door, and do not let yourself be cornered.</li><li><strong>Withdraw when needed:</strong> if risk is rising, move to safety rather than staying in danger.</li><li><strong>Get help:</strong> call colleagues or your manager, and the emergency services if there is a serious risk of harm.</li></ul>"
+    },
+    {
+     "type": "multichoice",
+     "question": "A situation is becoming unsafe and you feel at risk of being hurt. What is the most appropriate action?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "Withdraw to a safe distance, keep others safe, and summon help.",
+       "correct": true,
+       "feedback": "Correct. Your safety matters too; withdrawing and getting help is a sound, responsible decision."
+      },
+      {
+       "text": "Stay close and try to physically hold the person still until they calm down.",
+       "correct": false,
+       "feedback": "Physically holding someone requires specific training and is a last resort, never a first response."
+      },
+      {
+       "text": "Continue alone whatever the risk, because asking for help looks weak.",
+       "correct": false,
+       "feedback": "Asking for help is good practice, not weakness. Facing serious risk alone endangers everyone."
+      },
+      {
+       "text": "Shout at the person to stop, so they know you are serious.",
+       "correct": false,
+       "feedback": "Raising your voice tends to escalate distress and risk. Stay calm and get help."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Least restrictive practice",
+   "section": "Keeping safe and afterwards",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Physical intervention is a last resort</h2><p>Physically intervening &mdash; holding or restraining a person &mdash; is only ever a last resort, used when there is a real and immediate risk of serious harm and everything else has failed. It must never be a routine way of managing behaviour. Restraint carries real risks to the person&rsquo;s safety, dignity and trust, and it can cause serious physical and emotional harm.</p><ul><li><strong>Only in emergencies:</strong> used solely to prevent immediate, serious harm, never for convenience or punishment.</li><li><strong>Requires specific training:</strong> only staff trained in approved techniques may ever use physical intervention.</li><li><strong>Always the last option:</strong> every less restrictive approach should be tried first.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Least restrictive and proportionate</h2><p>Any restriction on a person must follow the principle of least restriction: use the least restrictive option that keeps people safe, for the shortest time, and only in proportion to the actual risk. These ideas sit at the heart of the Mental Capacity Act, which protects people who may not be able to make certain decisions for themselves and requires that anything done to them is in their best interests and as free from restriction as possible.</p><ul><li><strong>Least restrictive:</strong> always choose the option that limits the person&rsquo;s freedom the least.</li><li><strong>Proportionate:</strong> any response must match the seriousness and likelihood of the harm.</li><li><strong>Lawful and accountable:</strong> follow the Mental Capacity Act, your training and your employer&rsquo;s policy, and be ready to justify what you did.</li></ul>"
+    },
+    {
+     "type": "multichoice",
+     "question": "Which statement best reflects the principle of least restrictive practice?",
+     "singleAnswer": true,
+     "answers": [
+      {
+       "text": "Use the least restrictive option that keeps people safe, for the shortest time, and in proportion to the actual risk.",
+       "correct": true,
+       "feedback": "Correct. Least restriction means the mildest necessary response, for the shortest time, matched to the real risk."
+      },
+      {
+       "text": "Restraint should be used early to stop any behaviour before it starts.",
+       "correct": false,
+       "feedback": "Restraint is a last resort for immediate, serious harm, never an early or routine measure."
+      },
+      {
+       "text": "Any restriction is fine, as long as it makes the shift easier for staff.",
+       "correct": false,
+       "feedback": "Restrictions must be for the person&rsquo;s safety and best interests, never for staff convenience."
+      },
+      {
+       "text": "Once physical intervention begins, it should continue for as long as possible.",
+       "correct": false,
+       "feedback": "Any intervention must last the shortest time necessary and stop as soon as the risk has passed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Recording and learning",
+   "section": "Keeping safe and afterwards",
+   "items": [
+    {
+     "type": "text",
+     "html": "<h2>Recording and reporting</h2><p>After any incident of distress or behaviour that challenges, accurate recording and prompt reporting are essential. They protect the person and you, keep the care plan current, and help the team understand what happened and why. Record the facts as soon as you can, while the details are fresh, and report anything serious straight away through the right channels.</p><ul><li><strong>Record factually:</strong> what led up to it, what happened, what you did, and how it ended.</li><li><strong>Report promptly:</strong> tell your senior or manager, and follow safeguarding procedures wherever there is any risk of harm.</li><li><strong>Note any restriction:</strong> any physical intervention that was used must always be recorded and reported.</li></ul>"
+    },
+    {
+     "type": "text",
+     "html": "<h2>Learning and support afterwards</h2><p>Every incident is a chance to learn. Reviewing what happened &mdash; calmly and without blame &mdash; helps the team spot triggers, improve the plan, and prevent distress next time. The person themselves should be supported to recover, and so should you: being involved in an incident can be upsetting, and it is right to seek support.</p><ul><li><strong>Learn from it:</strong> review incidents to understand triggers and improve future support.</li><li><strong>Support the person:</strong> help them recover gently, and rebuild trust afterwards.</li><li><strong>Support yourself:</strong> talk to your manager, use supervision, and access help if you have been affected.</li></ul><p>This course has raised your awareness of behaviour that challenges and how to respond with calm, safety and compassion. It is knowledge-level learning only. Physical intervention is a last resort that requires specific, accredited training, and this course neither teaches nor authorises you to restrain anyone. It does not replace supervised, hands-on training. Always work within the person&rsquo;s care plan, your employer&rsquo;s policies, the Mental Capacity Act, and the limits of your own training and competence.</p>"
+    }
+   ]
+  }
+ ]
+}

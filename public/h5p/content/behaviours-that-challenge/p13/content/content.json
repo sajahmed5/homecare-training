@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and reporting</h2><p>After any incident of distress or behaviour that challenges, accurate recording and prompt reporting are essential. They protect the person and you, keep the care plan current, and help the team understand what happened and why. Record the facts as soon as you can, while the details are fresh, and report anything serious straight away through the right channels.</p><ul><li><strong>Record factually:</strong> what led up to it, what happened, what you did, and how it ended.</li><li><strong>Report promptly:</strong> tell your senior or manager, and follow safeguarding procedures wherever there is any risk of harm.</li><li><strong>Note any restriction:</strong> any physical intervention that was used must always be recorded and reported.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "59064376-2a7e-4b4e-b24c-e40c49580c8b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and learning",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-learning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4c229781-504c-4f82-b2e9-5e2d0247b5e5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Learning and support afterwards</h2><p>Every incident is a chance to learn. Reviewing what happened &mdash; calmly and without blame &mdash; helps the team spot triggers, improve the plan, and prevent distress next time. The person themselves should be supported to recover, and so should you: being involved in an incident can be upsetting, and it is right to seek support.</p><ul><li><strong>Learn from it:</strong> review incidents to understand triggers and improve future support.</li><li><strong>Support the person:</strong> help them recover gently, and rebuild trust afterwards.</li><li><strong>Support yourself:</strong> talk to your manager, use supervision, and access help if you have been affected.</li></ul><p>This course has raised your awareness of behaviour that challenges and how to respond with calm, safety and compassion. It is knowledge-level learning only. Physical intervention is a last resort that requires specific, accredited training, and this course neither teaches nor authorises you to restrain anyone. It does not replace supervised, hands-on training. Always work within the person&rsquo;s care plan, your employer&rsquo;s policies, the Mental Capacity Act, and the limits of your own training and competence.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d3848c41-6ed8-4e3c-9cb7-907783eb4f91",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

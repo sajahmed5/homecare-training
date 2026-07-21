@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why inclusion matters</h2><p>LGBTQ+ stands for lesbian, gay, bisexual, trans and queer or questioning, and the plus sign includes everyone whose sexual orientation or gender identity sits outside what has often been treated as the norm. The people you support are as varied as anyone else, and some of them are lesbian, gay, bisexual, trans or queer. Inclusive care simply means every person receives care that is dignified, respectful and shaped around who they truly are.</p><ul><li><strong>Dignity for all:</strong> everyone has the right to be treated with respect and to have their identity valued.</li><li><strong>Care shaped around the person:</strong> good care fits the individual rather than an assumption about them.</li><li><strong>A basic right, not a favour:</strong> inclusion is part of the care you owe every person, not an optional extra.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6089b75b-1cf0-421e-9c9c-596387de1eb6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why inclusion matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-inclusion-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e89b7782-4bad-4f04-916e-793fa147df5c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course is &mdash; and is not</h2><p>This course raises your awareness of LGBTQ+ people&rsquo;s experiences and helps you offer inclusive, person-centred care. It explains the law, respectful language and everyday good practice, so you can support people with warmth and confidence and challenge discrimination when you see it.</p><p>It is knowledge-level learning only. It does not replace your organisation&rsquo;s equality, diversity and inclusion policies, its safeguarding procedures, or the supervised, hands-on training your role requires. Where this course and your employer&rsquo;s policies differ, always follow your organisation&rsquo;s policies and ask your manager if you are unsure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a59d8cbf-50e5-49f5-8b09-f2c46058ca58",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What dyslexia is</h2><p>Dyslexia is a common specific learning difficulty that mainly affects the skills involved in reading, writing and spelling. It is lifelong and neurological in nature, meaning it relates to the way the brain processes certain kinds of information &mdash; particularly the sounds within words, verbal memory and the speed at which written language is handled. Dyslexia varies from person to person and ranges from mild to more marked.</p><ul><li><strong>A specific learning difficulty:</strong> it affects particular skills, chiefly reading, writing and spelling, rather than general ability.</li><li><strong>Lifelong:</strong> dyslexia does not go away, though people learn strategies that help them manage it well.</li><li><strong>Individual:</strong> no two people experience dyslexia in exactly the same way.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5681d090-a656-46dc-a031-639f9c6dca46",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What dyslexia is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-dyslexia-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7d94a21c-c80d-4598-b004-bbd177e78185",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A difference, not an illness</h2><p>Dyslexia is one of the most common specific learning difficulties, and many of the people you support &mdash; and colleagues you work alongside &mdash; may have it, whether or not it has ever been formally identified. It is a difference in how a person processes written language, not an illness to be cured and not a sign of laziness or lack of effort. People with dyslexia often work harder than others to achieve the same result with reading and writing.</p><p>This course raises your awareness so that you can recognise dyslexia, understand its impact, and support people with dignity and the right reasonable adjustments. It is knowledge-level learning only. It does not replace a formal dyslexia assessment carried out by a qualified professional, and it is not a substitute for supervised, hands-on training.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3e50fb6d-42f5-449d-9f50-3596e4e95a53",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The escalation cycle</h2><p>Distress usually builds in stages rather than appearing all at once. Recognising this cycle helps you step in early, when calm support is most effective. Once a person has reached crisis, there is far less you can do except keep everyone safe and wait for the distress to pass.</p><ul><li><strong>Baseline:</strong> the person is calm and settled &mdash; their usual self.</li><li><strong>Build-up:</strong> a trigger causes early signs of anxiety, tension or agitation.</li><li><strong>Crisis and recovery:</strong> distress may peak, then gradually settles, and the person needs time and gentleness to recover.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6fd5b892-3285-4c95-a3d7-f19b5385c5d8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The escalation cycle",
+          "decorative": false,
+          "file": {
+            "path": "images/the-escalation-cycle.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3c4d3017-a946-41c1-9bd1-6ea00f06d2d2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Spotting early warning signs</h2><p>The build-up stage is your best opportunity to help. Early warning signs are the small changes that show a person&rsquo;s distress is rising, and they are often unique to the individual. The sooner you notice them, the sooner you can meet the need and prevent things escalating.</p><ul><li><strong>Body language:</strong> restlessness, pacing, clenched fists, tense posture or a change in facial expression.</li><li><strong>Voice:</strong> becoming louder, faster or quieter, or repeating the same words or questions.</li><li><strong>Changes in manner:</strong> becoming withdrawn, tearful, irritable or unusually quiet.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0c035157-5e49-45cb-aa6f-46e623acf3a8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Distress usually builds in stages, so the *build-up* stage is your best chance to help before things reach a *crisis*. Early warning signs such as pacing, a *tense* posture or a raised *voice* tell you that a person&rsquo;s distress is rising.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "cde1a294-f522-4016-9c06-ec3a48fd8dc6",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

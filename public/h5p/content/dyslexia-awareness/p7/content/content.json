@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Equality Act 2010</h2><p>The Equality Act 2010 protects people from discrimination. Under the Act, a person is considered to have a disability if they have a physical or mental impairment that has a substantial and long-term adverse effect on their ability to carry out normal day-to-day activities. Dyslexia can meet this definition, which means a person with dyslexia may be protected as a disabled person under the law.</p><ul><li><strong>Protection from discrimination:</strong> the Act makes it unlawful to treat someone unfairly because of a disability.</li><li><strong>Dyslexia may count:</strong> where it has a substantial, long-term effect, dyslexia can be a disability in law.</li><li><strong>Applies widely:</strong> the Act covers services, workplaces and education.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e7b1e607-dc83-4421-87ea-06bcd51c2eed",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reasonable adjustments duty",
+          "decorative": false,
+          "file": {
+            "path": "images/reasonable-adjustments-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9424cf77-078b-44d1-85b0-ee61cc18c603",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The duty to make reasonable adjustments</h2><p>The Equality Act places a duty on employers and service providers to make reasonable adjustments so that disabled people are not put at a disadvantage. A reasonable adjustment is a sensible change that removes or reduces a barrier &mdash; for example, providing information in an easy-read format, allowing extra time, or giving instructions verbally as well as in writing.</p><p>For your work, this means that adapting how you communicate is not just kindness &mdash; it can be part of meeting a legal duty. What counts as reasonable depends on the situation, but the aim is always the same: to give a person with dyslexia fair and equal access to care, information and opportunities.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cef7106f-e0ee-4f2c-8086-21e2babbb2e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the Equality Act 2010, what is a reasonable adjustment?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A sensible change that removes or reduces a barrier so a disabled person is not put at a disadvantage.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reasonable adjustments remove barriers so people are not disadvantaged.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A special favour that service providers may offer but never have any duty to make.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The Act places a duty to make reasonable adjustments &mdash; it is not merely optional kindness.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A change that only ever applies in schools and never in care settings.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The duty applies widely, including in services and workplaces such as care settings.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Proof that a person has been formally diagnosed before anything can be adapted.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You do not need a diagnosis to make helpful adjustments to your communication.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e02dead9-c6d6-4c7a-9f98-dd4fbec5e515",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

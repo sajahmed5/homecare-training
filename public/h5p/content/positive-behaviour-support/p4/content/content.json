@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Behaviour has a function</h2><p>A central idea in PBS is that all behaviour has a <strong>function</strong> &mdash; a purpose or reason, even when that reason is not obvious to us. Behaviour does not come from nowhere, and it is not simply &ldquo;part of the condition&rdquo;. It is a person's way of getting a need met or responding to how they feel. Once you understand that behaviour is meaningful, it becomes much easier to respond with patience rather than frustration.</p><ul><li><strong>Purpose:</strong> behaviour is always trying to achieve something for the person.</li><li><strong>Meaningful:</strong> it makes sense from the person's point of view.</li><li><strong>A message:</strong> it tells us something about the person's needs.</li></ul><p>Working out the function of a behaviour is a skilled task, led by trained professionals through careful assessment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0f18e608-6024-4994-beac-d1df408c739b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Behaviour has a function",
+          "decorative": false,
+          "file": {
+            "path": "images/behaviour-has-a-function.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "aed1008c-deaf-45a1-8dae-5671db131997",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Behaviour as communication</h2><p>Perhaps the most important idea in PBS is that <strong>behaviour is communication</strong>. When a person cannot easily tell us in words what they need or how they feel, their behaviour speaks for them. Someone who cannot say &ldquo;I am in pain&rdquo;, &ldquo;I am frightened&rdquo;, or &ldquo;this is too much for me&rdquo; may show it instead through their actions.</p><p>This is especially true for people who communicate differently &mdash; some people with a learning disability, autistic people, or people living with advanced dementia. Behaviour that others find challenging is very often the communication of an <strong>unmet need</strong> or of distress. Seen this way, your task is not to make the behaviour stop, but to work out what the person is telling you and to help put it right. That is a far kinder and more effective way to support someone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3387ea1b-bbec-42b1-a8e4-6e537cef5d6c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In PBS, why is it helpful to see behaviour as communication?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because behaviour often expresses an unmet need or distress that the person cannot easily put into words</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Seeing behaviour as communication helps you ask what the person needs, rather than just trying to stop it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because it proves the person is behaving badly on purpose</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. PBS does not treat behaviour as deliberate bad behaviour; it treats it as meaningful communication of a need.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because it means you can ignore the behaviour safely</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Communication should be understood and responded to, not ignored.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because it shows the behaviour is just part of the person's condition and cannot change</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Behaviour is not simply part of a condition; it has a function, and meeting the need behind it can change things.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8ad6ae14-6165-47b3-a2c5-c1a12d1c49e7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

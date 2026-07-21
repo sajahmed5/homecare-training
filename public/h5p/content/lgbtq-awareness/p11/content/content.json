@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Forms of discrimination</h2><p>Discrimination is not always obvious. The Equality Act describes several forms, and recognising them helps you spot when something is wrong and needs challenging or reporting.</p><ul><li><strong>Direct discrimination:</strong> treating someone worse because they are, or are thought to be, LGBTQ+.</li><li><strong>Indirect discrimination:</strong> a rule or practice that applies to everyone but unfairly disadvantages LGBTQ+ people.</li><li><strong>Harassment:</strong> unwanted behaviour that violates a person&rsquo;s dignity or creates a hostile or degrading environment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "137bc9ec-73e1-4dc5-b788-ef1c35d1752a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising discrimination",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-discrimination.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0e18e22a-8f0e-41e2-a74c-8b99dd21955e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Microaggressions and everyday slights</h2><p>Not all harm comes from obvious hostility. Microaggressions are the small, often unintended comments and behaviours that chip away at a person&rsquo;s dignity &mdash; a disbelieving reaction, a joke at their expense, or repeatedly &ldquo;forgetting&rdquo; someone&rsquo;s pronouns. On their own each may seem minor, but over time they leave people feeling unwelcome and unseen.</p><p>Being aware of microaggressions helps you avoid them in your own practice and notice them in others. Treating every person consistently, with the same warmth and respect, is the best safeguard against these everyday slights.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6777cfe2-fe70-4d55-bf2b-a0ba1e6c95d8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A colleague keeps making &ldquo;jokes&rdquo; about a resident being gay and repeatedly uses the wrong pronouns for a trans resident. How is this best described?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Harassment and microaggressions that undermine the residents&rsquo; dignity and must be addressed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Unwanted jokes and deliberately using the wrong pronouns are harassment and microaggressions, and they need to be challenged and reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Harmless banter that no one should worry about.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is not harmless. This behaviour undermines dignity and can amount to harassment under the Equality Act.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Acceptable, as long as the residents do not complain.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Discrimination is wrong whether or not someone complains. Many people stay silent out of fear, so you should still act.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A private matter between the colleague and the residents.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This affects people&rsquo;s dignity and safety in your service. It is everyone&rsquo;s responsibility to challenge and report it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "94c5f4a3-a358-41db-ac9c-9fff9a4c1bd2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Behaviour as communication</h2><p>When someone cannot easily tell us what is wrong &mdash; because of dementia, a learning disability, autism, pain or fear &mdash; behaviour becomes their language. A person who paces, calls out or lashes out may be saying &ldquo;I am hurting&rdquo;, &ldquo;I am frightened&rdquo; or &ldquo;I need the toilet&rdquo; in the only way available to them. Your task is to become a good listener to that language, looking past the action to the need underneath.</p><ul><li><strong>Every behaviour has a meaning:</strong> it serves a purpose for the person, even when the reason is not obvious.</li><li><strong>It often replaces words:</strong> behaviour communicates when speech is difficult or impossible.</li><li><strong>Look underneath:</strong> ask what unmet need the behaviour might be expressing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7b048d01-e3ff-473f-a02e-8cd523a238e6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Behaviour as communication",
+          "decorative": false,
+          "file": {
+            "path": "images/behaviour-as-communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1c2b45e9-773a-42ad-83d4-47004d9b0924",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common unmet needs</h2><p>Many everyday needs, when unmet, can lead to distress and behaviour that challenges. Some are physical, some emotional, and some are about the environment around the person. Getting to know these possibilities helps you respond to the cause rather than only to the behaviour you can see.</p><ul><li><strong>Physical discomfort:</strong> pain, hunger, thirst, tiredness, needing the toilet, constipation, or feeling too hot or too cold.</li><li><strong>Emotional needs:</strong> fear, loneliness, boredom, frustration or feeling ignored.</li><li><strong>The environment:</strong> too much noise and bustle (over-stimulation) or too little to do (under-stimulation).</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "352216e5-3bde-4871-ade1-1a7e5d1b117d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person living with dementia becomes agitated and tries to leave the lounge every afternoon. Which response best reflects an awareness-level understanding of their behaviour?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat the behaviour as a possible sign of an unmet need &mdash; such as needing the toilet, pain or boredom &mdash; and try to find out what it is communicating.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Behaviour that challenges is usually communicating a need; your job is to look for it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record the person as aggressive and difficult, and warn colleagues to keep their distance.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not right. Labelling the person stops the team asking what the behaviour is telling us.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore it, because agitation in dementia never has a cause worth exploring.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Agitation almost always has a cause &mdash; pain, discomfort or an unmet need &mdash; that is worth exploring.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Insist firmly that they sit down and stay where they are told.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Controlling the person overlooks the need behind the behaviour and is likely to increase their distress.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "238a424b-ff9e-4b91-bf4b-61920ef002e5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Visual stress</h2><p>Some people with dyslexia also experience visual stress, sometimes called Meares-Irlen syndrome. This is a separate difficulty that can occur alongside dyslexia, where reading brings on discomfort or distortion. Words may appear to blur, move, flicker or run together, and bright white backgrounds or the glare of a screen can make it worse. Visual stress can make reading tiring and uncomfortable even for people who are not dyslexic.</p><ul><li><strong>Distorted text:</strong> letters and words may seem to blur, swim or jump on the page.</li><li><strong>Glare sensitivity:</strong> bright white paper or screens can increase discomfort.</li><li><strong>A separate condition:</strong> visual stress can occur with or without dyslexia.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6b55a5c-15d6-47b4-ac75-5a720f55b80b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Visual stress and impact",
+          "decorative": false,
+          "file": {
+            "path": "images/visual-stress-and-impact.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "17dd9cda-1a76-4c54-a34b-4c8deeec6056",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The emotional impact</h2><p>Living with dyslexia can take an emotional toll, especially when it has gone unrecognised or a person has been made to feel that they are simply not trying hard enough. Years of difficulty with reading and writing can knock a person&rsquo;s confidence and self-esteem, and may lead to anxiety, frustration or embarrassment in situations that involve paperwork or reading aloud. Some people go to great lengths to hide their difficulties.</p><p>Being aware of this hidden impact helps you support people kindly. A calm, accepting manner, and never making a person feel foolish, allows them to ask for help without shame.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0e6dd5ab-0f80-4512-80d2-2f5a07b66ef4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Some people experience visual *stress*, where words appear to blur or move on the page. Years of difficulty can also affect a person&rsquo;s *confidence*, and may lead to *anxiety* or low *self-esteem*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "9315dcf7-f08e-4b22-9499-cf63a5715d27",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

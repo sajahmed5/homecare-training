@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Breaking tasks down</h2><p>Large or multi-step tasks can feel overwhelming, particularly where memory and organisation are affected. Breaking a task into smaller, clear steps makes it far more manageable and reduces the chance of something being missed. Giving one instruction at a time, and checking understanding before moving on, helps a person keep track without feeling lost or rushed.</p><ul><li><strong>Small steps:</strong> break tasks into clear, single steps rather than one long list.</li><li><strong>One at a time:</strong> give instructions one by one and allow time to take each in.</li><li><strong>Check in:</strong> gently confirm understanding before moving on, without testing the person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67b6ba5c-d924-434c-91cf-2b4d94e6976d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Breaking tasks down",
+          "decorative": false,
+          "file": {
+            "path": "images/breaking-tasks-down.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "69328773-a87b-4a0f-aabf-3a073704e2c7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Avoiding putting people on the spot</h2><p>Being asked to read aloud, fill in a form in front of others, or answer quickly can be deeply uncomfortable for someone with dyslexia. Putting a person on the spot can trigger anxiety and embarrassment, and may cause them to avoid situations altogether. Thoughtful care means never singling someone out or making them perform under pressure.</p><ul><li><strong>Never force reading aloud:</strong> do not expect anyone to read in front of others unless they choose to.</li><li><strong>Offer privacy:</strong> help with forms or paperwork discreetly, away from an audience.</li><li><strong>Give warning and time:</strong> let people prepare rather than springing tasks on them.</li></ul><p>These small courtesies protect a person&rsquo;s dignity and make it far easier for them to accept the help they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41a1202b-c909-4a65-9e82-2f2f3989784e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

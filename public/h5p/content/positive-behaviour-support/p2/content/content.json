@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What Positive Behaviour Support is</h2><p>Positive Behaviour Support is a framework for supporting people who may sometimes behave in ways that challenge those around them. Rather than focusing on stopping or &ldquo;managing&rdquo; the behaviour, PBS focuses on improving the person's <strong>quality of life</strong>. The thinking is simple but powerful: when someone has a good life &mdash; with relationships, activity, choice and comfort &mdash; behaviour that others find difficult tends to reduce, because the unmet needs behind it are being met.</p><ul><li><strong>Quality of life:</strong> the goal of PBS, not simply fewer incidents.</li><li><strong>Understanding:</strong> looking for the reasons behind behaviour.</li><li><strong>Support, not control:</strong> helping the person, not managing them.</li></ul><p>PBS is evidence-informed and ethical. It never sees a person as a problem to be controlled.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ea26815e-bb52-4fdb-a2ee-4bf74ec17912",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What PBS is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-pbs-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "89c9e922-33d8-4724-b8d0-4a8e223d0e36",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Not &ldquo;managing&rdquo; people</h2><p>It is worth being clear about language. In PBS we do not talk about &ldquo;managing&rdquo; people or their behaviour, because people are not problems to be managed. Instead we talk about understanding and supporting them. This is more than a change of words &mdash; it reflects a change in attitude. When behaviour is difficult, the PBS question is not &ldquo;how do we stop this?&rdquo; but &ldquo;what is this person trying to tell us, and what do they need?&rdquo;</p><p>This shift keeps the person at the centre. A behaviour that looks challenging &mdash; shouting, refusing, hitting out, or withdrawing &mdash; is almost always a sign that something is wrong for that person. PBS treats it as important information, not as bad behaviour to be corrected. Your calm, respectful response, guided by the person's plan, is part of giving them a better day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "37c01cf1-8cf6-402f-bcf8-890097e1743d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main goal of Positive Behaviour Support?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To improve the person's quality of life, so that the needs behind their behaviour are met</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. PBS puts quality of life at its heart; when needs are met, difficult behaviour tends to reduce.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To stop the behaviour as quickly as possible using firm rules</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. PBS is not about stopping behaviour through rules, but about understanding and meeting the person's needs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To manage the person so that staff have an easier shift</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. PBS is about the person's quality of life, not about managing people for staff convenience.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>To punish behaviour that others find difficult</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. PBS never uses punishment; it looks for the need behind the behaviour and works to meet it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4d9e399a-f6e1-4c88-b429-045473e81623",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

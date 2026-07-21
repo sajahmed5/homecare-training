@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Easy read and clear information</h2><p>One of the most useful adjustments is to present information clearly. Easy-read materials use simple words, short sentences and supporting images to make meaning easy to follow. Even where full easy-read is not available, you can apply the same principles: plain language, one idea at a time, and a clear layout with headings and bullet points rather than dense blocks of text.</p><ul><li><strong>Plain words:</strong> choose everyday language and explain anything unavoidable.</li><li><strong>Short and simple:</strong> keep sentences short and cover one point at a time.</li><li><strong>Support with images:</strong> pictures and symbols can carry meaning alongside words.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "03e211d0-9536-4ec3-8c20-33ad93c33e28",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Clear information",
+          "decorative": false,
+          "file": {
+            "path": "images/clear-information.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "246589f4-6981-46df-982d-2df28a226c74",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Presentation that helps</h2><p>How text looks on the page or screen matters as much as the words themselves. Small changes in presentation can make reading far less tiring for someone with dyslexia or visual stress. A clean, uncluttered layout with generous spacing is easier on the eye than cramped text.</p><ul><li><strong>Readable fonts:</strong> use a clear, plain font at a comfortable size, and avoid italics or block capitals for long passages.</li><li><strong>Off-white backgrounds:</strong> a cream or pastel background reduces glare compared with bright white.</li><li><strong>Space it out:</strong> use good line spacing, clear headings and bullet points to break up information.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e977d98e-0fac-44ca-ad3e-30124e3d8b20",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Easy-read information uses simple *words*, short *sentences* and supporting *images* to make meaning clear. Presenting information in this way is a reasonable *adjustment*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "56cccc2f-38b9-4035-b3be-a9609b839093",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

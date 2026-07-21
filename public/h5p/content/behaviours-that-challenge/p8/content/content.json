@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Active listening</h2><p>When someone is distressed, they need to feel heard far more than they need to be corrected. Active listening means giving the person your full attention and showing that you are trying to understand, even when their words do not make literal sense. Feeling understood can itself begin to ease distress.</p><ul><li><strong>Give full attention:</strong> stop what you are doing, face the person, and show that you are listening.</li><li><strong>Acknowledge feelings:</strong> reflect back what you hear, such as &ldquo;I can see you&rsquo;re upset&rdquo;.</li><li><strong>Don&rsquo;t argue:</strong> avoid correcting, contradicting or trying to reason a distressed person out of how they feel.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1df34f39-89ed-44b2-b5e4-15eeee9a25f3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Listening and space",
+          "decorative": false,
+          "file": {
+            "path": "images/listening-and-space.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "84a9340e-24ae-4186-86a0-6d40e567a018",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Giving space and time</h2><p>Distress needs room to settle, and it rarely does so on demand. Crowding a person, firing questions at them, or insisting they calm down quickly all tend to make things worse. Often the kindest and most effective response is to give the person space and let time do its work.</p><ul><li><strong>Reduce pressure:</strong> step back a little, lower your voice, and stop making demands.</li><li><strong>Allow silence:</strong> give the person time to respond without rushing to fill every pause.</li><li><strong>Reduce the audience:</strong> gently move others away so the person is not watched by a crowd.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac9f0a29-eae2-4352-aaed-235281faf48d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dyslexia and intelligence</h2><p>One of the most important things to understand is that dyslexia is not linked to a person&rsquo;s intelligence. People with dyslexia are found across the whole range of intellectual ability, from those who struggle in many areas to those who are highly able. A person may have a rich vocabulary, strong reasoning and plenty of ideas, yet still find reading and spelling difficult. Confusing dyslexia with low ability is both inaccurate and hurtful.</p><ul><li><strong>Across all abilities:</strong> dyslexia occurs in people of every level of intelligence.</li><li><strong>Not a measure of ability:</strong> difficulty with reading or spelling says nothing about how clever a person is.</li><li><strong>Often a mismatch:</strong> a person&rsquo;s spoken ideas may far outstrip what they can easily put on paper.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dc0f8bbd-1348-4f80-9424-33a2530cb56c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Not about intelligence",
+          "decorative": false,
+          "file": {
+            "path": "images/not-about-intelligence.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f1a44fe3-aeac-474a-9d22-ca8088e0c256",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Difficulties that often occur together</h2><p>Dyslexia frequently occurs alongside other specific learning difficulties and related conditions. It commonly overlaps with dyspraxia, which affects co-ordination and movement, and with dyscalculia, which affects skills with numbers. It can also co-occur with attention difficulties such as ADHD. Because these difficulties often appear together, a person may face a mix of challenges rather than a single one.</p><p>Knowing this helps you avoid narrow assumptions. If someone finds reading hard, they may also find organisation, co-ordination or numbers challenging &mdash; or they may not. Each person is different, so notice the individual in front of you rather than expecting a fixed pattern.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "94ccb960-263b-4001-adad-2c3f5b4757a3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about dyslexia and intelligence is accurate?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Dyslexia is not linked to intelligence and occurs in people across the whole range of ability.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Dyslexia is found in people of every level of ability and says nothing about how clever a person is.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Dyslexia only affects people who have a low level of general ability.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not so. Dyslexia occurs across the full range of intelligence, including in highly able people.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A person with dyslexia cannot have strong reasoning or a wide vocabulary.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Many people with dyslexia reason well and are articulate. Reading difficulty does not limit ability.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Difficulty with spelling is a reliable sign that someone is not clever.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Spelling difficulty is a feature of dyslexia, not a measure of intelligence.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "410a934a-a358-4388-b686-e141252fdaa4",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

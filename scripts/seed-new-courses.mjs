@@ -169,6 +169,34 @@ const NEW_COURSES = [
     description:
       "Supporting people with additional communication needs — barriers, total communication, tools and aids, and person-centred practice. Awareness only; speech and language therapists assess and advise.",
   },
+  {
+    slug: "lgbtq-awareness",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "LGBTQ+ awareness for care — inclusive, respectful, person-centred support, understanding identity, and challenging discrimination. Awareness and good practice; follows your organisation's equality and inclusion policies.",
+  },
+  {
+    slug: "dyslexia-awareness",
+    topic: "Care Fundamentals",
+    expiry_months: 24,
+    description:
+      "Awareness of dyslexia — how it affects people, recognising signs, and practical reasonable adjustments to support the people you support and colleagues. Awareness only; it does not replace a formal assessment.",
+  },
+  {
+    slug: "positive-behaviour-support",
+    topic: "Person & Service Quality",
+    expiry_months: 24,
+    description:
+      "An introduction to Positive Behaviour Support — behaviour as communication of unmet need, proactive person-centred strategies and least-restrictive practice. Awareness only; PBS plans are led by trained professionals.",
+  },
+  {
+    slug: "behaviours-that-challenge",
+    topic: "Person & Service Quality",
+    expiry_months: 24,
+    description:
+      "Understanding and responding to behaviour that challenges — distress and unmet need, de-escalation, and keeping everyone safe. Awareness only; physical intervention needs specific training and is a last resort.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

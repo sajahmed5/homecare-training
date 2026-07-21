@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Secondary strategies: early help</h2><p>Even with the best proactive support, there will be times when a person starts to become anxious, agitated or distressed. <strong>Secondary strategies</strong> are the things you do at this early stage to help someone calm down and feel safe again, before their distress grows. Catching this moment is one of the most valuable things you can do.</p><ul><li><strong>Notice early:</strong> spot the person's own early warning signs quickly.</li><li><strong>Respond calmly:</strong> stay calm yourself, and reduce whatever is upsetting them.</li><li><strong>Follow the plan:</strong> use the specific strategies written in the PBS plan.</li></ul><p>The right response depends on the person, which is why their plan sets out what helps them in particular.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "14447107-8117-488f-987a-828f7f1ce9cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Secondary strategies",
+          "decorative": false,
+          "file": {
+            "path": "images/secondary-strategies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6f916d01-f061-41c5-9194-9b21b6241b0c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Helping someone who is becoming distressed</h2><p>When you notice a person starting to struggle, your own manner matters enormously. Staying <strong>calm</strong>, speaking softly, and not crowding or rushing the person can help settle the situation. You might reduce demands, lower noise, offer a quiet space, give reassurance, or offer a favourite activity or object &mdash; whatever the person's plan says works for them. For one person a gentle chat helps; for another, being given space and quiet is what they need.</p><p>The aim is always to help the person feel safe and to prevent things escalating, not to &ldquo;win&rdquo; or insist on getting your own way over something that can wait. Because these strategies are personal, they are recorded in the PBS plan by those who know the person, based on what has helped before. Following them consistently, and reporting how they worked, helps the whole team support the person better next time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8d4908f3-139e-426a-80a1-42613f53ac58",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support is starting to show their early signs of distress. What is the best approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stay calm, reduce whatever is upsetting them, and use the secondary strategies set out in their PBS plan</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Calm, early, plan-led help is the best way to support someone before distress escalates.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Insist they do as they are told so they learn to behave</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Insisting and pressuring is likely to increase distress and is not part of PBS.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the behaviour becomes severe before doing anything</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Early help is far better than waiting for distress to grow into a crisis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Raise your voice to make sure they take you seriously</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Raising your voice tends to escalate distress; staying calm is what helps.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1baf3196-1253-4f1d-b9e8-2e3e2a3ff63a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

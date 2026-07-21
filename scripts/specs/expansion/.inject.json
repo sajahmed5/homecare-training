@@ -3,95 +3,186 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 1,
-   "file": "communication-and-rights.svg",
-   "alt": "Illustration for Communication and rights",
-   "srcDir": "public/h5p/content/communication-support/p1/content/images"
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p1/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 2,
-   "file": "who-needs-support.svg",
-   "alt": "Illustration for Who needs support",
-   "srcDir": "public/h5p/content/communication-support/p2/content/images"
+   "file": "what-pbs-is.svg",
+   "alt": "Illustration for What PBS is",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p2/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 3,
-   "file": "your-role-and-salt.svg",
-   "alt": "Illustration for Your role and SALT",
-   "srcDir": "public/h5p/content/communication-support/p3/content/images"
+   "file": "values-and-old-approaches.svg",
+   "alt": "Illustration for Values and old approaches",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p3/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 4,
-   "file": "recognising-barriers.svg",
-   "alt": "Illustration for Recognising barriers",
-   "srcDir": "public/h5p/content/communication-support/p4/content/images"
+   "file": "behaviour-has-a-function.svg",
+   "alt": "Illustration for Behaviour has a function",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p4/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 5,
-   "file": "total-communication.svg",
-   "alt": "Illustration for Total communication",
-   "srcDir": "public/h5p/content/communication-support/p5/content/images"
+   "file": "functions-of-behaviour.svg",
+   "alt": "Illustration for Functions of behaviour",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p5/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 6,
-   "file": "time-and-objects.svg",
-   "alt": "Illustration for Time and objects",
-   "srcDir": "public/h5p/content/communication-support/p6/content/images"
+   "file": "triggers-and-the-person.svg",
+   "alt": "Illustration for Triggers and the person",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p6/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 7,
-   "file": "easy-read.svg",
-   "alt": "Illustration for Easy read",
-   "srcDir": "public/h5p/content/communication-support/p7/content/images"
+   "file": "primary-prevention.svg",
+   "alt": "Illustration for Primary prevention",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p7/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 8,
-   "file": "signing-and-symbols.svg",
-   "alt": "Illustration for Signing and symbols",
-   "srcDir": "public/h5p/content/communication-support/p8/content/images"
+   "file": "meaningful-days.svg",
+   "alt": "Illustration for Meaningful days",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p8/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 9,
-   "file": "passports-and-aac.svg",
-   "alt": "Illustration for Passports and AAC",
-   "srcDir": "public/h5p/content/communication-support/p9/content/images"
+   "file": "secondary-strategies.svg",
+   "alt": "Illustration for Secondary strategies",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p9/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 10,
-   "file": "aids-and-interpreters.svg",
-   "alt": "Illustration for Aids and interpreters",
-   "srcDir": "public/h5p/content/communication-support/p10/content/images"
+   "file": "the-pbs-plan.svg",
+   "alt": "Illustration for The PBS plan",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p10/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "positive-behaviour-support",
    "page": 11,
+   "file": "reactive-strategies.svg",
+   "alt": "Illustration for Reactive strategies",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p11/content/images"
+  },
+  {
+   "course": "positive-behaviour-support",
+   "page": 12,
+   "file": "restraint-reduction.svg",
+   "alt": "Illustration for Restraint reduction",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p12/content/images"
+  },
+  {
+   "course": "positive-behaviour-support",
+   "page": 13,
+   "file": "recording-and-support.svg",
+   "alt": "Illustration for Recording and support",
+   "srcDir": "public/h5p/content/positive-behaviour-support/p13/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 1,
+   "file": "what-the-term-means.svg",
+   "alt": "Illustration for What the term means",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p1/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 2,
+   "file": "behaviour-as-communication.svg",
+   "alt": "Illustration for Behaviour as communication",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p2/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 3,
+   "file": "who-may-be-affected.svg",
+   "alt": "Illustration for Who may be affected",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p3/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 4,
+   "file": "common-triggers.svg",
+   "alt": "Illustration for Common triggers",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p4/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 5,
+   "file": "the-escalation-cycle.svg",
+   "alt": "Illustration for The escalation cycle",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p5/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 6,
+   "file": "knowing-the-person.svg",
+   "alt": "Illustration for Knowing the person",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p6/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 7,
+   "file": "staying-calm.svg",
+   "alt": "Illustration for Staying calm",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p7/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 8,
+   "file": "listening-and-space.svg",
+   "alt": "Illustration for Listening and space",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p8/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 9,
+   "file": "offering-choices.svg",
+   "alt": "Illustration for Offering choices",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p9/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
+   "page": 10,
    "file": "following-the-plan.svg",
    "alt": "Illustration for Following the plan",
-   "srcDir": "public/h5p/content/communication-support/p11/content/images"
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p10/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "behaviours-that-challenge",
+   "page": 11,
+   "file": "keeping-everyone-safe.svg",
+   "alt": "Illustration for Keeping everyone safe",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p11/content/images"
+  },
+  {
+   "course": "behaviours-that-challenge",
    "page": 12,
-   "file": "accessible-information-standard.svg",
-   "alt": "Illustration for Accessible Information Standard",
-   "srcDir": "public/h5p/content/communication-support/p12/content/images"
+   "file": "least-restrictive-practice.svg",
+   "alt": "Illustration for Least restrictive practice",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p12/content/images"
   },
   {
-   "course": "communication-support",
+   "course": "behaviours-that-challenge",
    "page": 13,
-   "file": "recording-and-summary.svg",
-   "alt": "Illustration for Recording and summary",
-   "srcDir": "public/h5p/content/communication-support/p13/content/images"
+   "file": "recording-and-learning.svg",
+   "alt": "Illustration for Recording and learning",
+   "srcDir": "public/h5p/content/behaviours-that-challenge/p13/content/images"
   }
  ]
 }
