@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Public Interest Disclosure Act 1998</h2><p>The Public Interest Disclosure Act 1998, often shortened to PIDA, is the law that protects workers who blow the whistle. It does not protect every complaint &mdash; it protects a &ldquo;qualifying disclosure&rdquo;, which becomes a protected disclosure when it is made in the right way.</p><p>To qualify, you must have a reasonable belief that your information shows serious wrongdoing: a criminal offence, a failure to meet a legal duty, a danger to someone&rsquo;s health or safety, damage to the environment, or an attempt to hide any of these.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9e07597a-90f7-4c3d-b830-a97794d83644",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for PIDA in depth",
+          "decorative": false,
+          "file": {
+            "path": "images/pida-in-depth.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0b80aa83-15f7-4dbb-8ffb-56c4908df0d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Public interest, good faith and tiers</h2><p>Your disclosure must also be in the public interest &mdash; about protecting others, not settling a personal grievance. Since the law was updated in 2013 you no longer have to prove you acted in &ldquo;good faith&rdquo;, though acting honestly still matters and bad faith can reduce any award you might receive.</p><p>The law recognises tiers of disclosure:</p><ul><li><strong>To your employer:</strong> usually the first and easiest step.</li><li><strong>To a prescribed person:</strong> a named body such as the CQC.</li><li><strong>Wider disclosure:</strong> for example to the media, allowed only in limited and stricter circumstances.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac64934e-691b-4176-9630-560a9c794763",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under PIDA, when does a concern become a &ldquo;protected disclosure&rdquo;?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>When you have a reasonable belief it shows serious wrongdoing and you raise it in the public interest through the right channel.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reasonable belief, a public-interest purpose and the right route together make a disclosure protected.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only when you can prove the wrongdoing beyond doubt before you report it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. You need a reasonable belief, not cast-iron proof; investigating is not your job.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only if you report it straight to the media so the public hears about it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Wider disclosure to the media is only protected in limited circumstances; usually you start with your employer or a prescribed person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Automatically, whenever you complain about anything at work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A personal grievance is not the same as a public-interest disclosure about serious wrongdoing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1601c317-3158-4aed-a4e6-b2185e274b33",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

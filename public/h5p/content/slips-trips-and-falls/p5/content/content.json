@@ -1,1 +1,105 @@
-{"content":[{"content":{"params":{"text":"<h2>Why older and frail people fall</h2><p>Falls among the people we care for are rarely down to a single cause. NICE guidance (CG161, now updated as NG249) describes falls as <em>multifactorial</em> &ndash; several risk factors usually combine. Recognising them helps you reduce the risk for each individual.</p><p>Crucially, a history of falling in the past year is the strongest single predictor that someone may fall again, so always take previous falls seriously.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"6cb05b81-64dc-4b48-86f5-2d570c5bb4cb","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Common reasons older or frail people are at higher risk of falling.</p>","dialogs":[{"text":"<p>Reduced mobility and balance</p>","answer":"<p>Muscle weakness, stiff joints and unsteadiness make trips and stumbles more likely and harder to recover from.</p>","tips":{}},{"text":"<p>Medication</p>","answer":"<p>Some medicines, and taking several at once, can cause drowsiness, dizziness or low blood pressure that leads to a fall. Sudden changes in medication warrant extra care.</p>","tips":{}},{"text":"<p>Eyesight and lighting</p>","answer":"<p>Poor vision, the wrong glasses or dim lighting make hazards hard to judge, especially on stairs and unfamiliar routes.</p>","tips":{}},{"text":"<p>Continence needs</p>","answer":"<p>Rushing to reach the toilet, particularly at night, is a very common trigger for falls. Easy access and prompt support reduce the risk.</p>","tips":{}},{"text":"<p>Cognition and confusion</p>","answer":"<p>Dementia, delirium or confusion can affect judgement of hazards and awareness of one's own limitations.</p>","tips":{}},{"text":"<p>Footwear and environment</p>","answer":"<p>Ill-fitting slippers, loose rugs, clutter and trailing flexes in the person's own home all add to the risk.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"8596f7fa-63de-4113-8335-eef9a7a1e4c4","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why older and frail people fall</h2><p>Falls among the people we care for are rarely down to a single cause. NICE guidance (CG161, now updated as NG249) describes falls as <em>multifactorial</em> &ndash; several risk factors usually combine. Recognising them helps you reduce the risk for each individual.</p><p>Crucially, a history of falling in the past year is the strongest single predictor that someone may fall again, so always take previous falls seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6cb05b81-64dc-4b48-86f5-2d570c5bb4cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why people fall",
+          "decorative": false,
+          "file": {
+            "path": "images/why-people-fall.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "96deea81-b9fe-4556-ae1a-c255eaccc7b7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Common reasons older or frail people are at higher risk of falling.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Reduced mobility and balance</p>",
+              "answer": "<p>Muscle weakness, stiff joints and unsteadiness make trips and stumbles more likely and harder to recover from.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Medication</p>",
+              "answer": "<p>Some medicines, and taking several at once, can cause drowsiness, dizziness or low blood pressure that leads to a fall. Sudden changes in medication warrant extra care.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Eyesight and lighting</p>",
+              "answer": "<p>Poor vision, the wrong glasses or dim lighting make hazards hard to judge, especially on stairs and unfamiliar routes.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Continence needs</p>",
+              "answer": "<p>Rushing to reach the toilet, particularly at night, is a very common trigger for falls. Easy access and prompt support reduce the risk.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Cognition and confusion</p>",
+              "answer": "<p>Dementia, delirium or confusion can affect judgement of hazards and awareness of one's own limitations.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Footwear and environment</p>",
+              "answer": "<p>Ill-fitting slippers, loose rugs, clutter and trailing flexes in the person's own home all add to the risk.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "8596f7fa-63de-4113-8335-eef9a7a1e4c4",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

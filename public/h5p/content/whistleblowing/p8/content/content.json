@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Part of a bigger duty</h2><p>Whistleblowing does not stand alone. It sits alongside two duties you already hold:</p><ul><li><strong>Safeguarding</strong> &mdash; protecting adults at risk from abuse and neglect. Many whistleblowing concerns are also safeguarding concerns and must be reported straight away.</li><li><strong>Duty of candour</strong> &mdash; being open and honest when something goes wrong, including telling the person affected and apologising. A culture of candour makes it easier to speak up before harm becomes serious.</li></ul><p>The <strong>Freedom to Speak Up</strong> movement grew from failures where staff had raised concerns but were ignored. Its aim is a culture where speaking up is normal, welcomed and safe.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"f9aaec9e-6399-4993-abc3-994a68285c27","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>If in doubt, speak up</h2><p>Fear, loyalty to colleagues, or thinking &ldquo;it's not my place&rdquo; can all get in the way. But the cost of staying silent is measured in the safety of the people we support. You do not need all the answers &mdash; you only need to report what you have seen to someone who can act. Speaking up is not disloyalty; it is exactly what good care looks like.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"1f32fa48-cba0-41b4-99a1-895b90894a34","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You should wait until you have gathered full proof before raising a whistleblowing concern.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. You do not need full proof, only a reasonable belief. Report what you have seen promptly and let it be investigated.","correctAnswerMessage":"Correct. You only need a reasonable belief that something is wrong. Waiting to gather proof can leave people at risk &mdash; if in doubt, speak up."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"e6ef2038-83ac-4bb0-ac9d-16aa3bc63fc0","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Part of a bigger duty</h2><p>Whistleblowing does not stand alone. It sits alongside two duties you already hold:</p><ul><li><strong>Safeguarding</strong> &mdash; protecting adults at risk from abuse and neglect. Many whistleblowing concerns are also safeguarding concerns and must be reported straight away.</li><li><strong>Duty of candour</strong> &mdash; being open and honest when something goes wrong, including telling the person affected and apologising. A culture of candour makes it easier to speak up before harm becomes serious.</li></ul><p>The <strong>Freedom to Speak Up</strong> movement grew from failures where staff had raised concerns but were ignored. Its aim is a culture where speaking up is normal, welcomed and safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9aaec9e-6399-4993-abc3-994a68285c27",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safeguarding, candour & courage",
+          "decorative": false,
+          "file": {
+            "path": "images/safeguarding-candour-courage.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "acf303a8-cd97-453f-880c-30f4e9d550ab",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>If in doubt, speak up</h2><p>Fear, loyalty to colleagues, or thinking &ldquo;it's not my place&rdquo; can all get in the way. But the cost of staying silent is measured in the safety of the people we support. You do not need all the answers &mdash; you only need to report what you have seen to someone who can act. Speaking up is not disloyalty; it is exactly what good care looks like.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1f32fa48-cba0-41b4-99a1-895b90894a34",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should wait until you have gathered full proof before raising a whistleblowing concern.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You do not need full proof, only a reasonable belief. Report what you have seen promptly and let it be investigated.",
+            "correctAnswerMessage": "Correct. You only need a reasonable belief that something is wrong. Waiting to gather proof can leave people at risk &mdash; if in doubt, speak up."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "e6ef2038-83ac-4bb0-ac9d-16aa3bc63fc0",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

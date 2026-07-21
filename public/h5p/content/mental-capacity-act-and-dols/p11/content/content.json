@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>People are allowed to make unwise decisions</h2><p>The third principle of the Act protects a person&rsquo;s right to make a decision that others think is unwise. A capable person can spend their savings freely, refuse a diet their dietitian recommends, or keep a home you feel is untidy. Disagreeing with a choice is not a reason to override it.</p><p>If we removed this right, care would quickly become about control rather than support, and people would lose the everyday freedoms the rest of us take for granted.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "381c2b6d-2409-42df-b453-121b5e9638a7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Unwise decisions",
+          "decorative": false,
+          "file": {
+            "path": "images/unwise-decisions.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ee2931c7-4e86-44fe-9424-e2a4d35267a6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Never judge capacity by the outcome</h2><p>It is tempting to decide that any risky or unusual choice must mean someone lacks capacity. The Act warns against exactly this &mdash; capacity is about how a person reaches a decision, not whether you approve of the result.</p><ul><li><strong>Look at the process:</strong> can the person understand, retain, weigh and communicate the relevant information?</li><li><strong>Separate risk from capacity:</strong> a capable person may accept risks that you would not.</li><li><strong>Notice real change:</strong> a sudden, out-of-character pattern of decisions may prompt a capacity assessment &mdash; a single unwise choice does not.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "06ff37e2-b468-4f57-b28f-59c73f5aff6c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mr Lang has capacity but keeps choosing foods his dietitian advised against. Because his choices are unwise, you can conclude he lacks capacity and decide his meals for him.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Making an unwise choice does not mean a person lacks capacity, and you must not judge capacity by whether you agree with the decision.",
+            "correctAnswerMessage": "Correct &mdash; that would be judging capacity by the outcome. A person with capacity is entitled to make unwise choices; your role is to inform and support him, not to overrule him."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "72eee961-8079-4c3c-9885-0e57c28b61e2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

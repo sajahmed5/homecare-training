@@ -1,1 +1,139 @@
-{"content":[{"content":{"params":{"text":"<h2>What to do if someone falls</h2><p>Seeing someone fall is alarming, but the safest response is a calm and careful one. <strong>Do not rush to lift the person up.</strong> Moving someone who has an injury &ndash; particularly a possible fracture or spinal injury &ndash; can cause serious further harm.</p><ol><li>Stay calm and reassure the person; keep them still and comfortable where they are</li><li>Check for injury, pain, bleeding, or signs of a head injury before any thought of moving them</li><li>Summon help &ndash; call for a colleague, and seek medical help or an ambulance if there is any injury or you are unsure</li><li>Only help them up when you are confident it is safe, using the correct moving-and-handling technique or equipment</li><li>Keep observing them afterwards, as some effects of a fall appear later</li></ol>"},"library":"H5P.AdvancedText 1.1","subContentId":"2ce975cc-e219-4de2-b689-60cf461635d6","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>If a person falls, the first thing you should do is quickly lift them back onto their feet.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. You should never rush to lift someone up. Check for injury and get help first, because moving an injured person can make things much worse.","correctAnswerMessage":"Correct. You should not rush to move them. Check for injury and summon help first, as lifting someone with a fracture or spinal injury can cause serious harm."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"4b8655c9-839a-42ca-8ba1-b00c4b89dbbb","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You find a person you support on the floor. They say their hip hurts and cannot move it. What should you do?</p>","answers":[{"correct":true,"text":"<div>Keep them still and comfortable, check for injury, and summon medical help without moving them</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Pain and inability to move the hip suggest a possible fracture, so keep them still and get medical help before any movement.","notChosenFeedback":""}},{"correct":false,"text":"<div>Help them straight up so they are more comfortable on a chair</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Moving someone with a suspected fracture can cause serious further harm. Keep them still and summon help first.","notChosenFeedback":""}},{"correct":false,"text":"<div>Give them painkillers and carry on with the visit</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This ignores a possible serious injury. They need to be kept still and assessed by medical help.","notChosenFeedback":""}},{"correct":false,"text":"<div>Leave them alone while you finish other tasks</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"The person must not be left. Stay with them, reassure them, keep them still and summon help.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"8a3c4225-dc75-4cde-b85f-a055b2ea7d03","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to do if someone falls</h2><p>Seeing someone fall is alarming, but the safest response is a calm and careful one. <strong>Do not rush to lift the person up.</strong> Moving someone who has an injury &ndash; particularly a possible fracture or spinal injury &ndash; can cause serious further harm.</p><ol><li>Stay calm and reassure the person; keep them still and comfortable where they are</li><li>Check for injury, pain, bleeding, or signs of a head injury before any thought of moving them</li><li>Summon help &ndash; call for a colleague, and seek medical help or an ambulance if there is any injury or you are unsure</li><li>Only help them up when you are confident it is safe, using the correct moving-and-handling technique or equipment</li><li>Keep observing them afterwards, as some effects of a fall appear later</li></ol>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2ce975cc-e219-4de2-b689-60cf461635d6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for If someone falls",
+          "decorative": false,
+          "file": {
+            "path": "images/if-someone-falls.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "305937bd-4d99-4943-9953-e9c915499e67",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If a person falls, the first thing you should do is quickly lift them back onto their feet.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. You should never rush to lift someone up. Check for injury and get help first, because moving an injured person can make things much worse.",
+            "correctAnswerMessage": "Correct. You should not rush to move them. Check for injury and summon help first, as lifting someone with a fracture or spinal injury can cause serious harm."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "4b8655c9-839a-42ca-8ba1-b00c4b89dbbb",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find a person you support on the floor. They say their hip hurts and cannot move it. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep them still and comfortable, check for injury, and summon medical help without moving them</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Pain and inability to move the hip suggest a possible fracture, so keep them still and get medical help before any movement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help them straight up so they are more comfortable on a chair</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Moving someone with a suspected fracture can cause serious further harm. Keep them still and summon help first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them painkillers and carry on with the visit</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This ignores a possible serious injury. They need to be kept still and assessed by medical help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave them alone while you finish other tasks</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The person must not be left. Stay with them, reassure them, keep them still and summon help.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8a3c4225-dc75-4cde-b85f-a055b2ea7d03",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

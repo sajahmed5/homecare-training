@@ -2,496 +2,491 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p2/content/images",
-   "file": "chain-of-survival.svg",
-   "title": "The Chain of Survival",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Chain of Survival",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p2/content/images",
+   "file": "the-five-principles.svg",
+   "title": "The five statutory principles",
+   "accent": "#e11d48",
+   "alt": "Illustration for The five principles",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
+     "tunic": "#e11d48",
+     "prop": "alert"
     }
    ],
    "points": [
-    "Early recognition and call for help",
-    "Early CPR",
-    "Early defibrillation"
+    "Presumption of capacity",
+    "Support to make decisions",
+    "Unwise decisions"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p9/content/images",
-   "file": "theory-then-practice.svg",
-   "title": "This course teaches the theory only",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Theory then practice",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p9/content/images",
+   "file": "consent-in-care.svg",
+   "title": "Consent runs through everyday care",
+   "accent": "#e11d48",
+   "alt": "Illustration for Consent in care",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
-     "tunic": "#7c3aed",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Attend refreshers",
-    "Know your limits",
-    "Practise the theory"
+    "Ask each time",
+    "Choose good moments",
+    "Watch for change"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p4/content/images",
-   "file": "airway-breathing.svg",
-   "title": "Open the airway and check breathing",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Airway & Breathing",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p10/content/images",
+   "file": "supporting-decisions.svg",
+   "title": "Give every practicable help before deciding",
+   "accent": "#e11d48",
+   "alt": "Illustration for Supporting decisions",
    "cast": [
     {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "heart"
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Look",
-    "Listen",
-    "Feel"
+    "Communication",
+    "Timing",
+    "Accessible information"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p10/content/images",
-   "file": "is-it-cardiac-arrest.svg",
-   "title": "What cardiac arrest looks like",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Is it cardiac arrest?",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p11/content/images",
+   "file": "unwise-decisions.svg",
+   "title": "People are allowed to make unwise decisions",
+   "accent": "#e11d48",
+   "alt": "Illustration for Unwise decisions",
    "cast": [
     {
      "skin": 5,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
+     "tunic": "#e11d48",
+     "prop": "alert"
     }
    ],
    "points": [
-    "Breathing normally",
-    "Fainting or a seizure",
-    "Conscious and struggling"
+    "Look at the process",
+    "Separate risk from capacity",
+    "Notice real change"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p5/content/images",
-   "file": "call-999-aed.svg",
-   "title": "Call 999 and ask for a defibrillator",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Call 999 & AED",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p4/content/images",
+   "file": "best-interests.svg",
+   "title": "Making a best-interests decision",
+   "accent": "#e11d48",
+   "alt": "Illustration for Best interests",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "alert"
+     "tunic": "#e11d48",
+     "prop": "heart"
     }
    ],
-   "points": []
+   "points": [
+    "past and present wishes and feelings",
+    "beliefs and values",
+    "attorney"
+   ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p11/content/images",
-   "file": "quality-cpr-as-a-team.svg",
-   "title": "What good CPR looks like",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Quality CPR as a team",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p5/content/images",
+   "file": "planning-ahead-lpa-adrt-imca.svg",
+   "title": "Ways people plan ahead",
+   "accent": "#e11d48",
+   "alt": "Illustration for Planning ahead: LPA, ADRT & IMCA",
    "cast": [
     {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#7c3aed",
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Push hard",
-    "Push fast",
-    "Let the chest rise"
+    "Health and welfare LPA",
+    "Property and financial affairs LPA"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p7/content/images",
-   "file": "breaths-aed.svg",
-   "title": "Rescue breaths and using an AED",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Breaths & AED",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p7/content/images",
+   "file": "deprivation-of-liberty.svg",
+   "title": "From restriction to deprivation of liberty",
+   "accent": "#e11d48",
+   "alt": "Illustration for Deprivation of Liberty",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "on",
-    "nobody touches the person while it analyses",
-    "Do not touch the person during analysis or shock."
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/basic-life-support-bls/p12/content/images",
-   "file": "using-an-aed.svg",
-   "title": "Attaching an AED",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Using an AED",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
+     "tunic": "#e11d48",
      "prop": "alert"
     }
    ],
    "points": [
-    "Dry the chest",
-    "Move hazards",
-    "Oxygen away"
+    "continuous (or complete) supervision and control",
+    "not free to leave",
+    "managing authority"
    ]
   },
   {
-   "outDir": "public/h5p/content/basic-life-support-bls/p13/content/images",
-   "file": "after-the-attempt.svg",
-   "title": "Handing over to the ambulance crew",
-   "accent": "#7c3aed",
-   "alt": "Illustration for After the attempt",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p12/content/images",
+   "file": "dols-and-lps.svg",
+   "title": "How a DoLS authorisation works",
+   "accent": "#e11d48",
+   "alt": "Illustration for DoLS and LPS",
    "cast": [
     {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Your wellbeing matters",
-    "Respect end-of-life decisions"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/basic-life-support-bls/p8/content/images",
-   "file": "recovery-choking.svg",
-   "title": "Recovery position and choking",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Recovery & choking",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#7c3aed",
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Encourage coughing",
-    "5 back blows",
-    "5 abdominal thrusts"
+    "Awareness only",
+    "Same purpose",
+    "Your part is unchanged"
    ]
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p2/content/images",
-   "file": "the-primary-survey-dr-abc.svg",
-   "title": "The primary survey: DR ABC",
-   "accent": "#7c3aed",
-   "alt": "Illustration for The primary survey (DR ABC)",
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p13/content/images",
+   "file": "everyday-practice.svg",
+   "title": "Good records protect everyone",
+   "accent": "#e11d48",
+   "alt": "Illustration for Everyday practice",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Record the support you gave",
+    "Note the specific decision",
+    "Show the reasoning"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/mental-capacity-act-and-dols/p8/content/images",
+   "file": "putting-it-into-practice.svg",
+   "title": "What this means for your everyday work",
+   "accent": "#e11d48",
+   "alt": "Illustration for Putting it into practice",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#e11d48",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Assume capacity",
+    "unwise choices",
+    "least restrictive"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/whistleblowing/p2/content/images",
+   "file": "concern-complaint-or-grievance.svg",
+   "title": "Three different things",
+   "accent": "#e11d48",
+   "alt": "Illustration for Concern, complaint or grievance?",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "alert"
+     "tunic": "#e11d48",
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "D &ndash; Danger",
-    "R &ndash; Response",
-    "A &ndash; Airway"
+    "whistleblowing concern",
+    "complaint",
+    "grievance"
    ]
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p9/content/images",
-   "file": "awareness-and-readiness.svg",
-   "title": "Awareness is not the same as being qualified",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Awareness and readiness",
+   "outDir": "public/h5p/content/whistleblowing/p9/content/images",
+   "file": "why-culture-matters.svg",
+   "title": "Why a speak-up culture matters",
+   "accent": "#e11d48",
+   "alt": "Illustration for Why culture matters",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Openness",
+    "Listening",
+    "Learning"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/whistleblowing/p10/content/images",
+   "file": "what-to-raise.svg",
+   "title": "What you might need to raise",
+   "accent": "#e11d48",
+   "alt": "Illustration for What to raise",
    "cast": [
     {
      "skin": 3,
      "hair": "short",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
+     "tunic": "#e11d48",
+     "prop": "alert"
     }
    ],
    "points": [
-    "Know your kit",
-    "Protect against infection",
-    "Guard against blood"
+    "Poor care",
+    "Abuse",
+    "Unsafe practice"
    ]
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p4/content/images",
-   "file": "bleeding-shock.svg",
-   "title": "Managing severe bleeding",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Bleeding & shock",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Apply pressure",
-    "Dress the wound",
-    "Support and reassure"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/first-aid-awareness/p5/content/images",
-   "file": "burns-choking-falls.svg",
-   "title": "Burns and scalds",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Burns, choking & falls",
+   "outDir": "public/h5p/content/whistleblowing/p11/content/images",
+   "file": "pida-in-depth.svg",
+   "title": "The Public Interest Disclosure Act 1998",
+   "accent": "#e11d48",
+   "alt": "Illustration for PIDA in depth",
    "cast": [
     {
      "skin": 5,
      "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
+     "tunic": "#e11d48",
+     "prop": "heart"
     }
    ],
    "points": [
-    "five sharp back blows",
-    "five abdominal thrusts"
+    "To your employer",
+    "To a prescribed person",
+    "Wider disclosure"
    ]
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p10/content/images",
-   "file": "head-spine-and-bones.svg",
-   "title": "Head and spinal injuries",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Head, spine and bones",
+   "outDir": "public/h5p/content/whistleblowing/p4/content/images",
+   "file": "how-to-raise-a-concern.svg",
+   "title": "Who to tell, and in what order",
+   "accent": "#e11d48",
+   "alt": "Illustration for How to raise a concern",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Keep it still",
-    "Do not move the person needlessly",
-    "Cool a sprain"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/first-aid-awareness/p7/content/images",
-   "file": "diabetic-emergencies-recovery-position.svg",
-   "title": "Diabetic emergencies",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Diabetic emergencies & recovery position",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#7c3aed",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Hypoglycaemia (low blood sugar)",
-    "Hyperglycaemia (high blood sugar)"
+    "line manager",
+    "safeguarding lead",
+    "Freedom to Speak Up Guardian"
    ]
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p11/content/images",
-   "file": "seizures-and-epilepsy.svg",
-   "title": "Recognising a seizure",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Seizures and epilepsy",
+   "outDir": "public/h5p/content/whistleblowing/p5/content/images",
+   "file": "prescribed-persons-cqc.svg",
+   "title": "The role of the CQC",
+   "accent": "#e11d48",
+   "alt": "Illustration for Prescribed persons & CQC",
    "cast": [
     {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#7c3aed",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Protect them",
-    "Note the time",
-    "Do not restrain"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/first-aid-awareness/p12/content/images",
-   "file": "allergies-and-asthma.svg",
-   "title": "Severe allergic reaction: anaphylaxis",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Allergies and asthma",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#7c3aed",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Position them",
-    "Asthma attack",
-    "Call 999"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/first-aid-awareness/p13/content/images",
-   "file": "stroke-heart-and-fainting.svg",
-   "title": "Stroke and heart attack",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Stroke, heart and fainting",
-   "cast": [
-    {
-     "skin": 5,
+     "skin": 1,
      "hair": "short",
-     "tunic": "#7c3aed",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": []
   },
   {
-   "outDir": "public/h5p/content/first-aid-awareness/p8/content/images",
-   "file": "recording-reporting.svg",
-   "title": "Recording and reporting incidents",
-   "accent": "#7c3aed",
-   "alt": "Illustration for Recording & reporting",
+   "outDir": "public/h5p/content/whistleblowing/p12/content/images",
+   "file": "barriers-and-support.svg",
+   "title": "What holds people back",
+   "accent": "#e11d48",
+   "alt": "Illustration for Barriers and support",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Fear",
+    "Loyalty",
+    "Doubt"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/whistleblowing/p7/content/images",
+   "file": "confidentiality-anonymity.svg",
+   "title": "Keeping you protected",
+   "accent": "#e11d48",
+   "alt": "Illustration for Confidentiality & anonymity",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Confidential",
+    "Anonymous"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/whistleblowing/p13/content/images",
+   "file": "after-you-speak-up.svg",
+   "title": "What happens after you raise a concern",
+   "accent": "#e11d48",
+   "alt": "Illustration for After you speak up",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Acknowledgement",
+    "Assessment",
+    "Action"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/whistleblowing/p8/content/images",
+   "file": "safeguarding-candour-courage.svg",
+   "title": "Part of a bigger duty",
+   "accent": "#e11d48",
+   "alt": "Illustration for Safeguarding, candour & courage",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
-     "tunic": "#7c3aed",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Safeguarding",
+    "Duty of candour"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/coshh/p2/content/images",
+   "file": "substances-in-care.svg",
+   "title": "Hazardous substances in a care setting",
+   "accent": "#d97706",
+   "alt": "Illustration for Substances in care",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Cleaning products",
+    "Disinfectants and bleach",
+    "Clinical and hazardous waste"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/coshh/p9/content/images",
+   "file": "health-effects.svg",
+   "title": "Acute and chronic effects",
+   "accent": "#d97706",
+   "alt": "Illustration for Health effects",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Dermatitis",
+    "Occupational asthma"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/coshh/p4/content/images",
+   "file": "sds-assessment.svg",
+   "title": "Safety data sheets and the COSHH assessment",
+   "accent": "#d97706",
+   "alt": "Illustration for SDS & assessment",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": []
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p2/content/images",
-   "file": "the-law.svg",
-   "title": "The law behind moving and handling",
+   "outDir": "public/h5p/content/coshh/p10/content/images",
+   "file": "hazards-in-care.svg",
+   "title": "Cleaning chemicals and dangerous mixes",
    "accent": "#d97706",
-   "alt": "Illustration for The law",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Health and Safety at Work etc. Act 1974 (HASAWA)",
-    "Manual Handling Operations Regulations 1992 (MHOR)",
-    "Lifting Operations and Lifting Equipment Regulations 1998 (LOLER)"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/moving-and-handling/p9/content/images",
-   "file": "your-back-at-risk.svg",
-   "title": "Knowledge is only half the training",
-   "accent": "#d97706",
-   "alt": "Illustration for Your back at risk",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Bending and twisting",
-    "Reaching and stooping",
-    "Repetition and fatigue"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/moving-and-handling/p4/content/images",
-   "file": "tile-risk-assessment.svg",
-   "title": "Assessing the risk: TILE",
-   "accent": "#d97706",
-   "alt": "Illustration for TILE risk assessment",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "T &ndash; Task",
-    "I &ndash; Individual",
-    "L &ndash; Load"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/moving-and-handling/p5/content/images",
-   "file": "safe-principles.svg",
-   "title": "Principles of safe handling and good posture",
-   "accent": "#d97706",
-   "alt": "Illustration for Safe principles",
+   "alt": "Illustration for Hazards in care",
    "cast": [
     {
      "skin": 5,
      "hair": "curly",
      "tunic": "#d97706",
-     "prop": "clipboard"
+     "prop": "alert"
     }
    ],
-   "points": [
-    "Stable base",
-    "Bend your knees, not your back",
-    "Keep the load close"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p10/content/images",
-   "file": "equipment-in-depth.svg",
-   "title": "The main types of equipment",
+   "outDir": "public/h5p/content/coshh/p5/content/images",
+   "file": "routes-of-entry.svg",
+   "title": "How substances get into the body",
    "accent": "#d97706",
-   "alt": "Illustration for Equipment in depth",
+   "alt": "Illustration for Routes of entry",
    "cast": [
     {
-     "skin": 1,
-     "hair": "short",
+     "skin": 0,
+     "hair": "headscarf",
      "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
-   "points": [
-    "Mobile and overhead hoists",
-    "Slings",
-    "Slide sheets"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p11/content/images",
-   "file": "everyday-tasks-safely.svg",
-   "title": "Principles for common tasks",
+   "outDir": "public/h5p/content/coshh/p11/content/images",
+   "file": "ppe-and-rpe.svg",
+   "title": "PPE as the last line of defence",
    "accent": "#d97706",
-   "alt": "Illustration for Everyday tasks safely",
+   "alt": "Illustration for PPE and RPE",
    "cast": [
     {
      "skin": 2,
@@ -500,38 +495,30 @@
      "prop": "clipboard"
     }
    ],
-   "points": [
-    "Plan first",
-    "Encourage independence",
-    "Keep close and stable"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p12/content/images",
-   "file": "when-someone-falls.svg",
-   "title": "If a person slips or falls during a move",
+   "outDir": "public/h5p/content/coshh/p12/content/images",
+   "file": "safe-use-and-storage.svg",
+   "title": "Decanting and labelling",
    "accent": "#d97706",
-   "alt": "Illustration for When someone falls",
+   "alt": "Illustration for Safe use and storage",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
      "tunic": "#d97706",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
-   "points": [
-    "Check them first",
-    "Get help",
-    "Use the right equipment"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p13/content/images",
-   "file": "changing-needs.svg",
-   "title": "When needs are more complex",
+   "outDir": "public/h5p/content/coshh/p7/content/images",
+   "file": "storage-spills.svg",
+   "title": "Safe storage, use, labelling and disposal",
    "accent": "#d97706",
-   "alt": "Illustration for Changing needs",
+   "alt": "Illustration for Storage & spills",
    "cast": [
     {
      "skin": 4,
@@ -541,35 +528,35 @@
     }
    ],
    "points": [
-    "Bariatric needs",
-    "Unpredictable movement",
-    "Pain and fragile skin"
+    "Storage",
+    "Use",
+    "Labelling"
    ]
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p7/content/images",
-   "file": "never-lift-person-centred.svg",
-   "title": "The \"never lift\" approach and banned technique",
+   "outDir": "public/h5p/content/coshh/p13/content/images",
+   "file": "spills-and-exposure.svg",
+   "title": "First response to exposure",
    "accent": "#d97706",
-   "alt": "Illustration for Never lift & person-centred",
+   "alt": "Illustration for Spills and exposure",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
      "tunic": "#d97706",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Drag lift (underarm lift)",
-    "Pulling a person up by their arms",
-    "The \"orthodox\" or \"cradle\" lift"
+    "Skin",
+    "Eyes",
+    "Breathed in"
    ]
   },
   {
-   "outDir": "public/h5p/content/moving-and-handling/p8/content/images",
+   "outDir": "public/h5p/content/coshh/p8/content/images",
    "file": "reporting-review.svg",
-   "title": "Reporting concerns and faulty equipment",
+   "title": "Reporting exposure and ill health",
    "accent": "#d97706",
    "alt": "Illustration for Reporting & review",
    "cast": [
@@ -580,18 +567,14 @@
      "prop": "clipboard"
     }
    ],
-   "points": [
-    "Faulty equipment",
-    "LOLER inspections",
-    "Concerns and near misses"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p2/content/images",
-   "file": "how-fire-works.svg",
-   "title": "The fire triangle",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p2/content/images",
+   "file": "slip-trip-causes.svg",
+   "title": "Common causes at work",
    "accent": "#d97706",
-   "alt": "Illustration for How fire works",
+   "alt": "Illustration for Slip & trip causes",
    "cast": [
     {
      "skin": 1,
@@ -600,38 +583,30 @@
      "prop": "clipboard"
     }
    ],
-   "points": [
-    "Heat",
-    "Fuel",
-    "Oxygen"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p9/content/images",
-   "file": "the-law-duties.svg",
-   "title": "The Regulatory Reform (Fire Safety) Order 2005",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p9/content/images",
+   "file": "the-cost-and-the-law.svg",
+   "title": "The human cost of a fall",
    "accent": "#d97706",
-   "alt": "Illustration for The law & duties",
+   "alt": "Illustration for The cost and the law",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
      "tunic": "#d97706",
-     "prop": "alert"
+     "prop": "clipboard"
     }
    ],
-   "points": [
-    "Follow the findings",
-    "Co-operate",
-    "Do not add risk"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p4/content/images",
-   "file": "emollient-cream-risk.svg",
-   "title": "The hidden risk: emollient creams",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p4/content/images",
+   "file": "risk-assessment.svg",
+   "title": "Assessing and controlling risk",
    "accent": "#d97706",
-   "alt": "Illustration for Emollient cream risk",
+   "alt": "Illustration for Risk assessment",
    "cast": [
     {
      "skin": 4,
@@ -643,11 +618,11 @@
    "points": []
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p10/content/images",
-   "file": "preventing-fire-daily.svg",
-   "title": "Everyday sources of fire",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p5/content/images",
+   "file": "why-people-fall.svg",
+   "title": "Why older and frail people fall",
    "accent": "#d97706",
-   "alt": "Illustration for Preventing fire daily",
+   "alt": "Illustration for Why people fall",
    "cast": [
     {
      "skin": 5,
@@ -656,38 +631,54 @@
      "prop": "clipboard"
     }
    ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/slips-trips-and-falls/p10/content/images",
+   "file": "why-people-fall.svg",
+   "title": "Two kinds of risk factor",
+   "accent": "#d97706",
+   "alt": "Illustration for Why people fall",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
    "points": [
-    "Electrical safety",
-    "Charging",
-    "Smoking"
+    "Medication",
+    "Eyesight",
+    "Continence"
    ]
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p11/content/images",
-   "file": "extinguisher-types-classes.svg",
-   "title": "Fire classes and the right extinguisher",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p11/content/images",
+   "file": "environment-and-equipment.svg",
+   "title": "Making the environment safer",
    "accent": "#d97706",
-   "alt": "Illustration for Extinguisher types & classes",
+   "alt": "Illustration for Environment and equipment",
    "cast": [
     {
-     "skin": 2,
-     "hair": "bun",
+     "skin": 1,
+     "hair": "short",
      "tunic": "#d97706",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Class A",
-    "Class B",
-    "Class C"
+    "Handrails and grab rails",
+    "Flooring",
+    "Lighting"
    ]
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p7/content/images",
-   "file": "evacuation-peeps.svg",
-   "title": "Evacuating a care home",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p12/content/images",
+   "file": "staying-active.svg",
+   "title": "Why staying active protects against falls",
    "accent": "#d97706",
-   "alt": "Illustration for Evacuation & PEEPs",
+   "alt": "Illustration for Staying active",
    "cast": [
     {
      "skin": 3,
@@ -696,14 +687,18 @@
      "prop": "clipboard"
     }
    ],
-   "points": []
+   "points": [
+    "Physiotherapists",
+    "Falls services or clinics",
+    "Occupational therapists"
+   ]
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p12/content/images",
-   "file": "evacuation-strategies.svg",
-   "title": "Progressive horizontal evacuation and fire doo",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p7/content/images",
+   "file": "if-someone-falls.svg",
+   "title": "What to do if someone falls",
    "accent": "#d97706",
-   "alt": "Illustration for Evacuation strategies",
+   "alt": "Illustration for If someone falls",
    "cast": [
     {
      "skin": 4,
@@ -712,18 +707,14 @@
      "prop": "clipboard"
     }
    ],
-   "points": [
-    "Simultaneous evacuation",
-    "Stay put",
-    "Assembly point"
-   ]
+   "points": []
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p13/content/images",
-   "file": "fire-wardens-drills.svg",
-   "title": "The fire warden role and drills",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p13/content/images",
+   "file": "after-a-fall-in-depth.svg",
+   "title": "What to check when someone has fallen",
    "accent": "#d97706",
-   "alt": "Illustration for Fire wardens & drills",
+   "alt": "Illustration for After a fall in depth",
    "cast": [
     {
      "skin": 5,
@@ -733,30 +724,26 @@
     }
    ],
    "points": [
-    "Account for people",
-    "Do not go back",
-    "Support people"
+    "Response and breathing",
+    "Injury and pain",
+    "What happened"
    ]
   },
   {
-   "outDir": "public/h5p/content/fire-safety/p8/content/images",
-   "file": "if-a-fire-starts.svg",
-   "title": "Raising the alarm and calling 999",
+   "outDir": "public/h5p/content/slips-trips-and-falls/p8/content/images",
+   "file": "recording-reporting.svg",
+   "title": "Recording and reporting a fall",
    "accent": "#d97706",
-   "alt": "Illustration for If a fire starts",
+   "alt": "Illustration for Recording & reporting",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
      "tunic": "#d97706",
-     "prop": "alert"
+     "prop": "clipboard"
     }
    ],
-   "points": [
-    "Raise the alarm",
-    "Call 999",
-    "Follow your evacuation plan"
-   ]
+   "points": []
   }
  ]
 }

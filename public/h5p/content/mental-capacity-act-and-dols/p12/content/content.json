@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How a DoLS authorisation works</h2><p>Where a person in a care home or hospital lacks capacity to consent, and is kept under continuous supervision and not free to leave, the arrangement may amount to a deprivation of liberty. It must be authorised so that it stays lawful.</p><p>Two roles sit at the heart of the process. The <strong>managing authority</strong> is the care home or hospital providing the care; it must recognise when a deprivation may be happening and apply for authorisation. The <strong>supervisory body</strong> is the local authority, which arranges independent assessments and then grants or refuses the authorisation.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "86a7876e-6ebb-44f0-8cbf-1844be1b7bd0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for DoLS and LPS",
+          "decorative": false,
+          "file": {
+            "path": "images/dols-and-lps.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cf30556a-b060-4cf3-ae0e-9a3dd514c9ac",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The move towards Liberty Protection Safeguards</h2><p>DoLS only cover care homes and hospitals, and the process can be slow. To address this, the Mental Capacity (Amendment) Act 2019 created the Liberty Protection Safeguards (LPS), designed to replace DoLS and to cover a wider range of settings, including supported living and a person&rsquo;s own home.</p><ul><li><strong>Awareness only:</strong> implementation of LPS has been delayed, so DoLS remains the system currently in use.</li><li><strong>Same purpose:</strong> both schemes exist to protect people who cannot consent to their care arrangements.</li><li><strong>Your part is unchanged:</strong> notice when someone is not free to leave, and raise it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1c89ce12-bb7d-4ad1-9628-73debe7037d3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the DoLS process, which body applies for an authorisation, and which body grants it?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The managing authority &mdash; the care home or hospital &mdash; applies, and the supervisory body, the local authority, grants it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The care home or hospital identifies the possible deprivation and applies; the local authority arranges assessments and decides.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The local authority applies to the care home for permission to deprive the person of liberty.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This reverses the roles; the care home or hospital applies to the local authority, not the other way round.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person&rsquo;s family applies, and the GP grants the authorisation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. DoLS is a formal legal process between the managing authority and the supervisory body, not between family and GP.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The Court of Protection must authorise every deprivation in a care home.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. In care homes and hospitals DoLS is used; the Court of Protection is generally needed for other settings, not routine home or hospital cases.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5eb60ed8-129d-42a3-af51-60024d5fc161",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

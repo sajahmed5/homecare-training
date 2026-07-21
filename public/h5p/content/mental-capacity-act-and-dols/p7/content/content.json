@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>From restriction to deprivation of liberty</h2><p>There is a point where restrictions on a person become so great that they amount to a <strong>deprivation of liberty</strong> &mdash; and a deprivation of liberty must be authorised in law, or it breaches the person&rsquo;s human rights (Article 5 of the European Convention on Human Rights).</p><p>The Supreme Court gave us a simple way to recognise it, known as the <strong>&lsquo;acid test&rsquo;</strong>. A person is deprived of their liberty if <em>both</em> of the following apply:</p><ul><li>They are under <strong>continuous (or complete) supervision and control</strong>; <em>and</em></li><li>They are <strong>not free to leave</strong>.</li></ul><p>Two important points follow. First, it makes <em>no difference</em> that the placement is a &lsquo;good&rsquo; one, that the person is content, or that they are not trying to leave. Second, the person&rsquo;s <em>compliance or lack of objection</em> does not stop it being a deprivation of liberty. If the acid test is met and the person cannot consent because they lack capacity, it must be authorised.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"1a9aa916-8966-496d-9c7d-59612602155f","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>The Deprivation of Liberty Safeguards (DoLS)</h2><p>For people in <strong>care homes and hospitals</strong>, the <strong>Deprivation of Liberty Safeguards (DoLS)</strong> provide the legal process for authorising a deprivation of liberty. (Deprivations in other settings, such as supported living or a person&rsquo;s own home, are authorised instead by the Court of Protection.)</p><p>How it works:</p><ul><li>The care home or hospital &mdash; the <strong>managing authority</strong> &mdash; must apply to the local authority &mdash; the <strong>supervisory body</strong> &mdash; for authorisation.</li><li>Before it can be granted, the person is assessed against six qualifying requirements: <strong>age</strong>, <strong>mental health</strong>, <strong>mental capacity</strong>, <strong>best interests</strong>, <strong>eligibility</strong> (under the Mental Health Act), and <strong>no refusals</strong> (no valid conflicting advance decision or attorney/deputy decision).</li><li>If authorised, the person must have a <strong>Relevant Person&rsquo;s Representative</strong> to support them, and the right to challenge the authorisation in the Court of Protection. An authorisation is time-limited (up to a maximum of 12 months) and must be reviewed.</li></ul><p><strong>Note:</strong> the <em>Liberty Protection Safeguards (LPS)</em> were passed to replace DoLS but have <strong>not been brought into force</strong>. DoLS remains the law you must follow.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"dd431b77-48f5-41ba-bac6-a8518287854a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A resident with advanced dementia lives on a locked dementia unit. She is happy, never asks to leave, and is checked on constantly by staff. Does this arrangement meet the acid test for a deprivation of liberty?</p>","answers":[{"correct":true,"text":"<div>Yes &mdash; she is under continuous supervision and control and is not free to leave, so it meets the acid test regardless of how content she is.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Both limbs of the acid test are met. Her contentment and lack of objection are irrelevant &mdash; it is still a deprivation of liberty and needs a DoLS authorisation.","notChosenFeedback":""}},{"correct":false,"text":"<div>No &mdash; because she is happy and never tries to leave, she is not being deprived of her liberty.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. A person&rsquo;s compliance or contentment does not remove a deprivation of liberty. If both limbs of the acid test are met, it must be authorised.","notChosenFeedback":""}},{"correct":false,"text":"<div>No &mdash; a good, caring placement can never be a deprivation of liberty.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. The quality of the placement is irrelevant to the acid test. Even excellent care can amount to a deprivation of liberty that must be lawfully authorised.","notChosenFeedback":""}},{"correct":false,"text":"<div>Only if her family formally object to the locked unit.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. It does not depend on anyone objecting. The acid test is met by the objective facts of continuous supervision and control and not being free to leave.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"adddef74-4530-487f-8a2b-b57b98bf6253","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>From restriction to deprivation of liberty</h2><p>There is a point where restrictions on a person become so great that they amount to a <strong>deprivation of liberty</strong> &mdash; and a deprivation of liberty must be authorised in law, or it breaches the person&rsquo;s human rights (Article 5 of the European Convention on Human Rights).</p><p>The Supreme Court gave us a simple way to recognise it, known as the <strong>&lsquo;acid test&rsquo;</strong>. A person is deprived of their liberty if <em>both</em> of the following apply:</p><ul><li>They are under <strong>continuous (or complete) supervision and control</strong>; <em>and</em></li><li>They are <strong>not free to leave</strong>.</li></ul><p>Two important points follow. First, it makes <em>no difference</em> that the placement is a &lsquo;good&rsquo; one, that the person is content, or that they are not trying to leave. Second, the person&rsquo;s <em>compliance or lack of objection</em> does not stop it being a deprivation of liberty. If the acid test is met and the person cannot consent because they lack capacity, it must be authorised.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1a9aa916-8966-496d-9c7d-59612602155f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Deprivation of Liberty",
+          "decorative": false,
+          "file": {
+            "path": "images/deprivation-of-liberty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a52300a9-5e70-425d-8d2c-f7f7c79fdf28",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Deprivation of Liberty Safeguards (DoLS)</h2><p>For people in <strong>care homes and hospitals</strong>, the <strong>Deprivation of Liberty Safeguards (DoLS)</strong> provide the legal process for authorising a deprivation of liberty. (Deprivations in other settings, such as supported living or a person&rsquo;s own home, are authorised instead by the Court of Protection.)</p><p>How it works:</p><ul><li>The care home or hospital &mdash; the <strong>managing authority</strong> &mdash; must apply to the local authority &mdash; the <strong>supervisory body</strong> &mdash; for authorisation.</li><li>Before it can be granted, the person is assessed against six qualifying requirements: <strong>age</strong>, <strong>mental health</strong>, <strong>mental capacity</strong>, <strong>best interests</strong>, <strong>eligibility</strong> (under the Mental Health Act), and <strong>no refusals</strong> (no valid conflicting advance decision or attorney/deputy decision).</li><li>If authorised, the person must have a <strong>Relevant Person&rsquo;s Representative</strong> to support them, and the right to challenge the authorisation in the Court of Protection. An authorisation is time-limited (up to a maximum of 12 months) and must be reviewed.</li></ul><p><strong>Note:</strong> the <em>Liberty Protection Safeguards (LPS)</em> were passed to replace DoLS but have <strong>not been brought into force</strong>. DoLS remains the law you must follow.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dd431b77-48f5-41ba-bac6-a8518287854a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A resident with advanced dementia lives on a locked dementia unit. She is happy, never asks to leave, and is checked on constantly by staff. Does this arrangement meet the acid test for a deprivation of liberty?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Yes &mdash; she is under continuous supervision and control and is not free to leave, so it meets the acid test regardless of how content she is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Both limbs of the acid test are met. Her contentment and lack of objection are irrelevant &mdash; it is still a deprivation of liberty and needs a DoLS authorisation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No &mdash; because she is happy and never tries to leave, she is not being deprived of her liberty.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A person&rsquo;s compliance or contentment does not remove a deprivation of liberty. If both limbs of the acid test are met, it must be authorised.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>No &mdash; a good, caring placement can never be a deprivation of liberty.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The quality of the placement is irrelevant to the acid test. Even excellent care can amount to a deprivation of liberty that must be lawfully authorised.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only if her family formally object to the locked unit.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. It does not depend on anyone objecting. The acid test is met by the objective facts of continuous supervision and control and not being free to leave.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "adddef74-4530-487f-8a2b-b57b98bf6253",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

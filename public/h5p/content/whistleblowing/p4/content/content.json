@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Who to tell, and in what order</h2><p>In most cases you should raise a concern <strong>internally first</strong>, so your organisation has the chance to put things right quickly. Sensible routes include:</p><ul><li>your <strong>line manager</strong> or supervisor;</li><li>your organisation's <strong>safeguarding lead</strong>;</li><li>a <strong>Freedom to Speak Up Guardian</strong> or designated &ldquo;speak up&rdquo; contact, where your organisation has one.</li></ul><p>Put your concern in writing where you can, stick to the facts, and keep a note of what you raised and when.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"957c3474-0ff3-4bf5-9f2d-21e28618d5b5","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Going externally</h2><p>If raising it internally is not appropriate &mdash; for example the concern is very serious, involves your manager, or nothing is done &mdash; you can take it to a <strong>prescribed person</strong>. These are bodies named in law to receive whistleblowing disclosures. For care services the main one is the <strong>Care Quality Commission (CQC)</strong>. Local authority safeguarding teams and professional regulators such as the Nursing and Midwifery Council can also be appropriate. Going to a prescribed person still counts as a protected disclosure.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"408d2ef4-f8e1-4b1e-822f-1842bb75b7af","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Where should you normally raise a concern first?</p>","answers":[{"correct":true,"text":"<div>Internally &mdash; with your line manager, safeguarding lead or Speak Up Guardian.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Internal routes usually let the organisation put things right quickly.","notChosenFeedback":""}},{"correct":false,"text":"<div>On social media, so it reaches the widest audience.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. A public post is not a protected route and could breach confidentiality and data rules.","notChosenFeedback":""}},{"correct":false,"text":"<div>Straight to a national newspaper.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. The press is a last resort with strict conditions; it is not the normal first step.","notChosenFeedback":""}},{"correct":false,"text":"<div>Nowhere &mdash; it is safer to say nothing.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Staying silent can leave people at risk. If in doubt, speak up.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"92124325-8ef0-4172-a429-b53c0c84c642","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who to tell, and in what order</h2><p>In most cases you should raise a concern <strong>internally first</strong>, so your organisation has the chance to put things right quickly. Sensible routes include:</p><ul><li>your <strong>line manager</strong> or supervisor;</li><li>your organisation's <strong>safeguarding lead</strong>;</li><li>a <strong>Freedom to Speak Up Guardian</strong> or designated &ldquo;speak up&rdquo; contact, where your organisation has one.</li></ul><p>Put your concern in writing where you can, stick to the facts, and keep a note of what you raised and when.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "957c3474-0ff3-4bf5-9f2d-21e28618d5b5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for How to raise a concern",
+          "decorative": false,
+          "file": {
+            "path": "images/how-to-raise-a-concern.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f4cbc287-22fd-4e10-bf2d-6f2b20607975",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Going externally</h2><p>If raising it internally is not appropriate &mdash; for example the concern is very serious, involves your manager, or nothing is done &mdash; you can take it to a <strong>prescribed person</strong>. These are bodies named in law to receive whistleblowing disclosures. For care services the main one is the <strong>Care Quality Commission (CQC)</strong>. Local authority safeguarding teams and professional regulators such as the Nursing and Midwifery Council can also be appropriate. Going to a prescribed person still counts as a protected disclosure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "408d2ef4-f8e1-4b1e-822f-1842bb75b7af",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Where should you normally raise a concern first?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Internally &mdash; with your line manager, safeguarding lead or Speak Up Guardian.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Internal routes usually let the organisation put things right quickly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>On social media, so it reaches the widest audience.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A public post is not a protected route and could breach confidentiality and data rules.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Straight to a national newspaper.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. The press is a last resort with strict conditions; it is not the normal first step.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nowhere &mdash; it is safer to say nothing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Staying silent can leave people at risk. If in doubt, speak up.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "92124325-8ef0-4172-a429-b53c0c84c642",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

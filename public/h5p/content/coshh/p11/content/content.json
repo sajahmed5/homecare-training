@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>PPE as the last line of defence</h2><p>Under the hierarchy of control, personal protective equipment (PPE) is the last line of defence, used only when other measures cannot remove the risk on their own. For hazardous substances that usually means gloves, an apron and, where there is a splash risk, eye protection. The PPE must be the right type for the job: disposable nitrile gloves resist many chemicals better than thin vinyl ones, for example. Check that it fits and is in good condition before use, wear it whenever your risk assessment says so, and remove and dispose of it correctly so you do not spread contamination to your skin or clothes.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "89a62746-4269-4c31-adf7-ba7f715e357e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for PPE and RPE",
+          "decorative": false,
+          "file": {
+            "path": "images/ppe-and-rpe.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f5e8297c-197b-4d59-84f5-4182df422c14",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Ventilation and RPE awareness</h2><p>Controlling the air you breathe matters too. Good ventilation &mdash; opening a window or using extraction &mdash; lowers the concentration of fumes and vapours. Respiratory protective equipment (RPE), such as masks and respirators, protects the lungs where a real inhalation risk remains. RPE is not the same as a simple dust mask: to work, tight-fitting respirators must be the correct type for the substance and face-fit tested to the individual wearer, and they cannot seal properly over a beard. Most everyday care tasks do not call for RPE, but you should recognise when a task might, and always follow what the safety data sheet and COSHH assessment specify.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ccafba3a-4189-42d9-83c3-662d0f3da83e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Your COSHH assessment lists disposable gloves and an apron for a cleaning task, with eye protection if splashing is likely. What does this tell you about PPE?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>PPE is a control to use as instructed on top of safer methods; wear exactly what the assessment specifies, in good condition, and dispose of it correctly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. PPE is the last line of defence, and you should use precisely what the assessment and safety data sheet require.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>PPE removes the hazard, so once your gloves are on you can ignore the other precautions.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. PPE is the last line of defence and does not remove the hazard; safer working methods still matter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any gloves will do, as long as your hands are covered.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The type of glove matters; the assessment and safety data sheet specify what is suitable for the substance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Eye protection is optional and mainly for show.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Where splashing is likely, eye protection guards against serious eye injury and must be worn.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1d9b696c-4da3-434f-9626-5de90a5417f7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

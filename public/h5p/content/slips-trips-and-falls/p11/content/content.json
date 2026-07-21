@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making the environment safer</h2><p>Small changes to a person&rsquo;s surroundings can prevent many falls. Look at where someone walks, stands and moves most, and make those places as safe as you can.</p><ul><li><strong>Handrails and grab rails:</strong> secure rails on stairs, and grab rails by the toilet, bath and bed, give people something firm to hold. They must be fitted properly by a competent person.</li><li><strong>Flooring:</strong> non-slip flooring and firmly fixed, well-fitting floor coverings reduce slips; remove or tape down loose rugs and mats.</li><li><strong>Lighting:</strong> good, even lighting, including a night light on the route to the toilet, helps people see hazards.</li><li><strong>Clear routes:</strong> keep walkways free of clutter, trailing cables and spills.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "78751a68-81a6-4a55-b355-a97db6c6950f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Environment and equipment",
+          "decorative": false,
+          "file": {
+            "path": "images/environment-and-equipment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "524b0535-a5c4-404d-93ed-8c28ec434fd2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Equipment that supports safe movement</h2><p>The right equipment helps a person move confidently and independently.</p><ul><li><strong>Walking aids:</strong> sticks, frames and rollators must be the correct height and in good repair, and kept within the person&rsquo;s reach.</li><li><strong>Footwear:</strong> well-fitting, supportive shoes or slippers with a firm, non-slip sole are far safer than loose slippers or socks.</li><li><strong>Sensor mats and alarms:</strong> pressure mats or falls sensors can alert you when someone at high risk is getting up, so you can offer help in time.</li><li><strong>Hip protectors:</strong> padded garments that cushion the hip may be suggested for some people at high risk of fracture, as part of a wider plan.</li></ul><p>Equipment should always be recommended through assessment &mdash; often by an occupational therapist or physiotherapist &mdash; and you should only ever use it as you have been trained and as set out in the person&rsquo;s care plan.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "91ed4089-58dd-4334-9c58-fd53d3e0954c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Sensor or pressure mats are used so that staff can restrain a person and stop them getting up on their own.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false. Sensor mats do not restrain anyone; they alert staff so support can be offered promptly, while respecting the person&rsquo;s freedom to move.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Sensor mats are not a means of restraint. They simply alert staff that someone at high risk is getting up, so help can be offered in time while the person keeps their freedom to move."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "63d03d75-891b-4cf0-bdd6-c713e10286f2",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

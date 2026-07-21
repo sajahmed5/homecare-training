@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why a speak-up culture matters</h2><p>Whistleblowing is not about disloyalty. When workers feel able to speak up, poor care is caught early and people are kept safe. When they stay silent, harm can continue for years. Some of the most serious failings in English care were allowed to grow because staff did not feel able to raise the alarm, or raised concerns and were ignored.</p><p>At Mid Staffordshire, and at Winterbourne View &mdash; a hospital for people with learning disabilities &mdash; warning signs went unheard until far too late. The lesson is not that individual workers were to blame, but that a culture where speaking up feels risky puts everyone in danger.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3c85f39d-bffc-4ae6-8320-46cc4ae8d077",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why culture matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-culture-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9298e175-3461-4f5c-9b93-d024df8a25bc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Freedom to Speak Up</h2><p>Following these failings, the Freedom to Speak Up review set out how organisations should make it normal and safe for staff to raise concerns. The aim is a culture where speaking up is welcomed, listened to and acted on &mdash; not treated as making trouble.</p><ul><li><strong>Openness:</strong> concerns are seen as a gift that helps care improve.</li><li><strong>Listening:</strong> managers take what you say seriously and feed back what happens next.</li><li><strong>Learning:</strong> the focus is on putting things right, not finding someone to punish.</li><li><strong>Everyone&rsquo;s role:</strong> a healthy culture depends on each worker being willing to speak.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d38314ce-9064-4466-99a8-19605a19cf54",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the main lesson from care failings such as Mid Staffordshire and Winterbourne View?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A culture where staff feel unable to speak up lets harm continue, so speaking up must be made safe and normal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The failings show why organisations must build a culture where raising concerns is welcomed and acted on.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Whistleblowers usually exaggerate, so their concerns should be treated with caution.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The failings happened because genuine concerns were dismissed, not because staff exaggerated.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Raising concerns rarely changes anything, so it is better to wait and see.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. These cases show the opposite: silence allowed harm to continue, while speaking up could have stopped it sooner.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Individual care workers are always to blame when standards slip.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The reviews focused on unsafe cultures and ignored warnings, not on blaming individual workers.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "42aec6d4-4613-43d3-b5b5-9b0b27d7c5a3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

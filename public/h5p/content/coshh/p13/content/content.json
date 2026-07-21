@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>First response to exposure</h2><p>If someone is exposed to a hazardous substance, act quickly and calmly, and follow the first aid on the safety data sheet.</p><ul><li><strong>Skin:</strong> remove any contaminated clothing and rinse the area with plenty of water.</li><li><strong>Eyes:</strong> rinse gently with clean water for at least ten to fifteen minutes and get medical help.</li><li><strong>Breathed in:</strong> move the person to fresh air.</li><li><strong>Swallowed:</strong> do not make them vomit unless the safety data sheet says so, and ring 111 or 999.</li></ul><p>Keep the product label or safety data sheet with you so medical staff know exactly what they are dealing with.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "718857ea-85bd-43ad-8cea-66849e1ac4e4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Spills and exposure",
+          "decorative": false,
+          "file": {
+            "path": "images/spills-and-exposure.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f11d9483-71d4-47f0-9ede-ef5ca9782b67",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Health surveillance awareness</h2><p>Some exposures are managed over the longer term through health surveillance. This is a system of regular checks &mdash; such as skin inspections or lung function tests &mdash; that COSHH requires where workers face an ongoing risk of harm, for example a risk of dermatitis or occupational asthma. It is there to catch early signs before they become serious, and to check that the control measures are actually working. Take part when it is offered, and always report symptoms yourself rather than waiting; you know your own body best. Reporting protects you and helps your employer improve the controls for everyone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e7df7d80-d69f-4367-ab00-285f588e2f61",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You knock over an open bottle of drain cleaner and some splashes into a colleague&rsquo;s eye. What is the best immediate response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Rinse the eye gently with clean water for at least ten to fifteen minutes, get medical help, and keep the product label to hand for staff.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prolonged rinsing with water and prompt medical help give the best outcome, and the label tells staff what the chemical is.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them to rub the eye hard and blink until the stinging stops.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Rubbing can grind the chemical in and cause more damage; the eye should be flushed with water instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether it gets worse before doing anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Chemical eye injuries need immediate, prolonged rinsing; any delay can cause permanent harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put a dry dressing over the eye and carry on with the shift.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A dry dressing does nothing to remove the chemical; the eye must be flushed with water and medical help sought.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "129e5920-0a3f-4395-b0ed-2024607312e8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

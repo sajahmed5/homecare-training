@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What you might need to raise</h2><p>Whistleblowing covers serious wrongdoing that harms, or risks harming, the people you support, your colleagues or the public. It is broader than a single act of poor care. If something feels seriously wrong, it is better to raise it than to assume someone else already has.</p><p>Concerns worth raising include:</p><ul><li><strong>Poor care:</strong> neglect, people left in pain, or care given without dignity.</li><li><strong>Abuse:</strong> physical, sexual, emotional, financial or discriminatory harm.</li><li><strong>Unsafe practice:</strong> dangerous staffing levels, missed medication, or ignored procedures.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9dfd28d8-12a7-4a87-b448-1c95863282b7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What to raise",
+          "decorative": false,
+          "file": {
+            "path": "images/what-to-raise.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "de797715-6b13-4ed6-bfff-35b089ac11b4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Wrongdoing beyond the bedside</h2><p>Not every concern is about hands-on care. Whistleblowing also covers dishonesty and danger in how a service is run.</p><ul><li><strong>Fraud:</strong> false records, stolen money, or claiming for care that was never given.</li><li><strong>Cover-ups:</strong> hiding a mistake, altering notes, or silencing anyone who complains.</li><li><strong>Health and safety dangers:</strong> broken equipment, fire hazards or serious infection risks.</li></ul><p>You do not need proof, and you do not need to be certain. If you have a reasonable, honest belief that something is wrong, that is enough to raise it &mdash; investigating is someone else&rsquo;s job, not yours.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "638af41b-c825-4409-b6ff-9d7df935033c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about what you can raise.</p></p>",
+          "textField": "Whistleblowing covers dishonesty such as *fraud*, where money or records are falsified. Hiding a mistake or altering notes is a *cover-up*. You do not need *proof* before you raise a concern. A reasonable, honest *belief* that something is wrong is enough to speak up. Broken equipment and fire hazards are *safety* dangers worth reporting.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "709ba3f9-120f-46e5-8a75-787e0475058c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

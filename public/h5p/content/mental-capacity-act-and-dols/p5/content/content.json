@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Ways people plan ahead</h2><p>The MCA gives people legal tools to shape decisions <em>before</em> they might lose capacity, and provides advocacy for those with no-one to speak for them.</p><h2>Lasting Power of Attorney (LPA)</h2><p>An LPA lets a person (the &lsquo;donor&rsquo;) appoint one or more trusted people (&lsquo;attorneys&rsquo;) to make decisions if they later lose capacity. There are <strong>two separate types</strong>:</p><ul><li><strong>Health and welfare LPA</strong> &mdash; covers decisions about care, medical treatment and where the person lives. It can only be used once the donor has lost capacity, and only covers life-sustaining treatment if the donor expressly said so.</li><li><strong>Property and financial affairs LPA</strong> &mdash; covers money, bills, benefits and property. It can be used while the donor still has capacity, if they agree.</li></ul><p>An LPA is only valid once registered with the <strong>Office of the Public Guardian</strong>. If someone tells you they are an attorney, it is reasonable to ask to see the registered document.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ee4a6da1-623f-4a61-82bd-36c3efa79101","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Advance decisions and independent advocacy</h2><p><strong>Advance decision to refuse treatment (ADRT):</strong> a person aged 18 or over with capacity can set out, in advance, specific medical treatments they wish to <em>refuse</em> in the future should they lose capacity. A valid and applicable ADRT is <strong>legally binding</strong> on health professionals. To refuse <em>life-sustaining</em> treatment, the ADRT must be in writing, signed and witnessed, and must clearly state it applies even if life is at risk. Note that an advance decision can only refuse treatment &mdash; it cannot demand a particular treatment.</p><p><strong>Independent Mental Capacity Advocate (IMCA):</strong> an IMCA must be instructed when a person who lacks capacity has <em>no-one appropriate</em> (other than paid staff) to consult, and a decision is being made about <strong>serious medical treatment</strong> or a <strong>change of accommodation</strong> arranged by the NHS or local authority. The IMCA represents and supports the person, gathers information and makes sure their rights and wishes are properly considered.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"e99d512c-fe29-4f8c-84bf-9a5398036046","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Frank has capacity now and wants to make sure that, if he later develops advanced dementia, he can refuse a specific life-sustaining treatment. Which tool should he use, and what must it meet to be valid?</p>","answers":[{"correct":true,"text":"<div>An advance decision to refuse treatment (ADRT), in writing, signed and witnessed, clearly stating it applies even if his life is at risk.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Refusing life-sustaining treatment in advance requires a valid ADRT that is written, signed, witnessed and explicitly states it applies even where life is at risk.","notChosenFeedback":""}},{"correct":false,"text":"<div>A property and financial affairs LPA, because it lets his attorney handle everything.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. A property and financial affairs LPA covers money and property, not medical treatment decisions.","notChosenFeedback":""}},{"correct":false,"text":"<div>A verbal statement to a nurse is enough, as long as two people hear it.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. To refuse life-sustaining treatment, the advance decision must be in writing, signed and witnessed, and must state it applies even if life is at risk.","notChosenFeedback":""}},{"correct":false,"text":"<div>An IMCA referral, because IMCAs make treatment decisions for people.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incorrect. An IMCA supports and represents a person who has no-one else to consult &mdash; they do not make the decision, and this is not a planning-ahead tool.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"870b0dcd-e375-4043-8b12-dc384f4c01af","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Ways people plan ahead</h2><p>The MCA gives people legal tools to shape decisions <em>before</em> they might lose capacity, and provides advocacy for those with no-one to speak for them.</p><h2>Lasting Power of Attorney (LPA)</h2><p>An LPA lets a person (the &lsquo;donor&rsquo;) appoint one or more trusted people (&lsquo;attorneys&rsquo;) to make decisions if they later lose capacity. There are <strong>two separate types</strong>:</p><ul><li><strong>Health and welfare LPA</strong> &mdash; covers decisions about care, medical treatment and where the person lives. It can only be used once the donor has lost capacity, and only covers life-sustaining treatment if the donor expressly said so.</li><li><strong>Property and financial affairs LPA</strong> &mdash; covers money, bills, benefits and property. It can be used while the donor still has capacity, if they agree.</li></ul><p>An LPA is only valid once registered with the <strong>Office of the Public Guardian</strong>. If someone tells you they are an attorney, it is reasonable to ask to see the registered document.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ee4a6da1-623f-4a61-82bd-36c3efa79101",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Planning ahead: LPA, ADRT & IMCA",
+          "decorative": false,
+          "file": {
+            "path": "images/planning-ahead-lpa-adrt-imca.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "39dae6e1-a6a1-454e-8187-a4ed52ff5799",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Advance decisions and independent advocacy</h2><p><strong>Advance decision to refuse treatment (ADRT):</strong> a person aged 18 or over with capacity can set out, in advance, specific medical treatments they wish to <em>refuse</em> in the future should they lose capacity. A valid and applicable ADRT is <strong>legally binding</strong> on health professionals. To refuse <em>life-sustaining</em> treatment, the ADRT must be in writing, signed and witnessed, and must clearly state it applies even if life is at risk. Note that an advance decision can only refuse treatment &mdash; it cannot demand a particular treatment.</p><p><strong>Independent Mental Capacity Advocate (IMCA):</strong> an IMCA must be instructed when a person who lacks capacity has <em>no-one appropriate</em> (other than paid staff) to consult, and a decision is being made about <strong>serious medical treatment</strong> or a <strong>change of accommodation</strong> arranged by the NHS or local authority. The IMCA represents and supports the person, gathers information and makes sure their rights and wishes are properly considered.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e99d512c-fe29-4f8c-84bf-9a5398036046",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Frank has capacity now and wants to make sure that, if he later develops advanced dementia, he can refuse a specific life-sustaining treatment. Which tool should he use, and what must it meet to be valid?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>An advance decision to refuse treatment (ADRT), in writing, signed and witnessed, clearly stating it applies even if his life is at risk.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Refusing life-sustaining treatment in advance requires a valid ADRT that is written, signed, witnessed and explicitly states it applies even where life is at risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A property and financial affairs LPA, because it lets his attorney handle everything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A property and financial affairs LPA covers money and property, not medical treatment decisions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A verbal statement to a nurse is enough, as long as two people hear it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. To refuse life-sustaining treatment, the advance decision must be in writing, signed and witnessed, and must state it applies even if life is at risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An IMCA referral, because IMCAs make treatment decisions for people.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An IMCA supports and represents a person who has no-one else to consult &mdash; they do not make the decision, and this is not a planning-ahead tool.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "870b0dcd-e375-4043-8b12-dc384f4c01af",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

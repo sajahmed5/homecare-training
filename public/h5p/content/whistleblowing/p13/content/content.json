@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What happens after you raise a concern</h2><p>Speaking up is the start of a process, not the end. Knowing roughly what to expect can make it feel less daunting.</p><ul><li><strong>Acknowledgement:</strong> the person you told should confirm they have heard you.</li><li><strong>Assessment:</strong> your concern is looked at and, where needed, investigated.</li><li><strong>Action:</strong> steps are taken to make people safe and put things right.</li><li><strong>Feedback:</strong> you should be told the outcome as far as is possible.</li></ul><p>Throughout, keep your own dated notes of what you saw, who you told and when.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ef15504f-0578-472b-9b38-1b7d412ff199",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for After you speak up",
+          "decorative": false,
+          "file": {
+            "path": "images/after-you-speak-up.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2d8e5d98-d6dc-43f5-9930-a66aeeb51621",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A realistic scenario</h2><p>You notice a colleague regularly signs the medication chart before residents have actually taken their tablets. You feel torn &mdash; you like her, and you dread being seen as a troublemaker.</p><p>You decide to act. You write down the dates and exactly what you saw, then raise it with your manager the same day. Your manager thanks you, keeps your name confidential, and starts a review. Because you spoke up, a serious risk to residents is stopped early &mdash; and your careful records show you acted honestly and in the public interest.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8b01f18a-786a-4bcf-a200-218ccbaad844",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, what makes your decision to raise the concern effective and well protected?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>You kept dated records, raised it promptly with your manager, and acted honestly in the public interest.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prompt reporting, honest motives and clear records give your disclosure the best protection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You waited several weeks to be completely certain before saying anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Waiting for certainty leaves residents at risk; a reasonable belief is enough to raise it now.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You confronted your colleague alone and agreed to keep it between the two of you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Keeping it private with the person involved does not protect residents or you; the concern needs to reach your manager.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You posted about it on social media so that others would be warned.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Public disclosure is only protected in limited circumstances and breaches confidentiality; raise it internally first.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ee7c7f59-ea99-47e6-83c2-8d8eaeb043a1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

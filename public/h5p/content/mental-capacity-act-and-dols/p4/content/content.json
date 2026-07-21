@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Making a best-interests decision</h2><p>If &mdash; and only if &mdash; a person is assessed as lacking capacity for a decision, any action taken on their behalf must be in their <strong>best interests</strong>. The MCA deliberately does not define &lsquo;best interests&rsquo; narrowly; instead it gives a checklist of things the decision-maker must consider.</p><ul><li>Do not make the decision merely on the basis of the person&rsquo;s age, appearance, condition or behaviour.</li><li>Consider whether the person is likely to regain capacity, and if so whether the decision can wait.</li><li>Encourage and support the person to take part in the decision as far as they are able.</li><li>Consider the person&rsquo;s <strong>past and present wishes and feelings</strong>, especially any written statement made when they had capacity.</li><li>Consider their <strong>beliefs and values</strong> and any other factors they would likely have taken into account.</li><li>Take into account the views of anyone named by the person, carers, family, an attorney or a deputy &mdash; where it is practical and appropriate to consult them.</li></ul><p>Best interests is about far more than physical health or safety. Emotional wellbeing, dignity, relationships and the person&rsquo;s own values all count.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ac3070f4-fbc4-41cd-b235-ee56e442d243","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Who must you consult?</h2><p>A best-interests decision should never be made in isolation. Wherever it is practical and appropriate, the decision-maker must take account of the views of:</p><ul><li>Anyone the person has previously named as someone to be consulted.</li><li>People engaged in caring for the person or interested in their welfare &mdash; family, friends and care staff.</li><li>Any <strong>attorney</strong> appointed under a Lasting Power of Attorney, or a <strong>deputy</strong> appointed by the Court of Protection.</li></ul><p>Consulting is not the same as handing over the decision. Family members do not have an automatic right to decide &mdash; unless they hold the relevant legal authority. Their role is to help build a picture of what the person would have wanted.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"8aea578b-bee6-43aa-a6f7-3f3e938b89b4","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Once a person is found to lack capacity, staff can choose whatever option is safest and most convenient for the service, without needing to consider what the person themselves would have wanted.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Best interests is not about convenience. The person&rsquo;s own wishes, feelings, beliefs and values must be central to the decision.","correctAnswerMessage":"Correct. A best-interests decision must weigh the person&rsquo;s past and present wishes, feelings, beliefs and values &mdash; not simply what is safest or most convenient for the service."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"0b07ffef-7423-466b-aa5b-9c8f723b4ac5","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making a best-interests decision</h2><p>If &mdash; and only if &mdash; a person is assessed as lacking capacity for a decision, any action taken on their behalf must be in their <strong>best interests</strong>. The MCA deliberately does not define &lsquo;best interests&rsquo; narrowly; instead it gives a checklist of things the decision-maker must consider.</p><ul><li>Do not make the decision merely on the basis of the person&rsquo;s age, appearance, condition or behaviour.</li><li>Consider whether the person is likely to regain capacity, and if so whether the decision can wait.</li><li>Encourage and support the person to take part in the decision as far as they are able.</li><li>Consider the person&rsquo;s <strong>past and present wishes and feelings</strong>, especially any written statement made when they had capacity.</li><li>Consider their <strong>beliefs and values</strong> and any other factors they would likely have taken into account.</li><li>Take into account the views of anyone named by the person, carers, family, an attorney or a deputy &mdash; where it is practical and appropriate to consult them.</li></ul><p>Best interests is about far more than physical health or safety. Emotional wellbeing, dignity, relationships and the person&rsquo;s own values all count.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac3070f4-fbc4-41cd-b235-ee56e442d243",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Best interests",
+          "decorative": false,
+          "file": {
+            "path": "images/best-interests.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5f8decb5-ca39-4518-8430-21dd6991a6a6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who must you consult?</h2><p>A best-interests decision should never be made in isolation. Wherever it is practical and appropriate, the decision-maker must take account of the views of:</p><ul><li>Anyone the person has previously named as someone to be consulted.</li><li>People engaged in caring for the person or interested in their welfare &mdash; family, friends and care staff.</li><li>Any <strong>attorney</strong> appointed under a Lasting Power of Attorney, or a <strong>deputy</strong> appointed by the Court of Protection.</li></ul><p>Consulting is not the same as handing over the decision. Family members do not have an automatic right to decide &mdash; unless they hold the relevant legal authority. Their role is to help build a picture of what the person would have wanted.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8aea578b-bee6-43aa-a6f7-3f3e938b89b4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Once a person is found to lack capacity, staff can choose whatever option is safest and most convenient for the service, without needing to consider what the person themselves would have wanted.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Best interests is not about convenience. The person&rsquo;s own wishes, feelings, beliefs and values must be central to the decision.",
+            "correctAnswerMessage": "Correct. A best-interests decision must weigh the person&rsquo;s past and present wishes, feelings, beliefs and values &mdash; not simply what is safest or most convenient for the service."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "0b07ffef-7423-466b-aa5b-9c8f723b4ac5",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

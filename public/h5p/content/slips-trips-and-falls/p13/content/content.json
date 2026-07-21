@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to check when someone has fallen</h2><p>If you find someone on the floor, stay calm &mdash; your response can prevent further harm. Do not rush to lift them. First, check the situation.</p><ul><li><strong>Response and breathing:</strong> are they conscious and breathing normally? If they are unresponsive or not breathing normally, call 999 and start your emergency procedure.</li><li><strong>Injury and pain:</strong> ask where it hurts and look for signs of a fracture, such as a shortened or turned-out leg, or an obvious deformity.</li><li><strong>What happened:</strong> if they can tell you, find out whether they felt dizzy, blacked out or hit their head.</li><li><strong>Comfort:</strong> keep them warm and reassured while you decide what to do.</li></ul><p>Never assume a fall is minor just because the person says they are fine.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6c54eae-ef45-4df7-83f0-e59e34f4b22a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for After a fall in depth",
+          "decorative": false,
+          "file": {
+            "path": "images/after-a-fall-in-depth.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1d2345fe-8521-4e65-822f-dce059f7f1f8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to call 999, and never lifting by hand</h2><p>Call 999 for an ambulance if any of these apply, even if the person plays it down:</p><ul><li><strong>Head injury:</strong> they hit their head, or seem drowsy, confused or unwell afterwards.</li><li><strong>Anticoagulants:</strong> they take blood-thinning medicines such as warfarin, apixaban or rivaroxaban, as these can cause dangerous bleeding, including inside the head, after a knock.</li><li><strong>Suspected fracture:</strong> severe pain, an inability to move or bear weight, or a limb that looks wrong.</li><li><strong>Unresponsive, unwell, or you are simply unsure.</strong></li></ul><p>Crucially, if someone may be injured, do not move them, and never lift them from the floor by hand. Manual lifting risks worsening a fracture or head injury and can injure you too. If it is safe to raise an uninjured person, use suitable equipment, such as a raising cushion or hoist, as you have been trained. Then record and report the fall so its cause can be reviewed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cbaf9ef1-032c-4cb4-a702-6f734be0cac4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find Mr Adeyemi on his bedroom floor. He says he simply slipped and feels fine, but he takes apixaban and has a small graze on his forehead. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Do not lift him; keep him still and warm, and call 999, because a knock to the head while on blood-thinning medication can cause dangerous bleeding.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A head injury in someone taking an anticoagulant is an emergency even if they feel well; he must not be moved and needs urgent medical assessment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help him straight up off the floor, since he says he feels fine and the graze looks small.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. He has hit his head while on a blood thinner; lifting him and assuming he is fine could miss a serious, hidden bleed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give him a cup of tea and note it in the diary, as there is no need to involve anyone else.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This situation needs a 999 call, not just a diary note; delaying could let a dangerous bleed go untreated.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few hours to see whether he develops a headache before deciding whether to call for help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Waiting is dangerous with a head injury on anticoagulants; you should call 999 straight away rather than watch and hope.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6ac6ee6c-9aa9-43fd-b468-e67823030222",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

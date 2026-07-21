@@ -3,277 +3,284 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 2,
-   "file": "chain-of-survival.svg",
-   "alt": "Illustration for Chain of Survival",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p2/content/images"
+   "file": "the-five-principles.svg",
+   "alt": "Illustration for The five principles",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p2/content/images"
   },
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 9,
-   "file": "theory-then-practice.svg",
-   "alt": "Illustration for Theory then practice",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p9/content/images"
+   "file": "consent-in-care.svg",
+   "alt": "Illustration for Consent in care",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p9/content/images"
   },
   {
-   "course": "basic-life-support-bls",
-   "page": 4,
-   "file": "airway-breathing.svg",
-   "alt": "Illustration for Airway & Breathing",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p4/content/images"
-  },
-  {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 10,
-   "file": "is-it-cardiac-arrest.svg",
-   "alt": "Illustration for Is it cardiac arrest?",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p10/content/images"
+   "file": "supporting-decisions.svg",
+   "alt": "Illustration for Supporting decisions",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p10/content/images"
   },
   {
-   "course": "basic-life-support-bls",
-   "page": 5,
-   "file": "call-999-aed.svg",
-   "alt": "Illustration for Call 999 & AED",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p5/content/images"
-  },
-  {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 11,
-   "file": "quality-cpr-as-a-team.svg",
-   "alt": "Illustration for Quality CPR as a team",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p11/content/images"
+   "file": "unwise-decisions.svg",
+   "alt": "Illustration for Unwise decisions",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p11/content/images"
   },
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
+   "page": 4,
+   "file": "best-interests.svg",
+   "alt": "Illustration for Best interests",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p4/content/images"
+  },
+  {
+   "course": "mental-capacity-act-and-dols",
+   "page": 5,
+   "file": "planning-ahead-lpa-adrt-imca.svg",
+   "alt": "Illustration for Planning ahead: LPA, ADRT & IMCA",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p5/content/images"
+  },
+  {
+   "course": "mental-capacity-act-and-dols",
    "page": 7,
-   "file": "breaths-aed.svg",
-   "alt": "Illustration for Breaths & AED",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p7/content/images"
+   "file": "deprivation-of-liberty.svg",
+   "alt": "Illustration for Deprivation of Liberty",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p7/content/images"
   },
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 12,
-   "file": "using-an-aed.svg",
-   "alt": "Illustration for Using an AED",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p12/content/images"
+   "file": "dols-and-lps.svg",
+   "alt": "Illustration for DoLS and LPS",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p12/content/images"
   },
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 13,
-   "file": "after-the-attempt.svg",
-   "alt": "Illustration for After the attempt",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p13/content/images"
+   "file": "everyday-practice.svg",
+   "alt": "Illustration for Everyday practice",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p13/content/images"
   },
   {
-   "course": "basic-life-support-bls",
+   "course": "mental-capacity-act-and-dols",
    "page": 8,
-   "file": "recovery-choking.svg",
-   "alt": "Illustration for Recovery & choking",
-   "srcDir": "public/h5p/content/basic-life-support-bls/p8/content/images"
+   "file": "putting-it-into-practice.svg",
+   "alt": "Illustration for Putting it into practice",
+   "srcDir": "public/h5p/content/mental-capacity-act-and-dols/p8/content/images"
   },
   {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
    "page": 2,
-   "file": "the-primary-survey-dr-abc.svg",
-   "alt": "Illustration for The primary survey (DR ABC)",
-   "srcDir": "public/h5p/content/first-aid-awareness/p2/content/images"
+   "file": "concern-complaint-or-grievance.svg",
+   "alt": "Illustration for Concern, complaint or grievance?",
+   "srcDir": "public/h5p/content/whistleblowing/p2/content/images"
   },
   {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
    "page": 9,
-   "file": "awareness-and-readiness.svg",
-   "alt": "Illustration for Awareness and readiness",
-   "srcDir": "public/h5p/content/first-aid-awareness/p9/content/images"
+   "file": "why-culture-matters.svg",
+   "alt": "Illustration for Why culture matters",
+   "srcDir": "public/h5p/content/whistleblowing/p9/content/images"
   },
   {
-   "course": "first-aid-awareness",
-   "page": 4,
-   "file": "bleeding-shock.svg",
-   "alt": "Illustration for Bleeding & shock",
-   "srcDir": "public/h5p/content/first-aid-awareness/p4/content/images"
-  },
-  {
-   "course": "first-aid-awareness",
-   "page": 5,
-   "file": "burns-choking-falls.svg",
-   "alt": "Illustration for Burns, choking & falls",
-   "srcDir": "public/h5p/content/first-aid-awareness/p5/content/images"
-  },
-  {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
    "page": 10,
-   "file": "head-spine-and-bones.svg",
-   "alt": "Illustration for Head, spine and bones",
-   "srcDir": "public/h5p/content/first-aid-awareness/p10/content/images"
+   "file": "what-to-raise.svg",
+   "alt": "Illustration for What to raise",
+   "srcDir": "public/h5p/content/whistleblowing/p10/content/images"
   },
   {
-   "course": "first-aid-awareness",
-   "page": 7,
-   "file": "diabetic-emergencies-recovery-position.svg",
-   "alt": "Illustration for Diabetic emergencies & recovery position",
-   "srcDir": "public/h5p/content/first-aid-awareness/p7/content/images"
-  },
-  {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
    "page": 11,
-   "file": "seizures-and-epilepsy.svg",
-   "alt": "Illustration for Seizures and epilepsy",
-   "srcDir": "public/h5p/content/first-aid-awareness/p11/content/images"
+   "file": "pida-in-depth.svg",
+   "alt": "Illustration for PIDA in depth",
+   "srcDir": "public/h5p/content/whistleblowing/p11/content/images"
   },
   {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
+   "page": 4,
+   "file": "how-to-raise-a-concern.svg",
+   "alt": "Illustration for How to raise a concern",
+   "srcDir": "public/h5p/content/whistleblowing/p4/content/images"
+  },
+  {
+   "course": "whistleblowing",
+   "page": 5,
+   "file": "prescribed-persons-cqc.svg",
+   "alt": "Illustration for Prescribed persons & CQC",
+   "srcDir": "public/h5p/content/whistleblowing/p5/content/images"
+  },
+  {
+   "course": "whistleblowing",
    "page": 12,
-   "file": "allergies-and-asthma.svg",
-   "alt": "Illustration for Allergies and asthma",
-   "srcDir": "public/h5p/content/first-aid-awareness/p12/content/images"
+   "file": "barriers-and-support.svg",
+   "alt": "Illustration for Barriers and support",
+   "srcDir": "public/h5p/content/whistleblowing/p12/content/images"
   },
   {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
+   "page": 7,
+   "file": "confidentiality-anonymity.svg",
+   "alt": "Illustration for Confidentiality & anonymity",
+   "srcDir": "public/h5p/content/whistleblowing/p7/content/images"
+  },
+  {
+   "course": "whistleblowing",
    "page": 13,
-   "file": "stroke-heart-and-fainting.svg",
-   "alt": "Illustration for Stroke, heart and fainting",
-   "srcDir": "public/h5p/content/first-aid-awareness/p13/content/images"
+   "file": "after-you-speak-up.svg",
+   "alt": "Illustration for After you speak up",
+   "srcDir": "public/h5p/content/whistleblowing/p13/content/images"
   },
   {
-   "course": "first-aid-awareness",
+   "course": "whistleblowing",
    "page": 8,
-   "file": "recording-reporting.svg",
-   "alt": "Illustration for Recording & reporting",
-   "srcDir": "public/h5p/content/first-aid-awareness/p8/content/images"
+   "file": "safeguarding-candour-courage.svg",
+   "alt": "Illustration for Safeguarding, candour & courage",
+   "srcDir": "public/h5p/content/whistleblowing/p8/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 2,
-   "file": "the-law.svg",
-   "alt": "Illustration for The law",
-   "srcDir": "public/h5p/content/moving-and-handling/p2/content/images"
+   "file": "substances-in-care.svg",
+   "alt": "Illustration for Substances in care",
+   "srcDir": "public/h5p/content/coshh/p2/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 9,
-   "file": "your-back-at-risk.svg",
-   "alt": "Illustration for Your back at risk",
-   "srcDir": "public/h5p/content/moving-and-handling/p9/content/images"
+   "file": "health-effects.svg",
+   "alt": "Illustration for Health effects",
+   "srcDir": "public/h5p/content/coshh/p9/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 4,
-   "file": "tile-risk-assessment.svg",
-   "alt": "Illustration for TILE risk assessment",
-   "srcDir": "public/h5p/content/moving-and-handling/p4/content/images"
+   "file": "sds-assessment.svg",
+   "alt": "Illustration for SDS & assessment",
+   "srcDir": "public/h5p/content/coshh/p4/content/images"
   },
   {
-   "course": "moving-and-handling",
-   "page": 5,
-   "file": "safe-principles.svg",
-   "alt": "Illustration for Safe principles",
-   "srcDir": "public/h5p/content/moving-and-handling/p5/content/images"
-  },
-  {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 10,
-   "file": "equipment-in-depth.svg",
-   "alt": "Illustration for Equipment in depth",
-   "srcDir": "public/h5p/content/moving-and-handling/p10/content/images"
+   "file": "hazards-in-care.svg",
+   "alt": "Illustration for Hazards in care",
+   "srcDir": "public/h5p/content/coshh/p10/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
+   "page": 5,
+   "file": "routes-of-entry.svg",
+   "alt": "Illustration for Routes of entry",
+   "srcDir": "public/h5p/content/coshh/p5/content/images"
+  },
+  {
+   "course": "coshh",
    "page": 11,
-   "file": "everyday-tasks-safely.svg",
-   "alt": "Illustration for Everyday tasks safely",
-   "srcDir": "public/h5p/content/moving-and-handling/p11/content/images"
+   "file": "ppe-and-rpe.svg",
+   "alt": "Illustration for PPE and RPE",
+   "srcDir": "public/h5p/content/coshh/p11/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 12,
-   "file": "when-someone-falls.svg",
-   "alt": "Illustration for When someone falls",
-   "srcDir": "public/h5p/content/moving-and-handling/p12/content/images"
+   "file": "safe-use-and-storage.svg",
+   "alt": "Illustration for Safe use and storage",
+   "srcDir": "public/h5p/content/coshh/p12/content/images"
   },
   {
-   "course": "moving-and-handling",
-   "page": 13,
-   "file": "changing-needs.svg",
-   "alt": "Illustration for Changing needs",
-   "srcDir": "public/h5p/content/moving-and-handling/p13/content/images"
-  },
-  {
-   "course": "moving-and-handling",
+   "course": "coshh",
    "page": 7,
-   "file": "never-lift-person-centred.svg",
-   "alt": "Illustration for Never lift & person-centred",
-   "srcDir": "public/h5p/content/moving-and-handling/p7/content/images"
+   "file": "storage-spills.svg",
+   "alt": "Illustration for Storage & spills",
+   "srcDir": "public/h5p/content/coshh/p7/content/images"
   },
   {
-   "course": "moving-and-handling",
+   "course": "coshh",
+   "page": 13,
+   "file": "spills-and-exposure.svg",
+   "alt": "Illustration for Spills and exposure",
+   "srcDir": "public/h5p/content/coshh/p13/content/images"
+  },
+  {
+   "course": "coshh",
    "page": 8,
    "file": "reporting-review.svg",
    "alt": "Illustration for Reporting & review",
-   "srcDir": "public/h5p/content/moving-and-handling/p8/content/images"
+   "srcDir": "public/h5p/content/coshh/p8/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 2,
-   "file": "how-fire-works.svg",
-   "alt": "Illustration for How fire works",
-   "srcDir": "public/h5p/content/fire-safety/p2/content/images"
+   "file": "slip-trip-causes.svg",
+   "alt": "Illustration for Slip & trip causes",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p2/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 9,
-   "file": "the-law-duties.svg",
-   "alt": "Illustration for The law & duties",
-   "srcDir": "public/h5p/content/fire-safety/p9/content/images"
+   "file": "the-cost-and-the-law.svg",
+   "alt": "Illustration for The cost and the law",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p9/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 4,
-   "file": "emollient-cream-risk.svg",
-   "alt": "Illustration for Emollient cream risk",
-   "srcDir": "public/h5p/content/fire-safety/p4/content/images"
+   "file": "risk-assessment.svg",
+   "alt": "Illustration for Risk assessment",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p4/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
+   "page": 5,
+   "file": "why-people-fall.svg",
+   "alt": "Illustration for Why people fall",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p5/content/images"
+  },
+  {
+   "course": "slips-trips-and-falls",
    "page": 10,
-   "file": "preventing-fire-daily.svg",
-   "alt": "Illustration for Preventing fire daily",
-   "srcDir": "public/h5p/content/fire-safety/p10/content/images"
+   "file": "why-people-fall.svg",
+   "alt": "Illustration for Why people fall",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p10/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 11,
-   "file": "extinguisher-types-classes.svg",
-   "alt": "Illustration for Extinguisher types & classes",
-   "srcDir": "public/h5p/content/fire-safety/p11/content/images"
+   "file": "environment-and-equipment.svg",
+   "alt": "Illustration for Environment and equipment",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p11/content/images"
   },
   {
-   "course": "fire-safety",
-   "page": 7,
-   "file": "evacuation-peeps.svg",
-   "alt": "Illustration for Evacuation & PEEPs",
-   "srcDir": "public/h5p/content/fire-safety/p7/content/images"
-  },
-  {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 12,
-   "file": "evacuation-strategies.svg",
-   "alt": "Illustration for Evacuation strategies",
-   "srcDir": "public/h5p/content/fire-safety/p12/content/images"
+   "file": "staying-active.svg",
+   "alt": "Illustration for Staying active",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p12/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
+   "page": 7,
+   "file": "if-someone-falls.svg",
+   "alt": "Illustration for If someone falls",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p7/content/images"
+  },
+  {
+   "course": "slips-trips-and-falls",
    "page": 13,
-   "file": "fire-wardens-drills.svg",
-   "alt": "Illustration for Fire wardens & drills",
-   "srcDir": "public/h5p/content/fire-safety/p13/content/images"
+   "file": "after-a-fall-in-depth.svg",
+   "alt": "Illustration for After a fall in depth",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p13/content/images"
   },
   {
-   "course": "fire-safety",
+   "course": "slips-trips-and-falls",
    "page": 8,
-   "file": "if-a-fire-starts.svg",
-   "alt": "Illustration for If a fire starts",
-   "srcDir": "public/h5p/content/fire-safety/p8/content/images"
+   "file": "recording-reporting.svg",
+   "alt": "Illustration for Recording & reporting",
+   "srcDir": "public/h5p/content/slips-trips-and-falls/p8/content/images"
   }
  ]
 }

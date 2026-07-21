@@ -3,60 +3,95 @@
   "title": "Mental Capacity Act & DoLS",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p1",
-      "type": "h5p",
       "label": "Why the MCA matters",
-      "section": "The Act and its principles",
-      "questions": 1
+      "questions": 1,
+      "section": "The Act and its principles"
     },
     {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p2",
-      "type": "h5p",
       "label": "The five principles",
-      "section": "The Act and its principles",
-      "questions": 1
+      "questions": 1,
+      "section": "The Act and its principles"
     },
     {
+      "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p9",
+      "label": "Consent in care",
+      "questions": 1,
+      "section": "Consent and supporting decisions"
+    },
+    {
+      "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p10",
+      "label": "Supporting decisions",
+      "questions": 1,
+      "section": "Consent and supporting decisions"
+    },
+    {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p3",
-      "type": "h5p",
       "label": "Testing capacity",
-      "section": "Capacity and best interests",
-      "questions": 1
+      "questions": 1,
+      "section": "Assessing capacity and best interests"
     },
     {
+      "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p11",
+      "label": "Unwise decisions",
+      "questions": 1,
+      "section": "Assessing capacity and best interests"
+    },
+    {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p4",
-      "type": "h5p",
       "label": "Best interests",
-      "section": "Capacity and best interests",
-      "questions": 1
+      "questions": 1,
+      "section": "Assessing capacity and best interests"
     },
     {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p5",
-      "type": "h5p",
       "label": "Planning ahead: LPA, ADRT & IMCA",
-      "section": "Planning ahead and restraint",
-      "questions": 1
+      "questions": 1,
+      "section": "Planning ahead and restraint"
     },
     {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p6",
-      "type": "h5p",
       "label": "Restraint & restriction",
-      "section": "Planning ahead and restraint",
-      "questions": 1
+      "questions": 1,
+      "section": "Planning ahead and restraint"
     },
     {
+      "type": "h5p",
       "path": "mental-capacity-act-and-dols/p7",
-      "type": "h5p",
       "label": "Deprivation of Liberty",
-      "section": "Deprivation of liberty in practice",
-      "questions": 1
+      "questions": 1,
+      "section": "Deprivation of liberty in practice"
     },
     {
-      "path": "mental-capacity-act-and-dols/p8",
       "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p12",
+      "label": "DoLS and LPS",
+      "questions": 1,
+      "section": "Deprivation of liberty in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p13",
+      "label": "Everyday practice",
+      "questions": 1,
+      "section": "Deprivation of liberty in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "mental-capacity-act-and-dols/p8",
       "label": "Putting it into practice",
-      "section": "Deprivation of liberty in practice",
-      "questions": 2
+      "questions": 2,
+      "section": "Deprivation of liberty in practice"
     }
   ]
 }

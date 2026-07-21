@@ -3,60 +3,95 @@
   "title": "Slips, Trips & Falls",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p1",
-      "type": "h5p",
       "label": "Why this matters",
-      "section": "Why slips and trips happen",
-      "questions": 1
+      "questions": 1,
+      "section": "The cost and the law"
     },
     {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p2",
-      "type": "h5p",
       "label": "Slip & trip causes",
-      "section": "Why slips and trips happen",
-      "questions": 0
+      "questions": 0,
+      "section": "The cost and the law"
     },
     {
+      "type": "h5p",
+      "path": "slips-trips-and-falls/p9",
+      "label": "The cost and the law",
+      "questions": 1,
+      "section": "The cost and the law"
+    },
+    {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p3",
-      "type": "h5p",
       "label": "Prevention & housekeeping",
-      "section": "Preventing and assessing",
-      "questions": 2
+      "questions": 2,
+      "section": "Assessing and preventing hazards"
     },
     {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p4",
-      "type": "h5p",
       "label": "Risk assessment",
-      "section": "Preventing and assessing",
-      "questions": 1
+      "questions": 1,
+      "section": "Assessing and preventing hazards"
     },
     {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p5",
-      "type": "h5p",
       "label": "Why people fall",
-      "section": "Understanding falls",
-      "questions": 0
+      "questions": 0,
+      "section": "Why older people fall"
     },
     {
+      "type": "h5p",
+      "path": "slips-trips-and-falls/p10",
+      "label": "Why people fall",
+      "questions": 1,
+      "section": "Why older people fall"
+    },
+    {
+      "type": "h5p",
+      "path": "slips-trips-and-falls/p11",
+      "label": "Environment and equipment",
+      "questions": 1,
+      "section": "Reducing the risk of falls"
+    },
+    {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p6",
-      "type": "h5p",
       "label": "Falls prevention",
-      "section": "Understanding falls",
-      "questions": 1
+      "questions": 1,
+      "section": "Reducing the risk of falls"
     },
     {
+      "type": "h5p",
+      "path": "slips-trips-and-falls/p12",
+      "label": "Staying active",
+      "questions": 1,
+      "section": "Reducing the risk of falls"
+    },
+    {
+      "type": "h5p",
       "path": "slips-trips-and-falls/p7",
-      "type": "h5p",
       "label": "If someone falls",
-      "section": "After a fall",
-      "questions": 2
+      "questions": 2,
+      "section": "After a fall"
     },
     {
-      "path": "slips-trips-and-falls/p8",
       "type": "h5p",
+      "path": "slips-trips-and-falls/p13",
+      "label": "After a fall in depth",
+      "questions": 1,
+      "section": "After a fall"
+    },
+    {
+      "type": "h5p",
+      "path": "slips-trips-and-falls/p8",
       "label": "Recording & reporting",
-      "section": "After a fall",
-      "questions": 1
+      "questions": 1,
+      "section": "After a fall"
     }
   ]
 }

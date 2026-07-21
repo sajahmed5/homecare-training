@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Hazardous substances in a care setting</h2><p>You probably handle several hazardous substances during a normal shift without thinking of them as \"hazardous\". Recognising them is the first step to using them safely.</p><ul><li><strong>Cleaning products</strong> &ndash; multi-surface cleaners, oven cleaners, descalers and toilet cleaners, some of which are strongly acidic or alkaline.</li><li><strong>Disinfectants and bleach</strong> &ndash; powerful at killing germs but corrosive and irritant; never mix bleach with other cleaners as this can release toxic gas.</li><li><strong>Clinical and hazardous waste</strong> &ndash; used dressings, sharps and continence products that may carry infection.</li><li><strong>Bodily fluids</strong> &ndash; blood, urine, faeces, vomit and sputum, which are biological hazards that can spread infection.</li><li><strong>Some medicines</strong> &ndash; certain creams, cytotoxic drugs and crushed or handled tablets can be absorbed through the skin.</li><li><strong>Dust and fine particles</strong> &ndash; from dry sweeping, talcum powder or building work, which can be breathed in.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"b3e377a7-35a1-464f-ac48-fe3e0e0345fa","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Which of the following would be considered hazardous substances under COSHH in a care home? (Select all that apply.)</p>","answers":[{"correct":true,"text":"<div>Thick bleach used to disinfect a bathroom</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Yes. Bleach is corrosive and an irritant, and is a hazardous substance under COSHH.","notChosenFeedback":""}},{"correct":true,"text":"<div>Blood and other bodily fluids</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Yes. Bodily fluids are biological hazards that can carry infection and are covered by COSHH.","notChosenFeedback":""}},{"correct":true,"text":"<div>Dust created by dry-sweeping a floor</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Yes. Inhaling dust can harm the lungs, so it is a hazardous substance under COSHH.","notChosenFeedback":""}},{"correct":false,"text":"<div>A sealed carton of long-life milk in the kitchen</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Ordinary food such as milk is not a COSHH hazardous substance.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"c883b99a-0dad-4179-820a-b1f10806441f","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hazardous substances in a care setting</h2><p>You probably handle several hazardous substances during a normal shift without thinking of them as \"hazardous\". Recognising them is the first step to using them safely.</p><ul><li><strong>Cleaning products</strong> &ndash; multi-surface cleaners, oven cleaners, descalers and toilet cleaners, some of which are strongly acidic or alkaline.</li><li><strong>Disinfectants and bleach</strong> &ndash; powerful at killing germs but corrosive and irritant; never mix bleach with other cleaners as this can release toxic gas.</li><li><strong>Clinical and hazardous waste</strong> &ndash; used dressings, sharps and continence products that may carry infection.</li><li><strong>Bodily fluids</strong> &ndash; blood, urine, faeces, vomit and sputum, which are biological hazards that can spread infection.</li><li><strong>Some medicines</strong> &ndash; certain creams, cytotoxic drugs and crushed or handled tablets can be absorbed through the skin.</li><li><strong>Dust and fine particles</strong> &ndash; from dry sweeping, talcum powder or building work, which can be breathed in.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b3e377a7-35a1-464f-ac48-fe3e0e0345fa",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Substances in care",
+          "decorative": false,
+          "file": {
+            "path": "images/substances-in-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b75725d0-290e-4a0c-a533-6433252b4bf7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following would be considered hazardous substances under COSHH in a care home? (Select all that apply.)</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Thick bleach used to disinfect a bathroom</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Bleach is corrosive and an irritant, and is a hazardous substance under COSHH.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Blood and other bodily fluids</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Bodily fluids are biological hazards that can carry infection and are covered by COSHH.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Dust created by dry-sweeping a floor</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Inhaling dust can harm the lungs, so it is a hazardous substance under COSHH.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A sealed carton of long-life milk in the kitchen</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Ordinary food such as milk is not a COSHH hazardous substance.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c883b99a-0dad-4179-820a-b1f10806441f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

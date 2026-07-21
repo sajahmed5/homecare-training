@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The human cost of a fall</h2><p>Falls are one of the most common causes of injury among older adults, and their effects reach far beyond the moment someone hits the floor. A fall can cause a fracture &mdash; a broken hip is especially serious &mdash; a head injury, bruising, or a long time on the floor before help arrives. The physical harm, though, is only part of the story. After a fall many people lose confidence in their own movement and become frightened of falling again. This is often called a &lsquo;fear of falling&rsquo;. Understandably cautious, they may start to avoid walking, stairs or going out. Sadly this can make matters worse: muscles weaken, balance declines and the risk of another fall actually rises. A single fall can be the start of a decline in a person&rsquo;s independence, mood and quality of life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c644c995-1120-41d3-81c0-b7c2e71a6aec",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The cost and the law",
+          "decorative": false,
+          "file": {
+            "path": "images/the-cost-and-the-law.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "14b2e1ed-e7b4-4f19-9f91-abf3e4938233",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your legal duty</h2><p>Keeping people safe from falls is not only good care; it is the law. The Health and Safety at Work etc. Act 1974 places a duty on your employer to protect the health and safety of both workers and the people you support, so far as is reasonably practicable. The Health and Safety Executive (HSE) is the regulator that enforces this. On top of this, the Care Act 2014 makes promoting a person&rsquo;s wellbeing central to good care, and your own duty of care means acting to prevent avoidable harm. Certain serious falls connected with work may have to be reported under RIDDOR. None of this means wrapping people in cotton wool. The aim is to balance safety with a person&rsquo;s right to move, take everyday risks and stay independent, which is why falls prevention is a shared responsibility across the whole team.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "015f7ccb-0cc5-4759-9ee8-4539576dbc7b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support has become frightened of falling after a recent trip and now avoids walking around their own home. Why is this fear itself a concern?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Avoiding activity weakens the muscles and worsens balance, which can actually increase the risk of another fall.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Fear of falling often leads people to move less, and inactivity reduces strength and balance &mdash; making a further fall more, not less, likely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is not a concern; sitting still is the safest way for them to avoid ever falling again.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Becoming inactive weakens the body and raises the risk of falling, as well as harming independence and mood.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Fear of falling only matters if the person was actually injured in the first fall.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The fear affects a person whether or not they were hurt, and it can trigger a decline in confidence and mobility either way.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is nothing you can do about it, so the fear is best ignored.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. You can help by gently encouraging safe activity, building confidence and arranging support, so the fear should never be ignored.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "41458b2e-0729-4574-8e32-f3c0498ab79b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

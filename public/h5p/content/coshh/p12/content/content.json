@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Decanting and labelling</h2><p>How you use and store products is as important as the products themselves. Always keep substances in their original container with the label intact, because the label and safety data sheet tell you the hazards and the first aid. The golden rule is never to decant a chemical into an unlabelled container, and never into a drinks bottle or food tub &mdash; people have been seriously harmed drinking bleach or cleaner from a squash bottle. If you genuinely must transfer a product, use a proper container and label it clearly with the contents and their hazards. Close lids fully, and use older stock first so nothing is left to degrade.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cc5c0f3d-8241-4545-9be4-3195b47c14de",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safe use and storage",
+          "decorative": false,
+          "file": {
+            "path": "images/safe-use-and-storage.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8c07a8da-c27d-4bb1-adc6-347545090ba0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Storage rules</h2><p>Safe storage follows the safety data sheet. As a general rule, keep hazardous substances in a cool, dry, well-ventilated place, away from food, out of the reach of the people you support and anyone who might misuse them, and locked away where your assessment requires it. Store containers upright so they cannot leak, and keep incompatible chemicals apart &mdash; bleach must never be stored where it could mix with acids or ammonia if a container failed. Do not stockpile more than you need. Good storage prevents spills, slows deterioration and keeps everyone in the home safer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ff5e2708-d39c-4a32-b658-f4ba7b3f66df",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If a spray bottle runs out, it is fine to top it up by pouring cleaner from a larger bottle into an old, unlabelled drinks bottle to carry it around.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; this is false. Decanting cleaner into an unlabelled drinks bottle is dangerous, as it can be mistaken for a drink; only ever use a proper, clearly labelled container.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Chemicals must never be put into unlabelled containers or drinks bottles, because someone could mistake the contents for a drink and be seriously harmed; always use a properly labelled container."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "75ffb8a6-a13c-488f-96df-cd240bbf2acd",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

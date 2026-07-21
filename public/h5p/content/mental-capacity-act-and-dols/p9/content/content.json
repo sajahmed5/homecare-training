@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Consent runs through everyday care</h2><p>Consent is not a form signed once and filed away. Every time you support someone &mdash; helping with a wash, offering a meal, assisting with medication &mdash; you need their agreement. Seeking consent shows respect and keeps your care lawful.</p><p>For consent to be valid it must be informed, given voluntarily, and given by someone with capacity for that particular decision. Informed means the person understands what you are proposing, why you are proposing it, and what the alternatives are, including the option of doing nothing at all.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "51233d2c-e1dd-4210-bb27-4eba4fb61bc4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent in care",
+          "decorative": false,
+          "file": {
+            "path": "images/consent-in-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ea99f7db-280c-4db8-88b3-d1ed26598464",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Capacity is specific to the decision and the moment</h2><p>The Mental Capacity Act treats capacity as decision-specific. Someone may have capacity to choose what to wear yet need support with a complex decision about their finances. You never judge capacity for everything at once.</p><p>Capacity is also time-specific. It can change from day to day, or even hour to hour &mdash; this is called fluctuating capacity.</p><ul><li><strong>Ask each time:</strong> a &lsquo;yes&rsquo; yesterday is not consent for today.</li><li><strong>Choose good moments:</strong> return when the person is more alert or comfortable.</li><li><strong>Watch for change:</strong> illness, tiredness or medication can affect someone temporarily.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e748479a-ed49-44ff-92f1-e87edb7b353f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mrs Okafor happily agreed to a shower yesterday, but this morning she is drowsy and turns away when you suggest it. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat her response now as the one that matters, offer again later when she is more alert, and record what happened.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Consent must be sought each time; yesterday&rsquo;s agreement does not carry over, and returning later respects her fluctuating capacity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Go ahead with the shower, because she consented to the same task yesterday.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Consent is time-specific; a previous &lsquo;yes&rsquo; is not agreement for today.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide she now lacks capacity for all decisions and make her choices for her.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Capacity is decision-specific, and one drowsy moment does not mean she lacks capacity for everything.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Insist gently until she gives in, as personal care cannot wait.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Pressuring someone removes the voluntary nature of consent; a wash can usually wait a short while.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "920949af-af2d-4dac-ae66-070a111e74ce",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

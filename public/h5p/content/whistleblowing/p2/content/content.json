@@ -1,1 +1,100 @@
-{"content":[{"content":{"params":{"text":"<h2>Three different things</h2><p>People often confuse whistleblowing with two other routes: a complaint and a grievance. They overlap, but they are not the same, and each has its own process.</p><ul><li>A <strong>whistleblowing concern</strong> is raised in the public interest &mdash; it is about wrongdoing or risk that could harm others.</li><li>A <strong>complaint</strong> is usually raised by a person who uses the service, or their family, about the quality of care or service they have personally received.</li><li>A <strong>grievance</strong> is a personal workplace issue that affects <em>you</em> &mdash; for example, a dispute about your pay, your rota or how a manager has treated you.</li></ul><p>If you are unsure which route applies, do not let that stop you speaking up. Raise the concern and let it be directed to the right process.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"67473490-63ca-47b2-94e4-7688e80d074b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Match each situation to the right route.</p>","dialogs":[{"text":"<p>A carer is rough when moving a resident and you fear they could be hurt.</p>","answer":"<p>Whistleblowing concern &mdash; it is about risk of harm to another person, raised in the public interest.</p>","tips":{}},{"text":"<p>A resident's daughter is unhappy that meals arrive late.</p>","answer":"<p>Complaint &mdash; it is about the quality of service a person has personally received.</p>","tips":{}},{"text":"<p>You feel your shift pattern is unfair compared with a colleague's.</p>","answer":"<p>Grievance &mdash; it is a personal workplace matter affecting you, not a risk to others.</p>","tips":{}},{"text":"<p>You suspect a manager is falsifying medication records to hide errors.</p>","answer":"<p>Whistleblowing concern &mdash; a cover-up of wrongdoing that puts people at risk.</p>","tips":{}},{"text":"<p>You believe you were unfairly passed over for a promotion.</p>","answer":"<p>Grievance &mdash; a personal employment issue, handled through the grievance procedure.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"8cd21fb4-eeca-429f-84c4-41fa5a1e5630","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Three different things</h2><p>People often confuse whistleblowing with two other routes: a complaint and a grievance. They overlap, but they are not the same, and each has its own process.</p><ul><li>A <strong>whistleblowing concern</strong> is raised in the public interest &mdash; it is about wrongdoing or risk that could harm others.</li><li>A <strong>complaint</strong> is usually raised by a person who uses the service, or their family, about the quality of care or service they have personally received.</li><li>A <strong>grievance</strong> is a personal workplace issue that affects <em>you</em> &mdash; for example, a dispute about your pay, your rota or how a manager has treated you.</li></ul><p>If you are unsure which route applies, do not let that stop you speaking up. Raise the concern and let it be directed to the right process.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67473490-63ca-47b2-94e4-7688e80d074b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Concern, complaint or grievance?",
+          "decorative": false,
+          "file": {
+            "path": "images/concern-complaint-or-grievance.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2e674ffb-13e4-48d0-a235-c0283ea5b8b3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Match each situation to the right route.</p>",
+          "dialogs": [
+            {
+              "text": "<p>A carer is rough when moving a resident and you fear they could be hurt.</p>",
+              "answer": "<p>Whistleblowing concern &mdash; it is about risk of harm to another person, raised in the public interest.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A resident's daughter is unhappy that meals arrive late.</p>",
+              "answer": "<p>Complaint &mdash; it is about the quality of service a person has personally received.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>You feel your shift pattern is unfair compared with a colleague's.</p>",
+              "answer": "<p>Grievance &mdash; it is a personal workplace matter affecting you, not a risk to others.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>You suspect a manager is falsifying medication records to hide errors.</p>",
+              "answer": "<p>Whistleblowing concern &mdash; a cover-up of wrongdoing that puts people at risk.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>You believe you were unfairly passed over for a promotion.</p>",
+              "answer": "<p>Grievance &mdash; a personal employment issue, handled through the grievance procedure.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "8cd21fb4-eeca-429f-84c4-41fa5a1e5630",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

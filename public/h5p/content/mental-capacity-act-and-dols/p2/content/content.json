@@ -1,1 +1,134 @@
-{"content":[{"content":{"params":{"text":"<h2>The five statutory principles</h2><p>Everything in the MCA flows from <strong>five core principles</strong>. They are not optional guidance &mdash; they are set out in section 1 of the Act and must underpin every decision made under it. Learn them, because they are the backbone of good, lawful practice.</p><ol><li><strong>Presumption of capacity</strong> &mdash; assume a person can make the decision unless it is established that they cannot.</li><li><strong>Support to make decisions</strong> &mdash; a person must be given all practicable help before anyone concludes they cannot decide.</li><li><strong>Unwise decisions</strong> &mdash; a person is not to be treated as unable to decide merely because they make a choice others consider unwise or eccentric.</li><li><strong>Best interests</strong> &mdash; any act or decision made for someone who lacks capacity must be in their best interests.</li><li><strong>Least restrictive option</strong> &mdash; before acting, consider whether the same aim can be achieved in a way that interferes less with the person&rsquo;s rights and freedom of action.</li></ol>"},"library":"H5P.AdvancedText 1.1","subContentId":"a8369b23-78df-4e59-ae0d-a6bab54dd7ed","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Each card names one of the five statutory principles. Flip it to see what it means for your everyday practice.</p>","dialogs":[{"text":"<p>Principle 1: Presumption of capacity</p>","answer":"<p>Start from the assumption that the person can make the decision. The burden is on proving they cannot &mdash; never the other way around.</p>","tips":{}},{"text":"<p>Principle 2: Support to decide</p>","answer":"<p>Try everything reasonable to help first: simple language, pictures, an interpreter, choosing the best time of day, or involving someone the person trusts.</p>","tips":{}},{"text":"<p>Principle 3: The right to unwise decisions</p>","answer":"<p>Choosing to eat unhealthily, spend freely or refuse advice is not evidence of lacking capacity. Capable adults are allowed to make choices you disagree with.</p>","tips":{}},{"text":"<p>Principle 4: Best interests</p>","answer":"<p>If a person genuinely cannot decide, whatever is done for them must be in their best interests &mdash; not what is easiest or cheapest for the service.</p>","tips":{}},{"text":"<p>Principle 5: Least restrictive option</p>","answer":"<p>Always look for the option that limits the person&rsquo;s freedoms and rights the least, while still keeping them safe and meeting their needs.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"777dd5fb-557e-4f01-9bbb-b60f2528f9c8","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Drag each word into the gap that completes the statement of the five statutory principles.</p>","textField":"A person must be *assumed* to have capacity unless it is shown otherwise. They must be given all practicable *support* to decide before being judged unable. Making an *unwise* choice does not by itself prove a lack of capacity. Any decision made for someone who cannot decide must be in their *best* interests, using the *least* restrictive option available.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"bd9fe1b2-141a-4d7e-bff3-28965329e623","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The five statutory principles</h2><p>Everything in the MCA flows from <strong>five core principles</strong>. They are not optional guidance &mdash; they are set out in section 1 of the Act and must underpin every decision made under it. Learn them, because they are the backbone of good, lawful practice.</p><ol><li><strong>Presumption of capacity</strong> &mdash; assume a person can make the decision unless it is established that they cannot.</li><li><strong>Support to make decisions</strong> &mdash; a person must be given all practicable help before anyone concludes they cannot decide.</li><li><strong>Unwise decisions</strong> &mdash; a person is not to be treated as unable to decide merely because they make a choice others consider unwise or eccentric.</li><li><strong>Best interests</strong> &mdash; any act or decision made for someone who lacks capacity must be in their best interests.</li><li><strong>Least restrictive option</strong> &mdash; before acting, consider whether the same aim can be achieved in a way that interferes less with the person&rsquo;s rights and freedom of action.</li></ol>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a8369b23-78df-4e59-ae0d-a6bab54dd7ed",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The five principles",
+          "decorative": false,
+          "file": {
+            "path": "images/the-five-principles.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e70255b9-b32d-4ec5-9606-757b3251a2c1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Each card names one of the five statutory principles. Flip it to see what it means for your everyday practice.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Principle 1: Presumption of capacity</p>",
+              "answer": "<p>Start from the assumption that the person can make the decision. The burden is on proving they cannot &mdash; never the other way around.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Principle 2: Support to decide</p>",
+              "answer": "<p>Try everything reasonable to help first: simple language, pictures, an interpreter, choosing the best time of day, or involving someone the person trusts.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Principle 3: The right to unwise decisions</p>",
+              "answer": "<p>Choosing to eat unhealthily, spend freely or refuse advice is not evidence of lacking capacity. Capable adults are allowed to make choices you disagree with.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Principle 4: Best interests</p>",
+              "answer": "<p>If a person genuinely cannot decide, whatever is done for them must be in their best interests &mdash; not what is easiest or cheapest for the service.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Principle 5: Least restrictive option</p>",
+              "answer": "<p>Always look for the option that limits the person&rsquo;s freedoms and rights the least, while still keeping them safe and meeting their needs.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "777dd5fb-557e-4f01-9bbb-b60f2528f9c8",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Drag each word into the gap that completes the statement of the five statutory principles.</p>",
+          "textField": "A person must be *assumed* to have capacity unless it is shown otherwise. They must be given all practicable *support* to decide before being judged unable. Making an *unwise* choice does not by itself prove a lack of capacity. Any decision made for someone who cannot decide must be in their *best* interests, using the *least* restrictive option available.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "bd9fe1b2-141a-4d7e-bff3-28965329e623",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

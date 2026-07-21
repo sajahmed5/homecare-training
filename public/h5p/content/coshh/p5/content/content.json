@@ -1,1 +1,95 @@
-{"content":[{"content":{"params":{"text":"<h2>How substances get into the body</h2><p>To cause harm, a hazardous substance usually has to get into or onto the body. Understanding these <strong>routes of entry</strong> helps you see why a particular control &ndash; such as gloves, a mask or good ventilation &ndash; is used. Blocking the route of entry is how we prevent exposure.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"65131705-7196-4632-bb39-9993c4ae2681","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>The main routes by which hazardous substances enter the body.</p>","dialogs":[{"text":"<p>Inhalation</p>","answer":"<p>Breathing in dusts, fumes, vapours, mists or aerosols. Controlled by ventilation, avoiding dry sweeping and, where needed, respiratory protection.</p>","tips":{}},{"text":"<p>Absorption (skin and eyes)</p>","answer":"<p>Substances soaking through the skin or splashing into the eyes. Controlled by gloves, aprons, eye protection and good hand care.</p>","tips":{}},{"text":"<p>Ingestion</p>","answer":"<p>Swallowing a substance, often by hand-to-mouth contact, eating or smoking without washing hands. Controlled by hand washing and not eating in work areas.</p>","tips":{}},{"text":"<p>Injection</p>","answer":"<p>A substance entering through broken skin, for example a needlestick from a sharp. Controlled by safe sharps handling and prompt disposal in a sharps bin.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"9737d29a-f935-4bdc-9b5d-b5280ab64365","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How substances get into the body</h2><p>To cause harm, a hazardous substance usually has to get into or onto the body. Understanding these <strong>routes of entry</strong> helps you see why a particular control &ndash; such as gloves, a mask or good ventilation &ndash; is used. Blocking the route of entry is how we prevent exposure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "65131705-7196-4632-bb39-9993c4ae2681",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Routes of entry",
+          "decorative": false,
+          "file": {
+            "path": "images/routes-of-entry.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "206a82f7-e352-41b5-b46b-4dc869fdf4c8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>The main routes by which hazardous substances enter the body.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Inhalation</p>",
+              "answer": "<p>Breathing in dusts, fumes, vapours, mists or aerosols. Controlled by ventilation, avoiding dry sweeping and, where needed, respiratory protection.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Absorption (skin and eyes)</p>",
+              "answer": "<p>Substances soaking through the skin or splashing into the eyes. Controlled by gloves, aprons, eye protection and good hand care.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Ingestion</p>",
+              "answer": "<p>Swallowing a substance, often by hand-to-mouth contact, eating or smoking without washing hands. Controlled by hand washing and not eating in work areas.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Injection</p>",
+              "answer": "<p>A substance entering through broken skin, for example a needlestick from a sharp. Controlled by safe sharps handling and prompt disposal in a sharps bin.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "9737d29a-f935-4bdc-9b5d-b5280ab64365",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -3,60 +3,95 @@
   "title": "Whistleblowing",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "whistleblowing/p1",
-      "type": "h5p",
       "label": "What is whistleblowing?",
-      "section": "What whistleblowing is",
-      "questions": 0
+      "questions": 0,
+      "section": "Understanding whistleblowing"
     },
     {
+      "type": "h5p",
       "path": "whistleblowing/p2",
-      "type": "h5p",
       "label": "Concern, complaint or grievance?",
-      "section": "What whistleblowing is",
-      "questions": 0
+      "questions": 0,
+      "section": "Understanding whistleblowing"
     },
     {
+      "type": "h5p",
+      "path": "whistleblowing/p9",
+      "label": "Why culture matters",
+      "questions": 1,
+      "section": "Understanding whistleblowing"
+    },
+    {
+      "type": "h5p",
+      "path": "whistleblowing/p10",
+      "label": "What to raise",
+      "questions": 1,
+      "section": "Understanding whistleblowing"
+    },
+    {
+      "type": "h5p",
       "path": "whistleblowing/p3",
-      "type": "h5p",
       "label": "Protected disclosures",
-      "section": "Making a protected disclosure",
-      "questions": 1
+      "questions": 1,
+      "section": "Making a protected disclosure"
     },
     {
+      "type": "h5p",
+      "path": "whistleblowing/p11",
+      "label": "PIDA in depth",
+      "questions": 1,
+      "section": "Making a protected disclosure"
+    },
+    {
+      "type": "h5p",
       "path": "whistleblowing/p4",
-      "type": "h5p",
       "label": "How to raise a concern",
-      "section": "Making a protected disclosure",
-      "questions": 1
+      "questions": 1,
+      "section": "Making a protected disclosure"
     },
     {
+      "type": "h5p",
       "path": "whistleblowing/p5",
-      "type": "h5p",
       "label": "Prescribed persons & CQC",
-      "section": "Going further and your protection",
-      "questions": 1
+      "questions": 1,
+      "section": "Going further and your protection"
     },
     {
+      "type": "h5p",
       "path": "whistleblowing/p6",
-      "type": "h5p",
       "label": "Protection from detriment",
-      "section": "Going further and your protection",
-      "questions": 1
+      "questions": 1,
+      "section": "Going further and your protection"
     },
     {
+      "type": "h5p",
+      "path": "whistleblowing/p12",
+      "label": "Barriers and support",
+      "questions": 1,
+      "section": "Confidence to speak up"
+    },
+    {
+      "type": "h5p",
       "path": "whistleblowing/p7",
-      "type": "h5p",
       "label": "Confidentiality & anonymity",
-      "section": "Confidence to speak up",
-      "questions": 0
+      "questions": 0,
+      "section": "Confidence to speak up"
     },
     {
-      "path": "whistleblowing/p8",
       "type": "h5p",
+      "path": "whistleblowing/p13",
+      "label": "After you speak up",
+      "questions": 1,
+      "section": "Confidence to speak up"
+    },
+    {
+      "type": "h5p",
+      "path": "whistleblowing/p8",
       "label": "Safeguarding, candour & courage",
-      "section": "Confidence to speak up",
-      "questions": 1
+      "questions": 1,
+      "section": "Confidence to speak up"
     }
   ]
 }

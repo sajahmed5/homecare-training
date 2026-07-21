@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Good records protect everyone</h2><p>The Mental Capacity Act runs on evidence. If a decision about someone&rsquo;s care is ever questioned, your records show that you followed the principles. Vague notes leave the person unprotected and leave you exposed.</p><ul><li><strong>Record the support you gave:</strong> the steps you took to help the person make the decision themselves.</li><li><strong>Note the specific decision:</strong> what was being decided, and when.</li><li><strong>Show the reasoning:</strong> for a best-interests decision, who was consulted and what the person&rsquo;s own wishes and feelings were.</li><li><strong>Write promptly and factually:</strong> stick to what you actually saw and heard.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8500205c-5132-4d30-b31b-42e85fee9851",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Everyday practice",
+          "decorative": false,
+          "file": {
+            "path": "images/everyday-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "645a05bd-200a-4fc6-bca8-e0ea7b764cbc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting it together: Grace&rsquo;s tablets</h2><p>Grace has early dementia. This morning she refuses her tablets, insisting she has &lsquo;already had them&rsquo;. You know she has not. Rather than pressing her or slipping the tablets into her tea, you presume capacity and try to help her decide: you explain calmly what the tablets are for and offer them again after breakfast.</p><p>Later, when she is more settled, Grace takes them willingly. You record what happened, the support you gave, and that her capacity for this decision appeared to fluctuate through the morning.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "974b8303-b16d-4dea-a2fa-9108f7259a53",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, why was it right to offer Grace her tablets again after breakfast rather than hiding them in her tea?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It respected her right to decide, allowed for her fluctuating capacity, and avoided covertly medicating her without lawful authority.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Covert medication needs a capacity assessment and a formal best-interests process; presuming capacity and trying again is the right first step.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hiding tablets in food is quicker, so it was simply a matter of saving time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Speed is not the issue; covert administration without proper authority would be unlawful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because staff can never give medication to a person with dementia under any circumstances.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. People with dementia can and do take medication; the point is to seek consent and support the decision.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because once Grace refused, the tablets could not be offered again that day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A refusal in one moment does not close the door; offering again later respects fluctuating capacity.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9b5c85d7-00b6-4576-a379-425ec7cccec3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

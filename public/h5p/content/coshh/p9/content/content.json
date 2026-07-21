@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Acute and chronic effects</h2><p>Hazardous substances can affect health in two broad ways. An acute effect appears quickly after exposure, sometimes within minutes &mdash; think of stinging eyes, a headache, dizziness, a chemical burn or sudden breathlessness after a splash or breathing something in. A chronic effect builds up slowly over months or years of repeated contact, and may not be noticed until real damage has been done. Occupational asthma and some cancers are chronic effects. The very same substance can cause both, so neither should ever be dismissed as trivial.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1aee443c-a19b-4c9a-a71d-b7a2008169ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Health effects",
+          "decorative": false,
+          "file": {
+            "path": "images/health-effects.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9b126261-fa9e-455e-bed6-2a2b01030ffd",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Skin, lungs and who is most at risk</h2><p>Two conditions are especially common in care work.</p><ul><li><strong>Dermatitis:</strong> inflamed, cracked or blistered skin, usually on the hands, caused by frequent contact with water, cleaning products and long spells in gloves &mdash; often called &lsquo;wet work&rsquo;.</li><li><strong>Occupational asthma:</strong> the airways become sensitised to a substance, and once sensitised even tiny amounts can trigger an attack.</li></ul><p>Some people are more vulnerable than others, including new and young workers, anyone who is pregnant or breastfeeding, and those with existing skin or breathing conditions. Report early signs such as red, itchy skin or a persistent cough, because acting early prevents lasting harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cc6f2530-3938-49f6-a0a4-2c9d597182bf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A colleague develops a wheeze and tightness in the chest that eases on days off but returns at work, after months of using one particular product. How is this effect best described?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A chronic effect &mdash; it has built up over months and points to possible occupational asthma that should be reported.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. It has developed slowly with repeated exposure, and symptoms that ease away from work strongly suggest a work-related, chronic effect.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An acute effect, because the symptoms are uncomfortable right now.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Acute effects appear quickly after a single exposure; this has developed over months, which makes it chronic.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing to do with work, since everyone gets a cough from time to time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Symptoms that ease away from work and return on shift strongly suggest a work-related cause that needs reporting.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A minor skin problem that will clear up on its own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. These are breathing symptoms, not skin, and they should never be left to sort themselves out.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "debe25f0-f408-4503-bb90-80b6990ca9bb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

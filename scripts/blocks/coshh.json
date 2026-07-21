@@ -3,60 +3,95 @@
   "title": "COSHH",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "coshh/p1",
-      "type": "h5p",
       "label": "What is COSHH?",
-      "section": "Hazardous substances at work",
-      "questions": 1
+      "questions": 1,
+      "section": "Hazardous substances and health"
     },
     {
+      "type": "h5p",
       "path": "coshh/p2",
-      "type": "h5p",
       "label": "Substances in care",
-      "section": "Hazardous substances at work",
-      "questions": 1
+      "questions": 1,
+      "section": "Hazardous substances and health"
     },
     {
+      "type": "h5p",
+      "path": "coshh/p9",
+      "label": "Health effects",
+      "questions": 1,
+      "section": "Hazardous substances and health"
+    },
+    {
+      "type": "h5p",
       "path": "coshh/p3",
-      "type": "h5p",
       "label": "Pictograms & labels",
-      "section": "Labels and assessments",
-      "questions": 0
+      "questions": 0,
+      "section": "Identifying and assessing hazards"
     },
     {
+      "type": "h5p",
       "path": "coshh/p4",
-      "type": "h5p",
       "label": "SDS & assessment",
-      "section": "Labels and assessments",
-      "questions": 1
+      "questions": 1,
+      "section": "Identifying and assessing hazards"
     },
     {
+      "type": "h5p",
+      "path": "coshh/p10",
+      "label": "Hazards in care",
+      "questions": 1,
+      "section": "Identifying and assessing hazards"
+    },
+    {
+      "type": "h5p",
       "path": "coshh/p5",
-      "type": "h5p",
       "label": "Routes of entry",
-      "section": "Routes of harm and control",
-      "questions": 0
+      "questions": 0,
+      "section": "Routes of harm and controlling risk"
     },
     {
+      "type": "h5p",
       "path": "coshh/p6",
-      "type": "h5p",
       "label": "Hierarchy of control",
-      "section": "Routes of harm and control",
-      "questions": 1
+      "questions": 1,
+      "section": "Routes of harm and controlling risk"
     },
     {
+      "type": "h5p",
+      "path": "coshh/p11",
+      "label": "PPE and RPE",
+      "questions": 1,
+      "section": "Routes of harm and controlling risk"
+    },
+    {
+      "type": "h5p",
+      "path": "coshh/p12",
+      "label": "Safe use and storage",
+      "questions": 1,
+      "section": "Safe use, storage and spills"
+    },
+    {
+      "type": "h5p",
       "path": "coshh/p7",
-      "type": "h5p",
       "label": "Storage & spills",
-      "section": "Storage, spills and reporting",
-      "questions": 1
+      "questions": 1,
+      "section": "Safe use, storage and spills"
     },
     {
-      "path": "coshh/p8",
       "type": "h5p",
+      "path": "coshh/p13",
+      "label": "Spills and exposure",
+      "questions": 1,
+      "section": "Safe use, storage and spills"
+    },
+    {
+      "type": "h5p",
+      "path": "coshh/p8",
       "label": "Reporting & review",
-      "section": "Storage, spills and reporting",
-      "questions": 1
+      "questions": 1,
+      "section": "Reporting and review"
     }
   ]
 }

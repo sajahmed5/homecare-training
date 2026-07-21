@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Cleaning chemicals and dangerous mixes</h2><p>Care settings hold many everyday products that become dangerous if misused. The most important rule is never to mix cleaning chemicals. Bleach mixed with ammonia &mdash; found in some glass and floor cleaners &mdash; gives off a toxic gas, and bleach mixed with acidic products such as limescale removers or toilet descalers releases chlorine gas. Both can seriously harm your lungs. Use one product at a time, follow the dilution instructions exactly, and make sure the area is well ventilated. Stronger is not safer, and more product does not mean a cleaner surface.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "110a9a3f-9f07-4825-8881-1ff31e708fe7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hazards in care",
+          "decorative": false,
+          "file": {
+            "path": "images/hazards-in-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e8f84aa6-dea3-4be6-886f-f6ba2085dc12",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Body fluids, clinical waste, medicines and legionella</h2><p>Other hazards in care are biological or medicinal. Blood, urine, faeces and vomit can carry infection, so treat all body fluids as potentially hazardous and follow your infection control and clinical waste procedures, using the correct colour-coded bags and bins. Some medicines are themselves hazardous substances &mdash; cytotoxic drugs, for example &mdash; and must be handled and disposed of exactly as instructed. Legionella bacteria are a quieter risk: they multiply in warm, stagnant water and can cause serious pneumonia if someone breathes in fine water droplets, for instance from a rarely used shower. Running taps and showers regularly and reporting water faults all help keep this risk under control.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ba99959f-9a90-4b72-a354-f34740f1fcdd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on hazards in care.</p></p>",
+          "textField": "You must never mix bleach with *ammonia*, because together they give off a toxic gas. Bleach mixed with an *acidic* descaler releases chlorine gas instead. Treat all body *fluids* as potentially infectious and use the correct colour-coded *waste* bags. Legionella bacteria grow in warm, *stagnant* water and are breathed in as fine droplets.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "b15793df-5409-45ad-ada9-0da593f9da9f",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

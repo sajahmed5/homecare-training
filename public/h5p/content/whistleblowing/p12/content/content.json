@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What holds people back</h2><p>Most care workers who stay silent are not uncaring &mdash; they are held back by very real feelings. Recognising these barriers is the first step to overcoming them.</p><ul><li><strong>Fear:</strong> worry about losing your job, being bullied or being blamed.</li><li><strong>Loyalty:</strong> not wanting to get a colleague or your employer into trouble.</li><li><strong>Doubt:</strong> thinking you might be wrong, or that no one will believe you.</li><li><strong>Habit:</strong> assuming &ldquo;that is just how things are done here&rdquo;.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "47ea9eed-4b5c-494c-b231-140becbebb0c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Barriers and support",
+          "decorative": false,
+          "file": {
+            "path": "images/barriers-and-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fcd792d9-0369-4556-a317-b514eba9ce6f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Where to find support</h2><p>You do not have to carry a concern alone. Remember that the law protects you from being treated badly for speaking up in the public interest, and there are people who can help you decide what to do.</p><ul><li><strong>Your manager:</strong> usually the quickest way to get a concern acted on.</li><li><strong>The CQC:</strong> a prescribed person you can contact if raising it internally has not worked.</li><li><strong>Protect:</strong> a whistleblowing charity offering free, confidential advice.</li><li><strong>Your union:</strong> can offer advice and representation if you are a member.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c87f0e82-7446-44ab-9e1d-cf4b8246ee77",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If you feel unable to raise a concern with your employer, an independent charity such as Protect can give you free, confidential advice about your options.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Protect is a whistleblowing charity that offers free, confidential advice, so you do have somewhere independent to turn.",
+            "correctAnswerMessage": "Correct. Protect is a whistleblowing charity that offers free, confidential advice to help you decide how to raise a concern safely."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "8a9ba9f3-d61e-4cde-b8de-80c6d9bdc23a",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
