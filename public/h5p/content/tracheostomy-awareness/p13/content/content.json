@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stay with the person and get help</h2><p>In any tracheostomy emergency, two things go together: <strong>staying with the person</strong> and <strong>getting help</strong>. Do not leave someone who is struggling to breathe. Shout or use a call bell to summon colleagues, and get someone to call 999 while you remain with the person, keeping them as calm and reassured as you can and following the emergency plan and any instructions from the call handler.</p><ul><li><strong>Stay:</strong> never leave a person who is struggling to breathe alone.</li><li><strong>Summon help:</strong> call out, use the call bell, and get 999 dialled.</li><li><strong>Reassure:</strong> keep the person as calm as you can while help comes.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b0677ee4-f0cf-47a5-ae11-182b7cbcc883",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting help and summary",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-help-and-summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9515848f-6639-460c-b568-73750a24dbaa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have seen what a tracheostomy is and how it changes breathing and speech, the difference between a tracheostomy and a laryngectomy, and the everyday care &mdash; humidification, a clean and secure site, a clear airway, keeping water and fluff away, good communication and emotional support &mdash; that keeps people safe and comfortable. You have also learned to recognise when an airway needs clearing and how to respond to an emergency by calling 999 and staying with the person.</p><p>Remember the boundary stressed throughout. This training is <strong>awareness only</strong>. It does <strong>not</strong> authorise anyone to suction, or to change or reinsert a tracheostomy tube, or to change an inner tube, without specific training, assessed competence and delegation in the care plan. Your priority is to recognise an emergency, get urgent help by calling 999, and protect the person's dignity every step of the way.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2a48ae1d-efc0-4505-94c7-073fd4cc2526",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

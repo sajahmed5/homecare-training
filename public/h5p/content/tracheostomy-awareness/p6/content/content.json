@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Caring for the stoma and site</h2><p>The skin around the stoma needs to be kept <strong>clean and dry</strong>, because secretions and moisture can gather there and make the skin sore or broken. Cleaning the site and changing the dressing around a tracheostomy is usually a trained, delegated task, but every care worker can keep watch. Look at the skin and report any redness, soreness, swelling, bleeding, a bad smell or any discharge that seems new or increased.</p><ul><li><strong>Keep it clean and dry:</strong> secretions gathering at the site harm the skin.</li><li><strong>Keep watch:</strong> report redness, soreness, swelling, bleeding or odour.</li><li><strong>Follow the plan:</strong> site cleaning is a trained, delegated task.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6bffb552-0627-4205-9de8-21c3b66d6942",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stoma and ties",
+          "decorative": false,
+          "file": {
+            "path": "images/stoma-and-ties.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "510ce039-8d2c-4de5-bf00-a2365f4d64cb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Secure ties and a clear airway</h2><p>The tube is usually held in place by <strong>ties</strong> or a holder around the neck. These need to be secure enough that the tube cannot fall out, but not so tight that they dig in or hurt. A common guide is that they are snug but you can still slide a finger comfortably underneath. If ties are loose, very tight, soiled or damaged, report it, because a tube that is not held firmly can move or come out.</p><p>Keeping the airway <strong>clear</strong> is central to everything. Make sure nothing covers or presses on the tube opening &mdash; not bedding, clothing, a scarf, a cushion or the person's own chin when they slump forward. Position the person so they can breathe easily and the opening is not obstructed, and always keep a call bell or means of getting attention within their reach.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e5bc086a-1980-4481-8753-3a7b6fd43d74",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Tracheostomy ties should be so tight that no finger can fit underneath them.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Ties must be secure, but ties that are too tight hurt and dig in; you should be able to slide a finger underneath.",
+            "correctAnswerMessage": "Correct. Ties should be secure but not too tight &mdash; usually snug enough to slide a finger underneath comfortably."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "01ebaee5-c288-476e-aeb1-e98594e44d54",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

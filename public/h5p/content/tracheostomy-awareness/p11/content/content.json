@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When breathing is in danger</h2><p>A tracheostomy emergency is usually about the airway being <strong>blocked</strong> or the tube being <strong>displaced</strong> (out of position or fallen out). Either can stop the person breathing properly and is life-threatening. The most important thing you can do is recognise it fast, because minutes matter when someone cannot breathe.</p><ul><li><strong>Blocked tube:</strong> secretions or a plug stopping air moving through it.</li><li><strong>Displaced tube:</strong> the tube out of position, partly out, or fallen out.</li><li><strong>Either way:</strong> breathing is threatened and you must act at once.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fb76eb68-1bbb-4cdf-9eb5-2257377f5ac9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising emergencies",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-emergencies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "33b0d338-e1ed-458d-aeb7-3f3e16df3e9a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of a tracheostomy emergency</h2><p>Warning signs include obvious difficulty breathing or breathing that is fast, laboured or noisy; the person looking frightened, panicking or unable to make a sound; whistling or no air felt at the tube; or the person clutching at their neck. A very serious sign is a <strong>colour change</strong> &mdash; the lips, face or skin turning pale, grey or blue &mdash; which means the person is not getting enough oxygen. They may become drowsy, confused or unresponsive.</p><p>You do not need to work out the exact cause. If a person with a tracheostomy is struggling to breathe, changing colour, or collapsing, treat it as an <strong>emergency</strong>. Your response is the same whether the tube is blocked or displaced: get help immediately by calling <strong>999</strong> and follow the person's emergency plan while you wait.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f4a464b1-702b-407f-ab8e-6e6ee7a54a17",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a serious warning sign of a tracheostomy emergency?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The person's lips, face or skin turning pale, grey or blue while they struggle to breathe.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A colour change means the person is not getting enough oxygen &mdash; call 999 immediately.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person chatting comfortably and breathing quietly and easily.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that describes someone who is well, not someone in an emergency.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person drinking a cup of tea with their carer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is normal daily activity, not an emergency sign.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The humidification equipment being correctly fitted to the tube.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is good care, not a warning sign.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4bc37e17-5430-4297-b875-f31a0e651f05",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Tracheostomy is not the same as laryngectomy</h2><p>At an awareness level, it is important to know that a tracheostomy and a laryngectomy are not the same thing, because it changes how an emergency is handled. With a <strong>tracheostomy</strong>, the voice box is still in place and there may still be a connection between the mouth, nose and the windpipe. With a <strong>laryngectomy</strong>, the voice box has been surgically removed and the windpipe is joined permanently to an opening in the neck.</p><ul><li><strong>Tracheostomy:</strong> the voice box remains, and an upper airway may still exist.</li><li><strong>Laryngectomy:</strong> the voice box is removed and the neck is the only airway.</li><li><strong>Why it matters:</strong> it changes how oxygen and help can reach the lungs.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "54805dd0-21e7-4b61-adb1-983fc43f0c01",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Trach or laryngectomy",
+          "decorative": false,
+          "file": {
+            "path": "images/trach-or-laryngectomy.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cdec5002-d053-41e6-a489-963530c60c6c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and your limits</h2><p>The key point for a person with a <strong>laryngectomy</strong> is that they can <strong>only</strong> breathe through the opening in their neck &mdash; there is no longer any connection through the nose or mouth to the lungs. This is exactly the kind of critical information that the person's bedhead emergency sign will make clear, so that anyone responding knows where their airway is. You do not need to memorise the clinical detail; you need to know it matters and where to find it.</p><p>Your role is to support the person's comfort, dignity and safety, to keep watch for problems, and to raise the alarm quickly. Your <strong>limits</strong> are equally clear: you do not suction, you do not change or reinsert the tube, and you do not change the inner tube, unless you are specifically trained, assessed as competent, and it is delegated to you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7a43540c-5f24-492e-8986-998d71f5ca90",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How does a laryngectomy differ from a tracheostomy at an awareness level?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>After a laryngectomy the neck opening is the only airway, with no connection through the nose or mouth to the lungs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. This is why the bedhead sign is so important &mdash; it tells responders where the person's airway is.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A laryngectomy is a temporary tube that is always removed within a week.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a laryngectomy permanently removes the voice box; the neck opening is the person's airway.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no difference at all; the two words mean exactly the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; they are different, and the difference changes how an emergency is handled.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A person with a laryngectomy can always breathe normally through their nose.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; after a laryngectomy the nose and mouth are no longer connected to the lungs.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "bb5d96e8-f4dc-4115-8469-b798bfdcce43",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

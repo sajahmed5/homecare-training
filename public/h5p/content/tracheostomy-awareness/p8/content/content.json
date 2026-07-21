@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What suctioning is</h2><p>A person who breathes through a tracheostomy cannot always cough secretions all the way out as they normally would. <strong>Suctioning</strong> is the use of a thin catheter and a machine to gently draw secretions out of the tube and airway to keep it clear. It can be uncomfortable and, done wrongly, can cause harm such as damage to the airway lining, bleeding, infection or a drop in the person's oxygen.</p><ul><li><strong>What it does:</strong> removes secretions the person cannot clear themselves.</li><li><strong>Why it is done:</strong> to keep the airway open and breathing comfortable.</li><li><strong>Handled carefully:</strong> done wrongly it can harm the airway or oxygen levels.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "167b70f0-6526-42ca-b4f6-8c07ac7d8d9b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is suctioning?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-suctioning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3a821db8-ea5a-4ae4-b7d2-2db197e1c83c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Only trained staff suction</h2><p>Because of these risks, suctioning is a <strong>specialised clinical skill</strong> carried out using a strict clean technique. It is only done by staff who have had specific training, been assessed as competent, and where it is delegated to them in the care plan. As a care worker without that training, you must <strong>never</strong> attempt to suction a tracheostomy, even if the person seems to need it or asks you to.</p><p>What you can and should do is <strong>recognise</strong> when someone may need their airway cleared and get the right person to help without delay. In an emergency, where the person cannot breathe, you still do not attempt suctioning &mdash; you call <strong>999</strong>. Knowing your limit here protects the person from harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fc0bada1-e0d2-427a-b323-6733ab858e8d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are supporting someone with a tracheostomy who you think may need suctioning. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Recognise that they may need their airway cleared and get a trained colleague to help without delay; do not suction yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Suctioning is a specialised, delegated task &mdash; your job is to notice and get the right help quickly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carry out the suctioning yourself as quickly as you can.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you must never suction unless specifically trained, assessed competent and delegated to do so.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several hours to see whether the problem clears on its own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a person struggling to clear their airway needs prompt help, not a long wait.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person to hold their breath until a nurse arrives.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that could be dangerous; get trained help and, in an emergency, call 999.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "fcbaf9b8-2e8e-46ca-97a0-700ed7836fd7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

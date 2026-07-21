@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The bedhead emergency algorithm</h2><p>Many people with a tracheostomy or laryngectomy have an <strong>emergency algorithm</strong> and a <strong>bedhead sign</strong> displayed where they are cared for, developed through the National Tracheostomy Safety Project. The bedhead sign shows critical information at a glance &mdash; what kind of airway the person has and key details a responder needs &mdash; and the algorithm sets out the steps to follow in an emergency. A green sign is used for a tracheostomy and a red sign for a laryngectomy.</p><ul><li><strong>Bedhead sign:</strong> shows the person's airway type and key details at a glance.</li><li><strong>Algorithm:</strong> the steps to follow when there is an airway emergency.</li><li><strong>Colour:</strong> green for a tracheostomy, red for a laryngectomy.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6ce3d192-bf9c-480b-9bd5-370ebafaad4f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The bedhead sign and 999",
+          "decorative": false,
+          "file": {
+            "path": "images/the-bedhead-sign-and-999.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e5b7750e-8098-4d0e-a66d-015b357e5009",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Call 999 without delay</h2><p>In an emergency your single most important action is to <strong>get urgent help</strong>. Call <strong>999</strong> straight away, or call out for immediate help and have someone else dial while you stay with the person. Tell the call handler clearly that the person has a tracheostomy, or a laryngectomy, so the right response comes. The bedhead sign helps you and the ambulance crew know which type of airway they are dealing with.</p><p>Do not spend time trying to fix the tube yourself, or attempting suctioning or a tube change you are not trained for, when someone cannot breathe. Trained responders and the emergency services follow the algorithm to manage the airway. Your job is to raise the alarm fast, share the vital information, and follow any instructions the call handler gives you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1c7436ef-f717-475b-a170-ab2ab40dee88",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is your single most important action if a person with a tracheostomy cannot breathe?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Get urgent help immediately &mdash; call 999 (or have someone call) and tell them the person has a tracheostomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Raising the alarm fast and sharing that vital information is your priority.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to change the tracheostomy tube yourself before help arrives.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you must not change the tube unless trained; call 999 without delay.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave the person alone while you look for the care plan in the office.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; never leave the person; call out for help and stay with them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether their breathing improves before doing anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; when someone cannot breathe, minutes matter; call 999 straight away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "70c8ea8e-6d59-4fec-afba-a6ee95fe00a7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

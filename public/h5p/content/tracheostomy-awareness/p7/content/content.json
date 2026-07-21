@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keep water and fine particles away</h2><p>Because the tube leads straight into the windpipe, anything that goes into it goes towards the lungs. This means you must protect the opening from <strong>water, sprays and fine particles</strong>. Take great care at bath and shower time so that water cannot splash or pour into the tube, and never let the person go underwater. Keep the opening away from aerosols, talcum powder, and fluff or fibres from tissues, blankets, cotton wool or fluffy clothing.</p><ul><li><strong>Water:</strong> shield the tube during washing; water in it can reach the lungs.</li><li><strong>Sprays and powders:</strong> keep aerosols and talc away from the opening.</li><li><strong>Fluff and fibres:</strong> avoid loose fibres near the tube being breathed in.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f5bacd44-f511-4857-a7d1-ddd6684286ac",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Water and comfort",
+          "decorative": false,
+          "file": {
+            "path": "images/water-and-comfort.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "530b17f0-a094-4cd4-bad0-45281cd410d3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication and emotional support</h2><p>Because speech is affected, plan how you will communicate. Agree simple signals, keep a pen and paper, a picture or alphabet board, or a tablet within reach, watch the person's face and gestures, and never rush them or pretend to understand when you do not. Some people use a speaking valve or other aids set up by clinical staff. Always make sure the person can call for help easily at all times.</p><p>Living with a tracheostomy can be frightening. People may feel anxious about breathing, upset at losing their normal voice, or self-conscious about how they look and sound. Offer <strong>emotional support</strong>: be patient and calm, give them time, keep their dignity by being discreet, and reassure them that help is close by. Kind, unhurried support matters just as much as the practical care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d40f03e7-9752-4efa-ba13-42d0568946b4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Anything entering the tube travels towards the *lungs*, so keep *water*, sprays and loose *fluff* away from the opening. Because speech is affected, keep a pen, board or *tablet* within reach so the person can always communicate.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "b1a20bda-b367-4801-b0e7-84dff8223ef5",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

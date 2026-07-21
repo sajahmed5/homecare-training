@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs someone needs their airway cleared</h2><p>You do not need to be trained in suctioning to <strong>spot</strong> when someone's airway may be clogging up with secretions. The person may sound bubbly, rattly or noisy when they breathe, or breathing may become harder work. You might see them become restless or anxious, cough repeatedly, or have visible secretions at or bubbling from the tube. They may signal to you that they feel they cannot clear it.</p><ul><li><strong>Listen:</strong> noisy, rattly, bubbly or whistling breathing.</li><li><strong>Look:</strong> harder breathing, visible secretions, restlessness or distress.</li><li><strong>Ask:</strong> the person may signal that they cannot clear the airway.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0db6d385-fd6b-41ff-a5b9-42e09fa0ddd2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Signs of a clogged airway",
+          "decorative": false,
+          "file": {
+            "path": "images/signs-of-a-clogged-airway.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ed84f9a0-de8e-4a32-9430-07ac55bb00e6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Report early, before it becomes an emergency</h2><p>These signs matter because secretions that are not cleared can build up and eventually <strong>block</strong> the tube, which is a life-threatening emergency. Reporting the early signs to a trained colleague promptly means the airway can be cleared safely before it reaches that point. Never ignore noisy or difficult breathing, and never assume someone else has already noticed.</p><p>While you wait for trained help, stay with the person, keep them calm, help them into a position where they can breathe as easily as possible if they are not already, and make sure nothing is covering the tube. If at any point the person is clearly struggling to breathe or cannot breathe, treat it as the emergency it is and call <strong>999</strong> straight away rather than waiting.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e85cebb4-c241-42ce-86fd-dfaeefc52a15",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Noisy, rattly breathing or visible secretions at the tube can be a sign that a person's airway needs clearing and should be reported.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Noisy or rattly breathing and visible secretions are important early signs that should be reported promptly.",
+            "correctAnswerMessage": "Correct. These are early signs to report promptly, before secretions build up and block the tube."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "c434f015-84e5-4c72-89b5-788b2df52915",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

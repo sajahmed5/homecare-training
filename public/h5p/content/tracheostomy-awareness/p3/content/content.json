@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Different kinds of tube</h2><p>Tracheostomy tubes come in different types, chosen by clinical staff to suit the person's needs. One important difference is whether a tube is cuffed or uncuffed. A <strong>cuffed</strong> tube has a small soft balloon around its lower end that can be inflated inside the windpipe, which helps seal the airway &mdash; often used when someone needs support with breathing. An <strong>uncuffed</strong> tube has no balloon and lets more air pass around it.</p><ul><li><strong>Cuffed tube:</strong> has an inflatable balloon that can seal the airway.</li><li><strong>Uncuffed tube:</strong> has no balloon, allowing air to pass around it.</li><li><strong>Chosen clinically:</strong> the type is decided by trained clinical staff.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4506f0fb-9a32-4ff0-9ee6-68f525723341",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Tube types",
+          "decorative": false,
+          "file": {
+            "path": "images/tube-types.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9226287e-d0d6-43cc-9630-906161ff23f7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Inner tubes</h2><p>Many tracheostomy tubes have two parts: an outer tube that stays in the neck, and a removable <strong>inner tube</strong> (sometimes called an inner cannula) that sits inside it. The inner tube can be taken out for cleaning while the outer tube keeps the airway open. This design is a safety feature, because if secretions build up and start to block the airway, the inner tube can be removed quickly to help clear it.</p><p>Cleaning or changing an inner tube is a <strong>trained task</strong>, not a routine one for every care worker. You must only remove, clean or replace an inner tube if you have had specific training, been assessed as competent, and it is delegated to you in the care plan. Knowing that an inner tube exists, and why it matters, still helps you understand what trained colleagues are doing and why a blockage can be so serious.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "997bc89c-3ae7-4dbf-bf62-24f5e1e319b7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A *cuffed* tube has a small balloon that can seal the airway, while an *uncuffed* tube has none. Many tubes also have a removable *inner* tube that can be taken out for *cleaning* while the outer tube keeps the airway open.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "6c600516-d055-4f49-b84a-abb4aa5af0da",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

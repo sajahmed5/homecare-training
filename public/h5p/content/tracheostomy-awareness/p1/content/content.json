@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Tracheostomy Awareness</h2><p>Some of the people you support breathe through a small tube in an opening in the front of their neck. This is a <strong>tracheostomy</strong>. It changes how a person breathes, how they speak and how they call for help, so understanding it helps you support them safely, calmly and with dignity. This course explains what a tracheostomy is, how to help someone stay safe day to day, and &mdash; most importantly &mdash; how to recognise an emergency and get urgent help.</p><ul><li><strong>Understand:</strong> what a tracheostomy is and why someone has one.</li><li><strong>Support:</strong> everyday care that keeps the airway safe and comfortable.</li><li><strong>Respond:</strong> how to recognise an emergency and call for help fast.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ff5d6f63-b1b0-40db-92cc-b548970eb56c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9df33229-be08-4b1c-a2e6-18ee20037660",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness only &mdash; this is highly specialised care</h2><p>Tracheostomy care is <strong>highly specialised</strong>. This course raises your <strong>awareness</strong> only. It does <strong>not</strong> authorise you to suction the airway, to change or reinsert a tracheostomy tube, or to change an inner tube. You must never carry out any of these tasks unless you have had <strong>specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you in the person's care plan</strong>.</p><p>Your priority as a care worker is simple and vital: notice when something is wrong, recognise an emergency, and get urgent help by calling <strong>999</strong>. Throughout, remember that the person may not be able to speak normally, and that keeping them safe always goes hand in hand with protecting their dignity.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4db14a54-66cd-4b36-abd5-9c97b64d02ee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

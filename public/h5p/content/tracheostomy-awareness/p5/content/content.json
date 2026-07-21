@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why the airway dries out</h2><p>Normally the nose warms and moistens every breath before it reaches the lungs. Because a tracheostomy lets air in below the nose, this natural moistening is lost, and the air reaching the windpipe is cold and dry. Over time this dries out the lining of the airway and makes the secretions (the mucus in the airway) thick and sticky, which is uncomfortable and can lead to a dangerous blockage.</p><ul><li><strong>The problem:</strong> air bypasses the nose, so it arrives cold and dry.</li><li><strong>The effect:</strong> secretions become thick, sticky and harder to clear.</li><li><strong>The risk:</strong> thick secretions can build up and block the tube.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "37701893-d1d5-485f-96e6-22d5f9f15047",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Humidification",
+          "decorative": false,
+          "file": {
+            "path": "images/humidification.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3163a159-221e-4a95-b988-0bd0fd571423",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How humidification helps</h2><p>To replace what the nose would normally do, the airway needs added moisture &mdash; this is called <strong>humidification</strong>. It can be provided in different ways set out in the care plan, such as a small heat and moisture exchanger fitted to the tube, saline as prescribed, or other equipment. Keeping the person well hydrated by encouraging drinks, unless their care plan says otherwise, also helps keep their secretions loose.</p><p>Your part is to follow the care plan and make sure any prescribed humidification is in place and not left off. If you notice the person's secretions becoming thick, crusty or difficult, or the equipment is missing or not working, report it to a nurse or senior colleague promptly. Good humidification is one of the simplest ways to keep the airway clear.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4e436194-93f6-4e5d-9e8a-f9f6dd76d973",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why does a person with a tracheostomy often need added humidification?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Air enters below the nose, so it is not warmed and moistened, and secretions can become thick and block the tube.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Humidification replaces the moisture the nose would normally add, keeping secretions loose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Humidification is only for making the room smell pleasant for visitors.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; it is about protecting the airway, not the room's smell.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Extra moisture is added so the person no longer needs to drink any fluids.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; good hydration still matters; humidification does not replace drinking.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is needed because the tracheostomy makes the person's skin too oily.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the reason is the dry air reaching the airway, not the skin.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "413152b9-3123-4879-838c-8ed4cba5dac9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

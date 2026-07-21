@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Inner tube care is a trained task</h2><p>You met the inner tube earlier &mdash; the removable inner part that can be taken out for cleaning while the outer tube keeps the airway open. Cleaning or changing it regularly helps stop secretions building up and blocking the airway, so it is an important part of tube care. But like suctioning, removing, cleaning and replacing an inner tube is a <strong>trained, delegated task</strong>, not something to attempt without that training.</p><ul><li><strong>Why it matters:</strong> a clean inner tube helps prevent a blockage.</li><li><strong>Who does it:</strong> only trained, assessed and delegated staff.</li><li><strong>Your part:</strong> notice problems and make sure trained care happens.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "70ebf968-8375-466d-8cae-acbf090c3f83",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Inner tubes and limits",
+          "decorative": false,
+          "file": {
+            "path": "images/inner-tubes-and-limits.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "00653d5f-b32e-4219-a3f9-97edce2c9d2b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Staying clear about your limits</h2><p>It is worth being completely clear about where your role ends, because in the moment it can be tempting to help. Without specific training, assessed competence and delegation in the care plan, you must <strong>not</strong> suction the airway, <strong>not</strong> remove or clean the inner tube, and <strong>not</strong> change or reinsert the tracheostomy tube. These are not rules to slow care down &mdash; they exist because getting them wrong can seriously harm or even kill the person.</p><p>What you contribute is just as valuable: attentive observation, comfort, dignity, good communication, keeping the airway clear, following the care plan, and raising concerns early. If you are ever unsure whether a task is within your role, the safe answer is always to stop and ask a nurse or senior colleague rather than to guess.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "43501bc9-774a-4da0-86bf-ec399a19fd91",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

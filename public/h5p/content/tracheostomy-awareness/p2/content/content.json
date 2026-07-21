@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How we normally breathe</h2><p>Normally, air enters through the nose and mouth, travels down the throat, passes through the voice box, and then flows down the windpipe into the lungs. As air passes through the nose and upper airway it is <strong>warmed, moistened and filtered</strong>, and passing air across the voice box is what lets us make sounds and speak. Understanding this normal path helps you see what changes when someone has a tracheostomy.</p><ul><li><strong>The route:</strong> nose and mouth, throat, voice box, windpipe, lungs.</li><li><strong>The nose:</strong> warms, moistens and filters the air we breathe in.</li><li><strong>The voice box:</strong> lets air passing through it make sound for speech.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8baffadd-eba7-49bf-abf2-ad5200b9b25f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a tracheostomy?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-tracheostomy.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f51f756d-2a06-48e1-88e7-4f995be5afb7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How a tracheostomy changes breathing</h2><p>A tracheostomy is a surgically created opening in the front of the neck that goes directly into the windpipe, below the voice box. The opening itself is called a <strong>stoma</strong>, and a small tube is usually held in it to keep it open. The person now breathes in and out through this tube in their neck, rather than through their nose and mouth.</p><p>Because air enters below the voice box, it often bypasses the nose and mouth completely. This has two big effects. First, the air is no longer warmed, moistened and filtered by the nose, so the airway can become dry. Second, less air passes across the voice box, so the person may not be able to <strong>speak normally</strong>, or may not be able to speak at all. Both of these shape the care you give.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "60ff3ac9-f02e-4dd1-9000-50c2c47fbe5d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why might a person with a tracheostomy be unable to speak normally?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Air enters below the voice box through the neck, so less air passes across the voice box to make sound.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. With the tube bypassing the voice box, the person may not be able to speak normally, or at all.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A tracheostomy always damages the person's brain and their ability to think.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a tracheostomy affects the airway and voice box, not the person's thinking.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>People with a tracheostomy simply choose not to talk to their carers.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the difficulty is physical, caused by air bypassing the voice box, not a choice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The tube makes the person's mouth too dry to form any words.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the main reason is that air enters below the voice box, so little air passes across it.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "456ffd27-9066-4f98-880f-fa308537d572",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
