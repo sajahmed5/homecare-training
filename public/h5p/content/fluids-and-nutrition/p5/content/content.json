@@ -6,7 +6,7 @@
           "text": "<h2>Spotting dehydration</h2><p>Dehydration often creeps up quietly, so it helps to know the signs. Watching urine is one of the simplest checks: pale urine usually means someone is well hydrated, while dark, strong-smelling urine is an early warning that they need more to drink.</p><ul><li><strong>Early signs:</strong> dark urine, dry mouth and lips, thirst, headache.</li><li><strong>Feeling unwell:</strong> tiredness, dizziness, constipation.</li><li><strong>Serious signs:</strong> confusion, sunken eyes, drowsiness, few wet trips to the toilet.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "490dcb47-78be-46bb-935a-1b65ce6485ea",
+        "subContentId": "8e89497c-040a-4aff-acdd-3dae549b363b",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "b173ac02-4d40-45bc-bef2-df66f88f8fff",
+        "subContentId": "ee7b78f9-510f-4eb1-871a-c83193a7b961",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Why dehydration is dangerous</h2><p>Dehydration is not a minor problem. It can trigger urinary and chest infections, constipation, pressure ulcers, falls and sudden confusion, and it can make existing conditions much worse. Severe dehydration can lead to kidney problems and hospital admission.</p><p>In older people the warning is that confusion, drowsiness or an unexplained fall can be the first sign of dehydration, so never dismiss these changes.</p>"
+          "text": "<h2>Why dehydration is dangerous</h2><p>Dehydration is not a minor problem. It can trigger urinary and chest infections, constipation, pressure ulcers, falls and sudden confusion, and it can make existing conditions much worse. Severe dehydration can lead to kidney problems and hospital admission.</p><p>In older people the warning is that confusion, drowsiness or an unexplained fall can be the first sign of dehydration, so never dismiss these changes as simply part of getting older. Because dehydration is so much easier to prevent than to treat, the best approach is always to help people drink well before problems appear, and to act quickly at the first signs.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "d342a226-f38e-4e6a-9ab5-0682fa937736",
+        "subContentId": "c41fadf3-2b32-451e-9194-f5797a9b1546",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -112,7 +112,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "9e169ddb-aa3e-4fd0-a36b-e8a3ca5a9e75",
+        "subContentId": "ed055aa7-9b44-407b-8aa1-15c00ef8fc79",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

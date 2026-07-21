@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Why water matters</h2><p>The body is mostly water, and it needs a steady supply to work properly. Fluids help the blood carry nutrients, keep the kidneys flushing out waste, control body temperature and keep the mind clear. Even mild dehydration can leave someone tired, muddled and unwell.</p><ul><li><strong>Body:</strong> supports circulation, digestion and healthy skin.</li><li><strong>Brain:</strong> helps concentration, mood and alertness.</li><li><strong>Kidneys:</strong> flush out waste and prevent infection.</li></ul>"
+          "text": "<h2>Why water matters</h2><p>The body is mostly water, and it needs a steady supply to work properly. Fluids help the blood carry nutrients, keep the kidneys flushing out waste, control body temperature, cushion the joints and keep the mind clear. Even mild dehydration can leave someone tired, muddled and unwell, and it can make an existing illness harder to recover from.</p><ul><li><strong>Body:</strong> supports circulation, digestion and healthy skin.</li><li><strong>Brain:</strong> helps concentration, mood and alertness.</li><li><strong>Kidneys:</strong> flush out waste and prevent infection.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "c25e6ebd-9553-43da-b6e2-64a30001430d",
+        "subContentId": "0c764760-a1a6-46cf-9e45-355fc941c701",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "67dbe6e6-bf6a-459f-b148-a8b8cee2cb2d",
+        "subContentId": "c5ec4b02-b788-49cc-8feb-046c69d94b21",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>How much fluid?</h2><p>Most adults need around <strong>1.5 to 2 litres</strong> of fluid a day &mdash; roughly six to eight glasses &mdash; and more in hot weather, when active, or when unwell with a fever, vomiting or diarrhoea. Individual needs vary, so always follow the person's care plan.</p><p>Almost all drinks count towards this, including water, milk, squash, fruit juice, tea and coffee. Foods with a high water content, such as soup, jelly, yoghurt and fruit, help too.</p>"
+          "text": "<h2>How much fluid?</h2><p>Most adults need around <strong>1.5 to 2 litres</strong> of fluid a day &mdash; roughly six to eight glasses &mdash; and more in hot weather, when active, or when unwell with a fever, vomiting or diarrhoea. Individual needs vary, so always follow the person's care plan.</p><p>Almost all drinks count towards this, including water, milk, squash, fruit juice, tea and coffee. Foods with a high water content, such as soup, jelly, yoghurt and fruit, help too. The aim is a steady intake spread across the whole day rather than a lot in one go, so keeping drinks flowing from morning to evening is the best way to help someone stay well hydrated.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "108e982a-e507-47ed-a470-a658608aade6",
+        "subContentId": "25fb41d5-a892-471b-a834-49c47850c27d",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -81,7 +81,7 @@
           "incorrectText": "Incorrect!"
         },
         "library": "H5P.DragText 1.10",
-        "subContentId": "1295845b-32ac-43f3-abd5-5dfe6e7babdc",
+        "subContentId": "3ea3254f-1a6d-467b-a702-19a40343413b",
         "metadata": {
           "contentType": "H5P.DragText",
           "license": "U",

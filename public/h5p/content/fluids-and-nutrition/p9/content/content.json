@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Understanding malnutrition</h2><p>Malnutrition means the body is not getting enough energy and nutrients to stay healthy. It is common in older and unwell people, and it often develops slowly and unnoticed. Spotting it early gives the best chance of putting things right.</p><ul><li><strong>What it is:</strong> too little energy, protein or nutrients over time.</li><li><strong>Causes:</strong> poor appetite, illness, low mood, dementia or swallowing problems.</li><li><strong>Signs:</strong> weight loss, loose clothes or dentures, tiredness, poor healing.</li></ul>"
+          "text": "<h2>Understanding malnutrition</h2><p>Malnutrition means the body is not getting enough energy and nutrients to stay healthy. It is common in older and unwell people, and it often develops slowly and unnoticed because the person still seems to be eating something each day. Spotting it early gives the best chance of putting things right, which is why your day-to-day observations are so valuable.</p><ul><li><strong>What it is:</strong> too little energy, protein or nutrients over time.</li><li><strong>Causes:</strong> poor appetite, illness, low mood, dementia or swallowing problems.</li><li><strong>Signs:</strong> weight loss, loose clothes or dentures, tiredness, poor healing.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "1bad368b-bf84-482d-8b77-cc23a7a30272",
+        "subContentId": "9a0642a7-cbc4-449d-ad0f-e177dd70d835",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "86e94c30-6873-47d8-a08b-351564527bed",
+        "subContentId": "6126d3de-6367-4537-9342-a02723639ddd",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Screening and monitoring</h2><p>To pick up malnutrition, many services use a screening tool called <strong>MUST</strong> (the Malnutrition Universal Screening Tool, from BAPEN). It helps identify adults who are malnourished or at risk, so they can get the right support.</p><p>You may be asked to weigh people regularly, watch for unplanned weight loss and record what someone eats on a food chart. Report any concerns &mdash; such as clothes becoming loose or meals left unfinished &mdash; to a nurse or dietitian so they can act.</p>"
+          "text": "<h2>Screening and monitoring</h2><p>To pick up malnutrition, many services use a screening tool called <strong>MUST</strong> (the Malnutrition Universal Screening Tool, from BAPEN). It helps identify adults who are malnourished or at risk, so they can get the right support.</p><p>You may be asked to weigh people regularly, watch for unplanned weight loss and record what someone eats on a food chart. These records help the team see whether someone is eating enough over time, and they support decisions about fortified food or supplements. Report any concerns &mdash; such as clothes becoming loose, dentures no longer fitting or meals left unfinished &mdash; to a nurse or dietitian so they can act. Left unnoticed, malnutrition slows recovery, weakens the body and raises the risk of falls and infection.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "e2398770-eca9-4a46-996a-0fbc83cb1d96",
+        "subContentId": "e8e4d237-3575-4b3b-bf86-4ca72f7ef8c7",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -112,7 +112,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "a477b49d-e8d5-4ef0-927a-f2e747f546f5",
+        "subContentId": "b87356e4-06ab-463c-86aa-b9ba2fb4bad8",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

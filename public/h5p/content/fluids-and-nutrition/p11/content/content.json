@@ -6,7 +6,7 @@
           "text": "<h2>Making mealtimes better</h2><p>How a meal is served matters as much as what is on the plate. Person-centred mealtime support starts with offering genuine choice, creating a pleasant, calm environment, and giving people the time and help they need without taking over.</p><ul><li><strong>Choice:</strong> what to eat, how much, and where to sit.</li><li><strong>Environment:</strong> calm, unhurried and free of clutter and distractions.</li><li><strong>Positioning:</strong> sitting upright and comfortable to eat safely.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "865ed1d2-1539-4664-85ec-72d5c360f5b7",
+        "subContentId": "b6a2e9f5-d733-4ff2-abb3-22050a976781",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "3c3a0331-09d4-4849-8bde-173f9861c34e",
+        "subContentId": "6f28fc33-3019-428c-8504-27ca4c3f911b",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Support and independence</h2><p>Many services use <strong>protected mealtimes</strong>, where non-urgent tasks pause so staff can focus on helping people eat. When you assist someone, sit down at their eye level, go at their pace and never rush them.</p><p>Encourage people to do as much as they can for themselves, and use assistive equipment where it helps &mdash; adapted cutlery, plate guards, non-slip mats and special cups can all support independence and dignity. Good positioning, sitting upright, also helps people swallow safely.</p>"
+          "text": "<h2>Support and independence</h2><p>Many services use <strong>protected mealtimes</strong>, where non-urgent tasks pause so staff can focus on helping people eat. When you assist someone, sit down at their eye level, go at their pace and never rush them.</p><p>Encourage people to do as much as they can for themselves, and use assistive equipment where it helps &mdash; adapted cutlery, plate guards, non-slip mats and special cups can all support independence and dignity. Little touches matter too, such as describing the food to someone with poor sight, offering one course at a time, and making sure glasses, dentures and hearing aids are in place. Good positioning, sitting the person upright rather than slumped or lying back, also helps them swallow safely.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "74326144-c9f7-4757-806d-54d2dfc5f67a",
+        "subContentId": "a2d48d88-1050-4553-bb67-8051e56eca2a",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -76,7 +76,7 @@
           }
         },
         "library": "H5P.TrueFalse 1.8",
-        "subContentId": "eb94961c-aed7-4374-bfd2-0f145dda2e00",
+        "subContentId": "fed3eca0-583d-489a-9a78-0afa495420dd",
         "metadata": {
           "contentType": "H5P.TrueFalse",
           "license": "U",

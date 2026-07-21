@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>More than fuel</h2><p>Good food and drink keep the body working. They give people energy, help wounds heal, protect against infection and keep muscles and bones strong enough to stay active and independent. When someone is eating and drinking poorly, they tire quickly, recover slowly and are far more likely to become unwell.</p><ul><li><strong>Health:</strong> supports recovery, immunity and energy.</li><li><strong>Wellbeing:</strong> a good meal lifts mood and comfort.</li><li><strong>Connection:</strong> mealtimes bring people together.</li></ul>"
+          "text": "<h2>More than fuel</h2><p>Good food and drink keep the body working. They give people energy, help wounds heal, protect against infection and keep muscles and bones strong enough to stay active and independent. When someone is eating and drinking poorly, they tire quickly, recover slowly and are far more likely to become unwell, develop pressure ulcers or pick up infections. Good nutrition and hydration are quietly at the heart of almost everything else that keeps a person well.</p><ul><li><strong>Health:</strong> supports recovery, immunity and energy.</li><li><strong>Wellbeing:</strong> a good meal lifts mood and comfort.</li><li><strong>Connection:</strong> mealtimes bring people together.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "1480a6f5-23fc-453e-a4e9-c678c95e0821",
+        "subContentId": "cc29a6d9-a0ee-4a8a-9b5b-98e44f3d9d9a",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "dbab2406-f721-48d3-b560-edae2a524380",
+        "subContentId": "1692bd81-176d-4e88-b55d-7cf79d397a84",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Food, culture and identity</h2><p>Food is never only about nutrients. What we eat is tied to who we are &mdash; our religion, culture, family and memories. A favourite meal can bring comfort on a hard day, and sharing food is one of the main ways people stay connected to others.</p><p>Because of this, offering people real choice about what, when and how they eat is part of treating them with dignity. A meal someone enjoys and has chosen does far more good than one they simply tolerate.</p>"
+          "text": "<h2>Food, culture and identity</h2><p>Food is never only about nutrients. What we eat is tied to who we are &mdash; our religion, culture, family and memories. A favourite meal can bring comfort on a hard day, and sharing food is one of the main ways people stay connected to others.</p><p>Because of this, offering people real choice about what, when and how they eat is part of treating them with dignity. A meal someone enjoys and has chosen does far more good than one they simply tolerate. Losing the ability to eat and drink the things you love, or to eat in the way you always have, can feel like a real loss, so the sensitivity you bring to mealtimes matters just as much as the food itself.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "b95bc15b-3ee2-4e27-b47f-299a1a7db7c2",
+        "subContentId": "2828a6e3-0896-4668-849c-3cc3e4dda382",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -112,7 +112,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "9db4bcaa-a37a-4a9c-942a-46011fd63d57",
+        "subContentId": "25c5f842-63e0-49b7-b6f3-f5e4378f0f6b",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

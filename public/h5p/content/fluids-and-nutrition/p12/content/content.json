@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Swallowing difficulties</h2><p><strong>Dysphagia</strong> is the word for difficulty swallowing. It is common after a stroke, and in dementia and some other conditions. It is serious because it can lead to choking, and to food or drink going into the lungs (aspiration), which can cause chest infections and pneumonia.</p><ul><li><strong>What it is:</strong> difficulty or discomfort when swallowing.</li><li><strong>Warning signs:</strong> coughing or choking when eating or drinking, a wet or gurgly voice.</li><li><strong>Other clues:</strong> food held in the mouth, recurrent chest infections, weight loss.</li></ul>"
+          "text": "<h2>Swallowing difficulties</h2><p><strong>Dysphagia</strong> is the word for difficulty swallowing. It is common after a stroke, and in dementia and some other conditions. It is serious because it can lead to choking, and to food or drink going into the lungs (aspiration), which can cause chest infections and pneumonia. Because the risks are high, any sign of a swallowing problem should always be taken seriously and passed on.</p><ul><li><strong>What it is:</strong> difficulty or discomfort when swallowing.</li><li><strong>Warning signs:</strong> coughing or choking when eating or drinking, a wet or gurgly voice.</li><li><strong>Other clues:</strong> food held in the mouth, recurrent chest infections, weight loss.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "5ca824ab-b229-453a-8c5b-4ad77f53fe24",
+        "subContentId": "a1468ad2-9408-41e9-9bdd-ca70e13cc138",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "25e416fc-cdae-4d46-a694-9acc288c5987",
+        "subContentId": "6a0720b9-d266-4291-b9b3-3f868b810806",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>SALT and IDDSI</h2><p>If you notice signs of swallowing difficulty, report them so the person can be referred to a <strong>speech and language therapist (SALT)</strong>, who assesses swallowing and advises on how to keep the person safe.</p><p>A SALT may recommend texture-modified food and thickened drinks, described using the <strong>IDDSI</strong> framework, which sets out standard levels for how thick a drink or how soft a food should be. Always give the exact texture and thickness written in the care plan &mdash; giving the wrong one, such as a thin drink to someone who needs thickened fluids, can be dangerous.</p>"
+          "text": "<h2>SALT and IDDSI</h2><p>If you notice signs of swallowing difficulty, report them so the person can be referred to a <strong>speech and language therapist (SALT)</strong>, who assesses swallowing and advises on how to keep the person safe.</p><p>A SALT may recommend texture-modified food and thickened drinks, described using the <strong>IDDSI</strong> framework, which sets out standard, numbered levels for how thick a drink or how soft a food should be. This gives everyone a shared language so the same texture is served every time. Always give the exact texture and thickness written in the care plan &mdash; giving the wrong one, such as a thin drink to someone who needs thickened fluids, or a normal meal to someone who needs it pureed, can cause choking and is genuinely dangerous. If you are unsure of someone's level, check before you serve.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "807a35ca-db13-43c5-b191-2c9d540f5325",
+        "subContentId": "d88d930e-da14-418e-a278-7952263e59c3",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -112,7 +112,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "155bf6f4-f3f0-474c-a63f-aa35c1eed6b8",
+        "subContentId": "c24844a4-2dab-49b7-a1f5-0aa900d10ac4",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

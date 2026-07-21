@@ -6,7 +6,7 @@
           "text": "<h2>Different needs, different diets</h2><p>People need different diets for many reasons, and it is your job to follow what the care plan sets out rather than to decide for yourself. Some diets are prescribed for a health condition, others reflect a person's beliefs, and some exist to keep a person safe.</p><ul><li><strong>Therapeutic diets:</strong> such as diabetic, low-salt, renal or gluten-free for coeliac disease.</li><li><strong>Cultural and religious:</strong> such as halal, kosher, vegetarian, vegan or fasting.</li><li><strong>Allergies:</strong> foods that must be avoided completely to stay safe.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "554e0463-2db6-44ef-abac-004c3629ac2a",
+        "subContentId": "e08424a6-85df-4d95-8505-f5ff034e2a58",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "9ba49f0e-a1b0-47c5-9642-c7d34c891df8",
+        "subContentId": "48659ddd-4cdb-40bb-aa65-2f2d36a9e2c3",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Fortifying food and respecting choice</h2><p>For people at risk of malnutrition, the plan may involve <strong>fortifying</strong> food &mdash; adding extra calories and protein using everyday foods like whole milk, cream, cheese or milk powder &mdash; along with nourishing snacks, offering food little and often, and any supplements the dietitian has prescribed.</p><p>Respecting cultural and religious food needs is part of person-centred care. Allergies must be taken very seriously indeed: a food allergy can be life-threatening, so always follow the person's recorded allergy information and never assume or guess.</p>"
+          "text": "<h2>Fortifying food and respecting choice</h2><p>For people at risk of malnutrition, the plan may involve <strong>fortifying</strong> food &mdash; adding extra calories and protein using everyday foods like whole milk, cream, cheese or milk powder &mdash; along with nourishing snacks, offering food little and often, and any supplements the dietitian has prescribed.</p><p>Respecting cultural and religious food needs is a central part of person-centred care, not an optional extra, and getting it right shows real respect for who a person is. Allergies and intolerances must be taken very seriously indeed: a food allergy can be life-threatening, so always follow the person's recorded allergy information, check ingredients when you are unsure, and never assume or guess. If you are ever in doubt about what someone can safely eat, stop and check with a senior colleague first.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "31774ec5-1ee5-45a7-a09d-48e606609aa7",
+        "subContentId": "f9c632f1-9ba7-4a88-b250-ecf6389ce26a",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",

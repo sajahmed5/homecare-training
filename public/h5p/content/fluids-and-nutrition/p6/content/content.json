@@ -6,7 +6,7 @@
           "text": "<h2>Who is most at risk</h2><p>Some people are far more likely to become dehydrated and need extra support and closer watching. As we age, the sense of thirst becomes weaker, so many older people simply do not feel thirsty even when their body needs fluid.</p><ul><li><strong>Older people:</strong> a reduced sense of thirst.</li><li><strong>People with dementia or confusion:</strong> may forget to drink or forget they are thirsty.</li><li><strong>People who need help:</strong> those who cannot reach or hold a drink unaided.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "239280e2-8fd9-492f-80cc-b0d1d020f47e",
+        "subContentId": "4c196c6a-bdd5-4c2d-8c15-3df620b5cb73",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "52fb622b-e39c-4287-9edf-02cc95e3b0ec",
+        "subContentId": "4713d8d8-4fd0-472d-a361-131af55a7568",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Barriers to drinking</h2><p>It is worth understanding why someone might not drink enough, because the reason often points to the solution. Some people deliberately drink less because they worry about needing the toilet often or about incontinence &mdash; reassuring them and supporting toileting can help.</p><p>Others struggle because a drink is out of reach, because swallowing is difficult, or because they cannot easily ask. People who find communication hard, or who are unwell or nearing the end of life, all need extra attention to their fluids.</p>"
+          "text": "<h2>Barriers to drinking</h2><p>It is worth understanding why someone might not drink enough, because the reason often points to the solution. Some people deliberately drink less because they worry about needing the toilet often or about incontinence &mdash; reassuring them and supporting toileting can help.</p><p>Others struggle because a drink is out of reach, because swallowing is difficult, or because they cannot easily ask. People who find communication hard, or who are unwell with a fever, sickness or diarrhoea, or who are nearing the end of life, all need extra attention to their fluids. People with dementia may not recognise a drink, or may put it down and forget it, so a gentle reminder or a hand-over-hand prompt can help. Knowing who on your shift is most at risk helps you make sure their drinks are never forgotten.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "8bcaeba1-0d65-4144-b8fa-974582833e6b",
+        "subContentId": "2168f3fb-51eb-4422-9898-56ac626de5ae",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -112,7 +112,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "e0988ac4-3898-4367-8d27-d9d575b6dac5",
+        "subContentId": "5108b868-583e-427d-a2c0-f6bd1fc0d1ae",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

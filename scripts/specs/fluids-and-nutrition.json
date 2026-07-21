@@ -22,7 +22,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>More than fuel</h2><p>Good food and drink keep the body working. They give people energy, help wounds heal, protect against infection and keep muscles and bones strong enough to stay active and independent. When someone is eating and drinking poorly, they tire quickly, recover slowly and are far more likely to become unwell.</p><ul><li><strong>Health:</strong> supports recovery, immunity and energy.</li><li><strong>Wellbeing:</strong> a good meal lifts mood and comfort.</li><li><strong>Connection:</strong> mealtimes bring people together.</li></ul>"
+          "html": "<h2>More than fuel</h2><p>Good food and drink keep the body working. They give people energy, help wounds heal, protect against infection and keep muscles and bones strong enough to stay active and independent. When someone is eating and drinking poorly, they tire quickly, recover slowly and are far more likely to become unwell, develop pressure ulcers or pick up infections. Good nutrition and hydration are quietly at the heart of almost everything else that keeps a person well.</p><ul><li><strong>Health:</strong> supports recovery, immunity and energy.</li><li><strong>Wellbeing:</strong> a good meal lifts mood and comfort.</li><li><strong>Connection:</strong> mealtimes bring people together.</li></ul>"
         },
         {
           "type": "text",
@@ -68,7 +68,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>Why water matters</h2><p>The body is mostly water, and it needs a steady supply to work properly. Fluids help the blood carry nutrients, keep the kidneys flushing out waste, control body temperature and keep the mind clear. Even mild dehydration can leave someone tired, muddled and unwell.</p><ul><li><strong>Body:</strong> supports circulation, digestion and healthy skin.</li><li><strong>Brain:</strong> helps concentration, mood and alertness.</li><li><strong>Kidneys:</strong> flush out waste and prevent infection.</li></ul>"
+          "html": "<h2>Why water matters</h2><p>The body is mostly water, and it needs a steady supply to work properly. Fluids help the blood carry nutrients, keep the kidneys flushing out waste, control body temperature, cushion the joints and keep the mind clear. Even mild dehydration can leave someone tired, muddled and unwell, and it can make an existing illness harder to recover from.</p><ul><li><strong>Body:</strong> supports circulation, digestion and healthy skin.</li><li><strong>Brain:</strong> helps concentration, mood and alertness.</li><li><strong>Kidneys:</strong> flush out waste and prevent infection.</li></ul>"
         },
         {
           "type": "text",
@@ -116,7 +116,7 @@
         },
         {
           "type": "text",
-          "html": "<h2>Barriers to drinking</h2><p>It is worth understanding why someone might not drink enough, because the reason often points to the solution. Some people deliberately drink less because they worry about needing the toilet often or about incontinence &mdash; reassuring them and supporting toileting can help.</p><p>Others struggle because a drink is out of reach, because swallowing is difficult, or because they cannot easily ask. People who find communication hard, or who are unwell with a fever, sickness or diarrhoea, or who are nearing the end of life, all need extra attention to their fluids. Knowing who on your shift is most at risk helps you make sure their drinks are never forgotten.</p>"
+          "html": "<h2>Barriers to drinking</h2><p>It is worth understanding why someone might not drink enough, because the reason often points to the solution. Some people deliberately drink less because they worry about needing the toilet often or about incontinence &mdash; reassuring them and supporting toileting can help.</p><p>Others struggle because a drink is out of reach, because swallowing is difficult, or because they cannot easily ask. People who find communication hard, or who are unwell with a fever, sickness or diarrhoea, or who are nearing the end of life, all need extra attention to their fluids. People with dementia may not recognise a drink, or may put it down and forget it, so a gentle reminder or a hand-over-hand prompt can help. Knowing who on your shift is most at risk helps you make sure their drinks are never forgotten.</p>"
         },
         {
           "type": "multichoice",
@@ -137,7 +137,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>Making drinking easier</h2><p>Small, thoughtful changes make a real difference to how much someone drinks. Offer drinks regularly throughout the day rather than only at mealtimes, and offer drinks people actually like, at a temperature they enjoy.</p><ul><li><strong>Offer often:</strong> little and often, and always leave a drink within reach.</li><li><strong>Right drink:</strong> a favourite drink at the right temperature.</li><li><strong>Right cup:</strong> a cup, beaker or aid the person can manage.</li></ul>"
+          "html": "<h2>Making drinking easier</h2><p>Small, thoughtful changes make a real difference to how much someone drinks. Offer drinks regularly throughout the day rather than only at mealtimes, and offer drinks people actually like, at a temperature they enjoy. A hot cup of tea, a cold glass of squash or a favourite cordial will nearly always be taken more readily than a plain glass of water someone did not ask for.</p><ul><li><strong>Offer often:</strong> little and often, and always leave a drink within reach.</li><li><strong>Right drink:</strong> a favourite drink at the right temperature.</li><li><strong>Right cup:</strong> a cup, beaker or aid the person can manage.</li></ul>"
         },
         {
           "type": "text",
@@ -151,7 +151,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>A balanced diet</h2><p>A balanced diet gives the body the range of nutrients it needs to stay healthy. The NHS <strong>Eatwell Guide</strong> shows the proportions of different food groups that make up a healthy diet for most adults. The key ideas are variety, balance and enjoyment.</p><ul><li><strong>Variety:</strong> foods from each of the main groups.</li><li><strong>Balance:</strong> the right proportions, not too much of any one thing.</li><li><strong>Enjoyment:</strong> meals the person likes and looks forward to.</li></ul>"
+          "html": "<h2>A balanced diet</h2><p>A balanced diet gives the body the range of nutrients it needs to stay healthy. The NHS <strong>Eatwell Guide</strong> shows the proportions of different food groups that make up a healthy diet for most adults. The key ideas are variety, balance and enjoyment, so that over a day and a week the body gets a good mix of energy, protein, vitamins and minerals.</p><ul><li><strong>Variety:</strong> foods from each of the main groups.</li><li><strong>Balance:</strong> the right proportions, not too much of any one thing.</li><li><strong>Enjoyment:</strong> meals the person likes and looks forward to.</li></ul>"
         },
         {
           "type": "text",
@@ -170,7 +170,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>Understanding malnutrition</h2><p>Malnutrition means the body is not getting enough energy and nutrients to stay healthy. It is common in older and unwell people, and it often develops slowly and unnoticed. Spotting it early gives the best chance of putting things right.</p><ul><li><strong>What it is:</strong> too little energy, protein or nutrients over time.</li><li><strong>Causes:</strong> poor appetite, illness, low mood, dementia or swallowing problems.</li><li><strong>Signs:</strong> weight loss, loose clothes or dentures, tiredness, poor healing.</li></ul>"
+          "html": "<h2>Understanding malnutrition</h2><p>Malnutrition means the body is not getting enough energy and nutrients to stay healthy. It is common in older and unwell people, and it often develops slowly and unnoticed because the person still seems to be eating something each day. Spotting it early gives the best chance of putting things right, which is why your day-to-day observations are so valuable.</p><ul><li><strong>What it is:</strong> too little energy, protein or nutrients over time.</li><li><strong>Causes:</strong> poor appetite, illness, low mood, dementia or swallowing problems.</li><li><strong>Signs:</strong> weight loss, loose clothes or dentures, tiredness, poor healing.</li></ul>"
         },
         {
           "type": "text",
@@ -230,7 +230,7 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>Swallowing difficulties</h2><p><strong>Dysphagia</strong> is the word for difficulty swallowing. It is common after a stroke, and in dementia and some other conditions. It is serious because it can lead to choking, and to food or drink going into the lungs (aspiration), which can cause chest infections and pneumonia.</p><ul><li><strong>What it is:</strong> difficulty or discomfort when swallowing.</li><li><strong>Warning signs:</strong> coughing or choking when eating or drinking, a wet or gurgly voice.</li><li><strong>Other clues:</strong> food held in the mouth, recurrent chest infections, weight loss.</li></ul>"
+          "html": "<h2>Swallowing difficulties</h2><p><strong>Dysphagia</strong> is the word for difficulty swallowing. It is common after a stroke, and in dementia and some other conditions. It is serious because it can lead to choking, and to food or drink going into the lungs (aspiration), which can cause chest infections and pneumonia. Because the risks are high, any sign of a swallowing problem should always be taken seriously and passed on.</p><ul><li><strong>What it is:</strong> difficulty or discomfort when swallowing.</li><li><strong>Warning signs:</strong> coughing or choking when eating or drinking, a wet or gurgly voice.</li><li><strong>Other clues:</strong> food held in the mouth, recurrent chest infections, weight loss.</li></ul>"
         },
         {
           "type": "text",
@@ -255,11 +255,11 @@
       "items": [
         {
           "type": "text",
-          "html": "<h2>Safety, recording and speaking up</h2><p>Keeping people safe around food and drink brings together good hygiene, careful recording and the confidence to raise concerns. Safe food handling is one basic principle &mdash; wash your hands, store food correctly, check use-by dates and never serve food that may be unsafe.</p><ul><li><strong>Safe food handling:</strong> clean hands, correct storage, check dates &mdash; covered fully in the Food Hygiene course.</li><li><strong>Accurate records:</strong> complete food and fluid charts honestly and at the time.</li><li><strong>Report concerns:</strong> raise changes early with a senior colleague or nurse.</li></ul>"
+          "html": "<h2>Safety, recording and speaking up</h2><p>Keeping people safe around food and drink brings together good hygiene, careful recording and the confidence to raise concerns. Safe food handling is one basic principle &mdash; wash your hands, store food correctly, keep raw and cooked food apart, check use-by dates and never serve food that may be unsafe.</p><ul><li><strong>Safe food handling:</strong> clean hands, correct storage, check dates &mdash; covered fully in the Food Hygiene course.</li><li><strong>Accurate records:</strong> complete food and fluid charts honestly and at the time.</li><li><strong>Report concerns:</strong> raise changes early with a senior colleague or nurse.</li></ul>"
         },
         {
           "type": "text",
-          "html": "<h2>Bringing it together</h2><p>Throughout your work, keep monitoring how people eat and drink, watch for weight loss and record what you see on food and fluid charts. If someone is refusing food or drink, losing weight, or coughing when they swallow, report it promptly so the right professional can help &mdash; small changes noticed early can prevent serious harm.</p><p>Remember: this course covered the <strong>knowledge</strong> element of Standard 8 only. Your employer must also observe your <strong>competence</strong> at work and sign it off &mdash; My Care Academy cannot award the Care Certificate on its own.</p>"
+          "html": "<h2>Bringing it together</h2><p>Throughout your work, keep monitoring how people eat and drink, watch for weight loss and record what you see on food and fluid charts. If someone is refusing food or drink, losing weight, coughing when they swallow, or seems more confused or drowsy than usual, report it promptly so the right professional can help &mdash; small changes noticed early can prevent serious harm. You are the eyes and ears at every mealtime, and the care you give around food and fluids protects people's health, comfort and dignity every single day.</p><p>Remember: this course covered the <strong>knowledge</strong> element of Standard 8 only. Your employer must also observe your <strong>competence</strong> at work and sign it off &mdash; My Care Academy cannot award the Care Certificate on its own.</p>"
         },
         {
           "type": "multichoice",

@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Making drinking easier</h2><p>Small, thoughtful changes make a real difference to how much someone drinks. Offer drinks regularly throughout the day rather than only at mealtimes, and offer drinks people actually like, at a temperature they enjoy.</p><ul><li><strong>Offer often:</strong> little and often, and always leave a drink within reach.</li><li><strong>Right drink:</strong> a favourite drink at the right temperature.</li><li><strong>Right cup:</strong> a cup, beaker or aid the person can manage.</li></ul>"
+          "text": "<h2>Making drinking easier</h2><p>Small, thoughtful changes make a real difference to how much someone drinks. Offer drinks regularly throughout the day rather than only at mealtimes, and offer drinks people actually like, at a temperature they enjoy. A hot cup of tea, a cold glass of squash or a favourite cordial will nearly always be taken more readily than a plain glass of water someone did not ask for.</p><ul><li><strong>Offer often:</strong> little and often, and always leave a drink within reach.</li><li><strong>Right drink:</strong> a favourite drink at the right temperature.</li><li><strong>Right cup:</strong> a cup, beaker or aid the person can manage.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "a6d4021a-36bf-410b-b623-362a2cbc9d10",
+        "subContentId": "4a6654f0-fff3-431b-b6cb-d5c619ef8a2e",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "0cb8c4cb-bd75-489a-a142-10a9626c8039",
+        "subContentId": "7e637b20-13ac-43e4-83ce-fbbad1800ed0",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,10 +44,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Fluid charts</h2><p>When someone is at risk of dehydration, the team may keep a <strong>fluid balance chart</strong> that records what the person drinks across the day, and sometimes their output too. This helps everyone see at a glance whether the person is getting enough.</p><p>If you are asked to complete one, record each drink accurately and at the time, note the amount taken rather than the amount offered, and tell a senior colleague if the person is not reaching their target. Foods such as jelly, ice lollies and soup can also help top up fluids.</p>"
+          "text": "<h2>Fluid charts</h2><p>When someone is at risk of dehydration, the team may keep a <strong>fluid balance chart</strong> that records what the person drinks across the day, and sometimes their output too. This helps everyone see at a glance whether the person is getting enough.</p><p>If you are asked to complete one, record each drink accurately and at the time, note the amount actually taken rather than the amount offered, and tell a senior colleague if the person is not reaching their target. An accurate chart is only useful if everyone fills it in honestly, so never guess or write it up later from memory. Foods such as jelly, ice lollies, custard and soup can also help top up fluids for someone who is reluctant to drink.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "7ab430fe-acbf-479a-b17b-f18b0f7995ae",
+        "subContentId": "ff87985c-66b4-43f6-b876-d6ab0e471716",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",

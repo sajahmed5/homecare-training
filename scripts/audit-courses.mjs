@@ -171,9 +171,18 @@ if (existsSync(CONTENT_ROOT)) {
 }
 
 // Assessment banks — the pool must be big enough to actually mean something.
-const { data: allQ } = await sb.from("quiz_questions").select("course_id");
+// Paginate: a plain select() is capped at 1000 rows by PostgREST, which would
+// silently undercount once the catalogue's total bank exceeds that.
 const bank = {};
-for (const q of allQ ?? []) bank[q.course_id] = (bank[q.course_id] ?? 0) + 1;
+const PAGE = 1000;
+for (let from = 0; ; from += PAGE) {
+  const { data: page } = await sb
+    .from("quiz_questions")
+    .select("course_id")
+    .range(from, from + PAGE - 1);
+  for (const q of page ?? []) bank[q.course_id] = (bank[q.course_id] ?? 0) + 1;
+  if (!page || page.length < PAGE) break;
+}
 const QUIZ_TARGET = 20;
 for (const c of courses) {
   const n = bank[c.id] ?? 0;

@@ -1,0 +1,545 @@
+{
+  "slug": "fluids-and-nutrition",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Why is it important to see food and drink as more than just nutrition?",
+      "options": [
+        "Because meals are also linked to comfort, culture, identity and social connection, all of which support wellbeing.",
+        "Because the calories in food are the only thing that affects a person's health.",
+        "Because mealtimes are mainly a chance to get tasks finished quickly.",
+        "Because everyone should eat exactly the same balanced diet."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Roughly how much fluid does most adults' bodies need each day?",
+      "options": [
+        "Around 1.5 to 2 litres, roughly six to eight glasses.",
+        "At least 4 litres a day, whatever the weather.",
+        "Around half a litre, roughly two glasses.",
+        "Only as much as makes the person feel thirsty."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which drinks count towards a person's daily fluid intake?",
+      "options": [
+        "Nothing you drink counts; only food provides fluid.",
+        "Only plain water counts; other drinks do not.",
+        "Only cold drinks count, never hot ones.",
+        "Water, milk, squash, fruit juice, tea and coffee all count."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an early sign that someone may be becoming dehydrated?",
+      "options": [
+        "Feeling too full after a large drink.",
+        "Pale, plentiful urine and moist lips.",
+        "Sleeping well and having plenty of energy.",
+        "Dark, strong-smelling urine together with a dry mouth and thirst."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does pale urine usually indicate?",
+      "options": [
+        "That the person is becoming dehydrated.",
+        "That the person has eaten too much salt.",
+        "That the person is well hydrated.",
+        "That the person has a chest infection."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In an older person, which change can be one of the first signs of dehydration?",
+      "options": [
+        "Feeling unusually energetic.",
+        "Sleeping less than usual.",
+        "Craving salty foods.",
+        "Sudden confusion, drowsiness or an unexplained fall."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who is likely to be most at risk of becoming dehydrated?",
+      "options": [
+        "People who feel thirsty often.",
+        "Young, active adults who drink regularly.",
+        "Older people, those with dementia, and those who cannot reach or hold a drink unaided.",
+        "Anyone who chooses tea rather than water."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Some people deliberately limit how much they drink. What is a common reason for this?",
+      "options": [
+        "They no longer need any fluid once they reach old age.",
+        "Drinking less has no effect on the body.",
+        "They have been told that fluids are bad for their health.",
+        "They worry about needing the toilet often, or about incontinence."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When completing a fluid balance chart, what should you record?",
+      "options": [
+        "Only the drinks the person refused.",
+        "A rough estimate written up at the end of your shift.",
+        "The amount you offered, whether or not it was drunk.",
+        "The amount the person actually drank, recorded accurately and at the time."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the NHS Eatwell Guide show?",
+      "options": [
+        "How much fluid a person should drink each day.",
+        "The exact number of calories every adult must eat.",
+        "The proportions of the main food groups that make up a healthy diet for most adults.",
+        "A list of foods that are banned in care settings."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the MUST tool used for?",
+      "options": [
+        "Screening adults to identify those who are malnourished or at risk of malnutrition.",
+        "Recording how much fluid a person drinks.",
+        "Measuring a person's blood pressure.",
+        "A safe method for moving and handling people."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does 'fortifying' a person's food mean?",
+      "options": [
+        "Adding extra salt to improve the flavour.",
+        "Adding extra calories and protein using everyday foods such as whole milk, cream, cheese or milk powder.",
+        "Serving only low-calorie options.",
+        "Removing all fat and sugar from their meals."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How should a person's recorded food allergy be treated?",
+      "options": [
+        "By offering a small amount to test the reaction.",
+        "By guessing which foods are probably safe.",
+        "As a mild preference that can be ignored when you are busy.",
+        "Very seriously, always following the recorded allergy information and never assuming or guessing."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What are 'protected mealtimes'?",
+      "options": [
+        "Times when food is locked away for safety.",
+        "Times when only certain people are allowed to eat.",
+        "Times when non-urgent tasks pause so staff can focus on helping people eat.",
+        "Times when staff eat before the people they support."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of assistive equipment that supports independence at mealtimes?",
+      "options": [
+        "A fluid balance chart.",
+        "Adapted cutlery, plate guards, non-slip mats or special cups.",
+        "A blood pressure monitor.",
+        "A hoist and sling."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Good positioning to help someone eat and swallow safely means the person should be:",
+      "options": [
+        "Lying flat on their back.",
+        "Sitting upright and comfortable.",
+        "Leaning right back in a reclined chair.",
+        "Standing up while eating."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the word 'dysphagia' mean?",
+      "options": [
+        "An allergy to dairy foods.",
+        "Difficulty swallowing.",
+        "Difficulty breathing.",
+        "A loss of appetite."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is 'aspiration', and why does it matter?",
+      "options": [
+        "Food or drink going into the lungs, which can cause chest infections and pneumonia.",
+        "A normal part of swallowing that is nothing to worry about.",
+        "Feeling very thirsty after exercise.",
+        "A method of thickening drinks."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a warning sign of a swallowing difficulty?",
+      "options": [
+        "Feeling hungry between meals.",
+        "A strong, clear speaking voice.",
+        "Coughing or choking when eating or drinking, or a wet, gurgly voice.",
+        "Eating quickly and finishing every meal."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the role of a speech and language therapist (SALT) in relation to eating and drinking?",
+      "options": [
+        "To weigh people each week.",
+        "To cook meals for people with swallowing difficulties.",
+        "To decide a person's religious diet.",
+        "To assess swallowing and advise on how to keep the person safe."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the IDDSI framework describe?",
+      "options": [
+        "Standard levels for how thick a drink or how soft a food should be.",
+        "The proportions of the Eatwell Guide.",
+        "The daily fluid target for adults.",
+        "A screening tool for malnutrition."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person's care plan says they need thickened fluids. What must you give them?",
+      "options": [
+        "A thin drink, because it is quicker to swallow.",
+        "Whichever drink is easiest to prepare.",
+        "A drink you have decided to thicken yourself.",
+        "The exact texture and thickness written in their care plan."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes your role at mealtimes as a care worker?",
+      "options": [
+        "To make sure meals are finished as fast as possible.",
+        "To diagnose swallowing problems yourself.",
+        "To decide each person's diet and prescribe their supplements.",
+        "To offer and encourage food and drink, and observe how much someone eats, drinks and enjoys."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who should decide whether a person needs dietary supplements or a change to their diet?",
+      "options": [
+        "Whoever happens to be nearest at mealtime.",
+        "The person's family only.",
+        "Nurses, dietitians and speech and language therapists.",
+        "The care worker on shift."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You notice that someone has eaten almost nothing for two days and has started coughing when they drink. What is the right action?",
+      "options": [
+        "Assume they are just not hungry and move on.",
+        "Wait a few more days to see whether things improve on their own.",
+        "Report your concerns to a senior colleague or nurse straight away, and record what you have observed.",
+        "Change their meals and drinks yourself without telling anyone."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "true_false",
+      "question": "If you are worried that someone is not eating or drinking enough, you should keep it to yourself until you are completely certain there is a problem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When helping someone to eat, you should sit down at their level, go at their pace and encourage them to do as much as they can for themselves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Drinks such as tea, coffee, milk and squash all count towards a person's daily fluid intake.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Dark, strong-smelling urine is a sign that a person is well hydrated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If someone coughs when drinking, a care worker may decide on their own to thicken all of that person's drinks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Protected mealtimes means non-urgent tasks pause so that staff can focus on helping people to eat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Good positioning, sitting upright, helps a person to swallow safely.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "My Care Academy e-learning can award the Care Certificate on its own, without your employer observing your competence at work.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be signs that someone is becoming dehydrated? (Select all that apply)",
+      "options": [
+        "High energy and a moist mouth",
+        "Pale, plentiful urine",
+        "A dry mouth and thirst",
+        "Sunken eyes and confusion in a more serious case",
+        "Dark, strong-smelling urine"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which foods have a high water content and can help top up someone's fluids? (Select all that apply)",
+      "options": [
+        "Yoghurt",
+        "Soup",
+        "Jelly",
+        "Dry crackers",
+        "Toast"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Who is likely to be at higher risk of dehydration and need closer support? (Select all that apply)",
+      "options": [
+        "People who cannot reach or hold a drink unaided",
+        "People with dementia who may forget to drink",
+        "Young, active adults who drink regularly",
+        "People who feel thirsty and drink whenever they wish",
+        "Older people, whose sense of thirst is weaker"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can be signs of malnutrition? (Select all that apply)",
+      "options": [
+        "Tiredness and poor wound healing",
+        "A strong appetite with meals always finished",
+        "Unplanned weight loss",
+        "A steady, healthy weight",
+        "Clothes or dentures becoming loose"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are warning signs of a swallowing difficulty (dysphagia)? (Select all that apply)",
+      "options": [
+        "A clear, strong voice after drinking",
+        "A wet or gurgly voice",
+        "Coughing or choking when eating or drinking",
+        "Food being held in the mouth",
+        "Finishing meals easily with no coughing"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these help to encourage someone to drink more? (Select all that apply)",
+      "options": [
+        "Removing drinks between meals to avoid spills",
+        "Leaving a drink within easy reach",
+        "Only offering drinks if the person asks for them",
+        "Offering drinks regularly through the day, not only at mealtimes",
+        "Offering a favourite drink at a temperature they enjoy"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which items are assistive equipment that can support independence and dignity at mealtimes? (Select all that apply)",
+      "options": [
+        "Non-slip mats",
+        "A blood pressure monitor",
+        "Adapted cutlery",
+        "A fluid balance chart",
+        "Plate guards"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Most adults need around 1.5 to ___ litres of fluid a day.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "2",
+              "two"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Eatwell Guide suggests eating at least ___ portions of fruit and vegetables a day.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "five",
+              "5"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Difficulty swallowing is known medically as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dysphagia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ balance chart records what a person drinks across the day, and sometimes their output too.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fluid"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When food or drink goes into the lungs it is called ___, which can cause chest infections and pneumonia.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "aspiration"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
