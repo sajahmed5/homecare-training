@@ -30,7 +30,7 @@ export default async function OrganisationDetailPage({
     supabase
       .from("organisations")
       .select(
-        "id, name, package_tier, status, forms_enabled, recruitment_enabled",
+        "id, name, package_tier, status, forms_enabled, recruitment_enabled, observations_enabled",
       )
       .eq("id", id)
       .single(),

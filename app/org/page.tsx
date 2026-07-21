@@ -39,7 +39,7 @@ export default async function OrgDashboard() {
   ] = await Promise.all([
     supabase
       .from("organisations")
-      .select("name, package_tier, forms_enabled, recruitment_enabled")
+      .select("name, package_tier, forms_enabled, recruitment_enabled, observations_enabled")
       .single(),
     supabase
       .from("users")
@@ -126,6 +126,14 @@ export default async function OrgDashboard() {
                 className={buttonVariants({ variant: "outline", size: "sm" })}
               >
                 Recruitment
+              </Link>
+            )}
+            {organisation?.observations_enabled && (
+              <Link
+                href="/org/observations"
+                className={buttonVariants({ variant: "outline", size: "sm" })}
+              >
+                CC assessment
               </Link>
             )}
             <Link

@@ -74,6 +74,19 @@ export function StandardGrid({ standards }: { standards: ProgrammeStandard[] }) 
               </div>
             )}
 
+            {s.observationStatus !== undefined && (
+              <p className="text-xs text-muted-foreground">
+                Workplace assessment:{" "}
+                {s.observationStatus === "competent" ? (
+                  <span className="font-medium text-emerald-600">observed</span>
+                ) : s.observationStatus === "not_yet_competent" ? (
+                  <span className="font-medium text-rose-600">not yet competent</span>
+                ) : (
+                  <span>awaiting observation</span>
+                )}
+              </p>
+            )}
+
             <div className="mt-auto flex gap-2">
               {enrolled ? (
                 <Link

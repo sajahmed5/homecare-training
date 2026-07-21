@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { Info } from "lucide-react";
+import { Award, Info } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { loadProgramme } from "@/lib/programmes";
@@ -18,6 +18,30 @@ export default async function ProgrammePage({
   const supabase = await createClient();
   const programme = await loadProgramme(supabase, slug);
   if (!programme) notFound();
+
+  // Workplace observation status for the learner, if the org has the add-on.
+  // Tolerant of the 2B tables not existing yet (query error → no observations),
+  // so this page is safe to deploy before the observations migration is applied.
+  const [obsRes, signoffRes] = await Promise.all([
+    supabase.from("care_cert_observations").select("standard_no, status"),
+    supabase.from("care_cert_signoffs").select("signed_at").maybeSingle(),
+  ]);
+  const obsByStandard = new Map(
+    (obsRes.data ?? []).map((o) => [o.standard_no, o.status]),
+  );
+  const signedOffAt: string | null = signoffRes.data?.signed_at ?? null;
+  const hasObservations = obsByStandard.size > 0 || signedOffAt !== null;
+
+  const standards = programme.standards.map((s) => ({
+    ...s,
+    observationStatus: hasObservations
+      ? ((obsByStandard.get(s.standardNo) as
+          | "pending"
+          | "competent"
+          | "not_yet_competent"
+          | undefined) ?? "pending")
+      : undefined,
+  }));
 
   const pct = programme.total
     ? Math.round((programme.completedCount / programme.total) * 100)
@@ -57,8 +81,19 @@ export default async function ProgrammePage({
           </div>
         )}
 
+        {/* Care Certificate awarded by the employer */}
+        {signedOffAt && (
+          <div className="flex items-center gap-3 rounded-2xl border border-emerald-300 bg-emerald-50 p-4 text-sm text-emerald-900">
+            <Award className="size-5 shrink-0 text-emerald-600" />
+            <p>
+              Your employer awarded your Care Certificate on{" "}
+              {new Date(signedOffAt).toLocaleDateString("en-GB")}. Well done!
+            </p>
+          </div>
+        )}
+
         {/* The standards */}
-        <StandardGrid standards={programme.standards} />
+        <StandardGrid standards={standards} />
       </div>
     </DashboardShell>
   );

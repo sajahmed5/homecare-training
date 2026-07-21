@@ -13,6 +13,13 @@ export interface ProgrammeStandard {
   dueDate: string | null;
   /** True if the learner holds a (live) certificate for this standard's course. */
   certificated: boolean;
+  /**
+   * Workplace-observation outcome for this standard, when the org has the
+   * observation add-on and an assessor has recorded one. Filled in by the
+   * programme page (not the shared loader), so the dashboard stays independent
+   * of the 2B tables.
+   */
+  observationStatus?: "pending" | "competent" | "not_yet_competent" | null;
 }
 
 export interface Programme {

@@ -18,6 +18,7 @@ export interface EditableOrg {
   status: string;
   forms_enabled: boolean;
   recruitment_enabled: boolean;
+  observations_enabled: boolean;
 }
 
 const selectClass =
@@ -30,6 +31,7 @@ export function EditOrgForm({ org }: { org: EditableOrg }) {
   );
   const [forms, setForms] = useState(org.forms_enabled);
   const [recruitment, setRecruitment] = useState(org.recruitment_enabled);
+  const [observations, setObservations] = useState(org.observations_enabled);
 
   return (
     <form action={action} className="space-y-6">
@@ -39,6 +41,11 @@ export function EditOrgForm({ org }: { org: EditableOrg }) {
         type="hidden"
         name="recruitment_enabled"
         value={String(recruitment)}
+      />
+      <input
+        type="hidden"
+        name="observations_enabled"
+        value={String(observations)}
       />
 
       <div className="space-y-2">
@@ -102,6 +109,19 @@ export function EditOrgForm({ org }: { org: EditableOrg }) {
             checked={recruitment}
             onCheckedChange={setRecruitment}
           />
+        </div>
+
+        <div className="flex items-center justify-between rounded-lg border p-3">
+          <div>
+            <p className="text-sm font-medium">
+              Care Certificate observations add-on
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Enables workplace observation &amp; employer sign-off for the Care
+              Certificate.
+            </p>
+          </div>
+          <Switch checked={observations} onCheckedChange={setObservations} />
         </div>
       </div>
 

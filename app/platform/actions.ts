@@ -87,6 +87,7 @@ export async function updateOrganisationAction(
   const status = String(formData.get("status") ?? "");
   const formsEnabled = formData.get("forms_enabled") === "true";
   const recruitmentEnabled = formData.get("recruitment_enabled") === "true";
+  const observationsEnabled = formData.get("observations_enabled") === "true";
 
   if (!id) return { ok: false, error: "Missing organisation id." };
   if (!name) return { ok: false, error: "Name is required." };
@@ -107,6 +108,7 @@ export async function updateOrganisationAction(
       status,
       forms_enabled: formsEnabled,
       recruitment_enabled: recruitmentEnabled,
+      observations_enabled: observationsEnabled,
     })
     .eq("id", id);
   if (error) return { ok: false, error: error.message };
