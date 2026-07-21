@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Sepsis Awareness</h2><p>Welcome to <strong>Sepsis Awareness</strong>. Sepsis is a life-threatening medical emergency that can arise from almost any infection, and it can make someone very unwell very quickly. In your role you spend more time with the people you support than almost anyone else, which puts you in a powerful position to notice when something is wrong. This course helps you spot the early warning signs and get urgent help.</p><ul><li><strong>Recognise:</strong> the early signs that someone may have sepsis.</li><li><strong>Escalate:</strong> get urgent help fast, without waiting.</li><li><strong>Speak up:</strong> say the word &ldquo;sepsis&rdquo; so others act quickly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "93a4e6ab-6295-4d95-b941-2c0d94b8556e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "27bb945c-9674-460a-883b-e407f5aa10b8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>This is awareness, not diagnosis</h2><p>This course builds your <strong>awareness and knowledge</strong> so that you can <strong>recognise</strong> the signs of sepsis early and <strong>escalate</strong> urgently. It does <strong>not</strong> replace clinical assessment, and it does not ask you to diagnose or treat anyone &mdash; that is the job of a nurse, doctor or paramedic. Your job is simpler and vital: to notice when a person &ldquo;just doesn't look right&rdquo;, to ask &ldquo;could this be sepsis?&rdquo;, and to get help straight away.</p><p>If you ever suspect sepsis, you must get urgent help immediately &mdash; tell a senior or nurse, or call 999 if the person is very unwell. Never wait to see how things go. Throughout this course, remember that speed saves lives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8e1c2ba-c8d4-4cb5-8dfe-9edf12c4329a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

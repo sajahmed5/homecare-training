@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Care Planning</h2><p>Welcome to this awareness course on <strong>care planning</strong>. A care plan is the written record of how a person wishes to be supported &mdash; what matters to them, what they can do for themselves, where they need help, and the outcomes they hope to achieve. As a care worker in England, you contribute to, follow and help review care plans every day. This course is grounded in the Care Act 2014, the Mental Capacity Act 2005, person-centred planning principles and the expectations of the Care Quality Commission (CQC).</p><ul><li><strong>Person-centred:</strong> the plan begins with the person, not with a list of tasks.</li><li><strong>Your role:</strong> to follow the plan, add your observations, and help keep it current.</li><li><strong>A living document:</strong> a care plan is never finished &mdash; it changes as the person does.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a2662345-7ef1-4541-9201-d7dc90e7711b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "63693fa5-6340-4d1a-9ed6-13660d392484",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will move from what a care plan is, through what makes a good one, to how you follow, contribute to and help review it in your daily work.</p><ul><li><strong>The basics:</strong> person-centred care, and the difference between assessment, plan and review.</li><li><strong>A good plan:</strong> needs, wishes, outcomes and strengths, capacity and consent, and positive risk-taking.</li><li><strong>In practice:</strong> following the plan, recording changes, reviewing, and escalating when needs change.</li></ul><p>This e-learning covers the <strong>knowledge</strong> element only. It builds your awareness and good practice, but it does not replace the supervised training and formal assessment carried out by an assessor or senior colleague in your workplace. Formal assessment and the authorship of care plans sit with the assessor; your part is to follow them, contribute to them and help review them well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "92939d1f-2334-4932-9a92-0100e84de4d8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

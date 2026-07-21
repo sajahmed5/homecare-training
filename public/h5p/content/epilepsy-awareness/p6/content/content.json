@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Auras and warning signs</h2><p>Some people get a warning that a seizure is coming. This warning is called an <strong>aura</strong>, and it is actually a focal aware seizure that may go on to become a larger one. An aura is different for each person, so it helps to know what a particular individual experiences.</p><ul><li><strong>Sensations:</strong> a strange smell, a taste, or a rising feeling in the stomach.</li><li><strong>Feelings:</strong> sudden fear, dizziness, or a sense of d&eacute;j&agrave; vu.</li><li><strong>Personal:</strong> the aura is often the same each time for that person.</li></ul><p>If a person tells you they can feel a seizure coming, take it seriously. Helping them to a safe place and staying with them can prevent injury.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7d409b67-5ff2-4165-ad54-583da899d470",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Auras and triggers",
+          "decorative": false,
+          "file": {
+            "path": "images/auras-and-triggers.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c7cb085b-7daa-4b4b-bfc0-27c3718842b5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common triggers</h2><p>For some people, certain things make a seizure more likely. These are called <strong>triggers</strong>, and they vary from person to person. Knowing someone's triggers, where they have them, can help reduce how often seizures happen. Common triggers include:</p><ul><li><strong>Missed medication:</strong> not taking anti-seizure medication as prescribed.</li><li><strong>Lack of sleep:</strong> being very tired or having a disturbed routine.</li><li><strong>Stress and illness:</strong> emotional stress, or being unwell with a fever.</li></ul><p>Other triggers can include alcohol and missed meals, and, for a small number of people, flashing or flickering lights &mdash; known as photosensitive epilepsy. It is worth remembering that flashing lights only trigger seizures in a minority of people with epilepsy, so this is not a risk for everyone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ef0c3247-ac42-412f-b8f5-725ce463594e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a common seizure trigger for many people with epilepsy?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Missing doses of prescribed anti-seizure medication</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Missed medication is one of the most common triggers, which is why taking it as prescribed matters so much.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drinking plenty of water through the day</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Staying hydrated is not a seizure trigger; missed medication, lack of sleep and stress are common triggers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Going for a gentle daily walk</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Gentle activity is not a trigger; common triggers include missed medication, lack of sleep and illness.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Eating regular, balanced meals</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Regular meals help; it is missed meals, missed medication and lack of sleep that can act as triggers.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8ec5ac17-22b5-4be7-9107-82c64cd7691c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

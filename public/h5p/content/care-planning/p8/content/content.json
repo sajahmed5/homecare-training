@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Following the plan</h2><p>Once a care plan is agreed, your central duty is to <strong>work to it</strong>. The plan is there so that everyone supports the person in the same, agreed way, and so that care is safe, consistent and truly personalised. Reading and following it is not optional &mdash; it is the foundation of safe practice.</p><ul><li><strong>Read before you act:</strong> know what the plan says for each person you support.</li><li><strong>Deliver as agreed:</strong> follow the person's preferences, routines and any risk measures.</li><li><strong>Do not freelance:</strong> never change the agreed support on your own initiative.</li></ul><p>If the plan seems wrong or out of date, you raise it &mdash; you do not quietly do something different.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "181525be-0678-49cb-94ca-29f638c79404",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working to the plan",
+          "decorative": false,
+          "file": {
+            "path": "images/working-to-the-plan.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "269ef4fe-8e41-489d-81b5-975a6652225f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred delivery</h2><p>Following the plan and being person-centred go hand in hand. The plan tells you how this individual likes their support given, and delivering it that way &mdash; the right pace, the right words, the small preferences noted down &mdash; is what turns writing on a page into good care. The CQC expects care to be personalised in exactly this way.</p><p>At the same time, a person is more than their plan. Offer everyday choices as you go: which jumper, tea or coffee, now or in ten minutes. Uphold the person's dignity in every task. If a person tells you they now want something done differently, honour reasonable choices where it is safe to do so, and make sure the change is reported so the plan can catch up. Working to the plan never means ignoring the person in front of you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "13c7fdb8-bf93-4f2c-8b01-3dc5d706ac3c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You arrive to find a task in the care plan no longer seems to suit the person. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Follow the agreed plan for now and report your concern so the plan can be reviewed and updated properly</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. You keep to the agreed plan and raise your concern so any change is made properly, not informally.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Quietly do the task a different way and say nothing</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Changing agreed support on your own, without reporting it, is unsafe and leaves the plan wrong.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip the task altogether because you disagree with it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. You should not simply drop agreed support; raise your concern so it can be looked at.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the annual review months away before mentioning it</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Concerns should be reported promptly so the plan can be reviewed when needed, not left for months.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5eba7ada-ecac-474b-953e-8cd532dc65bc",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

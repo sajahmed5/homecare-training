@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Diabetic ketoacidosis (DKA)</h2><p><strong>Diabetic ketoacidosis</strong>, or DKA, is a dangerous condition that can develop when blood glucose stays very high and there is not enough insulin. Without insulin, the body cannot use glucose for energy, so it starts to break down fat instead. This produces acids called <strong>ketones</strong>, which build up and make the blood dangerously acidic. DKA is a medical emergency and is far more common in people with <strong>Type 1</strong> diabetes.</p><ul><li><strong>What it is:</strong> ketones build up when there is not enough insulin.</li><li><strong>Who is most at risk:</strong> people with Type 1 diabetes.</li><li><strong>How serious:</strong> a life-threatening emergency.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3d9b309d-2ca3-4bb9-9d5e-b908f0bf7c40",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for DKA emergency",
+          "decorative": false,
+          "file": {
+            "path": "images/dka-emergency.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "df3d5d04-6130-45cf-9c58-8b7fd12ab8f6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising and acting on DKA</h2><p>DKA often follows the signs of a hyper &mdash; great thirst and passing lots of urine &mdash; but the person becomes much more unwell. Warning signs include feeling and being sick, tummy pain, deep or rapid breathing, breath that smells sweet or fruity (like pear drops or nail varnish), and becoming drowsy or confused.</p><p>DKA can develop over hours and can be life-threatening, so it needs emergency treatment in hospital. If someone with diabetes shows these signs, <strong>call 999</strong> or seek urgent medical help, follow your service's escalation procedure, and stay with them. As always, this is about recognising and responding &mdash; you are not expected to diagnose or treat DKA yourself, but spotting it early and raising the alarm can save a life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ae7bf22a-a54a-4444-b0bf-eaf6c40e05c8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these could be a warning sign of diabetic ketoacidosis (DKA)?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Being sick, tummy pain, deep or rapid breathing and breath that smells sweet or fruity.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. These, alongside great thirst and high glucose, are warning signs of DKA and need urgent help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Feeling shaky, sweaty and hungry that settles after a sugary drink.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Those are signs of a hypo (low glucose), not DKA, which is caused by very high glucose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Feeling calm and well with a normal appetite.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "DKA makes a person increasingly unwell; feeling well is not a sign of it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Sleeping soundly through the night with no thirst.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "DKA usually brings great thirst and frequent urination, not undisturbed, thirst-free sleep.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "351caacc-a164-4a06-807c-d3b904aefbd1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

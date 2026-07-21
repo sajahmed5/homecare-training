@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What sepsis is</h2><p>Sepsis is the body's <strong>overwhelming and life-threatening response to an infection</strong>. Normally, when germs invade the body, the immune system fights back in a controlled way. In sepsis, that response goes into overdrive and begins to injure the body's own tissues and organs. Left unchecked, this can lead to organ failure, shock and death. Sepsis is sometimes called blood poisoning, but it is really the body's own reaction that causes the harm.</p><ul><li><strong>Trigger:</strong> an infection anywhere in the body.</li><li><strong>The problem:</strong> the immune response damages the person's own organs.</li><li><strong>The danger:</strong> it can be fatal if not treated quickly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a1caaa37-1ac6-4549-974b-d8071bfa5af9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What sepsis is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-sepsis-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2bf388f5-d6fa-47a1-be8e-691570848eb8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why speed matters so much</h2><p>Sepsis can develop from a seemingly minor infection and become deadly within hours. The sooner it is recognised and treated, the better the person's chance of survival and full recovery &mdash; and every hour of delay increases the risk of serious harm. This is exactly why your early noticing matters. You do not need to be certain it is sepsis; you only need to be worried enough to raise the alarm.</p><p>Because sepsis moves fast, it is always treated as an emergency. Treatment such as antibiotics and fluids has to be given urgently in hospital. That treatment can only start once someone has recognised the danger and escalated it, and that first person is very often a care worker like you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fc027082-792a-466a-85d7-8fcea4820be9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best describes what sepsis is?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The body's overwhelming response to an infection, which begins to damage its own tissues and organs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Sepsis is the body's own extreme reaction to infection, and it can become life-threatening very quickly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A mild skin rash that clears up on its own within a few days.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; sepsis is a life-threatening emergency, not a minor rash that resolves by itself.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A type of infection that only affects the lungs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; sepsis can follow almost any infection, not only chest infections.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A long-term condition that develops slowly over many years.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; sepsis can develop within hours and is a medical emergency.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "19bb47bd-c021-4b3f-9ba5-1439af7ad025",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

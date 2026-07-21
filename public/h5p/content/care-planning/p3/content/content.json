@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting the person first</h2><p><strong>Person-centred care</strong> means planning support around the individual &mdash; their life, their preferences and their goals &mdash; rather than fitting the person into a fixed routine. It treats the person as the expert on their own life and as an active partner, not a passive recipient of care.</p><ul><li><strong>The whole person:</strong> their history, relationships, culture, faith and interests all matter.</li><li><strong>Their voice:</strong> what the person wants leads the plan wherever possible.</li><li><strong>Their strengths:</strong> what someone can still do is valued as much as what they cannot.</li></ul><p>A care plan is where person-centred care is written down, so that everyone supporting the person works in the same, personalised way.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8e84b271-cf36-4d90-9bf9-54335e7f18f5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Person-centred care",
+          "decorative": false,
+          "file": {
+            "path": "images/person-centred-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c6f1b8b6-1616-45b0-bd34-07d2e811d455",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why it matters day to day</h2><p>The Care Act 2014 is built on the idea of <strong>wellbeing</strong> &mdash; a person's dignity, control over daily life, relationships and participation in the community. A person-centred plan protects that wellbeing by keeping support tied to what the individual actually wants, not to what is quickest or most convenient.</p><p>For you, working in a person-centred way means reading the plan closely and delivering care the way this particular person prefers: the name they like to be called, the order they get ready in the morning, the cup of tea made just so. These details are not trivial. They are what make care feel respectful rather than routine, and they are exactly the things a good care plan captures. When you honour them, you help the person feel known, valued and in control of their own life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "457be38f-e314-48ee-94e8-a04d3f535bf1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does it mean to deliver care in a person-centred way?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Planning and giving support around the individual's own preferences, strengths and goals</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Person-centred care starts from the person and treats them as a partner in their own support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Following the same fixed routine with everyone so care is consistent</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. A fixed routine for everyone ignores what makes each person an individual.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deciding what is best for the person because you are the trained worker</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Person-centred care values the person's own voice; it is not about deciding for them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Doing tasks as quickly as possible to fit more people into the day</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Speed and convenience must never replace support shaped around the individual.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "fa7aff4b-3fe4-4378-9e11-8595ca8bda94",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

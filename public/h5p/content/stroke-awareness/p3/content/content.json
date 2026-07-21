@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Two main types of stroke</h2><p>Most strokes fall into one of two types, depending on <strong>why</strong> the blood supply is interrupted. Knowing that there are different types helps you understand why hospital assessment is so important: the treatment for each is different, and only a brain scan can tell them apart. Whatever the type, the emergency response from you is exactly the same.</p><ul><li><strong>Ischaemic stroke:</strong> a clot blocks a blood vessel supplying the brain.</li><li><strong>Haemorrhagic stroke:</strong> a blood vessel in or around the brain bursts and bleeds.</li><li><strong>Both are emergencies:</strong> only a hospital scan can tell which it is.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6247269-637a-4b47-995f-34b4f62df040",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types of stroke",
+          "decorative": false,
+          "file": {
+            "path": "images/types-of-stroke.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7467a310-2e2f-47d6-8277-d781d0b49e7d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The TIA or &ldquo;mini-stroke&rdquo;</h2><p>An <strong>ischaemic</strong> stroke is the most common type and is caused by a clot blocking the flow of blood to the brain. A <strong>haemorrhagic</strong> stroke is caused by bleeding, when a blood vessel bursts. There is also a transient ischaemic attack, or <strong>TIA</strong>, often called a &ldquo;mini-stroke&rdquo;. In a TIA the blood supply is only interrupted briefly, so the symptoms pass, sometimes within minutes.</p><p>A TIA must never be dismissed just because the person seems to recover. It is a serious <strong>warning sign</strong> that a larger stroke may follow, and it still needs urgent medical help. If you see stroke signs that then pass, treat it as an emergency and call 999 &mdash; do not wait to see what happens.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "04f2f23f-51e8-44fc-9a70-d51878cf0f68",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "There are two main types of stroke. An *ischaemic* stroke is caused by a *clot* blocking blood flow, while a *haemorrhagic* stroke is caused by *bleeding*. A brief *TIA* is a warning that still needs urgent help.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "abb2e2d2-2dec-4762-982f-d8f535db16a8",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

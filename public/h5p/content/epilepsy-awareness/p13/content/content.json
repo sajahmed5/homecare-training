@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred, dignified support</h2><p>Living with epilepsy is about far more than seizures. Many people have their epilepsy well controlled and want to live full, independent lives. Your support should help them do exactly that, treating them as an individual and never letting the condition define them.</p><ul><li><strong>Independence:</strong> support the person to do what they can and want to do.</li><li><strong>Dignity:</strong> handle seizures and their aftermath with sensitivity and respect.</li><li><strong>Accurate recording:</strong> keep clear, factual records that help their care.</li></ul><p>Listen to the person, follow their care plan, and involve them in decisions about their own life. Good epilepsy support is person-centred first and foremost.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "84427a1e-f66a-4806-b8b3-baa0009660a9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Person-centred support",
+          "decorative": false,
+          "file": {
+            "path": "images/person-centred-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1bdca2c0-29a4-47f1-a0f0-77f6320cd043",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on epilepsy. You have learned that epilepsy is a common condition in which a sudden burst of electrical activity in the brain causes seizures; the main types of seizure and the auras and triggers linked to them; safe first aid for a convulsive seizure; and how to recognise an emergency, escalate it, and give ongoing, dignified support.</p><p>Remember the key point from the start: this course covers <strong>awareness and knowledge</strong> only. It helps you support people and give safe seizure first aid, but it does not qualify you to give rescue or emergency medication such as buccal midazolam &mdash; that is only ever given by staff with specific training, assessed competence and an individual protocol. Follow each person's care plan, record what you see accurately, and ask your manager whenever you are unsure. Carry this awareness into your everyday care &amp; support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0a8f8e13-709c-446a-b1d6-d9f8669a65af",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the best summary of your role in supporting someone with epilepsy?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Support the person, give safe seizure first aid, recognise emergencies and escalate, and record accurately</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Awareness means supporting, giving safe first aid, escalating emergencies and keeping good records.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Diagnose the type of epilepsy and adjust their medication</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Diagnosis and medication are for the specialist team; your role is awareness and safe support.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give rescue medication whenever a seizure happens</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Rescue medication is only given by staff with specific training, competence and an individual protocol.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Restrain the person to keep them still until the seizure stops</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. You must never restrain someone during a seizure; protect them from injury and stay with them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "78aad445-a8df-432d-89dd-3cc8c3d298b7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

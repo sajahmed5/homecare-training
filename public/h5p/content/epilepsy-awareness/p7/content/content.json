@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>First aid for a convulsive seizure</h2><p>When someone has a tonic-clonic (convulsive) seizure, calm and simple first aid keeps them safe until it passes. You cannot stop the seizure, and you do not need to &mdash; your job is to protect the person from injury and stay with them. Remember the key actions:</p><ul><li><strong>Protect from injury:</strong> guide them gently and move dangerous objects away.</li><li><strong>Cushion the head:</strong> put something soft under their head.</li><li><strong>Time it:</strong> note when the seizure starts and how long it lasts.</li></ul><p>Try to stay calm. Most seizures stop on their own within a few minutes, and your steady presence helps everyone around you stay calm too.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3fa553c0-b968-471d-900e-4c9c08f3899e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Convulsive first aid",
+          "decorative": false,
+          "file": {
+            "path": "images/convulsive-first-aid.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "db748a45-b5f2-49f9-949c-869da00f1a23",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Protecting the person</h2><p>As soon as you realise someone is having a convulsive seizure, look at the space around them. If they are on the ground, <strong>cushion their head</strong> with something soft such as a folded cushion or jumper to protect it from the hard floor. <strong>Remove harmful objects</strong> from nearby, or, if the person cannot be moved, move the hazards away &mdash; hot drinks, furniture with sharp corners, or anything they could knock into.</p><p>Do not try to move the person unless they are in a dangerous place, such as a road or by a fire. Loosen anything tight around their neck if you can do so easily, and note the time the seizure began. Speak gently and reassuringly, even if they cannot respond &mdash; hearing a calm voice can be comforting. Stay with them throughout, and keep other people back so the person has space and privacy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "566b23a1-8555-407b-b9dd-d2c61304552d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support falls and begins a convulsive seizure on the floor. What should you do first?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Cushion their head, move nearby objects that could harm them, and note the time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Protecting the head, clearing hazards and timing the seizure are the right first actions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hold their arms and legs still to stop the jerking</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. You must never restrain someone during a seizure; protect them from injury instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put a spoon or your fingers into their mouth</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. You must never put anything in the person's mouth; cushion their head and clear hazards instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Lift them onto a chair straight away</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Do not move the person unless they are in danger; cushion their head and clear hazards where they are.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c497ac14-72ab-400f-a643-bba1c42004cb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

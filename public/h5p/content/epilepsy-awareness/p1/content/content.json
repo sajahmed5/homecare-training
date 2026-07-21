@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Epilepsy Awareness</h2><p>Welcome to this awareness course on <strong>epilepsy</strong>. Epilepsy is a common condition in which a person has a tendency to have seizures. A seizure happens when there is a sudden burst of intense electrical activity in the brain, which briefly disrupts how the brain normally works. This course is for care workers in England and is grounded in national guidance from NICE (NG217) and information from Epilepsy Action and the Epilepsy Society.</p><ul><li><strong>Awareness:</strong> your role is to support the person, give safe seizure first aid and recognise an emergency.</li><li><strong>Individual:</strong> epilepsy affects every person differently, so you follow their care plan.</li><li><strong>Knowledge only:</strong> this e-learning covers what you need to know, not hands-on competence.</li></ul><p>This course covers the <strong>knowledge</strong> element of epilepsy awareness. Giving emergency or rescue medication, such as buccal midazolam, is a separate matter: it is only ever given by staff who have specific training, assessed competence and an individual protocol for that person. Nothing in this course qualifies you to administer it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c216e59a-1358-4409-bb2d-30b11839dbb0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b2c663c7-6d29-4429-a95a-ad36801e1f3a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will build a clear picture of epilepsy and your part in supporting someone who lives with it.</p><ul><li><strong>Understanding:</strong> what epilepsy is, how common it is and your role.</li><li><strong>Seizures:</strong> the main types, and the auras and triggers that can precede them.</li><li><strong>First aid and emergencies:</strong> what to do, when to call 999, and how to give ongoing support.</li></ul><p>Throughout, keep the people you support in mind. Epilepsy is different for each person, so the detail that matters most will be written in their <strong>care plan</strong>. Your job is to know the general principles here and to combine them with what you are told about each individual you care for.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f4397103-d3d8-48ed-a990-2af3a24c5e03",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

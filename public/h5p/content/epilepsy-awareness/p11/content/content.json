@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Rescue medication</h2><p>Some people who are at risk of long or repeated seizures are prescribed <strong>rescue medication</strong> (also called emergency medication), such as buccal midazolam, which is given into the side of the mouth. It is used to stop a prolonged seizure before it becomes more dangerous, following the person's individual protocol.</p><ul><li><strong>Prescribed individually:</strong> it is prescribed for a named person, with their own protocol.</li><li><strong>Specific training:</strong> only staff who are trained and assessed as competent may give it.</li><li><strong>Not this course:</strong> awareness training does not qualify you to administer it.</li></ul><p>If you have not had this specific training for that individual, you do not give rescue medication. Your role is to give first aid, call for help, and stay with the person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "772ca23d-fe93-4a10-9940-20f9898b6023",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Rescue medication",
+          "decorative": false,
+          "file": {
+            "path": "images/rescue-medication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "205073ad-dc08-444a-ad82-c001fa5e9a0f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Care plans and protocols</h2><p>Everyone you support who has epilepsy should have information about their condition in their <strong>care plan</strong>. This may include what their seizures usually look like, how long they normally last, their known triggers, what to do, and when to call for help. Where rescue medication is prescribed, there will be an individual protocol setting out exactly when and how trained staff give it.</p><p>Reading and following the care plan is essential, because epilepsy is so individual. A plan might tell you that a particular person often has seizures lasting a few minutes, so that only longer ones need an ambulance. Without a plan, or if you are unsure, you fall back on the general rules in this course &mdash; including calling 999 for a convulsive seizure lasting more than 5 minutes. Always check the plan, and ask your manager if anything is unclear.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6641d8a5-9045-4f7b-8612-817a26c2a2ff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Any care worker who has completed epilepsy awareness training is allowed to give buccal midazolam rescue medication.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. Rescue medication such as buccal midazolam is only given by staff with specific training, assessed competence and an individual protocol; awareness training alone does not qualify you.",
+            "correctAnswerMessage": "Correct. Rescue medication is only given by staff with specific training, assessed competence and an individual protocol &mdash; awareness training alone is not enough."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "075da35a-efb1-44ab-88de-15d3193dc78f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

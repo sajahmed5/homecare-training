@@ -3,95 +3,368 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 1,
    "file": "welcome.svg",
    "alt": "Illustration for Welcome",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p1/content/images"
+   "srcDir": "public/h5p/content/sepsis/p1/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 2,
-   "file": "what-is-a-tracheostomy.svg",
-   "alt": "Illustration for What is a tracheostomy?",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p2/content/images"
+   "file": "what-sepsis-is.svg",
+   "alt": "Illustration for What sepsis is",
+   "srcDir": "public/h5p/content/sepsis/p2/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 3,
-   "file": "tube-types.svg",
-   "alt": "Illustration for Tube types",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p3/content/images"
+   "file": "who-is-at-risk.svg",
+   "alt": "Illustration for Who is at risk",
+   "srcDir": "public/h5p/content/sepsis/p3/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 4,
-   "file": "trach-or-laryngectomy.svg",
-   "alt": "Illustration for Trach or laryngectomy",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p4/content/images"
+   "file": "recognising-sepsis.svg",
+   "alt": "Illustration for Recognising sepsis",
+   "srcDir": "public/h5p/content/sepsis/p4/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 5,
-   "file": "humidification.svg",
-   "alt": "Illustration for Humidification",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p5/content/images"
+   "file": "key-warning-signs.svg",
+   "alt": "Illustration for Key warning signs",
+   "srcDir": "public/h5p/content/sepsis/p5/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 6,
-   "file": "stoma-and-ties.svg",
-   "alt": "Illustration for Stoma and ties",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p6/content/images"
+   "file": "more-warning-signs.svg",
+   "alt": "Illustration for More warning signs",
+   "srcDir": "public/h5p/content/sepsis/p6/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 7,
-   "file": "water-and-comfort.svg",
-   "alt": "Illustration for Water and comfort",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p7/content/images"
+   "file": "any-infection-counts.svg",
+   "alt": "Illustration for Any infection counts",
+   "srcDir": "public/h5p/content/sepsis/p7/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 8,
-   "file": "what-is-suctioning.svg",
-   "alt": "Illustration for What is suctioning?",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p8/content/images"
+   "file": "your-role.svg",
+   "alt": "Illustration for Your role",
+   "srcDir": "public/h5p/content/sepsis/p8/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 9,
-   "file": "signs-of-a-clogged-airway.svg",
-   "alt": "Illustration for Signs of a clogged airway",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p9/content/images"
+   "file": "say-the-word.svg",
+   "alt": "Illustration for Say the word",
+   "srcDir": "public/h5p/content/sepsis/p9/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 10,
-   "file": "inner-tubes-and-limits.svg",
-   "alt": "Illustration for Inner tubes and limits",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p10/content/images"
+   "file": "stay-and-record.svg",
+   "alt": "Illustration for Stay and record",
+   "srcDir": "public/h5p/content/sepsis/p10/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 11,
-   "file": "recognising-emergencies.svg",
-   "alt": "Illustration for Recognising emergencies",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p11/content/images"
+   "file": "preventing-infection.svg",
+   "alt": "Illustration for Preventing infection",
+   "srcDir": "public/h5p/content/sepsis/p11/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 12,
-   "file": "the-bedhead-sign-and-999.svg",
-   "alt": "Illustration for The bedhead sign and 999",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p12/content/images"
+   "file": "recovery-and-support.svg",
+   "alt": "Illustration for Recovery and support",
+   "srcDir": "public/h5p/content/sepsis/p12/content/images"
   },
   {
-   "course": "tracheostomy-awareness",
+   "course": "sepsis",
    "page": 13,
-   "file": "getting-help-and-summary.svg",
-   "alt": "Illustration for Getting help and summary",
-   "srcDir": "public/h5p/content/tracheostomy-awareness/p13/content/images"
+   "file": "bringing-it-together.svg",
+   "alt": "Illustration for Bringing it together",
+   "srcDir": "public/h5p/content/sepsis/p13/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 1,
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/stroke-awareness/p1/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 2,
+   "file": "what-is-a-stroke.svg",
+   "alt": "Illustration for What is a stroke?",
+   "srcDir": "public/h5p/content/stroke-awareness/p2/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 3,
+   "file": "types-of-stroke.svg",
+   "alt": "Illustration for Types of stroke",
+   "srcDir": "public/h5p/content/stroke-awareness/p3/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 4,
+   "file": "risk-factors.svg",
+   "alt": "Illustration for Risk factors",
+   "srcDir": "public/h5p/content/stroke-awareness/p4/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 5,
+   "file": "the-fast-test.svg",
+   "alt": "Illustration for The FAST test",
+   "srcDir": "public/h5p/content/stroke-awareness/p5/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 6,
+   "file": "other-signs.svg",
+   "alt": "Illustration for Other signs",
+   "srcDir": "public/h5p/content/stroke-awareness/p6/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 7,
+   "file": "recognising-in-practice.svg",
+   "alt": "Illustration for Recognising in practice",
+   "srcDir": "public/h5p/content/stroke-awareness/p7/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 8,
+   "file": "call-999-now.svg",
+   "alt": "Illustration for Call 999 now",
+   "srcDir": "public/h5p/content/stroke-awareness/p8/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 9,
+   "file": "note-the-time-stay.svg",
+   "alt": "Illustration for Note the time, stay",
+   "srcDir": "public/h5p/content/stroke-awareness/p9/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 10,
+   "file": "comfort-no-food-or-drink.svg",
+   "alt": "Illustration for Comfort, no food or drink",
+   "srcDir": "public/h5p/content/stroke-awareness/p10/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 11,
+   "file": "effects-of-a-stroke.svg",
+   "alt": "Illustration for Effects of a stroke",
+   "srcDir": "public/h5p/content/stroke-awareness/p11/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 12,
+   "file": "communication-and-rehab.svg",
+   "alt": "Illustration for Communication and rehab",
+   "srcDir": "public/h5p/content/stroke-awareness/p12/content/images"
+  },
+  {
+   "course": "stroke-awareness",
+   "page": 13,
+   "file": "reducing-risk-and-summary.svg",
+   "alt": "Illustration for Reducing risk and summary",
+   "srcDir": "public/h5p/content/stroke-awareness/p13/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 1,
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/diabetes-awareness/p1/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 2,
+   "file": "glucose-and-insulin.svg",
+   "alt": "Illustration for Glucose and insulin",
+   "srcDir": "public/h5p/content/diabetes-awareness/p2/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 3,
+   "file": "types-of-diabetes.svg",
+   "alt": "Illustration for Types of diabetes",
+   "srcDir": "public/h5p/content/diabetes-awareness/p3/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 4,
+   "file": "good-control-matters.svg",
+   "alt": "Illustration for Good control matters",
+   "srcDir": "public/h5p/content/diabetes-awareness/p4/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 5,
+   "file": "what-is-a-hypo.svg",
+   "alt": "Illustration for What is a hypo",
+   "srcDir": "public/h5p/content/diabetes-awareness/p5/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 6,
+   "file": "signs-of-a-hypo.svg",
+   "alt": "Illustration for Signs of a hypo",
+   "srcDir": "public/h5p/content/diabetes-awareness/p6/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 7,
+   "file": "responding-to-a-hypo.svg",
+   "alt": "Illustration for Responding to a hypo",
+   "srcDir": "public/h5p/content/diabetes-awareness/p7/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 8,
+   "file": "high-blood-glucose.svg",
+   "alt": "Illustration for High blood glucose",
+   "srcDir": "public/h5p/content/diabetes-awareness/p8/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 9,
+   "file": "dka-emergency.svg",
+   "alt": "Illustration for DKA emergency",
+   "srcDir": "public/h5p/content/diabetes-awareness/p9/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 10,
+   "file": "when-to-escalate.svg",
+   "alt": "Illustration for When to escalate",
+   "srcDir": "public/h5p/content/diabetes-awareness/p10/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 11,
+   "file": "eating-and-activity.svg",
+   "alt": "Illustration for Eating and activity",
+   "srcDir": "public/h5p/content/diabetes-awareness/p11/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 12,
+   "file": "medication-and-feet.svg",
+   "alt": "Illustration for Medication and feet",
+   "srcDir": "public/h5p/content/diabetes-awareness/p12/content/images"
+  },
+  {
+   "course": "diabetes-awareness",
+   "page": 13,
+   "file": "your-everyday-role.svg",
+   "alt": "Illustration for Your everyday role",
+   "srcDir": "public/h5p/content/diabetes-awareness/p13/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 1,
+   "file": "welcome.svg",
+   "alt": "Illustration for Welcome",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p1/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 2,
+   "file": "what-epilepsy-is.svg",
+   "alt": "Illustration for What epilepsy is",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p2/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 3,
+   "file": "common-and-your-role.svg",
+   "alt": "Illustration for Common and your role",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p3/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 4,
+   "file": "tonic-clonic-and-absence.svg",
+   "alt": "Illustration for Tonic-clonic and absence",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p4/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 5,
+   "file": "focal-seizures.svg",
+   "alt": "Illustration for Focal seizures",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p5/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 6,
+   "file": "auras-and-triggers.svg",
+   "alt": "Illustration for Auras and triggers",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p6/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 7,
+   "file": "convulsive-first-aid.svg",
+   "alt": "Illustration for Convulsive first aid",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p7/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 8,
+   "file": "what-not-to-do.svg",
+   "alt": "Illustration for What not to do",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p8/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 9,
+   "file": "timing-and-dignity.svg",
+   "alt": "Illustration for Timing and dignity",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p9/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 10,
+   "file": "when-to-call-999.svg",
+   "alt": "Illustration for When to call 999",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p10/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 11,
+   "file": "rescue-medication.svg",
+   "alt": "Illustration for Rescue medication",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p11/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 12,
+   "file": "records-and-sudep.svg",
+   "alt": "Illustration for Records and SUDEP",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p12/content/images"
+  },
+  {
+   "course": "epilepsy-awareness",
+   "page": 13,
+   "file": "person-centred-support.svg",
+   "alt": "Illustration for Person-centred support",
+   "srcDir": "public/h5p/content/epilepsy-awareness/p13/content/images"
   }
  ]
 }

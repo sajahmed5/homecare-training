@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication and aphasia</h2><p>A stroke can affect communication in a condition called <strong>aphasia</strong>, which makes it hard for a person to speak, understand, read or write. Importantly, aphasia does <strong>not</strong> affect a person's intelligence &mdash; they know what they want to say but have difficulty getting the words out or making sense of the words they hear. Losing the ability to communicate can be deeply frustrating and isolating.</p><ul><li><strong>Aphasia:</strong> difficulty with speaking, understanding, reading or writing.</li><li><strong>Not intelligence:</strong> the person is as capable as ever inside.</li><li><strong>Your role:</strong> give time, patience, and other ways to communicate.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b25c7645-bfb5-47d6-92dd-fc6260d7fd43",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication and rehab",
+          "decorative": false,
+          "file": {
+            "path": "images/communication-and-rehab.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1e3bd5ba-3662-4bc0-b15c-aeb92d279b7b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting communication and recovery</h2><p>You can support someone with aphasia by giving them <strong>time</strong>, not rushing or finishing their sentences, using short sentences and questions, and offering other ways to communicate such as writing, pictures, gestures or a communication aid. Never speak over the person or assume they cannot understand. Treating them as a capable adult protects their dignity and confidence.</p><p>Recovery after a stroke should be <strong>person-centred</strong>, built around the individual's own goals, strengths and wishes, and it often involves a team including physiotherapists, occupational therapists, and speech &amp; language therapists. Your part is to encourage and support the exercises and approaches set out in the care plan, celebrate small gains, and help the person stay motivated through what can be a long journey.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6ab8ed9b-a6bf-48ff-a845-47752f3117b8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How can you best support someone with aphasia after a stroke?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Give them time, do not rush or finish their sentences, and offer other ways to communicate such as pictures or writing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Patience and offering other means of communication protect the person's dignity and confidence.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Speak for them so they do not have to make the effort.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; speaking for the person removes their voice; give them time to communicate themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Talk loudly and quickly to help them keep up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; speaking loudly and quickly makes things harder; use short, clear sentences and give time.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they can no longer understand and speak only to their relatives.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; aphasia does not affect intelligence; always include and address the person directly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0cd03fbb-fb8b-4e2e-9f14-37bca3ca5b14",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stay with the person</h2><p>Once you have raised the alarm, stay with the person wherever you can. Someone with possible sepsis can deteriorate quickly, so they should not be left alone. Keep them comfortable, offer reassurance in a calm voice, and keep watching for any change while help is on the way. If you must leave to get help, make sure someone else is with them or that emergency services are already coming.</p><ul><li><strong>Stay close:</strong> do not leave a seriously unwell person alone.</li><li><strong>Reassure:</strong> stay calm and keep the person company.</li><li><strong>Keep watching:</strong> report any further change straight away.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "26f53afb-2e7e-4566-8064-54b69cb216a1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Stay and record",
+          "decorative": false,
+          "file": {
+            "path": "images/stay-and-record.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "56a07994-3160-4c26-8168-34f105294b22",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Note the time and what you saw</h2><p>As soon as you can, note the <strong>time</strong> you first became concerned and what you observed &mdash; the signs, when they started, and how the person has changed. If you have taken any observations, such as temperature, pass them on. This information helps the clinical team understand how fast things are moving and make the right decisions quickly.</p><p>Accurate, timed information is genuinely useful in an emergency, but it must never slow down your escalation. Get help first, then record the detail. Clear notes also support good handovers and help everyone learn afterwards. When you hand over, be specific about what you saw, when, and what you did about it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e28846ae-659b-40e4-9be8-c67f796104c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If you suspect sepsis, it is best to wait a few hours to see whether the person improves before telling anyone.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Waiting is dangerous with possible sepsis. You should escalate immediately rather than watch and wait.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Sepsis can worsen rapidly, so you must escalate straight away and never wait to &ldquo;see how they go&rdquo;."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "d61a8310-196c-4871-96ee-56645f904099",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Diabetes Awareness</h2><p>Diabetes is one of the most common long-term conditions you will meet in adult social care. Many of the people you support will be living with it, and the everyday care you give &mdash; around meals, medication reminders, activity and simply noticing when someone is unwell &mdash; makes a real difference to how well they stay. This course builds your awareness so you can support people confidently and know when to act.</p><ul><li><strong>Understand:</strong> what diabetes is and the main types.</li><li><strong>Recognise:</strong> the signs of a hypo and a hyper.</li><li><strong>Respond:</strong> knowing what to do and when to call for help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5e5c4ae5-478a-48a8-b1f9-2346ddd7d850",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0e5ce067-ca16-42e0-8a6c-f1794a4448aa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn how the body uses glucose, the difference between Type 1 and Type 2 diabetes, why good control matters, and how to recognise and respond to the two main emergencies &mdash; hypoglycaemia and hyperglycaemia. You will also see how to support people with diabetes in their daily lives. It is grounded in NICE guidance, Diabetes UK information and NHS good practice.</p><p>This is an <strong>awareness and knowledge</strong> course. It helps you support people and recognise problems, but it does <strong>not</strong> authorise you to administer insulin or any diabetes medication. That may only be done with specific training, assessed competence and a proper delegation from a qualified professional. You do not diagnose diabetes &mdash; that is a clinical decision.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e648bebb-9a67-4921-ad72-8c132a528b0f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and learning</h2><p>Accurate <strong>recording</strong> supports safe care before, during and after sepsis. Clear notes about a person's usual state make it easier to spot when they change, and timed, factual records of any episode help the whole team respond and learn. Write what you saw, when, and what you did, using plain and objective language. Good records protect the person and support everyone involved in their care.</p><ul><li><strong>Record early:</strong> note changes and the time you noticed them.</li><li><strong>Be factual:</strong> describe what you observed, not what you assume.</li><li><strong>Share it:</strong> use records to support handovers and learning.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5e4ae1b4-eb88-4d54-adb3-3a0047e5d821",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Bringing it together",
+          "decorative": false,
+          "file": {
+            "path": "images/bringing-it-together.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f44ec328-65cc-42cb-8792-da9aac30d3d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Remember: recognise and escalate</h2><p>You have learned what sepsis is, who is most at risk, how to recognise the warning signs, how to act fast, and how to help with prevention and recovery. The heart of it all is simple: if a person &ldquo;just doesn't look right&rdquo;, ask <strong>&ldquo;could this be sepsis?&rdquo;</strong>, and get urgent help without delay.</p><p>This course has given you awareness and knowledge to help you recognise and escalate &mdash; it does not replace clinical assessment. You are not expected to diagnose or treat sepsis. If you ever suspect sepsis, you must get urgent help immediately: tell a senior or nurse, or call 999 if the person is very unwell. When in doubt, speak up, say the word &ldquo;sepsis&rdquo;, and act fast. Your quick action could save a life.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bc0917cd-39aa-476d-a84c-19efd4f3eea3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

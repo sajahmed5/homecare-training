@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Other signs of a stroke</h2><p>FAST covers the most common signs, but a stroke can show itself in other ways too, and these often come on <strong>suddenly</strong>. Sudden onset is the key clue: a symptom that appears out of nowhere, without warning, should make you think of a stroke. Being aware of the wider range of signs means you will not miss a stroke that does not fit the FAST pattern.</p><ul><li><strong>Sudden weakness:</strong> or numbness on one side of the body.</li><li><strong>Sudden confusion:</strong> or trouble speaking or understanding.</li><li><strong>Sudden problems:</strong> with vision, balance, or a severe headache.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cdadfd15-c6e7-4e75-9f37-a333d8dcceb3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Other signs",
+          "decorative": false,
+          "file": {
+            "path": "images/other-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4d0d59b9-d1eb-45e0-8d83-716a81f7e98b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Watching for the sudden and unexplained</h2><p>Other warning signs include <strong>sudden weakness or numbness</strong> down one side of the body, affecting the face, arm or leg; <strong>sudden confusion</strong> or difficulty speaking or understanding others; <strong>sudden trouble with vision</strong> in one or both eyes; a <strong>sudden loss of balance</strong> or coordination, dizziness or difficulty walking; and a <strong>sudden severe headache</strong> with no known cause, sometimes described as the worst the person has ever had.</p><p>You do not need to be certain which sign means what, and you should never talk yourself out of acting because it &ldquo;might be nothing&rdquo;. If any of these appear suddenly, treat it as a possible stroke. It is always better to call 999 and be reassured than to wait and let treatable damage become permanent.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "13037698-e621-46f7-992e-2296706b7408",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

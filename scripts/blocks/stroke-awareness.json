@@ -1,0 +1,97 @@
+{
+  "slug": "stroke-awareness",
+  "title": "Stroke Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What a stroke is"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p2",
+      "label": "What is a stroke?",
+      "questions": 1,
+      "section": "What a stroke is"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p3",
+      "label": "Types of stroke",
+      "questions": 1,
+      "section": "What a stroke is"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p4",
+      "label": "Risk factors",
+      "questions": 1,
+      "section": "What a stroke is"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p5",
+      "label": "The FAST test",
+      "questions": 1,
+      "section": "Recognising a stroke"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p6",
+      "label": "Other signs",
+      "questions": 0,
+      "section": "Recognising a stroke"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p7",
+      "label": "Recognising in practice",
+      "questions": 1,
+      "section": "Recognising a stroke"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p8",
+      "label": "Call 999 now",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p9",
+      "label": "Note the time, stay",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p10",
+      "label": "Comfort, no food or drink",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p11",
+      "label": "Effects of a stroke",
+      "questions": 1,
+      "section": "Life after stroke"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p12",
+      "label": "Communication and rehab",
+      "questions": 1,
+      "section": "Life after stroke"
+    },
+    {
+      "type": "h5p",
+      "path": "stroke-awareness/p13",
+      "label": "Reducing risk and summary",
+      "questions": 0,
+      "section": "Life after stroke"
+    }
+  ]
+}

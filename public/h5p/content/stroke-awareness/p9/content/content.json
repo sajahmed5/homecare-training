@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Note the time symptoms started</h2><p>One piece of information is especially valuable to the hospital: the <strong>time the symptoms started</strong>, or the time the person was last seen well. Some stroke treatments can only be given within a certain window of time from when the stroke began, so knowing this helps the medical team decide quickly what treatment is safe. Note it as accurately as you can.</p><ul><li><strong>Note the time:</strong> when did the signs first appear?</li><li><strong>Last seen well:</strong> if unsure, note when the person was last normal.</li><li><strong>Pass it on:</strong> tell the call handler and paramedics this time.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "38ff3edf-e2e2-4407-b6e7-5e96bbbc016e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Note the time, stay",
+          "decorative": false,
+          "file": {
+            "path": "images/note-the-time-stay.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "da9b237e-8450-4af9-b3e5-8604d66f3fc4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Stay with the person</h2><p>After calling 999, <strong>stay with the person</strong>. Do not leave them alone, because their condition can change quickly and they may become more unwell or unable to help themselves. Keep them <strong>calm and comfortable</strong>, reassure them in a gentle voice, and explain simply that help is on the way. A stroke is frightening, and your calm presence matters a great deal.</p><p>Watch the person closely while you wait, and if their breathing or their responsiveness changes, tell the 999 call handler, who can guide you. Gather any useful information for the paramedics, such as the person's medication and the time the symptoms began, so that it is ready when the ambulance arrives.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "56800868-5c73-4b6a-b5a6-74f44422477c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Noting the time a person's stroke symptoms started is useful information for the hospital.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. The time symptoms started is very important &mdash; some stroke treatments can only be given within a set time window.",
+            "correctAnswerMessage": "Correct. Some treatments must be given within a set time from when the stroke began, so this information is vital."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "cfb237a1-424a-4db8-ae0b-a89ef174627f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

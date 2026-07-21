@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Assessment, plan and review</h2><p>Care planning is not a single document but an ongoing <strong>cycle</strong>. Understanding the three stages helps you see where your work fits and who is responsible for what. Each stage feeds the next, and the person stays at the centre throughout.</p><ul><li><strong>Assessment:</strong> a trained assessor works out the person's needs and eligibility, as set out in the Care Act 2014.</li><li><strong>Care and support plan:</strong> a written record of how those needs will be met and the outcomes the person wants.</li><li><strong>Review:</strong> a regular check that the plan is still right and still working.</li></ul><p>You may not carry out the formal assessment or write the plan, but your daily observations feed directly into both.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6bab481b-74ff-498c-aaa2-ccb3c68e8ca3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The basics",
+          "decorative": false,
+          "file": {
+            "path": "images/the-basics.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "451136f2-20c0-4d46-86fb-024f2f35d286",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why the difference matters</h2><p>Knowing which stage you are in keeps everyone clear about their role. The Care Act 2014 places a duty on local authorities to assess a person's needs and, where they are eligible, to produce a care and support plan setting out how those needs will be met. A senior or assessor leads that work, drawing on the person's own views.</p><p>Your part comes in following the plan faithfully and feeding back what you see. If support the plan describes no longer suits the person &mdash; a task they now manage alone, or a need that has grown &mdash; that observation belongs in a review. Understanding the difference between assessing, planning and reviewing tells you when to simply follow the plan and when to speak up so it can be changed properly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b60187e6-2eac-43f5-8fb1-fbde89461c88",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about the care planning cycle.</p></p>",
+          "textField": "Assessment identifies a person's needs, the care *plan* records how those needs will be met, and a *review* checks the plan is still working. Together they form an ongoing *cycle* that keeps the plan a *living* document.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "f94d2d67-39d5-4713-a4f1-d1bbc5c52f9d",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

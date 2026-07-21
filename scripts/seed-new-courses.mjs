@@ -106,6 +106,41 @@ const NEW_COURSES = [
     description:
       "Awareness of tracheostomy care — how it changes breathing, keeping the person safe, and recognising and responding to emergencies. Awareness only — you must not suction or change a tracheostomy tube without specific training, assessed competence and delegation.",
   },
+  {
+    slug: "care-planning",
+    topic: "Person & Service Quality",
+    expiry_months: 24,
+    description:
+      "Contributing to, following and reviewing person-centred care plans — assessment, outcomes, involvement, capacity and keeping records accurate. Awareness only; formal assessment sits with your assessor.",
+  },
+  {
+    slug: "sepsis",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Recognising the signs of sepsis early and escalating fast. Awareness to help you spot \"could this be sepsis?\" and get urgent help — it does not replace clinical assessment.",
+  },
+  {
+    slug: "stroke-awareness",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Recognising a stroke with the FAST test and acting immediately, plus supporting recovery. Awareness only; a suspected stroke means calling 999 at once.",
+  },
+  {
+    slug: "diabetes-awareness",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Supporting people living with diabetes and recognising and responding to hypo and hyper emergencies. Awareness only — administering insulin or diabetes medication needs specific training, competence and delegation.",
+  },
+  {
+    slug: "epilepsy-awareness",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Understanding epilepsy, giving safe seizure first aid and recognising emergencies. Awareness only; rescue medication is given only with specific training, competence and an individual protocol.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

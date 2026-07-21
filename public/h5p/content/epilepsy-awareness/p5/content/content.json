@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Focal seizures</h2><p>Not all seizures involve the whole brain. A <strong>focal</strong> seizure (sometimes called a partial seizure) starts in just one part of the brain. What happens depends on which part is affected, so focal seizures can take many forms. An important difference between them is whether the person stays aware or not.</p><ul><li><strong>Focal aware:</strong> the person stays fully conscious and can remember it.</li><li><strong>Focal impaired awareness:</strong> the person's awareness is affected during the seizure.</li><li><strong>Varied:</strong> signs can be unusual sensations, movements or behaviour.</li></ul><p>Focal seizures are not always obvious to an onlooker, so knowing that they exist helps you understand behaviour that might otherwise seem puzzling.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1f154854-61d7-4a79-8261-5bf62fb16726",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Focal seizures",
+          "decorative": false,
+          "file": {
+            "path": "images/focal-seizures.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b0907b2f-dab3-49fc-a9ee-f8dc6ff28b1b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Aware and impaired awareness</h2><p>In a <strong>focal aware</strong> seizure the person stays conscious and knows what is happening, even though they may not be able to control it. They might notice a strange taste or smell, a rising feeling in the stomach, tingling, twitching in one part of the body, or a sudden emotion such as fear. Because they remain aware, they can often tell you about it afterwards.</p><p>In a <strong>focal impaired awareness</strong> seizure the person's awareness is affected. They may seem confused or distant, and can behave in ways that look strange or aimless &mdash; plucking at their clothing, wandering, smacking their lips, mumbling, or repeating a movement. They are not in control of this and will usually not remember it. It is important not to mistake this for the person being difficult or drunk. Stay with them, keep them safe from hazards, and let the seizure run its course.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ac4ecac5-373d-481d-b5d4-4cd2cb50ca8e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>During a focal impaired awareness seizure, a person may wander or fumble with their clothing and not be aware of what they are doing.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is true. In a focal impaired awareness seizure the person's awareness is affected, and they may behave in ways they cannot control or remember.",
+            "correctAnswerMessage": "Correct. In a focal impaired awareness seizure the person's awareness is affected, and they may behave in ways they cannot control or remember."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7fa0281d-111c-4806-b5ca-454aef9e07d9",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

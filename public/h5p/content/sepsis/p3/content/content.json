@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sepsis can affect anyone</h2><p>Sepsis can affect anyone of any age, but some people are far more likely to become seriously unwell. Many of the people you support fall into these higher-risk groups, so it is worth knowing them well. Being at higher risk does not mean someone will definitely get sepsis &mdash; it means you should be especially alert to any signs of infection or sudden change in them.</p><ul><li><strong>Age:</strong> older people and the very young are more vulnerable.</li><li><strong>Immunity:</strong> a weakened immune system reduces the ability to fight infection.</li><li><strong>Recent illness:</strong> surgery, wounds or existing infection raise the risk.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dc742ab4-55f3-4ce3-803b-afa8ebad1d9d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Who is at risk",
+          "decorative": false,
+          "file": {
+            "path": "images/who-is-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2ce4377e-50c7-47a1-80e9-91a5fa94c52a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Higher-risk groups</h2><p>People at greater risk include those over 75 and frail older people, very young children, and anyone whose immune system is weakened &mdash; for example by diabetes, chemotherapy or certain medicines. The risk is also higher for people who have had recent surgery or an invasive procedure, and for those with a break in the skin such as a wound, pressure sore, cut or burn.</p><p>Devices that enter the body, such as a urinary catheter or a drip line, give germs a route inside and so add to the risk. People who have recently had an infection, or who have been pregnant or given birth in the past six weeks, are also more vulnerable. Knowing who is most at risk helps you stay one step ahead.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1cf59dea-7a51-4154-8856-a4cf19a09773",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Sepsis can affect anyone, but the risk is higher for *older* people, the very *young*, and anyone with a weakened *immune* system or long-term *diabetes*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "bcd757e5-8e5a-4a8f-94da-6120cead290b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

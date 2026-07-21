@@ -1,0 +1,278 @@
+{
+  "slug": "diabetes-awareness",
+  "courseTitle": "Diabetes Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Understanding diabetes",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Diabetes Awareness</h2><p>Diabetes is one of the most common long-term conditions you will meet in adult social care. Many of the people you support will be living with it, and the everyday care you give &mdash; around meals, medication reminders, activity and simply noticing when someone is unwell &mdash; makes a real difference to how well they stay. This course builds your awareness so you can support people confidently and know when to act.</p><ul><li><strong>Understand:</strong> what diabetes is and the main types.</li><li><strong>Recognise:</strong> the signs of a hypo and a hyper.</li><li><strong>Respond:</strong> knowing what to do and when to call for help.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn how the body uses glucose, the difference between Type 1 and Type 2 diabetes, why good control matters, and how to recognise and respond to the two main emergencies &mdash; hypoglycaemia and hyperglycaemia. You will also see how to support people with diabetes in their daily lives. It is grounded in NICE guidance, Diabetes UK information and NHS good practice.</p><p>This is an <strong>awareness and knowledge</strong> course. It helps you support people and recognise problems, but it does <strong>not</strong> authorise you to administer insulin or any diabetes medication. That may only be done with specific training, assessed competence and a proper delegation from a qualified professional. You do not diagnose diabetes &mdash; that is a clinical decision.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Glucose and insulin",
+      "section": "Understanding diabetes",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>How the body uses glucose</h2><p>The food we eat, especially carbohydrate such as bread, rice, pasta, potatoes and fruit, is broken down into <strong>glucose</strong>, a sugar that travels in the blood and is the body's main source of energy. To be useful, glucose has to move out of the blood and into the body's cells, where it is burned as fuel. Keeping the amount of glucose in the blood within a healthy range is important for staying well.</p><ul><li><strong>Glucose:</strong> the sugar the body uses for energy.</li><li><strong>Blood glucose:</strong> the amount of that sugar in the blood.</li><li><strong>Balance:</strong> the body works to keep it steady.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The role of insulin</h2><p>Insulin is a hormone made in the pancreas. It acts like a key that unlocks the body's cells so glucose can move in from the blood and be used for energy. After a meal, when blood glucose rises, the pancreas releases insulin to bring it back down to a healthy level.</p><p>Diabetes happens when this system stops working properly. Either the body cannot make insulin, or the insulin it makes does not work well enough, or there is not enough of it. As a result, glucose stays in the blood instead of getting into the cells, and blood glucose levels rise too high. Understanding this simple idea makes the rest of diabetes care much easier to follow.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does insulin do in the body?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "It helps glucose move out of the blood and into the body's cells to be used for energy.", "correct": true, "feedback": "Correct. Insulin is the key that lets glucose enter the cells, lowering blood glucose." },
+            { "text": "It turns glucose into fat so the body can store it as water.", "correct": false, "feedback": "Insulin's main job is to help glucose move into cells for energy, not to make water." },
+            { "text": "It raises blood glucose after every meal.", "correct": false, "feedback": "Insulin lowers blood glucose by moving it into the cells; it does not raise it." },
+            { "text": "It removes carbohydrate from food before it is digested.", "correct": false, "feedback": "Carbohydrate is still digested into glucose; insulin acts on the glucose in the blood." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Types of diabetes",
+      "section": "Understanding diabetes",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The main types of diabetes</h2><p>There are two main types of diabetes, and although both lead to raised blood glucose, they are very different conditions. Knowing which type a person has helps you understand their care, though the day-to-day support you give always follows their individual care plan.</p><ul><li><strong>Type 1:</strong> the body makes little or no insulin.</li><li><strong>Type 2:</strong> the body cannot make enough insulin or use it well.</li><li><strong>Both:</strong> lead to blood glucose that is too high without treatment.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Type 1 and Type 2 compared</h2><p>In <strong>Type 1</strong> diabetes, the body's own immune system attacks the cells that make insulin, so the person makes little or none at all. It is not caused by lifestyle, it cannot be prevented, and it can start at any age, often in childhood or young adulthood. People with Type 1 need insulin every day, for life, by injection or an insulin pump.</p><p><strong>Type 2</strong> diabetes is much more common. Here the body still makes some insulin but not enough, or the insulin does not work properly. It is linked to age, family history, ethnic background and being overweight or inactive, though anyone can develop it. It is often managed with healthy eating and activity, tablets, and sometimes insulin or other injections. There are also other forms, such as diabetes that develops in pregnancy.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "People with Type 1 diabetes need insulin every day because their body makes little or no insulin of its own.",
+          "correct": true,
+          "correctMsg": "Correct. In Type 1 the body cannot make insulin, so daily insulin is essential to stay alive and well.",
+          "wrongMsg": "Not quite. In Type 1 diabetes the body makes little or no insulin, so daily insulin really is essential."
+        }
+      ]
+    },
+    {
+      "label": "Good control matters",
+      "section": "Understanding diabetes",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why good control matters</h2><p>When blood glucose stays too high over months and years, it slowly damages the blood vessels and nerves throughout the body. Good control &mdash; keeping blood glucose, along with blood pressure and cholesterol, within healthy ranges &mdash; greatly reduces the risk of these long-term problems. This is why the daily routines around food, medication and activity matter so much.</p><ul><li><strong>Steady levels:</strong> reduce damage to blood vessels and nerves.</li><li><strong>Whole person:</strong> blood pressure and cholesterol matter too.</li><li><strong>Everyday care:</strong> small routines protect long-term health.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Long-term complications</h2><p>Poorly controlled diabetes can, over time, harm several parts of the body. It can damage the <strong>eyes</strong> (leading to sight loss), the <strong>kidneys</strong> (which can eventually fail), and the <strong>nerves</strong>, causing numbness, pain or loss of feeling, often in the feet.</p><p>The <strong>feet</strong> are especially at risk, because reduced feeling and poor circulation mean a small cut, blister or sore can go unnoticed, become infected and, in serious cases, lead to amputation. Diabetes also raises the risk of <strong>heart</strong> disease, heart attack and stroke. The encouraging message is that good control and regular health checks make these complications far less likely, so the everyday support you give genuinely helps protect people's future health.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a hypo",
+      "section": "Hypoglycaemia",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is a hypo?</h2><p>Hypoglycaemia, usually shortened to a <strong>hypo</strong>, is when blood glucose falls too <strong>low</strong>. It is generally treated when the level drops below 4 mmol/L &mdash; a useful reminder is the phrase <strong>&ldquo;four is the floor&rdquo;</strong>. A hypo can come on quickly and needs treating straight away, because if it is left untreated the person can become seriously unwell.</p><ul><li><strong>Low glucose:</strong> generally below 4 mmol/L.</li><li><strong>Comes on fast:</strong> often within minutes.</li><li><strong>Act quickly:</strong> a hypo always needs prompt treatment.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What causes a hypo?</h2><p>Hypos are more likely in people who take insulin or certain diabetes tablets, and they usually happen when there is too much insulin or medication in the body compared with the amount of glucose available. Common triggers are a meal or snack that is missed, delayed or smaller than usual, more physical activity than normal, or drinking alcohol.</p><p>Because these things are part of ordinary daily life, hypos can happen to anyone on glucose-lowering treatment, even when they manage their diabetes carefully. Knowing who you support takes insulin or medication that can cause hypos helps you stay alert, especially around mealtimes, activity and any change in routine. When you spot the early signs, you can help before the hypo becomes severe.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a common cause of a hypo?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A meal being missed or delayed, or doing more activity than usual, in someone on insulin or certain tablets.", "correct": true, "feedback": "Yes. Too little food or extra activity relative to the medication can push blood glucose too low." },
+            { "text": "Eating a large, sugary pudding at lunchtime.", "correct": false, "feedback": "A lot of sugar tends to raise blood glucose, so it is more likely to cause a hyper than a hypo." },
+            { "text": "Drinking plenty of water during the day.", "correct": false, "feedback": "Drinking water does not cause hypos; missed meals, extra activity or alcohol are common triggers." },
+            { "text": "Resting quietly after a normal meal.", "correct": false, "feedback": "Eating normally and resting is unlikely to cause a hypo; missed food and extra activity are the usual causes." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Signs of a hypo",
+      "section": "Hypoglycaemia",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising a hypo</h2><p>A hypo can develop within minutes, so knowing the signs means you can act fast. People often describe an early warning feeling, but not everyone gets one, and some people lose their usual warnings over time. This is why your observation matters so much.</p><ul><li><strong>Physical signs:</strong> shaky, sweaty, pale, hungry, dizzy.</li><li><strong>How they seem:</strong> confused, irritable, tearful or unlike themselves.</li><li><strong>Getting worse:</strong> slurred speech, drowsiness, difficulty concentrating.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Signs to watch for</h2><p>Common signs of a hypo include feeling <strong>shaky</strong> or trembling, sweating, looking <strong>pale</strong>, feeling hungry, dizzy or having a fast heartbeat. Just as importantly, a hypo affects how a person thinks and behaves: they may become <strong>confused</strong>, irritable, tearful, anxious or simply not themselves. Someone who is usually calm may become cross, and someone chatty may go quiet.</p><p>Because these behaviour changes can be mistaken for a bad mood, tiredness or, in older people, confusion, it is important to think &ldquo;could this be a hypo?&rdquo; whenever someone with diabetes suddenly seems different. If in doubt, treat it as a hypo and check their blood glucose if that is part of the plan. It is always safer to treat a suspected hypo than to ignore it.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A hypo is when blood glucose drops below *4* mmol/L. The person may feel *shaky* and *sweaty*, look *pale*, and become *confused* or irritable."
+        }
+      ]
+    },
+    {
+      "label": "Responding to a hypo",
+      "section": "Hypoglycaemia",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Treating a hypo</h2><p>If someone is having a hypo and is awake and able to swallow safely, treat it straight away. The approach is to give something sugary that works fast, wait, check again, and then follow up with a longer-acting carbohydrate to stop the level dropping again. Always follow the person's care plan and your service's guidance.</p><ul><li><strong>Fast-acting sugar first:</strong> to bring glucose up quickly.</li><li><strong>Recheck:</strong> wait about 10 to 15 minutes, then check again.</li><li><strong>Then longer-acting carbohydrate:</strong> to keep the level steady.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Fast sugar, then a snack &mdash; and when to call 999</h2><p>Give a <strong>fast-acting sugar</strong> such as glucose tablets, a small glass of pure fruit juice or a sugary (non-diet) drink, or glucose gel. Wait about 10 to 15 minutes; if the person is no better or their reading is still low, repeat the fast-acting sugar. Once they have recovered, give a <strong>longer-acting carbohydrate</strong> such as a sandwich, a piece of fruit, a couple of biscuits or their next meal.</p><p>A <strong>severe hypo</strong> is an emergency. If the person becomes unconscious, is fitting, or is too drowsy or confused to swallow safely, <strong>call 999</strong>, place them in the recovery position and stay with them. <strong>Never put food or drink into the mouth of someone who is unconscious or cannot swallow</strong> &mdash; it can choke them. Glucagon may only be given by someone trained and authorised to do so.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you support with diabetes has become unconscious. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Call 999, put them in the recovery position, stay with them, and give nothing by mouth.", "correct": true, "feedback": "Correct. A severe hypo is a 999 emergency, and you must never give food or drink to an unconscious person." },
+            { "text": "Try to give them a sugary drink to bring their glucose up.", "correct": false, "feedback": "Never give anything by mouth to an unconscious person &mdash; it can cause choking. Call 999." },
+            { "text": "Put glucose gel or a biscuit into their mouth.", "correct": false, "feedback": "An unconscious person cannot swallow safely, so this risks choking. Call 999 and give nothing by mouth." },
+            { "text": "Wait to see whether they wake up on their own before doing anything.", "correct": false, "feedback": "An unconscious person needs emergency help now. Call 999 and place them in the recovery position." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "High blood glucose",
+      "section": "Hyperglycaemia and DKA",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is a hyper?</h2><p>Hyperglycaemia, or a <strong>hyper</strong>, is when blood glucose rises too high. Unlike a hypo, it often develops more slowly, over hours or days, so the signs can be easy to miss. It can happen when there is too little insulin or medication, during illness or infection, with stress, after eating a lot of carbohydrate, or if medication has been missed.</p><ul><li><strong>High glucose:</strong> above the person's healthy range.</li><li><strong>Slower onset:</strong> often builds over hours or days.</li><li><strong>Common triggers:</strong> illness, missed medication or stress.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Signs of a hyper</h2><p>The classic signs of high blood glucose are being very <strong>thirsty</strong>, passing <strong>lots of urine</strong> (including getting up in the night), and feeling <strong>tired</strong> or lacking energy. People may also have blurred vision, a dry mouth, and, over a longer period, weight loss or repeated infections such as thrush.</p><p>A single high reading is not usually an emergency on its own, but it should be recorded and reported so the team can see the pattern. Persistently high levels, or a person who is becoming unwell, need attention, because untreated high glucose can develop into a serious condition. If someone with diabetes seems increasingly thirsty, is passing a lot of urine and is unusually tired, treat it as something worth reporting promptly rather than waiting.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "When blood glucose is too *high*, the person often feels very *thirsty*, passes lots of *urine* and becomes *tired*."
+        }
+      ]
+    },
+    {
+      "label": "DKA emergency",
+      "section": "Hyperglycaemia and DKA",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Diabetic ketoacidosis (DKA)</h2><p><strong>Diabetic ketoacidosis</strong>, or DKA, is a dangerous condition that can develop when blood glucose stays very high and there is not enough insulin. Without insulin, the body cannot use glucose for energy, so it starts to break down fat instead. This produces acids called <strong>ketones</strong>, which build up and make the blood dangerously acidic. DKA is a medical emergency and is far more common in people with <strong>Type 1</strong> diabetes.</p><ul><li><strong>What it is:</strong> ketones build up when there is not enough insulin.</li><li><strong>Who is most at risk:</strong> people with Type 1 diabetes.</li><li><strong>How serious:</strong> a life-threatening emergency.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Recognising and acting on DKA</h2><p>DKA often follows the signs of a hyper &mdash; great thirst and passing lots of urine &mdash; but the person becomes much more unwell. Warning signs include feeling and being sick, tummy pain, deep or rapid breathing, breath that smells sweet or fruity (like pear drops or nail varnish), and becoming drowsy or confused.</p><p>DKA can develop over hours and can be life-threatening, so it needs emergency treatment in hospital. If someone with diabetes shows these signs, <strong>call 999</strong> or seek urgent medical help, follow your service's escalation procedure, and stay with them. As always, this is about recognising and responding &mdash; you are not expected to diagnose or treat DKA yourself, but spotting it early and raising the alarm can save a life.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these could be a warning sign of diabetic ketoacidosis (DKA)?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Being sick, tummy pain, deep or rapid breathing and breath that smells sweet or fruity.", "correct": true, "feedback": "Yes. These, alongside great thirst and high glucose, are warning signs of DKA and need urgent help." },
+            { "text": "Feeling shaky, sweaty and hungry that settles after a sugary drink.", "correct": false, "feedback": "Those are signs of a hypo (low glucose), not DKA, which is caused by very high glucose." },
+            { "text": "Feeling calm and well with a normal appetite.", "correct": false, "feedback": "DKA makes a person increasingly unwell; feeling well is not a sign of it." },
+            { "text": "Sleeping soundly through the night with no thirst.", "correct": false, "feedback": "DKA usually brings great thirst and frequent urination, not undisturbed, thirst-free sleep." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "When to escalate",
+      "section": "Hyperglycaemia and DKA",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Knowing when to escalate</h2><p>A key part of your role is recognising when something needs more than everyday support and passing it on to the right person quickly. You do not need to have all the answers &mdash; you need to notice, act and report. Following your service's escalation procedure makes sure the person gets help without delay.</p><ul><li><strong>Emergencies:</strong> unconsciousness, fitting or signs of DKA &mdash; call 999.</li><li><strong>Urgent concerns:</strong> repeated high or low readings, or vomiting when unwell.</li><li><strong>Always:</strong> record what you saw and report it promptly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Escalating safely</h2><p>Some situations need an emergency response: a severe hypo where the person is unconscious, fitting or cannot swallow, or the warning signs of DKA. In these cases call <strong>999</strong> straight away. Other situations are urgent but not immediately life-threatening &mdash; for example, someone who is unwell and vomiting, whose readings are repeatedly very high or very low, or who seems increasingly drowsy or confused. These should be reported quickly to a senior colleague, nurse or the person's GP.</p><p>When someone with diabetes is unwell with another illness, their blood glucose can change quickly in either direction, so they need closer watching. Whatever the situation, describe clearly what you have seen, when it started and what you have done, and record it accurately. Prompt, clear escalation is one of the most valuable things you can do.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "If a person with diabetes is unwell and vomiting, or has readings that are repeatedly very high or very low, you should report it promptly rather than wait and see.",
+          "correct": true,
+          "correctMsg": "Correct. Illness can change blood glucose quickly, so prompt reporting keeps the person safe.",
+          "wrongMsg": "Not quite. Vomiting or repeated high or low readings need prompt reporting, because things can worsen quickly."
+        }
+      ]
+    },
+    {
+      "label": "Eating and activity",
+      "section": "Supporting daily living",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred daily support</h2><p>Living well with diabetes is mostly about everyday life &mdash; eating, moving, taking medication and self-care &mdash; and this is where your support really counts. Good support is person-centred: it follows the individual's care plan, respects their choices and helps them stay as independent as possible, rather than taking over.</p><ul><li><strong>Follow the plan:</strong> support each person's own routine and goals.</li><li><strong>Encourage:</strong> support independence and healthy choices.</li><li><strong>Respect choice:</strong> people make their own decisions about their lives.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Healthy eating and staying active</h2><p>People with diabetes are advised to eat a healthy, balanced diet along the lines of the NHS <strong>Eatwell Guide</strong> &mdash; plenty of vegetables, some starchy carbohydrate, protein and dairy or alternatives, and less sugar, salt and saturated fat. There is no special &ldquo;diabetic diet&rdquo;, and people do not have to cut out all sugar; the aim is balance, sensible portions and meals they enjoy. Being aware of carbohydrate matters, because it has the biggest effect on blood glucose.</p><p>Regular <strong>physical activity</strong> also helps, as it lowers blood glucose and supports general health and mood. Encourage the activity set out in the care plan, from a short walk to gentle exercises, at a level that suits the person. Remember that extra activity can lower glucose, so watch for hypos in people on insulin or certain tablets, especially if they are more active than usual.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the best guidance on diet for most people with diabetes?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A healthy, balanced diet like the Eatwell Guide, with sensible portions and food they enjoy.", "correct": true, "feedback": "Correct. There is no special diabetic diet; balance, portion size and enjoyment are what matter." },
+            { "text": "Cutting out every trace of sugar and carbohydrate completely.", "correct": false, "feedback": "People do not have to cut out all sugar; a balanced diet with sensible portions is advised." },
+            { "text": "Eating only special, expensive &ldquo;diabetic&rdquo; foods.", "correct": false, "feedback": "Special diabetic foods are not needed or recommended; a normal balanced diet is best." },
+            { "text": "Skipping meals to keep blood glucose low.", "correct": false, "feedback": "Skipping meals can trigger hypos in people on insulin or certain tablets, and is not advised." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Medication and feet",
+      "section": "Supporting daily living",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Diabetes medication awareness</h2><p>Diabetes is treated in different ways depending on the person and the type. Being aware of the main kinds helps you support people and notice problems, but it does not change the rule that medication is only given by those trained and authorised to do so.</p><ul><li><strong>Tablets:</strong> such as metformin, which help the body manage glucose.</li><li><strong>Insulin:</strong> given by injection or pump, essential in Type 1.</li><li><strong>GLP-1 medicines:</strong> injectable treatments that help lower glucose and appetite.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Foot care and why it matters</h2><p>Foot care is one of the most important parts of supporting someone with diabetes. Because diabetes can reduce feeling and blood flow in the feet, a small cut, blister, rub from a shoe or sore can go unnoticed, become infected and, at worst, lead to a serious wound or amputation. Small problems that would heal quickly in others can become serious.</p><p>Help people check their feet daily, keep them clean and dry, wear well-fitting shoes and avoid going barefoot. <strong>Report</strong> any cuts, redness, swelling, blisters, colour changes or sores straight away, and never cut corns or hard skin yourself &mdash; that is a job for a podiatrist. Encourage people to attend their regular foot checks. Noticing and reporting a foot problem early can prevent a great deal of harm.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice a red, sore area on the foot of a person with diabetes. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it promptly and record it, so it can be checked before it gets worse.", "correct": true, "feedback": "Correct. Foot problems in diabetes can worsen fast, so early reporting and recording are vital." },
+            { "text": "Cut away any hard skin around it to help it heal.", "correct": false, "feedback": "Never cut corns or hard skin &mdash; that is a podiatrist's job. Report the sore area instead." },
+            { "text": "Ignore it, as small foot problems always heal on their own.", "correct": false, "feedback": "In diabetes, small foot problems can become serious. They should always be reported." },
+            { "text": "Tell the person to keep walking on it to keep the blood flowing.", "correct": false, "feedback": "This could make it worse. The right action is to report and record the problem promptly." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your everyday role",
+      "section": "Supporting daily living",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Monitoring, recording and reporting</h2><p>Blood glucose is often checked with a finger-prick test or a small sensor worn on the skin (a flash or continuous glucose monitor, such as a Libre sensor). You may be asked to be aware of readings, support people who monitor themselves, or record results, depending on your role and training. Whatever you do, accurate records and prompt reporting are central to keeping people safe.</p><ul><li><strong>Monitoring awareness:</strong> know how the person's glucose is checked.</li><li><strong>Record:</strong> note readings, meals, symptoms and concerns accurately.</li><li><strong>Report:</strong> pass on changes and worries promptly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role and its boundaries</h2><p>You are often the person who spends the most time with someone, so you are ideally placed to notice when things change &mdash; a hypo or hyper, a foot problem, a change in appetite, or someone becoming unwell. Recognising these, responding calmly and reporting clearly is the heart of good diabetes support, and it makes a real difference to people's health and confidence.</p><p>It is just as important to know your limits. This course gives you <strong>awareness and knowledge</strong> only. It does <strong>not</strong> authorise you to administer insulin or any diabetes medication. Doing so requires <strong>specific training, assessed competence and a proper delegation</strong> from a qualified professional, in line with your employer's policy. You do not diagnose diabetes or decide on treatment. Working within your role, and knowing when to hand over to someone with the right training, is exactly what keeps people safe.</p>"
+        }
+      ]
+    }
+  ]
+}

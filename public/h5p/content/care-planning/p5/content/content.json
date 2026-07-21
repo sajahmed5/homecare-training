@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Involving the person and their family</h2><p>A care plan belongs to the person it is about. The Care Act 2014 requires the person to be <strong>involved</strong> in preparing their own plan, and to have a genuine say in how their needs are met. A plan written without the person is unlikely to reflect what truly matters to them.</p><ul><li><strong>The person first:</strong> their views, wishes and feelings lead the plan.</li><li><strong>Family and friends:</strong> those close to the person can add valuable knowledge, with the person's agreement.</li><li><strong>Advocacy:</strong> where someone would struggle to be involved, an independent advocate can help their voice be heard.</li></ul><p>Involvement is not a one-off signature; it continues every time the plan is delivered and reviewed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "75299dba-8d0e-4813-b981-482401444930",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Involving people",
+          "decorative": false,
+          "file": {
+            "path": "images/involving-people.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "46351a53-fde3-43e9-970a-a5c43a3fffd8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Family knowledge and the person's voice</h2><p>Family members and friends often hold years of knowledge about a person &mdash; their routines, their likes and dislikes, what settles them when they are upset. With the person's consent, this information makes a plan richer and more accurate. It is especially valuable when someone finds it hard to express their own wishes.</p><p>Even so, the person's own voice always comes first. Family views should support, not override, what the individual wants, and you should never assume a relative speaks for the person unless they have a legal right to do so. In your daily work you help keep people involved: you check preferences rather than assuming them, and you pass on anything new so the plan reflects the person as they are now.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9900192c-56e4-4a0d-9532-ec333da5d387",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person should be actively involved in preparing and reviewing their own care and support plan.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Under the Care Act 2014 the person must be involved in their own plan; it is not written for them alone.",
+            "correctAnswerMessage": "Correct. The Care Act 2014 requires the person to be involved, so the plan reflects what matters to them."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "1094512a-3255-4d0a-85f4-17bfc61c2f06",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

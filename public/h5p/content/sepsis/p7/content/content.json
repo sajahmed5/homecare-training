@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sepsis can follow any infection</h2><p>Sepsis does not come from one particular illness. It can develop from <strong>any</strong> infection, however ordinary it seems at first. Common starting points include chest infections, urine infections, wound or skin infections, and infections following surgery. In the people you support, a urine infection or an infected pressure sore can be an easy source to overlook, so stay alert to these.</p><ul><li><strong>Chest:</strong> coughs, pneumonia and other chest infections.</li><li><strong>Urine:</strong> urinary tract infections, especially with a catheter.</li><li><strong>Skin and wounds:</strong> cuts, pressure sores and surgical wounds.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3e6c9c74-b7b8-482c-9892-c653bf5942cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Any infection counts",
+          "decorative": false,
+          "file": {
+            "path": "images/any-infection-counts.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "75fe0d50-928b-4f29-a6f8-45ebac4a5122",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Watch known infections closely</h2><p>If someone you support already has an infection, or is being treated with antibiotics, keep a close eye on them. Sepsis can develop even while treatment is under way, so an infection that seems to be getting worse rather than better is an important warning. Signs that a wound is more red, swollen, painful or smelly, or that a chest or urine infection is making the person more unwell, all deserve attention.</p><p>The key message is that no infection is &ldquo;too minor&rdquo; to lead to sepsis. When someone with a known infection suddenly becomes much more unwell or shows any of the warning signs, ask &ldquo;could this be sepsis?&rdquo; and escalate without delay. Connecting the infection to the person's decline helps others act quickly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bc418428-dab7-43e3-9d49-67832ee0eb3a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which infections can lead to sepsis?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Almost any infection &mdash; including chest, urine, wound and skin infections.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Sepsis can follow any infection, so stay alert whenever someone has one.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only very serious infections that need hospital treatment from the start.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; even an infection that seems minor at first can lead to sepsis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only chest infections such as pneumonia.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; chest infections are one source, but urine, wound and skin infections can also cause sepsis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only infections in people who have just had an operation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; recent surgery raises the risk, but sepsis can follow infection in anyone.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "74f5ee31-e6f5-43c7-b795-18069dd42a29",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording seizures</h2><p>Accurate records of a person's seizures are one of the most valuable things you can provide. A <strong>seizure diary</strong> or record helps the person and their specialist team understand how the epilepsy is behaving and whether treatment needs to change. Because you are often there when a seizure happens, what you record really matters.</p><ul><li><strong>What you saw:</strong> what happened before, during and after the seizure.</li><li><strong>How long:</strong> the time it started and how long it lasted.</li><li><strong>Recovery:</strong> how the person was afterwards, and any injuries.</li></ul><p>Record the facts clearly and promptly, following your workplace's system, and pass the information on so that it reaches the people who need it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8738e495-2b8d-44b2-8378-420d135ba7dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Records and SUDEP",
+          "decorative": false,
+          "file": {
+            "path": "images/records-and-sudep.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a0949f54-8440-4838-86bd-a9240a928c23",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>SUDEP &mdash; a sensitive subject</h2><p>Very rarely, a person with epilepsy can die suddenly and unexpectedly, and no other cause is found. This is known as <strong>SUDEP</strong>, which stands for Sudden Unexpected Death in Epilepsy. It is uncommon, and it is a distressing subject, but as someone who supports people with epilepsy it is right that you are aware of it.</p><p>The risk of SUDEP is thought to be lower when seizures are better controlled, which is one reason why taking medication as prescribed, recording seizures accurately, and getting help when needed all matter. You are not expected to counsel anyone about SUDEP; that is a conversation for the person, their family and their specialist team. What awareness means for you is taking seizures seriously, supporting the person to manage their epilepsy well, and reporting concerns so the specialist team can act. If the subject worries you, or someone you support, speak to your manager.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "225f5928-eeeb-4cb6-b1a2-83d06e7e50cc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

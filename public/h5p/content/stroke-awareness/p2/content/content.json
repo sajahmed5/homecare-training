@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What happens during a stroke</h2><p>The brain needs a constant supply of blood, which carries the oxygen and nutrients that brain cells need to work and stay alive. A stroke happens when this blood supply to part of the brain is suddenly <strong>cut off</strong> or interrupted. Without blood, the affected part of the brain is starved of oxygen, and cells in that area quickly begin to become damaged and die.</p><ul><li><strong>The cause:</strong> the blood supply to part of the brain is interrupted.</li><li><strong>The effect:</strong> brain cells in that area are starved of oxygen.</li><li><strong>The result:</strong> sudden loss of the functions that part controlled.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "72913f7a-5400-49b8-b18c-3c984c466aa1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a stroke?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-stroke.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "483e3a1b-f38f-4815-bd4d-d0c8c5aaf91f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why the effects vary</h2><p>Different parts of the brain control different things &mdash; movement, speech, vision, balance, memory and emotion. The effects of a stroke depend on <strong>which part</strong> of the brain is affected and <strong>how much</strong> damage is done. This is why one person may lose the use of an arm, another may struggle to speak, and another may have problems with their sight or balance.</p><p>Because brain cells cannot easily repair themselves once they have died, the damage a stroke causes can be lasting. This is exactly why speed matters: prompt treatment can limit the damage and protect the brain functions the person still has. Recognising a stroke early gives the person the best possible chance.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d9aa26c9-9c98-451b-b0cb-d5a95c078ddc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What happens to the brain during a stroke?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The blood supply to part of the brain is cut off, so brain cells are starved of oxygen and begin to die.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A stroke interrupts the brain's blood supply, and without oxygen the affected cells quickly start to die.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The brain produces too much blood and becomes overactive.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stroke is caused by the blood supply being interrupted, not by too much blood.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The brain simply becomes tired and needs a short rest to recover.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stroke is a serious emergency, not tiredness, and needs urgent treatment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A stroke only affects the muscles, not the brain itself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stroke damages the brain, and this is what causes effects such as weakness or speech problems.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a0879124-2372-4367-9225-9221bb64dcbd",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Timing and staying with the person</h2><p>Timing a seizure is one of the most useful things you can do, because how long a seizure lasts helps decide whether it is an emergency. Note the time it starts and the time the convulsive movements stop. If you are not sure, it is safer to assume more time has passed and act accordingly.</p><ul><li><strong>Start the clock:</strong> check a watch or phone as soon as the seizure begins.</li><li><strong>Stay with them:</strong> never leave the person alone during a seizure.</li><li><strong>Watch and remember:</strong> note what you see so you can describe it later.</li></ul><p>Staying calm and staying present are at the heart of good seizure first aid. Even when there is nothing more to do, your presence keeps the person safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "19ff3d0a-ec52-40ee-81c8-8086c8a6a11b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Timing and dignity",
+          "decorative": false,
+          "file": {
+            "path": "images/timing-and-dignity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c234928a-413a-494a-948d-c2e5ab7cb124",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reassurance and dignity</h2><p>A seizure can be frightening and undignified, both for the person and for anyone watching. Part of your role is to protect the person's dignity throughout. Keep onlookers back and give the person privacy, and afterwards speak gently and without fuss. Many people feel embarrassed or upset after a seizure, especially if it happened in front of others or if they lost control of their bladder or bowels.</p><p>Reassure the person that they are safe and that you are there to help. Do not bombard them with questions while they are still confused; simply let them know what has happened and stay close until they feel ready. Treating someone with warmth and respect after a seizure matters as much as the practical first aid. It tells the person that a seizure does not change how you see them, and it helps them keep their confidence.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ae410f62-3fa6-4d58-aac5-3a687c38a0d2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

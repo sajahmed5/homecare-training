@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preventing infection</h2><p>Because sepsis starts with infection, good <strong>infection prevention</strong> is one of the best defences. Thorough hand hygiene, clean equipment, and following your organisation's infection control procedures all help stop germs reaching the people you support. Keeping people well hydrated, well nourished and supported to move can also help their bodies resist infection in the first place.</p><ul><li><strong>Hand hygiene:</strong> wash or sanitise your hands at the right moments.</li><li><strong>Clean practice:</strong> follow infection control procedures every time.</li><li><strong>General health:</strong> support good hydration, nutrition and skin care.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bf1ddc8f-7049-4b31-a8ac-6aa5dd4c14ae",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Preventing infection",
+          "decorative": false,
+          "file": {
+            "path": "images/preventing-infection.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "48c04ec5-63dd-4dfe-8c2f-1a62b4865873",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Catheter and wound care</h2><p>Devices and broken skin are common routes for infection, so careful <strong>catheter and wound care</strong> matters. Keep a urinary catheter and its drainage system clean and closed, following the person's care plan and your training, and report any cloudy, smelly urine or signs the person is becoming unwell. Watch wounds and pressure areas for redness, swelling, heat, increasing pain or discharge, and report changes promptly.</p><p>Good hydration supports the whole body and helps flush the urinary system, which is why encouraging drinks &mdash; in line with each person's care plan &mdash; is part of prevention. None of this replaces clinical care, but these everyday habits reduce the chances of an infection taking hold and give people the best protection against sepsis.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cf2e1ca0-382b-4803-b1d1-e5303ed7b74a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which everyday action helps reduce a person's risk of developing an infection that could lead to sepsis?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Following infection control procedures, keeping catheters and wounds clean, and supporting good hydration.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Good hygiene, careful device and wound care, and hydration all help prevent the infections that can lead to sepsis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Waiting until a wound looks badly infected before mentioning it to anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; changes in a wound should be reported early, not left until infection is advanced.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skipping hand hygiene when you are busy to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; hand hygiene is one of the most important ways to stop germs spreading.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leaving a catheter drainage system open so it drains more easily.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the system should be kept clean and closed to keep germs out.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0cb1ccba-81fe-4ca5-afec-20b94cd35dfd",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

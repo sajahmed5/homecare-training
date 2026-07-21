@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is epilepsy?</h2><p>Epilepsy is a condition that affects the brain and gives a person a tendency to have seizures. Our brains work by passing tiny electrical signals between millions of cells. In a seizure, a sudden, intense burst of this electrical activity disrupts the normal messages, and this is what causes the changes you might see or that the person feels.</p><ul><li><strong>Electrical activity:</strong> a seizure is a sudden burst of intense electrical activity in the brain.</li><li><strong>A tendency:</strong> epilepsy usually means having a tendency to have seizures that start in the brain.</li><li><strong>Not always known:</strong> for many people the cause of their epilepsy is never fully known.</li></ul><p>One seizure on its own does not always mean a person has epilepsy. A diagnosis is usually made by a specialist doctor after more than one seizure, and only they can confirm it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5fb42f27-09a9-4886-a656-47a16fd49764",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What epilepsy is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-epilepsy-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f209ebae-9673-49c9-8adf-e9aa1aec9e6e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A varied condition</h2><p>Epilepsy is not one single thing. What a seizure looks like depends on where in the brain the electrical activity happens and how far it spreads. Some seizures involve the whole brain from the start, while others begin in just one part. This is why two people with epilepsy can have very different experiences.</p><p>Many people with epilepsy have their seizures well controlled with anti-seizure medication and lead full, active lives. Others continue to have seizures despite treatment. Epilepsy can also sit alongside other conditions, and it is more common in people with a learning disability. Whatever the pattern, the person is an individual first, and epilepsy is only one part of who they are. Understanding this helps you offer support that fits the person, not a label.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2f2aa4c9-2aa3-4622-b84a-a9f0def9a4a2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What best describes what happens in the brain during a seizure?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A sudden burst of intense electrical activity briefly disrupts how the brain normally works</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A seizure is caused by a sudden burst of intense electrical activity in the brain.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The brain stops receiving any blood</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A seizure is caused by electrical activity in the brain, not by a loss of blood supply.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A physical injury forms on the surface of the brain</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Seizures are caused by bursts of electrical activity, not by an injury forming during the seizure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person is simply pretending or seeking attention</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Seizures are real events caused by electrical activity in the brain and are never put on.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4afbba94-4455-4c80-98e8-fd36486ec606",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

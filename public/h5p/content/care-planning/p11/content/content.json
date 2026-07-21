@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When and why plans are reviewed</h2><p>A care plan is a <strong>living document</strong>, so it must be reviewed to stay useful. A review is a planned check that the support still meets the person's needs and still helps them reach their outcomes. The Care Act 2014 expects plans to be kept under review.</p><ul><li><strong>Planned reviews:</strong> a regular check, often at least once a year, that the plan is still right.</li><li><strong>Triggered reviews:</strong> a review brought forward because something has changed.</li><li><strong>The person involved:</strong> the individual takes part in reviewing their own plan.</li></ul><p>A review can confirm the plan is working, adjust it, or set new outcomes as the person's life changes.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "74308255-2cc8-44fc-98de-c778e6edd5d7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reviewing plans",
+          "decorative": false,
+          "file": {
+            "path": "images/reviewing-plans.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "74f8c8a8-4ddf-47d3-b21b-23852a569d57",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in reviews</h2><p>Reviews are usually led by a senior worker or assessor, but they depend on information from the people who deliver the care. The observations you record between reviews &mdash; changes you noticed, outcomes reached, support that no longer fits &mdash; are exactly what a review draws on. Without them, a review has little to go on.</p><p>A review may be needed sooner than planned when a person's needs change noticeably: after a spell in hospital, a fall, a bereavement, or a steady decline or improvement. You may be asked to share what you have seen, and you should do so honestly and factually. Reviewing keeps a plan accurate and personalised over time, and your steady, everyday recording is what makes an honest review possible.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e3bed7bf-f1ef-4901-b871-72d294b79d5d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care plan should be reviewed only once, when it is first written.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. A plan is a living document; it is reviewed regularly and again whenever the person's needs change.",
+            "correctAnswerMessage": "Correct. A care plan is a living document that must be reviewed regularly and whenever needs change."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "9892feaf-9720-4f64-9c4e-afd842c1f81e",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a hypo?</h2><p>Hypoglycaemia, usually shortened to a <strong>hypo</strong>, is when blood glucose falls too <strong>low</strong>. It is generally treated when the level drops below 4 mmol/L &mdash; a useful reminder is the phrase <strong>&ldquo;four is the floor&rdquo;</strong>. A hypo can come on quickly and needs treating straight away, because if it is left untreated the person can become seriously unwell.</p><ul><li><strong>Low glucose:</strong> generally below 4 mmol/L.</li><li><strong>Comes on fast:</strong> often within minutes.</li><li><strong>Act quickly:</strong> a hypo always needs prompt treatment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9d2ce683-5ea2-414c-a69b-6fc0efe173b0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a hypo",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-hypo.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "407264e8-c153-4eee-9cc2-ba7c5fec5262",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What causes a hypo?</h2><p>Hypos are more likely in people who take insulin or certain diabetes tablets, and they usually happen when there is too much insulin or medication in the body compared with the amount of glucose available. Common triggers are a meal or snack that is missed, delayed or smaller than usual, more physical activity than normal, or drinking alcohol.</p><p>Because these things are part of ordinary daily life, hypos can happen to anyone on glucose-lowering treatment, even when they manage their diabetes carefully. Knowing who you support takes insulin or medication that can cause hypos helps you stay alert, especially around mealtimes, activity and any change in routine. When you spot the early signs, you can help before the hypo becomes severe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "38fb613b-e508-4ab4-8e10-db0ed1465479",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a common cause of a hypo?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A meal being missed or delayed, or doing more activity than usual, in someone on insulin or certain tablets.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Too little food or extra activity relative to the medication can push blood glucose too low.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Eating a large, sugary pudding at lunchtime.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A lot of sugar tends to raise blood glucose, so it is more likely to cause a hyper than a hypo.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drinking plenty of water during the day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Drinking water does not cause hypos; missed meals, extra activity or alcohol are common triggers.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Resting quietly after a normal meal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Eating normally and resting is unlikely to cause a hypo; missed food and extra activity are the usual causes.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c968856c-398d-4913-935d-60aae396353d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

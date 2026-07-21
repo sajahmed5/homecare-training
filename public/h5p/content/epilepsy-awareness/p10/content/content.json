@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When a seizure is an emergency</h2><p>Most seizures stop by themselves and do not need an ambulance. But some are medical emergencies, and knowing the difference is a vital part of awareness. Call <strong>999</strong> for an ambulance if any of the following happen:</p><ul><li><strong>Lasting too long:</strong> a convulsive seizure lasts more than 5 minutes.</li><li><strong>One after another:</strong> one seizure follows another without the person recovering in between.</li><li><strong>Other danger signs:</strong> a first-ever seizure, a serious injury, or difficulty breathing.</li></ul><p>If you are ever in doubt about whether to call 999, make the call. It is always better to seek help than to wait when someone may be seriously unwell.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7166d32f-540b-4d20-936f-32eb45ae7b3e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When to call 999",
+          "decorative": false,
+          "file": {
+            "path": "images/when-to-call-999.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2d9e199d-2992-43c1-87fb-57376a849c99",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Status epilepticus</h2><p>A convulsive seizure that lasts longer than 5 minutes, or repeated seizures without recovery in between, is a dangerous situation called <strong>status epilepticus</strong>. The longer a convulsive seizure goes on, the more serious it becomes, which is why timing matters so much and why 5 minutes is the point to act.</p><p>You should also call 999 if a seizure happens in water, if the person is injured, is having trouble breathing, or does not regain consciousness after the jerking stops. Call too if it is the person's first-ever seizure, or if you simply do not know their history and have no care plan to guide you. Some people have a care plan that gives different instructions, for example if they usually have longer seizures &mdash; but if there is no such plan, follow the 5-minute rule and get help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fcb4097e-dcfa-4650-8bb3-bcb314320f26",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are timing a convulsive seizure and it has now lasted more than 5 minutes. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Call 999 for an ambulance, as this may be a medical emergency called status epilepticus</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A convulsive seizure lasting more than 5 minutes needs an emergency ambulance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait another 15 minutes before doing anything</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A convulsive seizure lasting more than 5 minutes is an emergency; you should call 999 now.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put the person in the recovery position and leave them alone</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. You must call 999 for a seizure this long, and you should never leave the person alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give the person a drink to help them recover</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Never give food or drink during a seizure; a convulsive seizure over 5 minutes needs a 999 call.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "31539a5d-1e0c-4de0-80c3-a2455e665cbe",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

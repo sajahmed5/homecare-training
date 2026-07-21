@@ -1,0 +1,97 @@
+{
+  "slug": "care-planning",
+  "title": "Care Planning",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "care-planning/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What a care plan is and why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p2",
+      "label": "The basics",
+      "questions": 1,
+      "section": "What a care plan is and why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p3",
+      "label": "Person-centred care",
+      "questions": 1,
+      "section": "What a care plan is and why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p4",
+      "label": "Needs and strengths",
+      "questions": 1,
+      "section": "What goes into a good care plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p5",
+      "label": "Involving people",
+      "questions": 1,
+      "section": "What goes into a good care plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p6",
+      "label": "Capacity and consent",
+      "questions": 1,
+      "section": "What goes into a good care plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p7",
+      "label": "SMART and risk",
+      "questions": 1,
+      "section": "What goes into a good care plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p8",
+      "label": "Working to the plan",
+      "questions": 1,
+      "section": "Following and contributing to the plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p9",
+      "label": "Noticing changes",
+      "questions": 1,
+      "section": "Following and contributing to the plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p10",
+      "label": "Working as a team",
+      "questions": 0,
+      "section": "Following and contributing to the plan"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p11",
+      "label": "Reviewing plans",
+      "questions": 1,
+      "section": "Reviewing and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p12",
+      "label": "Accurate records",
+      "questions": 1,
+      "section": "Reviewing and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "care-planning/p13",
+      "label": "When needs change",
+      "questions": 0,
+      "section": "Reviewing and recording"
+    }
+  ]
+}

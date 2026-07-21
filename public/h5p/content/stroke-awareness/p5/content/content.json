@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The FAST test</h2><p>The most important tool for recognising a stroke is the <strong>FAST</strong> test, used in the NHS Act FAST campaign. It gives you four simple things to check, and it is designed so that anyone can use it quickly. If you notice any single one of these signs, it is time to act &mdash; you do not need to see all of them before responding.</p><ul><li><strong>Face:</strong> has their face fallen on one side? Can they smile?</li><li><strong>Arms:</strong> can they raise both arms and keep them there?</li><li><strong>Speech:</strong> is their speech slurred or muddled? Time to call 999.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1e1fa7fc-d87f-45f5-a13c-4464502d42b2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The FAST test",
+          "decorative": false,
+          "file": {
+            "path": "images/the-fast-test.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "65fdb86a-8ad3-47a1-af79-2a3bbe3aaaac",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working through FAST</h2><p>Take each letter in turn. <strong>Face</strong>: look at the person's face and ask them to smile &mdash; has their mouth or eye drooped on one side? <strong>Arms</strong>: ask them to raise both arms &mdash; can they hold them up, or does one drift downwards? <strong>Speech</strong>: listen to their speech &mdash; is it slurred or jumbled, or are they unable to talk at all even though they seem awake?</p><p>The final letter, <strong>T</strong>, stands for <strong>Time</strong>: time to call <strong>999</strong>. If you see any one of these signs, treat it as a stroke until proven otherwise, and call 999 straight away. FAST is quick to remember precisely so that you can act without hesitation in the moment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "46b23578-4014-4aab-9a5b-3f0967d47acd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should only call 999 if a person shows all four FAST signs at the same time.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Even one FAST sign &mdash; in the face, arms or speech &mdash; means you should call 999 straight away.",
+            "correctAnswerMessage": "Correct. Any single FAST sign is enough &mdash; you do not need to see all of them before calling 999."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "d126de36-4673-4d3c-81f9-0755f7c7bdac",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

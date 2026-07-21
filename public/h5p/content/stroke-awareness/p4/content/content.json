@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What raises the risk of a stroke</h2><p>Anyone can have a stroke, including younger people, but some things make a stroke more likely. Knowing the main <strong>risk factors</strong> helps you understand why some of the people you support are more vulnerable, and why the health conditions noted in their care plan matter. Many risk factors can be managed with the right treatment and support.</p><ul><li><strong>High blood pressure:</strong> the single biggest risk factor for stroke.</li><li><strong>Heart rhythm problems:</strong> atrial fibrillation raises the risk of clots.</li><li><strong>Other factors:</strong> diabetes, smoking, and increasing age.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9586cd1e-c251-42d5-95f1-47aa83716e83",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Risk factors",
+          "decorative": false,
+          "file": {
+            "path": "images/risk-factors.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0660de00-3fd9-46fc-aea8-e55b628ad060",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Medical and lifestyle risks</h2><p><strong>High blood pressure</strong> is the most important risk factor and the leading cause of stroke. <strong>Atrial fibrillation</strong>, an irregular heartbeat, allows clots to form that can travel to the brain. <strong>Diabetes</strong> and <strong>smoking</strong> both damage blood vessels over time and raise the risk, and the risk also increases as people get <strong>older</strong>, although strokes can happen at any age.</p><p>You are not expected to diagnose or treat these conditions, but your everyday support plays a part in reducing risk &mdash; for example by helping people take prescribed medication, supporting a healthy diet and activity where that is in the care plan, and reporting concerns. Recognising who is at higher risk also keeps you alert to the signs of a stroke.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1be64ae3-8944-4d9c-b0ba-5ceb7a43b2a6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following is described as the single biggest risk factor for stroke?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>High blood pressure, especially when it is not well controlled.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. High blood pressure is the single biggest risk factor for stroke and the leading cause.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Reading in good lighting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; this has nothing to do with stroke risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Taking regular gentle walks.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; staying active can actually help reduce the risk of a stroke.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drinking water with meals.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; this is not a stroke risk factor; high blood pressure is the biggest one.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4bc44e89-c046-4c96-870d-5f8c2bdec8c2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

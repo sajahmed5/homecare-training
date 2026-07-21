@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Further signs to watch for</h2><p>As sepsis develops, other signs may appear. The person's heart may be beating very fast, and their skin may look <strong>mottled, pale, blotchy or bluish</strong>, especially on the lips, hands or feet. They may pass little or no urine over many hours. Some people describe an overwhelming <strong>feeling of impending doom</strong> &mdash; a sense that they are going to die &mdash; and this should always be taken seriously.</p><ul><li><strong>Skin:</strong> mottled, pale, blotchy or blue in colour.</li><li><strong>Urine:</strong> passing much less than usual, or none at all.</li><li><strong>Feeling:</strong> a strong sense that something is terribly wrong.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4b8528a7-6d58-49b0-b3e1-4a11d811a4fe",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for More warning signs",
+          "decorative": false,
+          "file": {
+            "path": "images/more-warning-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "72bb5b9a-37ba-47cc-ab07-c3897efc9f2b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting the signs together</h2><p>A helpful way to remember the adult warning signs is to think about slurred speech or confusion, extreme shivering or muscle pain, passing no urine, severe breathlessness, a feeling that they are going to die, and skin that is mottled or discoloured. Any one of these in an unwell person means you should act fast and get help.</p><p>Remember that a rash which does not fade when you press a glass against it is a separate medical emergency in its own right. If you see a non-fading rash, or any of the signs above, do not wait &mdash; escalate immediately and be ready to call 999. It is always better to raise the alarm and be reassured than to hold back and lose precious time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b9948c98-3679-4acd-9e0e-794095b3b06d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

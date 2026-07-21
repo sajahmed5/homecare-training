@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Call 999 immediately</h2><p>The single most important action when you suspect a stroke is to call <strong>999</strong> for an ambulance without delay. A stroke is a time-critical emergency, and the treatments that can limit the damage only work if they are given quickly. Tell the call handler clearly that you think the person is having a <strong>stroke</strong>, so the right, fast response is sent.</p><ul><li><strong>Dial 999:</strong> ask for an ambulance the moment you suspect a stroke.</li><li><strong>Say &ldquo;stroke&rdquo;:</strong> tell the call handler what you suspect and why.</li><li><strong>Do not delay:</strong> do not phone the GP or wait &mdash; call 999.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7e7b74ec-043c-498f-86f4-ad953b6525de",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Call 999 now",
+          "decorative": false,
+          "file": {
+            "path": "images/call-999-now.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0e789159-f27b-4e83-86c7-2e744a4fb422",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Even if the signs pass</h2><p>You must still call 999 even if the symptoms seem to <strong>disappear</strong>. Signs that come and go, or that pass quickly, may be a TIA &mdash; a warning that a major stroke could follow soon. The fact that someone looks better does not mean they are safe, and it is not for you to decide that the danger has passed. That is a decision for the hospital.</p><p>Do not be tempted to drive the person to hospital yourself, or to wait for a GP appointment. Calling 999 means paramedics can begin assessment on the way and take the person straight to the right stroke unit. A quick, confident 999 call is the most valuable thing you can do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "01ea5459-de12-4f4e-8754-c181ed8e64e6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person showed stroke signs a few minutes ago, but now seems completely back to normal. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Still call 999 &mdash; the signs may have been a TIA, which is a warning that a major stroke could follow.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Signs that pass may be a TIA and still need urgent help, so call 999.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do nothing, because the signs have gone and the person is fine now.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a TIA is a serious warning; the person still needs urgent medical help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until tomorrow and mention it to the GP if it happens again.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; this is an emergency; call 999 now rather than waiting for a GP.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask the person to have a lie down and check on them in a few hours.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; do not wait; even signs that pass need an emergency 999 call.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6d820fba-79d2-48a0-b012-c53eb7887dc1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

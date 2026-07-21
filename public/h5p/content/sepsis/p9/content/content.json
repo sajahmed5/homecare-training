@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Say the word &ldquo;sepsis&rdquo;</h2><p>When you escalate, use the word <strong>sepsis</strong> out loud. Saying &ldquo;I am worried this could be sepsis&rdquo; tells the nurse, senior or 999 call handler to treat the situation as a possible emergency and to act at once. It cuts through any delay and makes your level of concern impossible to miss. Naming your worry clearly is one of the most powerful things you can do.</p><ul><li><strong>Be direct:</strong> say &ldquo;could this be sepsis?&rdquo; clearly.</li><li><strong>Be specific:</strong> describe what you have seen and when.</li><li><strong>Be persistent:</strong> if you are still worried, keep pushing for help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "eca97838-60bf-40ff-b020-49faae60d9f8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Say the word",
+          "decorative": false,
+          "file": {
+            "path": "images/say-the-word.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "801ccea8-299a-42ae-b814-8e13f47dc3f8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to call 999</h2><p>If the person is very unwell &mdash; for example struggling to breathe, hard to rouse, or showing skin that is mottled or blue &mdash; call <strong>999</strong> and ask for an ambulance without delay. Tell the call handler plainly that you are worried about sepsis and describe what you can see. In a care setting, follow your organisation's procedure, but never let waiting for someone else stop you getting emergency help when a person is critically ill.</p><p>If you have raised your concern with a colleague or nurse but the person keeps getting worse, do not assume it is being dealt with. Speak up again, and be prepared to call 999 yourself. Your persistence could be what gets the person the urgent treatment they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "125a7806-63ee-4f63-93af-a643b7018807",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is it important to actually say the word &ldquo;sepsis&rdquo; when you escalate?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It signals a possible emergency and prompts others to act urgently.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Naming sepsis makes your concern unmistakable and triggers a fast response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It confirms the diagnosis so treatment can begin without a clinician.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; saying the word does not diagnose sepsis; it prompts the trained team to assess urgently.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only needed when writing up notes after the emergency is over.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; saying it early, when you escalate, is what drives a fast response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It replaces the need to describe what you have actually seen.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you should say &ldquo;sepsis&rdquo; and also describe the signs and when they started.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a24a9d2f-8554-41cc-8bbf-5eb1cfcabb01",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

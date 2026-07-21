@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common signs of sepsis</h2><p>Sepsis shows itself in several ways, and a person may have some of these signs but not others. Key warning signs include <strong>new confusion or slurred speech</strong>, <strong>fast breathing or breathlessness</strong>, and a temperature that is either very high or abnormally low. The person may be shivering violently or complaining of severe muscle pain, or they may simply say they feel dreadful.</p><ul><li><strong>New confusion:</strong> disorientation, drowsiness or slurred speech.</li><li><strong>Fast breathing:</strong> breathing quickly or struggling for breath.</li><li><strong>Temperature:</strong> very high, or unusually low with shivering.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9d73639-70d9-4803-9efd-271ec7ab2219",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Key warning signs",
+          "decorative": false,
+          "file": {
+            "path": "images/key-warning-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "92ee5bad-5f14-4083-b7ff-bbe05e408699",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Take every sign seriously</h2><p>No single sign proves sepsis, and no single sign rules it out. Someone with a normal temperature can still have sepsis, and an older person may not develop a high fever at all. This is why you look at the whole picture: how the person seems, how they are breathing, and how quickly they have changed. When several signs appear together, or when one appears in someone who is already at risk, treat it as an emergency.</p><p>Your job is not to weigh up the signs and decide whether it &ldquo;counts&rdquo; as sepsis. Your job is to recognise that the person is seriously unwell and to get urgent help. If you are worried, say so clearly and let the clinical team make the assessment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cb25e125-f3ee-41c0-bf43-48c104bff1a0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>New confusion or disorientation in someone you support can be an early warning sign of sepsis.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. New confusion is an important early sign of sepsis and should always be taken seriously.",
+            "correctAnswerMessage": "Correct. A sudden change in how alert or confused a person is can be one of the earliest signs of sepsis, and must be escalated quickly."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "3aca887e-daaa-40d3-946c-9e95648f06ae",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

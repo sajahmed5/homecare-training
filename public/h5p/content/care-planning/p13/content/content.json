@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Escalating when needs change</h2><p>Sometimes what you notice cannot wait for the next planned review. When a person's needs change in a way that affects their safety or wellbeing, you need to <strong>escalate</strong> &mdash; to raise it promptly with the right person so that action can be taken.</p><ul><li><strong>Know who to tell:</strong> your manager, senior or the on-call service, following your employer's procedure.</li><li><strong>Act promptly:</strong> do not wait if the change could affect the person's safety.</li><li><strong>Record it too:</strong> write down what you saw and what you reported.</li></ul><p>Escalating is not going over anyone's head &mdash; it is how the team keeps a person safe when things change.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ae8f9768-3562-4160-9464-178e5d8b031e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When needs change",
+          "decorative": false,
+          "file": {
+            "path": "images/when-needs-change.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5e0d02b1-04d4-4408-87a9-9d8ded0901b6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on care planning. You have explored what a care plan is and why it matters, including person-centred care and the cycle of assessment, plan and review; what makes a good plan, from needs, strengths and outcomes to capacity, consent and positive risk-taking; how you follow and contribute to the plan through person-centred delivery and careful recording; and how plans are reviewed, recorded and escalated when needs change. Throughout, the care plan is a living document, and your daily observations help keep it accurate.</p><p>Remember the key point from the start: <strong>this e-learning covers the knowledge element only</strong>. It builds your awareness and good practice, but it does not replace the supervised training and formal assessment carried out by an assessor or senior colleague in your workplace. Formal assessment and the authorship of care plans sit with the assessor; your part is to follow them, contribute to them and help review them well. Speak to your manager about the workplace training and assessment that go alongside this learning.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fd77da46-3ed8-48d4-a171-8518315389c4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

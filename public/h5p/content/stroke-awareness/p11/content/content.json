@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common effects of a stroke</h2><p>A stroke can affect people in many different ways, depending on which part of the brain was damaged. Some effects are easy to see, such as weakness in an arm or leg, while others are hidden, such as tiredness or changes in mood. Understanding the range of effects helps you support recovery with patience and without making assumptions about the person.</p><ul><li><strong>Physical:</strong> weakness, mobility problems, and difficulty swallowing.</li><li><strong>Communication:</strong> difficulty with speech and understanding.</li><li><strong>Hidden effects:</strong> fatigue, and emotional and cognitive changes.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0136d851-ff52-4a95-aa6f-6e8d0645e476",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Effects of a stroke",
+          "decorative": false,
+          "file": {
+            "path": "images/effects-of-a-stroke.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "13a7b0c7-6f65-465d-9d5c-ac5938b52352",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical &amp; hidden changes</h2><p>Physical effects often include <strong>weakness or paralysis</strong> down one side of the body, affecting mobility, balance and everyday tasks. A stroke can also cause <strong>dysphagia</strong> &mdash; difficulty swallowing &mdash; which needs careful management to help prevent choking and chest infections. Many people experience overwhelming <strong>fatigue</strong> that does not improve with rest, which is real and not a sign of laziness.</p><p>There are often <strong>hidden</strong> effects too. A stroke can bring changes in <strong>emotion and mood</strong>, such as low mood, anxiety, or crying and laughing that feel hard to control, and <strong>cognitive changes</strong> affecting memory, concentration and thinking. These effects can be just as disabling as the physical ones, even though others may not notice them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c52714ca-738a-4b9a-a1fe-7a83c5e00fee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a common effect of a stroke?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Weakness down one side of the body, difficulty swallowing, and overwhelming fatigue.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are all common effects of a stroke, alongside communication, emotional and cognitive changes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A permanent improvement in memory and concentration.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stroke more often causes problems with memory and concentration, not improvement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An increased ability to taste and smell food.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; this is not an effect of a stroke.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Faster, stronger movement on one side of the body.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stroke commonly causes weakness on one side, not extra strength.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "85241c55-9eea-4d7e-b9f9-3af898c4b213",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

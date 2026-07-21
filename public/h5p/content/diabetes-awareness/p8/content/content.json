@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a hyper?</h2><p>Hyperglycaemia, or a <strong>hyper</strong>, is when blood glucose rises too high. Unlike a hypo, it often develops more slowly, over hours or days, so the signs can be easy to miss. It can happen when there is too little insulin or medication, during illness or infection, with stress, after eating a lot of carbohydrate, or if medication has been missed.</p><ul><li><strong>High glucose:</strong> above the person's healthy range.</li><li><strong>Slower onset:</strong> often builds over hours or days.</li><li><strong>Common triggers:</strong> illness, missed medication or stress.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0f3544cc-69fd-4a6d-8bfb-fdb1c08d2ea9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for High blood glucose",
+          "decorative": false,
+          "file": {
+            "path": "images/high-blood-glucose.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5b447a14-61c1-4b3b-a43a-acac1137bce3",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Signs of a hyper</h2><p>The classic signs of high blood glucose are being very <strong>thirsty</strong>, passing <strong>lots of urine</strong> (including getting up in the night), and feeling <strong>tired</strong> or lacking energy. People may also have blurred vision, a dry mouth, and, over a longer period, weight loss or repeated infections such as thrush.</p><p>A single high reading is not usually an emergency on its own, but it should be recorded and reported so the team can see the pattern. Persistently high levels, or a person who is becoming unwell, need attention, because untreated high glucose can develop into a serious condition. If someone with diabetes seems increasingly thirsty, is passing a lot of urine and is unusually tired, treat it as something worth reporting promptly rather than waiting.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "81813b9f-55b1-4e0a-8b5f-8d76a4a2b1f1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "When blood glucose is too *high*, the person often feels very *thirsty*, passes lots of *urine* and becomes *tired*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "72c99aff-3e72-48f2-884c-5e2ec94ce051",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

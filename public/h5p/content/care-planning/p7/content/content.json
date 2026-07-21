@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>SMART, personalised outcomes</h2><p>Outcomes work best when they are clear enough for everyone to know what success looks like. Many services use the idea of <strong>SMART</strong> outcomes &mdash; specific, measurable, achievable, relevant and time-bound &mdash; so that goals are realistic and progress can be seen.</p><ul><li><strong>Specific and personal:</strong> tied to this individual, not a general phrase copied between plans.</li><li><strong>Measurable and achievable:</strong> written so you can tell whether the outcome is being reached.</li><li><strong>Relevant and time-bound:</strong> meaningful to the person, with a sensible timescale.</li></ul><p>A personalised outcome describes what the person wants to achieve, not simply the tasks a worker carries out.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f97e2b32-ab2c-4a05-ac07-7b4b9e2dc653",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for SMART and risk",
+          "decorative": false,
+          "file": {
+            "path": "images/smart-and-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e5c83b0f-6730-4fe2-a0cb-934c2f6a076c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Risk and positive risk-taking</h2><p>Good plans deal honestly with risk. Some support carries hazards &mdash; a hot bath, a walk outdoors, cooking a meal &mdash; and the plan should record how to keep the person as safe as reasonably possible. But safety is not the only goal. <strong>Positive risk-taking</strong> means weighing a risk against the benefit to the person's independence, choice and quality of life, rather than removing every risk by removing the activity.</p><p>Wrapping someone in cotton wool can strip away the very things that give life meaning. A person-centred plan supports someone to keep doing what matters, with sensible measures in place, and records the discussion so the balance is clear. Your job is to follow those agreed measures, and to report if a risk changes &mdash; if a walk becomes unsteady, say &mdash; so the plan can be updated rather than the freedom taken away.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4f2ce84-7921-43fe-8ad7-406f0b1b65da",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on outcomes and risk.</p></p>",
+          "textField": "A good outcome is *SMART* and describes what the person wants to *achieve*, not just the tasks a worker performs. Supporting *positive* risk-taking helps a person keep the *independence* and choice that give life meaning.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "be83fcd1-6473-48b7-8b10-012aee2e024b",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

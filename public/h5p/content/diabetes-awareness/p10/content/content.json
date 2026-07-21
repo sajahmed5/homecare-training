@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing when to escalate</h2><p>A key part of your role is recognising when something needs more than everyday support and passing it on to the right person quickly. You do not need to have all the answers &mdash; you need to notice, act and report. Following your service's escalation procedure makes sure the person gets help without delay.</p><ul><li><strong>Emergencies:</strong> unconsciousness, fitting or signs of DKA &mdash; call 999.</li><li><strong>Urgent concerns:</strong> repeated high or low readings, or vomiting when unwell.</li><li><strong>Always:</strong> record what you saw and report it promptly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "064e6597-6fe8-46b3-a2b8-7b68175ea6d7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When to escalate",
+          "decorative": false,
+          "file": {
+            "path": "images/when-to-escalate.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a959ad47-0473-4e63-9740-d7efdc61cc31",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Escalating safely</h2><p>Some situations need an emergency response: a severe hypo where the person is unconscious, fitting or cannot swallow, or the warning signs of DKA. In these cases call <strong>999</strong> straight away. Other situations are urgent but not immediately life-threatening &mdash; for example, someone who is unwell and vomiting, whose readings are repeatedly very high or very low, or who seems increasingly drowsy or confused. These should be reported quickly to a senior colleague, nurse or the person's GP.</p><p>When someone with diabetes is unwell with another illness, their blood glucose can change quickly in either direction, so they need closer watching. Whatever the situation, describe clearly what you have seen, when it started and what you have done, and record it accurately. Prompt, clear escalation is one of the most valuable things you can do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f551b197-cbf6-4559-b17d-7319b61a8d66",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If a person with diabetes is unwell and vomiting, or has readings that are repeatedly very high or very low, you should report it promptly rather than wait and see.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Vomiting or repeated high or low readings need prompt reporting, because things can worsen quickly.",
+            "correctAnswerMessage": "Correct. Illness can change blood glucose quickly, so prompt reporting keeps the person safe."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "cd236804-fee3-464f-b887-3293578a968c",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

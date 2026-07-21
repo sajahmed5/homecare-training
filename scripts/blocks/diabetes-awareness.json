@@ -1,0 +1,97 @@
+{
+  "slug": "diabetes-awareness",
+  "title": "Diabetes Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Understanding diabetes"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p2",
+      "label": "Glucose and insulin",
+      "questions": 1,
+      "section": "Understanding diabetes"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p3",
+      "label": "Types of diabetes",
+      "questions": 1,
+      "section": "Understanding diabetes"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p4",
+      "label": "Good control matters",
+      "questions": 0,
+      "section": "Understanding diabetes"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p5",
+      "label": "What is a hypo",
+      "questions": 1,
+      "section": "Hypoglycaemia"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p6",
+      "label": "Signs of a hypo",
+      "questions": 1,
+      "section": "Hypoglycaemia"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p7",
+      "label": "Responding to a hypo",
+      "questions": 1,
+      "section": "Hypoglycaemia"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p8",
+      "label": "High blood glucose",
+      "questions": 1,
+      "section": "Hyperglycaemia and DKA"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p9",
+      "label": "DKA emergency",
+      "questions": 1,
+      "section": "Hyperglycaemia and DKA"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p10",
+      "label": "When to escalate",
+      "questions": 1,
+      "section": "Hyperglycaemia and DKA"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p11",
+      "label": "Eating and activity",
+      "questions": 1,
+      "section": "Supporting daily living"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p12",
+      "label": "Medication and feet",
+      "questions": 1,
+      "section": "Supporting daily living"
+    },
+    {
+      "type": "h5p",
+      "path": "diabetes-awareness/p13",
+      "label": "Your everyday role",
+      "questions": 0,
+      "section": "Supporting daily living"
+    }
+  ]
+}

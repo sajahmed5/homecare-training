@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What not to do</h2><p>Knowing what <em>not</em> to do during a seizure is just as important as knowing what to do. Some old ideas about seizure first aid are wrong and can cause harm. Two rules matter above all:</p><ul><li><strong>Do not restrain:</strong> never hold the person down or try to stop their movements.</li><li><strong>Nothing in the mouth:</strong> never put anything, including your fingers, in their mouth.</li></ul><p>A person cannot swallow their tongue during a seizure. Putting objects or fingers in the mouth can break teeth, injure them or you, and block their airway. Let the seizure happen without trying to hold the person still.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a61c2a67-11a0-4713-94a6-c7cfe1ea0d4f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What not to do",
+          "decorative": false,
+          "file": {
+            "path": "images/what-not-to-do.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ca0fa521-a7ef-46ee-9fa1-9ae6c0720450",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The recovery position</h2><p>Once the jerking movements have stopped, gently roll the person onto their side into the <strong>recovery position</strong>. This helps keep their airway clear and lets any saliva drain from their mouth. Tilt their head back a little so they can breathe easily, and stay with them while they come round.</p><p>After a seizure a person is often confused, drowsy, embarrassed or upset, and may not know where they are. Reassure them calmly, tell them they have had a seizure and that they are safe, and give them time and quiet to recover. Do not offer food or drink until they are fully alert. Check for any injuries, and respect their dignity &mdash; if they have been incontinent, help them discreetly once it is safe to do so.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41d8f2ad-bee8-4ab8-9937-d73ee7564f14",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the seizure first aid guidance.</p></p>",
+          "textField": "During a convulsive seizure, never *restrain* the person and never put anything in their *mouth*. Instead, *cushion* their head and *time* how long it lasts. Once the movements stop, place them in the *recovery* position.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "d1f16340-ab0d-4705-b7ec-6d15b6cd15b8",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

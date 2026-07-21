@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping records accurate and timely</h2><p>Good care planning depends on good records. What you write becomes part of the person's care record, is relied on by the whole team, and can be read by the person, their family, inspectors or a court. The CQC expects records to be accurate, complete and up to date.</p><ul><li><strong>Accurate and factual:</strong> record what you actually saw and did, not opinion or assumption.</li><li><strong>Timely:</strong> write records as soon as you can, while events are fresh.</li><li><strong>Clear and legible:</strong> write plainly so anyone reading can understand exactly what happened.</li></ul><p>Sign and date what you write, and never record care you did not give.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cf958815-56f5-4b66-94da-520c87642d73",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Accurate records",
+          "decorative": false,
+          "file": {
+            "path": "images/accurate-records.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2514d91c-8edf-4a03-a898-af7cf5f1f6d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality and data protection</h2><p>Care records contain sensitive personal information, so they must be kept <strong>confidential</strong> and handled in line with data protection law &mdash; the UK GDPR and the Data Protection Act 2018. Information about a person should be shared only with those who need it to give safe care, and only with a proper reason.</p><p>In practice this means storing records securely, not leaving them where others can see them, and not discussing a person's private details where you might be overheard or with people who have no need to know. If you use a phone or tablet to record care, follow your employer's rules for keeping it secure. Confidentiality is part of a person's dignity: handling their information with care shows the same respect you show in every other part of their support. When you are unsure whether you may share something, ask your manager first.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "96d6c055-3d13-48ee-b628-5758a0fcf6cd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these best describes a good care record?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Accurate, factual and timely, recording what you saw and did, and kept confidential and secure</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Good records are factual, prompt and secure, so the team can rely on them and dignity is protected.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Written from memory at the end of the week to save time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Records written long after the event are less accurate; they should be completed promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Full of your personal opinions about the person and their family</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Records should be factual, not opinion, and must respect the person's dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Left open on the kitchen table so the next worker can find them</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Records hold sensitive information and must be stored securely, not left where others can read them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4d1872a3-83f9-41cf-b422-779ed6546421",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

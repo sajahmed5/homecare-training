@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why good control matters</h2><p>When blood glucose stays too high over months and years, it slowly damages the blood vessels and nerves throughout the body. Good control &mdash; keeping blood glucose, along with blood pressure and cholesterol, within healthy ranges &mdash; greatly reduces the risk of these long-term problems. This is why the daily routines around food, medication and activity matter so much.</p><ul><li><strong>Steady levels:</strong> reduce damage to blood vessels and nerves.</li><li><strong>Whole person:</strong> blood pressure and cholesterol matter too.</li><li><strong>Everyday care:</strong> small routines protect long-term health.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "365e0446-b013-447b-ac6c-62f2a966cae7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Good control matters",
+          "decorative": false,
+          "file": {
+            "path": "images/good-control-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "05fd88a3-19fd-44fe-b9d5-5da1370e0c28",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Long-term complications</h2><p>Poorly controlled diabetes can, over time, harm several parts of the body. It can damage the <strong>eyes</strong> (leading to sight loss), the <strong>kidneys</strong> (which can eventually fail), and the <strong>nerves</strong>, causing numbness, pain or loss of feeling, often in the feet.</p><p>The <strong>feet</strong> are especially at risk, because reduced feeling and poor circulation mean a small cut, blister or sore can go unnoticed, become infected and, in serious cases, lead to amputation. Diabetes also raises the risk of <strong>heart</strong> disease, heart attack and stroke. The encouraging message is that good control and regular health checks make these complications far less likely, so the everyday support you give genuinely helps protect people's future health.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "93e69b79-3208-41b0-990c-7f430c60e010",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

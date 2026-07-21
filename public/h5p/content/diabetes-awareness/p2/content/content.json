@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How the body uses glucose</h2><p>The food we eat, especially carbohydrate such as bread, rice, pasta, potatoes and fruit, is broken down into <strong>glucose</strong>, a sugar that travels in the blood and is the body's main source of energy. To be useful, glucose has to move out of the blood and into the body's cells, where it is burned as fuel. Keeping the amount of glucose in the blood within a healthy range is important for staying well.</p><ul><li><strong>Glucose:</strong> the sugar the body uses for energy.</li><li><strong>Blood glucose:</strong> the amount of that sugar in the blood.</li><li><strong>Balance:</strong> the body works to keep it steady.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a2d9e375-0200-4c4b-bc66-0c08ee1f9ece",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Glucose and insulin",
+          "decorative": false,
+          "file": {
+            "path": "images/glucose-and-insulin.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "62a9a2e6-b5b8-4c57-90e6-ddfba9d9987c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The role of insulin</h2><p>Insulin is a hormone made in the pancreas. It acts like a key that unlocks the body's cells so glucose can move in from the blood and be used for energy. After a meal, when blood glucose rises, the pancreas releases insulin to bring it back down to a healthy level.</p><p>Diabetes happens when this system stops working properly. Either the body cannot make insulin, or the insulin it makes does not work well enough, or there is not enough of it. As a result, glucose stays in the blood instead of getting into the cells, and blood glucose levels rise too high. Understanding this simple idea makes the rest of diabetes care much easier to follow.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "52fb89cc-b72a-4094-b87c-629e43eae782",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does insulin do in the body?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It helps glucose move out of the blood and into the body's cells to be used for energy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Insulin is the key that lets glucose enter the cells, lowering blood glucose.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It turns glucose into fat so the body can store it as water.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Insulin's main job is to help glucose move into cells for energy, not to make water.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It raises blood glucose after every meal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Insulin lowers blood glucose by moving it into the cells; it does not raise it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It removes carbohydrate from food before it is digested.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Carbohydrate is still digested into glucose; insulin acts on the glucose in the blood.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d802b3f7-9fc8-4269-8b57-9fa805ed0797",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

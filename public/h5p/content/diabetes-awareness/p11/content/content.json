@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred daily support</h2><p>Living well with diabetes is mostly about everyday life &mdash; eating, moving, taking medication and self-care &mdash; and this is where your support really counts. Good support is person-centred: it follows the individual's care plan, respects their choices and helps them stay as independent as possible, rather than taking over.</p><ul><li><strong>Follow the plan:</strong> support each person's own routine and goals.</li><li><strong>Encourage:</strong> support independence and healthy choices.</li><li><strong>Respect choice:</strong> people make their own decisions about their lives.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ea692ae8-27cf-43a0-9ca7-998b4e175602",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Eating and activity",
+          "decorative": false,
+          "file": {
+            "path": "images/eating-and-activity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c45b1711-8724-4b44-853c-0f0cc8aba83d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Healthy eating and staying active</h2><p>People with diabetes are advised to eat a healthy, balanced diet along the lines of the NHS <strong>Eatwell Guide</strong> &mdash; plenty of vegetables, some starchy carbohydrate, protein and dairy or alternatives, and less sugar, salt and saturated fat. There is no special &ldquo;diabetic diet&rdquo;, and people do not have to cut out all sugar; the aim is balance, sensible portions and meals they enjoy. Being aware of carbohydrate matters, because it has the biggest effect on blood glucose.</p><p>Regular <strong>physical activity</strong> also helps, as it lowers blood glucose and supports general health and mood. Encourage the activity set out in the care plan, from a short walk to gentle exercises, at a level that suits the person. Remember that extra activity can lower glucose, so watch for hypos in people on insulin or certain tablets, especially if they are more active than usual.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "227e766a-3f97-413d-91ec-69d93bcc51e0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the best guidance on diet for most people with diabetes?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A healthy, balanced diet like the Eatwell Guide, with sensible portions and food they enjoy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. There is no special diabetic diet; balance, portion size and enjoyment are what matter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Cutting out every trace of sugar and carbohydrate completely.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People do not have to cut out all sugar; a balanced diet with sensible portions is advised.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Eating only special, expensive &ldquo;diabetic&rdquo; foods.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Special diabetic foods are not needed or recommended; a normal balanced diet is best.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skipping meals to keep blood glucose low.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Skipping meals can trigger hypos in people on insulin or certain tablets, and is not advised.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "67c757d4-14ae-46d9-a9ef-8541c2a384e5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

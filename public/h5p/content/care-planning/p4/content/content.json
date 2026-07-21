@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Needs, wishes, outcomes and strengths</h2><p>A good care plan captures far more than a person's problems. Under the Care Act 2014, planning is <strong>outcome-focused</strong> &mdash; it starts from what the person wants to achieve and how they want to live, then works out the support needed to get there.</p><ul><li><strong>Needs:</strong> the areas of daily life where the person needs help, such as washing, eating or moving safely.</li><li><strong>Wishes and outcomes:</strong> what matters to the person and the goals they want to reach.</li><li><strong>Strengths:</strong> the abilities, resources and relationships the person already has.</li></ul><p>Planning around strengths, not just needs, is often called a strengths-based approach, and the Care Act encourages it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2ed56975-d90f-4585-80db-37fa9fbb1bf1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Needs and strengths",
+          "decorative": false,
+          "file": {
+            "path": "images/needs-and-strengths.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6a915b96-124a-442f-bb98-fd5bc40c539d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Outcomes, not just tasks</h2><p>There is an important difference between an outcome and a task. A task is something a worker does &mdash; &ldquo;assist with a shower&rdquo;. An <strong>outcome</strong> is what the person gains &mdash; &ldquo;to feel clean, confident and able to see friends&rdquo;. Good plans lead with outcomes and then describe the support that helps the person reach them.</p><p>Building on strengths keeps a person as independent as possible. If someone can butter their own toast but needs help to make the tea, the plan should say so, so that no one takes over the part they can manage. This protects skills, confidence and dignity. As you deliver care you see a person's real strengths and outcomes at work, and when what you see differs from the plan, that is valuable information to feed back.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b141fbab-1aa3-4574-bc50-b50d84593773",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is written as an outcome rather than a task?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>To be able to get to the community lunch club and stay in touch with friends</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. This describes what the person wants to achieve in their life, which is an outcome.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assist the person to wash and dress each morning</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. This describes a task a worker does, rather than what the person gains from it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Prompt the person to take their medication at 8am</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. This is a task; an outcome would describe what the person achieves by staying well.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Empty and clean the commode after each use</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. This is a care task, not an outcome the person is working towards.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "bb438709-33ff-429a-937a-66ab9b84cf2f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "stroke-awareness",
+  "courseTitle": "Stroke Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What a stroke is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Stroke Awareness</h2><p>A stroke is a medical emergency. It happens suddenly, it is life-threatening, and how quickly it is recognised and treated shapes how well someone recovers. As a care worker in England, you are often the person closest to someone when a stroke begins, so being able to spot the signs and act at once can save a life and reduce lasting harm. This course helps you understand what a stroke is, recognise it using the FAST test, respond correctly, and support recovery.</p><ul><li><strong>Recognise:</strong> spot the signs of a stroke quickly using FAST.</li><li><strong>Act:</strong> call 999 immediately &mdash; a stroke is a time-critical emergency.</li><li><strong>Support:</strong> help someone live well after a stroke, within your role.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Time is brain</h2><p>A stroke is often called a &ldquo;brain attack&rdquo;. When the blood supply to part of the brain is interrupted, brain cells begin to die within minutes, which is why the phrase <strong>&ldquo;time is brain&rdquo;</strong> matters so much: every minute of delay means more of the brain is lost. The faster someone reaches hospital, the more treatment options they have and the better their chances of a good recovery.</p><p>This course gives you <strong>awareness and knowledge</strong> to help you recognise a stroke and act. It does <strong>not</strong> replace clinical care or professional assessment, and it does not make you responsible for diagnosis or treatment. If you ever suspect someone is having a stroke, you must call <strong>999</strong> at once.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a stroke?",
+      "section": "What a stroke is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What happens during a stroke</h2><p>The brain needs a constant supply of blood, which carries the oxygen and nutrients that brain cells need to work and stay alive. A stroke happens when this blood supply to part of the brain is suddenly <strong>cut off</strong> or interrupted. Without blood, the affected part of the brain is starved of oxygen, and cells in that area quickly begin to become damaged and die.</p><ul><li><strong>The cause:</strong> the blood supply to part of the brain is interrupted.</li><li><strong>The effect:</strong> brain cells in that area are starved of oxygen.</li><li><strong>The result:</strong> sudden loss of the functions that part controlled.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why the effects vary</h2><p>Different parts of the brain control different things &mdash; movement, speech, vision, balance, memory and emotion. The effects of a stroke depend on <strong>which part</strong> of the brain is affected and <strong>how much</strong> damage is done. This is why one person may lose the use of an arm, another may struggle to speak, and another may have problems with their sight or balance.</p><p>Because brain cells cannot easily repair themselves once they have died, the damage a stroke causes can be lasting. This is exactly why speed matters: prompt treatment can limit the damage and protect the brain functions the person still has. Recognising a stroke early gives the person the best possible chance.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What happens to the brain during a stroke?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The blood supply to part of the brain is cut off, so brain cells are starved of oxygen and begin to die.", "correct": true, "feedback": "Correct. A stroke interrupts the brain's blood supply, and without oxygen the affected cells quickly start to die." },
+            { "text": "The brain produces too much blood and becomes overactive.", "correct": false, "feedback": "No &mdash; a stroke is caused by the blood supply being interrupted, not by too much blood." },
+            { "text": "The brain simply becomes tired and needs a short rest to recover.", "correct": false, "feedback": "No &mdash; a stroke is a serious emergency, not tiredness, and needs urgent treatment." },
+            { "text": "A stroke only affects the muscles, not the brain itself.", "correct": false, "feedback": "No &mdash; a stroke damages the brain, and this is what causes effects such as weakness or speech problems." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Types of stroke",
+      "section": "What a stroke is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Two main types of stroke</h2><p>Most strokes fall into one of two types, depending on <strong>why</strong> the blood supply is interrupted. Knowing that there are different types helps you understand why hospital assessment is so important: the treatment for each is different, and only a brain scan can tell them apart. Whatever the type, the emergency response from you is exactly the same.</p><ul><li><strong>Ischaemic stroke:</strong> a clot blocks a blood vessel supplying the brain.</li><li><strong>Haemorrhagic stroke:</strong> a blood vessel in or around the brain bursts and bleeds.</li><li><strong>Both are emergencies:</strong> only a hospital scan can tell which it is.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The TIA or &ldquo;mini-stroke&rdquo;</h2><p>An <strong>ischaemic</strong> stroke is the most common type and is caused by a clot blocking the flow of blood to the brain. A <strong>haemorrhagic</strong> stroke is caused by bleeding, when a blood vessel bursts. There is also a transient ischaemic attack, or <strong>TIA</strong>, often called a &ldquo;mini-stroke&rdquo;. In a TIA the blood supply is only interrupted briefly, so the symptoms pass, sometimes within minutes.</p><p>A TIA must never be dismissed just because the person seems to recover. It is a serious <strong>warning sign</strong> that a larger stroke may follow, and it still needs urgent medical help. If you see stroke signs that then pass, treat it as an emergency and call 999 &mdash; do not wait to see what happens.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "There are two main types of stroke. An *ischaemic* stroke is caused by a *clot* blocking blood flow, while a *haemorrhagic* stroke is caused by *bleeding*. A brief *TIA* is a warning that still needs urgent help."
+        }
+      ]
+    },
+    {
+      "label": "Risk factors",
+      "section": "What a stroke is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What raises the risk of a stroke</h2><p>Anyone can have a stroke, including younger people, but some things make a stroke more likely. Knowing the main <strong>risk factors</strong> helps you understand why some of the people you support are more vulnerable, and why the health conditions noted in their care plan matter. Many risk factors can be managed with the right treatment and support.</p><ul><li><strong>High blood pressure:</strong> the single biggest risk factor for stroke.</li><li><strong>Heart rhythm problems:</strong> atrial fibrillation raises the risk of clots.</li><li><strong>Other factors:</strong> diabetes, smoking, and increasing age.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Medical and lifestyle risks</h2><p><strong>High blood pressure</strong> is the most important risk factor and the leading cause of stroke. <strong>Atrial fibrillation</strong>, an irregular heartbeat, allows clots to form that can travel to the brain. <strong>Diabetes</strong> and <strong>smoking</strong> both damage blood vessels over time and raise the risk, and the risk also increases as people get <strong>older</strong>, although strokes can happen at any age.</p><p>You are not expected to diagnose or treat these conditions, but your everyday support plays a part in reducing risk &mdash; for example by helping people take prescribed medication, supporting a healthy diet and activity where that is in the care plan, and reporting concerns. Recognising who is at higher risk also keeps you alert to the signs of a stroke.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following is described as the single biggest risk factor for stroke?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "High blood pressure, especially when it is not well controlled.", "correct": true, "feedback": "Correct. High blood pressure is the single biggest risk factor for stroke and the leading cause." },
+            { "text": "Reading in good lighting.", "correct": false, "feedback": "No &mdash; this has nothing to do with stroke risk." },
+            { "text": "Taking regular gentle walks.", "correct": false, "feedback": "No &mdash; staying active can actually help reduce the risk of a stroke." },
+            { "text": "Drinking water with meals.", "correct": false, "feedback": "No &mdash; this is not a stroke risk factor; high blood pressure is the biggest one." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The FAST test",
+      "section": "Recognising a stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The FAST test</h2><p>The most important tool for recognising a stroke is the <strong>FAST</strong> test, used in the NHS Act FAST campaign. It gives you four simple things to check, and it is designed so that anyone can use it quickly. If you notice any single one of these signs, it is time to act &mdash; you do not need to see all of them before responding.</p><ul><li><strong>Face:</strong> has their face fallen on one side? Can they smile?</li><li><strong>Arms:</strong> can they raise both arms and keep them there?</li><li><strong>Speech:</strong> is their speech slurred or muddled? Time to call 999.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Working through FAST</h2><p>Take each letter in turn. <strong>Face</strong>: look at the person's face and ask them to smile &mdash; has their mouth or eye drooped on one side? <strong>Arms</strong>: ask them to raise both arms &mdash; can they hold them up, or does one drift downwards? <strong>Speech</strong>: listen to their speech &mdash; is it slurred or jumbled, or are they unable to talk at all even though they seem awake?</p><p>The final letter, <strong>T</strong>, stands for <strong>Time</strong>: time to call <strong>999</strong>. If you see any one of these signs, treat it as a stroke until proven otherwise, and call 999 straight away. FAST is quick to remember precisely so that you can act without hesitation in the moment.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "You should only call 999 if a person shows all four FAST signs at the same time.",
+          "correct": false,
+          "correctMsg": "Correct. Any single FAST sign is enough &mdash; you do not need to see all of them before calling 999.",
+          "wrongMsg": "Not quite. Even one FAST sign &mdash; in the face, arms or speech &mdash; means you should call 999 straight away."
+        }
+      ]
+    },
+    {
+      "label": "Other signs",
+      "section": "Recognising a stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Other signs of a stroke</h2><p>FAST covers the most common signs, but a stroke can show itself in other ways too, and these often come on <strong>suddenly</strong>. Sudden onset is the key clue: a symptom that appears out of nowhere, without warning, should make you think of a stroke. Being aware of the wider range of signs means you will not miss a stroke that does not fit the FAST pattern.</p><ul><li><strong>Sudden weakness:</strong> or numbness on one side of the body.</li><li><strong>Sudden confusion:</strong> or trouble speaking or understanding.</li><li><strong>Sudden problems:</strong> with vision, balance, or a severe headache.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Watching for the sudden and unexplained</h2><p>Other warning signs include <strong>sudden weakness or numbness</strong> down one side of the body, affecting the face, arm or leg; <strong>sudden confusion</strong> or difficulty speaking or understanding others; <strong>sudden trouble with vision</strong> in one or both eyes; a <strong>sudden loss of balance</strong> or coordination, dizziness or difficulty walking; and a <strong>sudden severe headache</strong> with no known cause, sometimes described as the worst the person has ever had.</p><p>You do not need to be certain which sign means what, and you should never talk yourself out of acting because it &ldquo;might be nothing&rdquo;. If any of these appear suddenly, treat it as a possible stroke. It is always better to call 999 and be reassured than to wait and let treatable damage become permanent.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Recognising in practice",
+      "section": "Recognising a stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Putting recognition into practice</h2><p>Recognising a stroke is not only about knowing the signs &mdash; it is about staying alert during ordinary care so that you notice a change the moment it happens. Because you know the people you support, you are well placed to spot when something is suddenly different: a face that has drooped, a cup dropped from a weakened hand, or speech that has become muddled mid-conversation.</p><ul><li><strong>Know the person:</strong> a sudden change from their normal is a red flag.</li><li><strong>Trust the signs:</strong> one FAST sign is enough to act on.</li><li><strong>Do not delay:</strong> never wait to see whether the signs pass.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When you are not sure</h2><p>Sometimes the signs are subtle or you feel unsure. Perhaps the person is a little confused, or one hand seems weaker than usual. In these moments, the safe response is always to <strong>check FAST</strong> and, if anything is wrong, call 999. A stroke can worsen quickly, and a symptom that seems mild at first can be the start of something serious.</p><p>Never let doubt, embarrassment or the fear of &ldquo;overreacting&rdquo; stop you from acting. The ambulance service would far rather be called to a suspected stroke that turns out to be something else than have someone wait at home while brain cells are dying. When it comes to stroke, acting on your suspicion is exactly the right thing to do.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice one of the people you support has suddenly become muddled and one side of their mouth has drooped. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Recognise this as a possible stroke, check FAST, and call 999 immediately.", "correct": true, "feedback": "Correct. A sudden facial droop and confusion are stroke signs &mdash; check FAST and call 999 without delay." },
+            { "text": "Wait an hour to see whether they go back to normal on their own.", "correct": false, "feedback": "No &mdash; waiting wastes vital time; with stroke, minutes matter, so call 999 at once." },
+            { "text": "Give them a hot drink and encourage them to have a rest.", "correct": false, "feedback": "No &mdash; never give food or drink when you suspect a stroke; call 999 instead." },
+            { "text": "Assume they are just tired and make a note to mention it next week.", "correct": false, "feedback": "No &mdash; these are stroke signs that need an emergency response now, not next week." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Call 999 now",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Call 999 immediately</h2><p>The single most important action when you suspect a stroke is to call <strong>999</strong> for an ambulance without delay. A stroke is a time-critical emergency, and the treatments that can limit the damage only work if they are given quickly. Tell the call handler clearly that you think the person is having a <strong>stroke</strong>, so the right, fast response is sent.</p><ul><li><strong>Dial 999:</strong> ask for an ambulance the moment you suspect a stroke.</li><li><strong>Say &ldquo;stroke&rdquo;:</strong> tell the call handler what you suspect and why.</li><li><strong>Do not delay:</strong> do not phone the GP or wait &mdash; call 999.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Even if the signs pass</h2><p>You must still call 999 even if the symptoms seem to <strong>disappear</strong>. Signs that come and go, or that pass quickly, may be a TIA &mdash; a warning that a major stroke could follow soon. The fact that someone looks better does not mean they are safe, and it is not for you to decide that the danger has passed. That is a decision for the hospital.</p><p>Do not be tempted to drive the person to hospital yourself, or to wait for a GP appointment. Calling 999 means paramedics can begin assessment on the way and take the person straight to the right stroke unit. A quick, confident 999 call is the most valuable thing you can do.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person showed stroke signs a few minutes ago, but now seems completely back to normal. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Still call 999 &mdash; the signs may have been a TIA, which is a warning that a major stroke could follow.", "correct": true, "feedback": "Correct. Signs that pass may be a TIA and still need urgent help, so call 999." },
+            { "text": "Do nothing, because the signs have gone and the person is fine now.", "correct": false, "feedback": "No &mdash; a TIA is a serious warning; the person still needs urgent medical help." },
+            { "text": "Wait until tomorrow and mention it to the GP if it happens again.", "correct": false, "feedback": "No &mdash; this is an emergency; call 999 now rather than waiting for a GP." },
+            { "text": "Ask the person to have a lie down and check on them in a few hours.", "correct": false, "feedback": "No &mdash; do not wait; even signs that pass need an emergency 999 call." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Note the time, stay",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Note the time symptoms started</h2><p>One piece of information is especially valuable to the hospital: the <strong>time the symptoms started</strong>, or the time the person was last seen well. Some stroke treatments can only be given within a certain window of time from when the stroke began, so knowing this helps the medical team decide quickly what treatment is safe. Note it as accurately as you can.</p><ul><li><strong>Note the time:</strong> when did the signs first appear?</li><li><strong>Last seen well:</strong> if unsure, note when the person was last normal.</li><li><strong>Pass it on:</strong> tell the call handler and paramedics this time.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Stay with the person</h2><p>After calling 999, <strong>stay with the person</strong>. Do not leave them alone, because their condition can change quickly and they may become more unwell or unable to help themselves. Keep them <strong>calm and comfortable</strong>, reassure them in a gentle voice, and explain simply that help is on the way. A stroke is frightening, and your calm presence matters a great deal.</p><p>Watch the person closely while you wait, and if their breathing or their responsiveness changes, tell the 999 call handler, who can guide you. Gather any useful information for the paramedics, such as the person's medication and the time the symptoms began, so that it is ready when the ambulance arrives.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Noting the time a person's stroke symptoms started is useful information for the hospital.",
+          "correct": true,
+          "correctMsg": "Correct. Some treatments must be given within a set time from when the stroke began, so this information is vital.",
+          "wrongMsg": "Not quite. The time symptoms started is very important &mdash; some stroke treatments can only be given within a set time window."
+        }
+      ]
+    },
+    {
+      "label": "Comfort, no food or drink",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Comfort, but no food or drink</h2><p>While you wait for the ambulance, keep the person as comfortable as you can, but do <strong>not</strong> give them anything to eat or drink &mdash; not even a sip of water or a cup of tea. A stroke can affect a person's ability to <strong>swallow</strong> safely, and food or fluid could go into their airway and lungs, causing them to choke or become more unwell.</p><ul><li><strong>No food or drink:</strong> swallowing may be unsafe after a stroke.</li><li><strong>No medication by mouth:</strong> do not give tablets either.</li><li><strong>Keep comfortable:</strong> reassure the person and keep them settled.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Keeping the person safe while you wait</h2><p>Help the person into a comfortable, supported position and avoid moving them around unnecessarily. If they are drowsy or being sick, the call handler may guide you on how best to position them to keep their airway clear. Do not give any medication by mouth, as swallowing may be unsafe, and loosen any tight clothing to help them feel at ease.</p><p>Above all, keep <strong>reassuring</strong> the person. They may be confused, frightened, or unable to speak clearly, but they can often still hear and understand you. Talk to them calmly, tell them what is happening, and stay close until the paramedics take over. Your steady, kind presence is part of good emergency care.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "While waiting for the ambulance, do not give the person any *food* or *drink*, because a stroke can affect their ability to *swallow* safely. Keep them *calm* and comfortable, and stay with them until help arrives."
+        }
+      ]
+    },
+    {
+      "label": "Effects of a stroke",
+      "section": "Life after stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Common effects of a stroke</h2><p>A stroke can affect people in many different ways, depending on which part of the brain was damaged. Some effects are easy to see, such as weakness in an arm or leg, while others are hidden, such as tiredness or changes in mood. Understanding the range of effects helps you support recovery with patience and without making assumptions about the person.</p><ul><li><strong>Physical:</strong> weakness, mobility problems, and difficulty swallowing.</li><li><strong>Communication:</strong> difficulty with speech and understanding.</li><li><strong>Hidden effects:</strong> fatigue, and emotional and cognitive changes.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Physical &amp; hidden changes</h2><p>Physical effects often include <strong>weakness or paralysis</strong> down one side of the body, affecting mobility, balance and everyday tasks. A stroke can also cause <strong>dysphagia</strong> &mdash; difficulty swallowing &mdash; which needs careful management to help prevent choking and chest infections. Many people experience overwhelming <strong>fatigue</strong> that does not improve with rest, which is real and not a sign of laziness.</p><p>There are often <strong>hidden</strong> effects too. A stroke can bring changes in <strong>emotion and mood</strong>, such as low mood, anxiety, or crying and laughing that feel hard to control, and <strong>cognitive changes</strong> affecting memory, concentration and thinking. These effects can be just as disabling as the physical ones, even though others may not notice them.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a common effect of a stroke?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Weakness down one side of the body, difficulty swallowing, and overwhelming fatigue.", "correct": true, "feedback": "Correct. These are all common effects of a stroke, alongside communication, emotional and cognitive changes." },
+            { "text": "A permanent improvement in memory and concentration.", "correct": false, "feedback": "No &mdash; a stroke more often causes problems with memory and concentration, not improvement." },
+            { "text": "An increased ability to taste and smell food.", "correct": false, "feedback": "No &mdash; this is not an effect of a stroke." },
+            { "text": "Faster, stronger movement on one side of the body.", "correct": false, "feedback": "No &mdash; a stroke commonly causes weakness on one side, not extra strength." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Communication and rehab",
+      "section": "Life after stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Communication and aphasia</h2><p>A stroke can affect communication in a condition called <strong>aphasia</strong>, which makes it hard for a person to speak, understand, read or write. Importantly, aphasia does <strong>not</strong> affect a person's intelligence &mdash; they know what they want to say but have difficulty getting the words out or making sense of the words they hear. Losing the ability to communicate can be deeply frustrating and isolating.</p><ul><li><strong>Aphasia:</strong> difficulty with speaking, understanding, reading or writing.</li><li><strong>Not intelligence:</strong> the person is as capable as ever inside.</li><li><strong>Your role:</strong> give time, patience, and other ways to communicate.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Supporting communication and recovery</h2><p>You can support someone with aphasia by giving them <strong>time</strong>, not rushing or finishing their sentences, using short sentences and questions, and offering other ways to communicate such as writing, pictures, gestures or a communication aid. Never speak over the person or assume they cannot understand. Treating them as a capable adult protects their dignity and confidence.</p><p>Recovery after a stroke should be <strong>person-centred</strong>, built around the individual's own goals, strengths and wishes, and it often involves a team including physiotherapists, occupational therapists, and speech &amp; language therapists. Your part is to encourage and support the exercises and approaches set out in the care plan, celebrate small gains, and help the person stay motivated through what can be a long journey.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "How can you best support someone with aphasia after a stroke?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Give them time, do not rush or finish their sentences, and offer other ways to communicate such as pictures or writing.", "correct": true, "feedback": "Correct. Patience and offering other means of communication protect the person's dignity and confidence." },
+            { "text": "Speak for them so they do not have to make the effort.", "correct": false, "feedback": "No &mdash; speaking for the person removes their voice; give them time to communicate themselves." },
+            { "text": "Talk loudly and quickly to help them keep up.", "correct": false, "feedback": "No &mdash; speaking loudly and quickly makes things harder; use short, clear sentences and give time." },
+            { "text": "Assume they can no longer understand and speak only to their relatives.", "correct": false, "feedback": "No &mdash; aphasia does not affect intelligence; always include and address the person directly." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reducing risk and summary",
+      "section": "Life after stroke",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Reducing the risk of another stroke</h2><p>Someone who has had a stroke or a TIA is at higher risk of having another, so <strong>reducing further risk</strong> is an important part of life after stroke. Much of this happens through medical care and healthier daily habits, and your everyday support can make a real difference in helping the person stick with the plan their healthcare team has agreed.</p><ul><li><strong>Medication:</strong> support the person to take prescribed medicines as directed.</li><li><strong>Healthy habits:</strong> encourage a balanced diet, activity and not smoking.</li><li><strong>Report changes:</strong> pass on any new concerns to the right person.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have learned that a stroke is a &ldquo;brain attack&rdquo; caused by the blood supply to part of the brain being cut off, that ischaemic and haemorrhagic strokes and TIAs all need urgent help, and how to recognise a stroke using the <strong>FAST</strong> test and other sudden signs. You have seen how to respond &mdash; call 999, note the time, stay with the person, keep them comfortable and give nothing to eat or drink &mdash; and how to support recovery with patience and a person-centred approach.</p><p>This training gives you <strong>awareness and knowledge</strong> to help you recognise a stroke and act. It does <strong>not</strong> replace clinical care or professional assessment. If you ever suspect that someone is having a stroke, remember that it is a time-critical emergency &mdash; &ldquo;time is brain&rdquo; &mdash; and you must call <strong>999</strong> at once.</p>"
+        }
+      ]
+    }
+  ]
+}

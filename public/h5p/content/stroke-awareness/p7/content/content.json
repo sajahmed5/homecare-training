@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting recognition into practice</h2><p>Recognising a stroke is not only about knowing the signs &mdash; it is about staying alert during ordinary care so that you notice a change the moment it happens. Because you know the people you support, you are well placed to spot when something is suddenly different: a face that has drooped, a cup dropped from a weakened hand, or speech that has become muddled mid-conversation.</p><ul><li><strong>Know the person:</strong> a sudden change from their normal is a red flag.</li><li><strong>Trust the signs:</strong> one FAST sign is enough to act on.</li><li><strong>Do not delay:</strong> never wait to see whether the signs pass.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad83fc83-354a-41e3-a669-43bec43b8258",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising in practice",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-in-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e567adde-18a3-49fc-830c-d08a37f6b96e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When you are not sure</h2><p>Sometimes the signs are subtle or you feel unsure. Perhaps the person is a little confused, or one hand seems weaker than usual. In these moments, the safe response is always to <strong>check FAST</strong> and, if anything is wrong, call 999. A stroke can worsen quickly, and a symptom that seems mild at first can be the start of something serious.</p><p>Never let doubt, embarrassment or the fear of &ldquo;overreacting&rdquo; stop you from acting. The ambulance service would far rather be called to a suspected stroke that turns out to be something else than have someone wait at home while brain cells are dying. When it comes to stroke, acting on your suspicion is exactly the right thing to do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "580d35f2-ac2c-4866-9f5b-45cbeae2b817",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice one of the people you support has suddenly become muddled and one side of their mouth has drooped. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Recognise this as a possible stroke, check FAST, and call 999 immediately.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A sudden facial droop and confusion are stroke signs &mdash; check FAST and call 999 without delay.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait an hour to see whether they go back to normal on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; waiting wastes vital time; with stroke, minutes matter, so call 999 at once.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them a hot drink and encourage them to have a rest.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; never give food or drink when you suspect a stroke; call 999 instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they are just tired and make a note to mention it next week.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; these are stroke signs that need an emergency response now, not next week.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "28ff5495-cefa-4c25-a6b6-e24f70535c87",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

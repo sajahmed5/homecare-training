@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Noticing and recording changes</h2><p>Because you support a person regularly and closely, you are often the first to notice when something changes. This makes your observations a vital part of care planning. A change may be in the person's health, their abilities, their mood or their circumstances.</p><ul><li><strong>Health:</strong> new pain, poor appetite, changes to skin, or signs of illness.</li><li><strong>Ability:</strong> a task the person now struggles with, or one they have regained.</li><li><strong>Mood and situation:</strong> low spirits, confusion, or a change at home such as a carer becoming unwell.</li></ul><p>You do not need to explain the change or diagnose it &mdash; your job is to notice it, record it and pass it on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1503d941-dc18-4e96-ba20-ebd2c9b70f03",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Noticing changes",
+          "decorative": false,
+          "file": {
+            "path": "images/noticing-changes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "223add83-c4f6-48b5-8014-0a4b371da87f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your observations feed the plan</h2><p>A care plan can only stay accurate if the people delivering it feed back what they see. When you record and report a change, you give the team the information they need to review the plan and adjust the support. In this way the plan keeps pace with the person, rather than describing how they used to be.</p><p>Because you come to know what is normal for each person, you are well placed to spot what is not. Trust that knowledge: if something feels different, it is worth recording and reporting. Write down what you actually observed &mdash; &ldquo;ate only half of lunch and said they felt sick&rdquo; &mdash; rather than a vague impression. Small, factual observations, gathered over time, are what allow a plan to be reviewed sensibly and kept genuinely useful.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "acbf1927-8eef-4f8f-b128-4fb99e73bbc1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Over several visits you notice a person needs much more help than usual to walk to the bathroom. What is the best action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record what you have observed factually and report it so the plan and any risks can be reviewed</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Factual recording and prompt reporting let the team review the plan and keep the person safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing unless the person falls</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Waiting for a fall means missing the chance to prevent harm by acting on an early change.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide it is just old age and not worth mentioning</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. It is not for you to dismiss a change; record and report it so it can be assessed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Change the person's mobility support yourself without telling anyone</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. You should not alter agreed support alone; report the change so the plan is updated properly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "11ca558a-61b2-43d8-807b-dc948e5bed09",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

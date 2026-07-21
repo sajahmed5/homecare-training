@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Monitoring, recording and reporting</h2><p>Blood glucose is often checked with a finger-prick test or a small sensor worn on the skin (a flash or continuous glucose monitor, such as a Libre sensor). You may be asked to be aware of readings, support people who monitor themselves, or record results, depending on your role and training. Whatever you do, accurate records and prompt reporting are central to keeping people safe.</p><ul><li><strong>Monitoring awareness:</strong> know how the person's glucose is checked.</li><li><strong>Record:</strong> note readings, meals, symptoms and concerns accurately.</li><li><strong>Report:</strong> pass on changes and worries promptly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6e17a8a-dd26-4f05-a176-0de303547c88",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your everyday role",
+          "decorative": false,
+          "file": {
+            "path": "images/your-everyday-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "736aba58-9323-448a-8bda-dc0a529bc24a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and its boundaries</h2><p>You are often the person who spends the most time with someone, so you are ideally placed to notice when things change &mdash; a hypo or hyper, a foot problem, a change in appetite, or someone becoming unwell. Recognising these, responding calmly and reporting clearly is the heart of good diabetes support, and it makes a real difference to people's health and confidence.</p><p>It is just as important to know your limits. This course gives you <strong>awareness and knowledge</strong> only. It does <strong>not</strong> authorise you to administer insulin or any diabetes medication. Doing so requires <strong>specific training, assessed competence and a proper delegation</strong> from a qualified professional, in line with your employer's policy. You do not diagnose diabetes or decide on treatment. Working within your role, and knowing when to hand over to someone with the right training, is exactly what keeps people safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f96e2bd4-e09c-488d-8ddc-8c5233a081ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

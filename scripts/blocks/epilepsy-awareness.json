@@ -1,0 +1,97 @@
+{
+  "slug": "epilepsy-awareness",
+  "title": "Epilepsy Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Understanding epilepsy"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p2",
+      "label": "What epilepsy is",
+      "questions": 1,
+      "section": "Understanding epilepsy"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p3",
+      "label": "Common and your role",
+      "questions": 1,
+      "section": "Understanding epilepsy"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p4",
+      "label": "Tonic-clonic and absence",
+      "questions": 1,
+      "section": "Types of seizure"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p5",
+      "label": "Focal seizures",
+      "questions": 1,
+      "section": "Types of seizure"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p6",
+      "label": "Auras and triggers",
+      "questions": 1,
+      "section": "Types of seizure"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p7",
+      "label": "Convulsive first aid",
+      "questions": 1,
+      "section": "Seizure first aid"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p8",
+      "label": "What not to do",
+      "questions": 1,
+      "section": "Seizure first aid"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p9",
+      "label": "Timing and dignity",
+      "questions": 0,
+      "section": "Seizure first aid"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p10",
+      "label": "When to call 999",
+      "questions": 1,
+      "section": "Emergencies and ongoing support"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p11",
+      "label": "Rescue medication",
+      "questions": 1,
+      "section": "Emergencies and ongoing support"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p12",
+      "label": "Records and SUDEP",
+      "questions": 0,
+      "section": "Emergencies and ongoing support"
+    },
+    {
+      "type": "h5p",
+      "path": "epilepsy-awareness/p13",
+      "label": "Person-centred support",
+      "questions": 1,
+      "section": "Emergencies and ongoing support"
+    }
+  ]
+}

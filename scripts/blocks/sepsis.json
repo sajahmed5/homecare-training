@@ -1,0 +1,97 @@
+{
+  "slug": "sepsis",
+  "title": "Sepsis Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "sepsis/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "What sepsis is &amp; why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p2",
+      "label": "What sepsis is",
+      "questions": 1,
+      "section": "What sepsis is &amp; why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p3",
+      "label": "Who is at risk",
+      "questions": 1,
+      "section": "What sepsis is &amp; why it matters"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p4",
+      "label": "Recognising sepsis",
+      "questions": 1,
+      "section": "Recognising sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p5",
+      "label": "Key warning signs",
+      "questions": 1,
+      "section": "Recognising sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p6",
+      "label": "More warning signs",
+      "questions": 0,
+      "section": "Recognising sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p7",
+      "label": "Any infection counts",
+      "questions": 1,
+      "section": "Recognising sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p8",
+      "label": "Your role",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p9",
+      "label": "Say the word",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p10",
+      "label": "Stay and record",
+      "questions": 1,
+      "section": "Acting fast"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p11",
+      "label": "Preventing infection",
+      "questions": 1,
+      "section": "Prevention &amp; after sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p12",
+      "label": "Recovery and support",
+      "questions": 1,
+      "section": "Prevention &amp; after sepsis"
+    },
+    {
+      "type": "h5p",
+      "path": "sepsis/p13",
+      "label": "Bringing it together",
+      "questions": 0,
+      "section": "Prevention &amp; after sepsis"
+    }
+  ]
+}

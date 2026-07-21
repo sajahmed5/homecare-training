@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Diabetes medication awareness</h2><p>Diabetes is treated in different ways depending on the person and the type. Being aware of the main kinds helps you support people and notice problems, but it does not change the rule that medication is only given by those trained and authorised to do so.</p><ul><li><strong>Tablets:</strong> such as metformin, which help the body manage glucose.</li><li><strong>Insulin:</strong> given by injection or pump, essential in Type 1.</li><li><strong>GLP-1 medicines:</strong> injectable treatments that help lower glucose and appetite.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6bdcfed7-504c-4a88-9238-b0d9b31ff579",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Medication and feet",
+          "decorative": false,
+          "file": {
+            "path": "images/medication-and-feet.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4b99bd54-75e6-4b5d-8879-3565d75d80aa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Foot care and why it matters</h2><p>Foot care is one of the most important parts of supporting someone with diabetes. Because diabetes can reduce feeling and blood flow in the feet, a small cut, blister, rub from a shoe or sore can go unnoticed, become infected and, at worst, lead to a serious wound or amputation. Small problems that would heal quickly in others can become serious.</p><p>Help people check their feet daily, keep them clean and dry, wear well-fitting shoes and avoid going barefoot. <strong>Report</strong> any cuts, redness, swelling, blisters, colour changes or sores straight away, and never cut corns or hard skin yourself &mdash; that is a job for a podiatrist. Encourage people to attend their regular foot checks. Noticing and reporting a foot problem early can prevent a great deal of harm.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "aca577e9-6d83-497a-a52b-ec5b8b532b51",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice a red, sore area on the foot of a person with diabetes. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly and record it, so it can be checked before it gets worse.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Foot problems in diabetes can worsen fast, so early reporting and recording are vital.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Cut away any hard skin around it to help it heal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never cut corns or hard skin &mdash; that is a podiatrist's job. Report the sore area instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore it, as small foot problems always heal on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "In diabetes, small foot problems can become serious. They should always be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person to keep walking on it to keep the blood flowing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This could make it worse. The right action is to report and record the problem promptly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8fc7246a-c651-4cba-8c2c-b799849add57",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

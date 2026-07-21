@@ -1,0 +1,278 @@
+{
+  "slug": "sepsis",
+  "courseTitle": "Sepsis Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What sepsis is &amp; why it matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Sepsis Awareness</h2><p>Welcome to <strong>Sepsis Awareness</strong>. Sepsis is a life-threatening medical emergency that can arise from almost any infection, and it can make someone very unwell very quickly. In your role you spend more time with the people you support than almost anyone else, which puts you in a powerful position to notice when something is wrong. This course helps you spot the early warning signs and get urgent help.</p><ul><li><strong>Recognise:</strong> the early signs that someone may have sepsis.</li><li><strong>Escalate:</strong> get urgent help fast, without waiting.</li><li><strong>Speak up:</strong> say the word &ldquo;sepsis&rdquo; so others act quickly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>This is awareness, not diagnosis</h2><p>This course builds your <strong>awareness and knowledge</strong> so that you can <strong>recognise</strong> the signs of sepsis early and <strong>escalate</strong> urgently. It does <strong>not</strong> replace clinical assessment, and it does not ask you to diagnose or treat anyone &mdash; that is the job of a nurse, doctor or paramedic. Your job is simpler and vital: to notice when a person &ldquo;just doesn't look right&rdquo;, to ask &ldquo;could this be sepsis?&rdquo;, and to get help straight away.</p><p>If you ever suspect sepsis, you must get urgent help immediately &mdash; tell a senior or nurse, or call 999 if the person is very unwell. Never wait to see how things go. Throughout this course, remember that speed saves lives.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What sepsis is",
+      "section": "What sepsis is &amp; why it matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What sepsis is</h2><p>Sepsis is the body's <strong>overwhelming and life-threatening response to an infection</strong>. Normally, when germs invade the body, the immune system fights back in a controlled way. In sepsis, that response goes into overdrive and begins to injure the body's own tissues and organs. Left unchecked, this can lead to organ failure, shock and death. Sepsis is sometimes called blood poisoning, but it is really the body's own reaction that causes the harm.</p><ul><li><strong>Trigger:</strong> an infection anywhere in the body.</li><li><strong>The problem:</strong> the immune response damages the person's own organs.</li><li><strong>The danger:</strong> it can be fatal if not treated quickly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why speed matters so much</h2><p>Sepsis can develop from a seemingly minor infection and become deadly within hours. The sooner it is recognised and treated, the better the person's chance of survival and full recovery &mdash; and every hour of delay increases the risk of serious harm. This is exactly why your early noticing matters. You do not need to be certain it is sepsis; you only need to be worried enough to raise the alarm.</p><p>Because sepsis moves fast, it is always treated as an emergency. Treatment such as antibiotics and fluids has to be given urgently in hospital. That treatment can only start once someone has recognised the danger and escalated it, and that first person is very often a care worker like you.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement best describes what sepsis is?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The body's overwhelming response to an infection, which begins to damage its own tissues and organs.", "correct": true, "feedback": "Correct. Sepsis is the body's own extreme reaction to infection, and it can become life-threatening very quickly." },
+            { "text": "A mild skin rash that clears up on its own within a few days.", "correct": false, "feedback": "No &mdash; sepsis is a life-threatening emergency, not a minor rash that resolves by itself." },
+            { "text": "A type of infection that only affects the lungs.", "correct": false, "feedback": "No &mdash; sepsis can follow almost any infection, not only chest infections." },
+            { "text": "A long-term condition that develops slowly over many years.", "correct": false, "feedback": "No &mdash; sepsis can develop within hours and is a medical emergency." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Who is at risk",
+      "section": "What sepsis is &amp; why it matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Sepsis can affect anyone</h2><p>Sepsis can affect anyone of any age, but some people are far more likely to become seriously unwell. Many of the people you support fall into these higher-risk groups, so it is worth knowing them well. Being at higher risk does not mean someone will definitely get sepsis &mdash; it means you should be especially alert to any signs of infection or sudden change in them.</p><ul><li><strong>Age:</strong> older people and the very young are more vulnerable.</li><li><strong>Immunity:</strong> a weakened immune system reduces the ability to fight infection.</li><li><strong>Recent illness:</strong> surgery, wounds or existing infection raise the risk.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Higher-risk groups</h2><p>People at greater risk include those over 75 and frail older people, very young children, and anyone whose immune system is weakened &mdash; for example by diabetes, chemotherapy or certain medicines. The risk is also higher for people who have had recent surgery or an invasive procedure, and for those with a break in the skin such as a wound, pressure sore, cut or burn.</p><p>Devices that enter the body, such as a urinary catheter or a drip line, give germs a route inside and so add to the risk. People who have recently had an infection, or who have been pregnant or given birth in the past six weeks, are also more vulnerable. Knowing who is most at risk helps you stay one step ahead.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Sepsis can affect anyone, but the risk is higher for *older* people, the very *young*, and anyone with a weakened *immune* system or long-term *diabetes*."
+        }
+      ]
+    },
+    {
+      "label": "Recognising sepsis",
+      "section": "Recognising sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>&ldquo;Could this be sepsis?&rdquo;</h2><p>There is no single test you can do to spot sepsis, and its signs can look like other illnesses. That is why the most useful question you can ask is simply: <strong>&ldquo;could this be sepsis?&rdquo;</strong> Asking that question out loud prompts everyone to take a possible emergency seriously. You are not being asked to diagnose &mdash; you are being asked to notice, to wonder, and to raise the alarm when something seems badly wrong.</p><ul><li><strong>Stay curious:</strong> ask &ldquo;could this be sepsis?&rdquo; whenever someone is suddenly unwell.</li><li><strong>Trust your instinct:</strong> a &ldquo;just doesn't look right&rdquo; feeling matters.</li><li><strong>Act on change:</strong> a rapid decline in someone is always a red flag.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The &ldquo;just doesn't look right&rdquo; change</h2><p>One of the strongest signals of sepsis is a person who has suddenly and clearly changed. They may seem more confused, drowsy, floppy or distant than usual, or a family member may tell you they are &ldquo;not themselves&rdquo;. Because you know the people you support, you are often the first to sense that something is different, even before any single symptom stands out.</p><p>Never dismiss this feeling as &ldquo;just having an off day&rdquo;. A sudden change in someone who is normally settled and alert can be the earliest warning that a serious infection is taking hold. If you notice this kind of change, treat it as important and pass it on quickly &mdash; do not keep it to yourself.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you support suddenly seems very confused and &ldquo;not themselves&rdquo;. What is the most helpful thing to do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Ask &ldquo;could this be sepsis?&rdquo; and escalate the change straight away.", "correct": true, "feedback": "Correct. A sudden change like new confusion is a red flag, and asking the question prompts urgent action." },
+            { "text": "Assume they are just having an off day and check again tomorrow.", "correct": false, "feedback": "No &mdash; a sudden change should never be dismissed. It can be an early sign of sepsis." },
+            { "text": "Try to work out yourself which infection they have before telling anyone.", "correct": false, "feedback": "No &mdash; diagnosis is not your role. Escalate your concern quickly rather than delaying to investigate." },
+            { "text": "Wait until the end of your shift to mention it in the handover.", "correct": false, "feedback": "No &mdash; sepsis moves fast, so waiting could cost vital time. Raise it immediately." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Key warning signs",
+      "section": "Recognising sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Common signs of sepsis</h2><p>Sepsis shows itself in several ways, and a person may have some of these signs but not others. Key warning signs include <strong>new confusion or slurred speech</strong>, <strong>fast breathing or breathlessness</strong>, and a temperature that is either very high or abnormally low. The person may be shivering violently or complaining of severe muscle pain, or they may simply say they feel dreadful.</p><ul><li><strong>New confusion:</strong> disorientation, drowsiness or slurred speech.</li><li><strong>Fast breathing:</strong> breathing quickly or struggling for breath.</li><li><strong>Temperature:</strong> very high, or unusually low with shivering.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Take every sign seriously</h2><p>No single sign proves sepsis, and no single sign rules it out. Someone with a normal temperature can still have sepsis, and an older person may not develop a high fever at all. This is why you look at the whole picture: how the person seems, how they are breathing, and how quickly they have changed. When several signs appear together, or when one appears in someone who is already at risk, treat it as an emergency.</p><p>Your job is not to weigh up the signs and decide whether it &ldquo;counts&rdquo; as sepsis. Your job is to recognise that the person is seriously unwell and to get urgent help. If you are worried, say so clearly and let the clinical team make the assessment.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "New confusion or disorientation in someone you support can be an early warning sign of sepsis.",
+          "correct": true,
+          "correctMsg": "Correct. A sudden change in how alert or confused a person is can be one of the earliest signs of sepsis, and must be escalated quickly.",
+          "wrongMsg": "Not quite. New confusion is an important early sign of sepsis and should always be taken seriously."
+        }
+      ]
+    },
+    {
+      "label": "More warning signs",
+      "section": "Recognising sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Further signs to watch for</h2><p>As sepsis develops, other signs may appear. The person's heart may be beating very fast, and their skin may look <strong>mottled, pale, blotchy or bluish</strong>, especially on the lips, hands or feet. They may pass little or no urine over many hours. Some people describe an overwhelming <strong>feeling of impending doom</strong> &mdash; a sense that they are going to die &mdash; and this should always be taken seriously.</p><ul><li><strong>Skin:</strong> mottled, pale, blotchy or blue in colour.</li><li><strong>Urine:</strong> passing much less than usual, or none at all.</li><li><strong>Feeling:</strong> a strong sense that something is terribly wrong.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Putting the signs together</h2><p>A helpful way to remember the adult warning signs is to think about slurred speech or confusion, extreme shivering or muscle pain, passing no urine, severe breathlessness, a feeling that they are going to die, and skin that is mottled or discoloured. Any one of these in an unwell person means you should act fast and get help.</p><p>Remember that a rash which does not fade when you press a glass against it is a separate medical emergency in its own right. If you see a non-fading rash, or any of the signs above, do not wait &mdash; escalate immediately and be ready to call 999. It is always better to raise the alarm and be reassured than to hold back and lose precious time.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Any infection counts",
+      "section": "Recognising sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Sepsis can follow any infection</h2><p>Sepsis does not come from one particular illness. It can develop from <strong>any</strong> infection, however ordinary it seems at first. Common starting points include chest infections, urine infections, wound or skin infections, and infections following surgery. In the people you support, a urine infection or an infected pressure sore can be an easy source to overlook, so stay alert to these.</p><ul><li><strong>Chest:</strong> coughs, pneumonia and other chest infections.</li><li><strong>Urine:</strong> urinary tract infections, especially with a catheter.</li><li><strong>Skin and wounds:</strong> cuts, pressure sores and surgical wounds.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Watch known infections closely</h2><p>If someone you support already has an infection, or is being treated with antibiotics, keep a close eye on them. Sepsis can develop even while treatment is under way, so an infection that seems to be getting worse rather than better is an important warning. Signs that a wound is more red, swollen, painful or smelly, or that a chest or urine infection is making the person more unwell, all deserve attention.</p><p>The key message is that no infection is &ldquo;too minor&rdquo; to lead to sepsis. When someone with a known infection suddenly becomes much more unwell or shows any of the warning signs, ask &ldquo;could this be sepsis?&rdquo; and escalate without delay. Connecting the infection to the person's decline helps others act quickly.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which infections can lead to sepsis?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Almost any infection &mdash; including chest, urine, wound and skin infections.", "correct": true, "feedback": "Correct. Sepsis can follow any infection, so stay alert whenever someone has one." },
+            { "text": "Only very serious infections that need hospital treatment from the start.", "correct": false, "feedback": "No &mdash; even an infection that seems minor at first can lead to sepsis." },
+            { "text": "Only chest infections such as pneumonia.", "correct": false, "feedback": "No &mdash; chest infections are one source, but urine, wound and skin infections can also cause sepsis." },
+            { "text": "Only infections in people who have just had an operation.", "correct": false, "feedback": "No &mdash; recent surgery raises the risk, but sepsis can follow infection in anyone." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Your role",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognise and escalate</h2><p>When you suspect sepsis, your role is clear: <strong>recognise</strong> that the person is seriously unwell and <strong>escalate</strong> immediately. You are not expected to diagnose sepsis or to start any treatment. What you are expected to do is act fast &mdash; tell a senior member of staff or a nurse straight away, or call 999 yourself if the person is very unwell and there is no one else to act.</p><ul><li><strong>Don't diagnose:</strong> leave the clinical assessment to trained professionals.</li><li><strong>Do escalate:</strong> raise the alarm the moment you are worried.</li><li><strong>Be fast:</strong> minutes matter, so act without hesitation.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Do not wait to &ldquo;see how they go&rdquo;</h2><p>The most dangerous thing you can do with possible sepsis is to wait and watch. It can be tempting to give it an hour, to finish your other tasks first, or to hope the person perks up. But sepsis can worsen rapidly, and lost time can cost a life. If your instinct tells you someone is seriously unwell, trust it and act now.</p><p>You never need to feel certain before you escalate. Raising a concern that turns out to be a false alarm is never a problem &mdash; it is exactly what you are meant to do. Failing to raise a real one could be devastating. When in doubt, escalate: it is always the safer choice for the person you support.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "If you think someone may have sepsis, escalate *immediately*, say the word *sepsis* out loud, and call *999* if they are very unwell. Do not *wait* to see how they go."
+        }
+      ]
+    },
+    {
+      "label": "Say the word",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Say the word &ldquo;sepsis&rdquo;</h2><p>When you escalate, use the word <strong>sepsis</strong> out loud. Saying &ldquo;I am worried this could be sepsis&rdquo; tells the nurse, senior or 999 call handler to treat the situation as a possible emergency and to act at once. It cuts through any delay and makes your level of concern impossible to miss. Naming your worry clearly is one of the most powerful things you can do.</p><ul><li><strong>Be direct:</strong> say &ldquo;could this be sepsis?&rdquo; clearly.</li><li><strong>Be specific:</strong> describe what you have seen and when.</li><li><strong>Be persistent:</strong> if you are still worried, keep pushing for help.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When to call 999</h2><p>If the person is very unwell &mdash; for example struggling to breathe, hard to rouse, or showing skin that is mottled or blue &mdash; call <strong>999</strong> and ask for an ambulance without delay. Tell the call handler plainly that you are worried about sepsis and describe what you can see. In a care setting, follow your organisation's procedure, but never let waiting for someone else stop you getting emergency help when a person is critically ill.</p><p>If you have raised your concern with a colleague or nurse but the person keeps getting worse, do not assume it is being dealt with. Speak up again, and be prepared to call 999 yourself. Your persistence could be what gets the person the urgent treatment they need.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is it important to actually say the word &ldquo;sepsis&rdquo; when you escalate?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "It signals a possible emergency and prompts others to act urgently.", "correct": true, "feedback": "Correct. Naming sepsis makes your concern unmistakable and triggers a fast response." },
+            { "text": "It confirms the diagnosis so treatment can begin without a clinician.", "correct": false, "feedback": "No &mdash; saying the word does not diagnose sepsis; it prompts the trained team to assess urgently." },
+            { "text": "It is only needed when writing up notes after the emergency is over.", "correct": false, "feedback": "No &mdash; saying it early, when you escalate, is what drives a fast response." },
+            { "text": "It replaces the need to describe what you have actually seen.", "correct": false, "feedback": "No &mdash; you should say &ldquo;sepsis&rdquo; and also describe the signs and when they started." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Stay and record",
+      "section": "Acting fast",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Stay with the person</h2><p>Once you have raised the alarm, stay with the person wherever you can. Someone with possible sepsis can deteriorate quickly, so they should not be left alone. Keep them comfortable, offer reassurance in a calm voice, and keep watching for any change while help is on the way. If you must leave to get help, make sure someone else is with them or that emergency services are already coming.</p><ul><li><strong>Stay close:</strong> do not leave a seriously unwell person alone.</li><li><strong>Reassure:</strong> stay calm and keep the person company.</li><li><strong>Keep watching:</strong> report any further change straight away.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Note the time and what you saw</h2><p>As soon as you can, note the <strong>time</strong> you first became concerned and what you observed &mdash; the signs, when they started, and how the person has changed. If you have taken any observations, such as temperature, pass them on. This information helps the clinical team understand how fast things are moving and make the right decisions quickly.</p><p>Accurate, timed information is genuinely useful in an emergency, but it must never slow down your escalation. Get help first, then record the detail. Clear notes also support good handovers and help everyone learn afterwards. When you hand over, be specific about what you saw, when, and what you did about it.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "If you suspect sepsis, it is best to wait a few hours to see whether the person improves before telling anyone.",
+          "correct": false,
+          "correctMsg": "Correct &mdash; this is false. Sepsis can worsen rapidly, so you must escalate straight away and never wait to &ldquo;see how they go&rdquo;.",
+          "wrongMsg": "Not quite. Waiting is dangerous with possible sepsis. You should escalate immediately rather than watch and wait."
+        }
+      ]
+    },
+    {
+      "label": "Preventing infection",
+      "section": "Prevention &amp; after sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Preventing infection</h2><p>Because sepsis starts with infection, good <strong>infection prevention</strong> is one of the best defences. Thorough hand hygiene, clean equipment, and following your organisation's infection control procedures all help stop germs reaching the people you support. Keeping people well hydrated, well nourished and supported to move can also help their bodies resist infection in the first place.</p><ul><li><strong>Hand hygiene:</strong> wash or sanitise your hands at the right moments.</li><li><strong>Clean practice:</strong> follow infection control procedures every time.</li><li><strong>General health:</strong> support good hydration, nutrition and skin care.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Catheter and wound care</h2><p>Devices and broken skin are common routes for infection, so careful <strong>catheter and wound care</strong> matters. Keep a urinary catheter and its drainage system clean and closed, following the person's care plan and your training, and report any cloudy, smelly urine or signs the person is becoming unwell. Watch wounds and pressure areas for redness, swelling, heat, increasing pain or discharge, and report changes promptly.</p><p>Good hydration supports the whole body and helps flush the urinary system, which is why encouraging drinks &mdash; in line with each person's care plan &mdash; is part of prevention. None of this replaces clinical care, but these everyday habits reduce the chances of an infection taking hold and give people the best protection against sepsis.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which everyday action helps reduce a person's risk of developing an infection that could lead to sepsis?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Following infection control procedures, keeping catheters and wounds clean, and supporting good hydration.", "correct": true, "feedback": "Correct. Good hygiene, careful device and wound care, and hydration all help prevent the infections that can lead to sepsis." },
+            { "text": "Waiting until a wound looks badly infected before mentioning it to anyone.", "correct": false, "feedback": "No &mdash; changes in a wound should be reported early, not left until infection is advanced." },
+            { "text": "Skipping hand hygiene when you are busy to save time.", "correct": false, "feedback": "No &mdash; hand hygiene is one of the most important ways to stop germs spreading." },
+            { "text": "Leaving a catheter drainage system open so it drains more easily.", "correct": false, "feedback": "No &mdash; the system should be kept clean and closed to keep germs out." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Recovery and support",
+      "section": "Prevention &amp; after sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recovery after sepsis</h2><p>People who survive sepsis do not always bounce straight back. Recovery can take weeks or months, and some people are left with lasting effects on their body and mind. This is sometimes called <strong>post-sepsis syndrome</strong>, and it can include extreme tiredness, weakness, poor appetite, low mood, anxiety, or problems with memory and concentration. Understanding this helps you support the person with patience.</p><ul><li><strong>Physical effects:</strong> tiredness, weakness and reduced appetite.</li><li><strong>Emotional effects:</strong> low mood, anxiety or flashbacks.</li><li><strong>Cognitive effects:</strong> problems with memory and concentration.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Supporting someone afterwards</h2><p>After sepsis, your support can make a real difference. Encourage rest balanced with gentle activity as the person is able, support good hydration and nutrition, and be understanding about the tiredness and low mood that recovery can bring. Listen if the person wants to talk about what happened, and reassure them that these after-effects are common and recognised.</p><p>Keep watching for signs of a new infection or a further decline, because someone who has had sepsis can become unwell again. Report any concerns to your senior or the nursing team, and help the person reach further support &mdash; such as their GP or organisations like the UK Sepsis Trust &mdash; if they need it. Recovery is a journey, and steady, kind support helps people through it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a common part of recovery after sepsis that you should be aware of?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Lasting tiredness, low mood and problems with memory, sometimes called post-sepsis syndrome.", "correct": true, "feedback": "Correct. Recovery can take time, and physical, emotional and cognitive after-effects are common." },
+            { "text": "An immediate and complete return to normal within a day of leaving hospital.", "correct": false, "feedback": "No &mdash; recovery often takes weeks or months, and after-effects are common." },
+            { "text": "A guarantee that the person can never get an infection or sepsis again.", "correct": false, "feedback": "No &mdash; someone who has had sepsis can become unwell again, so stay alert." },
+            { "text": "A reason to stop reporting any new changes in the person's health.", "correct": false, "feedback": "No &mdash; you should keep watching for new infection or decline and report concerns promptly." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Bringing it together",
+      "section": "Prevention &amp; after sepsis",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recording and learning</h2><p>Accurate <strong>recording</strong> supports safe care before, during and after sepsis. Clear notes about a person's usual state make it easier to spot when they change, and timed, factual records of any episode help the whole team respond and learn. Write what you saw, when, and what you did, using plain and objective language. Good records protect the person and support everyone involved in their care.</p><ul><li><strong>Record early:</strong> note changes and the time you noticed them.</li><li><strong>Be factual:</strong> describe what you observed, not what you assume.</li><li><strong>Share it:</strong> use records to support handovers and learning.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Remember: recognise and escalate</h2><p>You have learned what sepsis is, who is most at risk, how to recognise the warning signs, how to act fast, and how to help with prevention and recovery. The heart of it all is simple: if a person &ldquo;just doesn't look right&rdquo;, ask <strong>&ldquo;could this be sepsis?&rdquo;</strong>, and get urgent help without delay.</p><p>This course has given you awareness and knowledge to help you recognise and escalate &mdash; it does not replace clinical assessment. You are not expected to diagnose or treat sepsis. If you ever suspect sepsis, you must get urgent help immediately: tell a senior or nurse, or call 999 if the person is very unwell. When in doubt, speak up, say the word &ldquo;sepsis&rdquo;, and act fast. Your quick action could save a life.</p>"
+        }
+      ]
+    }
+  ]
+}

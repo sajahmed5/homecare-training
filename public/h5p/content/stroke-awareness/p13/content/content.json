@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reducing the risk of another stroke</h2><p>Someone who has had a stroke or a TIA is at higher risk of having another, so <strong>reducing further risk</strong> is an important part of life after stroke. Much of this happens through medical care and healthier daily habits, and your everyday support can make a real difference in helping the person stick with the plan their healthcare team has agreed.</p><ul><li><strong>Medication:</strong> support the person to take prescribed medicines as directed.</li><li><strong>Healthy habits:</strong> encourage a balanced diet, activity and not smoking.</li><li><strong>Report changes:</strong> pass on any new concerns to the right person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2e9e2829-4207-455d-a09d-52ffd56d9349",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reducing risk and summary",
+          "decorative": false,
+          "file": {
+            "path": "images/reducing-risk-and-summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "41fbb785-2c0a-4948-bd48-65cb39cdc036",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have learned that a stroke is a &ldquo;brain attack&rdquo; caused by the blood supply to part of the brain being cut off, that ischaemic and haemorrhagic strokes and TIAs all need urgent help, and how to recognise a stroke using the <strong>FAST</strong> test and other sudden signs. You have seen how to respond &mdash; call 999, note the time, stay with the person, keep them comfortable and give nothing to eat or drink &mdash; and how to support recovery with patience and a person-centred approach.</p><p>This training gives you <strong>awareness and knowledge</strong> to help you recognise a stroke and act. It does <strong>not</strong> replace clinical care or professional assessment. If you ever suspect that someone is having a stroke, remember that it is a time-critical emergency &mdash; &ldquo;time is brain&rdquo; &mdash; and you must call <strong>999</strong> at once.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fe47a3ec-4442-4c8c-808c-7ef232e8fc04",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

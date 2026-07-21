@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Treating a hypo</h2><p>If someone is having a hypo and is awake and able to swallow safely, treat it straight away. The approach is to give something sugary that works fast, wait, check again, and then follow up with a longer-acting carbohydrate to stop the level dropping again. Always follow the person's care plan and your service's guidance.</p><ul><li><strong>Fast-acting sugar first:</strong> to bring glucose up quickly.</li><li><strong>Recheck:</strong> wait about 10 to 15 minutes, then check again.</li><li><strong>Then longer-acting carbohydrate:</strong> to keep the level steady.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c2356c3c-1fae-4340-b45e-bd1b003383c7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Responding to a hypo",
+          "decorative": false,
+          "file": {
+            "path": "images/responding-to-a-hypo.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b50d90db-7110-4c14-b971-8cb4507a7728",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fast sugar, then a snack &mdash; and when to call 999</h2><p>Give a <strong>fast-acting sugar</strong> such as glucose tablets, a small glass of pure fruit juice or a sugary (non-diet) drink, or glucose gel. Wait about 10 to 15 minutes; if the person is no better or their reading is still low, repeat the fast-acting sugar. Once they have recovered, give a <strong>longer-acting carbohydrate</strong> such as a sandwich, a piece of fruit, a couple of biscuits or their next meal.</p><p>A <strong>severe hypo</strong> is an emergency. If the person becomes unconscious, is fitting, or is too drowsy or confused to swallow safely, <strong>call 999</strong>, place them in the recovery position and stay with them. <strong>Never put food or drink into the mouth of someone who is unconscious or cannot swallow</strong> &mdash; it can choke them. Glucagon may only be given by someone trained and authorised to do so.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b96c92ed-85ac-46e0-978f-a75dbee5c5a5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support with diabetes has become unconscious. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Call 999, put them in the recovery position, stay with them, and give nothing by mouth.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A severe hypo is a 999 emergency, and you must never give food or drink to an unconscious person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to give them a sugary drink to bring their glucose up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never give anything by mouth to an unconscious person &mdash; it can cause choking. Call 999.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put glucose gel or a biscuit into their mouth.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "An unconscious person cannot swallow safely, so this risks choking. Call 999 and give nothing by mouth.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether they wake up on their own before doing anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "An unconscious person needs emergency help now. Call 999 and place them in the recovery position.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "117cb218-fe85-4115-abd2-9cb34710d2ca",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

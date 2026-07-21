@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The main types of diabetes</h2><p>There are two main types of diabetes, and although both lead to raised blood glucose, they are very different conditions. Knowing which type a person has helps you understand their care, though the day-to-day support you give always follows their individual care plan.</p><ul><li><strong>Type 1:</strong> the body makes little or no insulin.</li><li><strong>Type 2:</strong> the body cannot make enough insulin or use it well.</li><li><strong>Both:</strong> lead to blood glucose that is too high without treatment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "daeee57c-04ef-4fec-b98d-fd56630dfc5b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types of diabetes",
+          "decorative": false,
+          "file": {
+            "path": "images/types-of-diabetes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6dadf7fb-fbd0-4a26-b881-95b69b1241f1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Type 1 and Type 2 compared</h2><p>In <strong>Type 1</strong> diabetes, the body's own immune system attacks the cells that make insulin, so the person makes little or none at all. It is not caused by lifestyle, it cannot be prevented, and it can start at any age, often in childhood or young adulthood. People with Type 1 need insulin every day, for life, by injection or an insulin pump.</p><p><strong>Type 2</strong> diabetes is much more common. Here the body still makes some insulin but not enough, or the insulin does not work properly. It is linked to age, family history, ethnic background and being overweight or inactive, though anyone can develop it. It is often managed with healthy eating and activity, tablets, and sometimes insulin or other injections. There are also other forms, such as diabetes that develops in pregnancy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d1d70eec-544b-48f3-91a3-723f07426047",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>People with Type 1 diabetes need insulin every day because their body makes little or no insulin of its own.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. In Type 1 diabetes the body makes little or no insulin, so daily insulin really is essential.",
+            "correctAnswerMessage": "Correct. In Type 1 the body cannot make insulin, so daily insulin is essential to stay alive and well."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "cf611ce7-f9e6-4c2e-b1e9-ba1702c2cc6e",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

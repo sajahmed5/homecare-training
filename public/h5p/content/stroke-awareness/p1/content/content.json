@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Stroke Awareness</h2><p>A stroke is a medical emergency. It happens suddenly, it is life-threatening, and how quickly it is recognised and treated shapes how well someone recovers. As a care worker in England, you are often the person closest to someone when a stroke begins, so being able to spot the signs and act at once can save a life and reduce lasting harm. This course helps you understand what a stroke is, recognise it using the FAST test, respond correctly, and support recovery.</p><ul><li><strong>Recognise:</strong> spot the signs of a stroke quickly using FAST.</li><li><strong>Act:</strong> call 999 immediately &mdash; a stroke is a time-critical emergency.</li><li><strong>Support:</strong> help someone live well after a stroke, within your role.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6282aeec-bf1c-4185-b5fc-4f439502ad09",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "738fe3d6-6ab0-4547-82c9-236a321c5477",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Time is brain</h2><p>A stroke is often called a &ldquo;brain attack&rdquo;. When the blood supply to part of the brain is interrupted, brain cells begin to die within minutes, which is why the phrase <strong>&ldquo;time is brain&rdquo;</strong> matters so much: every minute of delay means more of the brain is lost. The faster someone reaches hospital, the more treatment options they have and the better their chances of a good recovery.</p><p>This course gives you <strong>awareness and knowledge</strong> to help you recognise a stroke and act. It does <strong>not</strong> replace clinical care or professional assessment, and it does not make you responsible for diagnosis or treatment. If you ever suspect someone is having a stroke, you must call <strong>999</strong> at once.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ba459cc5-6bba-41b7-abc6-a36b8e32528a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

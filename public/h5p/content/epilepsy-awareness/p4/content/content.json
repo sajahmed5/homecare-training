@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Different types of seizure</h2><p>There are many types of seizure, and part of awareness is recognising the main ones. Seizures are often grouped by where they start in the brain. Some involve both sides of the brain from the beginning and are called generalised; two of the most widely known are tonic-clonic seizures and absence seizures.</p><ul><li><strong>Tonic-clonic:</strong> the convulsive seizure many people picture, with stiffening then jerking.</li><li><strong>Absence:</strong> a brief blanking out, more common in children.</li><li><strong>Recognition:</strong> knowing what you are seeing helps you respond correctly.</li></ul><p>You do not need to name a seizure type perfectly. What matters is that you notice a seizure is happening, respond safely, and afterwards describe accurately what you saw.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4ed62d3f-1b47-468c-81fb-2b514747838f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Tonic-clonic and absence",
+          "decorative": false,
+          "file": {
+            "path": "images/tonic-clonic-and-absence.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3b925c84-77b0-4324-a190-a1ad832047b1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Tonic-clonic and absence seizures</h2><p>A <strong>tonic-clonic</strong> seizure is the type most people think of as a convulsion. The person usually loses consciousness. Their body first goes stiff (the tonic phase), often falling if they are standing, and then their muscles jerk rhythmically (the clonic phase). They may go pale or bluish around the lips, make noises, bite their tongue, or lose control of their bladder or bowels. Afterwards they are often confused, exhausted and in need of rest.</p><p>An <strong>absence</strong> seizure looks very different and can be easy to miss. The person briefly loses awareness, as though blanking out or daydreaming, for a few seconds. They may stop what they are doing, stare, and perhaps flutter their eyelids, then carry on with no memory of it. Absence seizures are more common in children. Because they are so brief and quiet, you may only notice them if you know to look.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dcabbf95-ab02-473e-8d77-f14af07eb5bf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which description best fits a tonic-clonic (convulsive) seizure?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The person loses consciousness, their body stiffens and then their muscles jerk rhythmically</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Stiffening followed by rhythmic jerking, with loss of consciousness, is typical of a tonic-clonic seizure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person briefly stares and blanks out for a few seconds, then carries on</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. This describes an absence seizure rather than a convulsive tonic-clonic seizure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person notices a strange smell but stays fully aware throughout</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. That describes a focal aware seizure, not a convulsive tonic-clonic seizure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person has a headache but no change in movement or awareness</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A tonic-clonic seizure involves loss of consciousness with stiffening and jerking.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "29f683c6-4208-46ce-a37c-622ce48c0f3f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

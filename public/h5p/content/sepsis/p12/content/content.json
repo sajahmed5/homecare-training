@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recovery after sepsis</h2><p>People who survive sepsis do not always bounce straight back. Recovery can take weeks or months, and some people are left with lasting effects on their body and mind. This is sometimes called <strong>post-sepsis syndrome</strong>, and it can include extreme tiredness, weakness, poor appetite, low mood, anxiety, or problems with memory and concentration. Understanding this helps you support the person with patience.</p><ul><li><strong>Physical effects:</strong> tiredness, weakness and reduced appetite.</li><li><strong>Emotional effects:</strong> low mood, anxiety or flashbacks.</li><li><strong>Cognitive effects:</strong> problems with memory and concentration.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "79e93c04-bdce-4aba-bb4c-ccad5e9cbde4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recovery and support",
+          "decorative": false,
+          "file": {
+            "path": "images/recovery-and-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2c13dc03-9206-40f1-9349-e6bb20de3e2a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting someone afterwards</h2><p>After sepsis, your support can make a real difference. Encourage rest balanced with gentle activity as the person is able, support good hydration and nutrition, and be understanding about the tiredness and low mood that recovery can bring. Listen if the person wants to talk about what happened, and reassure them that these after-effects are common and recognised.</p><p>Keep watching for signs of a new infection or a further decline, because someone who has had sepsis can become unwell again. Report any concerns to your senior or the nursing team, and help the person reach further support &mdash; such as their GP or organisations like the UK Sepsis Trust &mdash; if they need it. Recovery is a journey, and steady, kind support helps people through it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "55916fca-330b-4f50-8d07-5a83ff755927",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a common part of recovery after sepsis that you should be aware of?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Lasting tiredness, low mood and problems with memory, sometimes called post-sepsis syndrome.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Recovery can take time, and physical, emotional and cognitive after-effects are common.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An immediate and complete return to normal within a day of leaving hospital.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; recovery often takes weeks or months, and after-effects are common.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A guarantee that the person can never get an infection or sepsis again.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; someone who has had sepsis can become unwell again, so stay alert.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A reason to stop reporting any new changes in the person's health.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you should keep watching for new infection or decline and report concerns promptly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "cbd5abd4-b9af-4e51-8afb-3d83c34f135b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

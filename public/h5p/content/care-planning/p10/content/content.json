@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating with the team</h2><p>Care planning is a team effort. A person may be supported by several workers, a manager, family, nurses and other professionals, and the care plan is what keeps everyone working together. Clear communication between you all keeps care safe, joined-up and consistent.</p><ul><li><strong>Handovers:</strong> pass on important information clearly at the start and end of your involvement.</li><li><strong>Records:</strong> write in the person's records so the next worker knows what happened.</li><li><strong>Ask when unsure:</strong> check with a senior rather than guessing.</li></ul><p>Good teamwork means no important observation is lost between one worker and the next.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d0b319c9-93ec-4942-8dea-478288ffb28f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working as a team",
+          "decorative": false,
+          "file": {
+            "path": "images/working-as-a-team.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a979219e-2597-4563-82cb-f873f3e71c19",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity and choice throughout</h2><p>Whatever the practical demands of the day, dignity and choice run through every part of following a care plan. Dignity means treating the person as a valued individual &mdash; using their preferred name, protecting their privacy, and never talking over them or about them as though they were not there. Choice means giving the person a genuine say in their own care, moment to moment.</p><p>These are not extras to fit in when time allows; they are central to what the CQC calls caring, responsive support. When you communicate with your team, do so in a way that respects the person's confidentiality, sharing only what colleagues need to know. Delivering the plan with dignity, offering real choices and keeping the team well informed together make care feel respectful and keep the person at its heart.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "79f1cbf1-7a62-4f30-85bd-316829a8ccdc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

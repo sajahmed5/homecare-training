@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>&ldquo;Could this be sepsis?&rdquo;</h2><p>There is no single test you can do to spot sepsis, and its signs can look like other illnesses. That is why the most useful question you can ask is simply: <strong>&ldquo;could this be sepsis?&rdquo;</strong> Asking that question out loud prompts everyone to take a possible emergency seriously. You are not being asked to diagnose &mdash; you are being asked to notice, to wonder, and to raise the alarm when something seems badly wrong.</p><ul><li><strong>Stay curious:</strong> ask &ldquo;could this be sepsis?&rdquo; whenever someone is suddenly unwell.</li><li><strong>Trust your instinct:</strong> a &ldquo;just doesn't look right&rdquo; feeling matters.</li><li><strong>Act on change:</strong> a rapid decline in someone is always a red flag.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "76be6516-a8b9-4286-adbc-10debd720d49",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising sepsis",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-sepsis.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fe358e4e-fb70-4290-8b8d-36872d377037",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The &ldquo;just doesn't look right&rdquo; change</h2><p>One of the strongest signals of sepsis is a person who has suddenly and clearly changed. They may seem more confused, drowsy, floppy or distant than usual, or a family member may tell you they are &ldquo;not themselves&rdquo;. Because you know the people you support, you are often the first to sense that something is different, even before any single symptom stands out.</p><p>Never dismiss this feeling as &ldquo;just having an off day&rdquo;. A sudden change in someone who is normally settled and alert can be the earliest warning that a serious infection is taking hold. If you notice this kind of change, treat it as important and pass it on quickly &mdash; do not keep it to yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5bfc2b33-d59c-4e25-9617-a95e3d0092ea",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support suddenly seems very confused and &ldquo;not themselves&rdquo;. What is the most helpful thing to do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Ask &ldquo;could this be sepsis?&rdquo; and escalate the change straight away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A sudden change like new confusion is a red flag, and asking the question prompts urgent action.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume they are just having an off day and check again tomorrow.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a sudden change should never be dismissed. It can be an early sign of sepsis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to work out yourself which infection they have before telling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; diagnosis is not your role. Escalate your concern quickly rather than delaying to investigate.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the end of your shift to mention it in the handover.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; sepsis moves fast, so waiting could cost vital time. Raise it immediately.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "646273c5-3311-4629-a813-9e45ad07f0e9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
