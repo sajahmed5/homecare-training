@@ -34,4 +34,5 @@ export const CANDIDATE_STAGES = [
 
 export const CANDIDATE_STATUSES = ["candidate", "hired", "rejected"] as const;
 
-export const INDUCTION_PATHWAY_SLUG = "care-certificate-induction";
+// New hires are auto-enrolled on the full Care Certificate (all 16 standards).
+export const INDUCTION_PATHWAY_SLUG = "care-certificate";

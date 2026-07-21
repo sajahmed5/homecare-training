@@ -51,38 +51,17 @@ export default async function LearnerDashboard() {
   const data = await loadLearner(supabase);
   const stats = learnerStats(data.enrolments, data.certificates, now);
 
-  // The Care Certificate programme (16 standards) for the dashboard card.
+  // The Care Certificate programme (16 standards) drives both the dashboard
+  // card and the "Care Certificate" badge.
   const programme = await loadProgramme(supabase, "care-certificate");
-
-  // The induction pathway still feeds the "Inducted" badge — deliberately kept
-  // separate from the 16-standard programme so no learner who has earned the
-  // badge loses it.
-  const { data: pathway } = await supabase
-    .from("pathways")
-    .select("id")
-    .eq("slug", "care-certificate-induction")
-    .maybeSingle();
-  let inductionTotal = 0;
-  let inductionCompleted = 0;
-  if (pathway) {
-    const { data: links } = await supabase
-      .from("pathway_courses")
-      .select("course_id")
-      .eq("pathway_id", pathway.id);
-    const set = new Set((links ?? []).map((l) => l.course_id));
-    inductionTotal = set.size;
-    inductionCompleted = data.enrolments.filter(
-      (e) => set.has(e.course_id) && e.status === "completed",
-    ).length;
-  }
 
   const badges = computeBadges({
     assigned: stats.assigned,
     completed: stats.completed,
     certificates: stats.certificates,
     overdue: stats.overdue,
-    inductionTotal,
-    inductionCompleted,
+    inductionTotal: programme?.total ?? 0,
+    inductionCompleted: programme?.completedCount ?? 0,
   });
   const streak = computeStreak(data.activityDates, now);
 

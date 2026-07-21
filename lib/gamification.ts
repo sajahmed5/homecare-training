@@ -37,8 +37,8 @@ export function computeBadges(s: LearnerStats): Badge[] {
     },
     {
       key: "induction",
-      label: "Inducted",
-      description: "Completed the induction pathway",
+      label: "Care Certificate",
+      description: "Completed all 16 Care Certificate standards",
       earned:
         s.inductionTotal > 0 && s.inductionCompleted >= s.inductionTotal,
     },
