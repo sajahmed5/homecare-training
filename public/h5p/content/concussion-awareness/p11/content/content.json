@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Rest and gradual recovery</h2><p>Most people recover well from concussion, but recovery takes time and cannot be rushed. The brain needs <strong>rest</strong> to heal, so in the early days the person should take things gently and avoid demanding physical and mental activity. As they improve, they can gradually return to their usual routine, step by step, rather than all at once. Symptoms often ease over a couple of weeks, though some people take longer, and that is normal.</p><ul><li><strong>Rest first:</strong> the brain needs rest in the early days to recover.</li><li><strong>Go gradually:</strong> return to normal activity slowly, step by step.</li><li><strong>Be patient:</strong> recovery can take a couple of weeks or longer.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bb5bcc82-d6c7-493e-8ab3-cf3abdd5a908",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Rest and recovery",
+          "decorative": false,
+          "file": {
+            "path": "images/rest-and-recovery.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ce2b9c73-61b8-4c24-bdcb-1f251c4be453",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Second-impact awareness</h2><p>An important part of recovery is protecting the person from <strong>a second head injury</strong> before the first has healed. If someone is concussed and then hurts their head again while still recovering, the effects can be far more serious. This is why the person should be helped to avoid falls and knocks during their recovery, and should not rush back to activities that put their head at risk.</p><p>Keep monitoring during recovery, and know when to <strong>seek further help</strong>: if symptoms get worse rather than better, if new symptoms appear, or if any red flag develops at any point, get medical advice or call 999. Recovery is not simply a matter of waiting &mdash; it means keeping the person safe and staying alert until they are truly well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bf799952-f3ea-4a05-9a7f-e84ea9b623e3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is it important to protect someone from another head injury while they are recovering from concussion?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because a second head injury before the first has healed can have far more serious effects.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Another injury during recovery can be much more serious, so the person must be protected from further knocks.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because a second injury would speed up their recovery.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a second injury does not help recovery; it can make things much worse.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because concussion is not a real injury and only feels bad.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion is a genuine brain injury, which is exactly why a further knock is dangerous.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because they must return to all their normal activities immediately.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the person should return to activity gradually and avoid further head injury while healing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e17dbfc7-22e0-43bd-9b45-f23f0f6e6dc2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

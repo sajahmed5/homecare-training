@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Monitoring after a head injury</h2><p>Because symptoms can be delayed, anyone who has bumped or jolted their head should be <strong>watched closely</strong> for at least the next 24 hours, and ideally longer where their care plan or a professional advises it. Monitoring is not a single check; it is a continued process of keeping an eye on the person, checking how they are, and noticing any change as it happens. The aim is to catch a developing problem early.</p><ul><li><strong>Stay observant:</strong> keep watching for at least 24 hours after the injury.</li><li><strong>Look for change:</strong> compare how the person is now with their normal self.</li><li><strong>Act on decline:</strong> any worsening sign means you should seek help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b91a8f62-a73a-4a6b-ad3c-ff042a4f11a4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Monitoring symptoms",
+          "decorative": false,
+          "file": {
+            "path": "images/monitoring-symptoms.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7567be6d-f3e2-4ae3-a320-a86647ab8b51",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making monitoring work in practice</h2><p>Good monitoring means checking on the person regularly rather than assuming no news is good news. Make sure the whole team knows a head injury has happened, so that the person is watched across shifts and handovers. Note down how they seem at each check &mdash; their alertness, their mood, whether any symptoms have appeared or grown &mdash; so that a slow change is not missed.</p><p>Trust your instincts and the person&rsquo;s own words. If they say their headache is getting worse, if they seem more drowsy or confused, or if something simply does not feel right, do not wait and hope it settles. Monitoring only protects people if you <strong>act</strong> on what you observe, following your care plan and seeking medical advice whenever symptoms worsen.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "99120063-c045-4502-a576-a791a7fda11f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have learned that concussion is a mild traumatic brain injury caused by a blow or jolt to the head or body, that you cannot see it on the outside, and that in care it most often follows a fall. You know the signs to look for &mdash; headache, dizziness, confusion, nausea, blurred vision, memory problems, drowsiness and changes in behaviour &mdash; and that these can appear hours or days later, so the person must be monitored closely.</p><ul><li><strong>Recognise:</strong> spot the signs of concussion, even when there is no visible mark.</li><li><strong>Respond:</strong> give basic first aid, keep the person still, calm and monitored.</li><li><strong>Escalate:</strong> act on the red flags and take extra care with blood thinners.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8cea841-72b7-432e-9085-983a54715284",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c06fc39a-f38a-44ad-acb7-16eb04e470f5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your key takeaways</h2><p>You have seen when a head injury is an emergency &mdash; loss of consciousness, repeated vomiting, a seizure, weakness or numbness, clear fluid or bleeding from the ears or nose, a worsening or severe headache, or being difficult to wake &mdash; and that people on anticoagulants need extra caution. You know how to support recovery with rest and a gradual return to normal, to protect against a second injury, and to record and report the injury accurately while following the care plan.</p><p>This training gives you <strong>awareness and knowledge</strong> to help you recognise and respond to concussion and head injury. It does <strong>not</strong> replace supervised or first-aid training. Above all, remember that a serious head injury is a medical emergency that needs urgent medical help &mdash; if you ever see the red flags, call <strong>999</strong> at once.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "657a70db-b2f3-4a16-88a7-b0207baad23d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

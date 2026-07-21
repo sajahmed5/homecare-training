@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Depressants, stimulants and opioids</h2><p>At an awareness level it helps to know the broad groups of substances and what they do, because this shapes the risks. You are not expected to identify specific drugs, but knowing how a group affects the body helps you notice when someone may be unwell or in danger.</p><ul><li><strong>Depressants:</strong> alcohol and some medicines that slow the body and breathing down.</li><li><strong>Stimulants:</strong> substances such as cocaine that speed the body up.</li><li><strong>Opioids:</strong> heroin and some strong painkillers that relieve pain and slow breathing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f9b2ae28-bc49-4785-9c88-eeced290da8a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Depressants and stimulants",
+          "decorative": false,
+          "file": {
+            "path": "images/depressants-and-stimulants.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7be2b5ab-352d-46dd-9237-5a62ad31a9b7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Depressants slow down the brain and body. They can make a person drowsy, slow their breathing and, in large amounts, cause them to lose consciousness. Stimulants speed the body up, raising heart rate and blood pressure and reducing tiredness and appetite; they can trigger anxiety, agitation and, in some cases, heart problems.</p><p>Opioids relieve pain and produce a sense of calm, but they slow breathing, which is what makes an overdose life-threatening. Because different substances act in different ways, the signs that someone is unwell will differ too &mdash; so trust your instinct if a person seems very drowsy, very agitated or hard to rouse, and seek help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0b0db0a9-2926-4990-8065-84d8533bd8ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why is it important to know the broad group a substance belongs to?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because how a substance affects the body shapes the risks and the signs that someone may be unwell.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Knowing whether something slows the body down or speeds it up helps you spot danger.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>So you can tell the person exactly which drug they should use instead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That is not your role. Awareness of the groups is about recognising risk, not advising on drug use.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>So you can test and identify the exact substance yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "You are not expected to identify substances. Awareness is about understanding effects and risks.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is not important; all substances affect the body in exactly the same way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Substances differ. Depressants slow the body, stimulants speed it up, and this changes the risks.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d8663937-621a-46c8-a3c9-b0427f38fa89",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The forms sexual harassment can take</h2><p>Sexual harassment is not only physical. It can be spoken, written, shown, gestured or shared online, and it can be aimed at one person or created in the atmosphere around them. Recognising the different forms helps you spot behaviour that might otherwise be brushed aside as harmless.</p><ul><li><strong>Verbal:</strong> spoken comments, jokes, questions or requests of a sexual nature.</li><li><strong>Non-verbal:</strong> gestures, staring, leering, or displaying sexual images.</li><li><strong>Physical:</strong> unwanted touching or invasion of personal space.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "937a86e0-031f-4a00-bf3e-2e9ec385568e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Forms &amp; examples",
+          "decorative": false,
+          "file": {
+            "path": "images/forms-amp-examples.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ff6e9d47-7e92-4279-8975-869d4b1c46e0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Verbal and non-verbal examples</h2><p>Verbal sexual harassment can include sexual jokes or comments, remarks about a person&rsquo;s body or appearance, intrusive questions about their private life, or repeated unwanted requests to go on dates. It can be aimed at someone directly, or made within their hearing so that it colours the whole atmosphere.</p><p>Non-verbal harassment can include staring or leering, sexual gestures, wolf-whistling, or displaying or sharing sexual pictures. Because these behaviours can seem &ldquo;less serious&rdquo; than physical contact, they are sometimes ignored &mdash; but they can still violate a person&rsquo;s dignity and create a hostile environment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9acbff1a-acc6-403d-b060-451c364ffb87",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these could be an example of sexual harassment?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Repeated sexual jokes, staring, and intrusive questions about a colleague&rsquo;s private life.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Verbal and non-verbal conduct of this kind can amount to sexual harassment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Politely asking a colleague how their weekend was.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; ordinary, respectful conversation is not harassment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Giving honest, respectful feedback about someone&rsquo;s work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; fair, professional feedback is not conduct of a sexual nature.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Offering to help a colleague carry some equipment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a normal offer of help is not sexual harassment.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8b6e460c-8715-4b21-89dc-fff787340a1b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

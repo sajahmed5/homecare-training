@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Harassment from clients, families and visitors</h2><p>Sexual harassment at work does not only come from colleagues or managers. Care workers can also be harassed by the people they support, by family members, or by other visitors. This is often called <strong>third-party harassment</strong>. It can be difficult to deal with, because you may feel you should simply put up with it as &ldquo;part of the job&rdquo; &mdash; but you should not have to.</p><ul><li><strong>Third parties:</strong> clients, relatives, visitors or contractors, not just staff.</li><li><strong>Not part of the job:</strong> you should not have to tolerate harassment.</li><li><strong>Report it:</strong> your employer needs to know so that it can act.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bfe47e1f-bdbd-45a6-b9a3-7bf1cfa8d752",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Third-party harassment",
+          "decorative": false,
+          "file": {
+            "path": "images/third-party-harassment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "eef695aa-2483-4751-a9f1-2a6cde3846e5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When it overlaps with safeguarding</h2><p>Sometimes the person who experiences sexual harassment is someone who uses services &mdash; for example, if a person is subjected to unwanted sexual conduct by a worker, a visitor, or another person they live with. When this happens, it is not only a matter of workplace conduct but also a <strong>safeguarding</strong> concern, because the person may be an adult at risk.</p><p>In these situations you must follow your safeguarding procedures as well as your organisation&rsquo;s harassment policy. Report the concern to your manager or safeguarding lead without delay, keep the person safe, and record what you have seen or been told. Never decide on your own that something is &ldquo;too minor&rdquo; to raise.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "02a58ae6-40e2-4e94-bee4-1171ecf932da",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care worker is repeatedly subjected to unwanted sexual comments by a person&rsquo;s relative during home visits. Which statement is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>This can be sexual harassment by a third party, and the worker should not have to tolerate it &mdash; it should be reported to the employer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Harassment by a third party such as a relative should not be tolerated and should be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The worker must simply accept it, because it comes from a family member and not a colleague.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you should not have to put up with harassment, whoever it comes from.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It only matters if the conduct comes from another member of staff.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; third-party harassment from clients, families or visitors also matters and should be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing can be done unless the comments are made in writing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; spoken comments count too; the form the conduct takes does not have to be written.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8ac1e621-1e80-4d6e-b563-42adef3140cc",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

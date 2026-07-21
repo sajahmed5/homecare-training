@@ -1,0 +1,278 @@
+{
+  "slug": "sexual-harassment-awareness",
+  "courseTitle": "Sexual Harassment Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What sexual harassment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Sexual Harassment Awareness</h2><p>Everyone has the right to feel safe and respected at work and when receiving care. Sexual harassment is unwanted conduct of a sexual nature that harms a person&rsquo;s dignity and can make a workplace or care setting feel unsafe. As a care worker you have an important part to play in recognising it, responding well, and helping to build a culture where it is not tolerated. This course raises your awareness so that you know what sexual harassment is and what to do about it.</p><ul><li><strong>Recognise:</strong> understand what sexual harassment is and the forms it can take.</li><li><strong>Respond:</strong> know how to support someone and how to report a concern.</li><li><strong>Respect:</strong> help build a culture where everyone is treated with dignity.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness, not a replacement for policy</h2><p>This course gives you <strong>awareness and knowledge</strong> about sexual harassment. It does <strong>not</strong> replace your organisation&rsquo;s policies and procedures, or the supervised training and support your employer provides, and you should always follow these in practice. If you are affected by, or become aware of, sexual harassment, use the reporting routes your organisation has put in place.</p><p>Sexual harassment can involve colleagues, but it can also affect the people who use your services. Where someone who uses services is affected, this may also be a <strong>safeguarding</strong> matter, and you should follow your safeguarding procedures alongside anything you learn here.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What it is",
+      "section": "What sexual harassment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What sexual harassment is</h2><p>The Equality Act 2010 defines sexual harassment as <strong>unwanted conduct of a sexual nature</strong> that has the purpose or effect of violating a person&rsquo;s dignity, or of creating an intimidating, hostile, degrading, humiliating or offensive environment for them. &ldquo;Unwanted&rdquo; simply means the person did not ask for it and does not welcome it &mdash; they do not have to say so out loud for it to be unwanted. It is the nature and effect of the conduct that matter.</p><ul><li><strong>Unwanted:</strong> the conduct is not invited or welcomed by the person.</li><li><strong>Of a sexual nature:</strong> it relates to sex or sexual behaviour in some way.</li><li><strong>Harmful effect:</strong> it violates dignity or creates a hostile environment.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Dignity and environment</h2><p>Conduct &ldquo;of a sexual nature&rdquo; is broad. It can include sexual comments or jokes, questions about someone&rsquo;s sex life, staring or leering, displaying sexual images, unwanted touching, or sending sexual messages. Any of these can violate a person&rsquo;s dignity, whether or not the person doing it meant any harm.</p><p>The law also recognises that a single serious incident can amount to harassment &mdash; it does not have to be repeated. When you understand the definition, you are better able to notice when a line has been crossed, and to take the concerns of colleagues and people who use services seriously.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "How does the Equality Act 2010 define sexual harassment?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Unwanted conduct of a sexual nature that violates a person&rsquo;s dignity, or creates an intimidating, hostile, degrading, humiliating or offensive environment.", "correct": true, "feedback": "Correct. That is the Equality Act 2010 definition of sexual harassment." },
+            { "text": "Any friendly comment made between two colleagues who know each other well.", "correct": false, "feedback": "No &mdash; welcome, friendly conduct is not harassment; the conduct must be unwanted and of a sexual nature." },
+            { "text": "Only physical contact that leaves a visible mark or injury.", "correct": false, "feedback": "No &mdash; harassment can be verbal, non-verbal or online, not only physical." },
+            { "text": "Conduct that is unlawful only if the person complains about it at the time.", "correct": false, "feedback": "No &mdash; a person does not have to object at the time for conduct to be unwanted and unlawful." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Impact not intent",
+      "section": "What sexual harassment is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>It is about impact, not intent</h2><p>A common misunderstanding is that behaviour only counts as harassment if the person meant to cause harm. The law is clear that this is not so. Conduct can amount to sexual harassment because of its <strong>effect</strong> on the person, even if the person responsible says it was &ldquo;only a joke&rdquo; or that they did not intend any offence. What one person finds harmless, another may find deeply upsetting.</p><ul><li><strong>Effect counts:</strong> the impact on the person can make conduct harassment.</li><li><strong>Intent is not required:</strong> &ldquo;just banter&rdquo; is not a defence.</li><li><strong>Perception matters:</strong> how the conduct is reasonably experienced is considered.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role as a care worker</h2><p>In deciding whether conduct has the effect of violating dignity or creating a hostile environment, the law takes into account the person&rsquo;s own perception, all the circumstances, and whether it is reasonable for the conduct to have that effect. This means the experience of the person affected is central, and their feelings should not be dismissed.</p><p>Your role is not to judge whether a legal test has been met &mdash; that is not your job. Your role is to treat people with respect, to take concerns seriously, to avoid conduct that could make others uncomfortable, and to know how to respond and report when something is wrong.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Conduct can amount to sexual harassment because of its effect on a person, even if the person responsible did not intend to cause any harm.",
+          "correct": true,
+          "correctMsg": "Correct. Sexual harassment is judged by its effect, so a lack of intent is not a defence.",
+          "wrongMsg": "Not quite. Conduct can be harassment because of its effect on the person, whether or not harm was intended."
+        }
+      ]
+    },
+    {
+      "label": "Forms &amp; examples",
+      "section": "Forms &amp; examples",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The forms sexual harassment can take</h2><p>Sexual harassment is not only physical. It can be spoken, written, shown, gestured or shared online, and it can be aimed at one person or created in the atmosphere around them. Recognising the different forms helps you spot behaviour that might otherwise be brushed aside as harmless.</p><ul><li><strong>Verbal:</strong> spoken comments, jokes, questions or requests of a sexual nature.</li><li><strong>Non-verbal:</strong> gestures, staring, leering, or displaying sexual images.</li><li><strong>Physical:</strong> unwanted touching or invasion of personal space.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Verbal and non-verbal examples</h2><p>Verbal sexual harassment can include sexual jokes or comments, remarks about a person&rsquo;s body or appearance, intrusive questions about their private life, or repeated unwanted requests to go on dates. It can be aimed at someone directly, or made within their hearing so that it colours the whole atmosphere.</p><p>Non-verbal harassment can include staring or leering, sexual gestures, wolf-whistling, or displaying or sharing sexual pictures. Because these behaviours can seem &ldquo;less serious&rdquo; than physical contact, they are sometimes ignored &mdash; but they can still violate a person&rsquo;s dignity and create a hostile environment.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these could be an example of sexual harassment?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Repeated sexual jokes, staring, and intrusive questions about a colleague&rsquo;s private life.", "correct": true, "feedback": "Correct. Verbal and non-verbal conduct of this kind can amount to sexual harassment." },
+            { "text": "Politely asking a colleague how their weekend was.", "correct": false, "feedback": "No &mdash; ordinary, respectful conversation is not harassment." },
+            { "text": "Giving honest, respectful feedback about someone&rsquo;s work.", "correct": false, "feedback": "No &mdash; fair, professional feedback is not conduct of a sexual nature." },
+            { "text": "Offering to help a colleague carry some equipment.", "correct": false, "feedback": "No &mdash; a normal offer of help is not sexual harassment." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Physical &amp; online",
+      "section": "Forms &amp; examples",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Physical and online examples</h2><p>Physical sexual harassment ranges from unnecessary or unwanted touching, brushing against someone or standing too close, through to more serious assault. In a care setting, where close personal contact is a normal part of the work, it is especially important to be clear about the difference between necessary, consented care and conduct that is unwanted and sexual.</p><ul><li><strong>Physical:</strong> unwanted touching, hugging, or blocking someone&rsquo;s path.</li><li><strong>Online:</strong> sexual messages, images or comments sent electronically.</li><li><strong>Displayed:</strong> sexual material shared in shared spaces or group chats.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>One-off or repeated</h2><p>Online or &ldquo;digital&rdquo; sexual harassment has become increasingly common. It includes sending sexual messages, images or emojis, making sexual comments on social media, or sharing explicit material in work group chats. The fact that it happens on a screen does not make it any less harmful or any less unacceptable.</p><p>Sexual harassment can be a single incident or a pattern that builds up over time. One serious act can be enough to amount to harassment, and so can a series of smaller comments or behaviours that together create a hostile environment. Neither should be dismissed as too small to matter.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Sexual harassment can be *verbal*, *physical* or *online*, and it can be a single incident or *repeated* over time."
+        }
+      ]
+    },
+    {
+      "label": "Third-party harassment",
+      "section": "Forms &amp; examples",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Harassment from clients, families and visitors</h2><p>Sexual harassment at work does not only come from colleagues or managers. Care workers can also be harassed by the people they support, by family members, or by other visitors. This is often called <strong>third-party harassment</strong>. It can be difficult to deal with, because you may feel you should simply put up with it as &ldquo;part of the job&rdquo; &mdash; but you should not have to.</p><ul><li><strong>Third parties:</strong> clients, relatives, visitors or contractors, not just staff.</li><li><strong>Not part of the job:</strong> you should not have to tolerate harassment.</li><li><strong>Report it:</strong> your employer needs to know so that it can act.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When it overlaps with safeguarding</h2><p>Sometimes the person who experiences sexual harassment is someone who uses services &mdash; for example, if a person is subjected to unwanted sexual conduct by a worker, a visitor, or another person they live with. When this happens, it is not only a matter of workplace conduct but also a <strong>safeguarding</strong> concern, because the person may be an adult at risk.</p><p>In these situations you must follow your safeguarding procedures as well as your organisation&rsquo;s harassment policy. Report the concern to your manager or safeguarding lead without delay, keep the person safe, and record what you have seen or been told. Never decide on your own that something is &ldquo;too minor&rdquo; to raise.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A care worker is repeatedly subjected to unwanted sexual comments by a person&rsquo;s relative during home visits. Which statement is correct?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "This can be sexual harassment by a third party, and the worker should not have to tolerate it &mdash; it should be reported to the employer.", "correct": true, "feedback": "Correct. Harassment by a third party such as a relative should not be tolerated and should be reported." },
+            { "text": "The worker must simply accept it, because it comes from a family member and not a colleague.", "correct": false, "feedback": "No &mdash; you should not have to put up with harassment, whoever it comes from." },
+            { "text": "It only matters if the conduct comes from another member of staff.", "correct": false, "feedback": "No &mdash; third-party harassment from clients, families or visitors also matters and should be reported." },
+            { "text": "Nothing can be done unless the comments are made in writing.", "correct": false, "feedback": "No &mdash; spoken comments count too; the form the conduct takes does not have to be written." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The Equality Act",
+      "section": "The law &amp; the duty",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The Equality Act 2010</h2><p>The Equality Act 2010 is the main law protecting people from discrimination, harassment and victimisation in Great Britain. It protects people both at work and when using services, and it treats harassment as a form of unlawful conduct. Sexual harassment &mdash; unwanted conduct of a sexual nature &mdash; is one of the forms of harassment the Act covers.</p><ul><li><strong>Protection:</strong> from discrimination, harassment and victimisation.</li><li><strong>At work and in services:</strong> it protects workers and people who use services.</li><li><strong>Harassment:</strong> including sexual harassment, is unlawful under the Act.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Protected characteristics</h2><p>The Equality Act protects people from harassment related to certain <strong>protected characteristics</strong>, such as age, disability, gender reassignment, race, religion or belief, sex, and sexual orientation. Harassment related to sex &mdash; for example, demeaning remarks based on a person&rsquo;s sex &mdash; is unlawful, as is harassment of a sexual nature.</p><p>Sexual harassment specifically is about unwanted conduct of a sexual nature, and a person does not have to share any particular characteristic for it to apply. Understanding this helps you see that sexual harassment can happen to anyone, whoever they are.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Victimisation",
+      "section": "The law &amp; the duty",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Victimisation</h2><p>The Equality Act 2010 also protects people from <strong>victimisation</strong>. Victimisation means treating someone badly because they have done a &ldquo;protected act&rdquo; &mdash; such as making a complaint of harassment, supporting someone else&rsquo;s complaint, or giving evidence &mdash; or because it is believed they might. It is there to make sure people can speak up without fear.</p><ul><li><strong>Protected act:</strong> raising or supporting a complaint of harassment or discrimination.</li><li><strong>Unlawful:</strong> punishing or excluding someone for doing so is against the law.</li><li><strong>Speak up safely:</strong> the law protects those who report in good faith.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why this matters</h2><p>Fear of being blamed, disbelieved or treated badly is one of the biggest reasons people stay silent about sexual harassment. The protection against victimisation is meant to remove that fear, so that a person who reports harassment &mdash; or who stands up for a colleague &mdash; is not punished for doing the right thing.</p><p>In a respectful workplace, no one who raises a genuine concern should be sidelined, given the worst shifts, or frozen out. If you notice someone being treated badly after they have spoken up, that too is something to report.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Under the Equality Act 2010, what is victimisation?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Treating someone badly because they have made, or supported, a complaint about harassment or discrimination.", "correct": true, "feedback": "Correct. Victimisation is poor treatment because someone has done a protected act, such as making a complaint." },
+            { "text": "Any disagreement between two colleagues about how to do their work.", "correct": false, "feedback": "No &mdash; an ordinary work disagreement is not victimisation." },
+            { "text": "Giving someone honest, fair feedback in an appraisal.", "correct": false, "feedback": "No &mdash; fair feedback is not victimisation." },
+            { "text": "Asking a colleague to follow the organisation&rsquo;s policies.", "correct": false, "feedback": "No &mdash; a reasonable request to follow policy is not victimisation." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The employer&rsquo;s duty",
+      "section": "The law &amp; the duty",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The employer&rsquo;s duty to prevent sexual harassment</h2><p>The Worker Protection (Amendment of Equality Act 2010) Act 2023 introduced a new <strong>preventative duty</strong> on employers. Employers must take reasonable steps to prevent sexual harassment of their workers in the course of their employment. This is a proactive duty &mdash; it is about stopping harassment before it happens, not only responding after the event.</p><ul><li><strong>Preventative:</strong> employers must act to prevent harassment, not just react to it.</li><li><strong>Reasonable steps:</strong> such as clear policies, training, and safe reporting routes.</li><li><strong>Includes third parties:</strong> the duty extends to harassment by clients and visitors.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this means in practice</h2><p>Reasonable steps can include having a clear anti-harassment policy, providing training, encouraging people to report concerns, taking complaints seriously, and assessing and reducing the risks of harassment &mdash; including harassment by third parties such as the people you support or their visitors. Where an employer has not taken reasonable steps, an employment tribunal can increase the compensation awarded in a sexual harassment claim.</p><p>For you, this means your employer should have policies, training and reporting routes in place, and should act on concerns. You are entitled to expect this, and you play your part by using those routes and by treating others with respect.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "The Worker Protection (Amendment of Equality Act 2010) Act 2023 places a duty on employers to take reasonable steps to prevent sexual harassment of their workers.",
+          "correct": true,
+          "correctMsg": "Correct. The 2023 Act introduced a preventative duty requiring employers to take reasonable steps to prevent sexual harassment.",
+          "wrongMsg": "Not quite. The 2023 Act does introduce a duty on employers to take reasonable steps to prevent sexual harassment."
+        }
+      ]
+    },
+    {
+      "label": "Shared responsibility",
+      "section": "The law &amp; the duty",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>A shared responsibility</h2><p>While the legal duty to prevent sexual harassment sits with the employer, creating a respectful culture is something everyone shares. Managers set the tone and act on concerns, but every worker helps shape whether a workplace feels safe and dignified. Small everyday choices &mdash; challenging &ldquo;banter&rdquo; that has gone too far, supporting a colleague, reporting what you see &mdash; all add up.</p><ul><li><strong>Everyone:</strong> a respectful culture is built by all, not just managers.</li><li><strong>Speak up:</strong> do not stay silent when you see harassment.</li><li><strong>Lead by example:</strong> model respectful, professional behaviour.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your part in the culture</h2><p>You can help prevent sexual harassment by being clear about your own conduct, by not joining in with or laughing off inappropriate comments, and by supporting anyone who seems uncomfortable. If it is safe to do so, letting someone know their behaviour is unwelcome can stop it early &mdash; though you should never feel you must confront anyone, and reporting is always an option.</p><p>A culture where people feel able to speak up, and trust that concerns will be taken seriously, protects colleagues and the people who use services alike. Everyone benefits when dignity and respect are the shared standard.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Preventing sexual harassment is a *shared* responsibility: employers must take *reasonable* steps, and every worker helps build a culture of *respect* and *dignity*."
+        }
+      ]
+    },
+    {
+      "label": "Supporting someone",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Supporting someone who tells you</h2><p>If a colleague or a person you support tells you they have experienced sexual harassment, how you respond in that moment matters a great deal. Listen calmly, without judgement, and let them tell you what happened in their own words. Thank them for trusting you, and reassure them that they have done the right thing in speaking up.</p><ul><li><strong>Listen:</strong> give them time and space, without interrupting or judging.</li><li><strong>Believe:</strong> take what they say seriously and do not dismiss it.</li><li><strong>Reassure:</strong> tell them that speaking up was the right thing to do.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Believe them and respect their wishes</h2><p>It is not your job to investigate or to decide whether harassment has &ldquo;really&rdquo; happened. Believe the person, take their concern seriously, and avoid asking searching or blaming questions such as why they did not stop it. Be honest that you may need to pass the information on, and explain who to, so that you do not promise a secrecy you cannot keep.</p><p>As far as you can, respect the person&rsquo;s wishes about what happens next, and keep them informed. Where the person affected is someone who uses services and may be an adult at risk, remember that this may also be a safeguarding matter, and you must follow your safeguarding procedures even so.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A colleague confides that they have been sexually harassed at work. What is the best way to respond?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Listen without judgement, believe them, reassure them, and be honest that you may need to pass the concern on.", "correct": true, "feedback": "Correct. Listening, believing and being honest about reporting is the supportive way to respond." },
+            { "text": "Tell them to forget about it, as it was probably just a misunderstanding.", "correct": false, "feedback": "No &mdash; dismissing the concern can leave the person unsupported and silences them." },
+            { "text": "Promise to keep it completely secret and never tell anyone.", "correct": false, "feedback": "No &mdash; you should not promise a secrecy you cannot keep; concerns may need to be reported." },
+            { "text": "Ask them why they did not do more to stop it at the time.", "correct": false, "feedback": "No &mdash; blaming questions are unhelpful and unfair to the person affected." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reporting &amp; support",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>How to report a concern</h2><p>If you experience, witness or are told about sexual harassment, report it through your organisation&rsquo;s agreed routes. Usually this means telling your manager, a designated person, or your safeguarding lead, and recording what happened using clear, factual language. If your line manager is involved in the concern, your policy will set out an alternative person to approach.</p><ul><li><strong>Tell the right person:</strong> your manager, a designated lead, or safeguarding lead.</li><li><strong>Record it:</strong> note the facts &mdash; what, when, where and who was involved.</li><li><strong>Do not delay:</strong> raise the concern promptly, without waiting for &ldquo;proof&rdquo;.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Confidentiality and support</h2><p>Information about sexual harassment should be handled sensitively and shared only with those who need to know in order to act. Confidentiality helps protect everyone involved, though it cannot be absolute &mdash; where there is a safeguarding risk, information must be shared with the right people to keep someone safe.</p><p>Support is available. This can include your manager, your organisation&rsquo;s policies and any employee assistance or occupational health service, your trade union, and external bodies such as ACAS or the Equality and Human Rights Commission. Where a person who uses services is affected, your local authority safeguarding team is also part of that support.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is good practice when reporting sexual harassment?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Report it promptly to your manager or safeguarding lead, record the facts clearly, and share information only with those who need to know.", "correct": true, "feedback": "Correct. Prompt, factual reporting through the right routes, with sensitive handling of information, is good practice." },
+            { "text": "Wait until you have gathered enough proof to be completely certain.", "correct": false, "feedback": "No &mdash; you do not need proof; raise the concern promptly." },
+            { "text": "Discuss the details with everyone in the team so people are warned.", "correct": false, "feedback": "No &mdash; information should be shared only with those who need to know." },
+            { "text": "Decide by yourself whether it is serious enough to bother reporting.", "correct": false, "feedback": "No &mdash; do not judge it too minor to raise; report it so the right people can act." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Summary",
+      "section": "Responding &amp; reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have learned what sexual harassment is, the many forms it can take, the law that protects people, the employer&rsquo;s duty to prevent it, and how to respond and report. The heart of it is simple: everyone has the right to be treated with dignity and respect, and sexual harassment &mdash; unwanted conduct of a sexual nature &mdash; has no place at work or in care.</p><ul><li><strong>Recognise:</strong> unwanted conduct of a sexual nature, judged by its effect.</li><li><strong>Respond:</strong> listen, believe, support, and report through the right routes.</li><li><strong>Respect:</strong> play your part in a culture that protects everyone.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A final reminder</h2><p>Take concerns seriously, whether they come from a colleague or from someone who uses services, and never assume something is &ldquo;too minor&rdquo; to matter. If you are affected, or you become aware of sexual harassment, report it and seek support &mdash; you do not have to face it alone.</p><p>This course has given you <strong>awareness and knowledge</strong> only. It does <strong>not</strong> replace your organisation&rsquo;s policies and procedures or the supervised training your employer provides, and you must always follow these. Where someone who uses services is affected, remember that this may also be a <strong>safeguarding</strong> matter, and you should follow your safeguarding procedures.</p>"
+        }
+      ]
+    }
+  ]
+}

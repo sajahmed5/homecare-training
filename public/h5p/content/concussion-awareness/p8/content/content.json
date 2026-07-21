@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The emergency red flags</h2><p>Call <strong>999</strong> at once if, after a head injury, the person shows any of the warning signs below. You do not need to wait for more than one &mdash; a single red flag is enough to act on. These signs suggest a serious injury to the brain that needs emergency assessment and treatment in hospital without delay.</p><ul><li><strong>Consciousness:</strong> loss of consciousness, or being difficult to wake.</li><li><strong>Neurological:</strong> a seizure (fit), weakness or numbness, or repeated vomiting.</li><li><strong>Danger signs:</strong> clear fluid or bleeding from the ears or nose, or a worsening or severe headache.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e03638ed-c8e1-4f00-bbbb-f44d766d140e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The red flags",
+          "decorative": false,
+          "file": {
+            "path": "images/the-red-flags.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f7d86e99-3ddc-4bfe-88c8-c5ffcac14626",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing the red flags in full</h2><p>Get emergency help if the person has been <strong>knocked out</strong> or has lost consciousness, even briefly; is <strong>difficult to wake</strong> or cannot stay awake; has a <strong>seizure</strong> or fit; has been <strong>sick repeatedly</strong> since the injury; develops <strong>weakness or numbness</strong>, or problems with walking, balance, speaking or understanding; has <strong>clear fluid or bleeding coming from the ears or nose</strong>; or has a <strong>headache that is severe or getting worse</strong> and does not ease.</p><p>Other warning signs include sudden changes in behaviour, problems with vision or hearing, and confusion that is deepening. Learn these red flags well, because in an emergency you need to recognise them fast. When you see one, do not wait &mdash; call <strong>999</strong> and explain that the person has had a head injury.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5decba61-6724-4192-8264-d1db7a0edc5e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following is a red flag that means you should call 999 after a head injury?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The person has a seizure, is repeatedly vomiting, or is difficult to wake.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A seizure, repeated vomiting or being difficult to wake are red flags needing an urgent 999 call.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person feels a little tired and wants to sit down for a moment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; wanting to rest is not itself a red flag, though you should still monitor closely; the red flags are more serious signs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person has a small graze on their hand from the fall.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a minor graze is not a head-injury red flag; the red flags concern the brain and nervous system.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person asks you what time lunch will be served.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; an ordinary question is not a red flag; watch instead for confusion, seizures, vomiting and the other warning signs.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "145dacbf-930b-4bfe-8b70-48e8df3314a7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

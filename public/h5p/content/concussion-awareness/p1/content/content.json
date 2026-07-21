@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Concussion Awareness</h2><p>A head injury can happen in an instant &mdash; a fall onto a hard floor, a knock against a piece of furniture, or a stumble on the stairs. In care, these events are common, especially for older people and anyone who is unsteady on their feet. This course helps you understand what concussion is, recognise the signs, give basic first aid, and know the emergency red flags that mean a person needs urgent medical help. Being aware and alert is one of the most valuable things you bring to the people you support.</p><ul><li><strong>Recognise:</strong> spot the signs of concussion and head injury early.</li><li><strong>Respond:</strong> give basic first aid and keep the person safe.</li><li><strong>Escalate:</strong> know the red flags that mean you must call 999.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "76d2ef6c-b98f-46a1-b664-f551e914efdf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2b73ce6d-21b6-4088-bb6a-ba612f0875f9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to use this course</h2><p>Concussion is a form of brain injury, and although most people recover well, a head injury can sometimes be far more serious than it first appears. That is why awareness matters: the sooner a problem is noticed, the sooner the person can get the right help.</p><p>This course gives you <strong>awareness and knowledge</strong> to help you recognise and respond to concussion and head injury. It does <strong>not</strong> replace supervised or first-aid training, and it does not make you responsible for diagnosis or treatment. Remember throughout that a serious head injury is a medical emergency &mdash; if you ever see the red flags, you must get urgent medical help by calling <strong>999</strong>.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a079dd62-4a79-4602-a10f-5c63b1a74680",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What concussion is</h2><p>Concussion is a <strong>mild traumatic brain injury</strong>. It is caused by a blow, bump or jolt to the head, or by a jolt to the body that shakes the head hard enough to move the brain inside the skull. The brain is soft and floats in fluid, so a sudden impact can make it knock against the inside of the skull. This temporarily disturbs the way the brain works, which is what produces the symptoms of concussion. The person does not have to be knocked out for it to be a concussion.</p><ul><li><strong>A brain injury:</strong> concussion is a mild traumatic brain injury.</li><li><strong>The cause:</strong> a blow or jolt to the head, or a jolt to the body.</li><li><strong>The effect:</strong> the brain is temporarily disturbed and stops working normally.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9c0f750c-c4f2-4ffa-8fcc-d879d1dba682",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is concussion?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-concussion.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "240d8d48-e0c5-453f-8e31-57b7eba91966",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>You cannot see it on the outside</h2><p>One of the most important things to understand about concussion is that you <strong>cannot see it</strong> from the outside. There may be no cut, no bruise and no swelling, yet the person can still have a genuine brain injury. Someone can bang their head, get up, and seem completely fine, only to become unwell later. This is why you should never judge how serious a head injury is by looking at the outside of the head alone.</p><p>Because the injury is hidden, the way you find out about it is by <strong>watching the person</strong> and listening to how they feel and behave. A concussion is often invisible until its symptoms appear, so it is what the person says, does and cannot do that tells you something is wrong.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "32ba7da7-1e06-4c3d-95c6-259d519fe6ee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is concussion?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A mild traumatic brain injury caused by a blow or jolt to the head or body.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Concussion is a mild traumatic brain injury that temporarily disturbs how the brain works.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A cut or graze to the scalp that only needs a plaster.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion is a brain injury, not a simple scalp wound, and it may leave no mark at all.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A type of headache that everyone gets from time to time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion is a brain injury caused by an impact, not an everyday headache.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A permanent illness that cannot ever improve.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; most people recover from concussion, though it must still be taken seriously and monitored.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8f961444-0a74-4231-9a8e-e3186958bf83",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

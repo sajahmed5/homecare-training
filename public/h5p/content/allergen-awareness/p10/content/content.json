@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Safety with choice and dignity</h2><p>Keeping someone safe should never mean taking away their enjoyment of food or their right to choose. People with allergies deserve meals that are varied, appealing and their own, not just a limited set of &ldquo;safe&rdquo; options served without thought.</p><ul><li><strong>Involve:</strong> include the person in choosing their food.</li><li><strong>Respect:</strong> value their likes, culture and preferences.</li><li><strong>Enable:</strong> make safe eating feel normal, not restrictive.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2fc9196e-c2c1-4e4c-8771-b017de9e7a63",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Choice and dignity",
+          "decorative": false,
+          "file": {
+            "path": "images/choice-and-dignity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3a5f195c-0f9f-437a-ac76-53f0a8730d8c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Never assume, always support</h2><p>Work with the person, not around them. Talk with them about what they enjoy, find safe versions of favourite meals where you can, and treat their allergy as one part of who they are rather than the only thing that defines their food. Small efforts &mdash; an alternative that looks just as appetising, or a favourite treat made safely &mdash; help someone feel included rather than singled out.</p><p>At the same time, never let a wish to please override safety. If a person asks for something you know is unsafe for them, explain kindly, offer a safe alternative, and speak to a senior colleague if needed. Good care holds safety and dignity together, so the person stays both protected and respected.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "58807437-8aad-4e27-b8c9-212f8239166e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Because someone has a food allergy, it is best to give them the same few plain meals every day and not involve them in choosing.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Limiting someone to plain meals removes choice and dignity. You can keep food safe while still offering variety and involving the person.",
+            "correctAnswerMessage": "Correct. People with allergies should still enjoy varied food and be involved in choices &mdash; safety and dignity go together."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "f42359f6-7935-40ee-96fd-7d34c79d3c38",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

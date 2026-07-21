@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Allergen Awareness</h2><p>Welcome to <strong>Allergen Awareness</strong>. For some of the people you support, an ordinary meal or snack can carry a real risk. A food allergy can cause anything from an itchy rash to a sudden, life-threatening reaction, so the care and attention you give around food genuinely helps to keep people safe.</p><ul><li><strong>Allergens:</strong> foods that can trigger a harmful reaction in some people.</li><li><strong>Awareness:</strong> knowing who is affected and what they must avoid.</li><li><strong>Safety:</strong> good practice that prevents reactions and responds quickly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "198f6c26-1fcc-4c48-b05f-5dc334648659",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d6417327-4960-4497-b40b-8a05a2ce8f82",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to use this course</h2><p>Over the next pages you will learn what food allergens and intolerances are, the 14 named allergens and the law around labelling, how to support people safely day to day, and how to recognise and respond to an allergic reaction. Throughout, the focus is on awareness and good practice in a care setting.</p><p>This e-learning covers <strong>knowledge and awareness</strong> only. It does not replace supervised, hands-on training, your own organisation&rsquo;s food-safety procedures, or the advice of a nurse, pharmacist, dietitian or other health professional. Always follow the person&rsquo;s care plan and check with a senior colleague if you are ever unsure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "08a8dbad-2a33-4e5b-81c9-0f1b91a4729b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

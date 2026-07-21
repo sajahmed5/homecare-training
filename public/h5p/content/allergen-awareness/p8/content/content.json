@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Start with the care plan</h2><p>Safe practice begins before any food is served. Every person you support should have their allergies and intolerances clearly recorded in their <strong>care plan</strong>, and it is your responsibility to know what they are and to follow them.</p><ul><li><strong>Know:</strong> be aware of each person&rsquo;s recorded allergies.</li><li><strong>Follow:</strong> stick to what the care plan sets out.</li><li><strong>Update:</strong> report anything new so records stay accurate.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2ac59de5-3eea-4a9d-9207-adc0a949464c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Care plans first",
+          "decorative": false,
+          "file": {
+            "path": "images/care-plans-first.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ebe60239-7c6e-4e37-b9eb-4e1e6d9e4bfd",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Knowing who is at risk</h2><p>Take time to learn who among the people you support has an allergy, and what they must avoid. Do not rely on memory alone for something this important &mdash; check the care plan, and check again if a person&rsquo;s needs may have changed. If a person tells you they react to a food that is not written down, take it seriously and report it so it can be recorded and assessed.</p><p>Allergies can also develop or change over time, and a new resident may arrive with information that is incomplete. If you notice a reaction, or a family member mentions an allergy you were not aware of, pass it on straight away. Accurate, up-to-date records are what keep everyone in the team able to support the person safely. This is especially important when staff change over, agency workers step in, or someone moves between services, because the next person relies entirely on what has been written down.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bff75350-7e7c-43aa-95a1-c512d5cf0346",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Where should you look to find out about a person&rsquo;s allergies before supporting them with food?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Their care plan, which should clearly record their allergies and intolerances.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. The care plan is the reliable source, and you should follow exactly what it sets out.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Your own memory of what they ate last week.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Memory alone is not reliable enough for something this important &mdash; check the care plan.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>What seems popular with other people you support.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Allergies are individual; what suits others tells you nothing about this person&rsquo;s needs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A general guess based on their age.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Age is no guide to allergies. Always check the person&rsquo;s recorded information.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7af47d13-b0ea-4650-af3f-3e5d5e99b30e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

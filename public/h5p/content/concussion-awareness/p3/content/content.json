@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common causes in care</h2><p>In a care setting, most head injuries follow a <strong>fall</strong>. Older people fall more often and are more easily hurt when they do, because they may be frail, unsteady, or living with conditions that affect their balance, eyesight or memory. A trip on a rug, a slip in the bathroom, or a fall from a bed or chair can all lead to a knock on the head. Being aware of who is most at risk helps you stay alert every time a fall happens.</p><ul><li><strong>Falls:</strong> the most common cause of head injury in care.</li><li><strong>Older people:</strong> more likely to fall and more easily injured.</li><li><strong>Higher risk:</strong> people on blood-thinning medication are especially vulnerable.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d5ea9291-7e09-4fdd-af8e-5ec7035b4ec4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Causes in care",
+          "decorative": false,
+          "file": {
+            "path": "images/causes-in-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "936d5d9f-38a8-4bf9-9d03-1c3ddeb5c9e9",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role as a care worker</h2><p>You are not expected to diagnose a concussion or to decide on treatment &mdash; that is for medical professionals. Your role is to <strong>recognise</strong> when someone may have hurt their head, to give <strong>basic first aid</strong>, to <strong>monitor</strong> the person carefully, and to <strong>escalate</strong> and seek help when it is needed. You are also the person who records what happened and passes the information on, so that nothing is missed.</p><p>People on <strong>blood thinners</strong>, also called anticoagulants, deserve particular attention, because even a minor bump to the head can cause serious bleeding for them. Knowing who takes these medicines, and staying watchful after any fall, is a key part of keeping people safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6266d61d-42fe-401f-a516-0eced676ac4f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Concussion is a mild traumatic *brain* injury caused by a blow or *jolt* to the head. In care it often follows a *fall*, and the risk is higher for older people and anyone taking *blood* thinners.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "0d69734b-34db-44a3-817c-20e044f0cff6",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

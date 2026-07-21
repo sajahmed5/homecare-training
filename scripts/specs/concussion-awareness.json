@@ -1,0 +1,278 @@
+{
+  "slug": "concussion-awareness",
+  "courseTitle": "Concussion Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "What concussion is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Concussion Awareness</h2><p>A head injury can happen in an instant &mdash; a fall onto a hard floor, a knock against a piece of furniture, or a stumble on the stairs. In care, these events are common, especially for older people and anyone who is unsteady on their feet. This course helps you understand what concussion is, recognise the signs, give basic first aid, and know the emergency red flags that mean a person needs urgent medical help. Being aware and alert is one of the most valuable things you bring to the people you support.</p><ul><li><strong>Recognise:</strong> spot the signs of concussion and head injury early.</li><li><strong>Respond:</strong> give basic first aid and keep the person safe.</li><li><strong>Escalate:</strong> know the red flags that mean you must call 999.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How to use this course</h2><p>Concussion is a form of brain injury, and although most people recover well, a head injury can sometimes be far more serious than it first appears. That is why awareness matters: the sooner a problem is noticed, the sooner the person can get the right help.</p><p>This course gives you <strong>awareness and knowledge</strong> to help you recognise and respond to concussion and head injury. It does <strong>not</strong> replace supervised or first-aid training, and it does not make you responsible for diagnosis or treatment. Remember throughout that a serious head injury is a medical emergency &mdash; if you ever see the red flags, you must get urgent medical help by calling <strong>999</strong>.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is concussion?",
+      "section": "What concussion is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What concussion is</h2><p>Concussion is a <strong>mild traumatic brain injury</strong>. It is caused by a blow, bump or jolt to the head, or by a jolt to the body that shakes the head hard enough to move the brain inside the skull. The brain is soft and floats in fluid, so a sudden impact can make it knock against the inside of the skull. This temporarily disturbs the way the brain works, which is what produces the symptoms of concussion. The person does not have to be knocked out for it to be a concussion.</p><ul><li><strong>A brain injury:</strong> concussion is a mild traumatic brain injury.</li><li><strong>The cause:</strong> a blow or jolt to the head, or a jolt to the body.</li><li><strong>The effect:</strong> the brain is temporarily disturbed and stops working normally.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>You cannot see it on the outside</h2><p>One of the most important things to understand about concussion is that you <strong>cannot see it</strong> from the outside. There may be no cut, no bruise and no swelling, yet the person can still have a genuine brain injury. Someone can bang their head, get up, and seem completely fine, only to become unwell later. This is why you should never judge how serious a head injury is by looking at the outside of the head alone.</p><p>Because the injury is hidden, the way you find out about it is by <strong>watching the person</strong> and listening to how they feel and behave. A concussion is often invisible until its symptoms appear, so it is what the person says, does and cannot do that tells you something is wrong.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is concussion?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A mild traumatic brain injury caused by a blow or jolt to the head or body.", "correct": true, "feedback": "Correct. Concussion is a mild traumatic brain injury that temporarily disturbs how the brain works." },
+            { "text": "A cut or graze to the scalp that only needs a plaster.", "correct": false, "feedback": "No &mdash; concussion is a brain injury, not a simple scalp wound, and it may leave no mark at all." },
+            { "text": "A type of headache that everyone gets from time to time.", "correct": false, "feedback": "No &mdash; concussion is a brain injury caused by an impact, not an everyday headache." },
+            { "text": "A permanent illness that cannot ever improve.", "correct": false, "feedback": "No &mdash; most people recover from concussion, though it must still be taken seriously and monitored." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Causes in care",
+      "section": "What concussion is",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Common causes in care</h2><p>In a care setting, most head injuries follow a <strong>fall</strong>. Older people fall more often and are more easily hurt when they do, because they may be frail, unsteady, or living with conditions that affect their balance, eyesight or memory. A trip on a rug, a slip in the bathroom, or a fall from a bed or chair can all lead to a knock on the head. Being aware of who is most at risk helps you stay alert every time a fall happens.</p><ul><li><strong>Falls:</strong> the most common cause of head injury in care.</li><li><strong>Older people:</strong> more likely to fall and more easily injured.</li><li><strong>Higher risk:</strong> people on blood-thinning medication are especially vulnerable.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role as a care worker</h2><p>You are not expected to diagnose a concussion or to decide on treatment &mdash; that is for medical professionals. Your role is to <strong>recognise</strong> when someone may have hurt their head, to give <strong>basic first aid</strong>, to <strong>monitor</strong> the person carefully, and to <strong>escalate</strong> and seek help when it is needed. You are also the person who records what happened and passes the information on, so that nothing is missed.</p><p>People on <strong>blood thinners</strong>, also called anticoagulants, deserve particular attention, because even a minor bump to the head can cause serious bleeding for them. Knowing who takes these medicines, and staying watchful after any fall, is a key part of keeping people safe.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Concussion is a mild traumatic *brain* injury caused by a blow or *jolt* to the head. In care it often follows a *fall*, and the risk is higher for older people and anyone taking *blood* thinners."
+        }
+      ]
+    },
+    {
+      "label": "Immediate signs",
+      "section": "Signs and symptoms",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Immediate signs and symptoms</h2><p>After a bump or jolt to the head, some signs of concussion can appear <strong>straight away</strong>. The person may seem dazed, stunned or confused, and may not remember what just happened. They might complain of a headache or feeling dizzy, or look pale and unsteady. These early signs are your first clue that the brain has been affected, so pay close attention to anyone in the moments right after a head injury.</p><ul><li><strong>Head symptoms:</strong> headache, dizziness, and blurred vision.</li><li><strong>Thinking:</strong> confusion, feeling dazed, and memory problems.</li><li><strong>Physical:</strong> nausea, feeling sick, and looking pale or unsteady.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What to look and listen for</h2><p>Common symptoms of concussion include a <strong>headache</strong>, <strong>dizziness</strong>, <strong>confusion</strong>, feeling <strong>sick</strong> or nauseous, <strong>blurred vision</strong>, and problems with <strong>memory</strong> &mdash; for example, not being able to recall the fall or repeating the same questions. The person may seem slowed down, struggle to concentrate, or say that things do not feel quite right.</p><p>Because concussion is invisible, you have to rely on what you <strong>see and hear</strong>. Watch how the person moves, listen to what they tell you about how they feel, and notice anything that seems different from their normal self. If you know the person well, you are well placed to spot that something has changed after a knock to the head.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these can be a sign of concussion soon after a head injury?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Headache, dizziness, confusion, feeling sick, and problems with memory.", "correct": true, "feedback": "Correct. These are all common signs of concussion and should make you watch the person closely." },
+            { "text": "Feeling more energetic and alert than usual.", "correct": false, "feedback": "No &mdash; concussion tends to slow a person down and cause symptoms such as headache and confusion, not extra energy." },
+            { "text": "A sudden and lasting improvement in eyesight.", "correct": false, "feedback": "No &mdash; concussion may cause blurred vision, not an improvement in sight." },
+            { "text": "Nothing at all, because concussion never causes any symptoms.", "correct": false, "feedback": "No &mdash; concussion causes real symptoms such as headache, dizziness and confusion, even if there is no visible mark." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Delayed signs",
+      "section": "Signs and symptoms",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Symptoms can appear later</h2><p>One of the most important facts about concussion is that the symptoms do <strong>not</strong> always appear straight away. Someone can seem perfectly fine immediately after a fall and then become unwell <strong>hours or even days later</strong>. This is why a head injury can be so easy to underestimate: the person walks away, everyone relaxes, and the problem only shows itself later. Never assume that because someone seemed all right at first, they are safe.</p><ul><li><strong>Delayed onset:</strong> symptoms can appear hours or days after the injury.</li><li><strong>Seeming fine:</strong> a person can look well at first and become unwell later.</li><li><strong>Keep watching:</strong> this is why continued monitoring is essential.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Changes to watch for over time</h2><p>Delayed symptoms can include a headache that comes on or gets worse, growing <strong>drowsiness</strong>, increasing confusion, and <strong>changes in behaviour</strong> such as becoming irritable, withdrawn, tearful or unlike their usual self. Sleep, mood, memory and concentration can all be affected in the hours and days after a head injury.</p><p>Because these changes creep in over time, careful <strong>monitoring</strong> is essential. Keep checking on the person, note how they seem at different points, and take any new or worsening symptom seriously. A change that develops slowly can be just as important as one that appears at once &mdash; and in an older person or someone on blood thinners, a gradual decline can be a warning of something serious.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Concussion symptoms always appear straight away, so if someone seems fine right after a fall you do not need to keep watching them.",
+          "correct": false,
+          "correctMsg": "Correct. Symptoms can appear hours or days later, so a person must be monitored even if they seem fine at first.",
+          "wrongMsg": "Not quite. Concussion symptoms can be delayed by hours or days, so continued monitoring is essential even when someone seems well."
+        }
+      ]
+    },
+    {
+      "label": "Monitoring symptoms",
+      "section": "Signs and symptoms",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Monitoring after a head injury</h2><p>Because symptoms can be delayed, anyone who has bumped or jolted their head should be <strong>watched closely</strong> for at least the next 24 hours, and ideally longer where their care plan or a professional advises it. Monitoring is not a single check; it is a continued process of keeping an eye on the person, checking how they are, and noticing any change as it happens. The aim is to catch a developing problem early.</p><ul><li><strong>Stay observant:</strong> keep watching for at least 24 hours after the injury.</li><li><strong>Look for change:</strong> compare how the person is now with their normal self.</li><li><strong>Act on decline:</strong> any worsening sign means you should seek help.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Making monitoring work in practice</h2><p>Good monitoring means checking on the person regularly rather than assuming no news is good news. Make sure the whole team knows a head injury has happened, so that the person is watched across shifts and handovers. Note down how they seem at each check &mdash; their alertness, their mood, whether any symptoms have appeared or grown &mdash; so that a slow change is not missed.</p><p>Trust your instincts and the person&rsquo;s own words. If they say their headache is getting worse, if they seem more drowsy or confused, or if something simply does not feel right, do not wait and hope it settles. Monitoring only protects people if you <strong>act</strong> on what you observe, following your care plan and seeking medical advice whenever symptoms worsen.</p>"
+        }
+      ]
+    },
+    {
+      "label": "When it's an emergency",
+      "section": "Emergency red flags and first aid",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>When a head injury is an emergency</h2><p>Most concussions are not life-threatening, but some head injuries are a <strong>medical emergency</strong>. Bleeding or swelling inside the skull can build up and press on the brain, and this can become life-threatening quickly. The warning signs of a serious injury are known as <strong>red flags</strong>. If you see any one of them, this is no longer something to watch and wait on &mdash; it is time to get emergency help by calling 999.</p><ul><li><strong>Serious risk:</strong> bleeding or swelling inside the skull can be life-threatening.</li><li><strong>Red flags:</strong> specific warning signs that mean an emergency.</li><li><strong>One is enough:</strong> a single red flag means you call 999 at once.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why speed matters</h2><p>When something is bleeding or swelling inside the head, every minute counts. Early treatment in hospital can be life-saving, but only if the person gets there quickly. This is why you must never talk yourself out of acting because the injury &ldquo;looked minor&rdquo; or the person &ldquo;seemed okay&rdquo; at first. A serious bleed can develop after what looked like a small bump, particularly in older people and those on blood thinners.</p><p>You do not need to be certain, and you are not expected to work out exactly what is wrong. Your job is to recognise a red flag and respond. If in any doubt, treat a head injury as serious and get urgent help &mdash; it is always better to call <strong>999</strong> and be reassured than to wait while a treatable emergency gets worse.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why should a head injury with a red-flag sign be treated as an emergency?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Because bleeding or swelling inside the skull can be life-threatening, and early hospital treatment can save a life.", "correct": true, "feedback": "Correct. Red flags can mean a serious bleed or swelling, and getting help quickly can be life-saving." },
+            { "text": "Because the person will be embarrassed if you do not make a fuss.", "correct": false, "feedback": "No &mdash; a red flag is treated as an emergency because of the real risk to life, not for appearances." },
+            { "text": "Because head injuries are never serious and always settle on their own.", "correct": false, "feedback": "No &mdash; some head injuries are very serious, which is exactly why red flags need an emergency response." },
+            { "text": "Because you must diagnose the exact injury before doing anything.", "correct": false, "feedback": "No &mdash; you are not expected to diagnose; you recognise the red flag and call 999 straight away." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The red flags",
+      "section": "Emergency red flags and first aid",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The emergency red flags</h2><p>Call <strong>999</strong> at once if, after a head injury, the person shows any of the warning signs below. You do not need to wait for more than one &mdash; a single red flag is enough to act on. These signs suggest a serious injury to the brain that needs emergency assessment and treatment in hospital without delay.</p><ul><li><strong>Consciousness:</strong> loss of consciousness, or being difficult to wake.</li><li><strong>Neurological:</strong> a seizure (fit), weakness or numbness, or repeated vomiting.</li><li><strong>Danger signs:</strong> clear fluid or bleeding from the ears or nose, or a worsening or severe headache.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Knowing the red flags in full</h2><p>Get emergency help if the person has been <strong>knocked out</strong> or has lost consciousness, even briefly; is <strong>difficult to wake</strong> or cannot stay awake; has a <strong>seizure</strong> or fit; has been <strong>sick repeatedly</strong> since the injury; develops <strong>weakness or numbness</strong>, or problems with walking, balance, speaking or understanding; has <strong>clear fluid or bleeding coming from the ears or nose</strong>; or has a <strong>headache that is severe or getting worse</strong> and does not ease.</p><p>Other warning signs include sudden changes in behaviour, problems with vision or hearing, and confusion that is deepening. Learn these red flags well, because in an emergency you need to recognise them fast. When you see one, do not wait &mdash; call <strong>999</strong> and explain that the person has had a head injury.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following is a red flag that means you should call 999 after a head injury?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The person has a seizure, is repeatedly vomiting, or is difficult to wake.", "correct": true, "feedback": "Correct. A seizure, repeated vomiting or being difficult to wake are red flags needing an urgent 999 call." },
+            { "text": "The person feels a little tired and wants to sit down for a moment.", "correct": false, "feedback": "No &mdash; wanting to rest is not itself a red flag, though you should still monitor closely; the red flags are more serious signs." },
+            { "text": "The person has a small graze on their hand from the fall.", "correct": false, "feedback": "No &mdash; a minor graze is not a head-injury red flag; the red flags concern the brain and nervous system." },
+            { "text": "The person asks you what time lunch will be served.", "correct": false, "feedback": "No &mdash; an ordinary question is not a red flag; watch instead for confusion, seizures, vomiting and the other warning signs." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Basic first aid",
+      "section": "Emergency red flags and first aid",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Basic first aid</h2><p>If someone has hurt their head, keep calm and act steadily. Encourage the person to <strong>stay still</strong> and rest rather than getting up and moving about, especially if they are dizzy or unsteady. Reassure them, keep them <strong>calm</strong>, and stay with them. If there is swelling or a bump, you can gently apply something cold, such as an ice pack wrapped in a cloth, to help ease it. Do not give food, drink or medicines unless it is safe and part of the person&rsquo;s plan to do so.</p><ul><li><strong>Keep still:</strong> encourage the person to rest and avoid moving about.</li><li><strong>Stay calm:</strong> reassure the person and remain with them.</li><li><strong>Monitor:</strong> keep watching for red flags and any worsening signs.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>If the person is more seriously hurt</h2><p>If the person has lost consciousness, even for a moment, treat it as an emergency and <strong>call 999</strong>. While you wait, keep them still and do not move them unnecessarily, in case of injury to the head or neck, unless they are in danger. If they are unresponsive but breathing, the call handler can guide you on how to keep their airway clear and position them safely.</p><p>Stay with the person, keep talking to them gently, and watch their breathing and how alert they are. Have useful information ready for the paramedics, such as what happened, when it happened, and the person&rsquo;s medicines &mdash; especially any blood thinners. Your calm, steady presence and clear information help the emergency team give the right care quickly.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "If someone loses consciousness after a head injury, even only briefly, you should call 999.",
+          "correct": true,
+          "correctMsg": "Correct. Any loss of consciousness after a head injury is a red flag and needs an emergency 999 call.",
+          "wrongMsg": "Not quite. Losing consciousness, even briefly, is a red flag &mdash; treat it as an emergency and call 999."
+        }
+      ]
+    },
+    {
+      "label": "Blood thinners caution",
+      "section": "Emergency red flags and first aid",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Extra caution with blood thinners</h2><p>People who take <strong>anticoagulant</strong> medicines &mdash; often called blood thinners &mdash; need extra caution after any head injury. These medicines slow down the way the blood clots, which is helpful for their health but means that any bleeding, including bleeding inside the skull, is harder to stop. As a result, even a <strong>minor</strong> bump to the head can lead to a serious bleed. Many older people you support may be taking these medicines.</p><ul><li><strong>Slower clotting:</strong> anticoagulants make bleeding harder to stop.</li><li><strong>Higher risk:</strong> even a small knock can cause dangerous bleeding.</li><li><strong>Lower threshold:</strong> seek medical advice promptly, even for a minor injury.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this means for your response</h2><p>For someone on blood thinners, you should have a much lower threshold for getting medical help after a head injury. Even if the bump seemed small and the person seems well, seek <strong>prompt medical advice</strong> rather than simply waiting, because a dangerous bleed can develop with few obvious signs at first. Always tell the ambulance service or health professional that the person takes anticoagulant medication &mdash; it is vital information.</p><p>Know who among the people you support takes these medicines, and keep this in mind every time one of them has a fall or a knock to the head. Combining this awareness with careful monitoring and quick escalation gives these more vulnerable people the protection they need.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Anticoagulant medicines make the blood slower to *clot*, so even a minor *bump* to the head can cause dangerous *bleeding* inside the skull. Always take extra *care* and seek prompt medical advice."
+        }
+      ]
+    },
+    {
+      "label": "Rest and recovery",
+      "section": "Recovery and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Rest and gradual recovery</h2><p>Most people recover well from concussion, but recovery takes time and cannot be rushed. The brain needs <strong>rest</strong> to heal, so in the early days the person should take things gently and avoid demanding physical and mental activity. As they improve, they can gradually return to their usual routine, step by step, rather than all at once. Symptoms often ease over a couple of weeks, though some people take longer, and that is normal.</p><ul><li><strong>Rest first:</strong> the brain needs rest in the early days to recover.</li><li><strong>Go gradually:</strong> return to normal activity slowly, step by step.</li><li><strong>Be patient:</strong> recovery can take a couple of weeks or longer.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Second-impact awareness</h2><p>An important part of recovery is protecting the person from <strong>a second head injury</strong> before the first has healed. If someone is concussed and then hurts their head again while still recovering, the effects can be far more serious. This is why the person should be helped to avoid falls and knocks during their recovery, and should not rush back to activities that put their head at risk.</p><p>Keep monitoring during recovery, and know when to <strong>seek further help</strong>: if symptoms get worse rather than better, if new symptoms appear, or if any red flag develops at any point, get medical advice or call 999. Recovery is not simply a matter of waiting &mdash; it means keeping the person safe and staying alert until they are truly well.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is it important to protect someone from another head injury while they are recovering from concussion?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Because a second head injury before the first has healed can have far more serious effects.", "correct": true, "feedback": "Correct. Another injury during recovery can be much more serious, so the person must be protected from further knocks." },
+            { "text": "Because a second injury would speed up their recovery.", "correct": false, "feedback": "No &mdash; a second injury does not help recovery; it can make things much worse." },
+            { "text": "Because concussion is not a real injury and only feels bad.", "correct": false, "feedback": "No &mdash; concussion is a genuine brain injury, which is exactly why a further knock is dangerous." },
+            { "text": "Because they must return to all their normal activities immediately.", "correct": false, "feedback": "No &mdash; the person should return to activity gradually and avoid further head injury while healing." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Recording and reporting",
+      "section": "Recovery and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recording and reporting</h2><p>Whenever someone has a head injury, you must <strong>record</strong> it accurately and <strong>report</strong> it promptly. Good records protect the person: they help the whole team keep watch, they give health professionals the facts they need, and they show that the injury was taken seriously. Write down what happened as soon as you can, while it is fresh, and follow your workplace&rsquo;s procedures for reporting incidents and accidents.</p><ul><li><strong>Record the facts:</strong> what happened, when, and how the injury occurred.</li><li><strong>Note observations:</strong> the symptoms seen and how the person is over time.</li><li><strong>Report promptly:</strong> tell the right people and follow your procedures.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Following the care plan</h2><p>Your records should be clear, accurate and factual. Note the time and details of the injury, the symptoms you observed, the action you took, and how the person is at each monitoring check. Record any changes and when they happened, so that a developing problem can be seen. Pass the information on at handover so that the person continues to be watched across every shift, and report to your manager or the relevant professional as your procedures require.</p><p>Always follow the person&rsquo;s <strong>care plan</strong> and your organisation&rsquo;s policies, which set out how head injuries should be monitored, recorded and escalated. Accurate recording and clear reporting are not paperwork for its own sake &mdash; they are part of keeping the person safe and making sure nothing is missed.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What should you do after a person in your care has a head injury?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Record the injury and your observations accurately, report it promptly, and follow the care plan and procedures.", "correct": true, "feedback": "Correct. Accurate recording, prompt reporting and following the care plan keep the person safe and informed." },
+            { "text": "Say nothing and hope the person recovers without anyone needing to know.", "correct": false, "feedback": "No &mdash; a head injury must always be recorded and reported so the person can be monitored and helped." },
+            { "text": "Wait a week and then write a rough note if you still remember it.", "correct": false, "feedback": "No &mdash; record the details promptly while they are fresh, and report the injury without delay." },
+            { "text": "Only tell a colleague verbally and keep no written record at all.", "correct": false, "feedback": "No &mdash; a verbal word is not enough; you must make an accurate written record and follow your reporting procedures." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Summary",
+      "section": "Recovery and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have learned that concussion is a mild traumatic brain injury caused by a blow or jolt to the head or body, that you cannot see it on the outside, and that in care it most often follows a fall. You know the signs to look for &mdash; headache, dizziness, confusion, nausea, blurred vision, memory problems, drowsiness and changes in behaviour &mdash; and that these can appear hours or days later, so the person must be monitored closely.</p><ul><li><strong>Recognise:</strong> spot the signs of concussion, even when there is no visible mark.</li><li><strong>Respond:</strong> give basic first aid, keep the person still, calm and monitored.</li><li><strong>Escalate:</strong> act on the red flags and take extra care with blood thinners.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your key takeaways</h2><p>You have seen when a head injury is an emergency &mdash; loss of consciousness, repeated vomiting, a seizure, weakness or numbness, clear fluid or bleeding from the ears or nose, a worsening or severe headache, or being difficult to wake &mdash; and that people on anticoagulants need extra caution. You know how to support recovery with rest and a gradual return to normal, to protect against a second injury, and to record and report the injury accurately while following the care plan.</p><p>This training gives you <strong>awareness and knowledge</strong> to help you recognise and respond to concussion and head injury. It does <strong>not</strong> replace supervised or first-aid training. Above all, remember that a serious head injury is a medical emergency that needs urgent medical help &mdash; if you ever see the red flags, call <strong>999</strong> at once.</p>"
+        }
+      ]
+    }
+  ]
+}

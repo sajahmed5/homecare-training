@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a reaction</h2><p>Despite everyone&rsquo;s best efforts, reactions can still happen, so knowing the signs is essential. Allergic reactions range from mild to severe, and they can develop quickly. The sooner you notice, the sooner you can act.</p><ul><li><strong>Mild to moderate:</strong> skin, mouth and stomach symptoms.</li><li><strong>Severe:</strong> breathing and circulation affected &mdash; a medical emergency.</li><li><strong>Watch closely:</strong> a mild reaction can become severe.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "60c9f585-8c27-4ce1-b905-52fbb5d3a41d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recognising a reaction",
+          "decorative": false,
+          "file": {
+            "path": "images/recognising-a-reaction.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d1fa87be-37af-4935-b5bd-3b484e5d6d45",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Mild and severe signs</h2><p>Milder signs of an allergic reaction include an itchy rash or raised hives, tingling or itching in the mouth, swelling of the lips, face or eyes, sneezing, a runny or itchy nose, and stomach pain, nausea or vomiting. These are distressing but not immediately life-threatening.</p><p>Severe signs are far more serious and mean the reaction is affecting breathing or circulation. They include difficulty breathing, wheezing or a persistent cough, swelling of the tongue or throat, a hoarse voice or trouble swallowing, feeling faint, dizzy or suddenly very unwell, and collapse. Importantly, a reaction that starts mild can turn severe within minutes, so never assume a mild reaction will stay mild &mdash; keep watching the person closely and be ready to act. If you are ever in doubt about how serious a reaction is, treat it as an emergency and get help rather than waiting to be sure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e2cb5ccb-e4f2-4dc2-b0c9-aabeebf076a0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a sign that an allergic reaction has become severe?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Difficulty breathing, swelling of the tongue or throat, or the person collapsing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. These signs mean breathing or circulation is affected &mdash; a medical emergency.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A single sneeze and a slightly runny nose.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These are milder signs. Keep watching closely, but on their own they are not signs of a severe reaction.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Feeling a little bored at mealtime.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is not a sign of an allergic reaction at all.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A small, temporary itch that quickly settles by itself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A brief, settling itch is a mild sign, not a severe one &mdash; though it is still worth watching.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c8fb69fb-d743-43ee-ab1a-ffb030868902",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

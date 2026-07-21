@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>After a reaction: record and report</h2><p>Once the person is safe and any emergency is over, there is still important work to do. Everything that happened should be recorded and reported, both to get the person the right follow-up care and to help prevent it happening again.</p><ul><li><strong>Record:</strong> write down what happened, when, and what you did.</li><li><strong>Report:</strong> tell a senior colleague, nurse or manager promptly.</li><li><strong>Review:</strong> help the team learn how the exposure happened.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "83928ab7-bbc0-4f90-a84d-42ae0c4ed69f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Record and report",
+          "decorative": false,
+          "file": {
+            "path": "images/record-and-report.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b1db1786-7ad9-4515-ac36-23353b20f5d7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Note what the person ate or was exposed to, the signs you saw, the time, any medication given and how they responded, following your organisation&rsquo;s procedures. Reporting also means asking how the allergen reached the person, so the care plan can be updated and the same mistake avoided. Even a mild reaction is worth recording, because it adds to what the team knows about that person.</p><p>Your everyday awareness &mdash; checking care plans and labels, avoiding cross-contamination, respecting choice, and knowing how to respond &mdash; is what keeps people with allergies safe and included. Remember that this course has covered <strong>knowledge and awareness</strong> only. It does not replace supervised, hands-on training, your organisation&rsquo;s food-safety procedures, or clinical advice from a nurse, pharmacist or dietitian. Always follow the person&rsquo;s care plan and ask a senior colleague whenever you are unsure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "806d7651-9b00-4810-81b2-7629507fcb3b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Victimisation</h2><p>The Equality Act 2010 also protects people from <strong>victimisation</strong>. Victimisation means treating someone badly because they have done a &ldquo;protected act&rdquo; &mdash; such as making a complaint of harassment, supporting someone else&rsquo;s complaint, or giving evidence &mdash; or because it is believed they might. It is there to make sure people can speak up without fear.</p><ul><li><strong>Protected act:</strong> raising or supporting a complaint of harassment or discrimination.</li><li><strong>Unlawful:</strong> punishing or excluding someone for doing so is against the law.</li><li><strong>Speak up safely:</strong> the law protects those who report in good faith.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e9f42fa4-7c25-4374-b35b-a28df9f30e32",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Victimisation",
+          "decorative": false,
+          "file": {
+            "path": "images/victimisation.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a76f4a88-ee6c-4442-90a0-25bbacdf2324",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why this matters</h2><p>Fear of being blamed, disbelieved or treated badly is one of the biggest reasons people stay silent about sexual harassment. The protection against victimisation is meant to remove that fear, so that a person who reports harassment &mdash; or who stands up for a colleague &mdash; is not punished for doing the right thing.</p><p>In a respectful workplace, no one who raises a genuine concern should be sidelined, given the worst shifts, or frozen out. If you notice someone being treated badly after they have spoken up, that too is something to report.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3b48ea4a-76ea-4c55-a226-b5c981fe2b34",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the Equality Act 2010, what is victimisation?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treating someone badly because they have made, or supported, a complaint about harassment or discrimination.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Victimisation is poor treatment because someone has done a protected act, such as making a complaint.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any disagreement between two colleagues about how to do their work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; an ordinary work disagreement is not victimisation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Giving someone honest, fair feedback in an appraisal.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; fair feedback is not victimisation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Asking a colleague to follow the organisation&rsquo;s policies.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a reasonable request to follow policy is not victimisation.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "266904b5-a391-4f6c-988f-16a95114c8f3",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

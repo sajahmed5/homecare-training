@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What sexual harassment is</h2><p>The Equality Act 2010 defines sexual harassment as <strong>unwanted conduct of a sexual nature</strong> that has the purpose or effect of violating a person&rsquo;s dignity, or of creating an intimidating, hostile, degrading, humiliating or offensive environment for them. &ldquo;Unwanted&rdquo; simply means the person did not ask for it and does not welcome it &mdash; they do not have to say so out loud for it to be unwanted. It is the nature and effect of the conduct that matter.</p><ul><li><strong>Unwanted:</strong> the conduct is not invited or welcomed by the person.</li><li><strong>Of a sexual nature:</strong> it relates to sex or sexual behaviour in some way.</li><li><strong>Harmful effect:</strong> it violates dignity or creates a hostile environment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1082719e-0c77-4b7d-a594-7688d4468604",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What it is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-it-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "73f18f8f-938b-4f5e-a7f9-88fcc58de4dc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity and environment</h2><p>Conduct &ldquo;of a sexual nature&rdquo; is broad. It can include sexual comments or jokes, questions about someone&rsquo;s sex life, staring or leering, displaying sexual images, unwanted touching, or sending sexual messages. Any of these can violate a person&rsquo;s dignity, whether or not the person doing it meant any harm.</p><p>The law also recognises that a single serious incident can amount to harassment &mdash; it does not have to be repeated. When you understand the definition, you are better able to notice when a line has been crossed, and to take the concerns of colleagues and people who use services seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "25dc886c-fee3-42e7-af40-5f62f13ba527",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>How does the Equality Act 2010 define sexual harassment?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Unwanted conduct of a sexual nature that violates a person&rsquo;s dignity, or creates an intimidating, hostile, degrading, humiliating or offensive environment.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. That is the Equality Act 2010 definition of sexual harassment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any friendly comment made between two colleagues who know each other well.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; welcome, friendly conduct is not harassment; the conduct must be unwanted and of a sexual nature.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only physical contact that leaves a visible mark or injury.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; harassment can be verbal, non-verbal or online, not only physical.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Conduct that is unlawful only if the person complains about it at the time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a person does not have to object at the time for conduct to be unwanted and unlawful.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "68b97deb-ae4d-499c-a65b-d1555aed9f7e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

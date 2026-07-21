@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The 14 named allergens</h2><p>In the UK, food law identifies <strong>14 allergens</strong> that must be declared when they are used as ingredients, because they are the ones most likely to cause serious reactions. Knowing this list helps you understand what to look for on labels and in care plans.</p><ul><li><strong>A legal list:</strong> the 14 allergens businesses must declare.</li><li><strong>Common triggers:</strong> the foods behind most serious reactions.</li><li><strong>Worth knowing:</strong> familiarity helps you check food confidently.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "57a37902-7d49-4568-b3e9-eccc2d6d4629",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The 14 allergens",
+          "decorative": false,
+          "file": {
+            "path": "images/the-14-allergens.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dbf101ac-d6bb-4198-8470-45315eec3d34",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The full list</h2><p>The 14 allergens are: <strong>celery</strong>, <strong>cereals containing gluten</strong> (such as wheat, rye, barley and oats), <strong>crustaceans</strong> (such as prawns, crab and lobster), <strong>eggs</strong>, <strong>fish</strong>, <strong>lupin</strong>, <strong>milk</strong>, <strong>molluscs</strong> (such as mussels and oysters), <strong>mustard</strong>, <strong>tree nuts</strong> (such as almonds, hazelnuts and walnuts), <strong>peanuts</strong>, <strong>sesame</strong>, <strong>soya</strong>, and <strong>sulphur dioxide and sulphites</strong> (preservatives found in some dried fruit, wine and soft drinks).</p><p>You do not need to memorise all 14, but it helps to recognise them. Some, such as peanuts, tree nuts, milk and eggs, are very common. Others, such as lupin or sulphites, are easy to overlook because people do not always expect them in food. Allergens can also hide in places you might not think of &mdash; mustard in a salad dressing, milk in a sauce, or nuts in a dessert &mdash; which is exactly why the ingredient information matters so much.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ba9d004f-7eb1-45bb-b175-fda70734b02a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of the following is one of the 14 named allergens that must be declared under UK law?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Sulphur dioxide and sulphites, preservatives found in some dried fruit, wine and soft drinks.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. Sulphur dioxide and sulphites are one of the 14, and easy to overlook.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Fresh strawberries.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Strawberries can occasionally cause reactions but are not one of the 14 named allergens.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Table salt.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Salt is not one of the 14 named allergens.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>White sugar.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Sugar is not one of the 14 named allergens.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "905d0d04-73f9-4aa9-8c3f-06c9ae27e03a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

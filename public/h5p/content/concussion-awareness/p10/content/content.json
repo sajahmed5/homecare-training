@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Extra caution with blood thinners</h2><p>People who take <strong>anticoagulant</strong> medicines &mdash; often called blood thinners &mdash; need extra caution after any head injury. These medicines slow down the way the blood clots, which is helpful for their health but means that any bleeding, including bleeding inside the skull, is harder to stop. As a result, even a <strong>minor</strong> bump to the head can lead to a serious bleed. Many older people you support may be taking these medicines.</p><ul><li><strong>Slower clotting:</strong> anticoagulants make bleeding harder to stop.</li><li><strong>Higher risk:</strong> even a small knock can cause dangerous bleeding.</li><li><strong>Lower threshold:</strong> seek medical advice promptly, even for a minor injury.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0ac7571b-93dc-49fc-a787-1c999d181b4f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Blood thinners caution",
+          "decorative": false,
+          "file": {
+            "path": "images/blood-thinners-caution.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d8619ba5-5799-4a6b-8100-7f32ac760dce",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this means for your response</h2><p>For someone on blood thinners, you should have a much lower threshold for getting medical help after a head injury. Even if the bump seemed small and the person seems well, seek <strong>prompt medical advice</strong> rather than simply waiting, because a dangerous bleed can develop with few obvious signs at first. Always tell the ambulance service or health professional that the person takes anticoagulant medication &mdash; it is vital information.</p><p>Know who among the people you support takes these medicines, and keep this in mind every time one of them has a fall or a knock to the head. Combining this awareness with careful monitoring and quick escalation gives these more vulnerable people the protection they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "be41fda5-7529-4a79-83b5-febb65c52c79",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Anticoagulant medicines make the blood slower to *clot*, so even a minor *bump* to the head can cause dangerous *bleeding* inside the skull. Always take extra *care* and seek prompt medical advice.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "77ca2dfc-e040-43aa-86b8-ece8aad79097",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

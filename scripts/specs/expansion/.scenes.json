@@ -2,269 +2,9 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/risk-assessment/p1/content/images",
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p1/content/images",
    "file": "welcome.svg",
-   "title": "Welcome to Risk Assessment",
-   "accent": "#d97706",
-   "alt": "Illustration for Welcome",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Purpose",
-    "Balance",
-    "Your part"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p2/content/images",
-   "file": "hazard-and-risk.svg",
-   "title": "Hazard and risk are not the same",
-   "accent": "#d97706",
-   "alt": "Illustration for Hazard and risk",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Hazard",
-    "Risk",
-    "Assessment"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p3/content/images",
-   "file": "the-legal-duty.svg",
-   "title": "The law behind risk assessment",
-   "accent": "#d97706",
-   "alt": "Illustration for The legal duty",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Employers",
-    "Workers",
-    "Everyone"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p4/content/images",
-   "file": "five-steps-hazards.svg",
-   "title": "The HSE five steps",
-   "accent": "#d97706",
-   "alt": "Illustration for Five steps: hazards",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Step 1",
-    "Step 2",
-    "Step 3"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p5/content/images",
-   "file": "who-might-be-harmed.svg",
-   "title": "Step 2 — who might be harmed and how",
-   "accent": "#d97706",
-   "alt": "Illustration for Who might be harmed",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "People you support",
-    "Staff",
-    "Others"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p6/content/images",
-   "file": "evaluate-and-control.svg",
-   "title": "Step 3 — evaluate the risks",
-   "accent": "#d97706",
-   "alt": "Illustration for Evaluate and control",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Likelihood",
-    "Severity",
-    "Existing controls"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p7/content/images",
-   "file": "record-and-review.svg",
-   "title": "Step 4 — record your findings",
-   "accent": "#d97706",
-   "alt": "Illustration for Record and review",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Clarity",
-    "Accessibility",
-    "Action"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p8/content/images",
-   "file": "the-hierarchy.svg",
-   "title": "The hierarchy of control",
-   "accent": "#d97706",
-   "alt": "Illustration for The hierarchy",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Eliminate",
-    "Reduce and isolate",
-    "Control and PPE"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p9/content/images",
-   "file": "safe-systems-of-work.svg",
-   "title": "Safe systems of work",
-   "accent": "#d97706",
-   "alt": "Illustration for Safe systems of work",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Procedures",
-    "Training",
-    "Equipment"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p10/content/images",
-   "file": "who-is-responsible.svg",
-   "title": "Who is responsible for what",
-   "accent": "#d97706",
-   "alt": "Illustration for Who is responsible",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Employer",
-    "Competent person",
-    "You"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p11/content/images",
-   "file": "dynamic-risk-assessment.svg",
-   "title": "Risk assessment in the moment",
-   "accent": "#d97706",
-   "alt": "Illustration for Dynamic risk assessment",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Observe",
-    "Judge",
-    "Act"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p12/content/images",
-   "file": "positive-risk-taking.svg",
-   "title": "Person-centred, positive risk-taking",
-   "accent": "#d97706",
-   "alt": "Illustration for Positive risk-taking",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Choice",
-    "Independence",
-    "Balance"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/risk-assessment/p13/content/images",
-   "file": "review-and-report.svg",
-   "title": "Reviewing, recording and reporting",
-   "accent": "#d97706",
-   "alt": "Illustration for Review and report",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Review",
-    "Record",
-    "Report"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/legionnaires-disease/p1/content/images",
-   "file": "welcome.svg",
-   "title": "Welcome to Legionella Awareness",
+   "title": "Welcome to Drugs & Alcohol Awareness",
    "accent": "#d97706",
    "alt": "Illustration for Welcome",
    "cast": [
@@ -276,17 +16,17 @@
     }
    ],
    "points": [
-    "Awareness",
-    "Good practice",
-    "Your role"
+    "Understand",
+    "Recognise",
+    "Respond"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p2/content/images",
-   "file": "legionnaires-disease.svg",
-   "title": "What is Legionnaires' disease?",
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p2/content/images",
+   "file": "misuse-and-dependence.svg",
+   "title": "Misuse, dependence and why people use",
    "accent": "#d97706",
-   "alt": "Illustration for Legionnaires' disease",
+   "alt": "Illustration for Misuse and dependence",
    "cast": [
     {
      "skin": 1,
@@ -296,17 +36,277 @@
     }
    ],
    "points": [
-    "A lung infection",
-    "Caught from water",
-    "Preventable"
+    "Misuse",
+    "Dependence",
+    "Tolerance"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p3/content/images",
-   "file": "who-is-at-risk.svg",
-   "title": "Who is most at risk?",
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p3/content/images",
+   "file": "effects-and-stigma.svg",
+   "title": "Physical, psychological and social effects",
    "accent": "#d97706",
-   "alt": "Illustration for Who is at risk",
+   "alt": "Illustration for Effects and stigma",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Physical",
+    "Psychological",
+    "Social"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p4/content/images",
+   "file": "alcohol-and-units.svg",
+   "title": "Alcohol and units",
+   "accent": "#d97706",
+   "alt": "Illustration for Alcohol and units",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "One unit",
+    "Guideline",
+    "Spread it out"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p5/content/images",
+   "file": "depressants-and-stimulants.svg",
+   "title": "Depressants, stimulants and opioids",
+   "accent": "#d97706",
+   "alt": "Illustration for Depressants and stimulants",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Depressants",
+    "Stimulants",
+    "Opioids"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p6/content/images",
+   "file": "medicines-and-misuse.svg",
+   "title": "Prescription and over-the-counter medicines",
+   "accent": "#d97706",
+   "alt": "Illustration for Medicines and misuse",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "pills"
+    }
+   ],
+   "points": [
+    "Prescription medicines",
+    "Over-the-counter medicines",
+    "Report changes"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p7/content/images",
+   "file": "mixing-substances.svg",
+   "title": "The risks of mixing substances",
+   "accent": "#d97706",
+   "alt": "Illustration for Mixing substances",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Adding up",
+    "Unpredictable",
+    "Higher risk"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p8/content/images",
+   "file": "harm-reduction.svg",
+   "title": "Person-centred and harm-reduction approaches",
+   "accent": "#d97706",
+   "alt": "Illustration for Harm reduction",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Person-centred",
+    "Harm reduction",
+    "Small steps"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p9/content/images",
+   "file": "safety-and-safeguarding.svg",
+   "title": "Medication, safety and safeguarding",
+   "accent": "#d97706",
+   "alt": "Illustration for Safety and safeguarding",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "pills"
+    }
+   ],
+   "points": [
+    "Safe storage",
+    "Self-neglect",
+    "Record and report"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p10/content/images",
+   "file": "families-and-children.svg",
+   "title": "The effect on families and children",
+   "accent": "#d97706",
+   "alt": "Illustration for Families and children",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Families",
+    "Children",
+    "Carers"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p11/content/images",
+   "file": "overdose-and-emergencies.svg",
+   "title": "Recognising overdose and alcohol poisoning",
+   "accent": "#d97706",
+   "alt": "Illustration for Overdose and emergencies",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "pills"
+    }
+   ],
+   "points": [
+    "Opioid overdose",
+    "Alcohol poisoning",
+    "Unresponsive"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p12/content/images",
+   "file": "naloxone-and-withdrawal.svg",
+   "title": "Naloxone and withdrawal",
+   "accent": "#d97706",
+   "alt": "Illustration for Naloxone and withdrawal",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Naloxone",
+    "Still call 999",
+    "Awareness only"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/drugs-and-alcohol-awareness/p13/content/images",
+   "file": "your-workplace-policy.svg",
+   "title": "Your drug and alcohol policy",
+   "accent": "#d97706",
+   "alt": "Illustration for Your workplace policy",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Supporting people",
+    "Fit for work",
+    "Escalation"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/concussion-awareness/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Concussion Awareness",
+   "accent": "#d97706",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Recognise",
+    "Respond",
+    "Escalate"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/concussion-awareness/p2/content/images",
+   "file": "what-is-concussion.svg",
+   "title": "What concussion is",
+   "accent": "#d97706",
+   "alt": "Illustration for What is concussion?",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "A brain injury",
+    "The cause",
+    "The effect"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/concussion-awareness/p3/content/images",
+   "file": "causes-in-care.svg",
+   "title": "Common causes in care",
+   "accent": "#d97706",
+   "alt": "Illustration for Causes in care",
    "cast": [
     {
      "skin": 2,
@@ -316,17 +316,17 @@
     }
    ],
    "points": [
+    "Falls",
     "Older people",
-    "Weakened immunity",
-    "Lung and chest conditions"
+    "Higher risk"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p4/content/images",
-   "file": "how-legionella-grows.svg",
-   "title": "Where legionella grows",
+   "outDir": "public/h5p/content/concussion-awareness/p4/content/images",
+   "file": "immediate-signs.svg",
+   "title": "Immediate signs and symptoms",
    "accent": "#d97706",
-   "alt": "Illustration for How legionella grows",
+   "alt": "Illustration for Immediate signs",
    "cast": [
     {
      "skin": 3,
@@ -336,37 +336,37 @@
     }
    ],
    "points": [
-    "Warmth",
-    "Stagnation",
-    "Nutrients"
+    "Head symptoms",
+    "Thinking",
+    "Physical"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p5/content/images",
-   "file": "breathable-droplets.svg",
-   "title": "How the risk reaches people",
+   "outDir": "public/h5p/content/concussion-awareness/p5/content/images",
+   "file": "delayed-signs.svg",
+   "title": "Symptoms can appear later",
    "accent": "#d97706",
-   "alt": "Illustration for Breathable droplets",
+   "alt": "Illustration for Delayed signs",
    "cast": [
     {
      "skin": 4,
      "hair": "bun",
      "tunic": "#d97706",
-     "prop": "alert"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Showers",
-    "Taps",
-    "Other sprays"
+    "Delayed onset",
+    "Seeming fine",
+    "Keep watching"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p6/content/images",
-   "file": "stagnant-water.svg",
-   "title": "Stagnation and stored water",
+   "outDir": "public/h5p/content/concussion-awareness/p6/content/images",
+   "file": "monitoring-symptoms.svg",
+   "title": "Monitoring after a head injury",
    "accent": "#d97706",
-   "alt": "Illustration for Stagnant water",
+   "alt": "Illustration for Monitoring symptoms",
    "cast": [
     {
      "skin": 5,
@@ -376,57 +376,57 @@
     }
    ],
    "points": [
-    "Little-used outlets",
-    "Dead legs",
-    "Stored water"
+    "Stay observant",
+    "Look for change",
+    "Act on decline"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p7/content/images",
-   "file": "temperature-control.svg",
-   "title": "Hot water hot, cold water cold",
+   "outDir": "public/h5p/content/concussion-awareness/p7/content/images",
+   "file": "when-it-s-an-emergency.svg",
+   "title": "When a head injury is an emergency",
    "accent": "#d97706",
-   "alt": "Illustration for Temperature control",
+   "alt": "Illustration for When it's an emergency",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
      "tunic": "#d97706",
-     "prop": "clipboard"
+     "prop": "alert"
     }
    ],
    "points": [
-    "Hot water kept hot",
-    "Cold water kept cold",
-    "Never left lukewarm"
+    "Serious risk",
+    "Red flags",
+    "One is enough"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p8/content/images",
-   "file": "flushing-outlets.svg",
-   "title": "Keeping water moving",
+   "outDir": "public/h5p/content/concussion-awareness/p8/content/images",
+   "file": "the-red-flags.svg",
+   "title": "The emergency red flags",
    "accent": "#d97706",
-   "alt": "Illustration for Flushing outlets",
+   "alt": "Illustration for The red flags",
    "cast": [
     {
      "skin": 1,
      "hair": "short",
      "tunic": "#d97706",
-     "prop": "clipboard"
+     "prop": "alert"
     }
    ],
    "points": [
-    "Flushing",
-    "Regular use",
-    "Recording"
+    "Consciousness",
+    "Neurological",
+    "Danger signs"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p9/content/images",
-   "file": "cleaning-showerheads.svg",
-   "title": "Clean showerheads and taps",
+   "outDir": "public/h5p/content/concussion-awareness/p9/content/images",
+   "file": "basic-first-aid.svg",
+   "title": "Basic first aid",
    "accent": "#d97706",
-   "alt": "Illustration for Cleaning showerheads",
+   "alt": "Illustration for Basic first aid",
    "cast": [
     {
      "skin": 2,
@@ -436,37 +436,37 @@
     }
    ],
    "points": [
-    "Descaling",
-    "Cleaning",
-    "Routine"
+    "Keep still",
+    "Stay calm",
+    "Monitor"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p10/content/images",
-   "file": "the-water-safety-plan.svg",
-   "title": "The water safety plan",
+   "outDir": "public/h5p/content/concussion-awareness/p10/content/images",
+   "file": "blood-thinners-caution.svg",
+   "title": "Extra caution with blood thinners",
    "accent": "#d97706",
-   "alt": "Illustration for The water safety plan",
+   "alt": "Illustration for Blood thinners caution",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
      "tunic": "#d97706",
-     "prop": "heart"
+     "prop": "alert"
     }
    ],
    "points": [
-    "Duty holder",
-    "Responsible person",
-    "Your part"
+    "Slower clotting",
+    "Higher risk",
+    "Lower threshold"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p11/content/images",
-   "file": "symptoms-to-know.svg",
-   "title": "Recognising the symptoms",
+   "outDir": "public/h5p/content/concussion-awareness/p11/content/images",
+   "file": "rest-and-recovery.svg",
+   "title": "Rest and gradual recovery",
    "accent": "#d97706",
-   "alt": "Illustration for Symptoms to know",
+   "alt": "Illustration for Rest and recovery",
    "cast": [
     {
      "skin": 4,
@@ -476,17 +476,17 @@
     }
    ],
    "points": [
-    "Flu-like start",
-    "Chest signs",
-    "Other signs"
+    "Rest first",
+    "Go gradually",
+    "Be patient"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p12/content/images",
-   "file": "reporting-problems.svg",
-   "title": "Spotting and reporting problems",
+   "outDir": "public/h5p/content/concussion-awareness/p12/content/images",
+   "file": "recording-and-reporting.svg",
+   "title": "Recording and reporting",
    "accent": "#d97706",
-   "alt": "Illustration for Reporting problems",
+   "alt": "Illustration for Recording and reporting",
    "cast": [
     {
      "skin": 5,
@@ -496,29 +496,29 @@
     }
    ],
    "points": [
-    "Lukewarm water",
-    "Unusual signs",
-    "Unused areas"
+    "Record the facts",
+    "Note observations",
+    "Report promptly"
    ]
   },
   {
-   "outDir": "public/h5p/content/legionnaires-disease/p13/content/images",
-   "file": "your-role.svg",
+   "outDir": "public/h5p/content/concussion-awareness/p13/content/images",
+   "file": "summary.svg",
    "title": "Bringing it together",
    "accent": "#d97706",
-   "alt": "Illustration for Your role",
+   "alt": "Illustration for Summary",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
      "tunic": "#d97706",
-     "prop": "clipboard"
+     "prop": "alert"
     }
    ],
    "points": [
-    "Follow the plan",
-    "Record your tasks",
-    "Report concerns"
+    "Recognise",
+    "Respond",
+    "Escalate"
    ]
   }
  ]

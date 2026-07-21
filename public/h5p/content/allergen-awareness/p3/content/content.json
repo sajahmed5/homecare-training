@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why this matters in care</h2><p>The people you support may not be able to check their own food, read a label, or tell you clearly what they can and cannot eat. Some rely on you completely for safe meals and snacks. That makes your awareness one of the most important protections they have.</p><ul><li><strong>Dependence:</strong> some people cannot check food for themselves.</li><li><strong>Communication:</strong> not everyone can easily say what they react to.</li><li><strong>Responsibility:</strong> your care helps keep every meal safe.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bfeaa31b-22eb-4c1c-8e21-b8a490cca200",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why it matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-it-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b9d40ea3-0955-41b9-a805-cd525272dce2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role</h2><p>You are not expected to diagnose allergies or give medical advice &mdash; that is for health professionals. Your role is to know who you support has an allergy, to follow their care plan, to check food carefully, and to raise concerns straight away. You are often the person best placed to notice if something is not right.</p><p>Getting this right is also about dignity and choice, not just safety. People with allergies should still enjoy varied, appealing food and be involved in decisions about what they eat. Good allergen awareness lets you keep someone safe while still respecting what they like and how they wish to live.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "98b861cb-7104-4b07-8797-b9198ca9f349",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A food *allergy* involves the *immune* system and can be life-*threatening*, so even a small *trace* of the food may trigger a reaction.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "50a354da-7485-4d0e-878b-0f2606fa84ef",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

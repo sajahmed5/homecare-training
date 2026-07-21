@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting someone who tells you</h2><p>If a colleague or a person you support tells you they have experienced sexual harassment, how you respond in that moment matters a great deal. Listen calmly, without judgement, and let them tell you what happened in their own words. Thank them for trusting you, and reassure them that they have done the right thing in speaking up.</p><ul><li><strong>Listen:</strong> give them time and space, without interrupting or judging.</li><li><strong>Believe:</strong> take what they say seriously and do not dismiss it.</li><li><strong>Reassure:</strong> tell them that speaking up was the right thing to do.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "432bfdd2-c060-4a60-aa28-4bec5b5b1e1d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Supporting someone",
+          "decorative": false,
+          "file": {
+            "path": "images/supporting-someone.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3c51d805-7629-4654-921b-6e340cc037bf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Believe them and respect their wishes</h2><p>It is not your job to investigate or to decide whether harassment has &ldquo;really&rdquo; happened. Believe the person, take their concern seriously, and avoid asking searching or blaming questions such as why they did not stop it. Be honest that you may need to pass the information on, and explain who to, so that you do not promise a secrecy you cannot keep.</p><p>As far as you can, respect the person&rsquo;s wishes about what happens next, and keep them informed. Where the person affected is someone who uses services and may be an adult at risk, remember that this may also be a safeguarding matter, and you must follow your safeguarding procedures even so.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44ee22f7-2a19-4628-a473-11397837ce67",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A colleague confides that they have been sexually harassed at work. What is the best way to respond?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Listen without judgement, believe them, reassure them, and be honest that you may need to pass the concern on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Listening, believing and being honest about reporting is the supportive way to respond.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them to forget about it, as it was probably just a misunderstanding.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; dismissing the concern can leave the person unsupported and silences them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Promise to keep it completely secret and never tell anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you should not promise a secrecy you cannot keep; concerns may need to be reported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask them why they did not do more to stop it at the time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; blaming questions are unhelpful and unfair to the person affected.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e721d60e-581b-4cae-b484-af4ce649732b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

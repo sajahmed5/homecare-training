@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Anaphylaxis: a medical emergency</h2><p>A severe, life-threatening allergic reaction is called <strong>anaphylaxis</strong>. It comes on rapidly and affects the whole body, particularly breathing and circulation. Anaphylaxis is always a medical emergency and needs an immediate response.</p><ul><li><strong>Rapid:</strong> it can develop within minutes of contact with the allergen.</li><li><strong>Serious:</strong> it affects breathing and blood pressure.</li><li><strong>Act fast:</strong> quick action saves lives.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "56b1ab3d-9b48-4bc9-b2b2-691bc768f118",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Anaphylaxis",
+          "decorative": false,
+          "file": {
+            "path": "images/anaphylaxis.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4ccb0aaf-e5ce-46bf-9daa-6c0e9148d903",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to respond</h2><p>If someone shows signs of anaphylaxis, act at once. If the person has been prescribed an <strong>adrenaline auto-injector</strong> (such as an EpiPen) and their care plan says to use it, it should be given without delay, following your training and their plan. <strong>Call 999</strong> straight away, say that you think it is anaphylaxis, and follow the call handler&rsquo;s instructions.</p><p>Help the person into a comfortable position &mdash; usually lying down with their legs raised, or sitting up if they are struggling to breathe &mdash; and do not stand them up suddenly. <strong>Stay with them</strong> the whole time, keep them calm, and be ready for the reaction to worsen. A second dose of adrenaline may be given after five minutes if there is no improvement and another injector is available. Note the time and what the person was exposed to, so you can tell the paramedics.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "afeb211f-3c1d-484d-90bb-f9b977773008",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Someone shows signs of anaphylaxis shortly after eating. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Give their adrenaline auto-injector if it is prescribed and their plan says to, call 999 immediately, and stay with them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Adrenaline if prescribed, call 999, and stay with the person &mdash; this is a medical emergency.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether it settles before troubling anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting is dangerous. Anaphylaxis needs an immediate response and a 999 call.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them a glass of water and leave them to rest alone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never leave someone having a severe reaction. Call 999 and stay with them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Drive them yourself to the shops for antihistamines.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Antihistamines do not treat anaphylaxis. Use adrenaline if prescribed and call 999.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a052a4b4-bcf5-4d6e-a19e-d482659ccffa",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

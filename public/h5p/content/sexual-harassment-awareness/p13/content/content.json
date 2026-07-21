@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have learned what sexual harassment is, the many forms it can take, the law that protects people, the employer&rsquo;s duty to prevent it, and how to respond and report. The heart of it is simple: everyone has the right to be treated with dignity and respect, and sexual harassment &mdash; unwanted conduct of a sexual nature &mdash; has no place at work or in care.</p><ul><li><strong>Recognise:</strong> unwanted conduct of a sexual nature, judged by its effect.</li><li><strong>Respond:</strong> listen, believe, support, and report through the right routes.</li><li><strong>Respect:</strong> play your part in a culture that protects everyone.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4b01d155-0bbb-4a57-8ab4-93cbac0b785d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Summary",
+          "decorative": false,
+          "file": {
+            "path": "images/summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "099153cd-a957-4392-b617-c93bd327a05f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A final reminder</h2><p>Take concerns seriously, whether they come from a colleague or from someone who uses services, and never assume something is &ldquo;too minor&rdquo; to matter. If you are affected, or you become aware of sexual harassment, report it and seek support &mdash; you do not have to face it alone.</p><p>This course has given you <strong>awareness and knowledge</strong> only. It does <strong>not</strong> replace your organisation&rsquo;s policies and procedures or the supervised training your employer provides, and you must always follow these. Where someone who uses services is affected, remember that this may also be a <strong>safeguarding</strong> matter, and you should follow your safeguarding procedures.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e05ef0eb-beea-4230-81a5-a66d69504815",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

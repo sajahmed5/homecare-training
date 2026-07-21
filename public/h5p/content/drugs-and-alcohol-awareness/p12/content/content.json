@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Naloxone and withdrawal</h2><p>Naloxone is a medicine that can temporarily reverse the effects of an opioid overdose by helping the person breathe again. It is safe to use in an emergency, gives no reward if opioids are not present, and is increasingly available to carers and family members through local services. Even after giving naloxone, you must still call 999, because its effect can wear off before the opioids do.</p><ul><li><strong>Naloxone:</strong> temporarily reverses an opioid overdose.</li><li><strong>Still call 999:</strong> naloxone buys time but is not a substitute for emergency care.</li><li><strong>Awareness only:</strong> use it only if trained and if your policy allows.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "10a25e77-6fb6-4a4a-8ea4-4a1b85fdb7f6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Naloxone and withdrawal",
+          "decorative": false,
+          "file": {
+            "path": "images/naloxone-and-withdrawal.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c6cc7419-84d9-4408-bd90-54df0a79bf29",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Withdrawal happens when a dependent person suddenly stops or cuts down a substance. Symptoms depend on the substance but can include sweating, shaking, sickness, agitation, anxiety and cravings. Withdrawal from alcohol or some medicines can be severe and even life-threatening, which is why stopping should be managed by specialist services rather than attempted alone.</p><p>If someone you support is showing withdrawal symptoms, or wants to stop using, do not encourage them to stop abruptly. Reassure them, keep them safe, and help them get medical support from their GP or a specialist service. Report what you have noticed so the right help can be arranged.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b7e5f5aa-9374-4cc2-b371-972b7dd612e4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>After giving naloxone to someone who has overdosed on opioids, there is no longer any need to call 999.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Naloxone only works for a short time, so you must always still call 999 and get emergency help.",
+            "correctAnswerMessage": "Correct. You must still call 999, because naloxone is temporary and its effect can wear off before the opioids do."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "221c71c8-56ac-4c36-babd-a19e2cbca818",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

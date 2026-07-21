@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The employer&rsquo;s duty to prevent sexual harassment</h2><p>The Worker Protection (Amendment of Equality Act 2010) Act 2023 introduced a new <strong>preventative duty</strong> on employers. Employers must take reasonable steps to prevent sexual harassment of their workers in the course of their employment. This is a proactive duty &mdash; it is about stopping harassment before it happens, not only responding after the event.</p><ul><li><strong>Preventative:</strong> employers must act to prevent harassment, not just react to it.</li><li><strong>Reasonable steps:</strong> such as clear policies, training, and safe reporting routes.</li><li><strong>Includes third parties:</strong> the duty extends to harassment by clients and visitors.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "226fca10-3d68-4c42-be4e-8a683eb1dec8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The employer&rsquo;s duty",
+          "decorative": false,
+          "file": {
+            "path": "images/the-employer-rsquo-s-duty.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6acf0b65-b6d8-4b72-8e79-ac46a3716942",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this means in practice</h2><p>Reasonable steps can include having a clear anti-harassment policy, providing training, encouraging people to report concerns, taking complaints seriously, and assessing and reducing the risks of harassment &mdash; including harassment by third parties such as the people you support or their visitors. Where an employer has not taken reasonable steps, an employment tribunal can increase the compensation awarded in a sexual harassment claim.</p><p>For you, this means your employer should have policies, training and reporting routes in place, and should act on concerns. You are entitled to expect this, and you play your part by using those routes and by treating others with respect.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "83d4d50d-686c-4b94-9447-e6a3e8f060c5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The Worker Protection (Amendment of Equality Act 2010) Act 2023 places a duty on employers to take reasonable steps to prevent sexual harassment of their workers.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. The 2023 Act does introduce a duty on employers to take reasonable steps to prevent sexual harassment.",
+            "correctAnswerMessage": "Correct. The 2023 Act introduced a preventative duty requiring employers to take reasonable steps to prevent sexual harassment."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "710fa68a-2f02-4cde-9ca0-4775471e48d9",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Misuse, dependence and why people use</h2><p>Substance misuse means using drugs or alcohol in a way that causes harm to a person's health, relationships, work or safety. Dependence is different: the body and mind come to rely on the substance, so a person feels they need it to feel normal and may find it very hard to stop. Dependence is recognised as a health condition, not a lifestyle choice or a lack of willpower.</p><ul><li><strong>Misuse:</strong> use that causes harm to the person or others.</li><li><strong>Dependence:</strong> a physical or psychological need for the substance.</li><li><strong>Tolerance:</strong> needing more over time to feel the same effect.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f3323035-4a1f-402f-a4dc-9bfe1c900fb4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Misuse and dependence",
+          "decorative": false,
+          "file": {
+            "path": "images/misuse-and-dependence.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "716b2f6c-c77a-411b-92ef-70862dcc5564",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>People use substances for many reasons, and understanding them helps you respond without judgement. Someone may drink or use drugs to cope with pain, trauma, grief, loneliness, stress or a mental health problem. Others may have started socially, or been prescribed a medicine and become dependent. Substance use often sits alongside other difficulties such as poor housing, money worries or isolation.</p><p>Recognising these reasons does not mean excusing harmful behaviour. It means seeing the whole person, so the support you offer fits their life rather than blaming them for their situation. When you understand what drives someone's use, you are far better placed to build trust, spot when things are getting worse, and encourage safer choices at a pace the person can manage.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d341a9cb-402c-407c-98d6-4730ced217e5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What best describes dependence on a substance?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The body and mind come to rely on the substance, so the person feels they need it and finds it very hard to stop.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Dependence is a recognised health condition, not a simple choice or a lack of willpower.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Choosing to use a substance now and then at social occasions.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Occasional social use is not the same as dependence, where the body and mind rely on the substance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A short-lived habit that always stops on its own within a few days.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dependence tends to be lasting and hard to overcome without support, not something that simply passes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A sign that a person is weak and does not care about their health.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Dependence is a health condition, not a weakness. A judgemental view like this gets in the way of good support.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ab381ce3-252b-4872-bb27-b08daffdc773",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

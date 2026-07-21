@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A shared responsibility</h2><p>While the legal duty to prevent sexual harassment sits with the employer, creating a respectful culture is something everyone shares. Managers set the tone and act on concerns, but every worker helps shape whether a workplace feels safe and dignified. Small everyday choices &mdash; challenging &ldquo;banter&rdquo; that has gone too far, supporting a colleague, reporting what you see &mdash; all add up.</p><ul><li><strong>Everyone:</strong> a respectful culture is built by all, not just managers.</li><li><strong>Speak up:</strong> do not stay silent when you see harassment.</li><li><strong>Lead by example:</strong> model respectful, professional behaviour.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5451dc2b-ecef-4090-9b42-99718197f52c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Shared responsibility",
+          "decorative": false,
+          "file": {
+            "path": "images/shared-responsibility.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f5f973a6-a2b1-4553-ae84-061be369f29d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in the culture</h2><p>You can help prevent sexual harassment by being clear about your own conduct, by not joining in with or laughing off inappropriate comments, and by supporting anyone who seems uncomfortable. If it is safe to do so, letting someone know their behaviour is unwelcome can stop it early &mdash; though you should never feel you must confront anyone, and reporting is always an option.</p><p>A culture where people feel able to speak up, and trust that concerns will be taken seriously, protects colleagues and the people who use services alike. Everyone benefits when dignity and respect are the shared standard.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0f12964d-00ad-443c-afab-65ae51db7b5a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Preventing sexual harassment is a *shared* responsibility: employers must take *reasonable* steps, and every worker helps build a culture of *respect* and *dignity*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "7cba2d5e-f96b-4944-b5f5-6b0052167a94",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

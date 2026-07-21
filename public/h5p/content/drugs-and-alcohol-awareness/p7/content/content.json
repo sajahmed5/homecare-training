@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The risks of mixing substances</h2><p>Using more than one substance at a time, or mixing a substance with medicines, is especially dangerous. The effects can add together or interact in ways that are hard to predict, raising the risk of serious harm even when each substance on its own might seem manageable to the person.</p><ul><li><strong>Adding up:</strong> two depressants together can dangerously slow breathing.</li><li><strong>Unpredictable:</strong> reactions can be stronger or different from usual.</li><li><strong>Higher risk:</strong> mixing raises the chance of overdose and emergencies.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "664e1bd2-ef80-48f9-9a38-6376223ec0fb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Mixing substances",
+          "decorative": false,
+          "file": {
+            "path": "images/mixing-substances.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "20ec6178-9da5-4788-9132-5ae93adad8c7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Mixing depressants is a particular danger. Alcohol, opioids and some sleeping or anxiety medicines all slow breathing, so taking them together can stop a person breathing altogether. Combining a stimulant with a depressant is also risky, because the person may not feel how much they have taken and can push their body dangerously hard.</p><p>You are not expected to work out what someone has taken. What matters is that you know mixing raises the risk, that you record and report concerns, and that you treat any sign of a person being very drowsy, confused or hard to wake as a possible emergency.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "97ba8f7f-12ce-4dcc-b585-f1a138ad1b71",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Mixing two *depressants*, such as alcohol and opioids, can dangerously slow a person's *breathing*. Mixing substances makes the effects harder to *predict* and raises the risk of *overdose*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "31dedaf0-27ce-472b-9353-07968e2deefa",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

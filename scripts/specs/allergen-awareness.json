@@ -1,0 +1,278 @@
+{
+  "slug": "allergen-awareness",
+  "courseTitle": "Allergen Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Allergens and intolerances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Allergen Awareness</h2><p>Welcome to <strong>Allergen Awareness</strong>. For some of the people you support, an ordinary meal or snack can carry a real risk. A food allergy can cause anything from an itchy rash to a sudden, life-threatening reaction, so the care and attention you give around food genuinely helps to keep people safe.</p><ul><li><strong>Allergens:</strong> foods that can trigger a harmful reaction in some people.</li><li><strong>Awareness:</strong> knowing who is affected and what they must avoid.</li><li><strong>Safety:</strong> good practice that prevents reactions and responds quickly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How to use this course</h2><p>Over the next pages you will learn what food allergens and intolerances are, the 14 named allergens and the law around labelling, how to support people safely day to day, and how to recognise and respond to an allergic reaction. Throughout, the focus is on awareness and good practice in a care setting.</p><p>This e-learning covers <strong>knowledge and awareness</strong> only. It does not replace supervised, hands-on training, your own organisation&rsquo;s food-safety procedures, or the advice of a nurse, pharmacist, dietitian or other health professional. Always follow the person&rsquo;s care plan and check with a senior colleague if you are ever unsure.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Allergy or intolerance",
+      "section": "Allergens and intolerances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Allergy or intolerance?</h2><p>People often use the words &ldquo;allergy&rdquo; and &ldquo;intolerance&rdquo; to mean the same thing, but they are different, and the difference matters a great deal in care. The key point is that a true food allergy involves the immune system and can be life-threatening, while an intolerance does not.</p><ul><li><strong>Allergy:</strong> the immune system reacts, sometimes severely.</li><li><strong>Intolerance:</strong> the body struggles to digest a food, causing discomfort.</li><li><strong>Both matter:</strong> each affects what a person can safely eat.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why the difference matters</h2><p>In a food allergy, the immune system wrongly treats a harmless food protein as a threat. Even a tiny trace can trigger a reaction, and it usually happens quickly &mdash; within minutes to a couple of hours. At its most serious, an allergic reaction can affect breathing and circulation and become a medical emergency.</p><p>A food intolerance is different. It does not involve the immune system and is not usually life-threatening. It often depends on how much of the food is eaten, and tends to cause slower, digestive symptoms such as bloating, stomach pain or diarrhoea. Lactose intolerance is a common example. Both belong in a person&rsquo;s care plan, but an allergy carries the risk of a sudden, severe reaction, so it must always be taken extremely seriously.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the key difference between a food allergy and a food intolerance?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "An allergy involves the immune system and can be life-threatening, while an intolerance does not involve the immune system and is not usually life-threatening.", "correct": true, "feedback": "Yes. An allergy is an immune response that can be severe; an intolerance is usually a slower, digestive problem." },
+            { "text": "An intolerance is always more dangerous than an allergy.", "correct": false, "feedback": "Not so. It is the allergy that carries the risk of a sudden, life-threatening reaction." },
+            { "text": "There is no real difference; the words mean exactly the same thing.", "correct": false, "feedback": "They are genuinely different, and the difference matters for how seriously you treat each one." },
+            { "text": "An allergy only ever causes mild stomach upset.", "correct": false, "feedback": "An allergy can affect breathing and circulation and become a medical emergency." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Why it matters",
+      "section": "Allergens and intolerances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why this matters in care</h2><p>The people you support may not be able to check their own food, read a label, or tell you clearly what they can and cannot eat. Some rely on you completely for safe meals and snacks. That makes your awareness one of the most important protections they have.</p><ul><li><strong>Dependence:</strong> some people cannot check food for themselves.</li><li><strong>Communication:</strong> not everyone can easily say what they react to.</li><li><strong>Responsibility:</strong> your care helps keep every meal safe.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role</h2><p>You are not expected to diagnose allergies or give medical advice &mdash; that is for health professionals. Your role is to know who you support has an allergy, to follow their care plan, to check food carefully, and to raise concerns straight away. You are often the person best placed to notice if something is not right.</p><p>Getting this right is also about dignity and choice, not just safety. People with allergies should still enjoy varied, appealing food and be involved in decisions about what they eat. Good allergen awareness lets you keep someone safe while still respecting what they like and how they wish to live.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A food *allergy* involves the *immune* system and can be life-*threatening*, so even a small *trace* of the food may trigger a reaction."
+        }
+      ]
+    },
+    {
+      "label": "The 14 allergens",
+      "section": "The 14 allergens and the law",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The 14 named allergens</h2><p>In the UK, food law identifies <strong>14 allergens</strong> that must be declared when they are used as ingredients, because they are the ones most likely to cause serious reactions. Knowing this list helps you understand what to look for on labels and in care plans.</p><ul><li><strong>A legal list:</strong> the 14 allergens businesses must declare.</li><li><strong>Common triggers:</strong> the foods behind most serious reactions.</li><li><strong>Worth knowing:</strong> familiarity helps you check food confidently.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The full list</h2><p>The 14 allergens are: <strong>celery</strong>, <strong>cereals containing gluten</strong> (such as wheat, rye, barley and oats), <strong>crustaceans</strong> (such as prawns, crab and lobster), <strong>eggs</strong>, <strong>fish</strong>, <strong>lupin</strong>, <strong>milk</strong>, <strong>molluscs</strong> (such as mussels and oysters), <strong>mustard</strong>, <strong>tree nuts</strong> (such as almonds, hazelnuts and walnuts), <strong>peanuts</strong>, <strong>sesame</strong>, <strong>soya</strong>, and <strong>sulphur dioxide and sulphites</strong> (preservatives found in some dried fruit, wine and soft drinks).</p><p>You do not need to memorise all 14, but it helps to recognise them. Some, such as peanuts, tree nuts, milk and eggs, are very common. Others, such as lupin or sulphites, are easy to overlook because people do not always expect them in food. Allergens can also hide in places you might not think of &mdash; mustard in a salad dressing, milk in a sauce, or nuts in a dessert &mdash; which is exactly why the ingredient information matters so much.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of the following is one of the 14 named allergens that must be declared under UK law?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Sulphur dioxide and sulphites, preservatives found in some dried fruit, wine and soft drinks.", "correct": true, "feedback": "Yes. Sulphur dioxide and sulphites are one of the 14, and easy to overlook." },
+            { "text": "Fresh strawberries.", "correct": false, "feedback": "Strawberries can occasionally cause reactions but are not one of the 14 named allergens." },
+            { "text": "Table salt.", "correct": false, "feedback": "Salt is not one of the 14 named allergens." },
+            { "text": "White sugar.", "correct": false, "feedback": "Sugar is not one of the 14 named allergens." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Food labelling",
+      "section": "The 14 allergens and the law",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Reading allergen information</h2><p>Food businesses must tell people when any of the 14 allergens are used. How they do this depends on the food, but the information should always be available. Learning where to look means you can check quickly and reliably.</p><ul><li><strong>Prepacked food:</strong> allergens listed and emphasised in the ingredients.</li><li><strong>Loose food:</strong> allergen information provided, for example on a menu or by staff.</li><li><strong>Always available:</strong> if it is not clear, you can ask.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Emphasised in the ingredients</h2><p>On <strong>prepacked</strong> foods &mdash; items packaged before you buy them, like a boxed ready meal or a packet of biscuits &mdash; the law requires a full list of ingredients, with any of the 14 allergens <strong>emphasised</strong> so they stand out. This is usually done in bold type, though some use capitals, colour or underlining. So on a label you might see the word &ldquo;wheat&rdquo; or &ldquo;milk&rdquo; written in bold within the ingredients.</p><p>For food sold loose or not prepacked &mdash; such as a meal served in a dining room, or items from a bakery counter &mdash; the business must still provide allergen information, but it may be on a menu, a sign, or given by staff when asked. If you cannot find clear allergen information for a food, do not guess: ask, or choose something you know is safe.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "On a prepacked food label, how must the 14 allergens be shown?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "They must be listed in the ingredients and emphasised, for example in bold type, so they stand out.", "correct": true, "feedback": "Correct. Emphasising allergens in the ingredients helps people spot them at a glance." },
+            { "text": "They can be left off the label completely.", "correct": false, "feedback": "The law requires the 14 allergens to be declared, not left off." },
+            { "text": "They only need to be mentioned if a customer asks in writing.", "correct": false, "feedback": "Prepacked labels must show the allergens in the ingredients, not only on request." },
+            { "text": "They must be printed in a separate leaflet inside the packet.", "correct": false, "feedback": "Allergens are emphasised within the ingredients list itself, not hidden in a leaflet." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Natasha's Law",
+      "section": "The 14 allergens and the law",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Natasha&rsquo;s Law and PPDS foods</h2><p>In 2016, a young woman named Natasha Ednan-Laperouse died after an allergic reaction to sesame in a baguette. The sesame was baked into the bread but was not listed on the packaging, because the law at the time did not require it. Her family campaigned for change, and the result is often called <strong>Natasha&rsquo;s Law</strong>.</p><ul><li><strong>The gap:</strong> some freshly made, packaged food carried no ingredient list.</li><li><strong>The change:</strong> new rules to close that gap.</li><li><strong>The aim:</strong> clearer information so people can make safe choices.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What the law requires</h2><p>Since October 2021, Natasha&rsquo;s Law applies to food that is <strong>prepacked for direct sale</strong>, often shortened to <strong>PPDS</strong>. This means food packaged on the same premises before a person orders it &mdash; for example a sandwich made in the morning and wrapped ready on a shelf, or a salad boxed up in advance in a care home kitchen or caf&eacute;.</p><p>PPDS foods must now carry a full <strong>ingredients list</strong>, with the allergens <strong>emphasised</strong>, just like other prepacked foods. This helps people with allergies see exactly what is in freshly made food. In a care setting, if your kitchen prepares and packages food ahead of time, it should be labelled this way &mdash; and if you are ever unsure whether a packaged item has been checked, ask the kitchen or a senior colleague before serving it. The law exists to make sure that no one has to guess what is in the food they are given.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Communicating clearly",
+      "section": "The 14 allergens and the law",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Communicating allergen information</h2><p>Knowing the rules only helps if the information is passed on accurately. In care, allergen information travels between the kitchen, the care team, the person and sometimes their family. A small mistake or assumption anywhere along that chain can put someone at risk.</p><ul><li><strong>Be accurate:</strong> pass on exactly what you know, not a guess.</li><li><strong>Be clear:</strong> check that the person has understood.</li><li><strong>Be honest:</strong> if you are unsure, say so and find out.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Getting it right</h2><p>If someone asks whether a food is safe for them, never reassure them unless you are certain. It is always better to say &ldquo;let me check&rdquo; than to guess and be wrong. Check the label or care plan, ask the kitchen, or speak to the person who prepared the food. When you record or hand over allergen information, be precise about exactly which foods a person must avoid.</p><p>Remember that allergen information can change &mdash; recipes are altered, suppliers change, and a &ldquo;usual&rdquo; product may not be the one served today. Treat each food on its own merits rather than assuming it is the same as last time. When you hand over to the next shift, make sure allergy information is passed on clearly and not left to chance. Clear, careful communication is one of the simplest and most powerful ways you protect the people you support.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "If someone asks whether a food is safe for their allergy and you are not sure, it is fine to reassure them that it is probably okay.",
+          "correct": false,
+          "correctMsg": "Correct. Never guess &mdash; check the label, care plan or kitchen first, and only reassure someone once you are certain.",
+          "wrongMsg": "Not quite. Guessing can be dangerous. Always check and be certain before telling someone a food is safe."
+        }
+      ]
+    },
+    {
+      "label": "Care plans first",
+      "section": "Safe practice in care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Start with the care plan</h2><p>Safe practice begins before any food is served. Every person you support should have their allergies and intolerances clearly recorded in their <strong>care plan</strong>, and it is your responsibility to know what they are and to follow them.</p><ul><li><strong>Know:</strong> be aware of each person&rsquo;s recorded allergies.</li><li><strong>Follow:</strong> stick to what the care plan sets out.</li><li><strong>Update:</strong> report anything new so records stay accurate.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Knowing who is at risk</h2><p>Take time to learn who among the people you support has an allergy, and what they must avoid. Do not rely on memory alone for something this important &mdash; check the care plan, and check again if a person&rsquo;s needs may have changed. If a person tells you they react to a food that is not written down, take it seriously and report it so it can be recorded and assessed.</p><p>Allergies can also develop or change over time, and a new resident may arrive with information that is incomplete. If you notice a reaction, or a family member mentions an allergy you were not aware of, pass it on straight away. Accurate, up-to-date records are what keep everyone in the team able to support the person safely. This is especially important when staff change over, agency workers step in, or someone moves between services, because the next person relies entirely on what has been written down.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Where should you look to find out about a person&rsquo;s allergies before supporting them with food?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Their care plan, which should clearly record their allergies and intolerances.", "correct": true, "feedback": "Yes. The care plan is the reliable source, and you should follow exactly what it sets out." },
+            { "text": "Your own memory of what they ate last week.", "correct": false, "feedback": "Memory alone is not reliable enough for something this important &mdash; check the care plan." },
+            { "text": "What seems popular with other people you support.", "correct": false, "feedback": "Allergies are individual; what suits others tells you nothing about this person&rsquo;s needs." },
+            { "text": "A general guess based on their age.", "correct": false, "feedback": "Age is no guide to allergies. Always check the person&rsquo;s recorded information." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Avoiding cross-contamination",
+      "section": "Safe practice in care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Avoiding cross-contamination</h2><p>Even when a food itself is safe, an allergen can transfer onto it from another food, a surface, a utensil or unwashed hands. This is called <strong>cross-contamination</strong>, and for someone with a serious allergy even a tiny trace can be enough to cause a reaction.</p><ul><li><strong>Separate:</strong> keep allergen foods away from safe foods.</li><li><strong>Clean:</strong> wash hands, surfaces and utensils thoroughly.</li><li><strong>Careful:</strong> use clean, separate equipment for allergen-free meals.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Good practice at every step</h2><p>Simple habits prevent cross-contamination. Wash your hands before handling food and after touching an allergen. Use <strong>separate utensils, chopping boards and surfaces</strong>, or clean them thoroughly between foods, so that, for example, a knife used for peanut butter never touches an allergy-free sandwich. Store foods covered and apart, and keep allergen-free meals well away from others while preparing and serving them.</p><p>Read labels every time, even on a product you have used before, because recipes change. Never assume a dish is safe just because it looks the same as usual or seemed fine last time. When you are supporting someone with a serious allergy, a moment spent checking and cleaning is always worth it.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "*Cross-contamination* happens when an allergen transfers onto a safe food, so use separate *utensils* and *surfaces*, wash your *hands* thoroughly, and never *assume* a dish is safe."
+        }
+      ]
+    },
+    {
+      "label": "Choice and dignity",
+      "section": "Safe practice in care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Safety with choice and dignity</h2><p>Keeping someone safe should never mean taking away their enjoyment of food or their right to choose. People with allergies deserve meals that are varied, appealing and their own, not just a limited set of &ldquo;safe&rdquo; options served without thought.</p><ul><li><strong>Involve:</strong> include the person in choosing their food.</li><li><strong>Respect:</strong> value their likes, culture and preferences.</li><li><strong>Enable:</strong> make safe eating feel normal, not restrictive.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Never assume, always support</h2><p>Work with the person, not around them. Talk with them about what they enjoy, find safe versions of favourite meals where you can, and treat their allergy as one part of who they are rather than the only thing that defines their food. Small efforts &mdash; an alternative that looks just as appetising, or a favourite treat made safely &mdash; help someone feel included rather than singled out.</p><p>At the same time, never let a wish to please override safety. If a person asks for something you know is unsafe for them, explain kindly, offer a safe alternative, and speak to a senior colleague if needed. Good care holds safety and dignity together, so the person stays both protected and respected.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Because someone has a food allergy, it is best to give them the same few plain meals every day and not involve them in choosing.",
+          "correct": false,
+          "correctMsg": "Correct. People with allergies should still enjoy varied food and be involved in choices &mdash; safety and dignity go together.",
+          "wrongMsg": "Not quite. Limiting someone to plain meals removes choice and dignity. You can keep food safe while still offering variety and involving the person."
+        }
+      ]
+    },
+    {
+      "label": "Recognising a reaction",
+      "section": "Reactions and emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising a reaction</h2><p>Despite everyone&rsquo;s best efforts, reactions can still happen, so knowing the signs is essential. Allergic reactions range from mild to severe, and they can develop quickly. The sooner you notice, the sooner you can act.</p><ul><li><strong>Mild to moderate:</strong> skin, mouth and stomach symptoms.</li><li><strong>Severe:</strong> breathing and circulation affected &mdash; a medical emergency.</li><li><strong>Watch closely:</strong> a mild reaction can become severe.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Mild and severe signs</h2><p>Milder signs of an allergic reaction include an itchy rash or raised hives, tingling or itching in the mouth, swelling of the lips, face or eyes, sneezing, a runny or itchy nose, and stomach pain, nausea or vomiting. These are distressing but not immediately life-threatening.</p><p>Severe signs are far more serious and mean the reaction is affecting breathing or circulation. They include difficulty breathing, wheezing or a persistent cough, swelling of the tongue or throat, a hoarse voice or trouble swallowing, feeling faint, dizzy or suddenly very unwell, and collapse. Importantly, a reaction that starts mild can turn severe within minutes, so never assume a mild reaction will stay mild &mdash; keep watching the person closely and be ready to act. If you are ever in doubt about how serious a reaction is, treat it as an emergency and get help rather than waiting to be sure.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a sign that an allergic reaction has become severe?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Difficulty breathing, swelling of the tongue or throat, or the person collapsing.", "correct": true, "feedback": "Yes. These signs mean breathing or circulation is affected &mdash; a medical emergency." },
+            { "text": "A single sneeze and a slightly runny nose.", "correct": false, "feedback": "These are milder signs. Keep watching closely, but on their own they are not signs of a severe reaction." },
+            { "text": "Feeling a little bored at mealtime.", "correct": false, "feedback": "This is not a sign of an allergic reaction at all." },
+            { "text": "A small, temporary itch that quickly settles by itself.", "correct": false, "feedback": "A brief, settling itch is a mild sign, not a severe one &mdash; though it is still worth watching." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Anaphylaxis",
+      "section": "Reactions and emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Anaphylaxis: a medical emergency</h2><p>A severe, life-threatening allergic reaction is called <strong>anaphylaxis</strong>. It comes on rapidly and affects the whole body, particularly breathing and circulation. Anaphylaxis is always a medical emergency and needs an immediate response.</p><ul><li><strong>Rapid:</strong> it can develop within minutes of contact with the allergen.</li><li><strong>Serious:</strong> it affects breathing and blood pressure.</li><li><strong>Act fast:</strong> quick action saves lives.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How to respond</h2><p>If someone shows signs of anaphylaxis, act at once. If the person has been prescribed an <strong>adrenaline auto-injector</strong> (such as an EpiPen) and their care plan says to use it, it should be given without delay, following your training and their plan. <strong>Call 999</strong> straight away, say that you think it is anaphylaxis, and follow the call handler&rsquo;s instructions.</p><p>Help the person into a comfortable position &mdash; usually lying down with their legs raised, or sitting up if they are struggling to breathe &mdash; and do not stand them up suddenly. <strong>Stay with them</strong> the whole time, keep them calm, and be ready for the reaction to worsen. A second dose of adrenaline may be given after five minutes if there is no improvement and another injector is available. Note the time and what the person was exposed to, so you can tell the paramedics. Even if the person seems to recover after adrenaline, they still need urgent medical attention, because symptoms can sometimes return &mdash; so never cancel the ambulance or assume all is well.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Someone shows signs of anaphylaxis shortly after eating. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Give their adrenaline auto-injector if it is prescribed and their plan says to, call 999 immediately, and stay with them.", "correct": true, "feedback": "Correct. Adrenaline if prescribed, call 999, and stay with the person &mdash; this is a medical emergency." },
+            { "text": "Wait to see whether it settles before troubling anyone.", "correct": false, "feedback": "Waiting is dangerous. Anaphylaxis needs an immediate response and a 999 call." },
+            { "text": "Give them a glass of water and leave them to rest alone.", "correct": false, "feedback": "Never leave someone having a severe reaction. Call 999 and stay with them." },
+            { "text": "Drive them yourself to the shops for antihistamines.", "correct": false, "feedback": "Antihistamines do not treat anaphylaxis. Use adrenaline if prescribed and call 999." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Record and report",
+      "section": "Reactions and emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>After a reaction: record and report</h2><p>Once the person is safe and any emergency is over, there is still important work to do. Everything that happened should be recorded and reported, both to get the person the right follow-up care and to help prevent it happening again.</p><ul><li><strong>Record:</strong> write down what happened, when, and what you did.</li><li><strong>Report:</strong> tell a senior colleague, nurse or manager promptly.</li><li><strong>Review:</strong> help the team learn how the exposure happened.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>Note what the person ate or was exposed to, the signs you saw, the time, any medication given and how they responded, following your organisation&rsquo;s procedures. Reporting also means asking how the allergen reached the person, so the care plan can be updated and the same mistake avoided. Even a mild reaction is worth recording, because it adds to what the team knows about that person.</p><p>Your everyday awareness &mdash; checking care plans and labels, avoiding cross-contamination, respecting choice, and knowing how to respond &mdash; is what keeps people with allergies safe and included. Remember that this course has covered <strong>knowledge and awareness</strong> only. It does not replace supervised, hands-on training, your organisation&rsquo;s food-safety procedures, or clinical advice from a nurse, pharmacist or dietitian. Always follow the person&rsquo;s care plan and ask a senior colleague whenever you are unsure.</p>"
+        }
+      ]
+    }
+  ]
+}

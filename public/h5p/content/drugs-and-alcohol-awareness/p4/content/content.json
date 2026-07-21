@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Alcohol and units</h2><p>Alcohol is the substance you are most likely to come across in your work, and because it is legal and widely used its harms are easy to overlook. Units are a way of measuring how much pure alcohol is in a drink, which helps people keep track of how much they drink. The stronger the drink and the larger the serving, the more units it contains.</p><ul><li><strong>One unit:</strong> ten millilitres of pure alcohol.</li><li><strong>Guideline:</strong> the UK advice is no more than fourteen units a week.</li><li><strong>Spread it out:</strong> if drinking that much, spread it over three or more days.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "92eae858-6844-41ea-bc86-323ff5063864",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Alcohol and units",
+          "decorative": false,
+          "file": {
+            "path": "images/alcohol-and-units.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dae596d9-83b3-42e5-aa27-e8486bbf5d0b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>The UK Chief Medical Officers' low-risk guideline is to drink no more than fourteen units a week on a regular basis, spread across three or more days, with several drink-free days. There is no completely safe level of drinking, but keeping within this guideline lowers the risk of long-term harm. Drinking a large amount in one session is especially risky and can lead to accidents, injuries and alcohol poisoning.</p><p>For someone who is dependent on alcohol, suddenly stopping can be dangerous. If a person you support wants to cut down or stop, encourage them to speak to their GP or a specialist service rather than stopping abruptly on their own.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0c5e809c-911f-4d93-b951-a9701cb39f1a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "One *unit* of alcohol is ten millilitres of pure alcohol. The UK guideline is no more than *fourteen* units a week, spread over three or more days. Someone who is *dependent* should not stop *suddenly*, as this can be dangerous.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "bd0157b0-3332-4a7d-88d4-c9c2886e4328",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

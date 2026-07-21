@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating allergen information</h2><p>Knowing the rules only helps if the information is passed on accurately. In care, allergen information travels between the kitchen, the care team, the person and sometimes their family. A small mistake or assumption anywhere along that chain can put someone at risk.</p><ul><li><strong>Be accurate:</strong> pass on exactly what you know, not a guess.</li><li><strong>Be clear:</strong> check that the person has understood.</li><li><strong>Be honest:</strong> if you are unsure, say so and find out.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6aa5f108-4508-40ed-90f2-7f09a3fd2d7d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communicating clearly",
+          "decorative": false,
+          "file": {
+            "path": "images/communicating-clearly.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c931b2ed-9ef0-47ca-8d97-0c7f5d2839f8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Getting it right</h2><p>If someone asks whether a food is safe for them, never reassure them unless you are certain. It is always better to say &ldquo;let me check&rdquo; than to guess and be wrong. Check the label or care plan, ask the kitchen, or speak to the person who prepared the food. When you record or hand over allergen information, be precise about exactly which foods a person must avoid.</p><p>Remember that allergen information can change &mdash; recipes are altered, suppliers change, and a &ldquo;usual&rdquo; product may not be the one served today. Treat each food on its own merits rather than assuming it is the same as last time. Clear, careful communication is one of the simplest and most powerful ways you protect the people you support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d14c0cd0-56ad-4167-9cdc-125128d96d5a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone asks whether a food is safe for their allergy and you are not sure, it is fine to reassure them that it is probably okay.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Guessing can be dangerous. Always check and be certain before telling someone a food is safe.",
+            "correctAnswerMessage": "Correct. Never guess &mdash; check the label, care plan or kitchen first, and only reassure someone once you are certain."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "46a99bc9-7225-4b62-8f8e-2af0d5a2cd4c",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

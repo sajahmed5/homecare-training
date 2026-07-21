@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Prescription and over-the-counter medicines</h2><p>Not all substance misuse involves illegal drugs. Prescription and over-the-counter medicines can also be misused, sometimes without the person realising the risk. Strong painkillers, sleeping tablets and some medicines for anxiety can lead to dependence, especially when taken for a long time or in higher doses than prescribed.</p><ul><li><strong>Prescription medicines:</strong> can cause dependence even when first taken as directed.</li><li><strong>Over-the-counter medicines:</strong> some painkillers and cold remedies can be misused.</li><li><strong>Report changes:</strong> tell a senior if you notice medicines running out too quickly.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4447a5b4-53a3-4aa5-bad7-aa58e3184563",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Medicines and misuse",
+          "decorative": false,
+          "file": {
+            "path": "images/medicines-and-misuse.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3ae12edd-206f-4948-8c17-45f9e9981196",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>A person may become dependent on a medicine that was prescribed for a genuine reason, such as pain or difficulty sleeping. This is not their fault, and they may feel ashamed or worried about mentioning it. If you notice that medicines are being used more quickly than expected, that a person seems overly drowsy, or that they are buying extra painkillers, record what you have seen factually and report it to your senior or the person's GP.</p><p>Never adjust, withhold or add to someone's medication yourself. Changes to prescribed medicines are a clinical decision for a doctor or pharmacist, working with the person. Your part is to follow the care plan, support the person to take medicines as prescribed, and pass on anything that concerns you.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "df17a0c6-2988-46ff-bb9c-e81c9a1d9e9c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Prescription and over-the-counter medicines can be misused and can lead to dependence, not just illegal drugs.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Legal medicines can also be misused and cause dependence, so concerns should always be reported.",
+            "correctAnswerMessage": "Correct. Medicines such as strong painkillers and sleeping tablets can lead to dependence and should be treated with care."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "3c392111-6d06-4b2e-87b9-a569ce24d852",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

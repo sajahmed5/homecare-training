@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The effect on families and children</h2><p>Substance use rarely affects only one person. Partners, parents, children and other relatives often carry a heavy load, and the person you support may be a family member of someone who uses drugs or alcohol. Being aware of this wider impact helps you offer support to the whole household and spot when others may need help too.</p><ul><li><strong>Families:</strong> may face stress, money worries and strained relationships.</li><li><strong>Children:</strong> can be at risk of neglect or harm and must be protected.</li><li><strong>Carers:</strong> relatives supporting a person may need help in their own right.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4fe5371-77fb-4250-b9d1-c11b4e502db1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Families and children",
+          "decorative": false,
+          "file": {
+            "path": "images/families-and-children.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d7f55f35-596d-4efe-a2e0-9cc442e401c6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Children living with parental substance misuse are especially vulnerable. Their needs may be overlooked, routines may be disrupted, and they may take on caring responsibilities beyond their years. Any concern that a child is being neglected or harmed is a safeguarding matter that must be reported without delay, following your organisation's child safeguarding procedure &mdash; even if your role is to support an adult.</p><p>Adult family members can also struggle, sometimes developing their own health or mental health problems, or feeling isolated and exhausted by their caring role. You can offer a listening ear, treat them with respect, and signpost them to their GP or local support services, while making sure any risk you notice is escalated to your manager. Small acts of recognition can make a real difference to a family that feels unseen.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a0994ba0-2253-4e3b-af3b-4fbfbf8b5607",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and reporting</h2><p>Whenever someone has a head injury, you must <strong>record</strong> it accurately and <strong>report</strong> it promptly. Good records protect the person: they help the whole team keep watch, they give health professionals the facts they need, and they show that the injury was taken seriously. Write down what happened as soon as you can, while it is fresh, and follow your workplace&rsquo;s procedures for reporting incidents and accidents.</p><ul><li><strong>Record the facts:</strong> what happened, when, and how the injury occurred.</li><li><strong>Note observations:</strong> the symptoms seen and how the person is over time.</li><li><strong>Report promptly:</strong> tell the right people and follow your procedures.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d3dbf96b-fcf7-4cec-bb91-97060aa0d079",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and reporting",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-reporting.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d8b06af4-0db8-48e1-bafa-2db359fc6016",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Following the care plan</h2><p>Your records should be clear, accurate and factual. Note the time and details of the injury, the symptoms you observed, the action you took, and how the person is at each monitoring check. Record any changes and when they happened, so that a developing problem can be seen. Pass the information on at handover so that the person continues to be watched across every shift, and report to your manager or the relevant professional as your procedures require.</p><p>Always follow the person&rsquo;s <strong>care plan</strong> and your organisation&rsquo;s policies, which set out how head injuries should be monitored, recorded and escalated. Accurate recording and clear reporting are not paperwork for its own sake &mdash; they are part of keeping the person safe and making sure nothing is missed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67274115-dd71-4dee-b6fb-9f0fd90f3de7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What should you do after a person in your care has a head injury?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record the injury and your observations accurately, report it promptly, and follow the care plan and procedures.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Accurate recording, prompt reporting and following the care plan keep the person safe and informed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing and hope the person recovers without anyone needing to know.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a head injury must always be recorded and reported so the person can be monitored and helped.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a week and then write a rough note if you still remember it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; record the details promptly while they are fresh, and report the injury without delay.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only tell a colleague verbally and keep no written record at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a verbal word is not enough; you must make an accurate written record and follow your reporting procedures.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "d221f183-bbaf-4fe2-90ce-a243c8b17eee",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

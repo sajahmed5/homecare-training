@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Immediate signs and symptoms</h2><p>After a bump or jolt to the head, some signs of concussion can appear <strong>straight away</strong>. The person may seem dazed, stunned or confused, and may not remember what just happened. They might complain of a headache or feeling dizzy, or look pale and unsteady. These early signs are your first clue that the brain has been affected, so pay close attention to anyone in the moments right after a head injury.</p><ul><li><strong>Head symptoms:</strong> headache, dizziness, and blurred vision.</li><li><strong>Thinking:</strong> confusion, feeling dazed, and memory problems.</li><li><strong>Physical:</strong> nausea, feeling sick, and looking pale or unsteady.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "42271ae0-56ff-479b-800a-085961f21c86",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Immediate signs",
+          "decorative": false,
+          "file": {
+            "path": "images/immediate-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5532fcf2-77de-4f73-9ca5-f64f960ec958",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to look and listen for</h2><p>Common symptoms of concussion include a <strong>headache</strong>, <strong>dizziness</strong>, <strong>confusion</strong>, feeling <strong>sick</strong> or nauseous, <strong>blurred vision</strong>, and problems with <strong>memory</strong> &mdash; for example, not being able to recall the fall or repeating the same questions. The person may seem slowed down, struggle to concentrate, or say that things do not feel quite right.</p><p>Because concussion is invisible, you have to rely on what you <strong>see and hear</strong>. Watch how the person moves, listen to what they tell you about how they feel, and notice anything that seems different from their normal self. If you know the person well, you are well placed to spot that something has changed after a knock to the head.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "25c32452-a1b2-43dc-a783-615e08ede7ce",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these can be a sign of concussion soon after a head injury?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Headache, dizziness, confusion, feeling sick, and problems with memory.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are all common signs of concussion and should make you watch the person closely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Feeling more energetic and alert than usual.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion tends to slow a person down and cause symptoms such as headache and confusion, not extra energy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A sudden and lasting improvement in eyesight.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion may cause blurred vision, not an improvement in sight.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing at all, because concussion never causes any symptoms.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; concussion causes real symptoms such as headache, dizziness and confusion, even if there is no visible mark.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0c03229c-c32b-4400-836a-ca2b2f2d83be",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

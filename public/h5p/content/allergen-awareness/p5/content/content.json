@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reading allergen information</h2><p>Food businesses must tell people when any of the 14 allergens are used. How they do this depends on the food, but the information should always be available. Learning where to look means you can check quickly and reliably.</p><ul><li><strong>Prepacked food:</strong> allergens listed and emphasised in the ingredients.</li><li><strong>Loose food:</strong> allergen information provided, for example on a menu or by staff.</li><li><strong>Always available:</strong> if it is not clear, you can ask.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "13b5e932-3dcf-4b96-8c05-deb37631c564",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Food labelling",
+          "decorative": false,
+          "file": {
+            "path": "images/food-labelling.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0646513f-7412-46cd-90c0-74c951c6d6a2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Emphasised in the ingredients</h2><p>On <strong>prepacked</strong> foods &mdash; items packaged before you buy them, like a boxed ready meal or a packet of biscuits &mdash; the law requires a full list of ingredients, with any of the 14 allergens <strong>emphasised</strong> so they stand out. This is usually done in bold type, though some use capitals, colour or underlining. So on a label you might see the word &ldquo;wheat&rdquo; or &ldquo;milk&rdquo; written in bold within the ingredients.</p><p>For food sold loose or not prepacked &mdash; such as a meal served in a dining room, or items from a bakery counter &mdash; the business must still provide allergen information, but it may be on a menu, a sign, or given by staff when asked. If you cannot find clear allergen information for a food, do not guess: ask, or choose something you know is safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "38837d50-93b8-45ed-a3f3-db228971aa0f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>On a prepacked food label, how must the 14 allergens be shown?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>They must be listed in the ingredients and emphasised, for example in bold type, so they stand out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Emphasising allergens in the ingredients helps people spot them at a glance.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They can be left off the label completely.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The law requires the 14 allergens to be declared, not left off.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They only need to be mentioned if a customer asks in writing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Prepacked labels must show the allergens in the ingredients, not only on request.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>They must be printed in a separate leaflet inside the packet.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Allergens are emphasised within the ingredients list itself, not hidden in a leaflet.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f2280d0a-4f12-4c60-bbc0-b5c920872e7d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Allergy or intolerance?</h2><p>People often use the words &ldquo;allergy&rdquo; and &ldquo;intolerance&rdquo; to mean the same thing, but they are different, and the difference matters a great deal in care. The key point is that a true food allergy involves the immune system and can be life-threatening, while an intolerance does not.</p><ul><li><strong>Allergy:</strong> the immune system reacts, sometimes severely.</li><li><strong>Intolerance:</strong> the body struggles to digest a food, causing discomfort.</li><li><strong>Both matter:</strong> each affects what a person can safely eat.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dc5b5925-c58e-4b76-ad30-83f8c28f2dee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Allergy or intolerance",
+          "decorative": false,
+          "file": {
+            "path": "images/allergy-or-intolerance.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9e797e37-7a4d-4db7-abb0-3e4a249415e4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why the difference matters</h2><p>In a food allergy, the immune system wrongly treats a harmless food protein as a threat. Even a tiny trace can trigger a reaction, and it usually happens quickly &mdash; within minutes to a couple of hours. At its most serious, an allergic reaction can affect breathing and circulation and become a medical emergency.</p><p>A food intolerance is different. It does not involve the immune system and is not usually life-threatening. It often depends on how much of the food is eaten, and tends to cause slower, digestive symptoms such as bloating, stomach pain or diarrhoea. Lactose intolerance is a common example. Both belong in a person&rsquo;s care plan, but an allergy carries the risk of a sudden, severe reaction, so it must always be taken extremely seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44378b70-2e9b-434b-a579-d4a72eec6380",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the key difference between a food allergy and a food intolerance?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>An allergy involves the immune system and can be life-threatening, while an intolerance does not involve the immune system and is not usually life-threatening.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Yes. An allergy is an immune response that can be severe; an intolerance is usually a slower, digestive problem.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An intolerance is always more dangerous than an allergy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not so. It is the allergy that carries the risk of a sudden, life-threatening reaction.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no real difference; the words mean exactly the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are genuinely different, and the difference matters for how seriously you treat each one.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An allergy only ever causes mild stomach upset.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "An allergy can affect breathing and circulation and become a medical emergency.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0867cb6a-37c0-48c4-8eed-895974a803ea",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

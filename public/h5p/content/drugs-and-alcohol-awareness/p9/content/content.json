@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Medication, safety and safeguarding</h2><p>When you support someone in their own home, keeping medicines and substances stored safely matters for everyone. Unsecured medicines can be taken by mistake, taken by others, or add to the risk of overdose. Notice hazards such as medicines left out, alcohol combined with prescribed drugs, or signs that the home is becoming unsafe or neglected.</p><ul><li><strong>Safe storage:</strong> medicines kept securely, out of reach of others.</li><li><strong>Self-neglect:</strong> not eating, washing or heating the home can be a safeguarding concern.</li><li><strong>Record and report:</strong> raise concerns through your safeguarding process.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "94e9fbcc-c907-447b-8cc7-d216fd0264f4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safety and safeguarding",
+          "decorative": false,
+          "file": {
+            "path": "images/safety-and-safeguarding.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3cbcd955-873d-4db8-a019-6d676231f91b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Substance misuse can be linked to safeguarding. A person may be at risk of harm to themselves through overdose, accidents or serious self-neglect, or at risk from others who exploit their situation for money, drugs or their home. Self-neglect &mdash; where a person is not caring for their own health, hygiene or surroundings &mdash; is recognised as a form of abuse and neglect under safeguarding guidance.</p><p>If you are worried that someone is at risk, or that a child or another adult in the household is being harmed, you must act. Record what you have seen factually and report it straight away to your manager or safeguarding lead, following your organisation's procedure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8253ed5-670b-48f8-bb7d-ccd6b8366326",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice a person you support is not eating, not heating their home and has unsecured medicines left out. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record what you have seen factually and report it as a safeguarding concern following your organisation's procedure.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Self-neglect and unsafe medicines are safeguarding concerns that must be recorded and escalated.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, as it is the person's own home and none of your business.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Serious self-neglect is a safeguarding matter. You have a duty to record and report it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tidy the medicines away and decide not to mention it to anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Concerns must be reported so the right support can be put in place, not handled quietly alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person off for not looking after themselves.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "A judgemental response is unhelpful. Support the person and escalate the concern appropriately.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9b6f8951-bffb-4926-bd1f-3a9bbb0af7a2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

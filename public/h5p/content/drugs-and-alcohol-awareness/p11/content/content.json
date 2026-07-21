@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising overdose and alcohol poisoning</h2><p>An overdose or alcohol poisoning is a medical emergency. Being able to recognise the warning signs and act quickly can save a life. The signs vary with the substance, but any sign that a person cannot be woken, is struggling to breathe or is losing consciousness must be treated as an emergency.</p><ul><li><strong>Opioid overdose:</strong> very slow or stopped breathing, pinpoint pupils, hard to wake.</li><li><strong>Alcohol poisoning:</strong> confusion, vomiting, cold or clammy skin, slow breathing.</li><li><strong>Unresponsive:</strong> someone who cannot be roused needs urgent help.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d55f4081-3887-4768-9632-393588cecc59",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Overdose and emergencies",
+          "decorative": false,
+          "file": {
+            "path": "images/overdose-and-emergencies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2cfc7c02-1d46-4aed-a7df-f778ba4381e8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>If you find someone who is unresponsive or barely breathing, call 999 immediately and tell the operator what you have seen and, if you know, what the person may have taken. Do not leave them alone if you can avoid it, and follow the operator's instructions. If the person is unconscious but breathing, place them in the recovery position &mdash; on their side with the head tilted back &mdash; to help keep their airway clear and reduce the risk of choking on vomit.</p><p>Never try to make the person sick, give them food or a cold shower, or leave them to sleep it off. Stay with them, keep them safe and let the emergency services take over.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7cc90b87-f229-4076-ac70-fcf0592a782e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find someone unconscious but breathing after suspected substance use. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Call 999, place them in the recovery position, stay with them and follow the operator's instructions.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The recovery position helps keep the airway clear while you wait for emergency help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave them to sleep it off and check back later.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is dangerous. An unconscious person needs urgent help and should not be left alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them a cold shower and strong coffee to wake them up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "These do not help and can cause harm. Call 999 and use the recovery position.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to make them sick to bring the substance back up.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Never do this. It can cause choking. Call 999 and follow the operator's guidance.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e260faa4-9c1a-41d5-a84f-a469b57fd758",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

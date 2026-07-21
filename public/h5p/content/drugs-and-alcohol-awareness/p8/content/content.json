@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred and harm-reduction approaches</h2><p>Not everyone who uses drugs or alcohol is ready or able to stop, and support still matters in the meantime. Harm reduction means reducing the damage that substance use can cause, even if the person continues to use. It is a practical, respectful approach that meets people where they are rather than setting stopping as the only acceptable goal.</p><ul><li><strong>Person-centred:</strong> support fits the person's own goals and pace.</li><li><strong>Harm reduction:</strong> reduce risks even while someone still uses.</li><li><strong>Small steps:</strong> any move towards safety or health is progress.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "89ef8d8e-dfeb-4186-beaa-815794f324c2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Harm reduction",
+          "decorative": false,
+          "file": {
+            "path": "images/harm-reduction.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "be574add-6810-4a27-bd94-796fbf01d994",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>In practice, harm reduction might mean encouraging someone to eat and stay hydrated, to avoid using alone, or to keep to safer amounts. It means building trust so the person feels able to talk openly. When someone shows they are ready to think about change, you can gently support them towards their GP or a local specialist drug and alcohol service, which provides the treatment.</p><p>Change is often gradual, with setbacks along the way. Keep supporting without judgement, celebrate small steps, and remember that a relapse is part of many people's journey rather than a failure. What can feel like going backwards is often part of learning what helps, and a warm, steady response keeps the door open for the person to try again. Always follow your care plan and organisational policy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "863e273f-1a0d-4836-8328-66fd736e7245",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does a harm-reduction approach mean?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Reducing the harm that substance use can cause, even if the person is not ready to stop.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Harm reduction meets people where they are and reduces risk while respecting their choices.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Refusing to support anyone until they agree to stop using completely.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That is not harm reduction. Support continues even when a person is not ready to stop.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Providing the treatment for dependence yourself instead of specialist services.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Treatment is provided by specialist services. Your role is support and reducing harm.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignoring the risks because the person has chosen to keep using.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Harm reduction actively lowers risk; it does not mean ignoring danger.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e8b67fab-4988-405c-ba27-238211782786",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

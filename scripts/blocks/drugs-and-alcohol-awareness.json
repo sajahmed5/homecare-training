@@ -1,0 +1,97 @@
+{
+  "slug": "drugs-and-alcohol-awareness",
+  "title": "Drugs and Alcohol Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Understanding substance use"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p2",
+      "label": "Misuse and dependence",
+      "questions": 1,
+      "section": "Understanding substance use"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p3",
+      "label": "Effects and stigma",
+      "questions": 0,
+      "section": "Understanding substance use"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p4",
+      "label": "Alcohol and units",
+      "questions": 1,
+      "section": "Common substances"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p5",
+      "label": "Depressants and stimulants",
+      "questions": 1,
+      "section": "Common substances"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p6",
+      "label": "Medicines and misuse",
+      "questions": 1,
+      "section": "Common substances"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p7",
+      "label": "Mixing substances",
+      "questions": 1,
+      "section": "Common substances"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p8",
+      "label": "Harm reduction",
+      "questions": 1,
+      "section": "Supporting people"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p9",
+      "label": "Safety and safeguarding",
+      "questions": 1,
+      "section": "Supporting people"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p10",
+      "label": "Families and children",
+      "questions": 0,
+      "section": "Supporting people"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p11",
+      "label": "Overdose and emergencies",
+      "questions": 1,
+      "section": "Risks and the workplace"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p12",
+      "label": "Naloxone and withdrawal",
+      "questions": 1,
+      "section": "Risks and the workplace"
+    },
+    {
+      "type": "h5p",
+      "path": "drugs-and-alcohol-awareness/p13",
+      "label": "Your workplace policy",
+      "questions": 1,
+      "section": "Risks and the workplace"
+    }
+  ]
+}

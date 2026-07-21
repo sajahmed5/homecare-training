@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Equality Act 2010</h2><p>The Equality Act 2010 is the main law protecting people from discrimination, harassment and victimisation in Great Britain. It protects people both at work and when using services, and it treats harassment as a form of unlawful conduct. Sexual harassment &mdash; unwanted conduct of a sexual nature &mdash; is one of the forms of harassment the Act covers.</p><ul><li><strong>Protection:</strong> from discrimination, harassment and victimisation.</li><li><strong>At work and in services:</strong> it protects workers and people who use services.</li><li><strong>Harassment:</strong> including sexual harassment, is unlawful under the Act.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "81cb5976-1189-4e35-a978-8f43dbf5c23d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Equality Act",
+          "decorative": false,
+          "file": {
+            "path": "images/the-equality-act.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9bc705d1-b5c6-4d57-8b2f-eafac9e4bfaa",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Protected characteristics</h2><p>The Equality Act protects people from harassment related to certain <strong>protected characteristics</strong>, such as age, disability, gender reassignment, race, religion or belief, sex, and sexual orientation. Harassment related to sex &mdash; for example, demeaning remarks based on a person&rsquo;s sex &mdash; is unlawful, as is harassment of a sexual nature.</p><p>Sexual harassment specifically is about unwanted conduct of a sexual nature, and a person does not have to share any particular characteristic for it to apply. Understanding this helps you see that sexual harassment can happen to anyone, whoever they are.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2f73e139-48ea-434d-9b92-0079f1c8a11f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

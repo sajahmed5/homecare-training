@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Drugs &amp; Alcohol Awareness</h2><p>Some of the people you support in adult social care will be affected by drugs or alcohol &mdash; either their own use or that of someone close to them. As a care worker you are often present in a person's daily life, which means you may be one of the first to notice a concern. This course helps you support people with warmth and respect, spot risks, and know when to raise the alarm.</p><ul><li><strong>Understand:</strong> what drug and alcohol misuse and dependence are.</li><li><strong>Recognise:</strong> the effects, the risks and the emergencies.</li><li><strong>Respond:</strong> follow policy, reduce harm and escalate safely.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad95434d-f8fd-491c-afb1-fedbd7e75673",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f264aae6-4791-472a-bfc4-2f194bcd190a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will learn about common substances and their effects, how to take a person-centred and harm-reduction approach, the link to safeguarding, and how to respond in an emergency such as an overdose. It draws on guidance from the National Institute for Health and Care Excellence (NICE) and from Public Health England and the Office for Health Improvement &amp; Disparities (OHID).</p><p>This is an <strong>awareness and knowledge</strong> course. It builds your understanding so you can support people and escalate concerns, but it does <strong>not</strong> replace supervised, competency-based training. You do not diagnose or treat substance misuse &mdash; treatment is provided by specialist drug and alcohol services. Your role is to support, reduce harm and raise concerns.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cac0c136-1770-4630-8cf3-a1bc4609b346",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

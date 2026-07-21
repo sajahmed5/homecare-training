@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Basic first aid</h2><p>If someone has hurt their head, keep calm and act steadily. Encourage the person to <strong>stay still</strong> and rest rather than getting up and moving about, especially if they are dizzy or unsteady. Reassure them, keep them <strong>calm</strong>, and stay with them. If there is swelling or a bump, you can gently apply something cold, such as an ice pack wrapped in a cloth, to help ease it. Do not give food, drink or medicines unless it is safe and part of the person&rsquo;s plan to do so.</p><ul><li><strong>Keep still:</strong> encourage the person to rest and avoid moving about.</li><li><strong>Stay calm:</strong> reassure the person and remain with them.</li><li><strong>Monitor:</strong> keep watching for red flags and any worsening signs.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "30d9e811-6863-42a2-94d6-46a43d74e960",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Basic first aid",
+          "decorative": false,
+          "file": {
+            "path": "images/basic-first-aid.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6d4bf744-57a8-4b3e-b980-052cc385f2df",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>If the person is more seriously hurt</h2><p>If the person has lost consciousness, even for a moment, treat it as an emergency and <strong>call 999</strong>. While you wait, keep them still and do not move them unnecessarily, in case of injury to the head or neck, unless they are in danger. If they are unresponsive but breathing, the call handler can guide you on how to keep their airway clear and position them safely.</p><p>Stay with the person, keep talking to them gently, and watch their breathing and how alert they are. Have useful information ready for the paramedics, such as what happened, when it happened, and the person&rsquo;s medicines &mdash; especially any blood thinners. Your calm, steady presence and clear information help the emergency team give the right care quickly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a83bb462-69da-4f8f-9aaf-c3a5c92201a3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If someone loses consciousness after a head injury, even only briefly, you should call 999.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Losing consciousness, even briefly, is a red flag &mdash; treat it as an emergency and call 999.",
+            "correctAnswerMessage": "Correct. Any loss of consciousness after a head injury is a red flag and needs an emergency 999 call."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "5edd701d-5693-4450-9119-e1390d5a788f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

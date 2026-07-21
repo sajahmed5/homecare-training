@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When a head injury is an emergency</h2><p>Most concussions are not life-threatening, but some head injuries are a <strong>medical emergency</strong>. Bleeding or swelling inside the skull can build up and press on the brain, and this can become life-threatening quickly. The warning signs of a serious injury are known as <strong>red flags</strong>. If you see any one of them, this is no longer something to watch and wait on &mdash; it is time to get emergency help by calling 999.</p><ul><li><strong>Serious risk:</strong> bleeding or swelling inside the skull can be life-threatening.</li><li><strong>Red flags:</strong> specific warning signs that mean an emergency.</li><li><strong>One is enough:</strong> a single red flag means you call 999 at once.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e93434e7-d1b8-49eb-8b67-cced1d7fd830",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for When it's an emergency",
+          "decorative": false,
+          "file": {
+            "path": "images/when-it-s-an-emergency.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e948b4ef-4565-4a59-a49c-4aea6e6fd61f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why speed matters</h2><p>When something is bleeding or swelling inside the head, every minute counts. Early treatment in hospital can be life-saving, but only if the person gets there quickly. This is why you must never talk yourself out of acting because the injury &ldquo;looked minor&rdquo; or the person &ldquo;seemed okay&rdquo; at first. A serious bleed can develop after what looked like a small bump, particularly in older people and those on blood thinners.</p><p>You do not need to be certain, and you are not expected to work out exactly what is wrong. Your job is to recognise a red flag and respond. If in any doubt, treat a head injury as serious and get urgent help &mdash; it is always better to call <strong>999</strong> and be reassured than to wait while a treatable emergency gets worse.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6a5d055-2315-4565-8814-5cb7540055b4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why should a head injury with a red-flag sign be treated as an emergency?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Because bleeding or swelling inside the skull can be life-threatening, and early hospital treatment can save a life.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Red flags can mean a serious bleed or swelling, and getting help quickly can be life-saving.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because the person will be embarrassed if you do not make a fuss.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a red flag is treated as an emergency because of the real risk to life, not for appearances.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because head injuries are never serious and always settle on their own.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; some head injuries are very serious, which is exactly why red flags need an emergency response.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because you must diagnose the exact injury before doing anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you are not expected to diagnose; you recognise the red flag and call 999 straight away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "52df1fc4-1d57-4d40-96fc-ded0e467b83f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

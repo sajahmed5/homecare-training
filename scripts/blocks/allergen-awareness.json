@@ -1,0 +1,97 @@
+{
+  "slug": "allergen-awareness",
+  "title": "Allergen Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Allergens and intolerances"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p2",
+      "label": "Allergy or intolerance",
+      "questions": 1,
+      "section": "Allergens and intolerances"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p3",
+      "label": "Why it matters",
+      "questions": 1,
+      "section": "Allergens and intolerances"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p4",
+      "label": "The 14 allergens",
+      "questions": 1,
+      "section": "The 14 allergens and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p5",
+      "label": "Food labelling",
+      "questions": 1,
+      "section": "The 14 allergens and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p6",
+      "label": "Natasha's Law",
+      "questions": 0,
+      "section": "The 14 allergens and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p7",
+      "label": "Communicating clearly",
+      "questions": 1,
+      "section": "The 14 allergens and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p8",
+      "label": "Care plans first",
+      "questions": 1,
+      "section": "Safe practice in care"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p9",
+      "label": "Avoiding cross-contamination",
+      "questions": 1,
+      "section": "Safe practice in care"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p10",
+      "label": "Choice and dignity",
+      "questions": 1,
+      "section": "Safe practice in care"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p11",
+      "label": "Recognising a reaction",
+      "questions": 1,
+      "section": "Reactions and emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p12",
+      "label": "Anaphylaxis",
+      "questions": 1,
+      "section": "Reactions and emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "allergen-awareness/p13",
+      "label": "Record and report",
+      "questions": 0,
+      "section": "Reactions and emergencies"
+    }
+  ]
+}

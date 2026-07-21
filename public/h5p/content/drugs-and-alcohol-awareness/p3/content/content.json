@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical, psychological and social effects</h2><p>Drugs and alcohol affect people in different ways, and the effects reach far beyond physical health. Long-term use can damage the liver, heart, brain and other organs, and raise the risk of falls, injuries and infections. It can also affect mood, memory and thinking, and can make anxiety or depression worse. The effects ripple outwards into a person's relationships, work, money and housing.</p><ul><li><strong>Physical:</strong> organ damage, poor sleep, injuries and infections.</li><li><strong>Psychological:</strong> low mood, anxiety, confusion and cravings.</li><li><strong>Social:</strong> money problems, isolation and strained relationships.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "44ceabb8-1e5b-4ded-b959-52b93ea3ee1d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Effects and stigma",
+          "decorative": false,
+          "file": {
+            "path": "images/effects-and-stigma.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "efa41145-15f5-4d80-a6b9-44109dd4cbf4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reducing stigma and your role</h2><p>People affected by drugs or alcohol often face stigma &mdash; being judged, blamed or treated as less worthy of care. Stigma is harmful because it stops people asking for help and can affect the quality of support they receive. A non-judgemental approach means treating the person with the same dignity and respect as anyone else, focusing on their needs rather than labelling them.</p><p>Your role is to support the person day to day, encourage healthier choices at their pace, reduce the risk of harm, and raise concerns through the right channels. You are not there to lecture, police or treat &mdash; specialist services do the treatment. Watch your own language too: describe a person as someone who uses drugs, not as an addict, because the words you choose shape how the person is seen and how willing they feel to ask for help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a39794a6-eb32-4dd0-8a47-5baafb47ddf9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

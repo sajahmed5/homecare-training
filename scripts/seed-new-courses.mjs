@@ -225,6 +225,34 @@ const NEW_COURSES = [
     description:
       "Legionella awareness — what Legionnaires' disease is, where the risk comes from and how it is controlled. Awareness only; the legionella risk assessment sits with the responsible person.",
   },
+  {
+    slug: "allergen-awareness",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Allergen awareness for care — the 14 allergens, Natasha's Law, safe practice and recognising and responding to an allergic reaction. Awareness only; a severe reaction (anaphylaxis) is a 999 emergency.",
+  },
+  {
+    slug: "sexual-harassment-awareness",
+    topic: "Safeguarding",
+    expiry_months: 24,
+    description:
+      "Sexual harassment awareness — what it is (Equality Act 2010), the employer's duty to prevent it (Worker Protection Act 2023), and how to respond and report. Awareness only; where someone who uses services is affected it may be a safeguarding matter.",
+  },
+  {
+    slug: "drugs-and-alcohol-awareness",
+    topic: "Health & Safety",
+    expiry_months: 24,
+    description:
+      "Awareness of drug and alcohol use — effects, supporting people without judgement, recognising emergencies and following workplace policy. Awareness only; treatment is provided by specialist services.",
+  },
+  {
+    slug: "concussion-awareness",
+    topic: "Health & Safety",
+    expiry_months: 24,
+    description:
+      "Concussion and head-injury awareness — recognising the signs, the emergency red flags and basic response. Awareness only; a serious head injury needs urgent medical help (999).",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

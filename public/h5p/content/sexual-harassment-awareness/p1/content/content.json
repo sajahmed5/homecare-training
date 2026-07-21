@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Sexual Harassment Awareness</h2><p>Everyone has the right to feel safe and respected at work and when receiving care. Sexual harassment is unwanted conduct of a sexual nature that harms a person&rsquo;s dignity and can make a workplace or care setting feel unsafe. As a care worker you have an important part to play in recognising it, responding well, and helping to build a culture where it is not tolerated. This course raises your awareness so that you know what sexual harassment is and what to do about it.</p><ul><li><strong>Recognise:</strong> understand what sexual harassment is and the forms it can take.</li><li><strong>Respond:</strong> know how to support someone and how to report a concern.</li><li><strong>Respect:</strong> help build a culture where everyone is treated with dignity.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ad5f33f4-ab17-4c7d-8abd-9aa17f50e1ca",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "07a51390-82ff-4154-a6b3-ea8c9da03a6b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness, not a replacement for policy</h2><p>This course gives you <strong>awareness and knowledge</strong> about sexual harassment. It does <strong>not</strong> replace your organisation&rsquo;s policies and procedures, or the supervised training and support your employer provides, and you should always follow these in practice. If you are affected by, or become aware of, sexual harassment, use the reporting routes your organisation has put in place.</p><p>Sexual harassment can involve colleagues, but it can also affect the people who use your services. Where someone who uses services is affected, this may also be a <strong>safeguarding</strong> matter, and you should follow your safeguarding procedures alongside anything you learn here.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "948c34ba-d6c1-4f24-9f1f-14f12c0ef617",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your drug and alcohol policy</h2><p>Your organisation will have a drug and alcohol policy that sets out how to support people affected by substances and what is expected of you as a worker. Knowing this policy means you respond consistently, record properly and escalate through the right channels. If you are unsure what to do in any situation, your manager and the policy are your first points of reference.</p><ul><li><strong>Supporting people:</strong> how to record concerns and who to report them to.</li><li><strong>Fit for work:</strong> you must never work while affected by drugs or alcohol.</li><li><strong>Escalation:</strong> when and how to raise safeguarding or health concerns.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11549d18-cb90-4c90-8cd7-863be92b257f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your workplace policy",
+          "decorative": false,
+          "file": {
+            "path": "images/your-workplace-policy.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "69101685-4776-41fd-ad12-943dcf6cd336",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<p>Being fit for work is part of your professional duty. You must never care for people while under the influence of alcohol or drugs, including some prescribed medicines that affect your alertness, as this puts the people you support and your colleagues at risk. If a medicine you are prescribed could affect your work, speak to your manager. If you are struggling with your own substance use, your organisation should be able to offer confidential support.</p><p>This course has raised your <strong>awareness</strong> so you can support people without judgement, reduce harm, respond to emergencies and escalate concerns. It does <strong>not</strong> replace supervised, competency-based training, and it does not qualify you to treat substance misuse &mdash; treatment is always provided by specialist drug and alcohol services. Always work within your role, your training and your organisation's policy.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "08b229ee-39c2-40af-bbcb-90319836667f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement about being fit for work is correct?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>You must never care for people while under the influence of alcohol or drugs, and should tell your manager if a prescribed medicine could affect your work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Being fit for work protects the people you support and your colleagues.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is fine to work after drinking as long as you feel you are coping.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Working while affected by alcohol puts people at risk and breaches policy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Prescribed medicines never need to be mentioned to your manager.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Some medicines affect alertness, so you should tell your manager if yours could affect your work.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Fitness for work only matters for nurses, not care workers.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Being fit for work applies to everyone caring for people, including care workers.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "2ea13fa1-2136-4d8f-bed8-31c2c86248ed",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

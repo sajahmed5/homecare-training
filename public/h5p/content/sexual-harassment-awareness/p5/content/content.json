@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Physical and online examples</h2><p>Physical sexual harassment ranges from unnecessary or unwanted touching, brushing against someone or standing too close, through to more serious assault. In a care setting, where close personal contact is a normal part of the work, it is especially important to be clear about the difference between necessary, consented care and conduct that is unwanted and sexual.</p><ul><li><strong>Physical:</strong> unwanted touching, hugging, or blocking someone&rsquo;s path.</li><li><strong>Online:</strong> sexual messages, images or comments sent electronically.</li><li><strong>Displayed:</strong> sexual material shared in shared spaces or group chats.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a3a252ff-cc20-4fc3-8809-cdc1a2baf0bb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Physical &amp; online",
+          "decorative": false,
+          "file": {
+            "path": "images/physical-amp-online.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e3f26439-56b1-4643-acaf-a7a7e3be6a67",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>One-off or repeated</h2><p>Online or &ldquo;digital&rdquo; sexual harassment has become increasingly common. It includes sending sexual messages, images or emojis, making sexual comments on social media, or sharing explicit material in work group chats. The fact that it happens on a screen does not make it any less harmful or any less unacceptable.</p><p>Sexual harassment can be a single incident or a pattern that builds up over time. One serious act can be enough to amount to harassment, and so can a series of smaller comments or behaviours that together create a hostile environment. Neither should be dismissed as too small to matter.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "91aa1132-9d5a-4f7f-8c18-bfe1c9d8c48d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Sexual harassment can be *verbal*, *physical* or *online*, and it can be a single incident or *repeated* over time.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "0fda07e0-a6b0-4520-acfe-9f675acb7e87",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

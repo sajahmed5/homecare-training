@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Symptoms can appear later</h2><p>One of the most important facts about concussion is that the symptoms do <strong>not</strong> always appear straight away. Someone can seem perfectly fine immediately after a fall and then become unwell <strong>hours or even days later</strong>. This is why a head injury can be so easy to underestimate: the person walks away, everyone relaxes, and the problem only shows itself later. Never assume that because someone seemed all right at first, they are safe.</p><ul><li><strong>Delayed onset:</strong> symptoms can appear hours or days after the injury.</li><li><strong>Seeming fine:</strong> a person can look well at first and become unwell later.</li><li><strong>Keep watching:</strong> this is why continued monitoring is essential.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b0db17e7-4921-4826-a79b-08f2149c3dc9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Delayed signs",
+          "decorative": false,
+          "file": {
+            "path": "images/delayed-signs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5c221f1f-9b0e-4798-ba25-6dd4ad542921",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Changes to watch for over time</h2><p>Delayed symptoms can include a headache that comes on or gets worse, growing <strong>drowsiness</strong>, increasing confusion, and <strong>changes in behaviour</strong> such as becoming irritable, withdrawn, tearful or unlike their usual self. Sleep, mood, memory and concentration can all be affected in the hours and days after a head injury.</p><p>Because these changes creep in over time, careful <strong>monitoring</strong> is essential. Keep checking on the person, note how they seem at different points, and take any new or worsening symptom seriously. A change that develops slowly can be just as important as one that appears at once &mdash; and in an older person or someone on blood thinners, a gradual decline can be a warning of something serious.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3eb58727-417c-4431-b5e7-0cdde7c28d1c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Concussion symptoms always appear straight away, so if someone seems fine right after a fall you do not need to keep watching them.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Concussion symptoms can be delayed by hours or days, so continued monitoring is essential even when someone seems well.",
+            "correctAnswerMessage": "Correct. Symptoms can appear hours or days later, so a person must be monitored even if they seem fine at first."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "1777a775-ed52-4411-bd1f-caa043f2f70f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

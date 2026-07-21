@@ -1,0 +1,278 @@
+{
+  "slug": "drugs-and-alcohol-awareness",
+  "courseTitle": "Drugs and Alcohol Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Understanding substance use",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Drugs &amp; Alcohol Awareness</h2><p>Some of the people you support in adult social care will be affected by drugs or alcohol &mdash; either their own use or that of someone close to them. As a care worker you are often present in a person's daily life, which means you may be one of the first to notice a concern. This course helps you support people with warmth and respect, spot risks, and know when to raise the alarm.</p><ul><li><strong>Understand:</strong> what drug and alcohol misuse and dependence are.</li><li><strong>Recognise:</strong> the effects, the risks and the emergencies.</li><li><strong>Respond:</strong> follow policy, reduce harm and escalate safely.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will learn about common substances and their effects, how to take a person-centred and harm-reduction approach, the link to safeguarding, and how to respond in an emergency such as an overdose. It draws on guidance from the National Institute for Health and Care Excellence (NICE) and from Public Health England and the Office for Health Improvement &amp; Disparities (OHID).</p><p>This is an <strong>awareness and knowledge</strong> course. It builds your understanding so you can support people and escalate concerns, but it does <strong>not</strong> replace supervised, competency-based training. You do not diagnose or treat substance misuse &mdash; treatment is provided by specialist drug and alcohol services. Your role is to support, reduce harm and raise concerns.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Misuse and dependence",
+      "section": "Understanding substance use",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Misuse, dependence and why people use</h2><p>Substance misuse means using drugs or alcohol in a way that causes harm to a person's health, relationships, work or safety. Dependence is different: the body and mind come to rely on the substance, so a person feels they need it to feel normal and may find it very hard to stop. Dependence is recognised as a health condition, not a lifestyle choice or a lack of willpower.</p><ul><li><strong>Misuse:</strong> use that causes harm to the person or others.</li><li><strong>Dependence:</strong> a physical or psychological need for the substance.</li><li><strong>Tolerance:</strong> needing more over time to feel the same effect.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>People use substances for many reasons, and understanding them helps you respond without judgement. Someone may drink or use drugs to cope with pain, trauma, grief, loneliness, stress or a mental health problem. Others may have started socially, or been prescribed a medicine and become dependent. Substance use often sits alongside other difficulties such as poor housing, money worries or isolation.</p><p>Recognising these reasons does not mean excusing harmful behaviour. It means seeing the whole person, so the support you offer fits their life rather than blaming them for their situation. When you understand what drives someone's use, you are far better placed to build trust, spot when things are getting worse, and encourage safer choices at a pace the person can manage.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What best describes dependence on a substance?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The body and mind come to rely on the substance, so the person feels they need it and finds it very hard to stop.", "correct": true, "feedback": "Correct. Dependence is a recognised health condition, not a simple choice or a lack of willpower." },
+            { "text": "Choosing to use a substance now and then at social occasions.", "correct": false, "feedback": "Occasional social use is not the same as dependence, where the body and mind rely on the substance." },
+            { "text": "A short-lived habit that always stops on its own within a few days.", "correct": false, "feedback": "Dependence tends to be lasting and hard to overcome without support, not something that simply passes." },
+            { "text": "A sign that a person is weak and does not care about their health.", "correct": false, "feedback": "Dependence is a health condition, not a weakness. A judgemental view like this gets in the way of good support." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Effects and stigma",
+      "section": "Understanding substance use",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Physical, psychological and social effects</h2><p>Drugs and alcohol affect people in different ways, and the effects reach far beyond physical health. Long-term use can damage the liver, heart, brain and other organs, and raise the risk of falls, injuries and infections. It can also affect mood, memory and thinking, and can make anxiety or depression worse. The effects ripple outwards into a person's relationships, work, money and housing.</p><ul><li><strong>Physical:</strong> organ damage, poor sleep, injuries and infections.</li><li><strong>Psychological:</strong> low mood, anxiety, confusion and cravings.</li><li><strong>Social:</strong> money problems, isolation and strained relationships.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Reducing stigma and your role</h2><p>People affected by drugs or alcohol often face stigma &mdash; being judged, blamed or treated as less worthy of care. Stigma is harmful because it stops people asking for help and can affect the quality of support they receive. A non-judgemental approach means treating the person with the same dignity and respect as anyone else, focusing on their needs rather than labelling them.</p><p>Your role is to support the person day to day, encourage healthier choices at their pace, reduce the risk of harm, and raise concerns through the right channels. You are not there to lecture, police or treat &mdash; specialist services do the treatment. Watch your own language too: describe a person as someone who uses drugs, not as an addict, because the words you choose shape how the person is seen and how willing they feel to ask for help.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Alcohol and units",
+      "section": "Common substances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Alcohol and units</h2><p>Alcohol is the substance you are most likely to come across in your work, and because it is legal and widely used its harms are easy to overlook. Units are a way of measuring how much pure alcohol is in a drink, which helps people keep track of how much they drink. The stronger the drink and the larger the serving, the more units it contains.</p><ul><li><strong>One unit:</strong> ten millilitres of pure alcohol.</li><li><strong>Guideline:</strong> the UK advice is no more than fourteen units a week.</li><li><strong>Spread it out:</strong> if drinking that much, spread it over three or more days.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>The UK Chief Medical Officers' low-risk guideline is to drink no more than fourteen units a week on a regular basis, spread across three or more days, with several drink-free days. There is no completely safe level of drinking, but keeping within this guideline lowers the risk of long-term harm. Drinking a large amount in one session is especially risky and can lead to accidents, injuries and alcohol poisoning.</p><p>For someone who is dependent on alcohol, suddenly stopping can be dangerous. If a person you support wants to cut down or stop, encourage them to speak to their GP or a specialist service rather than stopping abruptly on their own.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "One *unit* of alcohol is ten millilitres of pure alcohol. The UK guideline is no more than *fourteen* units a week, spread over three or more days. Someone who is *dependent* should not stop *suddenly*, as this can be dangerous."
+        }
+      ]
+    },
+    {
+      "label": "Depressants and stimulants",
+      "section": "Common substances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Depressants, stimulants and opioids</h2><p>At an awareness level it helps to know the broad groups of substances and what they do, because this shapes the risks. You are not expected to identify specific drugs, but knowing how a group affects the body helps you notice when someone may be unwell or in danger.</p><ul><li><strong>Depressants:</strong> alcohol and some medicines that slow the body and breathing down.</li><li><strong>Stimulants:</strong> substances such as cocaine that speed the body up.</li><li><strong>Opioids:</strong> heroin and some strong painkillers that relieve pain and slow breathing.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Depressants slow down the brain and body. They can make a person drowsy, slow their breathing and, in large amounts, cause them to lose consciousness. Stimulants speed the body up, raising heart rate and blood pressure and reducing tiredness and appetite; they can trigger anxiety, agitation and, in some cases, heart problems.</p><p>Opioids relieve pain and produce a sense of calm, but they slow breathing, which is what makes an overdose life-threatening. Because different substances act in different ways, the signs that someone is unwell will differ too &mdash; so trust your instinct if a person seems very drowsy, very agitated or hard to rouse, and seek help.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why is it important to know the broad group a substance belongs to?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Because how a substance affects the body shapes the risks and the signs that someone may be unwell.", "correct": true, "feedback": "Correct. Knowing whether something slows the body down or speeds it up helps you spot danger." },
+            { "text": "So you can tell the person exactly which drug they should use instead.", "correct": false, "feedback": "That is not your role. Awareness of the groups is about recognising risk, not advising on drug use." },
+            { "text": "So you can test and identify the exact substance yourself.", "correct": false, "feedback": "You are not expected to identify substances. Awareness is about understanding effects and risks." },
+            { "text": "It is not important; all substances affect the body in exactly the same way.", "correct": false, "feedback": "Substances differ. Depressants slow the body, stimulants speed it up, and this changes the risks." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Medicines and misuse",
+      "section": "Common substances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Prescription and over-the-counter medicines</h2><p>Not all substance misuse involves illegal drugs. Prescription and over-the-counter medicines can also be misused, sometimes without the person realising the risk. Strong painkillers, sleeping tablets and some medicines for anxiety can lead to dependence, especially when taken for a long time or in higher doses than prescribed.</p><ul><li><strong>Prescription medicines:</strong> can cause dependence even when first taken as directed.</li><li><strong>Over-the-counter medicines:</strong> some painkillers and cold remedies can be misused.</li><li><strong>Report changes:</strong> tell a senior if you notice medicines running out too quickly.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>A person may become dependent on a medicine that was prescribed for a genuine reason, such as pain or difficulty sleeping. This is not their fault, and they may feel ashamed or worried about mentioning it. If you notice that medicines are being used more quickly than expected, that a person seems overly drowsy, or that they are buying extra painkillers, record what you have seen factually and report it to your senior or the person's GP.</p><p>Never adjust, withhold or add to someone's medication yourself. Changes to prescribed medicines are a clinical decision for a doctor or pharmacist, working with the person. Your part is to follow the care plan, support the person to take medicines as prescribed, and pass on anything that concerns you.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Prescription and over-the-counter medicines can be misused and can lead to dependence, not just illegal drugs.",
+          "correct": true,
+          "correctMsg": "Correct. Medicines such as strong painkillers and sleeping tablets can lead to dependence and should be treated with care.",
+          "wrongMsg": "Not quite. Legal medicines can also be misused and cause dependence, so concerns should always be reported."
+        }
+      ]
+    },
+    {
+      "label": "Mixing substances",
+      "section": "Common substances",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The risks of mixing substances</h2><p>Using more than one substance at a time, or mixing a substance with medicines, is especially dangerous. The effects can add together or interact in ways that are hard to predict, raising the risk of serious harm even when each substance on its own might seem manageable to the person.</p><ul><li><strong>Adding up:</strong> two depressants together can dangerously slow breathing.</li><li><strong>Unpredictable:</strong> reactions can be stronger or different from usual.</li><li><strong>Higher risk:</strong> mixing raises the chance of overdose and emergencies.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Mixing depressants is a particular danger. Alcohol, opioids and some sleeping or anxiety medicines all slow breathing, so taking them together can stop a person breathing altogether. Combining a stimulant with a depressant is also risky, because the person may not feel how much they have taken and can push their body dangerously hard.</p><p>You are not expected to work out what someone has taken. What matters is that you know mixing raises the risk, that you record and report concerns, and that you treat any sign of a person being very drowsy, confused or hard to wake as a possible emergency.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Mixing two *depressants*, such as alcohol and opioids, can dangerously slow a person's *breathing*. Mixing substances makes the effects harder to *predict* and raises the risk of *overdose*."
+        }
+      ]
+    },
+    {
+      "label": "Harm reduction",
+      "section": "Supporting people",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred and harm-reduction approaches</h2><p>Not everyone who uses drugs or alcohol is ready or able to stop, and support still matters in the meantime. Harm reduction means reducing the damage that substance use can cause, even if the person continues to use. It is a practical, respectful approach that meets people where they are rather than setting stopping as the only acceptable goal.</p><ul><li><strong>Person-centred:</strong> support fits the person's own goals and pace.</li><li><strong>Harm reduction:</strong> reduce risks even while someone still uses.</li><li><strong>Small steps:</strong> any move towards safety or health is progress.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>In practice, harm reduction might mean encouraging someone to eat and stay hydrated, to avoid using alone, or to keep to safer amounts. It means building trust so the person feels able to talk openly. When someone shows they are ready to think about change, you can gently support them towards their GP or a local specialist drug and alcohol service, which provides the treatment.</p><p>Change is often gradual, with setbacks along the way. Keep supporting without judgement, celebrate small steps, and remember that a relapse is part of many people's journey rather than a failure. What can feel like going backwards is often part of learning what helps, and a warm, steady response keeps the door open for the person to try again. Always follow your care plan and organisational policy.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does a harm-reduction approach mean?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Reducing the harm that substance use can cause, even if the person is not ready to stop.", "correct": true, "feedback": "Correct. Harm reduction meets people where they are and reduces risk while respecting their choices." },
+            { "text": "Refusing to support anyone until they agree to stop using completely.", "correct": false, "feedback": "That is not harm reduction. Support continues even when a person is not ready to stop." },
+            { "text": "Providing the treatment for dependence yourself instead of specialist services.", "correct": false, "feedback": "Treatment is provided by specialist services. Your role is support and reducing harm." },
+            { "text": "Ignoring the risks because the person has chosen to keep using.", "correct": false, "feedback": "Harm reduction actively lowers risk; it does not mean ignoring danger." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Safety and safeguarding",
+      "section": "Supporting people",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Medication, safety and safeguarding</h2><p>When you support someone in their own home, keeping medicines and substances stored safely matters for everyone. Unsecured medicines can be taken by mistake, taken by others, or add to the risk of overdose. Notice hazards such as medicines left out, alcohol combined with prescribed drugs, or signs that the home is becoming unsafe or neglected.</p><ul><li><strong>Safe storage:</strong> medicines kept securely, out of reach of others.</li><li><strong>Self-neglect:</strong> not eating, washing or heating the home can be a safeguarding concern.</li><li><strong>Record and report:</strong> raise concerns through your safeguarding process.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Substance misuse can be linked to safeguarding. A person may be at risk of harm to themselves through overdose, accidents or serious self-neglect, or at risk from others who exploit their situation for money, drugs or their home. Self-neglect &mdash; where a person is not caring for their own health, hygiene or surroundings &mdash; is recognised as a form of abuse and neglect under safeguarding guidance.</p><p>If you are worried that someone is at risk, or that a child or another adult in the household is being harmed, you must act. Record what you have seen factually and report it straight away to your manager or safeguarding lead, following your organisation's procedure.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice a person you support is not eating, not heating their home and has unsecured medicines left out. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Record what you have seen factually and report it as a safeguarding concern following your organisation's procedure.", "correct": true, "feedback": "Correct. Self-neglect and unsafe medicines are safeguarding concerns that must be recorded and escalated." },
+            { "text": "Say nothing, as it is the person's own home and none of your business.", "correct": false, "feedback": "Serious self-neglect is a safeguarding matter. You have a duty to record and report it." },
+            { "text": "Tidy the medicines away and decide not to mention it to anyone.", "correct": false, "feedback": "Concerns must be reported so the right support can be put in place, not handled quietly alone." },
+            { "text": "Tell the person off for not looking after themselves.", "correct": false, "feedback": "A judgemental response is unhelpful. Support the person and escalate the concern appropriately." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Families and children",
+      "section": "Supporting people",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The effect on families and children</h2><p>Substance use rarely affects only one person. Partners, parents, children and other relatives often carry a heavy load, and the person you support may be a family member of someone who uses drugs or alcohol. Being aware of this wider impact helps you offer support to the whole household and spot when others may need help too.</p><ul><li><strong>Families:</strong> may face stress, money worries and strained relationships.</li><li><strong>Children:</strong> can be at risk of neglect or harm and must be protected.</li><li><strong>Carers:</strong> relatives supporting a person may need help in their own right.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Children living with parental substance misuse are especially vulnerable. Their needs may be overlooked, routines may be disrupted, and they may take on caring responsibilities beyond their years. Any concern that a child is being neglected or harmed is a safeguarding matter that must be reported without delay, following your organisation's child safeguarding procedure &mdash; even if your role is to support an adult.</p><p>Adult family members can also struggle, sometimes developing their own health or mental health problems, or feeling isolated and exhausted by their caring role. You can offer a listening ear, treat them with respect, and signpost them to their GP or local support services, while making sure any risk you notice is escalated to your manager. Small acts of recognition can make a real difference to a family that feels unseen.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Overdose and emergencies",
+      "section": "Risks and the workplace",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising overdose and alcohol poisoning</h2><p>An overdose or alcohol poisoning is a medical emergency. Being able to recognise the warning signs and act quickly can save a life. The signs vary with the substance, but any sign that a person cannot be woken, is struggling to breathe or is losing consciousness must be treated as an emergency.</p><ul><li><strong>Opioid overdose:</strong> very slow or stopped breathing, pinpoint pupils, hard to wake.</li><li><strong>Alcohol poisoning:</strong> confusion, vomiting, cold or clammy skin, slow breathing.</li><li><strong>Unresponsive:</strong> someone who cannot be roused needs urgent help.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>If you find someone who is unresponsive or barely breathing, call 999 immediately and tell the operator what you have seen and, if you know, what the person may have taken. Do not leave them alone if you can avoid it, and follow the operator's instructions. If the person is unconscious but breathing, place them in the recovery position &mdash; on their side with the head tilted back &mdash; to help keep their airway clear and reduce the risk of choking on vomit.</p><p>Never try to make the person sick, give them food or a cold shower, or leave them to sleep it off. Stay with them, keep them safe and let the emergency services take over.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You find someone unconscious but breathing after suspected substance use. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Call 999, place them in the recovery position, stay with them and follow the operator's instructions.", "correct": true, "feedback": "Correct. The recovery position helps keep the airway clear while you wait for emergency help." },
+            { "text": "Leave them to sleep it off and check back later.", "correct": false, "feedback": "This is dangerous. An unconscious person needs urgent help and should not be left alone." },
+            { "text": "Give them a cold shower and strong coffee to wake them up.", "correct": false, "feedback": "These do not help and can cause harm. Call 999 and use the recovery position." },
+            { "text": "Try to make them sick to bring the substance back up.", "correct": false, "feedback": "Never do this. It can cause choking. Call 999 and follow the operator's guidance." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Naloxone and withdrawal",
+      "section": "Risks and the workplace",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Naloxone and withdrawal</h2><p>Naloxone is a medicine that can temporarily reverse the effects of an opioid overdose by helping the person breathe again. It is safe to use in an emergency, gives no reward if opioids are not present, and is increasingly available to carers and family members through local services. Even after giving naloxone, you must still call 999, because its effect can wear off before the opioids do.</p><ul><li><strong>Naloxone:</strong> temporarily reverses an opioid overdose.</li><li><strong>Still call 999:</strong> naloxone buys time but is not a substitute for emergency care.</li><li><strong>Awareness only:</strong> use it only if trained and if your policy allows.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Withdrawal happens when a dependent person suddenly stops or cuts down a substance. Symptoms depend on the substance but can include sweating, shaking, sickness, agitation, anxiety and cravings. Withdrawal from alcohol or some medicines can be severe and even life-threatening, which is why stopping should be managed by specialist services rather than attempted alone.</p><p>If someone you support is showing withdrawal symptoms, or wants to stop using, do not encourage them to stop abruptly. Reassure them, keep them safe, and help them get medical support from their GP or a specialist service. Report what you have noticed so the right help can be arranged.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "After giving naloxone to someone who has overdosed on opioids, there is no longer any need to call 999.",
+          "correct": false,
+          "correctMsg": "Correct. You must still call 999, because naloxone is temporary and its effect can wear off before the opioids do.",
+          "wrongMsg": "Not quite. Naloxone only works for a short time, so you must always still call 999 and get emergency help."
+        }
+      ]
+    },
+    {
+      "label": "Your workplace policy",
+      "section": "Risks and the workplace",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Your drug and alcohol policy</h2><p>Your organisation will have a drug and alcohol policy that sets out how to support people affected by substances and what is expected of you as a worker. Knowing this policy means you respond consistently, record properly and escalate through the right channels. If you are unsure what to do in any situation, your manager and the policy are your first points of reference.</p><ul><li><strong>Supporting people:</strong> how to record concerns and who to report them to.</li><li><strong>Fit for work:</strong> you must never work while affected by drugs or alcohol.</li><li><strong>Escalation:</strong> when and how to raise safeguarding or health concerns.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Being fit for work is part of your professional duty. You must never care for people while under the influence of alcohol or drugs, including some prescribed medicines that affect your alertness, as this puts the people you support and your colleagues at risk. If a medicine you are prescribed could affect your work, speak to your manager. If you are struggling with your own substance use, your organisation should be able to offer confidential support.</p><p>This course has raised your <strong>awareness</strong> so you can support people without judgement, reduce harm, respond to emergencies and escalate concerns. It does <strong>not</strong> replace supervised, competency-based training, and it does not qualify you to treat substance misuse &mdash; treatment is always provided by specialist drug and alcohol services. Always work within your role, your training and your organisation's policy.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which statement about being fit for work is correct?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "You must never care for people while under the influence of alcohol or drugs, and should tell your manager if a prescribed medicine could affect your work.", "correct": true, "feedback": "Correct. Being fit for work protects the people you support and your colleagues." },
+            { "text": "It is fine to work after drinking as long as you feel you are coping.", "correct": false, "feedback": "No. Working while affected by alcohol puts people at risk and breaches policy." },
+            { "text": "Prescribed medicines never need to be mentioned to your manager.", "correct": false, "feedback": "Some medicines affect alertness, so you should tell your manager if yours could affect your work." },
+            { "text": "Fitness for work only matters for nurses, not care workers.", "correct": false, "feedback": "Being fit for work applies to everyone caring for people, including care workers." }
+          ]
+        }
+      ]
+    }
+  ]
+}

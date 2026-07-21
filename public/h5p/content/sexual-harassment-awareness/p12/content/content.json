@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to report a concern</h2><p>If you experience, witness or are told about sexual harassment, report it through your organisation&rsquo;s agreed routes. Usually this means telling your manager, a designated person, or your safeguarding lead, and recording what happened using clear, factual language. If your line manager is involved in the concern, your policy will set out an alternative person to approach.</p><ul><li><strong>Tell the right person:</strong> your manager, a designated lead, or safeguarding lead.</li><li><strong>Record it:</strong> note the facts &mdash; what, when, where and who was involved.</li><li><strong>Do not delay:</strong> raise the concern promptly, without waiting for &ldquo;proof&rdquo;.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2069cb1b-2bde-435b-935d-5536bc6e9325",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting &amp; support",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-amp-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7ca025cb-8f75-4f2b-b1b8-07e56362fdf5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality and support</h2><p>Information about sexual harassment should be handled sensitively and shared only with those who need to know in order to act. Confidentiality helps protect everyone involved, though it cannot be absolute &mdash; where there is a safeguarding risk, information must be shared with the right people to keep someone safe.</p><p>Support is available. This can include your manager, your organisation&rsquo;s policies and any employee assistance or occupational health service, your trade union, and external bodies such as ACAS or the Equality and Human Rights Commission. Where a person who uses services is affected, your local authority safeguarding team is also part of that support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d33f9ad0-249e-41b1-9528-99907073dde6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is good practice when reporting sexual harassment?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly to your manager or safeguarding lead, record the facts clearly, and share information only with those who need to know.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prompt, factual reporting through the right routes, with sensitive handling of information, is good practice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until you have gathered enough proof to be completely certain.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you do not need proof; raise the concern promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Discuss the details with everyone in the team so people are warned.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; information should be shared only with those who need to know.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide by yourself whether it is serious enough to bother reporting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; do not judge it too minor to raise; report it so the right people can act.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0a13fedc-cdbf-4052-b028-be78ea90341f",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

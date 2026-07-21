@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Natasha&rsquo;s Law and PPDS foods</h2><p>In 2016, a young woman named Natasha Ednan-Laperouse died after an allergic reaction to sesame in a baguette. The sesame was baked into the bread but was not listed on the packaging, because the law at the time did not require it. Her family campaigned for change, and the result is often called <strong>Natasha&rsquo;s Law</strong>.</p><ul><li><strong>The gap:</strong> some freshly made, packaged food carried no ingredient list.</li><li><strong>The change:</strong> new rules to close that gap.</li><li><strong>The aim:</strong> clearer information so people can make safe choices.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bf253dec-1ee5-48d0-aa06-30596a4390f3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Natasha's Law",
+          "decorative": false,
+          "file": {
+            "path": "images/natasha-s-law.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "30c16389-f2ee-4246-abcc-6b3aa045c09b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What the law requires</h2><p>Since October 2021, Natasha&rsquo;s Law applies to food that is <strong>prepacked for direct sale</strong>, often shortened to <strong>PPDS</strong>. This means food packaged on the same premises before a person orders it &mdash; for example a sandwich made in the morning and wrapped ready on a shelf, or a salad boxed up in advance in a care home kitchen or caf&eacute;.</p><p>PPDS foods must now carry a full <strong>ingredients list</strong>, with the allergens <strong>emphasised</strong>, just like other prepacked foods. This helps people with allergies see exactly what is in freshly made food. In a care setting, if your kitchen prepares and packages food ahead of time, it should be labelled this way &mdash; and if you are ever unsure whether a packaged item has been checked, ask the kitchen or a senior colleague before serving it. The law exists to make sure that no one has to guess what is in the food they are given.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6857d83-d8b4-4812-af2d-5b4cd6e92906",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -3,186 +3,186 @@
  "creditsFile": "public/h5p/IMAGE-CREDITS.json",
  "insertions": [
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 1,
    "file": "welcome.svg",
    "alt": "Illustration for Welcome",
-   "srcDir": "public/h5p/content/risk-assessment/p1/content/images"
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p1/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 2,
-   "file": "hazard-and-risk.svg",
-   "alt": "Illustration for Hazard and risk",
-   "srcDir": "public/h5p/content/risk-assessment/p2/content/images"
+   "file": "misuse-and-dependence.svg",
+   "alt": "Illustration for Misuse and dependence",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p2/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 3,
-   "file": "the-legal-duty.svg",
-   "alt": "Illustration for The legal duty",
-   "srcDir": "public/h5p/content/risk-assessment/p3/content/images"
+   "file": "effects-and-stigma.svg",
+   "alt": "Illustration for Effects and stigma",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p3/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 4,
-   "file": "five-steps-hazards.svg",
-   "alt": "Illustration for Five steps: hazards",
-   "srcDir": "public/h5p/content/risk-assessment/p4/content/images"
+   "file": "alcohol-and-units.svg",
+   "alt": "Illustration for Alcohol and units",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p4/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 5,
-   "file": "who-might-be-harmed.svg",
-   "alt": "Illustration for Who might be harmed",
-   "srcDir": "public/h5p/content/risk-assessment/p5/content/images"
+   "file": "depressants-and-stimulants.svg",
+   "alt": "Illustration for Depressants and stimulants",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p5/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 6,
-   "file": "evaluate-and-control.svg",
-   "alt": "Illustration for Evaluate and control",
-   "srcDir": "public/h5p/content/risk-assessment/p6/content/images"
+   "file": "medicines-and-misuse.svg",
+   "alt": "Illustration for Medicines and misuse",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p6/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 7,
-   "file": "record-and-review.svg",
-   "alt": "Illustration for Record and review",
-   "srcDir": "public/h5p/content/risk-assessment/p7/content/images"
+   "file": "mixing-substances.svg",
+   "alt": "Illustration for Mixing substances",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p7/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 8,
-   "file": "the-hierarchy.svg",
-   "alt": "Illustration for The hierarchy",
-   "srcDir": "public/h5p/content/risk-assessment/p8/content/images"
+   "file": "harm-reduction.svg",
+   "alt": "Illustration for Harm reduction",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p8/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 9,
-   "file": "safe-systems-of-work.svg",
-   "alt": "Illustration for Safe systems of work",
-   "srcDir": "public/h5p/content/risk-assessment/p9/content/images"
+   "file": "safety-and-safeguarding.svg",
+   "alt": "Illustration for Safety and safeguarding",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p9/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 10,
-   "file": "who-is-responsible.svg",
-   "alt": "Illustration for Who is responsible",
-   "srcDir": "public/h5p/content/risk-assessment/p10/content/images"
+   "file": "families-and-children.svg",
+   "alt": "Illustration for Families and children",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p10/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 11,
-   "file": "dynamic-risk-assessment.svg",
-   "alt": "Illustration for Dynamic risk assessment",
-   "srcDir": "public/h5p/content/risk-assessment/p11/content/images"
+   "file": "overdose-and-emergencies.svg",
+   "alt": "Illustration for Overdose and emergencies",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p11/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 12,
-   "file": "positive-risk-taking.svg",
-   "alt": "Illustration for Positive risk-taking",
-   "srcDir": "public/h5p/content/risk-assessment/p12/content/images"
+   "file": "naloxone-and-withdrawal.svg",
+   "alt": "Illustration for Naloxone and withdrawal",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p12/content/images"
   },
   {
-   "course": "risk-assessment",
+   "course": "drugs-and-alcohol-awareness",
    "page": 13,
-   "file": "review-and-report.svg",
-   "alt": "Illustration for Review and report",
-   "srcDir": "public/h5p/content/risk-assessment/p13/content/images"
+   "file": "your-workplace-policy.svg",
+   "alt": "Illustration for Your workplace policy",
+   "srcDir": "public/h5p/content/drugs-and-alcohol-awareness/p13/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 1,
    "file": "welcome.svg",
    "alt": "Illustration for Welcome",
-   "srcDir": "public/h5p/content/legionnaires-disease/p1/content/images"
+   "srcDir": "public/h5p/content/concussion-awareness/p1/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 2,
-   "file": "legionnaires-disease.svg",
-   "alt": "Illustration for Legionnaires' disease",
-   "srcDir": "public/h5p/content/legionnaires-disease/p2/content/images"
+   "file": "what-is-concussion.svg",
+   "alt": "Illustration for What is concussion?",
+   "srcDir": "public/h5p/content/concussion-awareness/p2/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 3,
-   "file": "who-is-at-risk.svg",
-   "alt": "Illustration for Who is at risk",
-   "srcDir": "public/h5p/content/legionnaires-disease/p3/content/images"
+   "file": "causes-in-care.svg",
+   "alt": "Illustration for Causes in care",
+   "srcDir": "public/h5p/content/concussion-awareness/p3/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 4,
-   "file": "how-legionella-grows.svg",
-   "alt": "Illustration for How legionella grows",
-   "srcDir": "public/h5p/content/legionnaires-disease/p4/content/images"
+   "file": "immediate-signs.svg",
+   "alt": "Illustration for Immediate signs",
+   "srcDir": "public/h5p/content/concussion-awareness/p4/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 5,
-   "file": "breathable-droplets.svg",
-   "alt": "Illustration for Breathable droplets",
-   "srcDir": "public/h5p/content/legionnaires-disease/p5/content/images"
+   "file": "delayed-signs.svg",
+   "alt": "Illustration for Delayed signs",
+   "srcDir": "public/h5p/content/concussion-awareness/p5/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 6,
-   "file": "stagnant-water.svg",
-   "alt": "Illustration for Stagnant water",
-   "srcDir": "public/h5p/content/legionnaires-disease/p6/content/images"
+   "file": "monitoring-symptoms.svg",
+   "alt": "Illustration for Monitoring symptoms",
+   "srcDir": "public/h5p/content/concussion-awareness/p6/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 7,
-   "file": "temperature-control.svg",
-   "alt": "Illustration for Temperature control",
-   "srcDir": "public/h5p/content/legionnaires-disease/p7/content/images"
+   "file": "when-it-s-an-emergency.svg",
+   "alt": "Illustration for When it's an emergency",
+   "srcDir": "public/h5p/content/concussion-awareness/p7/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 8,
-   "file": "flushing-outlets.svg",
-   "alt": "Illustration for Flushing outlets",
-   "srcDir": "public/h5p/content/legionnaires-disease/p8/content/images"
+   "file": "the-red-flags.svg",
+   "alt": "Illustration for The red flags",
+   "srcDir": "public/h5p/content/concussion-awareness/p8/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 9,
-   "file": "cleaning-showerheads.svg",
-   "alt": "Illustration for Cleaning showerheads",
-   "srcDir": "public/h5p/content/legionnaires-disease/p9/content/images"
+   "file": "basic-first-aid.svg",
+   "alt": "Illustration for Basic first aid",
+   "srcDir": "public/h5p/content/concussion-awareness/p9/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 10,
-   "file": "the-water-safety-plan.svg",
-   "alt": "Illustration for The water safety plan",
-   "srcDir": "public/h5p/content/legionnaires-disease/p10/content/images"
+   "file": "blood-thinners-caution.svg",
+   "alt": "Illustration for Blood thinners caution",
+   "srcDir": "public/h5p/content/concussion-awareness/p10/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 11,
-   "file": "symptoms-to-know.svg",
-   "alt": "Illustration for Symptoms to know",
-   "srcDir": "public/h5p/content/legionnaires-disease/p11/content/images"
+   "file": "rest-and-recovery.svg",
+   "alt": "Illustration for Rest and recovery",
+   "srcDir": "public/h5p/content/concussion-awareness/p11/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 12,
-   "file": "reporting-problems.svg",
-   "alt": "Illustration for Reporting problems",
-   "srcDir": "public/h5p/content/legionnaires-disease/p12/content/images"
+   "file": "recording-and-reporting.svg",
+   "alt": "Illustration for Recording and reporting",
+   "srcDir": "public/h5p/content/concussion-awareness/p12/content/images"
   },
   {
-   "course": "legionnaires-disease",
+   "course": "concussion-awareness",
    "page": 13,
-   "file": "your-role.svg",
-   "alt": "Illustration for Your role",
-   "srcDir": "public/h5p/content/legionnaires-disease/p13/content/images"
+   "file": "summary.svg",
+   "alt": "Illustration for Summary",
+   "srcDir": "public/h5p/content/concussion-awareness/p13/content/images"
   }
  ]
 }

@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>It is about impact, not intent</h2><p>A common misunderstanding is that behaviour only counts as harassment if the person meant to cause harm. The law is clear that this is not so. Conduct can amount to sexual harassment because of its <strong>effect</strong> on the person, even if the person responsible says it was &ldquo;only a joke&rdquo; or that they did not intend any offence. What one person finds harmless, another may find deeply upsetting.</p><ul><li><strong>Effect counts:</strong> the impact on the person can make conduct harassment.</li><li><strong>Intent is not required:</strong> &ldquo;just banter&rdquo; is not a defence.</li><li><strong>Perception matters:</strong> how the conduct is reasonably experienced is considered.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "93472a79-d06b-4149-a3ca-15803b6f1b07",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Impact not intent",
+          "decorative": false,
+          "file": {
+            "path": "images/impact-not-intent.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d87a487b-983c-443c-a02e-7dbe9198c3cb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role as a care worker</h2><p>In deciding whether conduct has the effect of violating dignity or creating a hostile environment, the law takes into account the person&rsquo;s own perception, all the circumstances, and whether it is reasonable for the conduct to have that effect. This means the experience of the person affected is central, and their feelings should not be dismissed.</p><p>Your role is not to judge whether a legal test has been met &mdash; that is not your job. Your role is to treat people with respect, to take concerns seriously, to avoid conduct that could make others uncomfortable, and to know how to respond and report when something is wrong.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4298904b-563d-4355-a479-2f48efab74fd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Conduct can amount to sexual harassment because of its effect on a person, even if the person responsible did not intend to cause any harm.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Conduct can be harassment because of its effect on the person, whether or not harm was intended.",
+            "correctAnswerMessage": "Correct. Sexual harassment is judged by its effect, so a lack of intent is not a defence."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "05481ed7-7c15-4cf5-a598-e1e479232801",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
