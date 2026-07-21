@@ -1,0 +1,644 @@
+{
+  "slug": "tracheostomy-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is a tracheostomy?",
+      "options": [
+        "A type of hearing aid worn around the neck",
+        "A plaster placed over the mouth to help someone breathe",
+        "A machine that breathes on the person's behalf at all times",
+        "A surgically created opening in the front of the neck that goes directly into the windpipe, below the voice box"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the opening of a tracheostomy in the neck called?",
+      "options": [
+        "A valve",
+        "A cuff",
+        "A stoma",
+        "A cannula"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main purpose of this Tracheostomy Awareness course?",
+      "options": [
+        "To qualify you to suction a tracheostomy",
+        "To train you to perform tracheostomy surgery",
+        "To qualify you to change tracheostomy tubes",
+        "To raise your awareness so you can support safely and recognise an emergency"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In normal breathing, what does the nose and upper airway do to the air we breathe in?",
+      "options": [
+        "Adds secretions to it",
+        "Cools, dries and colours it",
+        "Removes all the oxygen from it",
+        "Warms, moistens and filters it"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why might a person with a tracheostomy be unable to speak normally?",
+      "options": [
+        "The person simply chooses not to talk to carers",
+        "A tracheostomy damages the person's ability to think",
+        "Air enters below the voice box, so less air passes across it to make sound",
+        "The tube makes the mouth too dry to form words"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is a cuffed tracheostomy tube?",
+      "options": [
+        "A tube that is only ever used for children",
+        "A tube with no balloon that lets air pass around it",
+        "A tube with an inflatable balloon around its lower end that can help seal the airway",
+        "A tube made entirely of soft cloth"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is an uncuffed tracheostomy tube?",
+      "options": [
+        "A tube that cannot be removed once fitted",
+        "A tube with no balloon, allowing air to pass around it",
+        "A tube with a large balloon that always seals the airway",
+        "A tube that automatically suctions the airway"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who decides which type of tracheostomy tube a person has?",
+      "options": [
+        "Any care worker on shift",
+        "Trained clinical staff, chosen to suit the person's needs",
+        "The person themselves without any advice",
+        "The person's family members"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a removable inner tube (inner cannula)?",
+      "options": [
+        "A part that sits inside the outer tube and can be taken out for cleaning while the outer tube keeps the airway open",
+        "The balloon at the end of a cuffed tube",
+        "A spare tube kept in the office cupboard",
+        "The tie that holds the tube around the neck"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is the removable inner tube described as a safety feature?",
+      "options": [
+        "It makes the tube completely waterproof",
+        "It allows the person to speak completely normally",
+        "It can be removed quickly to help clear the airway if secretions start to block it",
+        "It means the person never needs humidification"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "At an awareness level, how does a laryngectomy differ from a tracheostomy?",
+      "options": [
+        "After a laryngectomy the neck opening is the only airway, with no connection through the nose or mouth to the lungs",
+        "There is no difference; the words mean the same thing",
+        "A laryngectomy is always a temporary tube removed within a week",
+        "A person with a laryngectomy can always breathe normally through their nose"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "With a tracheostomy (as opposed to a laryngectomy), what is still true of the airway?",
+      "options": [
+        "The person can never breathe through the tube",
+        "The nose and mouth are permanently sealed off",
+        "The voice box has been surgically removed",
+        "The voice box is still in place and there may still be a connection between mouth, nose and windpipe"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why does the difference between tracheostomy and laryngectomy matter to a responder?",
+      "options": [
+        "It changes the person's mealtimes",
+        "It changes the colour of the person's clothing",
+        "It has no effect on how an emergency is handled",
+        "It changes how oxygen and help can reach the lungs"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why does the airway of a person with a tracheostomy tend to dry out?",
+      "options": [
+        "Because the room is always too humid",
+        "Because the person drinks too much fluid",
+        "Because the tube is made of metal",
+        "Because air enters below the nose and is not warmed and moistened before reaching the windpipe"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is humidification, in the context of tracheostomy care?",
+      "options": [
+        "Added moisture to replace what the nose would normally provide to the air",
+        "A way of making the room smell pleasant for visitors",
+        "A type of emergency phone call",
+        "A method of drying out the person's secretions"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What can happen to secretions if the airway is left cold and dry without humidification?",
+      "options": [
+        "They make the person speak more clearly",
+        "They turn into clean water",
+        "They become thick, sticky and harder to clear, and can block the tube",
+        "They disappear completely"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should the skin around the stoma be kept?",
+      "options": [
+        "Wet and covered at all times",
+        "Coated in talcum powder",
+        "Clean and dry",
+        "Left completely uncovered and unwatched"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A common guide for how tight tracheostomy ties should be is that they are:",
+      "options": [
+        "So tight that no finger can fit underneath",
+        "So loose the tube can easily fall out",
+        "Removed completely during the day",
+        "Snug, but you can still slide a finger comfortably underneath"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these could obstruct a tracheostomy tube opening and should be kept clear of it?",
+      "options": [
+        "A call bell placed within reach",
+        "A pen and paper for communication",
+        "Bedding, clothing, a scarf or the person's own chin when they slump forward",
+        "The person's prescribed humidification"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why must water be kept out of a tracheostomy tube during washing?",
+      "options": [
+        "Because water makes the ties change colour",
+        "Because water improves the person's speech",
+        "Because water is needed to inflate the cuff",
+        "Because the tube leads straight into the windpipe, so anything entering it goes towards the lungs"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these should be kept away from the tracheostomy opening?",
+      "options": [
+        "The person's call bell",
+        "The heat and moisture exchanger prescribed in the care plan",
+        "The person's picture or alphabet board",
+        "Aerosols, talcum powder, and fluff or fibres from tissues and blankets"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Because speech is affected, which communication approach is recommended?",
+      "options": [
+        "Only speak to the person's family and ignore the person",
+        "Agree simple signals and keep a pen and paper, picture or alphabet board, or a tablet within reach",
+        "Refuse to communicate until speech returns",
+        "Rush the person and pretend to understand when you do not"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is suctioning of a tracheostomy?",
+      "options": [
+        "Blowing air into the tube to inflate the lungs",
+        "Giving the person a drink of water",
+        "Wiping the outside of the neck with a dry cloth",
+        "Using a thin catheter and a machine to gently draw secretions out of the tube and airway to keep it clear"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is suctioning only carried out by specifically trained staff?",
+      "options": [
+        "Because it can be uncomfortable and, done wrongly, can harm the airway, cause bleeding or infection, or drop the person's oxygen",
+        "Because it is against the person's religion",
+        "Because it is boring and time-consuming",
+        "Because the equipment is very expensive to buy"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "You are supporting someone with a tracheostomy who you think may need suctioning. What should you do?",
+      "options": [
+        "Wait several hours to see whether it clears on its own",
+        "Recognise they may need their airway cleared and get a trained colleague to help without delay; do not suction yourself",
+        "Tell the person to hold their breath until a nurse arrives",
+        "Carry out the suctioning yourself as quickly as you can"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign that a person's airway may be clogging up with secretions?",
+      "options": [
+        "Quiet, easy, comfortable breathing",
+        "The person singing loudly",
+        "The person's ties being correctly secured",
+        "Noisy, rattly or bubbly breathing, or breathing that becomes harder work"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A tracheostomy emergency is usually about the airway being:",
+      "options": [
+        "Blocked, or the tube being displaced (out of position or fallen out)",
+        "Cleaned and freshly dressed",
+        "Perfectly clear and comfortable",
+        "Slightly dry but working normally"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person with a tracheostomy suddenly has lips, face or skin turning pale, grey or blue while struggling to breathe. What does this colour change mean?",
+      "options": [
+        "The humidification is working well",
+        "The ties are slightly too loose",
+        "The person is not getting enough oxygen, and it is an emergency",
+        "The person is feeling too warm"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is your single most important action if a person with a tracheostomy cannot breathe?",
+      "options": [
+        "Wait to see whether their breathing improves before doing anything",
+        "Try to change the tracheostomy tube yourself before help arrives",
+        "Leave the person to look for the care plan in the office",
+        "Get urgent help immediately - call 999 (or have someone call) and tell them the person has a tracheostomy"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "On the bedhead sign, which colour is used for a tracheostomy and which for a laryngectomy?",
+      "options": [
+        "Blue for tracheostomy, yellow for laryngectomy",
+        "Black for tracheostomy, white for laryngectomy",
+        "Green for tracheostomy, red for laryngectomy",
+        "Red for tracheostomy, green for laryngectomy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the bedhead sign show a responder at a glance?",
+      "options": [
+        "The price of the tracheostomy equipment",
+        "What kind of airway the person has and key details a responder needs",
+        "The person's favourite meals",
+        "The visiting hours for the family"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When you call 999 for a tracheostomy emergency, what vital information should you give the call handler?",
+      "options": [
+        "Nothing; you should just hang up and wait",
+        "Only your own name and job title",
+        "The person's favourite television programme",
+        "That the person has a tracheostomy, or a laryngectomy, so the right response comes"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "While waiting for trained help for someone whose airway may need clearing, what should you do?",
+      "options": [
+        "Stay with the person, keep them calm, help them into a good breathing position, and ensure nothing covers the tube",
+        "Leave the person alone and go for a break",
+        "Cover the tube with a scarf to keep them warm",
+        "Attempt to suction the airway yourself"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If you are ever unsure whether a task is within your role, what is the safe answer?",
+      "options": [
+        "Stop and ask a nurse or senior colleague rather than guess",
+        "Ask the person to decide for you",
+        "Do the task quickly before anyone notices",
+        "Guess and hope it turns out fine"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "This Tracheostomy Awareness course authorises you to suction the airway and change tracheostomy tubes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A care worker must never suction, change or reinsert a tracheostomy tube, or change an inner tube, unless specifically trained, assessed as competent, and delegated the task in the care plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Tracheostomy ties should be so tight that no finger can fit underneath them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Noisy, rattly breathing or visible secretions at the tube can be a sign that a person's airway needs clearing and should be reported.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Adding humidification means the person no longer needs to drink any fluids.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should never leave a person who is struggling to breathe alone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "After a laryngectomy the person can still breathe normally through their nose and mouth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "In a tracheostomy emergency you do not need to work out the exact cause before getting urgent help.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are effects of air bypassing the nose and mouth in a person with a tracheostomy? (Select all that apply)",
+      "options": [
+        "Secretions can become thick and harder to clear",
+        "The person's sense of smell is permanently improved",
+        "The person's thinking and memory are damaged",
+        "The air is no longer warmed, moistened and filtered, so the airway can become dry",
+        "Less air passes across the voice box, so the person may not speak normally"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these should be kept away from a tracheostomy opening? (Select all that apply)",
+      "options": [
+        "Talcum powder and aerosols",
+        "A call bell within reach",
+        "Water and sprays",
+        "Fluff and fibres from tissues, blankets or fluffy clothing",
+        "The person's prescribed heat and moisture exchanger"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are warning signs of a tracheostomy emergency? (Select all that apply)",
+      "options": [
+        "The person becoming drowsy, confused or unresponsive",
+        "Obvious difficulty breathing that is fast, laboured or noisy",
+        "The lips, face or skin turning pale, grey or blue",
+        "The person chatting comfortably and breathing quietly",
+        "The person clutching at their neck or unable to make a sound"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which tasks must a care worker NOT carry out unless specifically trained, assessed competent and delegated? (Select all that apply)",
+      "options": [
+        "Making sure nothing is covering the tube opening",
+        "Changing or reinserting the tracheostomy tube",
+        "Removing, cleaning or replacing an inner tube",
+        "Suctioning the airway",
+        "Keeping the person calm and reassured"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What can a care worker do to support someone with a tracheostomy within their role? (Select all that apply)",
+      "options": [
+        "Providing comfort, dignity and good communication",
+        "Deciding which type of tube the person should have",
+        "Changing the tracheostomy tube whenever they judge it necessary",
+        "Attentive observation and reporting concerns early",
+        "Keeping the airway clear and following the care plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which signs might tell you a person's airway is clogging with secretions and needs clearing? (Select all that apply)",
+      "options": [
+        "The person becoming restless or anxious",
+        "Quiet, effortless, comfortable breathing",
+        "Bubbly, rattly or noisy breathing",
+        "Coughing repeatedly or visible secretions at the tube",
+        "The person signalling that they cannot clear it"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "In a tracheostomy emergency, which actions should you take? (Select all that apply)",
+      "options": [
+        "Stay with the person and follow the emergency plan and call handler's instructions",
+        "Attempt suctioning you are not trained for",
+        "Tell the call handler the person has a tracheostomy or laryngectomy",
+        "Call 999 without delay, or have someone else dial while you stay with the person",
+        "Spend time trying to fix the tube yourself when someone cannot breathe"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A tracheostomy dries out the airway, so ___ is needed to keep it moist.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "humidification"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The opening of a tracheostomy in the front of the neck is called a ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "stoma"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In a tracheostomy emergency where someone cannot breathe, your single most important action is to call ___ for urgent help.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "On a bedhead sign, a ___ sign is used for a tracheostomy and a red sign for a laryngectomy.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "green"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Because anything entering the tube travels towards the ___, water and sprays must be kept away from the opening.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "lungs"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

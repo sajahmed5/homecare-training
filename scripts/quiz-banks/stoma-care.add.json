@@ -1,0 +1,658 @@
+{
+  "slug": "stoma-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is a stoma?",
+      "options": [
+        "A tube passed into a vein to give fluids and medicines",
+        "A dressing placed over a wound to keep it clean and dry",
+        "A machine that measures a person's blood pressure",
+        "An opening made by surgery on the tummy that lets bowel motions or urine leave the body into a pouch"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is a pouch worn over a stoma?",
+      "options": [
+        "Because it replaces the need for hand hygiene",
+        "Because it stops the stoma from feeling pain",
+        "Because it is needed to give the stoma its pink colour",
+        "Because the person can no longer control when waste comes out, so it collects the waste"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of stoma is formed from the large bowel and usually passes fairly formed, solid stools?",
+      "options": [
+        "An ileostomy",
+        "A tracheostomy",
+        "A colostomy",
+        "A urostomy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which type of stoma is formed from the end of the small bowel, the ileum, and passes looser, more watery output?",
+      "options": [
+        "A urostomy",
+        "A colostomy",
+        "An ileostomy",
+        "A gastrostomy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does a urostomy drain?",
+      "options": [
+        "Urine, carried out using a short piece of bowel",
+        "Air from the lungs",
+        "Bile from the liver",
+        "Formed, solid stools"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the digestive system, where is most of the water absorbed to form waste into stools?",
+      "options": [
+        "In the bladder",
+        "In the stomach only",
+        "In the large bowel, or colon",
+        "In the kidneys"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is given in the course as a common reason a person may have a stoma?",
+      "options": [
+        "A minor grazed knee",
+        "Having a common cold",
+        "Bowel or bladder cancer, or inflammatory bowel disease such as Crohn's disease",
+        "Wearing glasses for short sight"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the difference between a temporary and a permanent stoma?",
+      "options": [
+        "A temporary stoma drains urine and a permanent one drains bowel motions",
+        "A temporary stoma gives part of the bowel time to rest and heal before it is later reversed, while a permanent one is not reversed",
+        "There is no difference; the words mean the same thing",
+        "A temporary stoma is smaller and a permanent one is always larger"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "The pouch and the sticky part that fixes it to the skin are together called the what?",
+      "options": [
+        "The filter",
+        "The appliance",
+        "The template",
+        "The night bag"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In a two-piece appliance, how are the parts arranged?",
+      "options": [
+        "There is only a baseplate and no pouch",
+        "Two separate pouches are worn at the same time",
+        "The baseplate stays stuck to the skin while the pouch clips or sticks onto it",
+        "The pouch and baseplate are joined as a single unit changed together"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which pouch is sealed and taken off and thrown away when full, and is often used with a colostomy?",
+      "options": [
+        "A urostomy pouch with a tap",
+        "A drainable pouch",
+        "A night bag",
+        "A closed pouch"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A urostomy pouch typically has which feature at the bottom to drain urine?",
+      "options": [
+        "A built-in sponge",
+        "A clip seal that is thrown away each time",
+        "A tap or valve that can connect to a larger night bag",
+        "No opening at all"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "As a general guide, when should a drainable or urostomy pouch be emptied?",
+      "options": [
+        "Exactly once a week regardless of contents",
+        "Never; it is only ever replaced, not emptied",
+        "When it is around one-third to one-half full",
+        "Only once it is bulging and completely full"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why is a pouch emptied before it becomes too full and heavy?",
+      "options": [
+        "Because a full pouch stops the filter deodorising gas",
+        "Because a heavy pouch drags on the baseplate and can break the seal and leak",
+        "Because a full pouch changes the stoma's colour",
+        "Because it is the only time hand hygiene is needed"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When changing an appliance, what should you use to clean the stoma and surrounding skin?",
+      "options": [
+        "Perfumed soap and moisturiser",
+        "Antiseptic solution and oily wipes",
+        "Plain water, drying the skin well afterwards",
+        "Alcohol gel rubbed directly onto the stoma"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which change in output should be reported because it can be an early sign that something is wrong?",
+      "options": [
+        "The person eating a balanced meal",
+        "The pouch filter letting gas escape slowly",
+        "Output that looks and smells exactly as usual",
+        "Output that is much greater or much less than normal, very watery, or that contains blood"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How should a used stoma pouch be disposed of?",
+      "options": [
+        "Buried in the garden",
+        "Left on the side to reuse later",
+        "Placed in a disposal bag and put into the general household or clinical waste as directed",
+        "Flushed down the toilet"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How does the built-in filter on most modern pouches help?",
+      "options": [
+        "It changes the colour of the stoma",
+        "It measures the amount of urine passed",
+        "It replaces the need for a baseplate",
+        "It lets gas escape slowly while deodorising it, so the pouch does not balloon"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Before and after any contact with a person's stoma or pouch, what must you do?",
+      "options": [
+        "Wear gloves for the whole shift without changing them",
+        "Only put on gloves; handwashing is not needed if gloves are worn",
+        "Decontaminate your hands and wear clean disposable gloves and an apron",
+        "Rely on the pouch filter to keep things clean"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about gloves and hand hygiene is correct?",
+      "options": [
+        "Gloves are a full substitute for washing your hands",
+        "Gloves are never a substitute for hand hygiene",
+        "Hand hygiene is only needed if the person has an infection",
+        "You only need to clean your hands before, not after, the task"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these best describes a healthy stoma?",
+      "options": [
+        "Pink or red, moist and shiny, with no pain when cleaned and perhaps a little mucus",
+        "Dry, cracked and flaking on the surface",
+        "Very painful to touch during cleaning",
+        "Pale, grey or dusky in colour and cold to touch"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does cleaning a stoma not hurt the person?",
+      "options": [
+        "Because the pouch numbs the area",
+        "Because pain relief is always given first",
+        "Because a stoma has no nerve endings",
+        "Because the stoma is covered by thick skin"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the skin around the stoma called, and how should it look when healthy?",
+      "options": [
+        "The flange; it should be red and weepy",
+        "The peristomal skin; it should look the same as the rest of the tummy, intact and not sore",
+        "The template; it should be cracked and dry",
+        "The baseplate; it should be moist and shiny"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most common cause of sore peristomal skin?",
+      "options": [
+        "The stoma having no nerve endings",
+        "Drinking too much water",
+        "Leakage, when output creeps under the baseplate and sits against the skin",
+        "Cleaning the stoma with plain water"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If you notice the skin becoming red, sore, itchy or broken, or the appliance not staying stuck, what should you do?",
+      "options": [
+        "Rub the area firmly to improve the blood supply",
+        "Report it to the stoma nurse, who can check the fit and treat the skin properly",
+        "Treat it yourself with creams and extra tape",
+        "Ignore it, as sore skin always settles on its own"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which eating habit is described as helping prevent a blockage, especially for people with an ileostomy?",
+      "options": [
+        "Chewing food well and not rushing meals",
+        "Avoiding all fluids with meals",
+        "Eating as fast as possible",
+        "Only eating nuts and sweetcorn"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is good hydration especially important for people with an ileostomy?",
+      "options": [
+        "Because it changes the colour of the stoma to pink",
+        "Because it removes the need to wear a pouch",
+        "Because it stops the stoma producing any mucus",
+        "Because the watery output passes before the large bowel can reabsorb water and salts, risking dehydration"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person's stoma has turned from its normal pink-red colour to a dusky, dark purple. What should you do?",
+      "options": [
+        "Assume it is normal and note it for the next care review",
+        "Treat it as urgent and get help straight away, as a colour change can mean the blood supply is affected",
+        "Rub the stoma to bring the colour back",
+        "Put extra tape over the pouch and carry on"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a prolapse of the stoma?",
+      "options": [
+        "When the stoma turns pale and cold",
+        "When the stoma becomes longer and sticks out much more than usual",
+        "When the peristomal skin becomes weepy",
+        "When the stoma sinks below the level of the skin"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which set of signs might suggest a stoma blockage that needs reporting?",
+      "options": [
+        "The person drinking plenty of fluids through the day",
+        "Little or no output, cramping tummy pain, a swollen tummy and feeling sick or vomiting",
+        "A pink, moist stoma and intact, healthy skin around it",
+        "A steady, normal amount of output and the person feeling completely well"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If you suspect a blockage in a person with an ileostomy, what does the course advise?",
+      "options": [
+        "Wait several days before mentioning it",
+        "Push the stoma back in yourself",
+        "Encourage them to eat a large solid meal",
+        "Stop the person eating solid food, encourage sips of fluid if they can manage them, and report it promptly"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign of dehydration to watch for and report?",
+      "options": [
+        "Bright, plentiful pale urine and no thirst",
+        "A dry mouth, strong thirst, dark and reduced urine, cramps and dizziness",
+        "A well-fitting, leak-free appliance",
+        "A pink, moist stoma"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How can living with a stoma affect a person emotionally?",
+      "options": [
+        "It can affect body image and confidence, and people may feel anxious, low or worried about leaks and odour",
+        "It changes the person's blood pressure permanently",
+        "It only ever makes people feel more confident",
+        "It has no emotional impact at all"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the best way to support a person emotionally with their stoma?",
+      "options": [
+        "Be calm, patient and non-judgemental, listen to their worries, protect their dignity and encourage independence",
+        "Take over all their care so they do nothing themselves",
+        "Rush the care so it is over quickly and avoid talking about it",
+        "Tell them they must never leave the house"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "This course on stoma care provides which of the following?",
+      "options": [
+        "Permission to diagnose and treat stoma complications",
+        "A licence to change the person's prescribed products yourself",
+        "Full authorisation to carry out any stoma care immediately",
+        "Awareness only; it does not replace task-specific training, assessed competence, the care plan or the stoma nurse's assessment"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "A drainable stoma pouch should usually be emptied before it becomes too full and heavy, at around one-third to one-half full.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A used stoma pouch should be flushed down the toilet to dispose of it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should always dry the skin thoroughly before fitting a new stoma appliance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A stoma has no nerve endings, so cleaning it does not hurt the person.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A pale, grey, purple or black stoma is normal and does not need to be reported.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "People with an ileostomy or urostomy are at greater risk of dehydration and should be encouraged to drink well unless told otherwise for another medical reason.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Wearing gloves means you do not need to wash your hands before and after stoma care.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A small amount of bleeding from the surface of the stoma when it is cleaned is normal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are the three main types of stoma described in the course? (Select all that apply)",
+      "options": [
+        "Urostomy",
+        "Colostomy",
+        "Ileostomy",
+        "Gastrostomy",
+        "Tracheostomy"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help protect a person's dignity and privacy during stoma care? (Select all that apply)",
+      "options": [
+        "Working in a private space with doors and curtains closed",
+        "Gaining the person's consent and explaining each step",
+        "Keeping the person covered as much as possible",
+        "Discussing their stoma loudly in front of visitors",
+        "Being matter-of-fact and not rushing"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help keep peristomal skin healthy? (Select all that apply)",
+      "options": [
+        "Changing the appliance at the right intervals so it does not leak",
+        "Cleaning with plain water and drying the skin thoroughly",
+        "Applying oily wipes and moisturisers around the stoma",
+        "Making sure the baseplate opening matches the size and shape of the stoma",
+        "Leaving a leaking appliance in place and re-taping it"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are warning signs of a possible stoma blockage? (Select all that apply)",
+      "options": [
+        "Cramping tummy pain and a swollen tummy",
+        "Little or no output from the stoma",
+        "A swollen stoma",
+        "A pink, moist stoma with healthy skin",
+        "Feeling sick or vomiting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which changes to the stoma or its output should be reported to the stoma nurse? (Select all that apply)",
+      "options": [
+        "A pink, moist stoma passing its normal output",
+        "The stoma turning pale, grey or dark",
+        "Heavy bleeding or bleeding that does not stop",
+        "A retraction, where the stoma sinks below the skin",
+        "A prolapse, where the stoma sticks out much more than usual"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are signs of dehydration to watch for in a person with a stoma? (Select all that apply)",
+      "options": [
+        "Bright, plentiful pale urine",
+        "Dark and reduced urine",
+        "Confusion, if it becomes severe",
+        "Muscle cramps, tiredness and dizziness",
+        "A very dry mouth and strong thirst"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are correct when carrying out delegated stoma care? (Select all that apply)",
+      "options": [
+        "Support the person's own independence wherever they can manage",
+        "Only carry it out if trained, assessed as competent and it is in the care plan",
+        "Report anything abnormal to the stoma nurse or registered nurse",
+        "Switch to different products whenever you think it best",
+        "Clean your hands and put on gloves and an apron before starting"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A stoma made from the large bowel is called a ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "colostomy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A stoma made from the end of the small bowel is called an ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "ileostomy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A stoma that drains urine rather than bowel motions is called a ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "urostomy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The skin around the stoma is called the ___ skin.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "peristomal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A used stoma pouch is placed in a disposal bag and put into the general waste; it is never flushed down the ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "toilet"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

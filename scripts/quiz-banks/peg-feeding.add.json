@@ -1,0 +1,541 @@
+{
+  "slug": "peg-feeding",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does PEG stand for?",
+      "options": [
+        "Personal eating and gastric device",
+        "Post-endoscopy gastric drainage",
+        "Percutaneous endoscopic gastrostomy",
+        "Peripheral enteral gastrostomy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does enteral feeding mean?",
+      "options": [
+        "Giving nutrition directly into the stomach or gut rather than by mouth",
+        "Giving fluids into a vein through a drip",
+        "Encouraging a person to eat only soft foods",
+        "Feeding a person very slowly by spoon"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Where does a standard PEG tube deliver feed?",
+      "options": [
+        "Into the small bowel beyond the stomach",
+        "Into the stomach",
+        "Into the bladder",
+        "Into a vein in the arm"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How does a PEG-J tube differ from a standard PEG?",
+      "options": [
+        "It is only ever used for short-term feeding",
+        "It is passed through the nose instead of the abdomen",
+        "It has an extra portion that passes on from the stomach into the small bowel",
+        "It drains fluid out of the stomach rather than feeding in"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How is a nasogastric (NG) tube placed, and what is it usually used for?",
+      "options": [
+        "Fitted over the mouth to help with swallowing",
+        "Placed through the abdomen for long-term feeding",
+        "Passed through the nose into the stomach, usually for shorter-term feeding",
+        "Inserted into the bowel for people who cannot tolerate stomach feed"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why should a person be kept sitting upright during and after a PEG feed?",
+      "options": [
+        "It uses gravity to help the feed stay down and reduces the risk of aspiration",
+        "It makes the feed flow faster so it finishes sooner",
+        "It is only necessary for people who can still eat by mouth",
+        "It removes the need to flush the tube with water"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is aspiration?",
+      "options": [
+        "Food or drink going into the airway and lungs instead of the stomach",
+        "The internal disc becoming stuck against the stomach wall",
+        "Extra red tissue growing at the stoma site",
+        "A blockage forming inside the feeding tube"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does the term dysphagia mean?",
+      "options": [
+        "Loss of appetite in older people",
+        "An infection at the stoma site",
+        "A dry, sore mouth caused by being nil by mouth",
+        "Difficulty swallowing"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person with a PEG is nil by mouth. What does good practice include?",
+      "options": [
+        "Skipping oral care because they are not eating",
+        "Providing regular oral care and giving nothing by mouth",
+        "Offering small sips of water to keep them hydrated",
+        "Giving tastes of food whenever they seem hungry"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You try to give a water flush and it will not go through the PEG, with unusual resistance. What is the safest action?",
+      "options": [
+        "Give the feed anyway and hope it clears the blockage",
+        "Poke a thin object down the tube to clear it",
+        "Push hard on the syringe to force the blockage through",
+        "Do not force it, follow the gentle steps in your training, and escalate if it will not clear"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person's PEG tube looks different from how the care plan describes it, and you are not sure it is safe to use. What should you do?",
+      "options": [
+        "Start the feed anyway, as the person is due their nutrition",
+        "Stop, do not start the feed, and escalate to the registered nurse or dietitian",
+        "Try to push the tube back into position yourself",
+        "Wait until the end of your shift and mention it to the next carer"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign of a possible PEG site infection that you should report?",
+      "options": [
+        "Clean, dry, healthy-looking skin around the tube",
+        "The person asking what time their next feed is due",
+        "The external plate sitting in its usual, correct position",
+        "Redness, swelling, warmth or pain around the stoma, or discharge that may smell"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is a buried bumper?",
+      "options": [
+        "Feed leaking out around the outside of the tube",
+        "The external fixation plate pressing too tightly on the skin",
+        "The internal disc becoming embedded in the stomach wall",
+        "A blockage of thick feed inside the tube"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A PEG tube has been pulled out completely. Why is this treated as an emergency?",
+      "options": [
+        "The person will feel hungry within a few minutes",
+        "The tube cannot be cleaned once it is outside the body",
+        "The feed pump will alarm continuously until it is switched off",
+        "The stoma can begin to close within hours"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the purpose of the water flushes given before and after feeds and medicines?",
+      "options": [
+        "To warm the tube up before the feed starts",
+        "To keep the tube clear and help meet the person's fluid needs",
+        "To speed up how quickly the feed runs through",
+        "To replace the need for the person to have oral care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What should you always do before you prepare or handle a feed?",
+      "options": [
+        "Wash your hands thoroughly and put on a clean apron and gloves as directed",
+        "Warm the feed in hot water until it is very warm",
+        "Loosen the external fixation plate to relieve pressure",
+        "Lay the person flat so the feed runs in more easily"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What holds a PEG tube in place inside the stomach?",
+      "options": [
+        "The external fixation plate alone",
+        "A small internal disc or balloon, sometimes called the bumper",
+        "Stitches through the skin that are removed after each feed",
+        "Suction created by the feed pump"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the stoma in relation to a PEG?",
+      "options": [
+        "The bag that holds the prescribed feed",
+        "The clamp that stops feed flowing between feeds",
+        "The small tunnel through the abdominal wall where the tube passes",
+        "The camera used to place the tube"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who makes the decision to feed someone enterally through a PEG?",
+      "options": [
+        "The person's family members",
+        "Whoever is on shift when the person stops eating",
+        "The care worker on the person's next visit",
+        "Health professionals, often after a speech and language therapist assesses the swallow"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under what conditions may a care worker carry out PEG feeding, flushing or giving medication through a PEG?",
+      "options": [
+        "Whenever a colleague shows them how on the day",
+        "As soon as they have completed this awareness course",
+        "Only after task-specific training, assessed competence and delegation by a registered nurse or dietitian",
+        "Any time the person's family asks them to help"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why are some PEG tubes gently rotated, and advanced and retracted, as part of routine care?",
+      "options": [
+        "To stretch the stoma so the tube can be removed easily",
+        "To make the feed flow faster through the tube",
+        "To help stop the internal disc becoming stuck against the stomach wall (buried bumper)",
+        "To warm the tube before the feed begins"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is granulation at a stoma site?",
+      "options": [
+        "A blockage that has worked its way to the surface",
+        "The correct healthy appearance of a settled stoma",
+        "Extra red, moist, sometimes bleeding tissue that can grow at the stoma",
+        "A dry crust that always means infection is present"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what can cause nausea, vomiting, bloating or diarrhoea in a person receiving a feed?",
+      "options": [
+        "Keeping the person sitting upright during the feed",
+        "Providing regular oral care while nil by mouth",
+        "Flushing the tube before and after the feed",
+        "The feed running too fast, feed that is too cold, an intolerance, or another illness"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign of dehydration to watch for and report?",
+      "options": [
+        "The external plate resting gently in its usual position",
+        "A dry mouth, dark or reduced urine, drowsiness, confusion or sunken eyes",
+        "The feed running smoothly at its prescribed rate",
+        "Clean, dry skin around the stoma"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the correct approach to giving medicines through a PEG?",
+      "options": [
+        "Medicines should be added to the feed bag to save time",
+        "Any tablet can be crushed and put down the tube by any carer",
+        "Medicines can be given down the tube without flushing before or after",
+        "Only a trained, delegated person may give medicines prescribed for that route, flushing between them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Aspiration means food or drink going into the airway and lungs instead of the stomach.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "PEG feeding is a delegated clinical task requiring task-specific training, assessed competence and delegation by a registered nurse or dietitian.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to offer small sips of water by mouth to a person who is nil by mouth, as long as the amount is small.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If a PEG tube has been dislodged, a trained care worker should gently reinsert it themselves before restarting the feed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The skin around a PEG stoma should be cleaned and then dried gently and thoroughly to help prevent soreness and infection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If a tube seems blocked, you should force fluid down it with a syringe to push the blockage through.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Water flushes should be given before and after feeds and medicines to help keep the tube clear.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Oral care can be safely skipped when a person is nil by mouth because they are no longer eating.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are signs of a possible PEG site infection that you should record and report? (Select all that apply)",
+      "options": [
+        "Swelling and warmth at the site",
+        "Clean, dry, healthy-looking skin",
+        "Redness around the stoma",
+        "Discharge that may smell",
+        "The external plate in its usual correct position"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are complications the course tells you to watch for in a person with a PEG? (Select all that apply)",
+      "options": [
+        "Leakage of feed around the tube",
+        "The person asking about their next feed time",
+        "Granulation tissue at the stoma",
+        "Aspiration during feeding"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What must be in place before a care worker may carry out PEG feeding, flushing or medication through a PEG? (Select all that apply)",
+      "options": [
+        "Task-specific training",
+        "Simply having completed this awareness course",
+        "Assessed competence",
+        "Delegation by a registered nurse or dietitian, set out in the care plan"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are signs of dehydration you should watch for and report? (Select all that apply)",
+      "options": [
+        "Sunken eyes",
+        "Drowsiness or confusion",
+        "A dry mouth",
+        "Dark or reduced urine",
+        "Clean, dry skin around the stoma"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these help prevent a PEG tube becoming blocked? (Select all that apply)",
+      "options": [
+        "Flushing before and after every medicine",
+        "Giving only what is prescribed down the tube",
+        "Leaving thick feed or medicine sitting in the tube",
+        "Flushing with prescribed water before and after every feed"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are part of clean, safe practice when handling a feed? (Select all that apply)",
+      "options": [
+        "Using feeds and giving sets well beyond the times specified",
+        "Working on a clean surface",
+        "Washing your hands thoroughly before and after handling the feed or tube",
+        "Wearing a clean apron and gloves as directed"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these situations require urgent help, following your service's emergency procedure and dialling 999 if life is at risk? (Select all that apply)",
+      "options": [
+        "A tube that has fallen out",
+        "Signs of choking or serious breathing difficulty",
+        "Severe abdominal pain",
+        "The person asking what time their feed is due",
+        "Bleeding from the site"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Keep the person sitting ___ during and after a feed to reduce aspiration risk.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "upright"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Difficulty swallowing is known as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dysphagia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a PEG tube falls out, the stoma can begin to close within ___, so this is an emergency.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hours"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Water ___ are given before and after feeds and medicines to keep the tube clear.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "flushes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A serious problem where the internal disc becomes stuck against the stomach wall is called a ___ bumper.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "buried"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

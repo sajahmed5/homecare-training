@@ -1,0 +1,648 @@
+{
+  "slug": "oral-care",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to this course, what does the knowledge and awareness e-learning NOT qualify a care worker to do?",
+      "options": [
+        "Assess, diagnose or treat any condition of the mouth or teeth",
+        "Follow the person's mouth care plan",
+        "Notice and report a mouth problem",
+        "Support a person to brush their own teeth"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which national guidance and programme is this oral care course grounded in?",
+      "options": [
+        "A single hospital's private protocol",
+        "NICE guideline NG48, quality standard QS151 and the Mouth Care Matters programme",
+        "Only local council policy",
+        "The Highway Code"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does a painful mouth put a frail person at particular risk of malnutrition and dehydration?",
+      "options": [
+        "It only affects their speech",
+        "It makes chewing and swallowing difficult, so they eat and drink less",
+        "It has no effect on appetite at all",
+        "It improves how much they eat"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How does the course describe the importance of a comfortable, fresh mouth for a person's dignity?",
+      "options": [
+        "It only matters at mealtimes",
+        "It is pure vanity and not part of care",
+        "It protects self-esteem and helps the person stay comfortable with others",
+        "It is unrelated to how a person feels about themselves"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is 'aspiration' as defined in this course?",
+      "options": [
+        "Food, fluid or saliva entering the airway and lungs instead of the stomach",
+        "A type of denture cleaner",
+        "Cleaning the teeth twice a day",
+        "A hope or ambition a person holds"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How does keeping the mouth clean help a person who is prone to aspiration?",
+      "options": [
+        "It cures their swallowing problem",
+        "It reduces the bacteria in the mouth, lowering the risk of chest infection",
+        "It has no effect on chest infection risk",
+        "It replaces the need for a speech and language therapist"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a recognised cause of dysphagia mentioned in the course?",
+      "options": [
+        "Using fluoride toothpaste",
+        "Brushing teeth twice a day",
+        "A stroke, dementia or Parkinson's",
+        "Cleaning dentures overnight"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Whose job is it to assess a person's swallowing if you have concerns?",
+      "options": [
+        "Trained professionals, such as a speech and language therapist",
+        "Any care worker on shift",
+        "The person's family",
+        "No one; concerns should be ignored"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "According to good practice in the course, when should a person's mouth care needs first be assessed and recorded?",
+      "options": [
+        "Only once they develop toothache",
+        "Only at their annual review and never sooner",
+        "Never, because mouth care is not part of the care plan",
+        "When they are admitted to the care setting, written into their care plan and reviewed over time"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who carries out the detailed dental assessment of the mouth itself?",
+      "options": [
+        "The registered manager",
+        "Dental professionals",
+        "The person's next of kin",
+        "The care worker giving daily care"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How often does the course recommend brushing natural teeth?",
+      "options": [
+        "Twice a day, in the morning and last thing at night",
+        "Three times every hour",
+        "Once a week",
+        "Only after meals"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does brushing with fluoride toothpaste do for the teeth?",
+      "options": [
+        "Causes tooth decay",
+        "Replaces the need to see a dentist ever again",
+        "Only whitens the teeth for appearance",
+        "Removes plaque and strengthens teeth with fluoride"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What kind of toothbrush and how much toothpaste does the course recommend for brushing?",
+      "options": [
+        "A denture brush and abrasive cleaner",
+        "A small-headed, soft toothbrush and a pea-sized amount of fluoride toothpaste",
+        "No brush, just mouthwash",
+        "A large stiff brush and a full ribbon of toothpaste"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is brushing before bed especially important?",
+      "options": [
+        "There is no particular reason",
+        "Because fluoride only works after dark",
+        "Because saliva flow falls during sleep and offers less natural protection",
+        "Because teeth only decay at night"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why should ordinary toothpaste NOT be used to clean dentures?",
+      "options": [
+        "It dissolves the denture instantly",
+        "It is too abrasive and can scratch the denture",
+        "It makes dentures taste unpleasant",
+        "It is too expensive"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why should dentures be brushed over a bowl of water or a soft towel?",
+      "options": [
+        "To make them fit better",
+        "To add fluoride to them",
+        "So they are not damaged if they slip from your hands",
+        "To warm them up before use"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Leaving dentures out overnight helps to prevent which common mouth infection?",
+      "options": [
+        "A mouth ulcer",
+        "Tooth decay in natural teeth",
+        "Denture stomatitis, a soreness under the plate",
+        "Aspiration pneumonia"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does NICE guidance recommend to help identify a person's dentures in a shared setting?",
+      "options": [
+        "Painting them a bright colour",
+        "Marking the dentures with the person's name",
+        "Never removing them",
+        "Keeping them in a communal pot"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a common cause of dry mouth given in the course?",
+      "options": [
+        "Cleaning dentures",
+        "Drinking too much water",
+        "Medicines, mouth breathing, oxygen or dehydration",
+        "Brushing twice a day"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign of a dry mouth described in the course?",
+      "options": [
+        "Excess watery saliva",
+        "Bright white, glossy teeth",
+        "Sticky saliva, cracked lips and a sore or coated tongue",
+        "A perfectly comfortable mouth"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When a person resists mouth care, what is the best response according to the course?",
+      "options": [
+        "Ignore their distress because the plan says to brush",
+        "Stay calm, never force it, find out why, offer choice, try again later, and report the difficulty",
+        "Decide they no longer need mouth care and never offer it again",
+        "Hold their head still and brush quickly before they object"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where a person lacks the capacity to consent to mouth care, how must care be given?",
+      "options": [
+        "Following the Mental Capacity Act, in their best interests, gently and without restraint",
+        "Not at all, since they cannot agree",
+        "By force if necessary to complete the task",
+        "Only by the person's family"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How long should a mouth ulcer or sore patch take to heal before it must be reported and referred for a dental opinion?",
+      "options": [
+        "You should treat it yourself first",
+        "A sore lasting about three weeks or more should always be reported and referred",
+        "There is never any need to report an ulcer",
+        "Only after a full year"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How might oral thrush (candida) appear in the mouth?",
+      "options": [
+        "As bright, healthy pink gums",
+        "As a swollen, painless lump only",
+        "As creamy-white patches that leave a red sore area if wiped, or a generally red sore mouth",
+        "As perfectly clean, comfortable teeth"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who usually provides treatment for oral thrush?",
+      "options": [
+        "The GP or dentist, usually an antifungal",
+        "The person themselves without help",
+        "No one; thrush always clears on its own",
+        "The care worker, using a shop-bought remedy"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How may a person with dementia who cannot describe pain show that their mouth hurts?",
+      "options": [
+        "By clearly explaining the problem in words",
+        "By brushing their own teeth more often",
+        "They never show any sign of mouth pain",
+        "Through behaviour such as refusing food, pulling at their face or becoming distressed"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does the course say about a little bleeding when brushing a neglected mouth?",
+      "options": [
+        "It often settles as cleaning improves, but heavy, persistent or unexplained bleeding should be reported",
+        "It should always be ignored completely",
+        "It always means the person must go straight to hospital",
+        "It means you should stop all mouth care permanently"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person has lost weight and their dentures now slip, rub and leave a sore patch. What should you do?",
+      "options": [
+        "Throw the dentures away",
+        "File down or adjust the denture yourself",
+        "Report the problem and arrange a dental review, keeping the mouth clean and comfortable meanwhile",
+        "Tell the person to get used to the soreness"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What can a dentist do for an ill-fitting denture?",
+      "options": [
+        "Recommend the care worker adjusts it at home",
+        "Only advise the person to stop eating",
+        "Reline, adjust or replace it to restore comfort and eating",
+        "Nothing; a poor fit is permanent"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Person-centred oral care means what, according to the course?",
+      "options": [
+        "Following a fixed routine for everyone",
+        "Cleaning the mouth without agreement to save time",
+        "Deciding for the person without asking them",
+        "Fitting the care to the individual, beginning with consent and choice"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which is an example of respecting a person's cultural or religious needs in mouth care?",
+      "options": [
+        "Supporting practices such as rinsing before prayer, or a carer of the same sex, and following the plan",
+        "Refusing to ask about their customs",
+        "Insisting everyone uses the same product",
+        "Ignoring their wishes to keep to your own routine"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which approach is most likely to help when supporting a person with dementia to have their teeth brushed?",
+      "options": [
+        "Give long detailed explanations and insist they keep going when upset",
+        "Choose a calm time, use short simple words, demonstrate gently, work in small steps, and stop if they become distressed",
+        "Work as fast as possible while they are distracted, without explaining",
+        "Skip mouth care altogether because of the dementia"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When recording mouth care, what should you write?",
+      "options": [
+        "What you actually saw and did, factually and promptly while it is fresh",
+        "What you assume happened",
+        "Only good news, leaving out refusals",
+        "Nothing, as records are optional"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In the phrase 'you notice and report; the professional assesses and treats', what is the care worker's role?",
+      "options": [
+        "To prescribe antifungal medicine",
+        "To adjust dentures and remove loose teeth",
+        "To diagnose and treat mouth conditions",
+        "To notice problems and report them clearly"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "This oral care e-learning replaces the need for supervised, hands-on training and workplace observation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "After brushing with fluoride toothpaste, the person should spit out the excess but not rinse their mouth with water.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A dirty mouth carries far more harmful bacteria into the lungs when aspiration happens.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to hold a person's head still and force mouth care if they keep closing their mouth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Dentures should be taken out at night to rest the gums and help prevent denture stomatitis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A person with dementia who cannot tell you about pain may show mouth pain through behaviour, such as refusing food or pulling at their face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A care worker should try to adjust or file down an ill-fitting denture themselves rather than involve a dentist.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Daily mouth care is part of personal care and belongs in the person's care plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Why does oral care matter for the people you support? (Select all that apply)",
+      "options": [
+        "It supports eating, taste and nutrition",
+        "It removes the need for a dentist",
+        "It supports comfort, dignity and social life",
+        "Poor oral health is linked to problems beyond the mouth, including chest infections",
+        "It qualifies the care worker to diagnose mouth conditions"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are typically recorded in a mouth care plan? (Select all that apply)",
+      "options": [
+        "How much help the person needs with mouth care",
+        "Any particular difficulties such as dry mouth or resisting care",
+        "The products to use, such as their fluoride toothpaste",
+        "The care worker's own dental history",
+        "Whether the person has natural teeth, dentures, or both"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which are good techniques for brushing a person's teeth? (Select all that apply)",
+      "options": [
+        "Clean along the gum line where plaque gathers",
+        "Support the person to brush their own teeth where they can",
+        "Scrub hard and fast to finish quickly",
+        "Use gentle small circular movements",
+        "Cover the outer, inner and biting surfaces of every tooth"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How should dentures be cared for daily? (Select all that apply)",
+      "options": [
+        "Handle them carefully as they are easily dropped and broken",
+        "Clean them with abrasive ordinary toothpaste",
+        "Clean them every day and rinse after meals",
+        "Store them in a clean, labelled container",
+        "Take them out overnight"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are reasons to report a mouth problem and arrange a dental opinion? (Select all that apply)",
+      "options": [
+        "Toothache or mouth pain",
+        "A clean, comfortable mouth with no problems",
+        "Bleeding or swollen gums that do not settle",
+        "Loose, broken or lost teeth, or ill-fitting dentures",
+        "An ulcer or sore patch lasting around three weeks or more"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which are signs of pain in a person who cannot easily tell you in words? (Select all that apply)",
+      "options": [
+        "Rubbing the cheek or jaw",
+        "Smiling and eating a full meal with ease",
+        "Wincing while eating or avoiding certain foods",
+        "Refusing food",
+        "Dribbling, disturbed sleep or new restlessness"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "How can you help a person who has a dry mouth? (Select all that apply)",
+      "options": [
+        "Use any saliva substitute gel or spray recorded in the plan",
+        "Keep the lips moist with a suitable lip balm",
+        "Withhold all fluids until the mouth improves",
+        "Encourage regular sips of water and good hydration",
+        "Report a persistent dry mouth for review of medicines or a dental opinion"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Poor oral care can lead to a serious chest infection called ___ pneumonia when material from the mouth is breathed into the lungs.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "aspiration"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Difficulty swallowing safely, perhaps after a stroke or with dementia or Parkinson's, is known as ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dysphagia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "For people with their own teeth, brushing should be done twice a day with ___ toothpaste to strengthen teeth and remove plaque.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fluoride"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Where a person lacks capacity to consent, mouth care must be given in their best interests under the Mental ___ Act.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Capacity"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The advice after brushing is 'spit, don't ___', so a little fluoride is left on the teeth to keep protecting them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "rinse"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
