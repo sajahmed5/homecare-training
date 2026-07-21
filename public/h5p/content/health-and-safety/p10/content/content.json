@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hazardous substances and COSHH</h2><p>Care work involves more hazardous substances than you might expect &mdash; cleaning products, disinfectants, thickening powders, some creams, and clinical waste can all cause harm if used carelessly. The Control of Substances Hazardous to Health Regulations, known as COSHH, require your employer to assess these substances and tell you how to use them safely.</p><p>Harm can come from swallowing, breathing in fumes, splashes to the eyes or skin, or contact with broken skin. Many everyday products are safe only because people follow the instructions on them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "26de737a-319f-40e5-825f-0e6b76e271d7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for COSHH and substances",
+          "decorative": false,
+          "file": {
+            "path": "images/coshh-and-substances.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dfa3dcf2-ea72-41f2-b18c-d4a601598556",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Labels, storage and spills</h2><p>The label and the safety data sheet tell you what a substance can do and how to work with it. Orange or red-and-white diamond hazard symbols warn of dangers such as corrosive, harmful or flammable contents.</p><ul><li><strong>Read before you use:</strong> follow the label and any COSHH information for that product.</li><li><strong>Never decant or mix:</strong> keep substances in their original labelled containers and never combine cleaning chemicals.</li><li><strong>Store safely:</strong> keep products locked away from the people you support, especially where anyone may be confused.</li><li><strong>Deal with spills:</strong> follow your training, use the right protective equipment, and report the spill.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "75901f07-d351-4340-a90c-c82e4e16fb9a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>To save space, it is acceptable to pour a cleaning product into an unlabelled bottle as long as you remember what is in it.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: substances must stay in their original labelled containers so the hazard warnings and safety advice are always visible to everyone.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Substances should stay in their original labelled containers so that everyone can see the hazards and first-aid advice, and so no one is poisoned by mistake."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "01ed7a4b-3235-4259-8583-1d3d6efce37f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

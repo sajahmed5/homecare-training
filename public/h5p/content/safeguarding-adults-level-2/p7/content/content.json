@@ -1,1 +1,94 @@
-{"content":[{"content":{"params":{"text":"<h2>Whistleblowing</h2><p><strong>Whistleblowing</strong> means speaking up about wrongdoing, poor practice or risk within your workplace - for example unsafe care, cover-ups, or a culture that puts people at risk. If you raise a concern internally and it is not dealt with, or you do not feel safe raising it internally, you can report to an outside body such as the <strong>Care Quality Commission (CQC)</strong> or the local authority.</p><p>The <strong>Public Interest Disclosure Act 1998</strong> gives legal protection to workers who raise genuine concerns in the public interest, so you should not be victimised for speaking up in good faith. Staying silent about poor or dangerous care is never acceptable - the people you support depend on you to speak up.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"696fd42a-c820-49c3-aad2-c0bd524e269c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>Prevent and radicalisation awareness</h3><p>The <strong>Prevent</strong> duty is part of the wider safeguarding picture. Radicalisation is treated as a form of exploitation, where a vulnerable person is drawn towards extremism or terrorism by others. Warning signs can include sudden and intense changes in views, becoming secretive or isolated, expressing support for violence, or being influenced by a controlling person. If you have a Prevent concern, treat it like any other safeguarding concern: record what you have noticed and report it to your safeguarding lead, who can seek specialist advice.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"5a6d6697-8882-4c8d-ae02-7e85364fafa4","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Complete the sentences about whistleblowing and Prevent by dragging the correct words into place.</p>","textField":"Whistleblowing means speaking up about *wrongdoing* or poor practice at work.\nThe Public Interest *Disclosure* Act 1998 protects workers who raise genuine concerns.\nIf a concern is not acted on internally, you can report to the *CQC* or local authority.\nUnder the Prevent duty, *radicalisation* is treated as a form of exploitation.\nA Prevent concern should be reported to your safeguarding *lead*.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"a0537cf9-4d4d-4f88-b0e7-88e12dc6a62c","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Whistleblowing</h2><p><strong>Whistleblowing</strong> means speaking up about wrongdoing, poor practice or risk within your workplace - for example unsafe care, cover-ups, or a culture that puts people at risk. If you raise a concern internally and it is not dealt with, or you do not feel safe raising it internally, you can report to an outside body such as the <strong>Care Quality Commission (CQC)</strong> or the local authority.</p><p>The <strong>Public Interest Disclosure Act 1998</strong> gives legal protection to workers who raise genuine concerns in the public interest, so you should not be victimised for speaking up in good faith. Staying silent about poor or dangerous care is never acceptable - the people you support depend on you to speak up.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "696fd42a-c820-49c3-aad2-c0bd524e269c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Whistleblowing & Prevent",
+          "decorative": false,
+          "file": {
+            "path": "images/whistleblowing-prevent.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0498d3ba-c6ac-4de5-87bf-7eba3a469a7a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h3>Prevent and radicalisation awareness</h3><p>The <strong>Prevent</strong> duty is part of the wider safeguarding picture. Radicalisation is treated as a form of exploitation, where a vulnerable person is drawn towards extremism or terrorism by others. Warning signs can include sudden and intense changes in views, becoming secretive or isolated, expressing support for violence, or being influenced by a controlling person. If you have a Prevent concern, treat it like any other safeguarding concern: record what you have noticed and report it to your safeguarding lead, who can seek specialist advice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5a6d6697-8882-4c8d-ae02-7e85364fafa4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Complete the sentences about whistleblowing and Prevent by dragging the correct words into place.</p>",
+          "textField": "Whistleblowing means speaking up about *wrongdoing* or poor practice at work.\nThe Public Interest *Disclosure* Act 1998 protects workers who raise genuine concerns.\nIf a concern is not acted on internally, you can report to the *CQC* or local authority.\nUnder the Prevent duty, *radicalisation* is treated as a form of exploitation.\nA Prevent concern should be reported to your safeguarding *lead*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "a0537cf9-4d4d-4f88-b0e7-88e12dc6a62c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

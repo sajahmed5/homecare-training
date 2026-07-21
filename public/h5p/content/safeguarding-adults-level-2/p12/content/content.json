@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting and recording</h2><p>Once a concern is raised, it must reach the people who can act on it. In your organisation this means telling your manager or safeguarding lead without delay, and following your local safeguarding policy. If you believe someone is in immediate danger, or a serious crime is taking place, call 999 first.</p><p>Good recording supports everything that follows. Write down the facts promptly, separate what you saw from what you were told, avoid opinion, and sign and date your notes. Clear, factual records help agencies build an accurate picture and protect the person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "617817f2-be38-44e6-82ea-829f1e891b72",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting and agencies",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-and-agencies.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "de300bd6-d846-4f2a-8c50-298c61d604b6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Multi-agency working</h2><p>Safeguarding adults is a shared responsibility, and no single organisation holds all the answers. Several partners work together, each with a distinct role.</p><ul><li><strong>The local authority:</strong> leads adult safeguarding and decides whether a formal enquiry is needed.</li><li><strong>The police:</strong> investigate where a crime may have been committed.</li><li><strong>The CQC:</strong> regulates care services and acts on concerns about the quality and safety of care.</li><li><strong>Safeguarding Adults Boards:</strong> bring partners together to agree how agencies protect adults locally and to learn from serious cases.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cf31a57d-38ad-42d0-8f48-e394172bc891",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which organisation has the lead role in adult safeguarding and decides whether a formal enquiry should take place?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The local authority.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Under the Care Act 2014 the local authority leads adult safeguarding and decides whether an enquiry is needed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The police, in every case.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The police lead on criminal investigations, but the local authority leads the safeguarding response overall.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The Care Quality Commission.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The CQC regulates services, but it is not the lead agency for individual safeguarding enquiries.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Your own care organisation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Your organisation must report and cooperate, but the local authority holds the lead safeguarding role.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6f58d173-61aa-42f4-8e5b-a55c783756b0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,1 +1,129 @@
-{"content":[{"content":{"params":{"text":"<h2>Lone working, wellbeing and first-aid awareness</h2><h3>Lone working</h3><p>Much care is delivered alone, especially in domiciliary (home) care. Lone working is not banned, but it must be managed. Follow your employer's arrangements: keep to your rota and check-in system, carry a charged phone, know the escape routes and the person's risk assessment, and raise any concerns about a property, a pet or a person's behaviour. Never enter a situation that feels unsafe &mdash; withdraw and get advice.</p><h3>Stress and wellbeing</h3><p>Work-related stress is a genuine health and safety issue. The HSE Management Standards highlight demands, control, support, relationships, role and change as the areas that affect wellbeing. Lone workers can feel isolated and cut off from support, so good contact with your manager and colleagues matters. Recognise the signs of stress in yourself and others, and speak to your manager early &mdash; asking for support is a strength, not a failing.</p><h3>Basic first-aid awareness</h3><p>You are not expected to be a paramedic, but you should know the basics:</p><ul><li>Keep yourself safe first &mdash; check for danger before approaching.</li><li>Call <strong>999</strong> for a serious emergency and summon your workplace first aider.</li><li>Do not move someone unnecessarily if you suspect a serious injury, unless they are in immediate danger.</li><li>Stay with the person, reassure them, and record and report what happened.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"201974a8-d9cb-45d4-8972-50f46e10909c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Quick recap of key duties. Tap each card to reveal the answer.</p>","dialogs":[{"text":"<p>Name the three-step manual handling approach (MHOR 1992).</p>","answer":"<p>Avoid, Assess, Reduce.</p>","tips":{}},{"text":"<p>What does TILE stand for?</p>","answer":"<p>Task, Individual, Load, Environment.</p>","tips":{}},{"text":"<p>What is a near miss and why report it?</p>","answer":"<p>An event that could have caused harm but didn't. Reporting it lets the service fix the problem before someone is actually hurt.</p>","tips":{}},{"text":"<p>Who normally makes a RIDDOR report to the HSE?</p>","answer":"<p>The responsible person &mdash; usually your employer. Your job is to report promptly and accurately internally.</p>","tips":{}},{"text":"<p>What should you do if a lone-working situation feels unsafe?</p>","answer":"<p>Withdraw, get yourself to safety, contact your manager or the check-in system, and get advice before continuing.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"7d59010d-b91f-4f8c-8aff-f45469b09266","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Asking your manager for support because you are feeling overwhelmed at work is a sign you are not coping and should be avoided.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Speaking up about stress early is the right thing to do. The HSE treats work-related stress as a genuine safety issue and your employer has a duty to support your wellbeing.","correctAnswerMessage":"Correct. Work-related stress is a recognised health and safety issue. Raising it early is responsible and helps your employer meet their duty to support you."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"ee681a59-78e5-4b7c-9bb4-86bfff143e44","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Lone working, wellbeing and first-aid awareness</h2><h3>Lone working</h3><p>Much care is delivered alone, especially in domiciliary (home) care. Lone working is not banned, but it must be managed. Follow your employer's arrangements: keep to your rota and check-in system, carry a charged phone, know the escape routes and the person's risk assessment, and raise any concerns about a property, a pet or a person's behaviour. Never enter a situation that feels unsafe &mdash; withdraw and get advice.</p><h3>Stress and wellbeing</h3><p>Work-related stress is a genuine health and safety issue. The HSE Management Standards highlight demands, control, support, relationships, role and change as the areas that affect wellbeing. Lone workers can feel isolated and cut off from support, so good contact with your manager and colleagues matters. Recognise the signs of stress in yourself and others, and speak to your manager early &mdash; asking for support is a strength, not a failing.</p><h3>Basic first-aid awareness</h3><p>You are not expected to be a paramedic, but you should know the basics:</p><ul><li>Keep yourself safe first &mdash; check for danger before approaching.</li><li>Call <strong>999</strong> for a serious emergency and summon your workplace first aider.</li><li>Do not move someone unnecessarily if you suspect a serious injury, unless they are in immediate danger.</li><li>Stay with the person, reassure them, and record and report what happened.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "201974a8-d9cb-45d4-8972-50f46e10909c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Lone working, stress & first aid",
+          "decorative": false,
+          "file": {
+            "path": "images/lone-working-stress-first-aid.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "68c02522-1934-4265-a904-c27a078690b0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Quick recap of key duties. Tap each card to reveal the answer.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Name the three-step manual handling approach (MHOR 1992).</p>",
+              "answer": "<p>Avoid, Assess, Reduce.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>What does TILE stand for?</p>",
+              "answer": "<p>Task, Individual, Load, Environment.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>What is a near miss and why report it?</p>",
+              "answer": "<p>An event that could have caused harm but didn't. Reporting it lets the service fix the problem before someone is actually hurt.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Who normally makes a RIDDOR report to the HSE?</p>",
+              "answer": "<p>The responsible person &mdash; usually your employer. Your job is to report promptly and accurately internally.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>What should you do if a lone-working situation feels unsafe?</p>",
+              "answer": "<p>Withdraw, get yourself to safety, contact your manager or the check-in system, and get advice before continuing.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "7d59010d-b91f-4f8c-8aff-f45469b09266",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Asking your manager for support because you are feeling overwhelmed at work is a sign you are not coping and should be avoided.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Speaking up about stress early is the right thing to do. The HSE treats work-related stress as a genuine safety issue and your employer has a duty to support your wellbeing.",
+            "correctAnswerMessage": "Correct. Work-related stress is a recognised health and safety issue. Raising it early is responsible and helps your employer meet their duty to support you."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ee681a59-78e5-4b7c-9bb4-86bfff143e44",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communication that includes everyone</h2><p>Inclusive communication means sharing information in ways each person can understand and respond to. If someone cannot follow what you say, or cannot read what you give them, they cannot make choices, raise concerns or take part in their own care &mdash; and that quickly becomes a form of exclusion.</p><p>People have very different needs. Someone may be Deaf and use British Sign Language, have a learning disability, be blind or partially sighted, or find spoken English difficult. Good practice is to find out how each person prefers to give and receive information, and then to provide it that way.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "32f31e3e-feb5-404d-a98d-68fcc22f595b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Inclusive communication",
+          "decorative": false,
+          "file": {
+            "path": "images/inclusive-communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ad7f2b4c-4ec2-4c2c-adf9-c0279c8d1755",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Accessible Information Standard</h2><p>Since 2016, all organisations that provide NHS or adult social care in England must follow the Accessible Information Standard. It sets out how you should meet the communication needs of people with a disability, impairment or sensory loss. There are five clear steps:</p><ul><li><strong>Ask:</strong> identify whether a person has any information or communication needs.</li><li><strong>Record:</strong> note those needs clearly and consistently.</li><li><strong>Flag:</strong> make the needs highly visible in the person&rsquo;s file.</li><li><strong>Share:</strong> pass the needs on to others involved, with the person&rsquo;s consent.</li><li><strong>Act:</strong> meet the needs, for example with large print, Easy Read or an interpreter.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "34e630c5-5aa8-4a78-80d9-413e1197bf18",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these sentences about the Accessible Information Standard.</p></p>",
+          "textField": "The Accessible Information Standard applies to people with a disability, impairment or sensory *loss*. The first step is to *ask* whether a person has any communication needs. You then *record* those needs and *flag* them clearly in the file. Information can be made accessible using *Easy* Read, large print or an interpreter.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "9547d658-40c7-40f4-b238-49aac9e171ef",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

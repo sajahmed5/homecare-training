@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>From one-size-fits-all to the individual</h2><p>Not so long ago, a great deal of care in England was run for the convenience of the service rather than the person. In large institutions everyone rose at the same hour, ate the same meal and followed the same routine, whether it suited them or not. People were often grouped by their condition &mdash; &lsquo;the residents&rsquo;, &lsquo;the diabetics&rsquo; &mdash; and their own history, preferences and personality faded into the background.</p><p>Person-centred care grew as a deliberate reaction against this. It asks a simple but powerful question: what matters to this individual, not just what is the matter with them? Care Certificate Standard 5 places that question at the heart of your role, so that support fits the person rather than forcing the person to fit the service.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a59e03bc-0597-4bad-b236-7a201e53045d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why it matters",
+          "decorative": false,
+          "file": {
+            "path": "images/why-it-matters.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "88c17eca-cb8f-4d2a-867e-7f0105ceaaad",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why it makes a real difference</h2><p>Seeing someone as a whole individual is not just a nicety &mdash; it changes outcomes. When care reflects a person&rsquo;s routines, relationships and wishes, they tend to feel calmer, keep their independence for longer and hold on to a stronger sense of who they are.</p><p>The opposite is also true. Care that ignores the individual can leave people bored, distressed or withdrawn, and it can make behaviour that services label &lsquo;challenging&rsquo; far more likely. The Care Quality Commission expects providers to deliver care that is tailored to each person&rsquo;s needs and preferences.</p><ul><li><strong>Identity:</strong> people stay connected to their past and their tastes.</li><li><strong>Wellbeing:</strong> familiar routines reduce anxiety and confusion.</li><li><strong>Trust:</strong> feeling known makes people more willing to accept support.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "95c5eead-8210-4cb5-adaf-dbac6be76829",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What best captures the shift from institutional care to person-centred care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Care is shaped around what matters to each individual, rather than the person fitting into a fixed routine.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Person-centred care starts from the individual&rsquo;s wishes and needs, not the convenience of the service.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Everyone receives exactly the same routine, so nobody is ever treated differently.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Treating everyone identically is the institutional model person-centred care moved away from.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The service decides the daily timetable and people adapt to it for efficiency.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Making people fit the service is the opposite of person-centred care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>People are grouped by their medical condition so care is easier to organise.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Grouping people by condition overlooks the individual, which person-centred care sets out to avoid.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5dc6a62e-33b2-46fc-b953-fb7022699d60",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

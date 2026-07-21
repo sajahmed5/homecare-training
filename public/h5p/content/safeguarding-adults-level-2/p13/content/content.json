@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The Care Act 2014 and section 42</h2><p>The Care Act 2014 gives adult safeguarding its legal foundation in England. Section 42 places a duty on the local authority to make enquiries, or to have someone else make them, whenever it has reasonable cause to suspect that an adult with care and support needs is experiencing, or is at risk of, abuse or neglect and cannot protect themselves.</p><p>A section 42 enquiry finds out what has happened and what should be done to keep the person safe, always guided by their own views and desired outcomes. Your reports and records are often what set this duty in motion.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d49c1b08-1701-42f5-ba77-73e1ea8ae626",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The legal framework",
+          "decorative": false,
+          "file": {
+            "path": "images/the-legal-framework.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a4a971f2-117a-4f01-a2c0-ffb340052de7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A realistic scenario</h2><p>You visit Doris, who has care needs after a stroke. You notice unexplained bruising, her purse is often empty before the end of the week, and a relative who manages her money has begun turning visitors away. Doris seems anxious and hints that she is &ldquo;not allowed&rdquo; to spend her own money.</p><p>This raises possible physical and financial abuse. You do not confront the relative or investigate. You reassure Doris, record the facts in her words, and report to your safeguarding lead the same day so the local authority can consider a section 42 enquiry.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4168f1d4-be4b-4f2f-9cc7-f96b63b2e7e6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, what is the right thing for you to do about your concerns for Doris?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Reassure Doris, record the facts in her own words, and report to your safeguarding lead the same day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Prompt, factual reporting lets the local authority consider a section 42 enquiry while keeping Doris at the centre.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask the relative directly whether they are taking Doris&rsquo;s money.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Confronting the alleged abuser can place Doris at greater risk and may interfere with any investigation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few weeks to see whether the bruising and missing money happen again.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Delay leaves Doris at risk; concerns should be reported without waiting for more incidents.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide it is a family matter and none of your business.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. These are possible signs of abuse of an adult at risk, and you have a duty to report them.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a5f5482e-6f99-40cc-bf68-c696085ab5a2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

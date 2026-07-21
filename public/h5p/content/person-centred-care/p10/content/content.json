@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The plan behind the care</h2><p>A care and support plan is the written agreement that sets out how a person wishes to be supported day to day. Done well, it is not a form filed in a folder but a living picture of the individual: what they can do for themselves, where they want help, and how they like that help to be given.</p><p>The most important voice in the plan is the person&rsquo;s own. Person-centred planning means the individual, and anyone they choose to involve, helps to shape their goals rather than having them decided for them. Your job is to read the plan, understand it and put it into practice, so that the care you give matches what was agreed rather than your own assumptions.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b44d0093-a2a1-4152-a4cc-9016ae6ec811",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Planning care",
+          "decorative": false,
+          "file": {
+            "path": "images/planning-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f0e0e778-f13f-42e8-b241-4a54b2cd1cee",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Build it, follow it, review it</h2><p>A person-centred plan moves through a simple cycle that never really stops:</p><ul><li><strong>Build:</strong> gather the person&rsquo;s history, strengths, needs and wishes, using their own words and involving those close to them.</li><li><strong>Follow:</strong> deliver support exactly as agreed, and record clearly what you did and how the person responded.</li><li><strong>Review:</strong> check regularly whether the plan still fits, because people, health and circumstances change.</li></ul><p>Your daily notes feed this cycle. If you notice that something in the plan no longer works &mdash; a routine the person now dislikes, a goal they have met, a new difficulty &mdash; report it so the plan can be updated. Following an out-of-date plan is not person-centred, however carefully you do it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e70785d4-1f06-4159-9ce6-e9913f0821f7",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about care and support planning.</p></p>",
+          "textField": "A care and support plan should be shaped by the *person* whose care it describes. Once it is agreed, your job is to *follow* it and record what you did. Because needs change, the plan must be *reviewed* regularly to check it still fits. If part of the plan no longer works, you should *report* it so that it can be updated. The plan works best when it is treated as a *living* document rather than a filed form.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "8e3cdf1b-b13e-4075-8f05-38d513098cf3",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Culture, religion and belief in daily life</h2><p>Religion or belief is a protected characteristic under the Equality Act 2010, and this includes having no religion. Culture, faith and belief shape many everyday things: what people eat, how they dress, when and how they pray or observe festivals, and their wishes around personal care, illness and dying.</p><p>Supporting these is not an optional extra. When you help someone follow what matters to them &mdash; a halal or kosher meal, a quiet space to pray, or modest dress during personal care &mdash; you protect their dignity and their rights.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cc954457-c845-445f-b65e-62649fff047f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Culture, religion and belief",
+          "decorative": false,
+          "file": {
+            "path": "images/culture-religion-and-belief.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e0ba530a-0346-4709-8b97-2c9eb93ee79a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Ask, do not assume</h2><p>It is easy to guess someone&rsquo;s needs from their name, background or appearance, but assumptions often go wrong. People of the same faith practise in very different ways, and some observe little or nothing at all. The only reliable guide is the person themselves.</p><ul><li><strong>Ask respectfully:</strong> find out what each person wants recorded in their care plan.</li><li><strong>Avoid stereotypes:</strong> do not treat a whole community as if everyone is the same.</li><li><strong>Support, do not judge:</strong> your own beliefs must not shape the care you give.</li><li><strong>Plan ahead:</strong> know about festivals or fasting that may affect meals and routines.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "13502eaf-54fa-4505-8ed2-61c95a9d5ea9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A new person you support has an Arabic name. What is the best way to meet their religious and cultural needs?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Ask the person what matters to them and record their wishes, without assuming anything from their name.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The person themselves is the only reliable guide; asking and recording their wishes avoids harmful assumptions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Arrange halal meals and a prayer mat straight away, because that is what their name suggests.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Guessing from a name is a stereotype; people of the same background practise in very different ways.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait for them to complain before making any changes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Waiting for a complaint leaves the person&rsquo;s needs unmet; you should ask from the start.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Treat everyone exactly the same and offer no adjustments at all.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Treating everyone identically ignores individual needs and can breach their dignity and rights.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "68d1c120-4502-4af7-b554-0531ba0959b2",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

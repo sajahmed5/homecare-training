@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Accidents, sudden illness and RIDDOR</h2><p>If someone has an accident or becomes suddenly unwell, stay calm and keep yourself safe first. Give only the first aid you are trained and authorised to give, call 999 for anything serious such as chest pain, difficulty breathing or a suspected stroke, and stay with the person until help arrives.</p><p>Afterwards, record what happened and report it. Certain serious events must be reported to the Health and Safety Executive under RIDDOR &mdash; the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013. Your manager usually makes the RIDDOR report; your job is to raise the alarm and write an accurate account.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "05920be1-60a7-4d2e-a61b-50934d4a8d67",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Emergencies and you",
+          "decorative": false,
+          "file": {
+            "path": "images/emergencies-and-you.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "91d6a28c-db9c-4422-95dd-33f4e043ee75",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Looking after your own wellbeing</h2><p>Care work is rewarding but it can be physically and emotionally demanding. Your own health and safety matters too, and managing stress is part of Care Certificate Standard 13.</p><ul><li><strong>Know the signs:</strong> poor sleep, irritability, exhaustion and dread can all point to stress.</li><li><strong>Talk about it:</strong> raise how you feel with your manager or a trusted colleague early.</li><li><strong>Use support:</strong> supervision, employee assistance schemes and your GP are all there to help.</li><li><strong>Protect your limits:</strong> take your breaks and speak up if workloads are unsafe.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f7bd2aee-96b4-421d-85fe-65fb25597294",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You arrive for a visit and find Mrs Okafor on the floor; she is conscious but has hurt her hip and cannot get up. What is the best course of action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Keep her comfortable and reassured, call 999, avoid moving her, then report and record the incident.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reassurance, avoiding a risky move, calling for medical help and then reporting is safe practice; the fall may also need a RIDDOR report by your manager.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use the hoist on your own to lift her back into her chair quickly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Lifting someone with a possible hip injury, and hoisting alone, could cause serious harm and is beyond safe practice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help her stand by pulling her up under the arms so she is not embarrassed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Pulling her up risks worsening the injury and injuring your own back; she should not be moved before help arrives.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the end of your shift to mention it, as she is talking and seems alright.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A fall with injury needs prompt medical attention and prompt reporting, not a delay until later.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e0cb9c79-6de3-4502-8ae9-509a651079e5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

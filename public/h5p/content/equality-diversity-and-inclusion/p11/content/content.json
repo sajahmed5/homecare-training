@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>People are more than one label</h2><p>The Equality Act lists nine protected characteristics, but no one is defined by a single one. A person is never just their age, or just their religion &mdash; they hold several identities at the same time. Intersectionality is the idea that these identities overlap and shape a person&rsquo;s experience together.</p><p>For example, a young disabled woman may face barriers that are different from those met by a disabled man, or by a woman who is not disabled. Her experience is not simply disability added to gender; the two combine in ways that are unique to her.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "92ea96cf-0ba1-45fa-a409-08cd1051b75e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Intersectionality",
+          "decorative": false,
+          "file": {
+            "path": "images/intersectionality.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bdb9b24c-e7b0-488a-bc1a-a1674243b28f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why this matters in your care</h2><p>If you think about only one part of who someone is, you can miss the barriers that really affect them. An older gay man may worry about being open with staff; a Black woman may have had past experiences that make her wary of services. Seeing the whole person helps you give care that truly fits.</p><ul><li><strong>See the whole person:</strong> notice how someone&rsquo;s identities work together, not in isolation.</li><li><strong>Avoid assumptions:</strong> two people who share one characteristic are not the same.</li><li><strong>Listen first:</strong> let each person tell you what matters most to them.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5a0f6142-6809-4966-9327-513d8135d6dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Intersectionality means that a person&rsquo;s overlapping identities &mdash; such as age, race, disability and gender &mdash; combine to shape their experience, so you should see the whole person rather than a single characteristic.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Intersectionality is about identities overlapping and combining, so focusing on just one characteristic can hide the barriers a person really faces.",
+            "correctAnswerMessage": "Correct. Identities overlap and interact, so recognising the whole person helps you spot the barriers that truly affect them."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b6ef9ee0-b770-47ba-a100-de0f35a3c777",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

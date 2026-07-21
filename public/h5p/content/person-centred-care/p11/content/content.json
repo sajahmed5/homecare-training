@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Start by assuming capacity</h2><p>The Mental Capacity Act 2005 shapes how person-centred decisions are made in England. Its starting point is that every adult is assumed to have the capacity to make their own decisions, unless it is shown otherwise. You must never decide that someone lacks capacity simply because of their age, a diagnosis such as dementia, or a choice you happen to think is unwise.</p><p>Capacity is also decision-specific and can change over time. A person may be able to choose what to wear but need more support with a complex financial decision, and someone&rsquo;s capacity may be better at one time of day than another. Before concluding that a person cannot make a particular decision, you must take all practicable steps to help them make it themselves.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d743344d-0291-465e-958b-c85d90b483ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Mental capacity",
+          "decorative": false,
+          "file": {
+            "path": "images/mental-capacity.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f24e4bb2-bb0e-4a07-ac83-6d7bfcbf3f2d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Best interests and the least restrictive option</h2><p>If a person genuinely cannot make a specific decision, even with support, then anything done for them must be in their best interests. That is not about what is easiest for staff; it means considering the person&rsquo;s past and present wishes, feelings, beliefs and values, and consulting those who know them well.</p><ul><li><strong>Support first:</strong> give information in a way the person can understand &mdash; plain words, pictures, the right time and place.</li><li><strong>Best interests:</strong> put the person&rsquo;s wishes and wellbeing at the centre, not convenience.</li><li><strong>Least restrictive:</strong> choose the option that limits the person&rsquo;s rights and freedom as little as possible.</li></ul><p>These principles keep even difficult decisions person-centred.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a8629cf8-b840-4f89-9269-abf19cabf166",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mr Osei has dementia and wants to wear his favourite jumper, which staff think is too warm for the day. How should the Mental Capacity Act guide you?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Assume he can make this everyday choice; a decision you find unwise is not proof that he lacks capacity.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Capacity is assumed, and the right to make an unwise decision is protected by the Act.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>His dementia diagnosis means he lacks capacity, so staff should decide for him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Capacity can never be assumed absent purely because of a diagnosis.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because the choice seems unwise, overrule it in his best interests.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Best interests only applies when a person lacks capacity for that decision; an unwise choice is not the same as lacking capacity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide for him quickly to save time on such a minor matter.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Even small everyday choices are the person&rsquo;s own to make when they have capacity.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "25d4f34b-c7e1-4939-9e3c-28f2077e2f44",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

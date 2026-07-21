@@ -2,11 +2,11 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/communication-skills/p1/content/images",
-   "file": "what-communication-is.svg",
-   "title": "What communication is",
+   "outDir": "public/h5p/content/person-centred-care/p9/content/images",
+   "file": "why-it-matters.svg",
+   "title": "From one-size-fits-all to the individual",
    "accent": "#0d9488",
-   "alt": "Illustration for What communication is",
+   "alt": "Illustration for Why it matters",
    "cast": [
     {
      "skin": 0,
@@ -16,759 +16,309 @@
     }
    ],
    "points": [
-    "Safety",
-    "Dignity",
-    "Wellbeing"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p2/content/images",
-   "file": "the-communication-cycle.svg",
-   "title": "The communication cycle",
-   "accent": "#0d9488",
-   "alt": "Illustration for The communication cycle",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Check, do not assume",
-    "Watch for feedback",
-    "Close the loop"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p3/content/images",
-   "file": "verbal-and-non-verbal.svg",
-   "title": "Verbal communication",
-   "accent": "#0d9488",
-   "alt": "Illustration for Verbal and non-verbal",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Body language",
-    "Facial expression",
-    "Eye contact"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p4/content/images",
-   "file": "active-listening.svg",
-   "title": "What active listening is",
-   "accent": "#0d9488",
-   "alt": "Illustration for Active listening",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Reflect",
-    "Clarify",
-    "Encourage"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p5/content/images",
-   "file": "barriers-to-communication.svg",
-   "title": "What gets in the way",
-   "accent": "#0d9488",
-   "alt": "Illustration for Barriers to communication",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Environmental",
-    "Physical and sensory",
-    "Language"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p6/content/images",
-   "file": "overcoming-barriers.svg",
-   "title": "Adapting the setting and yourself",
-   "accent": "#0d9488",
-   "alt": "Illustration for Overcoming barriers",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Show and demonstrate",
-    "Use aids",
-    "Get support"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p7/content/images",
-   "file": "communication-needs.svg",
-   "title": "Everyone is different",
-   "accent": "#0d9488",
-   "alt": "Illustration for Communication needs",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Ask the person",
-    "Read the care plan",
-    "Ask those who know them"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p8/content/images",
-   "file": "aids-and-technology.svg",
-   "title": "Aids that support communication",
-   "accent": "#0d9488",
-   "alt": "Illustration for Aids and technology",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Hearing aids and loop systems",
-    "Glasses and good lighting",
-    "Picture boards and symbols"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p9/content/images",
-   "file": "sensory-loss-and-dementia.svg",
-   "title": "Sensory loss",
-   "accent": "#0d9488",
-   "alt": "Illustration for Sensory loss and dementia",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Stay patient",
-    "Use what works",
-    "Meet them where they are"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p10/content/images",
-   "file": "working-with-others.svg",
-   "title": "Communicating within the team",
-   "accent": "#0d9488",
-   "alt": "Illustration for Working with others",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Be respectful and clear",
-    "Use interpreters properly",
-    "Respect confidentiality"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p11/content/images",
-   "file": "confidentiality.svg",
-   "title": "What confidentiality means",
-   "accent": "#0d9488",
-   "alt": "Illustration for Confidentiality",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Need to know",
-    "Store securely",
-    "Talk privately"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p12/content/images",
-   "file": "difficult-conversations.svg",
-   "title": "Staying calm under pressure",
-   "accent": "#0d9488",
-   "alt": "Illustration for Difficult conversations",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Stay calm",
-    "Do not argue or blame",
-    "Find common ground"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/communication-skills/p13/content/images",
-   "file": "recording-and-recap.svg",
-   "title": "Recording and reporting well",
-   "accent": "#0d9488",
-   "alt": "Illustration for Recording and recap",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Accurate",
-    "Clear and legible",
-    "Timely"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p2/content/images",
-   "file": "your-role-responsibilities.svg",
-   "title": "The role of a care worker",
-   "accent": "#0d9488",
-   "alt": "Illustration for Your role & responsibilities",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "care plan"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p9/content/images",
-   "file": "care-settings-and-sector.svg",
-   "title": "Where care and support happens",
-   "accent": "#0d9488",
-   "alt": "Illustration for Care settings and sector",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Domiciliary (home) care",
-    "Residential care homes",
-    "Supported living"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p4/content/images",
-   "file": "agreed-ways-of-working.svg",
-   "title": "Agreed ways of working",
-   "accent": "#0d9488",
-   "alt": "Illustration for Agreed ways of working",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "job description",
-    "policies and procedures",
-    "care plan"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p10/content/images",
-   "file": "rights-dignity-and-independence.svg",
-   "title": "Everyone keeps their rights",
-   "accent": "#0d9488",
-   "alt": "Illustration for Rights, dignity and independence",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p5/content/images",
-   "file": "working-relationships.svg",
-   "title": "Working relationships and team working",
-   "accent": "#0d9488",
-   "alt": "Illustration for Working relationships",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "working relationship",
-    "personal relationship"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p13/content/images",
-   "file": "teamwork-and-getting-support.svg",
-   "title": "You are part of a team",
-   "accent": "#0d9488",
-   "alt": "Illustration for Teamwork and getting support",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p11/content/images",
-   "file": "confidentiality-and-handling-information.svg",
-   "title": "Why confidentiality matters",
-   "accent": "#0d9488",
-   "alt": "Illustration for Confidentiality and handling information",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p12/content/images",
-   "file": "health-safety-and-wellbeing.svg",
-   "title": "Your part in staying safe",
-   "accent": "#0d9488",
-   "alt": "Illustration for Health, safety and wellbeing",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p7/content/images",
-   "file": "your-own-development.svg",
-   "title": "Your personal development",
-   "accent": "#0d9488",
-   "alt": "Illustration for Your own development",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Personal Development Plan (PDP)",
-    "Supervision and appraisal",
-    "Feedback and reflection"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/introduction-to-care/p8/content/images",
-   "file": "regulation-recap.svg",
-   "title": "How care is regulated: the CQC",
-   "accent": "#0d9488",
-   "alt": "Illustration for Regulation & recap",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "settings",
-    "role, responsibilities and limits",
-    "6 Cs"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p2/content/images",
-   "file": "rights-and-choices.svg",
-   "title": "Balancing safety with rights and choices",
-   "accent": "#0d9488",
-   "alt": "Illustration for Rights and choices",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p10/content/images",
-   "file": "positive-risk-taking.svg",
-   "title": "Duty of care is not wrapping people in cotton ",
-   "accent": "#0d9488",
-   "alt": "Illustration for Positive risk-taking",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Start by assuming capacity",
-    "Share information",
-    "Plan together"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p11/content/images",
-   "file": "boundaries-and-interests.svg",
-   "title": "Where the working relationship has limits",
-   "accent": "#0d9488",
-   "alt": "Illustration for Boundaries and interests",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Gifts and money",
-    "Wills and finances",
-    "Personal contact"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p4/content/images",
-   "file": "comments-and-complaints.svg",
-   "title": "Why complaints are valuable",
-   "accent": "#0d9488",
-   "alt": "Illustration for Comments and complaints",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p5/content/images",
-   "file": "incidents-and-near-misses.svg",
-   "title": "Incidents, errors and near misses",
-   "accent": "#0d9488",
-   "alt": "Illustration for Incidents and near misses",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "apology"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p9/content/images",
-   "file": "duty-of-candour.svg",
-   "title": "The duty of candour",
-   "accent": "#0d9488",
-   "alt": "Illustration for Duty of candour",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Tell someone promptly",
-    "Be honest with the person",
-    "Say sorry sincerely"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p12/content/images",
-   "file": "raising-concerns-safely.svg",
-   "title": "Helping people be heard",
-   "accent": "#0d9488",
-   "alt": "Illustration for Raising concerns safely",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Know your policy",
-    "Raise it internally first",
-    "You are protected"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p7/content/images",
-   "file": "safeguarding-link.svg",
-   "title": "Duty of care, safeguarding and whistleblowing",
-   "accent": "#0d9488",
-   "alt": "Illustration for Safeguarding link",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p13/content/images",
-   "file": "working-through-dilemmas.svg",
-   "title": "Working through a dilemma step by step",
-   "accent": "#0d9488",
-   "alt": "Illustration for Working through dilemmas",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Pause",
-    "Gather facts",
-    "Consider options"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/duty-of-care/p8/content/images",
-   "file": "putting-it-together.svg",
-   "title": "Bringing it all together",
-   "accent": "#0d9488",
-   "alt": "Illustration for Putting it together",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/privacy-and-dignity/p2/content/images",
-   "file": "the-law-behind-it.svg",
-   "title": "Your legal and professional framework",
-   "accent": "#0d9488",
-   "alt": "Illustration for The law behind it",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Human Rights Act 1998, Article 8",
-    "CQC Regulation 10 — Dignity and respect",
-    "The Dignity in Care campaign"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/privacy-and-dignity/p3/content/images",
-   "file": "privacy-in-personal-care.svg",
-   "title": "Protecting privacy during personal care",
-   "accent": "#0d9488",
-   "alt": "Illustration for Privacy in personal care",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Knock and wait",
-    "Close doors and draw curtains",
-    "Cover the person"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/privacy-and-dignity/p9/content/images",
-   "file": "information-confidentiality.svg",
-   "title": "Privacy is more than a closed door",
-   "accent": "#0d9488",
-   "alt": "Illustration for Information & confidentiality",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#0d9488",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Confidentiality",
-    "Data protection",
-    "Ask before you share"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/privacy-and-dignity/p10/content/images",
-   "file": "culture-individuality.svg",
-   "title": "Every person is an individual",
-   "accent": "#0d9488",
-   "alt": "Illustration for Culture & individuality",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0d9488",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Protected characteristics",
     "Identity",
-    "Ask, don't assume"
+    "Wellbeing",
+    "Trust"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p6/content/images",
-   "file": "dignity-of-risk.svg",
-   "title": "Balancing choice with duty of care",
+   "outDir": "public/h5p/content/person-centred-care/p2/content/images",
+   "file": "the-values.svg",
+   "title": "The person-centred values",
    "accent": "#0d9488",
-   "alt": "Illustration for Dignity of risk",
+   "alt": "Illustration for The values",
    "cast": [
     {
-     "skin": 1,
-     "hair": "short",
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p4/content/images",
+   "file": "consent.svg",
+   "title": "Gaining consent",
+   "accent": "#0d9488",
+   "alt": "Illustration for Consent",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
      "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p11/content/images",
+   "file": "mental-capacity.svg",
+   "title": "Start by assuming capacity",
+   "accent": "#0d9488",
+   "alt": "Illustration for Mental capacity",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
    "points": [
-    "informed",
-    "safer"
+    "Support first",
+    "Best interests",
+    "Least restrictive"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p11/content/images",
+   "outDir": "public/h5p/content/person-centred-care/p5/content/images",
    "file": "active-participation.svg",
-   "title": "Care done with people, not to them",
+   "title": "Active participation",
    "accent": "#0d9488",
    "alt": "Illustration for Active participation",
    "cast": [
     {
-     "skin": 2,
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p10/content/images",
+   "file": "planning-care.svg",
+   "title": "The plan behind the care",
+   "accent": "#0d9488",
+   "alt": "Illustration for Planning care",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Build",
+    "Follow",
+    "Review"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p7/content/images",
+   "file": "dignity-holism.svg",
+   "title": "Dignity, respect and holistic needs",
+   "accent": "#0d9488",
+   "alt": "Illustration for Dignity & holism",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Physical",
+    "Emotional and mental",
+    "Social"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p12/content/images",
+   "file": "comfort-and-distress.svg",
+   "title": "Reading pain, discomfort and distress",
+   "accent": "#0d9488",
+   "alt": "Illustration for Comfort and distress",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Facial signs",
+    "Sounds",
+    "Body language"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p13/content/images",
+   "file": "working-together.svg",
+   "title": "Keeping care person-centred together",
+   "accent": "#0d9488",
+   "alt": "Illustration for Working together",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/person-centred-care/p8/content/images",
+   "file": "small-things.svg",
+   "title": "The environment and the small things",
+   "accent": "#0d9488",
+   "alt": "Illustration for Small things",
+   "cast": [
+    {
+     "skin": 0,
      "hair": "bun",
      "tunic": "#0d9488",
      "prop": "heart"
     }
    ],
    "points": [
-    "Do with, not for",
-    "Wellbeing",
-    "Offer real choices"
+    "Comfort",
+    "Food and drink",
+    "Routines"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p12/content/images",
-   "file": "settings-technology.svg",
-   "title": "Privacy where space is shared",
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p2/content/images",
+   "file": "the-equality-act-2010.svg",
+   "title": "The law behind EDI",
    "accent": "#0d9488",
-   "alt": "Illustration for Settings & technology",
+   "alt": "Illustration for The Equality Act 2010",
    "cast": [
     {
-     "skin": 3,
+     "skin": 1,
      "hair": "curly",
      "tunic": "#0d9488",
      "prop": "clipboard"
     }
    ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p9/content/images",
+   "file": "human-rights-and-freda.svg",
+   "title": "Human rights belong to everyone",
+   "accent": "#0d9488",
+   "alt": "Illustration for Human rights and FREDA",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
    "points": [
-    "Knock and wait",
-    "Use screens and curtains",
-    "Respect belongings and post"
+    "Fairness",
+    "Respect",
+    "Equality"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p7/content/images",
-   "file": "dementia-communication.svg",
-   "title": "Dignity for people with dementia or communicat",
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p4/content/images",
+   "file": "types-of-discrimination.svg",
+   "title": "What discrimination looks like",
    "accent": "#0d9488",
-   "alt": "Illustration for Dementia & communication",
+   "alt": "Illustration for Types of discrimination",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p5/content/images",
+   "file": "unconscious-bias.svg",
+   "title": "Unconscious bias",
+   "accent": "#0d9488",
+   "alt": "Illustration for Unconscious bias",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p11/content/images",
+   "file": "intersectionality.svg",
+   "title": "People are more than one label",
+   "accent": "#0d9488",
+   "alt": "Illustration for Intersectionality",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "See the whole person",
+    "Avoid assumptions",
+    "Listen first"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p10/content/images",
+   "file": "inclusive-communication.svg",
+   "title": "Communication that includes everyone",
+   "accent": "#0d9488",
+   "alt": "Illustration for Inclusive communication",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#0d9488",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Ask",
+    "Record",
+    "Flag"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p7/content/images",
+   "file": "promoting-inclusion.svg",
+   "title": "Promoting EDI in everyday care",
+   "accent": "#0d9488",
+   "alt": "Illustration for Promoting inclusion",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Get to know the whole person",
+    "Offer real choice",
+    "Respect cultural and religious needs"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p12/content/images",
+   "file": "culture-religion-and-belief.svg",
+   "title": "Culture, religion and belief in daily life",
+   "accent": "#0d9488",
+   "alt": "Illustration for Culture, religion and belief",
    "cast": [
     {
      "skin": 4,
@@ -778,48 +328,427 @@
     }
    ],
    "points": [
-    "Assume understanding.",
-    "Give time.",
-    "Use every channel."
+    "Ask respectfully",
+    "Avoid stereotypes",
+    "Support, do not judge"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p13/content/images",
-   "file": "applied-scenarios-recap.svg",
-   "title": "Putting privacy and dignity together",
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p13/content/images",
+   "file": "getting-information-and-support.svg",
+   "title": "You are not expected to know everything",
    "accent": "#0d9488",
-   "alt": "Illustration for Applied scenarios & recap",
+   "alt": "Illustration for Getting information and support",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
      "tunic": "#0d9488",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Scenario",
-    "Scenario",
-    "Respect the person"
+    "Your line manager",
+    "Workplace policies",
+    "Care plans and colleagues"
    ]
   },
   {
-   "outDir": "public/h5p/content/privacy-and-dignity/p8/content/images",
-   "file": "challenging-poor-practice.svg",
-   "title": "Recognising and challenging undignified practi",
+   "outDir": "public/h5p/content/equality-diversity-and-inclusion/p8/content/images",
+   "file": "if-you-witness-it.svg",
+   "title": "What to do if you witness discrimination",
    "accent": "#0d9488",
-   "alt": "Illustration for Challenging poor practice",
+   "alt": "Illustration for If you witness it",
    "cast": [
     {
      "skin": 0,
      "hair": "bun",
      "tunic": "#0d9488",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Support the person affected",
+    "Challenge it appropriately",
+    "Report it"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p2/content/images",
+   "file": "the-six-principles.svg",
+   "title": "The six safeguarding principles",
+   "accent": "#e11d48",
+   "alt": "Illustration for The six principles",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#e11d48",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "need it",
-    "secure"
+    "Empowerment",
+    "Prevention",
+    "Proportionality"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p9/content/images",
+   "file": "adults-at-risk.svg",
+   "title": "Who is an adult at risk?",
+   "accent": "#e11d48",
+   "alt": "Illustration for Adults at risk",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Ask, do not assume",
+    "Respect their wishes",
+    "Focus on outcomes"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p3/content/images",
+   "file": "categories-of-abuse.svg",
+   "title": "The categories of abuse and neglect",
+   "accent": "#e11d48",
+   "alt": "Illustration for Categories of abuse",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p4/content/images",
+   "file": "more-categories.svg",
+   "title": "Further categories to know",
+   "accent": "#e11d48",
+   "alt": "Illustration for More categories",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Domestic abuse",
+    "Sexual abuse",
+    "Modern slavery"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p10/content/images",
+   "file": "specific-abuse-types.svg",
+   "title": "Abuse that can be easy to miss",
+   "accent": "#e11d48",
+   "alt": "Illustration for Specific abuse types",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Organisational abuse",
+    "Discriminatory abuse",
+    "Overlap"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p5/content/images",
+   "file": "mental-capacity-consent.svg",
+   "title": "Mental capacity and safeguarding",
+   "accent": "#e11d48",
+   "alt": "Illustration for Mental capacity & consent",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p11/content/images",
+   "file": "responding-to-disclosure.svg",
+   "title": "When someone tells you about abuse",
+   "accent": "#e11d48",
+   "alt": "Illustration for Responding to disclosure",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Do",
+    "Do",
+    "Do"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p12/content/images",
+   "file": "reporting-and-agencies.svg",
+   "title": "Reporting and recording",
+   "accent": "#e11d48",
+   "alt": "Illustration for Reporting and agencies",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "The local authority",
+    "The police",
+    "The CQC"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p7/content/images",
+   "file": "whistleblowing-prevent.svg",
+   "title": "Whistleblowing",
+   "accent": "#e11d48",
+   "alt": "Illustration for Whistleblowing & Prevent",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/safeguarding-adults-level-2/p13/content/images",
+   "file": "the-legal-framework.svg",
+   "title": "The Care Act 2014 and section 42",
+   "accent": "#e11d48",
+   "alt": "Illustration for The legal framework",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#e11d48",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p2/content/images",
+   "file": "the-law.svg",
+   "title": "The Health and Safety at Work etc. Act 1974",
+   "accent": "#d97706",
+   "alt": "Illustration for The law",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p9/content/images",
+   "file": "key-h-s-law.svg",
+   "title": "The Health and Safety at Work Act 1974",
+   "accent": "#d97706",
+   "alt": "Illustration for Key H&S law",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Take reasonable care",
+    "Co-operate",
+    "Use things properly"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p3/content/images",
+   "file": "risk-assessment.svg",
+   "title": "The 5 steps of risk assessment",
+   "accent": "#d97706",
+   "alt": "Illustration for Risk assessment",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Identify the hazards",
+    "Decide who might be harmed and how",
+    "Evaluate the risks and decide on precautions"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p6/content/images",
+   "file": "ppe-infection.svg",
+   "title": "Personal protective equipment (PPE)",
+   "accent": "#d97706",
+   "alt": "Illustration for PPE & infection",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Disposable gloves",
+    "Aprons",
+    "Face masks or fluid-resistant protection"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p10/content/images",
+   "file": "coshh-and-substances.svg",
+   "title": "Hazardous substances and COSHH",
+   "accent": "#d97706",
+   "alt": "Illustration for COSHH and substances",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Read before you use",
+    "Never decant or mix",
+    "Store safely"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p11/content/images",
+   "file": "fire-safety-at-work.svg",
+   "title": "Preventing fire",
+   "accent": "#d97706",
+   "alt": "Illustration for Fire safety at work",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Raise the alarm",
+    "Get out and stay out",
+    "Call 999"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p12/content/images",
+   "file": "equipment-and-security.svg",
+   "title": "Work equipment: PUWER and LOLER",
+   "accent": "#d97706",
+   "alt": "Illustration for Equipment and security",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Faulty electrics",
+    "Gas smells",
+    "Carbon monoxide"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p7/content/images",
+   "file": "reporting-incidents.svg",
+   "title": "Near misses, incidents and RIDDOR",
+   "accent": "#d97706",
+   "alt": "Illustration for Reporting incidents",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "deaths",
+    "more than 7 days",
+    "occupational diseases"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p13/content/images",
+   "file": "emergencies-and-you.svg",
+   "title": "Accidents, sudden illness and RIDDOR",
+   "accent": "#d97706",
+   "alt": "Illustration for Emergencies and you",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#d97706",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Know the signs",
+    "Talk about it",
+    "Use support"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/health-and-safety/p8/content/images",
+   "file": "lone-working-stress-first-aid.svg",
+   "title": "Lone working, wellbeing and first-aid awarenes",
+   "accent": "#d97706",
+   "alt": "Illustration for Lone working, stress & first aid",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "999"
    ]
   }
  ]

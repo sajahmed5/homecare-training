@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Human rights belong to everyone</h2><p>Equality law is not the only protection the people you support rely on. The Human Rights Act 1998 gives everyone in the UK a set of basic rights simply because they are human &mdash; rights that cannot be earned, and cannot be taken away because of someone&rsquo;s age, illness or where they live.</p><p>The Act brings key rights into UK law and requires public bodies, including many care providers, to respect them. The rights that matter most in care include the right to life, freedom from inhuman or degrading treatment, respect for private and family life, and freedom of thought, conscience and religion.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f50fcdfc-b113-487a-9ddd-26dde72bac4b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Human rights and FREDA",
+          "decorative": false,
+          "file": {
+            "path": "images/human-rights-and-freda.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ab469fe1-6985-4959-a0ea-06d63d53b421",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The FREDA principles</h2><p>Human rights can feel abstract, so a simple framework called FREDA helps you put them into everyday practice. Each letter stands for a value that should run through the care you give:</p><ul><li><strong>Fairness:</strong> follow fair, open processes and treat people even-handedly.</li><li><strong>Respect:</strong> value each person&rsquo;s views, wishes and way of life.</li><li><strong>Equality:</strong> make sure no one is disadvantaged because of who they are.</li><li><strong>Dignity:</strong> never treat a person as an object or a task to be completed.</li><li><strong>Autonomy:</strong> support people to make their own choices and stay in control.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e0ba2df7-5a7b-4ff4-b139-3e378febcf8c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are helping Mr Osei, who lives with dementia, to wash and dress. A colleague suggests rushing him and choosing his clothes for him to save time. Which FREDA principles does this risk breaching?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Dignity and autonomy, because it treats him as a task and removes his choices.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Rushing him and deciding for him strips away his dignity and his right to stay in control of his own care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>None, because saving time is always in the person&rsquo;s best interests.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Saving time does not justify overriding someone&rsquo;s dignity or removing their choices.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only fairness, because everyone is treated the same quick way.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Treating everyone the same rushed way is not fairness; it ignores dignity and autonomy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Human rights do not apply to people living with dementia.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Human rights belong to everyone, including people living with dementia.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8633a012-a9a4-484f-994d-7e655945f62d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>You are not expected to know everything</h2><p>Equality, diversity and inclusion can raise questions you cannot answer alone, and that is completely normal. Knowing where to turn is part of doing the job well, and help is closer than you might think &mdash; starting inside your own organisation.</p><ul><li><strong>Your line manager:</strong> usually the first person to ask about a concern or about someone&rsquo;s needs.</li><li><strong>Workplace policies:</strong> your equality, diversity and inclusion policy sets out what is expected of everyone.</li><li><strong>Care plans and colleagues:</strong> a valuable source of what already works well for a person.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7bcb966a-a463-41ca-b0d9-96ef4ec24bf8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Getting information and support",
+          "decorative": false,
+          "file": {
+            "path": "images/getting-information-and-support.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f65bdaa0-a322-4b8c-a524-eb87fa3e5651",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Independent and specialist support</h2><p>Some questions need support from beyond your immediate team. Knowing these sources means no one has to struggle in silence:</p><ul><li><strong>Advocacy services:</strong> an independent advocate helps a person understand their rights and speak up for what they want.</li><li><strong>Human resources or a trade union:</strong> can advise you if you experience or witness discrimination at work.</li><li><strong>National organisations:</strong> the Equality and Human Rights Commission and ACAS offer clear guidance on rights and fair treatment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41c3677f-4d24-49a0-9e38-149e0ac449e9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support, Priya, tells you she feels left out of group activities because of her religion, and she is unsure of her rights. What is the most helpful response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Listen, reassure her, tell your manager, and explain that an independent advocate can help her understand her rights and be heard.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Listening, reporting to your manager and offering advocacy all help Priya be heard and understand her rights.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell her not to worry and that she is probably imagining it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Dismissing her concern ignores a possible case of discrimination and leaves her unsupported.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Deal with it yourself and keep it away from your manager to avoid a fuss.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Concerns like this should be shared with your manager, not hidden away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Suggest she leaves the service if she is unhappy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The answer is to address the exclusion and uphold her rights, not to push her out of the service.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7e51c5fc-244b-4556-9c59-e933637f7775",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

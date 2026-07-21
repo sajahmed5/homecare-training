@@ -1,1 +1,95 @@
-{"content":[{"content":{"params":{"text":"<h2>Promoting EDI in everyday care</h2><p>Promoting equality, diversity and inclusion is not a one-off task &ndash; it is woven into the small, everyday choices you make. Inclusive care is another way of describing truly <strong>person-centred care</strong>: care shaped around the individual, respecting their dignity, human rights and right to make their own choices.</p><p>You promote EDI when you:</p><ul><li><strong>Get to know the whole person</strong> &ndash; their history, culture, faith, relationships and what matters most to them.</li><li><strong>Offer real choice</strong> over food, clothing, routine, activities and how they wish to be addressed.</li><li><strong>Respect cultural and religious needs</strong> &ndash; diet, prayer, festivals, dress and personal care preferences.</li><li><strong>Communicate in a way that works for the person</strong>, adapting your approach and using aids where needed.</li><li><strong>Support relationships and identity</strong>, including a person's partner, family, community and sexual orientation.</li><li><strong>Challenge discrimination</strong> when you see it, rather than letting it pass.</li></ul><p>These actions protect dignity and help every person feel valued for who they are.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"2b27c378-c8e6-431c-94f5-d04d7564113a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Everyday situations in care. Flip each card for an inclusive, person-centred response.</p>","dialogs":[{"text":"<p>A resident observes a religious festival that involves fasting at certain times.</p>","answer":"<p>Learn about the festival, adjust mealtimes to suit them, and support them to observe it &ndash; respecting religion and belief.</p>","tips":{}},{"text":"<p>A person who is gay wants their partner involved in decisions about their care.</p>","answer":"<p>Welcome and involve the partner as you would any spouse or family member &ndash; respecting sexual orientation and relationships.</p>","tips":{}},{"text":"<p>Someone speaks little English and seems anxious during personal care.</p>","answer":"<p>Use an interpreter or translated materials, communicate patiently, and check consent &ndash; making a reasonable adjustment.</p>","tips":{}},{"text":"<p>A resident with dementia repeatedly asks to wear a particular scarf.</p>","answer":"<p>Honour the choice; clothing is part of identity and dignity. Offer choice rather than deciding for them.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"eac9faa5-71ad-4178-824c-1556669c4c78","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Promoting EDI in everyday care</h2><p>Promoting equality, diversity and inclusion is not a one-off task &ndash; it is woven into the small, everyday choices you make. Inclusive care is another way of describing truly <strong>person-centred care</strong>: care shaped around the individual, respecting their dignity, human rights and right to make their own choices.</p><p>You promote EDI when you:</p><ul><li><strong>Get to know the whole person</strong> &ndash; their history, culture, faith, relationships and what matters most to them.</li><li><strong>Offer real choice</strong> over food, clothing, routine, activities and how they wish to be addressed.</li><li><strong>Respect cultural and religious needs</strong> &ndash; diet, prayer, festivals, dress and personal care preferences.</li><li><strong>Communicate in a way that works for the person</strong>, adapting your approach and using aids where needed.</li><li><strong>Support relationships and identity</strong>, including a person's partner, family, community and sexual orientation.</li><li><strong>Challenge discrimination</strong> when you see it, rather than letting it pass.</li></ul><p>These actions protect dignity and help every person feel valued for who they are.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2b27c378-c8e6-431c-94f5-d04d7564113a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Promoting inclusion",
+          "decorative": false,
+          "file": {
+            "path": "images/promoting-inclusion.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a7ed56dd-d557-484d-b95d-228038447629",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Everyday situations in care. Flip each card for an inclusive, person-centred response.</p>",
+          "dialogs": [
+            {
+              "text": "<p>A resident observes a religious festival that involves fasting at certain times.</p>",
+              "answer": "<p>Learn about the festival, adjust mealtimes to suit them, and support them to observe it &ndash; respecting religion and belief.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A person who is gay wants their partner involved in decisions about their care.</p>",
+              "answer": "<p>Welcome and involve the partner as you would any spouse or family member &ndash; respecting sexual orientation and relationships.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Someone speaks little English and seems anxious during personal care.</p>",
+              "answer": "<p>Use an interpreter or translated materials, communicate patiently, and check consent &ndash; making a reasonable adjustment.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A resident with dementia repeatedly asks to wear a particular scarf.</p>",
+              "answer": "<p>Honour the choice; clothing is part of identity and dignity. Offer choice rather than deciding for them.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "eac9faa5-71ad-4178-824c-1556669c4c78",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

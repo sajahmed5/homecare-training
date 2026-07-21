@@ -1,1 +1,100 @@
-{"content":[{"content":{"params":{"text":"<h2>What discrimination looks like</h2><p>Discrimination means treating someone unfairly because of who they are. The Equality Act 2010 describes several forms it can take. Discrimination is not always deliberate &ndash; and it can be carried out by individuals or built into the way a service is run.</p><p>In care settings, discrimination can be subtle: assuming an older person cannot make their own decisions, serving food that ignores someone's religious needs, or talking over a person with a learning disability. Recognising these patterns is the first step to preventing them.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"625b8b69-3f81-4184-a05b-7dd0d82a8bcf","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Four key forms of discrimination defined in the Equality Act 2010. Read the example, then flip the card to check the term.</p>","dialogs":[{"text":"<p>A care home refuses to admit a resident because of their nationality.</p>","answer":"<p><strong>Direct discrimination</strong> &ndash; treating someone worse than others because of a protected characteristic.</p>","tips":{}},{"text":"<p>An activity is only ever held upstairs, so wheelchair users can never take part.</p>","answer":"<p><strong>Indirect discrimination</strong> &ndash; a rule or practice that applies to everyone but unfairly disadvantages a particular group.</p>","tips":{}},{"text":"<p>A colleague repeatedly makes jokes about a person's religion, making them feel humiliated.</p>","answer":"<p><strong>Harassment</strong> &ndash; unwanted behaviour related to a protected characteristic that violates dignity or creates a hostile environment.</p>","tips":{}},{"text":"<p>A worker who reported discrimination is then denied shifts as a punishment.</p>","answer":"<p><strong>Victimisation</strong> &ndash; treating someone badly because they have made or supported a complaint about discrimination.</p>","tips":{}},{"text":"<p>Staff assume a man with dementia would not enjoy a hand-massage session, so they never offer it.</p>","answer":"<p><strong>Discrimination by assumption</strong> &ndash; stereotyping removes choice; always ask the person rather than deciding for them.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"3b33cd8d-4394-4598-a3bb-b97f6a3424cc","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What discrimination looks like</h2><p>Discrimination means treating someone unfairly because of who they are. The Equality Act 2010 describes several forms it can take. Discrimination is not always deliberate &ndash; and it can be carried out by individuals or built into the way a service is run.</p><p>In care settings, discrimination can be subtle: assuming an older person cannot make their own decisions, serving food that ignores someone's religious needs, or talking over a person with a learning disability. Recognising these patterns is the first step to preventing them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "625b8b69-3f81-4184-a05b-7dd0d82a8bcf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types of discrimination",
+          "decorative": false,
+          "file": {
+            "path": "images/types-of-discrimination.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b61d812d-1e32-4a4d-a412-a1a488558627",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Four key forms of discrimination defined in the Equality Act 2010. Read the example, then flip the card to check the term.</p>",
+          "dialogs": [
+            {
+              "text": "<p>A care home refuses to admit a resident because of their nationality.</p>",
+              "answer": "<p><strong>Direct discrimination</strong> &ndash; treating someone worse than others because of a protected characteristic.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>An activity is only ever held upstairs, so wheelchair users can never take part.</p>",
+              "answer": "<p><strong>Indirect discrimination</strong> &ndash; a rule or practice that applies to everyone but unfairly disadvantages a particular group.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A colleague repeatedly makes jokes about a person's religion, making them feel humiliated.</p>",
+              "answer": "<p><strong>Harassment</strong> &ndash; unwanted behaviour related to a protected characteristic that violates dignity or creates a hostile environment.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A worker who reported discrimination is then denied shifts as a punishment.</p>",
+              "answer": "<p><strong>Victimisation</strong> &ndash; treating someone badly because they have made or supported a complaint about discrimination.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Staff assume a man with dementia would not enjoy a hand-massage session, so they never offer it.</p>",
+              "answer": "<p><strong>Discrimination by assumption</strong> &ndash; stereotyping removes choice; always ask the person rather than deciding for them.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "3b33cd8d-4394-4598-a3bb-b97f6a3424cc",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

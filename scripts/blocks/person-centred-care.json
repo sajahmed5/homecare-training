@@ -3,60 +3,95 @@
   "title": "Person-Centred Care",
   "content_blocks": [
     {
+      "type": "h5p",
+      "path": "person-centred-care/p9",
+      "label": "Why it matters",
+      "questions": 1,
+      "section": "Why person-centred care matters"
+    },
+    {
+      "type": "h5p",
       "path": "person-centred-care/p1",
-      "type": "h5p",
       "label": "What it means",
-      "section": "The idea and the values",
-      "questions": 0
+      "questions": 0,
+      "section": "Why person-centred care matters"
     },
     {
+      "type": "h5p",
       "path": "person-centred-care/p2",
-      "type": "h5p",
       "label": "The values",
-      "section": "The idea and the values",
-      "questions": 0
+      "questions": 0,
+      "section": "Why person-centred care matters"
     },
     {
+      "type": "h5p",
       "path": "person-centred-care/p3",
-      "type": "h5p",
       "label": "Know the person",
-      "section": "Knowing and involving the person",
-      "questions": 1
+      "questions": 1,
+      "section": "Knowing and involving the person"
     },
     {
+      "type": "h5p",
       "path": "person-centred-care/p4",
-      "type": "h5p",
       "label": "Consent",
-      "section": "Knowing and involving the person",
-      "questions": 1
+      "questions": 1,
+      "section": "Knowing and involving the person"
     },
     {
+      "type": "h5p",
+      "path": "person-centred-care/p11",
+      "label": "Mental capacity",
+      "questions": 1,
+      "section": "Knowing and involving the person"
+    },
+    {
+      "type": "h5p",
       "path": "person-centred-care/p5",
-      "type": "h5p",
       "label": "Active participation",
-      "section": "Knowing and involving the person",
-      "questions": 1
+      "questions": 1,
+      "section": "Knowing and involving the person"
     },
     {
+      "type": "h5p",
+      "path": "person-centred-care/p10",
+      "label": "Planning care",
+      "questions": 1,
+      "section": "Planning and choice"
+    },
+    {
+      "type": "h5p",
       "path": "person-centred-care/p6",
-      "type": "h5p",
       "label": "Choice & control",
-      "section": "Choice, dignity and detail",
-      "questions": 1
+      "questions": 1,
+      "section": "Planning and choice"
     },
     {
+      "type": "h5p",
       "path": "person-centred-care/p7",
-      "type": "h5p",
       "label": "Dignity & holism",
-      "section": "Choice, dignity and detail",
-      "questions": 1
+      "questions": 1,
+      "section": "Comfort, dignity and detail"
     },
     {
-      "path": "person-centred-care/p8",
       "type": "h5p",
+      "path": "person-centred-care/p12",
+      "label": "Comfort and distress",
+      "questions": 1,
+      "section": "Comfort, dignity and detail"
+    },
+    {
+      "type": "h5p",
+      "path": "person-centred-care/p13",
+      "label": "Working together",
+      "questions": 1,
+      "section": "Working together"
+    },
+    {
+      "type": "h5p",
+      "path": "person-centred-care/p8",
       "label": "Small things",
-      "section": "Choice, dignity and detail",
-      "questions": 0
+      "questions": 0,
+      "section": "Working together"
     }
   ]
 }

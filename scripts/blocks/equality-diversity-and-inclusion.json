@@ -3,60 +3,95 @@
   "title": "Equality, Diversity & Inclusion",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p1",
-      "type": "h5p",
       "label": "What EDI means",
-      "section": "Equality and the law",
-      "questions": 1
+      "questions": 1,
+      "section": "Equality, rights and the law"
     },
     {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p2",
-      "type": "h5p",
       "label": "The Equality Act 2010",
-      "section": "Equality and the law",
-      "questions": 1
+      "questions": 1,
+      "section": "Equality, rights and the law"
     },
     {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p3",
-      "type": "h5p",
       "label": "Protected characteristics",
-      "section": "Equality and the law",
-      "questions": 1
+      "questions": 1,
+      "section": "Equality, rights and the law"
     },
     {
+      "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p9",
+      "label": "Human rights and FREDA",
+      "questions": 1,
+      "section": "Equality, rights and the law"
+    },
+    {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p4",
-      "type": "h5p",
       "label": "Types of discrimination",
-      "section": "How discrimination happens",
-      "questions": 0
+      "questions": 0,
+      "section": "How discrimination happens"
     },
     {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p5",
-      "type": "h5p",
       "label": "Unconscious bias",
-      "section": "How discrimination happens",
-      "questions": 1
+      "questions": 1,
+      "section": "How discrimination happens"
     },
     {
+      "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p11",
+      "label": "Intersectionality",
+      "questions": 1,
+      "section": "How discrimination happens"
+    },
+    {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p6",
-      "type": "h5p",
       "label": "Reasonable adjustments",
-      "section": "Making care inclusive",
-      "questions": 1
+      "questions": 1,
+      "section": "Making care inclusive"
     },
     {
+      "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p10",
+      "label": "Inclusive communication",
+      "questions": 1,
+      "section": "Making care inclusive"
+    },
+    {
+      "type": "h5p",
       "path": "equality-diversity-and-inclusion/p7",
-      "type": "h5p",
       "label": "Promoting inclusion",
-      "section": "Making care inclusive",
-      "questions": 0
+      "questions": 0,
+      "section": "Making care inclusive"
     },
     {
-      "path": "equality-diversity-and-inclusion/p8",
       "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p12",
+      "label": "Culture, religion and belief",
+      "questions": 1,
+      "section": "Making care inclusive"
+    },
+    {
+      "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p13",
+      "label": "Getting information and support",
+      "questions": 1,
+      "section": "Getting support and taking action"
+    },
+    {
+      "type": "h5p",
+      "path": "equality-diversity-and-inclusion/p8",
       "label": "If you witness it",
-      "section": "Taking action",
-      "questions": 2
+      "questions": 2,
+      "section": "Getting support and taking action"
     }
   ]
 }

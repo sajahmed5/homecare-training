@@ -3,60 +3,95 @@
   "title": "Health & Safety",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "health-and-safety/p1",
-      "type": "h5p",
       "label": "Why it matters",
-      "section": "The law and your duties",
-      "questions": 1
+      "questions": 1,
+      "section": "The law and your duties"
     },
     {
+      "type": "h5p",
       "path": "health-and-safety/p2",
-      "type": "h5p",
       "label": "The law",
-      "section": "The law and your duties",
-      "questions": 1
+      "questions": 1,
+      "section": "The law and your duties"
     },
     {
+      "type": "h5p",
+      "path": "health-and-safety/p9",
+      "label": "Key H&S law",
+      "questions": 1,
+      "section": "The law and your duties"
+    },
+    {
+      "type": "h5p",
       "path": "health-and-safety/p3",
-      "type": "h5p",
       "label": "Risk assessment",
-      "section": "Assessing the risks",
-      "questions": 1
+      "questions": 1,
+      "section": "Assessing the risks"
     },
     {
+      "type": "h5p",
       "path": "health-and-safety/p4",
-      "type": "h5p",
       "label": "Common hazards",
-      "section": "Assessing the risks",
-      "questions": 0
+      "questions": 0,
+      "section": "Assessing the risks"
     },
     {
+      "type": "h5p",
       "path": "health-and-safety/p5",
-      "type": "h5p",
       "label": "Manual handling",
-      "section": "Staying safe on the job",
-      "questions": 1
+      "questions": 1,
+      "section": "Everyday safe working"
     },
     {
+      "type": "h5p",
       "path": "health-and-safety/p6",
-      "type": "h5p",
       "label": "PPE & infection",
-      "section": "Staying safe on the job",
-      "questions": 1
+      "questions": 1,
+      "section": "Everyday safe working"
     },
     {
+      "type": "h5p",
+      "path": "health-and-safety/p10",
+      "label": "COSHH and substances",
+      "questions": 1,
+      "section": "Specific workplace hazards"
+    },
+    {
+      "type": "h5p",
+      "path": "health-and-safety/p11",
+      "label": "Fire safety at work",
+      "questions": 1,
+      "section": "Specific workplace hazards"
+    },
+    {
+      "type": "h5p",
+      "path": "health-and-safety/p12",
+      "label": "Equipment and security",
+      "questions": 1,
+      "section": "Specific workplace hazards"
+    },
+    {
+      "type": "h5p",
       "path": "health-and-safety/p7",
-      "type": "h5p",
       "label": "Reporting incidents",
-      "section": "Reporting and wellbeing",
-      "questions": 1
+      "questions": 1,
+      "section": "Emergencies, reporting and wellbeing"
     },
     {
-      "path": "health-and-safety/p8",
       "type": "h5p",
+      "path": "health-and-safety/p13",
+      "label": "Emergencies and you",
+      "questions": 1,
+      "section": "Emergencies, reporting and wellbeing"
+    },
+    {
+      "type": "h5p",
+      "path": "health-and-safety/p8",
       "label": "Lone working, stress & first aid",
-      "section": "Reporting and wellbeing",
-      "questions": 1
+      "questions": 1,
+      "section": "Emergencies, reporting and wellbeing"
     }
   ]
 }

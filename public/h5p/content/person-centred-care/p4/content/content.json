@@ -1,1 +1,79 @@
-{"content":[{"content":{"params":{"text":"<h2>Gaining consent</h2><p><strong>Consent</strong> means the person agrees to the care or support you are about to give, having understood what it involves. You must gain consent every time &mdash; it is not a one-off signature but an ongoing part of care.</p><ul><li>Explain clearly what you are going to do and why, in a way the person understands.</li><li>Give them time to ask questions and to say no.</li><li>Consent can be given in words, in writing, or non-verbally (for example, a nod or holding out an arm).</li><li>A person can withdraw consent at any point, and you must respect that.</li></ul><p>Under the <strong>Mental Capacity Act 2005</strong>, always <strong>assume a person has capacity</strong> to decide unless it is shown otherwise, and take all practical steps to help them make their own decision. If someone genuinely lacks capacity for a particular decision, follow the Act and involve the right people to act in their best interests.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"a393dda7-f71c-44e8-861d-1eb3a6fbf723","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Drag the words into the gaps to complete these key points about consent.</p>","textField":"You must gain *consent* before providing care, and it can be *withdrawn* at any time. Under the Mental Capacity Act you should always *assume* a person has capacity unless proven otherwise. Consent can be given in words, in writing or *non-verbally*. Always give the person time to ask *questions* and to say *no*.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"fb84dfc1-575d-41ad-8d4d-763b8975f8ef","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Gaining consent</h2><p><strong>Consent</strong> means the person agrees to the care or support you are about to give, having understood what it involves. You must gain consent every time &mdash; it is not a one-off signature but an ongoing part of care.</p><ul><li>Explain clearly what you are going to do and why, in a way the person understands.</li><li>Give them time to ask questions and to say no.</li><li>Consent can be given in words, in writing, or non-verbally (for example, a nod or holding out an arm).</li><li>A person can withdraw consent at any point, and you must respect that.</li></ul><p>Under the <strong>Mental Capacity Act 2005</strong>, always <strong>assume a person has capacity</strong> to decide unless it is shown otherwise, and take all practical steps to help them make their own decision. If someone genuinely lacks capacity for a particular decision, follow the Act and involve the right people to act in their best interests.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a393dda7-f71c-44e8-861d-1eb3a6fbf723",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent",
+          "decorative": false,
+          "file": {
+            "path": "images/consent.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "22e8c8f0-5e36-4996-be1c-a26726faa0d8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Drag the words into the gaps to complete these key points about consent.</p>",
+          "textField": "You must gain *consent* before providing care, and it can be *withdrawn* at any time. Under the Mental Capacity Act you should always *assume* a person has capacity unless proven otherwise. Consent can be given in words, in writing or *non-verbally*. Always give the person time to ask *questions* and to say *no*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "fb84dfc1-575d-41ad-8d4d-763b8975f8ef",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

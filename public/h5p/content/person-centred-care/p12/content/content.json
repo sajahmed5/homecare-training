@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reading pain, discomfort and distress</h2><p>Not everyone can tell you in words that they are in pain or feeling distressed. People living with dementia, a learning disability, or a condition that affects speech may show you instead. Because you know the individuals you support, you are often the first to notice when something is wrong.</p><p>Learn each person&rsquo;s usual self, so that you can spot a change from it. Signs of pain or discomfort may include:</p><ul><li><strong>Facial signs:</strong> frowning, grimacing or wincing during movement.</li><li><strong>Sounds:</strong> groaning, calling out or becoming unusually quiet.</li><li><strong>Body language:</strong> guarding part of the body, tensing or restlessness.</li><li><strong>Mood and behaviour:</strong> new agitation, withdrawal or refusing food.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5293e707-d8cf-4a13-a5a8-d94bd7d5ffea",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Comfort and distress",
+          "decorative": false,
+          "file": {
+            "path": "images/comfort-and-distress.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "dc597605-54ce-4319-897d-79472415e219",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Responding and adjusting the surroundings</h2><p>When you notice pain or distress, respond promptly and in a person-centred way. Stay calm, use a gentle tone, and check the simple things first &mdash; is the person too hot or cold, uncomfortable, hungry, needing the toilet, or in surroundings that overwhelm them?</p><p>The immediate environment has a real effect on how someone feels. Small adjustments can ease distress before anything else is needed:</p><ul><li><strong>Reduce noise:</strong> turn down a blaring television or move to a quieter space.</li><li><strong>Soften lighting:</strong> avoid glare and harsh shadows that can confuse or unsettle.</li><li><strong>Comfort:</strong> adjust seating, temperature and clothing.</li></ul><p>Always report signs of pain and the actions you took, so that the person&rsquo;s needs are properly assessed and nothing is missed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a51a84a1-d4bd-46ee-99ad-a86da112bfc5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Because a person with advanced dementia may be unable to tell you in words that they are in pain, you should watch for changes such as grimacing, guarding part of the body or new agitation, and report what you see.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Many people cannot report pain in words, so noticing and reporting non-verbal signs is an essential part of person-centred care.",
+            "correctAnswerMessage": "Correct. When someone cannot use words, non-verbal signs and a change from their usual self are key ways of recognising pain or distress."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "a2577cb3-4590-456c-94b3-551b277199eb",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

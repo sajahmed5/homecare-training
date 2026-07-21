@@ -3,60 +3,95 @@
   "title": "Safeguarding Adults Level 2",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p1",
-      "type": "h5p",
       "label": "What safeguarding means",
-      "section": "Safeguarding and its principles",
-      "questions": 1
+      "questions": 1,
+      "section": "Safeguarding and its principles"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p2",
-      "type": "h5p",
       "label": "The six principles",
-      "section": "Safeguarding and its principles",
-      "questions": 1
+      "questions": 1,
+      "section": "Safeguarding and its principles"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-adults-level-2/p9",
+      "label": "Adults at risk",
+      "questions": 1,
+      "section": "Safeguarding and its principles"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p3",
-      "type": "h5p",
       "label": "Categories of abuse",
-      "section": "Recognising abuse",
-      "questions": 0
+      "questions": 0,
+      "section": "Recognising abuse"
     },
     {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p4",
-      "type": "h5p",
       "label": "More categories",
-      "section": "Recognising abuse",
-      "questions": 1
+      "questions": 1,
+      "section": "Recognising abuse"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-adults-level-2/p10",
+      "label": "Specific abuse types",
+      "questions": 1,
+      "section": "Recognising abuse"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p5",
-      "type": "h5p",
       "label": "Mental capacity & consent",
-      "section": "Capacity and raising concerns",
-      "questions": 1
+      "questions": 1,
+      "section": "Responding to concerns"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-adults-level-2/p11",
+      "label": "Responding to disclosure",
+      "questions": 1,
+      "section": "Responding to concerns"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p6",
-      "type": "h5p",
       "label": "Raising a concern",
-      "section": "Capacity and raising concerns",
-      "questions": 1
+      "questions": 1,
+      "section": "Responding to concerns"
     },
     {
+      "type": "h5p",
+      "path": "safeguarding-adults-level-2/p12",
+      "label": "Reporting and agencies",
+      "questions": 1,
+      "section": "Reporting and the law"
+    },
+    {
+      "type": "h5p",
       "path": "safeguarding-adults-level-2/p7",
-      "type": "h5p",
       "label": "Whistleblowing & Prevent",
-      "section": "Speaking up and standards",
-      "questions": 1
+      "questions": 1,
+      "section": "Reporting and the law"
     },
     {
-      "path": "safeguarding-adults-level-2/p8",
       "type": "h5p",
+      "path": "safeguarding-adults-level-2/p13",
+      "label": "The legal framework",
+      "questions": 1,
+      "section": "Reporting and the law"
+    },
+    {
+      "type": "h5p",
+      "path": "safeguarding-adults-level-2/p8",
       "label": "Standards & summary",
-      "section": "Speaking up and standards",
-      "questions": 1
+      "questions": 1,
+      "section": "Standards and summary"
     }
   ]
 }

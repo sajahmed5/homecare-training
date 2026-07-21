@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Preventing fire</h2><p>Fire needs three things together &mdash; a source of heat, fuel to burn and oxygen from the air. Take any one away and a fire cannot start or continue. The Regulatory Reform (Fire Safety) Order 2005 makes your employer responsible for assessing fire risks and keeping people safe, but prevention is part of everyone&rsquo;s job.</p><p>You help by keeping fire exits and corridors clear, reporting damaged sockets or overloaded plugs, being alert around cooking, smoking materials and heaters, and knowing where alarms and extinguishers are.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ed9fee31-86c7-41dc-9a28-9267820d4e37",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Fire safety at work",
+          "decorative": false,
+          "file": {
+            "path": "images/fire-safety-at-work.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c232a828-1d75-443f-8fa3-4ef2a9436be0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>If you discover a fire</h2><p>In a fire, seconds matter and lives come before property. Learn your workplace fire procedure before you ever need it.</p><ul><li><strong>Raise the alarm:</strong> sound the nearest fire alarm and warn people nearby.</li><li><strong>Get out and stay out:</strong> help people evacuate by the nearest safe route and do not go back in.</li><li><strong>Call 999:</strong> make sure the fire service has been called.</li><li><strong>Do not take risks:</strong> only ever tackle a tiny fire if you are trained and can do so safely.</li></ul><p>People who cannot escape unaided should have a Personal Emergency Evacuation Plan (PEEP) that sets out the help they need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a676a391-b8aa-44eb-9a32-2a89641ba7c6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You discover a small fire has taken hold in a waste bin and is spreading to a curtain. What should you do first?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Raise the alarm, help people evacuate and make sure 999 is called.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Warning people and getting them out safely comes first; property can be replaced but people cannot.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Look for an extinguisher and try to put it out yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A fire already spreading to a curtain is beyond a small contained fire; raising the alarm and evacuating must come first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Open the windows to let the smoke out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Extra air feeds a fire, and the priority is to warn people and evacuate, not to ventilate the room.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Go and find your manager to ask what to do.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. There is no time to search for a manager; follow the fire procedure by raising the alarm straight away.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "14f98935-c27f-4c21-bf13-3655ca460c8a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,1 +1,139 @@
-{"content":[{"content":{"params":{"text":"<h2>What to do if you witness discrimination</h2><p>You have a duty not only to avoid discriminating yourself, but also to speak up when you see others treating someone unfairly. Staying silent allows poor practice to continue and lets people down.</p><p>If you witness discrimination, harassment or victimisation:</p><ul><li><strong>Support the person affected</strong> &ndash; check they are safe and make sure their dignity is protected.</li><li><strong>Challenge it appropriately</strong> if it is safe to do so &ndash; sometimes a calm, respectful word is enough to stop it.</li><li><strong>Report it</strong> to your manager or supervisor, following your workplace policy.</li><li><strong>Record the facts</strong> accurately, clearly and without opinion.</li><li><strong>Follow whistleblowing or safeguarding procedures</strong> if the concern is serious or is not acted upon.</li></ul><p>Reporting a genuine concern is protected &ndash; you should never be victimised for raising it. Promoting equality is everyone's responsibility, every day.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"24647bbb-665d-4bf0-bd57-7a3d953d3053","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You overhear a colleague repeatedly mocking a resident's accent, and the resident looks upset. What should you do?</p>","answers":[{"correct":true,"text":"<div>Check the resident is okay, challenge the behaviour if safe, and report it to your manager following workplace policy.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Supporting the person, challenging poor practice and reporting through the right channels are all part of your duty.","notChosenFeedback":""}},{"correct":false,"text":"<div>Ignore it, as it is a private matter between the colleague and resident.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This is harassment, not a private matter. Staying silent allows discrimination to continue.","notChosenFeedback":""}},{"correct":false,"text":"<div>Join in gently so the resident does not feel singled out.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This makes you part of the harassment and further undermines the resident's dignity.","notChosenFeedback":""}},{"correct":false,"text":"<div>Wait several weeks to see whether it happens again before doing anything.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Delay leaves the resident exposed to further harm. Concerns should be acted on promptly.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"32026e78-cea6-419c-a28a-18b599e4bcef","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A care worker who reports discrimination in good faith is protected and should not be treated badly for raising the concern.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Actually this is true &ndash; treating someone badly for raising a genuine concern is victimisation and is against the law.","correctAnswerMessage":"Correct. Punishing someone for raising a genuine concern would itself be victimisation, which is unlawful under the Equality Act 2010."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"eba12513-1091-4a6f-87ed-fdc78140a572","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to do if you witness discrimination</h2><p>You have a duty not only to avoid discriminating yourself, but also to speak up when you see others treating someone unfairly. Staying silent allows poor practice to continue and lets people down.</p><p>If you witness discrimination, harassment or victimisation:</p><ul><li><strong>Support the person affected</strong> &ndash; check they are safe and make sure their dignity is protected.</li><li><strong>Challenge it appropriately</strong> if it is safe to do so &ndash; sometimes a calm, respectful word is enough to stop it.</li><li><strong>Report it</strong> to your manager or supervisor, following your workplace policy.</li><li><strong>Record the facts</strong> accurately, clearly and without opinion.</li><li><strong>Follow whistleblowing or safeguarding procedures</strong> if the concern is serious or is not acted upon.</li></ul><p>Reporting a genuine concern is protected &ndash; you should never be victimised for raising it. Promoting equality is everyone's responsibility, every day.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "24647bbb-665d-4bf0-bd57-7a3d953d3053",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for If you witness it",
+          "decorative": false,
+          "file": {
+            "path": "images/if-you-witness-it.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "26f3206d-6701-45d3-b9b6-42b3a2dfc0e5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You overhear a colleague repeatedly mocking a resident's accent, and the resident looks upset. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Check the resident is okay, challenge the behaviour if safe, and report it to your manager following workplace policy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Supporting the person, challenging poor practice and reporting through the right channels are all part of your duty.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore it, as it is a private matter between the colleague and resident.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is harassment, not a private matter. Staying silent allows discrimination to continue.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Join in gently so the resident does not feel singled out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This makes you part of the harassment and further undermines the resident's dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait several weeks to see whether it happens again before doing anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Delay leaves the resident exposed to further harm. Concerns should be acted on promptly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "32026e78-cea6-419c-a28a-18b599e4bcef",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A care worker who reports discrimination in good faith is protected and should not be treated badly for raising the concern.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Actually this is true &ndash; treating someone badly for raising a genuine concern is victimisation and is against the law.",
+            "correctAnswerMessage": "Correct. Punishing someone for raising a genuine concern would itself be victimisation, which is unlawful under the Equality Act 2010."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "eba12513-1091-4a6f-87ed-fdc78140a572",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

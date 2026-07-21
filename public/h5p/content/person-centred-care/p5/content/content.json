@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Active participation</h2><p><strong>Active participation</strong> means recognising the person as an active partner in their own care and daily life, rather than a passive recipient. It is about doing things <em>with</em> people, not <em>to</em> or <em>for</em> them.</p><p>Even small steps count. Someone might not be able to prepare a whole meal, but they can choose the ingredients, stir the pot, or lay the table. Active participation:</p><ul><li>Maintains and builds skills and independence.</li><li>Increases self-esteem, purpose and a sense of belonging.</li><li>Reduces isolation and the risk of learned helplessness.</li></ul><p>Look for what a person <strong>can</strong> do and enable it, offering support only where it is needed.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"9f786a18-a28d-49d0-9bbb-b01938564b2b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Active participation means doing tasks for the person as quickly as possible so they do not have to make any effort.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Doing everything for someone removes their independence. Active participation enables the person to take part as much as they can.","correctAnswerMessage":"Correct. Active participation is about doing things WITH people and enabling them to take part &mdash; not doing everything for them."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"2e5e6027-ec5b-40c0-9fbb-8707279a835b","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Active participation</h2><p><strong>Active participation</strong> means recognising the person as an active partner in their own care and daily life, rather than a passive recipient. It is about doing things <em>with</em> people, not <em>to</em> or <em>for</em> them.</p><p>Even small steps count. Someone might not be able to prepare a whole meal, but they can choose the ingredients, stir the pot, or lay the table. Active participation:</p><ul><li>Maintains and builds skills and independence.</li><li>Increases self-esteem, purpose and a sense of belonging.</li><li>Reduces isolation and the risk of learned helplessness.</li></ul><p>Look for what a person <strong>can</strong> do and enable it, offering support only where it is needed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9f786a18-a28d-49d0-9bbb-b01938564b2b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Active participation",
+          "decorative": false,
+          "file": {
+            "path": "images/active-participation.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ba9a22a2-9278-4d62-afde-de82f0983f0f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Active participation means doing tasks for the person as quickly as possible so they do not have to make any effort.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Doing everything for someone removes their independence. Active participation enables the person to take part as much as they can.",
+            "correctAnswerMessage": "Correct. Active participation is about doing things WITH people and enabling them to take part &mdash; not doing everything for them."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "2e5e6027-ec5b-40c0-9fbb-8707279a835b",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Personal protective equipment (PPE)</h2><p>PPE is the last line of defence in the hierarchy of controls. It does not remove a hazard &mdash; it only reduces the harm if something goes wrong &mdash; so it works alongside good practice like safe systems of work and hand hygiene, not instead of them.</p><p>Your employer must provide PPE free of charge, keep it in good condition and train you to use it. In care this typically includes:</p><ul><li><strong>Disposable gloves</strong> for tasks involving bodily fluids or contamination.</li><li><strong>Aprons</strong> to protect clothing and reduce cross-infection.</li><li><strong>Face masks or fluid-resistant protection</strong> where there is a risk of splashing or airborne infection.</li><li><strong>Eye protection</strong> where splashing to the eyes is possible.</li></ul><p>Change gloves and aprons between tasks and between people, dispose of them as clinical waste, and always wash or sanitise your hands afterwards. Used PPE left lying around can itself become a trip or infection hazard, so bag and bin it properly.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"8e69a027-72ba-4eb1-9d31-000d88134870","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You have just finished supporting Mrs Patel with personal care and are about to help Mr Chen with his lunch. What should you do with your gloves and apron?</p>","answers":[{"correct":true,"text":"<div>Remove and dispose of them, wash your hands, then put on fresh PPE only if the next task needs it.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. PPE is single-use per task and per person. Removing it, cleaning your hands and only re-gloving when needed prevents cross-infection.","notChosenFeedback":""}},{"correct":false,"text":"<div>Keep the same gloves on to save time, since your hands are already covered.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Wearing the same gloves between people spreads infection. Gloves are single-use and must be changed.","notChosenFeedback":""}},{"correct":false,"text":"<div>Wash the gloves with hand gel and reuse them for the next person.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Disposable gloves are not designed to be cleaned and reused; hand gel can damage them and they must be thrown away after one use.","notChosenFeedback":""}},{"correct":false,"text":"<div>Take the apron off but keep the gloves for lunch service.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Both items are contaminated and must be removed and disposed of, followed by hand hygiene, before moving to the next person.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"ea367f43-a287-4821-989e-b53f9b7e5b36","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Personal protective equipment (PPE)</h2><p>PPE is the last line of defence in the hierarchy of controls. It does not remove a hazard &mdash; it only reduces the harm if something goes wrong &mdash; so it works alongside good practice like safe systems of work and hand hygiene, not instead of them.</p><p>Your employer must provide PPE free of charge, keep it in good condition and train you to use it. In care this typically includes:</p><ul><li><strong>Disposable gloves</strong> for tasks involving bodily fluids or contamination.</li><li><strong>Aprons</strong> to protect clothing and reduce cross-infection.</li><li><strong>Face masks or fluid-resistant protection</strong> where there is a risk of splashing or airborne infection.</li><li><strong>Eye protection</strong> where splashing to the eyes is possible.</li></ul><p>Change gloves and aprons between tasks and between people, dispose of them as clinical waste, and always wash or sanitise your hands afterwards. Used PPE left lying around can itself become a trip or infection hazard, so bag and bin it properly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8e69a027-72ba-4eb1-9d31-000d88134870",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for PPE & infection",
+          "decorative": false,
+          "file": {
+            "path": "images/ppe-infection.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "bc5c9886-30fa-4993-909e-4b1a3c104883",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You have just finished supporting Mrs Patel with personal care and are about to help Mr Chen with his lunch. What should you do with your gloves and apron?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Remove and dispose of them, wash your hands, then put on fresh PPE only if the next task needs it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. PPE is single-use per task and per person. Removing it, cleaning your hands and only re-gloving when needed prevents cross-infection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Keep the same gloves on to save time, since your hands are already covered.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Wearing the same gloves between people spreads infection. Gloves are single-use and must be changed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wash the gloves with hand gel and reuse them for the next person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Disposable gloves are not designed to be cleaned and reused; hand gel can damage them and they must be thrown away after one use.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Take the apron off but keep the gloves for lunch service.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Both items are contaminated and must be removed and disposed of, followed by hand hygiene, before moving to the next person.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ea367f43-a287-4821-989e-b53f9b7e5b36",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

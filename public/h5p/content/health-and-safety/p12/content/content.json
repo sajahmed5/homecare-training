@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Work equipment: PUWER and LOLER</h2><p>Hoists, slings, wheelchairs, beds and pressure-relieving mattresses all count as work equipment. The Provision and Use of Work Equipment Regulations (PUWER) require it to be suitable, maintained and used by people who are trained. Where equipment lifts a person, the Lifting Operations and Lifting Equipment Regulations (LOLER) add regular thorough examinations, usually every six months for a hoist and its sling.</p><p>Only ever use equipment you have been trained on, and check it looks sound and within its inspection date before you rely on it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1eaa4bb9-7d55-4b48-83d8-831f570c8046",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Equipment and security",
+          "decorative": false,
+          "file": {
+            "path": "images/equipment-and-security.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "78384643-2bd0-4cf7-b866-7bd67ddb5a40",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Faulty equipment, gas and electrical safety</h2><p>Never use equipment that seems damaged or is out of test date, even if you are busy. Take it out of use, label it clearly and report it so it can be repaired or replaced.</p><ul><li><strong>Faulty electrics:</strong> report frayed cables, cracked plugs or scorch marks and do not use the item.</li><li><strong>Gas smells:</strong> if you smell gas in someone&rsquo;s home, avoid using switches or naked flames, get fresh air in and follow your procedure.</li><li><strong>Carbon monoxide:</strong> take a sounding alarm seriously and act on it.</li><li><strong>Security:</strong> follow key-safe and door procedures, and confirm the identity of callers.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "42162d61-4ffd-4867-bdd4-8d01cc4a53bb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about equipment and safety.</p></p>",
+          "textField": "Lifting equipment such as a hoist is thoroughly examined under the *LOLER* regulations, while work equipment in general is covered by *PUWER*. If a piece of equipment looks faulty, you must take it out of *use* and report it. If you smell gas in a home, you should not touch any electrical *switch*. You should only ever operate equipment you have been *trained* to use.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "c18cad4a-a735-41da-91c4-24f7ad1af60c",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

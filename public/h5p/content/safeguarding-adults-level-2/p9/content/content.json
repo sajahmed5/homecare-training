@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Who is an adult at risk?</h2><p>Safeguarding does not apply to every person you support in the same way. The Care Act 2014 describes an adult at risk as someone aged 18 or over who has needs for care and support, is experiencing or is at risk of abuse or neglect, and &mdash; because of those needs &mdash; is unable to protect themselves from it.</p><p>All three parts have to be present. Someone might have care needs yet be well able to keep themselves safe; someone else may face abuse but have no care needs. It is the combination that makes a person an adult at risk, so the same individual can be at risk in one situation and not in another.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d8bde347-4196-4ea7-a208-84e95f90650d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Adults at risk",
+          "decorative": false,
+          "file": {
+            "path": "images/adults-at-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9e1b7fd8-f446-4658-ab5b-ee1cbe2fbccf",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Making Safeguarding Personal</h2><p>Making Safeguarding Personal is the approach that keeps the person, not the process, at the centre. Rather than doing safeguarding &ldquo;to&rdquo; people, you work with them to find out what they want to change and what a good outcome looks like for them.</p><ul><li><strong>Ask, do not assume:</strong> begin with &ldquo;what would you like to happen?&rdquo; rather than deciding for them.</li><li><strong>Respect their wishes:</strong> an adult with capacity may choose how far a concern is taken forward.</li><li><strong>Focus on outcomes:</strong> success is measured by the person feeling safer and more in control.</li><li><strong>Stay proportionate:</strong> the response should fit the situation and be no more intrusive than it needs to be.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "18e4fd96-dffa-4b04-8394-8726bad7198b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under the Care Act 2014, which combination describes an adult at risk?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>An adult with care and support needs who is experiencing or at risk of abuse or neglect and cannot protect themselves because of those needs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. All three elements &mdash; care needs, abuse or the risk of it, and being unable to self-protect &mdash; must be present together.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any adult over 65, because older people are always vulnerable.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Age alone does not make someone an adult at risk; it depends on care needs and the situation.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Any adult who has a disability, whatever their circumstances.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Having a disability does not automatically make a person an adult at risk; the Care Act test still has to be met.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An adult who is unhappy with their care but has no care and support needs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Without care and support needs the Care Act definition is not met, although concerns should still be listened to.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "bdf8e123-dadb-4294-bd3e-56d5ce3150cb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

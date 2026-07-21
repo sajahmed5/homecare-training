@@ -1,1 +1,105 @@
-{"content":[{"content":{"params":{"text":"<h2>The person-centred values</h2><p>A set of shared values underpins person-centred care. Values are the beliefs that guide what we decide is right and how we act. In your role, these eight values should shape every interaction.</p><p>Tap through the cards to remind yourself what each value means in day-to-day practice.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"4cd5a777-40d4-4720-83d0-5734a53cccfd","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>The person-centred values behind Standard 5. Read each value, then flip to see what it means in practice.</p>","dialogs":[{"text":"<p>Individuality</p>","answer":"<p>Every person is unique. Support their own identity, culture, beliefs, likes and dislikes &mdash; never assume two people want the same thing.</p>","tips":{}},{"text":"<p>Independence</p>","answer":"<p>Help people do as much for themselves as they can and safely wish to, rather than doing everything for them. Independence builds confidence and self-esteem.</p>","tips":{}},{"text":"<p>Privacy &amp; Dignity</p>","answer":"<p>Respect personal space, bodies and information. Close doors and curtains, cover people during personal care, and keep their information confidential.</p>","tips":{}},{"text":"<p>Choice &amp; Rights</p>","answer":"<p>People have the right to make their own decisions and to have their human rights upheld &mdash; including the right to take positive risks &mdash; even choices you might not make yourself.</p>","tips":{}},{"text":"<p>Partnership</p>","answer":"<p>Work with the person, their family and other professionals as a team. The person is an equal partner in planning and reviewing their own care.</p>","tips":{}},{"text":"<p>Respect</p>","answer":"<p>Value each person&rsquo;s views, feelings, background and beliefs. Listen, use their preferred name, and never talk over or about someone as if they were not there.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"57a9fd37-35fd-4d0b-90a9-6059cd01a6db","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The person-centred values</h2><p>A set of shared values underpins person-centred care. Values are the beliefs that guide what we decide is right and how we act. In your role, these eight values should shape every interaction.</p><p>Tap through the cards to remind yourself what each value means in day-to-day practice.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4cd5a777-40d4-4720-83d0-5734a53cccfd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The values",
+          "decorative": false,
+          "file": {
+            "path": "images/the-values.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f1e23629-1a3e-4c24-97e5-f69ccffea591",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>The person-centred values behind Standard 5. Read each value, then flip to see what it means in practice.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Individuality</p>",
+              "answer": "<p>Every person is unique. Support their own identity, culture, beliefs, likes and dislikes &mdash; never assume two people want the same thing.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Independence</p>",
+              "answer": "<p>Help people do as much for themselves as they can and safely wish to, rather than doing everything for them. Independence builds confidence and self-esteem.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Privacy &amp; Dignity</p>",
+              "answer": "<p>Respect personal space, bodies and information. Close doors and curtains, cover people during personal care, and keep their information confidential.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Choice &amp; Rights</p>",
+              "answer": "<p>People have the right to make their own decisions and to have their human rights upheld &mdash; including the right to take positive risks &mdash; even choices you might not make yourself.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Partnership</p>",
+              "answer": "<p>Work with the person, their family and other professionals as a team. The person is an equal partner in planning and reviewing their own care.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Respect</p>",
+              "answer": "<p>Value each person&rsquo;s views, feelings, background and beliefs. Listen, use their preferred name, and never talk over or about someone as if they were not there.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "57a9fd37-35fd-4d0b-90a9-6059cd01a6db",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

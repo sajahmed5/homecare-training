@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Abuse that can be easy to miss</h2><p>Beyond the broad categories you have already met, some forms of abuse have particular warning signs. Domestic abuse is any controlling, coercive, threatening, violent or abusive behaviour between people who are, or have been, intimate partners or family members. It is not only physical &mdash; controlling money, isolating someone from friends, and constant belittling are all part of it.</p><p>Modern slavery and human trafficking involve exploiting a person for labour, domestic servitude, sexual exploitation or crime. Signs can include someone who has no identity documents, seems fearful of a controlling companion, works excessive hours, or keeps none of their own earnings.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "aca4fc01-5bc7-4fac-82ab-058114a1c71c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Specific abuse types",
+          "decorative": false,
+          "file": {
+            "path": "images/specific-abuse-types.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f5faf0b4-0c94-434b-b62c-2de98b2a2108",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Self-neglect, organisational and discriminatory abuse</h2><p>Not all harm comes from another person. Self-neglect is where an adult neglects their own health, hygiene or surroundings, or hoards to a degree that puts them at risk. It still falls within safeguarding and needs a caring, person-led response rather than judgement.</p><ul><li><strong>Organisational abuse:</strong> neglect or poor care that comes from the routines, culture or practices of a service &mdash; for example rigid rotas that ignore people&rsquo;s choices.</li><li><strong>Discriminatory abuse:</strong> harassment or unequal treatment because of a protected characteristic such as race, religion, disability, age, sex or sexual orientation.</li><li><strong>Overlap:</strong> a person may experience more than one type at once, so keep an open mind.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "14ea6674-7299-427b-a988-38c2abbe7541",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Self-neglect, where an adult neglects their own health, hygiene or surroundings, can be a safeguarding matter even though no other person is causing the harm.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Self-neglect is included within adult safeguarding; the harm does not have to come from another person for a concern to apply.",
+            "correctAnswerMessage": "Correct. Self-neglect is recognised within adult safeguarding and calls for a supportive, person-centred response."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ddd053f6-414c-47c3-ae99-6d727b531237",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

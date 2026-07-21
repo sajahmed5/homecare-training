@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When someone tells you about abuse</h2><p>A disclosure is one of the most important moments in safeguarding, and how you react shapes whether the person feels believed. Stay calm, give them your full attention, and let them speak in their own words. You are there to listen and to keep them safe, not to investigate.</p><p>Above all, never promise to keep a disclosure secret. It can be tempting to reassure someone by saying it will stay between the two of you, but you have a duty to pass concerns on. Instead, explain gently that you will need to tell the right person so they can get help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e1b2c451-9990-4f18-94ed-83941e8f8382",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Responding to disclosure",
+          "decorative": false,
+          "file": {
+            "path": "images/responding-to-disclosure.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0e0b4d0d-e823-4d0e-b5b6-82facd5d692a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The do&rsquo;s and don&rsquo;ts</h2><ul><li><strong>Do</strong> reassure the person that they were right to tell you and that it is not their fault.</li><li><strong>Do</strong> record what was said as soon as you can, using the person&rsquo;s own words and the facts.</li><li><strong>Do</strong> preserve any evidence &mdash; avoid washing, tidying or moving things where a crime may have happened.</li><li><strong>Do not</strong> ask leading questions, press for detail, or interrogate the person.</li><li><strong>Do not</strong> confront the alleged abuser or discuss the concern with them.</li><li><strong>Do not</strong> delay &mdash; report to your manager or the safeguarding lead straight away.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4247eca0-3c6f-4d45-85bb-356a8e3f101e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete these key points about responding to a disclosure.</p></p>",
+          "textField": "When someone discloses abuse you should stay *calm* and listen carefully. You must never promise to keep it *secret*, because you have a duty to pass the concern on. Record what was said using the person&rsquo;s own *words* as soon as you can. Avoid asking *leading* questions that put ideas into their account. Where a crime may have occurred, take care to preserve any *evidence*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "7e759e4f-bd36-474c-aa4d-2638fe520226",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

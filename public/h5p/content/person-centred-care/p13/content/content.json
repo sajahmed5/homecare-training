@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping care person-centred together</h2><p>Person-centred care is rarely delivered by one worker alone. Families and unpaid carers often hold years of knowledge about the person &mdash; their history, their likes, and the small things that soothe or upset them. Colleagues, nurses, GPs and other professionals each see a different part of the picture. Working well with all of them keeps care consistent and true to the individual.</p><p>The person always remains at the centre. Involve families in a way the person agrees to, share relevant information appropriately, and respect confidentiality. When everyone works from the same up-to-date plan and communicates openly, the individual receives joined-up support rather than a series of disconnected tasks.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b143274d-f6b9-4914-9f19-ab509b427555",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working together",
+          "decorative": false,
+          "file": {
+            "path": "images/working-together.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "78a01de6-986a-446b-937f-87c6ec248e1a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A scenario: getting it right together</h2><p>Doreen, who has moderate dementia, has become tearful at teatime and is eating very little. On a task-focused shift it would be easy to record &lsquo;poor appetite&rsquo; and move on. Instead, you ask her daughter, who mentions that Doreen always ate her main meal at midday and found evening meals difficult, even years ago.</p><p>You raise this with your team and the plan is reviewed: Doreen&rsquo;s cooked meal is moved to lunchtime, with a lighter supper in a calm, quiet room. Within a week she is eating better and is far more settled. Nothing here needed a specialist &mdash; just listening to family, sharing it with the team, and adjusting the plan around the individual.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e58f6e1b-1403-4927-84d5-9ad8196adcee",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In Doreen&rsquo;s scenario, what made the response genuinely person-centred?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Staff drew on the family&rsquo;s knowledge, shared it with the team and adjusted the plan around Doreen&rsquo;s long-standing routine.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Listening to those who know the person, working as a team and updating the plan is person-centred care in action.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Staff recorded &lsquo;poor appetite&rsquo; and waited for a specialist to decide what to do.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Simply logging the problem and waiting misses the everyday knowledge that solved it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The daughter took over all decisions because she knows Doreen best.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Family knowledge is valuable, but the person stays at the centre; this was about listening, not handing over control.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Doreen&rsquo;s mealtimes were changed to fit the staff rota more easily.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. The change was made around Doreen&rsquo;s own routine and comfort, not staff convenience.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "57b046f7-0a3c-4037-9630-c01e1d549fa5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

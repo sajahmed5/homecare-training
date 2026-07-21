@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Near misses, incidents and RIDDOR</h2><p>Reporting is how services learn and stop the next incident. A <strong>near miss</strong> is an event that could have caused harm but didn't &mdash; for example a hoist sling that slipped but was caught in time. Report near misses just as you would an actual accident: they are a free warning.</p><p>Record accidents and incidents in your organisation's system (often an accident book or online form) promptly and accurately, sticking to the facts.</p><h3>RIDDOR</h3><p>The <strong>Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (RIDDOR)</strong> require certain serious work-related events to be reported to the HSE by the responsible person (usually your employer, not you personally). Reportable events include:</p><ul><li>Work-related <strong>deaths</strong> and <strong>specified injuries</strong> (such as fractures other than to fingers/thumbs/toes, amputations, or serious burns).</li><li>Injuries that keep a worker off their normal duties for <strong>more than 7 days</strong>.</li><li>Certain <strong>occupational diseases</strong> and <strong>dangerous occurrences</strong>.</li></ul><p>Deaths, specified injuries and dangerous occurrences must be reported without delay; the over-7-day injury report must be made within 15 days. Your job is to report promptly and accurately up the line so the responsible person can decide if RIDDOR applies.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"c775782f-94e0-454f-a97e-5c72ebeff0d2","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A colleague slips on an unmarked wet floor, is taken to hospital and is signed off their normal duties for 10 days. What is true about reporting this?</p>","answers":[{"correct":true,"text":"<div>It is likely reportable to the HSE under RIDDOR as an over-7-day injury, and you should report it internally straight away.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. An over-7-day incapacity from a work accident is normally RIDDOR-reportable. Report it internally at once so your employer can notify the HSE within the time limit.","notChosenFeedback":""}},{"correct":false,"text":"<div>There's nothing to report because it was just a slip and no bones were broken.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Being off normal duties for more than 7 days from a work accident is reportable under RIDDOR regardless of whether a bone was broken.","notChosenFeedback":""}},{"correct":false,"text":"<div>You should personally phone the HSE before telling your manager.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"RIDDOR reports are made by the responsible person (your employer). Your role is to report internally promptly and accurately.","notChosenFeedback":""}},{"correct":false,"text":"<div>Wait to see if the colleague complains before recording anything.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Incidents must be recorded promptly and factually as soon as they happen, not delayed.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"7d554952-9d9a-4f84-98b6-53409debdeee","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Near misses, incidents and RIDDOR</h2><p>Reporting is how services learn and stop the next incident. A <strong>near miss</strong> is an event that could have caused harm but didn't &mdash; for example a hoist sling that slipped but was caught in time. Report near misses just as you would an actual accident: they are a free warning.</p><p>Record accidents and incidents in your organisation's system (often an accident book or online form) promptly and accurately, sticking to the facts.</p><h3>RIDDOR</h3><p>The <strong>Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (RIDDOR)</strong> require certain serious work-related events to be reported to the HSE by the responsible person (usually your employer, not you personally). Reportable events include:</p><ul><li>Work-related <strong>deaths</strong> and <strong>specified injuries</strong> (such as fractures other than to fingers/thumbs/toes, amputations, or serious burns).</li><li>Injuries that keep a worker off their normal duties for <strong>more than 7 days</strong>.</li><li>Certain <strong>occupational diseases</strong> and <strong>dangerous occurrences</strong>.</li></ul><p>Deaths, specified injuries and dangerous occurrences must be reported without delay; the over-7-day injury report must be made within 15 days. Your job is to report promptly and accurately up the line so the responsible person can decide if RIDDOR applies.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c775782f-94e0-454f-a97e-5c72ebeff0d2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Reporting incidents",
+          "decorative": false,
+          "file": {
+            "path": "images/reporting-incidents.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "815dbd12-77cf-4cf1-83ce-b816fdde0001",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A colleague slips on an unmarked wet floor, is taken to hospital and is signed off their normal duties for 10 days. What is true about reporting this?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It is likely reportable to the HSE under RIDDOR as an over-7-day injury, and you should report it internally straight away.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. An over-7-day incapacity from a work accident is normally RIDDOR-reportable. Report it internally at once so your employer can notify the HSE within the time limit.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There's nothing to report because it was just a slip and no bones were broken.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Being off normal duties for more than 7 days from a work accident is reportable under RIDDOR regardless of whether a bone was broken.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should personally phone the HSE before telling your manager.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "RIDDOR reports are made by the responsible person (your employer). Your role is to report internally promptly and accurately.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see if the colleague complains before recording anything.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incidents must be recorded promptly and factually as soon as they happen, not delayed.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7d554952-9d9a-4f84-98b6-53409debdeee",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

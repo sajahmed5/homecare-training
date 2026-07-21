@@ -1,1 +1,79 @@
-{"content":[{"content":{"params":{"text":"<h2>The law behind EDI</h2><p>The main piece of legislation in this area is the <strong>Equality Act 2010</strong>. It brought together many older laws into a single Act and makes it unlawful to discriminate against people because of certain aspects of who they are. These aspects are called <strong>protected characteristics</strong>, and there are nine of them.</p><p>The Equality Act works alongside the <strong>Human Rights Act 1998</strong>, which protects rights such as dignity, respect for private and family life, and freedom from degrading treatment. Regulators reinforce these duties: the <strong>Equality and Human Rights Commission (EHRC)</strong> enforces the Act, while the <strong>Care Quality Commission (CQC)</strong> expects providers to deliver care that is fair, person-centred and free from discrimination. <strong>Skills for Care</strong> supports the workforce to put these standards into everyday practice.</p><p>As a care worker you have both a legal duty and a professional duty to uphold equality &ndash; and your employer's policies and your Code of Conduct set out what that looks like in your role.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"81ff0643-6bdc-48e1-9f61-2314f3a84933","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Drag the words into the gaps to complete these facts about equality legislation.</p>","textField":"The main law protecting people from discrimination is the *Equality* Act 2010. It identifies nine protected *characteristics*. The Act is enforced by the *EHRC*, while care services are inspected by the *CQC*. It works alongside the Human *Rights* Act 1998, which protects people's *dignity*.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"a564c00c-a392-429b-b629-6098d1bb2295","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The law behind EDI</h2><p>The main piece of legislation in this area is the <strong>Equality Act 2010</strong>. It brought together many older laws into a single Act and makes it unlawful to discriminate against people because of certain aspects of who they are. These aspects are called <strong>protected characteristics</strong>, and there are nine of them.</p><p>The Equality Act works alongside the <strong>Human Rights Act 1998</strong>, which protects rights such as dignity, respect for private and family life, and freedom from degrading treatment. Regulators reinforce these duties: the <strong>Equality and Human Rights Commission (EHRC)</strong> enforces the Act, while the <strong>Care Quality Commission (CQC)</strong> expects providers to deliver care that is fair, person-centred and free from discrimination. <strong>Skills for Care</strong> supports the workforce to put these standards into everyday practice.</p><p>As a care worker you have both a legal duty and a professional duty to uphold equality &ndash; and your employer's policies and your Code of Conduct set out what that looks like in your role.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "81ff0643-6bdc-48e1-9f61-2314f3a84933",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The Equality Act 2010",
+          "decorative": false,
+          "file": {
+            "path": "images/the-equality-act-2010.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e21c183a-77d8-482d-8f69-53560dfd8f4a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Drag the words into the gaps to complete these facts about equality legislation.</p>",
+          "textField": "The main law protecting people from discrimination is the *Equality* Act 2010. It identifies nine protected *characteristics*. The Act is enforced by the *EHRC*, while care services are inspected by the *CQC*. It works alongside the Human *Rights* Act 1998, which protects people's *dignity*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "a564c00c-a392-429b-b629-6098d1bb2295",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
