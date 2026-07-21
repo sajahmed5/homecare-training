@@ -1,0 +1,540 @@
+{
+  "slug": "behaviours-that-challenge",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does the term \"behaviour that challenges\" actually describe?",
+      "options": [
+        "A medical diagnosis given by a doctor",
+        "A difficult or aggressive type of person",
+        "An action and its impact, not a person's character",
+        "A permanent label that stays in a person's records"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Understood correctly, behaviour that challenges is almost always a sign of what?",
+      "options": [
+        "A character flaw that cannot be changed",
+        "A person seeking attention for no reason",
+        "Deliberate rule-breaking",
+        "Distress and an attempt to communicate an unmet need"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why do we avoid labelling someone as \"aggressive\" or \"attention-seeking\"?",
+      "options": [
+        "It changes how the team treats them and stops us asking what they are trying to tell us",
+        "Because such labels are always factually inaccurate",
+        "It makes it harder to fill in incident forms",
+        "Because the care plan forbids writing anything about behaviour"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When someone cannot easily tell us what is wrong, what does their behaviour become?",
+      "options": [
+        "Their language, a way of communicating a need",
+        "A sign that they should be left alone",
+        "A problem to be controlled",
+        "Proof that they are being difficult on purpose"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of a physical discomfort that can lead to distress?",
+      "options": [
+        "Too much noise and bustle around them",
+        "Needing the toilet or being in pain",
+        "Feeling lonely or ignored",
+        "Having too little to do"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of an emotional unmet need?",
+      "options": [
+        "Boredom or feeling ignored",
+        "Feeling too hot or too cold",
+        "Thirst",
+        "Constipation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In this course, what does \"over-stimulation\" refer to?",
+      "options": [
+        "Too much noise and bustle in the environment",
+        "A side effect of medication",
+        "Having too little to do",
+        "A physical illness"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Behaviour that challenges is more likely among which group of people?",
+      "options": [
+        "People who have chosen not to cooperate",
+        "Only people who are naturally aggressive",
+        "People who find it hard to communicate or make sense of what is happening",
+        "Only people living with dementia"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what is your role as a care worker when someone shows behaviour that challenges?",
+      "options": [
+        "To keep your distance and avoid them",
+        "To understand and support them, and meet the need behind the behaviour",
+        "To control and manage the person",
+        "To insist they follow the rules of the home"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is a \"trigger\"?",
+      "options": [
+        "A stage of recovery after a crisis",
+        "A written record of an incident",
+        "A technique for physical intervention",
+        "Something that sets off distress"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following can make personal care itself a trigger for distress?",
+      "options": [
+        "Working at the person's pace",
+        "Explaining each step before you do it",
+        "Being rushed or approached from behind without explanation",
+        "Offering the person choices"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You need to help someone with personal care who has become distressed during it before. Which approach is most likely to reduce that risk?",
+      "options": [
+        "Do the care in silence so as not to draw attention to it",
+        "Approach quietly from behind so they do not notice",
+        "Get it over with as quickly as possible",
+        "Slow down, explain each step, offer choices and work at their pace"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In the escalation cycle, what does \"baseline\" describe?",
+      "options": [
+        "The moment distress peaks",
+        "The person calm and settled, their usual self",
+        "The period of recovery after a crisis",
+        "The early signs of anxiety after a trigger"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "At which stage of the escalation cycle is calm support most effective?",
+      "options": [
+        "The build-up stage, when early signs appear",
+        "During recovery, once distress has passed",
+        "At crisis, when distress has peaked",
+        "There is no stage where support helps"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an early warning sign shown in a person's voice?",
+      "options": [
+        "Becoming louder, faster or quieter, or repeating the same words",
+        "A tense posture",
+        "Pacing or restlessness",
+        "Clenched fists"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does getting to know a person as an individual matter so much?",
+      "options": [
+        "Because what looks like agitation in one person may be their normal way of being",
+        "Because it lets you predict exactly how everyone will behave",
+        "Because it means you never have to follow the care plan",
+        "Because it removes the need to keep any records"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is good practice when writing records about a person's distress?",
+      "options": [
+        "Only record something once it has gone badly wrong",
+        "Keep the details to yourself",
+        "Record your opinions about their character",
+        "Write facts: what you saw and heard, when it happened and what helped"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is staying calm yourself the single most helpful thing you can do?",
+      "options": [
+        "Because it proves the behaviour is not your fault",
+        "Because it means you can finish the task faster",
+        "Because it shows the person you are in charge",
+        "Because distress and calm are both contagious, and your calm helps the person feel safe"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is recommended body language when supporting a distressed person?",
+      "options": [
+        "Standing over them to show authority",
+        "Making sudden movements to get their attention",
+        "Blocking their way so they cannot move",
+        "Staying at or below their eye level with an open, relaxed posture"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does active listening involve when someone is distressed?",
+      "options": [
+        "Explaining why their feelings are mistaken",
+        "Correcting them so they see the situation clearly",
+        "Giving full attention and acknowledging feelings, without arguing",
+        "Filling every pause so there is no silence"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How can you give a distressed person space and time to settle?",
+      "options": [
+        "Insist they calm down quickly",
+        "Fire questions at them until they answer",
+        "Gather colleagues around to watch",
+        "Step back, lower your voice, allow silence and reduce the audience"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the best way to offer choices to reduce distress?",
+      "options": [
+        "Make a firm demand rather than a choice",
+        "Offer as many options as possible at once",
+        "Offer two clear, simple options and respect the person's answer",
+        "Decide for the person to save time"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If you can see what is causing a person's distress, what is often the quickest way to help?",
+      "options": [
+        "Tell the person to ignore it",
+        "Change or remove the trigger, for example turning down noise or pausing an upsetting task",
+        "Wait for the crisis to pass before doing anything",
+        "Carry on with the task regardless"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does a behaviour support plan set out?",
+      "options": [
+        "A record of complaints about the person",
+        "A list of punishments for behaviour",
+        "Instructions for physical restraint",
+        "The person's known triggers, early signs and the approaches that work best for them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is a dynamic risk assessment?",
+      "options": [
+        "A way of thinking that reads a situation moment by moment and adjusts your response",
+        "A form you fill in once a year",
+        "A fixed set of rules that never changes",
+        "A technique for restraining a person safely"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "The phrase \"behaviour that challenges\" is a label for a person's difficult or aggressive character.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Every behaviour has a meaning and serves a purpose for the person, even when the reason is not obvious.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Distress usually appears all at once rather than building up in stages.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Once a person has reached crisis, there is far less you can do except keep everyone safe and wait for the distress to pass.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Labelling someone as \"a challenge\" helps the whole team support them better.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Withdrawing to a safe distance when a situation becomes unsafe is a sound decision, not a failure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Physical intervention is an acceptable routine way of managing a person's behaviour.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Any physical intervention that is used must always be recorded and reported.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are examples of physical discomfort that can lead to distress? (Select all that apply)",
+      "options": [
+        "Needing the toilet",
+        "Feeling ignored",
+        "Feeling too hot or too cold",
+        "Boredom",
+        "Pain"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are environmental triggers described in the course? (Select all that apply)",
+      "options": [
+        "Hunger",
+        "Pain or illness",
+        "Loud noise",
+        "Unfamiliar places",
+        "Bright lights"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are early warning signs that a person's distress is rising? (Select all that apply)",
+      "options": [
+        "Pacing or restlessness",
+        "Repeating the same words or questions",
+        "Clenched fists or a tense posture",
+        "A relaxed, open expression",
+        "Being calm and settled as usual"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these help to give a distressed person space and time? (Select all that apply)",
+      "options": [
+        "Gently moving others away so they are not watched by a crowd",
+        "Allowing silence without rushing to fill every pause",
+        "Insisting they calm down quickly",
+        "Stepping back a little and lowering your voice",
+        "Firing questions to make them respond"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which groups of people are more likely to show behaviour that challenges? (Select all that apply)",
+      "options": [
+        "People living with dementia",
+        "Only people who are naturally aggressive",
+        "People with a learning disability or autism",
+        "People with a mental illness such as anxiety, depression or psychosis"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are good practice when keeping records of a person's distress? (Select all that apply)",
+      "options": [
+        "Share and update the care plan so everyone responds the same way",
+        "Write facts, not opinions",
+        "Record opinions in order to blame the person",
+        "Look for patterns over time, such as a certain time of day"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which principles must be followed whenever any restriction is placed on a person? (Select all that apply)",
+      "options": [
+        "Apply it for the shortest time necessary",
+        "Use it whenever it makes the shift easier for staff",
+        "Make it proportionate to the actual risk",
+        "Use the least restrictive option that keeps people safe"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Understood correctly, behaviour that challenges is almost always a sign of ___ and an attempt to communicate a need that has not been met.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "distress"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The build-up stage is your best opportunity to help; the sooner you notice a person's early warning ___, the sooner you can meet the need.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "signs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Positive behaviour support puts most of its effort into ___ rather than waiting for behaviour to occur and reacting to it.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "prevention"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Physically intervening is only ever a ___ resort, used when there is a real and immediate risk of serious harm and everything else has failed.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "last"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Keeping people safe means constantly weighing up the risk as a situation unfolds, which is called a ___ risk assessment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dynamic"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

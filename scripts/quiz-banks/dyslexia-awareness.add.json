@@ -1,0 +1,540 @@
+{
+  "slug": "dyslexia-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Dyslexia is best described as which of the following?",
+      "options": [
+        "A temporary problem that disappears in adulthood",
+        "An illness that can be cured with the right treatment",
+        "A specific learning difficulty that mainly affects reading, writing and spelling",
+        "A sign that a person is lazy or not making an effort"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Dyslexia is neurological in nature, meaning it relates to:",
+      "options": [
+        "A person's eyesight being permanently damaged",
+        "The way the brain processes certain kinds of information, such as the sounds within words",
+        "A person's general level of intelligence",
+        "A short-term illness affecting concentration"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How does dyslexia vary between people?",
+      "options": [
+        "It only ever affects children",
+        "It ranges from mild to more marked and is individual to each person",
+        "It is always severe",
+        "It affects everyone in exactly the same way"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the relationship between dyslexia and a person's intelligence?",
+      "options": [
+        "Dyslexia guarantees that a person is highly intelligent",
+        "Dyslexia only occurs in people of low ability",
+        "Dyslexia is not linked to intelligence and occurs across the whole range of ability",
+        "Dyslexia means a person cannot reason well"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Dyspraxia, which can occur alongside dyslexia, mainly affects:",
+      "options": [
+        "Skills with numbers",
+        "A person's hearing",
+        "Co-ordination and movement",
+        "A person's eyesight"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Dyscalculia, which sometimes co-occurs with dyslexia, affects:",
+      "options": [
+        "Reading speed",
+        "Memory for faces",
+        "Skills with numbers",
+        "Balance"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these best describes your role as a care worker in relation to dyslexia?",
+      "options": [
+        "To teach people how to read",
+        "To be aware, adapt communication and make reasonable adjustments",
+        "To formally diagnose dyslexia in people you support",
+        "To decide who is allowed to have an assessment"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A formal identification of dyslexia is carried out by:",
+      "options": [
+        "The person themselves",
+        "A person's family members",
+        "Any care worker who notices the signs",
+        "Qualified professionals such as specialist teachers or educational psychologists"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Before adapting how you share information with someone who finds reading difficult, you should:",
+      "options": [
+        "Wait for a formal diagnosis of dyslexia",
+        "Ask permission from head office first",
+        "Adapt straight away whenever it helps, without waiting for a diagnosis",
+        "Do nothing until an assessment is complete"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a common sign of dyslexia in reading?",
+      "options": [
+        "Reading very quickly and always accurately",
+        "Always preferring to read aloud in groups",
+        "Never making any reading errors",
+        "Reading slowly and with effort, or losing one's place"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A common spelling sign of dyslexia is:",
+      "options": [
+        "Spelling the same word several different ways",
+        "Refusing to write anything at all",
+        "Spelling every word perfectly every time",
+        "Only ever writing in capital letters"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Besides reading and writing, dyslexia can also affect a person's:",
+      "options": [
+        "Appetite",
+        "Hearing",
+        "Memory, organisation and sense of time",
+        "Height"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Signs such as forgetting a sequence of spoken instructions or mixing up appointments are easily misread as:",
+      "options": [
+        "Something with no link to the person at all",
+        "Excellent organisation",
+        "Carelessness or not paying attention",
+        "A sign of high intelligence"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Visual stress, sometimes called Meares-Irlen syndrome, can cause:",
+      "options": [
+        "Words to appear to blur, move or run together",
+        "Loss of hearing",
+        "Permanent blindness",
+        "A raised temperature"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about visual stress is accurate?",
+      "options": [
+        "It is always caused by dyslexia",
+        "It is exactly the same thing as dyslexia",
+        "It is a separate condition that can occur with or without dyslexia",
+        "It is only ever found in children"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these can make visual stress worse?",
+      "options": [
+        "A clear, plain font",
+        "Larger line spacing",
+        "Bright white backgrounds or screen glare",
+        "Cream or pastel coloured paper"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Years of unrecognised difficulty with reading and writing can:",
+      "options": [
+        "Have no emotional effect at all",
+        "Cure the dyslexia",
+        "Knock a person's confidence and lead to anxiety or embarrassment",
+        "Improve a person's confidence over time"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "People with dyslexia often show strengths such as:",
+      "options": [
+        "Difficulty with absolutely every task",
+        "No practical skills whatsoever",
+        "Creativity, problem-solving and big-picture thinking",
+        "An inability to speak with others"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "A strengths-based approach means:",
+      "options": [
+        "Ignoring a person's difficulties completely",
+        "Focusing only on what a person finds hard",
+        "Testing the person to expose their weaknesses",
+        "Shaping tasks so a person can use what they are good at, while offering support where needed"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Equality Act 2010, a disability is a physical or mental impairment that has:",
+      "options": [
+        "A substantial and long-term adverse effect on normal day-to-day activities",
+        "An effect only on reading",
+        "A minor, short-term effect",
+        "No effect on daily life"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A reasonable adjustment under the Equality Act 2010 is:",
+      "options": [
+        "Something only schools are required to provide",
+        "Only possible once a diagnosis has been made",
+        "A special favour with no legal basis",
+        "A sensible change that removes or reduces a barrier so a disabled person is not disadvantaged"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The duty to make reasonable adjustments falls on:",
+      "options": [
+        "Employers and service providers",
+        "Only the disabled person themselves",
+        "Only a person's family",
+        "Only doctors"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Easy-read materials use:",
+      "options": [
+        "Long, complex sentences and no pictures",
+        "Simple words, short sentences and supporting images",
+        "Dense blocks of unbroken text",
+        "Only technical jargon"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which presentation choice helps a person with dyslexia or visual stress?",
+      "options": [
+        "A cream or off-white background instead of bright white",
+        "Cramped text with no spacing",
+        "Long passages written in block capitals",
+        "Italics used throughout a whole document"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A coloured overlay is:",
+      "options": [
+        "A tinted transparent sheet placed over a page to reduce visual stress",
+        "A type of spellchecker",
+        "A reading test given to children",
+        "A formal diagnostic test"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Dyslexia is a lifelong difference in how a person processes written language, not an illness to be cured.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Difficulty with spelling is a reliable sign that a person has a low level of intelligence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Assistive technology such as text-to-speech and speech-to-text can help people with dyslexia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You must be a technology expert before you can encourage someone to use assistive technology.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Breaking a large task into smaller, single steps can make it more manageable for someone with dyslexia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is good practice to ask a person with dyslexia to read aloud in front of others to build their confidence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Information about a person's dyslexia should be treated as confidential and not shared without good reason and the person's agreement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If a person finds one thing hard, you can safely assume they will struggle with everything.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are common signs associated with dyslexia? (Select all that apply)",
+      "options": [
+        "Reading slowly and losing one's place",
+        "Spelling the same word several different ways",
+        "Difficulty remembering a sequence of spoken instructions",
+        "Always spelling every word correctly",
+        "Never having any difficulty with organisation"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are helpful reasonable adjustments for a person with dyslexia? (Select all that apply)",
+      "options": [
+        "Allowing extra time for reading or forms",
+        "Insisting the person reads quickly and unaided",
+        "Refusing help until a diagnosis has been shown",
+        "Providing information in an easy-read format",
+        "Offering instructions verbally as well as in writing"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Dyslexia commonly co-occurs with which of the following? (Select all that apply)",
+      "options": [
+        "Dyspraxia",
+        "Attention difficulties such as ADHD",
+        "A broken bone",
+        "Dyscalculia"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are strengths often seen in people with dyslexia? (Select all that apply)",
+      "options": [
+        "Creativity and original problem-solving",
+        "Strong verbal, social or practical skills",
+        "An inability to work with other people",
+        "Seeing the bigger picture"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help make written information easier to read? (Select all that apply)",
+      "options": [
+        "An off-white or pastel background",
+        "A clear, plain font at a comfortable size",
+        "Good line spacing and clear headings",
+        "Long passages written in block capitals",
+        "Dense, cramped paragraphs"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are examples of assistive technology that can support people with dyslexia? (Select all that apply)",
+      "options": [
+        "Text-to-speech software",
+        "A formal diagnosis certificate",
+        "Speech-to-text dictation",
+        "Reminder apps"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following help protect the dignity of a person with dyslexia? (Select all that apply)",
+      "options": [
+        "Never forcing someone to read aloud in front of others",
+        "Giving people warning and time to prepare",
+        "Helping with forms discreetly, away from an audience",
+        "Springing tasks on people without any warning"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Dyslexia is a specific learning difficulty and is not linked to a person's ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "intelligence"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Equality Act 2010 places a duty on employers and service providers to make reasonable ___ so that disabled people are not put at a disadvantage.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "adjustments",
+              "adjustment"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Some people with dyslexia experience visual ___, where words may appear to blur or move on the page.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "stress"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A person-centred approach means asking the individual what helps them, because the person themselves is the ___ in what works for them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "expert"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A well-known source of information, guidance and helplines is the British ___ Association.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Dyslexia"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

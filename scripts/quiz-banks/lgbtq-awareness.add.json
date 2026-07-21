@@ -1,0 +1,544 @@
+{
+  "slug": "lgbtq-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does the plus sign in \"LGBTQ+\" include?",
+      "options": [
+        "Only people who are undecided about their identity.",
+        "Only people who are lesbian or gay.",
+        "Everyone whose sexual orientation or gender identity sits outside what has often been treated as the norm.",
+        "Nothing in particular; it is purely decorative."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does inclusive care mean?",
+      "options": [
+        "Keeping conversations about identity to a minimum.",
+        "Treating everyone identically and ignoring their differences.",
+        "Every person receiving care that is dignified, respectful and shaped around who they truly are.",
+        "Giving extra attention only to people who ask for it."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How is inclusion in care best described?",
+      "options": [
+        "Something reserved for people who raise concerns.",
+        "A generous favour that carers may offer when they have time.",
+        "A basic right you owe every person, not an optional extra.",
+        "An add-on that applies only in specialist services."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What kind of learning does this LGBTQ+ awareness course provide?",
+      "options": [
+        "A substitute for your organisation's safeguarding procedures.",
+        "Knowledge-level learning that does not replace policies, safeguarding or supervised training.",
+        "A replacement for equality, diversity and inclusion policies.",
+        "Supervised, hands-on clinical training that replaces your role training."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If this course and your employer's policies differ, what should you do?",
+      "options": [
+        "Ignore both and use your own judgement.",
+        "Always follow the course, because it is more recent.",
+        "Follow your organisation's policies and ask your manager if you are unsure.",
+        "Choose whichever is easier to apply that day."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who does the protected characteristic of sexual orientation protect?",
+      "options": [
+        "Only people who are bisexual.",
+        "People who are transgender only.",
+        "People who are lesbian, gay, bisexual or heterosexual.",
+        "Only people who are gay."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "The Equality Act's protection against discrimination applies to which of the following?",
+      "options": [
+        "Only interactions with a person's family.",
+        "The care and services you provide, not just employment.",
+        "Only large organisations, not small care providers.",
+        "Only situations involving employment."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "From what point is a trans person protected under gender reassignment?",
+      "options": [
+        "From the point they decide to live in their affirmed gender.",
+        "Only after a doctor has formally confirmed it.",
+        "Only after they have had surgery.",
+        "Only once they hold a Gender Recognition Certificate."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is required for a trans person to be protected under gender reassignment?",
+      "options": [
+        "Medical treatment or surgery.",
+        "A Gender Recognition Certificate.",
+        "Written permission from their family.",
+        "None of these; none are required for the protection to apply."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "As well as LGBTQ+ people themselves, who else does the Equality Act protect from unfair treatment?",
+      "options": [
+        "Only the immediate managers of LGBTQ+ staff.",
+        "People who are thought to be LGBTQ+, or who are connected to someone who is.",
+        "No one else; the protection is very narrow.",
+        "Only people who publicly declare their identity."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In what year was sex between men partly decriminalised in England and Wales?",
+      "options": [
+        "1957.",
+        "1967.",
+        "1977.",
+        "1987."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why might an older LGBTQ+ person be guarded when they start receiving care?",
+      "options": [
+        "They dislike all care workers on principle.",
+        "They are usually confused about their own identity.",
+        "Past experiences of criminalisation and prejudice can make it hard to trust services and carers.",
+        "They rarely have any close relationships."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does going \"back into the closet\" refer to in the context of care?",
+      "options": [
+        "Staff keeping care records locked away securely.",
+        "A person redecorating their home before care begins.",
+        "A person choosing to come out to all their carers at once.",
+        "Some older people feeling they must hide their identity again when they start receiving care."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Sexual orientation is about which of the following?",
+      "options": [
+        "Who a person is emotionally or romantically attracted to.",
+        "The pronouns a person prefers.",
+        "A person's inner sense of their own gender.",
+        "The sex a person was recorded as at birth."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Gender identity is best described as which of the following?",
+      "options": [
+        "The name a person was given at birth.",
+        "A medical diagnosis given by a doctor.",
+        "Who a person is romantically attracted to.",
+        "A person's own inner sense of their gender."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement describes a trans woman?",
+      "options": [
+        "Someone recorded male at birth who lives as a woman.",
+        "Someone who does not identify as a man or a woman.",
+        "Someone recorded female at birth who lives as a man.",
+        "Someone who is attracted to women."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement describes a trans man?",
+      "options": [
+        "Someone who identifies as neither a man nor a woman.",
+        "Someone who is attracted to men.",
+        "Someone recorded female at birth who lives as a man.",
+        "Someone recorded male at birth who lives as a woman."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What word describes someone who does not identify simply as a man or a woman?",
+      "options": [
+        "Non-binary.",
+        "Heterosexual.",
+        "Bisexual.",
+        "Transitioning."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the best guide to the language you should use about a person's identity?",
+      "options": [
+        "The preference of the person's family.",
+        "The terms used in old records or medical notes.",
+        "The words the person uses about themselves.",
+        "Whatever term is most common in the news."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If you are unsure which term or pronoun someone prefers, what should you do?",
+      "options": [
+        "Avoid speaking to them until someone else explains.",
+        "Guess and hope you get it right.",
+        "Use the name on their records regardless.",
+        "Ask them politely and privately."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What are pronouns?",
+      "options": [
+        "The medical terms for someone's identity.",
+        "Formal titles used only in official documents.",
+        "Nicknames chosen by care staff.",
+        "The words we use in place of someone's name, such as \"he\", \"she\" or \"they\"."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If you accidentally use the wrong name or pronoun for someone, what should you do?",
+      "options": [
+        "Ask them to be less sensitive about it.",
+        "Correct yourself, apologise briefly and move on.",
+        "Explain at length why the mistake was understandable.",
+        "Pretend it did not happen and say nothing."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for revealing that someone is LGBTQ+ without their consent?",
+      "options": [
+        "Outing them.",
+        "Safeguarding them.",
+        "Recording them.",
+        "Referring them."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is meant by a person's \"chosen family\"?",
+      "options": [
+        "Members of a formal support group.",
+        "The relatives a person sees most often.",
+        "Trusted friends and partners who are closest to them, rather than blood relatives.",
+        "Care staff who are assigned to support them."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If your personal or religious beliefs feel in tension with your duty to care inclusively, what should you do?",
+      "options": [
+        "Share your views with the person to see if they agree.",
+        "Talk to your manager or supervisor and continue to support every person equally.",
+        "Quietly give that person less attention.",
+        "Ask for the person to be moved to another worker without explanation."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A trans person does not need to have had surgery or hold a Gender Recognition Certificate to be protected under the Equality Act 2010.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Knowing a person's gender identity tells you what their sexual orientation is.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Deliberately and repeatedly using the wrong name or pronoun for someone can be a form of harassment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to tell a person's family that they are LGBTQ+ as long as you believe the family has a right to know.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person may be both LGBTQ+ and a person of faith, and both parts of their identity deserve respect.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Microaggressions are always deliberate and intended to cause harm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A trans person's previous name should not be shared or referred to unnecessarily, as it can cause distress.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Staying silent when you hear a discriminatory remark is the safest and most professional response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are forms of discrimination described in the material? (Select all that apply)",
+      "options": [
+        "Positive encouragement.",
+        "Indirect discrimination.",
+        "Flexible working.",
+        "Harassment.",
+        "Direct discrimination."
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these help create a welcoming, inclusive environment for LGBTQ+ people? (Select all that apply)",
+      "options": [
+        "Avoiding the subject entirely so no one is offended.",
+        "Displaying welcoming imagery or symbols.",
+        "Using inclusive language such as \"partner\".",
+        "Assuming everyone is heterosexual unless told otherwise.",
+        "Making no assumptions about anyone's identity."
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When providing personal care for a trans person, which of these are good practice? (Select all that apply)",
+      "options": [
+        "Continuing to use their correct name and pronouns throughout.",
+        "Asking intrusive questions about their body out of curiosity.",
+        "Treating aids such as a binder, padding or prosthesis with respect.",
+        "Asking privately about their preferences and following their lead.",
+        "Examining or exposing them out of curiosity."
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "If you hear a discriminatory remark, what should you do? (Select all that apply)",
+      "options": [
+        "Record what happened and tell your manager.",
+        "Stay silent so as not to cause a scene.",
+        "Join in so you do not seem awkward.",
+        "Challenge the comment calmly and professionally.",
+        "Support anyone who was affected."
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "If a person comes out to you, which of these are good ways to respond? (Select all that apply)",
+      "options": [
+        "Encourage them to come out to everyone straight away.",
+        "Tell the rest of the team so they can keep an eye out.",
+        "Thank them for trusting you.",
+        "Respond warmly and calmly.",
+        "Follow their lead about who else they wish to tell."
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these show a person-centred approach that makes no assumptions? (Select all that apply)",
+      "options": [
+        "Assuming a woman has a husband.",
+        "Recording the person's preferences so care stays consistent.",
+        "Asking what matters to the person and how they wish to be supported.",
+        "Asking about \"partners\" rather than assuming a husband or wife.",
+        "Assuming an older person could not be gay, bisexual or trans."
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Where can you get advice about supporting LGBTQ+ people or about witnessing discrimination? (Select all that apply)",
+      "options": [
+        "Supervision and team meetings.",
+        "Trusted organisations such as Stonewall, Skills for Care and the NHS.",
+        "Guessing on your own without checking.",
+        "Your manager or supervisor.",
+        "Deciding it is not worth raising."
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sharing that someone is LGBTQ+ without their consent is called ___ them.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "outing"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sex between men was only partly decriminalised in England and Wales in ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "1967"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Equality Act 2010 sets out ___ protected characteristics.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "nine",
+              "9"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Pronouns are the words we use in place of someone's ___, such as \"he\", \"she\" or \"they\".",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "name"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The ___ Information Standard requires health and care services to identify, record and meet people's communication needs.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "accessible"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

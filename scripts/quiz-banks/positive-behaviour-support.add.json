@@ -1,0 +1,543 @@
+{
+  "slug": "positive-behaviour-support",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the main goal of Positive Behaviour Support?",
+      "options": [
+        "To improve the person's quality of life, so the needs behind their behaviour are met",
+        "To manage the person so that staff have an easier shift",
+        "To stop the behaviour as quickly as possible using firm rules",
+        "To punish behaviour that others find difficult"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In PBS, what does it mean that support is 'person-centred'?",
+      "options": [
+        "Support is decided by whatever is easiest for staff",
+        "Support focuses mainly on stopping the behaviour",
+        "Support is built around the individual rather than around control",
+        "Support is the same standard approach for everyone"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the care worker's role in Positive Behaviour Support?",
+      "options": [
+        "To design the person's PBS plan and carry out a functional assessment",
+        "To manage the person so their behaviour is kept under control",
+        "To decide when restrictive practices should become routine",
+        "To follow the person's PBS plan and work in the least restrictive way"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does this Positive Behaviour Support e-learning course cover?",
+      "options": [
+        "Full accredited training in physical intervention",
+        "The knowledge and awareness element only",
+        "How to carry out a functional assessment independently",
+        "How to write a person's PBS plan on your own"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who develops and leads PBS plans, including any functional assessment?",
+      "options": [
+        "Trained professionals",
+        "Whichever staff member is most senior that day",
+        "Any care worker who is on shift",
+        "The person's family on their own"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is required before anyone uses physical intervention?",
+      "options": [
+        "Reading the person's PBS plan is enough on its own",
+        "A quick briefing at handover",
+        "Specific, accredited training from a recognised programme",
+        "Watching a colleague carry it out once"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why does PBS avoid talking about 'managing' people?",
+      "options": [
+        "Because people are not problems to be managed; they should be understood and supported",
+        "Because 'managing' is too difficult a word for staff to use",
+        "Because the behaviour should simply be ignored",
+        "Because managing people is only the job of senior staff"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When a person's behaviour is difficult, which question does PBS ask?",
+      "options": [
+        "How do we make sure this never inconveniences staff?",
+        "How do we stop this behaviour as fast as possible?",
+        "What consequence will teach them not to do it again?",
+        "What is this person trying to tell us, and what do they need?"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How did older, control-based approaches typically respond to behaviour that challenged?",
+      "options": [
+        "By improving the person's quality of life",
+        "By controlling the behaviour, often through punishment or restriction",
+        "By changing the service to fit the person",
+        "By understanding the need behind the behaviour"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement reflects the values base of PBS?",
+      "options": [
+        "The service changes to fit the person",
+        "Dignity and choice are optional extras",
+        "Some people simply have to be controlled for their own good",
+        "The person must change to fit the service"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does it mean to say that all behaviour has a function?",
+      "options": [
+        "Behaviour is simply part of the person's condition",
+        "Behaviour has a purpose or reason for the person, even when it is not obvious",
+        "Behaviour is always done deliberately to upset staff",
+        "Behaviour is random and has no meaning"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In PBS, behaviour that others find challenging is very often best understood as...",
+      "options": [
+        "the communication of an unmet need or of distress",
+        "something that should always be ignored",
+        "a sign the person is behaving badly on purpose",
+        "proof that the person cannot be helped"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "For which groups is behaviour especially likely to be a form of communication?",
+      "options": [
+        "Some people with a learning disability, autistic people, and people living with advanced dementia",
+        "Only people who are physically unwell",
+        "Only people who choose not to speak",
+        "Only young children"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of a behaviour serving the function of gaining something?",
+      "options": [
+        "Shouting so that a staff member comes to sit with them for company",
+        "Pushing away a task to get out of a demand",
+        "Rocking to meet a sensory need",
+        "Covering the ears to reduce a loud noise"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A person shouts and pushes their plate away to get out of a noisy, crowded dining room. What is the likely function of this behaviour?",
+      "options": [
+        "To meet a sensory need",
+        "To gain attention from the other residents",
+        "To gain a favourite item",
+        "To avoid or escape something that overwhelms them"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person with a sore tooth and no words to say so begins shouting at mealtimes. This behaviour is most likely...",
+      "options": [
+        "an expression of pain or distress",
+        "a sign they dislike the other residents",
+        "a deliberate attempt to annoy staff",
+        "an attempt to gain a treat"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How can a care worker best help trained professionals work out the function of a behaviour?",
+      "options": [
+        "By carefully observing and recording what happened before and after the behaviour",
+        "By ignoring the behaviour completely",
+        "By giving the person whatever stops the behaviour in the moment",
+        "By deciding the function themselves and acting on it"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an example of an immediate trigger for distress?",
+      "options": [
+        "A poor night's sleep the day before",
+        "A sudden change of plan or being rushed",
+        "Having plenty of meaningful activity",
+        "A calm, familiar routine"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is best described as a 'setting event' that makes distress more likely later?",
+      "options": [
+        "An upsetting phone call earlier in the day",
+        "Being offered a genuine choice",
+        "A sudden loud noise in the moment",
+        "A predictable daily routine"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does knowing a person's history and how they communicate matter in PBS?",
+      "options": [
+        "It lets you decide which behaviours to punish",
+        "It helps you spot early signs of distress and avoid known triggers",
+        "It lets you predict everyone's behaviour so the plan is not needed",
+        "It is only useful for keeping records"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is 'primary prevention' in PBS?",
+      "options": [
+        "The physical holds used as a last resort",
+        "Getting everyday things right so needs are met and distress is far less likely to build",
+        "The paperwork completed after an incident",
+        "The reactive strategies used in a crisis"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes a good environment under PBS?",
+      "options": [
+        "Calm surroundings suited to the person, with their familiar belongings around them",
+        "As busy, noisy and stimulating as possible",
+        "Bare and empty so that nothing can be broken",
+        "Kept identical for every person regardless of preference"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is meaningful activity important in PBS?",
+      "options": [
+        "It gives the person a reason to get up and prevents long empty hours",
+        "It removes the need for a PBS plan",
+        "It is a way of controlling the person's behaviour",
+        "It keeps staff busy"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What are secondary strategies in PBS?",
+      "options": [
+        "Things you do at the early stage of distress to help someone calm down before it grows",
+        "The proactive support that fills a person's whole day",
+        "The records completed after an incident",
+        "Physical holds used when someone is at serious risk of harm"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under least restrictive practice, restriction should be used...",
+      "options": [
+        "only to keep someone safe, limiting their freedom as little as possible and for as short a time as possible",
+        "routinely, so that staff can keep control",
+        "whenever it is more convenient for staff",
+        "as a punishment when someone behaves badly"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "PBS focuses on improving the person's quality of life rather than simply stopping their behaviour.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "In PBS, the right approach is to 'manage' people and their behaviour.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "All behaviour has a function, even when the reason is not obvious to us.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Behaviour is best understood as simply part of a person's condition that cannot change.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "In PBS, the whole team should follow the same agreed plan consistently.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Physical intervention can be safely learned from an online awareness course like this one.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "In PBS, reactive strategies are used routinely as a first response to behaviour.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Every use of a restrictive practice must be recorded and reviewed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of proactive, primary-prevention support in PBS? (Select all that apply)",
+      "options": [
+        "Routine physical restraint",
+        "A good, calm environment that suits the person",
+        "Predictable, reassuring routines",
+        "Meaningful activity the person enjoys and values",
+        "Punishing behaviour that others find difficult"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can act as triggers or setting events for a person's distress? (Select all that apply)",
+      "options": [
+        "A sudden loud noise",
+        "Being well rested and calm",
+        "A poor night's sleep the night before",
+        "Being hungry, tired or in pain",
+        "Having plenty of genuine choice"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are early warning signs that a person may be becoming anxious or unhappy? (Select all that apply)",
+      "options": [
+        "Pacing or fidgeting",
+        "Going quiet",
+        "A change in facial expression",
+        "Eating a good meal calmly",
+        "Laughing happily with friends"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following count as restrictive practices? (Select all that apply)",
+      "options": [
+        "Seclusion",
+        "Supporting the person to do a meaningful activity",
+        "Using medication to control behaviour",
+        "Physical restraint",
+        "Offering the person a genuine choice"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What should happen after an incident in PBS? (Select all that apply)",
+      "options": [
+        "Provide post-incident support to the person and to staff",
+        "Reflect and learn what triggered the incident and what would help next time",
+        "Ignore the incident so no one dwells on it",
+        "Use restriction afterwards as a punishment",
+        "Record clearly and factually what happened, including any restriction used"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are communication methods that may suit a person you support? (Select all that apply)",
+      "options": [
+        "Pictures or objects",
+        "Long, complex sentences with no time to respond",
+        "Simple language",
+        "Signing or a communication aid",
+        "Refusing to check you have understood them"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When a person is starting to become distressed, which of the following are helpful secondary strategies? (Select all that apply)",
+      "options": [
+        "Staying calm and speaking softly",
+        "Following the specific strategies in the person's PBS plan",
+        "Reducing whatever is upsetting them, such as noise or demands",
+        "Insisting they do as they are told straight away",
+        "Raising your voice so they take you seriously"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In PBS, behaviour is understood as a form of ___ of an unmet need.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "communication"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Mental Capacity Act requires that a decision made for someone who cannot make it themselves must be in their best interests and the least ___ of their rights and freedoms.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "restrictive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Getting everyday things right so that a person's needs are met and distress is far less likely to build is called ___ prevention.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "primary"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ strategies are what the team does at the early stage, when a person becomes anxious, to help them calm down before their distress grows.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "secondary"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In PBS, reactive strategies are always a ___ resort, used as little as possible.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "last"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
