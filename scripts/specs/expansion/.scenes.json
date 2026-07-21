@@ -2,11 +2,11 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p2/content/images",
-   "file": "accident-incident-near-miss.svg",
-   "title": "Three words that mean different things",
+   "outDir": "public/h5p/content/lone-working/p2/content/images",
+   "file": "the-law-and-duties.svg",
+   "title": "What the law expects",
    "accent": "#d97706",
-   "alt": "Illustration for Accident, incident, near miss",
+   "alt": "Illustration for The law and duties",
    "cast": [
     {
      "skin": 1,
@@ -16,737 +16,173 @@
     }
    ],
    "points": [
-    "accident",
-    "incident",
-    "near miss"
+    "Employers must",
+    "Employees must"
    ]
   },
   {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p9/content/images",
-   "file": "types-of-incident.svg",
-   "title": "More than accidents",
+   "outDir": "public/h5p/content/lone-working/p4/content/images",
+   "file": "risk-assessment.svg",
+   "title": "Assessing the risk before you go",
    "accent": "#d97706",
-   "alt": "Illustration for Types of incident",
+   "alt": "Illustration for Risk assessment",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/lone-working/p5/content/images",
+   "file": "safe-systems-of-work.svg",
+   "title": "Systems that keep you safe",
+   "accent": "#d97706",
+   "alt": "Illustration for Safe systems of work",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Check-in and check-out",
+    "Buddy systems",
+    "Lone-worker devices and apps"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/lone-working/p7/content/images",
+   "file": "personal-safety-and-de-escalation.svg",
+   "title": "Staying safe on visits and de-escalating tensi",
+   "accent": "#d97706",
+   "alt": "Illustration for Personal safety and de-escalation",
    "cast": [
     {
      "skin": 3,
-     "hair": "short",
+     "hair": "curly",
      "tunic": "#d97706",
+     "prop": "alert"
+    }
+   ],
+   "points": []
+  },
+  {
+   "outDir": "public/h5p/content/lone-working/p8/content/images",
+   "file": "if-you-feel-unsafe.svg",
+   "title": "Trust your instincts and act",
+   "accent": "#d97706",
+   "alt": "Illustration for If you feel unsafe",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#d97706",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Leave",
+    "Raise the alarm",
+    "Report"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/medication-awareness/p2/content/images",
+   "file": "your-role-and-its-limits.svg",
+   "title": "The care worker's role — and where it stops",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Your role and its limits",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Prompting",
+    "Assisting",
+    "Administering"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/medication-awareness/p4/content/images",
+   "file": "routes-and-forms.svg",
+   "title": "Common routes and forms of medicines",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Routes and forms",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
      "prop": "pills"
     }
    ],
    "points": [
-    "Medication errors",
-    "Safeguarding incidents",
-    "Missed or late visits"
+    "Oral",
+    "Topical",
+    "Inhaled"
    ]
   },
   {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p10/content/images",
-   "file": "in-the-moment.svg",
-   "title": "People come first",
-   "accent": "#d97706",
-   "alt": "Illustration for In the moment",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Emergency services",
-    "Your manager or on-call senior",
-    "Family or next of kin"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p4/content/images",
-   "file": "how-to-record.svg",
-   "title": "Recording it properly",
-   "accent": "#d97706",
-   "alt": "Illustration for How to record",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "factually",
-    "accurate",
-    "promptly"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p11/content/images",
-   "file": "writing-it-up-well.svg",
-   "title": "Stick to the facts",
-   "accent": "#d97706",
-   "alt": "Illustration for Writing it up well",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p5/content/images",
-   "file": "riddor-what-to-report.svg",
-   "title": "What RIDDOR requires",
-   "accent": "#d97706",
-   "alt": "Illustration for RIDDOR: what to report",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#d97706",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Deaths",
-    "Specified injuries",
-    "Over-seven-day injuries"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p7/content/images",
-   "file": "cqc-duty-of-candour.svg",
-   "title": "CQC notifications and being open",
-   "accent": "#d97706",
-   "alt": "Illustration for CQC & duty of candour",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#d97706",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "in person",
-    "Apologise"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p12/content/images",
-   "file": "cqc-notifications.svg",
-   "title": "Some events must reach the CQC",
-   "accent": "#d97706",
-   "alt": "Illustration for CQC notifications",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p13/content/images",
-   "file": "investigation-and-learning.svg",
-   "title": "Look for causes, not culprits",
-   "accent": "#d97706",
-   "alt": "Illustration for Investigation and learning",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/accident-and-incident-reporting/p8/content/images",
-   "file": "learning-confidentiality.svg",
-   "title": "A no-blame, learning culture",
-   "accent": "#d97706",
-   "alt": "Illustration for Learning & confidentiality",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#d97706",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "secure",
-    "need-to-know"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p9/content/images",
-   "file": "information-governance.svg",
-   "title": "The wider framework",
-   "accent": "#0284c7",
-   "alt": "Illustration for Information governance",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#0284c7",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Data Protection Officer (DPO)",
-    "Caldicott Guardian",
-    "Senior Information Risk Owner (SIRO)"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p2/content/images",
-   "file": "the-principles.svg",
-   "title": "The seven data protection principles",
-   "accent": "#0284c7",
-   "alt": "Illustration for The principles",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Lawfulness, fairness and transparency",
-    "Purpose limitation",
-    "Data minimisation"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p3/content/images",
-   "file": "kinds-of-data.svg",
-   "title": "Personal data and special category data",
-   "accent": "#0284c7",
-   "alt": "Illustration for Kinds of data",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#0284c7",
-     "prop": "heart"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p10/content/images",
-   "file": "lawful-bases-amp-consent.svg",
-   "title": "Having a lawful basis",
-   "accent": "#0284c7",
-   "alt": "Illustration for Lawful bases &amp; consent",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p4/content/images",
-   "file": "individual-rights.svg",
-   "title": "People's rights over their information",
-   "accent": "#0284c7",
-   "alt": "Illustration for Individual rights",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Right to be informed",
-    "Right of access",
-    "Right to rectification"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p11/content/images",
-   "file": "caldicott-principles.svg",
-   "title": "The Caldicott principles",
-   "accent": "#0284c7",
-   "alt": "Illustration for Caldicott principles",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p6/content/images",
-   "file": "sharing-safely.svg",
-   "title": "Sharing information appropriately",
-   "accent": "#0284c7",
-   "alt": "Illustration for Sharing safely",
+   "outDir": "public/h5p/content/medication-awareness/p5/content/images",
+   "file": "mar-charts-and-recording.svg",
+   "title": "Reading and completing a MAR chart",
+   "accent": "#7c3aed",
+   "alt": "Illustration for MAR charts and recording",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
-     "tunic": "#0284c7",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": [
-    "Safeguarding",
-    "Vital interests",
-    "Legal duty"
+    "as soon as"
    ]
   },
   {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p12/content/images",
-   "file": "cyber-security.svg",
-   "title": "Passwords, devices and phishing",
-   "accent": "#0284c7",
-   "alt": "Illustration for Cyber security",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p13/content/images",
-   "file": "access-amp-retention.svg",
-   "title": "Subject access requests and records rights",
-   "accent": "#0284c7",
-   "alt": "Illustration for Access &amp; retention",
+   "outDir": "public/h5p/content/medication-awareness/p7/content/images",
+   "file": "controlled-drugs-and-prn.svg",
+   "title": "Controlled drugs and PRN medicines",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Controlled drugs and PRN",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
-     "tunic": "#0284c7",
-     "prop": "clipboard"
+     "tunic": "#7c3aed",
+     "prop": "pills"
     }
    ],
-   "points": []
+   "points": [
+    "controlled drugs register"
+   ]
   },
   {
-   "outDir": "public/h5p/content/information-governance-and-gdpr/p7/content/images",
-   "file": "data-breaches.svg",
-   "title": "Recognising a data breach",
-   "accent": "#0284c7",
-   "alt": "Illustration for Data breaches",
+   "outDir": "public/h5p/content/medication-awareness/p8/content/images",
+   "file": "covert-self-admin-and-errors.svg",
+   "title": "Covert administration, self-administration and",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Covert, self-admin and errors",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
-     "tunic": "#0284c7",
+     "tunic": "#7c3aed",
      "prop": "clipboard"
     }
    ],
    "points": []
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p2/content/images",
-   "file": "causes-and-triggers.svg",
-   "title": "Common causes and triggers",
-   "accent": "#16a34a",
-   "alt": "Illustration for Causes and triggers",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Unmet needs",
-    "Pain or illness",
-    "Fear and frustration"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p9/content/images",
-   "file": "distress-not-defiance.svg",
-   "title": "Behaviour that challenges, not “difficult peop",
-   "accent": "#16a34a",
-   "alt": "Illustration for Distress not defiance",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Pain or illness",
-    "Fear or confusion",
-    "Environment"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p3/content/images",
-   "file": "the-escalation-cycle.svg",
-   "title": "The cycle of escalation",
-   "accent": "#16a34a",
-   "alt": "Illustration for The escalation cycle",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p10/content/images",
-   "file": "the-betari-box.svg",
-   "title": "Communication that calms",
-   "accent": "#16a34a",
-   "alt": "Illustration for The Betari Box",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Tone",
-    "Body language",
-    "Personal space"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p12/content/images",
-   "file": "warning-signs-and-risk.svg",
-   "title": "Reading the warning signs",
-   "accent": "#16a34a",
-   "alt": "Illustration for Warning signs and risk",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Body",
-    "Face and voice",
-    "Manner"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p6/content/images",
-   "file": "keeping-safe.svg",
-   "title": "Keeping yourself and others safe",
-   "accent": "#16a34a",
-   "alt": "Illustration for Keeping safe",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Know your exit routes",
-    "Withdraw when needed",
-    "Call for help"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p7/content/images",
-   "file": "assertive-not-aggressive.svg",
-   "title": "The difference between assertiveness and aggre",
-   "accent": "#16a34a",
-   "alt": "Illustration for Assertive not aggressive",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Assertive",
-    "Aggressive",
-    "Passive"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p11/content/images",
-   "file": "colleagues-and-families.svg",
-   "title": "Conflict is not only with the people you suppo",
-   "accent": "#16a34a",
-   "alt": "Illustration for Colleagues and families",
-   "cast": [
-    {
-     "skin": 4,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "alert"
-    }
-   ],
-   "points": [
-    "Listen first",
-    "Focus on the issue",
-    "Find common ground"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p13/content/images",
-   "file": "learning-and-recovering.svg",
-   "title": "Trauma-informed and person-centred approaches",
-   "accent": "#16a34a",
-   "alt": "Illustration for Learning and recovering",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/conflict-resolution/p8/content/images",
-   "file": "after-an-incident.svg",
-   "title": "Post-incident support, reporting, and lone wor",
-   "accent": "#16a34a",
-   "alt": "Illustration for After an incident",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Support",
-    "Debrief",
-    "Record and report"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p2/content/images",
-   "file": "complaint-or-something-else.svg",
-   "title": "Four routes that are easy to confuse",
-   "accent": "#16a34a",
-   "alt": "Illustration for Complaint or something else?",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "concern",
-    "complaint",
-    "safeguarding issue"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p9/content/images",
-   "file": "the-legal-duty.svg",
-   "title": "Complaints are a legal duty, not a favour",
-   "accent": "#16a34a",
-   "alt": "Illustration for The legal duty",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "It is inspected",
-    "It is everyone’s business",
-    "It protects people"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p3/content/images",
-   "file": "an-accessible-procedure.svg",
-   "title": "The duty to make complaining easy",
-   "accent": "#16a34a",
-   "alt": "Illustration for An accessible procedure",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "advocate"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p11/content/images",
-   "file": "supporting-people-to-complain.svg",
-   "title": "Removing the fear of complaining",
-   "accent": "#16a34a",
-   "alt": "Illustration for Supporting people to complain",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Independent advocacy",
-    "Communication needs",
-    "People who know them"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p10/content/images",
-   "file": "handling-it-in-person.svg",
-   "title": "Staying calm when someone is upset",
-   "accent": "#16a34a",
-   "alt": "Illustration for Handling it in person",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "headscarf",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Listen",
-    "Empathise",
-    "Apologise"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p5/content/images",
-   "file": "the-process.svg",
-   "title": "From receiving to responding",
-   "accent": "#16a34a",
-   "alt": "Illustration for The process",
-   "cast": [
-    {
-     "skin": 1,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "heart"
-    }
-   ],
-   "points": [
-    "Acknowledge",
-    "Record",
-    "Investigate fairly"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p6/content/images",
-   "file": "your-role-as-a-care-worker.svg",
-   "title": "What is expected of you",
-   "accent": "#16a34a",
-   "alt": "Illustration for Your role as a care worker",
-   "cast": [
-    {
-     "skin": 2,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Report every complaint",
-    "Don’t promise outcomes",
-    "Record and pass on the facts"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p12/content/images",
-   "file": "recording-and-responding.svg",
-   "title": "Record it and get it investigated",
-   "accent": "#16a34a",
-   "alt": "Illustration for Recording and responding",
-   "cast": [
-    {
-     "skin": 3,
-     "hair": "curly",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "Apologise sincerely",
-    "Explain honestly",
-    "Say what will change"
-   ]
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p13/content/images",
-   "file": "turning-complaints-into-change.svg",
-   "title": "Look for themes and trends",
-   "accent": "#16a34a",
-   "alt": "Illustration for Turning complaints into change",
-   "cast": [
-    {
-     "skin": 5,
-     "hair": "short",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": []
-  },
-  {
-   "outDir": "public/h5p/content/complaints-handling/p8/content/images",
-   "file": "escalation-the-ombudsman.svg",
-   "title": "When someone is still unhappy",
-   "accent": "#16a34a",
-   "alt": "Illustration for Escalation & the Ombudsman",
-   "cast": [
-    {
-     "skin": 0,
-     "hair": "bun",
-     "tunic": "#16a34a",
-     "prop": "clipboard"
-    }
-   ],
-   "points": [
-    "complete the service’s own complaints process first",
-    "apology"
-   ]
   }
  ]
 }

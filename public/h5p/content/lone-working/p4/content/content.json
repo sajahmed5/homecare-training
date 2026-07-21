@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Assessing the risk before you go</h2><p>A good lone-working risk assessment looks at the task, the person, the environment and the journey, and then decides what controls are needed. Your employer carries out this assessment, but you are a vital source of up-to-date information. If something changes at a property, or a person's behaviour becomes unpredictable, tell your manager so the assessment can be reviewed.</p><p>Some tasks should never be done alone. For example, certain moving and handling operations may need two workers. If an assessment says a visit needs two people, it must not be attempted by one.</p><ul><li>Consider the person's history, health and any known triggers.</li><li>Consider the property: access, lighting, pets, other people present.</li><li>Consider the journey: route, timing, parking and lone travel after dark.</li><li>Match the control measures to the level of risk, and review them when things change.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"e9123938-e9e7-4150-9a12-103a3b6493ac","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A risk assessment says a moving and handling task needs two carers, but your colleague has called in sick. What should you do?</p>","answers":[{"correct":true,"text":"<div>Do not attempt it alone. Contact your manager so cover can be arranged or the visit rescheduled</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. If an assessment specifies two workers, doing it alone risks injury to you and the person. Escalate instead.","notChosenFeedback":""}},{"correct":false,"text":"<div>Attempt it on your own to avoid letting the person down</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Attempting a two-person task alone puts both you and the person at serious risk of injury. Never override the assessment.","notChosenFeedback":""}},{"correct":false,"text":"<div>Ask the person's relative to help you lift, whatever their ability</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. An untrained relative may be unable to help safely and could be injured. The safe route is to contact your manager.","notChosenFeedback":""}},{"correct":false,"text":"<div>Skip the task entirely and say nothing</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Missing essential care without reporting it can leave the person at risk. Always escalate so a safe solution is found.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"f0fefc0d-6776-4ccf-9c7a-886febead092","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Assessing the risk before you go</h2><p>A good lone-working risk assessment looks at the task, the person, the environment and the journey, and then decides what controls are needed. Your employer carries out this assessment, but you are a vital source of up-to-date information. If something changes at a property, or a person's behaviour becomes unpredictable, tell your manager so the assessment can be reviewed.</p><p>Some tasks should never be done alone. For example, certain moving and handling operations may need two workers. If an assessment says a visit needs two people, it must not be attempted by one.</p><ul><li>Consider the person's history, health and any known triggers.</li><li>Consider the property: access, lighting, pets, other people present.</li><li>Consider the journey: route, timing, parking and lone travel after dark.</li><li>Match the control measures to the level of risk, and review them when things change.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e9123938-e9e7-4150-9a12-103a3b6493ac",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Risk assessment",
+          "decorative": false,
+          "file": {
+            "path": "images/risk-assessment.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a82dc8da-29bc-45ab-8cd5-14902d76ef52",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A risk assessment says a moving and handling task needs two carers, but your colleague has called in sick. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Do not attempt it alone. Contact your manager so cover can be arranged or the visit rescheduled</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. If an assessment specifies two workers, doing it alone risks injury to you and the person. Escalate instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Attempt it on your own to avoid letting the person down</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Attempting a two-person task alone puts both you and the person at serious risk of injury. Never override the assessment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask the person's relative to help you lift, whatever their ability</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. An untrained relative may be unable to help safely and could be injured. The safe route is to contact your manager.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip the task entirely and say nothing</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Missing essential care without reporting it can leave the person at risk. Always escalate so a safe solution is found.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "f0fefc0d-6776-4ccf-9c7a-886febead092",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

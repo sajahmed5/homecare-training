@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Common routes and forms of medicines</h2><p>Medicines come in many forms and are given by different <strong>routes</strong> &mdash; the way the medicine enters the body. Each has its own handling and recording requirements, and giving a medicine by the wrong route can be dangerous.</p><ul><li><strong>Oral</strong> &mdash; tablets, capsules and liquids taken by mouth and swallowed.</li><li><strong>Topical</strong> &mdash; creams, ointments and gels applied to the skin.</li><li><strong>Inhaled</strong> &mdash; inhalers and nebulisers breathed into the lungs.</li><li><strong>Drops</strong> &mdash; eye, ear or nose drops.</li><li><strong>Patches (transdermal)</strong> &mdash; medicine absorbed slowly through the skin. Record where the patch is placed and rotate the site to avoid skin damage.</li></ul><p>Some medicines look similar but work very differently, so always check the label and MAR chart for the correct form and route.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"6e053d08-a96d-451b-aa21-7ed8b87349c5","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>It is safe to crush a tablet to make it easier to swallow, without checking with the pharmacist first.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Incorrect. Crushing a tablet can be dangerous &mdash; it may change how the medicine works or alter the dose, and it is often outside the licence. Always check with the pharmacist or prescriber first.","correctAnswerMessage":"Correct. Crushing can change how a medicine is absorbed and may be unsafe. Never crush or alter a medicine without advice from the pharmacist or prescriber."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"bbb8ac5f-f9c4-4309-9500-eb00ebb1fdf9","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Common routes and forms of medicines</h2><p>Medicines come in many forms and are given by different <strong>routes</strong> &mdash; the way the medicine enters the body. Each has its own handling and recording requirements, and giving a medicine by the wrong route can be dangerous.</p><ul><li><strong>Oral</strong> &mdash; tablets, capsules and liquids taken by mouth and swallowed.</li><li><strong>Topical</strong> &mdash; creams, ointments and gels applied to the skin.</li><li><strong>Inhaled</strong> &mdash; inhalers and nebulisers breathed into the lungs.</li><li><strong>Drops</strong> &mdash; eye, ear or nose drops.</li><li><strong>Patches (transdermal)</strong> &mdash; medicine absorbed slowly through the skin. Record where the patch is placed and rotate the site to avoid skin damage.</li></ul><p>Some medicines look similar but work very differently, so always check the label and MAR chart for the correct form and route.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6e053d08-a96d-451b-aa21-7ed8b87349c5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Routes and forms",
+          "decorative": false,
+          "file": {
+            "path": "images/routes-and-forms.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "34d19626-9d26-48d1-adbd-36c8659dea83",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is safe to crush a tablet to make it easier to swallow, without checking with the pharmacist first.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Incorrect. Crushing a tablet can be dangerous &mdash; it may change how the medicine works or alter the dose, and it is often outside the licence. Always check with the pharmacist or prescriber first.",
+            "correctAnswerMessage": "Correct. Crushing can change how a medicine is absorbed and may be unsafe. Never crush or alter a medicine without advice from the pharmacist or prescriber."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "bbb8ac5f-f9c4-4309-9500-eb00ebb1fdf9",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

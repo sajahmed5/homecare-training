@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>The care worker's role &mdash; and where it stops</h2><p>Care workers support people with medicines in many ways. Some tasks are low-risk and can be done with basic training; others are higher-risk and need specific training and a competency sign-off.</p><ul><li><strong>Prompting</strong> &mdash; reminding someone it is time to take their medicine.</li><li><strong>Assisting</strong> &mdash; helping someone who directs the task, for example opening a bottle or passing a glass of water.</li><li><strong>Administering</strong> &mdash; giving the medicine to the person, including selecting the dose from packaging and recording it. This is the highest-risk task and requires training <strong>and</strong> a competency assessment.</li></ul><p>Knowing which of these you are doing &mdash; and staying within it &mdash; keeps both you and the person you support safe.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"41594c39-a9b2-4ffd-869c-2d7b7cb6c158","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A person you support asks you to give them a tablet from their blister pack. You have completed the awareness course but your employer has not yet assessed your competency to administer. What should you do?</p>","answers":[{"correct":true,"text":"<div>Decline to administer, explain that you are not yet signed off, and ask a competency-assessed colleague or your manager to help.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Administering requires both training and a competency sign-off. Until then you must not do it, however simple it seems.","notChosenFeedback":""}},{"correct":false,"text":"<div>Give the tablet, because a blister pack is easy and low-risk.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Ease is not the point &mdash; administering any medicine requires a competency assessment first.","notChosenFeedback":""}},{"correct":false,"text":"<div>Take the tablet out and leave it on the table for them to take later.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Leaving medicines out is unsafe and is not recorded properly. Get a competent colleague to support the person.","notChosenFeedback":""}},{"correct":false,"text":"<div>Administer it just this once and tell your manager afterwards.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. There is no &quot;just this once&quot;. You must be signed off as competent before administering at all.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"ec9657ff-1ce0-49a2-aaa3-c97af28bf809","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The care worker's role &mdash; and where it stops</h2><p>Care workers support people with medicines in many ways. Some tasks are low-risk and can be done with basic training; others are higher-risk and need specific training and a competency sign-off.</p><ul><li><strong>Prompting</strong> &mdash; reminding someone it is time to take their medicine.</li><li><strong>Assisting</strong> &mdash; helping someone who directs the task, for example opening a bottle or passing a glass of water.</li><li><strong>Administering</strong> &mdash; giving the medicine to the person, including selecting the dose from packaging and recording it. This is the highest-risk task and requires training <strong>and</strong> a competency assessment.</li></ul><p>Knowing which of these you are doing &mdash; and staying within it &mdash; keeps both you and the person you support safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41594c39-a9b2-4ffd-869c-2d7b7cb6c158",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role and its limits",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-and-its-limits.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7e9b03d3-bf99-49bc-aa75-f8bb0f4406e7",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support asks you to give them a tablet from their blister pack. You have completed the awareness course but your employer has not yet assessed your competency to administer. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Decline to administer, explain that you are not yet signed off, and ask a competency-assessed colleague or your manager to help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Administering requires both training and a competency sign-off. Until then you must not do it, however simple it seems.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give the tablet, because a blister pack is easy and low-risk.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Ease is not the point &mdash; administering any medicine requires a competency assessment first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Take the tablet out and leave it on the table for them to take later.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Leaving medicines out is unsafe and is not recorded properly. Get a competent colleague to support the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Administer it just this once and tell your manager afterwards.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. There is no &quot;just this once&quot;. You must be signed off as competent before administering at all.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ec9657ff-1ce0-49a2-aaa3-c97af28bf809",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

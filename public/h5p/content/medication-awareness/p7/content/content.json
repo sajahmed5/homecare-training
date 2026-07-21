@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Controlled drugs and PRN medicines</h2><p><strong>Controlled drugs (CDs)</strong> are medicines with extra legal restrictions under the Misuse of Drugs Act because of their risk of misuse &mdash; for example strong painkillers such as morphine. They carry additional requirements:</p><ul><li>Stored in a dedicated, secured CD cabinet.</li><li>Recorded in a separate <strong>controlled drugs register</strong>, and in care homes a second trained member of staff usually witnesses and countersigns.</li><li>Running balances (stock counts) are kept and checked.</li></ul><h2>PRN &mdash; &quot;when required&quot; medicines</h2><p>PRN means &quot;pro re nata&quot;, or <strong>when required</strong>. These are given only when needed, such as pain relief. Each PRN medicine should have a clear <strong>protocol</strong> saying when to offer it, the maximum dose in 24 hours, and how to tell whether the person needs it &mdash; especially if they cannot ask. Always record what was given, why, and how much stock remains.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"fd45d202-a7b8-49db-bbee-3172cf0caadc","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>In a care home, controlled drugs are usually witnessed and countersigned by a second trained member of staff and recorded in a separate controlled drugs register.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Incorrect. Controlled drugs do carry extra requirements &mdash; a separate register, secure CD cabinet, and usually a second-staff witness in care homes.","correctAnswerMessage":"Correct. The extra witnessing, countersigning and separate register are additional safeguards required for controlled drugs."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"9804e607-15e8-4044-adb8-ef8dcf4658b5","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Controlled drugs and PRN medicines</h2><p><strong>Controlled drugs (CDs)</strong> are medicines with extra legal restrictions under the Misuse of Drugs Act because of their risk of misuse &mdash; for example strong painkillers such as morphine. They carry additional requirements:</p><ul><li>Stored in a dedicated, secured CD cabinet.</li><li>Recorded in a separate <strong>controlled drugs register</strong>, and in care homes a second trained member of staff usually witnesses and countersigns.</li><li>Running balances (stock counts) are kept and checked.</li></ul><h2>PRN &mdash; &quot;when required&quot; medicines</h2><p>PRN means &quot;pro re nata&quot;, or <strong>when required</strong>. These are given only when needed, such as pain relief. Each PRN medicine should have a clear <strong>protocol</strong> saying when to offer it, the maximum dose in 24 hours, and how to tell whether the person needs it &mdash; especially if they cannot ask. Always record what was given, why, and how much stock remains.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fd45d202-a7b8-49db-bbee-3172cf0caadc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Controlled drugs and PRN",
+          "decorative": false,
+          "file": {
+            "path": "images/controlled-drugs-and-prn.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1e8a7304-896b-404f-8a24-30a810fe106c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In a care home, controlled drugs are usually witnessed and countersigned by a second trained member of staff and recorded in a separate controlled drugs register.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Incorrect. Controlled drugs do carry extra requirements &mdash; a separate register, secure CD cabinet, and usually a second-staff witness in care homes.",
+            "correctAnswerMessage": "Correct. The extra witnessing, countersigning and separate register are additional safeguards required for controlled drugs."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "9804e607-15e8-4044-adb8-ef8dcf4658b5",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
