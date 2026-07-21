@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Check, ListTree, Lock, X } from "lucide-react";
+import { ArrowUp, Check, ListTree, Lock, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { saveProgressAction } from "@/app/learn/actions";
 import { groupSections, type H5PBlock } from "@/lib/content";
@@ -28,19 +28,23 @@ declare global {
 
 /**
  * Plays a course whose content is an ordered list of H5P packages ("pages"),
- * one per screen, with our own progress bar, Back/Next navigation and a
- * "Save & come back later" button. Resumes at the learner's saved page.
+ * one per screen. A fresh start opens with an intro and a contents overview
+ * ("intro" -> "contents" -> "course"); resuming part-way jumps straight back
+ * into the content. Our own progress bar, Back/Next, a "Save & come back
+ * later" button and a leave-prompt keep the learner's place safe.
  */
 export function H5PCoursePlayer({
   enrolmentId,
   courseId,
   title,
+  description,
   pages,
   initialBlock,
 }: {
   enrolmentId: string;
   courseId: string;
   title: string;
+  description?: string;
   pages: H5PBlock[];
   initialBlock: number;
 }) {
@@ -54,6 +58,12 @@ export function H5PCoursePlayer({
   const [loading, setLoading] = useState(true);
   const [finished, setFinished] = useState(false);
   const [contentsOpen, setContentsOpen] = useState(false);
+  // Resume (initialBlock > 0) skips the intro flow and drops straight into the
+  // content; a fresh start walks through intro -> contents -> course.
+  const [stage, setStage] = useState<"intro" | "contents" | "course">(
+    startIndex > 0 ? "course" : "intro",
+  );
+  const [leaving, setLeaving] = useState(false);
 
   const sections = groupSections(pages);
   const currentSection = sections.find((s) => s.pages.includes(index));
@@ -102,8 +112,10 @@ export function H5PCoursePlayer({
     }
   }, []);
 
-  // (Re)mount the H5P package whenever the page changes.
+  // (Re)mount the H5P package whenever the page changes — but only once the
+  // learner is actually in the content (not on the intro/contents screens).
   useEffect(() => {
+    if (stage !== "course") return;
     let disposed = false;
     const el = containerRef.current;
     if (!el) return;
@@ -154,7 +166,7 @@ export function H5PCoursePlayer({
       disposed = true;
       clearInterval(attachTimer);
     };
-  }, [index, pages, onXapi]);
+  }, [index, pages, onXapi, stage]);
 
   // Best-effort save if the learner leaves mid-page.
   useEffect(() => {
@@ -184,6 +196,113 @@ export function H5PCoursePlayer({
     router.push("/learn");
   }
 
+  const estMinutes = Math.max(10, Math.round(total * 2));
+
+  // ---- Intro screen (fresh start only) ---------------------------------
+  if (stage === "intro") {
+    return (
+      <div className="mx-auto max-w-2xl space-y-5">
+        <Link href="/learn" className="text-sm text-muted-foreground hover:underline">
+          ← My training
+        </Link>
+        <div className="space-y-5 rounded-2xl border bg-gradient-to-br from-primary/10 via-card to-card p-6 sm:p-8">
+          <div className="space-y-1">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Course
+            </p>
+            <h2 className="text-2xl font-semibold tracking-tight">{title}</h2>
+          </div>
+
+          {description && (
+            <div className="space-y-1.5">
+              <h3 className="text-sm font-semibold">About this course</h3>
+              <p className="text-sm text-muted-foreground">{description}</p>
+            </div>
+          )}
+
+          <div className="space-y-2">
+            <h3 className="text-sm font-semibold">What you&apos;ll cover</h3>
+            <ul className="grid gap-2 sm:grid-cols-2">
+              {sections.map((s, i) => (
+                <li key={`${s.title}-${s.start}`} className="flex items-center gap-2 text-sm">
+                  <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-semibold text-primary">
+                    {i + 1}
+                  </span>
+                  <span>{s.title}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex items-center justify-between border-t pt-4 text-sm text-muted-foreground">
+            <span>
+              {total} pages · about {estMinutes} min
+            </span>
+            <Button onClick={() => setStage("contents")}>Next →</Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ---- Contents overview (fresh start only) ----------------------------
+  if (stage === "contents") {
+    return (
+      <div className="mx-auto max-w-2xl space-y-4">
+        <div className="flex items-center justify-between text-sm text-muted-foreground">
+          <Link href="/learn" className="hover:underline">
+            ← My training
+          </Link>
+          {/* The Contents button lives here in the player — point it out so
+              learners know where to reopen this list later. */}
+          <div className="relative">
+            <span className="inline-flex items-center gap-1.5 rounded-full border bg-card px-3 py-1 font-medium text-foreground shadow-sm ring-2 ring-primary/40">
+              <ListTree className="size-3.5" />
+              Contents
+            </span>
+            <span className="pointer-events-none absolute right-3 top-full mt-1 flex flex-col items-center text-primary motion-safe:animate-bounce">
+              <ArrowUp className="size-4" />
+              <span className="whitespace-nowrap text-[11px] font-medium">Find it here</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="space-y-4 rounded-2xl border bg-card p-6">
+          <div className="space-y-1">
+            <h2 className="text-xl font-semibold tracking-tight">What this course covers</h2>
+            <p className="text-sm text-muted-foreground">
+              You can reopen this list from the <strong>Contents</strong> button
+              at the top right at any time.
+            </p>
+          </div>
+
+          <ol className="space-y-3">
+            {sections.map((s) => (
+              <li key={`${s.title}-${s.start}`}>
+                <h3 className="text-sm font-semibold text-primary">{s.title}</h3>
+                <ul className="mt-1 space-y-0.5">
+                  {s.pages.map((p) => (
+                    <li key={p} className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <span className="size-1.5 shrink-0 rounded-full bg-muted-foreground/40" />
+                      <span>{pages[p].label ?? `Page ${p + 1}`}</span>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
+
+          <div className="flex items-center justify-between border-t pt-4">
+            <Button variant="outline" onClick={() => setStage("intro")}>
+              Back
+            </Button>
+            <Button onClick={() => setStage("course")}>Begin course →</Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (finished) {
     return (
       <div className="mx-auto max-w-2xl space-y-6 py-6 text-center">
@@ -210,9 +329,13 @@ export function H5PCoursePlayer({
       {/* Header + progress bar */}
       <div className="space-y-2">
         <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
-          <Link href="/learn" className="hover:underline">
+          <button
+            type="button"
+            onClick={() => setLeaving(true)}
+            className="hover:underline"
+          >
             ← My training
-          </Link>
+          </button>
           <div className="flex items-center gap-3">
             <span className="truncate">
               {pages[index].label ?? `Page ${index + 1}`} · {index + 1} of {total}
@@ -335,6 +458,37 @@ export function H5PCoursePlayer({
           {index < total - 1 ? "Next" : "Finish"}
         </Button>
       </div>
+
+      {/* Leave-prompt: reassure the learner their place is kept when they head
+          back to their training list. */}
+      {leaving && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="leave-title"
+          onClick={() => setLeaving(false)}
+        >
+          <div
+            className="w-full max-w-sm space-y-4 rounded-2xl border bg-card p-6 shadow-lg"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 id="leave-title" className="text-lg font-semibold">
+              Leave this course?
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              We&apos;ll save your place at <strong>{pages[index].label ?? `page ${index + 1}`}</strong>{" "}
+              — you can pick up right where you left off.
+            </p>
+            <div className="flex justify-end gap-2">
+              <Button variant="outline" onClick={() => setLeaving(false)}>
+                Keep going
+              </Button>
+              <Button onClick={saveAndExit}>Save &amp; leave</Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
