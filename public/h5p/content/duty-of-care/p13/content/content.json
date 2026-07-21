@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working through a dilemma step by step</h2><p>Duty-of-care dilemmas rarely have a single obvious answer. A simple approach helps you stay calm and act well:</p><ul><li><strong>Pause:</strong> notice the competing duties or rights in the situation.</li><li><strong>Gather facts:</strong> what does the person actually want, and what are the real risks?</li><li><strong>Consider options:</strong> look for a way that respects choice and reduces harm.</li><li><strong>Seek support:</strong> talk to your manager rather than deciding alone.</li><li><strong>Record and review:</strong> write down what you did and why.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8d5846b2-5b6a-4db5-80df-15df103deaa8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working through dilemmas",
+          "decorative": false,
+          "file": {
+            "path": "images/working-through-dilemmas.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6fd55092-62f7-4c60-875a-eeb559e061fc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A worked example</h2><p>Mr Ahmed has capacity and enjoys a daily walk, but recently he has had two small falls. His daughter asks you to stop him going out. You feel the pull between keeping him safe and respecting his choice.</p><p>Rather than banning the walk, you talk with Mr Ahmed about what happened, suggest a walking aid and a check of his footwear, and agree he will carry a phone. You share your notes with your manager. His independence is respected and the risk is reduced &mdash; that is duty of care in action.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9037c1f8-73e8-440a-835b-435f92f72c39",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Using the step-by-step approach, what is the best first move when you meet a duty-of-care dilemma like Mr Ahmed&rsquo;s?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Pause to identify the competing rights and risks, and find out what the person actually wants.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Understanding the person&rsquo;s wishes and the real risks comes before deciding on any action.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do whatever the family asks, since they know the person best.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Family views matter, but a capable person&rsquo;s own wishes and rights must come first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Remove the risk completely by stopping the activity.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Removing all risk usually removes choice too; positive risk-taking looks for a safer way to continue.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Make a quick decision alone so the person is not left waiting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Dilemmas are better handled with facts and support from your manager than by rushing a lone decision.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c182362a-957b-4b14-a1a1-7a074a65b152",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

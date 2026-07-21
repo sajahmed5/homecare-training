@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Every person is an individual</h2><p>Dignity means seeing the whole person, not a task or a diagnosis. The people you support have their own history, beliefs, culture, language and relationships that make them who they are. Treating everyone the same is not the same as treating everyone fairly &mdash; real respect means responding to what matters to <em>this</em> person.</p><ul><li><strong>Protected characteristics:</strong> the Equality Act 2010 protects things such as religion, race, sex, sexual orientation, age and disability from discrimination.</li><li><strong>Identity:</strong> a person's faith, culture and preferred name or pronouns are part of who they are, and upholding them is part of dignity.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "77d536f0-e5dd-479b-bad4-5ac8cd4a9af6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Culture & individuality",
+          "decorative": false,
+          "file": {
+            "path": "images/culture-individuality.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2804cc26-80ee-4e6a-bbce-d5ecb7462e3a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Respecting preferences in daily care</h2><p>Small choices carry a lot of meaning. The way someone likes to be addressed, the food they can and cannot eat, how they dress or pray, and whether they prefer a carer of a particular gender all deserve respect.</p><ul><li><strong>Ask, don't assume:</strong> two people of the same religion may practise it very differently, so find out what each person wants.</li><li><strong>Record preferences:</strong> note them in the care plan so the whole team follows them consistently.</li><li><strong>Support, don't judge:</strong> a person's choices about relationships, culture or lifestyle are theirs to make.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ba90f3a5-ebcd-406c-b931-b5d1eca9add0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Because two people you support share the same religion, it is efficient to assume they observe the same dietary and worship customs.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not right. Assuming everyone with the same faith is identical ignores individuality; always check each person's own preferences.",
+            "correctAnswerMessage": "Correct &mdash; that statement is false. People practise faith and culture in their own individual ways, so you should ask each person about their preferences."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "58ea8fcf-4929-4fc6-8304-31680d254e73",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

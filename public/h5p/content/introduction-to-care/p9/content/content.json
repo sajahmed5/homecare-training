@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Where care and support happens</h2><p>Adult social care in England is delivered in many different settings, and the place you work shapes your day even though the underlying values stay the same. Some of the most common settings are:</p><ul><li><strong>Domiciliary (home) care:</strong> supporting people in their own homes, often travelling between several people across a single shift.</li><li><strong>Residential care homes:</strong> people live together with staff on site around the clock; some homes are also registered to provide nursing care.</li><li><strong>Supported living:</strong> people hold their own tenancy and choose the support they receive, frequently adults with a learning disability or a mental health need.</li><li><strong>Day services:</strong> activities, company and new skills during the daytime, which also give unpaid family carers a welcome break.</li><li><strong>Extra care housing:</strong> people have their own flat with care and support available on site if they need it.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "51902124-d395-412b-8bfd-b792f1194555",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Care settings and sector",
+          "decorative": false,
+          "file": {
+            "path": "images/care-settings-and-sector.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "16f82f77-fbae-4ecf-aaa5-e9814c7c2134",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>One sector, many employers</h2><p>Wherever you work, you are part of one regulated sector that shares the same expectations &mdash; care should be personalised, safe, and centred on the individual. Your employer might be a local council, a private company, a charity or voluntary organisation, or even a person who arranges their own support through a direct payment.</p><p>Knowing your setting helps you understand who lives or visits there, what a typical day looks like, and how to shape your support around each person&rsquo;s wishes rather than around routines that simply suit the service. Take time early on to learn how your particular workplace runs.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f6f6e5d5-28d0-4d77-b7cd-3feb587ceae8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In which type of setting does a person usually hold their own tenancy and choose the support they receive?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Supported living</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. In supported living, people have their own tenancy and stay in control of the support they receive.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A residential care home</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. In a care home people live together with staff on site; they do not usually hold their own tenancy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A hospital ward</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Hospitals provide healthcare; supported living is a social care setting where people hold their own tenancy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A day service</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Day services offer daytime support; they are not somewhere a person lives under their own tenancy.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "de724726-9db3-4780-adc2-5e87f8703748",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

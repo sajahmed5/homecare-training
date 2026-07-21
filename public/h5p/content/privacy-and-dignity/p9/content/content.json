@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Privacy is more than a closed door</h2><p>When people think about privacy, they often picture a curtain drawn during personal care. That physical privacy matters, but the people you support also have a right to <strong>information privacy</strong> &mdash; control over who knows what about their lives, health and history. Every detail you learn on shift, from a diagnosis to a family worry, belongs to the person, not to you.</p><ul><li><strong>Confidentiality:</strong> keeping personal information private and sharing it only when there is a proper reason.</li><li><strong>Data protection:</strong> the UK GDPR and Data Protection Act 2018 require records to be kept accurately, securely and no longer than needed.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ee67a1c9-c102-4d71-9388-cf2b37cdc1dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Information & confidentiality",
+          "decorative": false,
+          "file": {
+            "path": "images/information-confidentiality.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1cbc9468-5ac4-42a1-a8ad-140244eb7146",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Handling information the right way</h2><p>Confidentiality is not secrecy. You share what you must to keep someone safe and well, and no more. A useful test is the <strong>need-to-know</strong> principle: does this colleague actually need this detail to do their job?</p><ul><li><strong>Ask before you share:</strong> seek consent where you can, and explain who will see the information.</li><li><strong>Keep records safe:</strong> lock away paper notes, log out of care systems, and never discuss people in lifts, corridors or on social media.</li><li><strong>Know the limits:</strong> if someone is at risk of harm, you may need to pass information on to keep them safe, and you should tell your manager.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "22ee8dda-9dc5-452b-9eb4-9835903e21e6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative you have never met phones the office and asks how their father slept last night. What is the safest response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Explain you cannot share information without knowing they are entitled to it, and check with your manager first.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Verifying identity and the person's own wishes about sharing protects their confidentiality.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give a brief update, since it is only a family member asking.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not safe. You cannot confirm the caller's identity or whether the person wants information shared with them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Refuse all contact and hang up without explanation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "That goes too far. You can stay polite and helpful while still protecting confidentiality.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask another resident who knows the family whether it is fine to share.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Discussing someone's care with an unrelated person is itself a breach of confidentiality.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "4fa331f1-4468-45bf-81bd-496ca4d877de",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

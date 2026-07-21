@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and reporting well</h2><p>Written communication is as important as talking. Care records let the whole team know what has happened and what a person needs. Good records protect the person, your colleagues and you.</p><ul><li><strong>Accurate:</strong> write only facts, and note the difference between what you saw and what you were told.</li><li><strong>Clear and legible:</strong> avoid jargon and unexplained abbreviations.</li><li><strong>Timely:</strong> record as soon as you can, while details are fresh.</li><li><strong>Signed and dated:</strong> so it is clear who wrote what and when.</li></ul><p>Report changes and concerns straight away to the right person, rather than waiting for the next handover. If something is not written down, it can easily be missed, and records may also be read by the person themselves, so keep them respectful.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0225b7e6-5cad-4532-afdf-46ac750c227c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and recap",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-recap.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1e10e850-6be7-41bc-963c-4e0aa93a577c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Communication runs through every part of your work. You have seen that it is a two-way cycle that relies on feedback, that it is both verbal and non-verbal, and that active listening is at its core. You have looked at the barriers that get in the way and practical ways to overcome them.</p><p>You have also explored how to meet each person's individual needs using aids, interpreters and technology, how to work well with colleagues and families, and how to protect confidentiality. Keep asking each person how they prefer to communicate, stay patient, and record and report clearly. Do these things well and the people you support will feel heard, safe and respected.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e0808559-9388-4944-a825-7396e2ef3def",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

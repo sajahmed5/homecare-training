@@ -3,60 +3,95 @@
   "title": "Introduction to Care",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "introduction-to-care/p1",
-      "type": "h5p",
       "label": "Welcome & what is care",
-      "section": "What care work is",
-      "questions": 0
+      "questions": 0,
+      "section": "What care work is"
     },
     {
+      "type": "h5p",
       "path": "introduction-to-care/p2",
-      "type": "h5p",
       "label": "Your role & responsibilities",
-      "section": "What care work is",
-      "questions": 1
+      "questions": 1,
+      "section": "What care work is"
     },
     {
+      "type": "h5p",
+      "path": "introduction-to-care/p9",
+      "label": "Care settings and sector",
+      "questions": 1,
+      "section": "What care work is"
+    },
+    {
+      "type": "h5p",
       "path": "introduction-to-care/p3",
-      "type": "h5p",
       "label": "The 6 Cs",
-      "section": "Values and ways of working",
-      "questions": 0
+      "questions": 0,
+      "section": "Values and ways of working"
     },
     {
+      "type": "h5p",
       "path": "introduction-to-care/p4",
-      "type": "h5p",
       "label": "Agreed ways of working",
-      "section": "Values and ways of working",
-      "questions": 1
+      "questions": 1,
+      "section": "Values and ways of working"
     },
     {
+      "type": "h5p",
+      "path": "introduction-to-care/p10",
+      "label": "Rights, dignity and independence",
+      "questions": 1,
+      "section": "Values and ways of working"
+    },
+    {
+      "type": "h5p",
       "path": "introduction-to-care/p5",
-      "type": "h5p",
       "label": "Working relationships",
-      "section": "Working with others",
-      "questions": 1
+      "questions": 1,
+      "section": "Working with others"
     },
     {
+      "type": "h5p",
       "path": "introduction-to-care/p6",
-      "type": "h5p",
       "label": "Person-centred care & duty of care",
-      "section": "Working with others",
-      "questions": 1
+      "questions": 1,
+      "section": "Working with others"
     },
     {
+      "type": "h5p",
+      "path": "introduction-to-care/p13",
+      "label": "Teamwork and getting support",
+      "questions": 1,
+      "section": "Working with others"
+    },
+    {
+      "type": "h5p",
+      "path": "introduction-to-care/p11",
+      "label": "Confidentiality and handling information",
+      "questions": 1,
+      "section": "Handling information and safety"
+    },
+    {
+      "type": "h5p",
+      "path": "introduction-to-care/p12",
+      "label": "Health, safety and wellbeing",
+      "questions": 1,
+      "section": "Handling information and safety"
+    },
+    {
+      "type": "h5p",
       "path": "introduction-to-care/p7",
-      "type": "h5p",
       "label": "Your own development",
-      "section": "Development and regulation",
-      "questions": 1
+      "questions": 1,
+      "section": "Development and regulation"
     },
     {
-      "path": "introduction-to-care/p8",
       "type": "h5p",
+      "path": "introduction-to-care/p8",
       "label": "Regulation & recap",
-      "section": "Development and regulation",
-      "questions": 1
+      "questions": 1,
+      "section": "Development and regulation"
     }
   ]
 }

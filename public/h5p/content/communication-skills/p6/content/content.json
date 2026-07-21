@@ -1,1 +1,94 @@
-{"content":[{"content":{"params":{"text":"<h3>Recording &amp; reporting</h3>\n<p>Communication doesn't end when a conversation does. What you record and hand over keeps the person safe and their care consistent.</p>\n<ul>\n<li>Write <strong>facts</strong>, not opinions — what you saw, heard and did.</li>\n<li>Record <strong>promptly</strong> and sign/date every entry.</li>\n<li>Report changes, concerns and refusals to the right person straight away.</li>\n<li>Keep information <strong>confidential</strong> and share only on a need-to-know basis.</li>\n</ul>\n<p><strong>Key takeaway:</strong> good communication is two-way, adapted to the individual, and always followed by clear, factual recording. When you're ready, continue to the assessment to earn your certificate.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"2f3ac72b-9ffe-4d64-96b1-d31b6366eefa","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Adapting the setting and yourself</h2><p>Once you notice a barrier, small changes make a big difference. Start with the environment: reduce background noise, turn off the television, improve the lighting and find a private space where the person feels comfortable to talk.</p><p>Then adapt yourself. Face the person so they can see your lips and expression, speak clearly without shouting, and use short sentences. Give the person time and do not rush. Check that hearing aids are switched on and that glasses are clean and to hand. These simple steps solve many everyday difficulties before you try anything else.</p><p>Stay calm and unhurried in your own manner. If you seem stressed or in a rush, the person is likely to feel it and become more anxious, which makes communication harder still.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d5a49b55-0e85-4850-a705-0032a6b83cff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Overcoming barriers",
+          "decorative": false,
+          "file": {
+            "path": "images/overcoming-barriers.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "af4aa48b-788c-49a2-b382-16ecf1d6f40f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Finding the right method</h2><p>If talking alone is not working, try another way to get the message across, and be willing to combine several.</p><ul><li><strong>Show and demonstrate:</strong> point, gesture or show an object.</li><li><strong>Use aids:</strong> pictures, easy-read leaflets or writing things down.</li><li><strong>Get support:</strong> a professional interpreter for a different language.</li><li><strong>Check understanding:</strong> ask the person to tell you what they will do next.</li></ul><p>Always be patient and never pretend to understand when you do not. If you cannot make yourself understood, ask a colleague for help and record what worked so the whole team can use it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0112d2de-1e69-46e3-bc68-3f5d4ea4cd20",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the gap to complete these tips for overcoming barriers.</p></p>",
+          "textField": "To help someone with hearing loss, reduce background *noise*, make sure their *hearing* aid is switched on, *face* the person so they can see your lips, and *check* that they have understood.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "10d6cf3f-f471-467a-b0ca-94e64969ba98",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

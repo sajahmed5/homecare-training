@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Your personal development</h2><p>Care Certificate <strong>Standard 2 &ndash; Your personal development</strong> is about how you keep learning and improving throughout your career. Good care depends on workers who reflect on their practice and continue to build their knowledge and skills.</p><p>Key parts of your development include:</p><ul><li>A <strong>Personal Development Plan (PDP)</strong> &mdash; a written plan, usually reviewed each year, setting out what you need to learn, how you will learn it, and how progress will be checked</li><li><strong>Supervision and appraisal</strong> &mdash; regular one-to-one meetings with your manager to discuss your work, your wellbeing, feedback and your goals</li><li><strong>Feedback and reflection</strong> &mdash; using comments from managers, colleagues and the people you support to recognise strengths and identify areas to improve</li><li>Ongoing learning through <strong>training, e-learning, shadowing and mentoring</strong></li></ul><p>Completing the <strong>Care Certificate</strong> is often one of your first development milestones, showing you can work safely and confidently in your role.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"7ef1f8cb-ceff-4608-a2ba-4af60a07a2d8","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Supervision meetings are only used to point out a care worker's mistakes.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Supervision is a supportive, two-way discussion covering wellbeing, goals, feedback and learning, not only errors.","correctAnswerMessage":"Correct. Supervision is a two-way conversation about your wellbeing, your goals, feedback and development &mdash; not simply about mistakes."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"4e10ba16-7826-4870-942b-a325870d73b9","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your personal development</h2><p>Care Certificate <strong>Standard 2 &ndash; Your personal development</strong> is about how you keep learning and improving throughout your career. Good care depends on workers who reflect on their practice and continue to build their knowledge and skills.</p><p>Key parts of your development include:</p><ul><li>A <strong>Personal Development Plan (PDP)</strong> &mdash; a written plan, usually reviewed each year, setting out what you need to learn, how you will learn it, and how progress will be checked</li><li><strong>Supervision and appraisal</strong> &mdash; regular one-to-one meetings with your manager to discuss your work, your wellbeing, feedback and your goals</li><li><strong>Feedback and reflection</strong> &mdash; using comments from managers, colleagues and the people you support to recognise strengths and identify areas to improve</li><li>Ongoing learning through <strong>training, e-learning, shadowing and mentoring</strong></li></ul><p>Completing the <strong>Care Certificate</strong> is often one of your first development milestones, showing you can work safely and confidently in your role.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7ef1f8cb-ceff-4608-a2ba-4af60a07a2d8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your own development",
+          "decorative": false,
+          "file": {
+            "path": "images/your-own-development.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "eacfb131-bc39-4f12-a3a6-9e2a60ed5a86",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Supervision meetings are only used to point out a care worker's mistakes.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Supervision is a supportive, two-way discussion covering wellbeing, goals, feedback and learning, not only errors.",
+            "correctAnswerMessage": "Correct. Supervision is a two-way conversation about your wellbeing, your goals, feedback and development &mdash; not simply about mistakes."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "4e10ba16-7826-4870-942b-a325870d73b9",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

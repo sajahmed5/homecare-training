@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Duty of care is not wrapping people in cotton wool</h2><p>It can feel safest to stop the people you support from doing anything that carries a risk. Yet a life with no risk is often a life with no choice, independence or enjoyment. Your duty of care sits alongside each person&rsquo;s right to make their own decisions.</p><p>Positive risk-taking means working with someone to weigh up the benefits and the hazards of an activity, then supporting them to do it as safely as possible &mdash; rather than simply saying no.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a6c510a2-5067-4310-b3da-384fada0fcda",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Positive risk-taking",
+          "decorative": false,
+          "file": {
+            "path": "images/positive-risk-taking.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "240eb140-96f3-47ec-a199-b837db98234d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Unwise decisions and mental capacity</h2><p>The Mental Capacity Act 2005 is clear that a person who has capacity is allowed to make what others might see as an unwise decision. Choosing to eat foods a dietitian advised against, or to walk to the shops alone, is their right.</p><ul><li><strong>Start by assuming capacity:</strong> do not treat a choice as unsafe just because you disagree with it.</li><li><strong>Share information:</strong> make sure the person understands the likely risks and benefits.</li><li><strong>Plan together:</strong> agree small steps that reduce danger without removing the choice.</li><li><strong>Record the decision:</strong> note the discussion so the reasoning is clear to others.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "878ffc6b-ec82-4cbb-bac2-c6308c4a11dc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person with mental capacity may make a decision you consider unwise, and your role is to support them to do it as safely as possible rather than to overrule them.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Under the Mental Capacity Act, a person with capacity has the right to make unwise decisions, and positive risk-taking supports them to do so safely.",
+            "correctAnswerMessage": "Correct. The Mental Capacity Act protects a capable person&rsquo;s right to make unwise decisions; your job is to reduce risk, not remove the choice."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ef0af3da-235a-49fa-a472-c9820ea9f691",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

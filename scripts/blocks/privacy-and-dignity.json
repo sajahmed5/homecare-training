@@ -3,60 +3,95 @@
   "title": "Privacy & Dignity",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "privacy-and-dignity/p1",
-      "type": "h5p",
       "label": "What we mean",
-      "section": "What privacy and dignity mean",
-      "questions": 0
+      "questions": 0,
+      "section": "What privacy and dignity mean"
     },
     {
+      "type": "h5p",
       "path": "privacy-and-dignity/p2",
-      "type": "h5p",
       "label": "The law behind it",
-      "section": "What privacy and dignity mean",
-      "questions": 0
+      "questions": 0,
+      "section": "What privacy and dignity mean"
     },
     {
+      "type": "h5p",
       "path": "privacy-and-dignity/p3",
-      "type": "h5p",
       "label": "Privacy in personal care",
-      "section": "Privacy and dignity in practice",
-      "questions": 1
+      "questions": 1,
+      "section": "Privacy and dignity in practice"
     },
     {
+      "type": "h5p",
+      "path": "privacy-and-dignity/p9",
+      "label": "Information & confidentiality",
+      "questions": 1,
+      "section": "Privacy and dignity in practice"
+    },
+    {
+      "type": "h5p",
       "path": "privacy-and-dignity/p4",
-      "type": "h5p",
       "label": "Dignity in everyday care",
-      "section": "Privacy and dignity in practice",
-      "questions": 1
+      "questions": 1,
+      "section": "Privacy and dignity in practice"
     },
     {
+      "type": "h5p",
+      "path": "privacy-and-dignity/p10",
+      "label": "Culture & individuality",
+      "questions": 1,
+      "section": "Individuality and choice"
+    },
+    {
+      "type": "h5p",
       "path": "privacy-and-dignity/p5",
-      "type": "h5p",
       "label": "Choice & independence",
-      "section": "Choice and positive risk",
-      "questions": 1
+      "questions": 1,
+      "section": "Individuality and choice"
     },
     {
+      "type": "h5p",
       "path": "privacy-and-dignity/p6",
-      "type": "h5p",
       "label": "Dignity of risk",
-      "section": "Choice and positive risk",
-      "questions": 1
+      "questions": 1,
+      "section": "Individuality and choice"
     },
     {
+      "type": "h5p",
+      "path": "privacy-and-dignity/p11",
+      "label": "Active participation",
+      "questions": 1,
+      "section": "Involvement and settings"
+    },
+    {
+      "type": "h5p",
+      "path": "privacy-and-dignity/p12",
+      "label": "Settings & technology",
+      "questions": 1,
+      "section": "Involvement and settings"
+    },
+    {
+      "type": "h5p",
       "path": "privacy-and-dignity/p7",
-      "type": "h5p",
       "label": "Dementia & communication",
-      "section": "Communication and speaking up",
-      "questions": 0
+      "questions": 0,
+      "section": "Communication and speaking up"
     },
     {
-      "path": "privacy-and-dignity/p8",
       "type": "h5p",
+      "path": "privacy-and-dignity/p13",
+      "label": "Applied scenarios & recap",
+      "questions": 1,
+      "section": "Communication and speaking up"
+    },
+    {
+      "type": "h5p",
+      "path": "privacy-and-dignity/p8",
       "label": "Challenging poor practice",
-      "section": "Communication and speaking up",
-      "questions": 1
+      "questions": 1,
+      "section": "Communication and speaking up"
     }
   ]
 }

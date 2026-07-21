@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why confidentiality matters</h2><p>In your role you will quickly learn very personal things about people &mdash; their health, their family, their finances and the details of their daily routine. People share this because they have to trust you, and keeping that trust is part of good care. <strong>Confidentiality</strong> means only sharing information with those who genuinely need it to support the person, and only as much as they need.</p><p>How information is handled is also covered by law. The UK General Data Protection Regulation and the Data Protection Act 2018 require personal information to be kept accurate, secure, and used only for proper reasons.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6ad8df1a-2bcb-42f1-8904-163421197223",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Confidentiality and handling information",
+          "decorative": false,
+          "file": {
+            "path": "images/confidentiality-and-handling-information.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c835b63b-0cf1-4e73-a27f-598b394d5663",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Handling information well</h2><p>The basics are practical. Do not discuss the people you support in public places, with your own family, or on social media. Keep care records secure, never leave them where visitors can read them, and do not share passwords or logins. If information is lost or seen by the wrong person, report it straight away so it can be put right.</p><p>Confidentiality is important, but it is not absolute. If you believe someone is at risk of harm or abuse, you must pass your concern on. Keeping quiet to protect a &lsquo;secret&rsquo; is never the right choice when someone&rsquo;s safety is at stake.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0fa748ea-0a24-4833-a3e1-bdab24e8e92e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A neighbour stops you in the street and asks how Mrs Ahmed has been since her fall. What is the most appropriate response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Politely explain you cannot discuss the people you support, and gently change the subject.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Even friendly questions from neighbours are covered by confidentiality; you should not share personal information.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give a quick update, since the neighbour clearly cares about her.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. However kind the neighbour seems, sharing details without a proper reason breaks confidentiality.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell them to ask Mrs Ahmed&rsquo;s family for the details.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Redirecting the question still hints at her situation, and it is not your place to involve the family this way.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Explain her injuries so the neighbour can help keep an eye on her.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Sharing health details without consent or a need-to-know reason is a clear breach of confidentiality.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "80af6509-b07d-4c5e-adb6-90f37bad606c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

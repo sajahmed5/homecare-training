@@ -1,1 +1,108 @@
-{"content":[{"content":{"params":{"text":"<h2>Bringing it all together</h2><p>Duty of care runs through everything you do. It means keeping people safe while respecting their rights, handling dilemmas thoughtfully, welcoming complaints, being open when things go wrong, staying safe in difficult moments, and speaking up when someone is at risk.</p><p>The key things to remember are:</p><ul><li>duty of care is a legal responsibility that applies automatically &mdash; you cannot opt out</li><li>protecting people and respecting their choices must be balanced, not traded off</li><li>complaints, incidents and near misses are opportunities to learn</li><li>being open and honest &mdash; the duty of candour &mdash; builds trust</li><li>you are never alone: ask for advice, and always speak up about safety</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"8f3d1007-f79a-4fa4-9a9b-68d59d6dabcc","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Test your recall. Drag each word into the correct gap to complete the summary of your duty of care.</p>","textField":"Duty of care is a *legal* responsibility that applies automatically. It must be *balanced* with a person's rights and choices, supporting *positive* risk-taking rather than over-protecting them. When things go wrong, the duty of *candour* means being open and honest, including offering a sincere *apology*. If you suspect someone is at risk, your duty of care means you must *report* your concern.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"1aedd729-b3e3-435c-b39a-b99b28f907b1","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Offering a sincere apology when something goes wrong is an admission of legal liability.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. An apology is not an admission of legal liability. Saying sorry is an important part of being open and honest when something goes wrong.","correctAnswerMessage":"Correct. Saying sorry is not an admission of legal liability. Apologising is part of being open and honest under the duty of candour."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"00008dfb-98bf-47d8-8b48-214fbcd83044","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it all together</h2><p>Duty of care runs through everything you do. It means keeping people safe while respecting their rights, handling dilemmas thoughtfully, welcoming complaints, being open when things go wrong, staying safe in difficult moments, and speaking up when someone is at risk.</p><p>The key things to remember are:</p><ul><li>duty of care is a legal responsibility that applies automatically &mdash; you cannot opt out</li><li>protecting people and respecting their choices must be balanced, not traded off</li><li>complaints, incidents and near misses are opportunities to learn</li><li>being open and honest &mdash; the duty of candour &mdash; builds trust</li><li>you are never alone: ask for advice, and always speak up about safety</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8f3d1007-f79a-4fa4-9a9b-68d59d6dabcc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Putting it together",
+          "decorative": false,
+          "file": {
+            "path": "images/putting-it-together.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3da70767-a3cc-4c31-be46-e894003fc861",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Test your recall. Drag each word into the correct gap to complete the summary of your duty of care.</p>",
+          "textField": "Duty of care is a *legal* responsibility that applies automatically. It must be *balanced* with a person's rights and choices, supporting *positive* risk-taking rather than over-protecting them. When things go wrong, the duty of *candour* means being open and honest, including offering a sincere *apology*. If you suspect someone is at risk, your duty of care means you must *report* your concern.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "1aedd729-b3e3-435c-b39a-b99b28f907b1",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Offering a sincere apology when something goes wrong is an admission of legal liability.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. An apology is not an admission of legal liability. Saying sorry is an important part of being open and honest when something goes wrong.",
+            "correctAnswerMessage": "Correct. Saying sorry is not an admission of legal liability. Apologising is part of being open and honest under the duty of candour."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "00008dfb-98bf-47d8-8b48-214fbcd83044",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

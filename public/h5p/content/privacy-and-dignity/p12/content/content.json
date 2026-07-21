@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Privacy where space is shared</h2><p>In residential and supported living settings, people still have a right to privacy even when space is shared. A bedroom or bathroom is someone's private space, and simple habits show respect for it.</p><ul><li><strong>Knock and wait:</strong> always knock, announce yourself and wait for an answer before entering.</li><li><strong>Use screens and curtains:</strong> protect people from view during personal care, even in a shared bay.</li><li><strong>Respect belongings and post:</strong> do not open someone's mail, read their phone or move their things without permission.</li><li><strong>Private conversations:</strong> help people make calls or see visitors somewhere they cannot be overheard.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4e300860-b96e-451b-a943-b6fb3471a7e8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Settings & technology",
+          "decorative": false,
+          "file": {
+            "path": "images/settings-technology.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c86416ca-f31b-4c7f-ba50-78222e02fd6a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Technology and monitoring</h2><p>Door cameras, movement sensors, acoustic monitoring and CCTV can help keep people safe, but they can also intrude on privacy. Monitoring should only be used when it is genuinely in the person's interest and is the least restrictive way to meet a need.</p><ul><li><strong>Consent and capacity:</strong> where a person can decide, their agreement is needed; where they cannot, a best-interests decision must be made and recorded.</li><li><strong>Proportionate:</strong> a sensor that alerts staff to a fall may intrude far less than a camera watching a bedroom.</li><li><strong>Be open:</strong> people and their families should know what is monitored and why.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "583b4b78-16e2-4f7a-a1b4-54df18efdde1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the gap to complete the guidance on privacy and monitoring.</p></p>",
+          "textField": "Before entering a bedroom you should *knock* and wait for an answer. Monitoring such as a camera should be the least *restrictive* option and used only when it is *proportionate* to the need. Where a person cannot decide for themselves, a *best-interests* decision must be recorded, and families should be told what is *monitored* and why.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "0f2e8d4d-b6fc-420f-9dda-162cf0066424",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

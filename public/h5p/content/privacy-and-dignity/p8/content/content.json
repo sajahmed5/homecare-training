@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Recognising and challenging undignified practice</h2><p>Part of protecting dignity is noticing when it is being lost &mdash; and being willing to speak up. Undignified practice is often unintentional and rooted in habit, pressure or thoughtlessness, but its impact on the person is real.</p><p>Warning signs include:</p><ul><li>Leaving someone exposed, wet or waiting for help longer than necessary.</li><li>Talking over people, using pet names, or discussing their care within earshot of others.</li><li>Rushing, force-feeding, or doing things <em>to</em> people without explanation or consent.</li><li>Ignoring choices, or treating personal information carelessly.</li></ul><p>If you see practice like this, act. Challenge it respectfully in the moment where you can, support the person, and report your concerns to your manager. If poor practice continues or amounts to abuse or neglect, follow your <strong>safeguarding and whistleblowing</strong> procedures &mdash; the first Dignity Do is a <em>zero tolerance of all forms of abuse</em>.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"87dca0c0-90ac-4ab3-9cb4-e335e658148b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Privacy of personal information</h2><p>Dignity also means guarding what people tell you and what you know about them. Personal and health information is confidential.</p><ul><li>Share information only with those who <strong>need it</strong> to provide care, and only as much as they need.</li><li>Keep records &mdash; paper and electronic &mdash; <strong>secure</strong>, and don't leave notes or screens on display.</li><li>Don't gossip about the people you support, and never post about them on social media.</li><li>Confidentiality is not absolute: if someone is at risk of serious harm, you must share safeguarding concerns with the right people.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"788c9583-dd8a-4329-a280-5dd01f91e1d5","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You find a colleague has left a resident's care notes open on a table in the communal lounge. This is a breach of the resident's privacy and should be addressed.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Reconsider. Care records contain confidential personal information. Leaving them on display in a communal area is a genuine breach of privacy that must be addressed.","correctAnswerMessage":"Correct. Personal and health information must be kept secure and confidential. Leaving records on display breaches privacy and should be put right and reported."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"f3dcddfb-7a89-445b-b12e-97e9c1abf316","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising and challenging undignified practice</h2><p>Part of protecting dignity is noticing when it is being lost &mdash; and being willing to speak up. Undignified practice is often unintentional and rooted in habit, pressure or thoughtlessness, but its impact on the person is real.</p><p>Warning signs include:</p><ul><li>Leaving someone exposed, wet or waiting for help longer than necessary.</li><li>Talking over people, using pet names, or discussing their care within earshot of others.</li><li>Rushing, force-feeding, or doing things <em>to</em> people without explanation or consent.</li><li>Ignoring choices, or treating personal information carelessly.</li></ul><p>If you see practice like this, act. Challenge it respectfully in the moment where you can, support the person, and report your concerns to your manager. If poor practice continues or amounts to abuse or neglect, follow your <strong>safeguarding and whistleblowing</strong> procedures &mdash; the first Dignity Do is a <em>zero tolerance of all forms of abuse</em>.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "87dca0c0-90ac-4ab3-9cb4-e335e658148b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Challenging poor practice",
+          "decorative": false,
+          "file": {
+            "path": "images/challenging-poor-practice.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fa54997c-1562-4f68-a219-135059304c70",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Privacy of personal information</h2><p>Dignity also means guarding what people tell you and what you know about them. Personal and health information is confidential.</p><ul><li>Share information only with those who <strong>need it</strong> to provide care, and only as much as they need.</li><li>Keep records &mdash; paper and electronic &mdash; <strong>secure</strong>, and don't leave notes or screens on display.</li><li>Don't gossip about the people you support, and never post about them on social media.</li><li>Confidentiality is not absolute: if someone is at risk of serious harm, you must share safeguarding concerns with the right people.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "788c9583-dd8a-4329-a280-5dd01f91e1d5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find a colleague has left a resident's care notes open on a table in the communal lounge. This is a breach of the resident's privacy and should be addressed.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Reconsider. Care records contain confidential personal information. Leaving them on display in a communal area is a genuine breach of privacy that must be addressed.",
+            "correctAnswerMessage": "Correct. Personal and health information must be kept secure and confidential. Leaving records on display breaches privacy and should be put right and reported."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "f3dcddfb-7a89-445b-b12e-97e9c1abf316",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

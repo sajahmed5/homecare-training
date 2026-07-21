@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sensory loss</h2><p>Sight or hearing loss changes how a person takes in information, so adapt to their remaining senses. For someone with hearing loss, face them in good light, reduce noise, speak clearly and be ready to write things down. For someone with sight loss, say who you are as you approach, describe what is happening, and explain before you touch them or move anything.</p><p>Some people have both hearing and sight loss. They may use touch, objects of reference or a communicator guide. Always find out the individual's preferred method rather than guessing, and give them extra time, because taking in information through one sense takes longer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "769fdd69-4967-42ff-87fb-23e418dfdfc5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Sensory loss and dementia",
+          "decorative": false,
+          "file": {
+            "path": "images/sensory-loss-and-dementia.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a56d7afc-1dfb-4c43-b9bc-944ecf296ced",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dementia and learning disability</h2><p>People living with dementia may struggle to find words or follow long sentences. Keep language simple, ask one thing at a time, and allow plenty of time to respond. Non-verbal warmth &mdash; a calm tone, a smile, gentle body language &mdash; reassures when words are hard to follow.</p><ul><li><strong>Stay patient:</strong> never rush, correct harshly or argue over details.</li><li><strong>Use what works:</strong> pictures, objects, gestures and familiar routines.</li><li><strong>Meet them where they are:</strong> respond to feelings, not just facts.</li></ul><p>For a person with a learning disability, easy-read information, Makaton and picture boards can all support understanding and choice. Check what they have understood by asking them to show or tell you, rather than assuming a nod means yes.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c6eb4eae-a11f-4609-9dda-97c0659f9d29",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When supporting a person living with dementia, it is best to give several instructions at once to save time.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. Several instructions at once can overwhelm; give one simple step at a time with time to respond.",
+            "correctAnswerMessage": "Correct. Give one simple instruction at a time and allow plenty of time to respond; several at once can overwhelm."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "1fc09340-b3e9-4b33-9ae5-b793ee318f75",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

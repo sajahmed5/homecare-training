@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Putting privacy and dignity together</h2><p>Privacy and dignity are not extra tasks &mdash; they run through everything you do. Think about a typical morning: how you greet someone, whether you knock, how you protect their information, and whether you offer real choices. Each moment is a chance to uphold or undermine dignity.</p><ul><li><strong>Scenario:</strong> a person declines a shower and wants to stay in yesterday's clothes. Respecting that choice, while gently offering options, upholds their dignity and autonomy.</li><li><strong>Scenario:</strong> a colleague talks loudly about a resident's continence in the lounge. Speaking up protects that person's confidentiality and self-respect.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "40edb827-07d5-4e00-a307-81fadfd5f7ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Applied scenarios & recap",
+          "decorative": false,
+          "file": {
+            "path": "images/applied-scenarios-recap.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "d354c48e-94d2-498c-b31f-a68d0c4c4f43",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity day to day &mdash; a quick recap</h2><p>You can protect privacy and dignity through everyday habits that soon become second nature.</p><ul><li><strong>Respect the person:</strong> use their preferred name, listen, and treat them as an individual.</li><li><strong>Protect privacy:</strong> knock, cover, and guard personal information.</li><li><strong>Offer choice:</strong> support people to decide and to do what they can for themselves.</li><li><strong>Speak up:</strong> challenge poor practice and report concerns so people are kept safe and treated with respect.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4f5bb0a8-3579-40b2-afec-1922dce36cf2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support wants to wear an outfit that another carer thinks looks odd. What upholds their dignity?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Support their choice of clothing, as how they dress is part of their identity and autonomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Respecting personal choices, including dress, is central to dignity and individuality.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Choose different clothes for them to avoid comments from others.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This overrides the person's choice and treats others' opinions as more important than their wishes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Let them wear it but tell them it looks odd.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is disrespectful and undermines their confidence and dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask other people present to vote on the outfit.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This humiliates the person; their clothing is their own decision, not a group matter.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "7d5f3016-d288-409b-819e-3f7e6ba5c6ea",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

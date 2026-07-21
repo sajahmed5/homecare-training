@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>The role of a care worker</h2><p>Care Certificate <strong>Standard 1 &ndash; Understand your role</strong> asks you to be clear about what your job involves and where its boundaries lie. Your exact duties depend on your workplace and the people you support, but they typically include:</p><ul><li>Providing personal care and support in line with each person&rsquo;s <strong>care plan</strong></li><li>Supporting people with eating, drinking, mobility and daily activities</li><li>Assisting with medication where you are trained and authorised to do so</li><li>Promoting independence, choice and wellbeing</li><li>Observing changes and reporting concerns to your manager</li><li>Keeping accurate, up-to-date records</li></ul><p>Knowing the <strong>limits</strong> of your role is just as important as knowing its content. You should never carry out a task you have not been trained for, and you should always ask when you are unsure.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"b27f231a-cfc8-4bc9-9af2-17f7e740aaf1","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A person you support asks you to give them a medicine you have never been trained to administer. What is the most appropriate response?</p>","answers":[{"correct":true,"text":"<div>Politely explain you are not yet trained for this and report the request to your manager so it can be arranged safely.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Working within the limits of your role and raising it with your manager keeps the person safe.","notChosenFeedback":""}},{"correct":false,"text":"<div>Give the medicine anyway, because the person has asked you to.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Carrying out a task you are not trained or authorised for could seriously harm the person and breaches your duty of care.","notChosenFeedback":""}},{"correct":false,"text":"<div>Ignore the request and say nothing to anyone.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Ignoring an unmet need is not acceptable. You must pass the request on so it can be met safely.","notChosenFeedback":""}},{"correct":false,"text":"<div>Ask another person being supported to help instead.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No. Medication is a trained, authorised task and must never be delegated to another service user.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"97525707-d593-48b1-ae65-65bcf839f2f8","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The role of a care worker</h2><p>Care Certificate <strong>Standard 1 &ndash; Understand your role</strong> asks you to be clear about what your job involves and where its boundaries lie. Your exact duties depend on your workplace and the people you support, but they typically include:</p><ul><li>Providing personal care and support in line with each person&rsquo;s <strong>care plan</strong></li><li>Supporting people with eating, drinking, mobility and daily activities</li><li>Assisting with medication where you are trained and authorised to do so</li><li>Promoting independence, choice and wellbeing</li><li>Observing changes and reporting concerns to your manager</li><li>Keeping accurate, up-to-date records</li></ul><p>Knowing the <strong>limits</strong> of your role is just as important as knowing its content. You should never carry out a task you have not been trained for, and you should always ask when you are unsure.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b27f231a-cfc8-4bc9-9af2-17f7e740aaf1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Your role & responsibilities",
+          "decorative": false,
+          "file": {
+            "path": "images/your-role-responsibilities.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b45eb9b2-efcd-4e5a-819f-ef2a9d19211a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support asks you to give them a medicine you have never been trained to administer. What is the most appropriate response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Politely explain you are not yet trained for this and report the request to your manager so it can be arranged safely.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Working within the limits of your role and raising it with your manager keeps the person safe.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give the medicine anyway, because the person has asked you to.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Carrying out a task you are not trained or authorised for could seriously harm the person and breaches your duty of care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore the request and say nothing to anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Ignoring an unmet need is not acceptable. You must pass the request on so it can be met safely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask another person being supported to help instead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Medication is a trained, authorised task and must never be delegated to another service user.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "97525707-d593-48b1-ae65-65bcf839f2f8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

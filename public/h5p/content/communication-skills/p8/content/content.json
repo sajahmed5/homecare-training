@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Aids that support communication</h2><p>Many people use aids to help them send or receive messages. Knowing what is available means you can support each person to communicate as fully as possible.</p><ul><li><strong>Hearing aids and loop systems:</strong> help people with hearing loss.</li><li><strong>Glasses and good lighting:</strong> support people with sight loss.</li><li><strong>Picture boards and symbols:</strong> let people point to what they need.</li><li><strong>Makaton:</strong> signs and symbols used alongside speech.</li><li><strong>Easy-read:</strong> simple words with supporting pictures.</li></ul><p>You do not need to be an expert in every system. What matters is knowing which aids each person you support relies on, and making sure they can always reach and use them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "05b5cd34-9231-4001-a95d-2f23d19672ea",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Aids and technology",
+          "decorative": false,
+          "file": {
+            "path": "images/aids-and-technology.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2ce6463f-2d55-4c0f-a84f-377231955bf2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Language and technology</h2><p>When someone's first language is not English, use a professional interpreter or an approved translation service rather than relying on family, who may not translate accurately or may find the topic difficult. For deaf people who use British Sign Language, a qualified BSL interpreter may be needed.</p><p>Technology offers more options every year: text-to-speech apps, tablets with symbol software, video-relay interpreting and volume-amplified phones. Whatever the aid, look after it well &mdash; keep hearing aids charged and clean, make sure boards are within reach, and check equipment is working. An aid only helps if it is available and in good order when the person needs it. If you notice something is broken, running low on batteries or missing, report it promptly so it can be fixed or replaced.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7f1b6396-8699-4764-b106-2c6a33a0f122",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support speaks little English and needs to discuss their care. What is the best approach?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Arrange a professional interpreter or an approved translation service.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A trained interpreter gives accurate, confidential and impartial communication.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask their young child to translate the conversation for you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Relying on family, especially a child, risks errors and places an unfair burden on them.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Speak louder in English until they understand you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Volume does not overcome a language barrier and can feel disrespectful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoid the conversation until someone bilingual happens to be on shift.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Delaying important discussions denies the person a say in their own care.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3464187c-30d6-4ede-a94f-82fb0c595efe",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

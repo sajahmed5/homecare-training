@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Communicating within the team</h2><p>You rarely work alone. Care depends on clear communication between you, your colleagues, families and other professionals such as nurses, GPs and social workers. Good teamwork keeps everyone working to the same plan and keeps the person safe.</p><p>Share information clearly and promptly at handovers, in records and in team meetings. Stick to facts, be accurate, and pass on anything that affects the person's care or wellbeing. If you are unsure about something, ask &mdash; checking is always better than guessing when someone's health is involved.</p><p>Different professionals may use terms you do not know. There is no shame in asking them to explain; a quick question now prevents a mistake later and shows you take the person's care seriously.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f152d9be-48bb-4c18-8f42-34ec6c4b0efe",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working with others",
+          "decorative": false,
+          "file": {
+            "path": "images/working-with-others.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0585f6c3-4a6a-45c1-8973-b64397735418",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Families, professionals and interpreters</h2><p>Families and friends often know the person well and can help you understand their wishes and history. Involve them where the person agrees, while remembering that the individual's own views always come first.</p><ul><li><strong>Be respectful and clear:</strong> avoid jargon with families and other agencies.</li><li><strong>Use interpreters properly:</strong> speak to the person, not the interpreter.</li><li><strong>Respect confidentiality:</strong> only share what others need to know.</li><li><strong>Record and report:</strong> so nothing important is lost between shifts.</li></ul><p>When professionals from different services work together, consistent, joined-up communication makes the experience far smoother for the person and their family. Poor handovers between services are a common cause of things being missed or repeated, so pass on clear, complete information every time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "53aef954-ad8e-4797-a37b-4db79fed57b3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When an interpreter is helping you talk with a person, who should you look at and speak to?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The person you are supporting, letting the interpreter relay the conversation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Speak directly to the person; the interpreter is there to relay, not to be the focus.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The interpreter, since they are the one who understands you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Directing everything at the interpreter sidelines the person and is disrespectful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Whichever family member happens to be nearest.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The conversation is with the person; family should not replace them or the interpreter.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Your notes, so you can record everything as it is said.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Focusing on notes over the person breaks eye contact and misses their non-verbal cues.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ea5b779d-77d9-4832-93d7-695f64949e6c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

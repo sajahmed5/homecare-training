@@ -1,0 +1,74 @@
+{ "slug":"introduction-to-care", "mode":"append",
+  "newPages":[
+    {
+      "label":"Care settings and sector",
+      "items":[
+        { "type":"text", "html":"<h2>Where care and support happens</h2><p>Adult social care in England is delivered in many different settings, and the place you work shapes your day even though the underlying values stay the same. Some of the most common settings are:</p><ul><li><strong>Domiciliary (home) care:</strong> supporting people in their own homes, often travelling between several people across a single shift.</li><li><strong>Residential care homes:</strong> people live together with staff on site around the clock; some homes are also registered to provide nursing care.</li><li><strong>Supported living:</strong> people hold their own tenancy and choose the support they receive, frequently adults with a learning disability or a mental health need.</li><li><strong>Day services:</strong> activities, company and new skills during the daytime, which also give unpaid family carers a welcome break.</li><li><strong>Extra care housing:</strong> people have their own flat with care and support available on site if they need it.</li></ul>" },
+        { "type":"text", "html":"<h2>One sector, many employers</h2><p>Wherever you work, you are part of one regulated sector that shares the same expectations &mdash; care should be personalised, safe, and centred on the individual. Your employer might be a local council, a private company, a charity or voluntary organisation, or even a person who arranges their own support through a direct payment.</p><p>Knowing your setting helps you understand who lives or visits there, what a typical day looks like, and how to shape your support around each person&rsquo;s wishes rather than around routines that simply suit the service. Take time early on to learn how your particular workplace runs.</p>" },
+        { "type":"multichoice", "question":"In which type of setting does a person usually hold their own tenancy and choose the support they receive?", "singleAnswer":true, "answers":[
+          {"text":"Supported living","correct":true,"feedback":"Correct. In supported living, people have their own tenancy and stay in control of the support they receive."},
+          {"text":"A residential care home","correct":false,"feedback":"Not quite. In a care home people live together with staff on site; they do not usually hold their own tenancy."},
+          {"text":"A hospital ward","correct":false,"feedback":"No. Hospitals provide healthcare; supported living is a social care setting where people hold their own tenancy."},
+          {"text":"A day service","correct":false,"feedback":"No. Day services offer daytime support; they are not somewhere a person lives under their own tenancy."}
+        ] }
+      ]
+    },
+    {
+      "label":"Rights, dignity and independence",
+      "items":[
+        { "type":"text", "html":"<h2>Everyone keeps their rights</h2><p>Needing care or support never means a person gives up their rights. The people you support have the same rights as anyone else, protected by human rights law and by the Equality Act, which makes it unlawful to treat someone worse because of things like their age, disability, race, religion or sexual orientation. Part of your role is to make sure those rights are real in everyday life, not just words on a form.</p><p><strong>Dignity</strong> means treating someone as a valued person. In practice that can be simple: knocking before you enter a room, keeping someone covered during personal care, not rushing them, and using the name they prefer.</p>" },
+        { "type":"text", "html":"<h2>Choice and independence</h2><p>Promoting <strong>independence</strong> means doing things <em>with</em> a person rather than <em>for</em> them, so they keep the skills and confidence they already have. Even where someone needs a lot of help, small choices matter &mdash; what to wear, when to get up, what to eat, how to spend the day &mdash; and you should offer these in a way the person can understand.</p><p>Supporting choice sometimes means accepting sensible risks. People have the right to make decisions others might not make themselves, and your job is to support them safely, not to wrap them in cotton wool or to decide for them.</p>" },
+        { "type":"dragtext", "taskDescription":"<p>Drag each word into the gap to complete the sentence about protecting people&rsquo;s rights.</p>", "textField":"Good care protects a person&rsquo;s *dignity*, treats them with *respect*, keeps personal details *private*, offers genuine *choice* over daily routines, and builds *independence* by doing things with people rather than for them." }
+      ]
+    },
+    {
+      "label":"Confidentiality and handling information",
+      "items":[
+        { "type":"text", "html":"<h2>Why confidentiality matters</h2><p>In your role you will quickly learn very personal things about people &mdash; their health, their family, their finances and the details of their daily routine. People share this because they have to trust you, and keeping that trust is part of good care. <strong>Confidentiality</strong> means only sharing information with those who genuinely need it to support the person, and only as much as they need.</p><p>How information is handled is also covered by law. The UK General Data Protection Regulation and the Data Protection Act 2018 require personal information to be kept accurate, secure, and used only for proper reasons.</p>" },
+        { "type":"text", "html":"<h2>Handling information well</h2><p>The basics are practical. Do not discuss the people you support in public places, with your own family, or on social media. Keep care records secure, never leave them where visitors can read them, and do not share passwords or logins. If information is lost or seen by the wrong person, report it straight away so it can be put right.</p><p>Confidentiality is important, but it is not absolute. If you believe someone is at risk of harm or abuse, you must pass your concern on. Keeping quiet to protect a &lsquo;secret&rsquo; is never the right choice when someone&rsquo;s safety is at stake.</p>" },
+        { "type":"multichoice", "question":"A neighbour stops you in the street and asks how Mrs Ahmed has been since her fall. What is the most appropriate response?", "singleAnswer":true, "answers":[
+          {"text":"Politely explain you cannot discuss the people you support, and gently change the subject.","correct":true,"feedback":"Correct. Even friendly questions from neighbours are covered by confidentiality; you should not share personal information."},
+          {"text":"Give a quick update, since the neighbour clearly cares about her.","correct":false,"feedback":"No. However kind the neighbour seems, sharing details without a proper reason breaks confidentiality."},
+          {"text":"Tell them to ask Mrs Ahmed&rsquo;s family for the details.","correct":false,"feedback":"Not quite. Redirecting the question still hints at her situation, and it is not your place to involve the family this way."},
+          {"text":"Explain her injuries so the neighbour can help keep an eye on her.","correct":false,"feedback":"No. Sharing health details without consent or a need-to-know reason is a clear breach of confidentiality."}
+        ] }
+      ]
+    },
+    {
+      "label":"Health, safety and wellbeing",
+      "items":[
+        { "type":"text", "html":"<h2>Your part in staying safe</h2><p>Health and safety at work is a shared responsibility. Your employer must provide a safe workplace, the right equipment and proper training &mdash; and you must play your part by following what you have been taught. That means using equipment such as hoists and slide sheets correctly, wearing personal protective equipment when it is needed, and following infection prevention steps like good hand hygiene.</p><p>Never take shortcuts to save time, and never carry out a task, such as moving and handling, that you have not been trained to do. If you are unsure, stop and check rather than risk hurting the person or yourself.</p>" },
+        { "type":"text", "html":"<h2>Reporting concerns and your wellbeing</h2><p>Reporting is a normal, important part of the job. Accidents, near misses, faulty equipment and hazards should all be reported promptly through your workplace&rsquo;s procedures. This is not about getting anyone into trouble &mdash; it is how problems get fixed before someone is harmed.</p><p>Your own wellbeing matters too. Care work can be physically tiring and emotionally demanding, so look after yourself: take your breaks, ask for help when a task is too much for one person, and speak to your manager if you are struggling. Staying well helps you keep giving safe, kind care.</p>" },
+        { "type":"truefalse", "question":"If you notice a frayed electrical lead on a hoist, it is fine to keep using it until the end of your shift and report it later.", "correct":false, "correctMsg":"Correct &mdash; that is false. Faulty equipment should be taken out of use and reported straight away, because using it could seriously injure the person or you.", "wrongMsg":"That is not right. A frayed lead is a real hazard; you should stop using the hoist immediately and report the fault before it causes harm." }
+      ]
+    },
+    {
+      "label":"Teamwork and getting support",
+      "items":[
+        { "type":"text", "html":"<h2>You are part of a team</h2><p>Care is never a solo job. Around each person there is a team &mdash; your colleagues, your manager, and often nurses, GPs, social workers, family members and other professionals. Good care depends on that team working together, and on you doing your part reliably.</p><p>Teamwork in practice means communicating clearly, giving accurate handovers at the start and end of shifts, turning up when you are expected, and sharing information appropriately so nothing important is missed. It also means respecting what each person brings, whether they are a senior nurse or a fellow new starter like you.</p>" },
+        { "type":"text", "html":"<h2>Supervision and getting support</h2><p><strong>Supervision</strong> is regular, protected time with your manager to reflect on your work, talk through your workload, plan your development and raise any concerns. Along with your appraisal, it is a two-way conversation to help you do your job well &mdash; not a telling-off. Come prepared, and be honest about what is going well and what you are finding hard.</p><p>Between those meetings, never be afraid to ask for support. Every experienced worker was new once, and asking when you are unsure is a sign of a safe, professional carer &mdash; not a weakness.</p>" },
+        { "type":"multichoice", "question":"It is a busy shift and you are asked to help a person transfer using a stand aid you have never been shown how to use. What is the best thing to do?", "singleAnswer":true, "answers":[
+          {"text":"Explain you have not been trained on this stand aid, and ask a trained colleague to help or show you.","correct":true,"feedback":"Correct. Working within your training and asking for support keeps the person and you safe, even when things are busy."},
+          {"text":"Have a go anyway, since the shift is busy and you don&rsquo;t want to slow the team down.","correct":false,"feedback":"No. Using equipment you have not been trained on risks a serious injury; being busy is never a reason to skip training."},
+          {"text":"Ask the person to transfer on their own without the stand aid.","correct":false,"feedback":"No. Removing the equipment they rely on could cause a fall and does not meet their assessed needs."},
+          {"text":"Say nothing and quietly move on to another task, leaving the transfer undone.","correct":false,"feedback":"Not quite. Leaving a need unmet without telling anyone is not safe; you should ask for support so it is done properly."}
+        ] }
+      ]
+    }
+  ],
+  "order":[
+    { "page":"p1", "section":"What care work is" },
+    { "page":"p2", "section":"What care work is" },
+    { "page":"p9", "section":"What care work is" },
+    { "page":"p3", "section":"Values and ways of working" },
+    { "page":"p4", "section":"Values and ways of working" },
+    { "page":"p10", "section":"Values and ways of working" },
+    { "page":"p5", "section":"Working with others" },
+    { "page":"p6", "section":"Working with others" },
+    { "page":"p13", "section":"Working with others" },
+    { "page":"p11", "section":"Handling information and safety" },
+    { "page":"p12", "section":"Handling information and safety" },
+    { "page":"p7", "section":"Development and regulation" },
+    { "page":"p8", "section":"Development and regulation" }
+  ]
+}

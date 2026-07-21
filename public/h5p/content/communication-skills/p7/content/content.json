@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyone is different</h2><p>No two people communicate in exactly the same way. A person's needs, wishes and preferences are shaped by their health, culture, background, language and personality. Part of person-centred care is finding out how each individual likes to communicate, rather than treating everyone the same.</p><p>Under the Accessible Information Standard, services must ask about, record and meet the communication and information needs of the people they support. This means knowing, for example, if someone needs large print, an interpreter, or information explained slowly, and making sure that support is actually in place when they need it.</p><p>Preferences cover more than method. They include the language a person uses, the name they like to be called, the pace that suits them, and who they are happy for you to share information with.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6c2da3c-20b6-4163-9410-9ab26d8af39a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Communication needs",
+          "decorative": false,
+          "file": {
+            "path": "images/communication-needs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "93b5d015-b046-4f61-aa96-79f21d527191",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How to find out</h2><p>You learn a person's preferences in several ways, and you keep learning as you get to know them over time.</p><ul><li><strong>Ask the person:</strong> they are the expert on their own needs.</li><li><strong>Read the care plan:</strong> it should record their communication needs.</li><li><strong>Ask those who know them:</strong> family, friends and other staff.</li><li><strong>Observe:</strong> notice what helps and what causes frustration.</li></ul><p>Record what you find so the whole team can respond consistently. Preferences can change &mdash; after an illness, or as a condition progresses &mdash; so review them regularly rather than assuming they stay the same.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "87c8b1e5-aed9-4370-a6f9-cb6b0d0f7c05",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Who is the best first source of information about how a person prefers to communicate?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The person themselves, as they are the expert on their own needs and wishes.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Always start with the person; they know their own preferences best.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Whichever method happens to be quickest for the staff team.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Care must fit the person, not staff convenience; this ignores their wishes.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A general assumption based on the person's age.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Assumptions based on age or diagnosis are unreliable and can be disrespectful.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only the written care plan, without speaking to the person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The care plan is useful, but it should not replace asking and observing the person directly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e890f58e-ec9c-44e8-85ad-f76c1a7ad6d0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

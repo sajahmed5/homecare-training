@@ -1,0 +1,307 @@
+{
+ "srcDir": ".",
+ "creditsFile": "public/h5p/IMAGE-CREDITS.json",
+ "insertions": [
+  {
+   "course": "communication-skills",
+   "page": 1,
+   "file": "what-communication-is.svg",
+   "alt": "Illustration for What communication is",
+   "srcDir": "public/h5p/content/communication-skills/p1/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 2,
+   "file": "the-communication-cycle.svg",
+   "alt": "Illustration for The communication cycle",
+   "srcDir": "public/h5p/content/communication-skills/p2/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 3,
+   "file": "verbal-and-non-verbal.svg",
+   "alt": "Illustration for Verbal and non-verbal",
+   "srcDir": "public/h5p/content/communication-skills/p3/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 4,
+   "file": "active-listening.svg",
+   "alt": "Illustration for Active listening",
+   "srcDir": "public/h5p/content/communication-skills/p4/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 5,
+   "file": "barriers-to-communication.svg",
+   "alt": "Illustration for Barriers to communication",
+   "srcDir": "public/h5p/content/communication-skills/p5/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 6,
+   "file": "overcoming-barriers.svg",
+   "alt": "Illustration for Overcoming barriers",
+   "srcDir": "public/h5p/content/communication-skills/p6/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 7,
+   "file": "communication-needs.svg",
+   "alt": "Illustration for Communication needs",
+   "srcDir": "public/h5p/content/communication-skills/p7/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 8,
+   "file": "aids-and-technology.svg",
+   "alt": "Illustration for Aids and technology",
+   "srcDir": "public/h5p/content/communication-skills/p8/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 9,
+   "file": "sensory-loss-and-dementia.svg",
+   "alt": "Illustration for Sensory loss and dementia",
+   "srcDir": "public/h5p/content/communication-skills/p9/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 10,
+   "file": "working-with-others.svg",
+   "alt": "Illustration for Working with others",
+   "srcDir": "public/h5p/content/communication-skills/p10/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 11,
+   "file": "confidentiality.svg",
+   "alt": "Illustration for Confidentiality",
+   "srcDir": "public/h5p/content/communication-skills/p11/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 12,
+   "file": "difficult-conversations.svg",
+   "alt": "Illustration for Difficult conversations",
+   "srcDir": "public/h5p/content/communication-skills/p12/content/images"
+  },
+  {
+   "course": "communication-skills",
+   "page": 13,
+   "file": "recording-and-recap.svg",
+   "alt": "Illustration for Recording and recap",
+   "srcDir": "public/h5p/content/communication-skills/p13/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 2,
+   "file": "your-role-responsibilities.svg",
+   "alt": "Illustration for Your role & responsibilities",
+   "srcDir": "public/h5p/content/introduction-to-care/p2/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 9,
+   "file": "care-settings-and-sector.svg",
+   "alt": "Illustration for Care settings and sector",
+   "srcDir": "public/h5p/content/introduction-to-care/p9/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 4,
+   "file": "agreed-ways-of-working.svg",
+   "alt": "Illustration for Agreed ways of working",
+   "srcDir": "public/h5p/content/introduction-to-care/p4/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 10,
+   "file": "rights-dignity-and-independence.svg",
+   "alt": "Illustration for Rights, dignity and independence",
+   "srcDir": "public/h5p/content/introduction-to-care/p10/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 5,
+   "file": "working-relationships.svg",
+   "alt": "Illustration for Working relationships",
+   "srcDir": "public/h5p/content/introduction-to-care/p5/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 13,
+   "file": "teamwork-and-getting-support.svg",
+   "alt": "Illustration for Teamwork and getting support",
+   "srcDir": "public/h5p/content/introduction-to-care/p13/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 11,
+   "file": "confidentiality-and-handling-information.svg",
+   "alt": "Illustration for Confidentiality and handling information",
+   "srcDir": "public/h5p/content/introduction-to-care/p11/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 12,
+   "file": "health-safety-and-wellbeing.svg",
+   "alt": "Illustration for Health, safety and wellbeing",
+   "srcDir": "public/h5p/content/introduction-to-care/p12/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 7,
+   "file": "your-own-development.svg",
+   "alt": "Illustration for Your own development",
+   "srcDir": "public/h5p/content/introduction-to-care/p7/content/images"
+  },
+  {
+   "course": "introduction-to-care",
+   "page": 8,
+   "file": "regulation-recap.svg",
+   "alt": "Illustration for Regulation & recap",
+   "srcDir": "public/h5p/content/introduction-to-care/p8/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 2,
+   "file": "rights-and-choices.svg",
+   "alt": "Illustration for Rights and choices",
+   "srcDir": "public/h5p/content/duty-of-care/p2/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 10,
+   "file": "positive-risk-taking.svg",
+   "alt": "Illustration for Positive risk-taking",
+   "srcDir": "public/h5p/content/duty-of-care/p10/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 11,
+   "file": "boundaries-and-interests.svg",
+   "alt": "Illustration for Boundaries and interests",
+   "srcDir": "public/h5p/content/duty-of-care/p11/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 4,
+   "file": "comments-and-complaints.svg",
+   "alt": "Illustration for Comments and complaints",
+   "srcDir": "public/h5p/content/duty-of-care/p4/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 5,
+   "file": "incidents-and-near-misses.svg",
+   "alt": "Illustration for Incidents and near misses",
+   "srcDir": "public/h5p/content/duty-of-care/p5/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 9,
+   "file": "duty-of-candour.svg",
+   "alt": "Illustration for Duty of candour",
+   "srcDir": "public/h5p/content/duty-of-care/p9/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 12,
+   "file": "raising-concerns-safely.svg",
+   "alt": "Illustration for Raising concerns safely",
+   "srcDir": "public/h5p/content/duty-of-care/p12/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 7,
+   "file": "safeguarding-link.svg",
+   "alt": "Illustration for Safeguarding link",
+   "srcDir": "public/h5p/content/duty-of-care/p7/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 13,
+   "file": "working-through-dilemmas.svg",
+   "alt": "Illustration for Working through dilemmas",
+   "srcDir": "public/h5p/content/duty-of-care/p13/content/images"
+  },
+  {
+   "course": "duty-of-care",
+   "page": 8,
+   "file": "putting-it-together.svg",
+   "alt": "Illustration for Putting it together",
+   "srcDir": "public/h5p/content/duty-of-care/p8/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 2,
+   "file": "the-law-behind-it.svg",
+   "alt": "Illustration for The law behind it",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p2/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 3,
+   "file": "privacy-in-personal-care.svg",
+   "alt": "Illustration for Privacy in personal care",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p3/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 9,
+   "file": "information-confidentiality.svg",
+   "alt": "Illustration for Information & confidentiality",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p9/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 10,
+   "file": "culture-individuality.svg",
+   "alt": "Illustration for Culture & individuality",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p10/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 6,
+   "file": "dignity-of-risk.svg",
+   "alt": "Illustration for Dignity of risk",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p6/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 11,
+   "file": "active-participation.svg",
+   "alt": "Illustration for Active participation",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p11/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 12,
+   "file": "settings-technology.svg",
+   "alt": "Illustration for Settings & technology",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p12/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 7,
+   "file": "dementia-communication.svg",
+   "alt": "Illustration for Dementia & communication",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p7/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 13,
+   "file": "applied-scenarios-recap.svg",
+   "alt": "Illustration for Applied scenarios & recap",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p13/content/images"
+  },
+  {
+   "course": "privacy-and-dignity",
+   "page": 8,
+   "file": "challenging-poor-practice.svg",
+   "alt": "Illustration for Challenging poor practice",
+   "srcDir": "public/h5p/content/privacy-and-dignity/p8/content/images"
+  }
+ ]
+}

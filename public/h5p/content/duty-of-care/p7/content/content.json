@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h2>Duty of care, safeguarding and whistleblowing</h2><p>Your duty of care is closely linked to <strong>safeguarding</strong> &mdash; protecting people from abuse, neglect and harm. If your duty of care makes you suspect that someone is being harmed, or is at risk of harm, you have a responsibility to act on that concern and report it. Doing nothing is not an option.</p><p><strong>Whistleblowing</strong> means raising concerns about unsafe, unethical or illegal practice within your organisation &mdash; for example, poor care, a colleague working unsafely, or attempts to cover up mistakes. The law protects workers who raise genuine concerns in good faith.</p><p>Both safeguarding and whistleblowing flow directly from your duty of care: keeping people safe sometimes means speaking up, even when it feels uncomfortable.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"631641ac-064b-40e6-9ea9-025ea5ef5f31","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Speaking up the right way</h2><p>If you have a concern:</p><ul><li>report it to your line manager or the person named in your safeguarding policy without delay</li><li>if the concern is about your manager, use your organisation's escalation route</li><li>if you feel your concern is not being acted on, you can raise it externally &mdash; for example with the CQC or the local safeguarding team</li><li>record what you saw or heard, sticking to the facts</li></ul><p>You do not need to be certain that abuse is happening to raise a concern. It is not your job to investigate &mdash; it is your job to pass on what worries you so that the right people can look into it.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"19cd9a53-0986-443c-9df6-5f65692ebd9b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You suspect a colleague is not caring for someone safely, but you are not completely sure. What should you do?</p>","answers":[{"correct":true,"text":"<div>Report your concern to your manager or the named safeguarding lead, sticking to the facts</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. You do not need to be certain. Raising a genuine concern so the right people can look into it is exactly what your duty of care requires.","notChosenFeedback":""}},{"correct":false,"text":"<div>Say nothing until you are 100% sure something is wrong</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Waiting for certainty can leave someone at risk. You should report a genuine concern even when you are not sure.","notChosenFeedback":""}},{"correct":false,"text":"<div>Investigate it yourself and confront the colleague</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"It is not your role to investigate. Report the concern so trained people can look into it properly and safely.","notChosenFeedback":""}},{"correct":false,"text":"<div>Discuss it with other staff but keep it off the record</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Gossip does not protect the person. Concerns must be reported through the proper route and recorded accurately.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"c232b92c-9702-4bd5-b18c-3bef0e88790b","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Duty of care, safeguarding and whistleblowing</h2><p>Your duty of care is closely linked to <strong>safeguarding</strong> &mdash; protecting people from abuse, neglect and harm. If your duty of care makes you suspect that someone is being harmed, or is at risk of harm, you have a responsibility to act on that concern and report it. Doing nothing is not an option.</p><p><strong>Whistleblowing</strong> means raising concerns about unsafe, unethical or illegal practice within your organisation &mdash; for example, poor care, a colleague working unsafely, or attempts to cover up mistakes. The law protects workers who raise genuine concerns in good faith.</p><p>Both safeguarding and whistleblowing flow directly from your duty of care: keeping people safe sometimes means speaking up, even when it feels uncomfortable.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "631641ac-064b-40e6-9ea9-025ea5ef5f31",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Safeguarding link",
+          "decorative": false,
+          "file": {
+            "path": "images/safeguarding-link.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "06e3eb89-25ca-4e61-b261-28dfda8cb8d6",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Speaking up the right way</h2><p>If you have a concern:</p><ul><li>report it to your line manager or the person named in your safeguarding policy without delay</li><li>if the concern is about your manager, use your organisation's escalation route</li><li>if you feel your concern is not being acted on, you can raise it externally &mdash; for example with the CQC or the local safeguarding team</li><li>record what you saw or heard, sticking to the facts</li></ul><p>You do not need to be certain that abuse is happening to raise a concern. It is not your job to investigate &mdash; it is your job to pass on what worries you so that the right people can look into it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "19cd9a53-0986-443c-9df6-5f65692ebd9b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You suspect a colleague is not caring for someone safely, but you are not completely sure. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report your concern to your manager or the named safeguarding lead, sticking to the facts</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. You do not need to be certain. Raising a genuine concern so the right people can look into it is exactly what your duty of care requires.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing until you are 100% sure something is wrong</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Waiting for certainty can leave someone at risk. You should report a genuine concern even when you are not sure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Investigate it yourself and confront the colleague</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "It is not your role to investigate. Report the concern so trained people can look into it properly and safely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Discuss it with other staff but keep it off the record</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Gossip does not protect the person. Concerns must be reported through the proper route and recorded accurately.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c232b92c-9702-4bd5-b18c-3bef0e88790b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

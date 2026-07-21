@@ -3,60 +3,95 @@
   "title": "Duty of Care",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "duty-of-care/p1",
-      "type": "h5p",
       "label": "What duty of care means",
-      "section": "What duty of care means",
-      "questions": 1
+      "questions": 1,
+      "section": "What duty of care means"
     },
     {
+      "type": "h5p",
       "path": "duty-of-care/p2",
-      "type": "h5p",
       "label": "Rights and choices",
-      "section": "What duty of care means",
-      "questions": 0
+      "questions": 0,
+      "section": "What duty of care means"
     },
     {
+      "type": "h5p",
       "path": "duty-of-care/p3",
-      "type": "h5p",
       "label": "Dilemmas and conflicts",
-      "section": "When duties conflict",
-      "questions": 1
+      "questions": 1,
+      "section": "When duties conflict"
     },
     {
+      "type": "h5p",
+      "path": "duty-of-care/p10",
+      "label": "Positive risk-taking",
+      "questions": 1,
+      "section": "When duties conflict"
+    },
+    {
+      "type": "h5p",
+      "path": "duty-of-care/p11",
+      "label": "Boundaries and interests",
+      "questions": 1,
+      "section": "When duties conflict"
+    },
+    {
+      "type": "h5p",
       "path": "duty-of-care/p4",
-      "type": "h5p",
       "label": "Comments and complaints",
-      "section": "When duties conflict",
-      "questions": 1
+      "questions": 1,
+      "section": "When duties conflict"
     },
     {
+      "type": "h5p",
       "path": "duty-of-care/p5",
-      "type": "h5p",
       "label": "Incidents and near misses",
-      "section": "Incidents and hard moments",
-      "questions": 1
+      "questions": 1,
+      "section": "Being open when things go wrong"
     },
     {
+      "type": "h5p",
+      "path": "duty-of-care/p9",
+      "label": "Duty of candour",
+      "questions": 1,
+      "section": "Being open when things go wrong"
+    },
+    {
+      "type": "h5p",
       "path": "duty-of-care/p6",
-      "type": "h5p",
       "label": "Difficult situations",
-      "section": "Incidents and hard moments",
-      "questions": 1
+      "questions": 1,
+      "section": "Being open when things go wrong"
     },
     {
+      "type": "h5p",
+      "path": "duty-of-care/p12",
+      "label": "Raising concerns safely",
+      "questions": 1,
+      "section": "Speaking up and safeguarding"
+    },
+    {
+      "type": "h5p",
       "path": "duty-of-care/p7",
-      "type": "h5p",
       "label": "Safeguarding link",
-      "section": "Safeguarding and applying it",
-      "questions": 1
+      "questions": 1,
+      "section": "Speaking up and safeguarding"
     },
     {
-      "path": "duty-of-care/p8",
       "type": "h5p",
+      "path": "duty-of-care/p13",
+      "label": "Working through dilemmas",
+      "questions": 1,
+      "section": "Applying it"
+    },
+    {
+      "type": "h5p",
+      "path": "duty-of-care/p8",
       "label": "Putting it together",
-      "section": "Safeguarding and applying it",
-      "questions": 2
+      "questions": 2,
+      "section": "Applying it"
     }
   ]
 }

@@ -1,1 +1,95 @@
-{"content":[{"content":{"params":{"text":"<h2>Your legal and professional framework</h2><p>Treating people with privacy and dignity is not optional or a matter of personal style. Several frameworks make it a clear expectation of your role.</p><ul><li><strong>Human Rights Act 1998, Article 8</strong> &mdash; the right to respect for a private and family life, home and correspondence. This protects a person's autonomy, their relationships and their control over personal information.</li><li><strong>CQC Regulation 10 &mdash; Dignity and respect</strong> &mdash; services must ensure people are treated with dignity and respect at all times, supported to maintain independence, and never left in undignified situations.</li><li><strong>The Dignity in Care campaign</strong> and its <strong>10 Dignity Do's</strong>, hosted by SCIE, which set out practical commitments for everyone working in care.</li></ul><p>Article 8 is a <em>qualified</em> right: it can occasionally be limited to keep someone or others safe, but any interference must be proportionate and justified &mdash; never a matter of convenience.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"7c9cdeed-e3f4-4906-a821-8923a8db6ad2","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Match each framework to what it means for your everyday practice.</p>","dialogs":[{"text":"<p>Human Rights Act 1998, Article 8</p>","answer":"<p>The right to respect for private and family life. In care, it underpins privacy during personal care, control over personal information, and keeping people connected to family and community.</p>","tips":{}},{"text":"<p>CQC Regulation 10</p>","answer":"<p>Dignity and respect. Providers must treat people with dignity at all times, honour their preferences (including who delivers intimate care), and never neglect or leave anyone in an undignified situation.</p>","tips":{}},{"text":"<p>The 10 Dignity Do's</p>","answer":"<p>A set of practical commitments from the Dignity in Care campaign, including respecting privacy, offering personalised care, and helping people keep confidence and self-esteem.</p>","tips":{}},{"text":"<p>Care Certificate Standard 7</p>","answer":"<p>Requires you to maintain privacy and dignity, support people's right to make choices, and enable their active participation in their own care.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"bcb9416c-453b-47da-a929-18773993d341","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your legal and professional framework</h2><p>Treating people with privacy and dignity is not optional or a matter of personal style. Several frameworks make it a clear expectation of your role.</p><ul><li><strong>Human Rights Act 1998, Article 8</strong> &mdash; the right to respect for a private and family life, home and correspondence. This protects a person's autonomy, their relationships and their control over personal information.</li><li><strong>CQC Regulation 10 &mdash; Dignity and respect</strong> &mdash; services must ensure people are treated with dignity and respect at all times, supported to maintain independence, and never left in undignified situations.</li><li><strong>The Dignity in Care campaign</strong> and its <strong>10 Dignity Do's</strong>, hosted by SCIE, which set out practical commitments for everyone working in care.</li></ul><p>Article 8 is a <em>qualified</em> right: it can occasionally be limited to keep someone or others safe, but any interference must be proportionate and justified &mdash; never a matter of convenience.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7c9cdeed-e3f4-4906-a821-8923a8db6ad2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The law behind it",
+          "decorative": false,
+          "file": {
+            "path": "images/the-law-behind-it.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "5a091657-5755-4349-82ab-b9fd5bb7dfc4",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>Match each framework to what it means for your everyday practice.</p>",
+          "dialogs": [
+            {
+              "text": "<p>Human Rights Act 1998, Article 8</p>",
+              "answer": "<p>The right to respect for private and family life. In care, it underpins privacy during personal care, control over personal information, and keeping people connected to family and community.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>CQC Regulation 10</p>",
+              "answer": "<p>Dignity and respect. Providers must treat people with dignity at all times, honour their preferences (including who delivers intimate care), and never neglect or leave anyone in an undignified situation.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>The 10 Dignity Do's</p>",
+              "answer": "<p>A set of practical commitments from the Dignity in Care campaign, including respecting privacy, offering personalised care, and helping people keep confidence and self-esteem.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>Care Certificate Standard 7</p>",
+              "answer": "<p>Requires you to maintain privacy and dignity, support people's right to make choices, and enable their active participation in their own care.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "bcb9416c-453b-47da-a929-18773993d341",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

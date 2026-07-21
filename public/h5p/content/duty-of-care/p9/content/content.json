@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The duty of candour</h2><p>When something goes wrong in someone&rsquo;s care, your duty of care includes being open and honest about it. This is known as the duty of candour. Since 2021 it sits within Care Certificate Standard 3, and for your organisation it is a legal requirement under CQC Regulation 20.</p><p>Candour means you do not hide mistakes, play them down, or hope nobody notices. If a person you support is harmed, or could have been harmed, they and the people close to them deserve a truthful account of what happened.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3bd55015-d044-422c-9faa-4cfc0d8a23e8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Duty of candour",
+          "decorative": false,
+          "file": {
+            "path": "images/duty-of-candour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "01e90ef1-cbd6-42b2-a3f9-0f9989ed1ee0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What candour looks like in practice</h2><p>Being candid is more than an apology, although saying sorry matters. In your day-to-day role it usually means:</p><ul><li><strong>Tell someone promptly:</strong> report the event to your manager as soon as you notice it.</li><li><strong>Be honest with the person:</strong> support your organisation to explain what happened in plain language.</li><li><strong>Say sorry sincerely:</strong> an apology is not an admission that you are a bad worker &mdash; it is basic respect.</li><li><strong>Put things right:</strong> take part in learning so the same thing is less likely to happen again.</li></ul><p>Covering up an error breaks trust and can cause far more harm than the original mistake.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "83df94bb-5f8a-4787-9241-6351a18d7ec4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support receives the wrong dose of medication but seems unharmed. What does the duty of candour require?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly and support an open, honest explanation to the person, even though they seem fine.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Candour applies to near misses and events that could have caused harm, not only to visible injuries.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, because no harm was actually done.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Candour covers events that could have caused harm; staying silent breaks trust and your legal duty.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether the person notices before deciding what to say.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Being open should not depend on whether the person spots the error themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record it quietly in the notes but avoid telling the family.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A private note is not candour; the person and, where appropriate, those close to them should receive an honest account.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5009f192-9ba5-4d5a-8aad-585efd2d8fa9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

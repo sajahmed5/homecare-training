@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" width="360" height="150" role="img" aria-label="Verbal communication">
-  <rect width="360" height="150" rx="12" fill="#ccfbf1"/>
-  <g transform="translate(180 75)">
-    <path d="M-44 -28 h88 a13 13 0 0 1 13 13 v26 a13 13 0 0 1 -13 13 h-50 l-24 20 v-20 a13 13 0 0 1 -13 -13 v-26 a13 13 0 0 1 13 -13 z" fill="#0d9488"/>
-    <circle cx="-18" cy="-2" r="5" fill="#ccfbf1"/>
-    <circle cx="0" cy="-2" r="5" fill="#ccfbf1"/>
-    <circle cx="18" cy="-2" r="5" fill="#ccfbf1"/>
-  </g>
-</svg>

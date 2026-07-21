@@ -1,1 +1,60 @@
-{"content":[{"content":{"params":{"text":"<h2>Communication Skills in Care</h2>\n<p>Communication is the foundation of good care. Building trust, keeping people safe, respecting choices and working as a team all depend on communicating well. In this module you'll explore what good communication looks like in a care setting and practise it through short interactive activities.</p>\n<p><strong>By the end you will be able to:</strong></p>\n<ul>\n<li>Describe the communication cycle and the main types of communication</li>\n<li>Use active-listening techniques with the people you support</li>\n<li>Recognise and reduce barriers to communication</li>\n<li>Adapt your communication to individual needs</li>\n<li>Understand your duty to record and report accurately</li>\n</ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"ae2c8187-cb14-4a5d-80d7-57964307fddb","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h3>The communication cycle</h3>\n<p>Communication is a two-way process. A <em>sender</em> forms a <em>message</em> and sends it; a <em>receiver</em> takes it in, interprets it, and gives <em>feedback</em>. At every step the message can be strengthened or distorted.</p>\n<ol>\n<li><strong>Sender</strong> — decides what to communicate and how.</li>\n<li><strong>Message</strong> — the words, tone, and body language used.</li>\n<li><strong>Receiver</strong> — hears, sees, and interprets the message.</li>\n<li><strong>Feedback</strong> — shows whether the message was understood.</li>\n</ol>\n<p>Checking feedback — \"Have I understood you correctly?\" — is what turns talking <em>at</em> someone into communicating <em>with</em> them. Watch how the message flows around the cycle:</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"6203832e-8951-4d43-b738-84ca795a97f1","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"contentName":"Image","alt":"Animated diagram of the communication cycle: sender, message, receiver and feedback","decorative":false,"file":{"path":"images/comm-cycle.svg","mime":"image/svg+xml","width":600,"height":380,"copyright":{"license":"U"}}},"library":"H5P.Image 1.1","subContentId":"d43a4cbd-2682-4bb4-974e-29ef8f8b82bd","metadata":{"contentType":"H5P.Image","license":"U","title":"Image"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What communication is</h2><p>Communication is how we share information, thoughts and feelings with other people. Every time you speak, write, gesture, smile or simply listen, you are communicating. In care work it happens constantly &mdash; when you greet someone at the start of a shift, explain what you are about to do, or notice that a person seems quieter than usual.</p><p>Good communication is a two-way process. It is not only about giving information; it is about making sure the other person has understood, and that you have understood them. It involves words, but also tone of voice, expression and body language. When you get it right, the people you support feel heard, respected and safe.</p><p>Communication also flows in both directions at once. While you are speaking, the person is telling you things through their words, their face and their behaviour, and your task is to receive those messages as carefully as you send your own.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8cc9a796-c216-4f22-ab6b-87d5ef23d348",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What communication is",
+          "decorative": false,
+          "file": {
+            "path": "images/what-communication-is.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "69018182-4cf0-4869-a14f-b66ec5b5e5fc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why it is central to good care</h2><p>Communication sits at the heart of everything you do. It is how you build trusting relationships, find out what someone wants, and give care that fits the individual rather than a routine. Poor communication is one of the most common causes of mistakes, complaints and distress, and it can leave people feeling ignored or unsafe.</p><ul><li><strong>Safety:</strong> clear handovers and records mean nothing important is missed.</li><li><strong>Dignity:</strong> explaining and asking, rather than assuming, protects a person's rights.</li><li><strong>Wellbeing:</strong> a friendly, patient manner reduces anxiety and loneliness.</li><li><strong>Teamwork:</strong> sharing clear information helps colleagues and families work together.</li></ul><p>Throughout this course you will build practical skills to communicate well with every person you support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "711e5632-f1d6-4383-8f9f-4b1417bbaf5e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

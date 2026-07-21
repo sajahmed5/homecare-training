@@ -1,1 +1,110 @@
-{"content":[{"content":{"params":{"text":"<h2>Balancing choice with duty of care</h2><p>Supporting choice sometimes sits in tension with your <strong>duty of care</strong> &mdash; your responsibility to keep people safe. The answer is not to remove all risk, because a life with no risk is also a life with no freedom.</p><p>This is the idea of <strong>dignity of risk</strong>: people who have the capacity to decide have the right to make choices others might see as unwise, including choices that carry some risk. Your role is to support informed decisions, not to control them.</p><ul><li>Give people clear information about the risks and benefits so their choice is <strong>informed</strong>.</li><li>Look for ways to make a chosen activity <strong>safer</strong> rather than simply forbidding it.</li><li>Record the person's wishes and how risk has been discussed and managed.</li><li>Remember the Mental Capacity Act: a decision that seems unwise is not, by itself, proof that someone lacks capacity.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"27047632-8d85-4a81-ab4b-7914cc7310c9","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Mrs Okafor, who has capacity, insists on walking to the local shop each day although she is unsteady and has fallen once. What is the most dignified and lawful response?</p>","answers":[{"correct":true,"text":"<div>Discuss the risks with her, then look for ways to make the walk safer &mdash; a walking aid, a route with rest points, or someone to accompany her &mdash; and record the plan.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. This respects her right to make an informed choice (dignity of risk) while sensibly managing the risk together.","notChosenFeedback":""}},{"correct":false,"text":"<div>Tell her she is no longer allowed to go out alone, for her own safety.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Removing the choice entirely ignores her capacity and autonomy. Duty of care means managing risk, not eliminating freedom.","notChosenFeedback":""}},{"correct":false,"text":"<div>Let her go without any conversation about the risk, to avoid interfering.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Supporting choice still means giving information so the decision is informed. Saying nothing is not the same as respecting autonomy.","notChosenFeedback":""}},{"correct":false,"text":"<div>Hide her coat and shoes so she cannot go out.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"This is controlling and undignified, and would be a serious breach of her rights. Never restrict someone with capacity in this way.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"e975748c-e3b7-4235-b35a-d75cca6de46c","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Balancing choice with duty of care</h2><p>Supporting choice sometimes sits in tension with your <strong>duty of care</strong> &mdash; your responsibility to keep people safe. The answer is not to remove all risk, because a life with no risk is also a life with no freedom.</p><p>This is the idea of <strong>dignity of risk</strong>: people who have the capacity to decide have the right to make choices others might see as unwise, including choices that carry some risk. Your role is to support informed decisions, not to control them.</p><ul><li>Give people clear information about the risks and benefits so their choice is <strong>informed</strong>.</li><li>Look for ways to make a chosen activity <strong>safer</strong> rather than simply forbidding it.</li><li>Record the person's wishes and how risk has been discussed and managed.</li><li>Remember the Mental Capacity Act: a decision that seems unwise is not, by itself, proof that someone lacks capacity.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "27047632-8d85-4a81-ab4b-7914cc7310c9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dignity of risk",
+          "decorative": false,
+          "file": {
+            "path": "images/dignity-of-risk.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "49383cdc-6da1-4ba8-b9a5-8d00ca7de088",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mrs Okafor, who has capacity, insists on walking to the local shop each day although she is unsteady and has fallen once. What is the most dignified and lawful response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Discuss the risks with her, then look for ways to make the walk safer &mdash; a walking aid, a route with rest points, or someone to accompany her &mdash; and record the plan.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. This respects her right to make an informed choice (dignity of risk) while sensibly managing the risk together.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell her she is no longer allowed to go out alone, for her own safety.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Removing the choice entirely ignores her capacity and autonomy. Duty of care means managing risk, not eliminating freedom.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Let her go without any conversation about the risk, to avoid interfering.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Supporting choice still means giving information so the decision is informed. Saying nothing is not the same as respecting autonomy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hide her coat and shoes so she cannot go out.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This is controlling and undignified, and would be a serious breach of her rights. Never restrict someone with capacity in this way.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e975748c-e3b7-4235-b35a-d75cca6de46c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

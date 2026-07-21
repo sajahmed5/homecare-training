@@ -1,1 +1,79 @@
-{"content":[{"content":{"params":{"text":"<h2>Protecting privacy during personal care</h2><p>Personal care &mdash; washing, dressing, toileting, continence support &mdash; is where privacy is most easily lost and most keenly felt. A few consistent habits protect it every time:</p><ul><li><strong>Knock and wait</strong> for a response before entering someone's room, even if the door is open.</li><li><strong>Close doors and draw curtains</strong> before you begin, and keep them closed throughout.</li><li><strong>Cover the person</strong> with a towel or robe, exposing only the part of the body you are actively caring for.</li><li><strong>Ask before you act</strong> &mdash; explain what you are about to do and gain agreement as you go.</li><li><strong>Lower your voice</strong> so that conversations about the body or bodily functions are not overheard.</li></ul><p>None of these take extra time once they become second nature &mdash; but each one tells the person that their body and their modesty are respected.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"ef153835-6ffc-4e06-a67a-2c2ac5573082","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Drag each word into the sentence that describes good privacy practice during personal care.</p>","textField":"Always *knock* on the door and wait before entering. Draw the *curtains* and close the door before you start. Keep the person *covered* with a towel, exposing only what you are washing. *Explain* each step so they know what to expect, and speak *quietly* so private matters are not *overheard*.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"ee1793cc-eb10-4666-8144-12ada4b303a7","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Protecting privacy during personal care</h2><p>Personal care &mdash; washing, dressing, toileting, continence support &mdash; is where privacy is most easily lost and most keenly felt. A few consistent habits protect it every time:</p><ul><li><strong>Knock and wait</strong> for a response before entering someone's room, even if the door is open.</li><li><strong>Close doors and draw curtains</strong> before you begin, and keep them closed throughout.</li><li><strong>Cover the person</strong> with a towel or robe, exposing only the part of the body you are actively caring for.</li><li><strong>Ask before you act</strong> &mdash; explain what you are about to do and gain agreement as you go.</li><li><strong>Lower your voice</strong> so that conversations about the body or bodily functions are not overheard.</li></ul><p>None of these take extra time once they become second nature &mdash; but each one tells the person that their body and their modesty are respected.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ef153835-6ffc-4e06-a67a-2c2ac5573082",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Privacy in personal care",
+          "decorative": false,
+          "file": {
+            "path": "images/privacy-in-personal-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "35e5332b-f8bc-4b16-b0f2-c37c02f8af67",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Drag each word into the sentence that describes good privacy practice during personal care.</p>",
+          "textField": "Always *knock* on the door and wait before entering. Draw the *curtains* and close the door before you start. Keep the person *covered* with a towel, exposing only what you are washing. *Explain* each step so they know what to expect, and speak *quietly* so private matters are not *overheard*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "ee1793cc-eb10-4666-8144-12ada4b303a7",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

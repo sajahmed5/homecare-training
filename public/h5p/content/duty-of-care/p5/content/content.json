@@ -1,1 +1,89 @@
-{"content":[{"content":{"params":{"text":"<h2>Incidents, errors and near misses</h2><p>However careful we are, things sometimes go wrong. An <strong>incident</strong> is an event that caused harm or could have caused harm. An <strong>error</strong> is a mistake, such as giving the wrong medication. A <strong>near miss</strong> is something that could have gone wrong but was caught in time and did not cause harm.</p><p>All three must be reported, even when no one was hurt. Near misses are especially valuable: they are early warnings that let a service fix a problem before someone comes to harm. Reporting them is never about blame &mdash; it is about learning and keeping people safe.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"fb164c51-59da-43cc-9eab-44d2ef77fb01","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"text":"<h2>Duty of candour: being open and honest</h2><p>The <strong>duty of candour</strong> is the legal requirement to be open, honest and transparent when something goes wrong. It applies to whole organisations and to every worker within them.</p><p>When something goes wrong that affects a person's care, you must:</p><ul><li>tell the person (or their representative) what happened, in a way they can understand</li><li>offer a genuine, sincere <strong>apology</strong> &mdash; saying sorry is not an admission of legal liability</li><li>explain what will be done to put things right and to stop it happening again</li><li>report and record the event honestly and promptly</li></ul><p>Covering up a mistake is far more serious than the mistake itself. Being open builds trust and allows the whole team to learn.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"30725084-25e5-4408-86d5-1daf2b0c744b","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>A near miss that caused no harm still needs to be reported.</p>","correct":"true","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Near misses must still be reported, even when no one was hurt, because they help the service learn and prevent future harm.","correctAnswerMessage":"Correct. Near misses are early warnings. Reporting them lets a service learn and fix problems before anyone is harmed."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"e4847e7e-46dc-442a-b719-b6d235fb808d","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Incidents, errors and near misses</h2><p>However careful we are, things sometimes go wrong. An <strong>incident</strong> is an event that caused harm or could have caused harm. An <strong>error</strong> is a mistake, such as giving the wrong medication. A <strong>near miss</strong> is something that could have gone wrong but was caught in time and did not cause harm.</p><p>All three must be reported, even when no one was hurt. Near misses are especially valuable: they are early warnings that let a service fix a problem before someone comes to harm. Reporting them is never about blame &mdash; it is about learning and keeping people safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fb164c51-59da-43cc-9eab-44d2ef77fb01",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Incidents and near misses",
+          "decorative": false,
+          "file": {
+            "path": "images/incidents-and-near-misses.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2e24e269-b230-4473-9934-dfc3b0c775ca",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Duty of candour: being open and honest</h2><p>The <strong>duty of candour</strong> is the legal requirement to be open, honest and transparent when something goes wrong. It applies to whole organisations and to every worker within them.</p><p>When something goes wrong that affects a person's care, you must:</p><ul><li>tell the person (or their representative) what happened, in a way they can understand</li><li>offer a genuine, sincere <strong>apology</strong> &mdash; saying sorry is not an admission of legal liability</li><li>explain what will be done to put things right and to stop it happening again</li><li>report and record the event honestly and promptly</li></ul><p>Covering up a mistake is far more serious than the mistake itself. Being open builds trust and allows the whole team to learn.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "30725084-25e5-4408-86d5-1daf2b0c744b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A near miss that caused no harm still needs to be reported.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Near misses must still be reported, even when no one was hurt, because they help the service learn and prevent future harm.",
+            "correctAnswerMessage": "Correct. Near misses are early warnings. Reporting them lets a service learn and fix problems before anyone is harmed."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "e4847e7e-46dc-442a-b719-b6d235fb808d",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

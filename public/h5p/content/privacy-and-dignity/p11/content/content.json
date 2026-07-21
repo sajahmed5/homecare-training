@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Care done <em>with</em> people, not <em>to</em> them</h2><p>Active participation means recognising each person as an active partner in their own care and daily life, rather than a passive recipient of it. When you support someone to do what they can for themselves, you protect their independence, skills and sense of worth.</p><ul><li><strong>Do with, not for:</strong> let someone wash the parts of their body they can reach, or choose and pass their own clothes, even if it takes longer.</li><li><strong>Wellbeing:</strong> taking part builds confidence and can reduce the frustration and low mood that come with feeling helpless.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2c346c3a-c94c-4cd3-be82-00ce6c77aaa9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Active participation",
+          "decorative": false,
+          "file": {
+            "path": "images/active-participation.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "934313dd-c042-4f4d-a8f7-995a8b0678d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Involving people in their own care</h2><p>People have the right to be involved in decisions about their support &mdash; a principle often summed up as &lsquo;nothing about me without me&rsquo;. Standard 7 asks you to actively encourage people to make choices and to help them take part in planning their care.</p><ul><li><strong>Offer real choices:</strong> what to wear, when to get up, what to eat, how to spend the day.</li><li><strong>Share the care plan:</strong> involve the person and, where they wish, the people close to them in reviewing it.</li><li><strong>Listen to feedback:</strong> act on what people tell you, and pass concerns you cannot resolve to your manager.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "baa3617b-da92-4982-9b0b-fb7a5acebb00",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mr Okafor can wash his own face and hands but finds it slow, and you are running behind. What best supports active participation?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Give him the flannel and the time to wash what he can, and help only with what he cannot manage.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Doing with rather than for maintains his independence and dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wash him quickly yourself so the round stays on time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This removes his independence and treats the schedule as more important than the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell him he must be quicker tomorrow or you will have to do it for him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This pressures him and undermines his confidence and choice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip washing his face today to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This neglects his care and his right to be clean and comfortable.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c65cddf8-311f-48b2-a7af-1e17d9bad2f7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

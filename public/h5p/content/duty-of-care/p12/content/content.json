@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Helping people be heard</h2><p>Part of your duty of care is making sure the people you support can raise concerns and know they will be taken seriously. Someone who feels unable to speak up may be left in an unsafe or unhappy situation for far too long.</p><p>You can help by listening without judgement, explaining how to make a comment or complaint, and reassuring the person that raising a concern will not lead to worse treatment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7bb2dd1a-e2c9-4201-9a71-a242ff644e34",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Raising concerns safely",
+          "decorative": false,
+          "file": {
+            "path": "images/raising-concerns-safely.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f8c14587-39d3-46d2-8b28-adf77789d175",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Advocacy and whistleblowing</h2><p>Some people find it hard to express their views alone. An advocate is an independent person who helps someone understand their rights and speak up for what they want, especially where big decisions are involved.</p><p>Whistleblowing is different: it is when you, as a worker, report serious wrongdoing or danger that is being ignored.</p><ul><li><strong>Know your policy:</strong> your workplace has a whistleblowing procedure &mdash; find out where it is.</li><li><strong>Raise it internally first:</strong> usually you report concerns to your manager or a named person.</li><li><strong>You are protected:</strong> the law protects workers who raise genuine concerns in the public interest.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "11809168-b12b-4180-9054-f1084a461d72",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the sentences about raising concerns.</p></p>",
+          "textField": "An *advocate* is an independent person who helps someone speak up for what they want. When a worker reports serious wrongdoing that is being ignored, this is called *whistleblowing*. You should usually raise a concern *internally* with your manager first. The law protects workers who raise genuine concerns in the *public* interest. Listening without *judgement* helps a person feel safe enough to speak.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "60362d6b-dea2-4022-bf98-40d94f939d07",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

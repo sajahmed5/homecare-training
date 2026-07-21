@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What confidentiality means</h2><p>In your role you learn private details about people's health, lives and families. Confidentiality means keeping that information secure and only sharing it with those who genuinely need it to provide safe care. People trust you with sensitive information, and protecting it is part of treating them with dignity and respect.</p><p>Data protection law, including the UK GDPR, requires personal information to be handled fairly, kept accurate, stored securely and used only for proper purposes. Your workplace policies put these rules into everyday practice, and following them is part of your professional duty.</p><p>Confidentiality builds trust. If people believe their private details might be shared carelessly, they may hold back important information about their health or worries, which puts their care and safety at risk.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2e167cff-9d3e-4427-9402-ba01b7d16aa1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Confidentiality",
+          "decorative": false,
+          "file": {
+            "path": "images/confidentiality.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "19d48ea5-c3c4-41a0-aedd-ad64b2401d4c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Confidentiality in practice</h2><ul><li><strong>Need to know:</strong> share information only with those directly involved in the person's care.</li><li><strong>Store securely:</strong> keep records locked away or password-protected.</li><li><strong>Talk privately:</strong> never discuss people in corridors, lifts or on social media.</li><li><strong>Seek consent:</strong> ask the person before sharing, wherever you can.</li></ul><p>Confidentiality is not absolute. If someone is at risk of serious harm, you may have to share information to keep them or others safe &mdash; for example, a safeguarding concern. When this happens, tell the right person promptly, record what you shared and why, and follow your safeguarding policy. If you are ever unsure, ask your manager.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1c618add-a226-4bdd-90be-cb45d2b1eb60",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You must always keep information confidential, even when someone is at serious risk of harm.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "This is false. If someone is at risk of serious harm, you may need to share information to protect them, following your safeguarding policy.",
+            "correctAnswerMessage": "Correct. Confidentiality is not absolute; if someone is at risk of serious harm you may need to share information to keep them safe, following your safeguarding policy."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "734594cf-058a-4734-95f8-fb7de66b00e3",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

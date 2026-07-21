@@ -1,1 +1,125 @@
-{"content":[{"content":{"params":{"text":"<h3>Barriers to communication</h3>\n<p>Many things can get in the way of a clear message. Being aware of them helps you reduce them:</p>\n<ul>\n<li><strong>Physical</strong> — noise, poor lighting, distance, PPE covering your face.</li>\n<li><strong>Sensory</strong> — hearing or sight loss, or a broken hearing aid.</li>\n<li><strong>Cognitive</strong> — dementia, learning disability, confusion or medication effects.</li>\n<li><strong>Language</strong> — English as an additional language, jargon, or complex words.</li>\n<li><strong>Emotional</strong> — pain, fear, anxiety, or feeling rushed.</li>\n</ul>\n<p>Reduce barriers: cut background noise, face the person, use short sentences, allow time, and use aids the person relies on.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"a9878151-549f-4347-ac74-742491ba987c","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"contentName":"Image","alt":"Five barriers to communication: physical, sensory, cognitive, language and emotional","decorative":false,"file":{"path":"images/barriers.svg","mime":"image/svg+xml","width":600,"height":200,"copyright":{"license":"U"}}},"library":"H5P.Image 1.1","subContentId":"54c3cd15-fd1c-4e33-bcdf-39ad3b964d62","metadata":{"contentType":"H5P.Image","license":"U","title":"Image"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>Mrs Patel wears a hearing aid. You notice she keeps saying \"pardon?\" and looks anxious. What is the <strong>best</strong> first response?</p>","answers":[{"correct":true,"text":"<div>Check her hearing aid is switched on and working, reduce background noise, and face her while speaking clearly.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct — remove the barrier and adapt how you communicate.","notChosenFeedback":""}},{"correct":false,"text":"<div>Speak much louder and more slowly to everyone in the room.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"","notChosenFeedback":"Shouting distorts speech and can feel undignified."}},{"correct":false,"text":"<div>Write everything down instead, as talking clearly isn't working.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"","notChosenFeedback":"Writing may help later, but first check the aid and the environment."}},{"correct":false,"text":"<div>Carry on as normal — she will ask again if she needs to.</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"","notChosenFeedback":"Ignoring the barrier risks her safety and dignity."}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":false,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"64dd56b7-ed7f-41ac-81f3-f41bf81651f7","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What active listening is</h2><p>Listening is more than staying quiet while someone speaks. Active listening means giving the person your full attention and showing that you are taking in what they say. It tells the person that they matter and helps you understand what they really mean, not just the words on the surface.</p><p>To listen actively, face the person, make comfortable eye contact and put distractions aside. Do not interrupt or finish their sentences. Let there be pauses; silence gives people time to think, especially if they find talking difficult or tiring.</p><p>Active listening takes real effort and concentration. It is easy to drift off, plan your reply or worry about your next task, but the person will sense it if your attention wanders.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d0db58c4-6a15-4946-94cf-1933cf89b7af",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Active listening",
+          "decorative": false,
+          "file": {
+            "path": "images/active-listening.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c5b09616-a257-40df-bb71-cf05f25ac1eb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Showing you have understood</h2><p>Good listeners check that they have understood correctly. Small responses keep the conversation going and prove you are engaged without taking over.</p><ul><li><strong>Reflect:</strong> repeat back key points in your own words.</li><li><strong>Clarify:</strong> ask gentle questions if something is unclear.</li><li><strong>Encourage:</strong> nod, or say a quiet yes, to show you are following.</li><li><strong>Notice feelings:</strong> listen for the emotion behind the words.</li></ul><p>Open questions that begin with what, how or tell me draw out more than questions with a simple yes or no answer. Resist the urge to jump in with advice; sometimes a person just needs to be heard.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "de848f8f-5b6d-4746-a78c-ea5c527f08ff",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is the best example of active listening?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Facing the person, letting them finish, then reflecting back what you heard to check you understood.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Full attention plus reflecting back shows respect and confirms understanding.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tidying the room while they talk so you do not waste any time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Doing other tasks signals the person is not your priority and means you will miss cues.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Finishing their sentences to move the conversation along.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Finishing sentences can put words in their mouth and stops them expressing themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nodding along while quietly planning your reply.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Planning your response means you are not truly taking in what is being said.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9d978f2d-d0db-4f7f-95bc-d01bd8288b15",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

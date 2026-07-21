@@ -1,1 +1,90 @@
-{"content":[{"content":{"params":{"text":"<h2>Dignity for people with dementia or communication needs</h2><p>Dignity is just as important &mdash; and sometimes harder to protect &mdash; when a person cannot easily tell you what they want. People living with dementia, a learning disability, or a sensory or speech impairment can still sense when they are treated with warmth or dismissed.</p><ul><li><strong>Assume understanding.</strong> Speak to the person, not about them, and never assume they cannot follow you.</li><li><strong>Give time.</strong> Allow longer for someone to process what you say and to respond.</li><li><strong>Use every channel.</strong> A calm tone, eye contact, gentle gestures, pictures or objects can all support communication.</li><li><strong>Read behaviour as communication.</strong> Distress or agitation often signals an unmet need &mdash; discomfort, fear or a wish for privacy.</li><li><strong>Know the person.</strong> Life-story information and family involvement help you honour preferences the person may struggle to voice.</li></ul>"},"library":"H5P.AdvancedText 1.1","subContentId":"38cf4366-cbcb-4c7c-bed1-e8a0f7b3d78a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>How would you protect dignity in each situation? Flip to see good practice.</p>","dialogs":[{"text":"<p>A resident with advanced dementia becomes distressed and tearful during personal care.</p>","answer":"<p>Stop, stay calm and reassure. Distress is communication &mdash; she may feel exposed or frightened. Slow down, keep her covered, explain gently and, if needed, try again later.</p>","tips":{}},{"text":"<p>A man with aphasia can't find the words to answer your question.</p>","answer":"<p>Give him time, don't finish his sentences, and offer other ways to respond &mdash; pointing, pictures or simple yes/no choices. Never pretend to understand if you don't.</p>","tips":{}},{"text":"<p>You don't know how a new resident with dementia likes to be addressed.</p>","answer":"<p>Check the care plan and life-story information, and ask family. Using someone's preferred name is a simple, powerful mark of respect.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"402fbff4-e585-48d5-ab8c-f2103058e5fe","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity for people with dementia or communication needs</h2><p>Dignity is just as important &mdash; and sometimes harder to protect &mdash; when a person cannot easily tell you what they want. People living with dementia, a learning disability, or a sensory or speech impairment can still sense when they are treated with warmth or dismissed.</p><ul><li><strong>Assume understanding.</strong> Speak to the person, not about them, and never assume they cannot follow you.</li><li><strong>Give time.</strong> Allow longer for someone to process what you say and to respond.</li><li><strong>Use every channel.</strong> A calm tone, eye contact, gentle gestures, pictures or objects can all support communication.</li><li><strong>Read behaviour as communication.</strong> Distress or agitation often signals an unmet need &mdash; discomfort, fear or a wish for privacy.</li><li><strong>Know the person.</strong> Life-story information and family involvement help you honour preferences the person may struggle to voice.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "38cf4366-cbcb-4c7c-bed1-e8a0f7b3d78a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dementia & communication",
+          "decorative": false,
+          "file": {
+            "path": "images/dementia-communication.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a9a912d4-c45c-43b9-b194-6e9a3d9179d5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "title": "<p>Tap a card to flip it</p>",
+          "mode": "normal",
+          "description": "<p>How would you protect dignity in each situation? Flip to see good practice.</p>",
+          "dialogs": [
+            {
+              "text": "<p>A resident with advanced dementia becomes distressed and tearful during personal care.</p>",
+              "answer": "<p>Stop, stay calm and reassure. Distress is communication &mdash; she may feel exposed or frightened. Slow down, keep her covered, explain gently and, if needed, try again later.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>A man with aphasia can't find the words to answer your question.</p>",
+              "answer": "<p>Give him time, don't finish his sentences, and offer other ways to respond &mdash; pointing, pictures or simple yes/no choices. Never pretend to understand if you don't.</p>",
+              "tips": {}
+            },
+            {
+              "text": "<p>You don't know how a new resident with dementia likes to be addressed.</p>",
+              "answer": "<p>Check the care plan and life-story information, and ask family. Using someone's preferred name is a simple, powerful mark of respect.</p>",
+              "tips": {}
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "disableBackwardsNavigation": false,
+            "scaleTextNotCard": false,
+            "randomCards": false
+          },
+          "answer": "Turn",
+          "next": "Next",
+          "prev": "Previous",
+          "retry": "Retry",
+          "progressText": "Card @card of @total"
+        },
+        "library": "H5P.Dialogcards 1.9",
+        "subContentId": "402fbff4-e585-48d5-ab8c-f2103058e5fe",
+        "metadata": {
+          "contentType": "H5P.Dialogcards",
+          "license": "U",
+          "title": "Flip cards"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

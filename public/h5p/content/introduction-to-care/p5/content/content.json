@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Working relationships and team working</h2><p>In care you build many relationships &mdash; with the people you support, with their families, and with colleagues and other professionals such as nurses, GPs and social workers. It is important to understand the difference between a <strong>working relationship</strong> and a <strong>personal relationship</strong>.</p><ul><li>A <strong>working relationship</strong> is professional. It is based on your role, guided by policies and boundaries, and focused on the person&rsquo;s needs and agreed outcomes.</li><li>A <strong>personal relationship</strong> is one you choose &mdash; with friends and family &mdash; based on emotional ties and personal history, with no professional boundaries or accountability.</li></ul><p>Keeping professional boundaries protects the people you support and keeps care fair, safe and consistent. <strong>Team working</strong> and <strong>partnership working</strong> matter too: sharing information appropriately, respecting each other&rsquo;s roles, and working together all lead to better, safer care.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"12d4ec6f-fce1-4e61-b45d-eb6a2ac2c7cb","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>The relationship between a care worker and a person they support is a personal friendship rather than a professional working relationship.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not quite. Although it can be warm and caring, it is a professional working relationship with clear boundaries, not a personal friendship.","correctAnswerMessage":"Correct. It is a professional working relationship &mdash; guided by your role, boundaries and policies &mdash; not a personal friendship."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"c9e65ea2-3a1f-40d2-ac7c-98a92eddb584","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Working relationships and team working</h2><p>In care you build many relationships &mdash; with the people you support, with their families, and with colleagues and other professionals such as nurses, GPs and social workers. It is important to understand the difference between a <strong>working relationship</strong> and a <strong>personal relationship</strong>.</p><ul><li>A <strong>working relationship</strong> is professional. It is based on your role, guided by policies and boundaries, and focused on the person&rsquo;s needs and agreed outcomes.</li><li>A <strong>personal relationship</strong> is one you choose &mdash; with friends and family &mdash; based on emotional ties and personal history, with no professional boundaries or accountability.</li></ul><p>Keeping professional boundaries protects the people you support and keeps care fair, safe and consistent. <strong>Team working</strong> and <strong>partnership working</strong> matter too: sharing information appropriately, respecting each other&rsquo;s roles, and working together all lead to better, safer care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "12d4ec6f-fce1-4e61-b45d-eb6a2ac2c7cb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Working relationships",
+          "decorative": false,
+          "file": {
+            "path": "images/working-relationships.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8aa4df10-42ca-493c-b10b-99c345a9b09c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The relationship between a care worker and a person they support is a personal friendship rather than a professional working relationship.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Although it can be warm and caring, it is a professional working relationship with clear boundaries, not a personal friendship.",
+            "correctAnswerMessage": "Correct. It is a professional working relationship &mdash; guided by your role, boundaries and policies &mdash; not a personal friendship."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "c9e65ea2-3a1f-40d2-ac7c-98a92eddb584",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

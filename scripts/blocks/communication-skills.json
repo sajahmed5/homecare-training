@@ -3,46 +3,95 @@
   "title": "Communication Skills",
   "content_blocks": [
     {
+      "type": "h5p",
       "path": "communication-skills/p1",
-      "type": "h5p",
-      "label": "Introduction",
-      "section": "Ways we communicate",
-      "questions": 0
+      "label": "What communication is",
+      "questions": 0,
+      "section": "Why communication matters"
     },
     {
+      "type": "h5p",
       "path": "communication-skills/p2",
-      "type": "h5p",
-      "label": "Types of communication",
-      "section": "Ways we communicate",
-      "questions": 0
+      "label": "The communication cycle",
+      "questions": 1,
+      "section": "Why communication matters"
     },
     {
+      "type": "h5p",
       "path": "communication-skills/p3",
-      "type": "h5p",
-      "label": "Active listening",
-      "section": "Listening and barriers",
-      "questions": 1
+      "label": "Verbal and non-verbal",
+      "questions": 1,
+      "section": "Why communication matters"
     },
     {
+      "type": "h5p",
       "path": "communication-skills/p4",
-      "type": "h5p",
-      "label": "Barriers",
-      "section": "Listening and barriers",
-      "questions": 1
+      "label": "Active listening",
+      "questions": 1,
+      "section": "Listening and understanding"
     },
     {
+      "type": "h5p",
       "path": "communication-skills/p5",
-      "type": "h5p",
-      "label": "Individual needs",
-      "section": "Meeting individual needs",
-      "questions": 1
+      "label": "Barriers to communication",
+      "questions": 1,
+      "section": "Listening and understanding"
     },
     {
-      "path": "communication-skills/p6",
       "type": "h5p",
-      "label": "Recording & summary",
-      "section": "Meeting individual needs",
-      "questions": 0
+      "path": "communication-skills/p6",
+      "label": "Overcoming barriers",
+      "questions": 1,
+      "section": "Listening and understanding"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p7",
+      "label": "Communication needs",
+      "questions": 1,
+      "section": "Meeting individual needs"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p8",
+      "label": "Aids and technology",
+      "questions": 1,
+      "section": "Meeting individual needs"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p9",
+      "label": "Sensory loss and dementia",
+      "questions": 1,
+      "section": "Meeting individual needs"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p10",
+      "label": "Working with others",
+      "questions": 1,
+      "section": "Meeting individual needs"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p11",
+      "label": "Confidentiality",
+      "questions": 1,
+      "section": "Confidentiality and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p12",
+      "label": "Difficult conversations",
+      "questions": 1,
+      "section": "Confidentiality and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "communication-skills/p13",
+      "label": "Recording and recap",
+      "questions": 0,
+      "section": "Confidentiality and recording"
     }
   ]
 }

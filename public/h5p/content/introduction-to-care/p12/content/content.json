@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your part in staying safe</h2><p>Health and safety at work is a shared responsibility. Your employer must provide a safe workplace, the right equipment and proper training &mdash; and you must play your part by following what you have been taught. That means using equipment such as hoists and slide sheets correctly, wearing personal protective equipment when it is needed, and following infection prevention steps like good hand hygiene.</p><p>Never take shortcuts to save time, and never carry out a task, such as moving and handling, that you have not been trained to do. If you are unsure, stop and check rather than risk hurting the person or yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "dd4fcd2a-047b-4048-aa87-ac79c55d555c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Health, safety and wellbeing",
+          "decorative": false,
+          "file": {
+            "path": "images/health-safety-and-wellbeing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "56bae131-2ba5-40d8-ab41-845d6012d6f2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting concerns and your wellbeing</h2><p>Reporting is a normal, important part of the job. Accidents, near misses, faulty equipment and hazards should all be reported promptly through your workplace&rsquo;s procedures. This is not about getting anyone into trouble &mdash; it is how problems get fixed before someone is harmed.</p><p>Your own wellbeing matters too. Care work can be physically tiring and emotionally demanding, so look after yourself: take your breaks, ask for help when a task is too much for one person, and speak to your manager if you are struggling. Staying well helps you keep giving safe, kind care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "94840f9f-5865-42bd-bf98-7de6a0f06356",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>If you notice a frayed electrical lead on a hoist, it is fine to keep using it until the end of your shift and report it later.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "That is not right. A frayed lead is a real hazard; you should stop using the hoist immediately and report the fault before it causes harm.",
+            "correctAnswerMessage": "Correct &mdash; that is false. Faulty equipment should be taken out of use and reported straight away, because using it could seriously injure the person or you."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "53d0cdd3-7910-4403-924e-a1618c58e248",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

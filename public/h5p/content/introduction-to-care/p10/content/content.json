@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Everyone keeps their rights</h2><p>Needing care or support never means a person gives up their rights. The people you support have the same rights as anyone else, protected by human rights law and by the Equality Act, which makes it unlawful to treat someone worse because of things like their age, disability, race, religion or sexual orientation. Part of your role is to make sure those rights are real in everyday life, not just words on a form.</p><p><strong>Dignity</strong> means treating someone as a valued person. In practice that can be simple: knocking before you enter a room, keeping someone covered during personal care, not rushing them, and using the name they prefer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "581ca0a3-c647-447d-a69d-f887be9bc581",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Rights, dignity and independence",
+          "decorative": false,
+          "file": {
+            "path": "images/rights-dignity-and-independence.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 210,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1ade751d-bef3-4a16-b515-dc5784c23360",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Choice and independence</h2><p>Promoting <strong>independence</strong> means doing things <em>with</em> a person rather than <em>for</em> them, so they keep the skills and confidence they already have. Even where someone needs a lot of help, small choices matter &mdash; what to wear, when to get up, what to eat, how to spend the day &mdash; and you should offer these in a way the person can understand.</p><p>Supporting choice sometimes means accepting sensible risks. People have the right to make decisions others might not make themselves, and your job is to support them safely, not to wrap them in cotton wool or to decide for them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f6a2e107-ba92-434b-99bd-6065444b4143",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the gap to complete the sentence about protecting people&rsquo;s rights.</p></p>",
+          "textField": "Good care protects a person&rsquo;s *dignity*, treats them with *respect*, keeps personal details *private*, offers genuine *choice* over daily routines, and builds *independence* by doing things with people rather than for them.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "997277ab-4bea-43a8-82b5-c4d81e32e837",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

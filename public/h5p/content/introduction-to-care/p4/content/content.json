@@ -1,1 +1,79 @@
-{"content":[{"content":{"params":{"text":"<h2>Agreed ways of working</h2><p>&ldquo;<strong>Agreed ways of working</strong>&rdquo; is the term for the policies, procedures, care plans and risk assessments your employer expects you to follow. They exist to keep people safe, to make sure care is consistent, and to protect both the people you support and you as a worker.</p><p>Following agreed ways of working means:</p><ul><li>Working to your <strong>job description</strong> and within the limits of your role</li><li>Following <strong>policies and procedures</strong> &mdash; for example on safeguarding, health and safety, and confidentiality</li><li>Delivering care in line with each person&rsquo;s <strong>care plan</strong> and <strong>risk assessment</strong></li><li>Applying what you learn in your induction and ongoing training</li><li>Always working with the most <strong>up-to-date</strong> version of a policy or care plan</li></ul><p>If you are ever unsure what the agreed way of working is, check the written procedure or ask your supervisor &mdash; never simply guess.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"c9a26fbb-261c-4312-8252-36ca5bfa0a7d","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"taskDescription":"<p>Drag each word into the correct gap to complete these statements about agreed ways of working.</p>","textField":"Agreed ways of working are the *policies* and procedures your employer expects you to follow. You must deliver support in line with each person's *care* plan and their *risk* assessment. Always use the most up-to-date *version* of a document, and if you are unsure you should ask your *supervisor* rather than guess. Following these agreed ways keeps people *safe*.","behaviour":{"enableRetry":true,"enableSolutionsButton":true,"enableCheckButton":true,"instantFeedback":false},"overallFeedback":[{"from":0,"to":100,"feedback":"You placed @score of @total correctly."}],"checkAnswer":"Check","tryAgain":"Retry","showSolution":"Show solution","correctText":"Correct!","incorrectText":"Incorrect!"},"library":"H5P.DragText 1.10","subContentId":"fc105744-76d5-4b40-b0e8-05f3676a1d80","metadata":{"contentType":"H5P.DragText","license":"U","title":"Fill in the blanks"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Agreed ways of working</h2><p>&ldquo;<strong>Agreed ways of working</strong>&rdquo; is the term for the policies, procedures, care plans and risk assessments your employer expects you to follow. They exist to keep people safe, to make sure care is consistent, and to protect both the people you support and you as a worker.</p><p>Following agreed ways of working means:</p><ul><li>Working to your <strong>job description</strong> and within the limits of your role</li><li>Following <strong>policies and procedures</strong> &mdash; for example on safeguarding, health and safety, and confidentiality</li><li>Delivering care in line with each person&rsquo;s <strong>care plan</strong> and <strong>risk assessment</strong></li><li>Applying what you learn in your induction and ongoing training</li><li>Always working with the most <strong>up-to-date</strong> version of a policy or care plan</li></ul><p>If you are ever unsure what the agreed way of working is, check the written procedure or ask your supervisor &mdash; never simply guess.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c9a26fbb-261c-4312-8252-36ca5bfa0a7d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Agreed ways of working",
+          "decorative": false,
+          "file": {
+            "path": "images/agreed-ways-of-working.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "20426529-0b17-452b-84c8-46c5f7631611",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p>Drag each word into the correct gap to complete these statements about agreed ways of working.</p>",
+          "textField": "Agreed ways of working are the *policies* and procedures your employer expects you to follow. You must deliver support in line with each person's *care* plan and their *risk* assessment. Always use the most up-to-date *version* of a document, and if you are unsure you should ask your *supervisor* rather than guess. Following these agreed ways keeps people *safe*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "fc105744-76d5-4b40-b0e8-05f3676a1d80",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

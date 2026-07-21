@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Where the working relationship has limits</h2><p>The relationships you build with the people you support are close and caring, but they are still professional. Professional boundaries are the lines that keep those relationships safe, respectful and focused on the person&rsquo;s needs rather than your own.</p><p>Boundaries protect the person from harm and protect you from situations that could be misread. When a boundary starts to blur, the person&rsquo;s wellbeing &mdash; and your duty of care &mdash; is put at risk.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e4e800a7-f855-49ee-8bb6-8f026cc08140",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Boundaries and interests",
+          "decorative": false,
+          "file": {
+            "path": "images/boundaries-and-interests.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f0d45e12-fe6a-4988-ad48-2d4fd36fa295",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a conflict of interest</h2><p>A conflict of interest arises when your personal interests could influence, or appear to influence, the care you give. Handling these openly is part of acting in the person&rsquo;s best interests.</p><ul><li><strong>Gifts and money:</strong> politely decline personal gifts and never borrow from or lend to the people you support.</li><li><strong>Wills and finances:</strong> step back from decisions about a person&rsquo;s money or estate, and report if you are asked to be involved.</li><li><strong>Personal contact:</strong> keep your private phone number and social media separate from your work.</li><li><strong>Speak up early:</strong> tell your manager as soon as you notice a possible conflict.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "15888f9c-6d78-4562-9e2e-dcda89f65d3d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support offers to leave you money in their will as a thank-you. What is the professional response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Kindly decline, explain that you cannot be involved in their will, and tell your manager.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Accepting a bequest is a clear conflict of interest; declining and reporting it protects you both.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Accept graciously, as refusing might upset them.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Although refusing needs care, accepting creates a serious conflict of interest and undermines trust.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Agree, but ask them to keep it a secret.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Secrecy is a warning sign; boundaries should be open and reported, not hidden.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Suggest they leave the money to a colleague instead.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Redirecting the gift still involves staff in the person&rsquo;s finances and remains a conflict of interest.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "76828c25-52eb-429c-a3ed-ed485f79e68b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
