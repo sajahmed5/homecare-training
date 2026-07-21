@@ -1,0 +1,551 @@
+{
+  "slug": "risk-assessment",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the main purpose of risk assessment in health and social care?",
+      "options": [
+        "To create as much paperwork as possible for auditors",
+        "To make sure staff are blamed when accidents happen",
+        "To stop people who use services from doing anything at all",
+        "To spot what could cause harm and act before it does"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How is a hazard best defined?",
+      "options": [
+        "The chance that someone will actually be harmed",
+        "Anything with the potential to cause harm",
+        "The seriousness of an injury once it has occurred",
+        "A written record of precautions in place"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How is a risk best defined?",
+      "options": [
+        "A legal document signed off by a manager",
+        "The source of possible harm, such as a hot drink",
+        "The chance that harm will occur, together with how serious it could be",
+        "Any piece of equipment used in a care setting"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which piece of legislation places a general duty on employers to ensure, so far as is reasonably practicable, the health, safety and welfare of workers and others affected by the work?",
+      "options": [
+        "The Management of Health and Safety at Work Regulations 1999",
+        "The Care Standards Act 2000",
+        "The Health and Safety at Work etc. Act 1974",
+        "The Mental Capacity Act 2005"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulations make it an explicit legal requirement for every employer to carry out a suitable and sufficient assessment of risks?",
+      "options": [
+        "The Management of Health and Safety at Work Regulations 1999",
+        "The Health and Safety at Work etc. Act 1974",
+        "The Equality Act 2010",
+        "The Data Protection Act 2018"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Management of Health and Safety at Work Regulations 1999, when must the significant findings of an assessment be recorded?",
+      "options": [
+        "Only in hospitals and care homes",
+        "Never — recording is entirely optional",
+        "Where five or more people are employed",
+        "Only when an accident has already happened"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a worker's own legal duty under health and safety law?",
+      "options": [
+        "To remove every possible hazard before starting any task",
+        "To write and sign off the service's formal risk assessments",
+        "To decide alone what is reasonably practicable for the whole service",
+        "To take reasonable care, follow safe systems and training, use equipment properly and report hazards"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The HSE sets out a practical approach to assessing risk that is often described as how many steps?",
+      "options": [
+        "Three steps",
+        "Five steps",
+        "Seven steps",
+        "Ten steps"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the first of the HSE five steps to risk assessment?",
+      "options": [
+        "Review and update the assessment",
+        "Record your findings",
+        "Identify the hazards",
+        "Provide personal protective equipment"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second of the HSE five steps?",
+      "options": [
+        "Decide who might be harmed and how",
+        "Evaluate the risks and decide on controls",
+        "Identify the hazards",
+        "Record your findings"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a good source of information when identifying hazards (Step 1)?",
+      "options": [
+        "Waiting until an injury occurs before writing anything down",
+        "Guessing what might go wrong without looking",
+        "Accident and incident records, manufacturers' instructions and safety data sheets",
+        "Only the opinion of the newest member of staff"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When deciding who might be harmed (Step 2), what should you do?",
+      "options": [
+        "Assume everyone faces exactly the same level of risk",
+        "Identify the groups at risk and be clear about how harm might happen",
+        "Name every individual person in the building by full name",
+        "Only consider the staff and ignore the people you support"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which description of harm best reflects the course's guidance for Step 2?",
+      "options": [
+        "\"There is a hazard here\"",
+        "\"Someone could slip on the wet floor and fracture a hip\"",
+        "\"The floor is wet\"",
+        "\"Be careful\""
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When evaluating a risk (Step 3), which two factors should you weigh up?",
+      "options": [
+        "How likely harm is and how serious it would be",
+        "The number of staff on duty and the time of day only",
+        "The person's postcode and their date of birth",
+        "The cost of equipment and the age of the building"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does reducing risk \"so far as is reasonably practicable\" mean?",
+      "options": [
+        "Balancing the level of risk against the time, trouble and cost of controlling it",
+        "Removing every conceivable hazard whatever the cost",
+        "Leaving all decisions about risk to chance on the day",
+        "Doing nothing unless an accident has already happened"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is Step 4 of the HSE five steps?",
+      "options": [
+        "Record your findings",
+        "Provide personal protective equipment",
+        "Identify the hazards",
+        "Decide who might be harmed and how"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes a useful written record of a risk assessment?",
+      "options": [
+        "As long and detailed as possible, listing every trivial thing",
+        "Something only the manager is ever allowed to read",
+        "A form filed away and never looked at again",
+        "Clear enough for any worker to follow, kept where staff can find it, with a plan for anything still to fix"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is Step 5 of the HSE five steps?",
+      "options": [
+        "Identify the hazards",
+        "Evaluate the risks and decide on controls",
+        "Review and update the assessment",
+        "Decide who might be harmed"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a trigger for reviewing a risk assessment?",
+      "options": [
+        "Nothing at all should ever prompt a review",
+        "A person's condition or mobility changes, or an accident or near miss occurs",
+        "Only a request from an external inspector",
+        "Only the passing of exactly ten years"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the hierarchy of control, which measure is the most reliable and effective?",
+      "options": [
+        "Wearing gloves and an apron",
+        "Eliminating the hazard completely",
+        "Personal protective equipment",
+        "Putting up a warning sign"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where does personal protective equipment (PPE) sit in the hierarchy of control?",
+      "options": [
+        "At the top, as the most effective control",
+        "It is not part of the hierarchy at all",
+        "In the middle, above safe systems of work",
+        "At the bottom, as the last line of defence"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is PPE placed at the bottom of the hierarchy of control?",
+      "options": [
+        "Because PPE is never useful in care settings",
+        "Because it is the most effective way to control any risk",
+        "Because it protects only the wearer, only when worn correctly, and does not remove the hazard",
+        "Because only managers are allowed to decide when it is used"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is a safe system of work?",
+      "options": [
+        "A list of everyone employed at the service",
+        "A legal Act of Parliament",
+        "A piece of personal protective equipment",
+        "An agreed way of carrying out a task, designed to remove or reduce risk"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what should you do if a safe system cannot be followed because equipment is missing or broken?",
+      "options": [
+        "Skip the task and tell no one",
+        "Find an unofficial workaround and carry on",
+        "Use a single-use item several times to save time",
+        "Stop and report it rather than working around it"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who is responsible for carrying out and signing off a service's formal risk assessment?",
+      "options": [
+        "A manager or other competent person",
+        "The people who use the service",
+        "Any care worker, on their own judgement",
+        "Visitors and family members"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A hazard and a risk mean exactly the same thing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Risk assessment is not just good practice — it is a legal requirement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "The aim of a risk assessment is to record every trivial thing and wrap people in cotton wool.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "When deciding who might be harmed, a good assessment considers people who face greater risk from the same hazard, such as someone living with dementia or a new worker.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A risk assessment is a form that should be filed once and then forgotten.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Measures at the top of the hierarchy of control protect people automatically and do not depend on individuals remembering to do the right thing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Dynamic risk assessment is a licence to abandon the written plan and take chances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Where an adult has the mental capacity to make a decision, they are entitled to make choices that others might see as unwise.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are examples of hazards in a care setting? (Select all that apply)",
+      "options": [
+        "Cleaning products or medicines",
+        "A heavy load to be moved",
+        "A trailing cable",
+        "A hot drink",
+        "A properly stored, unopened first aid kit sitting safely in a cupboard"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Under health and safety law, which duties fall on the worker? (Select all that apply)",
+      "options": [
+        "Take reasonable care of themselves and others",
+        "Use equipment properly",
+        "Report hazards and concerns",
+        "Follow the safe systems and training provided",
+        "Personally write and sign off the service's formal risk assessments"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are among the HSE five steps to risk assessment? (Select all that apply)",
+      "options": [
+        "Decide who might be harmed and how",
+        "Evaluate the risks and decide on controls",
+        "Charge the person a fee for the assessment",
+        "Identify the hazards",
+        "Record your findings"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which groups of people might be harmed and should be considered in a care risk assessment? (Select all that apply)",
+      "options": [
+        "Only the manager who signs the assessment",
+        "Visitors, family and contractors",
+        "People you support",
+        "Staff",
+        "Members of the public"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following belong to the hierarchy of control? (Select all that apply)",
+      "options": [
+        "Reduce and isolate the risk",
+        "Eliminate the hazard",
+        "Personal protective equipment as the last line",
+        "Ignore the hazard until an inspector visits",
+        "Control the risk through safe systems of work"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are events or changes that should trigger a review of a risk assessment? (Select all that apply)",
+      "options": [
+        "A person's needs or mobility changes",
+        "You notice a control is no longer working in practice",
+        "Nothing has changed and everyone is content",
+        "An accident or near miss occurs",
+        "New equipment or a new task is introduced"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "According to the course, what is a care worker responsible for in making controls work? (Select all that apply)",
+      "options": [
+        "Using the equipment provided as intended",
+        "Being the eyes and ears of the service",
+        "Reporting promptly when a control is missing, broken or no longer fits the person",
+        "Deciding alone what is reasonably practicable for the whole service",
+        "Following the agreed safe systems reliably"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ is anything with the potential to cause harm.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "hazard"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Health and Safety at Work etc. ___ 1974 places a general duty on employers to protect the health, safety and welfare of workers and others.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Act"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The most reliable control in the hierarchy is to ___ the hazard completely; PPE is the last line of defence.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "eliminate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The quick, continuous judgement you make on the spot as a situation unfolds is called ___ risk assessment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "dynamic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Working with a person to weigh the benefits of an activity against the risks, rather than saying no by default, is known as positive ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "risk-taking",
+              "risk taking"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

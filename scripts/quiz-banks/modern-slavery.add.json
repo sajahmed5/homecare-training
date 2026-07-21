@@ -1,0 +1,543 @@
+{
+  "slug": "modern-slavery",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which statement best describes modern slavery?",
+      "options": [
+        "A historical crime that no longer happens in the UK today.",
+        "The exploitation and control of a person for someone else's gain, so that they cannot leave freely.",
+        "A problem that only affects people who have entered the country illegally.",
+        "A situation people can always simply walk away from whenever they choose."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Where does modern slavery happen in England?",
+      "options": [
+        "Only overseas, never within the UK.",
+        "Only in large cities.",
+        "Only in places where crimes are obviously being committed in public.",
+        "In cities, towns and rural areas, often deliberately hidden from view."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main law dealing with modern slavery in England and Wales?",
+      "options": [
+        "The Human Rights Act 1998.",
+        "The Care Act 2014.",
+        "The Modern Slavery Act 2015.",
+        "The Equality Act 2010."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which offences did the Modern Slavery Act 2015 bring together and strengthen?",
+      "options": [
+        "Theft, burglary and fraud.",
+        "Slavery, servitude, forced or compulsory labour, and human trafficking.",
+        "Speeding, drink-driving and other road offences.",
+        "Fly-tipping and other environmental offences."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "As a care worker, how should you view modern slavery?",
+      "options": [
+        "As both a serious crime and a safeguarding issue you should report like any other safeguarding concern.",
+        "As purely a police matter that has nothing to do with your role.",
+        "As something you must fully investigate yourself before acting.",
+        "As only a housing or employment problem."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Preventing abuse and exploitation sits at the heart of safeguarding duties under which Act?",
+      "options": [
+        "The Care Act 2014.",
+        "The Modern Slavery Act 2015.",
+        "The Data Protection Act 2018.",
+        "The Mental Capacity Act 2005."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In forced or compulsory labour, how is a person typically made to work against their will?",
+      "options": [
+        "Through violence, threats, deception or debt.",
+        "Through their own free choice to take on extra shifts.",
+        "Through generous pay and flexible hours.",
+        "Through a fair written contract they freely signed."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is a common way people are kept trapped in forced labour?",
+      "options": [
+        "They are given their passport back and allowed to leave at any time.",
+        "They are told they owe a large debt for travel, food or rent that they can never repay.",
+        "They are offered training and promotion opportunities.",
+        "They are paid in full and helped to find better work."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is sexual exploitation?",
+      "options": [
+        "Any consensual relationship between two adults.",
+        "When a person is forced or coerced into sexual activity for someone else's profit.",
+        "Something that only ever affects adults, never children.",
+        "A private matter that is never linked to modern slavery."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes domestic servitude?",
+      "options": [
+        "A well-paid live-in job with regular time off and freedom to come and go.",
+        "Occasional help with housework given willingly between friends.",
+        "Someone forced to work in a private household for little or no pay, with almost no freedom.",
+        "A short work placement with a written contract and fair wages."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the term 'county lines' refer to?",
+      "options": [
+        "Gangs using children and vulnerable adults to move and sell drugs from cities into smaller towns and rural areas.",
+        "The routes used by lawful delivery companies between counties.",
+        "The boundaries used to organise local authority safeguarding teams.",
+        "A telephone advice service for reporting modern slavery."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In criminal exploitation, what happens to the victim relative to those controlling them?",
+      "options": [
+        "The victim shares the profits equally with the gang.",
+        "The victim is protected from any risk or punishment.",
+        "The victim carries the risk and any punishment while others take the profit.",
+        "The victim is always treated leniently because they are clearly a victim."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Someone you support suddenly has unexplained cash and a new phone, goes missing for days, and seems fearful of an older 'friend'. What should you do?",
+      "options": [
+        "Assume they are simply choosing to break the law and say nothing.",
+        "Wait several weeks to see whether the behaviour continues before mentioning it.",
+        "Confront the older 'friend' yourself to find out what is going on.",
+        "Treat it as possible criminal exploitation and report your concern to your manager or safeguarding lead."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What defines human trafficking?",
+      "options": [
+        "That the person is always taken across an international border.",
+        "That money always changes hands between the victim and the trafficker.",
+        "That a person is moved or held for the purpose of exploitation.",
+        "That the person has agreed in writing to be moved."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about human trafficking is correct?",
+      "options": [
+        "It only involves labour, never sexual exploitation or crime.",
+        "It can only happen when someone crosses a national border.",
+        "It can happen within the UK, and even within a single town.",
+        "It never happens in the UK."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is debt bondage?",
+      "options": [
+        "A victim being told they owe a huge sum, with impossible interest added, so the debt can never be cleared.",
+        "A one-off gift of money that never has to be repaid.",
+        "A normal bank loan repaid in fair monthly instalments.",
+        "A savings scheme that helps a worker put money aside."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is most likely to suggest that someone could be a victim of modern slavery?",
+      "options": [
+        "A person who talks openly and freely about their home and their work.",
+        "Several signs together, such as fearfulness, untreated injuries, rehearsed answers and reluctance to give information.",
+        "A single bruise in a person who has clearly explained a recent accidental fall.",
+        "Someone simply having a quiet or tired day but otherwise settled."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a clear sign that another person may be controlling a possible victim?",
+      "options": [
+        "The person freely attends their own GP appointments alone.",
+        "The person comes and goes from home as they please.",
+        "The person keeps and manages their own money.",
+        "Someone accompanies them everywhere and answers all questions on their behalf."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these, relating to documents, is a warning sign of modern slavery?",
+      "options": [
+        "The person keeps their own passport in a safe place.",
+        "The person can easily prove their identity when asked.",
+        "The person cannot produce their own documents because a passport or ID has been taken and is held by someone else.",
+        "The person has recently renewed their own driving licence."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which group of people is more likely to be targeted for modern slavery?",
+      "options": [
+        "People who are socially well connected and financially secure.",
+        "People who are isolated, in poverty or debt, or who have insecure immigration status or care and support needs.",
+        "Only people who live alone in rural areas.",
+        "Only people who have committed crimes in the past."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If you suspect modern slavery, what is your first duty?",
+      "options": [
+        "Removing the person from the situation immediately by yourself.",
+        "Making the exploiter aware that you are suspicious.",
+        "Gathering enough evidence to prove the crime.",
+        "Safety, both yours and the person's."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you not confront a suspected trafficker or controller?",
+      "options": [
+        "Because it usually resolves the situation quickly and safely.",
+        "Because it can put the victim in greater danger, tip off the exploiter, and expose you to harm.",
+        "Because it is against your organisation's dress code.",
+        "Because the trafficker will always simply admit what they are doing."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "If anyone is in immediate danger, what should you do?",
+      "options": [
+        "Treat it as an emergency and call 999.",
+        "Post about it on social media to warn others.",
+        "Wait until your next supervision to raise it.",
+        "Confront the person you suspect is responsible."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Within your organisation, who should you normally report a modern slavery concern to first?",
+      "options": [
+        "A member of the person's family you have never met.",
+        "Nobody, until you are completely certain.",
+        "Your manager or safeguarding lead.",
+        "The suspected trafficker."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is the National Referral Mechanism (NRM)?",
+      "options": [
+        "A register of everyone convicted of modern slavery offences.",
+        "A telephone helpline that replaces calling 999.",
+        "A charity that employs care workers as investigators.",
+        "The UK's official system for identifying and supporting victims of modern slavery."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Modern slavery is both a serious crime and a safeguarding issue that you should report like any other safeguarding concern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Modern slavery is a historical crime that no longer happens in the UK today.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Victims of modern slavery are always foreign nationals; British people are never affected.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You do not need to be certain that modern slavery is happening before you report your concern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It can be a warning sign of modern slavery when someone else insists on speaking for a person and holds their identity documents.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Human trafficking always involves a person being taken across an international border.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If you suspect modern slavery, you should confront the suspected trafficker directly to get answers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "If someone is in immediate danger, you should treat it as an emergency and call 999.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are recognised types of modern slavery covered in this course? (Select all that apply)",
+      "options": [
+        "A fairly paid job with a genuine written contract",
+        "Domestic servitude",
+        "Forced or compulsory labour",
+        "Sexual exploitation",
+        "Freely choosing to change your employer"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are warning signs that someone may be in forced labour? (Select all that apply)",
+      "options": [
+        "They have little freedom to leave",
+        "They are paid fairly and have a genuine contract",
+        "Their identity documents are held by someone else",
+        "Their wages appear to be withheld or taken from them",
+        "They keep their own passport and come and go as they please"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can be signs that another person is controlling a possible victim? (Select all that apply)",
+      "options": [
+        "The person is rarely, if ever, left unaccompanied",
+        "The person freely attends appointments alone",
+        "Someone else always answers questions on the person's behalf",
+        "Another person holds their money and documents",
+        "The person manages their own bank account and money"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following put a person at greater risk of modern slavery? (Select all that apply)",
+      "options": [
+        "A learning disability, mental ill health or care and support needs",
+        "Insecure immigration status",
+        "A strong support network and secure finances",
+        "Isolation, poverty or debt"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When responding to suspected modern slavery, what should you do? (Select all that apply)",
+      "options": [
+        "Promise the person you will keep a dangerous secret",
+        "Report your concern to your manager or safeguarding lead",
+        "Take photographs of the person and their accommodation as evidence",
+        "Avoid confronting the suspected trafficker or controller",
+        "Keep yourself and the person safe"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are appropriate ways to raise a modern slavery concern? (Select all that apply)",
+      "options": [
+        "Post about your concern on social media",
+        "Warn the suspected trafficker directly",
+        "Contact the Modern Slavery Helpline for advice",
+        "Report it to your manager or safeguarding lead",
+        "Call 999 in an emergency"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When recording a modern slavery concern, your record should be: (Select all that apply)",
+      "options": [
+        "Shared publicly so that others can be warned",
+        "Specific, including dates, times, places and exact words where possible",
+        "Stored and shared securely as your organisation's policy requires",
+        "Factual, describing what you observed rather than what you assume",
+        "Based mainly on your personal opinions and conclusions"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If someone is in immediate danger, always call ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The main law dealing with modern slavery in England and Wales is the Modern Slavery Act ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "2015"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A powerful tool of control, where a victim is told they owe a huge sum that can never be repaid, is called ___ bondage.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "debt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The UK's official system for identifying and supporting victims of modern slavery is the National ___ Mechanism.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Referral",
+              "referral"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When you have a concern, your first port of call within your organisation is your manager or ___ lead.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "safeguarding"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

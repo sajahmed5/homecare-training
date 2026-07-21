@@ -1,0 +1,536 @@
+{
+  "slug": "legionnaires-disease",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How do people catch Legionnaires' disease?",
+      "options": [
+        "By breathing in tiny droplets of water (an aerosol) that contain legionella bacteria",
+        "By close contact with someone who already has the illness",
+        "By drinking a glass of ordinary tap water",
+        "By touching a surface an unwell person has touched"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What kind of illness is Legionnaires' disease?",
+      "options": [
+        "A serious form of pneumonia, which is a lung infection",
+        "A mild skin rash caused by hard water",
+        "A type of common cold that clears on its own",
+        "A stomach bug caused by swallowing dirty water"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about catching Legionnaires' disease is correct?",
+      "options": [
+        "You cannot catch it simply by drinking water",
+        "It can only be caught outdoors near rivers and lakes",
+        "It is caught by eating contaminated food",
+        "It spreads easily from person to person through coughing"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In roughly which temperature range does legionella multiply fastest?",
+      "options": [
+        "Between 0 and 10 degrees Celsius",
+        "Between 20 and 45 degrees Celsius",
+        "Between 90 and 100 degrees Celsius",
+        "Between 60 and 80 degrees Celsius"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Above roughly which temperature is legionella killed?",
+      "options": [
+        "Around 45 degrees Celsius",
+        "Around 60 degrees Celsius",
+        "Around 30 degrees Celsius",
+        "Around 20 degrees Celsius"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Below roughly which temperature does legionella stay dormant?",
+      "options": [
+        "Below about 45 degrees Celsius",
+        "Below about 20 degrees Celsius",
+        "Below about 55 degrees Celsius",
+        "Below about 60 degrees Celsius"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In a care setting, what is the most common source of breathable droplets?",
+      "options": [
+        "A kettle used to make hot drinks",
+        "A radiator in a resident's room",
+        "The shower, which sprays warm water into the air",
+        "A closed window"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why are showers considered a particular legionella risk in care settings?",
+      "options": [
+        "They are the only place legionella bacteria can grow",
+        "The water in them is always too hot for bacteria to survive",
+        "They spray warm water into the air as fine droplets that can be breathed deep into the lungs",
+        "They use more water than any other fitting in the building"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Why are little-used taps and showers a legionella concern?",
+      "options": [
+        "They are cleaned far more often than outlets in daily use",
+        "They are usually connected to a completely separate water supply",
+        "Water sits still and warms up in them, letting bacteria multiply before the outlet is next used",
+        "Bacteria cannot survive in water that is left standing"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is described as the single most important control against legionella?",
+      "options": [
+        "The colour of the pipework",
+        "The height of the water tank",
+        "The brand of tap fitted",
+        "Temperature"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In practice, hot water is usually stored at around which temperature?",
+      "options": [
+        "Around 45 degrees",
+        "Around 35 degrees",
+        "Around 60 degrees",
+        "Around 20 degrees"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Cold water is generally kept below about which temperature?",
+      "options": [
+        "Below about 20 degrees",
+        "Below about 40 degrees",
+        "Below about 60 degrees",
+        "Below about 50 degrees"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why are mixing valves often fitted near showers and basins?",
+      "options": [
+        "To add extra bacteria-killing chemicals to the water",
+        "To bring very hot water down to a safe temperature at the point of use, so it does not scald",
+        "To make the water flow faster",
+        "To keep the cold water warm"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does flushing an outlet mean?",
+      "options": [
+        "Running a tap or shower for a set time so fresh water replaces the standing water",
+        "Turning the outlet off for a set period so no water can move",
+        "Adding descaler to the water tank",
+        "Removing the tap completely and fitting a new one"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "How often are outlets not in regular use often flushed?",
+      "options": [
+        "Every few years",
+        "Only when a resident complains",
+        "Once a year",
+        "Weekly"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why does your service ask you to descale and clean showerheads regularly?",
+      "options": [
+        "It is only about appearance and has no effect on safety",
+        "Clean showerheads make the water come out hotter",
+        "Scale and biofilm feed and shelter legionella, so removing them keeps the spray cleaner and safer",
+        "It removes the need to keep hot water hot or cold water cold"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these provides food and shelter that helps legionella grow?",
+      "options": [
+        "Clean, fast-moving water",
+        "Cold water below 20 degrees",
+        "Scale, rust, sludge and biofilm inside pipes and fittings",
+        "Very hot water above 60 degrees"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Where are legionella bacteria found naturally, usually in numbers too low to cause harm?",
+      "options": [
+        "In dry soil and sand",
+        "In the air we breathe outdoors",
+        "In rivers and lakes",
+        "In sea salt"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who has overall legal responsibility for controlling legionella risk in the building?",
+      "options": [
+        "The care worker on shift",
+        "The duty holder",
+        "A visiting relative",
+        "Each individual resident"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who is the named person who manages the day-to-day legionella controls?",
+      "options": [
+        "The newest member of staff",
+        "The window cleaner",
+        "The responsible person",
+        "The resident's GP"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who carries out and manages the legionella risk assessment?",
+      "options": [
+        "The duty holder and the responsible person",
+        "Nobody; it is not required",
+        "The residents themselves",
+        "Every care worker individually"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A resident develops a high temperature, muscle aches, a cough and breathlessness. What should you do?",
+      "options": [
+        "Report it promptly to a senior colleague or nurse so that medical help can be arranged",
+        "Decide yourself that it is Legionnaires' disease and tell the resident",
+        "Assume it cannot be serious because chest infections are common",
+        "Wait several days to see whether the symptoms clear up on their own"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes your role in controlling legionella?",
+      "options": [
+        "Deciding which controls the service needs and setting water temperatures",
+        "Doing nothing, because legionella is entirely someone else's responsibility",
+        "Following the water safety plan, carrying out assigned tasks, recording them and reporting concerns",
+        "Carrying out the legionella risk assessment for the whole building"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You notice that a hot tap only runs warm rather than genuinely hot. What is the right response?",
+      "options": [
+        "Set the hot water temperature higher yourself",
+        "Ignore it, as water temperature is never important",
+        "Report it to the responsible person or a senior colleague as a warning sign",
+        "Tell residents to stop using all taps in the building"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How does Legionnaires' disease often begin before it affects the lungs?",
+      "options": [
+        "With a bad case of flu-like symptoms such as high temperature, chills, headache and aching muscles",
+        "With a sudden skin rash all over the body",
+        "With immediate, total loss of the ability to breathe",
+        "With no symptoms at all until recovery"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Legionnaires' disease can be passed from one person to another, like a cold or flu.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Keeping hot water hot and cold water cold helps control legionella because the bacteria thrive in warm, in-between temperatures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You can catch Legionnaires' disease simply by drinking a glass of contaminated water.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Legionella multiplies fastest in water that is warm and stagnant.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "This e-learning course replaces your service's legionella risk assessment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Legionella bacteria are found naturally in rivers and lakes, usually in numbers too low to cause harm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "As a care worker, you are expected to carry out the legionella risk assessment yourself.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Smokers and heavy drinkers are at higher risk of becoming seriously ill from legionella.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following people are at higher risk of becoming seriously ill from legionella? (Select all that apply)",
+      "options": [
+        "Older people, particularly over 45",
+        "Healthy young adults with no health conditions who never go near water",
+        "People with existing lung or chest conditions",
+        "People whose immune system is weakened by illness or medication"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which conditions does legionella need in order to multiply? (Select all that apply)",
+      "options": [
+        "Warm water, roughly between 20 and 45 degrees",
+        "Water that is stagnant or standing still",
+        "Scale, rust, sludge or biofilm to feed on",
+        "Clean, fast-moving water kept genuinely hot or cold"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can create a breathable spray that could carry legionella into the lungs? (Select all that apply)",
+      "options": [
+        "Spray taps",
+        "Drinking a glass of water",
+        "Showers",
+        "Hoses and sprinklers"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these should you report to the responsible person or a senior colleague? (Select all that apply)",
+      "options": [
+        "Hot water that only runs warm, or cold water that feels warm",
+        "A showerhead heavily coated in scale",
+        "A tap that runs clear, genuinely hot and is used every day",
+        "Water that looks discoloured or smells unusual"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are symptoms of Legionnaires' disease described in the course? (Select all that apply)",
+      "options": [
+        "Confusion, tiredness, and sometimes sickness or diarrhoea",
+        "A cough, breathlessness and sometimes chest pain",
+        "High temperature, chills, headache and aching muscles",
+        "A broken bone that heals within a day"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are your responsibilities as a care worker within the water safety plan? (Select all that apply)",
+      "options": [
+        "Carrying out simple assigned tasks such as flushing and cleaning",
+        "Deciding which controls the service needs and setting water temperatures",
+        "Reporting any concerns or symptoms straight away",
+        "Keeping accurate records of the tasks you complete"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are areas where water can stagnate and become a legionella concern? (Select all that apply)",
+      "options": [
+        "A tap that is used many times every day",
+        "Little-used outlets in empty rooms or spare bathrooms",
+        "Stored water in tanks and cylinders",
+        "Dead legs, lengths of pipe leading to seldom-used fittings"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Legionnaires' disease is a serious form of ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "pneumonia"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Legionella multiplies fastest in water that is warm and ___, roughly between 20 and 45 degrees.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "stagnant"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The named person who manages the day-to-day legionella controls is the ___ person.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "responsible"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Running a little-used tap or shower for a set time so fresh water replaces the standing water is called ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "flushing"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "People catch Legionnaires' disease by breathing in a fine spray or mist of water called an ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "aerosol"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

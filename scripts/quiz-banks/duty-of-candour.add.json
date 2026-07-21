@@ -1,0 +1,544 @@
+{
+  "slug": "duty-of-candour",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does the duty of candour expect of you and your organisation?",
+      "options": [
+        "To be open and honest with people and those close to them at all times",
+        "To keep records private from the people who use the service",
+        "To speak openly only with other staff, never with families",
+        "To share information only when a formal complaint is made"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why does being open with a person after a mistake matter so much?",
+      "options": [
+        "It protects the organisation from ever having to change how it works",
+        "It is only worth doing if the person is likely to find out anyway",
+        "It matters only for very serious incidents and not for smaller ones",
+        "It keeps their trust, lets them get any follow-up care they need, and helps the team learn and prevent a repeat"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what does hiding a mistake almost always do?",
+      "options": [
+        "Has no real effect as long as no one finds out",
+        "Makes matters worse and stops the organisation from learning",
+        "Protects the person from unnecessary worry",
+        "Helps the whole team improve their practice"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In which piece of law is the duty of candour written for England?",
+      "options": [
+        "Regulation 20 of the Health and Social Care Act 2008 (Regulated Activities) Regulations 2014",
+        "The Mental Capacity Act 2005",
+        "The Data Protection Act 2018",
+        "Section 20 of the Equality Act 2010"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which body enforces the statutory duty of candour in England?",
+      "options": [
+        "The General Medical Council",
+        "The Health and Safety Executive",
+        "The Nursing and Midwifery Council",
+        "The Care Quality Commission (CQC)"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who does the statutory duty of candour in Regulation 20 apply to?",
+      "options": [
+        "Nobody, because it is only good-practice guidance",
+        "The registered provider &mdash; the organisation and its registered manager",
+        "Only the person's GP or district nurse",
+        "Each individual care worker, who must personally notify the CQC"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is the statutory duty attached to the registered provider rather than to individual workers?",
+      "options": [
+        "Because individuals cannot legally speak to families",
+        "Because care workers are not trusted to be honest",
+        "Because the standard is attached to CQC registration, which the organisation holds",
+        "Because only managers ever witness incidents"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What triggers the formal part of the statutory duty under Regulation 20?",
+      "options": [
+        "A notifiable safety incident",
+        "Any complaint written by a family member",
+        "The annual CQC inspection visit",
+        "A staff member requesting supervision"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these best describes a notifiable safety incident?",
+      "options": [
+        "A disagreement between two members of staff",
+        "An unintended or unexpected incident during care that appears to have caused, or could cause, a significant degree of harm",
+        "A planned change to a person's care plan",
+        "Any minor error that is caught before it reaches the person"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Who judges whether an incident appears to have resulted in a significant degree of harm?",
+      "options": [
+        "The CQC inspector during a routine visit",
+        "A healthcare professional, in their reasonable opinion",
+        "The person's family, on their own",
+        "The care worker who made the mistake, alone"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In the harm threshold, what does 'prolonged' pain or psychological harm mean?",
+      "options": [
+        "Any harm that the person mentions more than once",
+        "Lasting for at least 24 hours",
+        "Lasting for exactly one week",
+        "Lasting, or likely to last, for a continuous period of at least 28 days"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do rather than decide alone whether an incident meets the legal threshold?",
+      "options": [
+        "Report clearly and promptly so your manager and healthcare professionals can assess it",
+        "Wait until the person complains before saying anything",
+        "Record it privately and take no further action",
+        "Decide yourself and only escalate if you are unsure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Under Regulation 20, how must the provider first notify the person of a notifiable safety incident?",
+      "options": [
+        "By waiting until the person asks what happened",
+        "In person, as soon as reasonably practicable, with a true account and an apology",
+        "By posting a general notice for all service users to read",
+        "Only in writing, several weeks after all enquiries are complete"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "After the initial notification, what does Regulation 20 require the provider to do?",
+      "options": [
+        "Ask the person to sign a form waiving any concerns",
+        "Close the matter with no further contact",
+        "Report the worker involved to the police",
+        "Follow up in writing, confirming the account and results of any enquiries, and keep a record"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is your honest, prompt report the foundation of the provider's formal duty?",
+      "options": [
+        "The CQC requires each worker to notify it separately",
+        "The provider is not allowed to speak to families directly",
+        "Only written reports from workers count in law",
+        "The provider cannot notify anyone about an incident it does not know about"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When telling a person what has happened, how should you communicate?",
+      "options": [
+        "Only in writing, to avoid a difficult conversation",
+        "Using technical terms so the news sounds less serious",
+        "Vaguely, so the person does not become upset",
+        "Directly and kindly, telling the truth plainly without hiding behind jargon"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How soon should a person be told after an incident comes to light?",
+      "options": [
+        "As soon as is reasonably practicable",
+        "At the next scheduled review, whenever that falls",
+        "Only after every fact has been confirmed",
+        "Only if and when the person asks"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Being timely with candour means that you must:",
+      "options": [
+        "Delay until managers have agreed a single version of events",
+        "Have every answer ready before you speak to the person",
+        "Wait to see whether the person noticed anything first",
+        "Say what you know now and make clear that more will follow as things become clearer"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "You are giving an honest account but do not yet know why the incident happened. What should you do?",
+      "options": [
+        "Use technical language so the explanation sounds less serious",
+        "Guess at a likely cause so the person has an answer straight away",
+        "Say nothing until every fact is confirmed, however long that takes",
+        "Explain what is known now, say what is not yet known, and describe what will be done to find out"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "When giving a truthful account, you should never:",
+      "options": [
+        "Use plain language free of jargon",
+        "Guess, speculate about blame, or shade the truth to make things sound better",
+        "Admit that the full picture is not yet understood",
+        "Describe what is known clearly and honestly"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is true about an apology in England and Wales?",
+      "options": [
+        "It is not, in itself, an admission of legal liability",
+        "It automatically proves the worker is legally at fault",
+        "It must always be approved by the CQC beforehand",
+        "It should only be given once enquiries are complete"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What makes an apology after a mistake meaningful?",
+      "options": [
+        "It is written rather than spoken so it cannot be misquoted",
+        "It is sincere, specific about what happened, and shows genuine care for how the person was affected",
+        "It is delayed until the person raises the matter",
+        "It uses a careful form of words that avoids any responsibility"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does the written follow-up required by Regulation 20 give the person?",
+      "options": [
+        "A legal contract limiting the organisation's responsibility",
+        "A general newsletter about the service",
+        "A written account of the incident, details and results of enquiries, and a further apology",
+        "A bill for any additional care that was needed"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What is your part in the follow-up after an incident?",
+      "options": [
+        "Leave all records to the manager and move on",
+        "Avoid writing anything down in case it is used against you",
+        "Record what happened and what was said accurately and promptly, and do what you said you would do",
+        "Change your account to match whatever the family expects"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which regulators set out the professional duty of candour in joint guidance?",
+      "options": [
+        "Local councils and the police",
+        "The CQC and the Health and Safety Executive",
+        "The Information Commissioner's Office and the CQC",
+        "The Nursing and Midwifery Council and the General Medical Council"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Being honest when something goes wrong is part of everyone's duty of candour, not only the manager's.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "The statutory duty of candour applies to individual care workers, who must each personally notify the CQC of incidents.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Regulation 20 is a legal requirement, not just good-practice guidance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Every mistake is a notifiable safety incident in the legal sense.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Saying sorry to a person after a mistake is an admission of legal liability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Candour must be timely, telling the person as soon as is reasonably practicable rather than only if they ask.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Near misses do not need to be reported because no one was actually harmed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The law protects workers who raise genuine concerns in the public interest, a protection often called whistleblowing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are reasons openness matters after something goes wrong? (Select all that apply)",
+      "options": [
+        "It removes the need to keep any records",
+        "Honesty protects the relationship of trust between you and the person",
+        "It guarantees no one will ever be held accountable",
+        "People have a right to know what happened to them",
+        "Openness lets the whole team put things right and prevent a repeat"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "According to the course, what is your part in candour as an individual worker? (Select all that apply)",
+      "options": [
+        "Decide alone whether the incident is legally notifiable",
+        "Be honest and never hide or minimise a mistake",
+        "Report what has happened promptly to your senior or manager",
+        "Make the formal notification to the CQC yourself",
+        "Support the person, reassure them and see they are cared for"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which features describe a notifiable safety incident? (Select all that apply)",
+      "options": [
+        "The harm reaches a defined threshold judged by a healthcare professional",
+        "It is unintended or unexpected",
+        "It is any minor error, regardless of harm",
+        "It was a planned and normal part of the person's care",
+        "It happened during the provision of the care service"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which steps must the provider take under Regulation 20 when a notifiable safety incident happens? (Select all that apply)",
+      "options": [
+        "Notify the person, or their representative, in person as soon as reasonably practicable",
+        "Post a general notice for all service users to read",
+        "Give a true account of what is known and offer an apology",
+        "Follow up in writing and keep a record",
+        "Wait until the person makes a formal complaint"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are part of giving a truthful account? (Select all that apply)",
+      "options": [
+        "Not minimising or playing down the seriousness",
+        "Using vague phrases to soften the truth",
+        "Guessing at blame to give the person a quick answer",
+        "Not speculating about causes before enquiries are done",
+        "Sticking to the facts as they are known"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "What does the professional duty of candour require of every worker? (Select all that apply)",
+      "options": [
+        "Be open with people and tell them when something has gone wrong",
+        "Be open and honest with colleagues and employers",
+        "Keep near misses to yourself unless a colleague also saw them",
+        "Support the person and offer help to put things right",
+        "Only report mistakes that cause serious harm"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which statements describe a just and learning culture? (Select all that apply)",
+      "options": [
+        "Incidents are used to improve care for everyone",
+        "Nobody is ever held accountable for anything they do",
+        "Mistakes are kept quiet so the organisation looks good",
+        "People are treated fairly when they are open about honest mistakes",
+        "Workers feel safe to raise concerns without fear"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Saying sorry is not, in itself, an admission of legal ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "liability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In England the duty of candour is set out in ___ 20, enforced by the CQC.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "Regulation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A ___ miss is when something almost went wrong but was caught before it reached the person.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "near"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "For 'prolonged' harm, the harm lasts, or is likely to last, for a continuous period of at least ___ days.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "28",
+              "twenty-eight"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Candour thrives in a just and ___ culture, where people feel safe to be honest about mistakes.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "learning"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
