@@ -1,0 +1,547 @@
+{
+  "slug": "drugs-and-alcohol-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What does substance misuse mean?",
+      "options": [
+        "A recognised medical treatment prescribed for pain",
+        "Needing more of a substance over time to feel the same effect",
+        "Any use of alcohol at all, even a single social drink",
+        "Using drugs or alcohol in a way that causes harm to a person's health, relationships, work or safety"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best describes dependence?",
+      "options": [
+        "Choosing to drink only at social occasions",
+        "A sign that a person is weak and does not care about their health",
+        "A short-lived habit that always passes within a few days",
+        "The body and mind come to rely on the substance, so the person feels they need it and finds it very hard to stop"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is meant by tolerance?",
+      "options": [
+        "A physical or psychological need for a substance",
+        "Using a substance in a way that harms other people",
+        "Reducing the harm that substance use can cause",
+        "Needing more of a substance over time to feel the same effect"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a reason a person might use drugs or alcohol, according to the course?",
+      "options": [
+        "Because they want to be a burden on services",
+        "To cope with pain, trauma, grief, loneliness or stress",
+        "Because they are simply weak-willed",
+        "Because dependence is always a free lifestyle choice"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a physical effect of long-term substance use described in the course?",
+      "options": [
+        "Damage to the liver, heart and brain",
+        "A guaranteed cure for anxiety",
+        "Improved memory and sharper thinking",
+        "Stronger friendships and better finances"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Why is stigma harmful to people affected by drugs or alcohol?",
+      "options": [
+        "It stops people asking for help and can affect the quality of their support",
+        "It is a necessary step before someone can get treatment",
+        "It has no real effect on people",
+        "It makes treatment work faster"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which choice reflects the non-judgemental language the course encourages?",
+      "options": [
+        "Describing someone as weak-willed",
+        "Describing someone as a lost cause",
+        "Describing someone as a person who uses drugs",
+        "Describing someone as an addict"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How much pure alcohol is in one unit?",
+      "options": [
+        "Fifty millilitres",
+        "Ten millilitres",
+        "One hundred millilitres",
+        "One millilitre"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What is the UK low-risk guideline for regular drinking?",
+      "options": [
+        "No more than fourteen units a week",
+        "No more than fourteen units a day",
+        "No more than forty units a week",
+        "There is no guideline at all"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If someone drinks up to the weekly guideline, how does the course advise they drink it?",
+      "options": [
+        "Only at weekends in one sitting",
+        "Spread over three or more days with several drink-free days",
+        "All in a single session",
+        "It makes no difference how it is spread"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person who is dependent on alcohol wants to cut down. What should you encourage?",
+      "options": [
+        "Switching to spirits to make cutting down easier",
+        "Speaking to their GP or a specialist service rather than stopping abruptly",
+        "Ignoring it, as it is not your concern",
+        "Stopping suddenly and completely on their own straight away"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What do depressants such as alcohol do to the body?",
+      "options": [
+        "Speed up the heart and raise blood pressure",
+        "Instantly reverse an overdose",
+        "Have no effect on breathing at all",
+        "Slow the brain and body down, including breathing"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which describes the effect of stimulants such as cocaine?",
+      "options": [
+        "They slow breathing until a person loses consciousness",
+        "They relieve pain and produce a deep sense of calm",
+        "They have no risks at all",
+        "They speed the body up, raising heart rate and blood pressure"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is an opioid overdose life-threatening?",
+      "options": [
+        "Because opioids raise the heart rate too high",
+        "Because opioids make a person over-energetic",
+        "Because opioids have no effect on the body",
+        "Because opioids slow breathing"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it useful to know the broad group a substance belongs to?",
+      "options": [
+        "So you can provide the treatment yourself",
+        "So you can tell the person which drug to use instead",
+        "Because how a substance affects the body shapes the risks and the signs that someone may be unwell",
+        "So you can identify the exact drug yourself"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about prescription and over-the-counter medicines is correct?",
+      "options": [
+        "Strong painkillers and sleeping tablets can lead to dependence",
+        "Dependence on a prescribed medicine is always the person's fault",
+        "Only illegal drugs are ever misused",
+        "They cannot cause dependence because they are legal"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "You are worried a person is becoming dependent on a prescribed painkiller. What should you do?",
+      "options": [
+        "Reduce their dose yourself to help them",
+        "Record what you have seen factually and report it to your senior or their GP",
+        "Add an extra painkiller to keep them comfortable",
+        "Withhold the medicine until they agree to stop"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is mixing two depressants, such as alcohol and opioids, especially dangerous?",
+      "options": [
+        "Mixing them always reduces the risk of harm",
+        "They cancel each other out and are safe together",
+        "They speed the body up too much",
+        "They both slow breathing, which together can stop a person breathing altogether"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does a harm-reduction approach mean?",
+      "options": [
+        "Refusing to support anyone until they stop using completely",
+        "Reducing the harm that substance use can cause, even if the person is not ready to stop",
+        "Providing the treatment for dependence yourself",
+        "Ignoring the risks because the person has chosen to keep using"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "A person you support is not eating, not heating their home and has unsecured medicines left out. What should you do?",
+      "options": [
+        "Say nothing, as it is their own home",
+        "Tidy the medicines away and tell no one",
+        "Record what you have seen factually and report it as a safeguarding concern following your organisation's procedure",
+        "Tell the person off for not looking after themselves"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "You are supporting an adult and become concerned that a child in the household is being neglected. What should you do?",
+      "options": [
+        "Do nothing, as your role is only to support the adult",
+        "Report it without delay, following your organisation's child safeguarding procedure",
+        "Speak only to the parent and keep it between you",
+        "Wait several weeks to see whether things improve"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "You find someone unconscious but breathing after suspected substance use. What should you do?",
+      "options": [
+        "Try to make them sick to bring the substance back up",
+        "Call 999, place them in the recovery position and stay with them",
+        "Leave them to sleep it off and check back later",
+        "Give them a cold shower and strong coffee"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which set of signs points to an opioid overdose?",
+      "options": [
+        "High energy, fast speech and a racing heart",
+        "Improved mood and better coordination",
+        "Increased appetite and clearer thinking",
+        "Very slow or stopped breathing, pinpoint pupils and being hard to wake"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "You have given naloxone to someone who has overdosed on opioids. What must you still do?",
+      "options": [
+        "Nothing further, as naloxone is a permanent cure",
+        "Give a second substance to keep them awake",
+        "Leave them alone to recover",
+        "Still call 999, because naloxone is temporary and can wear off before the opioids do"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement about being fit for work is correct?",
+      "options": [
+        "Prescribed medicines never need to be mentioned to your manager",
+        "It is fine to work after drinking as long as you feel you are coping",
+        "Fitness for work only matters for nurses, not care workers",
+        "You must never care for people while under the influence of alcohol or drugs, and should tell your manager if a prescribed medicine could affect your work"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "true_false",
+      "question": "Dependence is recognised as a health condition, not a lack of willpower.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Occasional social drinking is the same thing as dependence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "According to the course, there is a completely safe level of drinking alcohol.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Prescription and over-the-counter medicines can be misused and can lead to dependence, not just illegal drugs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "If you find someone unconscious after substance use, you should try to make them sick to bring the substance back up.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Self-neglect is recognised as a form of abuse and neglect under safeguarding guidance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is acceptable to care for people after drinking, as long as you feel you are coping.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Naloxone can temporarily reverse the effects of an opioid overdose by helping the person breathe again.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are effects of substance use described in the course? (Select all that apply)",
+      "options": [
+        "Permanent immunity to infection",
+        "Guaranteed improvement in physical health",
+        "Money problems and isolation",
+        "Low mood, anxiety and cravings",
+        "Damage to the liver, heart and brain"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are reasons a person might use drugs or alcohol, according to the course? (Select all that apply)",
+      "options": [
+        "To cope with loneliness or stress",
+        "To cope with pain or trauma",
+        "Because they enjoy being judged",
+        "Because dependence proves they lack willpower",
+        "Alongside a mental health problem"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are signs of alcohol poisoning described in the course? (Select all that apply)",
+      "options": [
+        "Vomiting",
+        "Pinpoint pupils",
+        "Cold or clammy skin",
+        "Confusion",
+        "A boost in energy and alertness"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are practical harm-reduction actions the course describes? (Select all that apply)",
+      "options": [
+        "Encouraging someone to eat and stay hydrated",
+        "Encouraging someone to avoid using alone",
+        "Providing the treatment for dependence yourself",
+        "Refusing all support until they stop completely",
+        "Encouraging someone to keep to safer amounts"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "You find someone unresponsive and barely breathing after suspected substance use. Which actions are correct? (Select all that apply)",
+      "options": [
+        "Give them a cold shower to wake them",
+        "Leave them alone to sleep it off",
+        "Tell the operator what you have seen and, if you know, what they may have taken",
+        "Call 999 immediately",
+        "Stay with them and follow the operator's instructions"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these can be symptoms of withdrawal, according to the course? (Select all that apply)",
+      "options": [
+        "Sweating and shaking",
+        "Sickness and agitation",
+        "A guaranteed sense of calm and wellbeing",
+        "Anxiety and cravings",
+        "A permanent cure for dependence"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are correct responsibilities under your role and drug and alcohol policy? (Select all that apply)",
+      "options": [
+        "Record concerns and escalate through the right channels",
+        "Adjust a person's prescribed medication yourself",
+        "Diagnose and treat substance misuse yourself",
+        "Never work while under the influence of alcohol or drugs",
+        "Tell your manager if a prescribed medicine could affect your work"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "One unit of alcohol is ten ___ of pure alcohol.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "millilitres",
+              "ml",
+              "milliliters"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The UK low-risk guideline is to drink no more than ___ units a week on a regular basis.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fourteen",
+              "14"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The medicine that can temporarily reverse an opioid overdose is ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "naloxone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If a person is unconscious but breathing, you should place them in the ___ position to help keep their airway clear.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "recovery"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When a person is not caring for their own health, hygiene or surroundings, this is called ___ and is a safeguarding concern.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "self-neglect",
+              "self neglect"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

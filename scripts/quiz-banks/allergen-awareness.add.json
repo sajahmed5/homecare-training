@@ -1,0 +1,543 @@
+{
+  "slug": "allergen-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the key difference between a food allergy and a food intolerance?",
+      "options": [
+        "An allergy involves the immune system and can be life-threatening, while an intolerance does not involve the immune system and is not usually life-threatening.",
+        "An allergy only ever causes mild stomach upset.",
+        "There is no real difference; the words mean exactly the same thing.",
+        "An intolerance is always more dangerous than an allergy."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "In a true food allergy, which part of the body wrongly reacts to a harmless food protein?",
+      "options": [
+        "The muscles.",
+        "The digestive system only.",
+        "The immune system.",
+        "The skeleton."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a common example of a food intolerance mentioned in the course?",
+      "options": [
+        "Sesame allergy.",
+        "Lactose intolerance.",
+        "Shellfish allergy.",
+        "Peanut anaphylaxis."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How quickly does an allergic reaction usually begin after contact with the allergen?",
+      "options": [
+        "Only after several days.",
+        "Always exactly 24 hours later.",
+        "It never begins on the same day.",
+        "Quickly, usually within minutes to a couple of hours."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why does allergen awareness matter so much in a care setting?",
+      "options": [
+        "Because allergies are never serious in older people.",
+        "Because some people rely on you completely and cannot check food, read labels, or clearly say what they react to.",
+        "Because care plans rarely mention food.",
+        "Because staff enjoy cooking elaborate meals."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which statement best describes your role in allergen awareness?",
+      "options": [
+        "To prescribe medication for reactions.",
+        "To decide which allergies are genuine.",
+        "To diagnose allergies and give medical advice.",
+        "To know who has an allergy, follow their care plan, check food carefully and raise concerns straight away."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How many allergens does UK food law identify as needing to be declared when used as ingredients?",
+      "options": [
+        "14",
+        "20",
+        "10",
+        "5"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is one of the 14 named allergens that must be declared under UK law?",
+      "options": [
+        "White sugar.",
+        "Table salt.",
+        "Fresh strawberries.",
+        "Sulphur dioxide and sulphites, preservatives found in some dried fruit, wine and soft drinks."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is included among the 14 named allergens?",
+      "options": [
+        "Potato.",
+        "Chicken.",
+        "Rice.",
+        "Celery."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "The course notes that allergens can hide in unexpected places. Which is an example it gives?",
+      "options": [
+        "Salt in a savoury dish.",
+        "Mustard in a salad dressing.",
+        "Water in a glass.",
+        "Sugar in a dessert."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "On a prepacked food label, how must the 14 allergens be shown?",
+      "options": [
+        "They only need to be mentioned if a customer asks in writing.",
+        "They can be left off the label completely.",
+        "They must be printed in a separate leaflet inside the packet.",
+        "They must be listed in the ingredients and emphasised, for example in bold type, so they stand out."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "For food sold loose or not prepacked, such as a meal served in a dining room, how may allergen information be provided?",
+      "options": [
+        "Only on the original packaging, which is thrown away.",
+        "It does not have to be provided at all.",
+        "On a menu, a sign, or given by staff when asked.",
+        "Only by writing to the manufacturer."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What does the abbreviation PPDS stand for?",
+      "options": [
+        "Packaged perishable dry stock.",
+        "Prepared products daily served.",
+        "Prepacked for direct sale.",
+        "Public protection dietary standard."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Since when has Natasha's Law applied to prepacked for direct sale (PPDS) food?",
+      "options": [
+        "It has not yet come into force.",
+        "Since 1990.",
+        "Since October 2021.",
+        "Since 2016."
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What must PPDS foods now carry under Natasha's Law?",
+      "options": [
+        "No labelling at all, as they are freshly made.",
+        "Only the price and a use-by date.",
+        "A leaflet describing the kitchen.",
+        "A full ingredients list, with the allergens emphasised."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "If someone asks whether a food is safe for their allergy and you are not certain, what is the best response?",
+      "options": [
+        "Say \"let me check\", then check the label, care plan or kitchen before answering.",
+        "Reassure them it is probably fine to avoid worrying them.",
+        "Say nothing and serve it anyway.",
+        "Guess based on how the dish looks."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Where should you look to find out about a person's allergies before supporting them with food?",
+      "options": [
+        "Your own memory of what they ate last week.",
+        "A general guess based on their age.",
+        "What seems popular with other people you support.",
+        "Their care plan, which should clearly record their allergies and intolerances."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A person tells you they react to a food that is not written in their care plan. What should you do?",
+      "options": [
+        "Take it seriously and report it so it can be recorded and assessed.",
+        "Wait until they have a reaction before acting.",
+        "Ignore it, as only the written plan counts.",
+        "Tell them they must be mistaken."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is cross-contamination?",
+      "options": [
+        "When an allergen transfers onto a safe food from another food, a surface, a utensil or unwashed hands.",
+        "When a food is cooked for too long.",
+        "When two people share a table.",
+        "When a label is printed incorrectly."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which habit helps prevent cross-contamination when preparing an allergen-free meal?",
+      "options": [
+        "Assuming a dish is safe if it looks the same as usual.",
+        "Storing all foods uncovered together.",
+        "Using the same knife for everything without cleaning it.",
+        "Using separate utensils, chopping boards and surfaces, or cleaning them thoroughly between foods."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why should you read labels every time, even on a product you have used before?",
+      "options": [
+        "Because labels are required to be read aloud.",
+        "Because it is only a legal formality with no safety purpose.",
+        "Because the price changes often.",
+        "Because recipes can change, so the ingredients may not be the same as last time."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "How does good allergen care support a person's dignity and choice?",
+      "options": [
+        "By involving them in choices and offering varied, appealing food that is still safe.",
+        "By giving them the same few plain meals every day.",
+        "By removing their favourite foods entirely.",
+        "By deciding all their meals for them without asking."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "If a person asks for something you know is unsafe for their allergy, what is the right approach?",
+      "options": [
+        "Ignore the request and walk away.",
+        "Give it to them to avoid upsetting them.",
+        "Tell them off for asking.",
+        "Explain kindly, offer a safe alternative, and speak to a senior colleague if needed."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a milder sign of an allergic reaction?",
+      "options": [
+        "Swelling of the tongue or throat.",
+        "Difficulty breathing.",
+        "Collapse.",
+        "An itchy rash or raised hives."
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a sign that an allergic reaction has become severe?",
+      "options": [
+        "Feeling a little bored at mealtime.",
+        "Difficulty breathing, swelling of the tongue or throat, or the person collapsing.",
+        "A single sneeze and a slightly runny nose.",
+        "A small, temporary itch that quickly settles by itself."
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A true food allergy involves the immune system and can be life-threatening.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A food intolerance involves the immune system and is usually life-threatening.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "For someone with a serious allergy, even a tiny trace of the food can be enough to trigger a reaction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A reaction that starts off mild will always stay mild, so there is no need to keep watching the person.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Antihistamines are the correct treatment for anaphylaxis, so adrenaline is not needed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "You should read allergen labels every time, even on a product you have used before, because recipes can change.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Even if a person seems to recover after adrenaline, they still need urgent medical attention because symptoms can return.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is fine to leave a person alone once you have called 999 for a severe allergic reaction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are among the 14 named allergens under UK law? (Select all that apply)",
+      "options": [
+        "Mustard",
+        "White sugar",
+        "Celery",
+        "Table salt",
+        "Lupin"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are milder signs of an allergic reaction? (Select all that apply)",
+      "options": [
+        "An itchy rash or raised hives",
+        "Swelling of the lips, face or eyes",
+        "Difficulty breathing",
+        "Tingling or itching in the mouth",
+        "Collapse"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of these are severe signs that a reaction is affecting breathing or circulation? (Select all that apply)",
+      "options": [
+        "Difficulty breathing or wheezing",
+        "Feeling faint, dizzy or collapsing",
+        "Swelling of the tongue or throat",
+        "A single sneeze",
+        "A slightly runny nose"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which habits help to avoid cross-contamination? (Select all that apply)",
+      "options": [
+        "Assume a dish is safe if it looks the same as usual",
+        "Store foods covered and apart",
+        "Use the same knife for peanut butter and an allergy-free sandwich",
+        "Wash your hands before handling food and after touching an allergen",
+        "Use separate utensils, chopping boards and surfaces, or clean them thoroughly between foods"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When someone shows signs of anaphylaxis, what should you do? (Select all that apply)",
+      "options": [
+        "Stand the person up suddenly",
+        "Cancel the ambulance if they start to feel better",
+        "Stay with them the whole time and keep them calm",
+        "Call 999 straight away and say you think it is anaphylaxis",
+        "Give their adrenaline auto-injector if it is prescribed and their plan says to"
+      ],
+      "payload": {
+        "correctIndices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "After an allergic reaction, what should be recorded and reported? (Select all that apply)",
+      "options": [
+        "The signs you saw and the time",
+        "What the person ate or was exposed to",
+        "Any medication given and how the person responded",
+        "Nothing, if the reaction was only mild"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which actions support choice and dignity for a person with a food allergy? (Select all that apply)",
+      "options": [
+        "Give them the same few plain meals every day without asking",
+        "Find safe versions of favourite meals where you can",
+        "Respect their likes, culture and preferences",
+        "Involve the person in choosing their food"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "A severe, life-threatening allergic reaction is called ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "anaphylaxis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In the UK, food law identifies ___ named allergens that must be declared when used as ingredients.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "14",
+              "fourteen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "When an allergen transfers onto a safe food from a surface, utensil or unwashed hands, this is called ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "cross-contamination",
+              "cross contamination"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If someone shows signs of anaphylaxis, call ___ straight away and say you think it is anaphylaxis.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Natasha's Law applies to food that is prepacked for direct ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "sale"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

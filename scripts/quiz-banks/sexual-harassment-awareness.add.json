@@ -1,0 +1,541 @@
+{
+  "slug": "sexual-harassment-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "How does the Equality Act 2010 define sexual harassment?",
+      "options": [
+        "Only physical contact that leaves a visible injury",
+        "Conduct that is unlawful only if the person objects to it at the time",
+        "Unwanted conduct of a sexual nature that violates a person's dignity, or creates an intimidating, hostile, degrading, humiliating or offensive environment",
+        "Any comment about work that a colleague happens to dislike"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "In the definition of sexual harassment, what does the word 'unwanted' mean?",
+      "options": [
+        "The conduct is not invited or welcomed by the person, and they need not say so out loud",
+        "The person disliked the tone of voice used but not the content",
+        "The conduct was against the organisation's dress code",
+        "The person must have complained about it in writing"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "A worker excuses a sexual remark by saying it was 'only a joke' and no offence was meant. What does the course say about this?",
+      "options": [
+        "Conduct can still be harassment because of its effect, so a lack of intent is not a defence",
+        "It means the conduct cannot be harassment because there was no intent",
+        "It only matters if the joke was repeated more than once",
+        "It is acceptable as long as most people found it funny"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When deciding whether conduct violates dignity or creates a hostile environment, what does the law take into account?",
+      "options": [
+        "Only whether the person responsible admits they intended harm",
+        "Only the opinion of the manager on duty",
+        "Only whether other colleagues also found it offensive",
+        "The person's own perception, all the circumstances, and whether it is reasonable for the conduct to have that effect"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of verbal sexual harassment?",
+      "options": [
+        "Offering to help a colleague carry equipment",
+        "Giving honest, respectful feedback about someone's work",
+        "Politely asking a colleague how their weekend was",
+        "Intrusive questions about a colleague's sex life and repeated unwanted requests to go on dates"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of non-verbal sexual harassment?",
+      "options": [
+        "Explaining a care task to a new member of staff",
+        "Staring or leering, sexual gestures, or displaying sexual images",
+        "Waving hello to a colleague across the room",
+        "Asking a colleague to sign a handover sheet"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "In a care setting, why is it especially important to be clear about the difference between necessary care and physical sexual harassment?",
+      "options": [
+        "Because close personal contact is a normal part of the work, so the line between consented care and unwanted sexual conduct must be clear",
+        "Because physical harassment is not covered by the Equality Act",
+        "Because touching is never allowed in care at all",
+        "Because only registered nurses are permitted to give personal care"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following best describes online or 'digital' sexual harassment as covered in the course?",
+      "options": [
+        "It only counts if it is sent from a work device",
+        "It cannot count as harassment because it happens on a screen",
+        "It is limited to comments made face to face",
+        "Sending sexual messages, images or emojis, or sharing explicit material in work group chats"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What is meant by 'third-party harassment'?",
+      "options": [
+        "Harassment that only a third witness can confirm",
+        "Harassment reported to a third organisation such as a regulator",
+        "Harassment that is investigated by a third-party company",
+        "Harassment of care workers by the people they support, family members or other visitors, rather than colleagues"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A care worker is repeatedly subjected to unwanted sexual comments by a person's relative during home visits. Which statement is correct?",
+      "options": [
+        "It only matters if the conduct comes from another member of staff",
+        "Nothing can be done unless the comments are made in writing",
+        "This can be third-party sexual harassment; the worker should not have to tolerate it and it should be reported to the employer",
+        "The worker must simply accept it because it comes from a family member, not a colleague"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "When a person who uses services is subjected to unwanted sexual conduct, why may this also be a safeguarding matter?",
+      "options": [
+        "Because the person may be an adult at risk, so safeguarding procedures must be followed as well",
+        "Because service users are never covered by the Equality Act",
+        "Because safeguarding only applies to staff, not service users",
+        "Because it removes the need to record anything"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What is the Equality Act 2010 described as in the course?",
+      "options": [
+        "The main law protecting people from discrimination, harassment and victimisation in Great Britain",
+        "A policy written by each individual employer",
+        "A law that applies only to people at work, not to those using services",
+        "A voluntary code of practice for care homes only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is listed as a protected characteristic under the Equality Act 2010?",
+      "options": [
+        "Sexual orientation",
+        "Length of service",
+        "Choice of shift pattern",
+        "Job title"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "For sexual harassment (unwanted conduct of a sexual nature) to apply, does the person affected have to share any particular protected characteristic?",
+      "options": [
+        "Yes; the person must first prove their religion or belief",
+        "Yes; only people with a disability are protected",
+        "No; sexual harassment can happen to anyone, whoever they are",
+        "Yes; it applies only to harassment related to age"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Under the Equality Act 2010, what is victimisation?",
+      "options": [
+        "Giving someone honest, fair feedback in an appraisal",
+        "Any disagreement between two colleagues about how to do their work",
+        "Asking a colleague to follow the organisation's policies",
+        "Treating someone badly because they have made, or supported, a complaint about harassment or discrimination"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of a 'protected act' under the Equality Act 2010?",
+      "options": [
+        "Choosing not to work overtime",
+        "Requesting a change to annual leave",
+        "Making a complaint of harassment, or giving evidence to support someone else's complaint",
+        "Refusing to attend a team meeting"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What duty did the Worker Protection (Amendment of Equality Act 2010) Act 2023 introduce?",
+      "options": [
+        "A preventative duty on employers to take reasonable steps to prevent sexual harassment of their workers",
+        "A duty on employees to sign a confidentiality agreement",
+        "A duty to remove all personal contact from care work",
+        "A duty on workers to investigate every complaint themselves"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an example of a 'reasonable step' an employer might take to prevent sexual harassment?",
+      "options": [
+        "Waiting for a tribunal claim before doing anything",
+        "Telling workers to keep concerns to themselves",
+        "Having a clear anti-harassment policy, providing training and safe reporting routes",
+        "Refusing to accept any reports of third-party harassment"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "According to the course, what can happen at an employment tribunal where an employer has not taken reasonable steps to prevent sexual harassment?",
+      "options": [
+        "The employer is exempt from any further duty",
+        "The worker is required to pay the employer's costs",
+        "The claim is automatically dismissed",
+        "The tribunal can increase the compensation awarded in a sexual harassment claim"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Whose responsibility is it to help create a respectful culture where sexual harassment is not tolerated?",
+      "options": [
+        "Only the person who has been harassed",
+        "Only the human resources department",
+        "Only external regulators",
+        "Everyone shares it; managers set the tone but every worker helps shape whether the workplace feels safe"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "A colleague confides that they have been sexually harassed at work. What is the best way to respond?",
+      "options": [
+        "Listen without judgement, believe them, reassure them, and be honest that you may need to pass the concern on",
+        "Promise to keep it completely secret and never tell anyone",
+        "Tell them to forget about it, as it was probably just a misunderstanding",
+        "Ask them why they did not do more to stop it at the time"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "When someone tells you they have experienced sexual harassment, why should you avoid promising to keep it completely secret?",
+      "options": [
+        "Because the person is unlikely to be telling the truth",
+        "Because secrets are always shared with the whole team",
+        "Because confidentiality is never important",
+        "Because you should not promise a secrecy you cannot keep, as the concern may need to be reported"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Who would normally be the right person to report a concern about sexual harassment to?",
+      "options": [
+        "The person who carried out the harassment",
+        "A friend outside work who is not involved",
+        "Your manager, a designated person, or your safeguarding lead",
+        "No one, until you have gathered enough proof"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "How should information about a sexual harassment concern be handled?",
+      "options": [
+        "Kept entirely secret even where there is a safeguarding risk",
+        "Handled sensitively and shared only with those who need to know in order to act",
+        "Discussed openly with the whole team so people are warned",
+        "Posted in the staff group chat"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is named in the course as a source of external support relating to sexual harassment?",
+      "options": [
+        "The person's next of kin",
+        "ACAS or the Equality and Human Rights Commission",
+        "A social media help page",
+        "The care worker's own family"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Conduct can amount to sexual harassment because of its effect on a person, even if the person responsible did not intend to cause any harm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Sexual harassment must be physical to count; verbal, non-verbal and online conduct are never included.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A single serious incident can amount to sexual harassment; it does not have to be repeated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Because harassment by a client or a visitor is 'part of the job', a care worker simply has to tolerate it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "The Worker Protection (Amendment of Equality Act 2010) Act 2023 places a duty on employers to take reasonable steps to prevent sexual harassment of their workers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "It is a care worker's job to investigate a sexual harassment complaint and decide whether harassment has 'really' happened.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Protection against victimisation is meant to help people speak up about harassment without fear of being punished for doing so.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "This awareness course replaces your organisation's policies, procedures and supervised training.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are forms sexual harassment can take, according to the course? (Select all that apply)",
+      "options": [
+        "Giving fair, respectful feedback about someone's work",
+        "Verbal, such as sexual comments or jokes",
+        "Online, such as sexual messages or images",
+        "Non-verbal, such as staring, leering or gestures",
+        "Ordinary, respectful conversation between colleagues"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following could be examples of verbal or non-verbal sexual harassment? (Select all that apply)",
+      "options": [
+        "Politely greeting a colleague at the start of a shift",
+        "Wolf-whistling or sexual gestures",
+        "Remarks about a person's body or appearance",
+        "Displaying or sharing sexual pictures"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "When someone tells you they have experienced sexual harassment, which of these are supportive ways to respond? (Select all that apply)",
+      "options": [
+        "Listen calmly and without judgement",
+        "Ask blaming questions about why they did not stop it",
+        "Tell them to forget about it as it was probably a misunderstanding",
+        "Reassure them that speaking up was the right thing to do",
+        "Believe them and take the concern seriously"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are good practice when reporting a sexual harassment concern? (Select all that apply)",
+      "options": [
+        "Share information only with those who need to know",
+        "Wait until you have gathered enough proof to be completely certain",
+        "Record the facts clearly using factual language",
+        "Report it promptly to your manager or safeguarding lead"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are protected characteristics under the Equality Act 2010, as listed in the course? (Select all that apply)",
+      "options": [
+        "Race",
+        "Disability",
+        "Number of years employed",
+        "Age",
+        "Job title"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are reasonable steps an employer might take under the preventative duty? (Select all that apply)",
+      "options": [
+        "Assessing and reducing the risks of harassment, including from third parties",
+        "Having a clear anti-harassment policy",
+        "Providing training",
+        "Discouraging workers from raising concerns"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are named in the course as sources of support relating to sexual harassment? (Select all that apply)",
+      "options": [
+        "Posting the details publicly on social media",
+        "ACAS or the Equality and Human Rights Commission",
+        "Your manager and your organisation's policies",
+        "The person who carried out the harassment",
+        "An employee assistance or occupational health service"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Equality Act 2010 defines sexual harassment as unwanted conduct of a ___ nature.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "sexual"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Sexual harassment is judged by its ___, not by whether the person responsible intended to cause harm.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "effect",
+              "impact"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Harassment of care workers by clients, family members or visitors, rather than by colleagues, is often called ___-party harassment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "third"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "The Equality Act 2010 protects people from victimisation, which means being treated badly for doing a protected ___, such as making a complaint of harassment.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "act"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Where a person who uses services is subjected to unwanted sexual conduct and may be an adult at risk, this may also be a ___ matter, and you should follow those procedures.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "safeguarding"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

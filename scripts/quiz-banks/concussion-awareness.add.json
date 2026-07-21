@@ -1,0 +1,544 @@
+{
+  "slug": "concussion-awareness",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is concussion?",
+      "options": [
+        "A cut or graze to the scalp that only needs a plaster",
+        "A type of everyday headache that everyone gets from time to time",
+        "A permanent illness that can never improve",
+        "A mild traumatic brain injury caused by a blow or jolt to the head or body"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "In a care setting, what is the most common cause of a head injury?",
+      "options": [
+        "Talking for too long",
+        "Reading in poor light",
+        "Eating too quickly",
+        "A fall"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Why can you not judge how serious a head injury is just by looking at the outside of the head?",
+      "options": [
+        "Because you must shave the hair first to see anything",
+        "Because concussion is a hidden injury that may leave no cut, bruise or swelling yet still affect the brain",
+        "Because a bruise always means the brain is fine",
+        "Because head injuries always look far worse than they are"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Which people are especially vulnerable to serious bleeding after even a minor bump to the head?",
+      "options": [
+        "People who take anticoagulant (blood-thinning) medication",
+        "People who sleep during the day",
+        "People who wear glasses",
+        "People who eat a lot of salt"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "Which best describes a care worker's role in relation to concussion?",
+      "options": [
+        "To recognise, give basic first aid, monitor, escalate, and record and report",
+        "To diagnose the concussion and decide on treatment",
+        "To prescribe medicines for the head injury",
+        "To carry out brain scans before help arrives"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "For at least how long should someone be watched closely after they have bumped or jolted their head?",
+      "options": [
+        "At least 24 hours",
+        "Only until they stand up again",
+        "There is no need to watch them at all",
+        "Just five minutes"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What number should you call if a person shows an emergency red flag after a head injury?",
+      "options": [
+        "111",
+        "The local pharmacy",
+        "101",
+        "999"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these can be an immediate sign of concussion soon after a head injury?",
+      "options": [
+        "Feeling more energetic than usual",
+        "Seeming dazed or confused and complaining of a headache",
+        "Nothing at all, because concussion never causes symptoms",
+        "A sudden and lasting improvement in eyesight"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "When can the symptoms of concussion appear?",
+      "options": [
+        "Never, because concussion has no symptoms",
+        "Straight away, or hours or even days later",
+        "Only ever within the first minute",
+        "Only after several months"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why does speed matter when a head injury is serious?",
+      "options": [
+        "Because head injuries are never serious and always settle on their own",
+        "Because bleeding or swelling inside the skull can be life-threatening and early hospital treatment can save a life",
+        "Because ambulances are cheaper earlier in the day",
+        "Because the person will be embarrassed if you wait"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "What does anticoagulant (blood-thinning) medication do?",
+      "options": [
+        "It cures concussion",
+        "It thickens the blood so bleeding stops faster",
+        "It makes the blood slower to clot, so bleeding is harder to stop",
+        "It has no effect on bleeding at all"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a red flag that means you should call 999 after a head injury?",
+      "options": [
+        "The person has a seizure, is repeatedly vomiting, or is difficult to wake",
+        "The person has a small graze on their hand from the fall",
+        "The person asks what time lunch will be served",
+        "The person feels a little tired and wants to sit down"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "As part of basic first aid, what should you encourage a person who has hurt their head to do?",
+      "options": [
+        "Drive themselves to hospital",
+        "Get up and walk about to shake it off",
+        "Stay still and rest, especially if they are dizzy or unsteady",
+        "Carry on with heavy physical work"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "If there is swelling or a bump after a head injury, what can you gently apply to help ease it?",
+      "options": [
+        "A hot water bottle",
+        "Nothing, because swelling must never be touched",
+        "Something cold, such as an ice pack wrapped in a cloth",
+        "A tight bandage around the neck"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do if someone loses consciousness after a head injury, even only briefly?",
+      "options": [
+        "Ask them to walk it off",
+        "Treat it as an emergency and call 999",
+        "Wait a day to see if it happens again",
+        "Give them a cup of tea and carry on"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why is it important to protect someone from another head injury while they are recovering from concussion?",
+      "options": [
+        "Because a second head injury before the first has healed can have far more serious effects",
+        "Because a second injury would speed up their recovery",
+        "Because they must return to all normal activities at once",
+        "Because concussion is not a real injury and only feels bad"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What does the brain most need in the early days after a concussion?",
+      "options": [
+        "Intense exercise",
+        "Bright lights and loud noise",
+        "Rest",
+        "A long car journey"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "What should you do after a person in your care has a head injury?",
+      "options": [
+        "Wait a week and then write a rough note if you still remember",
+        "Record the injury and your observations accurately, report it promptly, and follow the care plan and procedures",
+        "Say nothing and hope they recover without anyone knowing",
+        "Only tell a colleague verbally and keep no written record"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Why can a blow or jolt cause concussion inside the skull?",
+      "options": [
+        "Because the skull is filled with air",
+        "Because the brain is soft and floats in fluid, so a sudden impact can make it knock against the inside of the skull",
+        "Because concussion only affects the hair and scalp",
+        "Because the brain is firmly fixed and cannot move at all"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "Does a person have to be knocked out for it to be a concussion?",
+      "options": [
+        "Yes, otherwise it is only a headache",
+        "Only if they are over 65",
+        "Yes, there is always a loss of consciousness",
+        "No, a person can have concussion without ever being knocked out"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is a delayed sign that may develop in the hours or days after a head injury?",
+      "options": [
+        "Growing drowsiness and changes in behaviour such as becoming irritable or withdrawn",
+        "A total absence of any symptoms forever",
+        "Feeling calmer and more focused than ever",
+        "A permanent improvement in memory"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "mcq",
+      "question": "What useful information should you have ready for the paramedics?",
+      "options": [
+        "The person's favourite television programme",
+        "What happened, when it happened, and the person's medicines, especially any blood thinners",
+        "How long you have worked in care",
+        "The colour of the room where it happened"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "mcq",
+      "question": "How many red flags do you need to see before you act and call 999?",
+      "options": [
+        "You should wait until the next shift",
+        "At least three",
+        "A single red flag is enough to act on",
+        "All of them at once"
+      ],
+      "answer_index": 2
+    },
+    {
+      "type": "mcq",
+      "question": "During basic first aid, what should you NOT do unless it is safe and part of the person's plan?",
+      "options": [
+        "Encourage the person to stay still",
+        "Stay with the person",
+        "Reassure the person and keep them calm",
+        "Give the person food, drink or medicines"
+      ],
+      "answer_index": 3
+    },
+    {
+      "type": "mcq",
+      "question": "What does this Concussion Awareness training provide?",
+      "options": [
+        "A qualification to diagnose brain injuries",
+        "Awareness and knowledge to help you recognise and respond, without replacing supervised or first-aid training",
+        "Permission to prescribe medicines",
+        "A replacement for supervised or first-aid training"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "Concussion is a mild traumatic brain injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "You can always see a concussion from the outside as a cut, bruise or swelling.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A person must be knocked out for it to count as a concussion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "In a care setting, most head injuries follow a fall.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "Concussion symptoms always appear straight away, so if someone seems fine right after a fall you do not need to keep watching them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "true_false",
+      "question": "A single red flag after a head injury is enough for you to call 999.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "People who take blood-thinning medication can suffer serious bleeding from even a minor bump to the head.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "true_false",
+      "question": "A second head injury during recovery from concussion helps the person heal more quickly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are red flags that mean you should call 999 after a head injury? (Select all that apply)",
+      "options": [
+        "Repeated vomiting since the injury",
+        "A seizure or fit",
+        "Feeling a little tired and wanting to sit down",
+        "Loss of consciousness, even briefly",
+        "A small graze on the hand"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following can be signs or symptoms of concussion? (Select all that apply)",
+      "options": [
+        "Headache",
+        "Dizziness",
+        "Blurred vision and problems with memory",
+        "A lasting improvement in eyesight",
+        "Feeling more energetic than usual"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are part of a care worker's role after a head injury? (Select all that apply)",
+      "options": [
+        "Giving basic first aid",
+        "Prescribing treatment",
+        "Monitoring the person and escalating when needed",
+        "Diagnosing the exact brain injury",
+        "Recognising when someone may have hurt their head"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are appropriate basic first-aid actions after a head injury? (Select all that apply)",
+      "options": [
+        "Reassure the person and keep them calm",
+        "Give the person strong painkillers regardless of their plan",
+        "Gently apply something cold, such as an ice pack wrapped in a cloth, to swelling",
+        "Encourage the person to stay still and rest",
+        "Make the person walk around to prove they are fine"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are delayed changes to watch for in the hours and days after a head injury? (Select all that apply)",
+      "options": [
+        "A permanent improvement in concentration",
+        "Growing drowsiness",
+        "Feeling stronger and more alert than before the injury",
+        "A headache that comes on or gets worse",
+        "Increasing confusion and changes in behaviour"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following should be included when you record and report a head injury? (Select all that apply)",
+      "options": [
+        "Your personal guess about who is to blame",
+        "The action you took",
+        "What happened, when, and how the injury occurred",
+        "A note written a week later from rough memory",
+        "The symptoms you observed and how the person is over time"
+      ],
+      "payload": {
+        "correctIndices": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "type": "multi",
+      "question": "Which of the following are true about people who take anticoagulant (blood-thinning) medication? (Select all that apply)",
+      "options": [
+        "You should tell the ambulance service or health professional that they take this medication",
+        "They are completely safe from bleeding after a head injury",
+        "Their blood is slower to clot, so bleeding is harder to stop",
+        "Even a small knock to the head can cause dangerous bleeding",
+        "You should wait longer than usual before seeking any medical advice"
+      ],
+      "payload": {
+        "correctIndices": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Concussion is a mild traumatic ___ injury.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "brain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "In a care setting, most head injuries follow a ___.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "fall"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "If you see a red flag after a head injury, you must call ___ for urgent help.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "999"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "Anticoagulant medicines, also called blood ___, slow down the way the blood clots.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "thinners"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fill_blank",
+      "question": "After a head injury, a person should be watched closely for at least ___ hours.",
+      "payload": {
+        "blanks": [
+          {
+            "answers": [
+              "24",
+              "twenty-four"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
