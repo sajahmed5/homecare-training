@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>One-piece and two-piece appliances</h2><p>The pouch and the sticky part that fixes it to the skin are together called the <strong>appliance</strong>. In a <strong>one-piece</strong> appliance the pouch and the adhesive baseplate are joined as a single unit, so the whole thing is removed and replaced together. In a <strong>two-piece</strong> appliance the baseplate, sometimes called the flange, stays stuck to the skin while the pouch clips or sticks onto it, so the pouch can be changed without removing the baseplate each time.</p><ul><li><strong>One-piece:</strong> pouch and baseplate are one unit, changed together.</li><li><strong>Two-piece:</strong> the baseplate stays on; the pouch attaches to it.</li><li><strong>Individual:</strong> the type is chosen to suit the person and their stoma.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0f093f02-e9e0-41a5-8d1a-c220bcb37e47",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Appliances",
+          "decorative": false,
+          "file": {
+            "path": "images/appliances.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "97f77574-ecd8-4a7f-af52-64b39919356f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Closed and drainable pouches</h2><p>Pouches also differ in how they are emptied. A <strong>closed</strong> pouch is sealed and is taken off and thrown away when it is full, and it suits more formed output, so it is often used with a colostomy. A <strong>drainable</strong> pouch has an opening at the bottom that can be emptied and re-closed, which suits looser output, so it is usually used with an ileostomy. A urostomy pouch has a <strong>tap or valve</strong> at the bottom to drain urine and can be connected to a larger night bag.</p><p>People use the appliance that best fits their stoma, their output and their daily life, and a stoma nurse advises on the right products. Your job is to follow the care plan and use the appliances the person has been given, never to switch products or improvise. If they are running low on supplies, or a product does not seem to fit well, report it so it can be sorted out properly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2b2428f3-ad17-4c2b-9a9e-79c8e0b23f6a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is the difference between a one-piece and a two-piece stoma appliance?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>In a one-piece the pouch and baseplate are one unit; in a two-piece the baseplate stays on the skin and the pouch attaches to it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The two-piece lets the pouch be changed while the baseplate stays in place.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A one-piece is for urine and a two-piece is only ever for bowel motions.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; the difference is about how the parts fit together, not what the stoma drains.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A one-piece is reusable and a two-piece is always disposable.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is not the difference; both are single-use appliances.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no difference; the names mean the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; they are genuinely different designs, as described.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "730096c5-1a80-46a7-99f9-7432c968540b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

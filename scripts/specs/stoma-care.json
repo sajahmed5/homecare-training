@@ -1,0 +1,278 @@
+{
+  "slug": "stoma-care",
+  "courseTitle": "Stoma Care",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Understanding stomas",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Stoma Care</h2><p>Welcome to <strong>Stoma Care</strong>. Many of the people you support live with a stoma, and the everyday care around it has a direct effect on their comfort, confidence and dignity. This course helps you understand what a stoma is, the main types you may come across, and how clean, careful, person-centred support keeps the skin healthy and helps you notice problems early.</p><ul><li><strong>Understand:</strong> what a stoma is and why people have one.</li><li><strong>Support:</strong> everyday care with dignity, privacy and kindness.</li><li><strong>Report:</strong> when and how to raise concerns with the stoma nurse.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness only &mdash; know your limits</h2><p>Supporting a person with their stoma may be a <strong>delegated task</strong>. This course raises your <strong>awareness</strong> only. You should only carry out hands-on stoma care &mdash; such as emptying or changing a pouch &mdash; if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task is set out in the person's <strong>care plan</strong>. Wherever a person can manage their own stoma, support them to stay independent.</p><p>This course does not authorise you or anyone else to carry out stoma care without training, assessed competence and the care plan, and it does not replace the assessment of a registered stoma care nurse. If anything looks or feels abnormal, you stop and refer it to the stoma nurse or a registered nurse. Throughout, remember that your most important skills are noticing changes and reporting them promptly.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a stoma?",
+      "section": "Understanding stomas",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is a stoma?</h2><p>A <strong>stoma</strong> is an opening on the surface of the tummy that has been created by surgery to let waste &mdash; either bowel motions or urine &mdash; leave the body. The end of the bowel or the drainage tube is brought through the tummy wall and stitched to the skin, forming a small, moist, pinkish-red opening. Because the person can no longer control when waste comes out, a pouch, or bag, is worn over the stoma to collect it.</p><ul><li><strong>An opening:</strong> made by surgery on the surface of the tummy.</li><li><strong>Collects waste:</strong> bowel motions or urine, into a pouch.</li><li><strong>No control:</strong> the person cannot hold back what the stoma passes.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A simple picture of the systems</h2><p>To understand stomas it helps to picture two systems. In the <strong>digestive system</strong>, food travels from the stomach into the small bowel, where nutrients and much of the water are absorbed, and then into the large bowel, or colon, where more water is absorbed and the waste is formed into stools. In the <strong>urinary system</strong>, the kidneys make urine, which passes down to the bladder and out of the body.</p><p>A stoma is created when part of this normal route has to be bypassed &mdash; for example when a section of bowel or the bladder is removed or needs to rest and heal. Where the stoma is made along the tract decides what it drains and how runny or formed that output is. You do not need to be an expert in anatomy, but this simple picture helps you understand the person's needs.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is a stoma?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "An opening made by surgery on the tummy that lets bowel motions or urine leave the body into a pouch.", "correct": true, "feedback": "Correct. A stoma is a surgically made opening, and a pouch is worn over it to collect waste." },
+            { "text": "A dressing placed over a wound to keep it clean and dry.", "correct": false, "feedback": "No &mdash; that describes a wound dressing, not a stoma." },
+            { "text": "A tube passed into a vein to give fluids and medicines.", "correct": false, "feedback": "No &mdash; that is an intravenous line. A stoma drains bowel waste or urine." },
+            { "text": "A machine that measures a person's blood pressure.", "correct": false, "feedback": "No &mdash; a stoma is an opening on the tummy, not a monitor." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Types and reasons",
+      "section": "Understanding stomas",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The three main types</h2><p>There are three main types of stoma, named by where they are made. A <strong>colostomy</strong> is formed from the large bowel, or colon, and usually passes fairly formed, solid stools. An <strong>ileostomy</strong> is formed from the end of the small bowel, the ileum, and passes looser, more watery output. A <strong>urostomy</strong> drains urine, using a short piece of bowel to carry urine from the kidneys out through the stoma after the bladder has been removed or bypassed.</p><ul><li><strong>Colostomy:</strong> from the large bowel &mdash; more formed stools.</li><li><strong>Ileostomy:</strong> from the small bowel &mdash; looser, watery output.</li><li><strong>Urostomy:</strong> drains urine rather than bowel motions.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Why people have a stoma</h2><p>People have a stoma for many different reasons, and the decision is always a clinical one. Common reasons include bowel cancer or bladder cancer, inflammatory bowel disease such as Crohn's disease or ulcerative colitis, diverticulitis, a blockage or injury to the bowel, or problems controlling the bowel or bladder. A stoma allows waste to pass safely when the usual route cannot be used.</p><p>A stoma may be <strong>temporary</strong>, giving part of the bowel time to rest and heal before it is later reversed, or it may be <strong>permanent</strong>. Whatever the reason, it is a major change for the person, and how they feel about it matters as much as the practical care. Your role is to support the person and their stoma with respect &mdash; never to question the clinical decision behind it.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which type of stoma is formed from the large bowel and usually passes fairly formed stools?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "A colostomy.", "correct": true, "feedback": "Correct. A colostomy is made from the large bowel, or colon, and its output is usually more formed." },
+            { "text": "An ileostomy.", "correct": false, "feedback": "No &mdash; an ileostomy is made from the small bowel and passes looser, watery output." },
+            { "text": "A urostomy.", "correct": false, "feedback": "No &mdash; a urostomy drains urine, not bowel motions." },
+            { "text": "A tracheostomy.", "correct": false, "feedback": "No &mdash; a tracheostomy is an opening in the windpipe to help breathing, not a bowel stoma." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Appliances",
+      "section": "Equipment and daily care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>One-piece and two-piece appliances</h2><p>The pouch and the sticky part that fixes it to the skin are together called the <strong>appliance</strong>. In a <strong>one-piece</strong> appliance the pouch and the adhesive baseplate are joined as a single unit, so the whole thing is removed and replaced together. In a <strong>two-piece</strong> appliance the baseplate, sometimes called the flange, stays stuck to the skin while the pouch clips or sticks onto it, so the pouch can be changed without removing the baseplate each time.</p><ul><li><strong>One-piece:</strong> pouch and baseplate are one unit, changed together.</li><li><strong>Two-piece:</strong> the baseplate stays on; the pouch attaches to it.</li><li><strong>Individual:</strong> the type is chosen to suit the person and their stoma.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Closed and drainable pouches</h2><p>Pouches also differ in how they are emptied. A <strong>closed</strong> pouch is sealed and is taken off and thrown away when it is full, and it suits more formed output, so it is often used with a colostomy. A <strong>drainable</strong> pouch has an opening at the bottom that can be emptied and re-closed, which suits looser output, so it is usually used with an ileostomy. A urostomy pouch has a <strong>tap or valve</strong> at the bottom to drain urine and can be connected to a larger night bag.</p><p>People use the appliance that best fits their stoma, their output and their daily life, and a stoma nurse advises on the right products. Your job is to follow the care plan and use the appliances the person has been given, never to switch products or improvise. If they are running low on supplies, or a product does not seem to fit well, report it so it can be sorted out properly.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is the difference between a one-piece and a two-piece stoma appliance?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "In a one-piece the pouch and baseplate are one unit; in a two-piece the baseplate stays on the skin and the pouch attaches to it.", "correct": true, "feedback": "Correct. The two-piece lets the pouch be changed while the baseplate stays in place." },
+            { "text": "A one-piece is for urine and a two-piece is only ever for bowel motions.", "correct": false, "feedback": "No &mdash; the difference is about how the parts fit together, not what the stoma drains." },
+            { "text": "A one-piece is reusable and a two-piece is always disposable.", "correct": false, "feedback": "No &mdash; that is not the difference; both are single-use appliances." },
+            { "text": "There is no difference; the names mean the same thing.", "correct": false, "feedback": "No &mdash; they are genuinely different designs, as described." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Emptying and changing",
+      "section": "Equipment and daily care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Emptying a pouch</h2><p>A drainable or urostomy pouch is emptied regularly so it does not become too full and heavy, because a heavy pouch drags on the baseplate and can break the seal and leak. As a general guide a pouch is emptied when it is around <strong>one-third to one-half full</strong>, rather than left until it is bulging. If this task is delegated to you, clean your hands and put on gloves and an apron, then drain the contents into the toilet, and clean and close the outlet before disposing of your gloves.</p><ul><li><strong>When:</strong> before it becomes too full or heavy &mdash; around a third to a half.</li><li><strong>How:</strong> clean hands and gloves, drain into the toilet, re-close the outlet.</li><li><strong>Why:</strong> a heavy pouch pulls on the seal and is more likely to leak.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Changing a pouch and watching the output</h2><p>A closed pouch is removed and replaced rather than emptied, and even a two-piece baseplate is changed at regular intervals set out in the care plan. When changing an appliance you gently peel the baseplate away from the skin, clean the stoma and surrounding skin with plain water and dry it well, then fit the new appliance so it sits snugly around the stoma. Only carry this out if you are trained, competent and it is in the care plan.</p><p>Part of good support is being <strong>aware of the output</strong>. Notice roughly how much is passing and what it looks like, and where the care plan asks you to <strong>measure and record</strong> it, do so accurately and at the time. Report anything unusual &mdash; output that is much greater or much less than normal, very watery, or that contains blood &mdash; because changes in output can be an early sign that something is wrong.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "A drainable stoma pouch should usually be emptied before it becomes too full and heavy, at around one-third to one-half full.",
+          "correct": true,
+          "correctMsg": "Correct. Emptying before it overfills stops the pouch dragging on the seal and helps prevent leaks.",
+          "wrongMsg": "Not quite. A full, heavy pouch drags on the seal and is more likely to leak, so it is emptied before that."
+        }
+      ]
+    },
+    {
+      "label": "Dignity and odour",
+      "section": "Equipment and daily care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Dignity and privacy come first</h2><p>Stoma care is deeply personal, and many people feel self-conscious or embarrassed about it. Every time you support someone, protect their <strong>privacy and dignity</strong>: work in a private space, close doors and curtains, keep the person covered as much as possible, and explain what you are doing at each step. Always gain the person's <strong>consent</strong> before you start, and involve them in their own care as much as they are able.</p><ul><li><strong>Privacy:</strong> a private space, doors and curtains closed.</li><li><strong>Consent:</strong> explain, ask, and involve the person throughout.</li><li><strong>Respect:</strong> be discreet and never make the person feel like a task.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Odour, gas and disposal</h2><p>Worry about smell and wind is one of the biggest concerns people have. Reassure them that a well-fitting, sealed pouch keeps odour in, and that most modern pouches have a built-in <strong>filter</strong> that lets gas escape slowly while deodorising it, so the pouch does not balloon. Certain foods and fizzy drinks can increase wind or smell, and the person will often learn which ones affect them.</p><p>When you empty or change a pouch, be matter-of-fact and quick, and manage odour discreetly with good ventilation. Used pouches are placed in a <strong>disposal bag</strong> and put into the general household or clinical waste as directed &mdash; they are never flushed down the toilet, as they will block it. Only the contents of a drainable pouch go into the toilet. Handling this calmly protects the person's dignity.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Most modern stoma pouches have a built-in *filter* that lets gas escape slowly and deodorises it. A used pouch is placed in a disposal *bag* and put into the general *waste*, and it is never flushed down the *toilet*."
+        }
+      ]
+    },
+    {
+      "label": "Hygiene and infection control",
+      "section": "Equipment and daily care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Hand hygiene comes first</h2><p>Clean hands are the single most effective way to stop the spread of infection. Before and after any contact with a person's stoma or pouch you must decontaminate your hands, using soap and water or alcohol hand rub as appropriate, and put on clean disposable gloves and an apron. After the task you remove your gloves and apron, dispose of them correctly, and clean your hands again, because gloves are never a substitute for hand hygiene.</p><ul><li><strong>Before:</strong> clean your hands and put on gloves and an apron.</li><li><strong>After:</strong> remove gloves and apron, then clean your hands again.</li><li><strong>Always:</strong> gloves do not replace handwashing.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Clean, safe practice</h2><p>Good infection control protects both the person and you. Gather everything you need before you start so you are not searching with soiled gloves, and work on a clean surface. Clean the stoma and skin gently with plain water and wipes or gauze, not antiseptics, wet wipes with additives or creams, unless the care plan or stoma nurse directs otherwise, as these can harm the skin or stop the appliance sticking.</p><p>Dispose of used pouches, wipes, gloves and aprons straight into the correct waste, following your service's policy. If a person has a known infection, follow any extra precautions in their care plan. These simple, consistent habits &mdash; clean hands, clean technique and safe disposal &mdash; keep everyone safe and are the foundation of good stoma care.</p>"
+        }
+      ]
+    },
+    {
+      "label": "A healthy stoma",
+      "section": "Skin and stoma health",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What a healthy stoma looks like</h2><p>A healthy stoma is <strong>pink or red</strong>, moist and shiny, a little like the inside of the mouth. It may stick out slightly or sit flush with the skin, and its size often settles in the weeks after surgery. A stoma has <strong>no nerve endings</strong>, so touching or cleaning it does not hurt the person, and it is normal for it to produce a little mucus. A small amount of bleeding when it is cleaned is also normal, as the surface has many tiny blood vessels.</p><ul><li><strong>Colour:</strong> pink or red, moist and shiny.</li><li><strong>No pain:</strong> a stoma has no nerve endings, so cleaning it does not hurt.</li><li><strong>A little bleeding:</strong> a small ooze when cleaned is normal.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Healthy skin around the stoma</h2><p>The skin around the stoma, called the <strong>peristomal skin</strong>, should look the same as the skin on the rest of the tummy &mdash; intact, and not red, sore, broken, itchy or weepy. Healthy skin is what allows the appliance to stick properly and stay leak-free, so protecting it is central to good stoma care. Each time you support the person, take a moment to look at both the stoma and the skin around it.</p><p>Getting the fit right is the key to healthy skin. The opening in the baseplate should match the size and shape of the stoma so that output cannot seep onto the skin, but the baseplate does not press on the stoma itself. Stoma nurses provide a measuring guide or template for this, and the size may need adjusting as the stoma settles. If the skin starts to look sore or the appliance keeps leaking, this is a problem to report, not to ignore.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these describes a healthy stoma?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Pink or red, moist and shiny, with no pain when cleaned and perhaps a small amount of mucus.", "correct": true, "feedback": "Correct. A healthy stoma is pink or red and moist, and it has no nerve endings so cleaning it is painless." },
+            { "text": "Pale, grey or dusky in colour and cold to touch.", "correct": false, "feedback": "No &mdash; a pale, grey or dark stoma can mean a poor blood supply and must be reported urgently." },
+            { "text": "Dry, cracked and flaking on the surface.", "correct": false, "feedback": "No &mdash; a healthy stoma is moist, not dry and cracked." },
+            { "text": "Very painful to touch during cleaning.", "correct": false, "feedback": "No &mdash; a stoma has no nerve endings, so cleaning it should not hurt. Pain should be reported." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Protecting the skin",
+      "section": "Skin and stoma health",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keeping peristomal skin healthy</h2><p>Healthy skin starts with a clean, dry, well-fitting appliance. When you change a pouch, clean the skin gently with plain water, then <strong>dry it thoroughly</strong> before fitting the new appliance, because an appliance will not stick to damp skin and will leak. Avoid soaps with creams or perfumes, oily wipes and moisturisers around the stoma, as any residue stops the baseplate sticking.</p><ul><li><strong>Clean and dry:</strong> plain water, then dry the skin fully.</li><li><strong>Correct fit:</strong> the opening matches the stoma so output cannot reach the skin.</li><li><strong>No residue:</strong> avoid creams and oily wipes that stop the seal.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Leakage is the enemy of the skin</h2><p>The most common cause of sore peristomal skin is <strong>leakage</strong>, when output creeps under the baseplate and sits against the skin. Bowel output and urine both contain substances that irritate and break down skin if they are in contact with it for any length of time, so an appliance that repeatedly leaks needs sorting out, not just re-taping. A well-fitting flange, changed at the right intervals, is the best protection.</p><p>If you notice the skin becoming red, sore, itchy, weepy or broken, or the appliance is not staying stuck, do not try to treat it with creams or extra tape. Report it to the stoma nurse, who can check the fit, review the products and treat the skin properly. Catching skin problems early keeps the person comfortable and prevents small irritations from becoming painful wounds.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "You should always dry the skin thoroughly before fitting a new stoma appliance.",
+          "correct": true,
+          "correctMsg": "Correct. An appliance will not stick to damp skin, so drying well helps prevent leaks and sore skin.",
+          "wrongMsg": "Not quite. An appliance will not stick to damp skin, so the skin must be dried thoroughly before fitting it."
+        }
+      ]
+    },
+    {
+      "label": "Diet and hydration",
+      "section": "Skin and stoma health",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Diet awareness</h2><p>Most people with a stoma can, in time, eat a normal, balanced diet, though they often learn that particular foods affect their output, wind or odour. Eating regularly, chewing food <strong>well</strong> and not rushing meals all help the stoma work smoothly. Certain high-fibre foods, such as nuts, sweetcorn, mushrooms and the skins of fruit and vegetables, can be harder to digest and, for people with an ileostomy, are more likely to cause a blockage if not chewed thoroughly.</p><ul><li><strong>Balanced diet:</strong> most people return to eating normally over time.</li><li><strong>Chew well:</strong> thorough chewing helps prevent blockages.</li><li><strong>Individual:</strong> people learn which foods affect their own stoma.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Fluids and hydration</h2><p>Hydration matters for everyone, but it is especially important for people with an <strong>ileostomy</strong> or a <strong>urostomy</strong>. Because an ileostomy passes watery output before the large bowel can reabsorb water and salts, the person can lose more fluid and <strong>salt</strong> than usual and is at real risk of dehydration, particularly in hot weather or if they are unwell with vomiting or diarrhoea. People with a urostomy are also encouraged to drink plenty to keep urine flowing and reduce the risk of infection.</p><p>Unless the person has been told to limit fluids for another medical reason, encourage them to drink well through the day and follow any specific advice from the stoma nurse or dietitian. Watch for signs of dehydration such as a dry mouth, feeling thirsty, headaches, dark urine, cramps, tiredness or dizziness, and report them. Good hydration keeps the person well and helps the stoma work as it should.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A stoma made from the small bowel is called an *ileostomy*, and its watery output means the person can lose extra fluid and *salt*. People with an ileostomy or urostomy should drink plenty to avoid *dehydration*, and chewing food *well* helps prevent a blockage."
+        }
+      ]
+    },
+    {
+      "label": "Skin and stoma problems",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Sore skin and leakage</h2><p>Recognising problems early is one of the most valuable things you do. <strong>Sore or broken skin</strong> around the stoma &mdash; redness, weeping, itching or raw areas &mdash; is common and is usually linked to leakage or a poorly fitting appliance. Repeated <strong>leakage</strong>, where output escapes under the baseplate, needs to be reported rather than simply patched over, because it damages the skin and undermines the seal.</p><ul><li><strong>Sore skin:</strong> redness, weeping, itching or broken areas.</li><li><strong>Leakage:</strong> output escaping under the baseplate.</li><li><strong>Report it:</strong> the stoma nurse can review the fit and products.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Changes in the stoma itself</h2><p>The stoma can change in ways that need reporting. A <strong>prolapse</strong> is when the stoma becomes longer and sticks out much more than usual. A <strong>retraction</strong> is the opposite, when it sinks below the level of the skin, which often causes leaks. Some <strong>bleeding</strong> from the surface when cleaning is normal, but heavier bleeding, bleeding that does not stop, or blood in the output should always be reported.</p><p>The most urgent change is <strong>colour</strong>. A healthy stoma is pink or red, so if it turns pale, grey, dusky, purple or black, this may mean its blood supply is affected, and you must get help <strong>urgently</strong>. Any of these changes is something you observe and report to the stoma nurse or registered nurse, never something you try to fix or push back yourself.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person's stoma has turned from its normal pink-red colour to a dusky, dark purple. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Treat it as urgent and get help straight away, as a colour change can mean the blood supply is affected.", "correct": true, "feedback": "Correct. A pale, grey, purple or black stoma may mean a poor blood supply and needs urgent help." },
+            { "text": "Assume it is normal and simply note it for the next care review.", "correct": false, "feedback": "No &mdash; a marked colour change is a warning sign that needs reporting urgently, not later." },
+            { "text": "Rub the stoma to bring the colour back.", "correct": false, "feedback": "No &mdash; you never rub or manipulate the stoma; get help urgently." },
+            { "text": "Put extra tape over the pouch and carry on.", "correct": false, "feedback": "No &mdash; taping over it does nothing for a colour change; this needs urgent clinical help." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Output and dehydration",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Blockage and changes in output</h2><p>A <strong>blockage</strong> is a particular concern for people with an ileostomy, and sometimes a colostomy, and it can be serious. Warning signs include the stoma producing <strong>little or no output</strong>, or a sudden gush of very watery output, along with cramping tummy pain, a swollen tummy, a swollen stoma, and feeling sick or vomiting. If you notice these signs, stop the person eating solid food, encourage sips of fluid if they can manage them, and report it to the stoma nurse or seek medical advice promptly.</p><ul><li><strong>Little or no output:</strong> especially with cramping pain and a swollen tummy.</li><li><strong>Feeling sick or vomiting:</strong> a warning sign of a possible blockage.</li><li><strong>Act promptly:</strong> report changes in output rather than waiting.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Dehydration &mdash; watch and report</h2><p>Because people with an ileostomy or urostomy can lose extra fluid and salts, <strong>dehydration</strong> is a real risk, and it can come on quickly if the person has a bout of high, watery output, vomiting or diarrhoea. Signs to watch for include a very dry mouth, strong thirst, headaches, dark and reduced urine, muscle cramps, tiredness, dizziness and, if it becomes severe, confusion. Older people can become dehydrated and unwell fast.</p><p>If you spot these signs, encourage fluids where it is safe to do so and report your concerns without delay, as the person may need medical review. As with every problem in this course, your job is to <strong>observe and report</strong>, not to diagnose or treat. Knowing the warning signs and acting on them early is what keeps the people you support safe and well.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which set of signs might suggest a stoma blockage that needs reporting?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Little or no output, cramping tummy pain, a swollen tummy and feeling sick or vomiting.", "correct": true, "feedback": "Correct. These are warning signs of a possible blockage and should be reported promptly." },
+            { "text": "A steady, normal amount of output and the person feeling completely well.", "correct": false, "feedback": "No &mdash; those describe a stoma working normally, not a blockage." },
+            { "text": "A pink, moist stoma and intact, healthy skin around it.", "correct": false, "feedback": "No &mdash; those are signs of a healthy stoma, not a blockage." },
+            { "text": "The person drinking plenty of fluids through the day.", "correct": false, "feedback": "No &mdash; good hydration is helpful, not a sign of a blockage." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Support and summary",
+      "section": "Recognising and reporting",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The emotional impact</h2><p>Living with a stoma is not only a physical change; it can affect how a person feels about their body, their confidence and their relationships. People may feel anxious, low, embarrassed or worried about odour, leaks, intimacy or being seen as different, and these feelings can be just as hard as the practical care. Adjusting takes time, and how you respond makes a real difference.</p><ul><li><strong>Body image:</strong> a stoma can affect confidence and self-esteem.</li><li><strong>Worries:</strong> people may fear leaks, odour or being judged.</li><li><strong>Adjustment:</strong> coming to terms with a stoma takes time.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Person-centred support &amp; bringing it together</h2><p>Support the person by being calm, patient and non-judgemental, listening to their worries, protecting their dignity and encouraging their independence at their own pace. Reassure them that many people live full, active lives with a stoma, and signpost them to their stoma care nurse and to support groups where that would help. Small kindnesses &mdash; discretion, respect and never rushing &mdash; help people rebuild their confidence.</p><p>You have learned what a stoma is, the three main types, how appliances work, and how good daily care, healthy skin, diet and hydration all support wellbeing, alongside how to recognise and report problems. Remember the boundary this course has stressed throughout: this training is <strong>awareness only</strong>. It does <strong>not</strong> authorise you or anyone else to carry out stoma care without task-specific training, assessed competence and the care plan, and it does not replace the assessment of a registered stoma care nurse. Anything abnormal, you observe and report.</p>"
+        }
+      ]
+    }
+  ]
+}

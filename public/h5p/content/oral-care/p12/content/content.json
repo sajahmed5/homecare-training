@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Supporting people with dementia</h2><p>People living with dementia may find mouth care confusing or frightening, and may not understand what you are trying to do or be able to tell you when something hurts. This does not mean mouth care matters any less &mdash; if anything it needs more care, patience and skill, because problems can go unnoticed and untreated.</p><ul><li><strong>Familiar and calm:</strong> keep to a familiar routine, in a calm setting, at a good time of day.</li><li><strong>Simple steps:</strong> use short, clear words and gentle demonstration rather than long explanations.</li><li><strong>Watch behaviour:</strong> distress, refusing food or touching the face may signal pain.</li></ul><p>Never force care. Distress is a signal to stop, reassure and try again in a way that feels safer to the person.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d7453529-4662-40b2-acdb-1fe52ef1c4a2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dementia and mouth care",
+          "decorative": false,
+          "file": {
+            "path": "images/dementia-and-mouth-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "47c8849a-7b14-4c0b-b931-3bb33a162435",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Gentle approaches that help</h2><p>A few simple approaches make mouth care easier for someone with dementia. Choose a time when the person is calmest and least tired, and reduce noise and distraction. Approach from where they can see you, make eye contact, and explain in a few plain words what you would like to do. Demonstrating &mdash; miming brushing your own teeth, or letting the person hold the brush and start themselves &mdash; often works better than instructions, and offering a familiar flavour can help.</p><p>Break the task into small steps, work slowly, and give plenty of encouragement and reassurance. If the person becomes upset, stop, give them a moment, and try again later rather than pressing on. Keep watching for the behavioural signs of pain or a mouth problem, since the person may not be able to tell you in words, and report anything you notice. Above all, keep the person's dignity at the centre: a calm, respectful, unhurried manner is the most powerful tool you have.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "950ccd3f-2cc6-4da3-a068-b9d52dbf891d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which approach is most likely to help when supporting a person with dementia to have their teeth brushed?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Choose a calm time, use short simple words, demonstrate gently, work in small steps, and stop if they become distressed</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Familiar routine, simple communication, demonstration and stopping if distressed all support the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give long, detailed explanations and insist the person keeps going even when upset</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Long explanations can confuse, and pressing on through distress causes harm; stop and try again later.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip mouth care altogether because the person has dementia</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. People with dementia still need good mouth care; the skill is in how gently and simply you offer it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Do the task as fast as possible while the person is distracted, without explaining</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Rushing and not explaining can frighten the person; a calm, clear, step-by-step approach works better.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "045340e8-cab3-444f-872d-e8aadcf24e26",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

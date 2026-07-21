@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why people are fed enterally</h2><p><strong>Enteral feeding</strong> means giving nutrition directly into the stomach or gut rather than by mouth. People need it when eating and drinking normally is unsafe or not enough to keep them well. The most common reason is a swallowing problem, but people also have a PEG after a stroke, with progressive conditions such as motor neurone disease or advanced dementia, after head and neck cancer, or when they simply cannot take in enough by mouth.</p><ul><li><strong>Unsafe swallow:</strong> when eating or drinking could go into the lungs.</li><li><strong>Not enough by mouth:</strong> when normal intake cannot meet the person's needs.</li><li><strong>Long-term need:</strong> a stable, planned route for nutrition and hydration.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "401d9c5f-fe99-48f5-aeda-8247f699dc81",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Why enteral feeding?",
+          "decorative": false,
+          "file": {
+            "path": "images/why-enteral-feeding.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "68d19dd2-46c2-43c6-be1f-4e6254e8f081",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dysphagia &mdash; a swallowing problem</h2><p><strong>Dysphagia</strong> is difficulty swallowing. When someone has an unsafe swallow, food and drink can go the wrong way into the airway and lungs instead of the stomach. This is called <strong>aspiration</strong>, and it can cause choking and a serious chest infection known as aspiration pneumonia. For some people, a PEG is the safest way to make sure they get the nourishment they need without this risk.</p><p>The decision to feed someone enterally is always made by health professionals, often after a speech and language therapist has assessed the person's swallow. Some people are <strong>nil by mouth</strong>, meaning they must not have anything to eat or drink; others may still enjoy small tastes for pleasure if that has been assessed as safe. The care plan will always tell you exactly what a person can and cannot have by mouth, and you must follow it precisely.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ee21035c-347e-41b0-9f2a-bf00705bfca0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Aspiration means food or drink going into the airway and lungs instead of the stomach.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; aspiration is when food or drink enters the airway and lungs rather than the stomach, and it is a serious risk.",
+            "correctAnswerMessage": "Correct. Aspiration can cause choking and a serious chest infection, which is one reason some people are fed through a PEG."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "84c3a155-98f2-4a3a-b848-45be35fe7026",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

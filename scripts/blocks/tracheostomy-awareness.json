@@ -1,0 +1,97 @@
+{
+  "slug": "tracheostomy-awareness",
+  "title": "Tracheostomy Awareness",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Understanding tracheostomy"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p2",
+      "label": "What is a tracheostomy?",
+      "questions": 1,
+      "section": "Understanding tracheostomy"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p3",
+      "label": "Tube types",
+      "questions": 1,
+      "section": "Understanding tracheostomy"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p4",
+      "label": "Trach or laryngectomy",
+      "questions": 1,
+      "section": "Understanding tracheostomy"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p5",
+      "label": "Humidification",
+      "questions": 1,
+      "section": "Keeping the person safe day to day"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p6",
+      "label": "Stoma and ties",
+      "questions": 1,
+      "section": "Keeping the person safe day to day"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p7",
+      "label": "Water and comfort",
+      "questions": 1,
+      "section": "Keeping the person safe day to day"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p8",
+      "label": "What is suctioning?",
+      "questions": 1,
+      "section": "Suctioning and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p9",
+      "label": "Signs of a clogged airway",
+      "questions": 1,
+      "section": "Suctioning and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p10",
+      "label": "Inner tubes and limits",
+      "questions": 0,
+      "section": "Suctioning and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p11",
+      "label": "Recognising emergencies",
+      "questions": 1,
+      "section": "Recognising and responding to emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p12",
+      "label": "The bedhead sign and 999",
+      "questions": 1,
+      "section": "Recognising and responding to emergencies"
+    },
+    {
+      "type": "h5p",
+      "path": "tracheostomy-awareness/p13",
+      "label": "Getting help and summary",
+      "questions": 0,
+      "section": "Recognising and responding to emergencies"
+    }
+  ]
+}

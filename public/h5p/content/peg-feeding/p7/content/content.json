@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Feed and water flushes as prescribed</h2><p>Everything that goes through a PEG is <strong>prescribed</strong>: the type of feed, the amount, the rate and the water flushes. Feed may be given slowly by a pump, by gravity through a giving set, or in measured amounts by syringe, exactly as the dietitian has set out. <strong>Water flushes</strong> are given before and after feeds and medicines to keep the tube clear and to help meet the person's fluid needs, using the type and volume of water the care plan states.</p><ul><li><strong>Follow the prescription:</strong> feed type, amount and rate as set.</li><li><strong>Flush the tube:</strong> with prescribed water before and after feeds and medicines.</li><li><strong>Never improvise:</strong> only give what is prescribed, never anything else down the tube.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3b985c78-a66b-441c-9bb5-b674d88fb3ab",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Feeds, flushes and oral care",
+          "decorative": false,
+          "file": {
+            "path": "images/feeds-flushes-and-oral-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a6160443-06dd-4559-8141-9e261965760f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Oral care and medication awareness</h2><p>Even when someone is <strong>nil by mouth</strong>, their mouth still needs regular care. Without food and drink passing through, the mouth can become dry, sore and prone to infection, so <strong>oral care</strong> &mdash; gentle cleaning of the teeth, gums, tongue and lips, and keeping the lips moist &mdash; is an essential daily task that supports comfort and dignity. Never give food or fluids by mouth to someone who is nil by mouth, however small the amount seems.</p><p>Medicines through a PEG must be prescribed for that route and, where needed, provided in a suitable form. Not all tablets can be crushed and not all medicines are safe to give down a tube, so this must only be done by someone trained and delegated, following the plan and flushing between medicines to prevent blockage. If you have any doubt about a medicine, the feed or the flush, you check with the nurse or pharmacist rather than guess.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "07437f9d-ade1-46e8-b707-35f61eb10147",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person with a PEG is nil by mouth. What does good practice include?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Providing regular oral care to keep the mouth clean and comfortable, and giving nothing by mouth.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Being nil by mouth means no food or drink by mouth, but the mouth still needs daily care.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Offering small sips of water by mouth to keep them hydrated.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a nil by mouth instruction means nothing by mouth; hydration is given through the tube.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skipping oral care because they are not eating.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; oral care is even more important when someone is nil by mouth, to prevent a dry, sore mouth.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Crushing any tablet and putting it down the tube yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; not all medicines are safe to give this way; only a trained, delegated person following the plan may do this.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "06513333-0655-487f-941e-1e799dc8f279",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

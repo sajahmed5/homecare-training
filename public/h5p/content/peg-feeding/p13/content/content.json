@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>You have learned what a PEG is, why people are fed enterally, and how careful everyday support &mdash; clean hands, correct positioning, prescribed feeds and flushes, oral care and stoma care &mdash; keeps people safe, nourished and comfortable. You have also learned to recognise the complications that matter and to know which ones need urgent help. Above all, you have seen that noticing changes and reporting them promptly is the heart of your role.</p><ul><li><strong>Support safely:</strong> follow the care plan and the training you have been given.</li><li><strong>Protect dignity:</strong> treat feeding and personal care with respect.</li><li><strong>Escalate early:</strong> report anything that is not right to the nurse or dietitian.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "78c171a4-ab68-4d29-8c17-d5dceabfa8c0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Review and escalation",
+          "decorative": false,
+          "file": {
+            "path": "images/review-and-escalation.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "2d764cb3-16ab-4021-bdb3-c24a837d1817",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness only &mdash; a final reminder</h2><p>This course has raised your awareness of PEG feeding, but it does not qualify you to carry it out. This course does not authorise you to carry out PEG feeding, flushing or medication through a PEG without <strong>task-specific training</strong>, <strong>assessed competence</strong> and <strong>delegation by a registered nurse or dietitian</strong>, with the task set out in the person's care plan. Working within these limits is not a restriction on good care &mdash; it is part of it.</p><p>If you are ever unsure, or a tube has been dislodged or does not look right, <strong>never restart the feed &mdash; stop and escalate</strong>. When in doubt, ask. Reporting a concern early is always the right thing to do, and it is how you and the wider team keep the people you support safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "845b8317-d2ee-4fa1-b844-e8bb6216a8e4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

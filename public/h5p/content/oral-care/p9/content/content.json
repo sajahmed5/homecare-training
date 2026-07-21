@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Tooth decay, gum disease and pain</h2><p>Alongside ulcers and thrush, you may notice tooth decay, gum disease, pain or bleeding. These are common but should never be treated as normal or ignored. Spotting them early and reporting them helps the person get treatment before problems become serious.</p><ul><li><strong>Tooth decay:</strong> holes, dark or discoloured areas, sensitivity or toothache.</li><li><strong>Gum disease:</strong> red, swollen gums that bleed easily, and bad breath.</li><li><strong>Pain and bleeding:</strong> signs a person may show even if they cannot tell you in words.</li></ul><p>Remember that someone with dementia or communication difficulties may show mouth pain through behaviour rather than words &mdash; refusing food, pulling at their face, or becoming distressed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a431ad08-0333-42b0-972c-5e4af831ed70",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Decay, gums and pain",
+          "decorative": false,
+          "file": {
+            "path": "images/decay-gums-and-pain.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8a304fe0-8bb1-45d6-897f-20603ea92984",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising and reporting the signs</h2><p><strong>Tooth decay</strong> can cause toothache, sensitivity to hot and cold, visible holes or dark patches, and difficulty eating. <strong>Gum disease</strong> begins with gums that look red and swollen and bleed when brushed; left unchecked it can loosen and lose teeth. A little bleeding when brushing a neglected mouth often settles as cleaning improves, but bleeding that is heavy, persistent or unexplained should be reported.</p><p>Watch too for signs of <strong>pain</strong> in people who cannot easily tell you: wincing while eating, avoiding certain foods, rubbing the cheek or jaw, dribbling, disturbed sleep, or new restlessness and distress. Do not try to diagnose or treat any of this yourself, and never attempt to remove a loose tooth or adjust a denture. Keep the mouth as clean and comfortable as you can, offer softer food if eating hurts, record what you have noticed, and report it so a dentist can assess and treat. Prompt reporting is the kindest and safest thing you can do.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "1c78d9e1-81c6-497c-8e74-3031f7be7ea0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person with dementia who cannot tell you about pain may show mouth pain through their behaviour, such as refusing food or pulling at their face.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. People who cannot describe pain often show it through behaviour, so these signs matter and should be reported.",
+            "correctAnswerMessage": "Correct. When someone cannot explain pain in words, behaviour such as refusing food or touching the face can be the clue."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "8b633997-fd6c-4fea-a93c-22e92289a083",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

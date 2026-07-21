@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Emptying a pouch</h2><p>A drainable or urostomy pouch is emptied regularly so it does not become too full and heavy, because a heavy pouch drags on the baseplate and can break the seal and leak. As a general guide a pouch is emptied when it is around <strong>one-third to one-half full</strong>, rather than left until it is bulging. If this task is delegated to you, clean your hands and put on gloves and an apron, then drain the contents into the toilet, and clean and close the outlet before disposing of your gloves.</p><ul><li><strong>When:</strong> before it becomes too full or heavy &mdash; around a third to a half.</li><li><strong>How:</strong> clean hands and gloves, drain into the toilet, re-close the outlet.</li><li><strong>Why:</strong> a heavy pouch pulls on the seal and is more likely to leak.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2b823434-6cd2-4075-acb1-96491662addd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Emptying and changing",
+          "decorative": false,
+          "file": {
+            "path": "images/emptying-and-changing.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "9c548c75-1d95-46c5-9788-59b3f78a4f76",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Changing a pouch and watching the output</h2><p>A closed pouch is removed and replaced rather than emptied, and even a two-piece baseplate is changed at regular intervals set out in the care plan. When changing an appliance you gently peel the baseplate away from the skin, clean the stoma and surrounding skin with plain water and dry it well, then fit the new appliance so it sits snugly around the stoma. Only carry this out if you are trained, competent and it is in the care plan.</p><p>Part of good support is being <strong>aware of the output</strong>. Notice roughly how much is passing and what it looks like, and where the care plan asks you to <strong>measure and record</strong> it, do so accurately and at the time. Report anything unusual &mdash; output that is much greater or much less than normal, very watery, or that contains blood &mdash; because changes in output can be an early sign that something is wrong.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5866f6ee-4aef-4805-bba1-59195f135102",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A drainable stoma pouch should usually be emptied before it becomes too full and heavy, at around one-third to one-half full.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. A full, heavy pouch drags on the seal and is more likely to leak, so it is emptied before that.",
+            "correctAnswerMessage": "Correct. Emptying before it overfills stops the pouch dragging on the seal and helps prevent leaks."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "5f0474b2-f39f-461a-aae2-e453bfe4805f",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

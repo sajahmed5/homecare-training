@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recording and escalating</h2><p>Good mouth care is only complete when what you have done and noticed is written down and passed on. Accurate records keep care consistent between workers, let changes be tracked over time, and make sure problems reach the right professional. Reporting and recording are as much a part of oral care as the brushing itself.</p><ul><li><strong>Record the care:</strong> note the mouth care given, and any refusals or difficulties.</li><li><strong>Record what you see:</strong> describe ulcers, soreness, bleeding, dry mouth or denture problems factually.</li><li><strong>Escalate:</strong> report concerns promptly so a dentist or other professional can assess and treat.</li></ul><p>Write what you actually saw and did, not what you assume, and record it promptly while it is fresh.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9afe9970-ed3d-467f-92fc-a32dc127cca4",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Recording and referral",
+          "decorative": false,
+          "file": {
+            "path": "images/recording-and-referral.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "fda8e2b9-0c9b-45a3-9d01-6363a6eb9521",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on oral care. You have explored why the mouth matters so much for eating, comfort, dignity and general health, and its link to swallowing difficulties and aspiration pneumonia; how to give good daily mouth care, from mouth care plans and toothbrushing with fluoride to denture care, dry mouth and difficult moments; how to recognise common problems and when to refer to a dentist; and how to give person-centred care and record and escalate well. Throughout, daily mouth care is part of the person's care plan, and problems are reported and referred.</p><p>Remember the key point from the start: <strong>this e-learning covers knowledge and awareness only</strong>. It does not replace supervised, hands-on training, and it does not qualify you to assess, diagnose or treat any condition of the mouth &mdash; that is always the role of a dentist or other dental professional, whose assessment your daily care supports but never replaces. Speak to your manager about the practical training and workplace observation that go alongside this learning, and carry this attention to the mouth into the care of every person you support.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41f2bc21-9416-4c18-bc9b-15490a1548ed",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

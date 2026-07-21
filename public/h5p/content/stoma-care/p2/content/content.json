@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a stoma?</h2><p>A <strong>stoma</strong> is an opening on the surface of the tummy that has been created by surgery to let waste &mdash; either bowel motions or urine &mdash; leave the body. The end of the bowel or the drainage tube is brought through the tummy wall and stitched to the skin, forming a small, moist, pinkish-red opening. Because the person can no longer control when waste comes out, a pouch, or bag, is worn over the stoma to collect it.</p><ul><li><strong>An opening:</strong> made by surgery on the surface of the tummy.</li><li><strong>Collects waste:</strong> bowel motions or urine, into a pouch.</li><li><strong>No control:</strong> the person cannot hold back what the stoma passes.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3e63ab4a-525e-49d6-8783-94c287830416",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a stoma?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-stoma.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "1329d7d4-bb73-4e7e-b76f-9443470cbe57",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A simple picture of the systems</h2><p>To understand stomas it helps to picture two systems. In the <strong>digestive system</strong>, food travels from the stomach into the small bowel, where nutrients and much of the water are absorbed, and then into the large bowel, or colon, where more water is absorbed and the waste is formed into stools. In the <strong>urinary system</strong>, the kidneys make urine, which passes down to the bladder and out of the body.</p><p>A stoma is created when part of this normal route has to be bypassed &mdash; for example when a section of bowel or the bladder is removed or needs to rest and heal. Where the stoma is made along the digestive or urinary tract decides what it drains and how runny or formed that output is. You do not need to be an expert in anatomy, but this simple picture helps you understand the person's needs.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0dacd944-7384-4b15-acb3-23938c208365",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What is a stoma?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>An opening made by surgery on the tummy that lets bowel motions or urine leave the body into a pouch.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A stoma is a surgically made opening, and a pouch is worn over it to collect waste.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A dressing placed over a wound to keep it clean and dry.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that describes a wound dressing, not a stoma.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A tube passed into a vein to give fluids and medicines.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is an intravenous line. A stoma drains bowel waste or urine.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A machine that measures a person's blood pressure.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a stoma is an opening on the tummy, not a monitor.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "3b18e066-58b3-4947-ab07-2117da88aca8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

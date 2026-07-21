@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Complications to watch for</h2><p>Most people with a PEG have no serious problems, but complications do happen and noticing them early keeps people safe. Around the <strong>site</strong>, watch for infection (redness, swelling, warmth, pain, or discharge that may smell), <strong>leakage</strong> of feed or stomach contents around the tube, and <strong>granulation</strong> &mdash; extra red, moist, sometimes bleeding tissue that can grow at the stoma. During feeding, watch for coughing, breathlessness or a wet, gurgly voice, which can point to <strong>aspiration</strong>.</p><ul><li><strong>Site infection:</strong> redness, swelling, warmth, pain or smelly discharge.</li><li><strong>Leakage and granulation:</strong> feed leaking, or extra red tissue at the site.</li><li><strong>Aspiration signs:</strong> coughing, breathlessness or a wet-sounding voice.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "68e155e6-8b24-4a11-ac34-80607932c1db",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Spotting complications",
+          "decorative": false,
+          "file": {
+            "path": "images/spotting-complications.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cc26a2b2-fa3d-4695-87ef-c6a2f3098d65",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Feeling unwell and dehydration</h2><p>How the person feels matters just as much as the tube. <strong>Nausea, vomiting, bloating or diarrhoea</strong> can be caused by the feed running too fast, feed that is too cold, an intolerance, or another illness, and they can make a person miserable and unwell. Watch too for signs of <strong>dehydration</strong> &mdash; a dry mouth, dark or reduced urine, drowsiness, confusion or sunken eyes &mdash; which can develop if flushes and fluids are missed or if the person is losing fluid.</p><p>You are not expected to work out the cause of these problems, but you are expected to notice them, record what you see, and pass it on. Slowing or stopping a feed that is making someone sick, and reporting it, can prevent a small problem from becoming a serious one. Always describe what you have actually observed &mdash; what, when, and how much &mdash; so the nurse or dietitian can act.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "201978b5-4fe5-4e06-b57a-3ec729b8ade1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these is a sign of a possible PEG site infection that you should report?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Redness, swelling, warmth or pain around the stoma, or discharge that may smell.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are signs of a possible site infection and should be recorded and reported to the nurse.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person asking what time their next feed is due.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that is a normal question, not a sign of infection.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The external plate sitting in its usual, correct position.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a plate in the correct position is a sign that things are as they should be.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Clean, dry, healthy-looking skin around the tube.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; healthy skin is exactly what you are hoping to see, not a sign of infection.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "0bb178cc-d0b1-4a47-8f57-0ccc00f296a1",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

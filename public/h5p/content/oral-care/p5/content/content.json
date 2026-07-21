@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Toothbrushing and fluoride</h2><p>For people with their own teeth, regular brushing with fluoride toothpaste is the foundation of a healthy mouth. It removes the sticky layer of plaque that causes decay and gum disease, and the fluoride strengthens teeth against decay. The Mouth Care Matters programme and NICE guidance both recommend brushing as an everyday routine.</p><ul><li><strong>Twice a day:</strong> brush natural teeth in the morning and last thing at night.</li><li><strong>Fluoride toothpaste:</strong> use a fluoride toothpaste, as recommended for the person in their plan.</li><li><strong>Gentle and thorough:</strong> a small-headed soft brush, cleaning all tooth surfaces and along the gum line.</li></ul><p>Support the person to brush their own teeth where they can, offering help and prompts, and take over only as much as they genuinely need.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "cfe2a5f4-ac4e-4240-96cf-b72771fc844f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Brushing and fluoride",
+          "decorative": false,
+          "file": {
+            "path": "images/brushing-and-fluoride.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4ce833ab-5996-44f1-ad1c-90fdea9c5039",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Brushing well</h2><p>Use a small-headed, soft toothbrush and a pea-sized amount of fluoride toothpaste. Brush gently in small circular movements, covering the outer, inner and biting surfaces of every tooth and cleaning gently along the gum line where plaque gathers. Take your time, keep the person comfortable and let them see and feel what you are doing. After brushing, encourage the person to spit out the excess toothpaste but <strong>not to rinse with water</strong> &mdash; &ldquo;spit, don't rinse&rdquo; &mdash; because leaving a little fluoride on the teeth keeps protecting them.</p><p>Brush at least twice a day, and always before bed, as saliva flow falls during sleep and offers less natural protection. Change the toothbrush regularly and when it becomes worn. If a person has dentures as well as some natural teeth, care for both. Where the person cannot manage a normal toothbrush, follow the plan and any equipment recommended, and report any difficulty so the right support or advice can be arranged.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4cc9cceb-bb55-4e8a-91bc-c83f9aaad9d9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>After brushing with fluoride toothpaste, the person should spit out the excess but not rinse their mouth with water.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Best practice is to spit out excess toothpaste but not rinse, so fluoride stays on the teeth.",
+            "correctAnswerMessage": "Correct. &ldquo;Spit, don't rinse&rdquo; leaves a little fluoride on the teeth to keep protecting them."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "06bbc9d3-689b-4158-9b85-12a8725148df",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

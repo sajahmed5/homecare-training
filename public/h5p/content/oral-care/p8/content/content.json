@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Mouth ulcers and oral thrush</h2><p>Because you look inside the mouths of the people you support, you are well placed to notice problems early. You are not there to diagnose &mdash; that is for a dentist, GP or other professional &mdash; but knowing what common problems look like helps you report clearly and promptly. Two you will meet are mouth ulcers and oral thrush.</p><ul><li><strong>Mouth ulcers:</strong> small, painful sores, usually healing within about two weeks.</li><li><strong>Oral thrush:</strong> a fungal infection, often seen as white patches or a red, sore mouth.</li><li><strong>Your job:</strong> notice, record and report, so the right professional can assess and treat.</li></ul><p>Report these clearly, describing what you see and when it started, so the team can decide what care is needed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bccdcd60-93b5-45c3-a2e9-3c75cd12ea13",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Ulcers and thrush",
+          "decorative": false,
+          "file": {
+            "path": "images/ulcers-and-thrush.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7322666d-ccfb-4937-b09b-81d3c93d08e1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to look for and when to worry</h2><p>Mouth <strong>ulcers</strong> are common and usually heal on their own within a week or two. Keep the mouth clean and comfortable and avoid very spicy or acidic foods that sting. However, any ulcer or sore patch that has not healed after about <strong>three weeks</strong> should always be reported and referred for a dental opinion, as long-lasting mouth sores need proper checking.</p><p>Oral <strong>thrush</strong>, or candida, is a fungal infection more common in people who wear dentures, have a dry mouth, are unwell, or have taken antibiotics. It may appear as creamy-white patches that leave a red, sore area if wiped, or as a generally red, sore mouth and cracked corners. It can make eating uncomfortable. Thrush needs treatment, usually an antifungal from the GP or dentist, so report it promptly, and make sure dentures are being cleaned well and left out overnight. Whatever you see, describe it factually and pass it on &mdash; you notice and report; the professional assesses and treats.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c9031067-bd4b-4e20-88be-b86f79ab8ca5",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You notice a sore patch in a person's mouth. Roughly how long should such a sore or ulcer take to heal before it must be reported and referred for a dental opinion?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>An ulcer that has not healed after about three weeks should always be reported and referred</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Most ulcers heal within a couple of weeks; one lasting around three weeks or more needs a dental check.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is never any need to report a mouth ulcer, however long it lasts</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. An ulcer that lasts around three weeks or more should always be reported and checked by a dentist.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only if it is still there after a full year</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Waiting a year is far too long; a sore lasting about three weeks already needs a dental opinion.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You should try to treat it yourself before telling anyone</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Assessing and treating mouth problems is for dental and medical professionals; your job is to report.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "514cdd55-9611-439e-8545-31a6a9031a2c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "tracheostomy-awareness",
+  "courseTitle": "Tracheostomy Awareness",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Understanding tracheostomy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Tracheostomy Awareness</h2><p>Some of the people you support breathe through a small tube in an opening in the front of their neck. This is a <strong>tracheostomy</strong>. It changes how a person breathes, how they speak and how they call for help, so understanding it helps you support them safely, calmly and with dignity. This course explains what a tracheostomy is, how to help someone stay safe day to day, and &mdash; most importantly &mdash; how to recognise an emergency and get urgent help.</p><ul><li><strong>Understand:</strong> what a tracheostomy is and why someone has one.</li><li><strong>Support:</strong> everyday care that keeps the airway safe and comfortable.</li><li><strong>Respond:</strong> how to recognise an emergency and call for help fast.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness only &mdash; this is highly specialised care</h2><p>Tracheostomy care is <strong>highly specialised</strong>. This course raises your <strong>awareness</strong> only. It does <strong>not</strong> authorise you to suction the airway, to change or reinsert a tracheostomy tube, or to change an inner tube. You must never carry out any of these tasks unless you have had <strong>specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you in the person's care plan</strong>.</p><p>Your priority as a care worker is simple and vital: notice when something is wrong, recognise an emergency, and get urgent help by calling <strong>999</strong>. Throughout, remember that the person may not be able to speak normally, and that keeping them safe always goes hand in hand with protecting their dignity.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a tracheostomy?",
+      "section": "Understanding tracheostomy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>How we normally breathe</h2><p>Normally, air enters through the nose and mouth, travels down the throat, passes through the voice box, and then flows down the windpipe into the lungs. As air passes through the nose and upper airway it is <strong>warmed, moistened and filtered</strong>, and passing air across the voice box is what lets us make sounds and speak. Understanding this normal path helps you see what changes when someone has a tracheostomy.</p><ul><li><strong>The route:</strong> nose and mouth, throat, voice box, windpipe, lungs.</li><li><strong>The nose:</strong> warms, moistens and filters the air we breathe in.</li><li><strong>The voice box:</strong> lets air passing through it make sound for speech.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How a tracheostomy changes breathing</h2><p>A tracheostomy is a surgically created opening in the front of the neck that goes directly into the windpipe, below the voice box. The opening itself is called a <strong>stoma</strong>, and a small tube is usually held in it to keep it open. The person now breathes in and out through this tube in their neck, rather than through their nose and mouth.</p><p>Because air enters below the voice box, it often bypasses the nose and mouth completely. This has two big effects. First, the air is no longer warmed, moistened and filtered by the nose, so the airway can become dry. Second, less air passes across the voice box, so the person may not be able to <strong>speak normally</strong>, or may not be able to speak at all. Both of these shape the care you give.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why might a person with a tracheostomy be unable to speak normally?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Air enters below the voice box through the neck, so less air passes across the voice box to make sound.", "correct": true, "feedback": "Correct. With the tube bypassing the voice box, the person may not be able to speak normally, or at all." },
+            { "text": "A tracheostomy always damages the person's brain and their ability to think.", "correct": false, "feedback": "No &mdash; a tracheostomy affects the airway and voice box, not the person's thinking." },
+            { "text": "People with a tracheostomy simply choose not to talk to their carers.", "correct": false, "feedback": "No &mdash; the difficulty is physical, caused by air bypassing the voice box, not a choice." },
+            { "text": "The tube makes the person's mouth too dry to form any words.", "correct": false, "feedback": "No &mdash; the main reason is that air enters below the voice box, so little air passes across it." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tube types",
+      "section": "Understanding tracheostomy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Different kinds of tube</h2><p>Tracheostomy tubes come in different types, chosen by clinical staff to suit the person's needs. One important difference is whether a tube is cuffed or uncuffed. A <strong>cuffed</strong> tube has a small soft balloon around its lower end that can be inflated inside the windpipe, which helps seal the airway &mdash; often used when someone needs support with breathing. An <strong>uncuffed</strong> tube has no balloon and lets more air pass around it.</p><ul><li><strong>Cuffed tube:</strong> has an inflatable balloon that can seal the airway.</li><li><strong>Uncuffed tube:</strong> has no balloon, allowing air to pass around it.</li><li><strong>Chosen clinically:</strong> the type is decided by trained clinical staff.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Inner tubes</h2><p>Many tracheostomy tubes have two parts: an outer tube that stays in the neck, and a removable <strong>inner tube</strong> (sometimes called an inner cannula) that sits inside it. The inner tube can be taken out for cleaning while the outer tube keeps the airway open. This design is a safety feature, because if secretions build up and start to block the airway, the inner tube can be removed quickly to help clear it.</p><p>Cleaning or changing an inner tube is a <strong>trained task</strong>, not a routine one for every care worker. You must only remove, clean or replace an inner tube if you have had specific training, been assessed as competent, and it is delegated to you in the care plan. Knowing that an inner tube exists, and why it matters, still helps you understand what trained colleagues are doing and why a blockage can be so serious.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "A *cuffed* tube has a small balloon that can seal the airway, while an *uncuffed* tube has none. Many tubes also have a removable *inner* tube that can be taken out for *cleaning* while the outer tube keeps the airway open."
+        }
+      ]
+    },
+    {
+      "label": "Trach or laryngectomy",
+      "section": "Understanding tracheostomy",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Tracheostomy is not the same as laryngectomy</h2><p>At an awareness level, it is important to know that a tracheostomy and a laryngectomy are not the same thing, because it changes how an emergency is handled. With a <strong>tracheostomy</strong>, the voice box is still in place and there may still be a connection between the mouth, nose and the windpipe. With a <strong>laryngectomy</strong>, the voice box has been surgically removed and the windpipe is joined permanently to an opening in the neck.</p><ul><li><strong>Tracheostomy:</strong> the voice box remains, and an upper airway may still exist.</li><li><strong>Laryngectomy:</strong> the voice box is removed and the neck is the only airway.</li><li><strong>Why it matters:</strong> it changes how oxygen and help can reach the lungs.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role and your limits</h2><p>The key point for a person with a <strong>laryngectomy</strong> is that they can <strong>only</strong> breathe through the opening in their neck &mdash; there is no longer any connection through the nose or mouth to the lungs. This is exactly the kind of critical information that the person's bedhead emergency sign will make clear, so that anyone responding knows where their airway is. You do not need to memorise the clinical detail; you need to know it matters and where to find it.</p><p>Your role is to support the person's comfort, dignity and safety, to keep watch for problems, and to raise the alarm quickly. Your <strong>limits</strong> are equally clear: you do not suction, you do not change or reinsert the tube, and you do not change the inner tube, unless you are specifically trained, assessed as competent, and it is delegated to you.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "How does a laryngectomy differ from a tracheostomy at an awareness level?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "After a laryngectomy the neck opening is the only airway, with no connection through the nose or mouth to the lungs.", "correct": true, "feedback": "Correct. This is why the bedhead sign is so important &mdash; it tells responders where the person's airway is." },
+            { "text": "A laryngectomy is a temporary tube that is always removed within a week.", "correct": false, "feedback": "No &mdash; a laryngectomy permanently removes the voice box; the neck opening is the person's airway." },
+            { "text": "There is no difference at all; the two words mean exactly the same thing.", "correct": false, "feedback": "No &mdash; they are different, and the difference changes how an emergency is handled." },
+            { "text": "A person with a laryngectomy can always breathe normally through their nose.", "correct": false, "feedback": "No &mdash; after a laryngectomy the nose and mouth are no longer connected to the lungs." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Humidification",
+      "section": "Keeping the person safe day to day",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why the airway dries out</h2><p>Normally the nose warms and moistens every breath before it reaches the lungs. Because a tracheostomy lets air in below the nose, this natural moistening is lost, and the air reaching the windpipe is cold and dry. Over time this dries out the lining of the airway and makes the secretions (the mucus in the airway) thick and sticky, which is uncomfortable and can lead to a dangerous blockage.</p><ul><li><strong>The problem:</strong> air bypasses the nose, so it arrives cold and dry.</li><li><strong>The effect:</strong> secretions become thick, sticky and harder to clear.</li><li><strong>The risk:</strong> thick secretions can build up and block the tube.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How humidification helps</h2><p>To replace what the nose would normally do, the airway needs added moisture &mdash; this is called <strong>humidification</strong>. It can be provided in different ways set out in the care plan, such as a small heat and moisture exchanger fitted to the tube, saline as prescribed, or other equipment. Keeping the person well hydrated by encouraging drinks, unless their care plan says otherwise, also helps keep their secretions loose.</p><p>Your part is to follow the care plan and make sure any prescribed humidification is in place and not left off. If you notice the person's secretions becoming thick, crusty or difficult, or the equipment is missing or not working, report it to a nurse or senior colleague promptly. Good humidification is one of the simplest ways to keep the airway clear.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why does a person with a tracheostomy often need added humidification?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Air enters below the nose, so it is not warmed and moistened, and secretions can become thick and block the tube.", "correct": true, "feedback": "Correct. Humidification replaces the moisture the nose would normally add, keeping secretions loose." },
+            { "text": "Humidification is only for making the room smell pleasant for visitors.", "correct": false, "feedback": "No &mdash; it is about protecting the airway, not the room's smell." },
+            { "text": "Extra moisture is added so the person no longer needs to drink any fluids.", "correct": false, "feedback": "No &mdash; good hydration still matters; humidification does not replace drinking." },
+            { "text": "It is needed because the tracheostomy makes the person's skin too oily.", "correct": false, "feedback": "No &mdash; the reason is the dry air reaching the airway, not the skin." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Stoma and ties",
+      "section": "Keeping the person safe day to day",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Caring for the stoma and site</h2><p>The skin around the stoma needs to be kept <strong>clean and dry</strong>, because secretions and moisture can gather there and make the skin sore or broken. Cleaning the site and changing the dressing around a tracheostomy is usually a trained, delegated task, but every care worker can keep watch. Look at the skin and report any redness, soreness, swelling, bleeding, a bad smell or any discharge that seems new or increased.</p><ul><li><strong>Keep it clean and dry:</strong> secretions gathering at the site harm the skin.</li><li><strong>Keep watch:</strong> report redness, soreness, swelling, bleeding or odour.</li><li><strong>Follow the plan:</strong> site cleaning is a trained, delegated task.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Secure ties and a clear airway</h2><p>The tube is usually held in place by <strong>ties</strong> or a holder around the neck. These need to be secure enough that the tube cannot fall out, but not so tight that they dig in or hurt. A common guide is that they are snug but you can still slide a finger comfortably underneath. If ties are loose, very tight, soiled or damaged, report it, because a tube that is not held firmly can move or come out.</p><p>Keeping the airway <strong>clear</strong> is central to everything. Make sure nothing covers or presses on the tube opening &mdash; not bedding, clothing, a scarf, a cushion or the person's own chin when they slump forward. Position the person so they can breathe easily and the opening is not obstructed, and always keep a call bell or means of getting attention within their reach.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Tracheostomy ties should be so tight that no finger can fit underneath them.",
+          "correct": false,
+          "correctMsg": "Correct. Ties should be secure but not too tight &mdash; usually snug enough to slide a finger underneath comfortably.",
+          "wrongMsg": "Not quite. Ties must be secure, but ties that are too tight hurt and dig in; you should be able to slide a finger underneath."
+        }
+      ]
+    },
+    {
+      "label": "Water and comfort",
+      "section": "Keeping the person safe day to day",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keep water and fine particles away</h2><p>Because the tube leads straight into the windpipe, anything that goes into it goes towards the lungs. This means you must protect the opening from <strong>water, sprays and fine particles</strong>. Take great care at bath and shower time so that water cannot splash or pour into the tube, and never let the person go underwater. Keep the opening away from aerosols, talcum powder, and fluff or fibres from tissues, blankets, cotton wool or fluffy clothing.</p><ul><li><strong>Water:</strong> shield the tube during washing; water in it can reach the lungs.</li><li><strong>Sprays and powders:</strong> keep aerosols and talc away from the opening.</li><li><strong>Fluff and fibres:</strong> avoid loose fibres near the tube being breathed in.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Communication and emotional support</h2><p>Because speech is affected, plan how you will communicate. Agree simple signals, keep a pen and paper, a picture or alphabet board, or a tablet within reach, watch the person's face and gestures, and never rush them or pretend to understand when you do not. Some people use a speaking valve or other aids set up by clinical staff. Always make sure the person can call for help easily at all times.</p><p>Living with a tracheostomy can be frightening. People may feel anxious about breathing, upset at losing their normal voice, or self-conscious about how they look and sound. Offer <strong>emotional support</strong>: be patient and calm, give them time, keep their dignity by being discreet, and reassure them that help is close by. Kind, unhurried support matters just as much as the practical care.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Anything entering the tube travels towards the *lungs*, so keep *water*, sprays and loose *fluff* away from the opening. Because speech is affected, keep a pen, board or *tablet* within reach so the person can always communicate."
+        }
+      ]
+    },
+    {
+      "label": "What is suctioning?",
+      "section": "Suctioning and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What suctioning is</h2><p>A person who breathes through a tracheostomy cannot always cough secretions all the way out as they normally would. <strong>Suctioning</strong> is the use of a thin catheter and a machine to gently draw secretions out of the tube and airway to keep it clear. It can be uncomfortable and, done wrongly, can cause harm such as damage to the airway lining, bleeding, infection or a drop in the person's oxygen.</p><ul><li><strong>What it does:</strong> removes secretions the person cannot clear themselves.</li><li><strong>Why it is done:</strong> to keep the airway open and breathing comfortable.</li><li><strong>Handled carefully:</strong> done wrongly it can harm the airway or oxygen levels.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Only trained staff suction</h2><p>Because of these risks, suctioning is a <strong>specialised clinical skill</strong> carried out using a strict clean technique. It is only done by staff who have had specific training, been assessed as competent, and where it is delegated to them in the care plan. As a care worker without that training, you must <strong>never</strong> attempt to suction a tracheostomy, even if the person seems to need it or asks you to.</p><p>What you can and should do is <strong>recognise</strong> when someone may need their airway cleared and get the right person to help without delay. In an emergency, where the person cannot breathe, you still do not attempt suctioning &mdash; you call <strong>999</strong>. Knowing your limit here protects the person from harm.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You are supporting someone with a tracheostomy who you think may need suctioning. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Recognise that they may need their airway cleared and get a trained colleague to help without delay; do not suction yourself.", "correct": true, "feedback": "Correct. Suctioning is a specialised, delegated task &mdash; your job is to notice and get the right help quickly." },
+            { "text": "Carry out the suctioning yourself as quickly as you can.", "correct": false, "feedback": "No &mdash; you must never suction unless specifically trained, assessed competent and delegated to do so." },
+            { "text": "Wait several hours to see whether the problem clears on its own.", "correct": false, "feedback": "No &mdash; a person struggling to clear their airway needs prompt help, not a long wait." },
+            { "text": "Tell the person to hold their breath until a nurse arrives.", "correct": false, "feedback": "No &mdash; that could be dangerous; get trained help and, in an emergency, call 999." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Signs of a clogged airway",
+      "section": "Suctioning and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Signs someone needs their airway cleared</h2><p>You do not need to be trained in suctioning to <strong>spot</strong> when someone's airway may be clogging up with secretions. The person may sound bubbly, rattly or noisy when they breathe, or breathing may become harder work. You might see them become restless or anxious, cough repeatedly, or have visible secretions at or bubbling from the tube. They may signal to you that they feel they cannot clear it.</p><ul><li><strong>Listen:</strong> noisy, rattly, bubbly or whistling breathing.</li><li><strong>Look:</strong> harder breathing, visible secretions, restlessness or distress.</li><li><strong>Ask:</strong> the person may signal that they cannot clear the airway.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Report early, before it becomes an emergency</h2><p>These signs matter because secretions that are not cleared can build up and eventually <strong>block</strong> the tube, which is a life-threatening emergency. Reporting the early signs to a trained colleague promptly means the airway can be cleared safely before it reaches that point. Never ignore noisy or difficult breathing, and never assume someone else has already noticed.</p><p>While you wait for trained help, stay with the person, keep them calm, help them into a position where they can breathe as easily as possible if they are not already, and make sure nothing is covering the tube. If at any point the person is clearly struggling to breathe or cannot breathe, treat it as the emergency it is and call <strong>999</strong> straight away rather than waiting.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Noisy, rattly breathing or visible secretions at the tube can be a sign that a person's airway needs clearing and should be reported.",
+          "correct": true,
+          "correctMsg": "Correct. These are early signs to report promptly, before secretions build up and block the tube.",
+          "wrongMsg": "Not quite. Noisy or rattly breathing and visible secretions are important early signs that should be reported promptly."
+        }
+      ]
+    },
+    {
+      "label": "Inner tubes and limits",
+      "section": "Suctioning and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Inner tube care is a trained task</h2><p>You met the inner tube earlier &mdash; the removable inner part that can be taken out for cleaning while the outer tube keeps the airway open. Cleaning or changing it regularly helps stop secretions building up and blocking the airway, so it is an important part of tube care. But like suctioning, removing, cleaning and replacing an inner tube is a <strong>trained, delegated task</strong>, not something to attempt without that training.</p><ul><li><strong>Why it matters:</strong> a clean inner tube helps prevent a blockage.</li><li><strong>Who does it:</strong> only trained, assessed and delegated staff.</li><li><strong>Your part:</strong> notice problems and make sure trained care happens.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Staying clear about your limits</h2><p>It is worth being completely clear about where your role ends, because in the moment it can be tempting to help. Without specific training, assessed competence and delegation in the care plan, you must <strong>not</strong> suction the airway, <strong>not</strong> remove or clean the inner tube, and <strong>not</strong> change or reinsert the tracheostomy tube. These are not rules to slow care down &mdash; they exist because getting them wrong can seriously harm or even kill the person.</p><p>What you contribute is just as valuable: attentive observation, comfort, dignity, good communication, keeping the airway clear, following the care plan, and raising concerns early. If you are ever unsure whether a task is within your role, the safe answer is always to stop and ask a nurse or senior colleague rather than to guess.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Recognising emergencies",
+      "section": "Recognising and responding to emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>When breathing is in danger</h2><p>A tracheostomy emergency is usually about the airway being <strong>blocked</strong> or the tube being <strong>displaced</strong> (out of position or fallen out). Either can stop the person breathing properly and is life-threatening. The most important thing you can do is recognise it fast, because minutes matter when someone cannot breathe.</p><ul><li><strong>Blocked tube:</strong> secretions or a plug stopping air moving through it.</li><li><strong>Displaced tube:</strong> the tube out of position, partly out, or fallen out.</li><li><strong>Either way:</strong> breathing is threatened and you must act at once.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Signs of a tracheostomy emergency</h2><p>Warning signs include obvious difficulty breathing or breathing that is fast, laboured or noisy; the person looking frightened, panicking or unable to make a sound; whistling or no air felt at the tube; or the person clutching at their neck. A very serious sign is a <strong>colour change</strong> &mdash; the lips, face or skin turning pale, grey or blue &mdash; which means the person is not getting enough oxygen. They may become drowsy, confused or unresponsive.</p><p>You do not need to work out the exact cause. If a person with a tracheostomy is struggling to breathe, changing colour, or collapsing, treat it as an <strong>emergency</strong>. Your response is the same whether the tube is blocked or displaced: get help immediately by calling <strong>999</strong> and follow the person's emergency plan while you wait.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a serious warning sign of a tracheostomy emergency?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "The person's lips, face or skin turning pale, grey or blue while they struggle to breathe.", "correct": true, "feedback": "Correct. A colour change means the person is not getting enough oxygen &mdash; call 999 immediately." },
+            { "text": "The person chatting comfortably and breathing quietly and easily.", "correct": false, "feedback": "No &mdash; that describes someone who is well, not someone in an emergency." },
+            { "text": "The person drinking a cup of tea with their carer.", "correct": false, "feedback": "No &mdash; that is normal daily activity, not an emergency sign." },
+            { "text": "The humidification equipment being correctly fitted to the tube.", "correct": false, "feedback": "No &mdash; that is good care, not a warning sign." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "The bedhead sign and 999",
+      "section": "Recognising and responding to emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>The bedhead emergency algorithm</h2><p>Many people with a tracheostomy or laryngectomy have an <strong>emergency algorithm</strong> and a <strong>bedhead sign</strong> displayed where they are cared for, developed through the National Tracheostomy Safety Project. The bedhead sign shows critical information at a glance &mdash; what kind of airway the person has and key details a responder needs &mdash; and the algorithm sets out the steps to follow in an emergency. A green sign is used for a tracheostomy and a red sign for a laryngectomy.</p><ul><li><strong>Bedhead sign:</strong> shows the person's airway type and key details at a glance.</li><li><strong>Algorithm:</strong> the steps to follow when there is an airway emergency.</li><li><strong>Colour:</strong> green for a tracheostomy, red for a laryngectomy.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Call 999 without delay</h2><p>In an emergency your single most important action is to <strong>get urgent help</strong>. Call <strong>999</strong> straight away, or call out for immediate help and have someone else dial while you stay with the person. Tell the call handler clearly that the person has a tracheostomy, or a laryngectomy, so the right response comes. The bedhead sign helps you and the ambulance crew know which type of airway they are dealing with.</p><p>Do not spend time trying to fix the tube yourself, or attempting suctioning or a tube change you are not trained for, when someone cannot breathe. Trained responders and the emergency services follow the algorithm to manage the airway. Your job is to raise the alarm fast, share the vital information, and follow any instructions the call handler gives you.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What is your single most important action if a person with a tracheostomy cannot breathe?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Get urgent help immediately &mdash; call 999 (or have someone call) and tell them the person has a tracheostomy.", "correct": true, "feedback": "Correct. Raising the alarm fast and sharing that vital information is your priority." },
+            { "text": "Try to change the tracheostomy tube yourself before help arrives.", "correct": false, "feedback": "No &mdash; you must not change the tube unless trained; call 999 without delay." },
+            { "text": "Leave the person alone while you look for the care plan in the office.", "correct": false, "feedback": "No &mdash; never leave the person; call out for help and stay with them." },
+            { "text": "Wait to see whether their breathing improves before doing anything.", "correct": false, "feedback": "No &mdash; when someone cannot breathe, minutes matter; call 999 straight away." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Getting help and summary",
+      "section": "Recognising and responding to emergencies",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Stay with the person and get help</h2><p>In any tracheostomy emergency, two things go together: <strong>staying with the person</strong> and <strong>getting help</strong>. Do not leave someone who is struggling to breathe. Shout or use a call bell to summon colleagues, and get someone to call 999 while you remain with the person, keeping them as calm and reassured as you can and following the emergency plan and any instructions from the call handler.</p><ul><li><strong>Stay:</strong> never leave a person who is struggling to breathe alone.</li><li><strong>Summon help:</strong> call out, use the call bell, and get 999 dialled.</li><li><strong>Reassure:</strong> keep the person as calm as you can while help comes.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have seen what a tracheostomy is and how it changes breathing and speech, the difference between a tracheostomy and a laryngectomy, and the everyday care &mdash; humidification, a clean and secure site, a clear airway, keeping water and fluff away, good communication and emotional support &mdash; that keeps people safe and comfortable. You have also learned to recognise when an airway needs clearing and how to respond to an emergency by calling 999 and staying with the person.</p><p>Remember the boundary stressed throughout. This training is <strong>awareness only</strong>. It does <strong>not</strong> authorise anyone to suction, or to change or reinsert a tracheostomy tube, or to change an inner tube, without specific training, assessed competence and delegation in the care plan. Your priority is to recognise an emergency, get urgent help by calling 999, and protect the person's dignity every step of the way.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Stoma Care</h2><p>Welcome to <strong>Stoma Care</strong>. Many of the people you support live with a stoma, and the everyday care around it has a direct effect on their comfort, confidence and dignity. This course helps you understand what a stoma is, the main types you may come across, and how clean, careful, person-centred support keeps the skin healthy and helps you notice problems early.</p><ul><li><strong>Understand:</strong> what a stoma is and why people have one.</li><li><strong>Support:</strong> everyday care with dignity, privacy and kindness.</li><li><strong>Report:</strong> when and how to raise concerns with the stoma nurse.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9657f14d-6625-42dd-b80d-4e1523412291",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "737abda9-1bae-406c-aef1-d326b779be9a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness only &mdash; know your limits</h2><p>Supporting a person with their stoma may be a <strong>delegated task</strong>. This course raises your <strong>awareness</strong> only. You should only carry out hands-on stoma care &mdash; such as emptying or changing a pouch &mdash; if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task is set out in the person's <strong>care plan</strong>. Wherever a person can manage their own stoma, support them to stay independent.</p><p>This course does not authorise you or anyone else to carry out stoma care without training, assessed competence and the care plan, and it does not replace the assessment of a registered stoma care nurse. If anything looks or feels abnormal, you stop and refer it to the stoma nurse or a registered nurse. Throughout, remember that your most important skills are noticing changes and reporting them promptly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "bd8d9174-4f8a-4928-957b-9fa938937a2b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to PEG Feeding</h2><p>Welcome to <strong>PEG Feeding</strong>. Some of the people you support cannot eat and drink safely by mouth, and instead receive their food, fluids and medicines straight into the stomach through a feeding tube. This awareness course helps you understand what a PEG is, why people are fed this way, and how careful, respectful support keeps them safe, comfortable and nourished.</p><ul><li><strong>Understand:</strong> what a PEG is and why people are fed enterally.</li><li><strong>Support safely:</strong> the everyday care that surrounds a feeding tube.</li><li><strong>Escalate:</strong> when and how to report concerns to a nurse or dietitian.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "21f41510-539f-48dc-8e61-fb5ed23986e0",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0187adc1-34d5-44e8-ad9c-59c9dae4c84f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Awareness only &mdash; know your limits</h2><p>PEG feeding is a <strong>delegated clinical task</strong>. This course raises your <strong>awareness</strong> only. You may only carry out PEG feeding, flushing or giving medication through a PEG if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you by a registered nurse or dietitian</strong> and set out in the person's care plan.</p><p>This course does not authorise you to carry out PEG feeding without task-specific training, assessed competence and delegation by a registered nurse or dietitian. If you are ever unsure about a tube, or it has been dislodged, you must <strong>never</strong> restart the feed &mdash; you stop and escalate. Throughout, remember that your two most important skills are noticing changes and reporting them promptly.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8c7e4aab-16c8-485b-b22c-52e4719534bb",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

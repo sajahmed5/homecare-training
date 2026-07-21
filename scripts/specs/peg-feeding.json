@@ -1,0 +1,278 @@
+{
+  "slug": "peg-feeding",
+  "courseTitle": "PEG Feeding",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "About PEG feeding",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to PEG Feeding</h2><p>Welcome to <strong>PEG Feeding</strong>. Some of the people you support cannot eat and drink safely by mouth, and instead receive their food, fluids and medicines straight into the stomach through a feeding tube. This awareness course helps you understand what a PEG is, why people are fed this way, and how careful, respectful support keeps them safe, comfortable and nourished.</p><ul><li><strong>Understand:</strong> what a PEG is and why people are fed enterally.</li><li><strong>Support safely:</strong> the everyday care that surrounds a feeding tube.</li><li><strong>Escalate:</strong> when and how to report concerns to a nurse or dietitian.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness only &mdash; know your limits</h2><p>PEG feeding is a <strong>delegated clinical task</strong>. This course raises your <strong>awareness</strong> only. You may only carry out PEG feeding, flushing or giving medication through a PEG if you have had <strong>task-specific training</strong>, been <strong>assessed as competent</strong>, and the task has been <strong>delegated to you by a registered nurse or dietitian</strong> and set out in the person's care plan.</p><p>This course does not authorise you to carry out PEG feeding without task-specific training, assessed competence and delegation by a registered nurse or dietitian. If you are ever unsure about a tube, or it has been dislodged, you must <strong>never</strong> restart the feed &mdash; you stop and escalate. Throughout, remember that your two most important skills are noticing changes and reporting them promptly.</p>"
+        }
+      ]
+    },
+    {
+      "label": "What is a PEG?",
+      "section": "About PEG feeding",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>What is a PEG?</h2><p>PEG stands for <strong>percutaneous endoscopic gastrostomy</strong>. It is a soft, flexible feeding tube that passes through the wall of the abdomen directly into the stomach. It is placed by a specialist team using an endoscope, a thin camera passed down into the stomach to guide the tube into exactly the right position. Once healed, it gives a reliable, long-term route for feed, fluids and medicines.</p><ul><li><strong>Percutaneous:</strong> through the skin of the abdomen.</li><li><strong>Gastrostomy:</strong> an opening into the stomach.</li><li><strong>Long-term route:</strong> for feed, water and prescribed medicines.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>How the tube stays in place</h2><p>The tube is held in the stomach by a small internal disc or balloon, sometimes called the <strong>bumper</strong>, and on the outside by a flat plate or fixation device that rests gently against the skin. Between them sits the <strong>stoma</strong> &mdash; the small tunnel through the abdominal wall where the tube passes. This design keeps the tube secure while allowing feed to flow directly into the stomach.</p><p>Because the tube creates a direct route into the stomach, it must be handled cleanly and carefully every time. The position of the external plate is important: if it is too tight it can press on the skin, and if it is too loose the tube can move too far in or out. The care plan will record the correct position, and any change from it is something to report rather than adjust yourself unless you have been trained and delegated to do so.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "What does PEG stand for?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Percutaneous endoscopic gastrostomy &mdash; a feeding tube passed through the abdomen into the stomach.", "correct": true, "feedback": "Correct. It is placed through the skin using an endoscope and gives a direct route into the stomach." },
+            { "text": "Personal eating and gastric device fitted over the mouth.", "correct": false, "feedback": "No &mdash; a PEG is a tube into the stomach, not a device over the mouth." },
+            { "text": "A drainage tube that removes urine from the bladder.", "correct": false, "feedback": "No &mdash; that describes a urinary catheter, not a feeding tube." },
+            { "text": "A dressing used to protect a pressure ulcer.", "correct": false, "feedback": "No &mdash; a PEG is a feeding tube, not a wound dressing." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Why enteral feeding?",
+      "section": "About PEG feeding",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why people are fed enterally</h2><p><strong>Enteral feeding</strong> means giving nutrition directly into the stomach or gut rather than by mouth. People need it when eating and drinking normally is unsafe or not enough to keep them well. The most common reason is a swallowing problem, but people also have a PEG after a stroke, with progressive conditions such as motor neurone disease or advanced dementia, after head and neck cancer, or when they simply cannot take in enough by mouth.</p><ul><li><strong>Unsafe swallow:</strong> when eating or drinking could go into the lungs.</li><li><strong>Not enough by mouth:</strong> when normal intake cannot meet the person's needs.</li><li><strong>Long-term need:</strong> a stable, planned route for nutrition and hydration.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Dysphagia &mdash; a swallowing problem</h2><p><strong>Dysphagia</strong> is difficulty swallowing. When someone has an unsafe swallow, food and drink can go the wrong way into the airway and lungs instead of the stomach. This is called <strong>aspiration</strong>, and it can cause choking and a serious chest infection known as aspiration pneumonia. For some people, a PEG is the safest way to make sure they get the nourishment they need without this risk.</p><p>The decision to feed someone enterally is always made by health professionals, often after a speech and language therapist has assessed the person's swallow. Some people are <strong>nil by mouth</strong>, meaning they must not have anything to eat or drink; others may still enjoy small tastes for pleasure if that has been assessed as safe. The care plan will always tell you exactly what a person can and cannot have by mouth, and you must follow it precisely.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "Aspiration means food or drink going into the airway and lungs instead of the stomach.",
+          "correct": true,
+          "correctMsg": "Correct. Aspiration can cause choking and a serious chest infection, which is one reason some people are fed through a PEG.",
+          "wrongMsg": "Not quite &mdash; aspiration is when food or drink enters the airway and lungs rather than the stomach, and it is a serious risk."
+        }
+      ]
+    },
+    {
+      "label": "Types and your role",
+      "section": "About PEG feeding",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>PEG, PEG-J and NG tubes</h2><p>Not every feeding tube is the same, and it helps to recognise the differences. A <strong>PEG</strong> ends in the stomach. A <strong>PEG-J</strong> has an extra portion that passes on from the stomach into the small bowel (the jejunum), used for people who cannot tolerate feed in the stomach. A <strong>nasogastric (NG) tube</strong> is passed through the nose down into the stomach and is usually for shorter-term feeding.</p><ul><li><strong>PEG:</strong> feeds into the stomach through the abdomen.</li><li><strong>PEG-J:</strong> feeds beyond the stomach into the small bowel.</li><li><strong>NG tube:</strong> passes through the nose, usually short term.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role and your limits</h2><p>Your role in enteral feeding is important but clearly bounded. You may be delegated everyday tasks such as setting up a prescribed feed, giving water flushes, supporting stoma site care and helping the person stay comfortable &mdash; but only after task-specific training, assessment of your competence, and written delegation by a registered nurse or dietitian. You must never insert, remove or replace a tube, change what has been prescribed, or start giving feed into a tube you are unsure about.</p><p>An NG tube in particular must have its position confirmed by a trained person before every feed, because it can move; if you have not been trained and assessed to do this, you must not use it. Whatever the type of tube, the golden rule is the same: if anything is different from usual, or you are not certain the tube is safe to use, <strong>stop and escalate</strong> to the nurse or dietitian rather than carry on.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person's PEG tube looks different from how the care plan describes it, and you are not sure it is safe to use. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Stop, do not start the feed, and escalate to the registered nurse or dietitian.", "correct": true, "feedback": "Correct. Never use a tube you are unsure about &mdash; stop and escalate so a professional can check it." },
+            { "text": "Start the feed anyway, as the person is due their nutrition.", "correct": false, "feedback": "No &mdash; never start feed through a tube you are unsure about; the risk to the person is too high." },
+            { "text": "Try to push the tube back into position yourself.", "correct": false, "feedback": "No &mdash; adjusting or repositioning a tube is not your role; escalate to a nurse or dietitian." },
+            { "text": "Wait until the end of your shift and mention it to the next carer.", "correct": false, "feedback": "No &mdash; a possible problem with a feeding tube needs to be escalated promptly, not left." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hand hygiene and checks",
+      "section": "Safe feeding practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Clean hands, clean practice</h2><p>Because a feeding tube leads directly into the stomach, good hygiene protects the person from infection. Before you prepare or handle a feed you should <strong>wash your hands</strong> thoroughly with soap and water, put on a clean apron and gloves as your training and the care plan direct, and work on a clean surface. Feeds and giving sets are used within the times the manufacturer and dietitian specify, and any opened feed is stored and discarded as instructed.</p><ul><li><strong>Wash your hands:</strong> before and after handling the feed or tube.</li><li><strong>Use clean equipment:</strong> aprons, gloves and giving sets as directed.</li><li><strong>Follow the plan:</strong> feed type, rate and storage as prescribed.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Checking the tube before a feed</h2><p>If you have been trained and delegated to give a feed, you carry out the checks your training sets out <strong>before</strong> you begin. These may include looking at the external length or marking on the tube against what the care plan records, checking the fixation plate is in the right place, making sure the tube is not kinked or damaged, and confirming the stoma site looks as it should. For tubes that require it, position is confirmed in the way you have been taught before any feed goes down.</p><p>These checks matter because a tube can move, become blocked or be partly dislodged between feeds. If a check is not right &mdash; the marking has changed, the tube looks damaged, or you cannot confirm it is in the correct position &mdash; you do <strong>not</strong> start the feed. You escalate. Never assume a tube is fine; the few minutes spent checking protect the person from serious harm.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "Always *wash* your hands before handling a feed, and carry out the *checks* your training sets out before you begin. If a check is not right, do not *start* the feed &mdash; you *escalate* instead."
+        }
+      ]
+    },
+    {
+      "label": "Positioning",
+      "section": "Safe feeding practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Sitting upright reduces risk</h2><p>Position is one of the most important parts of safe feeding. The person should be sitting <strong>upright at around 30 to 45 degrees</strong> or more during the feed, and should stay in that position for a time afterwards &mdash; usually at least 30 to 60 minutes as set out in the care plan. Keeping them upright uses gravity to help the feed stay down and greatly reduces the risk of it coming back up and being aspirated into the lungs.</p><ul><li><strong>Upright:</strong> sit the person at 30 to 45 degrees or more.</li><li><strong>During and after:</strong> keep this position throughout and afterwards.</li><li><strong>Reduce aspiration:</strong> this is the main reason positioning matters.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Comfort and dignity while feeding</h2><p>Good positioning is also about comfort and dignity. Support the person with pillows so they are stable and relaxed, make sure they are not slipping down the bed or chair, and never feed someone who is lying flat unless a professional has specifically instructed it. If a person cannot tolerate sitting upright, or shows signs of discomfort, breathlessness or coughing during a feed, this is something to report.</p><p>Feeding is a personal part of someone's day, so involve the person as much as they are able. Explain what you are doing, offer choice about timing where the plan allows, keep them covered and comfortable, and give them your attention rather than rushing. Treating a feed with the same care and respect as a shared meal helps protect the person's dignity even when they cannot eat in the usual way.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why should a person be kept sitting upright during and after a PEG feed?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "It uses gravity to help the feed stay down and reduces the risk of aspiration into the lungs.", "correct": true, "feedback": "Correct. Sitting upright at around 30 to 45 degrees during and after the feed helps prevent aspiration." },
+            { "text": "It makes the feed flow faster so the person finishes sooner.", "correct": false, "feedback": "No &mdash; positioning is about safety, not speed; feed rate is set by the prescription." },
+            { "text": "It stops the tube from needing to be flushed with water.", "correct": false, "feedback": "No &mdash; flushing is still needed; positioning is about reducing aspiration risk." },
+            { "text": "It is only needed for people who can still eat by mouth.", "correct": false, "feedback": "No &mdash; upright positioning matters for everyone receiving a PEG feed." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feeds, flushes and oral care",
+      "section": "Safe feeding practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Feed and water flushes as prescribed</h2><p>Everything that goes through a PEG is <strong>prescribed</strong>: the type of feed, the amount, the rate and the water flushes. Feed may be given slowly by a pump, by gravity through a giving set, or in measured amounts by syringe, exactly as the dietitian has set out. <strong>Water flushes</strong> are given before and after feeds and medicines to keep the tube clear and to help meet the person's fluid needs, using the type and volume of water the care plan states.</p><ul><li><strong>Follow the prescription:</strong> feed type, amount and rate as set.</li><li><strong>Flush the tube:</strong> with prescribed water before and after feeds and medicines.</li><li><strong>Never improvise:</strong> only give what is prescribed, never anything else down the tube.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Oral care and medication awareness</h2><p>Even when someone is <strong>nil by mouth</strong>, their mouth still needs regular care. Without food and drink passing through, the mouth can become dry, sore and prone to infection, so <strong>oral care</strong> &mdash; gentle cleaning of the teeth, gums, tongue and lips, and keeping the lips moist &mdash; is an essential daily task that supports comfort and dignity. Never give food or fluids by mouth to someone who is nil by mouth, however small the amount seems.</p><p>Medicines through a PEG must be prescribed for that route and, where needed, provided in a suitable form. Not all tablets can be crushed and not all medicines are safe to give down a tube, so this must only be done by someone trained and delegated, following the plan and flushing between medicines to prevent blockage. If you have any doubt about a medicine, the feed or the flush, you check with the nurse or pharmacist rather than guess.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person with a PEG is nil by mouth. What does good practice include?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Providing regular oral care to keep the mouth clean and comfortable, and giving nothing by mouth.", "correct": true, "feedback": "Correct. Being nil by mouth means no food or drink by mouth, but the mouth still needs daily care." },
+            { "text": "Offering small sips of water by mouth to keep them hydrated.", "correct": false, "feedback": "No &mdash; a nil by mouth instruction means nothing by mouth; hydration is given through the tube." },
+            { "text": "Skipping oral care because they are not eating.", "correct": false, "feedback": "No &mdash; oral care is even more important when someone is nil by mouth, to prevent a dry, sore mouth." },
+            { "text": "Crushing any tablet and putting it down the tube yourself.", "correct": false, "feedback": "No &mdash; not all medicines are safe to give this way; only a trained, delegated person following the plan may do this." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Caring for the stoma",
+      "section": "Stoma site and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Keeping the site clean and dry</h2><p>The <strong>stoma</strong> is where the tube passes through the abdominal wall, and it needs simple, regular care to stay healthy. Once the site has healed, it is usually cleaned daily with cooled boiled water or as the care plan directs, and then <strong>dried gently but thoroughly</strong>. A clean, dry site is far less likely to become sore or infected, so avoid leaving moisture, creams or dressings around the tube unless a professional has asked for them.</p><ul><li><strong>Clean daily:</strong> as the care plan and your training set out.</li><li><strong>Keep it dry:</strong> dry the skin gently and thoroughly after cleaning.</li><li><strong>Observe as you go:</strong> notice the colour and condition of the skin each day.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>A daily chance to observe</h2><p>Every time you carry out stoma care you have a valuable chance to <strong>observe</strong> the site. Look at the skin around the tube for any redness, swelling, leakage, discharge, crusting or lumps of tissue, and notice whether the person shows any sign of pain or tenderness. Healthy skin around a settled PEG looks much like the surrounding skin and is not sore.</p><p>Reporting is part of caring for the site. If you notice anything different from usual &mdash; new redness, leaking around the tube, a smell, or the person wincing when the area is touched &mdash; record it and tell the nurse. You are not expected to diagnose or treat these things; your job is to keep the site clean and dry, to watch it closely, and to pass on what you see so problems are caught early.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "The skin around a PEG stoma should be cleaned and then dried gently and thoroughly to help prevent soreness and infection.",
+          "correct": true,
+          "correctMsg": "Correct. A clean, dry stoma site is much less likely to become sore or infected.",
+          "wrongMsg": "Not quite &mdash; the site should be kept clean and dried thoroughly, as moisture around the tube can lead to soreness and infection."
+        }
+      ]
+    },
+    {
+      "label": "Tube care",
+      "section": "Stoma site and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Rotating and advancing the tube</h2><p>Some PEG tubes need to be gently <strong>rotated</strong>, and sometimes pushed in a little and pulled back (advanced and retracted), as part of routine care. This helps stop the internal disc from becoming stuck against the stomach wall &mdash; a serious problem known as <strong>buried bumper</strong>. However, this is only done where the manufacturer and care plan say so, in the way you have been shown, and only if you have been trained and delegated to do it.</p><ul><li><strong>Only if instructed:</strong> not all tubes are rotated, and some must not be moved.</li><li><strong>Only if trained:</strong> follow the exact method you were taught.</li><li><strong>Gently:</strong> never force the tube, and stop if there is resistance or pain.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Keeping the tube working</h2><p>A little routine care keeps the tube reliable. Flushing with the prescribed water before and after every feed and every medicine is the single most important thing you can do to prevent a <strong>blockage</strong>. Keep the external part of the tube clean, make sure the fixation plate stays in the right position without pressing too tightly on the skin, and keep the tube secured so it does not pull or dangle and risk being dislodged.</p><p>Handle the tube gently at all times and never use force. If a tube feels tight, will not rotate when it usually does, or you meet resistance, stop and report it rather than push. Small, consistent habits &mdash; flushing well, securing the tube, checking the plate &mdash; prevent most common problems and keep the person's feeding route safe and comfortable.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Blocked tubes",
+      "section": "Stoma site and tube care",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recognising a blocked tube</h2><p>A <strong>blocked tube</strong> is one of the most common problems, and it is usually preventable. You may notice that a feed or flush will not go through, that there is unusual resistance when you try to flush, or that the pump keeps alarming. Blockages often happen when a tube is not flushed properly, when thick feed or medicine sits in it, or when medicines that should not be given down a tube have been used.</p><ul><li><strong>Feed or flush won't pass:</strong> a classic sign of a blockage.</li><li><strong>Resistance or alarms:</strong> the tube feels tight or the pump keeps beeping.</li><li><strong>Prevent it:</strong> flush with prescribed water before and after feeds and medicines.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What to do about a blockage</h2><p>If a tube seems blocked, do <strong>not</strong> force fluid down it with a syringe and never poke anything inside the tube to clear it &mdash; this can burst the tube or push a blockage further in. Follow only the gentle steps your training and the care plan set out, such as a gentle prescribed flush, and if the tube does not clear, stop and escalate to the nurse or dietitian.</p><p>A blocked tube means the person may miss their feed, fluids and medicines, so it needs to be reported promptly rather than left. Prevention is far better than cure: consistent flushing, giving only what is prescribed, and giving medicines correctly will stop the great majority of blockages before they start. When in doubt, never restart a feed through a tube you cannot flush &mdash; escalate instead.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You try to give a water flush and it will not go through the PEG, with unusual resistance. What is the safest action?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Do not force it, follow the gentle steps in your training, and escalate to the nurse or dietitian if it will not clear.", "correct": true, "feedback": "Correct. Never force a blocked tube; use only the method you were taught and escalate if it does not clear." },
+            { "text": "Push hard on the syringe to force the blockage through.", "correct": false, "feedback": "No &mdash; forcing fluid can burst the tube or drive the blockage further in." },
+            { "text": "Poke a thin object down the tube to clear it.", "correct": false, "feedback": "No &mdash; never put anything inside the tube; this can damage it or push the blockage in." },
+            { "text": "Give the feed anyway and hope it clears the blockage.", "correct": false, "feedback": "No &mdash; never restart a feed through a tube you cannot flush; stop and escalate." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Spotting complications",
+      "section": "Recognising and reporting complications",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Complications to watch for</h2><p>Most people with a PEG have no serious problems, but complications do happen and noticing them early keeps people safe. Around the <strong>site</strong>, watch for infection (redness, swelling, warmth, pain, or discharge that may smell), <strong>leakage</strong> of feed or stomach contents around the tube, and <strong>granulation</strong> &mdash; extra red, moist, sometimes bleeding tissue that can grow at the stoma. During feeding, watch for coughing, breathlessness or a wet, gurgly voice, which can point to <strong>aspiration</strong>.</p><ul><li><strong>Site infection:</strong> redness, swelling, warmth, pain or smelly discharge.</li><li><strong>Leakage and granulation:</strong> feed leaking, or extra red tissue at the site.</li><li><strong>Aspiration signs:</strong> coughing, breathlessness or a wet-sounding voice.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Feeling unwell and dehydration</h2><p>How the person feels matters just as much as the tube. <strong>Nausea, vomiting, bloating or diarrhoea</strong> can be caused by the feed running too fast, feed that is too cold, an intolerance, or another illness, and they can make a person miserable and unwell. Watch too for signs of <strong>dehydration</strong> &mdash; a dry mouth, dark or reduced urine, drowsiness, confusion or sunken eyes &mdash; which can develop if flushes and fluids are missed or if the person is losing fluid.</p><p>You are not expected to work out the cause of these problems, but you are expected to notice them, record what you see, and pass it on. Slowing or stopping a feed that is making someone sick, and reporting it, can prevent a small problem from becoming a serious one. Always describe what you have actually observed &mdash; what, when, and how much &mdash; so the nurse or dietitian can act.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which of these is a sign of a possible PEG site infection that you should report?",
+          "singleAnswer": true,
+          "answers": [
+            { "text": "Redness, swelling, warmth or pain around the stoma, or discharge that may smell.", "correct": true, "feedback": "Correct. These are signs of a possible site infection and should be recorded and reported to the nurse." },
+            { "text": "The person asking what time their next feed is due.", "correct": false, "feedback": "No &mdash; that is a normal question, not a sign of infection." },
+            { "text": "The external plate sitting in its usual, correct position.", "correct": false, "feedback": "No &mdash; a plate in the correct position is a sign that things are as they should be." },
+            { "text": "Clean, dry, healthy-looking skin around the tube.", "correct": false, "feedback": "No &mdash; healthy skin is exactly what you are hoping to see, not a sign of infection." }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Urgent problems",
+      "section": "Recognising and reporting complications",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>When a tube comes out or moves</h2><p>Some problems need <strong>urgent</strong> action. If a PEG <strong>falls out or is pulled out</strong>, the stoma can begin to close within hours, so this is an emergency &mdash; do not try to put the tube back in yourself, and get help straight away as your care plan and local guidance direct. A suspected <strong>buried bumper</strong>, where the internal disc has become embedded in the stomach wall, may show as pain, leakage, or feed that will not go in, and also needs urgent professional review.</p><ul><li><strong>Tube out:</strong> an emergency &mdash; the stoma can close within hours; get help now.</li><li><strong>Never re-insert:</strong> replacing a tube is a clinical task, not yours.</li><li><strong>Buried bumper:</strong> pain, leakage or feed not passing needs urgent review.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Never restart a tube you are unsure about</h2><p>The single most important safety rule runs through this whole course: <strong>never restart a feed through a tube you are unsure about, or that has been dislodged</strong>. If the tube has moved, come out, become blocked, or simply does not look or behave as it usually does, you stop and escalate. Feed going into the wrong place, such as the tunnel or the abdomen rather than the stomach, can cause serious harm.</p><p>Call for urgent help without delay if the person shows signs of choking or serious breathing difficulty, severe abdominal pain, a tube that has fallen out, bleeding from the site, or a sudden serious deterioration &mdash; follow your service's emergency procedure and dial 999 if life is at risk. For everything else that is not right, report promptly to the registered nurse or dietitian so it can be dealt with before it becomes an emergency.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap.</p>",
+          "textField": "If a PEG tube *falls* out, the stoma can begin to close within *hours*, so this is an *emergency*. Never try to *reinsert* the tube yourself, and never *restart* a feed through a tube you are unsure about."
+        }
+      ]
+    },
+    {
+      "label": "Review and escalation",
+      "section": "Recognising and reporting complications",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>You have learned what a PEG is, why people are fed enterally, and how careful everyday support &mdash; clean hands, correct positioning, prescribed feeds and flushes, oral care and stoma care &mdash; keeps people safe, nourished and comfortable. You have also learned to recognise the complications that matter and to know which ones need urgent help. Above all, you have seen that noticing changes and reporting them promptly is the heart of your role.</p><ul><li><strong>Support safely:</strong> follow the care plan and the training you have been given.</li><li><strong>Protect dignity:</strong> treat feeding and personal care with respect.</li><li><strong>Escalate early:</strong> report anything that is not right to the nurse or dietitian.</li></ul>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Awareness only &mdash; a final reminder</h2><p>This course has raised your awareness of PEG feeding, but it does not qualify you to carry it out. This course does not authorise you to carry out PEG feeding, flushing or medication through a PEG without <strong>task-specific training</strong>, <strong>assessed competence</strong> and <strong>delegation by a registered nurse or dietitian</strong>, with the task set out in the person's care plan. Working within these limits is not a restriction on good care &mdash; it is part of it.</p><p>If you are ever unsure, or a tube has been dislodged or does not look right, <strong>never restart the feed &mdash; stop and escalate</strong>. When in doubt, ask. Reporting a concern early is always the right thing to do, and it is how you and the wider team keep the people you support safe.</p>"
+        }
+      ]
+    }
+  ]
+}

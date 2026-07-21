@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>PEG, PEG-J and NG tubes</h2><p>Not every feeding tube is the same, and it helps to recognise the differences. A <strong>PEG</strong> ends in the stomach. A <strong>PEG-J</strong> has an extra portion that passes on from the stomach into the small bowel (the jejunum), used for people who cannot tolerate feed in the stomach. A <strong>nasogastric (NG) tube</strong> is passed through the nose down into the stomach and is usually for shorter-term feeding.</p><ul><li><strong>PEG:</strong> feeds into the stomach through the abdomen.</li><li><strong>PEG-J:</strong> feeds beyond the stomach into the small bowel.</li><li><strong>NG tube:</strong> passes through the nose, usually short term.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "793e2c17-d470-46f5-aabf-82ba294f66ba",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types and your role",
+          "decorative": false,
+          "file": {
+            "path": "images/types-and-your-role.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "19297df5-5555-4cc4-bdaf-5bc9ce11b04c",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role and your limits</h2><p>Your role in enteral feeding is important but clearly bounded. You may be delegated everyday tasks such as setting up a prescribed feed, giving water flushes, supporting stoma site care and helping the person stay comfortable &mdash; but only after task-specific training, assessment of your competence, and written delegation by a registered nurse or dietitian. You must never insert, remove or replace a tube, change what has been prescribed, or start giving feed into a tube you are unsure about.</p><p>An NG tube in particular must have its position confirmed by a trained person before every feed, because it can move; if you have not been trained and assessed to do this, you must not use it. Whatever the type of tube, the golden rule is the same: if anything is different from usual, or you are not certain the tube is safe to use, <strong>stop and escalate</strong> to the nurse or dietitian rather than carry on.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "90ce21b7-8f54-4bec-bcd5-340a1671272d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person's PEG tube looks different from how the care plan describes it, and you are not sure it is safe to use. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stop, do not start the feed, and escalate to the registered nurse or dietitian.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Never use a tube you are unsure about &mdash; stop and escalate so a professional can check it.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Start the feed anyway, as the person is due their nutrition.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; never start feed through a tube you are unsure about; the risk to the person is too high.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Try to push the tube back into position yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; adjusting or repositioning a tube is not your role; escalate to a nurse or dietitian.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait until the end of your shift and mention it to the next carer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a possible problem with a feeding tube needs to be escalated promptly, not left.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "8362d81f-8dd7-46ac-8d79-5e7aa3cf13b5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

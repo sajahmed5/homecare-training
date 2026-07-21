@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Welcome to Oral Care</h2><p>Welcome to this awareness course on <strong>oral care</strong>. Looking after the mouth is one of the most important, yet most often overlooked, parts of daily personal care. A clean, comfortable mouth helps a person eat, drink, speak, smile and feel like themselves, while a neglected mouth can cause pain, poor nutrition, infection and a real loss of dignity. This course is for care workers in England and is grounded in national guidance, including NICE guideline NG48 and quality standard QS151, and the Mouth Care Matters programme.</p><ul><li><strong>Everyday care:</strong> daily mouth care is part of personal care and the person's care plan.</li><li><strong>Your role:</strong> to support good daily mouth care, and to notice and report problems.</li><li><strong>Knowing your limits:</strong> assessment and treatment of the mouth are for dental professionals.</li></ul><p>This e-learning covers the <strong>knowledge and awareness</strong> element only. It does not replace supervised, hands-on training, and it does not qualify you to assess, diagnose or treat any condition of the mouth or teeth &mdash; that is the role of a dentist or other dental professional. Giving mouth care safely must also be observed at work by your employer.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5ffb92e1-840d-41d9-8278-512de1fd347c",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Welcome",
+          "decorative": false,
+          "file": {
+            "path": "images/welcome.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0095a263-2ba1-4493-98f9-39565933ac6a",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What this course covers</h2><p>Over the next pages you will move from why oral care matters, through the practical skills of daily mouth care, to recognising problems and caring for each person as an individual.</p><ul><li><strong>Why it matters:</strong> the links between the mouth, eating, comfort, dignity, general health and aspiration pneumonia.</li><li><strong>Daily practice:</strong> mouth care plans, toothbrushing, fluoride, denture care, dry mouth and people who find care difficult.</li><li><strong>Problems and people:</strong> spotting common problems, when to refer to a dentist, and person-centred, well-recorded care.</li></ul><p>Throughout, keep the people you support in mind. Good oral care is not a specialist task reserved for clinics &mdash; it is the steady, respectful daily support you give, followed by clear reporting when something is not right so the right professional can help.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8e77dc9d-1fc8-4d2e-83fa-307742087c31",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

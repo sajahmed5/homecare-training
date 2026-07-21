@@ -1,0 +1,97 @@
+{
+  "slug": "stoma-care",
+  "title": "Stoma Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "stoma-care/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Understanding stomas"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p2",
+      "label": "What is a stoma?",
+      "questions": 1,
+      "section": "Understanding stomas"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p3",
+      "label": "Types and reasons",
+      "questions": 1,
+      "section": "Understanding stomas"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p4",
+      "label": "Appliances",
+      "questions": 1,
+      "section": "Equipment and daily care"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p5",
+      "label": "Emptying and changing",
+      "questions": 1,
+      "section": "Equipment and daily care"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p6",
+      "label": "Dignity and odour",
+      "questions": 1,
+      "section": "Equipment and daily care"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p7",
+      "label": "Hygiene and infection control",
+      "questions": 0,
+      "section": "Equipment and daily care"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p8",
+      "label": "A healthy stoma",
+      "questions": 1,
+      "section": "Skin and stoma health"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p9",
+      "label": "Protecting the skin",
+      "questions": 1,
+      "section": "Skin and stoma health"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p10",
+      "label": "Diet and hydration",
+      "questions": 1,
+      "section": "Skin and stoma health"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p11",
+      "label": "Skin and stoma problems",
+      "questions": 1,
+      "section": "Recognising and reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p12",
+      "label": "Output and dehydration",
+      "questions": 1,
+      "section": "Recognising and reporting"
+    },
+    {
+      "type": "h5p",
+      "path": "stoma-care/p13",
+      "label": "Support and summary",
+      "questions": 0,
+      "section": "Recognising and reporting"
+    }
+  ]
+}

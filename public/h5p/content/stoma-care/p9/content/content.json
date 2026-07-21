@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping peristomal skin healthy</h2><p>Healthy skin starts with a clean, dry, well-fitting appliance. When you change a pouch, clean the skin gently with plain water, then <strong>dry it thoroughly</strong> before fitting the new appliance, because an appliance will not stick to damp skin and will leak. Avoid soaps with creams or perfumes, oily wipes and moisturisers around the stoma, as any residue stops the baseplate sticking.</p><ul><li><strong>Clean and dry:</strong> plain water, then dry the skin fully.</li><li><strong>Correct fit:</strong> the opening matches the stoma so output cannot reach the skin.</li><li><strong>No residue:</strong> avoid creams and oily wipes that stop the seal.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "9ff1b5f1-ec31-4636-ba0a-1c5fbaaadf06",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Protecting the skin",
+          "decorative": false,
+          "file": {
+            "path": "images/protecting-the-skin.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "4e31d632-b1f6-4c5d-9b8c-d4fde96fb7f1",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Leakage is the enemy of the skin</h2><p>The most common cause of sore peristomal skin is <strong>leakage</strong>, when output creeps under the baseplate and sits against the skin. Bowel output and urine both contain substances that irritate and break down skin if they are in contact with it for any length of time, so an appliance that repeatedly leaks needs sorting out, not just re-taping. A well-fitting flange, changed at the right intervals, is the best protection.</p><p>If you notice the skin becoming red, sore, itchy, weepy or broken, or the appliance is not staying stuck, do not try to treat it with random creams or extra tape. Report it to the stoma nurse, who can check the fit, review the products and treat the skin properly. Catching skin problems early keeps the person comfortable and prevents small irritations from becoming painful, hard-to-treat wounds.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "90147f5f-5ebb-4a1c-87fd-7d83f0614ec3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should always dry the skin thoroughly before fitting a new stoma appliance.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. An appliance will not stick to damp skin, so the skin must be dried thoroughly before fitting it.",
+            "correctAnswerMessage": "Correct. An appliance will not stick to damp skin, so drying well helps prevent leaks and sore skin."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b2bd60f8-9801-4a6f-a134-12fee567b115",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

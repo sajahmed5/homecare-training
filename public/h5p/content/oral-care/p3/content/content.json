@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dysphagia and aspiration pneumonia</h2><p>Some of the people you support have <strong>dysphagia</strong> &mdash; difficulty swallowing safely. This may be due to a stroke, dementia, Parkinson's or other conditions. When swallowing is unsafe, food, drink or saliva can go the wrong way, down towards the lungs instead of the stomach. This is called aspiration.</p><ul><li><strong>Dysphagia:</strong> difficulty or discomfort with swallowing, which many older or unwell people live with.</li><li><strong>Aspiration:</strong> food, fluid or saliva entering the airway and lungs instead of the stomach.</li><li><strong>The link to the mouth:</strong> a dirty mouth carries far more harmful bacteria into the lungs when aspiration happens.</li></ul><p>Good daily mouth care reduces the bacteria in the mouth, and so is one practical way to help lower the risk of chest infection for people who are prone to aspiration.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2d44a112-ad05-4cc8-908f-f94b0a6cb24e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Swallowing and lungs",
+          "decorative": false,
+          "file": {
+            "path": "images/swallowing-and-lungs.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "3e815503-460d-4e61-9613-c67e53f96178",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Your role in reducing the risk</h2><p><strong>Aspiration pneumonia</strong> is a serious chest infection that can develop when material from the mouth is breathed into the lungs. When the mouth is unclean, that material carries a heavy load of bacteria, which raises the risk. Keeping the mouth clean is therefore not only about comfort &mdash; for someone with swallowing difficulties it can help protect their chest and their life. This is one of the reasons the Mouth Care Matters programme places such emphasis on regular, thorough mouth care.</p><p>Your role is clear and practical. Give good daily mouth care as set out in the person's care plan, follow any guidance from the speech and language therapist about safe swallowing and positioning, and take extra care not to leave debris or excess fluid in the mouth. If you have concerns about a person's swallowing, report them &mdash; the assessment of swallowing is a job for trained professionals such as a speech and language therapist, not for you to judge alone.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "7cf8fec2-334a-4c6a-8d9d-02ee43cd201f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the passage about aspiration.</p></p>",
+          "textField": "Bacteria from an unclean *mouth* can be breathed into the *lungs*, causing a serious chest infection called aspiration *pneumonia*. This risk is higher for people who have difficulty *swallowing*, so good daily mouth care helps to protect them.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "e40b31b4-a524-40bc-a384-ab12677689e2",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

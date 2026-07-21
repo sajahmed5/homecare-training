@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Blockage and changes in output</h2><p>A <strong>blockage</strong> is a particular concern for people with an ileostomy, and sometimes a colostomy, and it can be serious. Warning signs include the stoma producing <strong>little or no output</strong>, or a sudden gush of very watery output, along with cramping tummy pain, a swollen tummy, a swollen stoma, and feeling sick or vomiting. If you notice these signs, stop the person eating solid food, encourage sips of fluid if they can manage them, and report it to the stoma nurse or seek medical advice promptly.</p><ul><li><strong>Little or no output:</strong> especially with cramping pain and a swollen tummy.</li><li><strong>Feeling sick or vomiting:</strong> a warning sign of a possible blockage.</li><li><strong>Act promptly:</strong> report changes in output rather than waiting.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "45c6d0d8-c045-49d9-a35e-1182052090ef",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Output and dehydration",
+          "decorative": false,
+          "file": {
+            "path": "images/output-and-dehydration.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "a4b6108e-93fe-4b2d-ad5a-03519c2db98b",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dehydration &mdash; watch and report</h2><p>Because people with an ileostomy or urostomy can lose extra fluid and salts, <strong>dehydration</strong> is a real risk, and it can come on quickly if the person has a bout of high, watery output, vomiting or diarrhoea. Signs to watch for include a very dry mouth, strong thirst, headaches, dark and reduced urine, muscle cramps, tiredness, dizziness and, if it becomes severe, confusion. Older people can become dehydrated and unwell fast.</p><p>If you spot these signs, encourage fluids where it is safe to do so and report your concerns without delay, as the person may need extra fluids or medical review. As with every problem in this course, your job is to <strong>observe and report</strong>, not to diagnose or treat. Knowing the warning signs and acting on them early is exactly what keeps the people you support safe and well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "005e69ec-2d74-4953-adc5-e7b025d7365f",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which set of signs might suggest a stoma blockage that needs reporting?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Little or no output, cramping tummy pain, a swollen tummy and feeling sick or vomiting.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. These are warning signs of a possible blockage and should be reported promptly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A steady, normal amount of output and the person feeling completely well.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; those describe a stoma working normally, not a blockage.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A pink, moist stoma and intact, healthy skin around it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; those are signs of a healthy stoma, not a blockage.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person drinking plenty of fluids through the day.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; good hydration is helpful, not a sign of a blockage.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "b2c490d4-30c4-40d4-8dfd-ccc885282b4a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

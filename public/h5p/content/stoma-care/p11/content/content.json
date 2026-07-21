@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sore skin and leakage</h2><p>Recognising problems early is one of the most valuable things you do. <strong>Sore or broken skin</strong> around the stoma &mdash; redness, weeping, itching or raw areas &mdash; is common and is usually linked to leakage or a poorly fitting appliance. Repeated <strong>leakage</strong>, where output escapes under the baseplate, needs to be reported rather than simply patched over, because it damages the skin and undermines the seal.</p><ul><li><strong>Sore skin:</strong> redness, weeping, itching or broken areas.</li><li><strong>Leakage:</strong> output escaping under the baseplate.</li><li><strong>Report it:</strong> the stoma nurse can review the fit and products.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "01295d78-54d1-4887-8b40-8641a505a3bd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Skin and stoma problems",
+          "decorative": false,
+          "file": {
+            "path": "images/skin-and-stoma-problems.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "95f18a7e-1cc6-4860-9575-8bcf72a0cb35",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Changes in the stoma itself</h2><p>The stoma can change in ways that need reporting. A <strong>prolapse</strong> is when the stoma becomes longer and sticks out much more than usual. A <strong>retraction</strong> is the opposite, when it sinks below the level of the skin, which often causes leaks. Some <strong>bleeding</strong> from the surface when cleaning is normal, but heavier bleeding, bleeding that does not stop, or blood in the output should always be reported.</p><p>The most urgent change is <strong>colour</strong>. A healthy stoma is pink or red, so if it turns pale, grey, dusky, purple or black, this may mean its blood supply is affected, and you must get help <strong>urgently</strong>. Any of these changes &mdash; prolapse, retraction, unusual bleeding or a change in colour &mdash; is something you observe and report to the stoma nurse or registered nurse, never something you try to fix or push back yourself.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "72785e9b-3764-4fe8-841e-c2c87f611d2e",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person's stoma has turned from its normal pink-red colour to a dusky, dark purple. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Treat it as urgent and get help straight away, as a colour change can mean the blood supply is affected.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A pale, grey, purple or black stoma may mean a poor blood supply and needs urgent help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assume it is normal and simply note it for the next care review.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a marked colour change is a warning sign that needs reporting urgently, not later.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Rub the stoma to bring the colour back.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; you never rub or manipulate the stoma; get help urgently.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Put extra tape over the pouch and carry on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; taping over it does nothing for a colour change; this needs urgent clinical help.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5fcd6fab-a611-459e-b506-709ebb63b9ee",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

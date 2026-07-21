@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What is a PEG?</h2><p>PEG stands for <strong>percutaneous endoscopic gastrostomy</strong>. It is a soft, flexible feeding tube that passes through the wall of the abdomen directly into the stomach. It is placed by a specialist team using an endoscope, a thin camera passed down into the stomach to guide the tube into exactly the right position. Once healed, it gives a reliable, long-term route for feed, fluids and medicines.</p><ul><li><strong>Percutaneous:</strong> through the skin of the abdomen.</li><li><strong>Gastrostomy:</strong> an opening into the stomach.</li><li><strong>Long-term route:</strong> for feed, water and prescribed medicines.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "3e47bddb-4e1f-4e78-85df-65f45f7a8e34",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for What is a PEG?",
+          "decorative": false,
+          "file": {
+            "path": "images/what-is-a-peg.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "31be2c37-4501-41bf-976f-336d8c7959fb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>How the tube stays in place</h2><p>The tube is held in the stomach by a small internal disc or balloon, sometimes called the <strong>bumper</strong>, and on the outside by a flat plate or fixation device that rests gently against the skin. Between them sits the <strong>stoma</strong> &mdash; the small tunnel through the abdominal wall where the tube passes. This design keeps the tube secure while allowing feed to flow directly into the stomach.</p><p>Because the tube creates a direct route into the stomach, it must be handled cleanly and carefully every time. The position of the external plate is important: if it is too tight it can press on the skin, and if it is too loose the tube can move too far in or out. The care plan will record the correct position, and any change from it is something to report rather than adjust yourself unless you have been trained and delegated to do so.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "d59e78bb-1221-4d0a-88ec-b86eaf7256ef",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>What does PEG stand for?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Percutaneous endoscopic gastrostomy &mdash; a feeding tube passed through the abdomen into the stomach.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. It is placed through the skin using an endoscope and gives a direct route into the stomach.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Personal eating and gastric device fitted over the mouth.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a PEG is a tube into the stomach, not a device over the mouth.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A drainage tube that removes urine from the bladder.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; that describes a urinary catheter, not a feeding tube.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A dressing used to protect a pressure ulcer.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a PEG is a feeding tube, not a wound dressing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ec69a73d-a791-4aea-aaf7-725d946efecb",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

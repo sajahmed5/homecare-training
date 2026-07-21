@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Rotating and advancing the tube</h2><p>Some PEG tubes need to be gently <strong>rotated</strong>, and sometimes pushed in a little and pulled back (advanced and retracted), as part of routine care. This helps stop the internal disc from becoming stuck against the stomach wall &mdash; a serious problem known as <strong>buried bumper</strong>. However, this is only done where the manufacturer and care plan say so, in the way you have been shown, and only if you have been trained and delegated to do it.</p><ul><li><strong>Only if instructed:</strong> not all tubes are rotated, and some must not be moved.</li><li><strong>Only if trained:</strong> follow the exact method you were taught.</li><li><strong>Gently:</strong> never force the tube, and stop if there is resistance or pain.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "041e5d7b-0cf6-41a6-b5de-008101ce6012",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Tube care",
+          "decorative": false,
+          "file": {
+            "path": "images/tube-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "33450446-54d5-48d4-b479-12e9e5fd7682",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping the tube working</h2><p>A little routine care keeps the tube reliable. Flushing with the prescribed water before and after every feed and every medicine is the single most important thing you can do to prevent a <strong>blockage</strong>. Keep the external part of the tube clean, make sure the fixation plate stays in the right position without pressing too tightly on the skin, and keep the tube secured so it does not pull or dangle and risk being dislodged.</p><p>Handle the tube gently at all times and never use force. If a tube feels tight, will not rotate when it usually does, or you meet resistance, stop and report it rather than push. Small, consistent habits &mdash; flushing well, securing the tube, checking the plate &mdash; prevent most common problems and keep the person's feeding route safe and comfortable.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "83a09609-fde2-4d7b-91ab-9160709d330b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

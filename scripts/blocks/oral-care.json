@@ -1,0 +1,97 @@
+{
+  "slug": "oral-care",
+  "title": "Oral Care",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "oral-care/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "Why oral care matters"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p2",
+      "label": "The mouth and health",
+      "questions": 1,
+      "section": "Why oral care matters"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p3",
+      "label": "Swallowing and lungs",
+      "questions": 1,
+      "section": "Why oral care matters"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p4",
+      "label": "Assessment and plans",
+      "questions": 1,
+      "section": "Daily mouth care in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p5",
+      "label": "Brushing and fluoride",
+      "questions": 1,
+      "section": "Daily mouth care in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p6",
+      "label": "Denture care",
+      "questions": 0,
+      "section": "Daily mouth care in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p7",
+      "label": "Dry mouth and resistance",
+      "questions": 1,
+      "section": "Daily mouth care in practice"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p8",
+      "label": "Ulcers and thrush",
+      "questions": 1,
+      "section": "Recognising problems and referral"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p9",
+      "label": "Decay, gums and pain",
+      "questions": 1,
+      "section": "Recognising problems and referral"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p10",
+      "label": "Dentures and referral",
+      "questions": 1,
+      "section": "Recognising problems and referral"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p11",
+      "label": "Consent and culture",
+      "questions": 1,
+      "section": "Person-centred oral care and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p12",
+      "label": "Dementia and mouth care",
+      "questions": 1,
+      "section": "Person-centred oral care and recording"
+    },
+    {
+      "type": "h5p",
+      "path": "oral-care/p13",
+      "label": "Recording and referral",
+      "questions": 0,
+      "section": "Person-centred oral care and recording"
+    }
+  ]
+}

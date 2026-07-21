@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The three main types</h2><p>There are three main types of stoma, named by where they are made. A <strong>colostomy</strong> is formed from the large bowel, or colon, and usually passes fairly formed, solid stools. An <strong>ileostomy</strong> is formed from the end of the small bowel, the ileum, and passes looser, more watery output. A <strong>urostomy</strong> drains urine, using a short piece of bowel to carry urine from the kidneys out through the stoma after the bladder has been removed or bypassed.</p><ul><li><strong>Colostomy:</strong> from the large bowel &mdash; more formed stools.</li><li><strong>Ileostomy:</strong> from the small bowel &mdash; looser, watery output.</li><li><strong>Urostomy:</strong> drains urine rather than bowel motions.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f4deecae-c193-4456-80cd-e8ff40c9a9d2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Types and reasons",
+          "decorative": false,
+          "file": {
+            "path": "images/types-and-reasons.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "7fe60bcd-41b6-4945-b797-255981bcd351",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why people have a stoma</h2><p>People have a stoma for many different reasons, and the decision is always a clinical one. Common reasons include bowel cancer or bladder cancer, inflammatory bowel disease such as Crohn's disease or ulcerative colitis, diverticulitis, a blockage or injury to the bowel, or problems controlling the bowel or bladder. A stoma allows waste to pass safely when the usual route cannot be used.</p><p>A stoma may be <strong>temporary</strong>, giving part of the bowel time to rest and heal before it is later reversed, or it may be <strong>permanent</strong>. Whatever the reason, it is a major change for the person, and how they feel about it matters as much as the practical care. Your role is to support the person and their stoma with respect &mdash; never to question the clinical decision behind it.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "2ae29b20-f8ef-43d1-ad75-367ed7091efd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which type of stoma is formed from the large bowel and usually passes fairly formed stools?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>A colostomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A colostomy is made from the large bowel, or colon, and its output is usually more formed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>An ileostomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; an ileostomy is made from the small bowel and passes looser, watery output.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A urostomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a urostomy drains urine, not bowel motions.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A tracheostomy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; a tracheostomy is an opening in the windpipe to help breathing, not a bowel stoma.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "066795b2-6e2d-45dc-88b6-67979546e888",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

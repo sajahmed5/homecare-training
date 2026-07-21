@@ -78,6 +78,34 @@ const NEW_COURSES = [
     description:
       "Delivering personal care with dignity, privacy and consent — washing, oral care, grooming, dressing and skin care. Covers the knowledge element; your employer must also observe your competence at work.",
   },
+  {
+    slug: "oral-care",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Awareness of daily mouth care — why it matters for health and dignity, good technique, denture care and recognising problems. Awareness only; dental assessment and treatment are for dental professionals.",
+  },
+  {
+    slug: "peg-feeding",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Awareness of PEG (enteral) feeding — safe practice, positioning, tube and stoma-site care and recognising complications. Awareness only — a delegated clinical task you may carry out only after task-specific training, assessed competence and delegation by a registered nurse or dietitian.",
+  },
+  {
+    slug: "stoma-care",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Awareness of stoma care — types of stoma, appliances and daily care, skin health and recognising complications. Awareness only; supported stoma care may be delegated after training, and the stoma nurse leads assessment.",
+  },
+  {
+    slug: "tracheostomy-awareness",
+    topic: "Infection & Clinical",
+    expiry_months: 24,
+    description:
+      "Awareness of tracheostomy care — how it changes breathing, keeping the person safe, and recognising and responding to emergencies. Awareness only — you must not suction or change a tracheostomy tube without specific training, assessed competence and delegation.",
+  },
 ];
 
 const { data: topics } = await sb.from("topics").select("id, title");

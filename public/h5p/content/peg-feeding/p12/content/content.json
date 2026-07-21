@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When a tube comes out or moves</h2><p>Some problems need <strong>urgent</strong> action. If a PEG <strong>falls out or is pulled out</strong>, the stoma can begin to close within hours, so this is an emergency &mdash; do not try to put the tube back in yourself, and get help straight away as your care plan and local guidance direct. A suspected <strong>buried bumper</strong>, where the internal disc has become embedded in the stomach wall, may show as pain, leakage, or feed that will not go in, and also needs urgent professional review.</p><ul><li><strong>Tube out:</strong> an emergency &mdash; the stoma can close within hours; get help now.</li><li><strong>Never re-insert:</strong> replacing a tube is a clinical task, not yours.</li><li><strong>Buried bumper:</strong> pain, leakage or feed not passing needs urgent review.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "f4102b1f-d01d-4c2d-ad56-a8c48265d0ed",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Urgent problems",
+          "decorative": false,
+          "file": {
+            "path": "images/urgent-problems.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "cdde3df3-665c-415f-830b-9497b00822ab",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Never restart a tube you are unsure about</h2><p>The single most important safety rule runs through this whole course: <strong>never restart a feed through a tube you are unsure about, or that has been dislodged</strong>. If the tube has moved, come out, become blocked, or simply does not look or behave as it usually does, you stop and escalate. Feed going into the wrong place, such as the tunnel or the abdomen rather than the stomach, can cause serious harm.</p><p>Call for urgent help without delay if the person shows signs of choking or serious breathing difficulty, severe abdominal pain, a tube that has fallen out, bleeding from the site, or a sudden serious deterioration &mdash; follow your service's emergency procedure and dial 999 if life is at risk. For everything else that is not right, report promptly to the registered nurse or dietitian so it can be dealt with before it becomes an emergency.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "81d7d302-9ab5-42c5-b59b-0e405218f142",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "If a PEG tube *falls* out, the stoma can begin to close within *hours*, so this is an *emergency*. Never try to *reinsert* the tube yourself, and never *restart* a feed through a tube you are unsure about.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "95d42a66-7a1c-4e28-ab99-003b2e7fd1da",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

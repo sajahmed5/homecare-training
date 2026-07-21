@@ -2,9 +2,269 @@
  "outDir": ".",
  "scenes": [
   {
-   "outDir": "public/h5p/content/catheter-care/p1/content/images",
+   "outDir": "public/h5p/content/oral-care/p1/content/images",
    "file": "welcome.svg",
-   "title": "Welcome to Catheter Care",
+   "title": "Welcome to Oral Care",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Everyday care",
+    "Your role",
+    "Knowing your limits"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p2/content/images",
+   "file": "the-mouth-and-health.svg",
+   "title": "Why oral care matters",
+   "accent": "#7c3aed",
+   "alt": "Illustration for The mouth and health",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Eating and nutrition",
+    "Comfort and dignity",
+    "General health"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p3/content/images",
+   "file": "swallowing-and-lungs.svg",
+   "title": "Dysphagia and aspiration pneumonia",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Swallowing and lungs",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Dysphagia",
+    "Aspiration",
+    "The link to the mouth"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p4/content/images",
+   "file": "assessment-and-plans.svg",
+   "title": "Mouth care assessment and plans",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Assessment and plans",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Assessed early",
+    "Recorded",
+    "Followed"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p5/content/images",
+   "file": "brushing-and-fluoride.svg",
+   "title": "Toothbrushing and fluoride",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Brushing and fluoride",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Twice a day",
+    "Fluoride toothpaste",
+    "Gentle and thorough"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p6/content/images",
+   "file": "denture-care.svg",
+   "title": "Caring for dentures",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Denture care",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Clean daily",
+    "Out at night",
+    "Named and safe"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p7/content/images",
+   "file": "dry-mouth-and-resistance.svg",
+   "title": "Dry mouth and difficult moments",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Dry mouth and resistance",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Dry mouth",
+    "Resisting care",
+    "Lacking capacity"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p8/content/images",
+   "file": "ulcers-and-thrush.svg",
+   "title": "Mouth ulcers and oral thrush",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Ulcers and thrush",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Mouth ulcers",
+    "Oral thrush",
+    "Your job"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p9/content/images",
+   "file": "decay-gums-and-pain.svg",
+   "title": "Tooth decay, gum disease and pain",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Decay, gums and pain",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Tooth decay",
+    "Gum disease",
+    "Pain and bleeding"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p10/content/images",
+   "file": "dentures-and-referral.svg",
+   "title": "Ill-fitting dentures and referral",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Dentures and referral",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Signs of poor fit",
+    "Effects",
+    "Action"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p11/content/images",
+   "file": "consent-and-culture.svg",
+   "title": "Person-centred oral care",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Consent and culture",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Consent",
+    "Choice",
+    "Cultural and religious needs"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p12/content/images",
+   "file": "dementia-and-mouth-care.svg",
+   "title": "Supporting people with dementia",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Dementia and mouth care",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Familiar and calm",
+    "Simple steps",
+    "Watch behaviour"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/oral-care/p13/content/images",
+   "file": "recording-and-referral.svg",
+   "title": "Recording and escalating",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Recording and referral",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Record the care",
+    "Record what you see",
+    "Escalate"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/peg-feeding/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to PEG Feeding",
    "accent": "#7c3aed",
    "alt": "Illustration for Welcome",
    "cast": [
@@ -17,16 +277,16 @@
    ],
    "points": [
     "Understand",
-    "Prevent",
+    "Support safely",
     "Escalate"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p2/content/images",
-   "file": "what-is-a-catheter.svg",
-   "title": "What is a urinary catheter?",
+   "outDir": "public/h5p/content/peg-feeding/p2/content/images",
+   "file": "what-is-a-peg.svg",
+   "title": "What is a PEG?",
    "accent": "#7c3aed",
-   "alt": "Illustration for What is a catheter?",
+   "alt": "Illustration for What is a PEG?",
    "cast": [
     {
      "skin": 1,
@@ -36,17 +296,17 @@
     }
    ],
    "points": [
-    "Drains urine",
-    "Held in place",
-    "A direct route"
+    "Percutaneous",
+    "Gastrostomy",
+    "Long-term route"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p3/content/images",
-   "file": "types-and-reasons.svg",
-   "title": "Two main types",
+   "outDir": "public/h5p/content/peg-feeding/p3/content/images",
+   "file": "why-enteral-feeding.svg",
+   "title": "Why people are fed enterally",
    "accent": "#7c3aed",
-   "alt": "Illustration for Types and reasons",
+   "alt": "Illustration for Why enteral feeding?",
    "cast": [
     {
      "skin": 2,
@@ -56,37 +316,37 @@
     }
    ],
    "points": [
-    "Urethral",
-    "Suprapubic",
-    "Both"
+    "Unsafe swallow",
+    "Not enough by mouth",
+    "Long-term need"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p4/content/images",
-   "file": "cauti-and-ipc.svg",
-   "title": "Catheter-associated urinary infection",
+   "outDir": "public/h5p/content/peg-feeding/p4/content/images",
+   "file": "types-and-your-role.svg",
+   "title": "PEG, PEG-J and NG tubes",
    "accent": "#7c3aed",
-   "alt": "Illustration for CAUTI and IPC",
+   "alt": "Illustration for Types and your role",
    "cast": [
     {
      "skin": 3,
      "hair": "short",
      "tunic": "#7c3aed",
-     "prop": "alert"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "What it is",
-    "Why it happens",
-    "Key risk"
+    "PEG",
+    "PEG-J",
+    "NG tube"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p5/content/images",
-   "file": "hands-and-asepsis.svg",
-   "title": "Hand hygiene comes first",
+   "outDir": "public/h5p/content/peg-feeding/p5/content/images",
+   "file": "hand-hygiene-and-checks.svg",
+   "title": "Clean hands, clean practice",
    "accent": "#7c3aed",
-   "alt": "Illustration for Hands and asepsis",
+   "alt": "Illustration for Hand hygiene and checks",
    "cast": [
     {
      "skin": 4,
@@ -96,57 +356,57 @@
     }
    ],
    "points": [
-    "Before",
-    "After",
-    "Always"
+    "Wash your hands",
+    "Use clean equipment",
+    "Follow the plan"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p6/content/images",
-   "file": "closed-system.svg",
-   "title": "Keep the closed system closed",
+   "outDir": "public/h5p/content/peg-feeding/p6/content/images",
+   "file": "positioning.svg",
+   "title": "Sitting upright reduces risk",
    "accent": "#7c3aed",
-   "alt": "Illustration for Closed system",
+   "alt": "Illustration for Positioning",
    "cast": [
     {
      "skin": 5,
      "hair": "curly",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "alert"
     }
    ],
    "points": [
-    "Do not disconnect",
-    "Empty via the tap",
-    "Only open"
+    "Upright",
+    "During and after",
+    "Reduce aspiration"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p7/content/images",
-   "file": "positioning-the-bag.svg",
-   "title": "Position the bag below the bladder",
+   "outDir": "public/h5p/content/peg-feeding/p7/content/images",
+   "file": "feeds-flushes-and-oral-care.svg",
+   "title": "Feed and water flushes as prescribed",
    "accent": "#7c3aed",
-   "alt": "Illustration for Positioning the bag",
+   "alt": "Illustration for Feeds, flushes and oral care",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Below the bladder",
-    "Never on the floor",
-    "Support it"
+    "Follow the prescription",
+    "Flush the tube",
+    "Never improvise"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p8/content/images",
-   "file": "emptying-and-output.svg",
-   "title": "Emptying the drainage bag",
+   "outDir": "public/h5p/content/peg-feeding/p8/content/images",
+   "file": "caring-for-the-stoma.svg",
+   "title": "Keeping the site clean and dry",
    "accent": "#7c3aed",
-   "alt": "Illustration for Emptying and output",
+   "alt": "Illustration for Caring for the stoma",
    "cast": [
     {
      "skin": 1,
@@ -156,77 +416,77 @@
     }
    ],
    "points": [
-    "When",
-    "How",
-    "Clean tap"
+    "Clean daily",
+    "Keep it dry",
+    "Observe as you go"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p9/content/images",
-   "file": "hygiene-and-securing.svg",
-   "title": "Meatal and personal hygiene",
+   "outDir": "public/h5p/content/peg-feeding/p9/content/images",
+   "file": "tube-care.svg",
+   "title": "Rotating and advancing the tube",
    "accent": "#7c3aed",
-   "alt": "Illustration for Hygiene and securing",
+   "alt": "Illustration for Tube care",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "What",
-    "How",
-    "When"
+    "Only if instructed",
+    "Only if trained",
+    "Gently"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p10/content/images",
-   "file": "fluids-and-passport.svg",
-   "title": "Fluids and comfort",
+   "outDir": "public/h5p/content/peg-feeding/p10/content/images",
+   "file": "blocked-tubes.svg",
+   "title": "Recognising a blocked tube",
    "accent": "#7c3aed",
-   "alt": "Illustration for Fluids and passport",
+   "alt": "Illustration for Blocked tubes",
    "cast": [
     {
      "skin": 3,
      "hair": "curly",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Encourage fluids",
-    "Why",
-    "Comfort"
+    "Feed or flush won't pass",
+    "Resistance or alarms",
+    "Prevent it"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p11/content/images",
-   "file": "infection-and-sepsis.svg",
-   "title": "Signs of a catheter infection",
+   "outDir": "public/h5p/content/peg-feeding/p11/content/images",
+   "file": "spotting-complications.svg",
+   "title": "Complications to watch for",
    "accent": "#7c3aed",
-   "alt": "Illustration for Infection and sepsis",
+   "alt": "Illustration for Spotting complications",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Feeling unwell",
-    "Urine changes",
-    "Confusion"
+    "Site infection",
+    "Leakage and granulation",
+    "Aspiration signs"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p12/content/images",
-   "file": "blockage-and-leakage.svg",
-   "title": "Other problems to watch for",
+   "outDir": "public/h5p/content/peg-feeding/p12/content/images",
+   "file": "urgent-problems.svg",
+   "title": "When a tube comes out or moves",
    "accent": "#7c3aed",
-   "alt": "Illustration for Blockage and leakage",
+   "alt": "Illustration for Urgent problems",
    "cast": [
     {
      "skin": 5,
@@ -236,17 +496,17 @@
     }
    ],
    "points": [
-    "Not draining",
-    "Bypassing",
-    "Blood or pain"
+    "Tube out",
+    "Never re-insert",
+    "Buried bumper"
    ]
   },
   {
-   "outDir": "public/h5p/content/catheter-care/p13/content/images",
-   "file": "when-to-escalate.svg",
-   "title": "When to escalate",
+   "outDir": "public/h5p/content/peg-feeding/p13/content/images",
+   "file": "review-and-escalation.svg",
+   "title": "Bringing it together",
    "accent": "#7c3aed",
-   "alt": "Illustration for When to escalate",
+   "alt": "Illustration for Review and escalation",
    "cast": [
     {
      "skin": 0,
@@ -256,15 +516,15 @@
     }
    ],
    "points": [
-    "Urgent",
-    "Prompt",
-    "Always"
+    "Support safely",
+    "Protect dignity",
+    "Escalate early"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p1/content/images",
+   "outDir": "public/h5p/content/stoma-care/p1/content/images",
    "file": "welcome.svg",
-   "title": "Welcome to Continence Care",
+   "title": "Welcome to Stoma Care",
    "accent": "#7c3aed",
    "alt": "Illustration for Welcome",
    "cast": [
@@ -276,57 +536,57 @@
     }
    ],
    "points": [
-    "Continence",
-    "Incontinence",
-    "Dignity"
+    "Understand",
+    "Support",
+    "Report"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p2/content/images",
-   "file": "why-it-matters.svg",
-   "title": "More than a physical need",
+   "outDir": "public/h5p/content/stoma-care/p2/content/images",
+   "file": "what-is-a-stoma.svg",
+   "title": "What is a stoma?",
    "accent": "#7c3aed",
-   "alt": "Illustration for Why it matters",
+   "alt": "Illustration for What is a stoma?",
    "cast": [
     {
      "skin": 1,
      "hair": "curly",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Dignity",
-    "Health",
-    "Self-esteem"
+    "An opening",
+    "Collects waste",
+    "No control"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p3/content/images",
-   "file": "your-role-and-limits.svg",
-   "title": "The care worker's role",
+   "outDir": "public/h5p/content/stoma-care/p3/content/images",
+   "file": "types-and-reasons.svg",
+   "title": "The three main types",
    "accent": "#7c3aed",
-   "alt": "Illustration for Your role and limits",
+   "alt": "Illustration for Types and reasons",
    "cast": [
     {
      "skin": 2,
      "hair": "headscarf",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Support the plan",
-    "Promote independence",
-    "Observe and report"
+    "Colostomy",
+    "Ileostomy",
+    "Urostomy"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p4/content/images",
-   "file": "stress-and-urge.svg",
-   "title": "Not all incontinence is the same",
+   "outDir": "public/h5p/content/stoma-care/p4/content/images",
+   "file": "appliances.svg",
+   "title": "One-piece and two-piece appliances",
    "accent": "#7c3aed",
-   "alt": "Illustration for Stress and urge",
+   "alt": "Illustration for Appliances",
    "cast": [
     {
      "skin": 3,
@@ -336,17 +596,17 @@
     }
    ],
    "points": [
-    "Stress incontinence",
-    "Urge incontinence",
-    "Different causes"
+    "One-piece",
+    "Two-piece",
+    "Individual"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p5/content/images",
-   "file": "overflow-and-functional.svg",
-   "title": "Two more common types",
+   "outDir": "public/h5p/content/stoma-care/p5/content/images",
+   "file": "emptying-and-changing.svg",
+   "title": "Emptying a pouch",
    "accent": "#7c3aed",
-   "alt": "Illustration for Overflow and functional",
+   "alt": "Illustration for Emptying and changing",
    "cast": [
     {
      "skin": 4,
@@ -356,17 +616,17 @@
     }
    ],
    "points": [
-    "Overflow incontinence",
-    "Functional incontinence",
-    "Mixed"
+    "When",
+    "How",
+    "Why"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p6/content/images",
-   "file": "assessment-not-assumption.svg",
-   "title": "Why a proper assessment matters",
+   "outDir": "public/h5p/content/stoma-care/p6/content/images",
+   "file": "dignity-and-odour.svg",
+   "title": "Dignity and privacy come first",
    "accent": "#7c3aed",
-   "alt": "Illustration for Assessment, not assumption",
+   "alt": "Illustration for Dignity and odour",
    "cast": [
     {
      "skin": 5,
@@ -376,37 +636,37 @@
     }
    ],
    "points": [
-    "Find the cause",
-    "Rule out illness",
-    "Plan support"
+    "Privacy",
+    "Consent",
+    "Respect"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p7/content/images",
-   "file": "toileting-support.svg",
-   "title": "Person-centred toileting",
+   "outDir": "public/h5p/content/stoma-care/p7/content/images",
+   "file": "hygiene-and-infection-control.svg",
+   "title": "Hand hygiene comes first",
    "accent": "#7c3aed",
-   "alt": "Illustration for Toileting support",
+   "alt": "Illustration for Hygiene and infection control",
    "cast": [
     {
      "skin": 0,
      "hair": "headscarf",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Routine",
-    "Respond promptly",
-    "Privacy"
+    "Before",
+    "After",
+    "Always"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p8/content/images",
-   "file": "fluids-and-diet.svg",
-   "title": "The link with fluids and food",
+   "outDir": "public/h5p/content/stoma-care/p8/content/images",
+   "file": "a-healthy-stoma.svg",
+   "title": "What a healthy stoma looks like",
    "accent": "#7c3aed",
-   "alt": "Illustration for Fluids and diet",
+   "alt": "Illustration for A healthy stoma",
    "cast": [
     {
      "skin": 1,
@@ -416,37 +676,37 @@
     }
    ],
    "points": [
-    "Enough fluid",
-    "Healthy diet",
-    "Bladder irritants"
+    "Colour",
+    "No pain",
+    "A little bleeding"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p9/content/images",
-   "file": "products-with-dignity.svg",
-   "title": "Continence products are one part of care",
+   "outDir": "public/h5p/content/stoma-care/p9/content/images",
+   "file": "protecting-the-skin.svg",
+   "title": "Keeping peristomal skin healthy",
    "accent": "#7c3aed",
-   "alt": "Illustration for Products with dignity",
+   "alt": "Illustration for Protecting the skin",
    "cast": [
     {
      "skin": 2,
      "hair": "bun",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Right product",
-    "Used with dignity",
-    "Change promptly"
+    "Clean and dry",
+    "Correct fit",
+    "No residue"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p10/content/images",
-   "file": "skin-and-pressure-care.svg",
-   "title": "Protecting the skin",
+   "outDir": "public/h5p/content/stoma-care/p10/content/images",
+   "file": "diet-and-hydration.svg",
+   "title": "Diet awareness",
    "accent": "#7c3aed",
-   "alt": "Illustration for Skin and pressure care",
+   "alt": "Illustration for Diet and hydration",
    "cast": [
     {
      "skin": 3,
@@ -456,57 +716,57 @@
     }
    ],
    "points": [
-    "Keep skin clean and dry",
-    "Change promptly",
-    "Check the skin"
+    "Balanced diet",
+    "Chew well",
+    "Individual"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p11/content/images",
-   "file": "signs-of-infection.svg",
-   "title": "Recognising a urinary tract infection",
+   "outDir": "public/h5p/content/stoma-care/p11/content/images",
+   "file": "skin-and-stoma-problems.svg",
+   "title": "Sore skin and leakage",
    "accent": "#7c3aed",
-   "alt": "Illustration for Signs of infection",
+   "alt": "Illustration for Skin and stoma problems",
    "cast": [
     {
      "skin": 4,
      "hair": "headscarf",
      "tunic": "#7c3aed",
-     "prop": "heart"
+     "prop": "clipboard"
     }
    ],
    "points": [
-    "Urine changes",
-    "Discomfort",
-    "Feeling unwell"
+    "Sore skin",
+    "Leakage",
+    "Report it"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p12/content/images",
-   "file": "constipation-and-change.svg",
-   "title": "Constipation and sudden changes",
+   "outDir": "public/h5p/content/stoma-care/p12/content/images",
+   "file": "output-and-dehydration.svg",
+   "title": "Blockage and changes in output",
    "accent": "#7c3aed",
-   "alt": "Illustration for Constipation and change",
+   "alt": "Illustration for Output and dehydration",
    "cast": [
     {
      "skin": 5,
      "hair": "short",
      "tunic": "#7c3aed",
-     "prop": "clipboard"
+     "prop": "heart"
     }
    ],
    "points": [
-    "Constipation",
-    "Overflow",
-    "Sudden change"
+    "Little or no output",
+    "Feeling sick or vomiting",
+    "Act promptly"
    ]
   },
   {
-   "outDir": "public/h5p/content/continence-care/p13/content/images",
-   "file": "reporting-and-support.svg",
-   "title": "Knowing when to raise concerns",
+   "outDir": "public/h5p/content/stoma-care/p13/content/images",
+   "file": "support-and-summary.svg",
+   "title": "The emotional impact",
    "accent": "#7c3aed",
-   "alt": "Illustration for Reporting and support",
+   "alt": "Illustration for Support and summary",
    "cast": [
     {
      "skin": 0,
@@ -516,9 +776,269 @@
     }
    ],
    "points": [
-    "Report early",
-    "Record clearly",
-    "Know your limits"
+    "Body image",
+    "Worries",
+    "Adjustment"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p1/content/images",
+   "file": "welcome.svg",
+   "title": "Welcome to Tracheostomy Awareness",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Welcome",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Understand",
+    "Support",
+    "Respond"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p2/content/images",
+   "file": "what-is-a-tracheostomy.svg",
+   "title": "How we normally breathe",
+   "accent": "#7c3aed",
+   "alt": "Illustration for What is a tracheostomy?",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "The route",
+    "The nose",
+    "The voice box"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p3/content/images",
+   "file": "tube-types.svg",
+   "title": "Different kinds of tube",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Tube types",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Cuffed tube",
+    "Uncuffed tube",
+    "Chosen clinically"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p4/content/images",
+   "file": "trach-or-laryngectomy.svg",
+   "title": "Tracheostomy is not the same as laryngectomy",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Trach or laryngectomy",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Tracheostomy",
+    "Laryngectomy",
+    "Why it matters"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p5/content/images",
+   "file": "humidification.svg",
+   "title": "Why the airway dries out",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Humidification",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "The problem",
+    "The effect",
+    "The risk"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p6/content/images",
+   "file": "stoma-and-ties.svg",
+   "title": "Caring for the stoma and site",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Stoma and ties",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Keep it clean and dry",
+    "Keep watch",
+    "Follow the plan"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p7/content/images",
+   "file": "water-and-comfort.svg",
+   "title": "Keep water and fine particles away",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Water and comfort",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Water",
+    "Sprays and powders",
+    "Fluff and fibres"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p8/content/images",
+   "file": "what-is-suctioning.svg",
+   "title": "What suctioning is",
+   "accent": "#7c3aed",
+   "alt": "Illustration for What is suctioning?",
+   "cast": [
+    {
+     "skin": 1,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "What it does",
+    "Why it is done",
+    "Handled carefully"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p9/content/images",
+   "file": "signs-of-a-clogged-airway.svg",
+   "title": "Signs someone needs their airway cleared",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Signs of a clogged airway",
+   "cast": [
+    {
+     "skin": 2,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Listen",
+    "Look",
+    "Ask"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p10/content/images",
+   "file": "inner-tubes-and-limits.svg",
+   "title": "Inner tube care is a trained task",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Inner tubes and limits",
+   "cast": [
+    {
+     "skin": 3,
+     "hair": "curly",
+     "tunic": "#7c3aed",
+     "prop": "clipboard"
+    }
+   ],
+   "points": [
+    "Why it matters",
+    "Who does it",
+    "Your part"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p11/content/images",
+   "file": "recognising-emergencies.svg",
+   "title": "When breathing is in danger",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Recognising emergencies",
+   "cast": [
+    {
+     "skin": 4,
+     "hair": "headscarf",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Blocked tube",
+    "Displaced tube",
+    "Either way"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p12/content/images",
+   "file": "the-bedhead-sign-and-999.svg",
+   "title": "The bedhead emergency algorithm",
+   "accent": "#7c3aed",
+   "alt": "Illustration for The bedhead sign and 999",
+   "cast": [
+    {
+     "skin": 5,
+     "hair": "short",
+     "tunic": "#7c3aed",
+     "prop": "alert"
+    }
+   ],
+   "points": [
+    "Bedhead sign",
+    "Algorithm",
+    "Colour"
+   ]
+  },
+  {
+   "outDir": "public/h5p/content/tracheostomy-awareness/p13/content/images",
+   "file": "getting-help-and-summary.svg",
+   "title": "Stay with the person and get help",
+   "accent": "#7c3aed",
+   "alt": "Illustration for Getting help and summary",
+   "cast": [
+    {
+     "skin": 0,
+     "hair": "bun",
+     "tunic": "#7c3aed",
+     "prop": "heart"
+    }
+   ],
+   "points": [
+    "Stay",
+    "Summon help",
+    "Reassure"
    ]
   }
  ]

@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Ill-fitting dentures and referral</h2><p>Dentures that no longer fit well are a frequent and easily missed problem. Over time a person's mouth changes shape, especially after weight loss, and a denture that once fitted can become loose, rub and cause sores. Ill-fitting dentures can stop a person eating properly and knock their confidence.</p><ul><li><strong>Signs of poor fit:</strong> dentures that slip, click, rub or leave sore, red patches.</li><li><strong>Effects:</strong> difficulty eating and speaking, mouth ulcers and reluctance to wear them.</li><li><strong>Action:</strong> report the problem and arrange a dental review &mdash; do not try to adjust the denture yourself.</li></ul><p>A dentist can reline, adjust or replace a denture, restoring comfort and the ability to eat well.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "213db5eb-a64c-4a22-99ef-e2a28530b960",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dentures and referral",
+          "decorative": false,
+          "file": {
+            "path": "images/dentures-and-referral.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "57162f2b-3df9-4bed-b47f-dfefa967b215",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>When to refer to a dentist</h2><p>You give daily mouth care, but the assessment and treatment of the mouth belong to dental professionals. NICE guidance encourages supporting people to keep access to a dentist and regular dental reviews. Knowing when to seek that help is part of your role. Report and arrange a dental opinion when you notice warning signs, and treat pain, bleeding or a person unable to eat as reasons to act promptly.</p><p>Reasons to refer include: toothache or mouth pain; bleeding or swollen gums that do not settle; a mouth ulcer or sore patch lasting around three weeks or more; loose, broken or lost teeth; ill-fitting, cracked or lost dentures; signs of infection such as thrush or swelling; and any difficulty eating because of the mouth. When you are unsure, it is always safer to report and let a professional decide. You are the eyes and ears; the dentist makes the diagnosis and provides the treatment. Record what you noticed and what was reported, so nothing is lost.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0578dfc1-e8d7-4cc2-b872-7949989e421a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person has lost weight and their dentures now slip and rub, leaving a sore patch. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report the problem and arrange a dental review, keeping the mouth clean and comfortable meanwhile</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Ill-fitting dentures need a dentist to adjust, reline or replace them; you report and support comfort.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>File down or adjust the denture yourself so it fits better</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Adjusting dentures is a dental task; doing it yourself could damage the denture and harm the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell the person to keep wearing them and get used to the soreness</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Sore, ill-fitting dentures should be reviewed by a dentist, not endured.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Throw the dentures away so the person no longer has the problem</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Removing a person's dentures leaves them unable to eat and speak properly; the answer is a dental review.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5406f8f8-54cd-4438-9915-3984356f3001",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

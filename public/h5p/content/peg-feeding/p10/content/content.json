@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Recognising a blocked tube</h2><p>A <strong>blocked tube</strong> is one of the most common problems, and it is usually preventable. You may notice that a feed or flush will not go through, that there is unusual resistance when you try to flush, or that the pump keeps alarming. Blockages often happen when a tube is not flushed properly, when thick feed or medicine sits in it, or when medicines that should not be given down a tube have been used.</p><ul><li><strong>Feed or flush won't pass:</strong> a classic sign of a blockage.</li><li><strong>Resistance or alarms:</strong> the tube feels tight or the pump keeps beeping.</li><li><strong>Prevent it:</strong> flush with prescribed water before and after feeds and medicines.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "e25c63b6-30f6-4c6b-aa5c-4ba65f98341d",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Blocked tubes",
+          "decorative": false,
+          "file": {
+            "path": "images/blocked-tubes.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "8d407f4d-76f2-4506-aecf-0a05b2bbd76d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What to do about a blockage</h2><p>If a tube seems blocked, do <strong>not</strong> force fluid down it with a syringe and never poke anything inside the tube to clear it &mdash; this can burst the tube or push a blockage further in. Follow only the gentle steps your training and the care plan set out, such as a gentle prescribed flush, and if the tube does not clear, stop and escalate to the nurse or dietitian.</p><p>A blocked tube means the person may miss their feed, fluids and medicines, so it needs to be reported promptly rather than left. Prevention is far better than cure: consistent flushing, giving only what is prescribed, and giving medicines correctly will stop the great majority of blockages before they start. When in doubt, never restart a feed through a tube you cannot flush &mdash; escalate instead.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b6209675-4b50-4e1c-8072-d73af330a194",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You try to give a water flush and it will not go through the PEG, with unusual resistance. What is the safest action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Do not force it, follow the gentle steps in your training, and escalate to the nurse or dietitian if it will not clear.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Never force a blocked tube; use only the method you were taught and escalate if it does not clear.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Push hard on the syringe to force the blockage through.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; forcing fluid can burst the tube or drive the blockage further in.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Poke a thin object down the tube to clear it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; never put anything inside the tube; this can damage it or push the blockage in.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give the feed anyway and hope it clears the blockage.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; never restart a feed through a tube you cannot flush; stop and escalate.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "00222215-d416-4eff-bee0-178b828e1370",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

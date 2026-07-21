@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dry mouth and difficult moments</h2><p>Not everyone finds mouth care easy to receive, and not every mouth behaves normally. Two situations you will meet often are dry mouth, and people who resist care or cannot consent to it. Both call for patience, observation and a person-centred approach.</p><ul><li><strong>Dry mouth:</strong> a common problem, often linked to medicines, mouth breathing, oxygen or dehydration.</li><li><strong>Resisting care:</strong> a person may turn away, close their mouth or become distressed.</li><li><strong>Lacking capacity:</strong> some people cannot understand or agree to mouth care, which must be handled lawfully and kindly.</li></ul><p>In all of these, your job is to support comfort, follow the plan, never use force, and report what you find.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c1a5326a-d03d-4b87-8a36-f4ceede6c3bf",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dry mouth and resistance",
+          "decorative": false,
+          "file": {
+            "path": "images/dry-mouth-and-resistance.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "529b7ce7-418f-4bc9-85d9-bb3c63a356bb",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Managing dry mouth, and supporting people who resist</h2><p>A <strong>dry mouth</strong> can be very uncomfortable and raises the risk of decay, infection and difficulty eating and speaking. Signs include sticky or stringy saliva, cracked lips, a sore or coated tongue and trouble swallowing. Help by encouraging regular sips of water and good hydration, keeping the lips moist with a suitable lip balm, and using any saliva substitute gel or spray recorded in the person's plan. Report a persistent dry mouth, as a review of medicines or a dental opinion may help.</p><p>When someone <strong>resists</strong> mouth care, never force it. Try to find out why &mdash; they may be in pain, frightened, tired or simply want privacy. Approach calmly, explain what you would like to do, offer choice and try again later if they refuse. Where a person lacks the <strong>capacity</strong> to consent, care must follow the Mental Capacity Act and be given in their best interests, gently and without restraint, as agreed in the plan. Report ongoing refusal or distress so the team can find a kinder way forward.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4aeb1168-89d6-4216-8f3d-7b0bcd940d82",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support keeps turning their head away and closing their mouth when you offer mouth care. What is the best response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Stay calm, do not force it, try to find out why they are resisting, offer choice and try again later, and report the difficulty</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. You never force mouth care; you explore the reason gently, respect the person and report so the team can help.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Hold their head still and brush their teeth quickly before they can object</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Forcing or restraining a person for mouth care is never acceptable and can cause harm and distress.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide they simply do not need mouth care and never offer it again</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. One refusal does not mean the need has gone; you keep offering gently and report ongoing refusal.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ignore how they feel because the care plan says to brush their teeth</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. A care plan does not allow you to override distress or refusal; report it so a better approach can be found.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "e4f3610a-ea49-48cb-82e0-a1af7a281cb0",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

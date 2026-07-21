@@ -1,0 +1,374 @@
+{
+  "slug": "oral-care",
+  "courseTitle": "Oral Care",
+  "pages": [
+    {
+      "label": "Welcome",
+      "section": "Why oral care matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Welcome to Oral Care</h2><p>Welcome to this awareness course on <strong>oral care</strong>. Looking after the mouth is one of the most important, yet most often overlooked, parts of daily personal care. A clean, comfortable mouth helps a person eat, drink, speak, smile and feel like themselves, while a neglected mouth can cause pain, poor nutrition, infection and a real loss of dignity. This course is for care workers in England and is grounded in national guidance, including NICE guideline NG48 and quality standard QS151, and the Mouth Care Matters programme.</p><ul><li><strong>Everyday care:</strong> daily mouth care is part of personal care and the person's care plan.</li><li><strong>Your role:</strong> to support good daily mouth care, and to notice and report problems.</li><li><strong>Knowing your limits:</strong> assessment and treatment of the mouth are for dental professionals.</li></ul><p>This e-learning covers the <strong>knowledge and awareness</strong> element only. It does not replace supervised, hands-on training, and it does not qualify you to assess, diagnose or treat any condition of the mouth or teeth &mdash; that is the role of a dentist or other dental professional. Giving mouth care safely must also be observed at work by your employer.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What this course covers</h2><p>Over the next pages you will move from why oral care matters, through the practical skills of daily mouth care, to recognising problems and caring for each person as an individual.</p><ul><li><strong>Why it matters:</strong> the links between the mouth, eating, comfort, dignity, general health and aspiration pneumonia.</li><li><strong>Daily practice:</strong> mouth care plans, toothbrushing, fluoride, denture care, dry mouth and people who find care difficult.</li><li><strong>Problems and people:</strong> spotting common problems, when to refer to a dentist, and person-centred, well-recorded care.</li></ul><p>Throughout, keep the people you support in mind. Good oral care is not a specialist task reserved for clinics &mdash; it is the steady, respectful daily support you give, followed by clear reporting when something is not right so the right professional can help.</p>"
+        }
+      ]
+    },
+    {
+      "label": "The mouth and health",
+      "section": "Why oral care matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Why oral care matters</h2><p>The mouth does far more than most people stop to think about. It is how we eat and drink, how we taste and enjoy food, how we speak and how we smile at the people around us. When the mouth is sore, dry or infected, all of these suffer at once, and a person's quality of life can fall sharply. Good oral care protects comfort and health together.</p><ul><li><strong>Eating and nutrition:</strong> a painful mouth makes eating and drinking hard, risking weight loss and dehydration.</li><li><strong>Comfort and dignity:</strong> fresh breath, clean teeth and a comfortable mouth support self-esteem and social life.</li><li><strong>General health:</strong> poor oral health is linked to problems well beyond the mouth, including chest infections.</li></ul><p>The people you support may not be able to look after their own mouths, or to tell you when something hurts. That is exactly why your attention matters.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>The mouth, nutrition and dignity</h2><p>Think how you eat with a mouth ulcer or a sore tooth &mdash; you chew carefully, avoid certain foods and eat less. For someone frail, eating less can quickly lead to weight loss, malnutrition and dehydration, which slow healing and drain energy. A comfortable mouth is a quiet but powerful support for good nutrition.</p><p>There is dignity here too. Bad breath, food debris, stained teeth or ill-fitting dentures can make a person feel embarrassed and withdraw from mealtimes and company. Helping someone keep a clean, fresh mouth is not vanity &mdash; it protects how they feel about themselves and how comfortable they are with others. Mouth Care Matters and NICE guidance both treat daily mouth care as essential, everyday care, not an optional extra to fit in when there is time.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Why can a sore or neglected mouth put a frail person at risk of malnutrition?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Pain and discomfort in the mouth make eating and drinking difficult, so the person may take in less food and fluid",
+              "correct": true,
+              "feedback": "Correct. A painful mouth makes chewing and swallowing hard, so the person eats and drinks less and can lose weight."
+            },
+            {
+              "text": "A sore mouth has no effect on how much a person eats",
+              "correct": false,
+              "feedback": "Not quite. Mouth pain very often reduces how much someone can comfortably eat and drink."
+            },
+            {
+              "text": "Because mouth problems only ever affect the person's speech",
+              "correct": false,
+              "feedback": "No. Mouth problems affect eating and drinking as well as speech, which is why nutrition can suffer."
+            },
+            {
+              "text": "Because malnutrition is caused only by the food on the menu, never by the mouth",
+              "correct": false,
+              "feedback": "No. The condition of the mouth strongly affects how well a person can eat, whatever is on the menu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Swallowing and lungs",
+      "section": "Why oral care matters",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Dysphagia and aspiration pneumonia</h2><p>Some of the people you support have <strong>dysphagia</strong> &mdash; difficulty swallowing safely. This may be due to a stroke, dementia, Parkinson's or other conditions. When swallowing is unsafe, food, drink or saliva can go the wrong way, down towards the lungs instead of the stomach. This is called aspiration.</p><ul><li><strong>Dysphagia:</strong> difficulty or discomfort with swallowing, which many older or unwell people live with.</li><li><strong>Aspiration:</strong> food, fluid or saliva entering the airway and lungs instead of the stomach.</li><li><strong>The link to the mouth:</strong> a dirty mouth carries far more harmful bacteria into the lungs when aspiration happens.</li></ul><p>Good daily mouth care reduces the bacteria in the mouth, and so is one practical way to help lower the risk of chest infection for people who are prone to aspiration.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Your role in reducing the risk</h2><p><strong>Aspiration pneumonia</strong> is a serious chest infection that can develop when material from the mouth is breathed into the lungs. When the mouth is unclean, that material carries a heavy load of bacteria, raising the risk. Keeping the mouth clean is therefore not only about comfort &mdash; for someone with swallowing difficulties it can help protect their chest and their life. This is one reason the Mouth Care Matters programme places such emphasis on regular, thorough mouth care.</p><p>Your role is clear and practical. Give good daily mouth care as set out in the person's care plan, follow any guidance from the speech and language therapist about safe swallowing and positioning, and take care not to leave debris or excess fluid in the mouth. If you have concerns about a person's swallowing, report them &mdash; assessing swallowing is a job for trained professionals, not for you to judge alone.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap to complete the passage about aspiration.</p>",
+          "textField": "Bacteria from an unclean *mouth* can be breathed into the *lungs*, causing a serious chest infection called aspiration *pneumonia*. This risk is higher for people who have difficulty *swallowing*, so good daily mouth care helps to protect them."
+        }
+      ]
+    },
+    {
+      "label": "Assessment and plans",
+      "section": "Daily mouth care in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Mouth care assessment and plans</h2><p>Good daily mouth care starts with knowing what each person needs. NICE guidance recommends that a person's mouth care needs are assessed when they come into a care setting, and that this is written into their personal care plan. As a care worker you contribute to and follow this plan; the detailed dental assessment of the mouth itself is carried out by dental professionals.</p><ul><li><strong>Assessed early:</strong> mouth care needs should be looked at on admission and reviewed regularly.</li><li><strong>Recorded:</strong> the plan notes whether the person has their own teeth, dentures, or both, and the support they need.</li><li><strong>Followed:</strong> everyone caring for the person works to the same agreed plan.</li></ul><p>A clear mouth care plan means care is consistent from one worker and one day to the next, and that nothing important is missed.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What a mouth care plan covers</h2><p>A mouth care plan sets out the practical detail of how to support each person. It typically records whether the person can carry out their own mouth care, or how much help they need; whether they have natural teeth, full or partial dentures, or both; the products to use, such as their fluoride toothpaste; and any particular difficulties, such as a dry mouth, resisting care, or a swallowing problem.</p><p>The plan should also note the person's dentist and any appointments, and preferences that matter to them &mdash; a favourite toothpaste flavour, the time of day they prefer, or cultural and religious routines around mouth cleaning. Read the plan before you give care, follow it, and if you notice it no longer fits the person &mdash; their own care has become harder, or a new problem has appeared &mdash; report this so the plan can be reviewed and kept up to date.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "According to good practice, when should a person's mouth care needs first be assessed and recorded?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "When they are admitted to the care setting, with the needs written into their care plan and reviewed over time",
+              "correct": true,
+              "feedback": "Correct. NICE guidance recommends assessing mouth care needs on admission and recording them in the care plan."
+            },
+            {
+              "text": "Only once they develop toothache or another obvious problem",
+              "correct": false,
+              "feedback": "Not quite. Waiting for a problem misses the chance to prevent one; needs should be assessed from the start."
+            },
+            {
+              "text": "Only at their annual review, and never sooner",
+              "correct": false,
+              "feedback": "No. Mouth care needs should be assessed on admission, not left until a distant annual review."
+            },
+            {
+              "text": "Never, because mouth care is not part of the care plan",
+              "correct": false,
+              "feedback": "No. Daily mouth care is very much part of personal care and belongs in the care plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Brushing and fluoride",
+      "section": "Daily mouth care in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Toothbrushing and fluoride</h2><p>For people with their own teeth, regular brushing with fluoride toothpaste is the foundation of a healthy mouth. It removes the sticky layer of plaque that causes decay and gum disease, and the fluoride strengthens teeth against decay. The Mouth Care Matters programme and NICE guidance both recommend brushing as an everyday routine.</p><ul><li><strong>Twice a day:</strong> brush natural teeth in the morning and last thing at night.</li><li><strong>Fluoride toothpaste:</strong> use a fluoride toothpaste, as recommended for the person in their plan.</li><li><strong>Gentle and thorough:</strong> a small-headed soft brush, cleaning all tooth surfaces and along the gum line.</li></ul><p>Support the person to brush their own teeth where they can, offering help and prompts, and take over only as much as they genuinely need.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Brushing well</h2><p>Use a small-headed, soft toothbrush and a pea-sized amount of fluoride toothpaste. Brush gently in small circular movements, covering the outer, inner and biting surfaces of every tooth and cleaning along the gum line where plaque gathers. Take your time, keep the person comfortable and let them see what you are doing. Afterwards, encourage the person to spit out the excess but <strong>not to rinse with water</strong> &mdash; &ldquo;spit, don't rinse&rdquo; &mdash; because leaving a little fluoride on the teeth keeps protecting them.</p><p>Brush twice a day, and always before bed, as saliva flow falls during sleep and offers less natural protection. Change the toothbrush when it becomes worn. If a person has dentures as well as some natural teeth, care for both. Where someone cannot manage a normal toothbrush, follow the plan and any equipment recommended, and report any difficulty so the right support or advice can be arranged.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "After brushing with fluoride toothpaste, the person should spit out the excess but not rinse their mouth with water.",
+          "correct": true,
+          "correctMsg": "Correct. &ldquo;Spit, don't rinse&rdquo; leaves a little fluoride on the teeth to keep protecting them.",
+          "wrongMsg": "Not quite. Best practice is to spit out excess toothpaste but not rinse, so fluoride stays on the teeth."
+        }
+      ]
+    },
+    {
+      "label": "Denture care",
+      "section": "Daily mouth care in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Caring for dentures</h2><p>Many of the people you support wear full or partial dentures, and these need daily care just as natural teeth do. Dentures collect food, plaque and bacteria, and a neglected denture can cause bad breath, sore gums and infection. Clean dentures also help a person eat and speak comfortably and feel confident.</p><ul><li><strong>Clean daily:</strong> remove and clean dentures every day, and rinse them after meals.</li><li><strong>Out at night:</strong> take dentures out overnight to rest and protect the gums.</li><li><strong>Named and safe:</strong> store them in a clean, labelled container so they are not lost or mixed up.</li></ul><p>Handle dentures with care &mdash; they are easily dropped and broken, and a lost or damaged denture can leave a person unable to eat properly for some time.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Cleaning and overnight storage</h2><p>To clean dentures, remove them and brush them over a bowl of water or a soft towel, so they are not damaged if they slip from your hands. Use a denture brush with soap and water or a non-abrasive denture cleaner &mdash; ordinary toothpaste is too abrasive and can scratch the denture. Rinse them well, and clean the person's gums, tongue and any remaining natural teeth with a soft brush before the dentures go back in.</p><p>Dentures should be taken out at night. Leaving them out rests the gums and helps prevent a common mouth infection called denture stomatitis, a soreness under the plate. Store them overnight in a clean, labelled pot &mdash; in water or a soaking solution, or clean and dry, following the person's plan. NICE guidance recommends marking dentures with the person's name, a great help in a shared setting. If dentures are loose, cracked or causing soreness, report it and arrange a dental review.</p>"
+        }
+      ]
+    },
+    {
+      "label": "Dry mouth and resistance",
+      "section": "Daily mouth care in practice",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Dry mouth and difficult moments</h2><p>Not everyone finds mouth care easy to receive, and not every mouth behaves normally. Two situations you will meet often are dry mouth, and people who resist care or cannot consent to it. Both call for patience, observation and a person-centred approach.</p><ul><li><strong>Dry mouth:</strong> a common problem, often linked to medicines, mouth breathing, oxygen or dehydration.</li><li><strong>Resisting care:</strong> a person may turn away, close their mouth or become distressed.</li><li><strong>Lacking capacity:</strong> some people cannot understand or agree to mouth care, which must be handled lawfully and kindly.</li></ul><p>In all of these, your job is to support comfort, follow the plan, never use force, and report what you find.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Managing dry mouth, and supporting people who resist</h2><p>A <strong>dry mouth</strong> can be very uncomfortable and raises the risk of decay, infection and difficulty eating and speaking. Signs include sticky saliva, cracked lips, a sore or coated tongue and trouble swallowing. Help by encouraging regular sips of water and good hydration, keeping the lips moist with a suitable lip balm, and using any saliva substitute gel or spray recorded in the plan. Report a persistent dry mouth, as a review of medicines or a dental opinion may help.</p><p>When someone <strong>resists</strong> mouth care, never force it. Try to find out why &mdash; they may be in pain, frightened, tired or simply want privacy. Approach calmly, explain what you would like to do, offer choice and try again later if they refuse. Where a person lacks the <strong>capacity</strong> to consent, care must follow the Mental Capacity Act and be given in their best interests, gently and without restraint, as agreed in the plan. Report ongoing refusal or distress so the team can find a kinder way forward.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person you support keeps turning their head away and closing their mouth when you offer mouth care. What is the best response?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Stay calm, do not force it, try to find out why they are resisting, offer choice and try again later, and report the difficulty",
+              "correct": true,
+              "feedback": "Correct. You never force mouth care; you explore the reason gently, respect the person and report so the team can help."
+            },
+            {
+              "text": "Hold their head still and brush their teeth quickly before they can object",
+              "correct": false,
+              "feedback": "No. Forcing or restraining a person for mouth care is never acceptable and can cause harm and distress."
+            },
+            {
+              "text": "Decide they simply do not need mouth care and never offer it again",
+              "correct": false,
+              "feedback": "Not quite. One refusal does not mean the need has gone; you keep offering gently and report ongoing refusal."
+            },
+            {
+              "text": "Ignore how they feel because the care plan says to brush their teeth",
+              "correct": false,
+              "feedback": "No. A care plan does not allow you to override distress or refusal; report it so a better approach can be found."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ulcers and thrush",
+      "section": "Recognising problems and referral",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Mouth ulcers and oral thrush</h2><p>Because you look inside the mouths of the people you support, you are well placed to notice problems early. You are not there to diagnose &mdash; that is for a dentist, GP or other professional &mdash; but knowing what common problems look like helps you report clearly and promptly. Two you will meet are mouth ulcers and oral thrush.</p><ul><li><strong>Mouth ulcers:</strong> small, painful sores, usually healing within about two weeks.</li><li><strong>Oral thrush:</strong> a fungal infection, often seen as white patches or a red, sore mouth.</li><li><strong>Your job:</strong> notice, record and report, so the right professional can assess and treat.</li></ul><p>Report these clearly, describing what you see and when it started, so the team can decide what care is needed.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>What to look for and when to worry</h2><p>Mouth <strong>ulcers</strong> are common and usually heal on their own within a week or two. Keep the mouth clean and comfortable and avoid spicy or acidic foods that sting. However, any ulcer or sore patch that has not healed after about <strong>three weeks</strong> should always be reported and referred for a dental opinion, as long-lasting mouth sores need proper checking.</p><p>Oral <strong>thrush</strong>, or candida, is a fungal infection more common in people who wear dentures, have a dry mouth, are unwell, or have taken antibiotics. It may appear as creamy-white patches that leave a red, sore area if wiped, or as a generally red, sore mouth and cracked corners, and can make eating uncomfortable. Thrush needs treatment, usually an antifungal from the GP or dentist, so report it promptly and make sure dentures are cleaned well and left out overnight. Whatever you see, describe it factually and pass it on &mdash; you notice and report; the professional assesses and treats.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "You notice a sore patch in a person's mouth. Roughly how long should such a sore or ulcer take to heal before it must be reported and referred for a dental opinion?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "An ulcer that has not healed after about three weeks should always be reported and referred",
+              "correct": true,
+              "feedback": "Correct. Most ulcers heal within a couple of weeks; one lasting around three weeks or more needs a dental check."
+            },
+            {
+              "text": "There is never any need to report a mouth ulcer, however long it lasts",
+              "correct": false,
+              "feedback": "No. An ulcer that lasts around three weeks or more should always be reported and checked by a dentist."
+            },
+            {
+              "text": "Only if it is still there after a full year",
+              "correct": false,
+              "feedback": "Not quite. Waiting a year is far too long; a sore lasting about three weeks already needs a dental opinion."
+            },
+            {
+              "text": "You should try to treat it yourself before telling anyone",
+              "correct": false,
+              "feedback": "No. Assessing and treating mouth problems is for dental and medical professionals; your job is to report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Decay, gums and pain",
+      "section": "Recognising problems and referral",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Tooth decay, gum disease and pain</h2><p>Alongside ulcers and thrush, you may notice tooth decay, gum disease, pain or bleeding. These are common but should never be treated as normal or ignored. Spotting them early and reporting them helps the person get treatment before problems become serious.</p><ul><li><strong>Tooth decay:</strong> holes, dark or discoloured areas, sensitivity or toothache.</li><li><strong>Gum disease:</strong> red, swollen gums that bleed easily, and bad breath.</li><li><strong>Pain and bleeding:</strong> signs a person may show even if they cannot tell you in words.</li></ul><p>Remember that someone with dementia or communication difficulties may show mouth pain through behaviour rather than words &mdash; refusing food, pulling at their face, or becoming distressed.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Recognising and reporting the signs</h2><p><strong>Tooth decay</strong> can cause toothache, sensitivity to hot and cold, visible holes or dark patches, and difficulty eating. <strong>Gum disease</strong> begins with gums that look red and swollen and bleed when brushed; left unchecked it can loosen and lose teeth. A little bleeding when brushing a neglected mouth often settles as cleaning improves, but bleeding that is heavy, persistent or unexplained should be reported.</p><p>Watch too for signs of <strong>pain</strong> in people who cannot easily tell you: wincing while eating, avoiding certain foods, rubbing the cheek or jaw, dribbling, disturbed sleep, or new restlessness. Do not try to diagnose or treat any of this yourself, and never attempt to remove a loose tooth or adjust a denture. Keep the mouth as clean and comfortable as you can, offer softer food if eating hurts, record what you noticed, and report it so a dentist can assess and treat. Prompt reporting is the kindest and safest thing you can do.</p>"
+        },
+        {
+          "type": "truefalse",
+          "question": "A person with dementia who cannot tell you about pain may show mouth pain through their behaviour, such as refusing food or pulling at their face.",
+          "correct": true,
+          "correctMsg": "Correct. When someone cannot explain pain in words, behaviour such as refusing food or touching the face can be the clue.",
+          "wrongMsg": "Not quite. People who cannot describe pain often show it through behaviour, so these signs matter and should be reported."
+        }
+      ]
+    },
+    {
+      "label": "Dentures and referral",
+      "section": "Recognising problems and referral",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Ill-fitting dentures and referral</h2><p>Dentures that no longer fit well are a frequent and easily missed problem. Over time a person's mouth changes shape, especially after weight loss, and a denture that once fitted can become loose, rub and cause sores. Ill-fitting dentures can stop a person eating properly and knock their confidence.</p><ul><li><strong>Signs of poor fit:</strong> dentures that slip, click, rub or leave sore, red patches.</li><li><strong>Effects:</strong> difficulty eating and speaking, mouth ulcers and reluctance to wear them.</li><li><strong>Action:</strong> report the problem and arrange a dental review &mdash; do not try to adjust the denture yourself.</li></ul><p>A dentist can reline, adjust or replace a denture, restoring comfort and the ability to eat well.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>When to refer to a dentist</h2><p>You give daily mouth care, but the assessment and treatment of the mouth belong to dental professionals. NICE guidance encourages supporting people to keep access to a dentist and regular dental reviews. Knowing when to seek that help is part of your role. Report and arrange a dental opinion when you notice warning signs, and treat pain, bleeding or a person unable to eat as reasons to act promptly.</p><p>Reasons to refer include: toothache or mouth pain; bleeding or swollen gums that do not settle; a mouth ulcer or sore patch lasting around three weeks or more; loose, broken or lost teeth; ill-fitting, cracked or lost dentures; signs of infection such as thrush or swelling; and any difficulty eating because of the mouth. When you are unsure, it is always safer to report and let a professional decide. You are the eyes and ears; the dentist makes the diagnosis and provides the treatment. Record what you noticed and what was reported, so nothing is lost.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "A person has lost weight and their dentures now slip and rub, leaving a sore patch. What should you do?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Report the problem and arrange a dental review, keeping the mouth clean and comfortable meanwhile",
+              "correct": true,
+              "feedback": "Correct. Ill-fitting dentures need a dentist to adjust, reline or replace them; you report and support comfort."
+            },
+            {
+              "text": "File down or adjust the denture yourself so it fits better",
+              "correct": false,
+              "feedback": "No. Adjusting dentures is a dental task; doing it yourself could damage the denture and harm the person."
+            },
+            {
+              "text": "Tell the person to keep wearing them and get used to the soreness",
+              "correct": false,
+              "feedback": "Not quite. Sore, ill-fitting dentures should be reviewed by a dentist, not endured."
+            },
+            {
+              "text": "Throw the dentures away so the person no longer has the problem",
+              "correct": false,
+              "feedback": "No. Removing a person's dentures leaves them unable to eat and speak properly; the answer is a dental review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Consent and culture",
+      "section": "Person-centred oral care and recording",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Person-centred oral care</h2><p>Mouth care is personal and intimate, and every person has their own wishes, habits and background. Person-centred oral care means fitting the care to the individual rather than following a fixed routine, and it begins with consent and choice. No one may clean another person's mouth without their agreement.</p><ul><li><strong>Consent:</strong> gained before you begin and checked as you go; the person can decline at any point.</li><li><strong>Choice:</strong> a say in products, timing and how care is given.</li><li><strong>Cultural and religious needs:</strong> respecting the mouth-care customs that matter to the person.</li></ul><p>Care given with a person, respecting who they are, is far more likely to be accepted and to do good than care done to them.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Choice and cultural needs</h2><p>Offer real <strong>choice</strong> wherever you can: the flavour of toothpaste, the time of day, whether the person would like to do part of the care themselves. Small choices restore a sense of control and make mouth care something the person shares in rather than something imposed. Explain what you are doing, go at their pace, and stop if they ask you to.</p><p>People's <strong>cultural and religious</strong> backgrounds can shape mouth care too. Some people rinse the mouth as part of washing before prayer; some prefer particular practices or products, or a carer of the same sex for personal care. You are not expected to know every custom, but you are expected to ask, listen and respect, and to follow what is recorded in the plan. Where a person lacks capacity to consent, care is still given in their best interests under the Mental Capacity Act, gently and in line with their known wishes and beliefs. Respecting who someone is, is part of respecting their dignity.</p>"
+        },
+        {
+          "type": "dragtext",
+          "taskDescription": "<p>Drag each word into the correct gap to complete the guidance on person-centred oral care.</p>",
+          "textField": "Always gain the person's *consent* before mouth care and offer them a genuine *choice* about how it is given. Respect their *cultural* and religious wishes, and record everything clearly in the care *plan*."
+        }
+      ]
+    },
+    {
+      "label": "Dementia and mouth care",
+      "section": "Person-centred oral care and recording",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Supporting people with dementia</h2><p>People living with dementia may find mouth care confusing or frightening, and may not understand what you are trying to do or be able to tell you when something hurts. This does not mean mouth care matters any less &mdash; if anything it needs more care, patience and skill, because problems can go unnoticed and untreated.</p><ul><li><strong>Familiar and calm:</strong> keep to a familiar routine, in a calm setting, at a good time of day.</li><li><strong>Simple steps:</strong> use short, clear words and gentle demonstration rather than long explanations.</li><li><strong>Watch behaviour:</strong> distress, refusing food or touching the face may signal pain.</li></ul><p>Never force care. Distress is a signal to stop, reassure and try again in a way that feels safer to the person.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Gentle approaches that help</h2><p>A few simple approaches make mouth care easier for someone with dementia. Choose a time when the person is calmest and least tired, and reduce noise and distraction. Approach from where they can see you, make eye contact, and explain in a few plain words what you would like to do. Demonstrating &mdash; miming brushing your own teeth, or letting the person hold the brush and start themselves &mdash; often works better than instructions, and offering a familiar flavour can help.</p><p>Break the task into small steps, work slowly, and give plenty of encouragement and reassurance. If the person becomes upset, stop, give them a moment, and try again later rather than pressing on. Keep watching for the behavioural signs of pain or a mouth problem, since the person may not be able to tell you in words, and report anything you notice. Above all, keep the person's dignity at the centre: a calm, respectful, unhurried manner is the most powerful tool you have.</p>"
+        },
+        {
+          "type": "multichoice",
+          "question": "Which approach is most likely to help when supporting a person with dementia to have their teeth brushed?",
+          "singleAnswer": true,
+          "answers": [
+            {
+              "text": "Choose a calm time, use short simple words, demonstrate gently, work in small steps, and stop if they become distressed",
+              "correct": true,
+              "feedback": "Correct. Familiar routine, simple communication, demonstration and stopping if distressed all support the person."
+            },
+            {
+              "text": "Give long, detailed explanations and insist the person keeps going even when upset",
+              "correct": false,
+              "feedback": "No. Long explanations can confuse, and pressing on through distress causes harm; stop and try again later."
+            },
+            {
+              "text": "Skip mouth care altogether because the person has dementia",
+              "correct": false,
+              "feedback": "Not quite. People with dementia still need good mouth care; the skill is in how gently and simply you offer it."
+            },
+            {
+              "text": "Do the task as fast as possible while the person is distracted, without explaining",
+              "correct": false,
+              "feedback": "No. Rushing and not explaining can frighten the person; a calm, clear, step-by-step approach works better."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Recording and referral",
+      "section": "Person-centred oral care and recording",
+      "items": [
+        {
+          "type": "text",
+          "html": "<h2>Recording and escalating</h2><p>Good mouth care is only complete when what you have done and noticed is written down and passed on. Accurate records keep care consistent between workers, let changes be tracked over time, and make sure problems reach the right professional. Reporting and recording are as much a part of oral care as the brushing itself.</p><ul><li><strong>Record the care:</strong> note the mouth care given, and any refusals or difficulties.</li><li><strong>Record what you see:</strong> describe ulcers, soreness, bleeding, dry mouth or denture problems factually.</li><li><strong>Escalate:</strong> report concerns promptly so a dentist or other professional can assess and treat.</li></ul><p>Write what you actually saw and did, not what you assume, and record it promptly while it is fresh.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Bringing it together</h2><p>Well done for completing this awareness course on oral care. You have explored why the mouth matters so much for eating, comfort, dignity and general health, and its link to swallowing difficulties and aspiration pneumonia; how to give good daily mouth care, from mouth care plans and toothbrushing with fluoride to denture care, dry mouth and difficult moments; how to recognise common problems and when to refer to a dentist; and how to give person-centred care and record and escalate well. Throughout, daily mouth care is part of the person's care plan, and problems are reported and referred.</p><p>Remember the key point from the start: <strong>this e-learning covers knowledge and awareness only</strong>. It does not replace supervised, hands-on training, and it does not qualify you to assess, diagnose or treat any condition of the mouth &mdash; that is always the role of a dentist or other dental professional, whose assessment your daily care supports but never replaces. Speak to your manager about the practical training and workplace observation that go alongside this learning, and carry this attention to the mouth into the care of every person you support.</p>"
+        }
+      ]
+    }
+  ]
+}

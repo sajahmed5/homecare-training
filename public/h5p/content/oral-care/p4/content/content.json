@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Mouth care assessment and plans</h2><p>Good daily mouth care starts with knowing what each person needs. NICE guidance recommends that a person's mouth care needs are assessed when they come into a care setting, and that this is written into their personal care plan. As a care worker you contribute to and follow this plan; the detailed dental assessment of the mouth itself is carried out by dental professionals.</p><ul><li><strong>Assessed early:</strong> mouth care needs should be looked at on admission and reviewed regularly.</li><li><strong>Recorded:</strong> the plan notes whether the person has their own teeth, dentures, or both, and the support they need.</li><li><strong>Followed:</strong> everyone caring for the person works to the same agreed plan.</li></ul><p>A clear mouth care plan means care is consistent from one worker and one day to the next, and that nothing important is missed.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "04ac833d-6005-4f55-a268-e4ddfd4a79b3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Assessment and plans",
+          "decorative": false,
+          "file": {
+            "path": "images/assessment-and-plans.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "c4d08986-12c1-412d-a1be-cf108b54c5d2",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What a mouth care plan covers</h2><p>A mouth care plan sets out the practical detail of how to support each person. It typically records whether the person can carry out their own mouth care, or how much help they need; whether they have natural teeth, full or partial dentures, or both; the products to use, such as their fluoride toothpaste; and any particular difficulties, such as a dry mouth, a tendency to resist care, or a swallowing problem.</p><p>The plan should also note who the person's dentist is and any dental appointments, and any preferences that matter to them &mdash; a favourite toothpaste flavour, the time of day they prefer, or cultural and religious routines around mouth cleaning. Read the plan before you give care, follow it, and if you notice that it no longer fits the person &mdash; for example their own care has become harder, or a new problem has appeared &mdash; report this so the plan can be reviewed and kept up to date.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4db7fdfc-71d6-4cbf-be01-0f6f9c7e9e80",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>According to good practice, when should a person's mouth care needs first be assessed and recorded?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>When they are admitted to the care setting, with the needs written into their care plan and reviewed over time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. NICE guidance recommends assessing mouth care needs on admission and recording them in the care plan.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only once they develop toothache or another obvious problem</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Waiting for a problem misses the chance to prevent one; needs should be assessed from the start.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Only at their annual review, and never sooner</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Mouth care needs should be assessed on admission, not left until a distant annual review.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Never, because mouth care is not part of the care plan</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Daily mouth care is very much part of personal care and belongs in the care plan.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "1e19135b-eea1-4004-8844-c24adfede757",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The emotional impact</h2><p>Living with a stoma is not only a physical change; it can affect how a person feels about their body, their confidence and their relationships. People may feel anxious, low, embarrassed or worried about odour, leaks, intimacy or being seen as different, and these feelings can be just as hard as the practical care. Adjusting takes time, and how you respond makes a real difference.</p><ul><li><strong>Body image:</strong> a stoma can affect confidence and self-esteem.</li><li><strong>Worries:</strong> people may fear leaks, odour or being judged.</li><li><strong>Adjustment:</strong> coming to terms with a stoma takes time.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "504b4b58-c341-43a8-a132-943d59c61066",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Support and summary",
+          "decorative": false,
+          "file": {
+            "path": "images/support-and-summary.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0457280e-899a-46b6-92cb-b469e9d09ad0",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred support &amp; bringing it together</h2><p>Support the person by being calm, patient and non-judgemental, listening to their worries, protecting their dignity and encouraging their independence at their own pace. Reassure them that many people live full, active lives with a stoma, and signpost them to their stoma care nurse and to support groups where that would help. Small kindnesses &mdash; discretion, respect and never rushing &mdash; help people rebuild their confidence.</p><p>You have learned what a stoma is, the three main types, how appliances work, and how good daily care, healthy skin, diet and hydration all support wellbeing, alongside how to recognise and report problems. Remember the boundary this course has stressed throughout: this training is <strong>awareness only</strong>. It does <strong>not</strong> authorise you or anyone else to carry out stoma care without task-specific training, assessed competence and the care plan, and it does not replace the assessment of a registered stoma care nurse. Anything abnormal, you observe and report.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8ec0e2c6-6f99-42b1-bb17-91b4e45c4ec9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "peg-feeding",
+  "title": "PEG Feeding",
+  "content_blocks": [
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p1",
+      "label": "Welcome",
+      "questions": 0,
+      "section": "About PEG feeding"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p2",
+      "label": "What is a PEG?",
+      "questions": 1,
+      "section": "About PEG feeding"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p3",
+      "label": "Why enteral feeding?",
+      "questions": 1,
+      "section": "About PEG feeding"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p4",
+      "label": "Types and your role",
+      "questions": 1,
+      "section": "About PEG feeding"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p5",
+      "label": "Hand hygiene and checks",
+      "questions": 1,
+      "section": "Safe feeding practice"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p6",
+      "label": "Positioning",
+      "questions": 1,
+      "section": "Safe feeding practice"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p7",
+      "label": "Feeds, flushes and oral care",
+      "questions": 1,
+      "section": "Safe feeding practice"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p8",
+      "label": "Caring for the stoma",
+      "questions": 1,
+      "section": "Stoma site and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p9",
+      "label": "Tube care",
+      "questions": 0,
+      "section": "Stoma site and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p10",
+      "label": "Blocked tubes",
+      "questions": 1,
+      "section": "Stoma site and tube care"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p11",
+      "label": "Spotting complications",
+      "questions": 1,
+      "section": "Recognising and reporting complications"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p12",
+      "label": "Urgent problems",
+      "questions": 1,
+      "section": "Recognising and reporting complications"
+    },
+    {
+      "type": "h5p",
+      "path": "peg-feeding/p13",
+      "label": "Review and escalation",
+      "questions": 0,
+      "section": "Recognising and reporting complications"
+    }
+  ]
+}

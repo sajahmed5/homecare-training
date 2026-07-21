@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Person-centred oral care</h2><p>Mouth care is personal and intimate, and every person has their own wishes, habits and background. Person-centred oral care means fitting the care to the individual rather than following a fixed routine, and it begins with consent and choice. No one may clean another person's mouth without their agreement.</p><ul><li><strong>Consent:</strong> gained before you begin and checked as you go; the person can decline at any point.</li><li><strong>Choice:</strong> a say in products, timing and how care is given.</li><li><strong>Cultural and religious needs:</strong> respecting the mouth-care customs that matter to the person.</li></ul><p>Care given with a person, respecting who they are, is far more likely to be accepted and to do good than care done to them.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "22581dc8-ee80-4ad4-a278-97652a0fcf94",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Consent and culture",
+          "decorative": false,
+          "file": {
+            "path": "images/consent-and-culture.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "faf88a9a-7355-428f-ac59-d4c0de23c904",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Choice and cultural needs</h2><p>Offer real <strong>choice</strong> wherever you can: the flavour of toothpaste, the time of day, whether the person would like to do part of the care themselves. Small choices restore a sense of control and make mouth care something the person shares in rather than something imposed. Explain what you are doing, go at their pace, and stop if they ask you to.</p><p>People's <strong>cultural and religious</strong> backgrounds can shape mouth care too. Some people rinse the mouth as part of washing before prayer; some prefer particular practices or products, or a carer of the same sex for personal care. You are not expected to know every custom, but you are expected to ask, listen and respect, and to follow what is recorded in the plan. Where a person lacks capacity to consent, care is still given in their best interests under the Mental Capacity Act, gently and in line with their known wishes and beliefs. Respecting who someone is, is part of respecting their dignity.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "86affaca-b401-40df-80bb-f51af32b80a1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on person-centred oral care.</p></p>",
+          "textField": "Always gain the person's *consent* before mouth care and offer them a genuine *choice* about how it is given. Respect their *cultural* and religious wishes, and record everything clearly in the care *plan*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "b81a1d03-4943-418d-a90a-377e60567e3d",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

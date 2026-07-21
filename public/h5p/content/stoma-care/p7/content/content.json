@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hand hygiene comes first</h2><p>Clean hands are the single most effective way to stop the spread of infection. Before and after any contact with a person's stoma or pouch you must decontaminate your hands, using soap and water or alcohol hand rub as appropriate, and put on clean disposable gloves and an apron. After the task you remove your gloves and apron, dispose of them correctly, and clean your hands again, because gloves are never a substitute for hand hygiene.</p><ul><li><strong>Before:</strong> clean your hands and put on gloves and an apron.</li><li><strong>After:</strong> remove gloves and apron, then clean your hands again.</li><li><strong>Always:</strong> gloves do not replace handwashing.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "83ed5606-7392-47d1-88a4-6c894a62a25b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Hygiene and infection control",
+          "decorative": false,
+          "file": {
+            "path": "images/hygiene-and-infection-control.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "139dc073-027b-4697-8fca-09f1f51955af",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Clean, safe practice</h2><p>Good infection control protects both the person and you. Gather everything you need before you start so you are not searching with soiled gloves, and work on a clean surface. Clean the stoma and skin gently with plain water and wipes or gauze, not antiseptics, wet wipes with additives or creams, unless the care plan or stoma nurse directs otherwise, as these can harm the skin or stop the appliance sticking.</p><p>Dispose of used pouches, wipes, gloves and aprons straight into the correct waste, following your service's policy, and never leave soiled items lying around. If a person has a known infection, follow any extra precautions in their care plan. These simple, consistent habits &mdash; clean hands, clean technique and safe disposal &mdash; keep everyone safe and are the foundation of good stoma care.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "46431256-bbaf-48ef-bc55-ea5c425b8d9a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

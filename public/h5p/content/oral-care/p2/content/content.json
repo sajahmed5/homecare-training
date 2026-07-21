@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Why oral care matters</h2><p>The mouth does far more than most people stop to think about. It is how we eat and drink, how we taste and enjoy food, how we speak and how we smile at the people around us. When the mouth is sore, dry or infected, all of these suffer at once, and a person's quality of life can fall sharply. Good oral care protects comfort and health together.</p><ul><li><strong>Eating and nutrition:</strong> a painful mouth makes eating and drinking hard, risking weight loss and dehydration.</li><li><strong>Comfort and dignity:</strong> fresh breath, clean teeth and a comfortable mouth support self-esteem and social life.</li><li><strong>General health:</strong> poor oral health is linked to problems well beyond the mouth, including chest infections.</li></ul><p>The people you support may not be able to look after their own mouths, or to tell you when something hurts. That is exactly why your attention matters.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "00f2e1b2-de4f-4054-b69b-b3dd804a46c1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for The mouth and health",
+          "decorative": false,
+          "file": {
+            "path": "images/the-mouth-and-health.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "ed0f5571-9c52-4d00-b3f5-3bf37ab24a7d",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>The mouth, nutrition and dignity</h2><p>Think about how you eat when you have a mouth ulcer or a sore tooth &mdash; you chew carefully, avoid certain foods and eat less. For someone who is frail, eating less can quickly lead to weight loss, malnutrition and dehydration, which in turn slow healing and drain energy. A healthy, comfortable mouth is a quiet but powerful support for good nutrition.</p><p>There is dignity here too. Bad breath, food debris, stained teeth or ill-fitting dentures can make a person feel embarrassed and withdraw from mealtimes and company. Helping someone keep a clean, fresh mouth is not vanity &mdash; it protects how they feel about themselves and how comfortable they are with others. Mouth Care Matters and NICE guidance both treat daily mouth care as essential, everyday care, not an optional extra to fit in when there is time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5ec90fb7-f15f-4ec8-84bc-70c6057fa724",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why can a sore or neglected mouth put a frail person at risk of malnutrition?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Pain and discomfort in the mouth make eating and drinking difficult, so the person may take in less food and fluid</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A painful mouth makes chewing and swallowing hard, so the person eats and drinks less and can lose weight.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>A sore mouth has no effect on how much a person eats</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Mouth pain very often reduces how much someone can comfortably eat and drink.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because mouth problems only ever affect the person's speech</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Mouth problems affect eating and drinking as well as speech, which is why nutrition can suffer.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Because malnutrition is caused only by the food on the menu, never by the mouth</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. The condition of the mouth strongly affects how well a person can eat, whatever is on the menu.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "590af5c9-da3f-46ce-9614-5c1811797122",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

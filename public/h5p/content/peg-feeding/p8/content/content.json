@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Keeping the site clean and dry</h2><p>The <strong>stoma</strong> is where the tube passes through the abdominal wall, and it needs simple, regular care to stay healthy. Once the site has healed, it is usually cleaned daily with cooled boiled water or as the care plan directs, and then <strong>dried gently but thoroughly</strong>. A clean, dry site is far less likely to become sore or infected, so avoid leaving moisture, creams or dressings around the tube unless a professional has asked for them.</p><ul><li><strong>Clean daily:</strong> as the care plan and your training set out.</li><li><strong>Keep it dry:</strong> dry the skin gently and thoroughly after cleaning.</li><li><strong>Observe as you go:</strong> notice the colour and condition of the skin each day.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5c36856e-015e-45a9-a9b5-140c6856a742",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Caring for the stoma",
+          "decorative": false,
+          "file": {
+            "path": "images/caring-for-the-stoma.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e89d87c7-a94c-4b48-bd01-a051008d545e",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>A daily chance to observe</h2><p>Every time you carry out stoma care you have a valuable chance to <strong>observe</strong> the site. Look at the skin around the tube for any redness, swelling, leakage, discharge, crusting or lumps of tissue, and notice whether the person shows any sign of pain or tenderness. Healthy skin around a settled PEG looks much like the surrounding skin and is not sore.</p><p>Reporting is part of caring for the site. If you notice anything different from usual &mdash; new redness, leaking around the tube, a smell, or the person wincing when the area is touched &mdash; record it and tell the nurse. You are not expected to diagnose or treat these things; your job is to keep the site clean and dry, to watch it closely, and to pass on what you see so problems are caught early.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "8afe7d68-d9e3-4c1c-91c2-c93c0464fbf8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>The skin around a PEG stoma should be cleaned and then dried gently and thoroughly to help prevent soreness and infection.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite &mdash; the site should be kept clean and dried thoroughly, as moisture around the tube can lead to soreness and infection.",
+            "correctAnswerMessage": "Correct. A clean, dry stoma site is much less likely to become sore or infected."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "980b2d09-033d-4893-98b3-c22b061be42a",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Dignity and privacy come first</h2><p>Stoma care is deeply personal, and many people feel self-conscious or embarrassed about it. Every time you support someone, protect their <strong>privacy and dignity</strong>: work in a private space, close doors and curtains, keep the person covered as much as possible, and explain what you are doing at each step. Always gain the person's <strong>consent</strong> before you start, and involve them in their own care as much as they are able.</p><ul><li><strong>Privacy:</strong> a private space, doors and curtains closed.</li><li><strong>Consent:</strong> explain, ask, and involve the person throughout.</li><li><strong>Respect:</strong> be discreet and never make the person feel like a task.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "6b577c30-cd4a-4135-b11d-2e32dc9e8abd",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Dignity and odour",
+          "decorative": false,
+          "file": {
+            "path": "images/dignity-and-odour.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f30bb891-a647-4704-9951-c8cb7cd051ee",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Odour, gas and disposal</h2><p>Worry about smell and wind is one of the biggest concerns people have. Reassure them that a well-fitting, sealed pouch keeps odour in, and that most modern pouches have a built-in <strong>filter</strong> that lets gas escape slowly while deodorising it, so the pouch does not balloon. Certain foods and fizzy drinks can increase wind or smell, and the person will often learn which ones affect them.</p><p>When you empty or change a pouch, be matter-of-fact and quick, and manage odour discreetly with good ventilation. Used pouches are placed in a <strong>disposal bag</strong> and put into the general household or clinical waste as directed &mdash; they are never flushed down the toilet, as they will block it. Only the contents of a drainable pouch go into the toilet. Handling this calmly and without fuss protects the person's dignity.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "fdc2cb4f-b1d0-4def-bd79-32a8b75796c3",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "Most modern stoma pouches have a built-in *filter* that lets gas escape slowly and deodorises it. A used pouch is placed in a disposal *bag* and put into the general *waste*, and it is never flushed down the *toilet*.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "4c3616e2-566d-4455-9fdb-f4422467d4d8",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

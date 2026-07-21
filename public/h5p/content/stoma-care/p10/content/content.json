@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Diet awareness</h2><p>Most people with a stoma can, in time, eat a normal, balanced diet, though they often learn that particular foods affect their output, wind or odour. Eating regularly, chewing food <strong>well</strong> and not rushing meals all help the stoma work smoothly. Certain high-fibre foods, such as nuts, sweetcorn, mushrooms and the skins of fruit and vegetables, can be harder to digest and, for people with an ileostomy, are more likely to cause a blockage if not chewed thoroughly.</p><ul><li><strong>Balanced diet:</strong> most people return to eating normally over time.</li><li><strong>Chew well:</strong> thorough chewing helps prevent blockages.</li><li><strong>Individual:</strong> people learn which foods affect their own stoma.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "67ae0cc1-a4e0-40f5-b1fb-3e8f6661c714",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Diet and hydration",
+          "decorative": false,
+          "file": {
+            "path": "images/diet-and-hydration.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "19fed737-1e4a-4c24-a8be-e43578699aa8",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Fluids and hydration</h2><p>Hydration matters for everyone, but it is especially important for people with an <strong>ileostomy</strong> or a <strong>urostomy</strong>. Because an ileostomy passes watery output before the large bowel can reabsorb water and salts, the person can lose more fluid and <strong>salt</strong> than usual and is at real risk of dehydration, particularly in hot weather or if they are unwell with vomiting or diarrhoea. People with a urostomy are also encouraged to drink plenty to keep urine flowing and reduce the risk of infection.</p><p>Unless the person has been told to limit fluids for another medical reason, encourage them to drink well through the day and follow any specific advice from the stoma nurse or dietitian. Watch for signs of dehydration such as a dry mouth, feeling thirsty, headaches, dark urine, cramps, tiredness or dizziness, and report them. Good hydration keeps the person well and helps the stoma work as it should.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "c4c77e3b-8973-4b92-896f-30eeb2a5eac9",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap.</p></p>",
+          "textField": "A stoma made from the small bowel is called an *ileostomy*, and its watery output means the person can lose extra fluid and *salt*. People with an ileostomy or urostomy should drink plenty to avoid *dehydration*, and chewing food *well* helps prevent a blockage.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "58851751-b2ab-48f1-8c37-3cea2cbb3bba",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

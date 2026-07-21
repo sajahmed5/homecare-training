@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Caring for dentures</h2><p>Many of the people you support wear full or partial dentures, and these need daily care just as natural teeth do. Dentures collect food, plaque and bacteria, and a neglected denture can cause bad breath, sore gums and infection. Clean dentures also help a person eat and speak comfortably and feel confident.</p><ul><li><strong>Clean daily:</strong> remove and clean dentures every day, and rinse them after meals.</li><li><strong>Out at night:</strong> take dentures out overnight to rest and protect the gums.</li><li><strong>Named and safe:</strong> store them in a clean, labelled container so they are not lost or mixed up.</li></ul><p>Handle dentures with care &mdash; they are easily dropped and broken, and a lost or damaged denture can leave a person unable to eat properly for some time.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "41282ddb-d888-4dad-9c7b-25d159f49dd1",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Denture care",
+          "decorative": false,
+          "file": {
+            "path": "images/denture-care.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "e430d50d-45d5-41ee-9807-581630b17bac",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Cleaning and overnight storage</h2><p>To clean dentures, remove them and brush them over a bowl of water or a soft towel, so they are not damaged if they slip from your hands. Use a denture brush with soap and water or a non-abrasive denture cleaner &mdash; ordinary toothpaste is too abrasive and can scratch and wear the denture. Rinse them well, and also clean the person's gums, tongue and any remaining natural teeth with a soft brush before the dentures go back in.</p><p>Dentures should be taken out at night. Leaving them out gives the gums a rest and helps prevent a common infection of the mouth called denture stomatitis, a soreness under the plate. Store them overnight in a clean, labelled pot &mdash; in water or a denture-soaking solution, or clean and dry, following the manufacturer's and the person's plan. NICE guidance recommends marking dentures with the person's name, which is a great help in a shared setting. If dentures are loose, cracked or causing soreness, report it and arrange a dental review.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "5cdf97c8-6a20-4785-be7f-dc1669283df2",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

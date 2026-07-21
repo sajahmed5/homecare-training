@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Sitting upright reduces risk</h2><p>Position is one of the most important parts of safe feeding. The person should be sitting <strong>upright at around 30 to 45 degrees</strong> or more during the feed, and should stay in that position for a time afterwards &mdash; usually at least 30 to 60 minutes as set out in the care plan. Keeping them upright uses gravity to help the feed stay down and greatly reduces the risk of it coming back up and being aspirated into the lungs.</p><ul><li><strong>Upright:</strong> sit the person at 30 to 45 degrees or more.</li><li><strong>During and after:</strong> keep this position throughout and afterwards.</li><li><strong>Reduce aspiration:</strong> this is the main reason positioning matters.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "024d6237-4e87-45ea-9893-271c80b9f89b",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Positioning",
+          "decorative": false,
+          "file": {
+            "path": "images/positioning.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "f82eef2c-9dc1-4c20-b4b0-4e087a2d9f18",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Comfort and dignity while feeding</h2><p>Good positioning is also about comfort and dignity. Support the person with pillows so they are stable and relaxed, make sure they are not slipping down the bed or chair, and never feed someone who is lying flat unless a professional has specifically instructed it. If a person cannot tolerate sitting upright, or shows signs of discomfort, breathlessness or coughing during a feed, this is something to report.</p><p>Feeding is a personal part of someone's day, so involve the person as much as they are able. Explain what you are doing, offer choice about timing where the plan allows, keep them covered and comfortable, and give them your attention rather than rushing. Treating a feed with the same care and respect as a shared meal helps protect the person's dignity even when they cannot eat in the usual way.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "661fad9a-8e42-4226-b4ec-dcfff8f5673a",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Why should a person be kept sitting upright during and after a PEG feed?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>It uses gravity to help the feed stay down and reduces the risk of aspiration into the lungs.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Sitting upright at around 30 to 45 degrees during and after the feed helps prevent aspiration.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It makes the feed flow faster so the person finishes sooner.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; positioning is about safety, not speed; feed rate is set by the prescription.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It stops the tube from needing to be flushed with water.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; flushing is still needed; positioning is about reducing aspiration risk.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is only needed for people who can still eat by mouth.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No &mdash; upright positioning matters for everyone receiving a PEG feed.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6e699ba4-d7d4-43f8-ab82-550f7ca6e26b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}
