@@ -139,24 +139,25 @@ export function AllCourses({
               <div className="mt-auto">
                 {isCompleted ? (
                   // Still a link — completed courses stay open to review.
+                  // cn() so twMerge drops the variant's bg-primary; passing the
+                  // colour through buttonVariants' own className would leave
+                  // both classes and let stylesheet order decide.
                   <Link
                     href={`/learn/courses/${c.id}`}
-                    className={buttonVariants({
-                      size: "sm",
-                      className:
-                        "w-full bg-violet-600 text-white hover:bg-violet-700",
-                    })}
+                    className={cn(
+                      buttonVariants({ size: "sm" }),
+                      "w-full bg-violet-600 text-white hover:bg-violet-700",
+                    )}
                   >
                     Completed
                   </Link>
                 ) : isEnrolled ? (
                   <Link
                     href={`/learn/courses/${c.id}`}
-                    className={buttonVariants({
-                      size: "sm",
-                      className:
-                        "w-full bg-emerald-600 text-white hover:bg-emerald-700",
-                    })}
+                    className={cn(
+                      buttonVariants({ size: "sm" }),
+                      "w-full bg-emerald-600 text-white hover:bg-emerald-700",
+                    )}
                   >
                     Go to course
                   </Link>
