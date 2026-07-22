@@ -15,10 +15,25 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
+// Absolute base for canonical + Open Graph URLs, so shared links preview
+// correctly. Follows NEXT_PUBLIC_SITE_URL when set (e.g. a preview deploy),
+// otherwise the live domain.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "")
+  ?? "https://www.mycareacademy.co.uk";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "My Care Academy",
   description:
     "Compliance-first training platform for the UK care sector — training, certificates and CQC-ready records for care organisations.",
+  openGraph: {
+    type: "website",
+    siteName: "My Care Academy",
+    url: siteUrl,
+    title: "My Care Academy",
+    description:
+      "Compliance-first training platform for the UK care sector — training, certificates and CQC-ready records for care organisations.",
+  },
 };
 
 export const viewport: Viewport = {
