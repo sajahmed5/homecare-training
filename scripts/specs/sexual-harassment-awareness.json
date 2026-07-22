@@ -33,10 +33,26 @@
           "question": "How does the Equality Act 2010 define sexual harassment?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Unwanted conduct of a sexual nature that violates a person&rsquo;s dignity, or creates an intimidating, hostile, degrading, humiliating or offensive environment.", "correct": true, "feedback": "Correct. That is the Equality Act 2010 definition of sexual harassment." },
-            { "text": "Any friendly comment made between two colleagues who know each other well.", "correct": false, "feedback": "No &mdash; welcome, friendly conduct is not harassment; the conduct must be unwanted and of a sexual nature." },
-            { "text": "Only physical contact that leaves a visible mark or injury.", "correct": false, "feedback": "No &mdash; harassment can be verbal, non-verbal or online, not only physical." },
-            { "text": "Conduct that is unlawful only if the person complains about it at the time.", "correct": false, "feedback": "No &mdash; a person does not have to object at the time for conduct to be unwanted and unlawful." }
+            {
+              "text": "Unwanted conduct of a sexual nature that violates a person&rsquo;s dignity, or creates an intimidating, hostile, degrading, humiliating or offensive environment.",
+              "correct": true,
+              "feedback": "Correct. That is the Equality Act 2010 definition of sexual harassment."
+            },
+            {
+              "text": "Any friendly comment made between two colleagues who know each other well.",
+              "correct": false,
+              "feedback": "No &mdash; welcome, friendly conduct is not harassment; the conduct must be unwanted and of a sexual nature."
+            },
+            {
+              "text": "Only physical contact that leaves a visible mark or injury.",
+              "correct": false,
+              "feedback": "No &mdash; harassment can be verbal, non-verbal or online, not only physical."
+            },
+            {
+              "text": "Conduct that is unlawful only if the person complains about it at the time.",
+              "correct": false,
+              "feedback": "No &mdash; a person does not have to object at the time for conduct to be unwanted and unlawful."
+            }
           ]
         }
       ]
@@ -63,8 +79,8 @@
       ]
     },
     {
-      "label": "Forms &amp; examples",
-      "section": "Forms &amp; examples",
+      "label": "Forms & examples",
+      "section": "Forms & examples",
       "items": [
         {
           "type": "text",
@@ -79,17 +95,33 @@
           "question": "Which of these could be an example of sexual harassment?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Repeated sexual jokes, staring, and intrusive questions about a colleague&rsquo;s private life.", "correct": true, "feedback": "Correct. Verbal and non-verbal conduct of this kind can amount to sexual harassment." },
-            { "text": "Politely asking a colleague how their weekend was.", "correct": false, "feedback": "No &mdash; ordinary, respectful conversation is not harassment." },
-            { "text": "Giving honest, respectful feedback about someone&rsquo;s work.", "correct": false, "feedback": "No &mdash; fair, professional feedback is not conduct of a sexual nature." },
-            { "text": "Offering to help a colleague carry some equipment.", "correct": false, "feedback": "No &mdash; a normal offer of help is not sexual harassment." }
+            {
+              "text": "Repeated sexual jokes, staring, and intrusive questions about a colleague&rsquo;s private life.",
+              "correct": true,
+              "feedback": "Correct. Verbal and non-verbal conduct of this kind can amount to sexual harassment."
+            },
+            {
+              "text": "Politely asking a colleague how their weekend was.",
+              "correct": false,
+              "feedback": "No &mdash; ordinary, respectful conversation is not harassment."
+            },
+            {
+              "text": "Giving honest, respectful feedback about someone&rsquo;s work.",
+              "correct": false,
+              "feedback": "No &mdash; fair, professional feedback is not conduct of a sexual nature."
+            },
+            {
+              "text": "Offering to help a colleague carry some equipment.",
+              "correct": false,
+              "feedback": "No &mdash; a normal offer of help is not sexual harassment."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Physical &amp; online",
-      "section": "Forms &amp; examples",
+      "label": "Physical & online",
+      "section": "Forms & examples",
       "items": [
         {
           "type": "text",
@@ -108,7 +140,7 @@
     },
     {
       "label": "Third-party harassment",
-      "section": "Forms &amp; examples",
+      "section": "Forms & examples",
       "items": [
         {
           "type": "text",
@@ -123,17 +155,33 @@
           "question": "A care worker is repeatedly subjected to unwanted sexual comments by a person&rsquo;s relative during home visits. Which statement is correct?",
           "singleAnswer": true,
           "answers": [
-            { "text": "This can be sexual harassment by a third party, and the worker should not have to tolerate it &mdash; it should be reported to the employer.", "correct": true, "feedback": "Correct. Harassment by a third party such as a relative should not be tolerated and should be reported." },
-            { "text": "The worker must simply accept it, because it comes from a family member and not a colleague.", "correct": false, "feedback": "No &mdash; you should not have to put up with harassment, whoever it comes from." },
-            { "text": "It only matters if the conduct comes from another member of staff.", "correct": false, "feedback": "No &mdash; third-party harassment from clients, families or visitors also matters and should be reported." },
-            { "text": "Nothing can be done unless the comments are made in writing.", "correct": false, "feedback": "No &mdash; spoken comments count too; the form the conduct takes does not have to be written." }
+            {
+              "text": "This can be sexual harassment by a third party, and the worker should not have to tolerate it &mdash; it should be reported to the employer.",
+              "correct": true,
+              "feedback": "Correct. Harassment by a third party such as a relative should not be tolerated and should be reported."
+            },
+            {
+              "text": "The worker must simply accept it, because it comes from a family member and not a colleague.",
+              "correct": false,
+              "feedback": "No &mdash; you should not have to put up with harassment, whoever it comes from."
+            },
+            {
+              "text": "It only matters if the conduct comes from another member of staff.",
+              "correct": false,
+              "feedback": "No &mdash; third-party harassment from clients, families or visitors also matters and should be reported."
+            },
+            {
+              "text": "Nothing can be done unless the comments are made in writing.",
+              "correct": false,
+              "feedback": "No &mdash; spoken comments count too; the form the conduct takes does not have to be written."
+            }
           ]
         }
       ]
     },
     {
       "label": "The Equality Act",
-      "section": "The law &amp; the duty",
+      "section": "The law & the duty",
       "items": [
         {
           "type": "text",
@@ -147,7 +195,7 @@
     },
     {
       "label": "Victimisation",
-      "section": "The law &amp; the duty",
+      "section": "The law & the duty",
       "items": [
         {
           "type": "text",
@@ -162,17 +210,33 @@
           "question": "Under the Equality Act 2010, what is victimisation?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Treating someone badly because they have made, or supported, a complaint about harassment or discrimination.", "correct": true, "feedback": "Correct. Victimisation is poor treatment because someone has done a protected act, such as making a complaint." },
-            { "text": "Any disagreement between two colleagues about how to do their work.", "correct": false, "feedback": "No &mdash; an ordinary work disagreement is not victimisation." },
-            { "text": "Giving someone honest, fair feedback in an appraisal.", "correct": false, "feedback": "No &mdash; fair feedback is not victimisation." },
-            { "text": "Asking a colleague to follow the organisation&rsquo;s policies.", "correct": false, "feedback": "No &mdash; a reasonable request to follow policy is not victimisation." }
+            {
+              "text": "Treating someone badly because they have made, or supported, a complaint about harassment or discrimination.",
+              "correct": true,
+              "feedback": "Correct. Victimisation is poor treatment because someone has done a protected act, such as making a complaint."
+            },
+            {
+              "text": "Any disagreement between two colleagues about how to do their work.",
+              "correct": false,
+              "feedback": "No &mdash; an ordinary work disagreement is not victimisation."
+            },
+            {
+              "text": "Giving someone honest, fair feedback in an appraisal.",
+              "correct": false,
+              "feedback": "No &mdash; fair feedback is not victimisation."
+            },
+            {
+              "text": "Asking a colleague to follow the organisation&rsquo;s policies.",
+              "correct": false,
+              "feedback": "No &mdash; a reasonable request to follow policy is not victimisation."
+            }
           ]
         }
       ]
     },
     {
-      "label": "The employer&rsquo;s duty",
-      "section": "The law &amp; the duty",
+      "label": "The employer\u2019s duty",
+      "section": "The law & the duty",
       "items": [
         {
           "type": "text",
@@ -193,7 +257,7 @@
     },
     {
       "label": "Shared responsibility",
-      "section": "The law &amp; the duty",
+      "section": "The law & the duty",
       "items": [
         {
           "type": "text",
@@ -212,7 +276,7 @@
     },
     {
       "label": "Supporting someone",
-      "section": "Responding &amp; reporting",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",
@@ -227,17 +291,33 @@
           "question": "A colleague confides that they have been sexually harassed at work. What is the best way to respond?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Listen without judgement, believe them, reassure them, and be honest that you may need to pass the concern on.", "correct": true, "feedback": "Correct. Listening, believing and being honest about reporting is the supportive way to respond." },
-            { "text": "Tell them to forget about it, as it was probably just a misunderstanding.", "correct": false, "feedback": "No &mdash; dismissing the concern can leave the person unsupported and silences them." },
-            { "text": "Promise to keep it completely secret and never tell anyone.", "correct": false, "feedback": "No &mdash; you should not promise a secrecy you cannot keep; concerns may need to be reported." },
-            { "text": "Ask them why they did not do more to stop it at the time.", "correct": false, "feedback": "No &mdash; blaming questions are unhelpful and unfair to the person affected." }
+            {
+              "text": "Listen without judgement, believe them, reassure them, and be honest that you may need to pass the concern on.",
+              "correct": true,
+              "feedback": "Correct. Listening, believing and being honest about reporting is the supportive way to respond."
+            },
+            {
+              "text": "Tell them to forget about it, as it was probably just a misunderstanding.",
+              "correct": false,
+              "feedback": "No &mdash; dismissing the concern can leave the person unsupported and silences them."
+            },
+            {
+              "text": "Promise to keep it completely secret and never tell anyone.",
+              "correct": false,
+              "feedback": "No &mdash; you should not promise a secrecy you cannot keep; concerns may need to be reported."
+            },
+            {
+              "text": "Ask them why they did not do more to stop it at the time.",
+              "correct": false,
+              "feedback": "No &mdash; blaming questions are unhelpful and unfair to the person affected."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Reporting &amp; support",
-      "section": "Responding &amp; reporting",
+      "label": "Reporting & support",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",
@@ -252,17 +332,33 @@
           "question": "Which of these is good practice when reporting sexual harassment?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Report it promptly to your manager or safeguarding lead, record the facts clearly, and share information only with those who need to know.", "correct": true, "feedback": "Correct. Prompt, factual reporting through the right routes, with sensitive handling of information, is good practice." },
-            { "text": "Wait until you have gathered enough proof to be completely certain.", "correct": false, "feedback": "No &mdash; you do not need proof; raise the concern promptly." },
-            { "text": "Discuss the details with everyone in the team so people are warned.", "correct": false, "feedback": "No &mdash; information should be shared only with those who need to know." },
-            { "text": "Decide by yourself whether it is serious enough to bother reporting.", "correct": false, "feedback": "No &mdash; do not judge it too minor to raise; report it so the right people can act." }
+            {
+              "text": "Report it promptly to your manager or safeguarding lead, record the facts clearly, and share information only with those who need to know.",
+              "correct": true,
+              "feedback": "Correct. Prompt, factual reporting through the right routes, with sensitive handling of information, is good practice."
+            },
+            {
+              "text": "Wait until you have gathered enough proof to be completely certain.",
+              "correct": false,
+              "feedback": "No &mdash; you do not need proof; raise the concern promptly."
+            },
+            {
+              "text": "Discuss the details with everyone in the team so people are warned.",
+              "correct": false,
+              "feedback": "No &mdash; information should be shared only with those who need to know."
+            },
+            {
+              "text": "Decide by yourself whether it is serious enough to bother reporting.",
+              "correct": false,
+              "feedback": "No &mdash; do not judge it too minor to raise; report it so the right people can act."
+            }
           ]
         }
       ]
     },
     {
       "label": "Summary",
-      "section": "Responding &amp; reporting",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",

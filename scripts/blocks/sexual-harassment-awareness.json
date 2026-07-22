@@ -26,72 +26,72 @@
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p4",
-      "label": "Forms &amp; examples",
+      "label": "Forms & examples",
       "questions": 1,
-      "section": "Forms &amp; examples"
+      "section": "Forms & examples"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p5",
-      "label": "Physical &amp; online",
+      "label": "Physical & online",
       "questions": 1,
-      "section": "Forms &amp; examples"
+      "section": "Forms & examples"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p6",
       "label": "Third-party harassment",
       "questions": 1,
-      "section": "Forms &amp; examples"
+      "section": "Forms & examples"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p7",
       "label": "The Equality Act",
       "questions": 0,
-      "section": "The law &amp; the duty"
+      "section": "The law & the duty"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p8",
       "label": "Victimisation",
       "questions": 1,
-      "section": "The law &amp; the duty"
+      "section": "The law & the duty"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p9",
-      "label": "The employer&rsquo;s duty",
+      "label": "The employer\u2019s duty",
       "questions": 1,
-      "section": "The law &amp; the duty"
+      "section": "The law & the duty"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p10",
       "label": "Shared responsibility",
       "questions": 1,
-      "section": "The law &amp; the duty"
+      "section": "The law & the duty"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p11",
       "label": "Supporting someone",
       "questions": 1,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p12",
-      "label": "Reporting &amp; support",
+      "label": "Reporting & support",
       "questions": 1,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     },
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p13",
       "label": "Summary",
       "questions": 0,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     }
   ]
 }

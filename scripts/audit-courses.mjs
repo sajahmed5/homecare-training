@@ -135,6 +135,16 @@ for (const course of courses) {
       else if (!tracked.has(asset)) err(name, `${label} -> image ${file} NOT COMMITTED`);
     }
 
+    // Labels and section names render as plain text (the player escapes them),
+    // so an HTML entity here shows up literally as "&amp;" to the learner.
+    const ENTITY = /&(amp|mdash|ndash|rsquo|lsquo|ldquo|rdquo|quot|#x27|nbsp|eacute);/;
+    for (const key of ["label", "section"]) {
+      const value = block[key];
+      if (value && ENTITY.test(value)) {
+        err(name, `${label} -> ${key} contains an HTML entity and will render literally: "${value}"`);
+      }
+    }
+
     // The gating count must match reality, or Next locks forever / never locks.
     const QUESTION_LIBS = /H5P\.(MultiChoice|TrueFalse|DragText|Blanks|MarkTheWords)/;
     const actualQuestions = items.filter((it) =>

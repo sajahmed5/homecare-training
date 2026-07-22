@@ -33,16 +33,32 @@
           "question": "Which statement best describes modern slavery?",
           "singleAnswer": true,
           "answers": [
-            { "text": "The exploitation and control of a person for someone else&rsquo;s gain, so that they cannot leave freely.", "correct": true, "feedback": "Correct. Modern slavery is the control and exploitation of a person for another&rsquo;s gain, and it happens in the UK today." },
-            { "text": "A historical crime that no longer happens in the UK today.", "correct": false, "feedback": "No &mdash; modern slavery is happening now, hidden in communities across England." },
-            { "text": "A problem that only affects people who have entered the country illegally.", "correct": false, "feedback": "No &mdash; victims can be any nationality, and many are British citizens." },
-            { "text": "A situation people can always simply walk away from whenever they choose.", "correct": false, "feedback": "No &mdash; victims are controlled through violence, threats, deception or debt and cannot leave freely." }
+            {
+              "text": "The exploitation and control of a person for someone else&rsquo;s gain, so that they cannot leave freely.",
+              "correct": true,
+              "feedback": "Correct. Modern slavery is the control and exploitation of a person for another&rsquo;s gain, and it happens in the UK today."
+            },
+            {
+              "text": "A historical crime that no longer happens in the UK today.",
+              "correct": false,
+              "feedback": "No &mdash; modern slavery is happening now, hidden in communities across England."
+            },
+            {
+              "text": "A problem that only affects people who have entered the country illegally.",
+              "correct": false,
+              "feedback": "No &mdash; victims can be any nationality, and many are British citizens."
+            },
+            {
+              "text": "A situation people can always simply walk away from whenever they choose.",
+              "correct": false,
+              "feedback": "No &mdash; victims are controlled through violence, threats, deception or debt and cannot leave freely."
+            }
           ]
         }
       ]
     },
     {
-      "label": "The law &amp; your role",
+      "label": "The law & your role",
       "section": "What modern slavery is",
       "items": [
         {
@@ -79,16 +95,32 @@
           "question": "Which of the following is a warning sign that someone may be in forced labour?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Their wages appear to be withheld, their documents are held by someone else, and they have little freedom to leave.", "correct": true, "feedback": "Correct. Withheld wages, controlled documents and a lack of freedom are recognised signs of forced labour." },
-            { "text": "They have a written contract and are paid fairly for the hours they work.", "correct": false, "feedback": "No &mdash; fair pay and a genuine contract point away from forced labour, not towards it." },
-            { "text": "They talk openly about choosing to change jobs whenever they wish.", "correct": false, "feedback": "No &mdash; being free to change jobs is a sign of freedom, not exploitation." },
-            { "text": "They keep their own passport and come and go as they please.", "correct": false, "feedback": "No &mdash; keeping their own documents and moving freely are not signs of forced labour." }
+            {
+              "text": "Their wages appear to be withheld, their documents are held by someone else, and they have little freedom to leave.",
+              "correct": true,
+              "feedback": "Correct. Withheld wages, controlled documents and a lack of freedom are recognised signs of forced labour."
+            },
+            {
+              "text": "They have a written contract and are paid fairly for the hours they work.",
+              "correct": false,
+              "feedback": "No &mdash; fair pay and a genuine contract point away from forced labour, not towards it."
+            },
+            {
+              "text": "They talk openly about choosing to change jobs whenever they wish.",
+              "correct": false,
+              "feedback": "No &mdash; being free to change jobs is a sign of freedom, not exploitation."
+            },
+            {
+              "text": "They keep their own passport and come and go as they please.",
+              "correct": false,
+              "feedback": "No &mdash; keeping their own documents and moving freely are not signs of forced labour."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Sexual &amp; domestic",
+      "label": "Sexual & domestic",
       "section": "Types of modern slavery",
       "items": [
         {
@@ -102,7 +134,7 @@
       ]
     },
     {
-      "label": "Criminal &amp; county lines",
+      "label": "Criminal & county lines",
       "section": "Types of modern slavery",
       "items": [
         {
@@ -118,16 +150,32 @@
           "question": "Someone you support suddenly has unexplained cash and a new phone, goes missing for days, and seems fearful of an older &ldquo;friend&rdquo;. What should you do?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Treat it as possible criminal exploitation and report your concern to your manager or safeguarding lead.", "correct": true, "feedback": "Correct. These are recognised signs of exploitation, and reporting them lets specialists look behind the behaviour." },
-            { "text": "Assume they are simply choosing to break the law and say nothing.", "correct": false, "feedback": "No &mdash; people are often controlled into offending; treat it as possible exploitation and report it." },
-            { "text": "Confront the older &ldquo;friend&rdquo; yourself to find out what is going on.", "correct": false, "feedback": "No &mdash; confronting the suspected controller can put the person and you in danger." },
-            { "text": "Wait several weeks to see whether the behaviour continues before mentioning it.", "correct": false, "feedback": "No &mdash; waiting can leave the person in danger. Report your concern promptly." }
+            {
+              "text": "Treat it as possible criminal exploitation and report your concern to your manager or safeguarding lead.",
+              "correct": true,
+              "feedback": "Correct. These are recognised signs of exploitation, and reporting them lets specialists look behind the behaviour."
+            },
+            {
+              "text": "Assume they are simply choosing to break the law and say nothing.",
+              "correct": false,
+              "feedback": "No &mdash; people are often controlled into offending; treat it as possible exploitation and report it."
+            },
+            {
+              "text": "Confront the older &ldquo;friend&rdquo; yourself to find out what is going on.",
+              "correct": false,
+              "feedback": "No &mdash; confronting the suspected controller can put the person and you in danger."
+            },
+            {
+              "text": "Wait several weeks to see whether the behaviour continues before mentioning it.",
+              "correct": false,
+              "feedback": "No &mdash; waiting can leave the person in danger. Report your concern promptly."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Trafficking &amp; control",
+      "label": "Trafficking & control",
       "section": "Types of modern slavery",
       "items": [
         {
@@ -146,7 +194,7 @@
       ]
     },
     {
-      "label": "Physical &amp; behavioural signs",
+      "label": "Physical & behavioural signs",
       "section": "Recognising the signs",
       "items": [
         {
@@ -162,16 +210,32 @@
           "question": "Which of these is most likely to suggest that someone could be a victim of modern slavery?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Several signs together &mdash; fearfulness, untreated injuries, rehearsed answers and reluctance to give information.", "correct": true, "feedback": "Correct. It is the overall pattern of signs, rather than any single one, that should raise your concern." },
-            { "text": "A single bruise in a person who has clearly explained a recent accidental fall.", "correct": false, "feedback": "No &mdash; one sign with a clear explanation is not, on its own, a strong indicator." },
-            { "text": "A person who talks openly and freely about their home and their work.", "correct": false, "feedback": "No &mdash; being open and free to speak points away from exploitation." },
-            { "text": "Someone who is simply having a quiet or tired day but seems otherwise settled.", "correct": false, "feedback": "No &mdash; a quiet day on its own is not a warning sign; look for a pattern." }
+            {
+              "text": "Several signs together &mdash; fearfulness, untreated injuries, rehearsed answers and reluctance to give information.",
+              "correct": true,
+              "feedback": "Correct. It is the overall pattern of signs, rather than any single one, that should raise your concern."
+            },
+            {
+              "text": "A single bruise in a person who has clearly explained a recent accidental fall.",
+              "correct": false,
+              "feedback": "No &mdash; one sign with a clear explanation is not, on its own, a strong indicator."
+            },
+            {
+              "text": "A person who talks openly and freely about their home and their work.",
+              "correct": false,
+              "feedback": "No &mdash; being open and free to speak points away from exploitation."
+            },
+            {
+              "text": "Someone who is simply having a quiet or tired day but seems otherwise settled.",
+              "correct": false,
+              "feedback": "No &mdash; a quiet day on its own is not a warning sign; look for a pattern."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Control &amp; conditions",
+      "label": "Control & conditions",
       "section": "Recognising the signs",
       "items": [
         {
@@ -212,7 +276,7 @@
     },
     {
       "label": "Stay safe",
-      "section": "Responding &amp; reporting",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",
@@ -227,17 +291,33 @@
           "question": "You strongly suspect a person is being exploited by someone who is with them. What is the safest first step?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Do not confront the suspected controller; keep everyone safe and report your concern to your manager or safeguarding lead.", "correct": true, "feedback": "Correct. Confrontation is dangerous; the safe response is to protect everyone and report through your safeguarding route." },
-            { "text": "Challenge the suspected controller directly and demand that they explain themselves.", "correct": false, "feedback": "No &mdash; confronting the controller can put the victim in greater danger and expose you to harm." },
-            { "text": "Help the person leave with you straight away, without telling anyone.", "correct": false, "feedback": "No &mdash; acting alone can be unsafe; report your concern so trained specialists can respond." },
-            { "text": "Take photographs of the person and their accommodation as evidence.", "correct": false, "feedback": "No &mdash; gathering evidence is not your role and could alert the exploiter or increase risk." }
+            {
+              "text": "Do not confront the suspected controller; keep everyone safe and report your concern to your manager or safeguarding lead.",
+              "correct": true,
+              "feedback": "Correct. Confrontation is dangerous; the safe response is to protect everyone and report through your safeguarding route."
+            },
+            {
+              "text": "Challenge the suspected controller directly and demand that they explain themselves.",
+              "correct": false,
+              "feedback": "No &mdash; confronting the controller can put the victim in greater danger and expose you to harm."
+            },
+            {
+              "text": "Help the person leave with you straight away, without telling anyone.",
+              "correct": false,
+              "feedback": "No &mdash; acting alone can be unsafe; report your concern so trained specialists can respond."
+            },
+            {
+              "text": "Take photographs of the person and their accommodation as evidence.",
+              "correct": false,
+              "feedback": "No &mdash; gathering evidence is not your role and could alert the exploiter or increase risk."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Reporting &amp; the NRM",
-      "section": "Responding &amp; reporting",
+      "label": "Reporting & the NRM",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",
@@ -252,17 +332,33 @@
           "question": "Which of these is the correct way to raise a modern slavery concern?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Report it to your manager or safeguarding lead, contact the Modern Slavery Helpline for advice, and call 999 in an emergency.", "correct": true, "feedback": "Correct. These are the right routes: your safeguarding lead, the Helpline for advice, and 999 in an emergency." },
-            { "text": "Keep it to yourself until you have gathered enough proof to be certain.", "correct": false, "feedback": "No &mdash; you do not need proof; report your concern so that specialists can investigate." },
-            { "text": "Refer the person into the National Referral Mechanism entirely on your own.", "correct": false, "feedback": "No &mdash; referrals into the NRM are made by trained first responders, not directly by you." },
-            { "text": "Post about your concern on social media to warn other people.", "correct": false, "feedback": "No &mdash; sharing publicly can endanger the victim and must never be done. Report through proper channels." }
+            {
+              "text": "Report it to your manager or safeguarding lead, contact the Modern Slavery Helpline for advice, and call 999 in an emergency.",
+              "correct": true,
+              "feedback": "Correct. These are the right routes: your safeguarding lead, the Helpline for advice, and 999 in an emergency."
+            },
+            {
+              "text": "Keep it to yourself until you have gathered enough proof to be certain.",
+              "correct": false,
+              "feedback": "No &mdash; you do not need proof; report your concern so that specialists can investigate."
+            },
+            {
+              "text": "Refer the person into the National Referral Mechanism entirely on your own.",
+              "correct": false,
+              "feedback": "No &mdash; referrals into the NRM are made by trained first responders, not directly by you."
+            },
+            {
+              "text": "Post about your concern on social media to warn other people.",
+              "correct": false,
+              "feedback": "No &mdash; sharing publicly can endanger the victim and must never be done. Report through proper channels."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Recording &amp; summary",
-      "section": "Responding &amp; reporting",
+      "label": "Recording & summary",
+      "section": "Responding & reporting",
       "items": [
         {
           "type": "text",

@@ -4,7 +4,7 @@
   "pages": [
     {
       "label": "Welcome",
-      "section": "What sepsis is &amp; why it matters",
+      "section": "What sepsis is & why it matters",
       "items": [
         {
           "type": "text",
@@ -18,7 +18,7 @@
     },
     {
       "label": "What sepsis is",
-      "section": "What sepsis is &amp; why it matters",
+      "section": "What sepsis is & why it matters",
       "items": [
         {
           "type": "text",
@@ -33,17 +33,33 @@
           "question": "Which statement best describes what sepsis is?",
           "singleAnswer": true,
           "answers": [
-            { "text": "The body's overwhelming response to an infection, which begins to damage its own tissues and organs.", "correct": true, "feedback": "Correct. Sepsis is the body's own extreme reaction to infection, and it can become life-threatening very quickly." },
-            { "text": "A mild skin rash that clears up on its own within a few days.", "correct": false, "feedback": "No &mdash; sepsis is a life-threatening emergency, not a minor rash that resolves by itself." },
-            { "text": "A type of infection that only affects the lungs.", "correct": false, "feedback": "No &mdash; sepsis can follow almost any infection, not only chest infections." },
-            { "text": "A long-term condition that develops slowly over many years.", "correct": false, "feedback": "No &mdash; sepsis can develop within hours and is a medical emergency." }
+            {
+              "text": "The body's overwhelming response to an infection, which begins to damage its own tissues and organs.",
+              "correct": true,
+              "feedback": "Correct. Sepsis is the body's own extreme reaction to infection, and it can become life-threatening very quickly."
+            },
+            {
+              "text": "A mild skin rash that clears up on its own within a few days.",
+              "correct": false,
+              "feedback": "No &mdash; sepsis is a life-threatening emergency, not a minor rash that resolves by itself."
+            },
+            {
+              "text": "A type of infection that only affects the lungs.",
+              "correct": false,
+              "feedback": "No &mdash; sepsis can follow almost any infection, not only chest infections."
+            },
+            {
+              "text": "A long-term condition that develops slowly over many years.",
+              "correct": false,
+              "feedback": "No &mdash; sepsis can develop within hours and is a medical emergency."
+            }
           ]
         }
       ]
     },
     {
       "label": "Who is at risk",
-      "section": "What sepsis is &amp; why it matters",
+      "section": "What sepsis is & why it matters",
       "items": [
         {
           "type": "text",
@@ -77,10 +93,26 @@
           "question": "A person you support suddenly seems very confused and &ldquo;not themselves&rdquo;. What is the most helpful thing to do?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Ask &ldquo;could this be sepsis?&rdquo; and escalate the change straight away.", "correct": true, "feedback": "Correct. A sudden change like new confusion is a red flag, and asking the question prompts urgent action." },
-            { "text": "Assume they are just having an off day and check again tomorrow.", "correct": false, "feedback": "No &mdash; a sudden change should never be dismissed. It can be an early sign of sepsis." },
-            { "text": "Try to work out yourself which infection they have before telling anyone.", "correct": false, "feedback": "No &mdash; diagnosis is not your role. Escalate your concern quickly rather than delaying to investigate." },
-            { "text": "Wait until the end of your shift to mention it in the handover.", "correct": false, "feedback": "No &mdash; sepsis moves fast, so waiting could cost vital time. Raise it immediately." }
+            {
+              "text": "Ask &ldquo;could this be sepsis?&rdquo; and escalate the change straight away.",
+              "correct": true,
+              "feedback": "Correct. A sudden change like new confusion is a red flag, and asking the question prompts urgent action."
+            },
+            {
+              "text": "Assume they are just having an off day and check again tomorrow.",
+              "correct": false,
+              "feedback": "No &mdash; a sudden change should never be dismissed. It can be an early sign of sepsis."
+            },
+            {
+              "text": "Try to work out yourself which infection they have before telling anyone.",
+              "correct": false,
+              "feedback": "No &mdash; diagnosis is not your role. Escalate your concern quickly rather than delaying to investigate."
+            },
+            {
+              "text": "Wait until the end of your shift to mention it in the handover.",
+              "correct": false,
+              "feedback": "No &mdash; sepsis moves fast, so waiting could cost vital time. Raise it immediately."
+            }
           ]
         }
       ]
@@ -137,10 +169,26 @@
           "question": "Which infections can lead to sepsis?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Almost any infection &mdash; including chest, urine, wound and skin infections.", "correct": true, "feedback": "Correct. Sepsis can follow any infection, so stay alert whenever someone has one." },
-            { "text": "Only very serious infections that need hospital treatment from the start.", "correct": false, "feedback": "No &mdash; even an infection that seems minor at first can lead to sepsis." },
-            { "text": "Only chest infections such as pneumonia.", "correct": false, "feedback": "No &mdash; chest infections are one source, but urine, wound and skin infections can also cause sepsis." },
-            { "text": "Only infections in people who have just had an operation.", "correct": false, "feedback": "No &mdash; recent surgery raises the risk, but sepsis can follow infection in anyone." }
+            {
+              "text": "Almost any infection &mdash; including chest, urine, wound and skin infections.",
+              "correct": true,
+              "feedback": "Correct. Sepsis can follow any infection, so stay alert whenever someone has one."
+            },
+            {
+              "text": "Only very serious infections that need hospital treatment from the start.",
+              "correct": false,
+              "feedback": "No &mdash; even an infection that seems minor at first can lead to sepsis."
+            },
+            {
+              "text": "Only chest infections such as pneumonia.",
+              "correct": false,
+              "feedback": "No &mdash; chest infections are one source, but urine, wound and skin infections can also cause sepsis."
+            },
+            {
+              "text": "Only infections in people who have just had an operation.",
+              "correct": false,
+              "feedback": "No &mdash; recent surgery raises the risk, but sepsis can follow infection in anyone."
+            }
           ]
         }
       ]
@@ -181,10 +229,26 @@
           "question": "Why is it important to actually say the word &ldquo;sepsis&rdquo; when you escalate?",
           "singleAnswer": true,
           "answers": [
-            { "text": "It signals a possible emergency and prompts others to act urgently.", "correct": true, "feedback": "Correct. Naming sepsis makes your concern unmistakable and triggers a fast response." },
-            { "text": "It confirms the diagnosis so treatment can begin without a clinician.", "correct": false, "feedback": "No &mdash; saying the word does not diagnose sepsis; it prompts the trained team to assess urgently." },
-            { "text": "It is only needed when writing up notes after the emergency is over.", "correct": false, "feedback": "No &mdash; saying it early, when you escalate, is what drives a fast response." },
-            { "text": "It replaces the need to describe what you have actually seen.", "correct": false, "feedback": "No &mdash; you should say &ldquo;sepsis&rdquo; and also describe the signs and when they started." }
+            {
+              "text": "It signals a possible emergency and prompts others to act urgently.",
+              "correct": true,
+              "feedback": "Correct. Naming sepsis makes your concern unmistakable and triggers a fast response."
+            },
+            {
+              "text": "It confirms the diagnosis so treatment can begin without a clinician.",
+              "correct": false,
+              "feedback": "No &mdash; saying the word does not diagnose sepsis; it prompts the trained team to assess urgently."
+            },
+            {
+              "text": "It is only needed when writing up notes after the emergency is over.",
+              "correct": false,
+              "feedback": "No &mdash; saying it early, when you escalate, is what drives a fast response."
+            },
+            {
+              "text": "It replaces the need to describe what you have actually seen.",
+              "correct": false,
+              "feedback": "No &mdash; you should say &ldquo;sepsis&rdquo; and also describe the signs and when they started."
+            }
           ]
         }
       ]
@@ -212,7 +276,7 @@
     },
     {
       "label": "Preventing infection",
-      "section": "Prevention &amp; after sepsis",
+      "section": "Prevention & after sepsis",
       "items": [
         {
           "type": "text",
@@ -227,17 +291,33 @@
           "question": "Which everyday action helps reduce a person's risk of developing an infection that could lead to sepsis?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Following infection control procedures, keeping catheters and wounds clean, and supporting good hydration.", "correct": true, "feedback": "Correct. Good hygiene, careful device and wound care, and hydration all help prevent the infections that can lead to sepsis." },
-            { "text": "Waiting until a wound looks badly infected before mentioning it to anyone.", "correct": false, "feedback": "No &mdash; changes in a wound should be reported early, not left until infection is advanced." },
-            { "text": "Skipping hand hygiene when you are busy to save time.", "correct": false, "feedback": "No &mdash; hand hygiene is one of the most important ways to stop germs spreading." },
-            { "text": "Leaving a catheter drainage system open so it drains more easily.", "correct": false, "feedback": "No &mdash; the system should be kept clean and closed to keep germs out." }
+            {
+              "text": "Following infection control procedures, keeping catheters and wounds clean, and supporting good hydration.",
+              "correct": true,
+              "feedback": "Correct. Good hygiene, careful device and wound care, and hydration all help prevent the infections that can lead to sepsis."
+            },
+            {
+              "text": "Waiting until a wound looks badly infected before mentioning it to anyone.",
+              "correct": false,
+              "feedback": "No &mdash; changes in a wound should be reported early, not left until infection is advanced."
+            },
+            {
+              "text": "Skipping hand hygiene when you are busy to save time.",
+              "correct": false,
+              "feedback": "No &mdash; hand hygiene is one of the most important ways to stop germs spreading."
+            },
+            {
+              "text": "Leaving a catheter drainage system open so it drains more easily.",
+              "correct": false,
+              "feedback": "No &mdash; the system should be kept clean and closed to keep germs out."
+            }
           ]
         }
       ]
     },
     {
       "label": "Recovery and support",
-      "section": "Prevention &amp; after sepsis",
+      "section": "Prevention & after sepsis",
       "items": [
         {
           "type": "text",
@@ -252,17 +332,33 @@
           "question": "Which of these is a common part of recovery after sepsis that you should be aware of?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Lasting tiredness, low mood and problems with memory, sometimes called post-sepsis syndrome.", "correct": true, "feedback": "Correct. Recovery can take time, and physical, emotional and cognitive after-effects are common." },
-            { "text": "An immediate and complete return to normal within a day of leaving hospital.", "correct": false, "feedback": "No &mdash; recovery often takes weeks or months, and after-effects are common." },
-            { "text": "A guarantee that the person can never get an infection or sepsis again.", "correct": false, "feedback": "No &mdash; someone who has had sepsis can become unwell again, so stay alert." },
-            { "text": "A reason to stop reporting any new changes in the person's health.", "correct": false, "feedback": "No &mdash; you should keep watching for new infection or decline and report concerns promptly." }
+            {
+              "text": "Lasting tiredness, low mood and problems with memory, sometimes called post-sepsis syndrome.",
+              "correct": true,
+              "feedback": "Correct. Recovery can take time, and physical, emotional and cognitive after-effects are common."
+            },
+            {
+              "text": "An immediate and complete return to normal within a day of leaving hospital.",
+              "correct": false,
+              "feedback": "No &mdash; recovery often takes weeks or months, and after-effects are common."
+            },
+            {
+              "text": "A guarantee that the person can never get an infection or sepsis again.",
+              "correct": false,
+              "feedback": "No &mdash; someone who has had sepsis can become unwell again, so stay alert."
+            },
+            {
+              "text": "A reason to stop reporting any new changes in the person's health.",
+              "correct": false,
+              "feedback": "No &mdash; you should keep watching for new infection or decline and report concerns promptly."
+            }
           ]
         }
       ]
     },
     {
       "label": "Bringing it together",
-      "section": "Prevention &amp; after sepsis",
+      "section": "Prevention & after sepsis",
       "items": [
         {
           "type": "text",

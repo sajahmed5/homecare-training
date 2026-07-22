@@ -33,7 +33,7 @@
     {
       "type": "h5p",
       "path": "information-governance-and-gdpr/p10",
-      "label": "Lawful bases &amp; consent",
+      "label": "Lawful bases & consent",
       "questions": 1,
       "section": "Data, lawful bases and rights"
     },
@@ -75,7 +75,7 @@
     {
       "type": "h5p",
       "path": "information-governance-and-gdpr/p13",
-      "label": "Access &amp; retention",
+      "label": "Access & retention",
       "questions": 1,
       "section": "Cyber security and records rights"
     },

@@ -19,7 +19,7 @@
     {
       "type": "h5p",
       "path": "modern-slavery/p3",
-      "label": "The law &amp; your role",
+      "label": "The law & your role",
       "questions": 1,
       "section": "What modern slavery is"
     },
@@ -33,35 +33,35 @@
     {
       "type": "h5p",
       "path": "modern-slavery/p5",
-      "label": "Sexual &amp; domestic",
+      "label": "Sexual & domestic",
       "questions": 0,
       "section": "Types of modern slavery"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p6",
-      "label": "Criminal &amp; county lines",
+      "label": "Criminal & county lines",
       "questions": 1,
       "section": "Types of modern slavery"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p7",
-      "label": "Trafficking &amp; control",
+      "label": "Trafficking & control",
       "questions": 1,
       "section": "Types of modern slavery"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p8",
-      "label": "Physical &amp; behavioural signs",
+      "label": "Physical & behavioural signs",
       "questions": 1,
       "section": "Recognising the signs"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p9",
-      "label": "Control &amp; conditions",
+      "label": "Control & conditions",
       "questions": 1,
       "section": "Recognising the signs"
     },
@@ -77,21 +77,21 @@
       "path": "modern-slavery/p11",
       "label": "Stay safe",
       "questions": 1,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p12",
-      "label": "Reporting &amp; the NRM",
+      "label": "Reporting & the NRM",
       "questions": 1,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     },
     {
       "type": "h5p",
       "path": "modern-slavery/p13",
-      "label": "Recording &amp; summary",
+      "label": "Recording & summary",
       "questions": 0,
-      "section": "Responding &amp; reporting"
+      "section": "Responding & reporting"
     }
   ]
 }

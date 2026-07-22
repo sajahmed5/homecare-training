@@ -7,21 +7,21 @@
       "path": "sepsis/p1",
       "label": "Welcome",
       "questions": 0,
-      "section": "What sepsis is &amp; why it matters"
+      "section": "What sepsis is & why it matters"
     },
     {
       "type": "h5p",
       "path": "sepsis/p2",
       "label": "What sepsis is",
       "questions": 1,
-      "section": "What sepsis is &amp; why it matters"
+      "section": "What sepsis is & why it matters"
     },
     {
       "type": "h5p",
       "path": "sepsis/p3",
       "label": "Who is at risk",
       "questions": 1,
-      "section": "What sepsis is &amp; why it matters"
+      "section": "What sepsis is & why it matters"
     },
     {
       "type": "h5p",
@@ -77,21 +77,21 @@
       "path": "sepsis/p11",
       "label": "Preventing infection",
       "questions": 1,
-      "section": "Prevention &amp; after sepsis"
+      "section": "Prevention & after sepsis"
     },
     {
       "type": "h5p",
       "path": "sepsis/p12",
       "label": "Recovery and support",
       "questions": 1,
-      "section": "Prevention &amp; after sepsis"
+      "section": "Prevention & after sepsis"
     },
     {
       "type": "h5p",
       "path": "sepsis/p13",
       "label": "Bringing it together",
       "questions": 0,
-      "section": "Prevention &amp; after sepsis"
+      "section": "Prevention & after sepsis"
     }
   ]
 }

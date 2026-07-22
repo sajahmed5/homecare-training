@@ -33,10 +33,26 @@
           "question": "Why does being open with a person after a mistake matter so much?",
           "singleAnswer": true,
           "answers": [
-            { "text": "It keeps their trust, lets them get any follow-up care they need, and helps the whole team learn and prevent a repeat.", "correct": true, "feedback": "Yes. Honesty protects trust, supports the person&rsquo;s care and choices, and lets the organisation improve." },
-            { "text": "It is only worth doing if the person is likely to find out anyway.", "correct": false, "feedback": "Candour is the right thing to do regardless of whether the person would otherwise discover the error." },
-            { "text": "It protects the organisation from ever having to change how it works.", "correct": false, "feedback": "The opposite is true &mdash; openness is what allows learning and change to happen." },
-            { "text": "It matters only for very serious incidents and not for smaller ones.", "correct": false, "feedback": "Openness and honesty apply to all mistakes and near misses, not only the most serious." }
+            {
+              "text": "It keeps their trust, lets them get any follow-up care they need, and helps the whole team learn and prevent a repeat.",
+              "correct": true,
+              "feedback": "Yes. Honesty protects trust, supports the person&rsquo;s care and choices, and lets the organisation improve."
+            },
+            {
+              "text": "It is only worth doing if the person is likely to find out anyway.",
+              "correct": false,
+              "feedback": "Candour is the right thing to do regardless of whether the person would otherwise discover the error."
+            },
+            {
+              "text": "It protects the organisation from ever having to change how it works.",
+              "correct": false,
+              "feedback": "The opposite is true &mdash; openness is what allows learning and change to happen."
+            },
+            {
+              "text": "It matters only for very serious incidents and not for smaller ones.",
+              "correct": false,
+              "feedback": "Openness and honesty apply to all mistakes and near misses, not only the most serious."
+            }
           ]
         }
       ]
@@ -64,7 +80,7 @@
     },
     {
       "label": "CQC Regulation 20",
-      "section": "The statutory duty &mdash; Regulation 20",
+      "section": "The statutory duty \u2014 Regulation 20",
       "items": [
         {
           "type": "text",
@@ -79,17 +95,33 @@
           "question": "Who does the statutory duty of candour in CQC Regulation 20 apply to?",
           "singleAnswer": true,
           "answers": [
-            { "text": "The registered provider &mdash; the organisation and its registered manager &mdash; because the duty is attached to CQC registration.", "correct": true, "feedback": "Correct. Regulation 20 is a registration standard, so it applies to the provider organisation." },
-            { "text": "Each individual care worker, who must personally notify the CQC of incidents.", "correct": false, "feedback": "The statutory notification duty sits with the provider, not with individual workers." },
-            { "text": "Only the person&rsquo;s GP or district nurse.", "correct": false, "feedback": "Regulation 20 applies to the registered provider of the regulated care service." },
-            { "text": "Nobody &mdash; the duty of candour is only good-practice guidance.", "correct": false, "feedback": "Regulation 20 is a legal requirement enforced by the CQC, not just guidance." }
+            {
+              "text": "The registered provider &mdash; the organisation and its registered manager &mdash; because the duty is attached to CQC registration.",
+              "correct": true,
+              "feedback": "Correct. Regulation 20 is a registration standard, so it applies to the provider organisation."
+            },
+            {
+              "text": "Each individual care worker, who must personally notify the CQC of incidents.",
+              "correct": false,
+              "feedback": "The statutory notification duty sits with the provider, not with individual workers."
+            },
+            {
+              "text": "Only the person&rsquo;s GP or district nurse.",
+              "correct": false,
+              "feedback": "Regulation 20 applies to the registered provider of the regulated care service."
+            },
+            {
+              "text": "Nobody &mdash; the duty of candour is only good-practice guidance.",
+              "correct": false,
+              "feedback": "Regulation 20 is a legal requirement enforced by the CQC, not just guidance."
+            }
           ]
         }
       ]
     },
     {
       "label": "Notifiable incidents",
-      "section": "The statutory duty &mdash; Regulation 20",
+      "section": "The statutory duty \u2014 Regulation 20",
       "items": [
         {
           "type": "text",
@@ -108,7 +140,7 @@
     },
     {
       "label": "The provider's duty",
-      "section": "The statutory duty &mdash; Regulation 20",
+      "section": "The statutory duty \u2014 Regulation 20",
       "items": [
         {
           "type": "text",
@@ -123,10 +155,26 @@
           "question": "Under Regulation 20, how must the provider first notify the person of a notifiable safety incident?",
           "singleAnswer": true,
           "answers": [
-            { "text": "In person, as soon as reasonably practicable, with a true account of what is known and an apology.", "correct": true, "feedback": "Yes. The initial notification is given in person and promptly, followed up in writing." },
-            { "text": "Only in writing, several weeks after all enquiries are complete.", "correct": false, "feedback": "The person is told in person and promptly; the written follow-up comes afterwards, not instead." },
-            { "text": "By waiting until the person asks what happened.", "correct": false, "feedback": "The duty is proactive &mdash; the provider tells the person without waiting to be asked." },
-            { "text": "By posting a general notice for all service users to read.", "correct": false, "feedback": "Notification is made directly and personally to the individual affected or their representative." }
+            {
+              "text": "In person, as soon as reasonably practicable, with a true account of what is known and an apology.",
+              "correct": true,
+              "feedback": "Yes. The initial notification is given in person and promptly, followed up in writing."
+            },
+            {
+              "text": "Only in writing, several weeks after all enquiries are complete.",
+              "correct": false,
+              "feedback": "The person is told in person and promptly; the written follow-up comes afterwards, not instead."
+            },
+            {
+              "text": "By waiting until the person asks what happened.",
+              "correct": false,
+              "feedback": "The duty is proactive &mdash; the provider tells the person without waiting to be asked."
+            },
+            {
+              "text": "By posting a general notice for all service users to read.",
+              "correct": false,
+              "feedback": "Notification is made directly and personally to the individual affected or their representative."
+            }
           ]
         }
       ]
@@ -162,10 +210,26 @@
           "question": "You are giving a person an honest account, but you do not yet know why the incident happened. What should you do?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Explain what is known now, say clearly what is not yet known, and describe what will be done to find out.", "correct": true, "feedback": "Yes. Honesty includes being clear about what is not yet known, rather than guessing." },
-            { "text": "Guess at a likely cause so the person has an answer straight away.", "correct": false, "feedback": "Speculating about causes before enquiries are complete is not honest and can mislead the person." },
-            { "text": "Say nothing until every fact is confirmed, however long that takes.", "correct": false, "feedback": "Candour must be timely; you share what is known now rather than waiting indefinitely." },
-            { "text": "Use technical language so the explanation sounds less serious.", "correct": false, "feedback": "Jargon that hides the meaning works against candour; keep the account plain and clear." }
+            {
+              "text": "Explain what is known now, say clearly what is not yet known, and describe what will be done to find out.",
+              "correct": true,
+              "feedback": "Yes. Honesty includes being clear about what is not yet known, rather than guessing."
+            },
+            {
+              "text": "Guess at a likely cause so the person has an answer straight away.",
+              "correct": false,
+              "feedback": "Speculating about causes before enquiries are complete is not honest and can mislead the person."
+            },
+            {
+              "text": "Say nothing until every fact is confirmed, however long that takes.",
+              "correct": false,
+              "feedback": "Candour must be timely; you share what is known now rather than waiting indefinitely."
+            },
+            {
+              "text": "Use technical language so the explanation sounds less serious.",
+              "correct": false,
+              "feedback": "Jargon that hides the meaning works against candour; keep the account plain and clear."
+            }
           ]
         }
       ]
@@ -227,10 +291,26 @@
           "question": "You catch a near miss &mdash; a mistake that was stopped before it reached the person. What is the candid thing to do?",
           "singleAnswer": true,
           "answers": [
-            { "text": "Report it honestly, because near misses show a weakness the team can fix before anyone is harmed.", "correct": true, "feedback": "Yes. Reporting near misses is a valuable part of candour and helps prevent future harm." },
-            { "text": "Say nothing, because no one was actually harmed this time.", "correct": false, "feedback": "Near misses are exactly what should be reported, so the risk can be addressed before it causes harm." },
-            { "text": "Only mention it if a colleague noticed it too.", "correct": false, "feedback": "You report honestly regardless of whether anyone else saw it." },
-            { "text": "Wait to see whether the same thing happens again before reporting.", "correct": false, "feedback": "Prompt reporting lets the team act now, rather than waiting for harm to occur." }
+            {
+              "text": "Report it honestly, because near misses show a weakness the team can fix before anyone is harmed.",
+              "correct": true,
+              "feedback": "Yes. Reporting near misses is a valuable part of candour and helps prevent future harm."
+            },
+            {
+              "text": "Say nothing, because no one was actually harmed this time.",
+              "correct": false,
+              "feedback": "Near misses are exactly what should be reported, so the risk can be addressed before it causes harm."
+            },
+            {
+              "text": "Only mention it if a colleague noticed it too.",
+              "correct": false,
+              "feedback": "You report honestly regardless of whether anyone else saw it."
+            },
+            {
+              "text": "Wait to see whether the same thing happens again before reporting.",
+              "correct": false,
+              "feedback": "Prompt reporting lets the team act now, rather than waiting for harm to occur."
+            }
           ]
         }
       ]
@@ -252,10 +332,26 @@
           "question": "What does a &lsquo;just and learning culture&rsquo; mean for candour?",
           "singleAnswer": true,
           "answers": [
-            { "text": "People feel safe to be open about honest mistakes because the focus is on learning and improving, not simply on blame.", "correct": true, "feedback": "Yes. A just culture treats people fairly and uses incidents to improve care." },
-            { "text": "Nobody is ever held accountable for anything they do.", "correct": false, "feedback": "A just culture is fair, not blame-free of all accountability; it distinguishes honest error from reckless behaviour." },
-            { "text": "Mistakes are kept quiet so the organisation looks good.", "correct": false, "feedback": "That is the opposite of a learning culture, which depends on openness about mistakes." },
-            { "text": "Only managers are allowed to raise concerns.", "correct": false, "feedback": "Everyone can and should speak up; workers who raise genuine concerns are protected in law." }
+            {
+              "text": "People feel safe to be open about honest mistakes because the focus is on learning and improving, not simply on blame.",
+              "correct": true,
+              "feedback": "Yes. A just culture treats people fairly and uses incidents to improve care."
+            },
+            {
+              "text": "Nobody is ever held accountable for anything they do.",
+              "correct": false,
+              "feedback": "A just culture is fair, not blame-free of all accountability; it distinguishes honest error from reckless behaviour."
+            },
+            {
+              "text": "Mistakes are kept quiet so the organisation looks good.",
+              "correct": false,
+              "feedback": "That is the opposite of a learning culture, which depends on openness about mistakes."
+            },
+            {
+              "text": "Only managers are allowed to raise concerns.",
+              "correct": false,
+              "feedback": "Everyone can and should speak up; workers who raise genuine concerns are protected in law."
+            }
           ]
         }
       ]
