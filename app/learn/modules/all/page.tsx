@@ -14,13 +14,29 @@ export default async function AllCoursesPage({
   const { q } = await searchParams;
   const supabase = await createClient();
 
-  const [{ enrolments }, { data: courses }] = await Promise.all([
+  const [{ enrolments, certificates }, { data: courses }] = await Promise.all([
     loadLearner(supabase),
     supabase
       .from("courses")
       .select("id, title, description, topics(title)")
       .order("sort_order"),
   ]);
+
+  // A course is "completed on" the day its most recent certificate was issued —
+  // there is no completed_at on enrolments, and the pass is what completes it.
+  const latestIssued = new Map<string, string>();
+  for (const c of certificates) {
+    const prev = latestIssued.get(c.course_id);
+    if (!prev || +new Date(c.issued_at) > +new Date(prev)) {
+      latestIssued.set(c.course_id, c.issued_at);
+    }
+  }
+  const completedAt: Record<string, string | null> = {};
+  for (const e of enrolments) {
+    if (e.status === "completed") {
+      completedAt[e.course_id] = latestIssued.get(e.course_id) ?? null;
+    }
+  }
 
   const catalogue: CatalogueCourse[] = (courses ?? []).map((c) => ({
     id: c.id,
@@ -39,6 +55,7 @@ export default async function AllCoursesPage({
         <AllCourses
           courses={catalogue}
           enrolledIds={enrolments.map((e) => e.course_id)}
+          completedAt={completedAt}
           initialQuery={q ?? ""}
         />
       </div>

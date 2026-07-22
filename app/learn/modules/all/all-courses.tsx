@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Check } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { CourseThumb } from "@/components/learner-ui";
@@ -16,13 +17,25 @@ export interface CatalogueCourse {
   topic: string | null;
 }
 
+/** "22 Jul 2026" — compact enough to sit in a pill beside the topic label. */
+function shortDate(iso: string): string {
+  return new Date(iso).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 export function AllCourses({
   courses,
   enrolledIds,
+  completedAt = {},
   initialQuery = "",
 }: {
   courses: CatalogueCourse[];
   enrolledIds: string[];
+  /** course id -> date the course was completed (null if we have no certificate). */
+  completedAt?: Record<string, string | null>;
   initialQuery?: string;
 }) {
   const [query, setQuery] = useState(initialQuery);
@@ -92,6 +105,8 @@ export function AllCourses({
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((c) => {
           const isEnrolled = enrolled.has(c.id);
+          const isCompleted = c.id in completedAt;
+          const doneOn = completedAt[c.id];
           return (
             <div
               key={c.id}
@@ -99,13 +114,20 @@ export function AllCourses({
             >
               <CourseThumb topic={c.topic} />
               <div className="flex items-center justify-between gap-2">
-                <span className="text-xs font-medium text-muted-foreground">
+                <span className="truncate text-xs font-medium text-muted-foreground">
                   {c.topic ?? "General"}
                 </span>
-                {isEnrolled && (
-                  <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
-                    Enrolled
+                {isCompleted ? (
+                  <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-700">
+                    <Check className="size-3" />
+                    {doneOn ? shortDate(doneOn) : "Completed"}
                   </span>
+                ) : (
+                  isEnrolled && (
+                    <span className="shrink-0 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                      Enrolled
+                    </span>
+                  )
                 )}
               </div>
               <p className="font-semibold leading-snug">{c.title}</p>
@@ -115,13 +137,25 @@ export function AllCourses({
                 </p>
               )}
               <div className="mt-auto">
-                {isEnrolled ? (
+                {isCompleted ? (
+                  // Still a link — completed courses stay open to review.
                   <Link
                     href={`/learn/courses/${c.id}`}
                     className={buttonVariants({
                       size: "sm",
-                      variant: "outline",
-                      className: "w-full",
+                      className:
+                        "w-full bg-violet-600 text-white hover:bg-violet-700",
+                    })}
+                  >
+                    Completed
+                  </Link>
+                ) : isEnrolled ? (
+                  <Link
+                    href={`/learn/courses/${c.id}`}
+                    className={buttonVariants({
+                      size: "sm",
+                      className:
+                        "w-full bg-emerald-600 text-white hover:bg-emerald-700",
                     })}
                   >
                     Go to course
