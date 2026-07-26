@@ -1,0 +1,12 @@
+{
+  "slug": "information-governance-and-gdpr",
+  "intro": "Information governance is how you handle people's personal data legally, securely and ethically to protect their dignity, privacy and trust.",
+  "points": [
+    "Report any suspected data breach immediately; the ICO must be told within 72 hours when people's rights are at risk.",
+    "Treat health and care details as special category data, which needs extra protection and both a lawful basis and an extra condition.",
+    "Only access confidential information on a need-to-know basis; curiosity is never a good enough reason to look.",
+    "Follow the seven data protection principles: use information lawfully, fairly, accurately and only for the purpose it was collected.",
+    "Recognise a subject access request, even when made verbally, and pass it to your manager to answer within one month.",
+    "Share without consent to keep someone safe: for safeguarding, a medical emergency, or a legal duty; never stay silent on risk."
+  ]
+}

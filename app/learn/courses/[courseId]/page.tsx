@@ -26,13 +26,27 @@ export default async function CoursePage({
 
   const { data: course } = await supabase
     .from("courses")
-    .select("title, description, content_blocks")
+    .select("title, description, summary, content_blocks")
     .eq("id", courseId)
     .maybeSingle();
   if (!course) notFound();
 
   const blocks = parseBlocks(course.content_blocks);
   const h5pPages = allH5P(blocks);
+
+  // The course summary ("what you covered") is stored as JSON text; parse it
+  // defensively so a malformed value just hides the recap rather than erroring.
+  let summary: { intro: string; points: string[] } | null = null;
+  if (course.summary) {
+    try {
+      const s = JSON.parse(course.summary);
+      if (s && Array.isArray(s.points) && s.points.length > 0) {
+        summary = { intro: typeof s.intro === "string" ? s.intro : "", points: s.points.map(String) };
+      }
+    } catch {
+      summary = null;
+    }
+  }
 
   return (
     <DashboardShell title={course.title} context={context}>
@@ -42,6 +56,7 @@ export default async function CoursePage({
           courseId={courseId}
           title={course.title}
           description={course.description ?? ""}
+          summary={summary}
           pages={h5pPages}
           initialBlock={enrolment.current_block ?? 0}
         />

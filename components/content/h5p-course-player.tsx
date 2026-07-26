@@ -33,11 +33,17 @@ declare global {
  * into the content. Our own progress bar, Back/Next, a "Save & come back
  * later" button and a leave-prompt keep the learner's place safe.
  */
+export interface CourseSummary {
+  intro: string;
+  points: string[];
+}
+
 export function H5PCoursePlayer({
   enrolmentId,
   courseId,
   title,
   description,
+  summary,
   pages,
   initialBlock,
 }: {
@@ -45,6 +51,7 @@ export function H5PCoursePlayer({
   courseId: string;
   title: string;
   description?: string;
+  summary?: CourseSummary | null;
   pages: H5PBlock[];
   initialBlock: number;
 }) {
@@ -165,6 +172,10 @@ export function H5PCoursePlayer({
     return () => {
       disposed = true;
       clearInterval(attachTimer);
+      // Tear down the H5P iframe explicitly. h5p-standalone's iframe can
+      // otherwise linger in the DOM when we leave the content for the summary
+      // screen (the next effect run early-returns before it clears `el`).
+      el.innerHTML = "";
     };
   }, [index, pages, onXapi, stage]);
 
@@ -186,6 +197,10 @@ export function H5PCoursePlayer({
   function next() {
     if (index < total - 1) goTo(index + 1);
     else {
+      // Tear down the H5P iframe while its container is still mounted. React
+      // reuses this DOM node for the summary view and would otherwise carry the
+      // (untracked) h5p-standalone iframe along, leaving it bleeding through.
+      if (containerRef.current) containerRef.current.innerHTML = "";
       persist(total - 1, true);
       setFinished(true);
     }
@@ -303,16 +318,44 @@ export function H5PCoursePlayer({
     );
   }
 
+  // Course summary — shown once the content is finished. The module isn't
+  // complete until the assessment is passed, so the wording says so and the
+  // primary action is to start it.
   if (finished) {
     return (
-      <div className="mx-auto max-w-2xl space-y-6 py-6 text-center">
-        <div className="text-4xl">🎉</div>
-        <h2 className="text-2xl font-semibold">You&apos;ve finished the module</h2>
-        <p className="text-muted-foreground">
-          Great work completing <strong>{title}</strong>. Now take the assessment
-          to earn your certificate.
-        </p>
-        <div className="flex justify-center gap-3">
+      <div className="mx-auto max-w-2xl space-y-6 py-6">
+        <div className="space-y-2 text-center">
+          <div className="text-4xl">🎉</div>
+          <h2 className="text-2xl font-semibold">You&apos;ve completed the content</h2>
+          <p className="text-muted-foreground">
+            Nice work working through <strong>{title}</strong>. Here&apos;s a quick
+            recap — then take the assessment to earn your certificate.
+          </p>
+        </div>
+
+        {summary && (
+          <div className="space-y-4 rounded-2xl border bg-card p-6">
+            <h3 className="text-lg font-semibold">What you covered</h3>
+            {summary.intro && (
+              <p className="text-sm text-muted-foreground">{summary.intro}</p>
+            )}
+            <ul className="space-y-2.5">
+              {summary.points.map((point, i) => (
+                <li key={i} className="flex items-start gap-2.5 text-sm">
+                  <Check className="mt-0.5 size-4 shrink-0 text-emerald-600" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-300">
+          You&apos;re not finished yet — pass the assessment to complete this
+          course and earn your certificate.
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-3">
           <Button onClick={() => router.push(`/learn/courses/${courseId}/quiz`)}>
             Start assessment
           </Button>
@@ -455,7 +498,7 @@ export function H5PCoursePlayer({
           Save &amp; come back later
         </Button>
         <Button onClick={next} disabled={gated}>
-          {index < total - 1 ? "Next" : "Finish"}
+          {index < total - 1 ? "Next" : "Next: summary"}
         </Button>
       </div>
 
