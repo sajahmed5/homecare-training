@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { expiryFlag, isOverdue } from "@/lib/engine-logic";
+import { computeStarTotal } from "@/lib/stars";
 
 export interface Enrolment {
   id: string;
@@ -120,6 +121,33 @@ export async function loadLearner(
   };
 }
 
+/**
+ * The learner's star-bank total: assessment stars (best per course, capped at
+ * 20, derived from quiz_attempts) plus in-content stars (one row per earned
+ * question in content_question_stars). RLS scopes both reads to the learner.
+ * Resilient — any error yields 0 rather than breaking the shell.
+ */
+export async function loadStarTotal(supabase: SupabaseClient): Promise<number> {
+  try {
+    const [{ data: attempts }, { data: certs }, { count }] = await Promise.all([
+      supabase
+        .from("quiz_attempts")
+        .select("course_id, score, question_ids, submitted_at")
+        .not("submitted_at", "is", null),
+      // Certificate expiries bound the compliance cycles; a renewal after expiry
+      // earns a fresh pool of assessment stars.
+      supabase.from("certificates").select("course_id, expires_at"),
+      supabase
+        .from("content_question_stars")
+        .select("id", { count: "exact", head: true }),
+    ]);
+    const assessmentStars = computeStarTotal(attempts ?? [], certs ?? []);
+    return assessmentStars + (count ?? 0);
+  } catch {
+    return 0;
+  }
+}
+
 /** Minimal shapes the notifications badge needs (see lib/notifications.ts). */
 export interface BadgeData {
   enrolments: { course_id: string; status: string; assigned_at: string; title: string }[];
@@ -174,6 +202,7 @@ export interface LearnerStats {
   overdue: number;
   expiring: number;
   completionPct: number;
+  overallPct: number;
 }
 
 export function learnerStats(
@@ -195,6 +224,21 @@ export function learnerStats(
     return f === "amber" || f === "red";
   }).length;
 
+  // Overall progress counts partly-finished courses, not just completed ones,
+  // so a learner mid-way through several courses isn't shown a demoralising
+  // low number. A completed course counts as 100%; others use their content
+  // progress. completionPct (completed / assigned) is kept for anything that
+  // needs the strict "fully done" ratio.
+  const overallPct =
+    assigned > 0
+      ? Math.round(
+          enrolments.reduce(
+            (sum, e) => sum + (e.status === "completed" ? 100 : e.progress),
+            0,
+          ) / assigned,
+        )
+      : 0;
+
   return {
     assigned,
     notStarted: enrolments.filter((e) => e.status === "not_started").length,
@@ -205,5 +249,6 @@ export function learnerStats(
     overdue,
     expiring,
     completionPct: assigned > 0 ? Math.round((completed / assigned) * 100) : 0,
+    overallPct,
   };
 }

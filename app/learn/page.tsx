@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   BookOpen,
+  CircleDashed,
   Clock,
   CheckCircle2,
   Award,
@@ -77,6 +78,14 @@ export default async function LearnerDashboard() {
 
   const recent = data.certificates.slice(0, 4);
   const firstName = (data.fullName ?? "").split(" ")[0] || "there";
+
+  // Course-status breakdown, shown together in one box so the parts visibly
+  // add up to the assigned total.
+  const courseBreakdown = [
+    { label: "Not started", value: stats.notStarted, color: "#64748b", icon: CircleDashed, href: "/learn/modules" },
+    { label: "In progress", value: stats.inProgress, color: "#d97706", icon: Clock, href: "/learn/modules" },
+    { label: "Completed", value: stats.completed, color: "#16a34a", icon: CheckCircle2, href: "/learn/modules/completed" },
+  ];
   const myWork = data.enrolments
     .filter((e) => e.status !== "completed")
     .slice(0, 4);
@@ -98,8 +107,15 @@ export default async function LearnerDashboard() {
               Hi {firstName} 👋
             </h2>
             <p className="mt-1 text-muted-foreground">
-              {stats.completed} of {stats.assigned} assigned course
-              {stats.assigned === 1 ? "" : "s"} completed.
+              {[
+                `${stats.completed} completed`,
+                stats.inProgress > 0 ? `${stats.inProgress} in progress` : null,
+                stats.notStarted > 0
+                  ? `${stats.notStarted} not started`
+                  : null,
+              ]
+                .filter(Boolean)
+                .join(" · ")}
               {streak > 0 && (
                 <span className="ml-1 inline-flex items-center gap-1 font-medium text-orange-600">
                   <Flame className="size-4" /> {streak}-day streak
@@ -107,8 +123,8 @@ export default async function LearnerDashboard() {
               )}
             </p>
           </div>
-          <ProgressRing value={stats.completionPct} color="#0d9488">
-            <span className="text-2xl font-bold">{stats.completionPct}%</span>
+          <ProgressRing value={stats.overallPct} color="#0d9488">
+            <span className="text-2xl font-bold">{stats.overallPct}%</span>
             <span className="text-xs text-muted-foreground">complete</span>
           </ProgressRing>
         </div>
@@ -146,10 +162,51 @@ export default async function LearnerDashboard() {
         )}
 
         {/* Stat tiles */}
-        <div className="grid gap-4 grid-cols-2 lg:grid-cols-5">
-          <StatTile label="Assigned" value={stats.assigned} icon={BookOpen} color="#0284c7" href="/learn/modules" />
-          <StatTile label="In progress" value={stats.inProgress} icon={Clock} color="#d97706" href="/learn/modules" />
-          <StatTile label="Completed" value={stats.completed} icon={CheckCircle2} color="#16a34a" href="/learn/modules/completed" />
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {/* Course status — assigned total plus its not-started / in-progress /
+              completed breakdown, all in one box so the numbers reconcile at a
+              glance (assigned = not started + in progress + completed). */}
+          <div className="rounded-2xl border bg-card p-4 shadow-sm sm:col-span-2">
+            <div className="mb-3 flex items-baseline justify-between">
+              <h3 className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
+                <BookOpen className="size-4 text-sky-600" /> My courses
+              </h3>
+              <span className="text-sm text-muted-foreground">
+                <span className="text-lg font-bold text-foreground">
+                  {stats.assigned}
+                </span>{" "}
+                assigned
+              </span>
+            </div>
+            <div className="flex h-2 overflow-hidden rounded-full bg-muted">
+              {courseBreakdown.map((s) =>
+                s.value > 0 ? (
+                  <div
+                    key={s.label}
+                    style={{
+                      width: `${(s.value / stats.assigned) * 100}%`,
+                      backgroundColor: s.color,
+                    }}
+                  />
+                ) : null,
+              )}
+            </div>
+            <div className="mt-3 grid grid-cols-3 gap-2">
+              {courseBreakdown.map((s) => (
+                <Link
+                  key={s.label}
+                  href={s.href}
+                  className="flex flex-col gap-1 rounded-lg p-2 transition-colors hover:bg-muted"
+                >
+                  <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <s.icon className="size-3.5" style={{ color: s.color }} />
+                    {s.label}
+                  </span>
+                  <span className="text-xl font-bold">{s.value}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
           <StatTile label="Certificates" value={stats.certificates} icon={Award} color="#7c3aed" href="/learn/certificates" />
           <StatTile label="Need attention" value={stats.overdue + stats.expiring} icon={AlertTriangle} color="#e11d48" href="/learn/notifications" />
         </div>

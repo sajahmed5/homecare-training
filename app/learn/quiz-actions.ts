@@ -15,6 +15,7 @@ import {
   type PublicQuestion,
   type StoredQuestion,
 } from "@/lib/quiz";
+import { STARS_PER_COURSE, currentCycleStartMs, bestStarsSince } from "@/lib/stars";
 
 export interface StartQuizResult {
   ok: boolean;
@@ -92,6 +93,8 @@ export interface SubmitQuizResult {
   total?: number;
   passed?: boolean;
   certificateId?: string;
+  /** New stars banked by this attempt (delta over the course's previous best). */
+  starsAwarded?: number;
 }
 
 /** Grade an attempt server-side, update counters, and issue a certificate on a pass. */
@@ -133,6 +136,33 @@ export async function submitQuizAction(
   const score = total > 0 ? Math.round((correct / total) * 100) : 0;
   const passed = score >= PASS_PERCENT;
 
+  // Star bank: this attempt banks only the improvement over the best already
+  // earned in the CURRENT compliance cycle (capped at 20). A cycle starts when
+  // the previous certificate expired, so re-passing after expiry banks fresh
+  // stars. Query prior SUBMITTED attempts + this course's certificate expiries;
+  // the current attempt isn't submitted yet, so it's excluded. Use the exact
+  // in-memory `correct` for this attempt (no rounding).
+  const [{ data: prior }, { data: certs }] = await Promise.all([
+    admin
+      .from("quiz_attempts")
+      .select("course_id, score, question_ids, submitted_at")
+      .eq("user_id", context.userId)
+      .eq("course_id", attempt.course_id)
+      .not("submitted_at", "is", null),
+    admin
+      .from("certificates")
+      .select("expires_at")
+      .eq("user_id", context.userId)
+      .eq("course_id", attempt.course_id),
+  ]);
+  const boundaries = (certs ?? [])
+    .map((c) => (c.expires_at ? Date.parse(c.expires_at) : NaN))
+    .filter((n) => !Number.isNaN(n));
+  const cycleStart = currentCycleStartMs(boundaries, Date.now());
+  const prevStars = bestStarsSince(prior ?? [], cycleStart);
+  const nowStars = Math.min(STARS_PER_COURSE, correct);
+  const starsAwarded = Math.max(0, nowStars - prevStars);
+
   await admin
     .from("quiz_attempts")
     .update({ answers, score, passed, submitted_at: new Date().toISOString() })
@@ -173,7 +203,51 @@ export async function submitQuizAction(
   }
 
   revalidatePath("/learn");
-  return { ok: true, score, correct, total, passed, certificateId };
+  return { ok: true, score, correct, total, passed, certificateId, starsAwarded };
+}
+
+/**
+ * Award a star for a correctly-answered in-content H5P question. Idempotent:
+ * the unique(user_id, question_key) constraint means each question banks at most
+ * one star ever, so revisiting a page never farms more. Returns the delta (1 if
+ * this is the first correct answer to that question, else 0). Correctness is
+ * trusted from the client's H5P grading — cosmetic gamification only.
+ */
+export async function awardContentStarAction({
+  courseId,
+  questionKey,
+}: {
+  courseId: string;
+  questionKey: string;
+}): Promise<{ delta: 0 | 1 }> {
+  const context = await requireRole("learner");
+  if (!courseId || !questionKey) return { delta: 0 };
+
+  // Must be enrolled in the course (RLS scopes this select to the learner).
+  const supabase = await createClient();
+  const { data: enrolment } = await supabase
+    .from("enrolments")
+    .select("id")
+    .eq("course_id", courseId)
+    .maybeSingle();
+  if (!enrolment) return { delta: 0 };
+
+  const admin = createAdminClient();
+  const { data, error } = await admin
+    .from("content_question_stars")
+    .upsert(
+      {
+        user_id: context.userId,
+        organisation_id: context.organisationId,
+        course_id: courseId,
+        question_key: questionKey,
+      },
+      { onConflict: "user_id,question_key", ignoreDuplicates: true },
+    )
+    .select("id");
+  if (error) return { delta: 0 };
+  // ignoreDuplicates → an existing row yields no returned rows (delta 0).
+  return { delta: data && data.length > 0 ? 1 : 0 };
 }
 
 async function issueCertificate({

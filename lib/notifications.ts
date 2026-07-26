@@ -52,7 +52,7 @@ export function deriveNotifications(
         title: "New training assigned",
         body: e.title,
         at: e.assigned_at,
-        href: "/learn/modules",
+        href: `/learn/courses/${e.course_id}`,
       });
     }
     if (e.status === "expired") {
@@ -63,7 +63,7 @@ export function deriveNotifications(
         title: "Retake required",
         body: `${e.title} has expired and needs retaking`,
         at: cert?.expires_at ?? e.assigned_at,
-        href: "/learn/modules",
+        href: `/learn/courses/${e.course_id}`,
       });
     }
   }
@@ -72,8 +72,8 @@ export function deriveNotifications(
     items.push({
       id: `cert-${c.id}`,
       type: "certificate",
-      title: "Certificate ready",
-      body: c.title,
+      title: `${c.title} — Course completed`,
+      body: "Certificate ready to download",
       at: c.issued_at,
       href: "/learn/certificates",
     });

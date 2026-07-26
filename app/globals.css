@@ -137,3 +137,29 @@
     opacity: 0.85;
   }
 }
+/* A star flying from where it was earned to the header star bank. The distance
+   (--dx/--dy) is set inline per star; a small upward arc at the midpoint. */
+@keyframes star-fly {
+  0% {
+    transform: translate(0, 0) scale(0.4) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(calc(var(--dx) * 0.12), calc(var(--dy) * 0.12 - 28px))
+      scale(1.2) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), var(--dy)) scale(0.5) rotate(360deg);
+    opacity: 0.9;
+  }
+}
+@keyframes star-pop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.35);
+  }
+}

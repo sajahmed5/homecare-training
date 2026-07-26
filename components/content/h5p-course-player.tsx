@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { ArrowUp, Check, ListTree, Lock, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { saveProgressAction } from "@/app/learn/actions";
+import { awardContentStarAction } from "@/app/learn/quiz-actions";
 import { groupSections, type H5PBlock } from "@/lib/content";
 
 // Isolate the impure clock read from the component/hook bodies.
@@ -13,7 +14,12 @@ const nowMs = () => Date.now();
 
 interface XapiEvent {
   getVerb?: () => string | undefined;
-  data?: { statement?: { object?: { id?: string } } };
+  data?: {
+    statement?: {
+      object?: { id?: string };
+      result?: { success?: boolean };
+    };
+  };
 }
 interface H5PGlobal {
   externalDispatcher?: {
@@ -80,7 +86,9 @@ export function H5PCoursePlayer({
   const answeredRef = useRef<Set<string>>(new Set());
   const [answeredCount, setAnsweredCount] = useState(0);
 
-  const progressPct = Math.round(((Math.max(reached, index) + 1) / total) * 100);
+  // Progress = pages actually completed (moved past), not the page you're on —
+  // so opening a course and sitting on page 1 reads 0%, not 1/total.
+  const progressPct = Math.round((Math.max(reached, index) / total) * 100);
 
   const requiredQuestions = pages[index].questions ?? 0;
   // Only gate on a page the learner is reaching for the first time; revisiting
@@ -94,7 +102,7 @@ export function H5PCoursePlayer({
       setReached(newReached);
       const delta = Math.round((nowMs() - startRef.current) / 1000);
       startRef.current = nowMs();
-      const pct = done ? 100 : Math.round(((newReached + 1) / total) * 100);
+      const pct = done ? 100 : Math.round((newReached / total) * 100);
       void saveProgressAction({
         enrolmentId,
         currentBlock: pageIndex,
@@ -108,16 +116,44 @@ export function H5PCoursePlayer({
   // Dispatchers we've already hooked (parent + each page's iframe), so we don't
   // attach the same handler twice.
   const attachedRef = useRef<Set<object>>(new Set());
-  // Record a distinct answered/completed interaction on the current page.
-  const onXapi = useCallback((e: XapiEvent) => {
-    const verb = e.getVerb?.();
-    if (verb !== "answered" && verb !== "completed") return;
-    const id = e.data?.statement?.object?.id ?? `q-${answeredRef.current.size}`;
-    if (!answeredRef.current.has(id)) {
-      answeredRef.current.add(id);
-      setAnsweredCount(answeredRef.current.size);
-    }
-  }, []);
+  // In-content questions we've already tried to bank a star for this session, so
+  // a re-answer doesn't re-hit the server (the DB unique constraint is the real
+  // guard across visits). Session-wide — deliberately NOT reset per page.
+  const starAwardedRef = useRef<Set<string>>(new Set());
+  // Record a distinct answered/completed interaction on the current page, and —
+  // when the answer is correct — bank a star for it (once).
+  const onXapi = useCallback(
+    (e: XapiEvent) => {
+      const verb = e.getVerb?.();
+      if (verb !== "answered" && verb !== "completed") return;
+      const statement = e.data?.statement;
+      const id = statement?.object?.id ?? `q-${answeredRef.current.size}`;
+      if (!answeredRef.current.has(id)) {
+        answeredRef.current.add(id);
+        setAnsweredCount(answeredRef.current.size);
+      }
+      // Star for a correct in-content answer (H5P sets result.success).
+      if (
+        statement?.result?.success === true &&
+        statement.object?.id &&
+        !starAwardedRef.current.has(statement.object.id)
+      ) {
+        const key = statement.object.id;
+        starAwardedRef.current.add(key);
+        void awardContentStarAction({ courseId, questionKey: key }).then((res) => {
+          if (res.delta !== 1) return;
+          const rect = containerRef.current?.getBoundingClientRect();
+          const origin = rect
+            ? { x: rect.left + rect.width / 2, y: rect.top + Math.min(rect.height / 2, 200) }
+            : undefined;
+          window.dispatchEvent(
+            new CustomEvent("mca:award-stars", { detail: { count: 1, origin } }),
+          );
+        });
+      }
+    },
+    [courseId],
+  );
 
   // (Re)mount the H5P package whenever the page changes — but only once the
   // learner is actually in the content (not on the intro/contents screens).

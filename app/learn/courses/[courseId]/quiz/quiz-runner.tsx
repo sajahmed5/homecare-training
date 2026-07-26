@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Confetti } from "@/components/confetti";
@@ -51,9 +51,27 @@ export function QuizRunner({
   const [questions, setQuestions] = useState<PublicQuestion[]>([]);
   const [answers, setAnswers] = useState<AnswerMap>({});
   const [result, setResult] = useState<SubmitQuizResult | null>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
 
   const setAnswer = (id: string, value: unknown) =>
     setAnswers((prev) => ({ ...prev, [id]: value }));
+
+  // When results render with newly-earned stars, fly them from the results card
+  // up to the header star bank. Runs after paint so the card (and its ref) exist.
+  useEffect(() => {
+    const gained = result?.starsAwarded ?? 0;
+    if (gained <= 0) return;
+    const raf = requestAnimationFrame(() => {
+      const rect = resultRef.current?.getBoundingClientRect();
+      const origin = rect
+        ? { x: rect.left + rect.width / 2, y: rect.top + Math.min(rect.height / 2, 160) }
+        : undefined;
+      window.dispatchEvent(
+        new CustomEvent("mca:award-stars", { detail: { count: gained, origin } }),
+      );
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [result]);
 
   async function start() {
     setBusy(true);
@@ -149,12 +167,19 @@ export function QuizRunner({
 
   // result
   return (
-    <div className="mx-auto max-w-2xl space-y-6 text-center">
+    <div ref={resultRef} className="mx-auto max-w-2xl space-y-6 text-center">
       {result?.passed && <Confetti />}
       <h2 className="text-2xl font-semibold">{result?.passed ? "Passed 🎉" : "Not passed"}</h2>
       <p className="text-lg">
         You scored <strong>{result?.score}%</strong> ({result?.correct}/{result?.total} correct). Pass mark is {PASS_PERCENT}%.
       </p>
+      {result && (
+        <p className="text-sm font-medium text-amber-600">
+          {result.starsAwarded && result.starsAwarded > 0
+            ? `+${result.starsAwarded} ⭐ added to your star bank`
+            : "No new stars this time — you've already banked your best for this course."}
+        </p>
+      )}
       {result?.passed ? (
         <div className="space-y-3">
           <p className="text-muted-foreground">

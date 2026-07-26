@@ -36,7 +36,8 @@ export function CoursePlayer({
     (nextIndex: number, done = false) => {
       const delta = Math.round((nowMs() - startRef.current) / 1000);
       startRef.current = nowMs();
-      const reached = Math.max(nextIndex, index) + 1;
+      // Progress = pages completed (moved past), so being on page 1 reads 0%.
+      const reached = Math.max(nextIndex, index);
       const pct = done ? 100 : Math.round((reached / total) * 100);
       // Fire-and-forget; RLS ensures it only touches this learner's row.
       void saveProgressAction({
@@ -67,7 +68,7 @@ export function CoursePlayer({
   }
 
   const block = blocks[index];
-  const pct = Math.round(((index + 1) / total) * 100);
+  const pct = Math.round((index / total) * 100);
 
   function next() {
     if (index < total - 1) {

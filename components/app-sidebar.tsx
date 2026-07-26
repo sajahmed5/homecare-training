@@ -15,11 +15,13 @@ export function AppSidebar({
   email,
   roleLabel,
   badges,
+  version,
 }: {
   role: UserRole | null;
   email: string | null;
   roleLabel: string;
   badges: Record<string, number>;
+  version: string;
 }) {
   const [collapsed, setCollapsed] = useState(false);
 
@@ -89,6 +91,9 @@ export function AppSidebar({
                 Sign out
               </Button>
             </form>
+            <p className="mt-3 text-center text-[11px] text-sidebar-foreground/40">
+              {version}
+            </p>
           </>
         )}
       </div>

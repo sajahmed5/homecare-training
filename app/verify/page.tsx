@@ -14,6 +14,7 @@ import {
 
 interface VerifyRow {
   valid: boolean;
+  holder_name: string;
   course_title: string;
   issued_at: string;
   expires_at: string | null;
@@ -95,6 +96,12 @@ export default async function VerifyPage({
                   : "Valid certificate ✓"}
               </p>
               <dl className="mt-2 space-y-1 text-muted-foreground">
+                {result.holder_name && (
+                  <div className="flex justify-between">
+                    <dt>Name</dt>
+                    <dd className="text-foreground">{result.holder_name}</dd>
+                  </div>
+                )}
                 <div className="flex justify-between">
                   <dt>Course</dt>
                   <dd className="text-foreground">{result.course_title}</dd>

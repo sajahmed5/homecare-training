@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   BookOpen,
   Award,
@@ -74,27 +75,32 @@ export default async function NotificationsPage() {
                   const Icon = s.icon;
                   const unread = +new Date(n.at) > readAt;
                   return (
-                    <li key={n.id} className="flex items-start gap-3 py-3">
-                      <span
-                        className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-lg"
-                        style={{ backgroundColor: tint(s.color), color: s.color }}
+                    <li key={n.id}>
+                      <Link
+                        href={n.href}
+                        className="-mx-2 flex items-start gap-3 rounded-lg px-2 py-3 transition-colors hover:bg-muted"
                       >
-                        <Icon className="size-4" />
-                      </span>
-                      <div className="min-w-0 flex-1">
-                        <p className="text-sm font-medium">
-                          {n.title}
-                          {unread && (
-                            <span className="ml-2 inline-block size-2 rounded-full bg-rose-500 align-middle" />
-                          )}
-                        </p>
-                        <p className="truncate text-sm text-muted-foreground">
-                          {n.body}
-                        </p>
-                      </div>
-                      <span className="shrink-0 text-xs text-muted-foreground">
-                        {new Date(n.at).toLocaleDateString("en-GB")}
-                      </span>
+                        <span
+                          className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-lg"
+                          style={{ backgroundColor: tint(s.color), color: s.color }}
+                        >
+                          <Icon className="size-4" />
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <p className="text-sm font-medium">
+                            {n.title}
+                            {unread && (
+                              <span className="ml-2 inline-block size-2 rounded-full bg-rose-500 align-middle" />
+                            )}
+                          </p>
+                          <p className="truncate text-sm text-muted-foreground">
+                            {n.body}
+                          </p>
+                        </div>
+                        <span className="shrink-0 text-xs text-muted-foreground">
+                          {new Date(n.at).toLocaleDateString("en-GB")}
+                        </span>
+                      </Link>
                     </li>
                   );
                 })}

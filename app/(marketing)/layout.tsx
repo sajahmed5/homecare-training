@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
+import { VERSION_LABEL } from "@/lib/version";
 
 const NAV = [
   { href: "/services", label: "Services", hideOnMobile: false },
@@ -111,7 +112,12 @@ export default function MarketingLayout({
           </div>
 
           <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-muted-foreground">
-            <span>© My Care Academy</span>
+            <span className="flex items-center gap-2">
+              © My Care Academy
+              <span className="text-xs text-muted-foreground/60">
+                {VERSION_LABEL}
+              </span>
+            </span>
             <Link href="/privacy" className="hover:underline">
               Privacy policy
             </Link>

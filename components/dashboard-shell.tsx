@@ -4,8 +4,10 @@ import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
 import { AppSidebar } from "@/components/app-sidebar";
 import { createClient } from "@/lib/supabase/server";
-import { loadBadgeData } from "@/lib/learner-data";
+import { loadBadgeData, loadStarTotal } from "@/lib/learner-data";
 import { deriveNotifications, unreadCount } from "@/lib/notifications";
+import { VERSION_LABEL } from "@/lib/version";
+import { StarBank } from "@/components/star-bank";
 import type { UserContext } from "@/lib/auth";
 
 async function learnerBadges(
@@ -20,6 +22,12 @@ async function learnerBadges(
   } catch {
     return {};
   }
+}
+
+async function learnerStarTotal(context: UserContext): Promise<number> {
+  if (context.role !== "learner") return 0;
+  const supabase = await createClient();
+  return loadStarTotal(supabase);
 }
 
 const ROLE_LABELS: Record<string, string> = {
@@ -37,7 +45,10 @@ export async function DashboardShell({
   context: UserContext;
   children?: React.ReactNode;
 }) {
-  const badges = await learnerBadges(context);
+  const [badges, starTotal] = await Promise.all([
+    learnerBadges(context),
+    learnerStarTotal(context),
+  ]);
   return (
     <div className="flex min-h-svh w-full">
       {/* Sidebar — desktop (collapsible) */}
@@ -46,6 +57,7 @@ export async function DashboardShell({
         email={context.email}
         roleLabel={context.role ? ROLE_LABELS[context.role] : "No role"}
         badges={badges}
+        version={VERSION_LABEL}
       />
 
       {/* Main column */}
@@ -74,6 +86,7 @@ export async function DashboardShell({
             </form>
           )}
           <div className="flex items-center gap-3">
+            {context.role === "learner" && <StarBank initialTotal={starTotal} />}
             <span className="hidden text-sm text-muted-foreground sm:inline">
               {context.email}
             </span>
