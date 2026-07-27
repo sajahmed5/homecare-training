@@ -54,15 +54,8 @@
     {
       "type": "h5p",
       "path": "modern-slavery/p8",
-      "label": "Physical & behavioural signs",
-      "questions": 1,
-      "section": "Recognising the signs"
-    },
-    {
-      "type": "h5p",
-      "path": "modern-slavery/p9",
-      "label": "Control & conditions",
-      "questions": 1,
+      "label": "Recognising the signs",
+      "questions": 2,
       "section": "Recognising the signs"
     },
     {

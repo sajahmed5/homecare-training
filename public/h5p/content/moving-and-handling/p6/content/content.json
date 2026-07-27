@@ -1,1 +1,139 @@
-{"content":[{"content":{"params":{"text":"<h2>Using the right equipment</h2><p>The safest way to reduce handling risk is often to let equipment take the strain. Common aids in care include hoists, slide sheets, transfer boards and handling belts. Equipment only makes things safer when it is the right type, in good order, and used by someone who has been <strong>trained and assessed as competent</strong>.</p><p>Never improvise. Using the wrong sling with a hoist, or a piece of equipment you have not been shown how to use, can seriously injure the person you support.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"47f16283-11ec-4764-bfba-83e7c6a25a50","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"contentName":"Image","alt":"A carer helping a person to stand safely","decorative":false,"file":{"path":"images/mh-assist.jpg","mime":"image/jpeg","width":1080,"height":720,"copyright":{"license":"U"}}},"library":"H5P.Image 1.1","subContentId":"6c183b38-a744-4e64-b4bc-50b248442862","metadata":{"contentType":"H5P.Image","license":"U","title":"Image"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Get to know the main handling aids used in care. Tap each card to see what it does.</p>","dialogs":[{"text":"<p>Hoist and sling</p>","answer":"<p>Lifts a person who cannot bear weight, or raises someone from the floor. The correct size and type of sling must be used, and staff must be trained. Hoists and slings fall under LOLER.</p>","tips":{}},{"text":"<p>Slide sheet</p>","answer":"<p>A low-friction sheet that helps reposition someone in bed &mdash; moving them up, or turning them &mdash; without dragging their skin or straining your back.</p>","tips":{}},{"text":"<p>Transfer board</p>","answer":"<p>A smooth board that bridges a gap, for example between a wheelchair and a bed, so a person can slide across rather than being lifted.</p>","tips":{}},{"text":"<p>Handling belt</p>","answer":"<p>A belt with handles worn by a person who can partly support themselves, giving you a secure hold to steady or guide them &mdash; never to lift their full weight.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"6a28955b-3bc9-4b11-ae94-b8ca0d914a5a","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>It is fine to use any hoist sling as long as it fits under the person.</p>","correct":"false","l10n":{"trueText":"True","falseText":"False","checkAnswer":"Check","showSolutionButton":"Show solution","tryAgain":"Retry","wrongAnswerMessage":"Not true. You must use the correct type and size of sling for the specific hoist and person, as set out in their care plan and your training.","correctAnswerMessage":"Correct. Slings must be the correct type and size for that hoist and that person. The wrong sling can let someone slip or fall and cause serious injury."},"behaviour":{"enableRetry":true,"enableSolutionsButton":true}},"library":"H5P.TrueFalse 1.8","subContentId":"7fc6af14-38aa-4d46-b701-f1d91ad9953d","metadata":{"contentType":"H5P.TrueFalse","license":"U","title":"True or false"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using the right equipment</h2><p>The safest way to reduce handling risk is often to let equipment take the strain, and using the right equipment is how you avoid hazardous manual handling. Common aids in care include hoists, slings, slide sheets, stand aids, transfer boards and handling belts. Equipment only makes things safer when it is the right type, in good order, and used by someone who has been <strong>trained and assessed as competent</strong>. Never improvise: using the wrong sling with a hoist, or a piece of equipment you have not been shown how to use, can seriously injure the person you support.</p><h2>The main types of equipment</h2><p>Each piece of equipment has a purpose, and you should only use one you have been trained on.</p><ul><li><strong>Mobile and overhead hoists:</strong> take the full weight of a person who cannot bear their own weight, lifting them with a sling.</li><li><strong>Slings:</strong> the fabric part that holds the person; they come in different types and sizes and must match the hoist and the person.</li><li><strong>Slide sheets:</strong> low-friction sheets that let you reposition someone in bed without dragging them.</li><li><strong>Stand aids and standing hoists:</strong> support a person who can take some weight to rise and transfer.</li><li><strong>Transfer boards:</strong> bridge a small gap, for example between a wheelchair and a bed, for someone who can shuffle across.</li></ul><h2>Checks and LOLER</h2><p>Equipment that lifts people is covered by the Lifting Operations and Lifting Equipment Regulations 1998 (LOLER). A hoist and its slings must be thoroughly examined by a competent person &mdash; usually every six months for equipment that lifts a person. This is on top of routine servicing.</p><p>Before every use, you carry out your own visual check:</p><ul><li><strong>Sling:</strong> look for fraying, tears, worn stitching and that the label with its size and safe working load is readable.</li><li><strong>Hoist:</strong> check the battery, brakes, spreader bar and that nothing is damaged or overdue for examination.</li><li><strong>Suitability:</strong> confirm the sling type and size are the ones named in the person&rsquo;s handling plan.</li></ul><p>If anything is worn, damaged or out of test date, take it out of use, label it and report the fault. Never make do with a sling that is the wrong size or looks unsafe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a95a80b7-60ed-4c5b-b027-00577c8692d8",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Illustration for Equipment in depth",
+          "decorative": false,
+          "file": {
+            "path": "images/equipment-in-depth.svg",
+            "mime": "image/svg+xml",
+            "width": 640,
+            "height": 232,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "6d2f147f-f958-465e-9899-358c5974087f",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is fine to use any hoist sling as long as it fits under the person.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not true. You must use the correct type and size of sling for the specific hoist and person, as set out in their care plan and your training.",
+            "correctAnswerMessage": "Correct. Slings must be the correct type and size for that hoist and that person. The wrong sling can let someone slip or fall and cause serious injury."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "7fc6af14-38aa-4d46-b701-f1d91ad9953d",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You are about to hoist someone and notice the sling&rsquo;s stitching is frayed near one of the loops. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Take the sling out of use, report the fault and use a sound sling of the correct type and size.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A damaged sling could fail and drop the person; it must be removed from use and reported, and only a sound, suitable sling used.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Use it carefully this once, as the person is waiting and it is only slightly frayed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Frayed stitching can give way under load; a sling in that state must never be used, however slight the damage looks.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Turn the sling around so the frayed part is at the back.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Repositioning the damage does not make the sling safe; it still bears the person&rsquo;s weight and could fail.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Reinforce it with tape and carry on.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Improvised repairs are never acceptable on lifting equipment; the sling must be withdrawn and reported.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "adf90d1b-9e2c-405e-86bf-73f53aa5eff5",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

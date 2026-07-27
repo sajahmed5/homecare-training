@@ -40,16 +40,9 @@
     {
       "type": "h5p",
       "path": "lgbtq-awareness/p6",
-      "label": "Never assume",
-      "questions": 1,
+      "label": "Making no assumptions",
+      "questions": 2,
       "section": "Understanding identity"
-    },
-    {
-      "type": "h5p",
-      "path": "lgbtq-awareness/p7",
-      "label": "No assumptions",
-      "questions": 1,
-      "section": "Inclusive care"
     },
     {
       "type": "h5p",

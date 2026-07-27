@@ -1,5 +1,5 @@
 {
-  "title": "Modern Slavery Awareness — Physical &amp; behavioural signs",
+  "title": "Modern Slavery Awareness — Recognising the signs",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -52,6 +52,11 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.TrueFalse",
+      "majorVersion": 1,
+      "minorVersion": 8
     }
   ]
 }

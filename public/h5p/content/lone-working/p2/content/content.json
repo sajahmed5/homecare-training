@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>What the law expects</h2><p>The <strong>Health and Safety at Work etc. Act 1974</strong> places a general duty on your employer to protect the health, safety and welfare of employees, so far as is reasonably practicable. The Management of Health and Safety at Work Regulations 1999 build on this, requiring employers to assess the risks that lone workers face and to put sensible controls in place.</p><p>The Care Quality Commission (CQC) expects providers to keep people who use services and their staff safe, and the Social Care Institute for Excellence (SCIE) promotes safe systems of work as part of good practice. Together these mean lone working must be planned, not left to chance.</p><h2>Shared responsibility</h2><p>Safety is a two-way street. Your employer sets up safe systems; you follow them and speak up when something is not right.</p><ul><li><strong>Employers must</strong> assess the risks, provide training and equipment, set up ways to keep in touch, and respond if something goes wrong.</li><li><strong>Employees must</strong> take reasonable care of themselves and others, follow the agreed procedures, use the equipment provided, and report concerns and incidents.</li></ul>"
+          "text": "<h2>What the law expects</h2><p>No law bans lone working in adult social care. What the law requires is that the risks are assessed and controlled so far as is reasonably practicable &mdash; and that duty sits first with your employer. Section 2 of the <strong>Health and Safety at Work etc. Act 1974</strong> places a general duty on your employer to protect the health, safety and welfare of employees. The Management of Health and Safety at Work Regulations 1999 build on this, requiring employers to assess the risks that lone workers face and to put sensible controls in place. The Care Quality Commission (CQC) expects providers to keep people who use services and their staff safe, and the Social Care Institute for Excellence (SCIE) promotes safe systems of work as part of good practice. HSE guidance INDG73 sets out what good practice looks like. Together these mean lone working must be planned, not left to chance.</p><h2>What your employer must do</h2><ul><li><strong>Assess the risk (MHSWR 1999, reg 3):</strong> a suitable and sufficient assessment of working alone, reviewed when the person you support, the property or the round changes.</li><li><strong>Tell you what it found (reg 10):</strong> you should be given clear information on the risks and the controls, not a file left in the office.</li><li><strong>Prepare you properly (reg 13):</strong> your capability and training must be taken into account before you are asked to work alone.</li><li><strong>Provide training, equipment and ways to keep in touch,</strong> and respond if something goes wrong.</li><li><strong>Report certain incidents (RIDDOR 2013):</strong> specified injuries, over-seven-day absences and dangerous occurrences must go to the HSE.</li><li><strong>Meet CQC standards:</strong> Regulation 12 requires safe care and treatment and Regulation 18 requires enough suitably skilled staff &mdash; a rota that leaves you unsupported can breach both.</li></ul><p>Where a gross breach of a duty of care causes a death, and senior management failings are a substantial part of it, an organisation can be prosecuted under the Corporate Manslaughter and Corporate Homicide Act 2007.</p><h2>What you must do</h2><p>Safety is a two-way street. Section 7 of the 1974 Act places a legal duty on you personally, and section 8 makes it an offence to interfere with anything provided for safety.</p><ul><li><strong>Take reasonable care:</strong> for yourself and for anyone affected by what you do, including the person you support.</li><li><strong>Co-operate with your employer:</strong> use the agreed system every time &mdash; check in, check out, carry the device you have been issued.</li><li><strong>Do not misuse safety equipment:</strong> switching off an alarm or location tracker to save battery is exactly what section 8 prohibits.</li><li><strong>Report what you meet:</strong> new hazards, near misses and aggression, so the assessment can be updated before someone is hurt.</li><li><strong>Work within your competence:</strong> if you have not been trained for a task, say so before attempting it alone.</li></ul><p>None of this makes you personally responsible for gaps your employer has left. Raising a concern is part of doing the job well.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "c3ca66d1-412e-4894-a63b-b996890b281f",
+        "subContentId": "0953ce6d-9539-4602-8476-d99580efd97f",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -19,20 +19,20 @@
       "content": {
         "params": {
           "contentName": "Image",
-          "alt": "Illustration for The law and duties",
+          "alt": "Two colleagues sharing responsibility for safety at work",
           "decorative": false,
           "file": {
-            "path": "images/the-law-and-duties.svg",
+            "path": "images/legal-duties.svg",
             "mime": "image/svg+xml",
             "width": 640,
-            "height": 210,
+            "height": 232,
             "copyright": {
               "license": "U"
             }
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "7de5c9f6-1b35-4be1-b665-9c10e8863810",
+        "subContentId": "2bd1e572-9403-4990-9437-191e1107d28d",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -98,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "dcb6a459-7067-4b36-b810-c8b3e8b17325",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative tells you that care workers 'are not allowed by law' to visit a property alone after dark. What is the correct legal position?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>There is no law banning lone working; the employer must assess the risks and control them so far as is reasonably practicable.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Lone working is lawful. The duty under the 1974 Act and the 1999 Regulations is to assess and control the risk, not to avoid lone working altogether.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Lone working after dark is prohibited outright by the Health and Safety at Work etc. Act 1974.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. The Act creates general duties to protect health and safety; it sets no blanket ban on working alone at any time of day.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is lawful only if you sign a form accepting the risk yourself.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. An employer cannot transfer its section 2 duty to you by asking you to sign something. Your consent does not remove their responsibility.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It is entirely your own decision, because section 7 puts the legal duty on the employee.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Section 7 does give you a personal duty, but it sits alongside your employer's duty rather than replacing it. The risk assessment and safe system are still theirs to provide.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "06cfcc23-9118-49e8-9a0c-d6f007b09c8e",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

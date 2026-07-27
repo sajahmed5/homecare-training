@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>What should change afterwards</h2><p>An incident is information. Under regulation 3 of the Management of Health and Safety at Work Regulations 1999, your employer must review the risk assessment when it may no longer be valid or when there has been a significant change &mdash; and an incident or near miss is exactly that trigger. HSE guidance for lone workers (INDG73) makes the same point: controls are only as good as the last time they were tested against reality.</p><ul><li><strong>The risk assessment is revisited:</strong> for that person, that property, that time of day, or that route &mdash; and updated where it no longer holds.</li><li><strong>The care plan may change:</strong> new information about triggers, behaviour, pets, equipment or who else is in the house should be written in so the next worker is not walking in blind.</li><li><strong>Visit arrangements may change:</strong> double-up visits, a different time of day, daylight-only calls, a named worker, agreed parking, or a changed entry arrangement.</li><li><strong>Occasionally service is withdrawn or suspended:</strong> this is a decision for senior managers with the local authority or commissioner, and it should never rest on one worker's shoulders.</li></ul><p>All of this depends on people reporting honestly. A reporting culture is about learning and prevention, not blame. You will not be criticised for raising a near miss, for leaving a home you judged unsafe, or for admitting you did not follow the check-in procedure that day. The only thing that genuinely causes harm is the incident nobody hears about.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "b2e2dba4-c6d9-41c4-9efe-cd0bfaa24050",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

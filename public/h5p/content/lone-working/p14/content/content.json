@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>On foot, on the bus, and on your guard</h2><p>Suzy Lamplugh Trust personal-safety principles come down to staying aware, looking purposeful and trusting your instinct. Being careful does not mean looking nervous.</p><ul><li><strong>Walk like you know where you are going:</strong> head up, hands free, hood down and headphones out, especially in the dark.</li><li><strong>Do not advertise the job:</strong> carry your ID, but tuck the lanyard away between calls. A uniform and a bag can suggest you are carrying medication, keys or cash.</li><li><strong>Leave nothing on show:</strong> bags, phone, PPE and any medication go in the boot, out of sight, and never stay in the car overnight.</li><li><strong>Public transport:</strong> wait in lit, busy areas, sit near the driver or other passengers, and plan the last stretch on foot as carefully as the bus route itself.</li><li><strong>If you think you are being followed:</strong> cross over, change direction and head for a shop, pub or busy building rather than your next visit. Ring someone and say out loud where you are. If you feel threatened, call 999.</li></ul><p>Anything that frightened you gets reported and recorded, even when nothing actually happened. Near misses are what shape the next risk assessment.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "48d7789e-b5ee-487c-bf84-bc3316e51b62",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

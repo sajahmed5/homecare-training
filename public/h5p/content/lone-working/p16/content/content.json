@@ -1,0 +1,84 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Reporting beyond your organisation</h2><p>Some incidents also have to go outside the service. You are not expected to judge these alone &mdash; your job is to report accurately and promptly so your manager can act.</p><ul><li><strong>RIDDOR 2013:</strong> certain work-related events must be reported to the HSE by the <em>responsible person</em>, normally your employer &mdash; not by you as an individual worker. These include deaths, specified injuries such as fractures other than to fingers, thumbs or toes, an injury that stops you doing your normal work for more than seven consecutive days, listed dangerous occurrences, and certain occupational diseases. An act of physical violence to a worker is reportable where it causes one of those outcomes; abuse or threats alone are not RIDDOR matters, though they still go through your internal process.</li><li><strong>The police:</strong> where a crime has occurred &mdash; assault, sexual assault, theft, criminal damage, threats to kill &mdash; it should be reported. You can report it yourself, and your employer should support you to do so. Preserve anything relevant and avoid cleaning up or moving items where you can.</li><li><strong>Safeguarding:</strong> if the incident raises concerns about the safety of the person you support, another adult at risk, or a child in the household, a safeguarding referral goes to the local authority under your safeguarding policy. Do not wait to see whether it happens again.</li><li><strong>Duty of candour:</strong> where a person using the service has been harmed, CQC Regulation 20 requires the provider to tell them what happened, apologise and explain. Regulation 12 requires safe care and treatment, which is why incidents feed straight back into risk assessment.</li></ul>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "ed77c25d-22cb-4a63-8780-b79d28c7fab6",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative pushes you during a visit and you injure your wrist. Your GP signs you off for ten days. What should happen about RIDDOR?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Your employer, as the responsible person, reports it to the HSE because the injury kept you off your normal work for more than seven days.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Physical violence to a worker is reportable when it causes death, a specified injury, or more than seven consecutive days of incapacity. The report is made by the responsible person &mdash; normally your employer &mdash; not by you.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>You must submit the RIDDOR report to the HSE yourself within ten days.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Individual workers do not make RIDDOR reports. Your duty is to report the incident promptly and accurately to your employer, who then decides and makes any HSE report.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Nothing is reportable, because RIDDOR does not cover violence from another person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An act of non-consensual physical violence to someone at work is treated as a work-related accident under RIDDOR when it results in a reportable injury.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>It only becomes reportable if the police decide to charge the relative.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. RIDDOR duties are separate from any criminal investigation. The reporting decision turns on the injury and its work-relatedness, not on the outcome of a police case.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "fe664393-fe32-4192-83b7-672bdaf41a8b",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

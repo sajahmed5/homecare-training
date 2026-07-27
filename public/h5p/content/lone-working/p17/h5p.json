@@ -1,5 +1,5 @@
 {
-  "title": "Moving & Handling — Equipment in depth",
+  "title": "Lone Working — How the service learns and changes",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -19,9 +19,9 @@
       "minorVersion": 1
     },
     {
-      "machineName": "H5P.MultiChoice",
+      "machineName": "H5P.DragText",
       "majorVersion": 1,
-      "minorVersion": 16
+      "minorVersion": 10
     },
     {
       "machineName": "H5P.Image",
@@ -32,6 +32,11 @@
       "machineName": "FontAwesome",
       "majorVersion": 4,
       "minorVersion": 5
+    },
+    {
+      "machineName": "jQuery.ui",
+      "majorVersion": 1,
+      "minorVersion": 10
     },
     {
       "machineName": "H5P.JoubelUI",

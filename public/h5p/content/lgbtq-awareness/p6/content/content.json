@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Never assume</h2><p>It is easy to make assumptions without realising it &mdash; to assume a woman has a husband, or that an older person could not possibly be gay, bisexual or trans. Assumptions like these can make a person feel invisible and unable to be open. Inclusive care starts with keeping an open mind and letting people tell you who they are.</p><ul><li><strong>No default:</strong> do not assume anyone is heterosexual or that their gender matches their records.</li><li><strong>Use open questions:</strong> ask about &ldquo;partners&rdquo; rather than assuming a husband or wife.</li><li><strong>Let people share at their pace:</strong> give people the space to be open, without pressure.</li></ul>"
+          "text": "<h2>Making no assumptions</h2><p>It is easy to make assumptions without realising it &mdash; to assume a woman has a husband, or that an older person could not possibly be gay, bisexual or trans. Assumptions like these can make a person feel invisible and unable to be open. Person-centred care means seeing each person as an individual and building support around their wishes, relationships and history &mdash; not around what you expect them to be. When you make no assumptions, people feel able to be themselves, which is the foundation of good care.</p><ul><li><strong>No default:</strong> do not assume anyone is heterosexual or that their gender matches their records.</li><li><strong>Start with the person:</strong> ask what matters to them and how they wish to be supported, using open questions such as asking about &ldquo;partners&rdquo; rather than assuming a husband or wife.</li><li><strong>Let people share at their pace:</strong> give people the space to be open, without pressure.</li><li><strong>Record what they tell you:</strong> capture their preferences so care stays consistent across the team.</li><li><strong>Keep an open, curious mind:</strong> be ready to learn about the person rather than filling in the gaps yourself.</li></ul><h2>Confidentiality about identity</h2><p>A person&rsquo;s sexual orientation and gender identity are private and sensitive information. If someone shares this with you, it is not yours to pass on. You should never disclose that a person is LGBTQ+ to their family, other people they know, or colleagues who have no need to know, without the person&rsquo;s clear agreement.</p><p>Revealing someone&rsquo;s identity without their consent is called &ldquo;outing&rdquo; them, and it can cause real harm &mdash; damaging relationships, or exposing someone to prejudice or danger. Only share such information with colleagues where it is genuinely necessary for the person&rsquo;s care and where the person is content for you to do so.</p><h2>A welcoming environment</h2><p>People quickly sense whether a place is welcoming. Small, visible signals show LGBTQ+ people that they will be accepted. Inclusive-care guidance from organisations such as Stonewall, the NHS and Skills for Care encourages services to make inclusion visible and to use language that does not assume everyone is heterosexual.</p><ul><li><strong>Inclusive language:</strong> use words like &ldquo;partner&rdquo; on forms and in conversation.</li><li><strong>Visible signals:</strong> welcoming imagery or symbols can quietly reassure people they are safe here.</li><li><strong>A consistent culture:</strong> every member of the team helps set a respectful, accepting tone.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "3567a059-68e5-41ae-8938-13c20de749d4",
+        "subContentId": "8bfbbfe7-4bd0-47fa-b928-381b39b634fc",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Confidentiality about identity</h2><p>A person&rsquo;s sexual orientation and gender identity are private and sensitive information. If someone shares this with you, it is not yours to pass on. You should never disclose that a person is LGBTQ+ to their family, other people they know, or colleagues who have no need to know, without the person&rsquo;s clear agreement.</p><p>Revealing someone&rsquo;s identity without their consent is called &ldquo;outing&rdquo; them, and it can cause real harm &mdash; damaging relationships, or exposing someone to prejudice or danger. Only share such information with colleagues where it is genuinely necessary for the person&rsquo;s care and where the person is content for you to do so.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "adcaabff-0bf8-416f-83f1-5089528790d4",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "37e191a7-e68b-4ac5-9285-90d41bb4e2ee",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these best helps create a welcoming, inclusive environment for LGBTQ+ people?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Using inclusive language such as &ldquo;partner&rdquo; and making no assumptions about anyone&rsquo;s identity.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Inclusive language and an open, assumption-free approach help people feel safe to be themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Assuming everyone is heterosexual unless they say otherwise.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This assumption can make LGBTQ+ people feel invisible and unwelcome. Keep an open mind instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Waiting for people to prove their identity before treating them respectfully.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Respect is never conditional. Everyone deserves inclusive, dignified care from the outset.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoiding the subject entirely so no one is offended.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Silence can feel unwelcoming. Using inclusive language and being openly accepting is far more reassuring.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "18ffd9b4-39a9-4447-8e6c-6d7c26f44b3b",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

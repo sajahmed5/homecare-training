@@ -68,15 +68,8 @@
     {
       "type": "h5p",
       "path": "mental-capacity-act-and-dols/p7",
-      "label": "Deprivation of Liberty",
-      "questions": 1,
-      "section": "Deprivation of liberty in practice"
-    },
-    {
-      "type": "h5p",
-      "path": "mental-capacity-act-and-dols/p12",
-      "label": "DoLS and LPS",
-      "questions": 1,
+      "label": "Deprivation of Liberty & DoLS",
+      "questions": 2,
       "section": "Deprivation of liberty in practice"
     },
     {

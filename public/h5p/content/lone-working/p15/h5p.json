@@ -1,5 +1,5 @@
 {
-  "title": "Lone Working — Legal duties",
+  "title": "Lone Working — People and behaviour that concern you",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -19,9 +19,9 @@
       "minorVersion": 1
     },
     {
-      "machineName": "H5P.MultiChoice",
+      "machineName": "H5P.TrueFalse",
       "majorVersion": 1,
-      "minorVersion": 16
+      "minorVersion": 8
     },
     {
       "machineName": "H5P.Image",
@@ -31,6 +31,11 @@
     {
       "machineName": "FontAwesome",
       "majorVersion": 4,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
       "minorVersion": 5
     },
     {
@@ -47,11 +52,6 @@
       "machineName": "H5P.FontIcons",
       "majorVersion": 1,
       "minorVersion": 0
-    },
-    {
-      "machineName": "H5P.Question",
-      "majorVersion": 1,
-      "minorVersion": 5
     }
   ]
 }

@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>From restriction to deprivation of liberty</h2><p>There is a point where restrictions on a person become so great that they amount to a <strong>deprivation of liberty</strong> &mdash; and a deprivation of liberty must be authorised in law, or it breaches the person&rsquo;s human rights (Article 5 of the European Convention on Human Rights).</p><p>The Supreme Court gave us a simple way to recognise it, known as the <strong>&lsquo;acid test&rsquo;</strong>. A person is deprived of their liberty if <em>both</em> of the following apply:</p><ul><li>They are under <strong>continuous (or complete) supervision and control</strong>; <em>and</em></li><li>They are <strong>not free to leave</strong>.</li></ul><p>Two important points follow. First, it makes <em>no difference</em> that the placement is a &lsquo;good&rsquo; one, that the person is content, or that they are not trying to leave. Second, the person&rsquo;s <em>compliance or lack of objection</em> does not stop it being a deprivation of liberty. If the acid test is met and the person cannot consent because they lack capacity, it must be authorised.</p>"
+          "text": "<h2>From restriction to deprivation of liberty</h2><p>There is a point where restrictions on a person become so great that they amount to a <strong>deprivation of liberty</strong> &mdash; and a deprivation of liberty must be authorised in law, or it breaches the person&rsquo;s human rights (Article 5 of the European Convention on Human Rights).</p><p>The Supreme Court gave us a simple way to recognise it, known as the <strong>&lsquo;acid test&rsquo;</strong>. A person is deprived of their liberty if <em>both</em> of the following apply:</p><ul><li>They are under <strong>continuous (or complete) supervision and control</strong>; <em>and</em></li><li>They are <strong>not free to leave</strong>.</li></ul><p>Two important points follow. First, it makes <em>no difference</em> that the placement is a &lsquo;good&rsquo; one, that the person is content, or that they are not trying to leave. Second, the person&rsquo;s <em>compliance or lack of objection</em> does not stop it being a deprivation of liberty. If the acid test is met and the person cannot consent because they lack capacity, it must be authorised.</p><h2>The Deprivation of Liberty Safeguards (DoLS)</h2><p>For people in <strong>care homes and hospitals</strong>, the <strong>Deprivation of Liberty Safeguards (DoLS)</strong> provide the legal process for authorising a deprivation of liberty. (Deprivations in other settings, such as supported living or a person&rsquo;s own home, are authorised instead by the Court of Protection.)</p><p>Two roles sit at the heart of the process:</p><ul><li>The <strong>managing authority</strong> &mdash; the care home or hospital providing the care &mdash; must recognise when a deprivation may be happening and apply to the local authority for authorisation.</li><li>The <strong>supervisory body</strong> &mdash; the local authority &mdash; arranges the independent assessments and then grants or refuses the authorisation.</li></ul><p>Before it can be granted, the person is assessed against six qualifying requirements: <strong>age</strong>, <strong>mental health</strong>, <strong>mental capacity</strong>, <strong>best interests</strong>, <strong>eligibility</strong> (under the Mental Health Act), and <strong>no refusals</strong> (no valid conflicting advance decision or attorney/deputy decision).</p><p>If authorised, the person must have a <strong>Relevant Person&rsquo;s Representative</strong> to support them, and the right to challenge the authorisation in the Court of Protection. An authorisation is time-limited (up to a maximum of 12 months) and must be reviewed.</p><h2>The move towards Liberty Protection Safeguards</h2><p>DoLS only cover care homes and hospitals, and the process can be slow. To address this, the <strong>Mental Capacity (Amendment) Act 2019</strong> created the <strong>Liberty Protection Safeguards (LPS)</strong>, designed to replace DoLS and to cover a wider range of settings, including supported living and a person&rsquo;s own home. Both schemes exist to protect people who cannot consent to their care arrangements.</p><p>However, implementation of the LPS has been <strong>delayed and they have not been brought into force</strong>, so DoLS remains the system currently in use &mdash; and the law you must follow. Your part is unchanged: notice when someone is not free to leave, and raise it.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "1a9aa916-8966-496d-9c7d-59612602155f",
+        "subContentId": "10fb8310-7148-4d0f-83f3-813d933d9b94",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>The Deprivation of Liberty Safeguards (DoLS)</h2><p>For people in <strong>care homes and hospitals</strong>, the <strong>Deprivation of Liberty Safeguards (DoLS)</strong> provide the legal process for authorising a deprivation of liberty. (Deprivations in other settings, such as supported living or a person&rsquo;s own home, are authorised instead by the Court of Protection.)</p><p>How it works:</p><ul><li>The care home or hospital &mdash; the <strong>managing authority</strong> &mdash; must apply to the local authority &mdash; the <strong>supervisory body</strong> &mdash; for authorisation.</li><li>Before it can be granted, the person is assessed against six qualifying requirements: <strong>age</strong>, <strong>mental health</strong>, <strong>mental capacity</strong>, <strong>best interests</strong>, <strong>eligibility</strong> (under the Mental Health Act), and <strong>no refusals</strong> (no valid conflicting advance decision or attorney/deputy decision).</li><li>If authorised, the person must have a <strong>Relevant Person&rsquo;s Representative</strong> to support them, and the right to challenge the authorisation in the Court of Protection. An authorisation is time-limited (up to a maximum of 12 months) and must be reviewed.</li></ul><p><strong>Note:</strong> the <em>Liberty Protection Safeguards (LPS)</em> were passed to replace DoLS but have <strong>not been brought into force</strong>. DoLS remains the law you must follow.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "dd431b77-48f5-41ba-bac6-a8518287854a",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "adddef74-4530-487f-8a2b-b57b98bf6253",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the DoLS process, which body applies for an authorisation, and which body grants it?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The managing authority &mdash; the care home or hospital &mdash; applies, and the supervisory body, the local authority, grants it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The care home or hospital identifies the possible deprivation and applies; the local authority arranges assessments and decides.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The local authority applies to the care home for permission to deprive the person of liberty.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This reverses the roles; the care home or hospital applies to the local authority, not the other way round.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The person&rsquo;s family applies, and the GP grants the authorisation.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. DoLS is a formal legal process between the managing authority and the supervisory body, not between family and GP.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The Court of Protection must authorise every deprivation in a care home.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. In care homes and hospitals DoLS is used; the Court of Protection is generally needed for other settings, not routine home or hospital cases.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5eb60ed8-129d-42a3-af51-60024d5fc161",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

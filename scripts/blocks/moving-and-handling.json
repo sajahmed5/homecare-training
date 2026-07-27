@@ -26,15 +26,8 @@
     {
       "type": "h5p",
       "path": "moving-and-handling/p3",
-      "label": "Avoid, Assess, Reduce",
+      "label": "Avoid, Assess, Reduce & TILE",
       "questions": 2,
-      "section": "Assessing before you move"
-    },
-    {
-      "type": "h5p",
-      "path": "moving-and-handling/p4",
-      "label": "TILE risk assessment",
-      "questions": 0,
       "section": "Assessing before you move"
     },
     {
@@ -48,14 +41,7 @@
       "type": "h5p",
       "path": "moving-and-handling/p6",
       "label": "Using equipment",
-      "questions": 1,
-      "section": "Safe technique and equipment"
-    },
-    {
-      "type": "h5p",
-      "path": "moving-and-handling/p10",
-      "label": "Equipment in depth",
-      "questions": 1,
+      "questions": 2,
       "section": "Safe technique and equipment"
     },
     {
