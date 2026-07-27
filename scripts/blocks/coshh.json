@@ -26,14 +26,7 @@
     {
       "type": "h5p",
       "path": "coshh/p3",
-      "label": "Pictograms & labels",
-      "questions": 0,
-      "section": "Identifying and assessing hazards"
-    },
-    {
-      "type": "h5p",
-      "path": "coshh/p4",
-      "label": "SDS & assessment",
+      "label": "Labels, safety data sheets & assessments",
       "questions": 1,
       "section": "Identifying and assessing hazards"
     },
@@ -47,14 +40,7 @@
     {
       "type": "h5p",
       "path": "coshh/p5",
-      "label": "Routes of entry",
-      "questions": 0,
-      "section": "Routes of harm and controlling risk"
-    },
-    {
-      "type": "h5p",
-      "path": "coshh/p6",
-      "label": "Hierarchy of control",
+      "label": "Routes of entry & hierarchy of control",
       "questions": 1,
       "section": "Routes of harm and controlling risk"
     },
@@ -68,15 +54,8 @@
     {
       "type": "h5p",
       "path": "coshh/p12",
-      "label": "Safe use and storage",
-      "questions": 1,
-      "section": "Safe use, storage and spills"
-    },
-    {
-      "type": "h5p",
-      "path": "coshh/p7",
-      "label": "Storage & spills",
-      "questions": 1,
+      "label": "Safe storage, use & disposal",
+      "questions": 2,
       "section": "Safe use, storage and spills"
     },
     {

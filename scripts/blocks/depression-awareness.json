@@ -33,15 +33,8 @@
     {
       "type": "h5p",
       "path": "depression-awareness/p5",
-      "label": "Physical and behaviour",
+      "label": "Physical, behaviour and daily life",
       "questions": 1,
-      "section": "Signs and effects"
-    },
-    {
-      "type": "h5p",
-      "path": "depression-awareness/p6",
-      "label": "Effect on daily life",
-      "questions": 0,
       "section": "Signs and effects"
     },
     {

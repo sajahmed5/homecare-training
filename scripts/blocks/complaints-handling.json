@@ -26,36 +26,15 @@
     {
       "type": "h5p",
       "path": "complaints-handling/p3",
-      "label": "An accessible procedure",
-      "questions": 1,
+      "label": "An accessible, supportive procedure",
+      "questions": 2,
       "section": "A clear, accessible procedure"
     },
     {
       "type": "h5p",
       "path": "complaints-handling/p4",
-      "label": "Handling it well",
-      "questions": 1,
-      "section": "A clear, accessible procedure"
-    },
-    {
-      "type": "h5p",
-      "path": "complaints-handling/p11",
-      "label": "Supporting people to complain",
-      "questions": 1,
-      "section": "A clear, accessible procedure"
-    },
-    {
-      "type": "h5p",
-      "path": "complaints-handling/p10",
       "label": "Handling it in person",
-      "questions": 1,
-      "section": "Handling it in person"
-    },
-    {
-      "type": "h5p",
-      "path": "complaints-handling/p5",
-      "label": "The process",
-      "questions": 1,
+      "questions": 2,
       "section": "Handling it in person"
     },
     {
@@ -67,24 +46,17 @@
     },
     {
       "type": "h5p",
-      "path": "complaints-handling/p12",
+      "path": "complaints-handling/p5",
       "label": "Recording and responding",
-      "questions": 1,
-      "section": "Responding and learning"
+      "questions": 2,
+      "section": "Handling it in person"
     },
     {
       "type": "h5p",
       "path": "complaints-handling/p7",
       "label": "Learning and improving",
-      "questions": 1,
+      "questions": 2,
       "section": "Responding and learning"
-    },
-    {
-      "type": "h5p",
-      "path": "complaints-handling/p13",
-      "label": "Turning complaints into change",
-      "questions": 1,
-      "section": "Improvement and escalation"
     },
     {
       "type": "h5p",

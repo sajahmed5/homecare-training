@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>How substances get into the body</h2><p>To cause harm, a hazardous substance usually has to get into or onto the body. Understanding these <strong>routes of entry</strong> helps you see why a particular control &ndash; such as gloves, a mask or good ventilation &ndash; is used. Blocking the route of entry is how we prevent exposure.</p>"
+          "text": "<h2>How substances get into the body</h2><p>To cause harm, a hazardous substance usually has to get into or onto the body. Understanding these <strong>routes of entry</strong> helps you see why a particular control &ndash; such as gloves, a mask or good ventilation &ndash; is used. Blocking the route of entry is how we prevent exposure.</p><h2>The hierarchy of control</h2><p>COSHH requires employers to <strong>prevent</strong> exposure wherever reasonably practicable and, where prevention is not possible, to <strong>adequately control</strong> it. The <strong>hierarchy of control</strong> ranks measures from most to least effective, and you work down the list only when a higher option is not possible.</p><ul><li><strong>Eliminate</strong> &ndash; stop using the hazardous substance altogether, or avoid the task that creates it.</li><li><strong>Substitute</strong> &ndash; swap it for a safer product, for example a milder cleaner or a ready-diluted solution.</li><li><strong>Engineering controls</strong> &ndash; use physical measures such as ventilation, closed containers or dilution systems.</li><li><strong>Safe systems of work</strong> &ndash; use good practice such as procedures, training, limiting how long a task takes and hand washing.</li><li><strong>Personal protective equipment (PPE)</strong> &ndash; gloves, aprons, masks and eye protection, used as the <strong>last</strong> line of defence.</li></ul><p>PPE is last because it only protects the individual wearing it, it can fail or be worn incorrectly, and it does nothing to remove the hazard itself.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "65131705-7196-4632-bb39-9993c4ae2681",
+        "subContentId": "8a19cf59-a695-492f-aa83-4d94f2888a51",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,49 +44,33 @@
     {
       "content": {
         "params": {
-          "title": "<p>Tap a card to flip it</p>",
-          "mode": "normal",
-          "description": "<p>The main routes by which hazardous substances enter the body.</p>",
-          "dialogs": [
-            {
-              "text": "<p>Inhalation</p>",
-              "answer": "<p>Breathing in dusts, fumes, vapours, mists or aerosols. Controlled by ventilation, avoiding dry sweeping and, where needed, respiratory protection.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Absorption (skin and eyes)</p>",
-              "answer": "<p>Substances soaking through the skin or splashing into the eyes. Controlled by gloves, aprons, eye protection and good hand care.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Ingestion</p>",
-              "answer": "<p>Swallowing a substance, often by hand-to-mouth contact, eating or smoking without washing hands. Controlled by hand washing and not eating in work areas.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Injection</p>",
-              "answer": "<p>A substance entering through broken skin, for example a needlestick from a sharp. Controlled by safe sharps handling and prompt disposal in a sharps bin.</p>",
-              "tips": {}
-            }
-          ],
+          "taskDescription": "<p>Drag each word into the correct gap to complete these statements about the hierarchy of control.</p>",
+          "textField": "The most effective control is to *eliminate* the substance completely. If that is not possible, you might *substitute* it for something safer. Physical measures such as ventilation are known as *engineering* controls. Good procedures and training are called safe *systems* of work. Personal protective equipment is always the *last* line of defence because it only protects the person *wearing* it.",
           "behaviour": {
             "enableRetry": true,
-            "disableBackwardsNavigation": false,
-            "scaleTextNotCard": false,
-            "randomCards": false
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
           },
-          "answer": "Turn",
-          "next": "Next",
-          "prev": "Previous",
-          "retry": "Retry",
-          "progressText": "Card @card of @total"
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
         },
-        "library": "H5P.Dialogcards 1.9",
-        "subContentId": "9737d29a-f935-4bdc-9b5d-b5280ab64365",
+        "library": "H5P.DragText 1.10",
+        "subContentId": "0cea25fc-0759-47a6-807d-fe42faa70006",
         "metadata": {
-          "contentType": "H5P.Dialogcards",
+          "contentType": "H5P.DragText",
           "license": "U",
-          "title": "Flip cards"
+          "title": "Fill in the blanks"
         }
       },
       "useSeparator": "auto"

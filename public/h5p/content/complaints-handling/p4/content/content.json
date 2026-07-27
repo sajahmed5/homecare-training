@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>How to respond in the moment</h2><p>How you react when someone first complains sets the tone for everything that follows. A calm, warm response can turn a frustrated person into someone who feels genuinely heard. The core skills are simple but powerful.</p><ul><li><strong>Listen</strong> properly &mdash; give the person your full attention and let them finish.</li><li><strong>Take it seriously</strong> &mdash; even if it seems minor to you, it matters to them.</li><li><strong>Stay calm and non-defensive</strong> &mdash; do not argue, make excuses or interrupt.</li><li><strong>Apologise</strong> sincerely that they have had a poor experience &mdash; saying sorry is not admitting legal fault.</li><li><strong>Don&rsquo;t take it personally</strong> &mdash; the person is unhappy with a situation, not attacking you.</li><li><strong>Reassure</strong> them that their concern will be taken forward and acted on.</li></ul>"
+          "text": "<h2>Staying calm in the moment</h2><p>Often a complaint reaches you first, in the moment, from someone who is frustrated, frightened or angry. How you react in those first few seconds sets the tone for everything that follows, and a calm, warm response can turn a frustrated person into someone who feels genuinely heard. The core skills are simple but powerful.</p><ul><li><strong>Listen</strong> properly &mdash; give the person your full attention and let them finish without interrupting.</li><li><strong>Take it seriously</strong> &mdash; even if it seems minor to you, it matters to them.</li><li><strong>Stay calm and non-defensive</strong> &mdash; do not argue, make excuses, interrupt or try to explain why they are wrong. Getting defensive tells the person you are more interested in protecting yourself than in helping them.</li><li><strong>Don&rsquo;t take it personally</strong> &mdash; the person is reacting to a situation, not attacking you.</li><li><strong>Reassure</strong> them that their concern will be taken forward and acted on.</li></ul><h2>A simple structure to remember</h2><p>When your mind goes blank, it helps to have a few steps to fall back on. A widely used approach can be remembered as LEARN:</p><ul><li><strong>Listen:</strong> hear the person out fully before you respond.</li><li><strong>Empathise:</strong> acknowledge how they feel &mdash; &ldquo;I can see this has really upset you.&rdquo;</li><li><strong>Apologise:</strong> say sorry that they have had this experience, even before anything is investigated.</li><li><strong>React:</strong> explain what you will do next and who you will tell.</li><li><strong>Notify:</strong> make sure the concern reaches the right person so it is not lost.</li></ul><p>Empathy and active listening cost nothing, yet they defuse most situations and often turn a tense moment into the start of trust being rebuilt.</p><h2>The power of a good apology</h2><p>Many complaints escalate simply because no one said sorry. A sincere apology acknowledges the person&rsquo;s experience and shows respect. It is <strong>not</strong> an admission of legal liability, and it should never be withheld out of fear. Being honest and open when things go wrong links directly to the <strong>duty of candour</strong>, which we return to later.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "bfe0337b-79bd-4e8b-a562-bcfc132218ee",
+        "subContentId": "9e62f326-d8ef-4823-8a14-a75624813967",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,21 +44,6 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The power of a good apology</h2><p>Many complaints escalate simply because no one said sorry. An apology acknowledges the person&rsquo;s experience and shows respect. It is <strong>not</strong> an admission of liability, and it should never be withheld out of fear. Being honest and open when things go wrong links directly to the <strong>duty of candour</strong>, which we return to later.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "c902b7bf-77f0-4fec-bc16-6e1c1cb862bd",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
           "taskDescription": "<p>Fill in the key skills for handling a complaint well. Drag each word to the right gap.</p>",
           "textField": "When someone complains, first *listen* carefully and let them finish. Stay *calm* and do not become defensive. *Apologise* sincerely for their poor experience, remembering this is not an admission of fault. Try not to take it *personally*, and *reassure* the person that their concern will be acted on.",
           "behaviour": {
@@ -86,6 +71,35 @@
           "contentType": "H5P.DragText",
           "license": "U",
           "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>When someone complains to you angrily in the moment, it is best to explain straight away why they have misunderstood the situation, so they calm down.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Leaping in to correct the person sounds defensive and makes things worse. Listen first, empathise, and say sorry for their experience before anything else.",
+            "correctAnswerMessage": "Correct. Jumping in to explain why they are wrong comes across as defensive; listening, empathising and apologising for their experience works far better."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "2b52a3a0-a131-4f01-b94b-e9da145124ae",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

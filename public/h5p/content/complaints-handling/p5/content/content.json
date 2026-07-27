@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>From receiving to responding</h2><p>Beyond the first conversation, there is a clear process every complaint should follow so that nothing is lost and the person is treated fairly.</p><ul><li><strong>Acknowledge</strong> the complaint promptly &mdash; under the 2009 Regulations this must be within <strong>three working days</strong> of receiving it.</li><li><strong>Record</strong> it accurately, capturing what the person said and what they would like to happen.</li><li><strong>Investigate fairly</strong> &mdash; look at the facts openly and without taking sides.</li><li><strong>Agree timescales</strong> &mdash; give a realistic idea of how long it will take and set an expected date for the final response.</li><li><strong>Keep the person informed</strong> throughout, so they are never left wondering.</li><li><strong>Respond</strong> clearly, explaining what was found, what will change and how to take it further if they are still unhappy.</li></ul>"
+          "text": "<h2>From receiving to responding</h2><p>Beyond the first conversation, there is a clear process every complaint should follow so that nothing is lost and the person is treated fairly. A complaint that stays in your head helps no one.</p><ul><li><strong>Acknowledge</strong> the complaint promptly &mdash; under the 2009 Regulations this must be within <strong>three working days</strong> of receiving it.</li><li><strong>Record</strong> it accurately and factually as soon as you can &mdash; what was said, who by, when, what the person would like to happen, and what you did in response. Stick to what actually happened rather than your opinion, and pass the record to the right person so it can be investigated properly.</li><li><strong>Investigate fairly</strong> &mdash; look at the facts openly and without taking sides.</li><li><strong>Agree timescales</strong> &mdash; give a realistic idea of how long it will take and set an expected date for the final response.</li><li><strong>Keep the person informed</strong> throughout, so they are never left wondering.</li><li><strong>Respond</strong> clearly, explaining what was found, what will change and how to take it further if they are still unhappy.</li></ul><h2>Timescales that keep trust</h2><p>The 2009 Regulations do not set one fixed deadline for the final response; instead they require the service to <strong>agree a realistic timescale</strong> with the complainant and keep them updated. A person also generally has up to <strong>12 months</strong> from the event (or from when they became aware of it) to make a complaint. Keeping people informed while an investigation is underway is as important as the final answer &mdash; regular, honest updates are what keep trust alive.</p><h2>Being open and apologising well</h2><p>When something has gone wrong, people deserve honesty. The statutory <strong>duty of candour</strong> (CQC Regulation 20) requires providers to be open and transparent, to tell people when they have been harmed, and to say sorry. Being open is not weakness &mdash; it is the law and it is what rebuilds trust.</p><ul><li><strong>Apologise sincerely:</strong> saying sorry is not an admission of legal liability, so never withhold an apology out of fear.</li><li><strong>Explain honestly:</strong> tell people what happened and what you have found, in plain language.</li><li><strong>Say what will change:</strong> a good response sets out the action being taken so it does not happen again.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "8a9d9faa-e7eb-463a-8000-7e4c49cf027a",
+        "subContentId": "c51713c4-2585-48b3-afed-328305ff2317",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Timescales that keep trust</h2><p>The 2009 Regulations do not set one fixed deadline for the final response; instead they require the service to <strong>agree a realistic timescale</strong> with the complainant and keep them updated. A person also generally has up to <strong>12 months</strong> from the event (or from when they became aware of it) to make a complaint. What matters most is that people are never left in silence &mdash; regular, honest updates are what keep trust alive.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "31265f6e-718d-48bb-8a99-12c793255cf6",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "e442f54b-c223-43c9-b1a8-95ee0c8b48da",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A relative complains that their mother missed her lunchtime medication. What is the best response?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Record the facts, acknowledge the complaint promptly, apologise sincerely, and pass it on to be investigated with the relative kept informed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Accurate recording, a prompt acknowledgement, an honest apology and a proper investigation reflect both the regulations and the duty of candour.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Avoid apologising in case saying sorry counts as admitting the service is legally at fault.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. An apology is not an admission of legal liability, and the duty of candour expects openness and a sincere sorry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Reassure the relative it was probably nothing and there is no need to record it formally.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Playing a concern down and failing to record it breaches both good practice and the complaints procedure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether they complain again before doing anything about it.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Complaints must be acknowledged and acted on promptly, not left to see if the person persists.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "a20ac4de-1e33-4bbf-a423-434deb3e9675",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

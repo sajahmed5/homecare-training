@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Turning complaints into better care</h2><p>A complaint is only truly resolved when the service <strong>learns</strong> from it. Responding to the individual matters, but the real value comes from asking, &ldquo;What does this tell us, and how do we stop it happening again?&rdquo; This is exactly what CQC Regulation 16 means by acting on complaints.</p><ul><li>Look for <strong>themes and patterns</strong> across complaints, not just one-off incidents.</li><li>Feed the learning into <strong>training, procedures and staffing</strong> so real change happens.</li><li>Close the loop by telling the person, where appropriate, <strong>what changed</strong> as a result of their complaint &mdash; this shows their voice made a difference.</li><li>Share learning with the team so the whole service improves, not just one worker.</li></ul>"
+          "text": "<h2>Turning complaints into better care</h2><p>A complaint is only truly resolved when the service <strong>learns</strong> from it. Responding to the individual matters, but the real value comes from asking, &ldquo;What does this tell us, and how do we stop it happening again?&rdquo; This is exactly what CQC Regulation 16 means by acting on complaints. A single complaint tells you about one moment; many complaints, looked at together, tell you about your service.</p><ul><li>Look for <strong>themes and patterns</strong> across complaints, not just one-off incidents. When complaints are logged and reviewed over time, themes appear &mdash; perhaps calls for help take too long at night, or a particular meal is regularly cold.</li><li>Feed the learning into <strong>training, procedures and staffing</strong> so real change happens.</li><li>Share learning with the team so the whole service improves, not just one worker.</li></ul><p>On their own each grumble seems small; grouped together they point clearly to something that needs to change.</p><h2>Close the loop and share the learning</h2><p>Improvement only counts if people can see it. A simple &ldquo;you said, we did&rdquo; approach &mdash; telling people, where appropriate, what changed as a result of their feedback &mdash; shows complaints are taken seriously, encourages others to speak up, and lets people know their voice made a difference.</p><p><strong>A realistic scenario.</strong> Over a month, three families mention that evening drinks are served too early and residents get thirsty overnight. Individually the staff had reassured each family and moved on. At the team meeting the pattern is noticed, the routine is changed so a later drinks round is added, and a note on the noticeboard tells families what was done. A handful of small complaints becomes a real improvement in care.</p><h2>The link to duty of candour</h2><p>The <strong>duty of candour</strong> (CQC Regulation 20) requires services to be open and honest when something goes wrong, especially when a person has been harmed. That means telling the person what happened, <strong>apologising</strong>, and explaining what will be done to put it right &mdash; whether or not they have complained. Candour and good complaints handling go hand in hand: both are built on honesty, openness and a genuine willingness to learn.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "00892353-30e1-4c7d-9712-8e980fec483a",
+        "subContentId": "b13da39b-825c-4d27-bfb9-172121876b29",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>The link to duty of candour</h2><p>The <strong>duty of candour</strong> (CQC Regulation 20) requires services to be open and honest when something goes wrong, especially when a person has been harmed. That means telling the person what happened, <strong>apologising</strong>, and explaining what will be done to put it right &mdash; whether or not they have complained. Candour and good complaints handling go hand in hand: both are built on honesty, openness and a genuine willingness to learn.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "9fd5d89a-b302-4dfe-80eb-c1540d2c25ce",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "03382edf-1705-467d-81ff-6e80c08882be",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>In the scenario, what turned three separate comments about evening drinks into a genuine improvement?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>The comments were logged and reviewed together, the pattern was spotted at a team meeting, the routine was changed, and families were told.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Reviewing complaints for themes, acting on the pattern and feeding back &ldquo;you said, we did&rdquo; is how complaints drive improvement.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Each family was reassured on the day, so nothing further was needed.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Reassuring people one by one is exactly what stopped the pattern being seen and the problem being fixed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The complaints were kept separate so no one would think there was a wider issue.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Keeping them separate hides the trend; it is bringing them together that reveals the problem.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The families were asked to stop raising the same point repeatedly.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Discouraging feedback is the opposite of learning from complaints and would let the problem continue.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "aee08232-fab7-4b23-959f-f80f7e774f9c",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

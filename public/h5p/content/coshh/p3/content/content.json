@@ -1,1 +1,74 @@
-{"content":[{"content":{"params":{"text":"<h2>Hazard pictograms and warning labels</h2><p>Products that contain hazardous chemicals must be labelled under the <strong>CLP Regulation</strong> (Classification, Labelling and Packaging), which uses the internationally agreed <strong>GHS</strong> pictograms. A pictogram is a red-bordered diamond with a black symbol on a white background. The label also carries signal words such as \"Danger\" or \"Warning\", plus hazard and precautionary statements.</p><p>Learning to read these symbols at a glance tells you how to treat a product before you even open it. Always check the label and follow the instructions.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"78c6894e-e3eb-45e0-a4c9-805eeffb4970","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"contentName":"Image","alt":"Cleaning products that can be hazardous","decorative":false,"file":{"path":"images/coshh-products.jpg","mime":"image/jpeg","width":1080,"height":720,"copyright":{"license":"U"}}},"library":"H5P.Image 1.1","subContentId":"0ef9ee3c-34e9-445b-bd3b-895c214b5fbc","metadata":{"contentType":"H5P.Image","license":"U","title":"Image"}},"useSeparator":"auto"},{"content":{"params":{"title":"<p>Tap a card to flip it</p>","mode":"normal","description":"<p>Match each CLP/GHS hazard pictogram to what it warns you about.</p>","dialogs":[{"text":"<p>Corrosive (splashing symbol)</p>","answer":"<p>Can cause severe skin burns and serious eye damage, and may corrode metals. Think strong bleach, drain and oven cleaners. Wear gloves and eye protection.</p>","tips":{}},{"text":"<p>Acute toxic (skull and crossbones)</p>","answer":"<p>Can cause serious harm or death even in small amounts if swallowed, inhaled or contacting skin. Rare in care but may appear on some pest-control products.</p>","tips":{}},{"text":"<p>Irritant / harmful (exclamation mark)</p>","answer":"<p>May cause skin or eye irritation, allergic skin reactions, drowsiness or mild toxicity. Common on many everyday cleaning products.</p>","tips":{}},{"text":"<p>Flammable (flame)</p>","answer":"<p>Catches fire easily. Includes alcohol hand gels, aerosols and some cleaning sprays. Keep away from heat, sparks and naked flames.</p>","tips":{}},{"text":"<p>Health hazard (exploding chest)</p>","answer":"<p>Can cause serious longer-term effects such as breathing problems, cancer or damage to fertility or organs. Handle strictly per the label and SDS.</p>","tips":{}},{"text":"<p>Hazardous to the environment (dead tree and fish)</p>","answer":"<p>Harmful to aquatic life and the wider environment. Never pour these substances down the sink or drain; dispose of them correctly.</p>","tips":{}}],"behaviour":{"enableRetry":true,"disableBackwardsNavigation":false,"scaleTextNotCard":false,"randomCards":false},"answer":"Turn","next":"Next","prev":"Previous","retry":"Retry","progressText":"Card @card of @total"},"library":"H5P.Dialogcards 1.9","subContentId":"1ed50c8a-cd22-4f16-a567-1aed36ba6286","metadata":{"contentType":"H5P.Dialogcards","license":"U","title":"Flip cards"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Hazard pictograms and warning labels</h2><p>Products that contain hazardous chemicals must be labelled under the <strong>CLP Regulation</strong> (Classification, Labelling and Packaging), which uses the internationally agreed <strong>GHS</strong> pictograms. A pictogram is a red-bordered diamond with a black symbol on a white background. The label also carries signal words such as \"Danger\" or \"Warning\", plus hazard and precautionary statements.</p><p>Learning to read these symbols at a glance tells you how to treat a product before you even open it. Always check the label and follow the instructions.</p><h2>Safety data sheets and the COSHH assessment</h2><p>Every hazardous product should come with a <strong>safety data sheet (SDS)</strong> from the manufacturer or supplier. This is a standard 16-section document that tells you what is in the product, the hazards it poses, how it can enter the body, what PPE to wear, how to store it, what to do in a spill or fire, and the first-aid measures if someone is exposed.</p><p>The SDS is not the same as a COSHH assessment. A <strong>COSHH assessment</strong> is your employer's own written record that takes the information from the SDS and applies it to the actual task in your workplace &ndash; who does the job, how often, what could go wrong and exactly what controls are needed to keep people safe.</p><ul><li>SDS = supplier information about the substance.</li><li>COSHH assessment = your organisation's plan for using it safely in your setting.</li><li>Assessments must be reviewed regularly and whenever something changes, such as a new product or a new task.</li></ul><h2>Where to find this information</h2><p>You should know where your workplace keeps its COSHH file or folder, whether paper or electronic. Before using an unfamiliar product, check that there is an assessment for it and read the label. If you cannot find the information, or a product is unlabelled or in the wrong container, stop and ask your manager &ndash; never guess.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "4ff05f3d-fc04-4c02-a60f-ec311987cb17",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "Cleaning products that can be hazardous",
+          "decorative": false,
+          "file": {
+            "path": "images/coshh-products.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 720,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "0ef9ee3c-34e9-445b-bd3b-895c214b5fbc",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A safety data sheet (SDS) and a COSHH assessment are exactly the same document.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. They are different: the SDS comes from the supplier, while the COSHH assessment is your workplace's own plan for using the substance safely.",
+            "correctAnswerMessage": "Correct. The SDS is supplier information about the substance; the COSHH assessment is your organisation's own risk assessment for using it in a specific task."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "17e6a15d-71ee-41d7-94ac-a818307ec963",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

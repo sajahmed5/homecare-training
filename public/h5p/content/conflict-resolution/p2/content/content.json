@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Common causes and triggers</h2><p>People rarely become distressed or aggressive without a reason. In care, challenging behaviour is very often an expression of an unmet need or an attempt to communicate something the person cannot put into words. Understanding the underlying cause helps you respond with compassion rather than confrontation.</p><ul><li><strong>Unmet needs</strong> &mdash; hunger, thirst, needing the toilet, being too hot or too cold.</li><li><strong>Pain or illness</strong> &mdash; discomfort that a person cannot easily describe, especially where speech is affected.</li><li><strong>Fear and frustration</strong> &mdash; feeling powerless, rushed, or not listened to.</li><li><strong>Dementia or confusion</strong> &mdash; disorientation, misreading a situation, or not recognising the carer.</li><li><strong>Communication breakdown</strong> &mdash; not being understood, sensory impairment, or language differences.</li><li><strong>Unrealistic expectations</strong> &mdash; a person or relative expecting something that cannot be delivered.</li></ul>"
+          "text": "<h2>Behaviour that challenges, not &ldquo;difficult people&rdquo;</h2><p>When someone shouts, refuses care or lashes out, it is tempting to label them as aggressive or difficult. A far more useful view is that all behaviour is a form of communication. What looks like defiance is very often distress &mdash; a person trying to tell you that something is wrong when they cannot find the words.</p><p>This matters most for people living with dementia, a learning disability or autism, who may struggle to explain what they need. Someone in pain, frightened or overwhelmed may reach for the only response they have left. The behaviour is a signal, not the whole story, and rarely a personal attack on you.</p><h2>Looking for the unmet need: common causes and triggers</h2><p>People rarely become distressed or aggressive without a reason. Challenging behaviour is very often an expression of an unmet need or an attempt to communicate something the person cannot put into words. Stay curious about the underlying cause rather than reacting only to the surface &mdash; understanding it helps you respond with compassion rather than confrontation.</p><ul><li><strong>Unmet needs</strong> &mdash; hunger, thirst, needing the toilet, being too hot or too cold.</li><li><strong>Pain or illness</strong> &mdash; discomfort or infection that a person cannot easily describe, especially where speech is affected.</li><li><strong>Fear and frustration</strong> &mdash; feeling powerless, rushed, frightened, or not listened to.</li><li><strong>Dementia or confusion</strong> &mdash; disorientation, misreading a situation, or not recognising you, the room, or what is happening next.</li><li><strong>Environment</strong> &mdash; noise, crowding, heat, or rushing that feels overwhelming.</li><li><strong>Loss of control</strong> &mdash; having choices taken away or being hurried through personal care.</li><li><strong>Communication breakdown</strong> &mdash; not being understood, sensory impairment, or language differences.</li><li><strong>Unrealistic expectations</strong> &mdash; a person or relative expecting something that cannot be delivered.</li></ul><p>When you notice and meet the need, the distress usually eases on its own &mdash; without anyone having to &ldquo;win&rdquo;.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "6993ad74-5e14-4f05-81d2-2b525f26952e",
+        "subContentId": "a80c927e-e4a7-469c-ae5f-4009e0e696ff",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -19,10 +19,10 @@
       "content": {
         "params": {
           "contentName": "Image",
-          "alt": "Illustration for Causes and triggers",
+          "alt": "Illustration for Distress not defiance",
           "decorative": false,
           "file": {
-            "path": "images/causes-and-triggers.svg",
+            "path": "images/distress-not-defiance.svg",
             "mime": "image/svg+xml",
             "width": 640,
             "height": 232,
@@ -32,7 +32,7 @@
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "92ec36a3-7a06-45b6-92b2-2501668cd0ba",
+        "subContentId": "f3f10e02-b144-4695-895a-f5e7a104e993",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
@@ -44,41 +44,41 @@
     {
       "content": {
         "params": {
-          "question": "<p>A person with dementia becomes agitated and pushes you away during personal care. What should you consider first?</p>",
+          "question": "<p>A resident with dementia becomes agitated and pushes your hand away during personal care. What is the most helpful first way to understand this?</p>",
           "answers": [
             {
               "correct": true,
-              "text": "<div>Whether an unmet need or discomfort, such as pain, fear, or feeling rushed, is driving the behaviour.</div>",
+              "text": "<div>As communication &mdash; she may be in pain, frightened or feeling rushed, and is telling you something is wrong.</div>",
               "tipsAndFeedback": {
                 "tip": "",
-                "chosenFeedback": "Yes. Behaviour that challenges is usually communication. Looking for the underlying trigger lets you address the real cause.",
+                "chosenFeedback": "Correct. Treating behaviour as a message about an unmet need helps you respond to the cause rather than the surface.",
                 "notChosenFeedback": ""
               }
             },
             {
               "correct": false,
-              "text": "<div>That the person is simply being difficult and should be told to stop.</div>",
+              "text": "<div>As deliberate aggression that you must firmly correct.</div>",
               "tipsAndFeedback": {
                 "tip": "",
-                "chosenFeedback": "This dismisses the person and ignores the likely cause. Behaviour that challenges almost always signals an unmet need or distress.",
+                "chosenFeedback": "Incorrect. Framing distress as defiance tends to escalate it and misses what the person actually needs.",
                 "notChosenFeedback": ""
               }
             },
             {
               "correct": false,
-              "text": "<div>That you should continue quickly to get the task finished before they resist more.</div>",
+              "text": "<div>As a sign she is simply a difficult person to care for.</div>",
               "tipsAndFeedback": {
                 "tip": "",
-                "chosenFeedback": "Rushing tends to increase fear and resistance. Pausing to understand the trigger is safer and more respectful.",
+                "chosenFeedback": "Incorrect. Labelling the person, rather than looking for the trigger, stops you finding what would actually help.",
                 "notChosenFeedback": ""
               }
             },
             {
               "correct": false,
-              "text": "<div>That the behaviour must be reported as deliberate aggression before doing anything else.</div>",
+              "text": "<div>As something to ignore so it does not get attention.</div>",
               "tipsAndFeedback": {
                 "tip": "",
-                "chosenFeedback": "Labelling it as deliberate aggression overlooks the person's needs. Understanding and de-escalating comes first; recording follows.",
+                "chosenFeedback": "Incorrect. Ignoring distress leaves the need unmet and the person is likely to become more distressed, not less.",
                 "notChosenFeedback": ""
               }
             }
@@ -97,7 +97,7 @@
           }
         },
         "library": "H5P.MultiChoice 1.16",
-        "subContentId": "293c2cad-dcfe-4556-b5cd-29c1d0a23fde",
+        "subContentId": "dc99a3bb-5c1e-45b5-b2f7-83d8158609ff",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

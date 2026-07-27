@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The physical side of depression</h2><p>Depression is not only about mood; it affects the body too. In fact, some people first notice physical changes rather than feeling sad. These physical and behavioural signs are important to recognise, because a person may not describe their feelings, but their body and habits may show that something is wrong.</p><ul><li><strong>Physical signs:</strong> tiredness, low energy, aches and pains.</li><li><strong>Sleep and appetite:</strong> changes in how a person sleeps and eats.</li><li><strong>Behavioural signs:</strong> withdrawing, doing less, neglecting tasks.</li></ul>"
+          "text": "<h2>The physical and behavioural side of depression</h2><p>Depression is not only about mood; it affects the body too, and some people first notice physical changes rather than feeling sad. These physical and behavioural signs are important to recognise, because a person may not describe their feelings, but their body and habits may show that something is wrong.</p><ul><li><strong>Physical signs:</strong> tiredness, low energy, aches and pains.</li><li><strong>Sleep and appetite:</strong> changes in how a person sleeps and eats.</li><li><strong>Behavioural signs:</strong> withdrawing, doing less, neglecting tasks.</li></ul><p>Physically, depression often brings <strong>tiredness</strong> and a lack of energy, so that everything feels like an effort. People may have disturbed <strong>sleep</strong> &mdash; struggling to fall asleep, waking in the night or very early, or sleeping far more than usual. <strong>Appetite</strong> often changes too, with some people eating little and losing weight, and others eating more for comfort. Unexplained aches, pains or a slowed-down feeling are also common. Behaviour changes as well: a person may <strong>withdraw</strong> from friends, family and activities, stop answering the phone or door, or let go of things they usually keep on top of, such as housework, hobbies or personal care. Noticing these changes, and how they differ from what is usual for that person, is a valuable part of your role.</p><h2>The effect on everyday life</h2><p>Depression can make ordinary daily life feel overwhelming. Tasks that were once simple &mdash; getting up, washing, dressing, cooking or going out &mdash; can take enormous effort or feel impossible. This is part of the illness, not laziness, and understanding it helps you offer the right kind of support.</p><ul><li><strong>Daily tasks:</strong> even simple activities can feel exhausting.</li><li><strong>Self-care:</strong> washing, dressing and eating may be neglected.</li><li><strong>Routine:</strong> sleep and mealtimes can become disrupted.</li></ul><p>Because depression affects <strong>appetite</strong>, a person may skip meals, eat very little or lose interest in food, which can affect their physical health and energy. Disturbed <strong>sleep</strong> leaves people exhausted and can make low mood worse, creating a tiring cycle. When someone lacks the energy or motivation to look after themselves, their <strong>self-care</strong> may slip &mdash; they may not wash, change their clothes or keep their home as they usually would. These changes matter because they affect health, dignity and wellbeing, and left unnoticed they can gradually worsen a person's physical health as well as their mood.</p><p>Supporting someone gently with meals, rest and personal care, without taking over or making them feel judged, can make a real difference and helps them keep a sense of dignity. Offer choices, go at their pace, and always record and report the changes you notice, so the wider team can respond and the person can get the help they need.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "04a1844e-7d6c-4b64-aa2e-ab4aa6c0fdbc",
+        "subContentId": "86cf691c-80f4-4ea7-9e56-e60f3f61c0ad",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Physical and behavioural signs</h2><p>Physically, depression often brings <strong>tiredness</strong> and a lack of energy, so that everything feels like an effort. People may have disturbed <strong>sleep</strong> &mdash; struggling to fall asleep, waking in the night or very early, or sleeping far more than usual. <strong>Appetite</strong> often changes too, with some people eating little and losing weight, and others eating more for comfort. Unexplained aches, pains or a slowed-down feeling are also common.</p><p>Behaviour changes as well. A person may <strong>withdraw</strong> from friends, family and activities, stop answering the phone or door, or let go of things they usually keep on top of, such as housework, hobbies or personal care. Noticing these changes, and how they differ from what is usual for that person, is a valuable part of your role.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "7184df2f-4485-4dcf-b99f-f78530415542",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"

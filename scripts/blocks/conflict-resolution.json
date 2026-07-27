@@ -12,14 +12,7 @@
     {
       "type": "h5p",
       "path": "conflict-resolution/p2",
-      "label": "Causes and triggers",
-      "questions": 1,
-      "section": "Understanding conflict and distress"
-    },
-    {
-      "type": "h5p",
-      "path": "conflict-resolution/p9",
-      "label": "Distress not defiance",
+      "label": "Distress, not defiance",
       "questions": 1,
       "section": "Understanding conflict and distress"
     },
@@ -33,15 +26,8 @@
     {
       "type": "h5p",
       "path": "conflict-resolution/p10",
-      "label": "The Betari Box",
-      "questions": 1,
-      "section": "Communicating to de-escalate"
-    },
-    {
-      "type": "h5p",
-      "path": "conflict-resolution/p4",
-      "label": "De-escalation skills",
-      "questions": 1,
+      "label": "De-escalation and the Betari Box",
+      "questions": 2,
       "section": "Communicating to de-escalate"
     },
     {
