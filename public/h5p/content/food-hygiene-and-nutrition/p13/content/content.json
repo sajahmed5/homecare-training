@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Modified textures and fortified diets</h2><p>Some people cannot manage ordinary food and drink safely. Those with swallowing difficulties (dysphagia) may need texture-modified food or thickened fluids. The IDDSI framework gives these standard levels &mdash; from thin drinks through to soft and bite-sized or pureed food &mdash; so everyone uses the same descriptions.</p><p>A speech and language therapist (SALT) assesses swallowing and sets the level a person needs. Your role is to follow that plan exactly and never change the texture or thickness yourself. Others may need a fortified diet with extra calories and protein, or a strict allergen-free diet where even a trace could cause serious harm.</p>"
+          "text": "<h2>Dysphagia and modified diets</h2><p><strong>Dysphagia</strong> means difficulty swallowing. It raises the risk of choking and of food or fluid entering the airway (aspiration), which can cause chest infections and pneumonia. Some people cannot manage ordinary food and drink safely and may need a <strong>texture-modified diet</strong> or <strong>thickened fluids</strong>, prescribed by a speech and language therapist (SALT) or dietitian.</p><h2>The IDDSI framework</h2><p>The <strong>IDDSI</strong> framework (International Dysphagia Diet Standardisation Initiative) gives a common set of standard levels - numbered 0 to 7, with colour codes and names - ranging from thin drinks through to soft and bite-sized or pureed food. This means thickened drinks and modified-texture foods are prepared consistently and safely, and everyone uses the same descriptions wherever the person is cared for. A SALT assesses a person's swallowing and sets the level they need. Always follow the exact level in the person's care plan, and never change the texture or thickness yourself. Watch for signs of difficulty such as coughing, a wet or gurgly voice, or food pocketing in the mouth. Others may need a fortified diet with extra calories and protein, or a strict allergen-free diet where even a trace could cause serious harm.</p><h2>A mealtime scenario</h2><p>Mrs Kaur's care plan says she is on IDDSI Level 5 minced and moist food with mildly thick (Level 2) drinks, following a SALT assessment. Today she is tired, the kitchen is busy, and a colleague suggests just giving her the normal shepherd's pie and a cup of tea to save time. Giving her ordinary food and thin tea would go against her prescribed plan and could cause her to choke or aspirate. The safe, respectful choice is to prepare her meal and drink to the correct levels, support her calmly and unhurried, and raise any concerns about her swallowing with the nurse or SALT rather than changing things yourself.</p><h2>Culture, religion and choice</h2><p>Food is deeply personal. Supporting people to eat and drink well means respecting their <strong>cultural and religious dietary needs</strong> - for example halal, kosher, vegetarian or vegan diets, or fasting practices - and their individual likes, dislikes and routines. People have the right to make their own choices about what they eat and drink, and mealtimes should promote independence, dignity and enjoyment. Provide appropriate support and aids, offer choice, and never make assumptions on a person's behalf.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "658b0515-441f-4e59-bc9b-3221d686e30d",
+        "subContentId": "0a933aed-29ad-48f8-9708-ba28387d2f6e",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>A mealtime scenario</h2><p>Mrs Kaur&rsquo;s care plan says she is on IDDSI Level 5 minced and moist food with mildly thick (Level 2) drinks, following a SALT assessment. Today she is tired, the kitchen is busy, and a colleague suggests just giving her the normal shepherd&rsquo;s pie and a cup of tea to save time.</p><p>Giving her ordinary food and thin tea would go against her prescribed plan and could cause her to choke or aspirate. The safe, respectful choice is to prepare her meal and drink to the correct levels, support her calmly and unhurried, and raise any concerns about her swallowing with the nurse or SALT rather than changing things yourself.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "2343ed47-ec09-40ec-8e3a-f7ad4f80acba",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "465a75b7-a38e-4c24-9bba-133320e1c013",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person's care plan states they need IDDSI Level 2 (mildly thick) fluids because of dysphagia. What is the safest action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Prepare their drinks to the exact IDDSI level in the care plan every time</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Following the prescribed IDDSI level consistently reduces the risk of choking and aspiration.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give them a normal, unthickened drink because it is quicker</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Unsafe. Thin fluids may cause choking or aspiration for someone who needs thickened drinks. Always follow the prescribed level.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Make the drink much thicker than prescribed to be extra safe</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Fluids that are too thick can also be unsafe and unpleasant. The prescribed level must be followed exactly.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Decide the level yourself based on how the person seems</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "The level is set by a speech and language therapist or dietitian. Care workers must follow the care plan, not change it themselves.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "9bc4f761-fdb8-4f86-8101-ac4ff77e5a23",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

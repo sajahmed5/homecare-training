@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Evacuating a care home</h2><p>Evacuating a care home is very different from evacuating an office, because many residents cannot simply walk out. Care homes are built and designed for <strong>progressive horizontal evacuation</strong>. Instead of immediately taking everyone outside, staff move residents away from the fire, through fire-resisting doors, into an adjoining protected compartment on the <strong>same floor</strong>. There they are in relative safety and can wait while the fire is dealt with, or be moved further to complete safety if needed. The aim is to get people beyond a fire-resisting barrier quickly – usually within a couple of minutes.</p><p>This approach means residents are not exposed to the dangers of moving large numbers of frail or immobile people down stairs unless it is truly necessary. Some homes also use a <strong>\"stay put\"</strong> or delayed strategy for parts of the building, where residents remain in a fire-protected area rather than being fully evacuated – but this is only ever used where the building design and fire risk assessment specifically allow it. Always follow your home's own agreed plan.</p>"
+          "text": "<h2>Evacuating a care home</h2><p>Evacuating a care home is very different from evacuating an office, because many residents cannot simply walk out. Care homes are built and designed for <strong>progressive horizontal evacuation</strong>. Instead of immediately taking everyone outside, staff move residents sideways, away from the fire and through fire-resisting doors, into an adjoining protected compartment on the <strong>same floor</strong>. There they are in relative safety and can wait while the fire is dealt with, or be moved further to complete safety if needed. The aim is to get people beyond a fire-resisting barrier quickly &mdash; usually within a couple of minutes.</p><p>This approach suits people who are frail or hard to move quickly, and it means residents are not exposed to the dangers of moving large numbers of immobile people down stairs unless it is truly necessary. <strong>Fire doors</strong> are central to it: they hold back smoke and flames for a set period, buying time for people to reach safety. Never wedge or prop a fire door open, and make sure nothing stops it closing fully.</p><h2>Evacuation strategies</h2><p>Your fire risk assessment sets the evacuation strategy for the building, and you must know which one applies where you work.</p><ul><li><strong>Progressive horizontal evacuation:</strong> people are moved through fire doors into an adjoining compartment on the same floor, rather than straight out of the building.</li><li><strong>Simultaneous evacuation:</strong> everyone leaves at once to the assembly point when the alarm sounds &mdash; common in smaller settings.</li><li><strong>Stay put:</strong> in some buildings, people in unaffected areas remain where they are in a fire-protected space while the fire is contained, unless staff or the fire service tell them to move. This is only ever used where the building design and fire risk assessment specifically allow it.</li><li><strong>Assembly point:</strong> gather at the agreed place so everyone can be accounted for, and never go back inside for any reason.</li></ul><p>Always follow your home's own agreed plan.</p><h2>PEEPs: Personal Emergency Evacuation Plans</h2><p>Every person who could not evacuate independently should have a <strong>Personal Emergency Evacuation Plan (PEEP)</strong>. A PEEP is a written, individual plan that records exactly how that person will be helped to safety &mdash; for example how many staff are needed, what mobility or evacuation equipment (such as an evacuation sledge or ski-sheet) is required, any sensory or communication needs, and where they should be moved to.</p><p>Because people's needs change, PEEPs must be reviewed and kept up to date. Make sure you know where the PEEPs are kept and understand the plans for the people you support before an emergency happens &mdash; not during one &mdash; so that no one is overlooked.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "2295a0cd-1dfb-47a6-b2ac-b2fd8a380e50",
+        "subContentId": "f46bf9fa-f3c1-4f26-a2b3-e08746959ee4",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>PEEPs: Personal Emergency Evacuation Plans</h2><p>Every person who could not evacuate independently should have a <strong>Personal Emergency Evacuation Plan (PEEP)</strong>. A PEEP is a written, individual plan that records exactly how that person will be helped to safety – for example how many staff are needed, what mobility or evacuation equipment (such as an evacuation sledge or ski-sheet) is required, any sensory or communication needs, and where they should be moved to.</p><p>Because people's needs change, PEEPs must be reviewed and kept up to date. Make sure you know where the PEEPs are kept and understand the plans for the people you support before an emergency happens – not during one.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "02381f97-3c8d-41a0-b8e1-15991f329093",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -117,6 +102,35 @@
           "contentType": "H5P.MultiChoice",
           "license": "U",
           "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is acceptable to wedge a fire door open on a warm day, as long as staff are working nearby.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. This is false: fire doors must always be able to close fully, because a propped-open door lets smoke and fire spread and undermines the whole evacuation strategy.",
+            "correctAnswerMessage": "Correct &mdash; this is false. Fire doors must be free to close so they can hold back smoke and flames; wedging one open removes that protection and puts everyone at risk."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "75ced167-32f0-4b54-bfc0-2272011762a1",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

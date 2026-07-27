@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Working relationships and team working</h2><p>In care you build many relationships &mdash; with the people you support, with their families, and with colleagues and other professionals such as nurses, GPs and social workers. It is important to understand the difference between a <strong>working relationship</strong> and a <strong>personal relationship</strong>.</p><ul><li>A <strong>working relationship</strong> is professional. It is based on your role, guided by policies and boundaries, and focused on the person&rsquo;s needs and agreed outcomes.</li><li>A <strong>personal relationship</strong> is one you choose &mdash; with friends and family &mdash; based on emotional ties and personal history, with no professional boundaries or accountability.</li></ul><p>Keeping professional boundaries protects the people you support and keeps care fair, safe and consistent. <strong>Team working</strong> and <strong>partnership working</strong> matter too: sharing information appropriately, respecting each other&rsquo;s roles, and working together all lead to better, safer care.</p>"
+          "text": "<h2>Working relationships and professional boundaries</h2><p>In care you build many relationships &mdash; with the people you support, with their families, and with colleagues and other professionals such as nurses, GPs and social workers. It is important to understand the difference between a <strong>working relationship</strong> and a <strong>personal relationship</strong>.</p><ul><li>A <strong>working relationship</strong> is professional. It is based on your role, guided by policies and boundaries, and focused on the person&rsquo;s needs and agreed outcomes.</li><li>A <strong>personal relationship</strong> is one you choose &mdash; with friends and family &mdash; based on emotional ties and personal history, with no professional boundaries or accountability.</li></ul><p>Keeping professional boundaries protects the people you support and keeps care fair, safe and consistent.</p><h2>You are part of a team</h2><p>Care is never a solo job. Around each person there is a team &mdash; your colleagues, your manager, and often nurses, GPs, social workers, family members and other professionals. Good care depends on that team working together, and on you doing your part reliably.</p><p><strong>Team working</strong> and <strong>partnership working</strong> matter: respecting each other&rsquo;s roles and working together all lead to better, safer care. In practice this means communicating clearly, giving accurate handovers at the start and end of shifts, turning up when you are expected, and sharing information appropriately so nothing important is missed. It also means respecting what each person brings, whether they are a senior nurse or a fellow new starter like you.</p><h2>Supervision and getting support</h2><p><strong>Supervision</strong> is regular, protected time with your manager to reflect on your work, talk through your workload, plan your development and raise any concerns. Along with your appraisal, it is a two-way conversation to help you do your job well &mdash; not a telling-off. Come prepared, and be honest about what is going well and what you are finding hard.</p><p>Between those meetings, never be afraid to ask for support. Every experienced worker was new once, and asking when you are unsure is a sign of a safe, professional carer &mdash; not a weakness.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "12d4ec6f-fce1-4e61-b45d-eb6a2ac2c7cb",
+        "subContentId": "3384ebd6-6c8f-4daf-ab9f-dd598d139252",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -66,6 +66,71 @@
           "contentType": "H5P.TrueFalse",
           "license": "U",
           "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is a busy shift and you are asked to help a person transfer using a stand aid you have never been shown how to use. What is the best thing to do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Explain you have not been trained on this stand aid, and ask a trained colleague to help or show you.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Working within your training and asking for support keeps the person and you safe, even when things are busy.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Have a go anyway, since the shift is busy and you don&rsquo;t want to slow the team down.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Using equipment you have not been trained on risks a serious injury; being busy is never a reason to skip training.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Ask the person to transfer on their own without the stand aid.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Removing the equipment they rely on could cause a fall and does not meet their assessed needs.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing and quietly move on to another task, leaving the transfer undone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. Leaving a need unmet without telling anyone is not safe; you should ask for support so it is done properly.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6a53ce45-112c-4ac9-a0c7-2d0d1241735a",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

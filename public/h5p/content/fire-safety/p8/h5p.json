@@ -1,5 +1,5 @@
 {
-  "title": "Fire Safety — If a fire starts",
+  "title": "Fire Safety — Responding to a fire and afterwards",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -62,6 +62,11 @@
       "machineName": "H5P.TrueFalse",
       "majorVersion": 1,
       "minorVersion": 8
+    },
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16
     }
   ]
 }

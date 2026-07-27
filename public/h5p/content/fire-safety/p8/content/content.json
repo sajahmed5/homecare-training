@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Raising the alarm and calling 999</h2><p>If you discover a fire, act immediately and calmly:</p><ul><li><strong>Raise the alarm</strong> straight away by operating the nearest manual call point (break-glass) and alerting colleagues. Getting people out and summoning help matter far more than tackling the fire.</li><li><strong>Call 999</strong> and ask for the fire service. Give the full address, tell them it is a care home, and say if anyone is trapped or has restricted mobility. Do not assume someone else has called.</li><li><strong>Follow your evacuation plan</strong> – move people away from the fire to a place of safety, close doors behind you to slow the spread, and use residents' PEEPs.</li><li><strong>Do not use lifts</strong>, and only fight the fire with an extinguisher if it is very small, safe to do so, and you have a clear exit.</li><li>Go to the assembly point, help with the roll call, and <strong>never go back in</strong> for belongings.</li></ul>"
+          "text": "<h2>Raising the alarm and calling 999</h2><p>If you discover a fire, act immediately and calmly:</p><ul><li><strong>Raise the alarm</strong> straight away by operating the nearest manual call point (break-glass) and alerting colleagues. Getting people out and summoning help matter far more than tackling the fire.</li><li><strong>Call 999</strong> and ask for the fire service. Give the full address, tell them it is a care home, and say if anyone is trapped or has restricted mobility. Do not assume someone else has called.</li><li><strong>Follow your evacuation plan</strong> &mdash; move people away from the fire to a place of safety, close doors behind you to slow the spread, and use residents' PEEPs.</li><li><strong>Do not use lifts</strong>, and only fight the fire with an extinguisher if it is very small, safe to do so, and you have a clear exit.</li><li>Go to the assembly point, help with the roll call, and <strong>never go back in</strong> for belongings.</li></ul><h2>Fire marshals, wardens and drills</h2><p>Many care settings appoint trained <strong>fire marshals</strong> (sometimes called fire wardens) to take the lead if the alarm sounds. It is a support and co-ordination role, not a firefighting one. Their duties include raising and confirming the alarm, coordinating the evacuation, directing people to the exits, checking rooms, toilets and communal areas so no one is left behind, ensuring fire doors are closed, and carrying out a headcount or roll call at the assembly point, where they report to the person in charge. Between emergencies they help with routine checks of exits, signage, extinguishers and alarms.</p><p>Even if you are not a marshal, you must know who yours are and follow their instructions during an evacuation. Fire drills give everyone the chance to practise before a real emergency, so take them seriously: learn your nearest exits and the sound of the alarm, attend every drill, and treat every alarm as real until you are told otherwise.</p><h2>After a fire</h2><p>Once everyone is out and the fire service has taken over, there is still important work to do.</p><ul><li><strong>Account for people:</strong> confirm who has been evacuated and tell the fire service immediately about anyone unaccounted for.</li><li><strong>Do not go back:</strong> only the fire service decides when a building is safe to re-enter.</li><li><strong>Support people:</strong> keep those you care for warm, calm and reassured, as a fire is frightening and disorientating.</li><li><strong>Record and review:</strong> report what happened so the incident can be recorded and the fire risk assessment reviewed and improved.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "12f4fa0d-90bc-4746-bebf-be874c523881",
+        "subContentId": "44c8eeb1-8f37-494a-b744-1480de35e122",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>The role of fire marshals and wardens</h2><p>Many care settings appoint trained <strong>fire marshals</strong> (sometimes called fire wardens) to lead the response. Their duties include raising and confirming the alarm, coordinating the evacuation, checking rooms, toilets and communal areas so no one is left behind, ensuring fire doors are closed, and carrying out a headcount or roll call at the assembly point. Between emergencies they help with routine checks of exits, signage, extinguishers and alarms. Even if you are not a marshal, you must know who yours are and follow their instructions during an evacuation. Attend every fire drill – drills are how the whole team practises the plan safely.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "96e238e2-ae68-4acb-b3a5-b34b455f08c2",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -115,6 +100,71 @@
           "contentType": "H5P.TrueFalse",
           "license": "U",
           "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is a night shift in a care home that uses progressive horizontal evacuation. The alarm sounds and you find smoke coming from a resident&rsquo;s bedroom on your corridor. What is the best action?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Raise the alarm, close the door on the fire, and help move people through the fire doors into the next compartment while 999 is called.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Raising the alarm, containing the fire by closing the door and moving people to an adjoining compartment fits a progressive horizontal evacuation and puts people first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Go into the bedroom and try to put the fire out before waking anyone.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Warning people and getting them to safety comes first; a fire producing smoke in a bedroom is not a small contained fire to tackle alone.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Open the windows in the corridor to clear the smoke.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Extra air feeds a fire, and the priority is to raise the alarm and move people to safety, not to ventilate the area.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help residents gather their belongings before leaving the corridor.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. There is no time to collect belongings; people must be moved to safety first, as possessions can be replaced but lives cannot.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "be2cd707-fae3-474b-b151-8ad286069c4c",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

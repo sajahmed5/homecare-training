@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Key takeaways</h2><p>You have covered the essentials of infection prevention and control for frontline care:</p><ul><li>Break the <strong>chain of infection</strong> - your everyday actions target its links.</li><li>Apply <strong>standard precautions</strong> to everyone, every time.</li><li><strong>Hand hygiene</strong> at the WHO 5 Moments is your most powerful tool - soap and water for C. difficile and norovirus.</li><li>Use PPE by task; remember donning (apron, mask, eyes, gloves) and doffing (gloves, apron, eyes, mask).</li><li>Handle sharps, waste and spillages safely, and keep the environment clean.</li><li>Recognise HCAIs, <strong>act fast on sepsis</strong>, and report and record promptly.</li></ul><p>Thank you for helping keep the people you support safe.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "0941d7c2-b1e9-445b-a52e-fce25a057d23",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

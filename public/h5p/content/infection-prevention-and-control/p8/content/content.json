@@ -6,7 +6,7 @@
           "text": "<h2>Sepsis awareness and reporting</h2><h3>Sepsis - act fast</h3><p>Sepsis is the body's extreme, life-threatening response to an infection. It can develop within hours and is a <strong>medical emergency</strong> - the sooner it is treated, the better the chance of survival. You are often the first person to notice a change. Escalate urgently if someone shows signs such as:</p><ul><li>Slurred speech, new confusion or unusual drowsiness.</li><li>Extreme shivering, or muscle pain.</li><li>Passing little or no urine.</li><li>Severe breathlessness or fast breathing.</li><li>Skin that is mottled, blotchy, very pale or bluish.</li><li>A rash that does not fade when you press a glass against it.</li></ul><p>If you suspect sepsis, <strong>call 999 or get emergency help immediately and say \"I am worried about sepsis.\"</strong> Do not wait to \"see how they go.\"</p><h3>Reporting and notifiable diseases</h3><p>Report infection concerns promptly so action can be taken:</p><ul><li>Tell your manager and follow your provider's outbreak plan if two or more people have similar symptoms (e.g. diarrhoea and vomiting).</li><li>Certain <strong>notifiable diseases</strong> (such as measles, tuberculosis, food poisoning and others) must be reported to <strong>UKHSA</strong> - usually via a registered clinician or your local health protection team.</li><li>Work-related exposures and some infections may be reportable under <strong>RIDDOR</strong>. Record sharps injuries and exposures.</li><li>Keep good records - accurate reporting protects the people you support and helps stop outbreaks early.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "c8aa5cde-2e4b-47da-98f5-93a42be2a974",
+        "subContentId": "86ac0581-d792-4297-94b4-32c6c67645e1",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -102,21 +102,6 @@
           "contentType": "H5P.MultiChoice",
           "license": "U",
           "title": "Knowledge check"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Key takeaways</h2><p>You have covered the essentials of infection prevention and control for frontline care:</p><ul><li>Break the <strong>chain of infection</strong> - your everyday actions target its links.</li><li>Apply <strong>standard precautions</strong> to everyone, every time.</li><li><strong>Hand hygiene</strong> at the WHO 5 Moments is your most powerful tool - soap and water for C. difficile and norovirus.</li><li>Use PPE by task; remember donning (apron, mask, eyes, gloves) and doffing (gloves, apron, eyes, mask).</li><li>Handle sharps, waste and spillages safely, and keep the environment clean.</li><li>Recognise HCAIs, <strong>act fast on sepsis</strong>, and report and record promptly.</li></ul><p>Thank you for helping keep the people you support safe.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "8c19782d-758a-460e-b3d8-772b0e2a0c57",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"

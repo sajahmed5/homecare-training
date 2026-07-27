@@ -47,21 +47,14 @@
     {
       "type": "h5p",
       "path": "introduction-to-care/p5",
-      "label": "Working relationships",
-      "questions": 1,
+      "label": "Working relationships, teamwork and support",
+      "questions": 2,
       "section": "Working with others"
     },
     {
       "type": "h5p",
       "path": "introduction-to-care/p6",
       "label": "Person-centred care & duty of care",
-      "questions": 1,
-      "section": "Working with others"
-    },
-    {
-      "type": "h5p",
-      "path": "introduction-to-care/p13",
-      "label": "Teamwork and getting support",
       "questions": 1,
       "section": "Working with others"
     },

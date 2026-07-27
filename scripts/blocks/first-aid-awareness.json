@@ -54,15 +54,8 @@
     {
       "type": "h5p",
       "path": "first-aid-awareness/p6",
-      "label": "Medical emergencies",
-      "questions": 1,
-      "section": "Medical emergencies"
-    },
-    {
-      "type": "h5p",
-      "path": "first-aid-awareness/p7",
-      "label": "Diabetic emergencies & recovery position",
-      "questions": 1,
+      "label": "Medical emergencies: diabetes & the recovery position",
+      "questions": 2,
       "section": "Medical emergencies"
     },
     {

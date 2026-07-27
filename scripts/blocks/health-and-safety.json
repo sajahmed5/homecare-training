@@ -13,14 +13,7 @@
       "type": "h5p",
       "path": "health-and-safety/p2",
       "label": "The law",
-      "questions": 1,
-      "section": "The law and your duties"
-    },
-    {
-      "type": "h5p",
-      "path": "health-and-safety/p9",
-      "label": "Key H&S law",
-      "questions": 1,
+      "questions": 2,
       "section": "The law and your duties"
     },
     {

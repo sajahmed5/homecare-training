@@ -5,22 +5,15 @@
     {
       "type": "h5p",
       "path": "food-hygiene-and-nutrition/p1",
-      "label": "Why it matters",
+      "label": "Why food safety and nutrition matter",
       "questions": 1,
       "section": "Keeping food safe"
     },
     {
       "type": "h5p",
       "path": "food-hygiene-and-nutrition/p2",
-      "label": "The 4 Cs",
-      "questions": 1,
-      "section": "Keeping food safe"
-    },
-    {
-      "type": "h5p",
-      "path": "food-hygiene-and-nutrition/p3",
-      "label": "Temperature control",
-      "questions": 2,
+      "label": "The 4 Cs and temperature control",
+      "questions": 3,
       "section": "Keeping food safe"
     },
     {
@@ -33,7 +26,7 @@
     {
       "type": "h5p",
       "path": "food-hygiene-and-nutrition/p4",
-      "label": "Personal hygiene",
+      "label": "Personal hygiene and handwashing",
       "questions": 1,
       "section": "Hygiene, allergens and controls"
     },
@@ -82,15 +75,8 @@
     {
       "type": "h5p",
       "path": "food-hygiene-and-nutrition/p13",
-      "label": "Special diets & textures",
-      "questions": 1,
-      "section": "Support at mealtimes"
-    },
-    {
-      "type": "h5p",
-      "path": "food-hygiene-and-nutrition/p8",
-      "label": "Dysphagia & choice",
-      "questions": 1,
+      "label": "Dysphagia, modified diets and choice",
+      "questions": 2,
       "section": "Support at mealtimes"
     }
   ]

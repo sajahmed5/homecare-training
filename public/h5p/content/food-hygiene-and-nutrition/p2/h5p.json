@@ -1,5 +1,5 @@
 {
-  "title": "Food Hygiene & Nutrition — The 4 Cs",
+  "title": "Food Hygiene & Nutrition — The 4 Cs and temperature control",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -62,6 +62,21 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.DragText",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "jQuery.ui",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "H5P.TrueFalse",
+      "majorVersion": 1,
+      "minorVersion": 8
     }
   ]
 }

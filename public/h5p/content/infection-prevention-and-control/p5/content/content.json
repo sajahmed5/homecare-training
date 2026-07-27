@@ -1,1 +1,144 @@
-{"content":[{"content":{"params":{"text":"<h2>Personal protective equipment (PPE)</h2><p>PPE creates a barrier between you and infectious material. Choose it based on the <strong>task and the risk</strong>, not out of habit. The main items in care are:</p><ul><li><strong>Disposable gloves</strong> - when you may touch blood, body fluids, broken skin or contaminated items. Gloves are single-use for a single task, then removed and binned. They are <em>not</em> a substitute for hand hygiene.</li><li><strong>Disposable apron</strong> - to protect your clothing when there is a risk of splashing or close contact.</li><li><strong>Fluid-resistant surgical mask</strong> - when there is a risk of droplets or splashes to your face, or when guidance requires it.</li><li><strong>Eye protection</strong> - goggles or a visor when body fluids might splash into your eyes.</li></ul><h3>Putting on (donning) - order</h3><p><strong>1. Apron → 2. Mask → 3. Eye protection → 4. Gloves.</strong> Clean your hands first.</p><h3>Taking off (doffing) - order</h3><p><strong>1. Gloves → 2. Apron → 3. Eye protection → 4. Mask.</strong> Gloves and apron are usually the most contaminated, so they come off first. Remove your mask last, by the ties or ear loops, without touching the front. <strong>Clean your hands immediately after removing all PPE.</strong></p><p>Never reuse single-use PPE, and change it if it becomes damaged or heavily soiled. Dispose of used PPE as clinical or infectious waste per your local policy.</p>"},"library":"H5P.AdvancedText 1.1","subContentId":"eba22411-f8db-45bf-832a-5ee2f66d492a","metadata":{"contentType":"H5P.AdvancedText","license":"U","title":"Text"}},"useSeparator":"auto"},{"content":{"params":{"contentName":"Image","alt":"A care worker wearing gloves, apron and mask","decorative":false,"file":{"path":"images/ipc-ppe.jpg","mime":"image/jpeg","width":1080,"height":720,"copyright":{"license":"U"}}},"library":"H5P.Image 1.1","subContentId":"b775ff33-dac5-40ee-b316-6c3f20cfbfc5","metadata":{"contentType":"H5P.Image","license":"U","title":"Image"}},"useSeparator":"auto"},{"content":{"params":{"question":"<p>You have finished personal care and are removing your PPE. Which item should you take off FIRST?</p>","answers":[{"correct":true,"text":"<div>Gloves</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Correct. Doffing order is gloves, then apron, then eye protection, then mask - gloves are the most contaminated, so they come off first.","notChosenFeedback":""}},{"correct":false,"text":"<div>Mask</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No - the mask comes off last, by its ties or loops, without touching the front. Gloves come off first.","notChosenFeedback":""}},{"correct":false,"text":"<div>Apron</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"Not quite. The apron is removed second. Gloves come off first because they are usually the most heavily contaminated.","notChosenFeedback":""}},{"correct":false,"text":"<div>Eye protection</div>","tipsAndFeedback":{"tip":"","chosenFeedback":"No - eye protection is removed third. Start with gloves, which are the most contaminated item.","notChosenFeedback":""}}],"behaviour":{"enableRetry":true,"enableSolutionsButton":true,"singlePoint":true,"randomAnswers":true,"type":"auto"},"UI":{"checkAnswerButton":"Check","showSolutionButton":"Show solution","tryAgainButton":"Retry"}},"library":"H5P.MultiChoice 1.16","subContentId":"dd2b89dc-bbfd-4bbe-86f6-dcb1a71c3d95","metadata":{"contentType":"H5P.MultiChoice","license":"U","title":"Knowledge check"}},"useSeparator":"auto"}]}
+{
+  "content": [
+    {
+      "content": {
+        "params": {
+          "text": "<h2>Using personal protective equipment (PPE) safely</h2><p>PPE creates a barrier between you and infectious material. Choose it based on the <strong>task and the risk</strong>, not out of habit. The main items in care are:</p><ul><li><strong>Disposable gloves</strong> - when you may touch blood, body fluids, broken skin or contaminated items. Gloves are single-use for a single task, then removed and binned. They are <em>not</em> a substitute for hand hygiene.</li><li><strong>Disposable apron</strong> - to protect your clothing when there is a risk of splashing or close contact.</li><li><strong>Fluid-resistant surgical mask</strong> - when there is a risk of droplets or splashes to your face, or when guidance requires it.</li><li><strong>Eye protection</strong> - goggles or a visor when body fluids might splash into your eyes.</li></ul><p>PPE only protects people if you put it on and take it off correctly. The order matters, because most contamination happens as you remove items and risk touching a dirty surface with clean hands.</p><h3>Putting on (donning) - order</h3><p>Clean your hands first, then: <strong>1. Apron &rarr; 2. Mask or respirator if needed &rarr; 3. Eye protection if needed &rarr; 4. Gloves.</strong></p><h3>Taking off (doffing) - order</h3><p><strong>1. Gloves &rarr; 2. Apron &rarr; 3. Eye protection &rarr; 4. Mask.</strong> Gloves and apron are usually the most contaminated, so they come off first. Remove your mask last, by the ties or ear loops, without touching the front. <strong>Clean your hands immediately after removing all PPE.</strong></p><p>Change single-use PPE for each person and each task, and never reuse it. Change it too if it becomes damaged or heavily soiled, and dispose of used PPE as clinical, infectious or offensive waste according to your local policy.</p><h3>Respiratory and cough hygiene</h3><p>Many infections, including flu, colds and COVID-19, spread through droplets released when people cough, sneeze or talk. Good respiratory hygiene reduces how far these droplets travel and how many surfaces they land on.</p><ul><li><strong>Catch it:</strong> cover the nose and mouth with a tissue for every cough or sneeze.</li><li><strong>Bin it:</strong> dispose of used tissues straight away into a waste bag.</li><li><strong>Kill it:</strong> clean your hands afterwards, and support the people you care for to do the same.</li></ul><p>If no tissue is to hand, coughing into the crook of your elbow is far better than into your bare hands. Keeping tissues, bins and hand gel within easy reach makes it much easier for everyone to follow these steps.</p>"
+        },
+        "library": "H5P.AdvancedText 1.1",
+        "subContentId": "a2f45fe8-0f4e-4704-9897-adfc96419acc",
+        "metadata": {
+          "contentType": "H5P.AdvancedText",
+          "license": "U",
+          "title": "Text"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "contentName": "Image",
+          "alt": "A care worker wearing gloves, apron and mask",
+          "decorative": false,
+          "file": {
+            "path": "images/ipc-ppe.jpg",
+            "mime": "image/jpeg",
+            "width": 1080,
+            "height": 720,
+            "copyright": {
+              "license": "U"
+            }
+          }
+        },
+        "library": "H5P.Image 1.1",
+        "subContentId": "b775ff33-dac5-40ee-b316-6c3f20cfbfc5",
+        "metadata": {
+          "contentType": "H5P.Image",
+          "license": "U",
+          "title": "Image"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You have finished personal care and are removing your PPE. Which item should you take off FIRST?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Gloves</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Doffing order is gloves, then apron, then eye protection, then mask - gloves are the most contaminated, so they come off first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Mask</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No - the mask comes off last, by its ties or loops, without touching the front. Gloves come off first.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Apron</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Not quite. The apron is removed second. Gloves come off first because they are usually the most heavily contaminated.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Eye protection</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No - eye protection is removed third. Start with gloves, which are the most contaminated item.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "dd2b89dc-bbfd-4bbe-86f6-dcb1a71c3d95",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the guidance on doffing and cough hygiene.</p></p>",
+          "textField": "When removing PPE, take off your *gloves* first because they are the most contaminated. Good cough hygiene means you *catch* a cough in a tissue, *bin* the tissue straight away, then *clean* your hands. If no tissue is to hand, cough into your *elbow* rather than your bare hands.",
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
+          },
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
+        },
+        "library": "H5P.DragText 1.10",
+        "subContentId": "b5dd15ff-70b2-4278-be9e-f11054d5f206",
+        "metadata": {
+          "contentType": "H5P.DragText",
+          "license": "U",
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    }
+  ]
+}

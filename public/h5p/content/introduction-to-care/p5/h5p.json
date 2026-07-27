@@ -1,5 +1,5 @@
 {
-  "title": "Introduction to Care — Working relationships",
+  "title": "Introduction to Care — Working relationships, teamwork and support",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -52,6 +52,11 @@
       "machineName": "H5P.FontIcons",
       "majorVersion": 1,
       "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16
     }
   ]
 }

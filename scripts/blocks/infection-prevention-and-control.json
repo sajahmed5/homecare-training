@@ -40,15 +40,8 @@
     {
       "type": "h5p",
       "path": "infection-prevention-and-control/p5",
-      "label": "PPE",
-      "questions": 1,
-      "section": "PPE, waste and cleaning"
-    },
-    {
-      "type": "h5p",
-      "path": "infection-prevention-and-control/p10",
-      "label": "Using PPE safely",
-      "questions": 1,
+      "label": "Using PPE safely and respiratory hygiene",
+      "questions": 2,
       "section": "PPE, waste and cleaning"
     },
     {
@@ -89,8 +82,15 @@
     {
       "type": "h5p",
       "path": "infection-prevention-and-control/p8",
-      "label": "Sepsis & reporting",
+      "label": "Sepsis awareness and reporting",
       "questions": 1,
+      "section": "Spotting serious infection"
+    },
+    {
+      "type": "h5p",
+      "path": "infection-prevention-and-control/p14",
+      "label": "Key takeaways",
+      "questions": 0,
       "section": "Spotting serious infection"
     }
   ]

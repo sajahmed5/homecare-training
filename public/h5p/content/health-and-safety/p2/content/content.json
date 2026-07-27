@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The Health and Safety at Work etc. Act 1974</h2><p>This Act is the foundation of workplace health and safety in Great Britain, enforced by the <strong>Health and Safety Executive (HSE)</strong>. It sets out duties for both employers and employees.</p><h3>What your employer must do</h3><ul><li>Provide a safe workplace, safe equipment and safe systems of work &mdash; \"so far as is reasonably practicable\".</li><li>Give you the information, instruction, training and supervision you need to work safely.</li><li>Carry out risk assessments and put sensible controls in place.</li><li>Provide any personal protective equipment (PPE) free of charge.</li></ul><h3>What you must do</h3><ul><li>Take reasonable care of your own health and safety and that of anyone affected by what you do (or fail to do).</li><li>Co-operate with your employer on health and safety &mdash; follow procedures and use equipment properly.</li><li>Never misuse or interfere with anything provided for safety.</li><li>Report hazards, faults, accidents and near misses.</li></ul><p>The <strong>Management of Health and Safety at Work Regulations 1999</strong> build on the Act and make risk assessment an explicit legal requirement.</p>"
+          "text": "<h2>The Health and Safety at Work etc. Act 1974</h2><p>This Act is the foundation of workplace health and safety in Great Britain and the main piece of health and safety law in England, enforced by the <strong>Health and Safety Executive (HSE)</strong>. It places a duty on your employer to protect the health, safety and welfare of everyone affected by their work &mdash; you, the people you support, visitors and members of the public &mdash; and it sets out duties for employees too.</p><p>Your employer must do this <strong>&ldquo;so far as is reasonably practicable&rdquo;</strong>. In plain terms, they must weigh the size of a risk against the time, trouble and cost of controlling it, and take sensible steps rather than ignore hazards or spend money on dangers that are trivial.</p><h3>What your employer must do</h3><ul><li>Provide a safe workplace, safe equipment and safe systems of work.</li><li>Give you the information, instruction, training and supervision you need to work safely.</li><li>Carry out risk assessments and put sensible controls in place.</li><li>Provide any personal protective equipment (PPE) free of charge.</li></ul><h3>What you must do</h3><ul><li><strong>Take reasonable care</strong> of your own health and safety and that of anyone affected by what you do (or fail to do).</li><li><strong>Co-operate</strong> with your employer on health and safety &mdash; follow procedures and safe systems of work.</li><li><strong>Use things properly</strong> &mdash; use equipment and substances the way you were trained to, and never misuse or interfere with anything provided for safety.</li><li><strong>Report problems</strong> &mdash; tell your employer about hazards, faults, accidents, near misses and gaps in protection.</li></ul><p>The <strong>Management of Health and Safety at Work Regulations 1999</strong> build on the Act, make risk assessment an explicit legal requirement, and require your employer to carry out risk assessments and give you information and training.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "08efac38-76bc-4dd9-9356-f833c198ebc6",
+        "subContentId": "f5020ade-3732-493a-83dc-63c6725fcba9",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -98,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "8a03a90e-2212-4158-807b-53039bdee520",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Under health and safety law, which of these is a duty that falls on YOU as an employee rather than on your employer?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Taking reasonable care of your own safety and co-operating with safe systems of work.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The Act gives employees a duty to take reasonable care and to co-operate with the arrangements their employer puts in place.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Carrying out the workplace risk assessments.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Arranging risk assessments is the employer&rsquo;s duty under the 1999 Regulations, though you help by reporting hazards.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Paying for the protective equipment you need.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Your employer must provide necessary protective equipment free of charge; the cost is not yours to carry.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Writing the organisation&rsquo;s health and safety policy.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Producing the policy is an employer responsibility, not something expected of a care worker.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "90e2bfc4-09d4-4196-9bd3-586bd6f30f69",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",
