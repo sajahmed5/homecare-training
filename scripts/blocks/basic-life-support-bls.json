@@ -55,28 +55,14 @@
       "type": "h5p",
       "path": "basic-life-support-bls/p6",
       "label": "Chest compressions",
-      "questions": 1,
-      "section": "Getting help and starting CPR"
-    },
-    {
-      "type": "h5p",
-      "path": "basic-life-support-bls/p11",
-      "label": "Quality CPR as a team",
-      "questions": 1,
+      "questions": 2,
       "section": "Getting help and starting CPR"
     },
     {
       "type": "h5p",
       "path": "basic-life-support-bls/p7",
-      "label": "Breaths & AED",
-      "questions": 1,
-      "section": "Breaths, the AED and teamwork"
-    },
-    {
-      "type": "h5p",
-      "path": "basic-life-support-bls/p12",
-      "label": "Using an AED",
-      "questions": 1,
+      "label": "Rescue breaths & the AED",
+      "questions": 2,
       "section": "Breaths, the AED and teamwork"
     },
     {

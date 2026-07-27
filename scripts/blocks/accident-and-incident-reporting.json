@@ -40,15 +40,8 @@
     {
       "type": "h5p",
       "path": "accident-and-incident-reporting/p4",
-      "label": "How to record",
-      "questions": 1,
-      "section": "Recording and reporting"
-    },
-    {
-      "type": "h5p",
-      "path": "accident-and-incident-reporting/p11",
-      "label": "Writing it up well",
-      "questions": 1,
+      "label": "Recording and writing it up",
+      "questions": 2,
       "section": "Recording and reporting"
     },
     {
@@ -68,29 +61,15 @@
     {
       "type": "h5p",
       "path": "accident-and-incident-reporting/p7",
-      "label": "CQC & duty of candour",
-      "questions": 1,
-      "section": "Regulators and notifications"
-    },
-    {
-      "type": "h5p",
-      "path": "accident-and-incident-reporting/p12",
-      "label": "CQC notifications",
-      "questions": 1,
+      "label": "CQC notifications and candour",
+      "questions": 2,
       "section": "Regulators and notifications"
     },
     {
       "type": "h5p",
       "path": "accident-and-incident-reporting/p13",
-      "label": "Investigation and learning",
-      "questions": 1,
-      "section": "Learning from it"
-    },
-    {
-      "type": "h5p",
-      "path": "accident-and-incident-reporting/p8",
-      "label": "Learning & confidentiality",
-      "questions": 1,
+      "label": "Learning from incidents",
+      "questions": 2,
       "section": "Learning from it"
     }
   ]

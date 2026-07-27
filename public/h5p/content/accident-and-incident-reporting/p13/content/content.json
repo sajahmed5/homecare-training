@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Look for causes, not culprits</h2><p>Reporting an incident is only worthwhile if something is learned from it. After a serious or recurring incident, your service will investigate to understand what happened and why. A good investigation looks for the root cause &mdash; the underlying reason &mdash; rather than for someone to blame. Most incidents come from a chain of factors such as staffing, training, equipment, procedures or communication, not simply one careless person. A no-blame, open culture encourages people to report honestly, including their own mistakes, because they know the aim is to prevent harm rather than to punish.</p>"
+          "text": "<h2>Look for causes, not culprits</h2><p>Reporting an incident is only worthwhile if something is learned from it; the purpose is to learn, not to punish. After a serious or recurring incident, your service will investigate to understand what happened and why. A good investigation looks for the <strong>root cause</strong> &mdash; the underlying reason &mdash; rather than for someone to blame. Most incidents come from a chain of factors such as staffing, training, equipment, procedures or communication, not simply one careless person.</p><p>In a <strong>just, no-blame culture</strong>, staff feel safe to report honestly, including their own mistakes, because they know the aim is to prevent harm rather than to punish. The questions to ask are &ldquo;What happened and why?&rdquo; and &ldquo;How do we stop it happening again?&rdquo; &mdash; not &ldquo;Whose fault is it?&rdquo;</p><h2>Changing practice and protecting records</h2><p>Learning must change practice: updating a care plan, repairing or replacing equipment, revising a procedure or arranging training. Consider Mrs Okafor, who was given another resident&rsquo;s tablets. The investigation found the two had similar names and the medication trolley was crowded and rushed at breakfast. The service added photographs to the medication records and calmed the morning routine &mdash; a change that protects everyone, prompted by one honest report.</p><p>Openness is also a legal duty: under the <strong>duty of candour (Regulation 20)</strong>, providers must be honest with people and their families when something goes wrong and causes certain harm &mdash; telling them what happened, apologising, and explaining what will be done.</p><p>Accident and incident records often contain personal and health information. Under <strong>data protection law (UK GDPR)</strong> this information must be:</p><ul><li>Kept <strong>secure</strong> &mdash; stored so that only authorised people can access it.</li><li>Shared only on a <strong>need-to-know</strong> basis with those who have a legitimate reason.</li><li>Accurate, relevant and kept no longer than necessary.</li></ul><p>Being confidential does not mean hiding what happened from the people affected &mdash; the duty of candour still applies. It means handling the <em>records</em> responsibly and respecting people&rsquo;s privacy.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "53a7b143-b4da-4e4f-8cff-1624cfe168f2",
+        "subContentId": "02c21832-f455-4d66-8f5a-6aef82942fd3",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Being open and changing practice</h2><p>Openness is also a legal duty. Under the duty of candour (Regulation 20), providers must be honest with people and their families when something goes wrong and causes certain harm &mdash; telling them what happened, apologising, and explaining what will be done. Learning must then change practice: updating a care plan, repairing or replacing equipment, revising a procedure or arranging training. Consider Mrs Okafor, who was given another resident&rsquo;s tablets. The investigation found the two had similar names and the medication trolley was crowded and rushed at breakfast. The service added photographs to the medication records and calmed the morning routine &mdash; a change that protects everyone, prompted by one honest report.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "ce61c5da-ba04-4a30-9181-3a547d21c83b",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -113,6 +98,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "5d204fd8-fe09-4301-b7ff-84a8bb6c46d8",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which statement best reflects a healthy reporting culture in adult social care?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Staff report events openly, including their own errors, and the service investigates to learn and prevent recurrence.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Openness plus learning is the heart of a just, no-blame culture that keeps people safer.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Staff only report events they are certain will not get them into trouble.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Fear of blame hides risks. A just culture encourages honest reporting so lessons are learned.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Records are shared freely with anyone to show how transparent the service is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. Openness with those affected is right, but records still contain personal data and must be kept confidential and secure.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>The main aim of an investigation is to identify who to discipline.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "No. The aim is to understand causes and prevent recurrence, not to find someone to blame.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "ec8ce829-5f19-457b-a7b9-4efa3f1a466b",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",
