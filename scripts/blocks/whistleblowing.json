@@ -33,15 +33,8 @@
     {
       "type": "h5p",
       "path": "whistleblowing/p3",
-      "label": "Protected disclosures",
-      "questions": 1,
-      "section": "Making a protected disclosure"
-    },
-    {
-      "type": "h5p",
-      "path": "whistleblowing/p11",
-      "label": "PIDA in depth",
-      "questions": 1,
+      "label": "Protected disclosures under PIDA",
+      "questions": 2,
       "section": "Making a protected disclosure"
     },
     {

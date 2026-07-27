@@ -68,8 +68,8 @@
     {
       "type": "h5p",
       "path": "record-keeping-and-documentation/p12",
-      "label": "Sharing and Caldicott",
-      "questions": 1,
+      "label": "Confidentiality, sharing and secure handling",
+      "questions": 2,
       "section": "Sharing, errors and confidentiality"
     },
     {
@@ -83,13 +83,6 @@
       "type": "h5p",
       "path": "record-keeping-and-documentation/p13",
       "label": "Breaches and a scenario",
-      "questions": 1,
-      "section": "Sharing, errors and confidentiality"
-    },
-    {
-      "type": "h5p",
-      "path": "record-keeping-and-documentation/p8",
-      "label": "Confidentiality & storage",
       "questions": 1,
       "section": "Sharing, errors and confidentiality"
     }

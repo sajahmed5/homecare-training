@@ -5,21 +5,14 @@
     {
       "type": "h5p",
       "path": "safeguarding-adults-level-2/p1",
-      "label": "What safeguarding means",
-      "questions": 1,
+      "label": "What safeguarding means and who is at risk",
+      "questions": 2,
       "section": "Safeguarding and its principles"
     },
     {
       "type": "h5p",
       "path": "safeguarding-adults-level-2/p2",
       "label": "The six principles",
-      "questions": 1,
-      "section": "Safeguarding and its principles"
-    },
-    {
-      "type": "h5p",
-      "path": "safeguarding-adults-level-2/p9",
-      "label": "Adults at risk",
       "questions": 1,
       "section": "Safeguarding and its principles"
     },
@@ -33,15 +26,8 @@
     {
       "type": "h5p",
       "path": "safeguarding-adults-level-2/p4",
-      "label": "More categories",
-      "questions": 1,
-      "section": "Recognising abuse"
-    },
-    {
-      "type": "h5p",
-      "path": "safeguarding-adults-level-2/p10",
-      "label": "Specific abuse types",
-      "questions": 1,
+      "label": "The categories in detail",
+      "questions": 2,
       "section": "Recognising abuse"
     },
     {
@@ -61,15 +47,8 @@
     {
       "type": "h5p",
       "path": "safeguarding-adults-level-2/p6",
-      "label": "Raising a concern",
-      "questions": 1,
-      "section": "Responding to concerns"
-    },
-    {
-      "type": "h5p",
-      "path": "safeguarding-adults-level-2/p12",
-      "label": "Reporting and agencies",
-      "questions": 1,
+      "label": "Raising, reporting and agencies",
+      "questions": 2,
       "section": "Reporting and the law"
     },
     {

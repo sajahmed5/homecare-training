@@ -1,5 +1,5 @@
 {
-  "title": "Safeguarding Adults Level 2 — More categories",
+  "title": "Safeguarding Adults Level 2 — The categories in detail",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -52,6 +52,11 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.TrueFalse",
+      "majorVersion": 1,
+      "minorVersion": 8
     }
   ]
 }

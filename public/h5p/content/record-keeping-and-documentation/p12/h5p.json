@@ -1,5 +1,5 @@
 {
-  "title": "Record Keeping & Documentation — Sharing and Caldicott",
+  "title": "Record Keeping & Documentation — Confidentiality, sharing and secure handling",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -57,6 +57,11 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16
     }
   ]
 }

@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Confidentiality is not the same as secrecy</h2><p>Confidentiality means personal information is shared only with those who have a genuine need to know it for the person&rsquo;s care. It does not mean information is never shared at all. Sometimes sharing is exactly the right thing to do &mdash; for example, passing a change in someone&rsquo;s condition to a nurse or GP.</p><p>The skill is knowing what to share, with whom, and why. Share too little and a person may not get safe care; share too widely and you break both their trust and the law.</p>"
+          "text": "<h2>Confidentiality is not the same as secrecy</h2><p>Confidentiality means personal information is shared only with those who have a genuine need to know it for the person&rsquo;s care. It does not mean information is never shared at all. Sometimes sharing is exactly the right thing to do &mdash; for example, passing a change in someone&rsquo;s condition to a nurse or GP.</p><p>The skill is knowing what to share, with whom, and why. Share too little and a person may not get safe care; share too widely and you break both their trust and the law.</p><h2>The Caldicott principles</h2><p>The Caldicott principles are a well-known guide for handling confidential health and care information. They help you judge when sharing is appropriate. In short, they remind you to:</p><ul><li><strong>Justify the purpose:</strong> be clear about why information is being shared.</li><li><strong>Use only what is needed:</strong> share the minimum amount necessary.</li><li><strong>Share on a need-to-know basis:</strong> only with those involved in the person&rsquo;s care.</li><li><strong>Respect duties both ways:</strong> the duty to share can matter as much as the duty to protect.</li><li><strong>Follow the law:</strong> everyone handling information should understand their responsibilities.</li></ul><p>A further principle reminds services to be open with people about how their information is used.</p><h2>Storing, keeping and disposing of records</h2><p>Care records contain sensitive personal information, so they must be handled securely for as long as you hold them &mdash; and disposed of safely when they are no longer needed.</p><ul><li><strong>Secure storage:</strong> keep paper records locked away, and never leave electronic records open on an unattended screen.</li><li><strong>Retention:</strong> keep records only as long as they are needed. Adult social care records are generally kept for a minimum of eight years, following your organisation&rsquo;s retention policy.</li><li><strong>Disposal:</strong> dispose of records securely &mdash; shred paper and delete electronic files properly &mdash; never in ordinary bins or recycling.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "afa4e071-fda8-45a1-840f-148fc75f4423",
+        "subContentId": "90a224a9-933b-4045-9830-eef2ceedd8dc",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,21 +44,6 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The Caldicott principles</h2><p>The Caldicott principles are a well-known guide for handling confidential health and care information. They help you judge when sharing is appropriate. In short, they remind you to:</p><ul><li><strong>Justify the purpose:</strong> be clear about why information is being shared.</li><li><strong>Use only what is needed:</strong> share the minimum amount necessary.</li><li><strong>Share on a need-to-know basis:</strong> only with those involved in the person&rsquo;s care.</li><li><strong>Respect duties both ways:</strong> the duty to share can matter as much as the duty to protect.</li><li><strong>Follow the law:</strong> everyone handling information should understand their responsibilities.</li></ul><p>A further principle reminds services to be open with people about how their information is used.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "24a5f11c-c4fa-40fc-8b27-7c68749b6236",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
           "taskDescription": "<p><p>Drag each word into the correct gap to complete these sentences about sharing information.</p></p>",
           "textField": "*Confidentiality* means sharing personal information only with those who genuinely need it. Sharing on a *need-to-know* basis limits who can see a person&rsquo;s details. The Caldicott principles say you should share the *minimum* amount of information necessary. Sometimes the duty to *share* is as important as the duty to protect. Being *open* with people about how their information is used helps build trust.",
           "behaviour": {
@@ -86,6 +71,71 @@
           "contentType": "H5P.DragText",
           "license": "U",
           "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which of these follow the rules on confidentiality, storage and retention? (Select all that apply.)</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Sharing information only with those who need it to support the person.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. The \"need to know\" principle is central to confidentiality under UK GDPR.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Logging in as yourself on the electronic system and never sharing your password.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Your login identifies who made each entry, so it must never be shared.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leaving a paper care file open on the kitchen table between visits.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This breaches confidentiality and secure-storage duties. Records must be kept locked away.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": true,
+              "text": "<div>Keeping records securely for the retention period, then disposing of them by shredding.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Records are kept for the required period, then destroyed securely rather than binned.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "afe406af-fda3-4461-a898-d127ab09731e",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

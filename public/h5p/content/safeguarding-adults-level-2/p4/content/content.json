@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Further categories to know</h2><p>Alongside the categories on the previous page, the guidance also highlights forms of abuse that can be hidden or harder to recognise. Frontline care workers are well placed to notice small changes that point to these.</p><ul><li><strong>Domestic abuse</strong> - abuse between people in a relationship or family, including controlling and coercive behaviour, not only physical violence.</li><li><strong>Sexual abuse</strong> - any sexual activity a person has not consented to, could not consent to, or was pressured into.</li><li><strong>Modern slavery</strong> - human trafficking, forced labour and domestic servitude, where a person is exploited and controlled by others.</li><li><strong>Discriminatory abuse</strong> - harassment, slurs or unequal treatment based on a protected characteristic such as age, disability, race, religion, sex or sexual orientation.</li></ul>"
+          "text": "<h2>The categories of abuse in detail</h2><p>Alongside the categories introduced on the previous page, some forms of abuse can be hidden or harder to recognise. Frontline care workers are well placed to notice the small changes that point to them. Remember that abuse rarely happens in isolation &mdash; a person may experience more than one type at once, so keep an open mind.</p><ul><li><strong>Domestic abuse</strong> &mdash; controlling, coercive, threatening, violent or abusive behaviour between people who are, or have been, intimate partners or family members. It is not only physical: controlling money, isolating someone from friends and constant belittling are all part of it.</li><li><strong>Sexual abuse</strong> &mdash; any sexual activity a person has not consented to, could not consent to, or was pressured into.</li><li><strong>Modern slavery</strong> &mdash; human trafficking, forced labour, domestic servitude, sexual exploitation or crime, where a person is exploited and controlled by others. Signs can include having no identity documents, seeming fearful of a controlling companion, working excessive hours, or keeping none of their own earnings.</li><li><strong>Discriminatory abuse</strong> &mdash; harassment, slurs or unequal treatment based on a protected characteristic such as age, disability, race, religion, sex or sexual orientation.</li><li><strong>Self-neglect</strong> &mdash; where an adult neglects their own health, hygiene or surroundings, or hoards to a degree that puts them at risk. It still falls within safeguarding and needs a caring, person-led response rather than judgement.</li><li><strong>Organisational abuse</strong> &mdash; neglect or poor care that comes from the routines, culture or practices of a service, for example rigid rotas that ignore people's choices.</li></ul><h3>Recognising the signs</h3><p>Indicators vary between categories, but common warning signs include unexplained injuries or frequent falls, sudden changes in mood or withdrawal, fearfulness around certain people, unexplained money problems, poor hygiene or weight loss, and reluctance to be left alone with someone. A single sign does not prove abuse, but a pattern of signs, or a sign that does not fit the explanation given, should always prompt you to raise a concern.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "0e60b3f9-068f-488a-a97c-a9a65f9a7534",
+        "subContentId": "123c5f53-8db8-46c5-ab99-a43453f7f309",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h3>Recognising the signs</h3><p>Indicators vary between categories, but common warning signs include unexplained injuries or frequent falls, sudden changes in mood or withdrawal, fearfulness around certain people, unexplained money problems, poor hygiene or weight loss, and reluctance to be left alone with someone. A single sign does not prove abuse, but a pattern of signs, or a sign that does not fit the explanation given, should always prompt you to raise a concern.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "34ea6b7f-0ce1-4704-bd02-c46b33048f31",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -117,6 +102,35 @@
           "contentType": "H5P.MultiChoice",
           "license": "U",
           "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Self-neglect, where an adult neglects their own health, hygiene or surroundings, can be a safeguarding matter even though no other person is causing the harm.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Self-neglect is included within adult safeguarding; the harm does not have to come from another person for a concern to apply.",
+            "correctAnswerMessage": "Correct. Self-neglect is recognised within adult safeguarding and calls for a supportive, person-centred response."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ddd053f6-414c-47c3-ae99-6d727b531237",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

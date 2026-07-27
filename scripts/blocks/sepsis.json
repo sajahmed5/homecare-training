@@ -33,15 +33,8 @@
     {
       "type": "h5p",
       "path": "sepsis/p5",
-      "label": "Key warning signs",
+      "label": "Warning signs of sepsis",
       "questions": 1,
-      "section": "Recognising sepsis"
-    },
-    {
-      "type": "h5p",
-      "path": "sepsis/p6",
-      "label": "More warning signs",
-      "questions": 0,
       "section": "Recognising sepsis"
     },
     {
