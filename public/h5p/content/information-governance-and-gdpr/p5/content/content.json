@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Confidentiality and the Caldicott Principles</h2><p>Confidentiality means keeping personal information private and only using or sharing it appropriately. In health and social care, the <strong>Caldicott Principles</strong> guide how confidential information is used. The key ideas include:</p><ul><li>Justify the purpose &mdash; be clear why you need the information.</li><li>Use confidential information only when it is really necessary.</li><li>Use the minimum necessary &mdash; don't share more than is needed.</li><li>Access should be strictly on a <strong>need-to-know</strong> basis.</li><li>Everyone must understand their responsibilities and comply with the law.</li><li>The duty to share information for care can be as important as the duty to protect confidentiality.</li></ul><p>A <strong>Caldicott Guardian</strong> is a senior person in many services who champions the confidential and appropriate use of information.</p>"
+          "text": "<h2>Confidentiality and the Caldicott principles</h2><p><strong>Confidentiality</strong> means keeping personal information private and only using or sharing it appropriately. In health and social care, the <strong>Caldicott principles</strong> guide how confidential information is handled. In practice they ask you to:</p><ul><li><strong>Justify the purpose</strong> &mdash; be clear why you need the information for every use.</li><li><strong>Use it only when necessary</strong> &mdash; do not use confidential information unless it is genuinely required.</li><li><strong>Use the minimum necessary</strong> &mdash; share no more than is needed, never gathering information &lsquo;just in case&rsquo;.</li><li><strong>Access on a need-to-know basis</strong> &mdash; people should see only the information their role requires.</li><li><strong>Understand your responsibilities</strong> &mdash; everyone handling confidential information must know their duties and comply with the law.</li><li><strong>Be open</strong> &mdash; organisations should be transparent with people about how their information is used, so there are no surprises.</li><li><strong>Share when it is right to</strong> &mdash; the duty to share information can be as important as the duty to protect it.</li></ul><p>A <strong>Caldicott Guardian</strong> is a senior person in many services who champions the confidential and appropriate use of people&rsquo;s information.</p><h2>Need to know and the duty to share</h2><p>&lsquo;Need to know&rsquo; is a practical test: before you look at, discuss or pass on information, ask whether you actually need it to do your job or keep someone safe. <strong>Curiosity is never a good enough reason.</strong></p><p>At the same time, protecting information is not the same as hoarding it. One Caldicott principle makes clear that the <strong>duty to share</strong> can be as important as the duty to protect. If a person could be harmed because professionals held back information that should have been shared, that failure is just as serious as an inappropriate disclosure. Safe, joined-up care depends on getting this balance right &mdash; and on recording your reasons.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "b70cb86f-afa8-4f82-8569-ee7cc47585eb",
+        "subContentId": "1e639ebd-320d-44bd-ac82-8ef364b2ad4b",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,8 +44,8 @@
     {
       "content": {
         "params": {
-          "taskDescription": "<p>Fill in the gaps to complete these confidentiality rules.</p>",
-          "textField": "Access to a service user's records should be strictly on a *need-to-know* basis. When information must be used, share the *minimum* amount necessary. A senior person known as the *Caldicott* Guardian champions confidentiality. Keeping personal details private is called *confidentiality*, and it should never be discussed in a public *corridor* where others might overhear.",
+          "taskDescription": "<p><p>Drag each word into the correct gap to complete the summary of the Caldicott principles.</p></p>",
+          "textField": "You should use the *minimum* amount of confidential information needed, and only access records on a strict need-to-*know* basis. Every use of that information must have a justified *purpose*. One principle reminds us that the duty to *share* can be as important as the duty to protect, so that people receive safe, joined-up *care*.",
           "behaviour": {
             "enableRetry": true,
             "enableSolutionsButton": true,
@@ -66,7 +66,7 @@
           "incorrectText": "Incorrect!"
         },
         "library": "H5P.DragText 1.10",
-        "subContentId": "b0a87cbc-a205-4598-8b50-6577f19212a9",
+        "subContentId": "09f78a87-70db-405b-b80c-ebd9663da78c",
         "metadata": {
           "contentType": "H5P.DragText",
           "license": "U",

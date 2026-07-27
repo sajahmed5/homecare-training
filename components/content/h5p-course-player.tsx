@@ -17,7 +17,7 @@ interface XapiEvent {
   data?: {
     statement?: {
       object?: { id?: string };
-      result?: { success?: boolean };
+      result?: { success?: boolean; response?: string };
     };
   };
 }
@@ -50,6 +50,7 @@ export function H5PCoursePlayer({
   title,
   description,
   summary,
+  estimatedMinutes,
   pages,
   initialBlock,
 }: {
@@ -58,6 +59,7 @@ export function H5PCoursePlayer({
   title: string;
   description?: string;
   summary?: CourseSummary | null;
+  estimatedMinutes?: number | null;
   pages: H5PBlock[];
   initialBlock: number;
 }) {
@@ -128,7 +130,16 @@ export function H5PCoursePlayer({
       if (verb !== "answered" && verb !== "completed") return;
       const statement = e.data?.statement;
       const id = statement?.object?.id ?? `q-${answeredRef.current.size}`;
-      if (!answeredRef.current.has(id)) {
+      // Only count a check that carries a real response — clicking "Check" with
+      // nothing selected must not satisfy the Next gate. H5P joins response parts
+      // with the "[,]" delimiter (MultiChoice indices, DragText drops), so an
+      // empty answer looks like "[,][,][,]" not "". Strip the delimiters and
+      // check for actual content.
+      const response = statement?.result?.response;
+      const hasAnswer =
+        typeof response === "string" &&
+        response.replace(/\[,\]/g, "").trim() !== "";
+      if (hasAnswer && !answeredRef.current.has(id)) {
         answeredRef.current.add(id);
         setAnsweredCount(answeredRef.current.size);
       }
@@ -247,7 +258,9 @@ export function H5PCoursePlayer({
     router.push("/learn");
   }
 
-  const estMinutes = Math.max(10, Math.round(total * 2));
+  // Realistic per-course estimate (from content word count); falls back to a
+  // rough pages-based figure when the course has no computed duration yet.
+  const estMinutes = estimatedMinutes ?? Math.max(10, Math.round(total * 2));
 
   // ---- Intro screen (fresh start only) ---------------------------------
   if (stage === "intro") {

@@ -47,14 +47,7 @@
     {
       "type": "h5p",
       "path": "information-governance-and-gdpr/p5",
-      "label": "Confidentiality",
-      "questions": 1,
-      "section": "Confidentiality and the duty to share"
-    },
-    {
-      "type": "h5p",
-      "path": "information-governance-and-gdpr/p11",
-      "label": "Caldicott principles",
+      "label": "Confidentiality & the Caldicott principles",
       "questions": 1,
       "section": "Confidentiality and the duty to share"
     },

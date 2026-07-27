@@ -26,7 +26,7 @@ export default async function CoursePage({
 
   const { data: course } = await supabase
     .from("courses")
-    .select("title, description, summary, content_blocks")
+    .select("title, description, summary, content_blocks, estimated_minutes")
     .eq("id", courseId)
     .maybeSingle();
   if (!course) notFound();
@@ -57,6 +57,7 @@ export default async function CoursePage({
           title={course.title}
           description={course.description ?? ""}
           summary={summary}
+          estimatedMinutes={course.estimated_minutes ?? null}
           pages={h5pPages}
           initialBlock={enrolment.current_block ?? 0}
         />

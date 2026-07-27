@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Check, X } from "lucide-react";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Confetti } from "@/components/confetti";
 import { PASS_PERCENT, type PublicQuestion } from "@/lib/quiz";
 import {
@@ -181,19 +182,59 @@ export function QuizRunner({
         </p>
       )}
       {result?.passed ? (
-        <div className="space-y-3">
+        <div className="space-y-6">
           <p className="text-muted-foreground">
             A certificate has been issued. Your newest certificate is the live one for compliance.
           </p>
+
+          {result.review && result.review.length > 0 && (
+            <div className="space-y-2 text-left">
+              <h3 className="text-sm font-semibold">Your answers</h3>
+              <ul className="divide-y rounded-2xl border bg-card">
+                {result.review.map((r, i) => (
+                  <li key={i} className="flex items-start gap-3 p-3">
+                    <span
+                      className={`mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full ${
+                        r.correct ? "bg-green-100 text-green-700" : "bg-rose-100 text-rose-700"
+                      }`}
+                    >
+                      {r.correct ? <Check className="size-4" /> : <X className="size-4" />}
+                    </span>
+                    <div className="min-w-0 flex-1 space-y-1">
+                      <p className="text-sm font-medium">{r.question}</p>
+                      {!r.correct && (
+                        <div className="text-xs">
+                          <p className="text-rose-600">Your answer: {r.your}</p>
+                          <p className="text-green-700">Correct answer: {r.answer}</p>
+                        </div>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="flex justify-center gap-3">
             {result.certificateId && <Button onClick={download}>Download certificate</Button>}
             <Link href="/learn" className="self-center text-sm text-muted-foreground hover:underline">Back to my training</Link>
           </div>
         </div>
       ) : (
-        <div className="flex justify-center gap-3">
-          <Button onClick={() => { setResult(null); setPhase("intro"); }}>Retake assessment</Button>
-          <Link href="/learn" className="self-center text-sm text-muted-foreground hover:underline">Back to my training</Link>
+        <div className="space-y-6">
+          <p className="mx-auto max-w-md text-muted-foreground">
+            Go back through the course and focus on the areas you found tricky, then
+            retake the assessment. We don&apos;t show the answers for a failed attempt.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link href={`/learn/courses/${courseId}`} className={buttonVariants()}>
+              Review the course
+            </Link>
+            <Button variant="outline" onClick={() => { setResult(null); setPhase("intro"); }}>
+              Retake assessment
+            </Button>
+            <Link href="/learn" className="self-center text-sm text-muted-foreground hover:underline">Back to my training</Link>
+          </div>
         </div>
       )}
     </div>

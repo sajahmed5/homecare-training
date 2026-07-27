@@ -12,8 +12,11 @@ import {
   computeExpiry,
   gradeAnswer,
   toPublicQuestion,
+  learnerAnswerText,
+  correctAnswerText,
   type PublicQuestion,
   type StoredQuestion,
+  type ReviewItem,
 } from "@/lib/quiz";
 import { STARS_PER_COURSE, currentCycleStartMs, bestStarsSince } from "@/lib/stars";
 
@@ -95,6 +98,8 @@ export interface SubmitQuizResult {
   certificateId?: string;
   /** New stars banked by this attempt (delta over the course's previous best). */
   starsAwarded?: number;
+  /** Per-question breakdown. Answers included only on a pass (see ReviewItem). */
+  review?: ReviewItem[];
 }
 
 /** Grade an attempt server-side, update counters, and issue a certificate on a pass. */
@@ -128,13 +133,30 @@ export async function submitQuizAction(
     (questions ?? []).map((q) => [q.id as string, q as StoredQuestion]),
   );
   let correct = 0;
+  const graded: { q: StoredQuestion; ok: boolean }[] = [];
   for (const id of questionIds) {
     const q = byId.get(id);
-    if (q && gradeAnswer(q, answers[id])) correct += 1;
+    if (!q) continue;
+    const ok = gradeAnswer(q, answers[id]);
+    if (ok) correct += 1;
+    graded.push({ q, ok });
   }
   const total = questionIds.length;
   const score = total > 0 ? Math.round((correct / total) * 100) : 0;
   const passed = score >= PASS_PERCENT;
+
+  // Per-question review — ONLY on a pass. A failed attempt returns nothing about
+  // the questions (not even which ones were wrong); the learner is simply sent
+  // back to the course content. This avoids revealing the served question set or
+  // the answer key to someone who is about to retake.
+  const review: ReviewItem[] | undefined = passed
+    ? graded.map(({ q, ok }) => ({
+        question: q.question,
+        correct: ok,
+        your: learnerAnswerText(q, answers[q.id]),
+        answer: correctAnswerText(q),
+      }))
+    : undefined;
 
   // Star bank: this attempt banks only the improvement over the best already
   // earned in the CURRENT compliance cycle (capped at 20). A cycle starts when
@@ -203,7 +225,7 @@ export async function submitQuizAction(
   }
 
   revalidatePath("/learn");
-  return { ok: true, score, correct, total, passed, certificateId, starsAwarded };
+  return { ok: true, score, correct, total, passed, certificateId, starsAwarded, review };
 }
 
 /**

@@ -121,6 +121,80 @@ export function gradeAnswer(q: StoredQuestion, answer: unknown): boolean {
   }
 }
 
+/** Render a learner's submitted answer as display text (for the pass review). */
+export function learnerAnswerText(q: StoredQuestion, answer: unknown): string {
+  const opts = q.options ?? [];
+  switch (q.type) {
+    case "mcq":
+    case "true_false":
+      return typeof answer === "number" && opts[answer] != null
+        ? opts[answer]
+        : "No answer";
+    case "multi": {
+      const picked = Array.isArray(answer)
+        ? answer.map(Number).filter((n) => opts[n] != null).map((n) => opts[n])
+        : [];
+      return picked.length ? picked.join(", ") : "No answer";
+    }
+    case "fill_blank": {
+      const given = Array.isArray(answer)
+        ? (answer as unknown[]).map((s) => String(s ?? "").trim()).filter(Boolean)
+        : [];
+      return given.length ? given.join(", ") : "No answer";
+    }
+    case "hotspot": {
+      const zones = q.payload?.zones ?? [];
+      const picked = Array.isArray(answer)
+        ? answer
+            .map(Number)
+            .map((id) => zones.find((z) => z.id === id)?.label)
+            .filter(Boolean)
+        : [];
+      return picked.length ? picked.join(", ") : "No answer";
+    }
+  }
+}
+
+/** Render the correct answer as display text (only ever shown after a pass). */
+export function correctAnswerText(q: StoredQuestion): string {
+  const opts = q.options ?? [];
+  switch (q.type) {
+    case "mcq":
+    case "true_false":
+      return q.answer_index != null && opts[q.answer_index] != null
+        ? opts[q.answer_index]
+        : "";
+    case "multi":
+      return (q.payload?.correctIndices ?? [])
+        .map((i) => opts[i])
+        .filter(Boolean)
+        .join(", ");
+    case "fill_blank":
+      return (q.payload?.blanks ?? [])
+        .map((b) => (b.answers ?? [])[0])
+        .filter(Boolean)
+        .join(", ");
+    case "hotspot":
+      return (q.payload?.zones ?? [])
+        .filter((z) => z.correct)
+        .map((z) => z.label)
+        .filter(Boolean)
+        .join(", ");
+  }
+}
+
+/**
+ * One line of the post-assessment review. `your`/`answer` are populated ONLY on
+ * a pass — a failed attempt must never reveal the answer key (the learner is
+ * pointed back to the course content instead).
+ */
+export interface ReviewItem {
+  question: string;
+  correct: boolean;
+  your?: string;
+  answer?: string;
+}
+
 /** Grade a whole attempt: one point per question, all-or-nothing per question. */
 export function gradeQuiz(
   questions: StoredQuestion[],
