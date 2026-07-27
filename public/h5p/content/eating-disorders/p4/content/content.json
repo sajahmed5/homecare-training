@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The main types</h2><p>There are several recognised eating disorders, and a person's difficulties may not fit neatly into one box. You do not need to work out which type someone has &mdash; that is for professionals &mdash; but a basic awareness helps you understand what you might see and why it matters.</p><ul><li><strong>Anorexia:</strong> restricting food, with an intense fear of weight gain.</li><li><strong>Bulimia:</strong> cycles of bingeing and then purging or compensating.</li><li><strong>Binge eating disorder:</strong> regular episodes of eating large amounts, with a loss of control.</li></ul>"
+          "text": "<h2>The main types</h2><p>There are several recognised eating disorders, and a person's difficulties may not fit neatly into one box. You do not need to work out which type someone has &mdash; that is for professionals &mdash; but a basic awareness helps you understand what you might see and why it matters.</p><p>In <strong>anorexia</strong>, a person severely limits what they eat, often alongside excessive exercise, because of an overwhelming fear of gaining weight and a distorted view of their body. They may see themselves as larger than they are, even when dangerously underweight. In <strong>bulimia</strong>, a person eats a large amount in a short time (a binge) and then tries to undo it &mdash; by vomiting, using laxatives, fasting or over-exercising &mdash; often trapped in a cycle they feel unable to break. In <strong>binge eating disorder</strong>, a person regularly eats very large amounts of food in one go, feeling a loss of control while doing so, and usually great distress, guilt or shame afterwards; unlike bulimia, the binges are not followed by purging. It is the most common eating disorder, and it is a recognised mental illness &mdash; not simply overeating or a lack of willpower. People with binge eating disorder often eat in secret and may be at any weight, and both anorexia and bulimia are frequently concealed from others.</p><h2>OSFED and ARFID</h2><p>Two further terms are worth knowing. <strong>OSFED</strong> stands for Other Specified Feeding or Eating Disorder. It is used when someone has a serious eating disorder whose symptoms do not exactly match anorexia, bulimia or binge eating disorder. OSFED is common and just as serious &mdash; it is not a milder or lesser problem.</p><p><strong>ARFID</strong> stands for Avoidant or Restrictive Food Intake Disorder. Unlike the others, it is not driven by concerns about weight or body shape. A person with ARFID may avoid food because of its taste, smell or texture, because they have little interest in eating, or because they fear choking or being sick. ARFID can affect people of any age and can seriously harm health if it is not addressed.</p><p>Whatever the type, the behaviour is bound up with difficult emotions rather than with hunger or greed, so responding with understanding rather than judgement is essential.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "cf141019-0273-4b47-a108-88efbe11eee9",
+        "subContentId": "63d6b3df-e80c-4a7f-bc9f-32da2a9876dc",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,14 +44,64 @@
     {
       "content": {
         "params": {
-          "text": "<h2>OSFED and ARFID</h2><p>Two further terms are worth knowing. <strong>OSFED</strong> stands for Other Specified Feeding or Eating Disorder. It is used when someone has a serious eating disorder whose symptoms do not exactly match anorexia, bulimia or binge eating disorder. OSFED is common and just as serious &mdash; it is not a milder or lesser problem.</p><p><strong>ARFID</strong> stands for Avoidant or Restrictive Food Intake Disorder. Unlike the others, it is not driven by concerns about weight or body shape. A person with ARFID may avoid food because of its taste, smell or texture, because they have little interest in eating, or because they fear choking or being sick. ARFID can affect people of any age and can seriously harm health if it is not addressed.</p>"
+          "question": "<p>What is a key difference between bulimia and binge eating disorder?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>In bulimia, binges are followed by purging or compensating; in binge eating disorder, they usually are not.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Purging or compensating after a binge is a feature of bulimia, not of binge eating disorder.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Binge eating disorder only affects people who are overweight.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "People with binge eating disorder can be at any weight.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Bulimia is not a real illness, but binge eating disorder is.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Both are recognised, serious mental illnesses.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>There is no difference; the two terms mean the same thing.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "They are distinct conditions, though both involve episodes of bingeing.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
         },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "6cba56a3-647e-4e5d-91c4-b1706a8ca668",
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "23baaa03-53e4-4516-bbff-a5a5337dac7f",
         "metadata": {
-          "contentType": "H5P.AdvancedText",
+          "contentType": "H5P.MultiChoice",
           "license": "U",
-          "title": "Text"
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

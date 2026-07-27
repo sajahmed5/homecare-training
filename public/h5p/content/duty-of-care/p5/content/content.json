@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Incidents, errors and near misses</h2><p>However careful we are, things sometimes go wrong. An <strong>incident</strong> is an event that caused harm or could have caused harm. An <strong>error</strong> is a mistake, such as giving the wrong medication. A <strong>near miss</strong> is something that could have gone wrong but was caught in time and did not cause harm.</p><p>All three must be reported, even when no one was hurt. Near misses are especially valuable: they are early warnings that let a service fix a problem before someone comes to harm. Reporting them is never about blame &mdash; it is about learning and keeping people safe.</p>"
+          "text": "<h2>Incidents, errors and near misses</h2><p>However careful we are, things sometimes go wrong. An <strong>incident</strong> is an event that caused harm or could have caused harm. An <strong>error</strong> is a mistake, such as giving the wrong medication. A <strong>near miss</strong> is something that could have gone wrong but was caught in time and did not cause harm.</p><p>All three must be reported, even when no one was hurt. Near misses are especially valuable: they are early warnings that let a service fix a problem before someone comes to harm. Reporting them is never about blame &mdash; it is about learning and keeping people safe.</p><h2>The duty of candour</h2><p>The <strong>duty of candour</strong> is the legal requirement to be open, honest and transparent when something goes wrong. It applies to whole organisations and to every worker within them. Since 2021 it sits within Care Certificate Standard 3, and for your organisation it is a legal requirement under CQC Regulation 20.</p><p>Candour means you do not hide mistakes, play them down, or hope nobody notices. If a person you support is harmed, or could have been harmed, they and the people close to them deserve a truthful account of what happened.</p><h2>Being open in practice</h2><p>When something goes wrong that affects a person's care, you must:</p><ul><li><strong>Tell the person promptly:</strong> report the event to your manager as soon as you notice it, and tell the person (or their representative) what happened in plain language they can understand.</li><li><strong>Say sorry sincerely:</strong> offer a genuine, sincere apology. Saying sorry is not an admission of legal liability, nor that you are a bad worker &mdash; it is basic respect.</li><li><strong>Put things right:</strong> explain what will be done to put things right and to stop it happening again, and take part in the learning.</li><li><strong>Report and record honestly:</strong> record the event honestly and promptly.</li></ul><p>Covering up a mistake is far more serious than the mistake itself. Being open builds trust and allows the whole team to learn.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "fb164c51-59da-43cc-9eab-44d2ef77fb01",
+        "subContentId": "beeaa50d-b355-4af1-bfbb-37d58292dce5",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,21 +44,6 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Duty of candour: being open and honest</h2><p>The <strong>duty of candour</strong> is the legal requirement to be open, honest and transparent when something goes wrong. It applies to whole organisations and to every worker within them.</p><p>When something goes wrong that affects a person's care, you must:</p><ul><li>tell the person (or their representative) what happened, in a way they can understand</li><li>offer a genuine, sincere <strong>apology</strong> &mdash; saying sorry is not an admission of legal liability</li><li>explain what will be done to put things right and to stop it happening again</li><li>report and record the event honestly and promptly</li></ul><p>Covering up a mistake is far more serious than the mistake itself. Being open builds trust and allows the whole team to learn.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "30725084-25e5-4408-86d5-1daf2b0c744b",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
           "question": "<p>A near miss that caused no harm still needs to be reported.</p>",
           "correct": "true",
           "l10n": {
@@ -81,6 +66,71 @@
           "contentType": "H5P.TrueFalse",
           "license": "U",
           "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>A person you support receives the wrong dose of medication but seems unharmed. What does the duty of candour require?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Report it promptly and support an open, honest explanation to the person, even though they seem fine.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Candour applies to near misses and events that could have caused harm, not only to visible injuries.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Say nothing, because no harm was actually done.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Candour covers events that could have caused harm; staying silent breaks trust and your legal duty.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait to see whether the person notices before deciding what to say.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Being open should not depend on whether the person spots the error themselves.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Record it quietly in the notes but avoid telling the family.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. A private note is not candour; the person and, where appropriate, those close to them should receive an honest account.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "5009f192-9ba5-4d5a-8aad-585efd2d8fa9",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

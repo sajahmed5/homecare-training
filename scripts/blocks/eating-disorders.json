@@ -26,14 +26,7 @@
     {
       "type": "h5p",
       "path": "eating-disorders/p4",
-      "label": "Types overview",
-      "questions": 0,
-      "section": "Types and signs"
-    },
-    {
-      "type": "h5p",
-      "path": "eating-disorders/p5",
-      "label": "Recognising types",
+      "label": "The types of eating disorders",
       "questions": 1,
       "section": "Types and signs"
     },

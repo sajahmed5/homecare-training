@@ -1,5 +1,5 @@
 {
-  "title": "Duty of Care — Raising concerns safely",
+  "title": "Duty of Care — Speaking up: advocacy, safeguarding and whistleblowing",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -57,6 +57,11 @@
       "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16
     }
   ]
 }

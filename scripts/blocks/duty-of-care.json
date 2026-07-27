@@ -12,21 +12,14 @@
     {
       "type": "h5p",
       "path": "duty-of-care/p2",
-      "label": "Rights and choices",
-      "questions": 0,
+      "label": "Rights, choices and positive risk-taking",
+      "questions": 1,
       "section": "What duty of care means"
     },
     {
       "type": "h5p",
       "path": "duty-of-care/p3",
       "label": "Dilemmas and conflicts",
-      "questions": 1,
-      "section": "When duties conflict"
-    },
-    {
-      "type": "h5p",
-      "path": "duty-of-care/p10",
-      "label": "Positive risk-taking",
       "questions": 1,
       "section": "When duties conflict"
     },
@@ -47,15 +40,8 @@
     {
       "type": "h5p",
       "path": "duty-of-care/p5",
-      "label": "Incidents and near misses",
-      "questions": 1,
-      "section": "Being open when things go wrong"
-    },
-    {
-      "type": "h5p",
-      "path": "duty-of-care/p9",
-      "label": "Duty of candour",
-      "questions": 1,
+      "label": "Incidents, near misses and the duty of candour",
+      "questions": 2,
       "section": "Being open when things go wrong"
     },
     {
@@ -68,15 +54,8 @@
     {
       "type": "h5p",
       "path": "duty-of-care/p12",
-      "label": "Raising concerns safely",
-      "questions": 1,
-      "section": "Speaking up and safeguarding"
-    },
-    {
-      "type": "h5p",
-      "path": "duty-of-care/p7",
-      "label": "Safeguarding link",
-      "questions": 1,
+      "label": "Speaking up: advocacy, safeguarding and whistleblowing",
+      "questions": 2,
       "section": "Speaking up and safeguarding"
     },
     {

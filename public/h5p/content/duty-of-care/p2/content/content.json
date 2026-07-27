@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Balancing safety with rights and choices</h2><p>People have the right to make their own decisions about their lives &mdash; including decisions that carry some risk. This is sometimes called the <strong>dignity of risk</strong>: the idea that being allowed to take everyday risks is part of living a full and dignified life. A person who is never allowed to try, to fail, or to make an unwise choice is being denied their independence.</p><p>This can sit in tension with your duty of care. Your instinct may be to protect someone from every possible harm, but over-protecting a person can strip away their confidence, dignity and self-worth. The skill lies in finding a balance.</p><p><strong>Positive risk-taking</strong> is how we manage that balance. It means supporting a person to do the things they want to do, while sensibly assessing and reducing the risks &mdash; rather than simply saying \"no\".</p>"
+          "text": "<h2>Balancing safety with rights and choices</h2><p>People have the right to make their own decisions about their lives &mdash; including decisions that carry some risk. This is sometimes called the <strong>dignity of risk</strong>: being allowed to take everyday risks is part of living a full and dignified life. A person who is never allowed to try, to fail, or to make an unwise choice is being denied their independence. It can feel safest to stop the people you support from doing anything risky, yet a life with no risk is often a life with no choice, independence or enjoyment.</p><p>This can sit in tension with your duty of care. Your instinct may be to protect someone from every possible harm, but over-protecting a person can strip away their confidence, dignity and self-worth. Your duty of care sits alongside each person's right to make their own decisions, and the skill lies in finding a balance.</p><h2>Positive risk-taking</h2><p><strong>Positive risk-taking</strong> is how we manage that balance. It means working with a person to weigh up the benefits and the hazards of an activity, then supporting them to do what they want to do as safely as possible &mdash; sensibly assessing and reducing the risks, rather than simply saying \"no\".</p><h2>Unwise decisions and mental capacity</h2><p>The <strong>Mental Capacity Act 2005</strong> is clear that a person who has capacity is allowed to make what others might see as an unwise decision. Choosing to eat foods a dietitian advised against, or to walk to the shops alone, is their right.</p><ul><li><strong>Start by assuming capacity:</strong> do not treat a choice as unsafe just because you disagree with it.</li><li><strong>Share clear, honest information:</strong> make sure the person understands the likely benefits and dangers.</li><li><strong>Listen and respect their wishes:</strong> pay attention to what matters to them.</li><li><strong>Plan together:</strong> work with the person, their family and the wider team to agree a plan and a risk assessment, taking small steps that reduce danger without removing the choice.</li><li><strong>Record the decision:</strong> note the discussion, the risks discussed and the agreed support, so the reasoning is clear to others.</li></ul><p>Remember that a person who has mental capacity has the right to make a decision that others might consider unwise. Your role is to support the choice safely, not to overrule it.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "8169507b-8a99-4673-b567-bd004938e839",
+        "subContentId": "48a28c51-60ea-4400-8f4a-ff971a1cdbb2",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,69 +44,28 @@
     {
       "content": {
         "params": {
-          "text": "<h2>How to support informed choices</h2><p>When someone wants to do something that carries risk, you can support them safely by:</p><ul><li>making sure they have clear, honest information about the possible benefits and dangers</li><li>listening to what matters to them and respecting their wishes</li><li>working with them, their family and the wider team to agree a plan and a risk assessment</li><li>recording the decision, the risks discussed and the agreed support</li></ul><p>Remember that a person who has mental capacity has the right to make a decision that others might consider unwise. Your role is to support the choice safely, not to overrule it.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "0e16a41a-9560-4233-ae3c-fd9897eeec69",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "title": "<p>Tap a card to flip it</p>",
-          "mode": "normal",
-          "description": "<p>Key ideas about rights, choices and risk. Tap each card to reveal the explanation.</p>",
-          "dialogs": [
-            {
-              "text": "<p>What is dignity of risk?</p>",
-              "answer": "<p>The principle that people have the right to take everyday risks and make their own choices, because doing so is part of living a full, dignified and independent life.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>What is positive risk-taking?</p>",
-              "answer": "<p>Supporting a person to do what they want to do while sensibly assessing and reducing the risks, rather than simply refusing or over-protecting them.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Can someone make a decision others think is unwise?</p>",
-              "answer": "<p>Yes. A person with mental capacity has the right to make choices that others might disagree with. Your job is to support the choice safely, not to overrule it.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Why not just remove every risk?</p>",
-              "answer": "<p>Over-protecting a person can take away their confidence, dignity and independence. Removing all risk can cause harm of a different kind.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>How do you make risk-taking safer?</p>",
-              "answer": "<p>Give clear information, listen to the person, complete a risk assessment with the team, agree a plan, and record the decision and the support offered.</p>",
-              "tips": {}
-            }
-          ],
+          "question": "<p>A person with mental capacity may make a decision you consider unwise, and your role is to support them to do it as safely as possible rather than to overrule them.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Under the Mental Capacity Act, a person with capacity has the right to make unwise decisions, and positive risk-taking supports them to do so safely.",
+            "correctAnswerMessage": "Correct. The Mental Capacity Act protects a capable person&rsquo;s right to make unwise decisions; your job is to reduce risk, not remove the choice."
+          },
           "behaviour": {
             "enableRetry": true,
-            "disableBackwardsNavigation": false,
-            "scaleTextNotCard": false,
-            "randomCards": false
-          },
-          "answer": "Turn",
-          "next": "Next",
-          "prev": "Previous",
-          "retry": "Retry",
-          "progressText": "Card @card of @total"
+            "enableSolutionsButton": true
+          }
         },
-        "library": "H5P.Dialogcards 1.9",
-        "subContentId": "83afd4e8-940b-481a-b6a7-c00f7cda3569",
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "ef0af3da-235a-49fa-a472-c9820ea9f691",
         "metadata": {
-          "contentType": "H5P.Dialogcards",
+          "contentType": "H5P.TrueFalse",
           "license": "U",
-          "title": "Flip cards"
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

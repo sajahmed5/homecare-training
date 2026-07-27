@@ -1,5 +1,5 @@
 {
-  "title": "Duty of Care — Rights and choices",
+  "title": "Duty of Care — Rights, choices and positive risk-taking",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -50,6 +50,16 @@
     },
     {
       "machineName": "H5P.Audio",
+      "majorVersion": 1,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.TrueFalse",
+      "majorVersion": 1,
+      "minorVersion": 8
+    },
+    {
+      "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
     }

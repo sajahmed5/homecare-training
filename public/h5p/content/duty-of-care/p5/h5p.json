@@ -1,5 +1,5 @@
 {
-  "title": "Duty of Care — Incidents and near misses",
+  "title": "Duty of Care — Incidents, near misses and the duty of candour",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -52,6 +52,11 @@
       "machineName": "H5P.FontIcons",
       "majorVersion": 1,
       "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16
     }
   ]
 }
