@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Common causes at work</h2><p>Most slips happen when a floor becomes wet or contaminated, and most trips are caused by poor housekeeping &ndash; clutter and obstructions left in walkways. Understanding the usual causes helps you spot a hazard before it causes harm.</p>"
+          "text": "<h2>Common causes of slips and trips</h2><p>Most slips happen when a floor becomes wet or contaminated, and most trips are caused by poor housekeeping &ndash; clutter and obstructions left in walkways. Understanding the usual causes helps you spot a hazard before it causes harm.</p><h2>Good housekeeping prevents harm</h2><p>Prevention is mostly about routine, sensible habits rather than expensive equipment. Keeping floors clean and dry, walkways clear and lighting working removes the vast majority of hazards before anyone is hurt.</p><ul><li>Clean up spillages the moment you notice them</li><li>Put out a warning sign and leave it until the floor is fully dry</li><li>Keep corridors, doorways and fire exits clear of clutter</li><li>Tuck away or cover trailing cables</li><li>Report failed lights, loose flooring and other defects promptly</li><li>Wear sensible, well-fitting non-slip footwear</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "0faba3d7-a40f-464d-81df-6b8bcaf588e9",
+        "subContentId": "99a9022e-a05c-4cd3-9fd6-1a67a4d9abb3",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,59 +44,62 @@
     {
       "content": {
         "params": {
-          "title": "<p>Tap a card to flip it</p>",
-          "mode": "normal",
-          "description": "<p>Common workplace slip and trip hazards and how they arise.</p>",
-          "dialogs": [
-            {
-              "text": "<p>Wet or contaminated floors</p>",
-              "answer": "<p>Spilt drinks, cleaning fluids, rainwater tracked in at doorways or bodily fluids all reduce grip. Clean up straight away and use a warning sign until the floor is dry.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Trailing cables</p>",
-              "answer": "<p>Leads from hoists, chargers, vacuum cleaners and medical equipment stretched across walkways are a classic trip hazard. Route cables around the edge or use covers.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Clutter and obstructions</p>",
-              "answer": "<p>Boxes, laundry, mobility aids and rubbish left in corridors block clear routes. Good housekeeping &ndash; a place for everything &ndash; is the simplest prevention.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Poor lighting</p>",
-              "answer": "<p>Dim corridors, stairwells and bulbs that have blown make hazards hard to see. Report failed lighting promptly so it can be replaced.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Unsuitable footwear</p>",
-              "answer": "<p>Worn soles, backless shoes or high heels give poor grip and stability. Wear well-fitting, flat, non-slip shoes suited to the work.</p>",
-              "tips": {}
-            },
-            {
-              "text": "<p>Uneven or damaged surfaces</p>",
-              "answer": "<p>Loose carpet, curled mat edges, worn thresholds and cracked paving cause trips. Report defects so they can be repaired.</p>",
-              "tips": {}
-            }
-          ],
+          "taskDescription": "<p>Complete this good-practice guidance on dealing with a spillage. Drag each word into the correct gap.</p>",
+          "textField": "Clean up a spillage *immediately* and place a warning *sign* by the wet floor. Leave the sign in position until the surface is completely *dry*. If you cannot clear the hazard yourself, *report* it so it can be dealt with. Choosing non-slip *footwear* also reduces your risk of a slip.",
           "behaviour": {
             "enableRetry": true,
-            "disableBackwardsNavigation": false,
-            "scaleTextNotCard": false,
-            "randomCards": false
+            "enableSolutionsButton": true,
+            "enableCheckButton": true,
+            "instantFeedback": false
           },
-          "answer": "Turn",
-          "next": "Next",
-          "prev": "Previous",
-          "retry": "Retry",
-          "progressText": "Card @card of @total"
+          "overallFeedback": [
+            {
+              "from": 0,
+              "to": 100,
+              "feedback": "You placed @score of @total correctly."
+            }
+          ],
+          "checkAnswer": "Check",
+          "tryAgain": "Retry",
+          "showSolution": "Show solution",
+          "correctText": "Correct!",
+          "incorrectText": "Incorrect!"
         },
-        "library": "H5P.Dialogcards 1.9",
-        "subContentId": "fa5f3af5-58ff-466d-b0f7-d030801406a0",
+        "library": "H5P.DragText 1.10",
+        "subContentId": "207f2bf9-5e13-4a9e-9de4-a156acd68621",
         "metadata": {
-          "contentType": "H5P.Dialogcards",
+          "contentType": "H5P.DragText",
           "license": "U",
-          "title": "Flip cards"
+          "title": "Fill in the blanks"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>It is fine to leave a spillage and deal with it later if you are busy.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Spillages must be dealt with immediately and marked with a sign, as anyone passing could slip and be injured.",
+            "correctAnswerMessage": "Correct. A spillage should be cleaned up immediately and marked with a warning sign, because anyone could slip in the meantime."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "e0ec0794-6ad2-42e8-a303-a6f49443e601",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

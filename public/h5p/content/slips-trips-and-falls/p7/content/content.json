@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>What to do if someone falls</h2><p>Seeing someone fall is alarming, but the safest response is a calm and careful one. <strong>Do not rush to lift the person up.</strong> Moving someone who has an injury &ndash; particularly a possible fracture or spinal injury &ndash; can cause serious further harm.</p><ol><li>Stay calm and reassure the person; keep them still and comfortable where they are</li><li>Check for injury, pain, bleeding, or signs of a head injury before any thought of moving them</li><li>Summon help &ndash; call for a colleague, and seek medical help or an ambulance if there is any injury or you are unsure</li><li>Only help them up when you are confident it is safe, using the correct moving-and-handling technique or equipment</li><li>Keep observing them afterwards, as some effects of a fall appear later</li></ol>"
+          "text": "<h2>What to do if someone falls</h2><p>Seeing someone fall is alarming, but the safest response is a calm and careful one. <strong>Do not rush to lift the person up.</strong> Moving someone who has an injury &ndash; particularly a possible fracture or spinal injury &ndash; can cause serious further harm. Never assume a fall is minor just because the person says they are fine.</p><h2>Check the situation first</h2><ul><li><strong>Response and breathing:</strong> are they conscious and breathing normally? If they are unresponsive or not breathing normally, call 999 and start your emergency procedure.</li><li><strong>Injury and pain:</strong> ask where it hurts and look for bleeding and for signs of a fracture, such as a shortened or turned-out leg, or an obvious deformity.</li><li><strong>What happened:</strong> if they can tell you, find out whether they felt dizzy, blacked out or hit their head.</li><li><strong>Comfort:</strong> reassure them and keep them warm, still and comfortable where they are.</li></ul><h2>When to call 999</h2><p>Call 999 for an ambulance if any of these apply, even if the person plays it down:</p><ul><li><strong>Head injury:</strong> they hit their head, or seem drowsy, confused or unwell afterwards.</li><li><strong>Anticoagulants:</strong> they take blood-thinning medicines such as warfarin, apixaban or rivaroxaban, as these can cause dangerous bleeding, including inside the head, after a knock.</li><li><strong>Suspected fracture:</strong> severe pain, an inability to move or bear weight, or a limb that looks wrong.</li><li><strong>Unresponsive, unwell, or you are simply unsure.</strong></li></ul><h2>Helping up, and never lifting by hand</h2><p>If someone may be injured, do not move them, and <strong>never lift them from the floor by hand</strong> &mdash; manual lifting risks worsening a fracture or head injury and can injure you too. Summon a colleague to help, and seek medical help or an ambulance if there is any injury or you are unsure. Only help a person up when you are confident it is safe: if it is safe to raise an uninjured person, use the correct moving-and-handling technique or suitable equipment, such as a raising cushion or hoist, as you have been trained. Keep observing them afterwards, as some effects of a fall appear hours later. Then record and report the fall so its cause can be reviewed.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "2ce975cc-e219-4de2-b689-60cf461635d6",
+        "subContentId": "f2b831fd-f1a7-4b38-8ed7-e143025417a9",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -127,6 +127,71 @@
         },
         "library": "H5P.MultiChoice 1.16",
         "subContentId": "8a3c4225-dc75-4cde-b85f-a055b2ea7d03",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You find Mr Adeyemi on his bedroom floor. He says he simply slipped and feels fine, but he takes apixaban and has a small graze on his forehead. What should you do?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Do not lift him; keep him still and warm, and call 999, because a knock to the head while on blood-thinning medication can cause dangerous bleeding.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. A head injury in someone taking an anticoagulant is an emergency even if they feel well; he must not be moved and needs urgent medical assessment.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Help him straight up off the floor, since he says he feels fine and the graze looks small.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. He has hit his head while on a blood thinner; lifting him and assuming he is fine could miss a serious, hidden bleed.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Give him a cup of tea and note it in the diary, as there is no need to involve anyone else.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. This situation needs a 999 call, not just a diary note; delaying could let a dangerous bleed go untreated.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wait a few hours to see whether he develops a headache before deciding whether to call for help.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Incorrect. Waiting is dangerous with a head injury on anticoagulants; you should call 999 straight away rather than watch and hope.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "6ac6ee6c-9aa9-43fd-b468-e67823030222",
         "metadata": {
           "contentType": "H5P.MultiChoice",
           "license": "U",

@@ -1,5 +1,5 @@
 {
-  "title": "Slips, Trips & Falls — Why people fall",
+  "title": "Slips, Trips & Falls — Why older people fall",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -50,6 +50,21 @@
     },
     {
       "machineName": "H5P.Audio",
+      "majorVersion": 1,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.DragText",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "jQuery.ui",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "H5P.Question",
       "majorVersion": 1,
       "minorVersion": 5
     }

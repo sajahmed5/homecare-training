@@ -47,15 +47,8 @@
     {
       "type": "h5p",
       "path": "positive-behaviour-support/p7",
-      "label": "Primary prevention",
+      "label": "Primary prevention and meaningful days",
       "questions": 1,
-      "section": "Proactive and person-centred strategies"
-    },
-    {
-      "type": "h5p",
-      "path": "positive-behaviour-support/p8",
-      "label": "Meaningful days",
-      "questions": 0,
       "section": "Proactive and person-centred strategies"
     },
     {

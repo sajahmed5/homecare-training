@@ -54,15 +54,8 @@
     {
       "type": "h5p",
       "path": "stoma-care/p8",
-      "label": "A healthy stoma",
-      "questions": 1,
-      "section": "Skin and stoma health"
-    },
-    {
-      "type": "h5p",
-      "path": "stoma-care/p9",
-      "label": "Protecting the skin",
-      "questions": 1,
+      "label": "A healthy stoma and skin",
+      "questions": 2,
       "section": "Skin and stoma health"
     },
     {

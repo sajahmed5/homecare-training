@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Proactive support: primary prevention</h2><p>The heart of PBS is <strong>proactive</strong> support &mdash; getting things right so that a person's needs are met and distress is far less likely to build in the first place. This is called <strong>primary prevention</strong>, and it is where most of the work of PBS happens. A good life, day in and day out, is the best prevention there is.</p><ul><li><strong>A good environment:</strong> calm, comfortable surroundings that suit the person.</li><li><strong>Meaningful activity:</strong> things to do that the person enjoys and values.</li><li><strong>Choice and routine:</strong> real choices, and predictable, reassuring routines.</li></ul><p>When these things are in place, people feel safer, more settled and more in control of their lives.</p>"
+          "text": "<h2>Proactive support: primary prevention</h2><p>The heart of PBS is <strong>proactive</strong> support &mdash; getting things right so that a person's needs are met and distress is far less likely to build in the first place. This is called <strong>primary prevention</strong>, and it is where most of the work of PBS happens. A good life, day in and day out, is the best prevention there is. As a care worker, you help turn the idea of a good life into an ordinary good day.</p><p>When proactive support is in place, people feel safer, more settled and more in control of their lives. Primary prevention is made up of many everyday things done well, and small, consistent kindnesses do more to prevent distress than any reaction after the fact.</p><ul><li><strong>A good environment:</strong> calm, comfortable surroundings that suit the person &mdash; not too noisy, crowded or chaotic, at a comfortable temperature, with their own familiar belongings around them.</li><li><strong>Meaningful activity:</strong> a reason to get up &mdash; work, hobbies, seeing people, being out in the community &mdash; doing things the person enjoys and values, rather than long empty hours, which are hard for anyone to bear.</li><li><strong>Real choice and independence:</strong> offer genuine choices the person can make and see them honoured, and help the person do things for themselves wherever they can.</li></ul><h2>Predictable routines and good communication</h2><p>People feel safest when the day is <strong>predictable</strong>. Following the person's usual routine, and preparing them gently for anything different &mdash; a new staff member, an appointment, a change of plan &mdash; helps them stay settled. Sudden, unexplained change is a common trigger for distress, so a little preparation goes a long way.</p><p>Good <strong>communication</strong> holds all of this together. Use the methods that work for each person, which may include simple language, pictures, objects, signing or a communication aid, and always give them time to understand and respond. Check that you have understood them, too. When a person can make sense of their world and have their voice heard, they feel calmer and more in control &mdash; and much of the distress behind challenging behaviour never needs to arise. This everyday, patient work is PBS in action.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "d165a051-0e8f-42ae-b1f8-11a3eb73a2ef",
+        "subContentId": "4d424a6c-88cb-48c4-b6f7-d0d556473dc6",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Building a good day</h2><p>Primary prevention is made up of many everyday things done well. A good <strong>environment</strong> means surroundings that are not too noisy, crowded or chaotic for the person, at a comfortable temperature, with their own familiar belongings around them. <strong>Meaningful activity</strong> means having a reason to get up &mdash; work, hobbies, seeing people, being out in the community &mdash; rather than long empty hours, which are hard for anyone to bear.</p><p>Offering genuine <strong>choice</strong> gives a person control over their own life. <strong>Predictable routines</strong> help people know what to expect, which reduces anxiety, while good communication &mdash; using whatever methods suit the person &mdash; means they can understand and be understood. None of this is dramatic, but together it prevents a great deal of distress.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "c84ff916-1f88-42c6-8521-a920a3e4743d",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"

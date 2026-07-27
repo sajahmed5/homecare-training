@@ -1,5 +1,5 @@
 {
-  "title": "Slips, Trips & Falls — Slip & trip causes",
+  "title": "Slips, Trips & Falls — Slip & trip causes and good housekeeping",
   "language": "en",
   "mainLibrary": "H5P.Column",
   "embedTypes": [
@@ -52,6 +52,26 @@
       "machineName": "H5P.Audio",
       "majorVersion": 1,
       "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.DragText",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "jQuery.ui",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.TrueFalse",
+      "majorVersion": 1,
+      "minorVersion": 8
     }
   ]
 }

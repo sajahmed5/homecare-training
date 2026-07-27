@@ -27,14 +27,7 @@
       "type": "h5p",
       "path": "sexual-harassment-awareness/p4",
       "label": "Forms & examples",
-      "questions": 1,
-      "section": "Forms & examples"
-    },
-    {
-      "type": "h5p",
-      "path": "sexual-harassment-awareness/p5",
-      "label": "Physical & online",
-      "questions": 1,
+      "questions": 2,
       "section": "Forms & examples"
     },
     {
@@ -61,7 +54,7 @@
     {
       "type": "h5p",
       "path": "sexual-harassment-awareness/p9",
-      "label": "The employer\u2019s duty",
+      "label": "The employer’s duty",
       "questions": 1,
       "section": "The law & the duty"
     },

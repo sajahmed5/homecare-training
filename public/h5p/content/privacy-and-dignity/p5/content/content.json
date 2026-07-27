@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Choice, control and independence</h2><p>Dignity and independence are closely linked. When people keep control over their own lives &mdash; even in small ways &mdash; they keep their sense of self. Standard 7 asks you to support people's right to make choices and to take an <strong>active part</strong> in their own care.</p><ul><li>Offer <strong>real choices</strong>: what to wear, what to eat, when to get up, whether to have a bath or a shower.</li><li>Support people to <strong>do things for themselves</strong> wherever they can, rather than doing everything for them &quot;to save time&quot;.</li><li>Respect <strong>preferences and routines</strong> &mdash; the small habits that make someone feel like themselves.</li><li>Involve people in <strong>decisions about their care</strong>, and honour choices even when they differ from your own.</li></ul><p>Doing <em>with</em> a person rather than <em>for</em> them takes patience, but it protects both their independence and their dignity.</p>"
+          "text": "<h2>Choice, independence and active participation</h2><p>Dignity and independence are closely linked. When people keep control over their own lives &mdash; even in small ways &mdash; they keep their sense of self. This is the idea of <strong>active participation</strong>: recognising each person as an active partner in their own care and daily life, rather than a passive recipient of it. Standard 7 asks you to support people's right to make choices and to take an <strong>active part</strong> in their own care.</p><p>When you support someone to do what they can for themselves, you protect their independence, skills and sense of worth. Taking part also builds confidence and can reduce the frustration and low mood that come with feeling helpless.</p><ul><li><strong>Do with, not for:</strong> let someone wash the parts of their body they can reach, or choose and pass their own clothes, and support people to do what they can wherever possible &mdash; rather than doing everything for them &quot;to save time&quot;, even if it takes longer.</li><li><strong>Offer real choices:</strong> what to wear, what to eat, when to get up, whether to have a bath or a shower, and how to spend the day.</li><li><strong>Respect preferences and routines:</strong> the small habits that make someone feel like themselves.</li><li><strong>Involve people in decisions:</strong> a principle often summed up as &lsquo;nothing about me without me&rsquo;. Share the care plan, and involve the person and, where they wish, the people close to them in reviewing it.</li><li><strong>Listen to feedback:</strong> act on what people tell you, honour choices even when they differ from your own, and pass concerns you cannot resolve to your manager.</li></ul><p>Doing <em>with</em> a person rather than <em>for</em> them takes patience, but it protects both their independence and their dignity.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "6cab424f-1226-44a5-b53a-aeb1adf0b703",
+        "subContentId": "9b8c2008-9bd6-402f-9e55-4621ceb73a10",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -66,6 +66,71 @@
           "contentType": "H5P.TrueFalse",
           "license": "U",
           "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Mr Okafor can wash his own face and hands but finds it slow, and you are running behind. What best supports active participation?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Give him the flannel and the time to wash what he can, and help only with what he cannot manage.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Doing with rather than for maintains his independence and dignity.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Wash him quickly yourself so the round stays on time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This removes his independence and treats the schedule as more important than the person.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Tell him he must be quicker tomorrow or you will have to do it for him.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This pressures him and undermines his confidence and choice.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Skip washing his face today to save time.</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "This neglects his care and his right to be clean and comfortable.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "c65cddf8-311f-48b2-a7af-1e17d9bad2f7",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

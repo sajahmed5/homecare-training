@@ -47,8 +47,8 @@
     {
       "type": "h5p",
       "path": "privacy-and-dignity/p5",
-      "label": "Choice & independence",
-      "questions": 1,
+      "label": "Choice, independence & active participation",
+      "questions": 2,
       "section": "Individuality and choice"
     },
     {
@@ -57,13 +57,6 @@
       "label": "Dignity of risk",
       "questions": 1,
       "section": "Individuality and choice"
-    },
-    {
-      "type": "h5p",
-      "path": "privacy-and-dignity/p11",
-      "label": "Active participation",
-      "questions": 1,
-      "section": "Involvement and settings"
     },
     {
       "type": "h5p",

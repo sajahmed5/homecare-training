@@ -5,35 +5,28 @@
     {
       "type": "h5p",
       "path": "person-centred-care/p9",
-      "label": "Why it matters",
+      "label": "What person-centred care is and why it matters",
       "questions": 1,
       "section": "Why person-centred care matters"
     },
     {
       "type": "h5p",
-      "path": "person-centred-care/p1",
-      "label": "What it means",
-      "questions": 0,
-      "section": "Why person-centred care matters"
-    },
-    {
-      "type": "h5p",
       "path": "person-centred-care/p2",
-      "label": "The values",
+      "label": "The person-centred values",
       "questions": 0,
       "section": "Why person-centred care matters"
     },
     {
       "type": "h5p",
       "path": "person-centred-care/p3",
-      "label": "Know the person",
+      "label": "Knowing the person and the care plan",
       "questions": 1,
       "section": "Knowing and involving the person"
     },
     {
       "type": "h5p",
       "path": "person-centred-care/p4",
-      "label": "Consent",
+      "label": "Gaining consent",
       "questions": 1,
       "section": "Knowing and involving the person"
     },
@@ -61,14 +54,14 @@
     {
       "type": "h5p",
       "path": "person-centred-care/p6",
-      "label": "Choice & control",
+      "label": "Choice and control",
       "questions": 1,
       "section": "Planning and choice"
     },
     {
       "type": "h5p",
       "path": "person-centred-care/p7",
-      "label": "Dignity & holism",
+      "label": "Dignity and holistic needs",
       "questions": 1,
       "section": "Comfort, dignity and detail"
     },

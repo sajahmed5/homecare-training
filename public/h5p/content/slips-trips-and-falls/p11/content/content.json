@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Making the environment safer</h2><p>Small changes to a person&rsquo;s surroundings can prevent many falls. Look at where someone walks, stands and moves most, and make those places as safe as you can.</p><ul><li><strong>Handrails and grab rails:</strong> secure rails on stairs, and grab rails by the toilet, bath and bed, give people something firm to hold. They must be fitted properly by a competent person.</li><li><strong>Flooring:</strong> non-slip flooring and firmly fixed, well-fitting floor coverings reduce slips; remove or tape down loose rugs and mats.</li><li><strong>Lighting:</strong> good, even lighting, including a night light on the route to the toilet, helps people see hazards.</li><li><strong>Clear routes:</strong> keep walkways free of clutter, trailing cables and spills.</li></ul>"
+          "text": "<h2>Making the environment safer</h2><p>Because falls are multifactorial, prevention works best when several small changes are made together. Small changes to a person&rsquo;s surroundings can prevent many falls &mdash; look at where someone walks, stands and moves most, and make those places as safe as you can.</p><ul><li><strong>Handrails and grab rails:</strong> secure rails on stairs, and grab rails by the toilet, bath and bed, give people something firm to hold. They must be fitted properly by a competent person.</li><li><strong>Flooring:</strong> non-slip flooring and firmly fixed, well-fitting floor coverings reduce slips; remove or tape down loose rugs and mats.</li><li><strong>Lighting:</strong> good, even lighting, including a night light on the route to the toilet, helps people see hazards.</li><li><strong>Clear routes:</strong> keep walkways free of clutter, trailing cables and spills.</li></ul><h2>Equipment that supports safe movement</h2><p>The right equipment helps a person move confidently and independently.</p><ul><li><strong>Walking aids:</strong> sticks, frames and rollators must be the correct height and in good repair, and kept within the person&rsquo;s reach.</li><li><strong>Footwear:</strong> well-fitting, supportive shoes or slippers with a firm, non-slip sole are far safer than loose slippers or socks.</li><li><strong>Sensor mats and alarms:</strong> pressure mats or falls sensors can alert you when someone at high risk is getting up, so you can offer help in time.</li><li><strong>Hip protectors:</strong> padded garments that cushion the hip may be suggested for some people at high risk of fracture, as part of a wider plan.</li></ul><p>Equipment should always be recommended through assessment &mdash; often by an occupational therapist or physiotherapist &mdash; and you should only ever use it as you have been trained and as set out in the person&rsquo;s care plan.</p><h2>Everyday practical support</h2><ul><li>Keep everyday items &ndash; call bell, drink, glasses, phone &ndash; within easy reach</li><li>Support prompt access to the toilet, especially at night</li><li>Follow the person&rsquo;s care plan and any falls risk assessment</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "78751a68-81a6-4a55-b355-a97db6c6950f",
+        "subContentId": "eb48f96e-b060-4968-ba2a-88bedf765b94",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -44,21 +44,6 @@
     {
       "content": {
         "params": {
-          "text": "<h2>Equipment that supports safe movement</h2><p>The right equipment helps a person move confidently and independently.</p><ul><li><strong>Walking aids:</strong> sticks, frames and rollators must be the correct height and in good repair, and kept within the person&rsquo;s reach.</li><li><strong>Footwear:</strong> well-fitting, supportive shoes or slippers with a firm, non-slip sole are far safer than loose slippers or socks.</li><li><strong>Sensor mats and alarms:</strong> pressure mats or falls sensors can alert you when someone at high risk is getting up, so you can offer help in time.</li><li><strong>Hip protectors:</strong> padded garments that cushion the hip may be suggested for some people at high risk of fracture, as part of a wider plan.</li></ul><p>Equipment should always be recommended through assessment &mdash; often by an occupational therapist or physiotherapist &mdash; and you should only ever use it as you have been trained and as set out in the person&rsquo;s care plan.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "91ed4089-58dd-4334-9c58-fd53d3e0954c",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
           "question": "<p>Sensor or pressure mats are used so that staff can restrain a person and stop them getting up on their own.</p>",
           "correct": "false",
           "l10n": {
@@ -81,6 +66,71 @@
           "contentType": "H5P.TrueFalse",
           "license": "U",
           "title": "True or false"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Which set of actions best helps prevent falls for a person you support at home?</p>",
+          "answers": [
+            {
+              "correct": true,
+              "text": "<div>Clear trip hazards, keep the call bell and glasses within reach, and check their walking frame is in good order</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Correct. Addressing the environment, keeping essentials reachable and checking aids all reduce risk together.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Encourage them to hurry to the toilet so they are not waiting</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Rushing, especially at night, is a common cause of falls. Support prompt but unhurried access instead.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Move their walking frame out of the way to free up space</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Walking aids must be kept within easy reach, not tidied away, so the person can use them safely.",
+                "notChosenFeedback": ""
+              }
+            },
+            {
+              "correct": false,
+              "text": "<div>Leave loose rugs in place as they make the room feel homely</div>",
+              "tipsAndFeedback": {
+                "tip": "",
+                "chosenFeedback": "Loose rugs are a classic trip hazard and should be secured or removed even if familiar.",
+                "notChosenFeedback": ""
+              }
+            }
+          ],
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true,
+            "singlePoint": true,
+            "randomAnswers": true,
+            "type": "auto"
+          },
+          "UI": {
+            "checkAnswerButton": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgainButton": "Retry"
+          }
+        },
+        "library": "H5P.MultiChoice 1.16",
+        "subContentId": "847abec0-9641-4097-a342-f12114ac615d",
+        "metadata": {
+          "contentType": "H5P.MultiChoice",
+          "license": "U",
+          "title": "Knowledge check"
         }
       },
       "useSeparator": "auto"

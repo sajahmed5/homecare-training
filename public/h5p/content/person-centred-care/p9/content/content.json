@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>From one-size-fits-all to the individual</h2><p>Not so long ago, a great deal of care in England was run for the convenience of the service rather than the person. In large institutions everyone rose at the same hour, ate the same meal and followed the same routine, whether it suited them or not. People were often grouped by their condition &mdash; &lsquo;the residents&rsquo;, &lsquo;the diabetics&rsquo; &mdash; and their own history, preferences and personality faded into the background.</p><p>Person-centred care grew as a deliberate reaction against this. It asks a simple but powerful question: what matters to this individual, not just what is the matter with them? Care Certificate Standard 5 places that question at the heart of your role, so that support fits the person rather than forcing the person to fit the service.</p>"
+          "text": "<h2>From one-size-fits-all to the individual</h2><p>Not so long ago, a great deal of care in England was run for the convenience of the service rather than the person. In large institutions everyone rose at the same hour, ate the same meal and followed the same routine, whether it suited them or not. People were often grouped by their condition &mdash; &lsquo;the residents&rsquo;, &lsquo;the diabetics&rsquo; &mdash; and their own history, preferences and personality faded into the background.</p><p>Person-centred care grew as a deliberate reaction against this. It asks a simple but powerful question: what matters to this individual, not just what is the matter with them? Rather than fitting the person into a fixed routine, it shapes the support around them &mdash; their needs, wishes, preferences and their whole life story. It treats the person as the expert in their own life and an equal partner in decisions about their care, not a passive recipient of tasks.</p><p>This is the heart of <strong>Care Certificate Standard 5, &ldquo;Work in a person-centred way&rdquo;</strong>, and it runs through the guidance of the Care Quality Commission (CQC), the National Institute for Health and Care Excellence (NICE) and the Social Care Institute for Excellence (SCIE). It is the opposite of a &ldquo;one size fits all&rdquo; approach: it focuses on the outcomes that matter to the person, not simply on completing jobs, and it is an ongoing process, because what matters to someone can change from day to day.</p><h2>Why it makes a real difference</h2><p>Seeing someone as a whole individual is not just a nicety &mdash; it changes outcomes. When care reflects a person&rsquo;s routines, relationships and wishes, they feel known, valued and in control of their own lives. They tend to feel calmer, keep their independence for longer and hold on to a stronger sense of who they are.</p><p>The opposite is also true. Care that ignores the individual can leave people bored, distressed or withdrawn, and it can make behaviour that services label &lsquo;challenging&rsquo; far more likely. This is why person-centred care directly affects both wellbeing and safety:</p><ul><li><strong>Dignity and identity:</strong> people stay connected to their past and their tastes, which protects self-worth.</li><li><strong>Wellbeing:</strong> familiar routines reduce anxiety and confusion.</li><li><strong>Trust:</strong> feeling known makes people more willing to accept support and share concerns.</li><li><strong>Better outcomes:</strong> a better quality of life, and stronger protection from abuse and neglect, because the person&rsquo;s voice stays at the centre.</li></ul><p>The Care Quality Commission expects providers to deliver care that is tailored to each person&rsquo;s needs and preferences. Under <strong>CQC Regulation 9</strong>, providers must give care and treatment that is appropriate, meets people&rsquo;s needs and reflects their personal preferences.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "a59e03bc-0597-4bad-b236-7a201e53045d",
+        "subContentId": "6c18aac6-4b41-47b4-a279-4bb976dadd11",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -19,39 +19,24 @@
       "content": {
         "params": {
           "contentName": "Image",
-          "alt": "Illustration for Why it matters",
+          "alt": "Person-centred values around the individual",
           "decorative": false,
           "file": {
-            "path": "images/why-it-matters.svg",
+            "path": "images/hero-person-centred-care.svg",
             "mime": "image/svg+xml",
             "width": 640,
-            "height": 232,
+            "height": 340,
             "copyright": {
               "license": "U"
             }
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "88c17eca-cb8f-4d2a-867e-7f0105ceaaad",
+        "subContentId": "43d9b1e0-0e0d-49f3-827a-20bf77c8d3ff",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Why it makes a real difference</h2><p>Seeing someone as a whole individual is not just a nicety &mdash; it changes outcomes. When care reflects a person&rsquo;s routines, relationships and wishes, they tend to feel calmer, keep their independence for longer and hold on to a stronger sense of who they are.</p><p>The opposite is also true. Care that ignores the individual can leave people bored, distressed or withdrawn, and it can make behaviour that services label &lsquo;challenging&rsquo; far more likely. The Care Quality Commission expects providers to deliver care that is tailored to each person&rsquo;s needs and preferences.</p><ul><li><strong>Identity:</strong> people stay connected to their past and their tastes.</li><li><strong>Wellbeing:</strong> familiar routines reduce anxiety and confusion.</li><li><strong>Trust:</strong> feeling known makes people more willing to accept support.</li></ul>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "95c5eead-8210-4cb5-adaf-dbac6be76829",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"

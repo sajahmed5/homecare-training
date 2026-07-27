@@ -5,15 +5,8 @@
     {
       "type": "h5p",
       "path": "safeguarding-children/p9",
-      "label": "The law and framework",
-      "questions": 1,
-      "section": "Safeguarding and the law"
-    },
-    {
-      "type": "h5p",
-      "path": "safeguarding-children/p1",
-      "label": "What safeguarding means",
-      "questions": 1,
+      "label": "Safeguarding children and the law",
+      "questions": 2,
       "section": "Safeguarding and the law"
     },
     {
@@ -33,15 +26,8 @@
     {
       "type": "h5p",
       "path": "safeguarding-children/p3",
-      "label": "Contextual harms",
-      "questions": 1,
-      "section": "Recognising abuse and harm"
-    },
-    {
-      "type": "h5p",
-      "path": "safeguarding-children/p11",
-      "label": "Specific risks",
-      "questions": 1,
+      "label": "Harm beyond the family home",
+      "questions": 2,
       "section": "Recognising abuse and harm"
     },
     {

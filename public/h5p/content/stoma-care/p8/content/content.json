@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>What a healthy stoma looks like</h2><p>A healthy stoma is <strong>pink or red</strong>, moist and shiny, a little like the inside of the mouth. It may stick out slightly or sit flush with the skin, and its size often settles in the weeks after surgery. A stoma has <strong>no nerve endings</strong>, so touching or cleaning it does not hurt the person, and it is normal for it to produce a little mucus. A small amount of bleeding when it is cleaned is also normal, as the surface has many tiny blood vessels.</p><ul><li><strong>Colour:</strong> pink or red, moist and shiny.</li><li><strong>No pain:</strong> a stoma has no nerve endings, so cleaning it does not hurt.</li><li><strong>A little bleeding:</strong> a small ooze when cleaned is normal.</li></ul>"
+          "text": "<h2>What a healthy stoma looks like</h2><p>A healthy stoma is <strong>pink or red</strong>, moist and shiny, a little like the inside of the mouth. It may stick out slightly or sit flush with the skin, and its size often settles in the weeks after surgery. A stoma has <strong>no nerve endings</strong>, so touching or cleaning it does not hurt the person, and it is normal for it to produce a little mucus. A small amount of bleeding when it is cleaned is also normal, as the surface has many tiny blood vessels.</p><ul><li><strong>Colour:</strong> pink or red, moist and shiny.</li><li><strong>No pain:</strong> a stoma has no nerve endings, so cleaning it does not hurt.</li><li><strong>A little bleeding:</strong> a small ooze when cleaned is normal.</li></ul><h2>Healthy skin around the stoma</h2><p>The skin around the stoma, called the <strong>peristomal skin</strong>, should look the same as the skin on the rest of the tummy &mdash; intact, and not red, sore, broken, itchy or weepy. Healthy skin is what allows the appliance to stick properly and stay leak-free, so protecting it is central to good stoma care. Each time you support the person, take a moment to look at both the stoma and the skin around it.</p><p>Healthy skin starts with a clean, dry, well-fitting appliance. When you change a pouch, clean the skin gently with plain water, then <strong>dry it thoroughly</strong> before fitting the new appliance, because an appliance will not stick to damp skin and will leak. Avoid soaps with creams or perfumes, oily wipes and moisturisers around the stoma, as any residue stops the baseplate sticking. Getting the fit right is the key to healthy skin: the opening in the baseplate should match the size and shape of the stoma so that output cannot seep onto the skin, but the baseplate does not press on the stoma itself. Stoma nurses provide a measuring guide or template for this, and the size may need adjusting as the stoma settles.</p><h2>Leakage is the enemy of the skin</h2><p>The most common cause of sore peristomal skin is <strong>leakage</strong>, when output creeps under the baseplate and sits against the skin. Bowel output and urine both contain substances that irritate and break down skin if they are in contact with it for any length of time, so an appliance that repeatedly leaks needs sorting out, not just re-taping. A well-fitting flange, changed at the right intervals, is the best protection.</p><p>If you notice the skin becoming red, sore, itchy, weepy or broken, or the appliance is not staying stuck, do not try to treat it with random creams or extra tape. Report it to the stoma nurse, who can check the fit, review the products and treat the skin properly. Catching skin problems early keeps the person comfortable and prevents small irritations from becoming painful, hard-to-treat wounds.</p>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "f84dcf43-5c65-4306-b2cb-2c0ab0455985",
+        "subContentId": "e6d5d19f-10c8-495e-aeb1-3f5d97769bee",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -37,21 +37,6 @@
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Healthy skin around the stoma</h2><p>The skin around the stoma, called the <strong>peristomal skin</strong>, should look the same as the skin on the rest of the tummy &mdash; intact, and not red, sore, broken, itchy or weepy. Healthy skin is what allows the appliance to stick properly and stay leak-free, so protecting it is central to good stoma care. Each time you support the person, take a moment to look at both the stoma and the skin around it.</p><p>Getting the fit right is the key to healthy skin. The opening in the baseplate should match the size and shape of the stoma so that output cannot seep onto the skin, but the baseplate does not press on the stoma itself. Stoma nurses provide a measuring guide or template for this, and the size may need adjusting as the stoma settles. If the skin starts to look sore or the appliance keeps leaking, this is a problem to report, not to ignore.</p>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "5c12158b-1fcc-464e-aed1-28d8db409302",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -117,6 +102,35 @@
           "contentType": "H5P.MultiChoice",
           "license": "U",
           "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>You should always dry the skin thoroughly before fitting a new stoma appliance.</p>",
+          "correct": "true",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. An appliance will not stick to damp skin, so the skin must be dried thoroughly before fitting it.",
+            "correctAnswerMessage": "Correct. An appliance will not stick to damp skin, so drying well helps prevent leaks and sore skin."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "b2bd60f8-9801-4a6f-a134-12fee567b115",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

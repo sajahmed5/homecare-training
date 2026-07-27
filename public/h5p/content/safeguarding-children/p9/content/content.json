@@ -3,10 +3,10 @@
     {
       "content": {
         "params": {
-          "text": "<h2>The laws behind safeguarding children</h2><p>Two Acts set the legal ground for protecting children in England. The Children Act 1989 established that a child&rsquo;s welfare is the paramount consideration when a court decides questions about their upbringing. It defines when a child is &lsquo;in need&rsquo;, and it places a duty on local authorities to investigate where there is reasonable cause to suspect that a child is suffering, or likely to suffer, significant harm. In law, a child is anyone who has not yet reached their eighteenth birthday.</p><p>The Children Act 2004 built on this after reviews showed agencies working in isolation. It strengthened the duty on organisations to work together and to make arrangements that safeguard and promote the welfare of children.</p>"
+          "text": "<h2>What safeguarding children means</h2><p>You may not work with children directly, but as a care worker you will often be in situations where a child&rsquo;s welfare matters. You might visit a family home where children live, support a service user who is a parent, or notice something during a visit that concerns you. Recognising and acting on those concerns is part of your role.</p><p>Safeguarding children means protecting them from abuse, maltreatment and neglect; preventing harm to their health or development; making sure they grow up with safe and effective care; and taking action so that all children have the best outcomes. <strong>Child protection</strong> is the part of safeguarding that responds when a child is suffering, or is likely to suffer, harm. In law, a child is anyone who has not yet reached their eighteenth birthday, regardless of whether they are living independently, in hospital, or in custody.</p><h2>The law behind it</h2><p>The framework for protecting children in England rests on two key pieces of legislation.</p><ul><li><strong>Children Act 1989</strong> &ndash; established that a child&rsquo;s welfare is the paramount consideration when a court decides questions about their upbringing. It defines when a child is &lsquo;in need&rsquo; (section 17), and it places a duty on local authorities to investigate where there is reasonable cause to suspect that a child is suffering, or is likely to suffer, significant harm (section 47).</li><li><strong>Children Act 2004</strong> &ndash; built on the 1989 Act after reviews showed agencies working in isolation. It strengthened multi-agency working and placed a duty on organisations to co-operate to safeguard and promote children&rsquo;s welfare and improve their wellbeing.</li></ul><h2>Safeguarding is everyone&rsquo;s responsibility</h2><p><em>Working Together to Safeguard Children</em> is the statutory guidance that puts these duties into practice, and its 2023 edition is clear that safeguarding is everybody&rsquo;s responsibility. It is not the sole job of social workers or the police. No single agency can keep a child safe alone, every practitioner who comes into contact with children and families has a part to play, and no single person ever holds the whole picture on their own.</p><ul><li><strong>Safeguarding partners:</strong> the local authority, the police and the integrated care board share leadership for children in their area.</li><li><strong>Your part:</strong> you are not expected to investigate, but you are expected to notice, to be curious, and to pass concerns on.</li><li><strong>Health roles:</strong> if you work in a health role you also follow the intercollegiate guidance from the Royal College of Nursing and the Royal College of Paediatrics and Child Health, trained to the level that matches your role.</li></ul>"
         },
         "library": "H5P.AdvancedText 1.1",
-        "subContentId": "804140cd-b811-4ded-afce-a3850664d16a",
+        "subContentId": "eb046135-26c4-4809-9d49-339efe81e716",
         "metadata": {
           "contentType": "H5P.AdvancedText",
           "license": "U",
@@ -19,39 +19,24 @@
       "content": {
         "params": {
           "contentName": "Image",
-          "alt": "Illustration for The law and framework",
+          "alt": "Safeguarding children and the four categories of abuse",
           "decorative": false,
           "file": {
-            "path": "images/the-law-and-framework.svg",
+            "path": "images/hero-safeguarding-children.svg",
             "mime": "image/svg+xml",
-            "width": 640,
-            "height": 232,
+            "width": 620,
+            "height": 280,
             "copyright": {
               "license": "U"
             }
           }
         },
         "library": "H5P.Image 1.1",
-        "subContentId": "decc8a32-dc9c-4741-a31a-3737ed6f5a8d",
+        "subContentId": "780869fb-82c5-432c-9c22-958f460a2aa1",
         "metadata": {
           "contentType": "H5P.Image",
           "license": "U",
           "title": "Image"
-        }
-      },
-      "useSeparator": "auto"
-    },
-    {
-      "content": {
-        "params": {
-          "text": "<h2>Working Together and everyone&rsquo;s responsibility</h2><p>Working Together to Safeguard Children is the statutory guidance that puts these duties into practice, and its 2023 edition is clear that safeguarding is everyone&rsquo;s responsibility. No single agency can keep a child safe alone, and every worker who comes into contact with children and families has a part to play.</p><ul><li><strong>Safeguarding partners:</strong> the local authority, the police and the integrated care board share leadership for children in their area.</li><li><strong>Your part:</strong> you are not expected to investigate, but you are expected to notice, to be curious, and to pass concerns on.</li><li><strong>Health roles:</strong> if you work in a health role you also follow the intercollegiate guidance from the Royal College of Nursing and the Royal College of Paediatrics and Child Health, trained to the level that matches your role.</li></ul>"
-        },
-        "library": "H5P.AdvancedText 1.1",
-        "subContentId": "af9c73d9-9763-45a4-bc4c-0b66116b8e16",
-        "metadata": {
-          "contentType": "H5P.AdvancedText",
-          "license": "U",
-          "title": "Text"
         }
       },
       "useSeparator": "auto"
@@ -117,6 +102,35 @@
           "contentType": "H5P.MultiChoice",
           "license": "U",
           "title": "Knowledge check"
+        }
+      },
+      "useSeparator": "auto"
+    },
+    {
+      "content": {
+        "params": {
+          "question": "<p>Safeguarding children is only the responsibility of social workers and the police.</p>",
+          "correct": "false",
+          "l10n": {
+            "trueText": "True",
+            "falseText": "False",
+            "checkAnswer": "Check",
+            "showSolutionButton": "Show solution",
+            "tryAgain": "Retry",
+            "wrongAnswerMessage": "Not quite. Working Together to Safeguard Children (2023) makes clear that safeguarding is everybody's responsibility, not just that of specialist agencies.",
+            "correctAnswerMessage": "Correct. Safeguarding is everyone's responsibility. Any practitioner who comes into contact with a child or family has a role to play."
+          },
+          "behaviour": {
+            "enableRetry": true,
+            "enableSolutionsButton": true
+          }
+        },
+        "library": "H5P.TrueFalse 1.8",
+        "subContentId": "edd1ab96-2ca1-410a-b60d-8e124da2cf0c",
+        "metadata": {
+          "contentType": "H5P.TrueFalse",
+          "license": "U",
+          "title": "True or false"
         }
       },
       "useSeparator": "auto"

@@ -11,13 +11,6 @@
     },
     {
       "type": "h5p",
-      "path": "slips-trips-and-falls/p2",
-      "label": "Slip & trip causes",
-      "questions": 0,
-      "section": "The cost and the law"
-    },
-    {
-      "type": "h5p",
       "path": "slips-trips-and-falls/p9",
       "label": "The cost and the law",
       "questions": 1,
@@ -25,8 +18,8 @@
     },
     {
       "type": "h5p",
-      "path": "slips-trips-and-falls/p3",
-      "label": "Prevention & housekeeping",
+      "path": "slips-trips-and-falls/p2",
+      "label": "Slip & trip causes and good housekeeping",
       "questions": 2,
       "section": "Assessing and preventing hazards"
     },
@@ -40,29 +33,15 @@
     {
       "type": "h5p",
       "path": "slips-trips-and-falls/p5",
-      "label": "Why people fall",
-      "questions": 0,
-      "section": "Why older people fall"
-    },
-    {
-      "type": "h5p",
-      "path": "slips-trips-and-falls/p10",
-      "label": "Why people fall",
+      "label": "Why older people fall",
       "questions": 1,
       "section": "Why older people fall"
     },
     {
       "type": "h5p",
       "path": "slips-trips-and-falls/p11",
-      "label": "Environment and equipment",
-      "questions": 1,
-      "section": "Reducing the risk of falls"
-    },
-    {
-      "type": "h5p",
-      "path": "slips-trips-and-falls/p6",
-      "label": "Falls prevention",
-      "questions": 1,
+      "label": "Environment, equipment and reducing risk",
+      "questions": 2,
       "section": "Reducing the risk of falls"
     },
     {
@@ -76,14 +55,7 @@
       "type": "h5p",
       "path": "slips-trips-and-falls/p7",
       "label": "If someone falls",
-      "questions": 2,
-      "section": "After a fall"
-    },
-    {
-      "type": "h5p",
-      "path": "slips-trips-and-falls/p13",
-      "label": "After a fall in depth",
-      "questions": 1,
+      "questions": 3,
       "section": "After a fall"
     },
     {
