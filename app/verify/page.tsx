@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { headers } from "next/headers";
 import { createClient } from "@/lib/supabase/server";
 import { rateLimit } from "@/lib/rate-limit";
@@ -57,7 +58,7 @@ export default async function VerifyPage({
   }
 
   return (
-    <main className="flex flex-1 items-center justify-center px-6 py-16">
+    <main className="flex flex-1 flex-col items-center justify-center px-6 py-16">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>Verify a certificate</CardTitle>
@@ -136,6 +137,12 @@ export default async function VerifyPage({
           )}
         </CardContent>
       </Card>
+      <Link
+        href="/"
+        className="mt-6 text-sm text-muted-foreground hover:underline"
+      >
+        ← Back to home
+      </Link>
     </main>
   );
 }

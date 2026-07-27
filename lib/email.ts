@@ -102,3 +102,37 @@ export async function sendInviteEmail({
     return { sent: false, link: inviteUrl };
   }
 }
+
+/**
+ * Sends a password-reset email via Resend. Like invites, if email isn't
+ * configured it returns sent:false with the link so the flow still works
+ * (the caller decides whether to surface it — never to a public visitor).
+ */
+export async function sendPasswordResetEmail({
+  to,
+  resetUrl,
+}: {
+  to: string;
+  resetUrl: string;
+}): Promise<SendResult> {
+  const html = `
+    <div style="font-family:system-ui,sans-serif;max-width:480px;margin:auto">
+      <h2>Reset your My Care Academy password</h2>
+      <p>We received a request to reset your password. Click below to choose a
+      new one. If you didn't ask for this, you can safely ignore this email.</p>
+      <p style="margin:24px 0">
+        <a href="${resetUrl}"
+           style="background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none">
+          Reset password
+        </a>
+      </p>
+      <p style="color:#666;font-size:13px">If the button doesn't work, paste this
+      link into your browser:<br>${resetUrl}</p>
+    </div>`;
+  const sent = await sendEmail({
+    to,
+    subject: "Reset your My Care Academy password",
+    html,
+  });
+  return { sent, link: resetUrl };
+}

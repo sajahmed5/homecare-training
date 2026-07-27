@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { sendInviteEmail, type SendResult } from "@/lib/email";
+import { sendInviteEmail, sendPasswordResetEmail, type SendResult } from "@/lib/email";
 import type { UserRole } from "@/lib/auth";
 
 /** Absolute origin for building invite links (works in dev and prod). */
@@ -56,4 +56,30 @@ export async function createInvite(opts: {
     orgName: opts.orgName,
   });
   return { ...result, userId: data.user?.id };
+}
+
+/**
+ * Generates a Supabase recovery link for an existing account and emails it. The
+ * recipient sets a new password at /auth/set-password (same flow as invites).
+ * Throws if the email doesn't belong to an account — callers on public pages
+ * must swallow that so account existence is never revealed.
+ */
+export async function createPasswordReset(email: string): Promise<SendResult> {
+  const admin = createAdminClient();
+  const origin = await siteOrigin();
+
+  const { data, error } = await admin.auth.admin.generateLink({
+    type: "recovery",
+    email,
+  });
+  if (error) throw error;
+
+  const tokenHash = data.properties?.hashed_token;
+  if (!tokenHash) throw new Error("Failed to generate reset token.");
+
+  const resetUrl =
+    `${origin}/auth/confirm?token_hash=${tokenHash}` +
+    `&type=recovery&next=/auth/set-password`;
+
+  return sendPasswordResetEmail({ to: email, resetUrl });
 }

@@ -44,6 +44,12 @@ export default async function LoginPage({
           <LoginForm redirectTo={safeRedirect} />
         </CardContent>
       </Card>
+      <Link
+        href="/"
+        className="mt-6 text-sm text-muted-foreground hover:underline"
+      >
+        ← Back to home
+      </Link>
     </main>
   );
 }
