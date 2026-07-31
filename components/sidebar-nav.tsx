@@ -11,6 +11,7 @@ import {
   User,
   Users,
   Building2,
+  BarChart3,
   ListChecks,
   Bug,
   type LucideIcon,
@@ -28,6 +29,7 @@ const NAV: Record<string, NavItem[]> = {
   platform_admin: [
     { href: "/platform", label: "Overview", icon: LayoutDashboard },
     { href: "/platform/organisations", label: "Organisations", icon: Building2 },
+    { href: "/platform/analytics", label: "Analytics", icon: BarChart3 },
     { href: "/platform/courses", label: "Courses", icon: BookOpen },
     { href: "/platform/reports", label: "Issues", icon: Bug },
     { href: "/platform/billing", label: "Billing", icon: CreditCard },
