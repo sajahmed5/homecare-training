@@ -112,8 +112,8 @@ export async function DashboardShell({
             <span className="hidden text-sm text-muted-foreground sm:inline">
               {context.email}
             </span>
-            <form action="/auth/signout" method="post" className="md:hidden">
-              <Button type="submit" variant="outline" size="sm">
+            <form action="/auth/signout" method="post">
+              <Button type="submit" variant="destructive" size="sm">
                 Sign out
               </Button>
             </form>

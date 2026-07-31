@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { PanelLeftClose, PanelLeft, LogOut } from "lucide-react";
+import { PanelLeftClose, PanelLeft } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
-import { Button } from "@/components/ui/button";
 import type { UserRole } from "@/lib/auth";
 
 const KEY = "mca-sidebar-collapsed";
@@ -71,36 +70,15 @@ export function AppSidebar({
         <SidebarNav role={role} badges={badges} collapsed={collapsed} />
       </div>
 
-      <div className="border-t border-sidebar-border p-3">
-        {collapsed ? (
-          <form action="/auth/signout" method="post" className="flex justify-center">
-            <button
-              type="submit"
-              title="Sign out"
-              className="rounded-lg p-2 text-sidebar-foreground/70 transition-colors hover:bg-sidebar-accent/60 hover:text-sidebar-foreground"
-            >
-              <LogOut className="size-5" />
-            </button>
-          </form>
-        ) : (
-          <>
-            <div className="flex items-center justify-between gap-2">
-              <div className="min-w-0">
-                <p className="text-xs text-sidebar-foreground/60">{roleLabel}</p>
-                <p className="truncate text-sm">{email}</p>
-              </div>
-              <form action="/auth/signout" method="post" className="shrink-0">
-                <Button type="submit" variant="destructive" size="sm">
-                  Sign out
-                </Button>
-              </form>
-            </div>
-            <p className="mt-3 text-center text-[11px] text-sidebar-foreground/40">
-              {version}
-            </p>
-          </>
-        )}
-      </div>
+      {!collapsed && (
+        <div className="border-t border-sidebar-border p-3">
+          <p className="text-xs text-sidebar-foreground/60">{roleLabel}</p>
+          <p className="truncate text-sm">{email}</p>
+          <p className="mt-3 text-center text-[11px] text-sidebar-foreground/40">
+            {version}
+          </p>
+        </div>
+      )}
     </aside>
   );
 }
