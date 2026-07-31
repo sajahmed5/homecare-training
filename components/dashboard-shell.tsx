@@ -8,6 +8,7 @@ import { loadBadgeData, loadStarTotal } from "@/lib/learner-data";
 import { deriveNotifications, unreadCount } from "@/lib/notifications";
 import { VERSION_LABEL } from "@/lib/version";
 import { StarBank } from "@/components/star-bank";
+import { ReportWidget } from "@/components/report-widget";
 import type { UserContext } from "@/lib/auth";
 
 async function learnerBadges(
@@ -105,6 +106,9 @@ export async function DashboardShell({
 
         <main className="flex-1 px-4 py-6 sm:px-6 sm:py-8">{children}</main>
       </div>
+
+      {/* Always-visible "Report an issue" widget — every role, every page. */}
+      <ReportWidget />
     </div>
   );
 }

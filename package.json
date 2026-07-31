@@ -27,6 +27,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "h5p-standalone": "^3.8.2",
+    "html2canvas-pro": "^2.3.3",
     "jszip": "^3.10.1",
     "lucide-react": "^1.22.0",
     "next": "16.2.9",

@@ -9,6 +9,7 @@ import {
   Bell,
   Award,
   User,
+  Bug,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -24,6 +25,7 @@ const NAV: Record<string, NavItem[]> = {
   platform_admin: [
     { href: "/platform", label: "Overview", icon: LayoutDashboard },
     { href: "/platform/courses", label: "Courses", icon: BookOpen },
+    { href: "/platform/reports", label: "Issues", icon: Bug },
     { href: "/platform/billing", label: "Billing", icon: CreditCard },
     { href: "/platform/settings", label: "Automation", icon: Bell },
   ],
