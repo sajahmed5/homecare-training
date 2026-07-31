@@ -84,13 +84,17 @@ export function AppSidebar({
           </form>
         ) : (
           <>
-            <p className="text-xs text-sidebar-foreground/60">{roleLabel}</p>
-            <p className="mb-2 truncate text-sm">{email}</p>
-            <form action="/auth/signout" method="post">
-              <Button type="submit" variant="outline" size="sm" className="w-full">
-                Sign out
-              </Button>
-            </form>
+            <div className="flex items-center justify-between gap-2">
+              <div className="min-w-0">
+                <p className="text-xs text-sidebar-foreground/60">{roleLabel}</p>
+                <p className="truncate text-sm">{email}</p>
+              </div>
+              <form action="/auth/signout" method="post" className="shrink-0">
+                <Button type="submit" variant="destructive" size="sm">
+                  Sign out
+                </Button>
+              </form>
+            </div>
             <p className="mt-3 text-center text-[11px] text-sidebar-foreground/40">
               {version}
             </p>
