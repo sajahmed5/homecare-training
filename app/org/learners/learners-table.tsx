@@ -61,34 +61,93 @@ function matches(r: OrgLearnerRow, f: Filter): boolean {
   }
 }
 
-export function LearnersTable({ rows }: { rows: OrgLearnerRow[] }) {
+const csvCell = (v: string) =>
+  /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
+
+export function LearnersTable({
+  rows,
+  filename = "learners-overview.csv",
+}: {
+  rows: OrgLearnerRow[];
+  filename?: string;
+}) {
   const [filter, setFilter] = useState<Filter>("all");
   const shown = useMemo(() => rows.filter((r) => matches(r, filter)), [rows, filter]);
 
+  function exportCsv() {
+    const header = [
+      "Learner",
+      "Email",
+      "Assigned",
+      "Completed",
+      "In progress",
+      "Not started",
+      "Overall %",
+      "Latest completed",
+      "Completed on",
+      "Last assigned",
+      "Last active",
+    ];
+    const body = shown.map((r) =>
+      [
+        r.name,
+        r.email ?? "",
+        String(r.stats.assigned),
+        String(r.stats.completed),
+        String(r.stats.inProgress),
+        String(r.stats.notStarted),
+        `${r.stats.overallPct}%`,
+        r.latestCompleted?.title ?? "",
+        r.latestCompleted ? fmtDate(r.latestCompleted.date) : "",
+        fmtDate(r.lastAssignedAt),
+        r.lastSeenAt ? fmtDate(r.lastSeenAt) : "Never",
+      ]
+        .map(csvCell)
+        .join(","),
+    );
+    const csv = "﻿" + [header.map(csvCell).join(","), ...body].join("\r\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
   return (
     <div className="space-y-3">
-      <div className="flex flex-wrap gap-2">
-        {FILTERS.map((f) => {
-          const count = rows.filter((r) => matches(r, f.key)).length;
-          const active = filter === f.key;
-          return (
-            <button
-              key={f.key}
-              type="button"
-              onClick={() => setFilter(f.key)}
-              className={`rounded-full border px-3 py-1 text-sm transition-colors ${
-                active
-                  ? "border-foreground bg-foreground text-background"
-                  : "hover:bg-accent"
-              }`}
-            >
-              {f.label}{" "}
-              <span className={active ? "opacity-80" : "text-muted-foreground"}>
-                {count}
-              </span>
-            </button>
-          );
-        })}
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex flex-wrap gap-2">
+          {FILTERS.map((f) => {
+            const count = rows.filter((r) => matches(r, f.key)).length;
+            const active = filter === f.key;
+            return (
+              <button
+                key={f.key}
+                type="button"
+                onClick={() => setFilter(f.key)}
+                className={`rounded-full border px-3 py-1 text-sm transition-colors ${
+                  active
+                    ? "border-foreground bg-foreground text-background"
+                    : "hover:bg-accent"
+                }`}
+              >
+                {f.label}{" "}
+                <span className={active ? "opacity-80" : "text-muted-foreground"}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        <button
+          type="button"
+          onClick={exportCsv}
+          className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
+        >
+          Export CSV
+        </button>
       </div>
 
       <div className="overflow-x-auto rounded-2xl border bg-card">

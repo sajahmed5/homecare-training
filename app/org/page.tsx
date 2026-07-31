@@ -16,6 +16,7 @@ import { DashboardShell } from "@/components/dashboard-shell";
 import { loadOrgLearners, completionsByWeek } from "@/lib/org-learners";
 import { CompletionsChart } from "./completions-chart";
 import { NudgeButton } from "./nudge-button";
+import { NudgeAllButton } from "./nudge-all-button";
 import {
   Card,
   CardContent,
@@ -169,12 +170,15 @@ export default async function OrgDashboard() {
                 <CardTitle>Needs attention</CardTitle>
                 <CardDescription>Overdue or inactive learners.</CardDescription>
               </div>
-              <Link
-                href="/org/learners"
-                className="text-sm text-primary hover:underline"
-              >
-                All learners →
-              </Link>
+              <div className="flex items-center gap-3">
+                <NudgeAllButton />
+                <Link
+                  href="/org/learners"
+                  className="text-sm text-primary hover:underline"
+                >
+                  All learners →
+                </Link>
+              </div>
             </CardHeader>
             <CardContent>
               {needsAttention.length === 0 ? (
