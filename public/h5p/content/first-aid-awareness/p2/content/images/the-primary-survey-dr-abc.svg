@@ -35,7 +35,7 @@
         <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#c4a6f7" stroke-width="2"/>
         <circle cx="22" cy="17" r="7" fill="#7c3aed"/>
         <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">D &amp;ndash; Danger</text>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">D – Danger</text>
       </g>
     </g>
     <g transform="translate(250 120)">
@@ -43,7 +43,7 @@
         <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#c4a6f7" stroke-width="2"/>
         <circle cx="22" cy="17" r="7" fill="#7c3aed"/>
         <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">R &amp;ndash; Response</text>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">R – Response</text>
       </g>
     </g>
     <g transform="translate(250 164)">
@@ -51,7 +51,7 @@
         <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#c4a6f7" stroke-width="2"/>
         <circle cx="22" cy="17" r="7" fill="#7c3aed"/>
         <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">A &amp;ndash; Airway</text>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">A – Airway</text>
       </g>
     </g>
 </svg>

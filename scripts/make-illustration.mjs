@@ -36,8 +36,26 @@ const spec = JSON.parse(readFileSync(specPath, "utf8"));
 const SKINS = ["#8d5524", "#c68642", "#e0ac69", "#f1c27d", "#5c3317", "#ffdbac"];
 const HAIRS = ["#2b2118", "#4a3728", "#6b4423", "#8d6748", "#c19a6b", "#3b3b3b"];
 
+// A handful of HTML named entities that authored labels sometimes carry. We
+// decode them to real Unicode BEFORE XML-escaping, otherwise "&ndash;" would be
+// double-escaped to "&amp;ndash;" and show as literal "&ndash;" text in the SVG.
+const ENTITIES = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'",
+  ndash: "–", mdash: "—", rsquo: "’", lsquo: "‘",
+  ldquo: "“", rdquo: "”", hellip: "…", nbsp: " ",
+  eacute: "é", egrave: "è", agrave: "à", acirc: "â",
+  ccedil: "ç", deg: "°", pound: "£", times: "×",
+};
+const decodeEntities = (s) =>
+  String(s)
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&([a-zA-Z][a-zA-Z0-9]*);/g, (m, name) =>
+      Object.prototype.hasOwnProperty.call(ENTITIES, name) ? ENTITIES[name] : m);
+
 const esc = (s) =>
-  String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  decodeEntities(s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 /** Mix a hex colour towards white — used for tinted backgrounds and fills. */
 function tint(hex, amount) {

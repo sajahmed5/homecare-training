@@ -51,7 +51,7 @@
         <rect width="330" height="34" rx="17" fill="#ffffff" stroke="#c4a6f7" stroke-width="2"/>
         <circle cx="22" cy="17" r="7" fill="#7c3aed"/>
         <path d="M18.5 17 l2.5 2.5 l4.5 -5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Shellfish, p&amp;acirc;t&amp;eacute; and prepared salads</text>
+        <text x="42" y="22" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Shellfish, pâté and prepared salads</text>
       </g>
     </g>
 </svg>
