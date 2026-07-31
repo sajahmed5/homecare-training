@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -31,35 +31,29 @@ export function AssignForm({
     assignTrainingAction,
     {} as AssignState,
   );
+  const [allCarers, setAllCarers] = useState(false);
+  const staffBox = useRef<HTMLDivElement>(null);
+
+  function toggleAllStaff(checked: boolean) {
+    staffBox.current
+      ?.querySelectorAll<HTMLInputElement>('input[name="userIds"]')
+      .forEach((cb) => (cb.checked = checked));
+  }
 
   return (
     <form action={formAction} className="space-y-4">
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">
-          <Label htmlFor="target">Course or pathway</Label>
-          <select id="target" name="target" required className={selectClass} defaultValue="">
-            <option value="" disabled>
-              Choose…
-            </option>
-            {pathways.length > 0 && (
-              <optgroup label="Pathways">
-                {pathways.map((p) => (
-                  <option key={p.id} value={`pathway:${p.id}`}>
-                    {p.title}
-                  </option>
-                ))}
-              </optgroup>
-            )}
-            <optgroup label="Courses">
-              {courses.map((c) => (
-                <option key={c.id} value={`course:${c.id}`}>
-                  {c.title}
-                </option>
-              ))}
-            </optgroup>
+          <Label htmlFor="pathway">Whole pathway (optional)</Label>
+          <select id="pathway" name="pathway" className={selectClass} defaultValue="">
+            <option value="">None</option>
+            {pathways.map((p) => (
+              <option key={p.id} value={p.id}>
+                {p.title}
+              </option>
+            ))}
           </select>
         </div>
-
         <div className="space-y-2">
           <Label htmlFor="dueDate">Due date (optional)</Label>
           <Input id="dueDate" name="dueDate" type="date" />
@@ -67,8 +61,42 @@ export function AssignForm({
       </div>
 
       <div className="space-y-2">
-        <Label>Assign to</Label>
-        <div className="grid gap-2 rounded-lg border p-3 sm:grid-cols-2">
+        <Label>Courses</Label>
+        <div className="grid max-h-48 gap-2 overflow-y-auto rounded-lg border p-3 sm:grid-cols-2">
+          {courses.map((c) => (
+            <label key={c.id} className="flex items-center gap-2 text-sm">
+              <input type="checkbox" name="courseIds" value={c.id} />
+              {c.title}
+            </label>
+          ))}
+        </div>
+        <p className="text-xs text-muted-foreground">
+          Pick one or more courses (and/or a pathway above).
+        </p>
+      </div>
+
+      <div className="space-y-2">
+        <div className="flex items-center justify-between">
+          <Label>Assign to</Label>
+          <label className="flex items-center gap-2 text-sm font-medium">
+            <input
+              type="checkbox"
+              name="all"
+              checked={allCarers}
+              onChange={(e) => {
+                setAllCarers(e.target.checked);
+                toggleAllStaff(e.target.checked);
+              }}
+            />
+            All carers
+          </label>
+        </div>
+        <div
+          ref={staffBox}
+          className={`grid gap-2 rounded-lg border p-3 sm:grid-cols-2 ${
+            allCarers ? "pointer-events-none opacity-50" : ""
+          }`}
+        >
           {staff.map((s) => (
             <label key={s.id} className="flex items-center gap-2 text-sm">
               <input type="checkbox" name="userIds" value={s.id} />

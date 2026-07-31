@@ -1,11 +1,21 @@
 import Link from "next/link";
-import { AlertTriangle, BookOpen, CheckCircle2, Users } from "lucide-react";
+import {
+  AlertTriangle,
+  BookOpen,
+  CheckCircle2,
+  Clock,
+  CircleDashed,
+  Users,
+} from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { tierLabel } from "@/lib/organisations";
 import { buttonVariants } from "@/components/ui/button";
 import { StatTile } from "@/components/learner-ui";
 import { DashboardShell } from "@/components/dashboard-shell";
+import { loadOrgLearners, completionsByWeek } from "@/lib/org-learners";
+import { CompletionsChart } from "./completions-chart";
+import { NudgeButton } from "./nudge-button";
 import {
   Card,
   CardContent,
@@ -36,7 +46,8 @@ export default async function OrgDashboard() {
     { data: staff },
     { data: courses },
     { data: pathways },
-    { data: enrolments },
+    learners,
+    weekly,
   ] = await Promise.all([
     supabase
       .from("organisations")
@@ -48,51 +59,35 @@ export default async function OrgDashboard() {
       .order("created_at", { ascending: true }),
     supabase.from("courses").select("id, title").order("sort_order"),
     supabase.from("pathways").select("id, title").order("title"),
-    supabase.from("enrolments").select("user_id, status, progress, due_date"),
+    loadOrgLearners(supabase),
+    completionsByWeek(supabase),
   ]);
 
   const activeStaff = (staff ?? []).filter((u) => (u.status ?? "active") === "active");
-  const today = new Date().toISOString().slice(0, 10);
+  const DAY = 86_400_000;
+  const nowMs = new Date().getTime();
 
-  // Per-staff compliance rollup (RAG).
-  const compliance = new Map<
-    string,
-    { assigned: number; completed: number; overdue: number }
-  >();
-  for (const e of enrolments ?? []) {
-    const c = compliance.get(e.user_id) ?? {
-      assigned: 0,
-      completed: 0,
-      overdue: 0,
-    };
-    c.assigned += 1;
-    if (e.status === "completed") c.completed += 1;
-    if (e.due_date && e.due_date < today && e.status !== "completed") {
-      c.overdue += 1;
-    }
-    compliance.set(e.user_id, c);
-  }
-
-  function rag(userId: string): { label: string; className: string } {
-    const c = compliance.get(userId);
-    if (!c || c.assigned === 0)
-      return { label: "—", className: "bg-slate-100 text-slate-500" };
-    if (c.overdue > 0)
-      return { label: "Overdue", className: "bg-rose-100 text-rose-700" };
-    if (c.completed < c.assigned)
-      return { label: "In progress", className: "bg-amber-100 text-amber-700" };
-    return { label: "Compliant", className: "bg-emerald-100 text-emerald-700" };
-  }
-
-  // Org-wide compliance rollup for the summary tiles.
-  const totals = [...compliance.values()].reduce(
-    (t, c) => ({
-      assigned: t.assigned + c.assigned,
-      completed: t.completed + c.completed,
-      overdue: t.overdue + c.overdue,
+  // Org-wide training rollup from the per-learner stats.
+  const totals = learners.reduce(
+    (t, r) => ({
+      assigned: t.assigned + r.stats.assigned,
+      completed: t.completed + r.stats.completed,
+      inProgress: t.inProgress + r.stats.inProgress,
+      notStarted: t.notStarted + r.stats.notStarted,
+      overdue: t.overdue + r.stats.overdue,
     }),
-    { assigned: 0, completed: 0, overdue: 0 },
+    { assigned: 0, completed: 0, inProgress: 0, notStarted: 0, overdue: 0 },
   );
+
+  // Learners who need chasing: overdue, or inactive / never active on the site.
+  const needsAttention = learners
+    .filter(
+      (r) =>
+        r.stats.overdue > 0 ||
+        !r.lastSeenAt ||
+        nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
+    )
+    .slice(0, 6);
 
   const exportRows = (staff ?? []).map((u) => ({
     full_name: u.full_name,
@@ -146,13 +141,78 @@ export default async function OrgDashboard() {
           </div>
         </div>
 
-        {/* At-a-glance compliance across the whole team */}
-        <section className="grid gap-4 grid-cols-2 lg:grid-cols-4">
-          <StatTile label="Staff" value={staff?.length ?? 0} icon={Users} color="#0284c7" />
+        {/* At-a-glance training rollup across the whole team */}
+        <section className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          <StatTile label="Learners" value={learners.length} icon={Users} color="#0284c7" href="/org/learners" />
           <StatTile label="Assigned" value={totals.assigned} icon={BookOpen} color="#7c3aed" />
           <StatTile label="Completed" value={totals.completed} icon={CheckCircle2} color="#16a34a" />
+          <StatTile label="In progress" value={totals.inProgress} icon={Clock} color="#f59e0b" />
+          <StatTile label="Not started" value={totals.notStarted} icon={CircleDashed} color="#64748b" />
           <StatTile label="Overdue" value={totals.overdue} icon={AlertTriangle} color="#e11d48" />
         </section>
+
+        {/* Momentum + who needs chasing */}
+        <div className="grid gap-6 lg:grid-cols-2">
+          <Card>
+            <CardHeader>
+              <CardTitle>Completions trend</CardTitle>
+              <CardDescription>Courses completed over recent weeks.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <CompletionsChart data={weekly} />
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className="flex-row items-center justify-between space-y-0">
+              <div>
+                <CardTitle>Needs attention</CardTitle>
+                <CardDescription>Overdue or inactive learners.</CardDescription>
+              </div>
+              <Link
+                href="/org/learners"
+                className="text-sm text-primary hover:underline"
+              >
+                All learners →
+              </Link>
+            </CardHeader>
+            <CardContent>
+              {needsAttention.length === 0 ? (
+                <p className="text-sm text-muted-foreground">
+                  Everyone&apos;s on track ✓
+                </p>
+              ) : (
+                <ul className="space-y-2 text-sm">
+                  {needsAttention.map((r) => {
+                    const stale =
+                      !r.lastSeenAt ||
+                      nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY;
+                    return (
+                      <li key={r.id} className="flex items-center justify-between gap-2">
+                        <Link href={`/org/staff/${r.id}`} className="min-w-0 truncate hover:underline">
+                          {r.name}
+                        </Link>
+                        <span className="flex shrink-0 items-center gap-2">
+                          {r.stats.overdue > 0 && (
+                            <span className="rounded-full bg-rose-100 px-2 py-0.5 text-xs text-rose-700">
+                              {r.stats.overdue} overdue
+                            </span>
+                          )}
+                          {stale && (
+                            <span className="rounded-full bg-violet-100 px-2 py-0.5 text-xs text-violet-700">
+                              {r.lastSeenAt ? "inactive" : "never active"}
+                            </span>
+                          )}
+                          <NudgeButton userId={r.id} size="xs" />
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </CardContent>
+          </Card>
+        </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <Card>
@@ -303,8 +363,8 @@ export default async function OrgDashboard() {
           <CardHeader>
             <CardTitle>Assign training</CardTitle>
             <CardDescription>
-              Assign a course or a whole pathway to staff, with an optional due
-              date.
+              Assign one or more courses (or a whole pathway) to selected carers
+              or everyone, with an optional due date.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -316,82 +376,6 @@ export default async function OrgDashboard() {
                 name: s.full_name || s.email,
               }))}
             />
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Compliance</CardTitle>
-            <CardDescription>
-              Training status per staff member — assigned, completed, overdue
-              and their overall RAG rating.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            {/* Desktop: table */}
-            <div className="hidden overflow-x-auto md:block">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b text-left text-muted-foreground">
-                    <th className="py-2 font-medium">Name</th>
-                    <th className="py-2 font-medium">Assigned</th>
-                    <th className="py-2 font-medium">Completed</th>
-                    <th className="py-2 font-medium">Overdue</th>
-                    <th className="py-2 font-medium">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {activeStaff.map((u) => {
-                    const c = compliance.get(u.id);
-                    const tag = rag(u.id);
-                    return (
-                      <tr key={u.id} className="border-b last:border-0">
-                        <td className="py-2 font-medium">
-                          {u.full_name || u.email}
-                        </td>
-                        <td className="py-2">{c?.assigned ?? 0}</td>
-                        <td className="py-2">{c?.completed ?? 0}</td>
-                        <td className="py-2">{c?.overdue ?? 0}</td>
-                        <td className="py-2">
-                          <span
-                            className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${tag.className}`}
-                          >
-                            {tag.label}
-                          </span>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-
-            {/* Mobile: cards */}
-            <div className="space-y-2 md:hidden">
-              {activeStaff.map((u) => {
-                const c = compliance.get(u.id);
-                const tag = rag(u.id);
-                return (
-                  <div key={u.id} className="rounded-xl border p-3">
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="min-w-0 truncate font-medium">
-                        {u.full_name || u.email}
-                      </span>
-                      <span
-                        className={`inline-flex shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${tag.className}`}
-                      >
-                        {tag.label}
-                      </span>
-                    </div>
-                    <div className="mt-2 flex gap-4 text-xs text-muted-foreground">
-                      <span>Assigned {c?.assigned ?? 0}</span>
-                      <span>Completed {c?.completed ?? 0}</span>
-                      <span>Overdue {c?.overdue ?? 0}</span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
           </CardContent>
         </Card>
       </div>

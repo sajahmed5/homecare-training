@@ -9,6 +9,8 @@ import {
   Bell,
   Award,
   User,
+  Users,
+  ListChecks,
   Bug,
   type LucideIcon,
 } from "lucide-react";
@@ -31,6 +33,8 @@ const NAV: Record<string, NavItem[]> = {
   ],
   org_admin: [
     { href: "/org", label: "Overview", icon: LayoutDashboard },
+    { href: "/org/learners", label: "Learners", icon: Users },
+    { href: "/org/coverage", label: "Course coverage", icon: ListChecks },
     { href: "/org/billing", label: "Billing", icon: CreditCard },
   ],
   learner: [

@@ -4,6 +4,7 @@ import { Logo } from "@/components/logo";
 import { SidebarNav } from "@/components/sidebar-nav";
 import { AppSidebar } from "@/components/app-sidebar";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { loadBadgeData, loadStarTotal } from "@/lib/learner-data";
 import { deriveNotifications, unreadCount } from "@/lib/notifications";
 import { VERSION_LABEL } from "@/lib/version";
@@ -31,6 +32,25 @@ async function learnerStarTotal(context: UserContext): Promise<number> {
   return loadStarTotal(supabase);
 }
 
+/**
+ * Record that this user is active on the site, at most once every 30 minutes.
+ * Gives org admins a real "last active" signal (auth.last_sign_in_at barely
+ * changes because sessions persist). Service-role, throttled, best-effort — a
+ * conditional no-op on most page loads, and never blocks or breaks the render.
+ */
+async function touchLastSeen(context: UserContext): Promise<void> {
+  try {
+    const cutoff = new Date(Date.now() - 30 * 60_000).toISOString();
+    await createAdminClient()
+      .from("users")
+      .update({ last_seen_at: new Date().toISOString() })
+      .eq("id", context.userId)
+      .or(`last_seen_at.is.null,last_seen_at.lt.${cutoff}`);
+  } catch {
+    // Column missing (pre-migration) or transient error — ignore.
+  }
+}
+
 const ROLE_LABELS: Record<string, string> = {
   platform_admin: "Platform admin",
   org_admin: "Organisation admin",
@@ -49,6 +69,7 @@ export async function DashboardShell({
   const [badges, starTotal] = await Promise.all([
     learnerBadges(context),
     learnerStarTotal(context),
+    touchLastSeen(context),
   ]);
   return (
     <div className="flex min-h-svh w-full">

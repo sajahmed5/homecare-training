@@ -1,0 +1,183 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import Link from "next/link";
+import type { OrgLearnerRow } from "@/lib/org-learners";
+import { NudgeButton } from "../nudge-button";
+
+const DAY = 86_400_000;
+
+function fmtDate(d: string | null): string {
+  if (!d) return "—";
+  return new Date(d).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+function lastActive(d: string | null): { label: string; stale: boolean } {
+  if (!d) return { label: "Never", stale: true };
+  const days = Math.floor((Date.now() - new Date(d).getTime()) / DAY);
+  const stale = days > 30;
+  if (days <= 0) return { label: "Today", stale };
+  if (days === 1) return { label: "Yesterday", stale };
+  if (days < 30) return { label: `${days} days ago`, stale };
+  return { label: fmtDate(d), stale };
+}
+
+type Filter =
+  | "all"
+  | "overdue"
+  | "in_progress"
+  | "not_started"
+  | "inactive"
+  | "never";
+
+const FILTERS: { key: Filter; label: string }[] = [
+  { key: "all", label: "All" },
+  { key: "overdue", label: "Overdue" },
+  { key: "in_progress", label: "In progress" },
+  { key: "not_started", label: "Not started anything" },
+  { key: "inactive", label: "Inactive 30d+" },
+  { key: "never", label: "Never active" },
+];
+
+function matches(r: OrgLearnerRow, f: Filter): boolean {
+  const s = r.stats;
+  switch (f) {
+    case "overdue":
+      return s.overdue > 0;
+    case "in_progress":
+      return s.inProgress > 0;
+    case "not_started":
+      return s.assigned > 0 && s.completed === 0 && s.inProgress === 0;
+    case "inactive":
+      return !r.lastSeenAt || Date.now() - new Date(r.lastSeenAt).getTime() > 30 * DAY;
+    case "never":
+      return !r.lastSeenAt;
+    default:
+      return true;
+  }
+}
+
+export function LearnersTable({ rows }: { rows: OrgLearnerRow[] }) {
+  const [filter, setFilter] = useState<Filter>("all");
+  const shown = useMemo(() => rows.filter((r) => matches(r, filter)), [rows, filter]);
+
+  return (
+    <div className="space-y-3">
+      <div className="flex flex-wrap gap-2">
+        {FILTERS.map((f) => {
+          const count = rows.filter((r) => matches(r, f.key)).length;
+          const active = filter === f.key;
+          return (
+            <button
+              key={f.key}
+              type="button"
+              onClick={() => setFilter(f.key)}
+              className={`rounded-full border px-3 py-1 text-sm transition-colors ${
+                active
+                  ? "border-foreground bg-foreground text-background"
+                  : "hover:bg-accent"
+              }`}
+            >
+              {f.label}{" "}
+              <span className={active ? "opacity-80" : "text-muted-foreground"}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      <div className="overflow-x-auto rounded-2xl border bg-card">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b text-left text-muted-foreground">
+              <th className="px-3 py-2 font-medium">Learner</th>
+              <th className="px-3 py-2 font-medium">Progress</th>
+              <th className="px-3 py-2 font-medium">Assigned</th>
+              <th className="px-3 py-2 font-medium">Completed</th>
+              <th className="px-3 py-2 font-medium">In progress</th>
+              <th className="px-3 py-2 font-medium">Not started</th>
+              <th className="px-3 py-2 font-medium">Latest completed</th>
+              <th className="px-3 py-2 font-medium">Last assigned</th>
+              <th className="px-3 py-2 font-medium">Last active</th>
+              <th className="px-3 py-2 font-medium text-right">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {shown.length === 0 ? (
+              <tr>
+                <td colSpan={10} className="px-3 py-8 text-center text-muted-foreground">
+                  No learners match this filter.
+                </td>
+              </tr>
+            ) : (
+              shown.map((r) => {
+                const active = lastActive(r.lastSeenAt);
+                return (
+                  <tr key={r.id} className="border-b last:border-0 hover:bg-accent/40">
+                    <td className="px-3 py-2">
+                      <Link
+                        href={`/org/staff/${r.id}`}
+                        className="font-medium hover:underline"
+                      >
+                        {r.name}
+                      </Link>
+                    </td>
+                    <td className="px-3 py-2">
+                      <span
+                        className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${
+                          r.stats.overdue > 0
+                            ? "bg-rose-100 text-rose-700"
+                            : r.stats.assigned > 0 && r.stats.completed === r.stats.assigned
+                              ? "bg-green-100 text-green-700"
+                              : "bg-amber-100 text-amber-700"
+                        }`}
+                      >
+                        {r.stats.overallPct}%
+                      </span>
+                    </td>
+                    <td className="px-3 py-2">{r.stats.assigned}</td>
+                    <td className="px-3 py-2">{r.stats.completed}</td>
+                    <td className="px-3 py-2">{r.stats.inProgress}</td>
+                    <td className="px-3 py-2">{r.stats.notStarted}</td>
+                    <td className="px-3 py-2 text-muted-foreground">
+                      {r.latestCompleted ? (
+                        <span>
+                          {r.latestCompleted.title}
+                          <span className="block text-xs">
+                            {fmtDate(r.latestCompleted.date)}
+                          </span>
+                        </span>
+                      ) : (
+                        "—"
+                      )}
+                    </td>
+                    <td className="px-3 py-2 whitespace-nowrap text-muted-foreground">
+                      {fmtDate(r.lastAssignedAt)}
+                    </td>
+                    <td className="px-3 py-2 whitespace-nowrap">
+                      <span className={active.stale ? "text-rose-600" : "text-muted-foreground"}>
+                        {active.label}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-right">
+                      {r.stats.completed < r.stats.assigned ? (
+                        <NudgeButton userId={r.id} size="xs" />
+                      ) : (
+                        <span className="text-xs text-muted-foreground">—</span>
+                      )}
+                    </td>
+                  </tr>
+                );
+              })
+            )}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}

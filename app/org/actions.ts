@@ -191,43 +191,54 @@ export async function assignTrainingAction(
     return { ok: false, error: "Your account has no organisation." };
   }
 
-  const target = String(formData.get("target") ?? "");
   const dueDate = String(formData.get("dueDate") ?? "").trim() || null;
-  const userIds = formData.getAll("userIds").map(String);
+  const pathwayId = String(formData.get("pathway") ?? "").trim();
+  const selectedCourseIds = formData.getAll("courseIds").map(String).filter(Boolean);
+  const allCarers = String(formData.get("all") ?? "") !== "";
+  const selectedUserIds = formData.getAll("userIds").map(String);
 
-  if (!target) return { ok: false, error: "Choose a course or pathway." };
-  if (userIds.length === 0) {
-    return { ok: false, error: "Select at least one staff member." };
-  }
-
-  const [kind, id] = target.split(":");
   const supabase = await createClient();
 
-  // Resolve to a concrete set of course ids.
-  let courseIds: string[] = [];
-  if (kind === "course") {
-    courseIds = [id];
-  } else if (kind === "pathway") {
+  // Resolve to a concrete set of course ids (selected courses ∪ pathway courses).
+  const courseIdSet = new Set<string>(selectedCourseIds);
+  if (pathwayId) {
     const { data } = await supabase
       .from("pathway_courses")
       .select("course_id")
-      .eq("pathway_id", id);
-    courseIds = (data ?? []).map((r) => r.course_id as string);
+      .eq("pathway_id", pathwayId);
+    for (const r of data ?? []) courseIdSet.add(r.course_id as string);
   }
+  const courseIds = [...courseIdSet];
   if (courseIds.length === 0) {
-    return { ok: false, error: "No courses found for that selection." };
+    return { ok: false, error: "Choose at least one course or a pathway." };
   }
 
-  // RLS scopes this read to the caller's org, so it validates org membership.
-  const { data: orgUsers } = await supabase
-    .from("users")
-    .select("id")
-    .in("id", userIds);
-  const valid = new Set((orgUsers ?? []).map((u) => u.id as string));
+  // Resolve the target learners. "All carers" = every active learner in the org
+  // (RLS scopes the read to the caller's org).
+  let userIds: string[];
+  if (allCarers) {
+    const { data } = await supabase
+      .from("users")
+      .select("id")
+      .eq("role", "learner")
+      .eq("status", "active");
+    userIds = (data ?? []).map((u) => u.id as string);
+  } else {
+    if (selectedUserIds.length === 0) {
+      return { ok: false, error: "Select at least one carer, or tick 'all carers'." };
+    }
+    const { data: orgUsers } = await supabase
+      .from("users")
+      .select("id")
+      .in("id", selectedUserIds);
+    userIds = (orgUsers ?? []).map((u) => u.id as string);
+  }
+  if (userIds.length === 0) {
+    return { ok: false, error: "No valid carers selected." };
+  }
 
   const rows = [];
   for (const uid of userIds) {
-    if (!valid.has(uid)) continue;
     for (const cid of courseIds) {
       rows.push({
         organisation_id: context.organisationId,
