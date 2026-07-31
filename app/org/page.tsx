@@ -17,6 +17,7 @@ import { Badge } from "@/components/ui/badge";
 import { InviteStaffForm } from "./invite-staff-form";
 import { CsvImport } from "./csv-import";
 import { CsvExport } from "./csv-export";
+import { MatrixExport } from "./matrix-export";
 import { StatusToggle } from "./status-toggle";
 import { AssignForm } from "./assign-form";
 
@@ -183,10 +184,15 @@ export default async function OrgDashboard() {
               <CardTitle>Staff</CardTitle>
               <CardDescription>{staff?.length ?? 0} member(s).</CardDescription>
             </div>
-            <CsvExport
-              rows={exportRows}
-              filename={`${organisation?.name ?? "staff"}-staff.csv`}
-            />
+            <div className="flex items-center gap-2">
+              <MatrixExport
+                filename={`${organisation?.name ?? "org"}-training-matrix.csv`}
+              />
+              <CsvExport
+                rows={exportRows}
+                filename={`${organisation?.name ?? "staff"}-staff.csv`}
+              />
+            </div>
           </CardHeader>
           <CardContent>
             {/* Desktop: table */}
@@ -207,9 +213,12 @@ export default async function OrgDashboard() {
                     return (
                       <tr key={u.id} className="border-b last:border-0">
                         <td className="py-2">
-                          <span className="font-medium">
+                          <Link
+                            href={`/org/staff/${u.id}`}
+                            className="font-medium hover:underline"
+                          >
                             {u.full_name || u.email}
-                          </span>{" "}
+                          </Link>{" "}
                           <span className="text-muted-foreground">
                             {u.email}
                           </span>
@@ -253,9 +262,12 @@ export default async function OrgDashboard() {
                   <div key={u.id} className="rounded-xl border p-3">
                     <div className="flex items-start justify-between gap-2">
                       <div className="min-w-0">
-                        <p className="truncate font-medium">
+                        <Link
+                          href={`/org/staff/${u.id}`}
+                          className="block truncate font-medium hover:underline"
+                        >
                           {u.full_name || u.email}
-                        </p>
+                        </Link>
                         <p className="truncate text-xs text-muted-foreground">
                           {u.email}
                         </p>
