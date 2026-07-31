@@ -32,6 +32,28 @@ async function learnerStarTotal(context: UserContext): Promise<number> {
   return loadStarTotal(supabase);
 }
 
+/** Which paid add-ons this org has — used to gate the org sidebar nav items. */
+async function orgAddOns(
+  context: UserContext,
+): Promise<Record<string, boolean>> {
+  if (context.role !== "org_admin" || !context.organisationId) return {};
+  try {
+    const supabase = await createClient();
+    const { data } = await supabase
+      .from("organisations")
+      .select("forms_enabled, recruitment_enabled, observations_enabled")
+      .eq("id", context.organisationId)
+      .single();
+    return {
+      forms_enabled: !!data?.forms_enabled,
+      recruitment_enabled: !!data?.recruitment_enabled,
+      observations_enabled: !!data?.observations_enabled,
+    };
+  } catch {
+    return {};
+  }
+}
+
 /**
  * Record that this user is active on the site, at most once every 30 minutes.
  * Gives org admins a real "last active" signal (auth.last_sign_in_at barely
@@ -66,9 +88,10 @@ export async function DashboardShell({
   context: UserContext;
   children?: React.ReactNode;
 }) {
-  const [badges, starTotal] = await Promise.all([
+  const [badges, starTotal, addOns] = await Promise.all([
     learnerBadges(context),
     learnerStarTotal(context),
+    orgAddOns(context),
     touchLastSeen(context),
   ]);
   return (
@@ -79,6 +102,7 @@ export async function DashboardShell({
         email={context.email}
         roleLabel={context.role ? ROLE_LABELS[context.role] : "No role"}
         badges={badges}
+        enabled={addOns}
         version={VERSION_LABEL}
       />
 
@@ -122,7 +146,7 @@ export async function DashboardShell({
 
         {/* Mobile nav strip */}
         <div className="bg-sidebar px-3 py-2 md:hidden">
-          <SidebarNav role={context.role} orientation="horizontal" badges={badges} />
+          <SidebarNav role={context.role} orientation="horizontal" badges={badges} enabled={addOns} />
         </div>
 
         <main className="flex-1 px-4 py-6 sm:px-6 sm:py-8">{children}</main>

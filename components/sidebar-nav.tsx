@@ -13,6 +13,9 @@ import {
   Building2,
   BarChart3,
   ListChecks,
+  FileText,
+  Briefcase,
+  ClipboardCheck,
   Bug,
   type LucideIcon,
 } from "lucide-react";
@@ -23,6 +26,8 @@ interface NavItem {
   href: string;
   label: string;
   icon: LucideIcon;
+  /** Only show when this org add-on flag is enabled (org_admin add-ons). */
+  flag?: "forms_enabled" | "recruitment_enabled" | "observations_enabled";
 }
 
 const NAV: Record<string, NavItem[]> = {
@@ -39,6 +44,9 @@ const NAV: Record<string, NavItem[]> = {
     { href: "/org", label: "Overview", icon: LayoutDashboard },
     { href: "/org/learners", label: "Learners", icon: Users },
     { href: "/org/coverage", label: "Course coverage", icon: ListChecks },
+    { href: "/org/forms", label: "Forms", icon: FileText, flag: "forms_enabled" },
+    { href: "/org/recruitment", label: "Recruitment", icon: Briefcase, flag: "recruitment_enabled" },
+    { href: "/org/observations", label: "CC assessment", icon: ClipboardCheck, flag: "observations_enabled" },
     { href: "/org/billing", label: "Billing", icon: CreditCard },
   ],
   learner: [
@@ -54,15 +62,20 @@ export function SidebarNav({
   role,
   orientation = "vertical",
   badges = {},
+  enabled = {},
   collapsed = false,
 }: {
   role: UserRole | null;
   orientation?: "vertical" | "horizontal";
   badges?: Record<string, number>;
+  /** Org add-on flags — items with a `flag` only show when enabled here. */
+  enabled?: Record<string, boolean>;
   collapsed?: boolean;
 }) {
   const pathname = usePathname();
-  const items = role ? (NAV[role] ?? []) : [];
+  const items = (role ? (NAV[role] ?? []) : []).filter(
+    (item) => !item.flag || enabled[item.flag],
+  );
 
   return (
     <nav

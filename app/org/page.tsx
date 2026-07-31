@@ -10,7 +10,6 @@ import {
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { tierLabel } from "@/lib/organisations";
-import { buttonVariants } from "@/components/ui/button";
 import { StatTile } from "@/components/learner-ui";
 import { DashboardShell } from "@/components/dashboard-shell";
 import { loadOrgLearners, completionsByWeek } from "@/lib/org-learners";
@@ -103,44 +102,10 @@ export default async function OrgDashboard() {
       context={context}
     >
       <div className="mx-auto max-w-4xl space-y-8">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <p className="text-sm text-muted-foreground">
-            {organisation?.name} ·{" "}
-            {tierLabel(organisation?.package_tier ?? "core")}
-          </p>
-          <div className="flex gap-2">
-            {organisation?.forms_enabled && (
-              <Link
-                href="/org/forms"
-                className={buttonVariants({ variant: "outline", size: "sm" })}
-              >
-                Forms
-              </Link>
-            )}
-            {organisation?.recruitment_enabled && (
-              <Link
-                href="/org/recruitment"
-                className={buttonVariants({ variant: "outline", size: "sm" })}
-              >
-                Recruitment
-              </Link>
-            )}
-            {organisation?.observations_enabled && (
-              <Link
-                href="/org/observations"
-                className={buttonVariants({ variant: "outline", size: "sm" })}
-              >
-                CC assessment
-              </Link>
-            )}
-            <Link
-              href="/org/billing"
-              className={buttonVariants({ variant: "outline", size: "sm" })}
-            >
-              Billing
-            </Link>
-          </div>
-        </div>
+        <p className="text-sm text-muted-foreground">
+          {organisation?.name} ·{" "}
+          {tierLabel(organisation?.package_tier ?? "core")}
+        </p>
 
         {/* At-a-glance training rollup across the whole team */}
         <section className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">

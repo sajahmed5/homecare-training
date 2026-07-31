@@ -9,7 +9,6 @@ import { PASS_PERCENT, type PublicQuestion } from "@/lib/quiz";
 import {
   startQuizAction,
   submitQuizAction,
-  getCertificateUrlAction,
   type SubmitQuizResult,
 } from "@/app/learn/quiz-actions";
 
@@ -104,10 +103,9 @@ export function QuizRunner({
     if (typeof window !== "undefined") window.scrollTo({ top: 0 });
   }
 
-  async function download() {
+  function download() {
     if (!result?.certificateId) return;
-    const { url } = await getCertificateUrlAction(result.certificateId);
-    if (url) window.open(url, "_blank");
+    window.open(`/learn/certificates/${result.certificateId}/download`, "_blank");
   }
 
   const answeredCount = questions.filter((q) => isAnswered(q, answers[q.id])).length;
@@ -128,10 +126,16 @@ export function QuizRunner({
           <li>Unlimited retakes if you don&apos;t pass.</li>
         </ul>
         {error && <p className="text-sm text-destructive">{error}</p>}
-        <div className="flex gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <Button onClick={start} disabled={busy}>
             {busy ? "Starting…" : "Start assessment"}
           </Button>
+          <Link
+            href={`/learn/courses/${courseId}`}
+            className={buttonVariants({ variant: "outline" })}
+          >
+            Review the course
+          </Link>
           <Link href="/learn" className="self-center text-sm text-muted-foreground hover:underline">
             Back to my training
           </Link>

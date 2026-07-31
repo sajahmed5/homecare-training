@@ -14,12 +14,14 @@ export function AppSidebar({
   email,
   roleLabel,
   badges,
+  enabled,
   version,
 }: {
   role: UserRole | null;
   email: string | null;
   roleLabel: string;
   badges: Record<string, number>;
+  enabled?: Record<string, boolean>;
   version: string;
 }) {
   const [collapsed, setCollapsed] = useState(false);
@@ -67,7 +69,7 @@ export function AppSidebar({
       </div>
 
       <div className="flex-1 px-3">
-        <SidebarNav role={role} badges={badges} collapsed={collapsed} />
+        <SidebarNav role={role} badges={badges} enabled={enabled} collapsed={collapsed} />
       </div>
 
       {!collapsed && (

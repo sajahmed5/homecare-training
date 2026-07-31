@@ -1,10 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { topicTheme, tint } from "@/lib/topic-theme";
-import { getCertificateUrlAction } from "@/app/learn/quiz-actions";
 
 export interface WalletCert {
   id: string;
@@ -24,13 +22,8 @@ const FLAG_STYLE: Record<string, { label: string; className: string }> = {
 };
 
 export function CertWallet({ certs }: { certs: WalletCert[] }) {
-  const [busy, setBusy] = useState<string | null>(null);
-
-  async function download(id: string) {
-    setBusy(id);
-    const { url } = await getCertificateUrlAction(id);
-    setBusy(null);
-    if (url) window.open(url, "_blank");
+  function download(id: string) {
+    window.open(`/learn/certificates/${id}/download`, "_blank");
   }
 
   if (certs.length === 0) {
@@ -74,13 +67,8 @@ export function CertWallet({ certs }: { certs: WalletCert[] }) {
                 ? ` · expires ${new Date(c.expires).toLocaleDateString("en-GB")}`
                 : ""}
             </p>
-            <Button
-              size="sm"
-              variant="outline"
-              onClick={() => download(c.id)}
-              disabled={busy === c.id}
-            >
-              {busy === c.id ? "…" : "Download"}
+            <Button size="sm" variant="outline" onClick={() => download(c.id)}>
+              Download
             </Button>
           </div>
         );
