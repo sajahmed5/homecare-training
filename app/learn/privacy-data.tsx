@@ -13,19 +13,40 @@ export function PrivacyData() {
   async function exportData() {
     setBusy("export");
     setError(null);
-    const { data, error } = await exportMyDataAction();
+    const { rows, error } = await exportMyDataAction();
     setBusy(null);
-    if (error || !data) {
+    if (error || !rows) {
       setError(error ?? "Export failed.");
       return;
     }
-    const blob = new Blob([JSON.stringify(data, null, 2)], {
-      type: "application/json",
-    });
+    if (rows.length === 0) {
+      setError("You have no completed courses to export yet.");
+      return;
+    }
+
+    // Escape a single CSV cell (quote if it contains a comma, quote or newline).
+    const cell = (v: string) =>
+      /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
+
+    const header = [
+      "Course",
+      "Date completed",
+      "Expiry date",
+      "Certificate number",
+      "Assessment score",
+    ];
+    const body = rows.map((r) =>
+      [r.course, r.completed, r.expiry, r.certificateNumber, r.score]
+        .map(cell)
+        .join(","),
+    );
+    // Lead with a BOM so Excel reads UTF-8 (accented course names) correctly.
+    const csv = "﻿" + [header.join(","), ...body].join("\r\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "my-care-academy-data.json";
+    a.download = "my-care-academy-training-record.csv";
     a.click();
     URL.revokeObjectURL(url);
   }
