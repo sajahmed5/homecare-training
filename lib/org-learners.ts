@@ -33,26 +33,33 @@ function pickCourse(row: { courses?: unknown }): JoinedCourse {
  */
 export async function loadOrgLearners(
   supabase: SupabaseClient,
+  orgId?: string,
 ): Promise<OrgLearnerRow[]> {
+  // When orgId is given (platform_admin viewing a specific org), scope every
+  // read to it explicitly — the platform RLS would otherwise return all orgs.
+  let usersQ = supabase
+    .from("users")
+    .select("id, full_name, email, status, last_seen_at")
+    .eq("role", "learner")
+    .order("full_name", { ascending: true });
+  let enrQ = supabase
+    .from("enrolments")
+    .select(
+      "user_id, course_id, status, progress, due_date, assigned_at, courses(title, topics(title))",
+    );
+  let certQ = supabase
+    .from("certificates")
+    .select(
+      "user_id, course_id, issued_at, expires_at, courses(title, topics(title))",
+    )
+    .order("issued_at", { ascending: false });
+  if (orgId) {
+    usersQ = usersQ.eq("organisation_id", orgId);
+    enrQ = enrQ.eq("organisation_id", orgId);
+    certQ = certQ.eq("organisation_id", orgId);
+  }
   const [{ data: users }, { data: enrRaw }, { data: certRaw }] =
-    await Promise.all([
-      supabase
-        .from("users")
-        .select("id, full_name, email, status, last_seen_at")
-        .eq("role", "learner")
-        .order("full_name", { ascending: true }),
-      supabase
-        .from("enrolments")
-        .select(
-          "user_id, course_id, status, progress, due_date, assigned_at, courses(title, topics(title))",
-        ),
-      supabase
-        .from("certificates")
-        .select(
-          "user_id, course_id, issued_at, expires_at, courses(title, topics(title))",
-        )
-        .order("issued_at", { ascending: false }),
-    ]);
+    await Promise.all([usersQ, enrQ, certQ]);
 
   // Group enrolments + certificates by learner.
   const enrByUser = new Map<string, Enrolment[]>();
@@ -182,18 +189,21 @@ export interface WeekPoint {
   count: number;
 }
 
-/** Certificates issued per week over the last `weeks` weeks (oldest → newest). */
+/**
+ * Certificates issued per week over the last `weeks` weeks (oldest → newest).
+ * Pass orgId to scope to one org (platform_admin); omit to rely on RLS.
+ */
 export async function completionsByWeek(
   supabase: SupabaseClient,
   weeks = 12,
+  orgId?: string,
 ): Promise<WeekPoint[]> {
   const now = new Date();
   const msWeek = 7 * 86_400_000;
   const since = new Date(now.getTime() - weeks * msWeek).toISOString();
-  const { data } = await supabase
-    .from("certificates")
-    .select("issued_at")
-    .gte("issued_at", since);
+  let q = supabase.from("certificates").select("issued_at").gte("issued_at", since);
+  if (orgId) q = q.eq("organisation_id", orgId);
+  const { data } = await q;
 
   const buckets = new Array(weeks).fill(0);
   for (const c of data ?? []) {

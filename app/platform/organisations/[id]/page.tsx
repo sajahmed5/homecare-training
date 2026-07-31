@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Users, CheckCircle2, AlertTriangle, MoonStar } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { DashboardShell } from "@/components/dashboard-shell";
@@ -10,12 +11,17 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { StatTile } from "@/components/learner-ui";
+import { loadOrgLearners } from "@/lib/org-learners";
+import { LearnersTable } from "@/app/org/learners/learners-table";
 import { EditOrgForm } from "./edit-org-form";
+import { OrgNudgeButton } from "../../org-nudge-button";
 
 const ROLE_LABELS: Record<string, string> = {
   org_admin: "Admin",
   learner: "Learner",
 };
+const DAY = 86_400_000;
 
 export default async function OrganisationDetailPage({
   params,
@@ -26,7 +32,7 @@ export default async function OrganisationDetailPage({
   const { id } = await params;
 
   const supabase = await createClient();
-  const [{ data: org }, { data: staff }] = await Promise.all([
+  const [{ data: org }, { data: staff }, learners] = await Promise.all([
     supabase
       .from("organisations")
       .select(
@@ -39,19 +45,44 @@ export default async function OrganisationDetailPage({
       .select("id, full_name, email, role, created_at")
       .eq("organisation_id", id)
       .order("created_at", { ascending: true }),
+    loadOrgLearners(supabase, id),
   ]);
 
   if (!org) notFound();
 
+  const nowMs = new Date().getTime();
+  const assigned = learners.reduce((n, r) => n + r.stats.assigned, 0);
+  const completed = learners.reduce((n, r) => n + r.stats.completed, 0);
+  const completionPct = assigned > 0 ? Math.round((completed / assigned) * 100) : 0;
+  const overdueLearners = learners.filter((r) => r.stats.overdue > 0).length;
+  const inactive = learners.filter(
+    (r) => !r.lastSeenAt || nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
+  ).length;
+
   return (
     <DashboardShell title={org.name} context={context}>
-      <div className="mx-auto max-w-3xl space-y-6">
-        <Link
-          href="/platform"
-          className="text-sm text-muted-foreground hover:underline"
-        >
-          ← Back to organisations
-        </Link>
+      <div className="mx-auto max-w-5xl space-y-6">
+        <div className="flex items-center justify-between gap-3">
+          <Link
+            href="/platform/organisations"
+            className="text-sm text-muted-foreground hover:underline"
+          >
+            ← Organisations
+          </Link>
+          <OrgNudgeButton orgId={org.id} />
+        </div>
+
+        {/* Engagement at a glance */}
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <StatTile label="Learners" value={learners.length} icon={Users} color="#0284c7" />
+          <StatTile label="Completion" value={`${completionPct}%`} icon={CheckCircle2} color="#10b981" />
+          <StatTile label="With overdue" value={overdueLearners} icon={AlertTriangle} color="#ef4444" />
+          <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" />
+        </div>
+
+        {learners.length > 0 && (
+          <LearnersTable rows={learners} readOnly />
+        )}
 
         <Card>
           <CardHeader>

@@ -10,6 +10,7 @@ import {
   Award,
   User,
   Users,
+  Building2,
   ListChecks,
   Bug,
   type LucideIcon,
@@ -26,6 +27,7 @@ interface NavItem {
 const NAV: Record<string, NavItem[]> = {
   platform_admin: [
     { href: "/platform", label: "Overview", icon: LayoutDashboard },
+    { href: "/platform/organisations", label: "Organisations", icon: Building2 },
     { href: "/platform/courses", label: "Courses", icon: BookOpen },
     { href: "/platform/reports", label: "Issues", icon: Bug },
     { href: "/platform/billing", label: "Billing", icon: CreditCard },
