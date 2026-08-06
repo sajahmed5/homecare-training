@@ -5,6 +5,8 @@ import { createInvite } from "@/lib/invites";
 import { logAudit } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
+// Invites send emails one by one; give the function room to breathe.
+export const maxDuration = 60;
 
 /**
  * The portal pushes its carers in as this organisation's learners.

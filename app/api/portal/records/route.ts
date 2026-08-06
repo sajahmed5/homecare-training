@@ -3,6 +3,8 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { resolvePortalOrg, isOrg } from "@/lib/portal-api";
 
 export const dynamic = "force-dynamic";
+// Invites send emails one by one; give the function room to breathe.
+export const maxDuration = 60;
 
 /**
  * Every portal-managed learner's training state, keyed by the portal's own

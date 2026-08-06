@@ -4,6 +4,8 @@ import { resolvePortalOrg, isOrg } from "@/lib/portal-api";
 import { logAudit } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
+// Invites send emails one by one; give the function room to breathe.
+export const maxDuration = 60;
 
 /**
  * Allocate training from the portal.
