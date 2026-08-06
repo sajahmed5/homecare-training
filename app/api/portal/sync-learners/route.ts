@@ -38,7 +38,7 @@ export async function POST(req: Request) {
   const org = await resolvePortalOrg(req);
   if (!isOrg(org)) return org;
 
-  let body: { learners?: LearnerRow[] };
+  let body: { learners?: LearnerRow[]; updateOnly?: boolean };
   try {
     body = await req.json();
   } catch {
@@ -48,6 +48,11 @@ export async function POST(req: Request) {
   if (learners.length === 0 || learners.length > 1000) {
     return NextResponse.json({ error: "Send 1-1000 learners" }, { status: 400 });
   }
+  // updateOnly: mirror changes to EXISTING learners but never provision a new
+  // one — an invitation is a deliberate act (short-term cover staff often
+  // shouldn't have a training account at all), so the portal's automatic
+  // mirroring passes this and its explicit invite/sync buttons don't.
+  const updateOnly = body.updateOnly === true;
 
   const admin = createAdminClient();
   const { data: existing } = await admin
@@ -75,6 +80,10 @@ export async function POST(req: Request) {
         if (!wantActive) {
           // Never provision an account for somebody who has already left.
           results.push({ externalRef: ref, outcome: "skipped_archived" });
+          continue;
+        }
+        if (updateOnly) {
+          results.push({ externalRef: ref, outcome: "skipped_not_on_platform" });
           continue;
         }
         if (!email) {
