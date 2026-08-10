@@ -50,15 +50,18 @@ export default async function LearnersPage() {
         .limit(200),
     ]);
 
-  const total = rows.length;
-  const assigned = rows.reduce((n, r) => n + r.stats.assigned, 0);
-  const completed = rows.reduce((n, r) => n + r.stats.completed, 0);
+  // Deactivated accounts (leavers) stay in the table for their history, but
+  // the headline numbers describe the current workforce only.
+  const current = rows.filter((r) => r.status !== "deactivated");
+  const total = current.length;
+  const assigned = current.reduce((n, r) => n + r.stats.assigned, 0);
+  const completed = current.reduce((n, r) => n + r.stats.completed, 0);
   const overallPct = assigned > 0 ? Math.round((completed / assigned) * 100) : 0;
   const nowMs = new Date().getTime();
-  const overdueLearners = rows.filter((r) => r.stats.overdue > 0).length;
+  const overdueLearners = current.filter((r) => r.stats.overdue > 0).length;
   // Inactive = has logged in, but not for 30+ days. Never-active users are
   // counted separately in the table's filter pills (issue #15).
-  const inactive = rows.filter(
+  const inactive = current.filter(
     (r) => r.lastSeenAt && nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
   ).length;
 

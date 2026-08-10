@@ -34,7 +34,8 @@ type Filter =
   | "completed"
   | "unassigned"
   | "inactive"
-  | "never";
+  | "never"
+  | "deactivated";
 
 const STATUS_FILTERS: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
@@ -51,9 +52,15 @@ const STATUS_FILTERS: { key: Filter; label: string }[] = [
 const ACTIVITY_FILTERS: { key: Filter; label: string }[] = [
   { key: "inactive", label: "Inactive 30d+" },
   { key: "never", label: "Never active" },
+  { key: "deactivated", label: "Deactivated" },
 ];
 
 function matches(r: OrgLearnerRow, f: Filter): boolean {
+  // Deactivated accounts (leavers — the rostering portal archived them) are
+  // kept for their training history, but they belong under All/Deactivated
+  // only: surfacing a leaver as "overdue" or "never active" invites someone
+  // to chase a person who can no longer log in.
+  if (r.status === "deactivated") return f === "all" || f === "deactivated";
   switch (f) {
     case "inactive":
       return (
@@ -61,6 +68,8 @@ function matches(r: OrgLearnerRow, f: Filter): boolean {
       );
     case "never":
       return !r.lastSeenAt;
+    case "deactivated":
+      return false;
     case "all":
       return true;
     default:
@@ -87,6 +96,7 @@ export function LearnersTable({
   function exportCsv() {
     const header = [
       "Learner",
+      "Status",
       "Email",
       "Assigned",
       "Completed",
@@ -101,6 +111,7 @@ export function LearnersTable({
     const body = shown.map((r) =>
       [
         r.name,
+        r.status === "deactivated" ? "Deactivated" : "Active",
         r.email ?? "",
         String(r.stats.assigned),
         String(r.stats.completed),
@@ -210,8 +221,12 @@ export function LearnersTable({
             ) : (
               shown.map((r) => {
                 const active = lastActive(r.lastSeenAt);
+                const gone = r.status === "deactivated";
                 return (
-                  <tr key={r.id} className="border-b last:border-0 hover:bg-accent/40">
+                  <tr
+                    key={r.id}
+                    className={`border-b last:border-0 hover:bg-accent/40 ${gone ? "opacity-60" : ""}`}
+                  >
                     <td className="px-3 py-2">
                       <Link
                         href={`/org/staff/${r.id}`}
@@ -219,6 +234,11 @@ export function LearnersTable({
                       >
                         {r.name}
                       </Link>
+                      {gone && (
+                        <span className="ml-2 inline-flex items-center rounded-full bg-slate-200 px-2 py-0.5 text-xs font-medium text-slate-600">
+                          Deactivated
+                        </span>
+                      )}
                     </td>
                     <td className="px-3 py-2">
                       <span
@@ -259,7 +279,7 @@ export function LearnersTable({
                     </td>
                     {!readOnly && (
                       <td className="px-3 py-2 text-right">
-                        {r.stats.completed < r.stats.assigned ? (
+                        {!gone && r.stats.completed < r.stats.assigned ? (
                           <NudgeButton
                             userId={r.id}
                             size="xs"

@@ -51,11 +51,14 @@ export default async function OrganisationDetailPage({
   if (!org) notFound();
 
   const nowMs = new Date().getTime();
-  const assigned = learners.reduce((n, r) => n + r.stats.assigned, 0);
-  const completed = learners.reduce((n, r) => n + r.stats.completed, 0);
+  // Deactivated accounts (leavers) stay in the table for their history, but
+  // the headline numbers describe the current workforce only.
+  const current = learners.filter((r) => r.status !== "deactivated");
+  const assigned = current.reduce((n, r) => n + r.stats.assigned, 0);
+  const completed = current.reduce((n, r) => n + r.stats.completed, 0);
   const completionPct = assigned > 0 ? Math.round((completed / assigned) * 100) : 0;
-  const overdueLearners = learners.filter((r) => r.stats.overdue > 0).length;
-  const inactive = learners.filter(
+  const overdueLearners = current.filter((r) => r.stats.overdue > 0).length;
+  const inactive = current.filter(
     (r) => !r.lastSeenAt || nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
   ).length;
 
@@ -74,7 +77,7 @@ export default async function OrganisationDetailPage({
 
         {/* Engagement at a glance */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          <StatTile label="Learners" value={learners.length} icon={Users} color="#0284c7" />
+          <StatTile label="Learners" value={current.length} icon={Users} color="#0284c7" />
           <StatTile label="Completion" value={`${completionPct}%`} icon={CheckCircle2} color="#10b981" />
           <StatTile label="With overdue" value={overdueLearners} icon={AlertTriangle} color="#ef4444" />
           <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" />
