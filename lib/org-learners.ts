@@ -15,6 +15,28 @@ export interface OrgLearnerRow {
   latestCompleted: { title: string; date: string } | null;
   lastAssignedAt: string | null;
   lastSeenAt: string | null;
+  lastRemindedAt: string | null;
+}
+
+/**
+ * Every learner lands in exactly one status bucket, so status counts add up to
+ * the learner total (issue #15). Most-urgent wins: overdue beats in-progress
+ * beats not-started.
+ */
+export type LearnerBucket =
+  | "overdue"
+  | "in_progress"
+  | "not_started"
+  | "completed"
+  | "unassigned";
+
+export function bucketOf(r: OrgLearnerRow): LearnerBucket {
+  const s = r.stats;
+  if (s.assigned === 0) return "unassigned";
+  if (s.overdue > 0) return "overdue";
+  if (s.inProgress > 0) return "in_progress";
+  if (s.notStarted > 0) return "not_started";
+  return "completed";
 }
 
 interface JoinedCourse {
@@ -45,7 +67,7 @@ export async function loadOrgLearners(
   let enrQ = supabase
     .from("enrolments")
     .select(
-      "user_id, course_id, status, progress, due_date, assigned_at, courses(title, topics(title))",
+      "user_id, course_id, status, progress, due_date, assigned_at, last_reminder_at, courses(title, topics(title))",
     );
   let certQ = supabase
     .from("certificates")
@@ -64,6 +86,7 @@ export async function loadOrgLearners(
   // Group enrolments + certificates by learner.
   const enrByUser = new Map<string, Enrolment[]>();
   const assignedByUser = new Map<string, string>(); // latest assigned_at
+  const remindedByUser = new Map<string, string>(); // latest last_reminder_at
   for (const e of enrRaw ?? []) {
     const c = pickCourse(e);
     const list = enrByUser.get(e.user_id) ?? [];
@@ -83,6 +106,10 @@ export async function loadOrgLearners(
     const prev = assignedByUser.get(e.user_id);
     if (!prev || (e.assigned_at && e.assigned_at > prev)) {
       assignedByUser.set(e.user_id, e.assigned_at);
+    }
+    const prevReminded = remindedByUser.get(e.user_id);
+    if (e.last_reminder_at && (!prevReminded || e.last_reminder_at > prevReminded)) {
+      remindedByUser.set(e.user_id, e.last_reminder_at);
     }
   }
 
@@ -123,6 +150,7 @@ export async function loadOrgLearners(
       latestCompleted: latestByUser.get(u.id) ?? null,
       lastAssignedAt: assignedByUser.get(u.id) ?? null,
       lastSeenAt: u.last_seen_at ?? null,
+      lastRemindedAt: remindedByUser.get(u.id) ?? null,
     };
   });
 }

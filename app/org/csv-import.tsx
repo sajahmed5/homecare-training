@@ -10,41 +10,108 @@ interface Row {
   role: string;
 }
 
-function parseCsv(text: string): Row[] {
-  const lines = text
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/**
+ * Split one CSV line respecting quoted fields ("Smith, Jo" stays one cell).
+ * Handles both comma and semicolon delimiters (Excel exports semicolons in
+ * some locales).
+ */
+function splitLine(line: string, delim: string): string[] {
+  const cells: string[] = [];
+  let cur = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuotes) {
+      if (ch === '"' && line[i + 1] === '"') {
+        cur += '"';
+        i++;
+      } else if (ch === '"') {
+        inQuotes = false;
+      } else {
+        cur += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === delim) {
+      cells.push(cur.trim());
+      cur = "";
+    } else {
+      cur += ch;
+    }
+  }
+  cells.push(cur.trim());
+  return cells;
+}
+
+/** Header names people actually use, mapped to our three columns. */
+const HEADER_ALIASES: Record<keyof Row, string[]> = {
+  name: ["name", "full name", "fullname", "staff name", "employee name"],
+  email: ["email", "email address", "e-mail", "e-mail address", "mail"],
+  role: ["role", "type", "user role", "account type"],
+};
+
+function matchHeader(cols: string[], key: keyof Row): number {
+  return cols.findIndex((c) => HEADER_ALIASES[key].includes(c));
+}
+
+export function parseCsv(text: string): { rows: Row[]; problem?: string } {
+  // Strip a UTF-8 BOM (Excel adds one) so the first header matches.
+  const clean = text.replace(/^﻿/, "");
+  const lines = clean
     .split(/\r?\n/)
     .map((l) => l.trim())
     .filter(Boolean);
-  if (lines.length === 0) return [];
+  if (lines.length === 0) return { rows: [], problem: "The file is empty." };
+
+  // Excel in some locales exports semicolon-separated "CSV".
+  const delim =
+    lines[0].split(";").length > lines[0].split(",").length ? ";" : ",";
 
   let idx = { name: 0, email: 1, role: 2 };
   let start = 0;
-  if (lines[0].toLowerCase().includes("email")) {
-    const cols = lines[0].split(",").map((c) => c.trim().toLowerCase());
+  const first = splitLine(lines[0], delim).map((c) => c.toLowerCase());
+  const looksLikeHeader = first.some((c) =>
+    HEADER_ALIASES.email.includes(c) || HEADER_ALIASES.name.includes(c),
+  );
+  if (looksLikeHeader) {
     idx = {
-      name: cols.indexOf("name"),
-      email: cols.indexOf("email"),
-      role: cols.indexOf("role"),
+      name: matchHeader(first, "name"),
+      email: matchHeader(first, "email"),
+      role: matchHeader(first, "role"),
     };
+    if (idx.email < 0) {
+      return {
+        rows: [],
+        problem:
+          "Couldn't find an email column. Use headers: name, email, role.",
+      };
+    }
     start = 1;
   }
 
   const rows: Row[] = [];
   for (let i = start; i < lines.length; i++) {
-    const cells = lines[i].split(",").map((c) => c.trim());
+    const cells = splitLine(lines[i], delim);
     const email = (idx.email >= 0 ? cells[idx.email] : cells[1]) ?? "";
     if (!email) continue;
     rows.push({
       name: (idx.name >= 0 ? cells[idx.name] : cells[0]) ?? "",
-      email,
-      role: (idx.role >= 0 ? cells[idx.role] : cells[2]) || "learner",
+      email: email.toLowerCase(),
+      role:
+        ((idx.role >= 0 ? cells[idx.role] : cells[2]) || "learner").toLowerCase(),
     });
   }
-  return rows;
+  if (rows.length === 0) {
+    return { rows: [], problem: "No rows with an email address were found." };
+  }
+  return { rows };
 }
 
 export function CsvImport() {
   const [rows, setRows] = useState<Row[]>([]);
+  const [fileProblem, setFileProblem] = useState<string | null>(null);
   const [state, formAction, pending] = useActionState(
     bulkInviteStaffAction,
     {} as BulkState,
@@ -52,12 +119,34 @@ export function CsvImport() {
 
   function onFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
-    if (!file) {
-      setRows([]);
+    setRows([]);
+    setFileProblem(null);
+    if (!file) return;
+
+    // Excel workbooks are zip files — catch them before they parse as noise.
+    if (/\.xlsx?$/i.test(file.name)) {
+      setFileProblem(
+        "That's an Excel file. In Excel choose File → Save As → CSV, then upload the .csv.",
+      );
       return;
     }
-    file.text().then((text) => setRows(parseCsv(text)));
+    file.text().then((text) => {
+      if (text.startsWith("PK")) {
+        setFileProblem(
+          "That's an Excel file. In Excel choose File → Save As → CSV, then upload the .csv.",
+        );
+        return;
+      }
+      const { rows: parsed, problem } = parseCsv(text);
+      setRows(parsed);
+      setFileProblem(problem ?? null);
+    });
   }
+
+  const invalid = rows.filter(
+    (r) =>
+      !EMAIL_RE.test(r.email) || !["learner", "org_admin"].includes(r.role),
+  );
 
   return (
     <form action={formAction} className="space-y-4">
@@ -74,6 +163,50 @@ export function CsvImport() {
         className="block text-sm"
       />
       <input type="hidden" name="rows" value={JSON.stringify(rows)} />
+
+      {fileProblem && (
+        <p className="text-sm text-destructive">{fileProblem}</p>
+      )}
+
+      {rows.length > 0 && (
+        <div className="max-h-48 overflow-y-auto rounded-lg border">
+          <table className="w-full text-xs">
+            <thead>
+              <tr className="border-b text-left text-muted-foreground">
+                <th className="px-2 py-1 font-medium">Name</th>
+                <th className="px-2 py-1 font-medium">Email</th>
+                <th className="px-2 py-1 font-medium">Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r, i) => {
+                const bad =
+                  !EMAIL_RE.test(r.email) ||
+                  !["learner", "org_admin"].includes(r.role);
+                return (
+                  <tr
+                    key={`${r.email}-${i}`}
+                    className={`border-b last:border-0 ${bad ? "text-destructive" : ""}`}
+                  >
+                    <td className="px-2 py-1">{r.name || "—"}</td>
+                    <td className="px-2 py-1">{r.email}</td>
+                    <td className="px-2 py-1">{r.role}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
+      {rows.length > 0 && (
+        <p className="text-xs text-muted-foreground">
+          {rows.length} row(s) ready
+          {invalid.length > 0
+            ? ` — ${invalid.length} highlighted in red will be skipped or fail (check the email/role)`
+            : ""}
+          . Check the preview, then send the invites.
+        </p>
+      )}
 
       <div className="flex items-center gap-4">
         <Button type="submit" disabled={pending || rows.length === 0}>

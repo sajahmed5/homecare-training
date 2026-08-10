@@ -1,9 +1,12 @@
-/** Package tiers a platform admin can assign. Stripe wires these to flags in Phase 9. */
+/**
+ * Package tiers a platform admin can assign. Stripe wires these to flags in
+ * Phase 9. Labels are the domiciliary-care package names (issue #10).
+ */
 export const PACKAGE_TIERS = [
-  { value: "core", label: "Core" },
-  { value: "core_forms", label: "Core + Forms" },
-  { value: "core_recruitment", label: "Core + Recruitment" },
-  { value: "full", label: "Full" },
+  { value: "core", label: "Starter" },
+  { value: "core_forms", label: "Growth" },
+  { value: "core_recruitment", label: "Business" },
+  { value: "full", label: "Enterprise" },
 ] as const;
 
 export type PackageTier = (typeof PACKAGE_TIERS)[number]["value"];

@@ -113,12 +113,56 @@ export async function setStaffStatusAction(
   return { ok: true };
 }
 
+/** Permanently delete a staff member from the caller's organisation (issue #14). */
+export async function deleteStaffAction(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
+  const context = await requireRole("org_admin");
+
+  const userId = String(formData.get("userId") ?? "");
+  if (!userId) return { ok: false, error: "Missing staff member." };
+  if (userId === context.userId) {
+    return { ok: false, error: "You cannot delete your own account." };
+  }
+
+  const admin = createAdminClient();
+
+  // Scope check: the target must belong to the caller's organisation.
+  const { data: target } = await admin
+    .from("users")
+    .select("organisation_id, email, role")
+    .eq("id", userId)
+    .single();
+  if (!target || target.organisation_id !== context.organisationId) {
+    return { ok: false, error: "Staff member not found in your organisation." };
+  }
+
+  // Deleting the auth user cascades to the profile and their training records.
+  const { error } = await admin.auth.admin.deleteUser(userId);
+  if (error) return { ok: false, error: error.message };
+
+  await logAudit({
+    context,
+    action: "staff.deleted",
+    entity: "user",
+    entityId: userId,
+    detail: { email: target.email, role: target.role },
+  });
+
+  revalidatePath("/org");
+  revalidatePath("/org/learners");
+  return { ok: true };
+}
+
 export interface BulkState {
   ok?: boolean;
   error?: string;
   created?: number;
   failures?: { email: string; error: string }[];
 }
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 /** Bulk-invite staff from parsed CSV rows (name,email,role). */
 export async function bulkInviteStaffAction(
@@ -140,35 +184,79 @@ export async function bulkInviteStaffAction(
     return { ok: false, error: "No rows found in the CSV." };
   }
 
+  const admin = createAdminClient();
   let created = 0;
   const failures: { email: string; error: string }[] = [];
+  const seen = new Set<string>();
 
   for (const row of rows) {
-    const email = (row.email ?? "").trim();
-    const role = (row.role ?? "learner").trim() as UserRole;
+    const email = (row.email ?? "").trim().toLowerCase();
+    const role = ((row.role ?? "learner").trim().toLowerCase() || "learner") as UserRole;
     if (!email) continue;
+    if (seen.has(email)) continue; // duplicate row in the file
+    seen.add(email);
+    if (!EMAIL_RE.test(email)) {
+      failures.push({ email, error: "Not a valid email address" });
+      continue;
+    }
     if (!INVITABLE_ROLES.includes(role)) {
       failures.push({ email, error: `Invalid role "${role}"` });
       continue;
     }
     try {
-      await createInvite({
+      const invite = await createInvite({
         email,
         role,
         organisationId: context.organisationId,
         fullName: (row.name ?? "").trim(),
         roleLabel: ROLE_LABELS[role],
       });
+
+      // Belt and braces (issue #16): confirm the profile row exists with the
+      // right organisation — the DB trigger normally creates it, but if it
+      // didn't, repair it here so the person can't end up org-less.
+      if (invite.userId) {
+        const { data: profile } = await admin
+          .from("users")
+          .select("id, organisation_id")
+          .eq("id", invite.userId)
+          .maybeSingle();
+        if (!profile) {
+          await admin.from("users").insert({
+            id: invite.userId,
+            email,
+            full_name: (row.name ?? "").trim() || email,
+            role,
+            organisation_id: context.organisationId,
+          });
+        } else if (!profile.organisation_id) {
+          await admin
+            .from("users")
+            .update({ organisation_id: context.organisationId, role })
+            .eq("id", invite.userId);
+        }
+      }
       created += 1;
     } catch (e) {
+      const msg = e instanceof Error ? e.message : "Failed";
       failures.push({
         email,
-        error: e instanceof Error ? e.message : "Failed",
+        error: /already.*(registered|exists)/i.test(msg)
+          ? "Already has an account"
+          : msg,
       });
     }
   }
 
+  await logAudit({
+    context,
+    action: "staff.bulk_invited",
+    entity: "user",
+    detail: { created, failed: failures.length },
+  });
+
   revalidatePath("/org");
+  revalidatePath("/org/learners");
   return { ok: true, created, failures };
 }
 

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import type { OrgLearnerRow } from "@/lib/org-learners";
+import { bucketOf, type OrgLearnerRow } from "@/lib/org-learners";
 import { NudgeButton } from "../nudge-button";
 
 const DAY = 86_400_000;
@@ -31,33 +31,40 @@ type Filter =
   | "overdue"
   | "in_progress"
   | "not_started"
+  | "completed"
+  | "unassigned"
   | "inactive"
   | "never";
 
-const FILTERS: { key: Filter; label: string }[] = [
+const STATUS_FILTERS: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
   { key: "overdue", label: "Overdue" },
   { key: "in_progress", label: "In progress" },
-  { key: "not_started", label: "Not started anything" },
+  { key: "not_started", label: "Not started" },
+  { key: "completed", label: "Completed" },
+  { key: "unassigned", label: "Nothing assigned" },
+];
+
+// Activity is a separate lens, not part of the status breakdown. Inactive 30d+
+// means "has logged in, but not for 30+ days" — never-active users have their
+// own pill (issue #15).
+const ACTIVITY_FILTERS: { key: Filter; label: string }[] = [
   { key: "inactive", label: "Inactive 30d+" },
   { key: "never", label: "Never active" },
 ];
 
 function matches(r: OrgLearnerRow, f: Filter): boolean {
-  const s = r.stats;
   switch (f) {
-    case "overdue":
-      return s.overdue > 0;
-    case "in_progress":
-      return s.inProgress > 0;
-    case "not_started":
-      return s.assigned > 0 && s.completed === 0 && s.inProgress === 0;
     case "inactive":
-      return !r.lastSeenAt || Date.now() - new Date(r.lastSeenAt).getTime() > 30 * DAY;
+      return (
+        !!r.lastSeenAt && Date.now() - new Date(r.lastSeenAt).getTime() > 30 * DAY
+      );
     case "never":
       return !r.lastSeenAt;
-    default:
+    case "all":
       return true;
+    default:
+      return bucketOf(r) === f;
   }
 }
 
@@ -121,8 +128,8 @@ export function LearnersTable({
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <div className="flex flex-wrap gap-2">
-          {FILTERS.map((f) => {
+        <div className="flex flex-wrap items-center gap-2">
+          {STATUS_FILTERS.map((f) => {
             const count = rows.filter((r) => matches(r, f.key)).length;
             const active = filter === f.key;
             return (
@@ -133,6 +140,28 @@ export function LearnersTable({
                 className={`rounded-full border px-3 py-1 text-sm transition-colors ${
                   active
                     ? "border-foreground bg-foreground text-background"
+                    : "hover:bg-accent"
+                }`}
+              >
+                {f.label}{" "}
+                <span className={active ? "opacity-80" : "text-muted-foreground"}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+          <span aria-hidden className="mx-1 h-5 w-px bg-border" />
+          {ACTIVITY_FILTERS.map((f) => {
+            const count = rows.filter((r) => matches(r, f.key)).length;
+            const active = filter === f.key;
+            return (
+              <button
+                key={f.key}
+                type="button"
+                onClick={() => setFilter(f.key)}
+                className={`rounded-full border border-dashed px-3 py-1 text-sm transition-colors ${
+                  active
+                    ? "border-solid border-foreground bg-foreground text-background"
                     : "hover:bg-accent"
                 }`}
               >
@@ -231,7 +260,11 @@ export function LearnersTable({
                     {!readOnly && (
                       <td className="px-3 py-2 text-right">
                         {r.stats.completed < r.stats.assigned ? (
-                          <NudgeButton userId={r.id} size="xs" />
+                          <NudgeButton
+                            userId={r.id}
+                            size="xs"
+                            lastRemindedAt={r.lastRemindedAt}
+                          />
                         ) : (
                           <span className="text-xs text-muted-foreground">—</span>
                         )}

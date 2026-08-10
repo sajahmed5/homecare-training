@@ -26,14 +26,18 @@ type Outcome = "sent" | "skipped" | "nothing";
 
 /**
  * Email one learner about their outstanding training. Shared by the single and
- * bulk nudge actions. Skips (returns "skipped") if the learner was reminded in
- * the last 24h; returns "nothing" if they have nothing outstanding.
+ * bulk nudge actions. With force=false, skips (returns "skipped") if the
+ * learner was reminded in the last 24h — the bulk action uses this so "Remind
+ * all" can be run twice without double-emailing. A single, deliberate Remind
+ * click passes force=true and always sends (issue #9). Returns "nothing" if
+ * they have nothing outstanding.
  */
 async function nudgeOne(
   admin: SupabaseClient,
   organisationId: string,
   origin: string,
   learner: { id: string; full_name: string | null; email: string },
+  force = false,
 ): Promise<Outcome> {
   const { data: enrolments } = await admin
     .from("enrolments")
@@ -49,7 +53,7 @@ async function nudgeOne(
   const recentlyReminded = outstanding.every(
     (e) => e.last_reminder_at && new Date(e.last_reminder_at).getTime() > dayAgo,
   );
-  if (recentlyReminded) return "skipped";
+  if (recentlyReminded && !force) return "skipped";
 
   const titles = outstanding.map(
     (e) => (e.courses as unknown as { title?: string } | null)?.title ?? "a course",
@@ -101,16 +105,16 @@ export async function nudgeLearnerAction(userId: string): Promise<NudgeResult> {
   }
 
   const origin = await siteOrigin();
-  const outcome = await nudgeOne(admin, context.organisationId, origin, {
-    id: learner.id,
-    full_name: learner.full_name,
-    email: learner.email,
-  });
+  const outcome = await nudgeOne(
+    admin,
+    context.organisationId,
+    origin,
+    { id: learner.id, full_name: learner.full_name, email: learner.email },
+    true,
+  );
 
   if (outcome === "nothing")
     return { ok: true, skipped: true, message: "Nothing outstanding to remind about." };
-  if (outcome === "skipped")
-    return { ok: true, skipped: true, message: "Already reminded in the last 24 hours." };
   return { ok: true, message: "Reminder sent." };
 }
 
