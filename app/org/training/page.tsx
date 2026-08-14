@@ -2,9 +2,16 @@ import Link from "next/link";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { isOverdue } from "@/lib/engine-logic";
+import { isLateCompletion } from "@/lib/org-learners";
 import { DashboardShell } from "@/components/dashboard-shell";
 
-type StatusFilter = "all" | "completed" | "in_progress" | "not_started" | "overdue";
+type StatusFilter =
+  | "all"
+  | "completed"
+  | "in_progress"
+  | "not_started"
+  | "overdue"
+  | "late";
 
 const TABS: { key: StatusFilter; label: string }[] = [
   { key: "all", label: "All assigned" },
@@ -12,6 +19,7 @@ const TABS: { key: StatusFilter; label: string }[] = [
   { key: "in_progress", label: "In progress" },
   { key: "not_started", label: "Not started" },
   { key: "overdue", label: "Overdue" },
+  { key: "late", label: "Completed late" },
 ];
 
 interface Row {
@@ -23,6 +31,7 @@ interface Row {
   assignedAt: string | null;
   dueDate: string | null;
   overdue: boolean;
+  late: boolean;
 }
 
 function fmtDate(d: string | null): string {
@@ -58,11 +67,22 @@ export default async function TrainingListPage({
     : "all";
 
   const supabase = await createClient();
-  const { data: enrolments } = await supabase
-    .from("enrolments")
-    .select(
-      "user_id, status, progress, due_date, assigned_at, courses(title), users(full_name, email, role)",
-    );
+  const [{ data: enrolments }, { data: certs }] = await Promise.all([
+    supabase
+      .from("enrolments")
+      .select(
+        "user_id, course_id, status, progress, due_date, assigned_at, courses(title), users(full_name, email, role)",
+      ),
+    supabase.from("certificates").select("user_id, course_id, issued_at"),
+  ]);
+
+  // Latest certificate per user+course decides "completed late".
+  const certIssued = new Map<string, string>();
+  for (const c of certs ?? []) {
+    const key = `${c.user_id}:${c.course_id}`;
+    const prev = certIssued.get(key);
+    if (!prev || c.issued_at > prev) certIssued.set(key, c.issued_at);
+  }
 
   const now = new Date();
   const rows: Row[] = (enrolments ?? [])
@@ -73,6 +93,7 @@ export default async function TrainingListPage({
         role?: string;
       } | null;
       const c = e.courses as unknown as { title?: string } | null;
+      const issuedAt = certIssued.get(`${e.user_id}:${e.course_id}`);
       return {
         userId: e.user_id as string,
         learner: u?.full_name || u?.email || "Learner",
@@ -82,6 +103,10 @@ export default async function TrainingListPage({
         assignedAt: e.assigned_at,
         dueDate: e.due_date,
         overdue: isOverdue(e.due_date, e.status, now),
+        late:
+          e.status === "completed" &&
+          !!issuedAt &&
+          isLateCompletion(issuedAt, e.due_date),
       };
     })
     .sort((a, b) => a.learner.localeCompare(b.learner) || a.course.localeCompare(b.course));
@@ -91,7 +116,9 @@ export default async function TrainingListPage({
       ? rows
       : f === "overdue"
         ? rows.filter((r) => r.overdue)
-        : rows.filter((r) => r.status === f);
+        : f === "late"
+          ? rows.filter((r) => r.late)
+          : rows.filter((r) => r.status === f);
   const shown = matching(filter);
 
   return (
@@ -172,6 +199,11 @@ export default async function TrainingListPage({
                           {r.overdue && r.status !== "completed" && (
                             <span className="inline-flex rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700">
                               Overdue
+                            </span>
+                          )}
+                          {r.late && (
+                            <span className="inline-flex rounded-full bg-orange-100 px-2 py-0.5 text-xs font-medium text-orange-700">
+                              Late
                             </span>
                           )}
                         </span>

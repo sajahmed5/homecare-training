@@ -26,16 +26,16 @@ function lastActive(d: string | null): { label: string; stale: boolean } {
   return { label: fmtDate(d), stale };
 }
 
-type Filter =
+export type Filter =
   | "all"
   | "overdue"
   | "in_progress"
   | "not_started"
   | "completed"
   | "unassigned"
+  | "deactivated"
   | "inactive"
-  | "never"
-  | "deactivated";
+  | "never";
 
 const STATUS_FILTERS: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
@@ -46,9 +46,9 @@ const STATUS_FILTERS: { key: Filter; label: string }[] = [
   { key: "unassigned", label: "Nothing assigned" },
 ];
 
-// Activity is a separate lens, not part of the status breakdown. Inactive 30d+
-// means "has logged in, but not for 30+ days" — never-active users have their
-// own pill (issue #15).
+// Activity and account status are separate lenses, not part of the status
+// breakdown. Inactive 30d+ means "has logged in, but not for 30+ days" —
+// never-active users have their own pill (issue #15).
 const ACTIVITY_FILTERS: { key: Filter; label: string }[] = [
   { key: "inactive", label: "Inactive 30d+" },
   { key: "never", label: "Never active" },
@@ -62,14 +62,14 @@ function matches(r: OrgLearnerRow, f: Filter): boolean {
   // to chase a person who can no longer log in.
   if (r.status === "deactivated") return f === "all" || f === "deactivated";
   switch (f) {
+    case "deactivated":
+      return false; // handled by the short-circuit above
     case "inactive":
       return (
         !!r.lastSeenAt && Date.now() - new Date(r.lastSeenAt).getTime() > 30 * DAY
       );
     case "never":
       return !r.lastSeenAt;
-    case "deactivated":
-      return false;
     case "all":
       return true;
     default:
@@ -84,13 +84,16 @@ export function LearnersTable({
   rows,
   filename = "learners-overview.csv",
   readOnly = false,
+  initialFilter = "all",
 }: {
   rows: OrgLearnerRow[];
   filename?: string;
   /** Platform view: hide the org-admin-only Remind action. */
   readOnly?: boolean;
+  /** Pre-selected filter pill (deep links like ?filter=overdue). */
+  initialFilter?: Filter;
 }) {
-  const [filter, setFilter] = useState<Filter>("all");
+  const [filter, setFilter] = useState<Filter>(initialFilter);
   const shown = useMemo(() => rows.filter((r) => matches(r, filter)), [rows, filter]);
 
   function exportCsv() {

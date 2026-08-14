@@ -84,6 +84,8 @@ function rowWith(stats: Partial<LearnerStats>): OrgLearnerRow {
     lastAssignedAt: null,
     lastSeenAt: null,
     lastRemindedAt: null,
+    timeSpentSeconds: 0,
+    lateCompletions: 0,
   };
 }
 

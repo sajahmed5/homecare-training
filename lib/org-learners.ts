@@ -16,6 +16,25 @@ export interface OrgLearnerRow {
   lastAssignedAt: string | null;
   lastSeenAt: string | null;
   lastRemindedAt: string | null;
+  /** Total in-course learning time, seconds (from enrolments.time_spent). */
+  timeSpentSeconds: number;
+  /** Certificates issued after the enrolment's due date. */
+  lateCompletions: number;
+}
+
+/** Headline stats count active staff only; deactivated stay in the matrix. */
+export const isActiveLearner = (r: OrgLearnerRow) => r.status !== "deactivated";
+
+/**
+ * A certificate counts as a late completion when it was issued after the
+ * enrolment's due date. Both sides compare as YYYY-MM-DD strings (due_date is
+ * a date; issued_at a timestamp). No due date = never late.
+ */
+export function isLateCompletion(
+  issuedAt: string,
+  dueDate: string | null | undefined,
+): boolean {
+  return !!dueDate && issuedAt.slice(0, 10) > dueDate;
 }
 
 /**
@@ -67,7 +86,7 @@ export async function loadOrgLearners(
   let enrQ = supabase
     .from("enrolments")
     .select(
-      "user_id, course_id, status, progress, due_date, assigned_at, last_reminder_at, courses(title, topics(title))",
+      "user_id, course_id, status, progress, due_date, assigned_at, last_reminder_at, time_spent, courses(title, topics(title))",
     );
   let certQ = supabase
     .from("certificates")
@@ -87,6 +106,8 @@ export async function loadOrgLearners(
   const enrByUser = new Map<string, Enrolment[]>();
   const assignedByUser = new Map<string, string>(); // latest assigned_at
   const remindedByUser = new Map<string, string>(); // latest last_reminder_at
+  const timeByUser = new Map<string, number>(); // summed time_spent seconds
+  const dueByUserCourse = new Map<string, string>(); // "user:course" → due_date
   for (const e of enrRaw ?? []) {
     const c = pickCourse(e);
     const list = enrByUser.get(e.user_id) ?? [];
@@ -111,10 +132,13 @@ export async function loadOrgLearners(
     if (e.last_reminder_at && (!prevReminded || e.last_reminder_at > prevReminded)) {
       remindedByUser.set(e.user_id, e.last_reminder_at);
     }
+    timeByUser.set(e.user_id, (timeByUser.get(e.user_id) ?? 0) + (e.time_spent ?? 0));
+    if (e.due_date) dueByUserCourse.set(`${e.user_id}:${e.course_id}`, e.due_date);
   }
 
   const certByUser = new Map<string, Certificate[]>();
   const latestByUser = new Map<string, { title: string; date: string }>();
+  const lateByUser = new Map<string, number>();
   for (const c of certRaw ?? []) {
     const co = pickCourse(c);
     const list = certByUser.get(c.user_id) ?? [];
@@ -135,6 +159,9 @@ export async function loadOrgLearners(
         date: c.issued_at,
       });
     }
+    if (isLateCompletion(c.issued_at, dueByUserCourse.get(`${c.user_id}:${c.course_id}`))) {
+      lateByUser.set(c.user_id, (lateByUser.get(c.user_id) ?? 0) + 1);
+    }
   }
 
   const now = new Date();
@@ -151,6 +178,8 @@ export async function loadOrgLearners(
       lastAssignedAt: assignedByUser.get(u.id) ?? null,
       lastSeenAt: u.last_seen_at ?? null,
       lastRemindedAt: remindedByUser.get(u.id) ?? null,
+      timeSpentSeconds: timeByUser.get(u.id) ?? 0,
+      lateCompletions: lateByUser.get(u.id) ?? 0,
     };
   });
 }

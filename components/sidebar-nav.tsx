@@ -17,6 +17,7 @@ import {
   Briefcase,
   ClipboardCheck,
   Bug,
+  ListPlus,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -43,6 +44,7 @@ const NAV: Record<string, NavItem[]> = {
   org_admin: [
     { href: "/org", label: "Overview", icon: LayoutDashboard },
     { href: "/org/learners", label: "Learners", icon: Users },
+    { href: "/org/assign", label: "Assign training", icon: ListPlus },
     { href: "/org/coverage", label: "Course coverage", icon: ListChecks },
     { href: "/org/forms", label: "Forms", icon: FileText, flag: "forms_enabled" },
     { href: "/org/recruitment", label: "Recruitment", icon: Briefcase, flag: "recruitment_enabled" },
