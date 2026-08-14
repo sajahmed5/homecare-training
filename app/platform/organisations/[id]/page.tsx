@@ -84,7 +84,7 @@ export default async function OrganisationDetailPage({
         </div>
 
         {learners.length > 0 && (
-          <LearnersTable rows={learners} readOnly />
+          <LearnersTable rows={learners} />
         )}
 
         <Card>

@@ -148,13 +148,33 @@ export function CsvImport() {
       !EMAIL_RE.test(r.email) || !["learner", "org_admin"].includes(r.role),
   );
 
+  function downloadTemplate() {
+    const csv =
+      "name,email,role\r\nJane Smith,jane.smith@example.com,learner\r\nSam Jones,sam.jones@example.com,org_admin\r\n";
+    const blob = new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "staff-import-template.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
   return (
     <form action={formAction} className="space-y-4">
       <p className="text-sm text-muted-foreground">
-        Upload a CSV with columns <code>name, email, role</code> (role is{" "}
-        <code>learner</code> or <code>org_admin</code>). Each person is emailed
-        an invite.
+        Download the template, fill in one row per person (role is{" "}
+        <code>learner</code> or <code>org_admin</code>), then upload it here.
+        Each person is emailed an invite.
       </p>
+
+      <button
+        type="button"
+        onClick={downloadTemplate}
+        className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
+      >
+        Download template CSV
+      </button>
 
       <input
         type="file"

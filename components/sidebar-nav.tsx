@@ -12,16 +12,20 @@ import {
   Users,
   Building2,
   BarChart3,
-  ListChecks,
   FileText,
   Briefcase,
   ClipboardCheck,
   Bug,
-  ListPlus,
+  FileBarChart,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { UserRole } from "@/lib/auth";
+
+interface NavChild {
+  href: string;
+  label: string;
+}
 
 interface NavItem {
   href: string;
@@ -29,6 +33,8 @@ interface NavItem {
   icon: LucideIcon;
   /** Only show when this org add-on flag is enabled (org_admin add-ons). */
   flag?: "forms_enabled" | "recruitment_enabled" | "observations_enabled";
+  /** Sub-pages listed under the heading in the left panel (design doc v2). */
+  children?: NavChild[];
 }
 
 const NAV: Record<string, NavItem[]> = {
@@ -43,13 +49,31 @@ const NAV: Record<string, NavItem[]> = {
   ],
   org_admin: [
     { href: "/org", label: "Overview", icon: LayoutDashboard },
-    { href: "/org/learners", label: "Learners", icon: Users },
-    { href: "/org/assign", label: "Assign training", icon: ListPlus },
-    { href: "/org/coverage", label: "Course coverage", icon: ListChecks },
+    {
+      href: "/org/learners",
+      label: "Learners",
+      icon: Users,
+      children: [
+        { href: "/org/learners", label: "Overview" },
+        { href: "/org/learners/statistics", label: "Statistics" },
+        { href: "/org/learners/admin", label: "Admin" },
+      ],
+    },
+    {
+      href: "/org/courses",
+      label: "Courses",
+      icon: BookOpen,
+      children: [
+        { href: "/org/courses", label: "Overview" },
+        { href: "/org/courses/statistics", label: "Statistics" },
+        { href: "/org/courses/admin", label: "Admin" },
+      ],
+    },
     { href: "/org/forms", label: "Forms", icon: FileText, flag: "forms_enabled" },
     { href: "/org/recruitment", label: "Recruitment", icon: Briefcase, flag: "recruitment_enabled" },
     { href: "/org/observations", label: "CC assessment", icon: ClipboardCheck, flag: "observations_enabled" },
-    { href: "/org/billing", label: "Billing", icon: CreditCard },
+    { href: "/org/reports", label: "Reports", icon: FileBarChart },
+    { href: "/org/billing", label: "Account", icon: CreditCard },
   ],
   learner: [
     { href: "/learn", label: "Dashboard", icon: LayoutDashboard },
@@ -59,6 +83,15 @@ const NAV: Record<string, NavItem[]> = {
     { href: "/learn/profile", label: "Profile", icon: User },
   ],
 };
+
+/** Section roots whose parent item only highlights on an exact match. */
+const SECTION_ROOTS = ["/platform", "/org", "/learn"];
+
+function isActive(pathname: string, href: string, exact = false): boolean {
+  if (pathname === href) return true;
+  if (exact || SECTION_ROOTS.includes(href)) return false;
+  return pathname.startsWith(href);
+}
 
 export function SidebarNav({
   role,
@@ -88,40 +121,81 @@ export function SidebarNav({
       )}
     >
       {items.map((item) => {
-        const active =
-          pathname === item.href ||
-          (item.href !== "/platform" &&
-            item.href !== "/org" &&
-            item.href !== "/learn" &&
-            pathname.startsWith(item.href));
+        const active = isActive(pathname, item.href);
         const Icon = item.icon;
         const badge = badges[item.href] ?? 0;
+        // A child is "exact" when it shares the parent's href (Overview).
+        const children =
+          !collapsed && orientation === "vertical" ? (item.children ?? []) : [];
         return (
-          <Link
-            key={item.href}
-            href={item.href}
-            title={collapsed ? item.label : undefined}
-            className={cn(
-              "flex items-center rounded-lg px-3 py-2 text-sm font-medium transition-colors",
-              collapsed ? "justify-center" : "gap-3",
-              active
-                ? "bg-sidebar-accent text-sidebar-accent-foreground"
-                : "text-sidebar-foreground/70 hover:bg-sidebar-accent/60 hover:text-sidebar-foreground",
-            )}
-          >
-            <span className="relative">
-              <Icon className="size-4" />
-              {collapsed && badge > 0 && (
-                <span className="absolute -right-1 -top-1 size-2 rounded-full bg-rose-500" />
+          <div key={item.href} className={orientation === "vertical" ? "" : "flex gap-1"}>
+            <Link
+              href={item.href}
+              title={collapsed ? item.label : undefined}
+              className={cn(
+                "flex items-center rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+                collapsed ? "justify-center" : "gap-3",
+                active && (children.length === 0 || pathname === item.href)
+                  ? "bg-sidebar-accent text-sidebar-accent-foreground"
+                  : "text-sidebar-foreground/70 hover:bg-sidebar-accent/60 hover:text-sidebar-foreground",
               )}
-            </span>
-            {!collapsed && <span className="flex-1">{item.label}</span>}
-            {!collapsed && badge > 0 && (
-              <span className="inline-flex min-w-5 items-center justify-center rounded-full bg-rose-500 px-1.5 text-xs font-semibold text-white">
-                {badge}
+            >
+              <span className="relative">
+                <Icon className="size-4" />
+                {collapsed && badge > 0 && (
+                  <span className="absolute -right-1 -top-1 size-2 rounded-full bg-rose-500" />
+                )}
               </span>
+              {!collapsed && <span className="flex-1">{item.label}</span>}
+              {!collapsed && badge > 0 && (
+                <span className="inline-flex min-w-5 items-center justify-center rounded-full bg-rose-500 px-1.5 text-xs font-semibold text-white">
+                  {badge}
+                </span>
+              )}
+            </Link>
+            {children.length > 0 && (
+              <div className="ml-5 mt-0.5 flex flex-col gap-0.5 border-l border-sidebar-foreground/15 pl-3">
+                {children.map((c) => {
+                  const childActive = isActive(
+                    pathname,
+                    c.href,
+                    c.href === item.href,
+                  );
+                  return (
+                    <Link
+                      key={`${c.href}-${c.label}`}
+                      href={c.href}
+                      className={cn(
+                        "rounded-md px-2 py-1 text-[13px] transition-colors",
+                        childActive
+                          ? "bg-sidebar-accent font-medium text-sidebar-accent-foreground"
+                          : "text-sidebar-foreground/60 hover:bg-sidebar-accent/60 hover:text-sidebar-foreground",
+                      )}
+                    >
+                      {c.label}
+                    </Link>
+                  );
+                })}
+              </div>
             )}
-          </Link>
+            {/* Horizontal (mobile) mode: children render as extra pills when the section is active. */}
+            {orientation === "horizontal" &&
+              active &&
+              (item.children ?? []).map((c) => (
+                <Link
+                  key={`${c.href}-${c.label}`}
+                  href={c.href}
+                  className={cn(
+                    "flex items-center rounded-lg px-3 py-2 text-sm transition-colors",
+                    isActive(pathname, c.href, c.href === item.href)
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground"
+                      : "text-sidebar-foreground/70 hover:bg-sidebar-accent/60",
+                  )}
+                >
+                  {c.label}
+                </Link>
+              ))}
+          </div>
         );
       })}
     </nav>

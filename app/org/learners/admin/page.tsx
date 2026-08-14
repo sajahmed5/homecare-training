@@ -14,23 +14,48 @@ import { CsvImport } from "../../csv-import";
 import { CsvExport } from "../../csv-export";
 import { StatusToggle } from "../../status-toggle";
 import { DeleteStaffButton } from "../../delete-staff-button";
+import { NudgeAllButton } from "../../nudge-all-button";
+import { RemindersTable, type ReminderRow } from "../reminders-table";
 
 const ROLE_LABELS: Record<string, string> = {
   org_admin: "Admin",
   learner: "Learner",
 };
 
-/** Admin: add, deactivate and remove staff — learners and admin users alike. */
+/**
+ * Admin: add, deactivate and remove staff (learners and admin users alike),
+ * plus the reminder history and bulk-remind (design doc v2).
+ */
 export default async function LearnersAdminPage() {
   const context = await requireRole("org_admin");
   const supabase = await createClient();
-  const [{ data: organisation }, { data: staff }] = await Promise.all([
-    supabase.from("organisations").select("name").single(),
-    supabase
-      .from("users")
-      .select("id, full_name, email, role, status, created_at")
-      .order("created_at", { ascending: true }),
-  ]);
+  const [{ data: organisation }, { data: staff }, { data: nudgeLog }] =
+    await Promise.all([
+      supabase.from("organisations").select("name").single(),
+      supabase
+        .from("users")
+        .select("id, full_name, email, role, status, created_at")
+        .order("created_at", { ascending: true }),
+      supabase
+        .from("email_log")
+        .select("id, to_email, subject, sent, created_at")
+        .eq("type", "org_nudge")
+        .order("created_at", { ascending: false })
+        .limit(200),
+    ]);
+
+  const nameByEmail = new Map<string, string>();
+  for (const u of staff ?? []) {
+    if (u.email) nameByEmail.set(u.email.toLowerCase(), u.full_name || u.email);
+  }
+  const reminders: ReminderRow[] = (nudgeLog ?? []).map((l) => ({
+    id: l.id,
+    toEmail: l.to_email,
+    learnerName: nameByEmail.get(l.to_email.toLowerCase()) ?? null,
+    subject: l.subject,
+    sent: l.sent,
+    createdAt: l.created_at,
+  }));
 
   const exportRows = (staff ?? []).map((u) => ({
     full_name: u.full_name,
@@ -160,6 +185,22 @@ export default async function LearnersAdminPage() {
               );
             })}
           </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader className="flex-row items-center justify-between space-y-0">
+          <div>
+            <CardTitle>Reminders</CardTitle>
+            <CardDescription>
+              Every training reminder sent, newest first. Use the button to
+              remind everyone with overdue training again.
+            </CardDescription>
+          </div>
+          <NudgeAllButton />
+        </CardHeader>
+        <CardContent>
+          <RemindersTable rows={reminders} />
         </CardContent>
       </Card>
 

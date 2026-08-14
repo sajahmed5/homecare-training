@@ -19,14 +19,20 @@ export interface StaffOption {
 }
 
 export function AssignForm({
-  courses,
+  courses: coursesIn,
   pathways,
-  staff,
+  staff: staffIn,
+  defaultDueDate,
 }: {
   courses: AssignOption[];
   pathways: AssignOption[];
   staff: StaffOption[];
+  /** Pre-filled due date (end of the current month). Due dates are mandatory. */
+  defaultDueDate: string;
 }) {
+  // Alphabetical lists are easier to scan (design doc v2).
+  const courses = [...coursesIn].sort((a, b) => a.title.localeCompare(b.title));
+  const staff = [...staffIn].sort((a, b) => a.name.localeCompare(b.name));
   const [state, formAction, pending] = useActionState(
     assignTrainingAction,
     {} as AssignState,
@@ -55,8 +61,14 @@ export function AssignForm({
           </select>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="dueDate">Due date (optional)</Label>
-          <Input id="dueDate" name="dueDate" type="date" />
+          <Label htmlFor="dueDate">Due date</Label>
+          <Input
+            id="dueDate"
+            name="dueDate"
+            type="date"
+            required
+            defaultValue={defaultDueDate}
+          />
         </div>
       </div>
 
@@ -93,7 +105,7 @@ export function AssignForm({
         </div>
         <div
           ref={staffBox}
-          className={`grid gap-2 rounded-lg border p-3 sm:grid-cols-2 ${
+          className={`grid max-h-48 gap-2 overflow-y-auto rounded-lg border p-3 sm:grid-cols-2 ${
             allCarers ? "pointer-events-none opacity-50" : ""
           }`}
         >

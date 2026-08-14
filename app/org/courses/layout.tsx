@@ -2,18 +2,18 @@ import { requireRole } from "@/lib/auth";
 import { DashboardShell } from "@/components/dashboard-shell";
 
 /**
- * The Learners area is three sub-pages — Overview (/org/learners),
- * Statistics (/statistics), Admin (/admin) — navigated from the left
- * panel's sub-headings (design doc v2). Child pages render content only.
+ * The Courses area (renamed from Course coverage, design doc v2) — three
+ * sub-pages navigated from the left panel: Overview (/org/courses),
+ * Statistics (/statistics), Admin (/admin).
  */
-export default async function LearnersLayout({
+export default async function CoursesLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const context = await requireRole("org_admin");
   return (
-    <DashboardShell title="Learners" context={context}>
+    <DashboardShell title="Courses" context={context}>
       <div className="mx-auto max-w-6xl space-y-6">{children}</div>
     </DashboardShell>
   );

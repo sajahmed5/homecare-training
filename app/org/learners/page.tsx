@@ -43,28 +43,28 @@ export default async function LearnersOverviewPage() {
         value={rows.length}
         icon={Users}
         color="#0284c7"
-        href="/org/learners/matrix"
+        href="/org/learners/statistics"
       />
       <StatTile
         label="Inactive 30d+"
         value={inactive}
         icon={MoonStar}
         color="#8b5cf6"
-        href="/org/learners/matrix?filter=inactive"
+        href="/org/learners/statistics?filter=inactive"
       />
       <StatTile
         label="In progress"
         value={inProgress}
         icon={Clock}
         color="#f59e0b"
-        href="/org/learners/matrix?filter=in_progress"
+        href="/org/learners/statistics?filter=in_progress"
       />
       <StatTile
         label="With overdue"
         value={withOverdue}
         icon={AlertTriangle}
         color="#ef4444"
-        href="/org/learners/matrix?filter=overdue"
+        href="/org/learners/statistics?filter=overdue"
       />
       <StatTile
         label="Overall completion"

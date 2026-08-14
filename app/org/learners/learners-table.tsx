@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { bucketOf, type OrgLearnerRow } from "@/lib/org-learners";
-import { NudgeButton } from "../nudge-button";
 
 const DAY = 86_400_000;
 
@@ -83,13 +82,10 @@ const csvCell = (v: string) =>
 export function LearnersTable({
   rows,
   filename = "learners-overview.csv",
-  readOnly = false,
   initialFilter = "all",
 }: {
   rows: OrgLearnerRow[];
   filename?: string;
-  /** Platform view: hide the org-admin-only Remind action. */
-  readOnly?: boolean;
   /** Pre-selected filter pill (deep links like ?filter=overdue). */
   initialFilter?: Filter;
 }) {
@@ -105,6 +101,7 @@ export function LearnersTable({
       "Completed",
       "In progress",
       "Not started",
+      "Overdue",
       "Overall %",
       "Latest completed",
       "Completed on",
@@ -120,6 +117,7 @@ export function LearnersTable({
         String(r.stats.completed),
         String(r.stats.inProgress),
         String(r.stats.notStarted),
+        String(r.stats.overdue),
         `${r.stats.overallPct}%`,
         r.latestCompleted?.title ?? "",
         r.latestCompleted ? fmtDate(r.latestCompleted.date) : "",
@@ -187,13 +185,6 @@ export function LearnersTable({
             );
           })}
         </div>
-        <button
-          type="button"
-          onClick={exportCsv}
-          className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
-        >
-          Export CSV
-        </button>
       </div>
 
       <div className="overflow-x-auto rounded-2xl border bg-card">
@@ -206,18 +197,16 @@ export function LearnersTable({
               <th className="px-3 py-2 font-medium">Completed</th>
               <th className="px-3 py-2 font-medium">In progress</th>
               <th className="px-3 py-2 font-medium">Not started</th>
+              <th className="px-3 py-2 font-medium">Overdue</th>
               <th className="px-3 py-2 font-medium">Latest completed</th>
               <th className="px-3 py-2 font-medium">Last assigned</th>
               <th className="px-3 py-2 font-medium">Last active</th>
-              {!readOnly && (
-                <th className="px-3 py-2 font-medium text-right">Action</th>
-              )}
             </tr>
           </thead>
           <tbody>
             {shown.length === 0 ? (
               <tr>
-                <td colSpan={readOnly ? 9 : 10} className="px-3 py-8 text-center text-muted-foreground">
+                <td colSpan={10} className="px-3 py-8 text-center text-muted-foreground">
                   No learners match this filter.
                 </td>
               </tr>
@@ -260,6 +249,15 @@ export function LearnersTable({
                     <td className="px-3 py-2">{r.stats.completed}</td>
                     <td className="px-3 py-2">{r.stats.inProgress}</td>
                     <td className="px-3 py-2">{r.stats.notStarted}</td>
+                    <td className="px-3 py-2">
+                      {r.stats.overdue > 0 ? (
+                        <span className="font-medium text-rose-600">
+                          {r.stats.overdue}
+                        </span>
+                      ) : (
+                        <span className="text-muted-foreground">0</span>
+                      )}
+                    </td>
                     <td className="px-3 py-2 text-muted-foreground">
                       {r.latestCompleted ? (
                         <span>
@@ -280,25 +278,22 @@ export function LearnersTable({
                         {active.label}
                       </span>
                     </td>
-                    {!readOnly && (
-                      <td className="px-3 py-2 text-right">
-                        {!gone && r.stats.completed < r.stats.assigned ? (
-                          <NudgeButton
-                            userId={r.id}
-                            size="xs"
-                            lastRemindedAt={r.lastRemindedAt}
-                          />
-                        ) : (
-                          <span className="text-xs text-muted-foreground">—</span>
-                        )}
-                      </td>
-                    )}
                   </tr>
                 );
               })
             )}
           </tbody>
         </table>
+      </div>
+
+      <div className="flex justify-end">
+        <button
+          type="button"
+          onClick={exportCsv}
+          className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
+        >
+          Export CSV
+        </button>
       </div>
     </div>
   );

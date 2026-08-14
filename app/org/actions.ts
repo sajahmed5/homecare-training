@@ -6,6 +6,7 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
 import { logAudit } from "@/lib/audit";
+import { endOfMonthISO, type AssignCsvRow } from "@/lib/assign";
 import type { InviteState, SaveState } from "@/app/platform/actions";
 import type { UserRole } from "@/lib/auth";
 
@@ -279,7 +280,8 @@ export async function assignTrainingAction(
     return { ok: false, error: "Your account has no organisation." };
   }
 
-  const dueDate = String(formData.get("dueDate") ?? "").trim() || null;
+  // Every assignment carries a due date; default is end of the current month.
+  const dueDate = String(formData.get("dueDate") ?? "").trim() || endOfMonthISO();
   const pathwayId = String(formData.get("pathway") ?? "").trim();
   const selectedCourseIds = formData.getAll("courseIds").map(String).filter(Boolean);
   const allCarers = String(formData.get("all") ?? "") !== "";
@@ -348,4 +350,93 @@ export async function assignTrainingAction(
   revalidatePath("/org");
   revalidatePath("/learn");
   return { ok: true, count: rows.length };
+}
+
+export interface BulkAssignState {
+  ok?: boolean;
+  error?: string;
+  assigned?: number;
+  failures?: { line: string; error: string }[];
+}
+
+/**
+ * Bulk-assign courses from parsed CSV rows (email, course title, optional due
+ * date — defaults to end of the current month). Upserts enrolments, so
+ * re-running a file never wipes progress.
+ */
+export async function bulkAssignTrainingAction(
+  _prev: BulkAssignState,
+  formData: FormData,
+): Promise<BulkAssignState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+
+  let rows: AssignCsvRow[];
+  try {
+    rows = JSON.parse(String(formData.get("rows") ?? "[]"));
+  } catch {
+    return { ok: false, error: "Could not read the CSV." };
+  }
+  if (!Array.isArray(rows) || rows.length === 0) {
+    return { ok: false, error: "No rows found in the CSV." };
+  }
+
+  const supabase = await createClient();
+  const [{ data: users }, { data: courses }] = await Promise.all([
+    supabase.from("users").select("id, email").eq("role", "learner"),
+    supabase.from("courses").select("id, title"),
+  ]);
+  const userByEmail = new Map(
+    (users ?? []).map((u) => [String(u.email).toLowerCase(), u.id as string]),
+  );
+  const courseByTitle = new Map(
+    (courses ?? []).map((c) => [String(c.title).toLowerCase(), c.id as string]),
+  );
+
+  const defaultDue = endOfMonthISO();
+  const upserts = [];
+  const failures: { line: string; error: string }[] = [];
+  for (const row of rows) {
+    const line = `${row.email} → ${row.course}`;
+    if (row.problem) {
+      failures.push({ line, error: row.problem });
+      continue;
+    }
+    const userId = userByEmail.get(row.email.toLowerCase());
+    if (!userId) {
+      failures.push({ line, error: "No learner with that email in your organisation" });
+      continue;
+    }
+    const courseId = courseByTitle.get(row.course.toLowerCase());
+    if (!courseId) {
+      failures.push({ line, error: "No course with that exact title" });
+      continue;
+    }
+    upserts.push({
+      organisation_id: context.organisationId,
+      user_id: userId,
+      course_id: courseId,
+      due_date: row.dueDate ?? defaultDue,
+    });
+  }
+
+  if (upserts.length > 0) {
+    const { error } = await supabase
+      .from("enrolments")
+      .upsert(upserts, { onConflict: "user_id,course_id" });
+    if (error) return { ok: false, error: error.message, failures };
+  }
+
+  await logAudit({
+    context,
+    action: "training.bulk_assigned",
+    entity: "enrolment",
+    detail: { assigned: upserts.length, failed: failures.length },
+  });
+
+  revalidatePath("/org");
+  revalidatePath("/learn");
+  return { ok: true, assigned: upserts.length, failures };
 }
