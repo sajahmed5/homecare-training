@@ -12,17 +12,48 @@ import { createClient } from "@/lib/supabase/server";
 import { StatTile } from "@/components/learner-ui";
 import { bucketOf, isActiveLearner, loadOrgLearners } from "@/lib/org-learners";
 import { formatDuration } from "@/lib/org-learner";
+import { LearnersTable, type Filter } from "./learners-table";
+import { MatrixExport } from "../matrix-export";
 
 const DAY = 86_400_000;
 
-/** Learners overview: the headline numbers, active staff only. */
-export default async function LearnersOverviewPage() {
-  await requireRole("org_admin");
-  const supabase = await createClient();
-  const rows = (await loadOrgLearners(supabase)).filter(isActiveLearner);
+const FILTERS: Filter[] = [
+  "all",
+  "overdue",
+  "in_progress",
+  "not_started",
+  "completed",
+  "unassigned",
+  "deactivated",
+  "inactive",
+  "never",
+];
 
-  // rows is already active-only (isActiveLearner) — deactivated accounts
-  // stay on the Stats & matrix page for their history.
+/**
+ * Learners overview: the headline numbers over the per-learner table (design
+ * doc v3). Every tile is a link back into this page with the matching filter
+ * pre-selected, so a number and the people behind it are one click apart.
+ */
+export default async function LearnersOverviewPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ filter?: string }>;
+}) {
+  await requireRole("org_admin");
+  const { filter } = await searchParams;
+  const initialFilter: Filter = FILTERS.includes(filter as Filter)
+    ? (filter as Filter)
+    : "all";
+
+  const supabase = await createClient();
+  const [allRows, { data: organisation }] = await Promise.all([
+    loadOrgLearners(supabase),
+    supabase.from("organisations").select("name").single(),
+  ]);
+
+  // The tiles count active staff only; the table keeps deactivated accounts
+  // for their training history, behind its own pill.
+  const rows = allRows.filter(isActiveLearner);
   const nowMs = new Date().getTime();
   const assigned = rows.reduce((n, r) => n + r.stats.assigned, 0);
   const completed = rows.reduce((n, r) => n + r.stats.completed, 0);
@@ -37,53 +68,78 @@ export default async function LearnersOverviewPage() {
   const certificates = rows.reduce((n, r) => n + r.stats.certificates, 0);
 
   return (
-    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-      <StatTile
-        label="Active learners"
-        value={rows.length}
-        icon={Users}
-        color="#0284c7"
-        href="/org/learners/statistics"
-      />
-      <StatTile
-        label="Inactive 30d+"
-        value={inactive}
-        icon={MoonStar}
-        color="#8b5cf6"
-        href="/org/learners/statistics?filter=inactive"
-      />
-      <StatTile
-        label="In progress"
-        value={inProgress}
-        icon={Clock}
-        color="#f59e0b"
-        href="/org/learners/statistics?filter=in_progress"
-      />
-      <StatTile
-        label="With overdue"
-        value={withOverdue}
-        icon={AlertTriangle}
-        color="#ef4444"
-        href="/org/learners/statistics?filter=overdue"
-      />
-      <StatTile
-        label="Overall completion"
-        value={`${overallPct}%`}
-        icon={CheckCircle2}
-        color="#10b981"
-      />
-      <StatTile
-        label="Learning hours"
-        value={formatDuration(learningSeconds)}
-        icon={Timer}
-        color="#0d9488"
-      />
-      <StatTile
-        label="Certificates issued"
-        value={certificates}
-        icon={Award}
-        color="#7c3aed"
-      />
+    <div className="space-y-6">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        <StatTile
+          label="Active learners"
+          value={rows.length}
+          icon={Users}
+          color="#0284c7"
+          href="/org/learners#learners"
+        />
+        <StatTile
+          label="Inactive 30d+"
+          value={inactive}
+          icon={MoonStar}
+          color="#8b5cf6"
+          href="/org/learners?filter=inactive#learners"
+        />
+        <StatTile
+          label="In progress"
+          value={inProgress}
+          icon={Clock}
+          color="#f59e0b"
+          href="/org/learners?filter=in_progress#learners"
+        />
+        <StatTile
+          label="With overdue"
+          value={withOverdue}
+          icon={AlertTriangle}
+          color="#ef4444"
+          href="/org/learners?filter=overdue#learners"
+        />
+        <StatTile
+          label="Overall completion"
+          value={`${overallPct}%`}
+          icon={CheckCircle2}
+          color="#10b981"
+          href="/org/learners?filter=completed#learners"
+        />
+        <StatTile
+          label="Learning hours"
+          value={formatDuration(learningSeconds)}
+          icon={Timer}
+          color="#0d9488"
+          href="/org/learners#learners"
+        />
+        <StatTile
+          label="Certificates issued"
+          value={certificates}
+          icon={Award}
+          color="#7c3aed"
+          href="/org/learners#learners"
+        />
+      </div>
+
+      <section id="learners" className="scroll-mt-6 space-y-3">
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Learners
+          </h2>
+          <MatrixExport
+            filename={`${organisation?.name ?? "org"}-training-matrix.csv`}
+          />
+        </div>
+        {/* Keyed on the filter so a tile click re-selects the pill — the table
+            holds its own filter state and would otherwise survive the
+            same-page navigation unchanged. */}
+        <LearnersTable
+          key={initialFilter}
+          rows={allRows}
+          initialFilter={initialFilter}
+          filename={`${organisation?.name ?? "org"}-learners.csv`}
+        />
+      </section>
     </div>
   );
 }

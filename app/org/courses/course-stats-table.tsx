@@ -26,9 +26,10 @@ export function CourseStatsTable({
       "Attempts",
       "In progress",
       "Completions",
-      "Quickest completion",
-      "Longest completion",
-      "Average completion",
+      "Expected duration",
+      "Shortest duration",
+      "Longest duration",
+      "Average duration",
     ];
     const body = rows.map((r) =>
       [
@@ -37,6 +38,7 @@ export function CourseStatsTable({
         String(r.attempts),
         String(r.inProgress),
         String(r.completions),
+        fmtTime(r.expectedSeconds),
         fmtTime(r.quickestSeconds),
         fmtTime(r.longestSeconds),
         fmtTime(r.averageSeconds),
@@ -65,15 +67,16 @@ export function CourseStatsTable({
               <th className="px-3 py-2 font-medium">Attempts</th>
               <th className="px-3 py-2 font-medium">In progress</th>
               <th className="px-3 py-2 font-medium">Completions</th>
-              <th className="px-3 py-2 font-medium">Quickest</th>
-              <th className="px-3 py-2 font-medium">Longest</th>
-              <th className="px-3 py-2 font-medium">Average</th>
+              <th className="px-3 py-2 font-medium">Expected Duration</th>
+              <th className="px-3 py-2 font-medium">Shortest Duration</th>
+              <th className="px-3 py-2 font-medium">Longest Duration</th>
+              <th className="px-3 py-2 font-medium">Average Duration</th>
             </tr>
           </thead>
           <tbody>
             {rows.length === 0 ? (
               <tr>
-                <td colSpan={8} className="px-3 py-8 text-center text-muted-foreground">
+                <td colSpan={9} className="px-3 py-8 text-center text-muted-foreground">
                   No course activity yet.
                 </td>
               </tr>
@@ -93,6 +96,7 @@ export function CourseStatsTable({
                   <td className="px-3 py-2">{r.attempts}</td>
                   <td className="px-3 py-2">{r.inProgress}</td>
                   <td className="px-3 py-2">{r.completions}</td>
+                  <td className="px-3 py-2 text-muted-foreground">{fmtTime(r.expectedSeconds)}</td>
                   <td className="px-3 py-2 text-muted-foreground">{fmtTime(r.quickestSeconds)}</td>
                   <td className="px-3 py-2 text-muted-foreground">{fmtTime(r.longestSeconds)}</td>
                   <td className="px-3 py-2 text-muted-foreground">{fmtTime(r.averageSeconds)}</td>

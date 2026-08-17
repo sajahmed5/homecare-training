@@ -64,7 +64,7 @@ export default async function OrgDashboard() {
       key: "overdue",
       tone: "alert" as const,
       text: `${withOverdue} staff member${withOverdue === 1 ? " has" : "s have"} overdue training — send them a reminder.`,
-      href: "/org/learners/statistics?filter=overdue",
+      href: "/org/learners?filter=overdue#learners",
       action: <NudgeAllButton />,
     },
     totals.expiring > 0 && {
@@ -99,9 +99,9 @@ export default async function OrgDashboard() {
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             <StatTile label="Active learners" value={learners.length} icon={Users} color="#0284c7" href="/org/learners" />
-            <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners/statistics?filter=inactive" />
-            <StatTile label="In progress" value={inProgress} icon={Clock} color="#f59e0b" href="/org/learners/statistics?filter=in_progress" />
-            <StatTile label="With overdue" value={withOverdue} icon={AlertTriangle} color="#e11d48" href="/org/learners/statistics?filter=overdue" />
+            <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners?filter=inactive#learners" />
+            <StatTile label="In progress" value={inProgress} icon={Clock} color="#f59e0b" href="/org/learners?filter=in_progress#learners" />
+            <StatTile label="With overdue" value={withOverdue} icon={AlertTriangle} color="#e11d48" href="/org/learners?filter=overdue#learners" />
           </div>
         </section>
 
