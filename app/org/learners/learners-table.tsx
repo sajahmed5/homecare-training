@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { NudgeButton } from "../nudge-button";
 import {
   bucketOf,
   isInactive30d,
@@ -86,11 +87,14 @@ export function LearnersTable({
   rows,
   filename = "learners-overview.csv",
   initialFilter = "all",
+  readOnly = false,
 }: {
   rows: OrgLearnerRow[];
   filename?: string;
   /** Pre-selected filter pill (deep links like ?filter=overdue). */
   initialFilter?: Filter;
+  /** Platform view: hide the org-admin-only Remind action. */
+  readOnly?: boolean;
 }) {
   const [filter, setFilter] = useState<Filter>(initialFilter);
   const shown = useMemo(() => rows.filter((r) => matches(r, filter)), [rows, filter]);
@@ -204,12 +208,15 @@ export function LearnersTable({
               <th className="px-3 py-2 font-medium">Latest completed</th>
               <th className="px-3 py-2 font-medium">Last assigned</th>
               <th className="px-3 py-2 font-medium">Last active</th>
+              {!readOnly && (
+                <th className="px-3 py-2 text-right font-medium">Action</th>
+              )}
             </tr>
           </thead>
           <tbody>
             {shown.length === 0 ? (
               <tr>
-                <td colSpan={10} className="px-3 py-8 text-center text-muted-foreground">
+                <td colSpan={readOnly ? 10 : 11} className="px-3 py-8 text-center text-muted-foreground">
                   No learners match this filter.
                 </td>
               </tr>
@@ -281,6 +288,21 @@ export function LearnersTable({
                         {active.label}
                       </span>
                     </td>
+                    {!readOnly && (
+                      <td className="px-3 py-2 text-right">
+                        {/* Nothing to chase a leaver about, nor someone who
+                            has finished everything assigned to them. */}
+                        {!gone && r.stats.completed < r.stats.assigned ? (
+                          <NudgeButton
+                            userId={r.id}
+                            size="xs"
+                            lastRemindedAt={r.lastRemindedAt}
+                          />
+                        ) : (
+                          <span className="text-xs text-muted-foreground">—</span>
+                        )}
+                      </td>
+                    )}
                   </tr>
                 );
               })

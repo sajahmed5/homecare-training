@@ -13,6 +13,7 @@ import {
   type StatusVariant,
 } from "@/components/learner-ui";
 import { learnerStats } from "@/lib/learner-data";
+import { NudgeButton } from "../../nudge-button";
 import { isOverdue, expiryFlag } from "@/lib/engine-logic";
 import {
   loadOrgLearnerTraining,
@@ -53,6 +54,17 @@ export default async function StaffDetailPage({
   const now = new Date();
   const stats = learnerStats(enrolments, certificates, now);
   const name = profile.full_name ?? profile.email ?? "Learner";
+  // Latest reminder across their enrolments — the same figure the learners
+  // list shows under its Remind button.
+  const lastRemindedAt = enrolments.reduce<string | null>(
+    (latest, e) =>
+      e.last_reminder_at && (!latest || e.last_reminder_at > latest)
+        ? e.last_reminder_at
+        : latest,
+    null,
+  );
+  const canRemind =
+    profile.status !== "deactivated" && stats.completed < stats.assigned;
 
   // Newest certificate per course (list is already issued_at desc).
   const certByCourse = new Map<string, (typeof certificates)[number]>();
@@ -85,10 +97,18 @@ export default async function StaffDetailPage({
               </div>
               <p className="text-sm text-muted-foreground">{profile.email}</p>
             </div>
-            <ProgressRing value={stats.overallPct} size={104} stroke={10}>
-              <span className="text-2xl font-semibold">{stats.overallPct}%</span>
-              <span className="text-xs text-muted-foreground">overall</span>
-            </ProgressRing>
+            <div className="flex items-center gap-6">
+              {canRemind && (
+                <NudgeButton
+                  userId={userId}
+                  lastRemindedAt={lastRemindedAt}
+                />
+              )}
+              <ProgressRing value={stats.overallPct} size={104} stroke={10}>
+                <span className="text-2xl font-semibold">{stats.overallPct}%</span>
+                <span className="text-xs text-muted-foreground">overall</span>
+              </ProgressRing>
+            </div>
           </CardContent>
         </Card>
 

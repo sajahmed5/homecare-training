@@ -4,6 +4,9 @@ import type { Enrolment, Certificate } from "@/lib/learner-data";
 /** An enrolment plus the time the learner has spent in the course content. */
 export interface OrgEnrolment extends Enrolment {
   time_spent: number; // seconds
+  /** When a reminder last went out for this enrolment, so the staff page can
+   *  show it under its Remind button the way the learners list does. */
+  last_reminder_at: string | null;
 }
 
 /** One submitted assessment attempt. */
@@ -65,7 +68,7 @@ export async function loadOrgLearnerTraining(
       supabase
         .from("enrolments")
         .select(
-          "id, course_id, status, progress, time_spent, due_date, assigned_at, attempt_count, completion_count, courses(title, topics(title))",
+          "id, course_id, status, progress, time_spent, due_date, assigned_at, attempt_count, completion_count, last_reminder_at, courses(title, topics(title))",
         )
         .eq("user_id", userId)
         .order("assigned_at", { ascending: false }),
@@ -95,6 +98,7 @@ export async function loadOrgLearnerTraining(
       assigned_at: e.assigned_at,
       attempt_count: e.attempt_count ?? 0,
       completion_count: e.completion_count ?? 0,
+      last_reminder_at: e.last_reminder_at ?? null,
       title: c.title ?? "Course",
       topic: c.topics?.title ?? null,
     };
