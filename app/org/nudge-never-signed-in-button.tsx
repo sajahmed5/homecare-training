@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { UserRoundCheck } from "lucide-react";
-import { nudgeNeverSignedInAction } from "./nudge-actions";
+import { nudgeGroupAction } from "./nudge-actions";
 
 const DAY = 86_400_000;
 
@@ -33,7 +33,7 @@ export function NudgeNeverSignedInButton({
 
   async function run() {
     setBusy(true);
-    const res = await nudgeNeverSignedInAction();
+    const res = await nudgeGroupAction("never_signed_in", true);
     setBusy(false);
     setConfirming(false);
     if (!res.ok) {

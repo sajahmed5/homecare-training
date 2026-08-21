@@ -5,6 +5,8 @@ import { requireRole } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendEmail } from "@/lib/email";
 import { createSetPasswordLink } from "@/lib/invites";
+import { bucketOf, isActiveLearner, isNeverActive, loadOrgLearners } from "@/lib/org-learners";
+import type { NudgeGroup } from "./nudge-types";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
 export interface NudgeResult {
@@ -127,45 +129,38 @@ export interface BulkNudgeResult {
 }
 
 /**
- * Remind every learner in the org who has overdue training (a past due date on a
- * course they haven't completed). Respects the same 24h per-learner guard.
+ * Remind a bucket of learners about outstanding training. The bucket comes
+ * from bucketOf, so "overdue" and "not started" mean exactly what the pills of
+ * those names on the learners list mean.
  */
-export async function nudgeAllOverdueAction(): Promise<BulkNudgeResult> {
-  const context = await requireRole("org_admin");
-  if (!context.organisationId) return { ok: false, error: "No organisation.", reminded: 0, skipped: 0 };
-
-  const admin = createAdminClient();
-  const today = new Date().toISOString().slice(0, 10);
-
-  // due_date <= today (a date = midnight) matches lib/engine-logic isOverdue,
-  // which treats a course due today as overdue — same as the overdue counts.
-  const { data: overdue } = await admin
-    .from("enrolments")
-    .select("user_id")
-    .eq("organisation_id", context.organisationId)
-    .neq("status", "completed")
-    .not("due_date", "is", null)
-    .lte("due_date", today);
-  const userIds = [...new Set((overdue ?? []).map((e) => e.user_id as string))];
-  if (userIds.length === 0) return { ok: true, reminded: 0, skipped: 0 };
-
-  const { data: learners } = await admin
-    .from("users")
-    .select("id, full_name, email")
-    .eq("organisation_id", context.organisationId)
-    .eq("role", "learner")
-    .in("id", userIds);
+async function nudgeBucket(
+  admin: SupabaseClient,
+  organisationId: string,
+  bucket: "overdue" | "not_started",
+  force: boolean,
+): Promise<BulkNudgeResult> {
+  // Scoped explicitly by orgId: this is the service-role client, so RLS is not
+  // doing the scoping for us here.
+  const rows = (await loadOrgLearners(admin, organisationId))
+    .filter(isActiveLearner)
+    .filter((r) => bucketOf(r) === bucket);
+  if (rows.length === 0) return { ok: true, reminded: 0, skipped: 0 };
 
   const origin = await siteOrigin();
   let reminded = 0;
   let skipped = 0;
-  for (const l of learners ?? []) {
-    if (!l.email) continue;
-    const outcome = await nudgeOne(admin, context.organisationId, origin, {
-      id: l.id,
-      full_name: l.full_name,
-      email: l.email,
-    });
+  for (const r of rows) {
+    if (!r.email) {
+      skipped += 1;
+      continue;
+    }
+    const outcome = await nudgeOne(
+      admin,
+      organisationId,
+      origin,
+      { id: r.id, full_name: r.name, email: r.email },
+      force,
+    );
     if (outcome === "sent") reminded += 1;
     else skipped += 1;
   }
@@ -190,16 +185,14 @@ export async function nudgeAllOverdueAction(): Promise<BulkNudgeResult> {
  * in the group. The Reminders list on Learners → Admin shows what went and
  * when, and each send mints a new link so older ones stop mattering.
  */
-export async function nudgeNeverSignedInAction(): Promise<BulkNudgeResult> {
-  const context = await requireRole("org_admin");
-  if (!context.organisationId)
-    return { ok: false, error: "No organisation.", reminded: 0, skipped: 0 };
-
-  const admin = createAdminClient();
+async function nudgeNeverSignedIn(
+  admin: SupabaseClient,
+  organisationId: string,
+): Promise<BulkNudgeResult> {
   const { data: learners } = await admin
     .from("users")
     .select("id, full_name, email")
-    .eq("organisation_id", context.organisationId)
+    .eq("organisation_id", organisationId)
     .eq("role", "learner")
     .eq("status", "active")
     .is("last_seen_at", null);
@@ -207,7 +200,7 @@ export async function nudgeNeverSignedInAction(): Promise<BulkNudgeResult> {
   const { data: organisation } = await admin
     .from("organisations")
     .select("name")
-    .eq("id", context.organisationId)
+    .eq("id", organisationId)
     .maybeSingle();
   const orgName = organisation?.name ?? "your organisation";
 
@@ -244,7 +237,7 @@ dashboard.</p>`;
 
     const sent = await sendEmail({ to: l.email, subject, html });
     await admin.from("email_log").insert({
-      organisation_id: context.organisationId,
+      organisation_id: organisationId,
       to_email: l.email,
       type: "org_signin_nudge",
       subject,
@@ -255,4 +248,38 @@ dashboard.</p>`;
   }
 
   return { ok: true, reminded, skipped };
+}
+
+/**
+ * Chase one group of learners (issue #17.3). Replaces the two single-purpose
+ * bulk actions so the picker, the dashboard's quick action and the
+ * notifications panel all go through one path.
+ *
+ * `force` decides whether someone reminded in the last 24h is emailed again.
+ * The picker passes true — it is a deliberate click, on a named group, behind
+ * a confirmation showing the headcount. The dashboard's one-tap button leaves
+ * it false so a stray click cannot double-email everyone. The never-signed-in
+ * group always sends regardless: chasing it more than once is the point, and
+ * it has no per-enrolment timestamp to check anyway.
+ */
+export async function nudgeGroupAction(
+  group: NudgeGroup,
+  force = false,
+): Promise<BulkNudgeResult> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId)
+    return { ok: false, error: "No organisation.", reminded: 0, skipped: 0 };
+
+  const admin = createAdminClient();
+  return group === "never_signed_in"
+    ? nudgeNeverSignedIn(admin, context.organisationId)
+    : nudgeBucket(admin, context.organisationId, group, force);
+}
+
+/** Everyone in the org who has never signed in — how many the group holds. */
+export async function neverSignedInCount(): Promise<number> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) return 0;
+  const rows = await loadOrgLearners(createAdminClient(), context.organisationId);
+  return rows.filter(isActiveLearner).filter(isNeverActive).length;
 }

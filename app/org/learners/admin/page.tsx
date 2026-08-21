@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import {
+  bucketOf,
+  isActiveLearner,
+  isNeverActive,
+  loadOrgLearners,
+} from "@/lib/org-learners";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -14,9 +20,8 @@ import { CsvImport } from "../../csv-import";
 import { CsvExport } from "../../csv-export";
 import { StatusToggle } from "../../status-toggle";
 import { DeleteStaffButton } from "../../delete-staff-button";
-import { NudgeAllButton } from "../../nudge-all-button";
-import { NudgeNeverSignedInButton } from "../../nudge-never-signed-in-button";
-import { NUDGE_TYPES } from "../../nudge-types";
+import { NudgeGroupPicker } from "../../nudge-group-picker";
+import { NUDGE_TYPES, type NudgeGroup } from "../../nudge-types";
 import { RemindersTable, type ReminderRow } from "../reminders-table";
 
 const ROLE_LABELS: Record<string, string> = {
@@ -31,12 +36,7 @@ const ROLE_LABELS: Record<string, string> = {
 export default async function LearnersAdminPage() {
   const context = await requireRole("org_admin");
   const supabase = await createClient();
-  const [
-    { data: organisation },
-    { data: staff },
-    { data: nudgeLog },
-    { data: lastSignInNudge },
-  ] =
+  const [{ data: organisation }, { data: staff }, { data: nudgeLog }, learnerRows] =
     await Promise.all([
       supabase.from("organisations").select("name").single(),
       supabase
@@ -49,20 +49,15 @@ export default async function LearnersAdminPage() {
         .in("type", NUDGE_TYPES)
         .order("created_at", { ascending: false })
         .limit(200),
-      supabase
-        .from("email_log")
-        .select("created_at")
-        .eq("type", "org_signin_nudge")
-        .order("created_at", { ascending: false })
-        .limit(1)
-        .maybeSingle(),
+      loadOrgLearners(supabase),
     ]);
 
-  // Same group the action targets: active learners who have never signed in.
-  const neverSignedIn = (staff ?? []).filter(
-    (u) => u.role === "learner" && u.status === "active" && !u.last_seen_at,
-  ).length;
-  const lastSignInNudgeAt = lastSignInNudge?.created_at ?? null;
+  const active = learnerRows.filter(isActiveLearner);
+  const nudgeCounts: Record<NudgeGroup, number> = {
+    overdue: active.filter((r) => bucketOf(r) === "overdue").length,
+    not_started: active.filter((r) => bucketOf(r) === "not_started").length,
+    never_signed_in: active.filter(isNeverActive).length,
+  };
 
   const nameByEmail = new Map<string, string>();
   for (const u of staff ?? []) {
@@ -213,17 +208,11 @@ export default async function LearnersAdminPage() {
           <div>
             <CardTitle>Reminders</CardTitle>
             <CardDescription>
-              Every reminder sent, newest first. Chase everyone with overdue
-              training, or everyone who has never signed in.
+              Every reminder sent, newest first. Pick a group to chase — it
+              sends even to people reminded recently.
             </CardDescription>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
-            <NudgeAllButton />
-            <NudgeNeverSignedInButton
-              count={neverSignedIn}
-              lastSentAt={lastSignInNudgeAt}
-            />
-          </div>
+          <NudgeGroupPicker counts={nudgeCounts} />
         </CardHeader>
         <CardContent>
           <RemindersTable rows={reminders} />

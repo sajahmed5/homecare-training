@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { BellRing } from "lucide-react";
-import { nudgeAllOverdueAction } from "./nudge-actions";
+import { nudgeGroupAction } from "./nudge-actions";
 
 export function NudgeAllButton() {
   const [busy, setBusy] = useState(false);
@@ -10,7 +10,7 @@ export function NudgeAllButton() {
 
   async function run() {
     setBusy(true);
-    const res = await nudgeAllOverdueAction();
+    const res = await nudgeGroupAction("overdue");
     setBusy(false);
     if (!res.ok) {
       setDone(res.error ?? "Failed");
