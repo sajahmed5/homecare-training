@@ -15,12 +15,8 @@ import { StatTile } from "@/components/learner-ui";
 import { isInactive30d, isNeverActive, loadOrgLearners } from "@/lib/org-learners";
 import { LearnersTable } from "@/app/org/learners/learners-table";
 import { EditOrgForm } from "./edit-org-form";
+import { OrgAdmins, type OrgPerson } from "./org-admins";
 import { OrgNudgeButton } from "../../org-nudge-button";
-
-const ROLE_LABELS: Record<string, string> = {
-  org_admin: "Admin",
-  learner: "Learner",
-};
 
 export default async function OrganisationDetailPage({
   params,
@@ -41,7 +37,7 @@ export default async function OrganisationDetailPage({
       .single(),
     supabase
       .from("users")
-      .select("id, full_name, email, role, created_at")
+      .select("id, full_name, email, role, status, created_at")
       .eq("organisation_id", id)
       .order("created_at", { ascending: true }),
     loadOrgLearners(supabase, id),
@@ -63,6 +59,18 @@ export default async function OrganisationDetailPage({
   // definition and never-signed-in gets its own tile (issue #22).
   const inactive = current.filter((r) => isInactive30d(r, nowMs)).length;
   const neverActive = current.filter(isNeverActive).length;
+
+  const person = (u: NonNullable<typeof staff>[number]): OrgPerson => ({
+    id: u.id,
+    name: u.full_name || u.email || "Unnamed",
+    email: u.email,
+    role: u.role,
+  });
+  const admins = (staff ?? []).filter((u) => u.role === "org_admin").map(person);
+  // Only active learners can be usefully promoted — a leaver can't log in.
+  const promotable = (staff ?? [])
+    .filter((u) => u.role === "learner" && u.status !== "deactivated")
+    .map(person);
 
   return (
     <DashboardShell title={org.name} context={context}>
@@ -86,8 +94,36 @@ export default async function OrganisationDetailPage({
           <StatTile label="Never signed in" value={neverActive} icon={UserRoundX} color="#e11d48" />
         </div>
 
+        <Card>
+          <CardHeader>
+            <CardTitle>Admins</CardTitle>
+            <CardDescription>
+              Who can manage this organisation. Role changes apply when that
+              person&apos;s session next refreshes.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <OrgAdmins orgId={org.id} admins={admins} promotable={promotable} />
+          </CardContent>
+        </Card>
+
         {learners.length > 0 && (
-          <LearnersTable rows={learners} readOnly />
+          <Card>
+            <CardHeader>
+              <CardTitle>Learners</CardTitle>
+              <CardDescription>
+                {learners.length} in this organisation. Filter by status or
+                activity, including deactivated accounts.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              {/* Capped: a few hundred rows otherwise buries everything below
+                  it, which is what made this page unusable (issues #19/#20). */}
+              <div className="max-h-[32rem] overflow-y-auto">
+                <LearnersTable rows={learners} readOnly />
+              </div>
+            </CardContent>
+          </Card>
         )}
 
         <Card>
@@ -102,38 +138,6 @@ export default async function OrganisationDetailPage({
           </CardContent>
         </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Staff</CardTitle>
-            <CardDescription>{staff?.length ?? 0} member(s).</CardDescription>
-          </CardHeader>
-          <CardContent>
-            {staff && staff.length > 0 ? (
-              <ul className="divide-y text-sm">
-                {staff.map((u) => (
-                  <li
-                    key={u.id}
-                    className="flex items-center justify-between py-2"
-                  >
-                    <span>
-                      <span className="font-medium">
-                        {u.full_name || u.email}
-                      </span>{" "}
-                      <span className="text-muted-foreground">{u.email}</span>
-                    </span>
-                    <span className="text-muted-foreground">
-                      {ROLE_LABELS[u.role] ?? u.role}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-sm text-muted-foreground">
-                No staff yet — the org admin invite may still be pending.
-              </p>
-            )}
-          </CardContent>
-        </Card>
       </div>
     </DashboardShell>
   );
