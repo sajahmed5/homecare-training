@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   Clock,
   MoonStar,
+  UserRoundX,
   Users,
 } from "lucide-react";
 import { requireRole } from "@/lib/auth";
@@ -14,10 +15,9 @@ import { createClient } from "@/lib/supabase/server";
 import { tierLabel } from "@/lib/organisations";
 import { StatTile } from "@/components/learner-ui";
 import { DashboardShell } from "@/components/dashboard-shell";
-import { bucketOf, isActiveLearner, loadOrgLearners } from "@/lib/org-learners";
+import { bucketOf, isActiveLearner, isInactive30d, isNeverActive, loadOrgLearners } from "@/lib/org-learners";
 import { NudgeAllButton } from "./nudge-all-button";
-
-const DAY = 86_400_000;
+import { NudgeNeverSignedInButton } from "./nudge-never-signed-in-button";
 
 export default async function OrgDashboard() {
   const context = await requireRole("org_admin");
@@ -36,9 +36,8 @@ export default async function OrgDashboard() {
   const learners = allLearners.filter(isActiveLearner);
   const nowMs = new Date().getTime();
 
-  const inactive = learners.filter(
-    (r) => r.lastSeenAt && nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
-  ).length;
+  const inactive = learners.filter((r) => isInactive30d(r, nowMs)).length;
+  const neverActive = learners.filter(isNeverActive).length;
   const inProgress = learners.filter((r) => bucketOf(r) === "in_progress").length;
   const withOverdue = learners.filter((r) => r.stats.overdue > 0).length;
 
@@ -66,6 +65,13 @@ export default async function OrgDashboard() {
       text: `${withOverdue} staff member${withOverdue === 1 ? " has" : "s have"} overdue training — send them a reminder.`,
       href: "/org/learners?filter=overdue#learners",
       action: <NudgeAllButton />,
+    },
+    neverActive > 0 && {
+      key: "never",
+      tone: "alert" as const,
+      text: `${neverActive} staff member${neverActive === 1 ? " has" : "s have"} never signed in — they can't start their training until they do.`,
+      href: "/org/learners?filter=never#learners",
+      action: <NudgeNeverSignedInButton count={neverActive} />,
     },
     totals.expiring > 0 && {
       key: "expiring",
@@ -100,6 +106,7 @@ export default async function OrgDashboard() {
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             <StatTile label="Active learners" value={learners.length} icon={Users} color="#0284c7" href="/org/learners" />
             <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners?filter=inactive#learners" />
+            <StatTile label="Never signed in" value={neverActive} icon={UserRoundX} color="#e11d48" href="/org/learners?filter=never#learners" />
             <StatTile label="In progress" value={inProgress} icon={Clock} color="#f59e0b" href="/org/learners?filter=in_progress#learners" />
             <StatTile label="With overdue" value={withOverdue} icon={AlertTriangle} color="#e11d48" href="/org/learners?filter=overdue#learners" />
           </div>
@@ -110,7 +117,7 @@ export default async function OrgDashboard() {
             Courses
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <StatTile label="Overall completion" value={`${overallPct}%`} icon={CheckCircle2} color="#10b981" href="/org/courses" />
+            <StatTile label="Assigned training complete" value={`${overallPct}%`} icon={CheckCircle2} color="#10b981" hint={`${totals.completed} of ${totals.assigned} courses`} href="/org/courses" />
             <StatTile label="Overdue" value={totals.overdue} icon={BadgeAlert} color="#ef4444" href="/org/learners/statistics?status=overdue" />
             <StatTile label="Completed" value={totals.completed} icon={BookOpenCheck} color="#16a34a" href="/org/learners/statistics?status=completed" />
             <StatTile label="Completed late" value={totals.late} icon={CalendarClock} color="#f97316" href="/org/learners/statistics?status=late" />

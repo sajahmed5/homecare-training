@@ -2,7 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { bucketOf, type OrgLearnerRow } from "@/lib/org-learners";
+import {
+  bucketOf,
+  isInactive30d,
+  isNeverActive,
+  type OrgLearnerRow,
+} from "@/lib/org-learners";
 
 const DAY = 86_400_000;
 
@@ -64,11 +69,9 @@ function matches(r: OrgLearnerRow, f: Filter): boolean {
     case "deactivated":
       return false; // handled by the short-circuit above
     case "inactive":
-      return (
-        !!r.lastSeenAt && Date.now() - new Date(r.lastSeenAt).getTime() > 30 * DAY
-      );
+      return isInactive30d(r);
     case "never":
-      return !r.lastSeenAt;
+      return isNeverActive(r);
     case "all":
       return true;
     default:

@@ -25,6 +25,28 @@ export interface OrgLearnerRow {
 /** Headline stats count active staff only; deactivated stay in the matrix. */
 export const isActiveLearner = (r: OrgLearnerRow) => r.status !== "deactivated";
 
+const DAY = 86_400_000;
+
+/**
+ * The two ways of being unseen, kept apart on purpose and defined ONCE here.
+ *
+ * "Inactive" means signed in at some point, then went quiet — someone to chase
+ * about their training. "Never active" means invited but never onboarded at
+ * all — someone to chase about signing in, which is a different conversation
+ * (and a different email: they still have no password).
+ *
+ * These used to be spelled out at each call site and had drifted apart: the
+ * org pages counted inactive as "has a last_seen_at AND it is stale" while the
+ * platform org page counted "no last_seen_at OR it is stale", so one real org
+ * showed 0 inactive to its manager and 223 to us under the same label. Import a
+ * helper rather than re-deriving either test (issue #22).
+ */
+export const isInactive30d = (r: OrgLearnerRow, now: number = Date.now()) =>
+  !!r.lastSeenAt && now - new Date(r.lastSeenAt).getTime() > 30 * DAY;
+
+/** Invited but never signed in — no last_seen_at at all. */
+export const isNeverActive = (r: OrgLearnerRow) => !r.lastSeenAt;
+
 /**
  * A certificate counts as a late completion when it was issued after the
  * enrolment's due date. Both sides compare as YYYY-MM-DD strings (due_date is

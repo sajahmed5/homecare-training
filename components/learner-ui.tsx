@@ -69,12 +69,16 @@ export function StatTile({
   icon: Icon,
   color = "#0d9488",
   href,
+  hint,
 }: {
   label: string;
   value: number | string;
   icon: LucideIcon;
   color?: string;
   href?: string;
+  /** Small line under the label — use it to name the units behind a
+   *  percentage, so a rate can't be misread as a headcount (issue #21). */
+  hint?: string;
 }) {
   const inner = (
     <>
@@ -86,6 +90,7 @@ export function StatTile({
       </div>
       <p className="mt-3 text-3xl font-semibold tracking-tight">{value}</p>
       <p className="text-sm text-muted-foreground">{label}</p>
+      {hint && <p className="text-xs text-muted-foreground/80">{hint}</p>}
     </>
   );
 

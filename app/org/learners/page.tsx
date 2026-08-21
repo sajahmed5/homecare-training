@@ -6,16 +6,21 @@ import {
   CheckCircle2,
   Timer,
   Award,
+  UserRoundX,
 } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { StatTile } from "@/components/learner-ui";
-import { bucketOf, isActiveLearner, loadOrgLearners } from "@/lib/org-learners";
+import {
+  bucketOf,
+  isActiveLearner,
+  isInactive30d,
+  isNeverActive,
+  loadOrgLearners,
+} from "@/lib/org-learners";
 import { formatDuration } from "@/lib/org-learner";
 import { LearnersTable, type Filter } from "./learners-table";
 import { MatrixExport } from "../matrix-export";
-
-const DAY = 86_400_000;
 
 const FILTERS: Filter[] = [
   "all",
@@ -60,10 +65,11 @@ export default async function LearnersOverviewPage({
   const overallPct = assigned > 0 ? Math.round((completed / assigned) * 100) : 0;
   const inProgress = rows.filter((r) => bucketOf(r) === "in_progress").length;
   const withOverdue = rows.filter((r) => r.stats.overdue > 0).length;
-  // Inactive = has logged in before, but not in the last 30 days.
-  const inactive = rows.filter(
-    (r) => r.lastSeenAt && nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
-  ).length;
+  const inactive = rows.filter((r) => isInactive30d(r, nowMs)).length;
+  // Never signed in is its own tile: these people are invisible to "Inactive
+  // 30d+" by design, and without a tile of their own a whole untrained
+  // workforce reads as green up here (issue #22).
+  const neverActive = rows.filter(isNeverActive).length;
   const learningSeconds = rows.reduce((n, r) => n + r.timeSpentSeconds, 0);
   const certificates = rows.reduce((n, r) => n + r.stats.certificates, 0);
 
@@ -99,10 +105,18 @@ export default async function LearnersOverviewPage({
           href="/org/learners?filter=overdue#learners"
         />
         <StatTile
-          label="Overall completion"
+          label="Never signed in"
+          value={neverActive}
+          icon={UserRoundX}
+          color="#e11d48"
+          href="/org/learners?filter=never#learners"
+        />
+        <StatTile
+          label="Assigned training complete"
           value={`${overallPct}%`}
           icon={CheckCircle2}
           color="#10b981"
+          hint={`${completed} of ${assigned} courses`}
           href="/org/learners?filter=completed#learners"
         />
         <StatTile

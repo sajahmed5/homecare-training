@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Users, CheckCircle2, AlertTriangle, MoonStar } from "lucide-react";
+import { Users, CheckCircle2, AlertTriangle, MoonStar, UserRoundX } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { DashboardShell } from "@/components/dashboard-shell";
@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { StatTile } from "@/components/learner-ui";
-import { loadOrgLearners } from "@/lib/org-learners";
+import { isInactive30d, isNeverActive, loadOrgLearners } from "@/lib/org-learners";
 import { LearnersTable } from "@/app/org/learners/learners-table";
 import { EditOrgForm } from "./edit-org-form";
 import { OrgNudgeButton } from "../../org-nudge-button";
@@ -21,7 +21,6 @@ const ROLE_LABELS: Record<string, string> = {
   org_admin: "Admin",
   learner: "Learner",
 };
-const DAY = 86_400_000;
 
 export default async function OrganisationDetailPage({
   params,
@@ -58,9 +57,12 @@ export default async function OrganisationDetailPage({
   const completed = current.reduce((n, r) => n + r.stats.completed, 0);
   const completionPct = assigned > 0 ? Math.round((completed / assigned) * 100) : 0;
   const overdueLearners = current.filter((r) => r.stats.overdue > 0).length;
-  const inactive = current.filter(
-    (r) => !r.lastSeenAt || nowMs - new Date(r.lastSeenAt).getTime() > 30 * DAY,
-  ).length;
+  // Was "no last_seen_at OR stale", which silently folded never-signed-in
+  // staff into "Inactive 30d+" — the same org then read 223 here and 0 on the
+  // org's own page under an identical label. Both sides now share one
+  // definition and never-signed-in gets its own tile (issue #22).
+  const inactive = current.filter((r) => isInactive30d(r, nowMs)).length;
+  const neverActive = current.filter(isNeverActive).length;
 
   return (
     <DashboardShell title={org.name} context={context}>
@@ -78,9 +80,10 @@ export default async function OrganisationDetailPage({
         {/* Engagement at a glance */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
           <StatTile label="Learners" value={current.length} icon={Users} color="#0284c7" />
-          <StatTile label="Completion" value={`${completionPct}%`} icon={CheckCircle2} color="#10b981" />
+          <StatTile label="Assigned training complete" value={`${completionPct}%`} icon={CheckCircle2} color="#10b981" hint={`${completed} of ${assigned} courses`} />
           <StatTile label="With overdue" value={overdueLearners} icon={AlertTriangle} color="#ef4444" />
           <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" />
+          <StatTile label="Never signed in" value={neverActive} icon={UserRoundX} color="#e11d48" />
         </div>
 
         {learners.length > 0 && (
