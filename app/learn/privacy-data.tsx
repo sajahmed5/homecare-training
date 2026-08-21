@@ -60,8 +60,11 @@ export function PrivacyData() {
       setError(error ?? "Deletion failed.");
       return;
     }
-    // Sign out client-side and leave.
+    // Sign out client-side and leave. The navigation is hard on purpose: the
+    // account is gone, so every bit of client state and cached RSC payload
+    // belonging to it has to go with it — a soft router.push would keep them.
     await createClient().auth.signOut();
+    // eslint-disable-next-line @next/next/no-location-assign-relative-destination
     window.location.assign("/login");
   }
 
