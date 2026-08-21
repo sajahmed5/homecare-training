@@ -15,6 +15,8 @@ import { CsvExport } from "../../csv-export";
 import { StatusToggle } from "../../status-toggle";
 import { DeleteStaffButton } from "../../delete-staff-button";
 import { NudgeAllButton } from "../../nudge-all-button";
+import { NudgeNeverSignedInButton } from "../../nudge-never-signed-in-button";
+import { NUDGE_TYPES } from "../../nudge-types";
 import { RemindersTable, type ReminderRow } from "../reminders-table";
 
 const ROLE_LABELS: Record<string, string> = {
@@ -29,20 +31,38 @@ const ROLE_LABELS: Record<string, string> = {
 export default async function LearnersAdminPage() {
   const context = await requireRole("org_admin");
   const supabase = await createClient();
-  const [{ data: organisation }, { data: staff }, { data: nudgeLog }] =
+  const [
+    { data: organisation },
+    { data: staff },
+    { data: nudgeLog },
+    { data: lastSignInNudge },
+  ] =
     await Promise.all([
       supabase.from("organisations").select("name").single(),
       supabase
         .from("users")
-        .select("id, full_name, email, role, status, created_at")
+        .select("id, full_name, email, role, status, created_at, last_seen_at")
         .order("created_at", { ascending: true }),
       supabase
         .from("email_log")
-        .select("id, to_email, subject, sent, created_at")
-        .eq("type", "org_nudge")
+        .select("id, to_email, subject, sent, created_at, type")
+        .in("type", NUDGE_TYPES)
         .order("created_at", { ascending: false })
         .limit(200),
+      supabase
+        .from("email_log")
+        .select("created_at")
+        .eq("type", "org_signin_nudge")
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle(),
     ]);
+
+  // Same group the action targets: active learners who have never signed in.
+  const neverSignedIn = (staff ?? []).filter(
+    (u) => u.role === "learner" && u.status === "active" && !u.last_seen_at,
+  ).length;
+  const lastSignInNudgeAt = lastSignInNudge?.created_at ?? null;
 
   const nameByEmail = new Map<string, string>();
   for (const u of staff ?? []) {
@@ -193,11 +213,17 @@ export default async function LearnersAdminPage() {
           <div>
             <CardTitle>Reminders</CardTitle>
             <CardDescription>
-              Every training reminder sent, newest first. Use the button to
-              remind everyone with overdue training again.
+              Every reminder sent, newest first. Chase everyone with overdue
+              training, or everyone who has never signed in.
             </CardDescription>
           </div>
-          <NudgeAllButton />
+          <div className="flex flex-wrap items-center gap-2">
+            <NudgeAllButton />
+            <NudgeNeverSignedInButton
+              count={neverSignedIn}
+              lastSentAt={lastSignInNudgeAt}
+            />
+          </div>
         </CardHeader>
         <CardContent>
           <RemindersTable rows={reminders} />

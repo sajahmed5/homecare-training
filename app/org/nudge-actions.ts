@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { requireRole } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendEmail } from "@/lib/email";
+import { createSetPasswordLink } from "@/lib/invites";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
 export interface NudgeResult {
@@ -168,5 +169,90 @@ export async function nudgeAllOverdueAction(): Promise<BulkNudgeResult> {
     if (outcome === "sent") reminded += 1;
     else skipped += 1;
   }
+  return { ok: true, reminded, skipped };
+}
+
+/**
+ * Remind every learner who has never signed in (users.last_seen_at is null).
+ *
+ * This deliberately does NOT go through nudgeOne: that path is anchored to
+ * enrolments, so it bails with "nothing" for anyone with no course assigned and
+ * has nowhere to record the attempt (last_reminder_at lives on the enrolment).
+ * Most never-signed-in staff have nothing assigned yet, so they were
+ * unreachable — the gap behind issue #22.
+ *
+ * These people have never set a password, so a bare /login link is no use to
+ * them and their original invite token expired long ago. Each gets a fresh
+ * set-password link instead.
+ *
+ * Repeats are allowed by design (the manager asked to be able to chase more
+ * than once), so there is no 24h guard here — every run emails everyone still
+ * in the group. The Reminders list on Learners → Admin shows what went and
+ * when, and each send mints a new link so older ones stop mattering.
+ */
+export async function nudgeNeverSignedInAction(): Promise<BulkNudgeResult> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId)
+    return { ok: false, error: "No organisation.", reminded: 0, skipped: 0 };
+
+  const admin = createAdminClient();
+  const { data: learners } = await admin
+    .from("users")
+    .select("id, full_name, email")
+    .eq("organisation_id", context.organisationId)
+    .eq("role", "learner")
+    .eq("status", "active")
+    .is("last_seen_at", null);
+
+  const { data: organisation } = await admin
+    .from("organisations")
+    .select("name")
+    .eq("id", context.organisationId)
+    .maybeSingle();
+  const orgName = organisation?.name ?? "your organisation";
+
+  let reminded = 0;
+  let skipped = 0;
+  for (const l of learners ?? []) {
+    if (!l.email) {
+      skipped += 1;
+      continue;
+    }
+    // One bad address must not abandon the rest of the batch.
+    let link: string;
+    try {
+      link = await createSetPasswordLink(l.email);
+    } catch {
+      skipped += 1;
+      continue;
+    }
+
+    const subject = "Set up your My Care Academy account";
+    const html = `<p>Hi ${l.full_name ?? "there"},</p>
+<p>An account has been set up for you on My Care Academy by ${orgName}, but you
+haven't signed in yet.</p>
+<p>Use the link below to choose a password and get started — it only takes a
+minute.</p>
+<p style="margin:24px 0">
+  <a href="${link}"
+     style="background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none">
+    Set your password
+  </a>
+</p>
+<p>Once you're in, any training assigned to you will be waiting on your
+dashboard.</p>`;
+
+    const sent = await sendEmail({ to: l.email, subject, html });
+    await admin.from("email_log").insert({
+      organisation_id: context.organisationId,
+      to_email: l.email,
+      type: "org_signin_nudge",
+      subject,
+      sent,
+    });
+    if (sent) reminded += 1;
+    else skipped += 1;
+  }
+
   return { ok: true, reminded, skipped };
 }

@@ -59,12 +59,15 @@ export async function createInvite(opts: {
 }
 
 /**
- * Generates a Supabase recovery link for an existing account and emails it. The
- * recipient sets a new password at /auth/set-password (same flow as invites).
+ * A fresh link that lets an existing account set a password and get in, landing
+ * at /auth/set-password. Used both for a password reset and for chasing someone
+ * who never signed in: a `recovery` link works for any existing auth user,
+ * whereas re-issuing an `invite` fails once the account exists — and the
+ * original invite token has long expired by the time anyone chases it.
  * Throws if the email doesn't belong to an account — callers on public pages
  * must swallow that so account existence is never revealed.
  */
-export async function createPasswordReset(email: string): Promise<SendResult> {
+export async function createSetPasswordLink(email: string): Promise<string> {
   const admin = createAdminClient();
   const origin = await siteOrigin();
 
@@ -77,9 +80,17 @@ export async function createPasswordReset(email: string): Promise<SendResult> {
   const tokenHash = data.properties?.hashed_token;
   if (!tokenHash) throw new Error("Failed to generate reset token.");
 
-  const resetUrl =
+  return (
     `${origin}/auth/confirm?token_hash=${tokenHash}` +
-    `&type=recovery&next=/auth/set-password`;
+    `&type=recovery&next=/auth/set-password`
+  );
+}
 
+/**
+ * Generates a Supabase recovery link for an existing account and emails it. The
+ * recipient sets a new password at /auth/set-password (same flow as invites).
+ */
+export async function createPasswordReset(email: string): Promise<SendResult> {
+  const resetUrl = await createSetPasswordLink(email);
   return sendPasswordResetEmail({ to: email, resetUrl });
 }
