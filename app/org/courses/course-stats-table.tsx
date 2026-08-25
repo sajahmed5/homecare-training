@@ -85,9 +85,9 @@ export function CourseStatsTable({
                 <tr key={r.id} className="border-b last:border-0 hover:bg-accent/40">
                   <td className="px-3 py-2">
                     <Link
-                      href={`/org/coverage?course=${r.id}`}
+                      href={`/org/courses/statistics?course=${r.id}`}
                       className="font-medium hover:underline"
-                      title="Who has and hasn't completed this course"
+                      title="Every learner on this course"
                     >
                       {r.title}
                     </Link>

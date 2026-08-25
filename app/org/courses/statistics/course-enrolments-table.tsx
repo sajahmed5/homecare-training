@@ -12,6 +12,15 @@ function fmtTime(seconds: number | null): string {
   return seconds === null ? "—" : formatDuration(seconds);
 }
 
+function fmtDate(d: string | null): string {
+  if (!d) return "";
+  return new Date(d).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
   completed: { label: "Completed", cls: "bg-green-100 text-green-700" },
   in_progress: { label: "In progress", cls: "bg-amber-100 text-amber-700" },
@@ -29,9 +38,12 @@ const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
 export function CourseEnrolmentsTable({
   rows,
   filename = "course-enrolments.csv",
+  showCourse = true,
 }: {
   rows: CourseEnrolmentRow[];
   filename?: string;
+  /** Hidden when the page is already filtered to one course (issue #23). */
+  showCourse?: boolean;
 }) {
   const actual = (r: CourseEnrolmentRow) =>
     r.status === "completed" ? r.actualSeconds : null;
@@ -45,6 +57,7 @@ export function CourseEnrolmentsTable({
       "Course",
       "Learner",
       "Status",
+      "Completed on",
       "Attempts",
       "Expected duration",
       "Actual duration",
@@ -54,6 +67,7 @@ export function CourseEnrolmentsTable({
         r.course,
         r.learner,
         badgeFor(r).label,
+        fmtDate(r.completedAt),
         String(r.attempts),
         fmtTime(r.expectedSeconds),
         fmtTime(actual(r)),
@@ -77,7 +91,9 @@ export function CourseEnrolmentsTable({
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b text-left text-muted-foreground">
-              <th className="px-3 py-2 font-medium">Course</th>
+              {showCourse && (
+                <th className="px-3 py-2 font-medium">Course</th>
+              )}
               <th className="px-3 py-2 font-medium">Learner</th>
               <th className="px-3 py-2 font-medium">Status</th>
               <th className="px-3 py-2 font-medium">Attempts</th>
@@ -88,7 +104,7 @@ export function CourseEnrolmentsTable({
           <tbody>
             {rows.length === 0 ? (
               <tr>
-                <td colSpan={6} className="px-3 py-8 text-center text-muted-foreground">
+                <td colSpan={showCourse ? 6 : 5} className="px-3 py-8 text-center text-muted-foreground">
                   No course activity yet.
                 </td>
               </tr>
@@ -100,15 +116,21 @@ export function CourseEnrolmentsTable({
                     key={`${r.userId}-${r.courseId}`}
                     className="border-b last:border-0 hover:bg-accent/40"
                   >
-                    <td className="px-3 py-2">
-                      <Link
-                        href={`/org/coverage?course=${r.courseId}`}
-                        className="font-medium hover:underline"
-                        title="Who has and hasn't completed this course"
-                      >
-                        {r.course}
-                      </Link>
-                    </td>
+                    {showCourse && (
+                      <td className="px-3 py-2">
+                        {r.certificateId ? (
+                          <a
+                            href={`/org/certificates/${r.certificateId}/download`}
+                            className="font-medium hover:underline"
+                            title={`Download ${r.learner}'s certificate`}
+                          >
+                            {r.course}
+                          </a>
+                        ) : (
+                          <span className="font-medium">{r.course}</span>
+                        )}
+                      </td>
+                    )}
                     <td className="px-3 py-2">
                       <Link
                         href={`/org/staff/${r.userId}`}
@@ -123,6 +145,11 @@ export function CourseEnrolmentsTable({
                       >
                         {badge.label}
                       </span>
+                      {r.completedAt && (
+                        <span className="block whitespace-nowrap text-xs text-muted-foreground">
+                          {fmtDate(r.completedAt)}
+                        </span>
+                      )}
                     </td>
                     <td className="px-3 py-2">{r.attempts}</td>
                     <td className="px-3 py-2 text-muted-foreground">

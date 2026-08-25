@@ -31,6 +31,11 @@ export interface CourseEnrolmentRow {
   expectedSeconds: number | null;
   /** Tracked in-course time. Null when nothing has been tracked yet. */
   actualSeconds: number | null;
+  /** When they completed it — from the newest certificate, since enrolments
+   *  carry no completed_at. Null unless completed (issue #23). */
+  completedAt: string | null;
+  /** Newest certificate for this learner + course, for the download link. */
+  certificateId: string | null;
 }
 
 const minutesToSeconds = (m: number | null | undefined) =>
@@ -115,7 +120,7 @@ export async function loadCourseStats(
 export async function loadCourseEnrolmentRows(
   supabase: SupabaseClient,
 ): Promise<CourseEnrolmentRow[]> {
-  const [{ data: enrolments }, { data: attempts }] = await Promise.all([
+  const [{ data: enrolments }, { data: attempts }, { data: certs }] = await Promise.all([
     supabase
       .from("enrolments")
       .select(
@@ -125,7 +130,18 @@ export async function loadCourseEnrolmentRows(
       .from("quiz_attempts")
       .select("user_id, course_id")
       .not("submitted_at", "is", null),
+    supabase.from("certificates").select("id, user_id, course_id, issued_at"),
   ]);
+
+  // Newest certificate per learner + course — that issue date is the
+  // completion date, and its id is what the download link needs.
+  const certByPair = new Map<string, { id: string; issuedAt: string }>();
+  for (const c of certs ?? []) {
+    const key = `${c.user_id}:${c.course_id}`;
+    const prev = certByPair.get(key);
+    if (!prev || c.issued_at > prev.issuedAt)
+      certByPair.set(key, { id: c.id as string, issuedAt: c.issued_at as string });
+  }
 
   const attemptCount = new Map<string, number>();
   for (const a of attempts ?? []) {
@@ -143,6 +159,7 @@ export async function loadCourseEnrolmentRows(
         full_name?: string;
         email?: string;
       } | null;
+      const cert = certByPair.get(`${e.user_id}:${e.course_id}`) ?? null;
       return {
         courseId: e.course_id as string,
         course: c?.title ?? "Course",
@@ -153,6 +170,8 @@ export async function loadCourseEnrolmentRows(
         attempts: attemptCount.get(`${e.user_id}:${e.course_id}`) ?? 0,
         expectedSeconds: minutesToSeconds(c?.estimated_minutes),
         actualSeconds: e.time_spent && e.time_spent > 0 ? e.time_spent : null,
+        completedAt: e.status === "completed" ? (cert?.issuedAt ?? null) : null,
+        certificateId: e.status === "completed" ? (cert?.id ?? null) : null,
       };
     })
     .sort(

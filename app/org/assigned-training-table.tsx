@@ -26,6 +26,8 @@ interface Row {
   course: string;
   status: string;
   progress: number;
+  /** Certificate issue date = the completion date; enrolments have none. */
+  completedAt: string | null;
   assignedAt: string | null;
   dueDate: string | null;
   overdue: boolean;
@@ -99,6 +101,7 @@ export async function AssignedTrainingTable({
         assignedAt: e.assigned_at,
         dueDate: e.due_date,
         overdue: isOverdue(e.due_date, e.status, now),
+        completedAt: e.status === "completed" ? (issuedAt ?? null) : null,
         late:
           e.status === "completed" &&
           !!issuedAt &&
@@ -204,6 +207,12 @@ export async function AssignedTrainingTable({
                           </span>
                         )}
                       </span>
+                      {/* When it was finished, next to the status (issue #23). */}
+                      {r.completedAt && (
+                        <span className="block whitespace-nowrap text-xs text-muted-foreground">
+                          {fmtDate(r.completedAt)}
+                        </span>
+                      )}
                     </td>
                     <td className="px-3 py-2 text-muted-foreground">
                       {r.status === "completed" ? "100%" : `${r.progress}%`}

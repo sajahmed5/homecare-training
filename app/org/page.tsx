@@ -5,6 +5,7 @@ import {
   BookOpenCheck,
   CalendarClock,
   CheckCircle2,
+  CircleDashed,
   Clock,
   MoonStar,
   UserRoundX,
@@ -47,16 +48,29 @@ export default async function OrgDashboard() {
     (t, r) => ({
       assigned: t.assigned + r.stats.assigned,
       completed: t.completed + r.stats.completed,
+      inProgress: t.inProgress + r.stats.inProgress,
+      notStarted: t.notStarted + r.stats.notStarted,
       overdue: t.overdue + r.stats.overdue,
       late: t.late + r.lateCompletions,
       expiring: t.expiring + r.stats.expiring,
     }),
-    { assigned: 0, completed: 0, overdue: 0, late: 0, expiring: 0 },
+    {
+      assigned: 0,
+      completed: 0,
+      inProgress: 0,
+      notStarted: 0,
+      overdue: 0,
+      late: 0,
+      expiring: 0,
+    },
   );
-  const overallPct =
-    totals.assigned > 0
-      ? Math.round((totals.completed / totals.assigned) * 100)
-      : 0;
+  // Every rate on this row is a share of assigned COURSES, not of people — the
+  // hint under each spells out the fraction so it can't be read as a headcount
+  // (issue #21). They needn't total 100: an expired enrolment is none of the
+  // three.
+  const pct = (n: number) =>
+    totals.assigned > 0 ? Math.round((n / totals.assigned) * 100) : 0;
+  const overallPct = pct(totals.completed);
 
   // Reminders for the manager. Each entry can carry a `show` flag so
   // package-gated sources (e.g. the future document matrix) simply slot in.
@@ -84,7 +98,10 @@ export default async function OrgDashboard() {
       key: "expiring",
       tone: "warn" as const,
       text: `${totals.expiring} certificate${totals.expiring === 1 ? " is" : "s are"} expiring soon or already expired.`,
-      href: "/org/coverage",
+      // No page lists expiring certificates yet — this was pointing at the
+      // coverage page, which never showed them either. The completed training
+      // list is the nearest thing until there is a proper expiry view.
+      href: "/org/learners/statistics?status=completed",
       action: null,
     },
   ].filter(Boolean) as {
@@ -123,8 +140,12 @@ export default async function OrgDashboard() {
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
             Courses
           </h2>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             <StatTile label="Assigned training complete" value={`${overallPct}%`} icon={CheckCircle2} color="#10b981" hint={`${totals.completed} of ${totals.assigned} courses`} href="/org/courses" />
+            <StatTile label="In progress" value={`${pct(totals.inProgress)}%`} icon={Clock} color="#f59e0b" hint={`${totals.inProgress} of ${totals.assigned} courses`} href="/org/learners/statistics?status=in_progress" />
+            <StatTile label="Not started" value={`${pct(totals.notStarted)}%`} icon={CircleDashed} color="#64748b" hint={`${totals.notStarted} of ${totals.assigned} courses`} href="/org/learners/statistics?status=not_started" />
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             <StatTile label="Overdue" value={totals.overdue} icon={BadgeAlert} color="#ef4444" href="/org/learners/statistics?status=overdue" />
             <StatTile label="Completed" value={totals.completed} icon={BookOpenCheck} color="#16a34a" href="/org/learners/statistics?status=completed" />
             <StatTile label="Completed late" value={totals.late} icon={CalendarClock} color="#f97316" href="/org/learners/statistics?status=late" />
