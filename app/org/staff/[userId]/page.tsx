@@ -14,7 +14,7 @@ import {
 } from "@/components/learner-ui";
 import { learnerStats } from "@/lib/learner-data";
 import { NudgeButton } from "../../nudge-button";
-import { isOverdue, expiryFlag } from "@/lib/engine-logic";
+import { isOverdue, isAssessmentDue, expiryFlag } from "@/lib/engine-logic";
 import {
   loadOrgLearnerTraining,
   formatDuration,
@@ -34,6 +34,10 @@ function statusVariant(e: OrgEnrolment, now: Date): StatusVariant {
   if (isOverdue(e.due_date, e.status, now)) return "overdue";
   if (e.status === "completed") return "completed";
   if (e.status === "expired") return "retake";
+  // Overdue still wins above — for a manager that is the compliance fact —
+  // but below it, "read it all, hasn't sat the test" beats a bare
+  // "In progress" sitting next to 100%.
+  if (isAssessmentDue(e.status, e.progress)) return "assessment_due";
   if (e.status === "in_progress") return "in_progress";
   return "assigned";
 }
@@ -64,7 +68,8 @@ export default async function StaffDetailPage({
     null,
   );
   const canRemind =
-    profile.status !== "deactivated" && stats.completed < stats.assigned;
+    profile.status !== "deactivated" &&
+    (!profile.last_seen_at || stats.completed < stats.assigned);
 
   // Newest certificate per course (list is already issued_at desc).
   const certByCourse = new Map<string, (typeof certificates)[number]>();

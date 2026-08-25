@@ -87,7 +87,15 @@ async function nudgeOne(
   return "sent";
 }
 
-/** Remind one learner about their outstanding training (org admin only). */
+/**
+ * Remind one learner (org admin only), sending whichever email actually fits
+ * them (issue #27). Someone who has never signed in gets a set-password link:
+ * chasing them about "outstanding training" is useless when they cannot get
+ * in, and most of them have nothing assigned yet, so the training path would
+ * have returned "nothing outstanding" and sent nothing at all. Everyone else
+ * gets the outstanding-training nudge. Always sends — a deliberate click on
+ * one named person (issue #9).
+ */
 export async function nudgeLearnerAction(userId: string): Promise<NudgeResult> {
   const context = await requireRole("org_admin");
   if (!context.organisationId) return { ok: false, error: "No organisation." };
@@ -95,7 +103,7 @@ export async function nudgeLearnerAction(userId: string): Promise<NudgeResult> {
   const admin = createAdminClient();
   const { data: learner } = await admin
     .from("users")
-    .select("id, full_name, email, role, organisation_id")
+    .select("id, full_name, email, role, organisation_id, last_seen_at")
     .eq("id", userId)
     .maybeSingle();
   if (
@@ -105,6 +113,17 @@ export async function nudgeLearnerAction(userId: string): Promise<NudgeResult> {
     !learner.email
   ) {
     return { ok: false, error: "Learner not found." };
+  }
+
+  if (!learner.last_seen_at) {
+    const orgName = await orgNameOf(admin, context.organisationId);
+    const sent = await sendSignInReminder(admin, context.organisationId, orgName, {
+      full_name: learner.full_name,
+      email: learner.email,
+    });
+    return sent
+      ? { ok: true, message: "Sign-in link sent." }
+      : { ok: false, error: "Couldn't send the sign-in link." };
   }
 
   const origin = await siteOrigin();
@@ -168,6 +187,61 @@ async function nudgeBucket(
 }
 
 /**
+ * Email one person a fresh set-password link. Shared by the bulk chase and the
+ * single Remind button, so both send exactly the same thing.
+ */
+async function sendSignInReminder(
+  admin: SupabaseClient,
+  organisationId: string,
+  orgName: string,
+  learner: { full_name: string | null; email: string },
+): Promise<boolean> {
+  let link: string;
+  try {
+    link = await createSetPasswordLink(learner.email);
+  } catch {
+    return false;
+  }
+
+  const subject = "Set up your My Care Academy account";
+  const html = `<p>Hi ${learner.full_name ?? "there"},</p>
+<p>An account has been set up for you on My Care Academy by ${orgName}, but you
+haven't signed in yet.</p>
+<p>Use the link below to choose a password and get started — it only takes a
+minute.</p>
+<p style="margin:24px 0">
+  <a href="${link}"
+     style="background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none">
+    Set your password
+  </a>
+</p>
+<p>Once you're in, any training assigned to you will be waiting on your
+dashboard.</p>`;
+
+  const sent = await sendEmail({ to: learner.email, subject, html });
+  await admin.from("email_log").insert({
+    organisation_id: organisationId,
+    to_email: learner.email,
+    type: "org_signin_nudge",
+    subject,
+    sent,
+  });
+  return sent;
+}
+
+async function orgNameOf(
+  admin: SupabaseClient,
+  organisationId: string,
+): Promise<string> {
+  const { data } = await admin
+    .from("organisations")
+    .select("name")
+    .eq("id", organisationId)
+    .maybeSingle();
+  return data?.name ?? "your organisation";
+}
+
+/**
  * Remind every learner who has never signed in (users.last_seen_at is null).
  *
  * This deliberately does NOT go through nudgeOne: that path is anchored to
@@ -197,51 +271,18 @@ async function nudgeNeverSignedIn(
     .eq("status", "active")
     .is("last_seen_at", null);
 
-  const { data: organisation } = await admin
-    .from("organisations")
-    .select("name")
-    .eq("id", organisationId)
-    .maybeSingle();
-  const orgName = organisation?.name ?? "your organisation";
-
+  const orgName = await orgNameOf(admin, organisationId);
   let reminded = 0;
   let skipped = 0;
   for (const l of learners ?? []) {
+    // One bad address must not abandon the rest of the batch.
     if (!l.email) {
       skipped += 1;
       continue;
     }
-    // One bad address must not abandon the rest of the batch.
-    let link: string;
-    try {
-      link = await createSetPasswordLink(l.email);
-    } catch {
-      skipped += 1;
-      continue;
-    }
-
-    const subject = "Set up your My Care Academy account";
-    const html = `<p>Hi ${l.full_name ?? "there"},</p>
-<p>An account has been set up for you on My Care Academy by ${orgName}, but you
-haven't signed in yet.</p>
-<p>Use the link below to choose a password and get started — it only takes a
-minute.</p>
-<p style="margin:24px 0">
-  <a href="${link}"
-     style="background:#111;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none">
-    Set your password
-  </a>
-</p>
-<p>Once you're in, any training assigned to you will be waiting on your
-dashboard.</p>`;
-
-    const sent = await sendEmail({ to: l.email, subject, html });
-    await admin.from("email_log").insert({
-      organisation_id: organisationId,
-      to_email: l.email,
-      type: "org_signin_nudge",
-      subject,
-      sent,
+    const sent = await sendSignInReminder(admin, organisationId, orgName, {
+      full_name: l.full_name,
+      email: l.email,
     });
     if (sent) reminded += 1;
     else skipped += 1;

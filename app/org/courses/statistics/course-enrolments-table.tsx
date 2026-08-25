@@ -3,6 +3,7 @@
 import Link from "next/link";
 import type { CourseEnrolmentRow } from "@/lib/course-stats";
 import { formatDuration } from "@/lib/org-learner";
+import { isAssessmentDue } from "@/lib/engine-logic";
 
 const csvCell = (v: string) =>
   /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
@@ -14,6 +15,7 @@ function fmtTime(seconds: number | null): string {
 const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
   completed: { label: "Completed", cls: "bg-green-100 text-green-700" },
   in_progress: { label: "In progress", cls: "bg-amber-100 text-amber-700" },
+  assessment_due: { label: "Assessment due", cls: "bg-indigo-100 text-indigo-700" },
   not_started: { label: "Not started", cls: "bg-slate-100 text-slate-700" },
   expired: { label: "Expired", cls: "bg-rose-100 text-rose-700" },
 };
@@ -33,6 +35,10 @@ export function CourseEnrolmentsTable({
 }) {
   const actual = (r: CourseEnrolmentRow) =>
     r.status === "completed" ? r.actualSeconds : null;
+  const badgeFor = (r: CourseEnrolmentRow) =>
+    STATUS_BADGE[
+      isAssessmentDue(r.status, r.progress) ? "assessment_due" : r.status
+    ] ?? { label: r.status, cls: "bg-slate-100 text-slate-700" };
 
   function exportCsv() {
     const header = [
@@ -47,7 +53,7 @@ export function CourseEnrolmentsTable({
       [
         r.course,
         r.learner,
-        STATUS_BADGE[r.status]?.label ?? r.status,
+        badgeFor(r).label,
         String(r.attempts),
         fmtTime(r.expectedSeconds),
         fmtTime(actual(r)),
@@ -88,10 +94,7 @@ export function CourseEnrolmentsTable({
               </tr>
             ) : (
               rows.map((r) => {
-                const badge = STATUS_BADGE[r.status] ?? {
-                  label: r.status,
-                  cls: "bg-slate-100 text-slate-700",
-                };
+                const badge = badgeFor(r);
                 return (
                   <tr
                     key={`${r.userId}-${r.courseId}`}

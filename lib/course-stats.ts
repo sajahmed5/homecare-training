@@ -24,6 +24,9 @@ export interface CourseEnrolmentRow {
   userId: string;
   learner: string;
   status: string;
+  /** Content completion 0-100 — with status, tells "read it all, hasn't sat
+   *  the assessment" apart from a plain half-finished course (issue #25). */
+  progress: number;
   attempts: number;
   expectedSeconds: number | null;
   /** Tracked in-course time. Null when nothing has been tracked yet. */
@@ -116,7 +119,7 @@ export async function loadCourseEnrolmentRows(
     supabase
       .from("enrolments")
       .select(
-        "user_id, course_id, status, time_spent, courses(title, estimated_minutes), users(full_name, email)",
+        "user_id, course_id, status, progress, time_spent, courses(title, estimated_minutes), users(full_name, email)",
       ),
     supabase
       .from("quiz_attempts")
@@ -146,6 +149,7 @@ export async function loadCourseEnrolmentRows(
         userId: e.user_id as string,
         learner: u?.full_name || u?.email || "Learner",
         status: e.status as string,
+        progress: (e.progress as number) ?? 0,
         attempts: attemptCount.get(`${e.user_id}:${e.course_id}`) ?? 0,
         expectedSeconds: minutesToSeconds(c?.estimated_minutes),
         actualSeconds: e.time_spent && e.time_spent > 0 ? e.time_spent : null,

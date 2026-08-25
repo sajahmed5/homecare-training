@@ -31,6 +31,9 @@ export interface OrgLearnerProfile {
   email: string | null;
   role: string | null;
   status: string | null;
+  /** Null = never signed in, so the Remind button sends a set-password link
+   *  rather than a "finish your training" nudge (issue #27). */
+  last_seen_at: string | null;
 }
 
 export interface OrgLearnerTraining {
@@ -62,7 +65,7 @@ export async function loadOrgLearnerTraining(
     await Promise.all([
       supabase
         .from("users")
-        .select("id, full_name, email, role, status")
+        .select("id, full_name, email, role, status, last_seen_at")
         .eq("id", userId)
         .maybeSingle(),
       supabase

@@ -70,6 +70,11 @@ export default async function LearnersOverviewPage({
   // 30d+" by design, and without a tile of their own a whole untrained
   // workforce reads as green up here (issue #22).
   const neverActive = rows.filter(isNeverActive).length;
+  // "Active" has to mean they have actually used the account (issue #24).
+  // Counting everyone not deactivated made an org of people who had never
+  // logged in read as fully active. This and the Never signed in tile now sum
+  // to the roll rather than overlapping.
+  const activeLearners = rows.length - neverActive;
   const learningSeconds = rows.reduce((n, r) => n + r.timeSpentSeconds, 0);
   const certificates = rows.reduce((n, r) => n + r.stats.certificates, 0);
 
@@ -78,7 +83,7 @@ export default async function LearnersOverviewPage({
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
         <StatTile
           label="Active learners"
-          value={rows.length}
+          value={activeLearners}
           icon={Users}
           color="#0284c7"
           href="/org/learners#learners"

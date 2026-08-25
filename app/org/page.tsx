@@ -16,8 +16,7 @@ import { tierLabel } from "@/lib/organisations";
 import { StatTile } from "@/components/learner-ui";
 import { DashboardShell } from "@/components/dashboard-shell";
 import { bucketOf, isActiveLearner, isInactive30d, isNeverActive, loadOrgLearners } from "@/lib/org-learners";
-import { NudgeAllButton } from "./nudge-all-button";
-import { NudgeNeverSignedInButton } from "./nudge-never-signed-in-button";
+import { ChooseWhoLink } from "./choose-who-link";
 
 export default async function OrgDashboard() {
   const context = await requireRole("org_admin");
@@ -38,6 +37,9 @@ export default async function OrgDashboard() {
 
   const inactive = learners.filter((r) => isInactive30d(r, nowMs)).length;
   const neverActive = learners.filter(isNeverActive).length;
+  // See the Learners overview: "Active" means they have signed in at least
+  // once, so this and Never signed in add up to the roll (issue #24).
+  const activeLearners = learners.length - neverActive;
   const inProgress = learners.filter((r) => bucketOf(r) === "in_progress").length;
   const withOverdue = learners.filter((r) => r.stats.overdue > 0).length;
 
@@ -58,20 +60,25 @@ export default async function OrgDashboard() {
 
   // Reminders for the manager. Each entry can carry a `show` flag so
   // package-gated sources (e.g. the future document matrix) simply slot in.
+  //
+  // These link through to the filtered list rather than offering a one-tap
+  // "remind everyone": some people should not be chased, for reasons the
+  // system cannot know (issue #27). Bulk chasing still lives on
+  // Learners → Admin, where the group and its headcount are explicit.
   const reminders = [
     withOverdue > 0 && {
       key: "overdue",
       tone: "alert" as const,
       text: `${withOverdue} staff member${withOverdue === 1 ? " has" : "s have"} overdue training — send them a reminder.`,
       href: "/org/learners?filter=overdue#learners",
-      action: <NudgeAllButton />,
+      action: <ChooseWhoLink href="/org/learners?filter=overdue#learners" />,
     },
     neverActive > 0 && {
       key: "never",
       tone: "alert" as const,
       text: `${neverActive} staff member${neverActive === 1 ? " has" : "s have"} never signed in — they can't start their training until they do.`,
       href: "/org/learners?filter=never#learners",
-      action: <NudgeNeverSignedInButton count={neverActive} />,
+      action: <ChooseWhoLink href="/org/learners?filter=never#learners" />,
     },
     totals.expiring > 0 && {
       key: "expiring",
@@ -104,7 +111,7 @@ export default async function OrgDashboard() {
             Learners
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <StatTile label="Active learners" value={learners.length} icon={Users} color="#0284c7" href="/org/learners" />
+            <StatTile label="Active learners" value={activeLearners} icon={Users} color="#0284c7" href="/org/learners" />
             <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners?filter=inactive#learners" />
             <StatTile label="Never signed in" value={neverActive} icon={UserRoundX} color="#e11d48" href="/org/learners?filter=never#learners" />
             <StatTile label="In progress" value={inProgress} icon={Clock} color="#f59e0b" href="/org/learners?filter=in_progress#learners" />

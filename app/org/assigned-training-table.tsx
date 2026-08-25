@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
-import { isOverdue } from "@/lib/engine-logic";
+import { isOverdue, isAssessmentDue } from "@/lib/engine-logic";
 import { isLateCompletion } from "@/lib/org-learners";
 
 export type TrainingStatusFilter =
@@ -44,6 +44,7 @@ function fmtDate(d: string | null): string {
 const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
   completed: { label: "Completed", cls: "bg-green-100 text-green-700" },
   in_progress: { label: "In progress", cls: "bg-amber-100 text-amber-700" },
+  assessment_due: { label: "Assessment due", cls: "bg-indigo-100 text-indigo-700" },
   not_started: { label: "Not started", cls: "bg-slate-100 text-slate-700" },
   expired: { label: "Expired", cls: "bg-rose-100 text-rose-700" },
 };
@@ -164,7 +165,10 @@ export async function AssignedTrainingTable({
               </tr>
             ) : (
               shown.map((r, i) => {
-                const badge = STATUS_BADGE[r.status] ?? {
+                const key = isAssessmentDue(r.status, r.progress)
+                  ? "assessment_due"
+                  : r.status;
+                const badge = STATUS_BADGE[key] ?? {
                   label: r.status,
                   cls: "bg-slate-100 text-slate-700",
                 };

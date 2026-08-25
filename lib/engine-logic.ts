@@ -50,6 +50,20 @@ export function isOverdue(
   );
 }
 
+/**
+ * Content read to the end, but the course still isn't complete — the
+ * assessment is what's outstanding (issue #25).
+ *
+ * `progress` tracks content only; a course completes when its assessment is
+ * passed and a certificate is issued. Showing these rows as plain "In
+ * progress" next to "100%" reads as a contradiction, and hides the one group
+ * a manager can actually act on: people who have done the reading and just
+ * need to sit the test.
+ */
+export function isAssessmentDue(status: string, progress: number): boolean {
+  return status !== "completed" && status !== "expired" && progress >= 100;
+}
+
 /** Completion rate as a percentage. No assignments = 100 (not "low engagement"). */
 export function engagementRate(total: number, completed: number): number {
   if (total <= 0) return 100;

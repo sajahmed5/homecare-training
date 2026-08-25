@@ -291,8 +291,11 @@ export function LearnersTable({
                     {!readOnly && (
                       <td className="px-3 py-2 text-right">
                         {/* Nothing to chase a leaver about, nor someone who
-                            has finished everything assigned to them. */}
-                        {!gone && r.stats.completed < r.stats.assigned ? (
+                            has finished everything assigned to them — but
+                            someone who has never signed in is always worth a
+                            nudge, even with nothing assigned yet (issue #27). */}
+                        {!gone &&
+                        (isNeverActive(r) || r.stats.completed < r.stats.assigned) ? (
                           <NudgeButton
                             userId={r.id}
                             size="xs"
