@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import type { CertState, OrgCertificateRow } from "@/lib/certificates";
+import { needsAttention, type CertState, type OrgCertificateRow } from "@/lib/certificates";
+import { RenewButton } from "./renew-button";
 
 const csvCell = (v: string) =>
   /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
@@ -85,13 +86,14 @@ export function CertificatesTable({
               <th className="px-3 py-2 font-medium">Status</th>
               <th className="px-3 py-2 font-medium">Expires</th>
               <th className="px-3 py-2 font-medium">Issued</th>
+              <th className="px-3 py-2 text-right font-medium">Action</th>
             </tr>
           </thead>
           <tbody>
             {rows.length === 0 ? (
               <tr>
                 <td
-                  colSpan={5}
+                  colSpan={6}
                   className="px-3 py-8 text-center text-muted-foreground"
                 >
                   Nothing here — no certificates match this filter.
@@ -144,6 +146,19 @@ export function CertificatesTable({
                     </td>
                     <td className="px-3 py-2 whitespace-nowrap text-muted-foreground">
                       {fmtDate(r.issuedAt)}
+                    </td>
+                    <td className="px-3 py-2 text-right">
+                      {/* Nothing to chase on a certificate that is still in
+                          date, or one that never expires. */}
+                      {needsAttention(r) ? (
+                        <RenewButton
+                          certificateId={r.id}
+                          learner={r.learner}
+                          course={r.course}
+                        />
+                      ) : (
+                        <span className="text-xs text-muted-foreground">—</span>
+                      )}
                     </td>
                   </tr>
                 );

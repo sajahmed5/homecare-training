@@ -1,17 +1,7 @@
-import { headers } from "next/headers";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { siteOrigin } from "@/lib/site-url";
 import { sendInviteEmail, sendPasswordResetEmail, type SendResult } from "@/lib/email";
 import type { UserRole } from "@/lib/auth";
-
-/** Absolute origin for building invite links (works in dev and prod). */
-async function siteOrigin(): Promise<string> {
-  if (process.env.NEXT_PUBLIC_SITE_URL)
-    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/+$/, "");
-  const h = await headers();
-  const host = h.get("x-forwarded-host") ?? h.get("host") ?? "localhost:3000";
-  const proto = h.get("x-forwarded-proto") ?? "http";
-  return `${proto}://${host}`;
-}
 
 /**
  * Generates a Supabase invite link (creating the auth user with role/org in its
