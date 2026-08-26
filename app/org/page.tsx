@@ -98,10 +98,7 @@ export default async function OrgDashboard() {
       key: "expiring",
       tone: "warn" as const,
       text: `${totals.expiring} certificate${totals.expiring === 1 ? " is" : "s are"} expiring soon or already expired.`,
-      // No page lists expiring certificates yet — this was pointing at the
-      // coverage page, which never showed them either. The completed training
-      // list is the nearest thing until there is a proper expiry view.
-      href: "/org/learners/statistics?status=completed",
+      href: "/org/certificates",
       action: null,
     },
   ].filter(Boolean) as {
