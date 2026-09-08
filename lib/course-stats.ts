@@ -17,6 +17,10 @@ export interface CourseStatsRow {
   averageSeconds: number | null;
 }
 
+/** Nobody has been assigned it and nobody has attempted it. */
+export const isUnused = (c: CourseStatsRow) =>
+  c.assigned === 0 && c.attempts === 0;
+
 /** One enrolment — the raw rows the per-course rollup above is built from. */
 export interface CourseEnrolmentRow {
   courseId: string;
@@ -106,9 +110,11 @@ export async function loadCourseStats(
           ? Math.round(times.reduce((a, b) => a + b, 0) / times.length)
           : null,
       };
-    })
-    // Only courses the org actually uses; a fully unused catalogue row is noise.
-    .filter((c) => c.assigned > 0 || c.attempts > 0);
+    });
+    // Unused catalogue courses are kept and marked rather than dropped: a
+    // manager building a training matrix needs to see what is AVAILABLE, not
+    // only what has already been assigned (issue #33). The table hides them by
+    // default so the common view is unchanged.
 }
 
 /**
