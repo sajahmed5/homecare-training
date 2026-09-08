@@ -79,20 +79,44 @@ export default async function OrgDashboard() {
   // "remind everyone": some people should not be chased, for reasons the
   // system cannot know (issue #27). Bulk chasing still lives on
   // Learners → Admin, where the group and its headcount are explicit.
+  // Names, not headcounts (issue #29): "2 staff members have overdue training"
+  // tells a manager nothing they can act on. Capped, because an org that has
+  // just imported its roll can have hundreds in a group and the panel would
+  // become the page.
+  const NAME_CAP = 5;
+  const nameList = (rows: typeof learners) => {
+    const names = rows.map((r) => r.name);
+    if (names.length <= NAME_CAP) return names.join(", ");
+    return `${names.slice(0, NAME_CAP).join(", ")} and ${names.length - NAME_CAP} more`;
+  };
+
+  const overdueRows = learners.filter((r) => r.stats.overdue > 0);
+  const neverRows = learners.filter(isNeverActive);
+  // Training falling due, not yet late — the window where a reminder still
+  // prevents a breach rather than recording one (issue #29).
+  const dueSoonRows = learners.filter((r) => r.stats.dueSoon > 0);
+
   const reminders = [
-    withOverdue > 0 && {
+    overdueRows.length > 0 && {
       key: "overdue",
       tone: "alert" as const,
-      text: `${withOverdue} staff member${withOverdue === 1 ? " has" : "s have"} overdue training — send them a reminder.`,
+      text: `Overdue training: ${nameList(overdueRows)}.`,
       href: "/org/learners?filter=overdue#learners",
       action: <ChooseWhoLink href="/org/learners?filter=overdue#learners" />,
     },
-    neverActive > 0 && {
+    neverRows.length > 0 && {
       key: "never",
       tone: "alert" as const,
-      text: `${neverActive} staff member${neverActive === 1 ? " has" : "s have"} never signed in — they can't start their training until they do.`,
+      text: `Never signed in, so can't start training: ${nameList(neverRows)}.`,
       href: "/org/learners?filter=never#learners",
       action: <ChooseWhoLink href="/org/learners?filter=never#learners" />,
+    },
+    dueSoonRows.length > 0 && {
+      key: "due_soon",
+      tone: "warn" as const,
+      text: `Training due in the next 60 days: ${nameList(dueSoonRows)}.`,
+      href: "/org/learners/statistics",
+      action: <ChooseWhoLink href="/org/learners?filter=in_progress#learners" />,
     },
     totals.expiring > 0 && {
       key: "expiring",

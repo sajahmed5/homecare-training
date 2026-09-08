@@ -73,6 +73,7 @@ function rowWith(stats: Partial<LearnerStats>): OrgLearnerRow {
       inProgress: 0,
       completed: 0,
       expired: 0,
+      dueSoon: 0,
       certificates: 0,
       overdue: 0,
       expiring: 0,

@@ -1,5 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { expiryFlag, isOverdue } from "@/lib/engine-logic";
+import { daysUntil, expiryFlag, isOverdue } from "@/lib/engine-logic";
 import { computeStarTotal } from "@/lib/stars";
 
 export interface Enrolment {
@@ -200,6 +200,9 @@ export interface LearnerStats {
   expired: number;
   certificates: number;
   overdue: number;
+  /** Not completed, has a due date inside 60 days, and not yet overdue —
+   *  the window where chasing still prevents a breach (issue #29). */
+  dueSoon: number;
   expiring: number;
   completionPct: number;
   overallPct: number;
@@ -215,6 +218,13 @@ export function learnerStats(
   const overdue = enrolments.filter((e) =>
     isOverdue(e.due_date, e.status, now),
   ).length;
+  // Deliberately excludes anything already overdue: that has its own, louder
+  // line, and a name should not appear under both.
+  const dueSoon = enrolments.filter((e) => {
+    if (e.status === "completed" || !e.due_date) return false;
+    if (isOverdue(e.due_date, e.status, now)) return false;
+    return daysUntil(new Date(e.due_date), now) <= 60;
+  }).length;
 
   // Expiring = latest cert per course flagged amber/red but not yet expired.
   const latest = new Map<string, Certificate>();
@@ -247,6 +257,7 @@ export function learnerStats(
     expired: enrolments.filter((e) => e.status === "expired").length,
     certificates: certificates.length,
     overdue,
+    dueSoon,
     expiring,
     completionPct: assigned > 0 ? Math.round((completed / assigned) * 100) : 0,
     overallPct,
