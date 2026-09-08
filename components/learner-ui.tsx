@@ -190,8 +190,9 @@ export function DueSoonBanner({
     >
       <AlertTriangle className="size-5 shrink-0" />
       <span>
-        <strong>{count}</strong> training item{count === 1 ? "" : "s"} need your
-        attention — overdue or expiring soon.
+        <strong>{count}</strong> training item{count === 1 ? "" : "s"}{" "}
+        {count === 1 ? "needs" : "need"} your attention — overdue or expiring
+        soon.
       </span>
     </Link>
   );

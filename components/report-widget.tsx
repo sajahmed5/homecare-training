@@ -129,7 +129,7 @@ export function ReportWidget() {
         <button
           type="button"
           onClick={openWidget}
-          className="fixed bottom-4 right-4 z-50 inline-flex items-center gap-2 rounded-full border bg-card px-4 py-2.5 text-sm font-medium text-foreground shadow-lg transition-colors hover:bg-accent"
+          className="fixed bottom-4 right-4 z-50 inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-full border bg-card px-4 py-2.5 text-sm font-medium text-foreground shadow-lg transition-colors hover:bg-accent"
           aria-label="Report an issue"
         >
           <MessageSquareWarning className="size-4 text-amber-600" />

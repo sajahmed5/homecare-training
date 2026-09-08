@@ -266,7 +266,10 @@ export function H5PCoursePlayer({
   if (stage === "intro") {
     return (
       <div className="mx-auto max-w-2xl space-y-5">
-        <Link href="/learn" className="text-sm text-muted-foreground hover:underline">
+        <Link
+          href="/learn"
+          className="-my-2 inline-flex min-h-11 items-center py-2 text-sm text-muted-foreground hover:underline"
+        >
           ← My training
         </Link>
         <div className="space-y-5 rounded-2xl border bg-gradient-to-br from-primary/10 via-card to-card p-6 sm:p-8">
@@ -314,7 +317,10 @@ export function H5PCoursePlayer({
     return (
       <div className="mx-auto max-w-2xl space-y-4">
         <div className="flex items-center justify-between text-sm text-muted-foreground">
-          <Link href="/learn" className="hover:underline">
+          <Link
+            href="/learn"
+            className="-my-2 inline-flex min-h-11 items-center py-2 hover:underline"
+          >
             ← My training
           </Link>
           {/* The Contents button lives here in the player — point it out so
@@ -424,19 +430,21 @@ export function H5PCoursePlayer({
           <button
             type="button"
             onClick={() => setLeaving(true)}
-            className="hover:underline"
+            className="-my-2 inline-flex min-h-11 items-center py-2 hover:underline"
           >
             ← My training
           </button>
-          <div className="flex items-center gap-3">
-            <span className="truncate">
+          <div className="flex min-w-0 items-center gap-3">
+            {/* min-w-0 + shrink-0 so a long page title truncates instead of
+                shoving Contents off the side of a phone screen. */}
+            <span className="min-w-0 truncate">
               {pages[index].label ?? `Page ${index + 1}`} · {index + 1} of {total}
             </span>
             <button
               type="button"
               onClick={() => setContentsOpen((o) => !o)}
               aria-expanded={contentsOpen}
-              className="inline-flex items-center gap-1.5 rounded-full border bg-card px-3 py-1 font-medium text-foreground transition hover:shadow-sm"
+              className="inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border bg-card px-3 py-1 font-medium text-foreground transition hover:shadow-sm sm:min-h-0"
             >
               {contentsOpen ? <X className="size-3.5" /> : <ListTree className="size-3.5" />}
               Contents

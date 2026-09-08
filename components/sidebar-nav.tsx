@@ -118,7 +118,10 @@ export function SidebarNav({
       className={cn(
         orientation === "vertical"
           ? "flex flex-col gap-1"
-          : "flex gap-1 overflow-x-auto",
+          // min-w-0 so the strip scrolls itself instead of stretching the
+          // page sideways, which it was doing on a phone (375px viewport,
+          // 455px page).
+          : "flex min-w-0 gap-1 overflow-x-auto",
       )}
     >
       {items.map((item) => {
@@ -129,12 +132,15 @@ export function SidebarNav({
         const children =
           !collapsed && orientation === "vertical" ? (item.children ?? []) : [];
         return (
-          <div key={item.href} className={orientation === "vertical" ? "" : "flex gap-1"}>
+          <div
+            key={item.href}
+            className={orientation === "vertical" ? "" : "flex shrink-0 gap-1"}
+          >
             <Link
               href={item.href}
               title={collapsed ? item.label : undefined}
               className={cn(
-                "flex items-center rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+                "flex min-h-11 items-center rounded-lg px-3 py-2 text-sm font-medium transition-colors",
                 collapsed ? "justify-center" : "gap-3",
                 active && (children.length === 0 || pathname === item.href)
                   ? "bg-sidebar-accent text-sidebar-accent-foreground"

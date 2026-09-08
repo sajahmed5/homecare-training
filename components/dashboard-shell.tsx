@@ -145,7 +145,7 @@ export async function DashboardShell({
         </header>
 
         {/* Mobile nav strip */}
-        <div className="bg-sidebar px-3 py-2 md:hidden">
+        <div className="min-w-0 bg-sidebar px-3 py-2 md:hidden">
           <SidebarNav role={context.role} orientation="horizontal" badges={badges} enabled={addOns} />
         </div>
 
