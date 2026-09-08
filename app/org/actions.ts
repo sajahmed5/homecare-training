@@ -5,6 +5,7 @@ import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
+import { purgeUserFiles } from "@/lib/user-files";
 import { logAudit } from "@/lib/audit";
 import { endOfMonthISO, type AssignCsvRow } from "@/lib/assign";
 import type { InviteState, SaveState } from "@/app/platform/actions";
@@ -139,6 +140,11 @@ export async function deleteStaffAction(
     return { ok: false, error: "Staff member not found in your organisation." };
   }
 
+  // Stored files first: the rows naming their paths cascade away with the
+  // account, so after the delete there is nothing left pointing at them and
+  // the PDFs would sit in the buckets unreachable and unattributable.
+  const purge = await purgeUserFiles(admin, userId);
+
   // Deleting the auth user cascades to the profile and their training records.
   const { error } = await admin.auth.admin.deleteUser(userId);
   if (error) return { ok: false, error: error.message };
@@ -148,7 +154,15 @@ export async function deleteStaffAction(
     action: "staff.deleted",
     entity: "user",
     entityId: userId,
-    detail: { email: target.email, role: target.role },
+    detail: {
+      email: target.email,
+      role: target.role,
+      // Recorded whether or not removal worked — if storage failed, this is
+      // the only remaining record of what to clean up by hand.
+      filesFound: purge.found,
+      filesRemoved: purge.removed,
+      fileFailures: purge.failures,
+    },
   });
 
   revalidatePath("/org");

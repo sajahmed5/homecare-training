@@ -2,6 +2,7 @@
 
 import { getUserContext } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { purgeUserFiles } from "@/lib/user-files";
 import { logAudit } from "@/lib/audit";
 
 /** One row of a learner's training record — one completed (certificated) course. */
@@ -89,14 +90,24 @@ export async function deleteMyAccountAction(): Promise<{
     };
   }
 
+  const admin = createAdminClient();
+  // Their certificates and any care-certificate evidence live in storage, and
+  // the rows naming those files cascade away with the account. This is the
+  // erasure route, so the files have to go with it.
+  const purge = await purgeUserFiles(admin, context.userId);
+
   await logAudit({
     context,
     action: "account.self_deleted",
     entity: "user",
     entityId: context.userId,
+    detail: {
+      filesFound: purge.found,
+      filesRemoved: purge.removed,
+      fileFailures: purge.failures,
+    },
   });
 
-  const admin = createAdminClient();
   const { error } = await admin.auth.admin.deleteUser(context.userId);
   if (error) return { ok: false, error: error.message };
   return { ok: true };
