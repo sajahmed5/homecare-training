@@ -23,6 +23,10 @@ import { DeleteStaffButton } from "../../delete-staff-button";
 import { NudgeGroupPicker } from "../../nudge-group-picker";
 import { NUDGE_TYPES, type NudgeGroup } from "../../nudge-types";
 import { RemindersTable, type ReminderRow } from "../reminders-table";
+import {
+  LearnerReminderPicker,
+  type ReminderTarget,
+} from "../learner-reminder-picker";
 
 const ROLE_LABELS: Record<string, string> = {
   org_admin: "Admin",
@@ -59,6 +63,29 @@ export default async function LearnersAdminPage() {
     never_signed_in: active.filter(isNeverActive).length,
   };
 
+  // Only people with something to chase. The reason is spelt out so the
+  // manager can decide who to skip (issue #32).
+  const targets: ReminderTarget[] = active
+    .map((r) => {
+      const note = isNeverActive(r)
+        ? "Never signed in"
+        : r.stats.overdue > 0
+          ? `${r.stats.overdue} overdue`
+          : bucketOf(r) === "not_started"
+            ? `${r.stats.notStarted} not started`
+            : bucketOf(r) === "in_progress"
+              ? `${r.stats.inProgress} in progress`
+              : "";
+      return {
+        id: r.id,
+        name: r.name,
+        email: r.email,
+        lastRemindedAt: r.lastRemindedAt,
+        note,
+      };
+    })
+    .filter((t) => t.note !== "");
+
   const nameByEmail = new Map<string, string>();
   for (const u of staff ?? []) {
     if (u.email) nameByEmail.set(u.email.toLowerCase(), u.full_name || u.email);
@@ -70,6 +97,7 @@ export default async function LearnersAdminPage() {
     subject: l.subject,
     sent: l.sent,
     createdAt: l.created_at,
+    type: l.type,
   }));
 
   const exportRows = (staff ?? []).map((u) => ({
@@ -206,13 +234,25 @@ export default async function LearnersAdminPage() {
       <Card>
         <CardHeader className="flex-row items-center justify-between space-y-0">
           <div>
-            <CardTitle>Reminders</CardTitle>
+            <CardTitle>Send a reminder</CardTitle>
             <CardDescription>
-              Every reminder sent, newest first. Pick a group to chase — it
-              sends even to people reminded recently.
+              Chase a whole group, or one person at a time. Either way it sends
+              even to someone reminded recently.
             </CardDescription>
           </div>
           <NudgeGroupPicker counts={nudgeCounts} />
+        </CardHeader>
+        <CardContent>
+          <LearnerReminderPicker learners={targets} />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Reminders sent</CardTitle>
+          <CardDescription>
+            Everything that has gone out, newest first.
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <RemindersTable rows={reminders} />
