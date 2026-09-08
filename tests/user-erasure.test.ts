@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { groupByBucket, purgeUserFiles } from "../lib/user-files";
+import {
+  anonymiseUserRecords,
+  groupByBucket,
+  purgeUserFiles,
+  REDACTED_EMAIL,
+} from "../lib/user-erasure";
 
 describe("groupByBucket", () => {
   it("merges tables that share a bucket into one remove call", () => {
@@ -97,5 +102,63 @@ describe("purgeUserFiles", () => {
     const res = await purgeUserFiles(client as any, "u1");
     expect(res).toEqual({ found: [], removed: 0, failures: [] });
     expect(removed).toEqual([]);
+  });
+});
+
+/** Stub supporting the update().eq().select() chain anonymiseUserRecords uses. */
+function fakeUpdatable(tables: Record<string, Record<string, unknown>[]>) {
+  const calls: { table: string; patch: Record<string, unknown>; on: [string, unknown] }[] = [];
+  const client = {
+    from: (table: string) => ({
+      update: (patch: Record<string, unknown>) => ({
+        eq: (col: string, val: unknown) => ({
+          select: async () => {
+            const rows = (tables[table] ?? []).filter((r) => r[col] === val);
+            calls.push({ table, patch, on: [col, val] });
+            for (const r of rows) Object.assign(r, patch);
+            return { data: rows.map(() => ({ id: "x" })) };
+          },
+        }),
+      }),
+    }),
+  };
+  return { client, calls };
+}
+
+describe("anonymiseUserRecords", () => {
+  it("redacts the address in email_log and clears it on their reports", async () => {
+    const tables = {
+      email_log: [
+        { to_email: "sam@care.co.uk" },
+        { to_email: "sam@care.co.uk" },
+        { to_email: "other@care.co.uk" },
+      ],
+      issue_reports: [
+        { user_id: "u1", reporter_email: "sam@care.co.uk" },
+        { user_id: "u2", reporter_email: "other@care.co.uk" },
+      ],
+    };
+    const { client } = fakeUpdatable(tables);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const res = await anonymiseUserRecords(client as any, "u1", "sam@care.co.uk");
+
+    expect(res.emailLog).toBe(2);
+    // The rows survive — only the identifier goes.
+    expect(tables.email_log).toHaveLength(3);
+    expect(tables.email_log[0].to_email).toBe(REDACTED_EMAIL);
+    expect(tables.email_log[2].to_email).toBe("other@care.co.uk");
+    expect(tables.issue_reports[0].reporter_email).toBeNull();
+    expect(tables.issue_reports[1].reporter_email).toBe("other@care.co.uk");
+  });
+
+  it("still clears reports when the account has no address on file", async () => {
+    const tables = { issue_reports: [{ user_id: "u1", reporter_email: "x@y.z" }] };
+    const { client, calls } = fakeUpdatable(tables);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const res = await anonymiseUserRecords(client as any, "u1", null);
+    expect(res.emailLog).toBe(0);
+    expect(res.issueReports).toBe(1);
+    // No address means nothing to match email_log on, so it isn't touched.
+    expect(calls.some((c) => c.table === "email_log")).toBe(false);
   });
 });

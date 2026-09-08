@@ -94,3 +94,71 @@ export async function purgeUserFiles(
 
   return { found, removed, failures };
 }
+
+/**
+ * What replaces a deleted person's address. A single shared marker, not a
+ * per-user token: anything stable enough to group one person's rows back
+ * together is another identifier, which is the thing being removed.
+ */
+export const REDACTED_EMAIL = "[deleted user]";
+
+export interface AnonymiseResult {
+  emailLog: number;
+  issueReports: number;
+}
+
+/**
+ * Strip a deleted user's address from the rows that keep their own copy of it.
+ *
+ * Neither table is reachable by the cascade: email_log has no user_id at all —
+ * the address IS its only identifier — and issue_reports nulls its user_id
+ * while keeping reporter_email. So "delete this person" left their email
+ * behind in both, indefinitely and undeclared.
+ *
+ * The rows survive on purpose. How many reminders went out, when, whether they
+ * were delivered, and what an issue said are all worth keeping: a care
+ * provider may need to show it chased someone about mandatory training. Only
+ * the identifier goes.
+ *
+ * audit_logs is deliberately untouched — it is the record OF the erasure, and
+ * an accountability trail that erases itself is not one.
+ *
+ * MUST run before the auth user is deleted, while user_id still resolves.
+ */
+export async function anonymiseUserRecords(
+  admin: SupabaseClient,
+  userId: string,
+  email: string | null,
+): Promise<AnonymiseResult> {
+  let emailLog = 0;
+  let issueReports = 0;
+
+  if (email) {
+    const { data } = await admin
+      .from("email_log")
+      .update({ to_email: REDACTED_EMAIL })
+      .eq("to_email", email)
+      .select("id");
+    emailLog = data?.length ?? 0;
+  }
+
+  // By user_id while it still resolves, and by address for anything filed
+  // before the account existed or already detached.
+  const { data: byUser } = await admin
+    .from("issue_reports")
+    .update({ reporter_email: null })
+    .eq("user_id", userId)
+    .select("id");
+  issueReports += byUser?.length ?? 0;
+
+  if (email) {
+    const { data: byEmail } = await admin
+      .from("issue_reports")
+      .update({ reporter_email: null })
+      .eq("reporter_email", email)
+      .select("id");
+    issueReports += byEmail?.length ?? 0;
+  }
+
+  return { emailLog, issueReports };
+}

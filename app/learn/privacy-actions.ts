@@ -2,7 +2,7 @@
 
 import { getUserContext } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { purgeUserFiles } from "@/lib/user-files";
+import { anonymiseUserRecords, purgeUserFiles } from "@/lib/user-erasure";
 import { logAudit } from "@/lib/audit";
 
 /** One row of a learner's training record — one completed (certificated) course. */
@@ -95,6 +95,7 @@ export async function deleteMyAccountAction(): Promise<{
   // the rows naming those files cascade away with the account. This is the
   // erasure route, so the files have to go with it.
   const purge = await purgeUserFiles(admin, context.userId);
+  const anon = await anonymiseUserRecords(admin, context.userId, context.email ?? null);
 
   await logAudit({
     context,
@@ -105,6 +106,7 @@ export async function deleteMyAccountAction(): Promise<{
       filesFound: purge.found,
       filesRemoved: purge.removed,
       fileFailures: purge.failures,
+      anonymised: anon,
     },
   });
 

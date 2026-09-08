@@ -5,7 +5,7 @@ import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createInvite } from "@/lib/invites";
-import { purgeUserFiles } from "@/lib/user-files";
+import { anonymiseUserRecords, purgeUserFiles } from "@/lib/user-erasure";
 import { logAudit } from "@/lib/audit";
 import { endOfMonthISO, type AssignCsvRow } from "@/lib/assign";
 import type { InviteState, SaveState } from "@/app/platform/actions";
@@ -144,6 +144,9 @@ export async function deleteStaffAction(
   // account, so after the delete there is nothing left pointing at them and
   // the PDFs would sit in the buckets unreachable and unattributable.
   const purge = await purgeUserFiles(admin, userId);
+  // Their address also sits in rows the cascade can't reach; strip it while
+  // user_id still resolves.
+  const anon = await anonymiseUserRecords(admin, userId, target.email);
 
   // Deleting the auth user cascades to the profile and their training records.
   const { error } = await admin.auth.admin.deleteUser(userId);
@@ -162,6 +165,7 @@ export async function deleteStaffAction(
       filesFound: purge.found,
       filesRemoved: purge.removed,
       fileFailures: purge.failures,
+      anonymised: anon,
     },
   });
 
