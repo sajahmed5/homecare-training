@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Check, GraduationCap, ShieldCheck, Users } from "lucide-react";
+import { GraduationCap, ShieldCheck, Users } from "lucide-react";
 import { PACKAGE_TIERS, TIER_DETAILS } from "@/lib/organisations";
-import { Arrow, CtaBand, H2, Hero, PillLink, Section } from "../../ui";
+import TierCards from "./tier-cards";
+import { Arrow, CtaBand, H2, PillLink, Section } from "../../ui";
 
 export const metadata: Metadata = {
   title: "Training pricing — My Care Academy",
@@ -13,11 +14,11 @@ export const metadata: Metadata = {
 // real prices and they are not yet configured (PLATFORM_TIER_GBP_*), so these
 // are placeholders for Saj to confirm. Tier names and features come from
 // lib/organisations, the same source the org Account page uses.
-const PRICE: Record<string, { month: string; note: string; highlight?: boolean }> = {
-  core: { month: "£49", note: "per organisation per month" },
-  core_forms: { month: "£79", note: "per organisation per month", highlight: true },
-  core_recruitment: { month: "£79", note: "per organisation per month" },
-  full: { month: "£129", note: "per organisation per month" },
+const PRICE: Record<string, { monthly: number; highlight?: boolean }> = {
+  core: { monthly: 49 },
+  core_forms: { monthly: 79, highlight: true },
+  core_recruitment: { monthly: 79 },
+  full: { monthly: 129 },
 };
 
 const FAQ: [string, string][] = [
@@ -32,61 +33,36 @@ const FAQ: [string, string][] = [
 export default function TrainingPricingPage() {
   return (
     <>
-      <Hero
-        eyebrow={<>My Care Academy Training · pricing</>}
-        title={<>One price for the<br />whole team</>}
-        body="Unlimited learners on every plan. Four plans, from the course library on its own to the complete platform. Prices and plan contents are being finalised."
-        trust={[
-          { icon: Users, label: "Unlimited learners and admins" },
-          { icon: GraduationCap, label: "26 CQC-aligned courses" },
-          { icon: ShieldCheck, label: "Certificates verifiable online" },
-        ]}
-      >
-        <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Training%20access" tone="white">
-          Request access <Arrow />
-        </PillLink>
-        <PillLink href="/training" tone="outline-white">
-          See the training
-        </PillLink>
-      </Hero>
-
-      <Section className="-mt-10 pt-0 sm:-mt-14">
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-          {PACKAGE_TIERS.map((tier) => {
-            const d = TIER_DETAILS[tier.value];
-            const p = PRICE[tier.value];
-            return (
-              <div
-                key={tier.value}
-                className={`flex flex-col rounded-[2rem] p-7 shadow-xl shadow-[#134f63]/10 ring-1 ${
-                  p.highlight ? "bg-[#134f63] text-white ring-[#134f63]" : "bg-white ring-[#134f63]/8"
-                }`}
-              >
-                <div className={`text-xs font-semibold uppercase tracking-wide ${p.highlight ? "text-white/70" : "text-[#1d6f8a]"}`}>
-                  {tier.label}
-                </div>
-                <div className="font-display mt-3 text-4xl font-semibold">{p.month}</div>
-                <div className={`text-sm ${p.highlight ? "text-white/70" : "text-[#0f2f3c]/60"}`}>{p.note}</div>
-                <p className={`mt-4 text-sm ${p.highlight ? "text-white/85" : "text-[#0f2f3c]/70"}`}>{d.tagline}</p>
-                <ul className="mt-5 space-y-2 text-sm">
-                  {d.features.map((f) => (
-                    <li key={f} className="flex gap-2">
-                      <Check className={`mt-0.5 size-4 shrink-0 ${p.highlight ? "text-[#f7e6d2]" : "text-[#059669]"}`} />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-                <PillLink
-                  href={`mailto:hello@mycareacademy.co.uk?subject=Training%20${encodeURIComponent(tier.label)}%20plan`}
-                  tone={p.highlight ? "white" : "dark"}
-                  className="mt-auto pt-3"
-                >
-                  Choose {tier.label}
-                </PillLink>
-              </div>
-            );
-          })}
+      <section className="mca-day -mt-24 px-4 pb-10 pt-32 sm:pt-40">
+        <div className="mx-auto max-w-6xl">
+          <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#b7791f]">
+            <GraduationCap className="size-4" /> Training · pricing
+          </div>
+          <h1 className="font-display mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-[#2b1d0e] sm:text-6xl">
+            One price for the whole team
+          </h1>
+          <p className="mt-5 max-w-2xl text-lg text-[#2b1d0e]/70">
+            Unlimited learners on every plan. Four plans, from the course library on its own to the complete platform. Prices and plan contents are being finalised.
+          </p>
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#2b1d0e]/75">
+            <li className="inline-flex items-center gap-2"><Users className="size-4 text-[#b7791f]" /> Unlimited learners and admins</li>
+            <li className="inline-flex items-center gap-2"><GraduationCap className="size-4 text-[#b7791f]" /> 26 CQC-aligned courses</li>
+            <li className="inline-flex items-center gap-2"><ShieldCheck className="size-4 text-[#b7791f]" /> Certificates verifiable online</li>
+          </ul>
         </div>
+      </section>
+
+      <Section className="-mt-4 pt-0">
+        <TierCards
+          tiers={PACKAGE_TIERS.map((tier) => ({
+            value: tier.value,
+            label: tier.label,
+            monthly: PRICE[tier.value].monthly,
+            tagline: TIER_DETAILS[tier.value].tagline,
+            features: TIER_DETAILS[tier.value].features,
+            highlight: PRICE[tier.value].highlight,
+          }))}
+        />
         <p className="mt-4 text-center text-sm text-[#0f2f3c]/55">Prices exclude VAT. Annual plans get two months free.</p>
       </Section>
 

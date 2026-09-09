@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Check, HeartHandshake, ShieldCheck, Sparkles } from "lucide-react";
-import { Arrow, CtaBand, Eyebrow, H2, Hero, PillLink, Section } from "../../ui";
+import Calculator from "./calculator";
+import { Arrow, CtaBand, Eyebrow, H2, PillLink, Section } from "../../ui";
 
 export const metadata: Metadata = {
   title: "Rostering pricing — My Care Academy",
@@ -41,25 +42,30 @@ const FAQ: [string, string][] = [
 export default function RosteringPricingPage() {
   return (
     <>
-      <Hero
-        eyebrow={<>My Care Academy Rostering · pricing</>}
-        title={<>Simple pricing.<br />Everything included.</>}
-        body="One price per client. No modules, no per-user fees, no surprises at renewal."
-        trust={[
-          { icon: Sparkles, label: "Every feature included" },
-          { icon: HeartHandshake, label: "Unlimited carers and users" },
-          { icon: ShieldCheck, label: "30-day free trial" },
-        ]}
-      >
-        <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Rostering%20trial" tone="white">
-          Start a free trial <Arrow />
-        </PillLink>
-        <PillLink href="/rostering" tone="outline-white">
-          See what it does
-        </PillLink>
-      </Hero>
+      <section className="mca-night mca-grid -mt-24 px-4 pb-14 pt-32 sm:pt-40">
+        <div className="mx-auto max-w-6xl">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">Rostering · pricing</div>
+          <h1 className="font-display mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl">
+            Simple pricing. Everything included.
+          </h1>
+          <p className="mt-5 max-w-2xl text-lg text-white/75">One price per client. No modules, no per-user fees, no surprises at renewal.</p>
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/80">
+            <li className="inline-flex items-center gap-2"><Sparkles className="size-4 text-[#8fd3ea]" /> Every feature included</li>
+            <li className="inline-flex items-center gap-2"><HeartHandshake className="size-4 text-[#8fd3ea]" /> Unlimited carers and users</li>
+            <li className="inline-flex items-center gap-2"><ShieldCheck className="size-4 text-[#8fd3ea]" /> 30-day free trial</li>
+          </ul>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Rostering%20trial" tone="white">
+              Start a free trial <Arrow />
+            </PillLink>
+            <PillLink href="/rostering" tone="outline-white">
+              See what it does
+            </PillLink>
+          </div>
+        </div>
+      </section>
 
-      <Section className="-mt-10 pt-0 sm:-mt-14">
+      <Section className="-mt-8 pt-0">
         <div className="grid gap-6 md:grid-cols-2">
           <div className="rounded-[2rem] bg-white p-8 shadow-xl shadow-[#134f63]/10 ring-1 ring-[#134f63]/8">
             <Eyebrow>Home care</Eyebrow>
@@ -111,6 +117,14 @@ export default function RosteringPricingPage() {
           </div>
         </div>
         <p className="mt-4 text-center text-sm text-[#0f2f3c]/55">Prices exclude VAT.</p>
+      </Section>
+
+      <Section className="pt-0">
+        <div className="mx-auto mb-8 max-w-2xl text-center">
+          <H2>Work it out for your service</H2>
+          <p className="mt-3 text-[#0f2f3c]/65">Drag the sliders. The figure updates as you go.</p>
+        </div>
+        <Calculator perClientWeek={2.2} minHome={199} perResidentWeek={1.5} minCareHome={149} />
       </Section>
 
       <Section tone="soft">
