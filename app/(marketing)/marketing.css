@@ -1,0 +1,21 @@
+/* Marketing pages only — imported by app/(marketing)/layout.tsx. Kept out of
+   globals.css so the app's stylesheet is untouched by site design work. */
+
+/* Display face for headlines (Outfit), falls back to Inter. */
+.font-display {
+  font-family: var(--font-outfit), var(--font-inter), system-ui, sans-serif;
+}
+
+/* Hero: the logo's deep-teal-to-sky gradient with a warm sand glow at the top. */
+.mca-hero {
+  background:
+    radial-gradient(120% 80% at 50% 0%, #f7e6d2 0%, rgba(247, 230, 210, 0) 55%),
+    linear-gradient(160deg, #134f63 0%, #1d6f8a 45%, #3a9fc4 100%);
+}
+
+/* Gradient frame around screenshots. */
+.mca-frame {
+  background: linear-gradient(160deg, #134f63, #3a9fc4);
+  padding: 6px;
+  border-radius: 1.5rem;
+}

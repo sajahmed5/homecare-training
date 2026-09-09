@@ -1,11 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 import { CookieConsent } from "@/components/cookie-consent";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
+});
+
+// Display face for the marketing pages only (headlines); the app keeps Inter.
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
   display: "swap",
 });
 
@@ -50,7 +58,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${mono.variable} h-full antialiased`}
+      className={`${inter.variable} ${mono.variable} ${outfit.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {children}
