@@ -19,3 +19,71 @@
   padding: 6px;
   border-radius: 1.5rem;
 }
+
+/* ---- creative layer (Saj, 9 Sept: "every page looks the same… boring") ---- */
+
+/* Rostering: dark ops-room ground with a soft teal glow and a faint grid. */
+.mca-night {
+  color: #e6f1f5;
+  background:
+    radial-gradient(60% 50% at 20% 0%, rgba(58, 159, 196, 0.35) 0%, rgba(58, 159, 196, 0) 60%),
+    radial-gradient(50% 40% at 90% 100%, rgba(5, 150, 105, 0.25) 0%, rgba(5, 150, 105, 0) 60%),
+    linear-gradient(180deg, #071c26 0%, #0b2a38 100%);
+}
+/* Faint grid drawn OVER the night ground (a plain background-image would
+   replace the gradient stack and leave the section white). */
+.mca-grid { position: relative; isolation: isolate; }
+.mca-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Rostering: dusk — the logo's deep teal, lifted (Saj: "make the colour less dark"). */
+.mca-dusk {
+  color: #eaf5f9;
+  background:
+    radial-gradient(55% 45% at 15% 0%, rgba(143, 211, 234, 0.35) 0%, rgba(143, 211, 234, 0) 60%),
+    radial-gradient(50% 40% at 95% 100%, rgba(5, 150, 105, 0.22) 0%, rgba(5, 150, 105, 0) 60%),
+    linear-gradient(180deg, #134f63 0%, #1b6079 100%);
+}
+
+/* Training: warm daylight with an amber sun. */
+.mca-day {
+  color: #2b1d0e;
+  background:
+    radial-gradient(45% 45% at 85% 10%, #ffd58a 0%, rgba(255, 213, 138, 0) 60%),
+    radial-gradient(60% 40% at 0% 100%, #ffe9c7 0%, rgba(255, 233, 199, 0) 60%),
+    linear-gradient(180deg, #fff8ee 0%, #fdf1df 100%);
+}
+
+/* Ticker */
+@keyframes mca-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.mca-marquee { display: flex; width: max-content; animation: mca-marquee 40s linear infinite; }
+.mca-marquee:hover { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .mca-marquee { animation: none; } }
+
+/* Word swap in the home headline */
+@keyframes mca-swap { 0%, 28% { opacity: 1; transform: translateY(0); } 33%, 95% { opacity: 0; transform: translateY(-0.4em); } 100% { opacity: 1; transform: translateY(0); } }
+.mca-swap { position: relative; display: inline-grid; }
+.mca-swap > span { grid-area: 1 / 1; white-space: nowrap; animation: mca-swap 9s ease-in-out infinite; }
+.mca-swap > span:nth-child(2) { animation-delay: 3s; }
+.mca-swap > span:nth-child(3) { animation-delay: 6s; }
+@media (prefers-reduced-motion: reduce) { .mca-swap > span { animation: none; } .mca-swap > span:not(:first-child) { display: none; } }
+
+/* Pulse dot on the live timeline */
+@keyframes mca-pulse { 0% { box-shadow: 0 0 0 0 rgba(58, 159, 196, 0.6); } 70% { box-shadow: 0 0 0 14px rgba(58, 159, 196, 0); } 100% { box-shadow: 0 0 0 0 rgba(58, 159, 196, 0); } }
+.mca-pulse { animation: mca-pulse 2.4s ease-out infinite; }
+
+/* Certificate card texture */
+.mca-cert {
+  background:
+    repeating-linear-gradient(45deg, rgba(19, 79, 99, 0.04) 0 2px, transparent 2px 10px),
+    linear-gradient(180deg, #fffdf8, #fff6e6);
+}

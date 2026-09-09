@@ -1,24 +1,13 @@
 import type { Metadata } from "next";
-import {
-  Activity,
-  Building2,
-  CalendarDays,
-  ClipboardList,
-  HeartHandshake,
-  PoundSterling,
-  ShieldCheck,
-  Smartphone,
-  Sparkles,
-  Users,
-} from "lucide-react";
+import { CalendarDays, Smartphone, Users } from "lucide-react";
+import AppTour from "./app-tour";
+import DayTimeline from "./day-timeline";
 import {
   Arrow,
   CheckItem,
-  Chip,
   CtaBand,
   Eyebrow,
   H2,
-  Hero,
   PillLink,
   Section,
   ShotFrame,
@@ -35,19 +24,12 @@ export const metadata: Metadata = {
 // only (Saj, 9 Sept 2026: "some of these images are not genuine… we don't
 // have a page that looks like this"). Never staged, never real clients.
 const SHOTS = {
-  timetable: { label: "A carer's weekly timetable" },
-  client: { label: "A client's weekly visit schedule" },
-  oversight: { label: "The Oversight page" },
+  timetable: { label: "A carer's weekly timetable", src: "/rostering/carer-timetable.png" },
+  client: { label: "A client's weekly visit schedule", src: "/rostering/client-timetable.png" },
+  oversight: { label: "The Oversight page", src: "/rostering/oversight.png" },
+  dashboard: { label: "The dashboard", src: "/rostering/dashboard.png" },
 };
 
-const AREAS = [
-  { id: "rota", icon: CalendarDays, label: "Rostering" },
-  { id: "carer-app", icon: Smartphone, label: "Carer app" },
-  { id: "monitoring", icon: Activity, label: "Live monitoring" },
-  { id: "finance", icon: PoundSterling, label: "Finance" },
-  { id: "quality", icon: ClipboardList, label: "Quality & compliance" },
-  { id: "care-homes", icon: Building2, label: "Care homes" },
-];
 
 function Feature({
   id,
@@ -64,7 +46,7 @@ function Feature({
   title: string;
   intro: string;
   points: [string, string][];
-  shot?: { label: string };
+  shot?: { label: string; src?: string };
   flip?: boolean;
   tone?: "plain" | "soft" | "sand";
 }) {
@@ -84,7 +66,7 @@ function Feature({
           </ul>
         </div>
         {shot ? (
-          <ShotFrame label={shot.label} />
+          <ShotFrame label={shot.label} src={shot.src} />
         ) : (
           <div className="grid gap-4 sm:grid-cols-2">
             {points.slice(0, 4).map(([t]) => (
@@ -102,35 +84,56 @@ function Feature({
 export default function RosteringPage() {
   return (
     <>
-      <Hero
-        eyebrow={<>My Care Academy Rostering · home care and care homes</>}
-        title={<>Rostering built by<br />people who ran care</>}
-        body="One system for the office, the carers and the families: rota, live call monitoring, care records, finance and oversight. Every feature included, unlimited users."
-        trust={[
-          { icon: HeartHandshake, label: "Built inside a care office" },
-          { icon: Sparkles, label: "Everything included" },
-          { icon: ShieldCheck, label: "Alerts the moment a visit is late" },
-        ]}
-      >
-        <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Rostering%20demo" tone="white">
-          Book a demo <Arrow />
-        </PillLink>
-        <PillLink href="/rostering/pricing" tone="outline-white">
-          See pricing
-        </PillLink>
-      </Hero>
-      <Section className="-mt-10 pt-0 sm:-mt-14">
-        <div className="rounded-[2rem] bg-white p-3 shadow-xl shadow-[#134f63]/10 ring-1 ring-[#134f63]/8">
-          <ShotFrame label={SHOTS.timetable.label} />
+      {/* The product is the hero: dark ops room, the real thing front and centre. */}
+      <section className="mca-dusk mca-grid -mt-24 px-4 pb-16 pt-32 sm:pt-40">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid items-end gap-8 md:grid-cols-[1.2fr_1fr]">
+            <div>
+              <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">
+                <CalendarDays className="size-4" /> My Care Academy Rostering
+              </div>
+              <h1 className="font-display mt-4 text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl">
+                Rostering built by people who{" "}
+                <span className="mca-swap text-[#8fd3ea]">
+                  <span>ran care.</span>
+                  <span>did the visits.</span>
+                  <span>chased the invoices.</span>
+                </span>
+              </h1>
+            </div>
+            <div>
+              <p className="text-lg text-white/75">
+                One system for the office, the carers and the families. Click
+                around the real product below. No demo needed to see how it works.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Rostering%20demo" tone="white">
+                  Book a demo <Arrow />
+                </PillLink>
+                <PillLink href="/rostering/pricing" tone="outline-white">
+                  See pricing
+                </PillLink>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12">
+            <AppTour />
+          </div>
         </div>
-        <nav className="mt-8 flex flex-wrap justify-center gap-2">
-          {AREAS.map((a) => (
-            <Chip key={a.id} href={`#${a.id}`} icon={a.icon}>
-              {a.label}
-            </Chip>
-          ))}
-        </nav>
-      </Section>
+      </section>
+
+      <section className="mca-dusk px-4 py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl">
+          <div className="max-w-2xl">
+            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">A day with the system</div>
+            <H2 className="mt-3 text-white">What it does while the office works</H2>
+            <p className="mt-3 text-white/70">Hover an hour. Every one of these is something the system does today, not a roadmap.</p>
+          </div>
+          <div className="mt-10">
+            <DayTimeline />
+          </div>
+        </div>
+      </section>
 
       <Section className="pt-6">
         <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
@@ -147,9 +150,9 @@ export default function RosteringPage() {
               rang.
             </p>
             <p className="mt-3 text-[#0f2f3c]/65">
-              Our founder ran a domiciliary care company for more than ten
-              years, with hundreds of clients and carers across several
-              regions. This system was designed from inside that office, one
+              Our founder started a domiciliary care company in 2002 and has
+              run it for 24 years, with hundreds of clients and carers across
+              several regions. This system was designed from inside that office, one
               problem at a time, and it is the system that company runs on
               today.
             </p>
@@ -157,7 +160,7 @@ export default function RosteringPage() {
           <div className="grid gap-4 sm:grid-cols-3 md:grid-cols-1">
             <Stat n="1" label="system for the office, carers and families" />
             <Stat n="0" label="add-on modules" />
-            <Stat n="10+" label="years running a care company" />
+            <Stat n="24" label="years running a care company, since 2002" />
           </div>
         </div>
       </Section>
@@ -239,6 +242,7 @@ export default function RosteringPage() {
           ["Actual against scheduled", "Planned time against clocked time for every visit, carer and region, so short visits are spotted before they become a complaint."],
           ["The visit is the record", "Clock-in, tasks, medication, notes and photos are stored against the visit itself. Investigations, invoices and family updates read from the same source."],
         ]}
+        shot={SHOTS.dashboard}
         tone="sand"
       />
 

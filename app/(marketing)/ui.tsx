@@ -177,11 +177,15 @@ export function Stat({ n, label }: { n: string; label: string }) {
 
 /** A screenshot slot. Until a genuine capture exists it shows a labelled frame
  *  rather than a staged mock (Saj, 9 Sept 2026: only real pages, never staged). */
-export function ShotFrame({ label, children }: { label: string; children?: React.ReactNode }) {
+export function ShotFrame({ label, src, children }: { label: string; src?: string; children?: React.ReactNode }) {
   return (
     <div className="mca-frame shadow-xl shadow-[#134f63]/20">
-      <div className="flex aspect-[16/10] items-center justify-center rounded-[1.2rem] bg-white">
-        {children ?? (
+      <div className={`flex ${src ? "" : "aspect-[16/10]"} items-center justify-center overflow-hidden rounded-[1.2rem] bg-white`}>
+        {src ? (
+          // Genuine capture from the demo company (fictional people), never a mock.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={src} alt={label} className="block w-full" />
+        ) : children ?? (
           <div className="px-6 text-center">
             <div className="font-display text-lg font-semibold text-[#134f63]">{label}</div>
             <div className="mt-1 text-sm text-[#0f2f3c]/55">Screenshot from the live portal to follow</div>
