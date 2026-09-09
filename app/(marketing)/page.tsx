@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
@@ -12,12 +13,12 @@ export default function Home() {
           UK care sector · CQC-ready records
         </span>
         <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-          Training, compliance and management support for care providers
+          Training, rostering and management support for care providers
         </h1>
         <p className="mt-5 max-w-2xl text-balance text-lg text-muted-foreground">
-          From mandatory e-learning and mock CQC inspections to hands-on help
-          running your service — know where you stand before your inspector
-          does.
+          Mandatory e-learning, mock CQC inspections, hands-on help running
+          your service, and rostering software built by people who ran a care
+          company — know where you stand before your inspector does.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link href="/services" className={buttonVariants({ size: "lg" })}>
@@ -74,6 +75,38 @@ export default function Home() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      <section className="border-t">
+        <div className="mx-auto grid w-full max-w-5xl items-center gap-10 px-6 py-16 md:grid-cols-[1fr_1.15fr]">
+          <div>
+            <span className="inline-flex items-center rounded-full border bg-card px-3 py-1 text-sm text-muted-foreground">
+              New · My Care Academy Rostering
+            </span>
+            <h2 className="mt-4 text-2xl font-semibold tracking-tight sm:text-3xl">
+              Rostering software built by people who ran care
+            </h2>
+            <p className="mt-3 text-muted-foreground">
+              One system for the office, the carers and the families: rota,
+              live call monitoring, care records, finance and oversight. For
+              home care agencies and care homes, with every feature included.
+            </p>
+            <Link
+              href="/rostering"
+              className={`${buttonVariants({ size: "lg" })} mt-6`}
+            >
+              See the rostering system
+              <ArrowRight className="ml-1 size-4" />
+            </Link>
+          </div>
+          <Image
+            src="/rostering/dashboard.png"
+            alt="The My Care Academy Rostering dashboard, showing cover gaps, double bookings, overdue checks and alerts on one screen"
+            width={1600}
+            height={1000}
+            className="rounded-2xl border shadow-md"
+          />
         </div>
       </section>
 

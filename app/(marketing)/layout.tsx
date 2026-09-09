@@ -4,6 +4,7 @@ import { Logo } from "@/components/logo";
 import { VERSION_LABEL } from "@/lib/version";
 
 const NAV = [
+  { href: "/rostering", label: "Rostering", hideOnMobile: false },
   { href: "/services", label: "Services", hideOnMobile: false },
   { href: "/verify", label: "Verify a certificate", hideOnMobile: true },
 ];
@@ -49,14 +50,19 @@ export default function MarketingLayout({
             <div>
               <Logo width={140} />
               <p className="mt-3 text-muted-foreground">
-                Training, compliance and management support for UK care
-                providers.
+                Training, rostering software and management support for UK
+                care providers.
               </p>
             </div>
 
             <div>
               <h2 className="font-semibold">Services</h2>
               <ul className="mt-3 space-y-2 text-muted-foreground">
+                <li>
+                  <Link href="/rostering" className="hover:underline">
+                    Rostering software
+                  </Link>
+                </li>
                 <li>
                   <Link href="/services" className="hover:underline">
                     All services
