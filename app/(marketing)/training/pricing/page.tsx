@@ -35,7 +35,7 @@ export default function TrainingPricingPage() {
       <Hero
         eyebrow={<>My Care Academy Training · pricing</>}
         title={<>One price for the<br />whole team</>}
-        body="Unlimited learners on every plan. Pick the plan with the paperwork you need alongside the training."
+        body="Unlimited learners on every plan. Four plans, from the course library on its own to the complete platform. Prices and plan contents are being finalised."
         trust={[
           { icon: Users, label: "Unlimited learners and admins" },
           { icon: GraduationCap, label: "26 CQC-aligned courses" },

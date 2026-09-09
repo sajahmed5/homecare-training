@@ -3,9 +3,11 @@
  * Phase 9. Labels are the domiciliary-care package names (issue #10).
  */
 export const PACKAGE_TIERS = [
-  { value: "core", label: "Starter" },
-  { value: "core_forms", label: "Growth" },
-  { value: "core_recruitment", label: "Business" },
+  // Four-tier model (Saj, 9 Sept 2026: a bronze/silver/gold/platinum ladder
+  // "with more professional names"). Prices and contents to be confirmed.
+  { value: "core", label: "Essentials" },
+  { value: "core_forms", label: "Professional" },
+  { value: "core_recruitment", label: "Premier" },
   { value: "full", label: "Enterprise" },
 ] as const;
 
@@ -36,7 +38,7 @@ export const TIER_DETAILS: Record<
   core_forms: {
     tagline: "Training plus your own digital paperwork.",
     features: [
-      "Everything in Starter",
+      "Everything in Essentials",
       "Forms builder — custom forms with e-signatures",
       "Form submissions tracked per staff member",
     ],
@@ -44,7 +46,7 @@ export const TIER_DETAILS: Record<
   core_recruitment: {
     tagline: "Training plus recruitment compliance.",
     features: [
-      "Everything in Starter",
+      "Everything in Essentials",
       "Recruitment tracker — candidates and interviews",
       "Document checklist with DBS and right-to-work expiry dates",
     ],
@@ -52,7 +54,7 @@ export const TIER_DETAILS: Record<
   full: {
     tagline: "The complete platform for growing care providers.",
     features: [
-      "Everything in Starter, Growth and Business",
+      "Everything in Essentials, Professional and Premier",
       "Forms builder with e-signatures",
       "Recruitment tracker with document expiry alerts",
       "Care Certificate workplace assessment",
