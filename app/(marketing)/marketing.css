@@ -69,13 +69,16 @@
 .mca-marquee:hover { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) { .mca-marquee { animation: none; } }
 
-/* Word swap in the home headline */
+/* Word swap in the headline. Negative delays start every word's cycle at once,
+   so nothing sits on top of anything else before the animation begins (Safari
+   showed all three words stacked on first paint). */
 @keyframes mca-swap { 0%, 28% { opacity: 1; transform: translateY(0); } 33%, 95% { opacity: 0; transform: translateY(-0.4em); } 100% { opacity: 1; transform: translateY(0); } }
 .mca-swap { position: relative; display: inline-grid; }
-.mca-swap > span { grid-area: 1 / 1; white-space: nowrap; animation: mca-swap 9s ease-in-out infinite; }
-.mca-swap > span:nth-child(2) { animation-delay: 3s; }
-.mca-swap > span:nth-child(3) { animation-delay: 6s; }
-@media (prefers-reduced-motion: reduce) { .mca-swap > span { animation: none; } .mca-swap > span:not(:first-child) { display: none; } }
+.mca-swap > span { grid-area: 1 / 1; white-space: nowrap; opacity: 0; animation: mca-swap 9s ease-in-out infinite; }
+.mca-swap > span:nth-child(1) { animation-delay: 0s; }
+.mca-swap > span:nth-child(2) { animation-delay: -6s; }
+.mca-swap > span:nth-child(3) { animation-delay: -3s; }
+@media (prefers-reduced-motion: reduce) { .mca-swap > span { animation: none; } .mca-swap > span:first-child { opacity: 1; } .mca-swap > span:not(:first-child) { display: none; } }
 
 /* Pulse dot on the live timeline */
 @keyframes mca-pulse { 0% { box-shadow: 0 0 0 0 rgba(58, 159, 196, 0.6); } 70% { box-shadow: 0 0 0 14px rgba(58, 159, 196, 0); } 100% { box-shadow: 0 0 0 0 rgba(58, 159, 196, 0); } }
