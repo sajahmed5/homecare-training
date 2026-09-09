@@ -37,7 +37,7 @@ export default function Home() {
             href="/rostering"
             className="group rounded-[2rem] bg-white p-3 shadow-xl shadow-[#134f63]/10 ring-1 ring-[#134f63]/8 transition hover:-translate-y-1"
           >
-            <ShotFrame label="A carer's weekly timetable" />
+            <ShotFrame label="A carer's weekly timetable" src="/rostering/carer-timetable.png" />
             <div className="p-6">
               <div className="flex items-center gap-2 text-sm font-semibold text-[#1d6f8a]">
                 <CalendarDays className="size-4" /> My Care Academy Rostering

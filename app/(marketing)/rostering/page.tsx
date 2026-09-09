@@ -35,9 +35,10 @@ export const metadata: Metadata = {
 // only (Saj, 9 Sept 2026: "some of these images are not genuine… we don't
 // have a page that looks like this"). Never staged, never real clients.
 const SHOTS = {
-  timetable: { label: "A carer's weekly timetable" },
-  client: { label: "A client's weekly visit schedule" },
-  oversight: { label: "The Oversight page" },
+  timetable: { label: "A carer's weekly timetable", src: "/rostering/carer-timetable.png" },
+  client: { label: "A client's weekly visit schedule", src: "/rostering/client-timetable.png" },
+  oversight: { label: "The Oversight page", src: "/rostering/oversight.png" },
+  dashboard: { label: "The dashboard", src: "/rostering/dashboard.png" },
 };
 
 const AREAS = [
@@ -64,7 +65,7 @@ function Feature({
   title: string;
   intro: string;
   points: [string, string][];
-  shot?: { label: string };
+  shot?: { label: string; src?: string };
   flip?: boolean;
   tone?: "plain" | "soft" | "sand";
 }) {
@@ -84,7 +85,7 @@ function Feature({
           </ul>
         </div>
         {shot ? (
-          <ShotFrame label={shot.label} />
+          <ShotFrame label={shot.label} src={shot.src} />
         ) : (
           <div className="grid gap-4 sm:grid-cols-2">
             {points.slice(0, 4).map(([t]) => (
@@ -121,7 +122,7 @@ export default function RosteringPage() {
       </Hero>
       <Section className="-mt-10 pt-0 sm:-mt-14">
         <div className="rounded-[2rem] bg-white p-3 shadow-xl shadow-[#134f63]/10 ring-1 ring-[#134f63]/8">
-          <ShotFrame label={SHOTS.timetable.label} />
+          <ShotFrame label={SHOTS.timetable.label} src={SHOTS.timetable.src} />
         </div>
         <nav className="mt-8 flex flex-wrap justify-center gap-2">
           {AREAS.map((a) => (
@@ -239,6 +240,7 @@ export default function RosteringPage() {
           ["Actual against scheduled", "Planned time against clocked time for every visit, carer and region, so short visits are spotted before they become a complaint."],
           ["The visit is the record", "Clock-in, tasks, medication, notes and photos are stored against the visit itself. Investigations, invoices and family updates read from the same source."],
         ]}
+        shot={SHOTS.dashboard}
         tone="sand"
       />
 
