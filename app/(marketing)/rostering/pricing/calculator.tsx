@@ -43,7 +43,7 @@ export default function Calculator({
           Carers, office users and family logins are unlimited and free. Clients on hold or archived are not counted.
         </p>
       </div>
-      <div className="mca-night rounded-[1.5rem] p-7 text-white">
+      <div className="mca-dusk rounded-[1.5rem] p-7 text-white">
         <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">Your estimate</div>
         <div className="font-display mt-3 text-5xl font-semibold">{gbp(total)}<span className="text-lg font-medium text-white/60"> /month</span></div>
         <dl className="mt-6 space-y-2 text-sm">

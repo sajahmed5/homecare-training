@@ -85,7 +85,7 @@ export default function RosteringPage() {
   return (
     <>
       {/* The product is the hero: dark ops room, the real thing front and centre. */}
-      <section className="mca-night mca-grid -mt-24 px-4 pb-16 pt-32 sm:pt-40">
+      <section className="mca-dusk mca-grid -mt-24 px-4 pb-16 pt-32 sm:pt-40">
         <div className="mx-auto max-w-6xl">
           <div className="grid items-end gap-8 md:grid-cols-[1.2fr_1fr]">
             <div>
@@ -93,7 +93,12 @@ export default function RosteringPage() {
                 <CalendarDays className="size-4" /> My Care Academy Rostering
               </div>
               <h1 className="font-display mt-4 text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl">
-                Rostering built by people who ran care
+                Rostering built by people who{" "}
+                <span className="mca-swap text-[#8fd3ea]">
+                  <span>ran care.</span>
+                  <span>did the visits.</span>
+                  <span>chased the invoices.</span>
+                </span>
               </h1>
             </div>
             <div>
@@ -117,7 +122,7 @@ export default function RosteringPage() {
         </div>
       </section>
 
-      <section className="mca-night px-4 py-16 sm:py-20">
+      <section className="mca-dusk px-4 py-16 sm:py-20">
         <div className="mx-auto max-w-6xl">
           <div className="max-w-2xl">
             <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">A day with the system</div>
@@ -145,9 +150,9 @@ export default function RosteringPage() {
               rang.
             </p>
             <p className="mt-3 text-[#0f2f3c]/65">
-              Our founder ran a domiciliary care company for more than ten
-              years, with hundreds of clients and carers across several
-              regions. This system was designed from inside that office, one
+              Our founder started a domiciliary care company in 2002 and has
+              run it for 24 years, with hundreds of clients and carers across
+              several regions. This system was designed from inside that office, one
               problem at a time, and it is the system that company runs on
               today.
             </p>
@@ -155,7 +160,7 @@ export default function RosteringPage() {
           <div className="grid gap-4 sm:grid-cols-3 md:grid-cols-1">
             <Stat n="1" label="system for the office, carers and families" />
             <Stat n="0" label="add-on modules" />
-            <Stat n="10+" label="years running a care company" />
+            <Stat n="24" label="years running a care company, since 2002" />
           </div>
         </div>
       </Section>

@@ -42,7 +42,7 @@ const FAQ: [string, string][] = [
 export default function RosteringPricingPage() {
   return (
     <>
-      <section className="mca-night mca-grid -mt-24 px-4 pb-14 pt-32 sm:pt-40">
+      <section className="mca-dusk mca-grid -mt-24 px-4 pb-14 pt-32 sm:pt-40">
         <div className="mx-auto max-w-6xl">
           <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8fd3ea]">Rostering · pricing</div>
           <h1 className="font-display mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl">

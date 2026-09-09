@@ -45,6 +45,15 @@
   background-size: 48px 48px;
 }
 
+/* Rostering: dusk — the logo's deep teal, lifted (Saj: "make the colour less dark"). */
+.mca-dusk {
+  color: #eaf5f9;
+  background:
+    radial-gradient(55% 45% at 15% 0%, rgba(143, 211, 234, 0.35) 0%, rgba(143, 211, 234, 0) 60%),
+    radial-gradient(50% 40% at 95% 100%, rgba(5, 150, 105, 0.22) 0%, rgba(5, 150, 105, 0) 60%),
+    linear-gradient(180deg, #134f63 0%, #1b6079 100%);
+}
+
 /* Training: warm daylight with an amber sun. */
 .mca-day {
   color: #2b1d0e;

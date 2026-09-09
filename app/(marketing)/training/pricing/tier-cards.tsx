@@ -42,7 +42,7 @@ export default function TierCards({ tiers }: { tiers: TierCard[] }) {
             <div
               key={t.value}
               className={`flex flex-col rounded-[2rem] p-7 shadow-xl shadow-[#134f63]/10 ring-1 ${
-                t.highlight ? "mca-night text-white ring-[#134f63]" : "bg-white ring-[#134f63]/8"
+                t.highlight ? "mca-dusk text-white ring-[#134f63]" : "bg-white ring-[#134f63]/8"
               }`}
             >
               <div className={`text-xs font-semibold uppercase tracking-[0.2em] ${t.highlight ? "text-[#8fd3ea]" : "text-[#b7791f]"}`}>{t.label}</div>
