@@ -115,8 +115,8 @@ export default function RosteringPage() {
         <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Rostering%20demo" tone="white">
           Book a demo <Arrow />
         </PillLink>
-        <PillLink href="#rota" tone="outline-white">
-          See what it does
+        <PillLink href="/rostering/pricing" tone="outline-white">
+          See pricing
         </PillLink>
       </Hero>
       <Section className="-mt-10 pt-0 sm:-mt-14">

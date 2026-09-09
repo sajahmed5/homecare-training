@@ -29,8 +29,8 @@ export default function TrainingPage() {
         <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Training%20access" tone="white">
           Request access <Arrow />
         </PillLink>
-        <PillLink href="/verify" tone="outline-white">
-          Verify a certificate
+        <PillLink href="/training/pricing" tone="outline-white">
+          See pricing
         </PillLink>
       </Hero>
       <Section className="pt-4">

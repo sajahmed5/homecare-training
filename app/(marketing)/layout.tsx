@@ -71,6 +71,7 @@ export default function MarketingLayout({
                 <li><Link href="/rostering#monitoring" className="hover:text-[#134f63]">Live monitoring</Link></li>
                 <li><Link href="/rostering#finance" className="hover:text-[#134f63]">Finance</Link></li>
                 <li><Link href="/rostering#care-homes" className="hover:text-[#134f63]">Care homes</Link></li>
+                <li><Link href="/rostering/pricing" className="hover:text-[#134f63]">Pricing</Link></li>
               </ul>
             </div>
 
@@ -81,6 +82,7 @@ export default function MarketingLayout({
                 <li><Link href="/training#elearning-training" className="hover:text-[#134f63]">eLearning &amp; mandatory training</Link></li>
                 <li><Link href="/training#mock-cqc-inspections" className="hover:text-[#134f63]">Mock CQC inspections</Link></li>
                 <li><Link href="/training#management-support" className="hover:text-[#134f63]">Management support</Link></li>
+                <li><Link href="/training/pricing" className="hover:text-[#134f63]">Pricing</Link></li>
                 <li><Link href="/verify" className="hover:text-[#134f63]">Verify a certificate</Link></li>
               </ul>
             </div>
