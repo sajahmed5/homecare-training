@@ -27,6 +27,19 @@ import {
   type ReminderTarget,
 } from "../learner-reminder-picker";
 
+/** "Today" / "3 days ago" / a date — when they last used the account. */
+function signedInLabel(iso: string): string {
+  const days = Math.floor((Date.now() - new Date(iso).getTime()) / 86_400_000);
+  if (days <= 0) return "Today";
+  if (days === 1) return "Yesterday";
+  if (days < 30) return `${days} days ago`;
+  return new Date(iso).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 const ROLE_LABELS: Record<string, string> = {
   org_admin: "Admin",
   learner: "Learner",
@@ -131,7 +144,8 @@ export default async function LearnersAdminPage() {
                 <tr className="border-b text-left text-muted-foreground">
                   <th className="px-3 py-2 font-medium">Name</th>
                   <th className="px-3 py-2 font-medium">Role</th>
-                  <th className="px-3 py-2 font-medium">Status</th>
+                  <th className="px-3 py-2 font-medium">Account</th>
+                  <th className="px-3 py-2 font-medium">Signed in</th>
                   <th className="px-3 py-2 font-medium text-right">Actions</th>
                 </tr>
               </thead>
@@ -153,14 +167,31 @@ export default async function LearnersAdminPage() {
                       <td className="px-3 py-2">
                         {ROLE_LABELS[u.role] ?? u.role}
                       </td>
+                      {/* Two separate facts, deliberately not one word. This
+                          column said "active" meaning "not deactivated", while
+                          Learners → Overview uses "Active learners" to mean
+                          "has signed in" — so a carer who had never logged in
+                          read as active here and inactive there (issue #39).
+                          "Enabled" drops the clashing word; "Deactivated" is
+                          kept because the toggle and every other page already
+                          use it, and a third synonym would be the same bug. */}
                       <td className="px-3 py-2">
                         <Badge
                           variant={
                             status === "deactivated" ? "destructive" : "secondary"
                           }
                         >
-                          {status}
+                          {status === "deactivated" ? "Deactivated" : "Enabled"}
                         </Badge>
+                      </td>
+                      <td className="px-3 py-2 whitespace-nowrap">
+                        {u.last_seen_at ? (
+                          <span className="text-muted-foreground">
+                            {signedInLabel(u.last_seen_at)}
+                          </span>
+                        ) : (
+                          <span className="font-medium text-rose-600">Never</span>
+                        )}
                       </td>
                       <td className="px-3 py-2 text-right">
                         {isSelf ? (
