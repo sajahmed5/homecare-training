@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { fetchAll } from "@/lib/fetch-all";
 import { daysUntil } from "@/lib/engine-logic";
 
 export type CertState =
@@ -59,12 +60,20 @@ export async function loadOrgCertificates(
   supabase: SupabaseClient,
   now: Date = new Date(),
 ): Promise<OrgCertificateRow[]> {
-  const { data } = await supabase
-    .from("certificates")
-    .select(
-      "id, certificate_number, user_id, course_id, issued_at, expires_at, users(full_name, email, status), courses(title)",
+  // Paged (Supabase silently caps a read at 1,000 rows), then put back into
+  // newest-first order: the loop below keeps the FIRST certificate it sees per
+  // learner + course as the live one.
+  const data = (
+    await fetchAll((f, t) =>
+      supabase
+        .from("certificates")
+        .select(
+          "id, certificate_number, user_id, course_id, issued_at, expires_at, users(full_name, email, status), courses(title)",
+        )
+        .order("id")
+        .range(f, t),
     )
-    .order("issued_at", { ascending: false });
+  ).sort((a, b) => String(b.issued_at).localeCompare(String(a.issued_at)));
 
   const latest = new Map<string, OrgCertificateRow>();
   for (const c of data ?? []) {

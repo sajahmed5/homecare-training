@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAll } from "@/lib/fetch-all";
 import { isOverdue, isAssessmentDue } from "@/lib/engine-logic";
 import { isLateCompletion } from "@/lib/org-learners";
 
@@ -65,13 +66,20 @@ export async function AssignedTrainingTable({
   baseHref: string;
 }) {
   const supabase = await createClient();
-  const [{ data: enrolments }, { data: certs }] = await Promise.all([
-    supabase
-      .from("enrolments")
-      .select(
-        "user_id, course_id, status, progress, due_date, assigned_at, courses(title), users(full_name, email, role)",
-      ),
-    supabase.from("certificates").select("user_id, course_id, issued_at"),
+  // Paged — Supabase silently returns at most 1,000 rows.
+  const [enrolments, certs] = await Promise.all([
+    fetchAll((f, t) =>
+      supabase
+        .from("enrolments")
+        .select(
+          "id, user_id, course_id, status, progress, due_date, assigned_at, courses(title), users(full_name, email, role)",
+        )
+        .order("id")
+        .range(f, t),
+    ),
+    fetchAll((f, t) =>
+      supabase.from("certificates").select("id, user_id, course_id, issued_at").order("id").range(f, t),
+    ),
   ]);
 
   // Latest certificate per user+course decides "completed late".

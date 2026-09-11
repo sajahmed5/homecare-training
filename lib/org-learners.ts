@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { fetchAll } from "@/lib/fetch-all";
 import {
   learnerStats,
   type Enrolment,
@@ -100,29 +101,51 @@ export async function loadOrgLearners(
 ): Promise<OrgLearnerRow[]> {
   // When orgId is given (platform_admin viewing a specific org), scope every
   // read to it explicitly — the platform RLS would otherwise return all orgs.
-  let usersQ = supabase
-    .from("users")
-    .select("id, full_name, email, status, last_seen_at")
-    .eq("role", "learner")
-    .order("full_name", { ascending: true });
-  let enrQ = supabase
-    .from("enrolments")
-    .select(
-      "user_id, course_id, status, progress, due_date, assigned_at, last_reminder_at, time_spent, courses(title, topics(title))",
-    );
-  let certQ = supabase
-    .from("certificates")
-    .select(
-      "user_id, course_id, issued_at, expires_at, courses(title, topics(title))",
-    )
-    .order("issued_at", { ascending: false });
-  if (orgId) {
-    usersQ = usersQ.eq("organisation_id", orgId);
-    enrQ = enrQ.eq("organisation_id", orgId);
-    certQ = certQ.eq("organisation_id", orgId);
-  }
-  const [{ data: users }, { data: enrRaw }, { data: certRaw }] =
-    await Promise.all([usersQ, enrQ, certQ]);
+  // Paged: Supabase silently returns at most 1,000 rows, and one organisation
+  // of ~62 carers on 16 courses each is already past that — every figure on
+  // the dashboard would be computed from a truncated list, with no error.
+  // Pages are ordered by id so they don't overlap; the order the code below
+  // relies on is restored afterwards.
+  const [usersAll, enrRaw, certsAll] = await Promise.all([
+    fetchAll((f, t) => {
+      let q = supabase
+        .from("users")
+        .select("id, full_name, email, status, last_seen_at")
+        .eq("role", "learner");
+      if (orgId) q = q.eq("organisation_id", orgId);
+      return q.order("id").range(f, t);
+    }),
+    fetchAll((f, t) => {
+      let q = supabase
+        .from("enrolments")
+        .select(
+          "id, user_id, course_id, status, progress, due_date, assigned_at, last_reminder_at, time_spent, courses(title, topics(title))",
+        );
+      if (orgId) q = q.eq("organisation_id", orgId);
+      return q.order("id").range(f, t);
+    }),
+    fetchAll((f, t) => {
+      let q = supabase
+        .from("certificates")
+        .select("id, user_id, course_id, issued_at, expires_at, courses(title, topics(title))");
+      if (orgId) q = q.eq("organisation_id", orgId);
+      return q.order("id").range(f, t);
+    }),
+  ]);
+  // Learners alphabetically; certificates newest first — "first seen is the
+  // newest" below depends on it.
+  // Blank names last, as Postgres's ascending order put them. Two people can
+  // share a name (HG Care has two "Sharjeel Ahmed"s); the old query left their
+  // order to chance, so it's settled by id here to keep lists stable.
+  const users = [...usersAll].sort((a, b) =>
+    (a.full_name == null
+      ? b.full_name == null ? 0 : 1
+      : b.full_name == null ? -1 : String(a.full_name).localeCompare(String(b.full_name))) ||
+    String(a.id).localeCompare(String(b.id)),
+  );
+  const certRaw = [...certsAll].sort((a, b) =>
+    String(b.issued_at).localeCompare(String(a.issued_at)),
+  );
 
   // Group enrolments + certificates by learner.
   const enrByUser = new Map<string, Enrolment[]>();
@@ -218,51 +241,6 @@ export interface CourseCoverage {
   outstanding: CoverageLearner[];
 }
 
-/** Who has / hasn't completed one course, across all the org's learners. */
-export async function loadCourseCoverage(
-  supabase: SupabaseClient,
-  courseId: string,
-): Promise<CourseCoverage> {
-  const [{ data: course }, { data: users }, { data: enr }, { data: certs }] =
-    await Promise.all([
-      supabase.from("courses").select("id, title").eq("id", courseId).maybeSingle(),
-      supabase
-        .from("users")
-        .select("id, full_name, email")
-        .eq("role", "learner")
-        .order("full_name", { ascending: true }),
-      supabase
-        .from("enrolments")
-        .select("user_id, status")
-        .eq("course_id", courseId),
-      supabase
-        .from("certificates")
-        .select("user_id, issued_at")
-        .eq("course_id", courseId)
-        .order("issued_at", { ascending: false }),
-    ]);
-
-  if (!course) return { course: null, completed: [], outstanding: [] };
-
-  const statusByUser = new Map<string, string>();
-  for (const e of enr ?? []) statusByUser.set(e.user_id, e.status);
-  const certByUser = new Map<string, string>();
-  for (const c of certs ?? []) if (!certByUser.has(c.user_id)) certByUser.set(c.user_id, c.issued_at);
-
-  const completed: CoverageLearner[] = [];
-  const outstanding: CoverageLearner[] = [];
-  for (const u of users ?? []) {
-    const name = u.full_name ?? u.email ?? "Learner";
-    const status = statusByUser.get(u.id) ?? "not_enrolled";
-    if (status === "completed" || certByUser.has(u.id)) {
-      completed.push({ id: u.id, name, status: "completed", completedAt: certByUser.get(u.id) ?? null });
-    } else {
-      outstanding.push({ id: u.id, name, status, completedAt: null });
-    }
-  }
-  return { course: { id: course.id, title: course.title }, completed, outstanding };
-}
-
 export interface WeekPoint {
   week: string; // short label, e.g. "21 Jul"
   count: number;
@@ -280,9 +258,13 @@ export async function completionsByWeek(
   const now = new Date();
   const msWeek = 7 * 86_400_000;
   const since = new Date(now.getTime() - weeks * msWeek).toISOString();
-  let q = supabase.from("certificates").select("issued_at").gte("issued_at", since);
-  if (orgId) q = q.eq("organisation_id", orgId);
-  const { data } = await q;
+  // Across every organisation on the platform view, so it would be the first
+  // chart to truncate — paged.
+  const data = await fetchAll((f, t) => {
+    let q = supabase.from("certificates").select("id, issued_at").gte("issued_at", since);
+    if (orgId) q = q.eq("organisation_id", orgId);
+    return q.order("id").range(f, t);
+  });
 
   const buckets = new Array(weeks).fill(0);
   for (const c of data ?? []) {

@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { fetchAll } from "@/lib/fetch-all";
 
 export interface CourseStatsRow {
   id: string;
@@ -55,18 +56,22 @@ const minutesToSeconds = (m: number | null | undefined) =>
 export async function loadCourseStats(
   supabase: SupabaseClient,
 ): Promise<CourseStatsRow[]> {
-  const [{ data: courses }, { data: enrolments }, { data: attempts }] =
-    await Promise.all([
-      supabase
-        .from("courses")
-        .select("id, title, estimated_minutes")
-        .order("title"),
-      supabase.from("enrolments").select("course_id, status, time_spent"),
+  // Paged: enrolments and attempts pass 1,000 rows at one ordinary-sized
+  // organisation, and Supabase would silently drop the rest.
+  const [{ data: courses }, enrolments, attempts] = await Promise.all([
+    supabase.from("courses").select("id, title, estimated_minutes").order("title"),
+    fetchAll((f, t) =>
+      supabase.from("enrolments").select("id, course_id, status, time_spent").order("id").range(f, t),
+    ),
+    fetchAll((f, t) =>
       supabase
         .from("quiz_attempts")
-        .select("course_id")
-        .not("submitted_at", "is", null),
-    ]);
+        .select("id, course_id")
+        .not("submitted_at", "is", null)
+        .order("id")
+        .range(f, t),
+    ),
+  ]);
 
   const attemptCount = new Map<string, number>();
   for (const a of attempts ?? []) {
@@ -126,17 +131,27 @@ export async function loadCourseStats(
 export async function loadCourseEnrolmentRows(
   supabase: SupabaseClient,
 ): Promise<CourseEnrolmentRow[]> {
-  const [{ data: enrolments }, { data: attempts }, { data: certs }] = await Promise.all([
-    supabase
-      .from("enrolments")
-      .select(
-        "user_id, course_id, status, progress, time_spent, courses(title, estimated_minutes), users(full_name, email)",
-      ),
-    supabase
-      .from("quiz_attempts")
-      .select("user_id, course_id")
-      .not("submitted_at", "is", null),
-    supabase.from("certificates").select("id, user_id, course_id, issued_at"),
+  const [enrolments, attempts, certs] = await Promise.all([
+    fetchAll((f, t) =>
+      supabase
+        .from("enrolments")
+        .select(
+          "id, user_id, course_id, status, progress, time_spent, courses(title, estimated_minutes), users(full_name, email)",
+        )
+        .order("id")
+        .range(f, t),
+    ),
+    fetchAll((f, t) =>
+      supabase
+        .from("quiz_attempts")
+        .select("id, user_id, course_id")
+        .not("submitted_at", "is", null)
+        .order("id")
+        .range(f, t),
+    ),
+    fetchAll((f, t) =>
+      supabase.from("certificates").select("id, user_id, course_id, issued_at").order("id").range(f, t),
+    ),
   ]);
 
   // Newest certificate per learner + course — that issue date is the
