@@ -240,6 +240,12 @@ export async function processReminders(
 
     const learner = refs.users.get(e.user_id);
     if (!learner?.email || learner.status !== "active") continue;
+    // Learners only. An admin cannot open /learn, so a course enrolled to one
+    // can never be done — reminding them daily about it is noise at best. The
+    // assign screen now refuses admins too, but this runs unattended every
+    // morning and should not depend on nothing upstream ever slipping
+    // (issue #37).
+    if (learner.role !== "learner") continue;
     const courseTitle = refs.courses.get(e.course_id) ?? "a course";
     const overdue = isOverdue(e.due_date, e.status, now);
 
