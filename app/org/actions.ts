@@ -335,10 +335,15 @@ export async function assignTrainingAction(
     if (selectedUserIds.length === 0) {
       return { ok: false, error: "Select at least one carer, or tick 'all carers'." };
     }
+    // Same role guard as the "all carers" branch above. Without it the picker
+    // was the only thing stopping an admin being enrolled, and a filtered
+    // <select> is not a permission check (issues #35, #36).
     const { data: orgUsers } = await supabase
       .from("users")
       .select("id")
-      .in("id", selectedUserIds);
+      .in("id", selectedUserIds)
+      .eq("role", "learner")
+      .eq("status", "active");
     userIds = (orgUsers ?? []).map((u) => u.id as string);
   }
   if (userIds.length === 0) {
@@ -457,4 +462,79 @@ export async function bulkAssignTrainingAction(
   revalidatePath("/org");
   revalidatePath("/learn");
   return { ok: true, assigned: upserts.length, failures };
+}
+
+/** Statuses an enrolment can be removed from — see unassignTrainingAction. */
+const UNASSIGNABLE = ["not_started", "in_progress"];
+
+/**
+ * Take a course back off a learner (issue #36).
+ *
+ * Training could be assigned but never un-assigned — there was no delete path
+ * for an enrolment anywhere in the product — so a mistake was permanent.
+ *
+ * Only while not started or in progress. A completed enrolment is a training
+ * record on a compliance product, and its certificate lives in a separate
+ * table that would survive the delete, leaving a certificate for training the
+ * system no longer believes happened. "expired" is blocked for the same
+ * reason: it means they DID complete it once and it has since lapsed.
+ */
+export async function unassignTrainingAction(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+
+  const userId = String(formData.get("userId") ?? "");
+  const courseId = String(formData.get("courseId") ?? "");
+  if (!userId || !courseId) return { ok: false, error: "Missing enrolment." };
+
+  const admin = createAdminClient();
+  const { data: enrolment } = await admin
+    .from("enrolments")
+    .select("id, status, organisation_id, courses(title)")
+    .eq("user_id", userId)
+    .eq("course_id", courseId)
+    .maybeSingle();
+
+  // Service-role read: this check is what keeps organisations apart.
+  if (!enrolment || enrolment.organisation_id !== context.organisationId) {
+    return { ok: false, error: "That training isn't assigned in your organisation." };
+  }
+  if (!UNASSIGNABLE.includes(enrolment.status as string)) {
+    return {
+      ok: false,
+      error:
+        enrolment.status === "completed"
+          ? "This course has been completed — removing it would delete the training record. Completed training can't be unassigned."
+          : "This course was completed once and has since expired, so it's part of the training record and can't be unassigned.",
+    };
+  }
+
+  const { error } = await admin
+    .from("enrolments")
+    .delete()
+    .eq("id", enrolment.id);
+  if (error) return { ok: false, error: error.message };
+
+  await logAudit({
+    context,
+    action: "training.unassigned",
+    entity: "enrolment",
+    entityId: enrolment.id as string,
+    detail: {
+      userId,
+      courseId,
+      course: (enrolment.courses as unknown as { title?: string } | null)?.title,
+      status: enrolment.status,
+    },
+  });
+
+  revalidatePath(`/org/staff/${userId}`);
+  revalidatePath("/org");
+  revalidatePath("/learn");
+  return { ok: true };
 }

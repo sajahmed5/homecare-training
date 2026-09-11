@@ -14,6 +14,7 @@ import {
 } from "@/components/learner-ui";
 import { learnerStats } from "@/lib/learner-data";
 import { NudgeButton } from "../../nudge-button";
+import { UnassignButton } from "../../unassign-button";
 import { isOverdue, isAssessmentDue, expiryFlag } from "@/lib/engine-logic";
 import {
   loadOrgLearnerTraining,
@@ -153,7 +154,21 @@ export default async function StaffDetailPage({
                           <p className="font-medium">{e.title}</p>
                           <TopicBadge topic={e.topic} />
                         </div>
-                        <StatusPill variant={statusVariant(e, now)} />
+                        <div className="flex flex-wrap items-center gap-2">
+                          <StatusPill variant={statusVariant(e, now)} />
+                          {/* Completed and expired training is a record, not
+                              an assignment — no way to delete it from here. */}
+                          {(e.status === "not_started" ||
+                            e.status === "in_progress") && (
+                            <UnassignButton
+                              userId={userId}
+                              courseId={e.course_id}
+                              course={e.title}
+                              learner={name}
+                              inProgress={e.status === "in_progress"}
+                            />
+                          )}
+                        </div>
                       </div>
 
                       {/* Progress bar */}

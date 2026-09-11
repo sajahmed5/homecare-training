@@ -25,8 +25,11 @@ export default async function CoursesAdminPage() {
         .order("full_name", { ascending: true }),
     ]);
 
+  // Learners only. An admin cannot open /learn at all, so a course assigned
+  // to one can never be started, never be completed, and — until now — never
+  // be removed (issues #35, #36).
   const activeStaff = (staff ?? []).filter(
-    (u) => (u.status ?? "active") === "active",
+    (u) => (u.status ?? "active") === "active" && u.role === "learner",
   );
 
   return (
