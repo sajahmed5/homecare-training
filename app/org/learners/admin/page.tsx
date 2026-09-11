@@ -20,7 +20,6 @@ import { CsvImport } from "../../csv-import";
 import { CsvExport } from "../../csv-export";
 import { StatusToggle } from "../../status-toggle";
 import { DeleteStaffButton } from "../../delete-staff-button";
-import { NudgeGroupPicker } from "../../nudge-group-picker";
 import { NUDGE_TYPES, type NudgeGroup } from "../../nudge-types";
 import { RemindersTable, type ReminderRow } from "../reminders-table";
 import {
@@ -57,11 +56,6 @@ export default async function LearnersAdminPage() {
     ]);
 
   const active = learnerRows.filter(isActiveLearner);
-  const nudgeCounts: Record<NudgeGroup, number> = {
-    overdue: active.filter((r) => bucketOf(r) === "overdue").length,
-    not_started: active.filter((r) => bucketOf(r) === "not_started").length,
-    never_signed_in: active.filter(isNeverActive).length,
-  };
 
   // Only people with something to chase. The reason is spelt out so the
   // manager can decide who to skip (issue #32).
@@ -76,12 +70,19 @@ export default async function LearnersAdminPage() {
             : bucketOf(r) === "in_progress"
               ? `${r.stats.inProgress} in progress`
               : "";
+      // The same three tests nudgeGroupAction uses, so the list a manager
+      // sees under a group is exactly who "Send to all" will email.
+      const groups: NudgeGroup[] = [];
+      if (bucketOf(r) === "overdue") groups.push("overdue");
+      if (bucketOf(r) === "not_started") groups.push("not_started");
+      if (isNeverActive(r)) groups.push("never_signed_in");
       return {
         id: r.id,
         name: r.name,
         email: r.email,
         lastRemindedAt: r.lastRemindedAt,
         note,
+        groups,
       };
     })
     .filter((t) => t.note !== "");
@@ -236,11 +237,10 @@ export default async function LearnersAdminPage() {
           <div>
             <CardTitle>Send a reminder</CardTitle>
             <CardDescription>
-              Chase a whole group, or one person at a time. Either way it sends
-              even to someone reminded recently.
+              Pick a group to see who&apos;s in it, then remind them one at a
+              time or all together. Sends even to someone reminded recently.
             </CardDescription>
           </div>
-          <NudgeGroupPicker counts={nudgeCounts} />
         </CardHeader>
         <CardContent>
           <LearnerReminderPicker learners={targets} />
