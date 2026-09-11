@@ -1,12 +1,22 @@
 import { createAdminClient } from "@/lib/supabase/admin";
-import { sendEmail } from "@/lib/email";
+import { sendEmailBatch } from "@/lib/email";
+import { siteOrigin } from "@/lib/site-url";
 import {
   renewalStage,
   isExpired,
   isOverdue,
   engagementRate,
-  daysSince,
 } from "@/lib/engine-logic";
+import {
+  chunk,
+  esc,
+  planReminders,
+  reminderEmail,
+  renewalLearnerEmail,
+  renewalOrgEmail,
+  type ReminderItem,
+  type RenewalNotice,
+} from "@/lib/engine-digest";
 
 type Admin = ReturnType<typeof createAdminClient>;
 
@@ -16,10 +26,53 @@ export interface EngineSettings {
   reminderRepeatDays: number;
 }
 
-interface Refs {
+export interface EngineRefs {
   users: Map<string, { email: string; name: string; org: string | null; role: string; status: string }>;
   courses: Map<string, string>;
   orgs: Map<string, string>;
+}
+
+export interface RunSummary {
+  [key: string]: number;
+}
+
+/**
+ * Ids per `.in()` filter or bulk update. The ids travel in the request URL,
+ * which fails outright somewhere past ~390 of them (measured against the live
+ * API); 100 keeps well clear.
+ */
+const IDS_PER_REQUEST = 100;
+
+// ---------------------------------------------------------------- reading
+
+/**
+ * Read every row a query matches, a page at a time.
+ *
+ * Supabase returns at most 1,000 rows per request (`max_rows`) and silently
+ * drops the rest — no error. These jobs run across every organisation at once,
+ * so they were the first thing to cross that line: past row 1,000, reminders
+ * and certificate expiries would simply not happen, with nothing in the logs.
+ *
+ * Advances by the rows actually received rather than a fixed page size, so it
+ * stays correct if the server's cap is ever lowered; the caller must order by
+ * a unique column so pages don't overlap. A failed read throws: a job acting
+ * on half the data is exactly the silent failure this exists to prevent.
+ */
+async function fetchAll<T>(
+  page: (from: number, to: number) => PromiseLike<{
+    data: T[] | null;
+    error: { message: string } | null;
+  }>,
+): Promise<T[]> {
+  const rows: T[] = [];
+  for (let from = 0; ; ) {
+    const { data, error } = await page(from, from + 999);
+    if (error) throw new Error(`Scheduled job read failed: ${error.message}`);
+    const got = data ?? [];
+    if (got.length === 0) return rows;
+    rows.push(...got);
+    from += got.length;
+  }
 }
 
 export async function loadSettings(admin: Admin): Promise<EngineSettings> {
@@ -32,39 +85,52 @@ export async function loadSettings(admin: Admin): Promise<EngineSettings> {
   };
 }
 
-async function loadRefs(admin: Admin): Promise<Refs> {
-  const [{ data: users }, { data: courses }, { data: orgs }] =
-    await Promise.all([
-      admin.from("users").select("id, email, full_name, organisation_id, role, status"),
-      admin.from("courses").select("id, title"),
-      admin.from("organisations").select("id, name"),
-    ]);
+/**
+ * Every user, course and organisation — shared by all the jobs in one run.
+ * Each job used to load its own copy, so a daily run read the full user list
+ * three times over. The cron routes load it once and pass it in.
+ */
+export async function loadEngineRefs(admin: Admin): Promise<EngineRefs> {
+  const [users, courses, orgs] = await Promise.all([
+    fetchAll((f, t) =>
+      admin
+        .from("users")
+        .select("id, email, full_name, organisation_id, role, status")
+        .order("id")
+        .range(f, t),
+    ),
+    fetchAll((f, t) => admin.from("courses").select("id, title").order("id").range(f, t)),
+    fetchAll((f, t) => admin.from("organisations").select("id, name").order("id").range(f, t)),
+  ]);
   return {
     users: new Map(
-      (users ?? []).map((u) => [
-        u.id,
+      users.map((u) => [
+        u.id as string,
         {
-          email: u.email,
-          name: u.full_name || u.email,
-          org: u.organisation_id,
-          role: u.role,
-          status: u.status ?? "active",
+          email: u.email as string,
+          name: (u.full_name as string) || (u.email as string),
+          org: u.organisation_id as string | null,
+          role: u.role as string,
+          status: (u.status as string) ?? "active",
         },
       ]),
     ),
-    courses: new Map((courses ?? []).map((c) => [c.id, c.title])),
-    orgs: new Map((orgs ?? []).map((o) => [o.id, o.name])),
+    courses: new Map(courses.map((c) => [c.id as string, c.title as string])),
+    orgs: new Map(orgs.map((o) => [o.id as string, o.name as string])),
   };
 }
 
-function orgAdminEmails(refs: Refs, orgId: string | null): string[] {
+const isActiveLearner = (u: { role: string; status: string } | undefined) =>
+  !!u && u.role === "learner" && u.status === "active";
+
+function orgAdminEmails(refs: EngineRefs, orgId: string | null): string[] {
   if (!orgId) return [];
   return [...refs.users.values()]
     .filter((u) => u.org === orgId && u.role === "org_admin" && u.status === "active")
     .map((u) => u.email);
 }
 
-function platformAdminEmails(refs: Refs): string[] {
+function platformAdminEmails(refs: EngineRefs): string[] {
   return [...refs.users.values()]
     .filter((u) => u.role === "platform_admin")
     .map((u) => u.email);
@@ -77,106 +143,131 @@ function wrap(title: string, body: string): string {
   </div>`;
 }
 
-async function deliver(
-  admin: Admin,
-  opts: {
-    orgId: string | null;
-    to: string;
-    type: string;
-    subject: string;
-    html: string;
-  },
-  dryRun: boolean,
-): Promise<void> {
-  if (dryRun) return;
-  const sent = await sendEmail({
-    to: opts.to,
-    subject: opts.subject,
-    html: opts.html,
-  });
-  await admin.from("email_log").insert({
-    organisation_id: opts.orgId,
-    to_email: opts.to,
-    type: opts.type,
-    subject: opts.subject,
-    sent,
-  });
-}
+// ---------------------------------------------------------------- sending
 
-export interface RunSummary {
-  [key: string]: number;
+interface Outgoing {
+  orgId: string | null;
+  to: string;
+  type: string;
+  subject: string;
+  html: string;
 }
 
 /**
- * Renewals: expire lapsed certificates (course becomes required again) and send
- * 60/30/7-day renewal reminders. Latest certificate per user+course is the live one.
+ * Send everything a job queued, then log it — in bulk.
+ *
+ * Replaces sending each email the moment it was decided on, which meant two
+ * network round trips per message, one after another, inside a 60-second
+ * limit. Returns how many were queued; a dry run counts without sending or
+ * logging anything.
+ */
+async function flush(admin: Admin, outbox: Outgoing[], dryRun: boolean): Promise<number> {
+  if (dryRun || outbox.length === 0) return outbox.length;
+  const sent = await sendEmailBatch(
+    outbox.map(({ to, subject, html }) => ({ to, subject, html })),
+  );
+  for (const rows of chunk(
+    outbox.map((m, i) => ({
+      organisation_id: m.orgId,
+      to_email: m.to,
+      type: m.type,
+      subject: m.subject,
+      sent: sent[i] ?? false,
+    })),
+    500,
+  )) {
+    await admin.from("email_log").insert(rows);
+  }
+  return outbox.length;
+}
+
+/** Set the same columns on many rows, a URL-safe number of ids at a time. */
+async function updateMany(
+  admin: Admin,
+  table: string,
+  ids: string[],
+  values: Record<string, unknown>,
+): Promise<void> {
+  for (const part of chunk(ids, IDS_PER_REQUEST)) {
+    await admin.from(table).update(values).in("id", part);
+  }
+}
+
+// ---------------------------------------------------------------- jobs
+
+/**
+ * Renewals: expire lapsed certificates (the course becomes required again) and
+ * warn at the 60/30/7-day windows. The newest certificate per learner + course
+ * is the live one.
+ *
+ * Emails are consolidated: each learner gets one message covering all of their
+ * certificates that need attention, and each manager one summary for their
+ * whole organisation. Previously every certificate produced its own email to
+ * the learner AND to every admin — a manager would get one per carer the week
+ * a batch of certificates lapsed together.
  */
 export async function processRenewals(
   settings: EngineSettings,
   now: Date,
   dryRun: boolean,
+  refs?: EngineRefs,
 ): Promise<RunSummary> {
   const admin = createAdminClient();
-  const refs = await loadRefs(admin);
+  const r = refs ?? (await loadEngineRefs(admin));
+  const origin = await siteOrigin();
 
-  const { data: certs } = await admin
-    .from("certificates")
-    .select("id, user_id, course_id, organisation_id, expires_at, reminders_sent")
-    .order("issued_at", { ascending: false });
+  const [certs, enrolments] = await Promise.all([
+    fetchAll((f, t) =>
+      admin
+        .from("certificates")
+        .select("id, user_id, course_id, organisation_id, issued_at, expires_at, reminders_sent")
+        .order("id")
+        .range(f, t),
+    ),
+    // One read instead of a lookup per certificate.
+    fetchAll((f, t) =>
+      admin.from("enrolments").select("id, user_id, course_id, status").order("id").range(f, t),
+    ),
+  ]);
 
-  // Keep only the most recent certificate per user+course.
-  type Cert = NonNullable<typeof certs>[number];
+  type Cert = (typeof certs)[number];
   const latest = new Map<string, Cert>();
-  for (const c of certs ?? []) {
+  for (const c of certs) {
     const key = `${c.user_id}_${c.course_id}`;
-    if (!latest.has(key)) latest.set(key, c);
+    const prev = latest.get(key);
+    if (!prev || (c.issued_at as string) > (prev.issued_at as string)) latest.set(key, c);
   }
+  const enrolByPair = new Map(enrolments.map((e) => [`${e.user_id}_${e.course_id}`, e]));
 
-  let expired = 0;
-  let reminded = 0;
+  const toExpire: string[] = [];
+  const stageUpdates = new Map<string, string[]>(); // cert id -> new reminders_sent
+  const byLearner = new Map<string, RenewalNotice[]>();
+  const byOrg = new Map<string, RenewalNotice[]>();
+
+  const note = (cert: Cert, notice: RenewalNotice) => {
+    const learner = r.users.get(cert.user_id as string);
+    // A leaver's lapsed certificate is history, not a job — and an admin
+    // cannot retake a course. Their records still update; nobody is emailed.
+    if (!isActiveLearner(learner)) return;
+    const uid = cert.user_id as string;
+    byLearner.set(uid, [...(byLearner.get(uid) ?? []), notice]);
+    const oid = cert.organisation_id as string;
+    byOrg.set(oid, [...(byOrg.get(oid) ?? []), notice]);
+  };
 
   for (const cert of latest.values()) {
-    const expiresAt = cert.expires_at ? new Date(cert.expires_at) : null;
-    const learner = refs.users.get(cert.user_id);
-    const courseTitle = refs.courses.get(cert.course_id) ?? "a course";
-    const recipients = new Set(
-      [learner?.email, ...orgAdminEmails(refs, cert.organisation_id)].filter(
-        Boolean,
-      ) as string[],
-    );
+    const expiresAt = cert.expires_at ? new Date(cert.expires_at as string) : null;
+    const learner = r.users.get(cert.user_id as string);
+    const base = {
+      learnerName: learner?.name ?? "A learner",
+      courseTitle: r.courses.get(cert.course_id as string) ?? "a course",
+    };
 
     if (isExpired(expiresAt, now)) {
-      // Flip the enrolment back to required-again (only if not already).
-      const { data: enrolment } = await admin
-        .from("enrolments")
-        .select("id, status")
-        .eq("user_id", cert.user_id)
-        .eq("course_id", cert.course_id)
-        .maybeSingle();
+      const enrolment = enrolByPair.get(`${cert.user_id}_${cert.course_id}`);
       if (enrolment && enrolment.status !== "expired") {
-        expired += 1;
-        if (!dryRun) {
-          await admin
-            .from("enrolments")
-            .update({ status: "expired" })
-            .eq("id", enrolment.id);
-        }
-        for (const to of recipients) {
-          await deliver(
-            admin,
-            {
-              orgId: cert.organisation_id,
-              to,
-              type: "required_again",
-              subject: `Training expired: ${courseTitle}`,
-              html: wrap(
-                "Training required again",
-                `<p><strong>${courseTitle}</strong> has expired for ${learner?.name}. It now needs to be retaken.</p>`,
-              ),
-            },
-            dryRun,
-          );
-        }
+        toExpire.push(enrolment.id as string);
+        note(cert, { ...base, kind: "expired", expiresAt: cert.expires_at as string });
       }
       continue;
     }
@@ -185,96 +276,108 @@ export async function processRenewals(
     const stage = renewalStage(expiresAt, now, settings.renewalWindows);
     const sentStages = (cert.reminders_sent as string[]) ?? [];
     if (stage && !sentStages.includes(String(stage))) {
-      reminded += 1;
-      for (const to of recipients) {
-        await deliver(
-          admin,
-          {
-            orgId: cert.organisation_id,
-            to,
-            type: "renewal",
-            subject: `Renewal due in ${stage} days: ${courseTitle}`,
-            html: wrap(
-              "Renewal approaching",
-              `<p><strong>${courseTitle}</strong> for ${learner?.name} expires on ${expiresAt.toLocaleDateString("en-GB")} (within ${stage} days). Please arrange a retake.</p>`,
-            ),
-          },
-          dryRun,
-        );
-      }
-      if (!dryRun) {
-        await admin
-          .from("certificates")
-          .update({ reminders_sent: [...sentStages, String(stage)] })
-          .eq("id", cert.id);
-      }
+      stageUpdates.set(cert.id as string, [...sentStages, String(stage)]);
+      note(cert, { ...base, kind: "due", expiresAt: cert.expires_at as string, withinDays: stage });
     }
   }
 
-  return { certificatesExpired: expired, renewalRemindersSent: reminded };
+  const outbox: Outgoing[] = [];
+  for (const [uid, notices] of byLearner) {
+    const learner = r.users.get(uid)!;
+    const { subject, html } = renewalLearnerEmail(learner.name, notices, origin);
+    const expired = notices.some((n) => n.kind === "expired");
+    outbox.push({ orgId: learner.org, to: learner.email, type: expired ? "required_again" : "renewal", subject, html });
+  }
+  for (const [oid, notices] of byOrg) {
+    const { subject, html } = renewalOrgEmail(r.orgs.get(oid) ?? "your organisation", notices, origin);
+    for (const to of orgAdminEmails(r, oid)) {
+      outbox.push({ orgId: oid, to, type: "renewal", subject, html });
+    }
+  }
+
+  if (!dryRun) {
+    await updateMany(admin, "enrolments", toExpire, { status: "expired" });
+    // Certificates that reached the same window share an update.
+    const byValue = new Map<string, string[]>();
+    for (const [id, stages] of stageUpdates) {
+      const k = JSON.stringify(stages);
+      byValue.set(k, [...(byValue.get(k) ?? []), id]);
+    }
+    for (const [k, ids] of byValue) {
+      await updateMany(admin, "certificates", ids, { reminders_sent: JSON.parse(k) });
+    }
+  }
+  const emails = await flush(admin, outbox, dryRun);
+
+  return {
+    certificatesExpired: toExpire.length,
+    renewalRemindersSent: stageUpdates.size,
+    renewalEmailsSent: emails,
+  };
 }
 
-/** Learner reminders for assigned-but-not-started and overdue courses. */
+/**
+ * Learner reminders for courses assigned but not started, or overdue.
+ *
+ * One email per learner listing all their outstanding courses, instead of one
+ * per course (see lib/engine-digest). Learners only: an admin cannot open
+ * /learn, so reminding one about a course is noise at best (issue #37).
+ */
 export async function processReminders(
   settings: EngineSettings,
   now: Date,
   dryRun: boolean,
+  refs?: EngineRefs,
 ): Promise<RunSummary> {
   const admin = createAdminClient();
-  const refs = await loadRefs(admin);
+  const r = refs ?? (await loadEngineRefs(admin));
+  const origin = await siteOrigin();
 
-  const { data: enrolments } = await admin
-    .from("enrolments")
-    .select("id, user_id, course_id, organisation_id, status, due_date, last_reminder_at");
+  const enrolments = await fetchAll((f, t) =>
+    admin
+      .from("enrolments")
+      .select("id, user_id, course_id, organisation_id, status, due_date, last_reminder_at")
+      .order("id")
+      .range(f, t),
+  );
 
-  let sent = 0;
-  for (const e of enrolments ?? []) {
-    const needs =
-      e.status === "not_started" || isOverdue(e.due_date, e.status, now);
-    if (!needs) continue;
-    const since = daysSince(
-      e.last_reminder_at ? new Date(e.last_reminder_at) : null,
-      now,
-    );
-    if (since < settings.reminderRepeatDays) continue;
-
-    const learner = refs.users.get(e.user_id);
-    if (!learner?.email || learner.status !== "active") continue;
-    // Learners only. An admin cannot open /learn, so a course enrolled to one
-    // can never be done — reminding them daily about it is noise at best. The
-    // assign screen now refuses admins too, but this runs unattended every
-    // morning and should not depend on nothing upstream ever slipping
-    // (issue #37).
-    if (learner.role !== "learner") continue;
-    const courseTitle = refs.courses.get(e.course_id) ?? "a course";
-    const overdue = isOverdue(e.due_date, e.status, now);
-
-    sent += 1;
-    await deliver(
-      admin,
-      {
-        orgId: e.organisation_id,
-        to: learner.email,
-        type: "reminder",
-        subject: overdue
-          ? `Overdue training: ${courseTitle}`
-          : `Training to complete: ${courseTitle}`,
-        html: wrap(
-          overdue ? "Training overdue" : "Training assigned",
-          `<p>You have ${overdue ? "<strong>overdue</strong> " : ""}training to complete: <strong>${courseTitle}</strong>${e.due_date ? ` (due ${new Date(e.due_date).toLocaleDateString("en-GB")})` : ""}.</p>`,
-        ),
-      },
-      dryRun,
-    );
-    if (!dryRun) {
-      await admin
-        .from("enrolments")
-        .update({ last_reminder_at: now.toISOString() })
-        .eq("id", e.id);
-    }
+  const items: ReminderItem[] = [];
+  for (const e of enrolments) {
+    const overdue = isOverdue(e.due_date as string | null, e.status as string, now);
+    if (e.status !== "not_started" && !overdue) continue;
+    const learner = r.users.get(e.user_id as string);
+    if (!isActiveLearner(learner) || !learner?.email) continue;
+    items.push({
+      enrolmentId: e.id as string,
+      userId: e.user_id as string,
+      courseTitle: r.courses.get(e.course_id as string) ?? "a course",
+      dueDate: e.due_date as string | null,
+      overdue,
+      lastReminderAt: e.last_reminder_at as string | null,
+    });
   }
 
-  return { learnerRemindersSent: sent };
+  const plans = planReminders(items, settings.reminderRepeatDays, now);
+  const outbox: Outgoing[] = plans.map((p) => {
+    const learner = r.users.get(p.userId)!;
+    const { subject, html } = reminderEmail(learner.name, p.items, origin);
+    return { orgId: learner.org, to: learner.email, type: "reminder", subject, html };
+  });
+
+  if (!dryRun) {
+    await updateMany(
+      admin,
+      "enrolments",
+      plans.flatMap((p) => p.enrolmentIds),
+      { last_reminder_at: now.toISOString() },
+    );
+  }
+  const emails = await flush(admin, outbox, dryRun);
+
+  return {
+    learnerRemindersSent: emails,
+    coursesCoveredByReminders: plans.reduce((n, p) => n + p.items.length, 0),
+  };
 }
 
 /** Alert platform_admins when an org's completion rate drops below threshold. */
@@ -282,31 +385,33 @@ export async function processEngagement(
   settings: EngineSettings,
   now: Date,
   dryRun: boolean,
+  refs?: EngineRefs,
 ): Promise<RunSummary> {
   const admin = createAdminClient();
-  const refs = await loadRefs(admin);
+  const r = refs ?? (await loadEngineRefs(admin));
 
-  const { data: enrolments } = await admin
-    .from("enrolments")
-    .select("organisation_id, status");
+  const enrolments = await fetchAll((f, t) =>
+    admin.from("enrolments").select("id, organisation_id, status").order("id").range(f, t),
+  );
 
   const byOrg = new Map<string, { total: number; completed: number }>();
-  for (const e of enrolments ?? []) {
-    const s = byOrg.get(e.organisation_id) ?? { total: 0, completed: 0 };
+  for (const e of enrolments) {
+    const s = byOrg.get(e.organisation_id as string) ?? { total: 0, completed: 0 };
     s.total += 1;
     if (e.status === "completed") s.completed += 1;
-    byOrg.set(e.organisation_id, s);
+    byOrg.set(e.organisation_id as string, s);
   }
 
-  const recipients = platformAdminEmails(refs);
+  const recipients = platformAdminEmails(r);
+  const outbox: Outgoing[] = [];
   let alerts = 0;
+  const weekAgo = new Date(now.getTime() - 7 * 86_400_000).toISOString();
   for (const [orgId, s] of byOrg) {
     if (s.total < 3) continue; // ignore tiny samples
     const rate = engagementRate(s.total, s.completed);
     if (rate >= settings.engagementThreshold) continue;
 
     // Dedup: skip if we alerted for this org in the last 7 days.
-    const weekAgo = new Date(now.getTime() - 7 * 86_400_000).toISOString();
     const { count } = await admin
       .from("email_log")
       .select("id", { count: "exact", head: true })
@@ -315,85 +420,92 @@ export async function processEngagement(
       .gte("created_at", weekAgo);
     if ((count ?? 0) > 0) continue;
 
-    const orgName = refs.orgs.get(orgId) ?? "An organisation";
+    const orgName = r.orgs.get(orgId) ?? "An organisation";
     alerts += 1;
     for (const to of recipients) {
-      await deliver(
-        admin,
-        {
-          orgId,
-          to,
-          type: "engagement_alert",
-          subject: `Low engagement: ${orgName} (${rate}%)`,
-          html: wrap(
-            "Engagement alert",
-            `<p><strong>${orgName}</strong> has a completion rate of ${rate}% (threshold ${settings.engagementThreshold}%). Consider reaching out.</p>`,
-          ),
-        },
-        dryRun,
-      );
+      outbox.push({
+        orgId,
+        to,
+        type: "engagement_alert",
+        subject: `Low engagement: ${orgName} (${rate}%)`,
+        html: wrap(
+          "Engagement alert",
+          `<p><strong>${esc(orgName)}</strong> has a completion rate of ${rate}% (threshold ${settings.engagementThreshold}%). Consider reaching out.</p>`,
+        ),
+      });
     }
   }
+  await flush(admin, outbox, dryRun);
 
   return { engagementAlertsSent: alerts };
 }
 
-/** Weekly digest to each org_admin: completions this week, overdue, low-engagement staff. */
+/** Weekly digest to each org_admin: completions this week, overdue, not started. */
 export async function processWeeklyDigest(
   now: Date,
   dryRun: boolean,
+  refs?: EngineRefs,
 ): Promise<RunSummary> {
   const admin = createAdminClient();
-  const refs = await loadRefs(admin);
+  const r = refs ?? (await loadEngineRefs(admin));
   const weekAgo = new Date(now.getTime() - 7 * 86_400_000);
 
-  const [{ data: enrolments }, { data: certs }] = await Promise.all([
-    admin.from("enrolments").select("organisation_id, user_id, status, due_date"),
-    admin.from("certificates").select("organisation_id, issued_at"),
+  const [enrolments, certs] = await Promise.all([
+    fetchAll((f, t) =>
+      admin
+        .from("enrolments")
+        .select("id, organisation_id, user_id, status, due_date")
+        .order("id")
+        .range(f, t),
+    ),
+    fetchAll((f, t) =>
+      admin.from("certificates").select("id, organisation_id, issued_at").order("id").range(f, t),
+    ),
   ]);
 
+  // Grouped once, rather than re-scanning every row for every organisation.
+  const stats = new Map<string, { overdue: number; notStarted: number; any: boolean; completions: number }>();
+  const get = (oid: string) => {
+    const s = stats.get(oid) ?? { overdue: 0, notStarted: 0, any: false, completions: 0 };
+    stats.set(oid, s);
+    return s;
+  };
+  for (const e of enrolments) {
+    const s = get(e.organisation_id as string);
+    s.any = true;
+    if (isOverdue(e.due_date as string | null, e.status as string, now)) s.overdue += 1;
+    if (e.status === "not_started") s.notStarted += 1;
+  }
+  for (const c of certs) {
+    if (new Date(c.issued_at as string) >= weekAgo) get(c.organisation_id as string).completions += 1;
+  }
+
+  const outbox: Outgoing[] = [];
   let digests = 0;
-  for (const [orgId, orgName] of refs.orgs) {
-    const admins = orgAdminEmails(refs, orgId);
+  for (const [orgId, orgName] of r.orgs) {
+    const s = stats.get(orgId);
+    if (!s?.any) continue;
+    const admins = orgAdminEmails(r, orgId);
     if (admins.length === 0) continue;
-
-    const orgEnrolments = (enrolments ?? []).filter(
-      (e) => e.organisation_id === orgId,
-    );
-    if (orgEnrolments.length === 0) continue;
-
-    const completionsThisWeek = (certs ?? []).filter(
-      (c) => c.organisation_id === orgId && new Date(c.issued_at) >= weekAgo,
-    ).length;
-    const overdue = orgEnrolments.filter((e) =>
-      isOverdue(e.due_date, e.status, now),
-    ).length;
-    const notStarted = orgEnrolments.filter(
-      (e) => e.status === "not_started",
-    ).length;
-
     digests += 1;
     for (const to of admins) {
-      await deliver(
-        admin,
-        {
-          orgId,
-          to,
-          type: "digest",
-          subject: `Weekly training summary — ${orgName}`,
-          html: wrap(
-            `Weekly summary — ${orgName}`,
-            `<ul>
-               <li>Completions this week: <strong>${completionsThisWeek}</strong></li>
-               <li>Overdue enrolments: <strong>${overdue}</strong></li>
-               <li>Not yet started: <strong>${notStarted}</strong></li>
-             </ul>`,
-          ),
-        },
-        dryRun,
-      );
+      outbox.push({
+        orgId,
+        to,
+        type: "digest",
+        subject: `Weekly training summary — ${orgName}`,
+        html: wrap(
+          `Weekly summary — ${esc(orgName)}`,
+          `<ul>
+             <li>Completions this week: <strong>${s.completions}</strong></li>
+             <li>Overdue enrolments: <strong>${s.overdue}</strong></li>
+             <li>Not yet started: <strong>${s.notStarted}</strong></li>
+           </ul>`,
+        ),
+      });
     }
   }
+  await flush(admin, outbox, dryRun);
 
   return { digestsSent: digests };
 }

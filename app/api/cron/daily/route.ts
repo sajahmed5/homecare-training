@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import {
+  loadEngineRefs,
   loadSettings,
   processRenewals,
   processReminders,
@@ -24,11 +25,16 @@ export async function GET(req: NextRequest) {
   const now = new Date();
 
   const admin = createAdminClient();
-  const settings = await loadSettings(admin);
+  // Every user, course and organisation, loaded once and shared by all three
+  // jobs — each used to read its own copy.
+  const [settings, refs] = await Promise.all([
+    loadSettings(admin),
+    loadEngineRefs(admin),
+  ]);
 
-  const renewals = await processRenewals(settings, now, dryRun);
-  const reminders = await processReminders(settings, now, dryRun);
-  const engagement = await processEngagement(settings, now, dryRun);
+  const renewals = await processRenewals(settings, now, dryRun, refs);
+  const reminders = await processReminders(settings, now, dryRun, refs);
+  const engagement = await processEngagement(settings, now, dryRun, refs);
 
   return NextResponse.json({
     ok: true,

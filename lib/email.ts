@@ -29,6 +29,54 @@ export async function sendEmail({
   }
 }
 
+/** Resend accepts at most this many emails per batch request. */
+const BATCH_MAX = 100;
+
+/**
+ * Send many emails in as few requests as Resend allows, returning one
+ * delivered/failed flag per message in the order given.
+ *
+ * The scheduled jobs used to send one at a time, each waiting for the last,
+ * inside a 60-second limit. After a bulk assignment every learner falls due
+ * the same morning, so a large organisation could not finish in time — and
+ * whoever wasn't reached simply wasn't told. Batched, 260 learners is three
+ * requests instead of 260.
+ *
+ * Resend rejects a batch as a whole if any message in it is invalid, so a
+ * failed request marks its whole chunk as not sent. That is recorded in the
+ * email log rather than retried here.
+ */
+export async function sendEmailBatch(
+  messages: { to: string; subject: string; html: string }[],
+): Promise<boolean[]> {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from =
+    process.env.EMAIL_FROM ?? "My Care Academy <onboarding@resend.dev>";
+  if (!apiKey) return messages.map(() => false);
+
+  const results: boolean[] = [];
+  for (let i = 0; i < messages.length; i += BATCH_MAX) {
+    const chunk = messages.slice(i, i + BATCH_MAX);
+    let ok = false;
+    try {
+      const res = await fetch("https://api.resend.com/emails/batch", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(chunk.map((m) => ({ from, ...m }))),
+      });
+      ok = res.ok;
+      if (!ok) console.error("Resend batch failed:", res.status, await res.text());
+    } catch (err) {
+      console.error("Resend batch error:", err);
+    }
+    results.push(...chunk.map(() => ok));
+  }
+  return results;
+}
+
 interface InviteEmailOptions {
   to: string;
   inviteUrl: string;
