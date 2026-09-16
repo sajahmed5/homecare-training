@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { fetchAll } from "@/lib/fetch-all";
-import { isOverdue, isAssessmentDue } from "@/lib/engine-logic";
+import { isOverdue } from "@/lib/engine-logic";
 import { isLateCompletion } from "@/lib/org-learners";
+import { AssignedTrainingRows, type TrainingRow } from "./assigned-training-rows";
 
 export type TrainingStatusFilter =
   | "all"
@@ -21,36 +22,6 @@ export const TRAINING_TABS: { key: TrainingStatusFilter; label: string }[] = [
   { key: "late", label: "Completed late" },
 ];
 
-interface Row {
-  userId: string;
-  learner: string;
-  course: string;
-  status: string;
-  progress: number;
-  /** Certificate issue date = the completion date; enrolments have none. */
-  completedAt: string | null;
-  assignedAt: string | null;
-  dueDate: string | null;
-  overdue: boolean;
-  late: boolean;
-}
-
-function fmtDate(d: string | null): string {
-  if (!d) return "—";
-  return new Date(d).toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  });
-}
-
-const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
-  completed: { label: "Completed", cls: "bg-green-100 text-green-700" },
-  in_progress: { label: "In progress", cls: "bg-amber-100 text-amber-700" },
-  assessment_due: { label: "Assessment due", cls: "bg-indigo-100 text-indigo-700" },
-  not_started: { label: "Not started", cls: "bg-slate-100 text-slate-700" },
-  expired: { label: "Expired", cls: "bg-rose-100 text-rose-700" },
-};
 
 /**
  * Every assignment in the org (one row per learner × course), filterable to
@@ -91,7 +62,7 @@ export async function AssignedTrainingTable({
   }
 
   const now = new Date();
-  const rows: Row[] = (enrolments ?? [])
+  const rows: TrainingRow[] = (enrolments ?? [])
     .map((e) => {
       const u = e.users as unknown as {
         full_name?: string;
@@ -155,97 +126,7 @@ export async function AssignedTrainingTable({
         })}
       </div>
 
-      <div className="overflow-x-auto rounded-2xl border bg-card">
-        <table className="w-full text-sm">
-          <thead>
-            <tr className="border-b text-left text-muted-foreground">
-              <th className="px-3 py-2 font-medium">Learner</th>
-              <th className="px-3 py-2 font-medium">Course</th>
-              <th className="px-3 py-2 font-medium">Status</th>
-              <th className="px-3 py-2 font-medium">Progress</th>
-              <th className="px-3 py-2 font-medium">Assigned</th>
-              <th className="px-3 py-2 font-medium">Due</th>
-            </tr>
-          </thead>
-          <tbody>
-            {shown.length === 0 ? (
-              <tr>
-                <td colSpan={6} className="px-3 py-8 text-center text-muted-foreground">
-                  Nothing here.
-                </td>
-              </tr>
-            ) : (
-              shown.map((r, i) => {
-                const key = isAssessmentDue(r.status, r.progress)
-                  ? "assessment_due"
-                  : r.status;
-                const badge = STATUS_BADGE[key] ?? {
-                  label: r.status,
-                  cls: "bg-slate-100 text-slate-700",
-                };
-                return (
-                  <tr
-                    key={`${r.userId}-${r.course}-${i}`}
-                    className="border-b last:border-0 hover:bg-accent/40"
-                  >
-                    <td className="px-3 py-2">
-                      <Link
-                        href={`/org/staff/${r.userId}`}
-                        className="font-medium hover:underline"
-                      >
-                        {r.learner}
-                      </Link>
-                    </td>
-                    <td className="px-3 py-2">{r.course}</td>
-                    <td className="px-3 py-2">
-                      <span className="inline-flex items-center gap-1.5">
-                        <span
-                          className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${badge.cls}`}
-                        >
-                          {badge.label}
-                        </span>
-                        {r.overdue && r.status !== "completed" && (
-                          <span className="inline-flex rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700">
-                            Overdue
-                          </span>
-                        )}
-                        {r.late && (
-                          <span className="inline-flex rounded-full bg-orange-100 px-2 py-0.5 text-xs font-medium text-orange-700">
-                            Late
-                          </span>
-                        )}
-                      </span>
-                      {/* When it was finished, next to the status (issue #23). */}
-                      {r.completedAt && (
-                        <span className="block whitespace-nowrap text-xs text-muted-foreground">
-                          {fmtDate(r.completedAt)}
-                        </span>
-                      )}
-                    </td>
-                    <td className="px-3 py-2 text-muted-foreground">
-                      {r.status === "completed" ? "100%" : `${r.progress}%`}
-                    </td>
-                    <td className="px-3 py-2 whitespace-nowrap text-muted-foreground">
-                      {fmtDate(r.assignedAt)}
-                    </td>
-                    <td className="px-3 py-2 whitespace-nowrap">
-                      <span
-                        className={
-                          r.overdue
-                            ? "font-medium text-rose-600"
-                            : "text-muted-foreground"
-                        }
-                      >
-                        {fmtDate(r.dueDate)}
-                      </span>
-                    </td>
-                  </tr>
-                );
-              })
-            )}
-          </tbody>
-        </table>
-      </div>
+      <AssignedTrainingRows rows={shown} />
     </div>
   );
 }

@@ -4,6 +4,14 @@ import Link from "next/link";
 import type { CourseEnrolmentRow } from "@/lib/course-stats";
 import { formatDuration } from "@/lib/org-learner";
 import { isAssessmentDue } from "@/lib/engine-logic";
+import {
+  newestFirst,
+  numberColumn,
+  statusRank,
+  textColumn,
+  type SortColumn,
+} from "@/lib/table-sort";
+import { SortHeader, useTableSort } from "@/components/sort-header";
 
 const csvCell = (v: string) =>
   /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
@@ -29,6 +37,35 @@ const STATUS_BADGE: Record<string, { label: string; cls: string }> = {
   expired: { label: "Expired", cls: "bg-rose-100 text-rose-700" },
 };
 
+const actualSeconds = (r: CourseEnrolmentRow) =>
+  r.status === "completed" ? r.actualSeconds : null;
+
+type SortKey = "course" | "learner" | "status" | "attempts" | "expected" | "actual";
+
+// Module-level so the sort memo isn't recomputed on every render.
+const SORT_COLUMNS: Record<SortKey, SortColumn<CourseEnrolmentRow>> = {
+  course: textColumn((r) => r.course),
+  learner: textColumn((r) => r.learner),
+  // Stage first; within a stage, the latest completed on top.
+  status: {
+    first: "asc",
+    value: (r) => statusRank(r.status, false, isAssessmentDue(r.status, r.progress)),
+    tieBreak: newestFirst((r) => r.completedAt),
+  },
+  attempts: numberColumn((r) => r.attempts),
+  expected: numberColumn((r) => r.expectedSeconds),
+  actual: numberColumn(actualSeconds),
+};
+
+const HEADINGS: { key: SortKey; label: string }[] = [
+  { key: "course", label: "Course" },
+  { key: "learner", label: "Learner" },
+  { key: "status", label: "Status" },
+  { key: "attempts", label: "Attempts" },
+  { key: "expected", label: "Expected Duration" },
+  { key: "actual", label: "Actual Duration" },
+];
+
 /**
  * The raw enrolment rows behind the Courses → Overview table: one per
  * learner × course. Actual duration is shown for completed rows only, so the
@@ -45,8 +82,8 @@ export function CourseEnrolmentsTable({
   /** Hidden when the page is already filtered to one course (issue #23). */
   showCourse?: boolean;
 }) {
-  const actual = (r: CourseEnrolmentRow) =>
-    r.status === "completed" ? r.actualSeconds : null;
+  const actual = actualSeconds;
+  const { sorted, sort, toggle } = useTableSort(rows, SORT_COLUMNS);
   const badgeFor = (r: CourseEnrolmentRow) =>
     STATUS_BADGE[
       isAssessmentDue(r.status, r.progress) ? "assessment_due" : r.status
@@ -62,7 +99,8 @@ export function CourseEnrolmentsTable({
       "Expected duration",
       "Actual duration",
     ];
-    const body = rows.map((r) =>
+    // In the order on screen.
+    const body = sorted.map((r) =>
       [
         r.course,
         r.learner,
@@ -91,14 +129,15 @@ export function CourseEnrolmentsTable({
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b text-left text-muted-foreground">
-              {showCourse && (
-                <th className="px-3 py-2 font-medium">Course</th>
-              )}
-              <th className="px-3 py-2 font-medium">Learner</th>
-              <th className="px-3 py-2 font-medium">Status</th>
-              <th className="px-3 py-2 font-medium">Attempts</th>
-              <th className="px-3 py-2 font-medium">Expected Duration</th>
-              <th className="px-3 py-2 font-medium">Actual Duration</th>
+              {HEADINGS.filter((h) => showCourse || h.key !== "course").map((h) => (
+                <SortHeader
+                  key={h.key}
+                  label={h.label}
+                  active={sort?.key === h.key}
+                  dir={sort?.dir}
+                  onClick={() => toggle(h.key)}
+                />
+              ))}
             </tr>
           </thead>
           <tbody>
@@ -109,7 +148,7 @@ export function CourseEnrolmentsTable({
                 </td>
               </tr>
             ) : (
-              rows.map((r) => {
+              sorted.map((r) => {
                 const badge = badgeFor(r);
                 return (
                   <tr
