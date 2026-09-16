@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import Link from "next/link";
 import { MessageSquareWarning, X, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -170,10 +171,17 @@ export function ReportWidget() {
                   <span className="font-semibold text-foreground">
                     #{reportNo}
                   </span>
-                  . Our team can look it up by that number — thanks for helping
-                  us improve.
+                  . We&apos;ll email you when it&apos;s updated, and you can check on it
+                  any time in My reports — thanks for helping us improve.
                 </p>
-                <div className="flex justify-end">
+                <div className="flex items-center justify-between gap-2">
+                  <Link
+                    href="/report"
+                    onClick={close}
+                    className="text-sm font-medium text-primary hover:underline"
+                  >
+                    My reports
+                  </Link>
                   <Button onClick={close}>Done</Button>
                 </div>
               </div>
@@ -250,7 +258,14 @@ export function ReportWidget() {
                   </p>
                 )}
 
-                <div className="flex justify-end gap-2">
+                <div className="flex items-center justify-end gap-2">
+                  <Link
+                    href="/report"
+                    onClick={close}
+                    className="mr-auto text-sm font-medium text-primary hover:underline"
+                  >
+                    My reports
+                  </Link>
                   <Button type="button" variant="outline" onClick={close}>
                     Cancel
                   </Button>
