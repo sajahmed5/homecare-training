@@ -131,10 +131,13 @@ export function ReportWidget() {
           type="button"
           onClick={openWidget}
           className="fixed bottom-4 right-4 z-50 inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-full border bg-card px-4 py-2.5 text-sm font-medium text-foreground shadow-lg transition-colors hover:bg-accent"
-          aria-label="Report an issue"
+          aria-label="Report a problem with the site"
         >
           <MessageSquareWarning className="size-4 text-amber-600" />
-          <span className="hidden sm:inline">Report</span>
+          {/* Words on every screen size: on a phone the bare icon read as
+              "comment" or "answer here", and a carer typed her course answers
+              into it as four reports (issues #42–#45). */}
+          <span>Report a problem</span>
         </button>
       )}
 
@@ -152,7 +155,7 @@ export function ReportWidget() {
           >
             <div className="flex items-start justify-between gap-3">
               <h3 id="report-title" className="text-lg font-semibold">
-                {phase === "sent" ? "Thanks for the report" : "Report an issue"}
+                {phase === "sent" ? "Thanks for the report" : "Something not working?"}
               </h3>
               <button
                 type="button"
@@ -187,8 +190,12 @@ export function ReportWidget() {
               </div>
             ) : (
               <form onSubmit={submit} className="space-y-4">
+                <p className="text-sm text-muted-foreground">
+                  Use this to tell us about a problem with the site. Your course
+                  answers don&apos;t go here.
+                </p>
                 <div className="space-y-2">
-                  <Label htmlFor="report-summary">What&apos;s the issue?</Label>
+                  <Label htmlFor="report-summary">What isn&apos;t working?</Label>
                   <Input
                     id="report-summary"
                     value={summary}

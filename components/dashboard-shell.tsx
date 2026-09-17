@@ -149,7 +149,9 @@ export async function DashboardShell({
           <SidebarNav role={context.role} orientation="horizontal" badges={badges} enabled={addOns} />
         </div>
 
-        <main className="flex-1 px-4 py-6 sm:px-6 sm:py-8">{children}</main>
+        {/* Bottom padding keeps the floating Report button clear of the last
+            thing on the page — e.g. a course's Next button. */}
+        <main className="flex-1 px-4 pt-6 pb-24 sm:px-6 sm:pt-8">{children}</main>
       </div>
 
       {/* Always-visible "Report an issue" widget — every role, every page. */}
