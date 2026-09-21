@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono, Outfit } from "next/font/google";
+import { Caveat, Inter, JetBrains_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 import { CookieConsent } from "@/components/cookie-consent";
 
@@ -14,6 +14,14 @@ const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
+  display: "swap",
+});
+
+// Handwritten asides on the marketing home page only.
+const caveat = Caveat({
+  variable: "--font-caveat",
+  subsets: ["latin"],
+  weight: ["600"],
   display: "swap",
 });
 
@@ -58,7 +66,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${mono.variable} ${outfit.variable} h-full antialiased`}
+      className={`${inter.variable} ${mono.variable} ${outfit.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {children}
