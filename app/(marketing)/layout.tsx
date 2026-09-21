@@ -127,9 +127,22 @@ export default function MarketingLayout({
               © My Care Academy
               <span className="text-xs text-[#0f2f3c]/40">{VERSION_LABEL}</span>
             </span>
-            <Link href="/privacy" className="hover:text-[#134f63]">
-              Privacy policy
-            </Link>
+            <span className="flex flex-wrap items-center gap-x-5 gap-y-2">
+              <Link href="/privacy" className="hover:text-[#134f63]">
+                Privacy policy
+              </Link>
+              <span>
+                A website by{" "}
+                <a
+                  href="https://yellowloaf.com"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-medium text-[#0f2f3c]/75 underline-offset-2 hover:text-[#134f63] hover:underline"
+                >
+                  Yellowloaf
+                </a>
+              </span>
+            </span>
           </div>
         </div>
       </footer>
