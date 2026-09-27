@@ -124,3 +124,37 @@ export function parseAssignCsv(text: string): {
   }
   return { rows };
 }
+
+/**
+ * What a portal assignment writes (issue: every portal-assigned course had a
+ * blank due date, and re-assigning wiped the one it had — Saj, 27 Sept 2026).
+ *
+ * - A new enrolment always gets a due date: the one sent, else the platform
+ *   default (end of this month), the same rule as the platform's own form.
+ * - An existing enrolment keeps its progress, status and assigned date. Its
+ *   due date changes only when a date was sent on purpose, or it had none.
+ */
+export function planPortalAssign(args: {
+  userIds: string[];
+  courseIds: string[];
+  existing: { id: string; user_id: string; course_id: string; due_date: string | null }[];
+  dueDateSent: string | null;
+  defaultDue: string;
+  nowIso: string;
+}): {
+  inserts: { user_id: string; course_id: string; due_date: string; assigned_at: string }[];
+  dueUpdates: { id: string; due_date: string }[];
+} {
+  const byKey = new Map(args.existing.map((e) => [`${e.user_id}|${e.course_id}`, e]));
+  const due = args.dueDateSent ?? args.defaultDue;
+  const inserts: { user_id: string; course_id: string; due_date: string; assigned_at: string }[] = [];
+  const dueUpdates: { id: string; due_date: string }[] = [];
+  for (const u of args.userIds) {
+    for (const c of args.courseIds) {
+      const e = byKey.get(`${u}|${c}`);
+      if (!e) { inserts.push({ user_id: u, course_id: c, due_date: due, assigned_at: args.nowIso }); continue; }
+      if (args.dueDateSent ? e.due_date?.slice(0, 10) !== args.dueDateSent : !e.due_date) dueUpdates.push({ id: e.id, due_date: due });
+    }
+  }
+  return { inserts, dueUpdates };
+}

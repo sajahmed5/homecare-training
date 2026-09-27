@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { resolvePortalOrg, isOrg } from "@/lib/portal-api";
 import { logAudit } from "@/lib/audit";
+import { endOfMonthISO, planPortalAssign } from "@/lib/assign";
 
 export const dynamic = "force-dynamic";
 // Invites send emails one by one; give the function room to breathe.
@@ -13,9 +14,9 @@ export const maxDuration = 60;
  * Body: { externalRefs: string[], courseIds?: string[], pathwayIds?: string[], dueDate?: "yyyy-mm-dd" }
  *
  * Pathways expand to their courses, exactly like the platform's own assign
- * action, and the write is the same idempotent upsert on (user_id, course_id):
- * assigning something a carer already has NEVER resets their progress — it
- * only fills in a due date they were missing. Learners are resolved by
+ * action. Assigning something a carer already has NEVER resets their
+ * progress or assigned date; a new enrolment with no date sent gets the
+ * platform default (end of this month) — see planPortalAssign. Learners are resolved by
  * external_ref; unknown refs are reported back, not silently dropped.
  */
 export async function POST(req: Request) {
@@ -56,34 +57,41 @@ export async function POST(req: Request) {
   const unknownRefs = refs.filter((r) => !foundRefs.has(r));
   const activeUsers = (users ?? []).filter((u) => u.status === "active");
 
-  const rows = activeUsers.flatMap((u) =>
-    validCourseIds.map((courseId) => ({
-      organisation_id: org.id,
-      user_id: u.id,
-      course_id: courseId,
-      due_date: dueDate,
-      assigned_at: new Date().toISOString(),
-    })),
-  );
+  // New enrolments always get a due date; existing ones keep theirs (lib/assign).
+  const userIds = activeUsers.map((u) => u.id);
+  const { data: existing } = userIds.length && validCourseIds.length
+    ? await admin.from("enrolments").select("id, user_id, course_id, due_date")
+        .eq("organisation_id", org.id).in("user_id", userIds).in("course_id", validCourseIds)
+    : { data: [] };
+  const plan = planPortalAssign({
+    userIds, courseIds: validCourseIds, existing: existing ?? [],
+    dueDateSent: dueDate, defaultDue: endOfMonthISO(), nowIso: new Date().toISOString(),
+  });
 
   let assigned = 0;
-  if (rows.length) {
+  if (plan.inserts.length) {
     const { error, count } = await admin
       .from("enrolments")
-      .upsert(rows, { onConflict: "user_id,course_id", ignoreDuplicates: false, count: "exact" });
+      .insert(plan.inserts.map((r) => ({ organisation_id: org.id, ...r })), { count: "exact" });
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    assigned = count ?? rows.length;
+    assigned = count ?? plan.inserts.length;
+  }
+  for (const u of plan.dueUpdates) {
+    const { error } = await admin.from("enrolments").update({ due_date: u.due_date }).eq("id", u.id).eq("organisation_id", org.id);
+    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
   await logAudit({
     organisationId: org.id,
     action: "portal.assign_training",
     entity: "enrolments",
-    detail: { learners: activeUsers.length, courses: validCourseIds.length, dueDate, unknownRefs },
+    detail: { learners: activeUsers.length, courses: validCourseIds.length, dueDate: dueDate ?? `default ${endOfMonthISO()}`, newEnrolments: plan.inserts.length, dueDatesSet: plan.dueUpdates.length, unknownRefs },
   });
 
   return NextResponse.json({
-    assigned,
+    // Everything now in place for these carers and courses, as before; newlyAssigned is just the new ones.
+    assigned: assigned + (existing ?? []).length,
+    newlyAssigned: assigned,
     learners: activeUsers.length,
     courses: validCourseIds.length,
     unknownRefs,
