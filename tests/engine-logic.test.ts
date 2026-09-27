@@ -6,6 +6,7 @@ import {
   engagementRate,
   expiryFlag,
   daysSince,
+  needsReminder,
 } from "../lib/engine-logic";
 
 const now = new Date("2026-07-01T00:00:00Z");
@@ -81,5 +82,14 @@ describe("daysSince", () => {
   });
   it("counts whole days", () => {
     expect(daysSince(inDays(-10), now)).toBe(10);
+  });
+});
+
+describe("needsReminder (chased until done)", () => {
+  it("every course not completed is reminded — including one in progress with no due date", () => {
+    expect(needsReminder("not_started")).toBe(true);
+    expect(needsReminder("in_progress")).toBe(true);
+    expect(needsReminder("expired")).toBe(true);
+    expect(needsReminder("completed")).toBe(false);
   });
 });

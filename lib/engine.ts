@@ -6,6 +6,7 @@ import {
   renewalStage,
   isExpired,
   isOverdue,
+  needsReminder,
   engagementRate,
 } from "@/lib/engine-logic";
 import {
@@ -288,7 +289,8 @@ export async function processRenewals(
 }
 
 /**
- * Learner reminders for courses assigned but not started, or overdue.
+ * Learner reminders for every course assigned and not yet completed — repeated
+ * every reminderRepeatDays until it is done.
  *
  * One email per learner listing all their outstanding courses, instead of one
  * per course (see lib/engine-digest). Learners only: an admin cannot open
@@ -315,7 +317,7 @@ export async function processReminders(
   const items: ReminderItem[] = [];
   for (const e of enrolments) {
     const overdue = isOverdue(e.due_date as string | null, e.status as string, now);
-    if (e.status !== "not_started" && !overdue) continue;
+    if (!needsReminder(e.status as string)) continue;
     const learner = r.users.get(e.user_id as string);
     if (!isActiveLearner(learner) || !learner?.email) continue;
     items.push({

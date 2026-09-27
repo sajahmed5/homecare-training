@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { endOfMonthISO, normaliseDate, parseAssignCsv } from "../lib/assign";
+import { endOfMonthISO, normaliseDate, parseAssignCsv, planPortalAssign } from "../lib/assign";
 
 describe("endOfMonthISO (mandatory default due date)", () => {
   it("returns the last day of the current month", () => {
@@ -57,5 +57,38 @@ describe("parseAssignCsv (bulk course assignment)", () => {
     const { rows } = parseAssignCsv("name,phone\nJo,077");
     expect(rows.length).toBeGreaterThan(0);
     expect(rows.every((r) => r.problem)).toBe(true);
+  });
+});
+
+describe("planPortalAssign (portal assignments always carry a due date)", () => {
+  const base = { userIds: ["u1", "u2"], courseIds: ["c1"], defaultDue: "2026-09-30", nowIso: "2026-09-27T20:00:00Z" };
+
+  it("a new enrolment with no date sent gets the end-of-month default", () => {
+    const p = planPortalAssign({ ...base, existing: [], dueDateSent: null });
+    expect(p.inserts).toEqual([
+      { user_id: "u1", course_id: "c1", due_date: "2026-09-30", assigned_at: base.nowIso },
+      { user_id: "u2", course_id: "c1", due_date: "2026-09-30", assigned_at: base.nowIso },
+    ]);
+    expect(p.dueUpdates).toEqual([]);
+  });
+
+  it("re-assigning without a date never wipes an existing due date, and fills a missing one", () => {
+    const p = planPortalAssign({
+      ...base, dueDateSent: null,
+      existing: [
+        { id: "e1", user_id: "u1", course_id: "c1", due_date: "2026-08-31" },
+        { id: "e2", user_id: "u2", course_id: "c1", due_date: null },
+      ],
+    });
+    expect(p.inserts).toEqual([]);
+    expect(p.dueUpdates).toEqual([{ id: "e2", due_date: "2026-09-30" }]);
+  });
+
+  it("a date sent on purpose replaces the old one", () => {
+    const p = planPortalAssign({
+      ...base, userIds: ["u1"], dueDateSent: "2026-10-15",
+      existing: [{ id: "e1", user_id: "u1", course_id: "c1", due_date: "2026-08-31" }],
+    });
+    expect(p.dueUpdates).toEqual([{ id: "e1", due_date: "2026-10-15" }]);
   });
 });

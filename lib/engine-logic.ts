@@ -74,3 +74,13 @@ export function daysSince(date: Date | null, now: Date): number {
   if (!date) return Infinity;
   return Math.floor((now.getTime() - date.getTime()) / 86_400_000);
 }
+
+/**
+ * A learner is reminded about every course they were given until it is done
+ * (Saj, 27 Sept 2026: "if they are assigned and never complete — staff
+ * reminded until done"). Before, only not-started or overdue courses were,
+ * so someone halfway through with no due date was never chased.
+ */
+export function needsReminder(status: string): boolean {
+  return status !== "completed";
+}
