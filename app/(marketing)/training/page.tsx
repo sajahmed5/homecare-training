@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Check, GraduationCap, ShieldCheck, Smartphone } from "lucide-react";
 import { CARE_COURSES as COURSES, COURSE_COUNT } from "@/lib/courses";
 import { SERVICES } from "@/lib/services";
@@ -143,6 +144,18 @@ export default function TrainingPage() {
               </div>
               <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-[#134f63]/8">
                 <h3 className="text-xs font-semibold uppercase tracking-wide text-[#0f2f3c]/55">What&apos;s included</h3>
+                {/* The two CQC services have a page of their own now. */}
+                {(service.slug === "mock-cqc-inspections" || service.slug === "management-support") && (
+                  <p className="mt-4 text-sm">
+                    <Link
+                      href="/training/cqc-compliance"
+                      className="font-semibold underline underline-offset-2"
+                      style={{ color: service.color }}
+                    >
+                      CQC training and mock inspections in full →
+                    </Link>
+                  </p>
+                )}
                 <ul className="mt-4 space-y-3">
                   {service.includes.map((item) => (
                     <li key={item} className="flex gap-3 text-sm">

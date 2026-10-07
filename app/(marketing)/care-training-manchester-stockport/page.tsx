@@ -90,6 +90,9 @@ export default function CareTrainingManchesterStockportPage() {
             <PillLink href="/training" tone="ghost">
               See all {COURSE_COUNT} courses
             </PillLink>
+            <PillLink href="/training/cqc-compliance" tone="ghost">
+              CQC training &amp; mock inspections
+            </PillLink>
           </div>
         </div>
       </section>

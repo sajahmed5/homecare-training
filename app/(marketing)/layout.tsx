@@ -82,7 +82,7 @@ export default function MarketingLayout({
               <ul className="mt-3 space-y-2 text-[#0f2f3c]/65">
                 <li><Link href="/training" className="hover:text-[#134f63]">Overview</Link></li>
                 <li><Link href="/training#elearning-training" className="hover:text-[#134f63]">eLearning &amp; mandatory training</Link></li>
-                <li><Link href="/training#mock-cqc-inspections" className="hover:text-[#134f63]">Mock CQC inspections</Link></li>
+                <li><Link href="/training/cqc-compliance" className="hover:text-[#134f63]">CQC training &amp; mock inspections</Link></li>
                 <li><Link href="/training#management-support" className="hover:text-[#134f63]">Management support</Link></li>
                 <li><Link href="/training/pricing" className="hover:text-[#134f63]">Pricing</Link></li>
                 <li><Link href="/verify" className="hover:text-[#134f63]">Verify a certificate</Link></li>
