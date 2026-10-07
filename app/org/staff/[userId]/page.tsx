@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { BookOpen, Clock, CheckCircle2, AlertTriangle } from "lucide-react";
+import { BookOpen, Clock, CheckCircle2, AlertTriangle, Download, FileArchive } from "lucide-react";
 import { requireRole } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { DashboardShell } from "@/components/dashboard-shell";
@@ -15,6 +15,8 @@ import {
 import { learnerStats } from "@/lib/learner-data";
 import { NudgeButton } from "../../nudge-button";
 import { UnassignButton } from "../../unassign-button";
+import { AssignToPerson } from "./assign-to-person";
+import { endOfMonthISO } from "@/lib/assign";
 import { isOverdue, isAssessmentDue, expiryFlag } from "@/lib/engine-logic";
 import {
   loadOrgLearnerTraining,
@@ -43,13 +45,21 @@ function statusVariant(e: OrgEnrolment, now: Date): StatusVariant {
   return "assigned";
 }
 
+/** Which courses the list below shows — the tiles switch between these. */
+type Show = "all" | "in_progress" | "completed" | "overdue";
+const SHOWS: Show[] = ["all", "in_progress", "completed", "overdue"];
+
 export default async function StaffDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ userId: string }>;
+  searchParams: Promise<{ show?: string }>;
 }) {
   const context = await requireRole("org_admin");
   const { userId } = await params;
+  const { show: showParam } = await searchParams;
+  const show: Show = SHOWS.includes(showParam as Show) ? (showParam as Show) : "all";
 
   const supabase = await createClient();
   const { profile, enrolments, certificates, assessments } =
@@ -71,6 +81,40 @@ export default async function StaffDetailPage({
   const canRemind =
     profile.status !== "deactivated" &&
     (!profile.last_seen_at || stats.completed < stats.assigned);
+
+  // The tiles are links: clicking "Overdue" shows only the overdue courses
+  // rather than leaving the manager to find them among twenty (Saj, 7 Oct).
+  const shownEnrolments = enrolments.filter((e) => {
+    switch (show) {
+      case "overdue":
+        return isOverdue(e.due_date, e.status, now);
+      case "completed":
+        return e.status === "completed";
+      case "in_progress":
+        return e.status === "in_progress" || isAssessmentDue(e.status, e.progress);
+      default:
+        return true;
+    }
+  });
+  const SHOW_LABEL: Record<Show, string> = {
+    all: "Courses",
+    in_progress: "In progress",
+    completed: "Completed",
+    overdue: "Overdue",
+  };
+
+  // Everything in the library, flagged with what they already have, so a
+  // manager can give this carer one more course without leaving the page.
+  const { data: libraryRows } = await supabase
+    .from("courses")
+    .select("id, title")
+    .order("title");
+  const assignedIds = new Set(enrolments.map((e) => e.course_id));
+  const library = (libraryRows ?? []).map((c) => ({
+    id: c.id as string,
+    title: c.title as string,
+    already: assignedIds.has(c.id as string),
+  }));
 
   // Newest certificate per course (list is already issued_at desc).
   const certByCourse = new Map<string, (typeof certificates)[number]>();
@@ -120,26 +164,86 @@ export default async function StaffDetailPage({
 
         {/* At-a-glance tiles */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          <StatTile label="Assigned" value={stats.assigned} icon={BookOpen} color="#6366f1" />
-          <StatTile label="In progress" value={stats.inProgress} icon={Clock} color="#f59e0b" />
-          <StatTile label="Completed" value={stats.completed} icon={CheckCircle2} color="#10b981" />
-          <StatTile label="Overdue" value={stats.overdue} icon={AlertTriangle} color="#ef4444" />
+          <StatTile
+            label="Assigned"
+            value={stats.assigned}
+            icon={BookOpen}
+            color="#6366f1"
+            href={`/org/staff/${userId}#courses`}
+            hint={show === "all" ? "Showing all" : "Show all"}
+          />
+          <StatTile
+            label="In progress"
+            value={stats.inProgress}
+            icon={Clock}
+            color="#f59e0b"
+            href={`/org/staff/${userId}?show=in_progress#courses`}
+            hint={show === "in_progress" ? "Showing these" : undefined}
+          />
+          <StatTile
+            label="Completed"
+            value={stats.completed}
+            icon={CheckCircle2}
+            color="#10b981"
+            href={`/org/staff/${userId}?show=completed#courses`}
+            hint={show === "completed" ? "Showing these" : undefined}
+          />
+          <StatTile
+            label="Overdue"
+            value={stats.overdue}
+            icon={AlertTriangle}
+            color="#ef4444"
+            href={`/org/staff/${userId}?show=overdue#courses`}
+            hint={show === "overdue" ? "Showing these" : undefined}
+          />
         </div>
 
+        {certificates.length > 0 && (
+          <a
+            href={`/org/certificates/pack?userId=${userId}`}
+            className="inline-flex min-h-11 items-center gap-2 rounded-full border px-4 text-sm font-medium transition-colors hover:bg-accent sm:min-h-9"
+          >
+            <FileArchive className="size-4" />
+            Download all {certificates.length} certificates (ZIP)
+          </a>
+        )}
+
+        {profile.role === "learner" && profile.status !== "deactivated" && (
+          <AssignToPerson
+            userId={userId}
+            name={name}
+            courses={library}
+            defaultDueDate={endOfMonthISO()}
+          />
+        )}
+
         {/* Per-course breakdown */}
-        <div className="space-y-2">
-          <h3 className="text-sm font-semibold text-muted-foreground">
-            Courses ({enrolments.length})
-          </h3>
-          {enrolments.length === 0 ? (
+        <div id="courses" className="scroll-mt-24 space-y-2">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="text-sm font-semibold text-muted-foreground">
+              {SHOW_LABEL[show]} ({shownEnrolments.length}
+              {show === "all" ? "" : ` of ${enrolments.length}`})
+            </h3>
+            {show !== "all" && (
+              <Link
+                href={`/org/staff/${userId}#courses`}
+                className="inline-flex min-h-11 items-center text-sm font-medium text-primary hover:underline sm:min-h-0"
+              >
+                Show all courses
+              </Link>
+            )}
+          </div>
+          {shownEnrolments.length === 0 ? (
             <Card>
               <CardContent className="py-8 text-center text-sm text-muted-foreground">
-                No training assigned to this person yet.
+                {show === "all"
+                  ? "No training assigned to this person yet."
+                  : `Nothing ${SHOW_LABEL[show].toLowerCase()} for this person.`}
               </CardContent>
             </Card>
           ) : (
             <div className="space-y-3">
-              {enrolments.map((e) => {
+              {shownEnrolments.map((e) => {
                 const a = assessments.get(e.course_id);
                 const cert = certByCourse.get(e.course_id);
                 const pct = e.status === "completed" ? 100 : e.progress;
@@ -261,6 +365,13 @@ export default async function StaffDetailPage({
                               ? `expires ${fmtDate(cert.expires_at)}`
                               : "no expiry"}
                           </span>
+                          <a
+                            href={`/org/certificates/${cert.id}/download`}
+                            className="inline-flex min-h-11 items-center gap-1 font-medium text-primary hover:underline sm:min-h-0"
+                          >
+                            <Download className="size-3.5" />
+                            Download PDF
+                          </a>
                         </div>
                       )}
                     </CardContent>

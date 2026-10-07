@@ -384,6 +384,8 @@ export async function assignTrainingAction(
   revalidatePath("/org/learners");
   revalidatePath("/org/learners/admin");
   revalidatePath("/learn");
+  // Assigning from a carer's own page: refresh that page too.
+  for (const uid of userIds) revalidatePath(`/org/staff/${uid}`);
   return {
     ok: true,
     count: rows.length,
