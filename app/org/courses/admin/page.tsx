@@ -64,7 +64,7 @@ export default async function CoursesAdminPage() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <BulkAssign />
+          <BulkAssign courseTitles={(courses ?? []).map((c) => c.title as string)} />
         </CardContent>
       </Card>
     </div>

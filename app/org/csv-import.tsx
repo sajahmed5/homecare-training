@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState, useState } from "react";
+import { xlsxToCsv } from "@/lib/xlsx";
 import { Button } from "@/components/ui/button";
 import { bulkInviteStaffAction, type BulkState } from "./actions";
 
@@ -117,29 +118,43 @@ export function CsvImport() {
     {} as BulkState,
   );
 
+  /** Read a .csv, or the first sheet of an .xlsx, into rows. */
+  async function readFile(file: File): Promise<{ text?: string; problem?: string }> {
+    const isExcel =
+      /\.xlsx$/i.test(file.name) ||
+      file.type === "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+    if (isExcel) {
+      const sheet = await xlsxToCsv(await file.arrayBuffer());
+      return { text: sheet.csv, problem: sheet.problem };
+    }
+    if (/\.xls$/i.test(file.name)) {
+      return {
+        problem:
+          "That's an old Excel file (.xls). In Excel choose File → Save As and pick .xlsx or .csv.",
+      };
+    }
+    const text = await file.text();
+    // A zip header means an Excel file wearing a .csv name.
+    if (text.startsWith("PK")) {
+      const r = await xlsxToCsv(await file.arrayBuffer());
+      return { text: r.csv, problem: r.problem };
+    }
+    return { text };
+  }
+
   function onFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     setRows([]);
     setFileProblem(null);
     if (!file) return;
-
-    // Excel workbooks are zip files — catch them before they parse as noise.
-    if (/\.xlsx?$/i.test(file.name)) {
-      setFileProblem(
-        "That's an Excel file. In Excel choose File → Save As → CSV, then upload the .csv.",
-      );
-      return;
-    }
-    file.text().then((text) => {
-      if (text.startsWith("PK")) {
-        setFileProblem(
-          "That's an Excel file. In Excel choose File → Save As → CSV, then upload the .csv.",
-        );
+    readFile(file).then(({ text, problem }) => {
+      if (problem || text === undefined) {
+        setFileProblem(problem ?? "That file couldn't be read.");
         return;
       }
-      const { rows: parsed, problem } = parseCsv(text);
+      const { rows: parsed, problem: parseProblem } = parseCsv(text);
       setRows(parsed);
-      setFileProblem(problem ?? null);
+      setFileProblem(parseProblem ?? null);
     });
   }
 
@@ -163,22 +178,23 @@ export function CsvImport() {
   return (
     <form action={formAction} className="space-y-4">
       <p className="text-sm text-muted-foreground">
-        Download the template, fill in one row per person (role is{" "}
-        <code>learner</code> or <code>org_admin</code>), then upload it here.
-        Each person is emailed an invite.
+        Download the template, fill in one row per person, then upload it
+        here as a CSV or an Excel file. Each person is emailed an invite. The
+        role column takes <code>learner</code> (leave it blank for this) or{" "}
+        <code>org_admin</code> for someone who manages training.
       </p>
 
       <button
         type="button"
         onClick={downloadTemplate}
-        className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
+        className="inline-flex min-h-11 items-center rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent sm:min-h-0"
       >
-        Download template CSV
+        Download template (CSV)
       </button>
 
       <input
         type="file"
-        accept=".csv,text/csv"
+        accept=".csv,.xlsx,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         onChange={onFile}
         className="block text-sm"
       />
