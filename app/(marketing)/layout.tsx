@@ -86,6 +86,7 @@ export default function MarketingLayout({
                 <li><Link href="/training#management-support" className="hover:text-[#134f63]">Management support</Link></li>
                 <li><Link href="/training/pricing" className="hover:text-[#134f63]">Pricing</Link></li>
                 <li><Link href="/verify" className="hover:text-[#134f63]">Verify a certificate</Link></li>
+                <li><Link href="/care-training-manchester-stockport" className="hover:text-[#134f63]">Care training in Manchester &amp; Stockport</Link></li>
               </ul>
             </div>
 

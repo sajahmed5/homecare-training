@@ -107,7 +107,11 @@ export default function Home() {
               {COURSES} CQC-aligned home care courses your carers finish on
               their phones, certificates anyone can verify, and a compliance
               position you can show an inspector the moment they ask. Built in
-              Stockport by a care company.
+              Stockport by a care company — see{" "}
+              <Link href="/care-training-manchester-stockport" className="font-semibold text-[#1d6f8a] underline underline-offset-2">
+                care training across Greater Manchester
+              </Link>
+              .
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <PillLink href="mailto:hello@mycareacademy.co.uk?subject=Demo%20request">

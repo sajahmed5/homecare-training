@@ -9,6 +9,7 @@ import { SITE_URL } from "@/components/structured-data";
 const PAGES: { path: string; changeFrequency: "monthly" | "yearly"; priority: number }[] = [
   { path: "", changeFrequency: "monthly", priority: 1 },
   { path: "/training", changeFrequency: "monthly", priority: 0.9 },
+  { path: "/care-training-manchester-stockport", changeFrequency: "monthly", priority: 0.9 },
   { path: "/training/pricing", changeFrequency: "monthly", priority: 0.8 },
   { path: "/verify", changeFrequency: "yearly", priority: 0.5 },
   { path: "/privacy", changeFrequency: "yearly", priority: 0.1 },

@@ -68,6 +68,24 @@ export function OrganisationLd() {
   );
 }
 
+/**
+ * The same business, stated on the page whose subject is the place. Local
+ * results lean on an address being on the page it belongs to, not only in a
+ * site-wide graph.
+ */
+export function LocalBusinessLd() {
+  return (
+    <Ld
+      data={{
+        "@context": "https://schema.org",
+        ...ORGANISATION,
+        "@id": `${SITE_URL}/care-training-manchester-stockport#localbusiness`,
+        name: "My Care Academy — care training, Stockport",
+      }}
+    />
+  );
+}
+
 /** The course catalogue, so the titles themselves can surface in search. */
 export function CourseListLd({ courses }: { courses: readonly string[] }) {
   return (
