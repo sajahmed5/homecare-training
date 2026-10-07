@@ -98,7 +98,7 @@ export default function Home() {
               Care training · Stockport &amp; Greater Manchester · since 2002
             </div>
             <h1 className="font-display mt-4 text-balance text-4xl font-bold leading-[1.02] tracking-tight text-[#0f2f3c] sm:text-6xl">
-              Home care and carer training, written by people who{" "}
+              Care training, written by people who{" "}
               <span className="bg-gradient-to-r from-[#1d6f8a] to-[#3a9fc4] bg-clip-text text-transparent">
                 still do the visits.
               </span>
