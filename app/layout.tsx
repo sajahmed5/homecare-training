@@ -47,6 +47,9 @@ export const metadata: Metadata = {
   description:
     "59 CQC-aligned care courses your carers finish on their phones, certificates anyone can verify, and compliance records ready for inspection. Built by a care company since 2002.",
   alternates: { canonical: "/" },
+  // Proves to Google that we own the site, so Search Console will accept the
+  // sitemap (added 7 Oct 2026, Yellow Loaf's Search Console account).
+  verification: { google: "3ZiILkDbj5hcR2UhqP3xh-AuhtLn8l9TbdDd0dz-5l4" },
   openGraph: {
     type: "website",
     locale: "en_GB",
