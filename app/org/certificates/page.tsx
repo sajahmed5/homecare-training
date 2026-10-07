@@ -8,6 +8,7 @@ import {
   type OrgCertificateRow,
 } from "@/lib/certificates";
 import { CertificatesTable } from "./certificates-table";
+import { StatusKey } from "../status-key";
 
 type Tab = "attention" | "expired" | "due_30" | "due_60" | "all";
 
@@ -85,6 +86,7 @@ export default async function OrgCertificatesPage({
           rows={shown}
           filename={`${organisation?.name ?? "org"}-certificates.csv`}
         />
+        <StatusKey kind="certificates" />
       </div>
     </DashboardShell>
   );

@@ -1,3 +1,4 @@
+import { StatusKey } from "../../status-key";
 import { requireRole } from "@/lib/auth";
 import {
   AssignedTrainingTable,
@@ -32,6 +33,7 @@ export default async function LearnersStatisticsPage({
         status={trainingStatus}
         baseHref="/org/learners/statistics"
       />
+      <StatusKey kind="training" />
     </section>
   );
 }

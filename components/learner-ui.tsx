@@ -47,7 +47,9 @@ const STATUS: Record<StatusVariant, { label: string; className: string }> = {
   in_progress: { label: "In progress", className: "bg-amber-100 text-amber-700" },
   assessment_due: { label: "Assessment due", className: "bg-indigo-100 text-indigo-700" },
   overdue: { label: "Overdue", className: "bg-rose-100 text-rose-700" },
-  assigned: { label: "On time", className: "bg-emerald-100 text-emerald-700" },
+  // "Not started", like every other screen: this used to say "On time" for
+  // exactly the enrolment the assigned-training table called Not started.
+  assigned: { label: "Not started", className: "bg-slate-100 text-slate-700" },
   not_enrolled: { label: "Not enrolled", className: "bg-slate-100 text-slate-500" },
 };
 
