@@ -43,12 +43,20 @@ export default async function CourseStatisticsPage({
               this course.
             </p>
           </div>
-          <Link
-            href="/org/courses/statistics"
-            className="rounded-full border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
-          >
-            Show all courses
-          </Link>
+          <div className="flex flex-wrap items-center gap-2">
+            <a
+              href={`/org/certificates/pack?course=${course}`}
+              className="inline-flex min-h-11 items-center rounded-full border px-3 text-sm font-medium transition-colors hover:bg-accent sm:min-h-9"
+            >
+              Certificates for this course (ZIP)
+            </a>
+            <Link
+              href="/org/courses/statistics"
+              className="inline-flex min-h-11 items-center rounded-full border px-3 text-sm font-medium transition-colors hover:bg-accent sm:min-h-9"
+            >
+              Show all courses
+            </Link>
+          </div>
         </div>
       )}
       <CourseEnrolmentsTable

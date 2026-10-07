@@ -108,7 +108,7 @@ export async function DashboardShell({
 
       {/* Main column */}
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="sticky top-0 z-10 flex items-center justify-between gap-3 border-b bg-card/85 px-4 py-3 backdrop-blur sm:px-6">
+        <header data-print="hide" className="sticky top-0 z-10 flex items-center justify-between gap-3 border-b bg-card/85 px-4 py-3 backdrop-blur sm:px-6">
           <div className="flex min-w-0 items-center gap-3">
             <div className="inline-flex rounded bg-white px-2 py-1 shadow-sm md:hidden">
               <Logo width={104} />
@@ -145,7 +145,7 @@ export async function DashboardShell({
         </header>
 
         {/* Mobile nav strip */}
-        <div className="min-w-0 bg-sidebar px-3 py-2 md:hidden">
+        <div data-print="hide" className="min-w-0 bg-sidebar px-3 py-2 md:hidden">
           <SidebarNav role={context.role} orientation="horizontal" badges={badges} enabled={addOns} />
         </div>
 

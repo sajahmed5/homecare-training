@@ -124,7 +124,7 @@ export function ReportWidget() {
   }
 
   return (
-    <div ref={rootRef}>
+    <div ref={rootRef} data-print="hide">
       {/* Floating trigger — every role, every console page. */}
       {!open && (
         <button

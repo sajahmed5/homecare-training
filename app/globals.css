@@ -163,3 +163,43 @@
     transform: scale(1.35);
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Printing (7 Oct 2026). Managers were exporting a spreadsheet and printing
+   that, because printing a page gave them the sidebar, the nav and the Report
+   button across the paper. Print what's on the page: the content, in black on
+   white, with the table borders that make it readable.
+   --------------------------------------------------------------------------- */
+@media print {
+  /* Chrome and Safari drop background colours by default; keep the few that
+     carry meaning (status pills) rather than printing white on white. */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Furniture that means nothing on paper. */
+  aside,
+  [data-slot="sidebar"],
+  [data-print="hide"],
+  header form,
+  /* Controls, but not the sort buttons that carry the column headings. */
+  button:not([data-print="keep"]):not(thead button) {
+    display: none !important;
+  }
+
+  body { background: #fff; }
+
+  main { padding: 0 !important; }
+
+  /* Let long tables break across pages without cutting a row in half. */
+  table { width: 100%; border-collapse: collapse; font-size: 11pt; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; break-inside: avoid; }
+  th, td { border-bottom: 1px solid #ccc; padding: 4px 6px; }
+
+  /* Scroll containers must not clip to a screen-sized window on paper. */
+  .overflow-x-auto, .overflow-y-auto, [class*="max-h-"] {
+    overflow: visible !important;
+    max-height: none !important;
+  }
+
+  a[href]::after { content: ""; }
+}

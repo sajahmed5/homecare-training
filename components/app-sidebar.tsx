@@ -38,7 +38,7 @@ export function AppSidebar({
   }
 
   return (
-    <aside
+    <aside data-print="hide"
       className={cn(
         "hidden shrink-0 flex-col bg-sidebar text-sidebar-foreground transition-[width] duration-200 md:flex",
         collapsed ? "w-16" : "w-60",
