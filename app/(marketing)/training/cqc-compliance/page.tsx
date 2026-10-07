@@ -223,7 +223,15 @@ export default function CqcCompliancePage() {
           ))}
         </dl>
         <p className="mt-6 text-sm text-[#0f2f3c]/65">
-          Based in Stockport and working across Greater Manchester —{" "}
+          Also worth reading:{" "}
+          <Link href="/training/mandatory-training" className="font-semibold text-[#1d6f8a] underline underline-offset-2">
+            mandatory training for care staff
+          </Link>{" "}
+          and{" "}
+          <Link href="/training/care-certificate" className="font-semibold text-[#1d6f8a] underline underline-offset-2">
+            Care Certificate training
+          </Link>
+          . Based in Stockport and working across Greater Manchester —{" "}
           <Link href="/care-training-manchester-stockport" className="font-semibold text-[#1d6f8a] underline underline-offset-2">
             see care training near you
           </Link>
