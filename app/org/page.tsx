@@ -115,8 +115,10 @@ export default async function OrgDashboard() {
       key: "due_soon",
       tone: "warn" as const,
       text: `Training due in the next 60 days: ${nameList(dueSoonRows)}.`,
-      href: "/org/learners/statistics",
-      action: <ChooseWhoLink href="/org/learners?filter=in_progress#learners" />,
+      // Both links go to the same people the sentence names. They used to
+      // point at an unfiltered table and a different filter respectively.
+      href: "/org/learners?filter=due_soon#learners",
+      action: <ChooseWhoLink href="/org/learners?filter=due_soon#learners" />,
     },
     totals.expiring > 0 && {
       key: "expiring",
@@ -149,8 +151,8 @@ export default async function OrgDashboard() {
             Learners
           </h2>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <StatTile label="Active learners" value={activeLearners} icon={Users} color="#0284c7" href="/org/learners" />
-            <StatTile label="Inactive 30d+" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners?filter=inactive#learners" />
+            <StatTile label="Active learners" value={activeLearners} icon={Users} color="#0284c7" href="/org/learners?filter=signed_in#learners" />
+            <StatTile label="Not signed in for a month" value={inactive} icon={MoonStar} color="#8b5cf6" href="/org/learners?filter=inactive#learners" />
             <StatTile label="Never signed in" value={neverActive} icon={UserRoundX} color="#e11d48" href="/org/learners?filter=never#learners" />
             <StatTile label="In progress" value={inProgress} icon={Clock} color="#f59e0b" href="/org/learners?filter=in_progress#learners" />
             <StatTile label="With overdue" value={withOverdue} icon={AlertTriangle} color="#e11d48" href="/org/learners?filter=overdue#learners" />

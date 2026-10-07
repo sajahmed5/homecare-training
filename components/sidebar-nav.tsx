@@ -55,8 +55,8 @@ const NAV: Record<string, NavItem[]> = {
       icon: Users,
       children: [
         { href: "/org/learners", label: "Overview" },
-        { href: "/org/learners/statistics", label: "Statistics" },
-        { href: "/org/learners/admin", label: "Admin" },
+        { href: "/org/learners/statistics", label: "Every assignment" },
+        { href: "/org/learners/admin", label: "Add & invite staff" },
       ],
     },
     {
@@ -65,15 +65,15 @@ const NAV: Record<string, NavItem[]> = {
       icon: BookOpen,
       children: [
         { href: "/org/courses", label: "Overview" },
-        { href: "/org/courses/statistics", label: "Statistics" },
-        { href: "/org/courses/admin", label: "Admin" },
+        { href: "/org/courses/statistics", label: "Time taken" },
+        { href: "/org/courses/admin", label: "Assign training" },
       ],
     },
     { href: "/org/certificates", label: "Certificates", icon: Award },
     { href: "/org/forms", label: "Forms", icon: FileText, flag: "forms_enabled" },
     { href: "/org/recruitment", label: "Recruitment", icon: Briefcase, flag: "recruitment_enabled" },
-    { href: "/org/observations", label: "CC assessment", icon: ClipboardCheck, flag: "observations_enabled" },
-    { href: "/org/reports", label: "Reports", icon: FileBarChart },
+    { href: "/org/observations", label: "Care Certificate", icon: ClipboardCheck, flag: "observations_enabled" },
+    { href: "/org/reports", label: "Evidence & exports", icon: FileBarChart },
     { href: "/org/billing", label: "Account", icon: CreditCard },
   ],
   learner: [

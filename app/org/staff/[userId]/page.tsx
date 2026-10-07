@@ -80,10 +80,10 @@ export default async function StaffDetailPage({
     <DashboardShell title={name} context={context}>
       <div className="mx-auto max-w-4xl space-y-6">
         <Link
-          href="/org"
+          href="/org/learners#learners"
           className="text-sm text-muted-foreground hover:underline"
         >
-          ← All staff
+          ← All learners
         </Link>
 
         {/* Learner header */}

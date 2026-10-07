@@ -63,7 +63,7 @@ export default async function FormsPage() {
                     <span className="flex items-center gap-2">
                       <span className="font-medium">{f.title}</span>
                       <Badge variant={f.status === "published" ? "secondary" : "destructive"}>
-                        {f.status}
+                        {f.status === "published" ? "Published" : "Draft"}
                       </Badge>
                     </span>
                     <span className="flex gap-2">

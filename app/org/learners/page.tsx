@@ -32,6 +32,8 @@ const FILTERS: Filter[] = [
   "deactivated",
   "inactive",
   "never",
+  "due_soon",
+  "signed_in",
 ];
 
 /**
@@ -89,7 +91,7 @@ export default async function LearnersOverviewPage({
           href="/org/learners#learners"
         />
         <StatTile
-          label="Inactive 30d+"
+          label="Not signed in for a month"
           value={inactive}
           icon={MoonStar}
           color="#8b5cf6"

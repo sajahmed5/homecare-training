@@ -33,6 +33,18 @@ function fmtDate(iso: string | null): string {
  * payment summary, and account admin. Plan changes are owner-only, so there
  * is deliberately no upgrade/downgrade UI here (design doc v2).
  */
+/** Stripe's words, in the manager's words. */
+const SUB_STATUS: Record<string, string> = {
+  trialing: "Free trial",
+  active: "Active",
+  past_due: "Payment failed",
+  canceled: "Cancelled",
+  unpaid: "Unpaid",
+  incomplete: "Setup not finished",
+  incomplete_expired: "Setup expired",
+  paused: "Paused",
+};
+
 export default async function AccountPage() {
   const context = await requireRole("org_admin");
 
@@ -106,7 +118,7 @@ export default async function AccountPage() {
               {org?.subscription_status ? (
                 <>
                   {" · "}
-                  <Badge variant="secondary">{org.subscription_status}</Badge>
+                  <Badge variant="secondary">{SUB_STATUS[org.subscription_status] ?? org.subscription_status}</Badge>
                 </>
               ) : (
                 " · no active subscription"
