@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { GraduationCap, ShieldCheck, Users } from "lucide-react";
 import { PACKAGE_TIERS, TIER_DETAILS } from "@/lib/organisations";
 import TierCards from "./tier-cards";
 import { Arrow, CtaBand, H2, PillLink, Section } from "../../ui";
+import { BreadcrumbLd, FaqLd } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Training pricing — My Care Academy",
+  title: "Care training pricing — unlimited learners | My Care Academy",
   description:
-    "Plans for My Care Academy Training: CQC-aligned e-learning with verifiable certificates, forms, recruitment compliance and Care Certificate assessment. Unlimited learners on every plan.",
+    "One monthly price per care service, unlimited learners and admins. 59 CQC-aligned care courses and verifiable certificates included.",
+  alternates: { canonical: "/training/pricing" },
 };
 
 // PROPOSED monthly prices per organisation (9 Sept 2026) — Stripe holds the
@@ -32,6 +35,13 @@ const FAQ: [string, string][] = [
 export default function TrainingPricingPage() {
   return (
     <>
+      <FaqLd qa={FAQ} />
+      <BreadcrumbLd
+        trail={[
+          { name: "Care training courses", path: "/training" },
+          { name: "Pricing", path: "/training/pricing" },
+        ]}
+      />
       <section className="mca-day -mt-24 px-4 pb-10 pt-32 sm:pt-40">
         <div className="mx-auto max-w-6xl">
           <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#b7791f]">
@@ -84,7 +94,7 @@ export default function TrainingPricingPage() {
 
       <Section>
         <div className="mx-auto max-w-3xl">
-          <H2 className="text-center">Questions people ask</H2>
+          <H2 className="text-center">Care training pricing — questions people ask</H2>
           <dl className="mt-8 divide-y divide-[#134f63]/10">
             {FAQ.map(([q, a]) => (
               <div key={q} className="py-5">
@@ -94,6 +104,20 @@ export default function TrainingPricingPage() {
             ))}
           </dl>
         </div>
+      </Section>
+
+      <Section className="pt-0">
+        <p className="text-center text-sm text-[#0f2f3c]/65">
+          See the{" "}
+          <Link href="/training" className="font-semibold text-[#8a4d0c] underline underline-offset-2">
+            full course library
+          </Link>{" "}
+          or{" "}
+          <Link href="/verify" className="font-semibold text-[#8a4d0c] underline underline-offset-2">
+            check a certificate
+          </Link>
+          .
+        </p>
       </Section>
 
       <CtaBand

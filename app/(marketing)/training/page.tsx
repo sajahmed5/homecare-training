@@ -4,11 +4,13 @@ import { CARE_COURSES as COURSES, COURSE_COUNT } from "@/lib/courses";
 import { SERVICES } from "@/lib/services";
 import { tint } from "@/lib/topic-theme";
 import { Arrow, Chip, CtaBand, H2, PillLink, Section } from "../ui";
+import { BreadcrumbLd, CourseListLd } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Training — My Care Academy",
+  title: "Care training courses — 59 CQC-aligned courses | My Care Academy",
   description:
-    "Mandatory e-learning with verifiable certificates, mock CQC inspections, management and governance support, ISO standards guidance and recruitment support for UK care providers.",
+    "59 CQC-aligned care training courses for home care and care homes: mandatory e-learning, verifiable certificates and mock CQC inspections.",
+  alternates: { canonical: "/training" },
 };
 
 // Warm daylight, amber accent, a certificate you could hold (Saj, 9 Sept
@@ -21,6 +23,8 @@ export const metadata: Metadata = {
 export default function TrainingPage() {
   return (
     <>
+      <CourseListLd courses={COURSES} />
+      <BreadcrumbLd trail={[{ name: "Care training courses", path: "/training" }]} />
       <section className="mca-day -mt-24 px-4 pb-16 pt-32 sm:pt-40">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[1.1fr_1fr]">
           <div>

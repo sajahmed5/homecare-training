@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Caveat, Inter, JetBrains_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 import { CookieConsent } from "@/components/cookie-consent";
+import { OrganisationLd } from "@/components/structured-data";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,8 +46,10 @@ export const metadata: Metadata = {
   },
   description:
     "59 CQC-aligned care courses your carers finish on their phones, certificates anyone can verify, and compliance records ready for inspection. Built by a care company since 2002.",
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
+    locale: "en_GB",
     siteName: "My Care Academy",
     url: siteUrl,
     title: "Care training software for UK care providers — My Care Academy",
@@ -69,10 +72,11 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${inter.variable} ${mono.variable} ${outfit.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <OrganisationLd />
         {children}
         <CookieConsent />
       </body>

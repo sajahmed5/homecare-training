@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -20,6 +21,12 @@ import { Arrow, CtaBand, H2, PillLink, Section } from "./ui";
 // captures of the demo organisation (fictional people).
 const COURSES = 59;
 
+export const metadata: Metadata = {
+  title: "Home care & carer training, CQC-aligned — My Care Academy",
+  description:
+    "Home care and carer training for UK providers: 59 CQC-aligned courses, verifiable certificates, inspection-ready records. Stockport, since 2002.",
+  alternates: { canonical: "/" },
+};
 
 const TRUST = [
   ["2002", "the year we started in care"],

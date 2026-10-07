@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { createClient } from "@/lib/supabase/server";
@@ -10,8 +11,15 @@ import {
   CardContent,
   CardDescription,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
+
+export const metadata: Metadata = {
+  title: "Verify a care training certificate — My Care Academy",
+  description:
+    "Check that a My Care Academy care training certificate is genuine. Enter the certificate number to see the course, the holder and the dates.",
+  alternates: { canonical: "/verify" },
+};
+
 
 interface VerifyRow {
   valid: boolean;
@@ -61,7 +69,10 @@ export default async function VerifyPage({
     <main className="flex flex-1 flex-col items-center justify-center px-6 py-16">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle>Verify a certificate</CardTitle>
+          {/* A real h1: the page is indexed, and CardTitle renders a div. */}
+          <h1 className="text-lg font-semibold leading-none">
+            Verify a care training certificate
+          </h1>
           <CardDescription>
             Enter a certificate number to confirm it&apos;s genuine.
           </CardDescription>

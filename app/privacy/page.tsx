@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — My Care Academy",
+  description:
+    "How My Care Academy handles personal data for care providers, learners and certificate checks.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {

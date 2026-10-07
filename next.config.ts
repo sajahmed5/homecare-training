@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
     return [
       { source: "/rostering", destination: "https://myroster.care", permanent: true },
       { source: "/rostering/:path*", destination: "https://myroster.care", permanent: true },
+      // /services became /training on 9 Sept 2026; a 301 passes the ranking on.
+      { source: "/services", destination: "/training", permanent: true },
     ];
   },
 
