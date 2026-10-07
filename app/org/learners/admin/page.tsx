@@ -198,7 +198,7 @@ export default async function LearnersAdminPage() {
                           <span className="text-xs text-muted-foreground">You</span>
                         ) : (
                           <span className="inline-flex items-center gap-2">
-                            <StatusToggle userId={u.id} status={status} />
+                            <StatusToggle userId={u.id} status={status} name={u.full_name || u.email} />
                             <DeleteStaffButton
                               userId={u.id}
                               name={u.full_name || u.email}
@@ -237,18 +237,25 @@ export default async function LearnersAdminPage() {
                         status === "deactivated" ? "destructive" : "secondary"
                       }
                     >
-                      {status}
+                      {/* Same words as the desktop table — the mobile card was
+                          printing the raw "active"/"deactivated" (issue #39). */}
+                      {status === "deactivated" ? "Deactivated" : "Enabled"}
                     </Badge>
                   </div>
                   <div className="mt-2 flex items-center justify-between gap-2">
                     <span className="text-xs text-muted-foreground">
-                      {ROLE_LABELS[u.role] ?? u.role}
+                      {ROLE_LABELS[u.role] ?? u.role} ·{" "}
+                      {u.last_seen_at ? (
+                        <>signed in {signedInLabel(u.last_seen_at)}</>
+                      ) : (
+                        <span className="font-medium text-rose-600">never signed in</span>
+                      )}
                     </span>
                     {isSelf ? (
                       <span className="text-xs text-muted-foreground">You</span>
                     ) : (
                       <span className="inline-flex items-center gap-2">
-                        <StatusToggle userId={u.id} status={status} />
+                        <StatusToggle userId={u.id} status={status} name={u.full_name || u.email} />
                         <DeleteStaffButton
                           userId={u.id}
                           name={u.full_name || u.email}

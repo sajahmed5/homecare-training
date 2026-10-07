@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Bell } from "lucide-react";
 import { nudgeLearnerAction } from "./nudge-actions";
 
@@ -46,9 +46,13 @@ export function NudgeButton({
     setDone(res.ok ? (res.skipped ? (res.message ?? "Nothing outstanding") : "Reminded ✓") : (res.error ?? "Failed"));
   }
 
-  if (done) {
-    return <span className="text-xs text-muted-foreground">{done}</span>;
-  }
+  // The button used to be replaced by its result for good, so a manager
+  // working down a list ended up with rows they couldn't re-send from.
+  useEffect(() => {
+    if (!done) return;
+    const t = setTimeout(() => setDone(null), 4000);
+    return () => clearTimeout(t);
+  }, [done]);
 
   return (
     <span className="inline-flex flex-col items-end gap-0.5">
@@ -56,18 +60,20 @@ export function NudgeButton({
         type="button"
         onClick={nudge}
         disabled={busy}
-        className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 font-medium transition-colors hover:bg-accent disabled:opacity-50 ${
+        className={`inline-flex min-h-11 items-center gap-1 rounded-full border px-3 py-1 font-medium transition-colors hover:bg-accent disabled:opacity-50 sm:min-h-0 ${
           size === "xs" ? "text-xs" : "text-sm"
         }`}
       >
         <Bell className="size-3.5" />
         {busy ? "Sending…" : "Remind"}
       </button>
-      {lastRemindedAt && (
+      {done ? (
+        <span className="text-[10px] leading-tight text-muted-foreground">{done}</span>
+      ) : lastRemindedAt ? (
         <span className="text-[10px] leading-tight text-muted-foreground">
           last {ago(lastRemindedAt)}
         </span>
-      )}
+      ) : null}
     </span>
   );
 }
