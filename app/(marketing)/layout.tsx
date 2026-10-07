@@ -4,10 +4,11 @@ import { Logo } from "@/components/logo";
 import { VERSION_LABEL } from "@/lib/version";
 import "./marketing.css";
 
-// Two main products, two main pages (Saj, 9 Sept 2026).
+// Training only (Saj, 7 Oct 2026) — rostering is a separate product on its
+// own domain now and is not mentioned here.
 const NAV = [
-  { href: "/rostering", label: "Rostering" },
   { href: "/training", label: "Training" },
+  { href: "/training/pricing", label: "Pricing" },
   { href: "/verify", label: "Verify a certificate", hideOnMobile: true },
 ];
 
@@ -67,29 +68,17 @@ export default function MarketingLayout({
 
       <footer className="mt-16 border-t border-[#134f63]/10 bg-[#f6fafc]">
         <div className="mx-auto w-full max-w-6xl px-6 py-14 text-sm">
-          <div className="grid gap-10 sm:grid-cols-4">
+          <div className="grid gap-10 sm:grid-cols-3">
             <div>
               <Logo width={140} />
               <p className="mt-4 text-[#0f2f3c]/65">
-                Training, rostering software and management support for UK
-                care providers. Built by people who ran care.
+                CQC-aligned training, verifiable certificates and management
+                support for UK care providers. Built by a care company.
               </p>
             </div>
 
             <div>
-              <h2 className="font-semibold">Rostering</h2>
-              <ul className="mt-3 space-y-2 text-[#0f2f3c]/65">
-                <li><Link href="/rostering" className="hover:text-[#134f63]">Overview</Link></li>
-                <li><Link href="/rostering#carer-app" className="hover:text-[#134f63]">Carer app</Link></li>
-                <li><Link href="/rostering#monitoring" className="hover:text-[#134f63]">Live monitoring</Link></li>
-                <li><Link href="/rostering#finance" className="hover:text-[#134f63]">Finance</Link></li>
-                <li><Link href="/rostering#care-homes" className="hover:text-[#134f63]">Care homes</Link></li>
-                <li><Link href="/rostering/pricing" className="hover:text-[#134f63]">Pricing</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="font-semibold">Training</h2>
+              <p className="font-semibold">Training</p>
               <ul className="mt-3 space-y-2 text-[#0f2f3c]/65">
                 <li><Link href="/training" className="hover:text-[#134f63]">Overview</Link></li>
                 <li><Link href="/training#elearning-training" className="hover:text-[#134f63]">eLearning &amp; mandatory training</Link></li>
@@ -101,7 +90,7 @@ export default function MarketingLayout({
             </div>
 
             <div>
-              <h2 className="font-semibold">Get in touch</h2>
+              <p className="font-semibold">Get in touch</p>
               <ul className="mt-3 space-y-2 text-[#0f2f3c]/65">
                 <li>
                   <a href="mailto:hello@mycareacademy.co.uk" className="hover:text-[#134f63]">

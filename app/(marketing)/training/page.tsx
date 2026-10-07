@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Check, GraduationCap, ShieldCheck, Smartphone } from "lucide-react";
+import { CARE_COURSES as COURSES, COURSE_COUNT } from "@/lib/courses";
 import { SERVICES } from "@/lib/services";
 import { tint } from "@/lib/topic-theme";
 import { Arrow, Chip, CtaBand, H2, PillLink, Section } from "../ui";
@@ -14,10 +15,8 @@ export const metadata: Metadata = {
 // 2026: pages must not all look the same). Content is the SERVICES data the
 // old /services page used; /services now redirects here.
 // Real course titles, from the H5P content library in public/h5p/content.
-// COURSE_COUNT is the published figure the old site used; the folder holds
-// more (some unpublished) — Saj to confirm the true number.
-const COURSE_COUNT = 26;
-const COURSES = ["Accident and Incident Reporting", "Allergen Awareness", "Anxiety Awareness", "Basic Life Support (BLS)", "Behaviours That Challenge", "Care Planning", "Catheter Care", "Communication Skills", "Communication Support", "Complaints Handling", "Concussion Awareness", "Conflict Resolution", "Continence Care", "COSHH", "Depression Awareness", "Diabetes Awareness", "Drugs and Alcohol Awareness", "Duty of Candour", "Duty of Care", "Dyslexia Awareness", "Eating Disorders", "End of Life Care", "Epilepsy Awareness", "Equality Diversity and Inclusion", "Fire Safety", "First Aid Awareness", "Fluids and Nutrition", "Food Hygiene and Nutrition", "Health and Safety", "Infection Prevention and Control", "Information Governance and GDPR", "Introduction to Care", "Learning Disability and Autism", "Legionnaires Disease", "LGBTQ+ Awareness", "Lone Working", "Medication Awareness", "Mental Capacity Act and DoLS", "Mental Health and Dementia", "Modern Slavery", "Moving and Handling", "Oral Care", "Peg Feeding", "Person Centred Care", "Personal Care", "Personal Development", "Positive Behaviour Support", "Privacy and Dignity", "Record Keeping and Documentation", "Risk Assessment", "Safeguarding Adults Level 2", "Safeguarding Children", "Sepsis", "Sexual Harassment Awareness", "Slips Trips and Falls", "Stoma Care", "Stroke Awareness", "Tracheostomy Awareness", "Whistleblowing"];
+
+
 
 export default function TrainingPage() {
   return (
@@ -29,7 +28,7 @@ export default function TrainingPage() {
               <GraduationCap className="size-4" /> My Care Academy Training
             </div>
             <h1 className="font-display mt-4 text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-[#2b1d0e] sm:text-6xl">
-              Training that holds up to an inspection
+              Care training that holds up to an inspection
             </h1>
             <p className="mt-5 max-w-xl text-lg text-[#2b1d0e]/70">
               Mandatory e-learning your carers finish on their phones, certificates
@@ -157,17 +156,17 @@ export default function TrainingPage() {
       <Section tone="deep">
         <div className="grid items-center gap-8 md:grid-cols-[1.2fr_1fr]">
           <div>
-            <H2 className="text-white">Training that feeds the rota</H2>
+            <H2 className="text-white">Evidence without the paperwork</H2>
             <p className="mt-4 text-white/75">
-              Use My Care Academy Rostering as well and every certificate lands in
-              the carer&apos;s record automatically. Overdue and due-soon training
-              shows on the Oversight page, and a carer whose mandatory training has
-              lapsed is flagged before they are rostered.
+              Every pass writes its own certificate, with a number anyone can
+              check. Expiry dates are tracked for you, reminders go out before
+              training lapses, and your whole position exports to CSV when an
+              inspector asks for it.
             </p>
           </div>
           <div className="flex md:justify-end">
-            <PillLink href="/rostering" tone="white">
-              See the rostering system <Arrow />
+            <PillLink href="/verify" tone="white">
+              Verify a certificate <Arrow />
             </PillLink>
           </div>
         </div>

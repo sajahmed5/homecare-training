@@ -23,9 +23,8 @@ const PRICE: Record<string, { monthly: number; highlight?: boolean }> = {
 
 const FAQ: [string, string][] = [
   ["Is there a per-learner charge?", "No. Every plan includes unlimited learners and admin users. You pay one monthly price for your organisation."],
-  ["Which courses are included?", "The full library of 26 CQC-aligned courses, with interactive content, a 20-question assessment and a branded, verifiable certificate for each."],
+  ["Which courses are included?", "The full library of 59 CQC-aligned care courses, with interactive content, a 20-question assessment and a branded, verifiable certificate for each."],
   ["Can carers do the training on their phones?", "Yes. Courses are built for phones first, and most are finished in one sitting."],
-  ["Does training show up in the rostering system?", "If you use My Care Academy Rostering, certificates land in the carer's record automatically and overdue training is counted on the Oversight page."],
   ["Is there a contract?", "Monthly plans can be cancelled at any time. Annual plans get two months free."],
   ["What about mock CQC inspections and management support?", "Those are quoted separately, based on the size of your service. Ask us and we will talk it through."],
 ];
@@ -39,14 +38,14 @@ export default function TrainingPricingPage() {
             <GraduationCap className="size-4" /> Training · pricing
           </div>
           <h1 className="font-display mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.02] tracking-tight text-[#2b1d0e] sm:text-6xl">
-            One price for the whole team
+            One price for the whole team, unlimited learners
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-[#2b1d0e]/70">
             Unlimited learners on every plan. Four plans, from the course library on its own to the complete platform. Prices and plan contents are being finalised.
           </p>
           <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#2b1d0e]/75">
             <li className="inline-flex items-center gap-2"><Users className="size-4 text-[#b7791f]" /> Unlimited learners and admins</li>
-            <li className="inline-flex items-center gap-2"><GraduationCap className="size-4 text-[#b7791f]" /> 26 CQC-aligned courses</li>
+            <li className="inline-flex items-center gap-2"><GraduationCap className="size-4 text-[#b7791f]" /> 59 CQC-aligned courses</li>
             <li className="inline-flex items-center gap-2"><ShieldCheck className="size-4 text-[#b7791f]" /> Certificates verifiable online</li>
           </ul>
         </div>

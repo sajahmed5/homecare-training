@@ -30,11 +30,11 @@ export const SERVICES: Service[] = [
     slug: "elearning-training",
     name: "eLearning & mandatory training",
     summary:
-      "26 CQC-aligned courses with interactive content, assessments and branded certificates.",
+      "59 CQC-aligned courses with interactive content, assessments and branded certificates.",
     intro:
       "Our training library covers the mandatory subjects a care service is expected to evidence, written for UK adult social care rather than adapted from generic corporate e-learning.",
     includes: [
-      "26 courses spanning care fundamentals, safeguarding, health & safety, infection control and governance",
+      "59 courses spanning care fundamentals, safeguarding, health & safety, infection control and governance",
       "Interactive learning — scenarios, flip cards, fill-in-the-blanks and spot-the-hazard exercises",
       "A 20-question assessment per course, marked automatically with an 80% pass mark",
       "Branded certificates issued on completion, each independently verifiable",

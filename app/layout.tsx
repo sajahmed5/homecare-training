@@ -39,17 +39,21 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "")
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "My Care Academy",
+  title: {
+    default: "Care training software for UK care providers — My Care Academy",
+    template: "%s",
+  },
   description:
-    "Compliance-first training platform for the UK care sector — training, certificates and CQC-ready records for care organisations.",
+    "59 CQC-aligned care courses your carers finish on their phones, certificates anyone can verify, and compliance records ready for inspection. Built by a care company since 2002.",
   openGraph: {
     type: "website",
     siteName: "My Care Academy",
     url: siteUrl,
-    title: "My Care Academy",
+    title: "Care training software for UK care providers — My Care Academy",
     description:
-      "Compliance-first training platform for the UK care sector — training, certificates and CQC-ready records for care organisations.",
+      "59 CQC-aligned care courses your carers finish on their phones, certificates anyone can verify, and compliance records ready for inspection.",
   },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {

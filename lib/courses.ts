@@ -1,0 +1,8 @@
+/**
+ * The live course catalogue, by title. Shared by every marketing page that
+ * lists or counts courses, so a new course is added in one place and the
+ * count can never drift from the list (it used to say 26 beside a list of 59).
+ */
+export const CARE_COURSES = ["Accident and Incident Reporting", "Allergen Awareness", "Anxiety Awareness", "Basic Life Support (BLS)", "Behaviours That Challenge", "Care Planning", "Catheter Care", "Communication Skills", "Communication Support", "Complaints Handling", "Concussion Awareness", "Conflict Resolution", "Continence Care", "COSHH", "Depression Awareness", "Diabetes Awareness", "Drugs and Alcohol Awareness", "Duty of Candour", "Duty of Care", "Dyslexia Awareness", "Eating Disorders", "End of Life Care", "Epilepsy Awareness", "Equality Diversity and Inclusion", "Fire Safety", "First Aid Awareness", "Fluids and Nutrition", "Food Hygiene and Nutrition", "Health and Safety", "Infection Prevention and Control", "Information Governance and GDPR", "Introduction to Care", "Learning Disability and Autism", "Legionnaires Disease", "LGBTQ+ Awareness", "Lone Working", "Medication Awareness", "Mental Capacity Act and DoLS", "Mental Health and Dementia", "Modern Slavery", "Moving and Handling", "Oral Care", "Peg Feeding", "Person Centred Care", "Personal Care", "Personal Development", "Positive Behaviour Support", "Privacy and Dignity", "Record Keeping and Documentation", "Risk Assessment", "Safeguarding Adults Level 2", "Safeguarding Children", "Sepsis", "Sexual Harassment Awareness", "Slips Trips and Falls", "Stoma Care", "Stroke Awareness", "Tracheostomy Awareness", "Whistleblowing"] as const;
+
+export const COURSE_COUNT = CARE_COURSES.length;

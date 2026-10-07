@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
   // @react-pdf/renderer is a large native-ish lib; keep it out of the bundle.
   serverExternalPackages: ["@react-pdf/renderer"],
 
+  // Rostering moved to its own product and domain (Saj, 7 Oct 2026). Old
+  // links, bookmarks and search results go there instead of 404ing.
+  async redirects() {
+    return [
+      { source: "/rostering", destination: "https://myroster.care", permanent: true },
+      { source: "/rostering/:path*", destination: "https://myroster.care", permanent: true },
+    ];
+  },
+
   async headers() {
     return [
       // H5P content-type libraries — folders are version-stamped
@@ -42,6 +51,13 @@ const nextConfig: NextConfig = {
       {
         source: "/h5p/assets/:path*",
         headers: [{ key: "Cache-Control", value: "public, max-age=604800" }],
+      },
+      // Marketing screenshots of the product — replaced only on a deploy.
+      // Extension-matched: a bare /training/:path* also matches the pricing
+      // PAGE, which would then sit in public caches for a week.
+      {
+        source: "/training/:path*.(jpg|jpeg|png|svg|webp|gif)",
+        headers: [{ key: "Cache-Control", value: "public, max-age=604800, stale-while-revalidate=86400" }],
       },
       // Quiz hotspot scene images.
       {
