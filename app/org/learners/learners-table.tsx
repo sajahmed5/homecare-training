@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { NudgeButton } from "../nudge-button";
+import { SortHeader, useTableSort } from "@/components/sort-header";
+import { dateColumn, numberColumn, textColumn, type SortColumn } from "@/lib/table-sort";
 import {
   bucketOf,
   isInactive30d,
@@ -40,7 +42,9 @@ export type Filter =
   | "unassigned"
   | "deactivated"
   | "inactive"
-  | "never";
+  | "never"
+  | "due_soon"
+  | "signed_in";
 
 const STATUS_FILTERS: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
@@ -55,9 +59,41 @@ const STATUS_FILTERS: { key: Filter; label: string }[] = [
 // breakdown. Inactive 30d+ means "has logged in, but not for 30+ days" —
 // never-active users have their own pill (issue #15).
 const ACTIVITY_FILTERS: { key: Filter; label: string }[] = [
-  { key: "inactive", label: "Inactive 30d+" },
+  { key: "due_soon", label: "Due in 60 days" },
+  { key: "signed_in", label: "Has signed in" },
+  { key: "inactive", label: "Not signed in for a month" },
   { key: "never", label: "Never active" },
   { key: "deactivated", label: "Deactivated" },
+];
+
+type SortKey =
+  | "learner" | "progress" | "assigned" | "completed" | "inProgress"
+  | "notStarted" | "overdue" | "latest" | "lastAssigned" | "lastActive";
+
+const SORT_COLUMNS: Record<SortKey, SortColumn<OrgLearnerRow>> = {
+  learner: textColumn((r) => r.name),
+  progress: numberColumn((r) => r.stats.overallPct),
+  assigned: numberColumn((r) => r.stats.assigned),
+  completed: numberColumn((r) => r.stats.completed),
+  inProgress: numberColumn((r) => r.stats.inProgress),
+  notStarted: numberColumn((r) => r.stats.notStarted),
+  overdue: numberColumn((r) => r.stats.overdue),
+  latest: dateColumn((r) => r.latestCompleted?.date ?? null),
+  lastAssigned: dateColumn((r) => r.lastAssignedAt),
+  lastActive: dateColumn((r) => r.lastSeenAt),
+};
+
+const HEADINGS: { key: SortKey; label: string }[] = [
+  { key: "learner", label: "Learner" },
+  { key: "progress", label: "Progress" },
+  { key: "assigned", label: "Assigned" },
+  { key: "completed", label: "Completed" },
+  { key: "inProgress", label: "In progress" },
+  { key: "notStarted", label: "Not started" },
+  { key: "overdue", label: "Overdue" },
+  { key: "latest", label: "Latest completed" },
+  { key: "lastAssigned", label: "Last assigned" },
+  { key: "lastActive", label: "Last active" },
 ];
 
 function matches(r: OrgLearnerRow, f: Filter): boolean {
@@ -73,6 +109,12 @@ function matches(r: OrgLearnerRow, f: Filter): boolean {
       return isInactive30d(r);
     case "never":
       return isNeverActive(r);
+    // Matches the dashboard's "due in the next 60 days" sentence exactly —
+    // the two used to disagree about who they meant.
+    case "due_soon":
+      return r.stats.dueSoon > 0;
+    case "signed_in":
+      return !isNeverActive(r);
     case "all":
       return true;
     default:
@@ -97,7 +139,20 @@ export function LearnersTable({
   readOnly?: boolean;
 }) {
   const [filter, setFilter] = useState<Filter>(initialFilter);
-  const shown = useMemo(() => rows.filter((r) => matches(r, filter)), [rows, filter]);
+  const [query, setQuery] = useState("");
+  // Searching by name or email: with 60+ carers the filter pills aren't
+  // enough, and every other table in the console already had a search box.
+  const found = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    const matching = rows.filter((r) => matches(r, filter));
+    if (!needle) return matching;
+    return matching.filter(
+      (r) =>
+        r.name.toLowerCase().includes(needle) ||
+        (r.email ?? "").toLowerCase().includes(needle),
+    );
+  }, [rows, filter, query]);
+  const { sorted: shown, sort, toggle } = useTableSort(found, SORT_COLUMNS);
 
   function exportCsv() {
     const header = [
@@ -147,6 +202,14 @@ export function LearnersTable({
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search name or email…"
+          aria-label="Search learners by name or email"
+          className="min-h-11 w-full rounded-full border px-4 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50 sm:min-h-9 sm:w-64"
+        />
         <div className="flex flex-wrap items-center gap-2">
           {STATUS_FILTERS.map((f) => {
             const count = rows.filter((r) => matches(r, f.key)).length;
@@ -156,7 +219,7 @@ export function LearnersTable({
                 key={f.key}
                 type="button"
                 onClick={() => setFilter(f.key)}
-                className={`rounded-full border px-3 py-1 text-sm transition-colors ${
+                className={`inline-flex min-h-11 items-center rounded-full border px-3 py-1 text-sm transition-colors sm:min-h-0 ${
                   active
                     ? "border-foreground bg-foreground text-background"
                     : "hover:bg-accent"
@@ -178,7 +241,7 @@ export function LearnersTable({
                 key={f.key}
                 type="button"
                 onClick={() => setFilter(f.key)}
-                className={`rounded-full border border-dashed px-3 py-1 text-sm transition-colors ${
+                className={`inline-flex min-h-11 items-center rounded-full border border-dashed px-3 py-1 text-sm transition-colors sm:min-h-0 ${
                   active
                     ? "border-solid border-foreground bg-foreground text-background"
                     : "hover:bg-accent"
@@ -198,16 +261,15 @@ export function LearnersTable({
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b text-left text-muted-foreground">
-              <th className="px-3 py-2 font-medium">Learner</th>
-              <th className="px-3 py-2 font-medium">Progress</th>
-              <th className="px-3 py-2 font-medium">Assigned</th>
-              <th className="px-3 py-2 font-medium">Completed</th>
-              <th className="px-3 py-2 font-medium">In progress</th>
-              <th className="px-3 py-2 font-medium">Not started</th>
-              <th className="px-3 py-2 font-medium">Overdue</th>
-              <th className="px-3 py-2 font-medium">Latest completed</th>
-              <th className="px-3 py-2 font-medium">Last assigned</th>
-              <th className="px-3 py-2 font-medium">Last active</th>
+              {HEADINGS.map((h) => (
+                <SortHeader
+                  key={h.key}
+                  label={h.label}
+                  active={sort?.key === h.key}
+                  dir={sort?.dir}
+                  onClick={() => toggle(h.key)}
+                />
+              ))}
               {!readOnly && (
                 <th className="px-3 py-2 text-right font-medium">Action</th>
               )}
@@ -217,7 +279,7 @@ export function LearnersTable({
             {shown.length === 0 ? (
               <tr>
                 <td colSpan={readOnly ? 10 : 11} className="px-3 py-8 text-center text-muted-foreground">
-                  No learners match this filter.
+                  {query ? `Nobody matches "${query}".` : "No learners match this filter."}
                 </td>
               </tr>
             ) : (
@@ -318,9 +380,9 @@ export function LearnersTable({
         <button
           type="button"
           onClick={exportCsv}
-          className="rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent"
+          className="inline-flex min-h-11 items-center rounded-lg border px-3 py-1 text-sm font-medium transition-colors hover:bg-accent sm:min-h-0"
         >
-          Export CSV
+          Export these {shown.length} rows
         </button>
       </div>
     </div>

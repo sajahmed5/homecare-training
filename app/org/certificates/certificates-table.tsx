@@ -1,6 +1,8 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import Link from "next/link";
+import { Download } from "lucide-react";
 import { needsAttention, type CertState, type OrgCertificateRow } from "@/lib/certificates";
 import { RenewButton } from "./renew-button";
 
@@ -42,6 +44,17 @@ export function CertificatesTable({
   rows: OrgCertificateRow[];
   filename?: string;
 }) {
+  const [query, setQuery] = useState("");
+  const shown = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    if (!needle) return rows;
+    return rows.filter(
+      (r) =>
+        r.learner.toLowerCase().includes(needle) ||
+        r.course.toLowerCase().includes(needle),
+    );
+  }, [rows, query]);
+
   function exportCsv() {
     const header = [
       "Learner",
@@ -52,7 +65,7 @@ export function CertificatesTable({
       "Status",
       "Days remaining",
     ];
-    const body = rows.map((r) =>
+    const body = shown.map((r) =>
       [
         r.learner,
         r.course,
@@ -77,6 +90,14 @@ export function CertificatesTable({
 
   return (
     <div className="space-y-3">
+      <input
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search carer or course…"
+        aria-label="Search certificates by carer or course"
+        className="min-h-11 w-full rounded-full border px-4 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50 sm:min-h-9 sm:w-72"
+      />
       <div className="overflow-x-auto rounded-2xl border bg-card">
         <table className="w-full text-sm">
           <thead>
@@ -90,17 +111,17 @@ export function CertificatesTable({
             </tr>
           </thead>
           <tbody>
-            {rows.length === 0 ? (
+            {shown.length === 0 ? (
               <tr>
                 <td
                   colSpan={6}
                   className="px-3 py-8 text-center text-muted-foreground"
                 >
-                  Nothing here — no certificates match this filter.
+                  {query ? `Nothing matches "${query}".` : "Nothing here — no certificates match this filter."}
                 </td>
               </tr>
             ) : (
-              rows.map((r) => {
+              shown.map((r) => {
                 const badge = BADGE[r.state];
                 return (
                   <tr
@@ -116,13 +137,16 @@ export function CertificatesTable({
                       </Link>
                     </td>
                     <td className="px-3 py-2">
-                      {/* Same org-scoped download the statistics table uses. */}
+                      <span className="block font-medium">{r.course}</span>
+                      {/* The download used to hide behind the course title,
+                          with a tooltip as its only cue — invisible on a
+                          phone. Same org-scoped route, now labelled. */}
                       <a
                         href={`/org/certificates/${r.id}/download`}
-                        className="font-medium hover:underline"
-                        title={`Download ${r.learner}'s certificate`}
+                        className="mt-0.5 inline-flex min-h-11 items-center gap-1 text-xs font-medium text-primary hover:underline sm:min-h-0"
                       >
-                        {r.course}
+                        <Download className="size-3.5" />
+                        Certificate (PDF)
                       </a>
                     </td>
                     <td className="px-3 py-2">

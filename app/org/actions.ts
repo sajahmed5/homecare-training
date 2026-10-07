@@ -51,6 +51,8 @@ export async function inviteStaffAction(
       detail: { email, role },
     });
     revalidatePath("/org");
+    revalidatePath("/org/learners");
+    revalidatePath("/org/learners/admin");
     return {
       ok: true,
       sent: result.sent,
@@ -112,6 +114,8 @@ export async function setStaffStatusAction(
   });
 
   revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   return { ok: true };
 }
 
@@ -171,6 +175,7 @@ export async function deleteStaffAction(
 
   revalidatePath("/org");
   revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   return { ok: true };
 }
 
@@ -276,6 +281,7 @@ export async function bulkInviteStaffAction(
 
   revalidatePath("/org");
   revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   return { ok: true, created, failures };
 }
 
@@ -283,6 +289,10 @@ export interface AssignState {
   ok?: boolean;
   error?: string;
   count?: number;
+  /** People and courses, so the form can say it in plain words. */
+  learners?: number;
+  courses?: number;
+  dueDate?: string;
 }
 
 /**
@@ -371,8 +381,16 @@ export async function assignTrainingAction(
   if (error) return { ok: false, error: error.message };
 
   revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   revalidatePath("/learn");
-  return { ok: true, count: rows.length };
+  return {
+    ok: true,
+    count: rows.length,
+    learners: userIds.length,
+    courses: courseIds.length,
+    dueDate,
+  };
 }
 
 export interface BulkAssignState {
@@ -460,6 +478,8 @@ export async function bulkAssignTrainingAction(
   });
 
   revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   revalidatePath("/learn");
   return { ok: true, assigned: upserts.length, failures };
 }
@@ -535,6 +555,8 @@ export async function unassignTrainingAction(
 
   revalidatePath(`/org/staff/${userId}`);
   revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/admin");
   revalidatePath("/learn");
   return { ok: true };
 }
