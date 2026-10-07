@@ -8,6 +8,8 @@ import {
   Users,
 } from "lucide-react";
 import { requireRole } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
+import { loadRecentActivity } from "@/lib/activity";
 import { DashboardShell } from "@/components/dashboard-shell";
 import { MatrixExport } from "../matrix-export";
 
@@ -61,6 +63,15 @@ const EXPORTS: {
 export default async function OrgReportsPage() {
   const context = await requireRole("org_admin");
   const today = new Date().toISOString().slice(0, 10);
+  const supabase = await createClient();
+  const activity = await loadRecentActivity(supabase, 30);
+  const when = (iso: string) =>
+    new Date(iso).toLocaleString("en-GB", {
+      day: "numeric",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
 
   return (
     <DashboardShell title="Evidence & exports" context={context}>
@@ -105,6 +116,31 @@ export default async function OrgReportsPage() {
               </Link>
             </div>
           ))}
+        </section>
+
+        <section className="rounded-2xl border bg-card p-5">
+          <h2 className="font-semibold">Recent activity</h2>
+          <p className="mt-1 text-sm text-muted-foreground">
+            What has been changed in your organisation, and by whom. Useful
+            when you can&apos;t remember whether you assigned something — and
+            as evidence that you acted on a problem.
+          </p>
+          {activity.length === 0 ? (
+            <p className="mt-3 text-sm text-muted-foreground">
+              Nothing recorded yet.
+            </p>
+          ) : (
+            <ol className="mt-3 divide-y text-sm">
+              {activity.map((a) => (
+                <li key={a.id} className="flex flex-wrap items-baseline justify-between gap-x-4 py-2">
+                  <span>
+                    {a.text} <span className="text-muted-foreground">· {a.who}</span>
+                  </span>
+                  <span className="font-mono text-xs text-muted-foreground">{when(a.at)}</span>
+                </li>
+              ))}
+            </ol>
+          )}
         </section>
 
         <section className="rounded-2xl border bg-card p-5">

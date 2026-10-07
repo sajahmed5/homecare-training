@@ -383,6 +383,13 @@ export async function assignTrainingAction(
   revalidatePath("/org");
   revalidatePath("/org/learners");
   revalidatePath("/org/learners/admin");
+  await logAudit({
+    context,
+    action: "training.assigned",
+    entity: "enrolment",
+    detail: { courses: courseIds.length, learners: userIds.length, dueDate },
+  });
+
   revalidatePath("/learn");
   // Assigning from a carer's own page: refresh that page too.
   for (const uid of userIds) revalidatePath(`/org/staff/${uid}`);
@@ -561,4 +568,145 @@ export async function unassignTrainingAction(
   revalidatePath("/org/learners/admin");
   revalidatePath("/learn");
   return { ok: true };
+}
+
+
+export interface BulkEnrolmentState {
+  ok?: boolean;
+  error?: string;
+  /** What happened, in numbers the form can put in a sentence. */
+  changed?: number;
+  refused?: number;
+}
+
+/** "user:course" pairs, as the tables emit them. */
+function pairsFrom(formData: FormData): { userId: string; courseId: string }[] {
+  return formData
+    .getAll("pairs")
+    .map(String)
+    .map((p) => {
+      const [userId, courseId] = p.split(":");
+      return { userId, courseId };
+    })
+    .filter((p) => p.userId && p.courseId);
+}
+
+/**
+ * Unassign several courses at once.
+ *
+ * Assigning the wrong course to fifty carers took one click; taking it back
+ * took fifty page visits and fifty confirmations (usability audit, 7 Oct
+ * 2026). Same rule as the single unassign: completed and expired training is
+ * a record and stays — those rows are refused and counted, not silently
+ * skipped.
+ */
+export async function bulkUnassignAction(
+  _prev: BulkEnrolmentState,
+  formData: FormData,
+): Promise<BulkEnrolmentState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+  const pairs = pairsFrom(formData);
+  if (pairs.length === 0) return { ok: false, error: "Nothing selected." };
+
+  const admin = createAdminClient();
+  let changed = 0;
+  let refused = 0;
+  for (const { userId, courseId } of pairs) {
+    const { data: enrolment } = await admin
+      .from("enrolments")
+      .select("id, status, organisation_id")
+      .eq("user_id", userId)
+      .eq("course_id", courseId)
+      .maybeSingle();
+    // Service-role reads: this check is what keeps organisations apart.
+    if (!enrolment || enrolment.organisation_id !== context.organisationId) {
+      refused += 1;
+      continue;
+    }
+    if (!UNASSIGNABLE.includes(enrolment.status as string)) {
+      refused += 1;
+      continue;
+    }
+    const { error } = await admin.from("enrolments").delete().eq("id", enrolment.id);
+    if (error) refused += 1;
+    else changed += 1;
+  }
+
+  await logAudit({
+    context,
+    action: "training.unassigned",
+    entity: "enrolment",
+    detail: { bulk: true, removed: changed, refused },
+  });
+
+  revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/statistics");
+  revalidatePath("/learn");
+  for (const { userId } of pairs) revalidatePath(`/org/staff/${userId}`);
+  return { ok: true, changed, refused };
+}
+
+/**
+ * Move the due date on several assignments at once — pushing a deadline for a
+ * group used to mean re-running the whole assign form. Completed training is
+ * left alone: its due date is part of what "completed late" was judged on.
+ */
+export async function bulkDueDateAction(
+  _prev: BulkEnrolmentState,
+  formData: FormData,
+): Promise<BulkEnrolmentState> {
+  const context = await requireRole("org_admin");
+  if (!context.organisationId) {
+    return { ok: false, error: "Your account has no organisation." };
+  }
+  const dueDate = String(formData.get("dueDate") ?? "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(dueDate)) {
+    return { ok: false, error: "Choose a due date." };
+  }
+  const pairs = pairsFrom(formData);
+  if (pairs.length === 0) return { ok: false, error: "Nothing selected." };
+
+  const admin = createAdminClient();
+  let changed = 0;
+  let refused = 0;
+  for (const { userId, courseId } of pairs) {
+    const { data: enrolment } = await admin
+      .from("enrolments")
+      .select("id, status, organisation_id")
+      .eq("user_id", userId)
+      .eq("course_id", courseId)
+      .maybeSingle();
+    if (!enrolment || enrolment.organisation_id !== context.organisationId) {
+      refused += 1;
+      continue;
+    }
+    if (enrolment.status === "completed") {
+      refused += 1;
+      continue;
+    }
+    const { error } = await admin
+      .from("enrolments")
+      .update({ due_date: dueDate })
+      .eq("id", enrolment.id);
+    if (error) refused += 1;
+    else changed += 1;
+  }
+
+  await logAudit({
+    context,
+    action: "training.due_date_changed",
+    entity: "enrolment",
+    detail: { changed, refused, dueDate },
+  });
+
+  revalidatePath("/org");
+  revalidatePath("/org/learners");
+  revalidatePath("/org/learners/statistics");
+  revalidatePath("/learn");
+  for (const { userId } of pairs) revalidatePath(`/org/staff/${userId}`);
+  return { ok: true, changed, refused };
 }
