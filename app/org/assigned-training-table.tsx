@@ -73,6 +73,7 @@ export async function AssignedTrainingTable({
       const issuedAt = certIssued.get(`${e.user_id}:${e.course_id}`);
       return {
         userId: e.user_id as string,
+        courseId: e.course_id as string,
         learner: u?.full_name || u?.email || "Learner",
         course: c?.title ?? "Course",
         status: e.status as string,
