@@ -257,7 +257,50 @@ export function LearnersTable({
         </div>
       </div>
 
-      <div className="overflow-x-auto rounded-2xl border bg-card">
+      {/* Phones: one card per carer. The table needs ~1,000px, and the
+          Remind button was its last column — furthest from the thumb. */}
+      <ul className="space-y-2 md:hidden">
+        {shown.length === 0 ? (
+          <li className="rounded-2xl border bg-card px-4 py-8 text-center text-sm text-muted-foreground">
+            {query ? `Nobody matches "${query}".` : "No learners match this filter."}
+          </li>
+        ) : (
+          shown.map((r) => {
+            const active = lastActive(r.lastSeenAt);
+            const gone = r.status === "deactivated";
+            return (
+              <li key={r.id} className={`rounded-2xl border bg-card p-4 ${gone ? "opacity-60" : ""}`}>
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <Link href={`/org/staff/${r.id}`} className="block truncate font-medium hover:underline">
+                      {r.name}
+                    </Link>
+                    <p className="truncate text-xs text-muted-foreground">{r.email}</p>
+                  </div>
+                  <span className="shrink-0 text-lg font-semibold">{r.stats.overallPct}%</span>
+                </div>
+                <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                  <span>{r.stats.assigned} assigned</span>
+                  <span>{r.stats.completed} done</span>
+                  {r.stats.overdue > 0 && (
+                    <span className="font-semibold text-rose-600">{r.stats.overdue} overdue</span>
+                  )}
+                  <span className={active.stale ? "text-rose-600" : ""}>
+                    {active.label === "Never" ? "never signed in" : `seen ${active.label.toLowerCase()}`}
+                  </span>
+                </div>
+                {!readOnly && !gone && (
+                  <div className="mt-3">
+                    <NudgeButton userId={r.id} lastRemindedAt={r.lastRemindedAt} />
+                  </div>
+                )}
+              </li>
+            );
+          })
+        )}
+      </ul>
+
+      <div className="hidden overflow-x-auto rounded-2xl border bg-card md:block">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b text-left text-muted-foreground">

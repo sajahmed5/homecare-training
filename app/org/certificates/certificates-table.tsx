@@ -98,7 +98,48 @@ export function CertificatesTable({
         aria-label="Search certificates by carer or course"
         className="min-h-11 w-full rounded-full border px-4 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50 sm:min-h-9 sm:w-72"
       />
-      <div className="overflow-x-auto rounded-2xl border bg-card">
+      {/* Phones: a card per certificate, with the PDF link as the action. */}
+      <ul className="space-y-2 md:hidden">
+        {shown.length === 0 ? (
+          <li className="rounded-2xl border bg-card px-4 py-8 text-center text-sm text-muted-foreground">
+            {query ? `Nothing matches "${query}".` : "Nothing here — no certificates match this filter."}
+          </li>
+        ) : (
+          shown.map((r) => {
+            const badge = BADGE[r.state];
+            return (
+              <li key={r.id} className="rounded-2xl border bg-card p-4">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <span className="block truncate font-medium">{r.course}</span>
+                    <Link
+                      href={`/org/staff/${r.userId}`}
+                      className="block truncate text-xs text-muted-foreground hover:underline"
+                    >
+                      {r.learner}
+                    </Link>
+                  </div>
+                  <span className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${badge.cls}`}>
+                    {badge.label}
+                  </span>
+                </div>
+                <p className="mt-2 text-xs text-muted-foreground">
+                  Issued {fmtDate(r.issuedAt)} · {r.expiresAt ? `expires ${fmtDate(r.expiresAt)} (${whenText(r)})` : "no expiry"}
+                </p>
+                <a
+                  href={`/org/certificates/${r.id}/download`}
+                  className="mt-2 inline-flex min-h-11 items-center gap-1 text-sm font-medium text-primary hover:underline"
+                >
+                  <Download className="size-4" />
+                  Certificate (PDF)
+                </a>
+              </li>
+            );
+          })
+        )}
+      </ul>
+
+      <div className="hidden overflow-x-auto rounded-2xl border bg-card md:block">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b text-left text-muted-foreground">
