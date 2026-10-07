@@ -11,17 +11,18 @@ const cell = (v: string) =>
 export function MatrixExport({ filename }: { filename: string }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [includeLeavers, setIncludeLeavers] = useState(false);
 
   async function download() {
     setBusy(true);
     setError(null);
     try {
-      const { courses, rows } = await exportTrainingMatrixAction();
-      const header = ["Carer", "Email", ...courses.map((c) => c.title)]
+      const { courses, rows } = await exportTrainingMatrixAction({ includeLeavers });
+      const header = ["Carer", "Email", "Status", ...courses.map((c) => c.title)]
         .map(cell)
         .join(",");
       const body = rows.map((r) =>
-        [r.name, r.email, ...courses.map((c) => r.cells[c.id] ?? "")]
+        [r.name, r.email, r.status, ...courses.map((c) => r.cells[c.id] ?? "")]
           .map(cell)
           .join(","),
       );
@@ -43,9 +44,18 @@ export function MatrixExport({ filename }: { filename: string }) {
 
   return (
     <div className="flex flex-col items-end gap-1">
-      <Button variant="outline" size="sm" onClick={download} disabled={busy}>
+      <Button variant="outline" size="sm" onClick={download} disabled={busy} className="min-h-11 sm:min-h-9">
         {busy ? "Preparing…" : "Training matrix (CSV)"}
       </Button>
+      <label className="flex min-h-11 items-center gap-2 text-xs text-muted-foreground sm:min-h-0">
+        <input
+          type="checkbox"
+          className="size-4"
+          checked={includeLeavers}
+          onChange={(e) => setIncludeLeavers(e.target.checked)}
+        />
+        Include people who have left
+      </label>
       {error && <span className="text-xs text-destructive">{error}</span>}
     </div>
   );
