@@ -54,7 +54,7 @@ export default function TierCards({ tiers }: { tiers: TierCard[] }) {
                 {annual ? `${gbp(t.monthly * 10)} a year, billed annually` : "per organisation, cancel any time"}
               </div>
               <p className={`mt-4 text-sm ${t.highlight ? "text-white/85" : "text-[#0f2f3c]/70"}`}>{t.tagline}</p>
-              <ul className="mt-5 space-y-2 text-sm">
+              <ul className="mt-5 space-y-2.5 text-sm">
                 {t.features.map((f) => (
                   <li key={f} className="flex gap-2">
                     <Check className={`mt-0.5 size-4 shrink-0 ${t.highlight ? "text-[#8fd3ea]" : "text-[#059669]"}`} />
@@ -62,13 +62,19 @@ export default function TierCards({ tiers }: { tiers: TierCard[] }) {
                   </li>
                 ))}
               </ul>
-              <PillLink
-                href={`mailto:hello@mycareacademy.co.uk?subject=Training%20${encodeURIComponent(t.label)}%20plan`}
-                tone={t.highlight ? "white" : "dark"}
-                className="mt-auto pt-3"
-              >
-                Choose {t.label}
-              </PillLink>
+              {/* The button used to sit right under the last tick with 12px
+                  of padding inside the pill doing the work. Its own row now,
+                  so every card has the same gap above the button and they all
+                  line up across the four cards. */}
+              <div className="mt-auto pt-8">
+                <PillLink
+                  href={`mailto:hello@mycareacademy.co.uk?subject=Training%20${encodeURIComponent(t.label)}%20plan`}
+                  tone={t.highlight ? "white" : "dark"}
+                  className="w-full justify-center text-center"
+                >
+                  Choose {t.label}
+                </PillLink>
+              </div>
             </div>
           );
         })}
