@@ -16,7 +16,7 @@ export interface NudgeResult {
   message?: string;
 }
 
-type Outcome = "sent" | "skipped" | "nothing";
+type Outcome = "sent" | "skipped" | "nothing" | "failed";
 
 /**
  * Email one learner about their outstanding training. Shared by the single and
@@ -68,6 +68,11 @@ async function nudgeOne(
     subject,
     sent,
   });
+  // Only stamp the reminder when one actually went: a failed send used to be
+  // recorded as "reminded", so the manager was told it worked and the carer
+  // dropped off the chase list for a day.
+  if (!sent) return "failed";
+
   await admin
     .from("enrolments")
     .update({ last_reminder_at: new Date().toISOString() })
@@ -128,6 +133,11 @@ export async function nudgeLearnerAction(userId: string): Promise<NudgeResult> {
 
   if (outcome === "nothing")
     return { ok: true, skipped: true, message: "Nothing outstanding to remind about." };
+  if (outcome === "failed")
+    return {
+      ok: false,
+      error: `Couldn't email ${learner.full_name ?? learner.email}. Check the address.`,
+    };
   return { ok: true, message: "Reminder sent." };
 }
 
@@ -136,6 +146,8 @@ export interface BulkNudgeResult {
   error?: string;
   reminded: number;
   skipped: number;
+  /** Emails that didn't go — the manager needs to know who, not just a count. */
+  failed?: string[];
 }
 
 /**
@@ -159,9 +171,10 @@ async function nudgeBucket(
   const origin = await siteOrigin();
   let reminded = 0;
   let skipped = 0;
+  const failed: string[] = [];
   for (const r of rows) {
     if (!r.email) {
-      skipped += 1;
+      failed.push(`${r.name} (no email address)`);
       continue;
     }
     const outcome = await nudgeOne(
@@ -172,9 +185,10 @@ async function nudgeBucket(
       force,
     );
     if (outcome === "sent") reminded += 1;
+    else if (outcome === "failed") failed.push(r.name);
     else skipped += 1;
   }
-  return { ok: true, reminded, skipped };
+  return { ok: true, reminded, skipped, failed };
 }
 
 /**
@@ -264,11 +278,12 @@ async function nudgeNeverSignedIn(
 
   const orgName = await orgNameOf(admin, organisationId);
   let reminded = 0;
-  let skipped = 0;
+  const skipped = 0;
+  const failed: string[] = [];
   for (const l of learners ?? []) {
     // One bad address must not abandon the rest of the batch.
     if (!l.email) {
-      skipped += 1;
+      failed.push(`${l.full_name ?? "Someone"} (no email address)`);
       continue;
     }
     const sent = await sendSignInReminder(admin, organisationId, orgName, {
@@ -276,10 +291,10 @@ async function nudgeNeverSignedIn(
       email: l.email,
     });
     if (sent) reminded += 1;
-    else skipped += 1;
+    else failed.push(l.full_name ?? l.email);
   }
 
-  return { ok: true, reminded, skipped };
+  return { ok: true, reminded, skipped, failed };
 }
 
 /**

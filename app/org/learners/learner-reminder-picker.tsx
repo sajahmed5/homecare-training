@@ -77,10 +77,19 @@ export function LearnerReminderPicker({
     const res = await nudgeGroupAction(group, true);
     setBusy(false);
     setConfirming(false);
+    // Say who was missed, not just how many: "2 skipped" left a manager with
+    // no idea which two carers still hadn't been told.
+    const missed = res.failed ?? [];
     setDone(
       !res.ok
         ? (res.error ?? "Failed")
-        : `Emailed ${res.reminded}${res.skipped ? `, ${res.skipped} skipped` : ""}.`,
+        : [
+            `Emailed ${res.reminded}`,
+            res.skipped ? `${res.skipped} already reminded today` : "",
+            missed.length ? `couldn't email ${missed.join(", ")}` : "",
+          ]
+            .filter(Boolean)
+            .join(" · ") + ".",
     );
   }
 
