@@ -13,10 +13,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/training/pricing" },
 };
 
-// PROPOSED monthly prices per organisation (9 Sept 2026) — Stripe holds the
-// real prices and they are not yet configured (PLATFORM_TIER_GBP_*), so these
-// are placeholders for Saj to confirm. Tier names and features come from
-// lib/organisations, the same source the org Account page uses.
+// Monthly prices per organisation. CONFIRMED by Saj on 7 Oct 2026 as the
+// real prices; he will say if they change. Two other places hold the same
+// numbers and are NOT kept in sync automatically: the Stripe prices behind
+// checkout (STRIPE_PRICE_*) and the MRR estimate on the platform analytics
+// page (PLATFORM_TIER_GBP_*). Change a price here, change those too.
+// Tier names and features come from lib/organisations, the same source the
+// org Account page uses.
 const PRICE: Record<string, { monthly: number; highlight?: boolean }> = {
   core: { monthly: 49 },
   core_forms: { monthly: 79, highlight: true },
