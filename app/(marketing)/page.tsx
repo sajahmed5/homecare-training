@@ -99,8 +99,20 @@ export default function Home() {
             </div>
             <h1 className="font-display mt-4 text-balance text-4xl font-bold leading-[1.02] tracking-tight text-[#0f2f3c] sm:text-6xl">
               Care training, written by people who{" "}
-              <span className="bg-gradient-to-r from-[#1d6f8a] to-[#3a9fc4] bg-clip-text text-transparent">
-                still do the visits.
+              {/* The phrase cycles — Saj's original headline device, kept.
+                  The gradient goes on each phrase, not the wrapper: clipping
+                  a background to text on the parent clips to ALL the children
+                  at once, so every phrase showed through whichever one was
+                  meant to be visible. */}
+              <span className="mca-swap">
+                {["still do the visits.", "never left the job.", "take the same training."].map((phrase) => (
+                  <span
+                    key={phrase}
+                    className="bg-gradient-to-r from-[#1d6f8a] to-[#3a9fc4] bg-clip-text text-transparent"
+                  >
+                    {phrase}
+                  </span>
+                ))}
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-[#0f2f3c]/65">
